@@ -1,5 +1,5 @@
 
-# [contrib](#video)
+# Dev.Tube Contribution Data
 
 ## Channel contribution guidelines
 * Only conference talks and panel discussions are accepted
