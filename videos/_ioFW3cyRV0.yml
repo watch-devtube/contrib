@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+title: 'Re-using Bitmaps (100 Days of Google Dev)'
+language: English
+recordingDate: 1438418738
+description: "In modern mobile applications, Bitmaps can account for a large amount of memory churn. Constantly loading thumbnails, user icons, and Emoji sets can provide your users with a steady stream of media, but it can also contribute to some HUGE pauses for garbage collection. \n\nIn this video Colt McAnlis, and for temporally allocated bitmaps, there’s a handy trick that you absolutely should be using to escape these performance problems: Re-using bitmaps.\n\nEvery time you allocate a bitmap, you have to incur some overhead to allocate the objects from the heap, which is less than ideal if you’ve got a lot of bitmaps. Rather than banging on the heap for new objects each time, you can instead, reuse the memory that an existing bitmap has created, and load your image there.\n\nThe end result? Less memory churn from bitmaps.\n\nWatch more Android Performance Patterns here: http://goo.gl/4ZJkY1\n\n100 Days of Google Dev / 100 developer videos over 100 days / #GoogleDev100 \n\nJoin the G+ Community here: http://goo.gl/g7mxmI\n\nSubscribe to the Google Developers channel here: http://goo.gl/mQyv5L"

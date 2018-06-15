@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Mats Cronqvist - Taking the printf out of printf Debugging'
+recordingDate: 1403523619
+description: "\nDebugging a realtime system is hard, especially if the bugs only appear on a live system. Debuggers cannot be used, and printf debugging is often deemed too risky. The Erlang runtime offers a way to do on-the-fly instrumentation on the function level through the erlang:trace/3 function.\nThis talk will discuss the trace BIF and how to use it. It will also describe redbug, a user-friendly and safe interface to the trace BIF. War stories will in all likelihood be offered.\n \nTalk objectives: Describe the Erlang tracing functions and how to use them.\nTarget audience: Developers and ops people, especially those working on large, embedded, real-time systems."

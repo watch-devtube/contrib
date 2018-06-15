@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - testing
+title: 'GTAC 2013: Web Performance Testing with WebDriver'
+recordingDate: 1367254746
+description: "http://g.co/gtac2013\nSlides: http://goo.gl/5QHVY\nDemo code: https://gist.github.com/klepikov/5457750\n\nMichael Klepikov, Google\n\nIn web performance testing, we know pretty well how to analyze a page load. We need to move beyond a page load though: modern apps are highly interactive, and operations tend not to reload the entire page, but rather update it. Different people, myself included, have integrated WebDriver into web performance test harnesses, which helps, but still keeps performance tests separate from the rest of the UI test suite. I propose to build performance testing features right into WebDriver itself, leveraging its recently added Logging API. This makes it possible to collect performance metrics while running regular functional tests, allowing for a much more seamless integration of performance tests into the overall development and test flow. It is also much less disruptive to the custom build/test toolchains that almost every large organization creates.\n\nI will demonstrate this with the new-generation ChromeDriver (WebDriver for the Chromium browser)."

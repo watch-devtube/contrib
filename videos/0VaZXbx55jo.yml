@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: 'Investigating C++ Applications in Production on Linux and Windows - Sasha Goldshtein'
+recordingDate: 1499244331
+description: "Traditionally, diagnosing complex issues in C++ applications has been a dark craft involving complex, high-overhead tools that you absolutely can't apply in a production environment. But things have changed: there are great tools and techniques available for both Linux and Windows to debug, diagnose, and profile C++ applications.\n\nIn this talk, we will investigate multiple scenarios on both operating systems: high CPU load, blocked threads, heavy I/O, memory leaks, initialization issues, and more. We will use freely available, lightweight, production-ready tools that do not require application restart and can be easily deployed alongside your C++ application. On Linux, we will use the versatile `perf` multi-tool, the venerable ftrace, and the bleeding-edge BPF kernel technology. On Windows, we will use ETW (Event Tracing for Windows) and the Windows Performance Toolkit. We will also talk about debugging symbols (debuginfo or PDBs) required for getting effective call stacks, and demangling method names to something more or less readable."

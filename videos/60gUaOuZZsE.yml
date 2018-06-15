@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'ZuriHac 2015 - Better Faster Binary Serialization'
+language: English
+recordingDate: 1438022220
+description: "Google Tech Talk\nMay 29, 2015\n(\"show more\" for more information)\nPresented by Duncan Coutts\n\nhttps://wiki.haskell.org/ZuriHac2015#Duncan_Coutts\n\nABSTRACT\n\nThis talk is a case study in low level optimization in Haskell.\n\nWe have existing libraries for binary serialization but the mainstream ones use bad formats, and could always be faster. We will look at new work to improve on the existing libraries, to use a new better format, and to dramatically improve performance.\n\nWe will go into the details of a number of standard and new techniques for getting a good combination of performance with features and flexibility.\n\n- High+low level approach to eliminating unnecessary allocations in deserialization\n- Surprising use of deep embeddings and interpreters\n- Moving work from compiled code to an interpreter\n- Rewrite rules to improve interpreted code\n- Deep embedding of composition to give statically allocated descriptions of branching programs\n- Types to safely use unsafe low level data structures\n- Looking at STG code to see allocations and other problems\n- Fast path / slow path tricks\n- Explicit control stacks\n- ABIs / calling conventions for unknown functions\n\nThere'll be plenty of code, types and benchmarks.\n\nSlides for this talk are available here:\nhttps://github.com/meiersi/HaskellerZ/blob/master/meetups/20150529-ZuriHac2015_Duncan_Coutts-Better_Faster_Binary_Serialization/binary.pdf"

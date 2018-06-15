@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - java
+title: 'Everything you wanted to know about async HTTP apps in Java (Baruch Sadogursky, Israel)'
+recordingDate: 1437559320
+description: "With tens of millions of clients continuously downloading binaries from our repositories, we decided to offer an OSS client that natively supports these downloads.\n\nIn this talk, we will share the main challenges in developing a highly-concurrent, resumable, async download library on top of Apache HTTP client. We will cover other libraries we tested and why we decided to reinvent the wheel. We will see important pitfalls we came across when working with HTTP and how using the right combination of techniques can improve performance by an order of magnitude. We will also see why your initial assumptions may completely change when faced with other players on the network.\n\nConsider yourself forewarned: lots of HTTP internals, NIO and concurrency ahead!"

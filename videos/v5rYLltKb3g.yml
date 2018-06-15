@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - security
+speaker:
+    name: 'Philipp Krenn'
+    twitter: xeraa
+title: 'Painfree Object-Document Mapping for MongoDB (Philipp Krenn, Austria)'
+recordingDate: 1437557326
+description: "Morphia is MongoDB’s JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again.\n\nOn a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we’ve learned from using Morphia in production for three years."

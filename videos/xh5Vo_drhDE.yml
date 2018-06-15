@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - web
+    - javascript
+    - java
+title: 'Google I/O 2008 - Using GWT to Build a Diagramming Tool'
+recordingDate: 1213041489
+description: "Using GWT to Build a High Performance Collaborative Diagramming Tool\r\nAlex Moffat and Damon Lundin (Lombardi)\r\n\r\nLombardi Blueprint is a browser based business process documentation and diagramming tool written using GWT and Java. It supports simultaneous viewing and editing of process definitions by multiple users in different locations with multi level undo and a rich editing experience including drag and drop, inline editing and, automatic diagram layout. Implementing these features presented several technical challenges.\r\n\r\nDamon and Alex will describe two of the most interesting: 1) synchronizing multiple client object models with the server, and 2) providing a highly responsive diagram editing experience.\r\n\r\nCreating a complex user interface poses particular performance problems using today's javascript engines over what can typically be performed with a native Java VM. The two main challenges we faced with our process diagram were speed of rendering in the browser and automatically laying out and routing large diagrams. Efficient rendering requires us to use a flyweight pattern to handle large html documents, while layout and routing dynamically switches between client and server execution depending on the time required to layout the diagram.\r\n\r\nTo support multi user editing and viewing Blueprint must keep client and server object models in sync. Our repository design supports doing this efficiently by only requiring us to transfer the differences between two model states in either direction. This same approach allows us also to support rollback to previously saved versions by having the server compute the set of commands required to move between any two states."

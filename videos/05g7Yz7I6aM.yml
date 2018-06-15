@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - azure
+    - containers
+    - docker
+    - architecture
+title: 'Launching patterns for containers - it''s more than just scheduling - Michele Bustamante'
+recordingDate: 1494486622
+description: "When you design your microservices strategy you will likely come up with patterns for when and how your services should execute.\nTraditional container scheduling services often deal with running container instances and distributing those instances across your cluster according to resource constraints - but your microservices design may also have other requirements such as message-based services that run and listen for topics; services that run on a scheduled job cycle; and services that may run in different ways based on initialization and have many instances running in parallel at any given time. This session looks at architecture patterns for container-based solutions; and illustrates the execution of these patterns with Docker containers and related tools. Concepts are platform independent but demos will be based on Kafka and Azure Container Service with Mesosphere DC/OS, Mesos, Marathon and Chronos."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Wojciech Turek - Agent-based Evolutionary Computing'
+recordingDate: 1408628524
+description: "The Evolutionary Multi-Agent System (eMAS) is a meta-heuristic which combines concepts from evolutionary algorithms and multi-agents systems. It has proven usability and efficiency in many real-life optimization problems. The idea introduces algorithms more similar to biological evolution than classical evolutionary methods. However, existing implementations of the eMAS suffer from limitations imposed by the features of underlying technologies, making it impossible to create fully asynchronous population.\n\nIn this talk a novel algorithm for agent-based evolutionary computation is presented. The individuals are represented by fully autonomous and asynchronous agents, which continuously perform genetic operations. Results show that the lack of synchronization leads to far better convergence. Efficient implementation of the algorithm was possible only through the use of the Erlang technology, which natively supports lightweight processes and asynchronous communication. The solution has been tested on a 64-core computer to prove its high performance and scalability."

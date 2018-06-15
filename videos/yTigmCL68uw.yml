@@ -1,0 +1,16 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - web
+    - react
+    - aws
+    - devops
+    - containers
+    - docker
+    - python
+    - javascript
+title: 'Swiss Transport in Real Time: Tribulations in the Big Data Stack by Alexandre masselot'
+language: English
+recordingDate: 1488459180
+description: "A lot of data are available in realtime on Swiss public transportation. Vehicles positions, station board (with delays) etc.\n\nWe use these data to illustrate a common pattern and build a proof of concept project. The idea is to address the question: \"Is it possible to build a simple scalable infrastructure, to dispatch, transform and visualize 'near real time' massive data and achieve a posteriori analysis?\"\n\nWe will describe such an infrastructure, focusing on the different bricks:\n\n* streaming events with Kafka and Logstash;\n* flow transformation with Akka or Play Streaming;\n* storage in Elasticsearch;\n* real time visualization with ReactJS and d3.js;\n* a posteriori analysis with Python and Jupyter;\n* not to forget DevOps with Docker, GCE and AWS."

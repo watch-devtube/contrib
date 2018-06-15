@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - docker
+    - kubernetes
+    - architecture
+title: 'Docker platform and ecosystem: build, ship and run distributed applications by Patrick Chanezon'
+language: English
+recordingDate: 1447314634
+description: "In 2 years, Docker hit the sweet spot for devs and ops, with tools to build, ship and run distributed apps architected as a set of collaborating microservices packaged as Linux containers.\n\nThe last few months have seen very fast innovation by Docker and its in the ecosystem, up, down, around and in the stack:\n\nIn: Docker now has a native container network model, making it easier to build distributed applications.\nAround: Docker plugin system defines extension points for volumes and networking. I will describe the various plugins that have been developed and their capabilities.\nDown: the Open Container Project defines a standard for container image format, and the runC project is a reference implementation of this standard, giving you fine grained control on how you can run your containers and more advanced features like user namespaces and checkpoint/restore. Docker is going to be built on top of runC.\nUp: Docker orchestration is a fast moving landscape with players like Docker Swarm, Kubernetes, or Mesos.\nThe talk will be peppered with demos of how these tools can help developers build, ship and run microservice based applications."

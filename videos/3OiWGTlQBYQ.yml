@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+title: '#bbuzz 17: Ivan Budincevic - Half a year of Measuring 2.0 in production at bol.com'
+recordingDate: 1497534634
+description: "Further information: https://berlinbuzzwords.de/17/session/half-year-measuring-20-production-bolcom\n\nHow do you measure the behavior of users firing 3,000 requests per second?\n\nAt bol.com, the biggest online retail platform in the Netherlands and Flanders, there are thousands of users visiting the site daily, and my team provides the measurement infrastructure providing near real time metrics in the interactions of these customers with the platform.\n\nOur new measuring system, Measuring 2.0 is built using open-source big data technologies like Apache Flink, Kafka, Avro, and Parquet, supported with in-house technology.\n\nAt Berlin Buzzwords 2016, Niels Basjes introduced this project, for which we can now share technical details of running it in production. During the talk I will guide you through how we kept our Kafka cluster resilient enough to handle our peak loads, how we used Apache Flink to show trending products on our website in real-time, how we handle continuous changes in our measurement data structure using Avro, how we use Parquet to deal with the great quantities of data while also keeping them easily accessible, and share the lessons we learned along the way.\n\nSpeaker:\nIvan Budincevic"

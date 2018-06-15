@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - containers
+    - docker
+    - architecture
+title: 'Unikernels and Docker: From revolution to evolution by Richard Mortier'
+language: English
+recordingDate: 1478765797
+description: "Unikernels are a means to augment existing virtual machine and container deployments with compact single-purpose appliances. Explicitly polyglot, they've been a specialist's game to date: promising technology but requiring considerable expertise to deploy. I will introduce unikernels for newcomers, and then describe two ways we are integrating them with Docker.\n\nFirst, I will show Docker for Mac & Windows, which both utilise unikernel technology under-the-hood to make running Docker on Mac OS X and Windows hosts as transparent as possible. This will include build conventional and unconventional scenarios from Compose-based web stacks, to unikernel compilation, to cross-compiling ARM containers on a normal Mac or Windows host.\n\nSecond, I will show how we have been integrating unikernels with existing deployments, using MirageOS unikernels to augment an existing LAMP stack deployment, managed uniformly using the popular Docker toolchain (Docker build, Docker run, and the Docker Hub).\n\nUnikernels can thus be used to augment and evolve existing polyglot VM and container deployments, one microservice at a time. We no longer need a revolution: welcome to the evolution!\n\nRichard Mortier is a member of faculty in the Systems Research Group at the Cambridge University Computer Lab, as well as working as an engineer for Docker Inc. His past research includes Internet routing, distributed system performance analysis, network management, aesthetic designable machine-readable codes, and home networking. Richard works at the intersection of systems and networking with human-computer interaction and is currently focused on how to build user-centric systems infrastructure that enables people to better support themselves in a ubiquitous computing world through human-data interaction. To that end he is an active member of the MirageOS project, an incubator project of the Xen Project, a Linux Foundation Collaborative Project.\n\n[RMY-7835]"

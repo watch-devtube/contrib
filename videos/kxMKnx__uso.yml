@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - react
+    - mobile
+    - android
+    - ios
+    - javascript
+title: '"Lazy Defenses: Using Scaled TTLs to Keep Your Cache Correct" by Bonnie Eisenman'
+language: English
+recordingDate: 1506855402
+description: "Cache: it's a lifesaver. How else are you going to serve bucketloads of data, quickly? But caching data comes with its own problems. How do you balance availability against correctness, when you need to worry about cross-data-center consistency, unreliable underlying data stores, or race conditions in your request path? In this talk, I'll start with an overview of naive caching strategies, the problems they solve, and the ways they can backfire, including real stories from production experience with services-based architectures.\n\nThen, I'll discuss a relatively simple augmentation to existing cache strategies - dynamically scaled TTLs - that can defend you against inconsistent cached data. By scaling our cache TTLs based on confidence values, my team dramatically reduced our cache inconsistency rate, even in the face of slow backing stores and competing cross-data-center writes. We'll also cover the abstractions we use to make working with these values simple from the service implementer's perspective. Whether you have a finely-tuned caching strategy and want to compare notes, or if you're just starting to think about how to improve your use of caching, attendees should be able to take away immediately applicable practices from this talk.\n\nThese approaches are based on the work of the User Service team at Twitter, which handles millions of per-second operations for all read & write traffic associated with user data.\n\nBonnie Eisenman\nTWITTER\n\nBonnie Eisenman is a software engineer at Twitter and the tech lead for the User Service team, which handles all reads & writes to user data at Twitter. She is the author of Learning React Native, a book on building native iOS and Android applications with Javascript, published with O'Reilly Media. Previously, she has worked at Codecademy, Fog Creek Software, and Google. In her spare time, she enjoys hanging around NYC Resistor, learning languages, tinkering with hardware projects, and knitting. Find her on Twitter as @brindelle."

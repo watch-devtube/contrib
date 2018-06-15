@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - performance
+    - cloud
+    - architecture
+title: '"Zuul''s Journey to Non-Blocking" by Arthur Gonigberg'
+language: English
+recordingDate: 1506949883
+description: "Zuul 2.0 is the latest iteration of the gateway application fronting Netflix's API and underlying microservices. It was borne of a need to handle an ever-growing amount of traffic and a similarly ever-growing number of microservices to front. We largely rebuilt Zuul from the ground up, leveraging the Netty framework for its high-performance, non-blocking, event-loop architecture and combined it with RxJava interfaces for a simpler programming model in our filters. Despite our lofty performance expectations for this project we ended up with some mixed results and can definitively say that going asynchronous, non-blocking is not a panacea.\n\nThis talk will be a deep dive into how we progressively refactored and rebuilt Zuul from a blocking Tomcat application to a non-blocking Netty application and the results we have seen from running it in production over the last year. Specifically, I will review the journey of combining the RxJava and Netty frameworks in rebuilding Zuul, discuss how to make the decision on whether your systems need to be non-blocking, and provide the good and bad with some real-world scenarios.\n\nArthur Gonigberg\nNETFLIX\n\nArthur works on the Cloud Gateway team at Netflix, whose main duty is developing and operating the Zuul gateway, fronting all of Netflix's cloud traffic. He has acquired a breadth of experience by working at companies of all sizes, and experiencing the challenges faced by early products and legacy ones alike. His passions include building large-scale distributed systems and drinking copious amounts of coffee. Please come find him if you'd like to argue about programming languages, web servers or hockey teams."

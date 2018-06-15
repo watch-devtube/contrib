@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'Matt Bossenbroek -  PigPen: Map-Reduce for Clojure'
+recordingDate: 1395719610
+description: "PigPen is Map-Reduce for Clojure, or Distributed Clojure. You write code that looks and feels like it's running locally, and PigPen does the work of running it on thousands of machines. PigPen is designed to support iterative, REPL-driven development and has full support for local unit tests.\n\nPigPen makes map-reduce development easy because you can do it all in the REPL. You don't have to manage a lot of different files in different languages. Test data can be in the unit test - just like a normal Clojure test. PigPen also does the work of transporting closures to the remote environment. Any parameters or local bindings are available remotely.\n\nApache Pig is used, but it's just a host language - similar to how Clojure uses the JVM. You don't need to know anything about Pig to get started using PigPen.\n\nWe are using PigPen in production at Netflix to analyze and predict viewing behavior. So far it has proven to be a huge time saver because we can test our jobs more accurately before submitting to a cluster.\n\nCheck out our github page for more info: https://github.com/Netflix/PigPen"

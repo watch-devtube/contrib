@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Radu Popescu - Improving Write Scalability of CernVM File System with Erlang OTP - Code Mesh 2017'
+language: English
+recordingDate: 1513616657
+description: "The CernVM File System (CernVM-FS) provides a scalable and reliable software distribution service. It was developed at CERN to assist High Energy Physics (HEP) collaborations in deploying software on the worldwide distributed computing infrastructure for data processing applications, but it can also be used in other domains.\n\nCernVM-FS is implemented as a POSIX read-only file system in user space (FUSE) and uses content-addressed storage and Merkle trees for maintaining file data and meta-data. Files are stored remotely on standard web servers and are retrieved and cached on-demand through outgoing HTTP connections only, avoiding most of the firewall issues of other network file systems.\n\nFor writing, CernVM-FS follows a publish-subscribe pattern with a single source of new content that is propagated to a large number of readers.\n\nThis talk focuses on a new publication architecture, capable of accommodating dynamic strategies for content publishing and improving the scalability of the publication phase. We chose Erlang/OTP for implementing certain components of the new architecture, due to its suitability for making scalable and fault-tolerant systems."

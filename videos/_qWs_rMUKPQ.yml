@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Flink Forward 2016: Stephan Ewen - Running Apache Flink everywhere'
+recordingDate: 1474365441
+description: "http://flink-forward.org/kb_sessions/running-apache-flink-everywhere-standalone-yarn-mesos-docker-kubernetes-etc/\n\nThe world of cluster managers and deployment frameworks is getting complicated. There is zoo of tools to deploy and manage data processing jobs, all of which have different resource management and fault tolerance slightly different. Some tools have a only per-job processes (Yarn, Docker/Kubernetes), while others require some long running processes (Mesos, Standalone). In some frameworks, streaming jobs control their own resource allocation (Yarn, Mesos), while for other frameworks, resource management is handled by external tools (Kubernetes). To be broadly usable in a variety of setups, Flink needs to play well with all these frameworks and their paradigms. This talk describes Flink's new proposed process and deployment model that will make it work together well with the above mentioned frameworks. The new abstraction is designed to cover a variety of use cases, like isolated single job deployments, sessions of multiple short jobs, and multi-tenant setups."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'From Concurrency to Parallelism - David Liebke'
+recordingDate: 1355703262
+description: 'Concurrency is commonly mistaken for parallelism, but the two are distinct concepts. Concurrency is concerned with managing access to shared state from different threads, whereas parallelism is concerned with utilizing multiple processors/cores to improve the performance of a computation. Clojure has successfully improved the state of (single VM) concurrent programming, and now the goal is to do the same for (single VM) parallel programming. A promising approach to achieving this goal is to leverage the functionality of JSR 166, based on Doug Lea''s Fork/Join Framework. This work began in Clojure''s "par" branch, and is now under active development for Clojure 1.3. This talk will 1) layout the goals for improving parallel programming in Clojure, 2) provide illustrated walk-throughs of both the general fork-join algorithm and a version of the algorithm that exploits specific properties of Clojure''s persistent data structures, the latter of which is used by the parallel map and reduce functions found in Clojure''s "par" branch, and 3) compare the performance characteristics of the fork-join enabled map function with the current map and pmap functions.'

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - .net
+title: 'Consolidating Services With Middleware - Christian Horsdal'
+recordingDate: 1490255438
+description: "Have many services? Writing new ones often? If so middleware can help you cut down on the ceremony for writting new services and at same time consolidate the handling of cross cutting concerns. But what is middleware? OWIN and ASP.NET Core both have a concept of middleware. What are they? How do they help? In this talk we will dive into the code, write some middleware and show how middleware helps you handle cross-cutting concerns in an isolated and re-usable way across your services. I'll compare and contrast the OWIN and ASP.NET Core middleware concepts and talk about where each is appropriate.\nI start off motivating the need for middleware for web application and especially for service oriented architectures - the more services you have and the more often you build new ones the more need for good and reusable foundation you have. Middleware is brilliant for that.Then the talk moves into building middlewares - both OWIN and ASP.NET Core. Along the way we look at the technical definitions of middleware, how to build a pipeline from middlewares and get to compare the OWIN and ASP.NET Core middleware approaches.Lastly I discuss which types of concerns middleware is good for and how middleware might be reused in an organization and the potential benefits of that."

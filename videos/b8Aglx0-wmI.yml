@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - testing
+    - java
+title: 'Testing Time in Java by Joep Weijers'
+language: English
+recordingDate: 1478851913
+description: "We all know we should have unit tests for most of our code. And unit tests should be fast and system independent in order to give reproducible results.\n\nBut how do you test your functionalities that are depending on time? You don't because it is too difficult? You test it manually, changing the actual time of your computer? Or did you check StackOverflow and read that you need to replace all your System.currentTimeMillis() calls to a custom implementation? Java 8 introduced java.time.Clock for this purpose, but what if you have a big legacy application and it is infeasible to introduce yourOwnCurrentTimeMillis?\n\nEnter the TimeTransformer. A small open source utility using bytecode weaving to rewire all calls to System.currentTimeMillis(). It provides an API to completely alter the time of a JVM, making time travel in your applications and unit tests possible. I will demonstrate the TimeTransformer on a small webserver where I want to verify that given I am locked out after too many incorrect password attempts, when the lock-out-time has elapsed, then I can log in again.\n\nJoep Weijers is a Build Master at TOPdesk with a keen interest in delivering quality software continuously. He loves playing around with Jenkins Pipelines, Selenium, Docker and keeps in touch with his inner developer by educating his colleagues on testable Java code.\n\n[HGJ-2011]"

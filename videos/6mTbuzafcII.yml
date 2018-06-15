@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: '"Transducers" by Rich Hickey'
+language: English
+recordingDate: 1411158007
+description: "People keep implementing map, filter and other fundamental algorithms in different contexts - eagerly over collections, over lazy sequences, in parallel, over enumerables/iterables, over observables, over channels/streams etc. In addition to duplication of effort, this yields bloated APIs, and, when implemented in the classic way, often involves the creation of expensive intermediate objects/values that\ncan be difficult to optimize away.\nMost problematic is that this approach keeps us from composing core algorithms in a context-independent way which would facilitate reuse and engender greater flexibility.\nThis talk will describe transducers, a new library feature for Clojure (but of interest to other languages) that emphasizes composable, context-free, intermediate-free notions like 'mapping' and 'filtering' and their concrete reuse across all of the contexts above.\n\nby Rich Hickey (@richhickey) - Cognitect\n\nRich Hickey, the author of Clojure and designer of Datomic, is a software developer with over 25 years of experience in various domains. Rich has worked on scheduling systems, broadcast automation, audio analysis and fingerprinting, database design, yield management, exit poll systems, and machine listening, in a variety of languages. Rich is CTO of Cognitect, Inc."

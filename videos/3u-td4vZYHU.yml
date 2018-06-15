@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - performance
+    - cloud
+    - architecture
+title: '"The Holy Grail of Systems Analysis: from What to Where to Why" by Daniel Spoonhower'
+language: English
+recordingDate: 1506949299
+description: "Sudden latency regressions in distributed systems are almost always due to throughput-driven contention or queueing at some choke-point. As such, the root cause of transaction latency depends on other transactions that are gumming up the works: how can we root-cause these interference effects explicitly and without guesswork? And how does that scale to microservice architectures where each transaction crosses hundreds of process boundaries before making its round-trip?\n\nSolving this problem is a \"holy grail\" of system analysis, and recent advances in distributed tracing technology bring it within reach of software engineering today.\n\nThe presentation begins with a quick summary of the approach Google's \"Dapper\" took with distributed tracing system in the mid-2000s. We will show the limits of its design and its fundamental inability to root-cause most contention-related latency issues.\n\nWe will then contrast that with the new world order where some monitoring technologies can observe a distributed system with full fidelity. In an audience-participation demo we will connect the dots from a high-latency outlier request to the contended resource it's waiting on. This workflow is direct, clear, and replaces an entire bevy of other complex and expensive tooling, and could change the way we understand critical-path latency in distributed systems.\n\nDaniel Spoonhower\nLIGHTSTEP\n\nDaniel \"Spoons\" Spoonhower is a co-founder at LightStep, where he's building performance management tools for modern software systems. Previously, Spoons spent almost six years at Google where he worked on developer tools as part of both Google's internal infrastructure and Cloud Platform teams. He has published papers on the performance of parallel programs, garbage collection, and real-time programming. He has a PhD in programming languages from Carnegie Mellon University but still hasn't found one he loves."

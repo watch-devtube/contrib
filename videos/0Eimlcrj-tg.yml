@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - azure
+    - architecture
+title: '"Running a Massively Parallel Self-Serve Distributed Data System at Scale" by Zhenzhong Xu'
+language: English
+recordingDate: 1506788984
+description: "Nearly any Internet-connected screen is capable of streaming Netflix content. Sitting on top of a cloud-native microservice architecture, the entire ecosystem generates over 1 trillion events every day to feed critical Netflix systems to monitor service health, to detect fraudulent behaviors, and to improve customer experience.\n\nKeystone is the critical piece of Netflix backend infrastructure to ensure massive amount of events are processed in near real time, reliably, at scale, and in face of failures in a cloud-native microservices environment.\n\nTurns out, such an embarrassingly parallel stream processing system is not embarrassingly easy to develop and operate, especially given the challenges of unpredictable failures in a cloud-native environment, self-serve multi-tenancy support, and assumptions of maintaining extremely high development/operation agility.\n\nThis talk will shed light on how we built an elastic, resilient, reactive, and self-healing distributed system in the cloud. Zhenzhong will present * High-level cloud-native microservice based Keystone architecture. * A deep dive on how we built the system based on ideas such as declarative reconciliation, container based immutable deployment, logical workload isolation, and chaos exercise. * Insights into our operation best practices, such as capacity provisioning, delivery semantics, deployment tradeoffs, backpressure management, etc.\n\nZhenzhong Xu\nNETFLIX\n\nZhenzhong Xu is currently a Software Engineer working on highly scalable, resilient streaming data infrastructure at Netflix. Previously, he was a core contributor to Microsoft Azure datacenter operating system reconciliation management & fault resiliency subsystems. He is passionate about large-scale distributed system & connecting data with people."

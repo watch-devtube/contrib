@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+title: 'Google Genomics: Running Picard with GA4GH Apis'
+language: English
+recordingDate: 1452194654
+description: "Picard/GATK tools are command line utilities for genomic sequencing data processing that typically take BAM and other files as input and produce modified BAM files.\n\nThese tools are frequently chained together into pipelines to perform step-by-step processing of the sequencing data all the way from unaligned sequencer output to variant calls (e.g. see Broad best practices).\n\nWe are teaching these tools to take cloud based datasets as a possible input. The foundation for cloud data access is now in HTSJDK library and we have converted a number of Picard tools.\n\nIf your dataset is loaded into a cloud provider supporting GA4GH API (e.g. Google Genomics) or you use one of the available datasets from Discover Published Data, you will be able to run a Picard tool against it, reading data directly from the cloud.\n\nIn this video we walk through running Picard tool processing data from the cloud via GA4GH Api implemented by Google Genomics.\n\nSee http://googlegenomics.readthedocs.org/en/latest/use_cases/run_picard_and_gatk/"

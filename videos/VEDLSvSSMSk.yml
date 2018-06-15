@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ios
+title: 'Dave Golland - Wiring Prismatic''s API with fnHouse and Coax'
+recordingDate: 1395830869
+description: "In the functional programming paradigm, web services should consist simply of functions that turn requests into responses. At Prismatic, we've developed fnHouse -- a minimal library that transforms a collection of lightly-annotated functions into a full-fledged, production-grade web service. fnHouse enables concise handler definitions, query parameter parsing, and input and output validation (and even coercion) using the Schema library. We also use the function metadata to generate living API documentation that is always up-to-date. Using this functional view, middleware for rate-limiting, authorization, and analytics become straightforward function compositions.\n\nIn this talk, we will describe Prismatic's web infrastructure: how we construct a service graph using the Plumbing and Graph libraries, and how functions turn into handlers using fnHouse and Schema. We also present Coax, a Prismatic library that generates Objective-C and ClojureScript API clients from the annotated functions. In one fell swoop, these libraries transform a simple, lightly-annotated function into a secure, validated API endpoint and ObjectiveC client API and model classes. Come learn how you can do the same."

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - rest
+    - java
+    - spring
+title: 'Spring REST Docs - Documenting RESTful APIs using your tests by Andreas Evers'
+language: English
+recordingDate: 1447230488
+description: "Writing documentation for truly RESTful APIs is often done by Swagger or similar tools. However, they provide no support for documenting hypermedia elements, they are URI-centric, leaky and intrusive.\n\nWouldn't it be nice if your documentation could fail your build in case it gets out-of-date with your production code? Wouldn't you want to write your documentation using a format which is designed for writing? Can't there be a tool which documents your code without using the actual implementation?\n\nMeet Spring REST Docs.\n\nREST Docs allows you to write your documentation as part of your integration tests. In case your documentation doesn't match with your integration test result, your test will fail. This ensures accurate documentation while avoiding the need to put annotations on your production code. It uses the same integration tests to generate snippets, both for request and response bodies, and for hypermedia links. As a writing format it uses asciidoc which is designed for writing.\n\nFollow this session to get a demo on how this tool simplifies your life, and how easy and natural it is to use."

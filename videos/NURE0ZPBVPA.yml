@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - craftsmanship
+    - agile
+    - architecture
+    - java
+title: 'Java performance techniques  The cost of HotSpot runtime optimizations by Ionut Balosin'
+language: English
+recordingDate: 1504105773
+description: "The talk reveals how HotSpot internally handles some performance optimizations (e.g. static, speculative and inter-procedural) which sometimes can bring Java code to run faster than similar C/C++ code. It will also cover the penalty of code deoptimizations (e.g. uncommon traps), which brings back the running thread into the Interpreter. The take away for the audience would be a better understanding about why these optimizations matter, as well as things which might optimize the code but in reality backfire.\nCore topics of the agenda: - Uncommon traps - Null Sanity Checks - Loop unrolling - String deduplication - Devirtualization - Inter-procedural optimizations (e.g. inlining) - Brench predictions - Concurrency implications (e.g. memory access optimization, biased locking and the cost of Stop-The-World pause) - Methods that do not JIT\nThe tools used to prepare the talk and reveal these optimizations are: JITWatch, JMH (Java Measurement Harness) and HPjmeter.\n\nMy name is Ionut Balosin, am I a Software Architect with 10+ years of experience in a wide variety of business applications. Currently employed by Luxoft Co.\nI am particularly interested in Performance & Tunin,g topics and Software Architecture. Regular speaker at external conferences (e.g. Logeek, SoftLabs, Voxxed, BJUG, XP Days, Agile Tour)"

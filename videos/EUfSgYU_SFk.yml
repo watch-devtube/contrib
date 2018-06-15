@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - aws
+title: 'Alvaro Videla - Building a Distributed Data Ingestion System with RabbitMQ'
+recordingDate: 1405520299
+description: "Building a Distributed Data Ingestion System with RabbitMQ\n\nYour company has servers distributed around the world and you need to process data in a centralised location. The data is produced by applications using different technology stacks and comes from various sources, from web servers to sensors. How could you solve this problem? Enter RabbitMQ. In this talk we are going to show how to build a system that can ingest data produced at separate geo located area (think AWS and it's many regions) and replicate it to a central cluster where it can be further processed and analysed. We will present an example of how to build a system like this one by using RabbitMQ Federation to replicate data across AWS Regions and RabbitMQ support for many protocols to produce/consume data. To help with scalability we are going to show an interesting way to implement sharded queues with RabbitMQ by using the Consistent Hash Exchange. If you want to learn what else has RabbitMQ to offer beyond simple messaging and queueing, then this is the talk for you."

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Need for Async: In pursuit of internet-scale apps by Konrad Malawski'
+language: English
+recordingDate: 1447405791
+description: "It's the year 2015, so unless you've been living under a rock for the last decade, you probably have heard about servers and platforms needing to go asynchronous in order to scale. But really, how deep did you dive into the reasons as why this need arrises? This talk aims to explain the various reasons and techniques that can be (and often are) used in developing high performance web applications - from the kernel depths, to the high level abstractions that all contribute to such designs.\n\nWe'll start with the lowest level of them all - the network transports we all use and how they impact latency in our systems. Then we will move on to operating systems' socket selector implementation details and the now legendary C10K problem, to see how implementations were forced to change in order to survive the ever-rising number of concurrent connections. Next we'll dive into processor and thread utilisation effects and how parallel programming - using either message-passing or stream processing style libraries fits into the grand picture of pursuing the most stable and lowest latency characteristics we could dream of."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'GTAC 2013: AddressSanitizer, ThreadSanitizer and MemorySanitizer -- Dynamic Testing Tools for C++'
+recordingDate: 1367254754
+description: "http://g.co/gtac2013\nSlides: http://goo.gl/FPVd8\n\nKostya Serebryany, Google\n\nAddressSanitizer (ASan) is a tool that finds buffer overflows (in stack, heap and globals) and use-after-free bugs in C/C++ programs.\nThreadSanitizer (TSan) finds data races in C/C++ and Go programs.\nMemorySanitizer (MSan) is a work-in-progress tool that finds uses of uninitialized memory (C++).\nThese tools are based on compiler instrumentation (LLVM and GCC), which makes them very fast (e.g. ASan incurs just 2x slowdown). \nWe will share our experience in huge scale testing using these tools."

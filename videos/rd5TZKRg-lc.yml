@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - testing
+    - javascript
+title: 'GTAC 2013: Drinking the Ocean - Finding XSS at Google Scale'
+recordingDate: 1367254755
+description: "http://g.co/gtac2013\nSlides: http://goo.gl/8qqHA\n\nClaudio Criscione, Google\n\nCross site scripting, or XSS, is the modern-day equivalent of the middle-ages black plague in the web application world: it's widespread, it's bad and there are little or no technical ways to detect it until it's too late. DOM XSS is a particularly nasty variant of those, as it requires a real browser or equivalent to be detected: a difficult problem with little automated solution available.\n\nWe needed powerful, self-driving tools to identify DOM XSS early in the development lifecycle, usable by engineers outside of the security team: all we wanted was a product which could scan our huge, fast moving, highly complex and arcane corpus of applications... and of course, we found none. So we built our own: a web application scanner targeting DOM XSS designed on top of standard Google technologies. It runs in App Engine and leverages the powerful Chrome browser and some hundreds of CPUs as a security scanning platform.\nIt is also a nice citizen of the testing arsenal at Google: it lives inside our testing infrastructure, instead of being the instrument of the security team.\n\nIn this talk we outline our novel approach, the challenges we faced in scaling our system to Google size and the ideas behind our detection and crawling models on JavaScript intensive applications."

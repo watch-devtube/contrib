@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: '"Shenandoah: An open source pauseless GC for OpenJDK." by Christine Flood'
+language: English
+recordingDate: 1411495817
+description: "Back in the lisp machine days hitting a GC pause meant it was time to go get a cup of coffee. Java Virtual Machines (JVMs) do better by using parallel (multiple threads working together) and concurrent (gc\nthreads working while the mutator is running) techniques however pauses still cost time and in the case of online transactions money. \n\nThis talk will discuss a new GC algorithm being developed at Red Hat for OpenJDK. Shenandoah is the first open-source OpenJDK GC algorithm that does marking and evacuation concurrently with running Java threads. This allows us to keep our pause times under 10ms even for heaps of 100+GBs. \n\nby Christine Flood - Red Hat\n\nChristine H. Flood has been designing and implementing programming languages for over 20 years.\n\nStarting with Lisp machines, dabbling with implicitly parallel languages like ID and Fortress and diving into the bits of Java Virtual Machine implementations. She's written multiple papers on GC algorithms and is delighted to be taking them to the next level for OpenJDK."

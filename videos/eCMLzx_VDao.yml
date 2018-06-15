@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+title: '#bbuzz 2015: Boaz Leskes - Designing Concurrent Distributed Sequence Numbers for Elasticsearch'
+recordingDate: 1433513270
+description: "Find more information: http://berlinbuzzwords.de/session/designing-concurrent-distributed-sequence-numbers-elasticsearch\n\nSequence numbers assign a unique increasing number to every document change. They lay the foundations for higher level features such as a changes stream, or bringing a lagging replica up to speed quickly. Implementing them in a distributed system implies dealing with challenges far beyond the capabilities of a simple AtomicLong. They have to be robust enough to deal with problems like faulty servers, networking issues or sudden power outages. On top of that, they need to work in the highly concurrent indexing environment of systems like Elasticsearch.  This talk will take you through the journey of designing such a system.\n\nWe will start by explaining the requirements. Then we'll evaluate solutions based on existing consensus algorithms, like ZooKeeper's ZAB and Raft, and why they are (in)sufficient for the task. Next we'll consider some alternate approaches, and finally end up with our proposed solution.\n\nYou don't need to be a consensus expert to enjoy this talk. Hopefully, you will leave with a better appreciation of the complexities of distributed systems and be inspired to learn more."

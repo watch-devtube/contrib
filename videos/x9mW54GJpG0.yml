@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - aws
+    - testing
+title: 'Testing Eventual Consistency in Riak'
+recordingDate: 1363800269
+description: "This is a video of Ulf Norell speaking at the Erlang User Conference 2012. For more info and slides, please go here: http://www.erlang-factory.com/conference/ErlangUserConference2012/speakers/UlfNorell \n\nRiak is one of the new breed of no-SQL database management systems, which has begun to replace relational databases for some applications. Riak is a distributed key-value store, inspired by Amazon's Dynamo, designed for applications where scalability, low latency and high availability are critical. Riak uses replication to provide fast access to data, even when multiple nodes or parts of the network fail. It supports concurrent access to the same data by multiple clients, even when the network is partitioned. All of this makes it very hard to test.\n\nI will show how QuickCheck helped us to model Riak's behavior, improving understanding and revealing the occasional bug."

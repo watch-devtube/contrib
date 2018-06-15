@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - cloud
+    - aws
+    - architecture
+    - .net
+title: 'Easy Eventual Consistency with Actor Models + Amazon Web Services - Philip Laureano'
+recordingDate: 1499244376
+description: "I found a way to sidestep the CAP theorem, and in this session, I'll show you how to do it. No, seriously :) The CAP theorem is a very difficult problem to solve in distributed systems, but it turns out that there are a few simple rules that you can follow to get strong eventual consistency in the cloud.\n\nIn this talk, I'll be doing the code samples in C#, as well as talk about the rules to make it all happen. At Domain.com.au in Australia, we used these principles to recover from catastrophic data failures in our clickstream events, and in this session, I'll show you how we did it. With CRDTs + Event Sourcing + immutability, there's a mathematically provable way to ensure that all nodes in a distributed system (such as a data store, or an Akka.NET grid) get the same level of consistency without even talking to each other. It's not magic--it's just good maths. Join me, and you'll be surprised at just how easy it is."

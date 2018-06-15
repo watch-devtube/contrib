@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - docker
+title: 'Dockerizing BOSH Releases-Fissile - Vlad Iovanov & Aaron Lefkowitz, HPE'
+language: English
+recordingDate: 1475944692
+description: "Fissile is a tool that allows developers to convert BOSH releases into Docker images as part of a build pipeline. \n\nBecause BOSH releases are precisely structured, we are able to craft Docker images that contain jobs and packages, similar to what you get after BOSH provisions you a VM. The difference is that with Fissile, this process happens in as part of your build (not at deployment time), and there are no Agents involved. The result - you get to deploy Cloud Foundry as Docker images and configure them via environment variables. \n\nFissile is written in Go. It provides a CLI that takes you each step of the process: package compilation, job configuration, Docker layer management and final image creation. It has multi-release support, so you can create Docker images with components from more than one release. \n\nVlad Iovanov\nTechnical Lead, HPE\nVlad Iovanov is currently working as a Technical Lead on the Helion Cloud Foundry project at Hewlett Packard enterprise. Located in Seattle, USA.\n\nAaron Lefkowitz\nEngineering Manager, HPE\nAaron Lefkowitz is currently working as an Engineering Manager on the Helion Cloud Foundry project at Hewlett Packard enterprise. Located in Seattle, USA."

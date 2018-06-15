@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - storage
+    - career
+    - performance
+    - startup
+    - testing
+title: '"All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg'
+language: English
+recordingDate: 1443354491
+description: "Perform the same operations on the same starting state in the same order and you can expect the same finishing state. That's the essence of determinism; this talk will focus on its role in distributed systems.\n\nHow can we leverage deterministic operations to make distributed systems faster? When processing is replicated across two hosts to achieve high availability and safety, there is typically a trade-off between strong consistency and performance. Ensuring consistent processing requires network communication, which introduces latency. \"All in\" determinism upends those tradeoffs and allows for strong consistency with drastically reduced communication overhead. This talk will lay out what assumptions are made, how the tradeoffs have changed, and why more systems work this way.\n\nAnd while everyone gets excited about performance, it turns out that a system that enforces strict determinism is easier to verify as well. The second part of this talk will focus on the \"TransactionalitySelfcheck\" test system built at VoltDB to verify the strong consistency and ACID-serializable properties VoltDB promises users. One of the benefits of strictness is that faults are easier to detect. \"TransactionalitySelfcheck\" relies on runtime determinism validation and a truly adversarial workload to verify correct processing.\n\nJohn Hugg\nVOLTDB INC.\n@johnhugg\n\nJohn Hugg has spent his career working at several database startups including Vertica Systems and now VoltDB. As the founding engineer on VoltDB, he worked with Mike Stonebraker and a team of academics at MIT, Yale and Brown who were building H-Store, VoltDB's research prototype. Then he helped build the world-class engineering team at VoltDB to continue development of the open source and commercial products."

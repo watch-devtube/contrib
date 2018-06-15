@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - elixir
+    - cloud
+    - aws
+    - containers
+    - architecture
+title: 'Erlang on Rumprun Unikernel aiding the Microservices Architecture by Neeraj Sharma'
+recordingDate: 1474623763
+description: "Slides and more info: http://www.erlang-factory.com/euc2016/neeraj-sharma\n\nI am the author of porting Erlang to Rumprun unikernel. Rumprun unikernel can now run Erlang (Elixir or any BEAM VM based language) nodes in both isolated and clustered mode. Unikernels are special single address space software constructed by using library operating system. RumpRun unikernel is a great project which (in my view) opened possibilities to design in some unique ways while shifting away from the traditional operating system. Rumprun unikernel inherits a lot from NetBSD and keeps POSIX compliance as one of its key principles. Needless to say the project uses unmodified NetBSD drivers building on a very strong foundation. The choice of Rumprun unikenel ensures that the operating system just provides the bare minimum (a much lesser code base) while Erlang does most of the heavy lifting (which anyway it is good at).\n\nRumprun unikernel runs seamlessly on multiple platforms (namely: x86, x86_64, ARM) and under cloud hypervisors such as Xen and KVM (thereby running on Amazon EC2 as well). The existence of such projects adds another useful alternative for cloud architects to design the next generation of services.\n\nTalk objectives:\n\nThis talk will start with an introduction to Erlang on Rumprun unikernel and try to rationalize its usefulness while designing Microservices in Erlang/OTP or Elixir. The goal is to encourage using unikernel as the platform of choice instead of using traditional operating system when deploying Erlang/OTP or Elixir applications\n\nTarget audience:\n\nErlang (Elixir) architects and engineers who are either interested or working in the realm of microservices architecture."

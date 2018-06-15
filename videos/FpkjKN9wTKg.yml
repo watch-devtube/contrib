@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - tdd
+title: 'Finding Concurrency Errors using Concuerror - Kostis Sagonas'
+recordingDate: 1372319498
+description: "Erlang User Conference 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/ErlangUserConference2013/talks\n\nConcurrent programs are notoriously difficult to get completely error free. This, sadly, is as true in Erlang as it is in other languages.\nSpecific process interleavings that occur only rarely can result in unexpected errors that manage to puzzle and surprise even expert Erlang programmers. Furthermore they are often difficult to reproduce.\n\nThis talk will show some examples of such errors. More importantly, it will introduce Concuerror, an open-source systematic testing (also known as stateless model checking) tool that supports the test-driven development of concurrent Erlang programs in order to detect early and eliminate the vast majority of concurrency-related errors (e.g. data races, unexpected crashes, deadlocks, etc.) that may occur in their execution. A salient feature of Concuerror is that it is completely automatic and works out of the box with existing (Eunit) test suites and in principle finds all concurrency related errors that are triggered by a specific test.  In addition, the tool clearly shows execution traces that lead to errors, it can deterministically replay them, and comes with a variety of options.\n\nIf time permits the talk will include live demos."

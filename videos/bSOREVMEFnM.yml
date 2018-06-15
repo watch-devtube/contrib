@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+title: 'Object Pools (Android Performance Patterns Season 2 ep5)'
+language: English
+recordingDate: 1432057236
+description: "Memory Churn is a constant, and serious problem for the performance of your applications. Allocating loads of temporary objects in a short time frame puts a ton of pressure on your memory heaps, resulting in more GC events being kicked off. \n\nIn this video Colt McAnlis, provides a recipe for success here: Rather than promoting a bulk of your objects to static in order to solve memory churn problems, you can utilize an amazingly powerful data structure, known as an Object Pool.\n\nObject Pools are data structures which hold on to un-used objects for you. Basically, rather than freeing an object back to the heap when you’re done with it, you instead, hand it off to the object pool. Later on, when some function wants a new object of that type, you can return the un-used object, rather than going and allocating a new one from the heap.\n\nWatch more Android Performance Patterns here: http://goo.gl/4ZJkY1\nJoin the G+ Community here: http://goo.gl/g7mxmI\nSubscribe to the Google Developers channel here: http://goo.gl/mQyv5L"

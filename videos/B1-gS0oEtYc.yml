@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+    - java
+title: '"Commander: Better Distributed Applications through CQRS and Event Sourcing" by Bobby Calderwood'
+language: English
+recordingDate: 1474201388
+description: "Have you ever hit a wall with REST? Does modeling your problem domain into CRUD-able entities feel like fitting a square peg into a round hole? Perhaps instead of modeling our services like little databases, we should instead model them like reactors over immutable event streams.\n\nREST APIs are great, but their typical implementation tightly couples various concerns that would be better separated:\n\n* Reads (perception) with writes (action)\n* Current state with historical narrative\n* Business logic with HTTP request processing, and with operational concerns like metrics and monitoring\n\nCommander is:\n\n* A pattern for writing distributed applications that de-couples these concerns using ideas from CQRS and Event Sourcing, thereby alleviating common frustrations with CRUD-flavored REST\n* An implementation of the core component in this pattern using Clojure in the HTTP layer, using Java with the new Kafka Streams library in the event stream processing layer, and using Datomic for persistence. \n\nThe Commander pattern imposes a clear separation of action from perception, and uses immutable values conveyed by Kafka and the Kafka Streams library to separate business logic from HTTP request processing, all while preserving the historical narrative of the entire event stream.\n\nIn this talk, I'll discuss the benefits and tradeoffs of applying this pattern in an enterprise context, and demonstrate my implementation under load."

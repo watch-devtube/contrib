@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+title: 'Android Performance Patterns: Memory Churn and Performance'
+language: English
+recordingDate: 1426277756
+description: "One of the tricky parts about a Managed Memory language is that it regularly executes “Garbage Collection” events, which stop your executing code in order to clean up various parts of your app’s memory. Normally, these aren’t that problematic, since they’ve been tuned to be as fast, and least intrusive as possible. But lots of them, occurring over-and-over again, can quickly eat into your frame time.\n\nIn this video +Colt McAnlis talks about a common programming pattern that can trigger a cascade of Garbage Collection events to occur, called “Memory Churn”. He also makes fun of lightsabers, and points out some great tools to help solve your memory problems.\n\nWatch more Android Performance Patterns here: http://goo.gl/3dBbse"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'GTAC 2015: Multithreaded Test Synthesis'
+language: English
+recordingDate: 1448595601
+description: "http://g.co/gtac\nSlides: https://drive.google.com/file/d/0ByHjpj7XroZ5dGJKUHp3NHM0Ylk/view\n\nMurali Krishna Ramanathan (Indian Institute of Science, Bangalore)\n\nSubtle concurrency errors in multithreaded libraries that arise because of incorrect or inadequate synchronization are often difficult to pinpoint precisely using only static techniques. On the other hand, the effectiveness of dynamic detectors is critically dependent on multithreaded test suites whose execution can be used to identify and trigger concurrency bugs including data races, deadlocks and atomicity violations. Usually, such multithreaded tests need to invoke a specific combination of methods with objects involved in the invocations being shared appropriately to expose a bug. Without a priori knowledge of the bug, construction of such tests can be challenging.\n\nIn this talk, I will present a lightweight and scalable technique for synthesizing tests for detecting thread-safety violations. Given a multi-threaded library and a sequential test suite, I will describe a fully automated analysis that examines sequential execution traces, and produces as its output a concurrent client program that drives shared objects via library method calls to states conducive for triggering a concurrency bug. Experimental results on a variety of well-tested Java libraries demonstrate the effectiveness of our approach in revealing many complex bugs."

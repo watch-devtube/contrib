@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - performance
+    - scala
+title: 'Lambda Days 2018 - Daniel Krzywicki - Scaling functional multi-agent computations (...)'
+language: English
+recordingDate: 1524050058
+description: "Register to Lambda Days newsletter to receive updates: http://www.lambdadays.org/lambdadays2018/#contact\n\nDaniel Krzywicki\nI am a Tech Lead at FaberNovel Technologies, where I work on hypermedia REST APIs, semantic web tooling, and distributed systems, mostly in Scala. I'm also a Ph.D. student at the Department of Computer Science of AGH-UST. My research interests include agent-based computations, functional programming and distributed computing.\n\nScaling functional multi-agent computations with reactive streams\nMulti-agent systems are often used to simulate real-word phenomena or in optimisation algorithms. Traditionally, relevant software has often relied on coarse grained parallelism, with little or no concurrency.\nHowever, large numbers of agents in such use cases mean that more fine grained parallelism is needed to fully scale on modern manycore hardware. Moreover, higher concurrency has a value at the domain level, as it allow to more closely simulate our (almost) \"continuous\" world.\nIn this talk, we first show how to use functional patterns to decompose a multi-agent simulation in a way which allows it to be run on execution models of varying concurrency and parallelism. Then, we see how such execution models can be generalized into a streaming one. Finally, we describe an Akka Streams implementation which allows to achieve fine-grained concurrency and parallelism for greater performance and efficiency."

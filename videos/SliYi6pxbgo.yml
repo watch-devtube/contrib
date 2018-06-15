@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - web
+    - react
+    - mobile
+    - android
+    - ios
+    - testing
+    - javascript
+    - java
+title: 'YOW! Lambda Jam 2016 Sam Roberton - Functional CRUD: Using ‘Bureaucracy''...'
+recordingDate: 1465603371
+description: "We all know that functional programming makes for more testable, more reliable code. But even if we adopt insert your favourite functional language here on the server-side, and your choice of something sane that compiles to JavaScript on the client-side, the integration and testing story for a bog-standard full-stack CRUD app is, well, woeful. So OK, we’re all here at Lambda Jam patting ourselves on our puritanically stateless backs about how referentially transparent we are, but how does that help us if every time we have to put together something with a user interface we end up straight back in the spaghetti mess slowly losing our sanity to “undefined is not a function”?\n\nFor my side project, my language of choice for the server-side is Clojure, and my choice for the “something sane that compiles to JavaScript” is ClojureScript (with React for the web, and React Native for iOS and Android). Inspired by Kevin Lynagh’s keynote last year, I wrote a library to manage a UI’s behavioural state via composeable state machines: ‘bureaucracy’ (it makes the machines of state go round — ba-dom-ching!). Although it wasn’t my original goal, it turns out that by using bureacracy and by writing my UI in portable Clojure (that can run on the JVM as well as JavaScript), I can write more testable code: instead of nice functional unit tests, I write nice functional full-stack integration tests that exercise both the ClojureScript front-end code and the Clojure back-end code, without going anywhere near something so fundamentally un-FP as a Selenium test.\n\nSo I’m going to show you Get Fluent French, and break down how it’s built up out of genuinely functional pieces. And I’m going to show you how I write tests to mimic user interaction without opening a browser. And despite the fact that my user interface code runs on the JVM and in JavaScript, I’m going to do all of this without once misusing the term “isomorphic”.\n\nWeekdays, you can find Sam in the ROKT office staring at Emacs, Chrome and a database while poking at some Clojure or ClojureScript code. He’ll be trying to write simple, functional code, so that ROKT’s software will be more reliable, delivering boring stuff like “real business value” with a minimum of fuss.\n\nAt night and on weekends, the fun really starts: you can find him at home, staring at Emacs, Chrome and a database while poking at some Clojure or ClojureScript code. He’ll be working on his side project, Get Fluent French, an app to help students at the Alliance Française learn French. He’ll be trying to write simple functional code, so that he can deliver a better app, faster.\n\nFor more on YOW! Lambda Jam, visit http://lambdajam.yowconference.com.au"

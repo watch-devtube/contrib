@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: '"Building Secure Systems in Haskell" by Deian Stefan'
+language: English
+recordingDate: 1474123361
+description: "Large-scale private user data theft has become a common occurrence. A huge factor in these privacy breaches we hear so much about is that developers specify and enforce data security policies by strewing checks throughout their application code. Overlooking even a single check can lead to vulnerabilities.\n\nIn this talk, I will describe a new approach to protecting sensitive data even when application code is buggy or malicious. The key ideas behind my approach are to separate the security and privacy concerns of an application from its functionality, and to use language-level information flow control (IFC) to enforce policies throughout the code.\n\nThis talk will cover LIO, an IFC-security language embedded in Haskell. LIO leverages Haskell's monads and strong type system to provide developers with a way to specify and enforce security policies on data. Building on LIO, I will then describe Hails, a server-side web framework that makes it easy to specify policies in a declarative way, alongside the application data model, and separate from the application functionality code. With Hails, developers can build server-side web applications that protect user date privacy and integrity, by construction."

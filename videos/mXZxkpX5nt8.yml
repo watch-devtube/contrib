@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - startup
+title: '"Specter: overcome your fear of nested Clojure data" by Nathan Marz'
+language: English
+recordingDate: 1443405116
+description: "Clojure revolves around immutable values and manipulation of those values. However, it does not provide good mechanisms for manipulating combinations of those values: like a map of sequences of maps of maps. Code that aims to manipulate these nested data structures complects navigation code with the desired query or transformation. Code like this is painful to write and ugly to read.\n\nSpecter is a library that makes querying and transformation of nested data structures simple, easy, and efficient. At its core it abstracts away the concept of data structure navigation and makes these navigations highly composable. Specter can manipulate any of Clojure's maps, sequences, records, and sets, and by hooking into Specter's protocols you can use it to manipulate any data structure. On top of all this, Specter is highly performant: for example, Specter's equivalent to update-in runs 5x faster. Once you've used Specter, it's hard to imagine programming Clojure without it.\n\nNathan Marz\nRED PLANET LABS, INC.\n@nathanmarz\n\nNathan is the creator of the open source projects Apache Storm and Cascalog. He is the author of the book \"Big Data: principles and best practices of scalable realtime data systems\". He was the lead engineer of BackType until BackType was acquired by Twitter. At Twitter, he created the streaming compute team, a core infrastructure team within the company. He left Twitter in 2013 to work on a new startup. When not coding, you can often find him 3500 feet overhead, flying a small plane and enjoying the view."

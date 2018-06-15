@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - java
+title: 'How to shoot yourself in the foot implementing thread-safe counter (Alexey Fyodorov, Russia)'
+recordingDate: 1469194510
+description: "Do you know that contended AtomicLong.increment() works in JDK 8 much faster than in JDK 7? There are a lot of ways to implement thread-safe counters in Java and 100500 ways to shoot yourself in the foot when you doing this.\n\nDuring this talk we will consider several ways of implementing thread-safe counters (synchronized, Lock, AtomicLong, Unsafe), compare their performance, and try to understand why some implementations are faster than others in this or that scenario."

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: '"Runtime scheduling: theory and reality" by Eben Freeman'
+language: English
+recordingDate: 1474222929
+description: "Whether you're using plain old OS threads or a userspace threading model, understanding the subtleties of scheduling and how it affects parallel programs can be tricky. As systems and performance engineers, there are many questions we can ask:\n\nCan we quantify the tradeoffs between native threads and green threads? How expensive are context switches really? How can a scheduler trade off throughput and latency? How should we evaluate scheduler performance? And what do we really mean by performance, anyways?\n\nLet's talk about the essentials of scheduling in the Linux kernel, and then take a deep dive into the schedulers implemented in the Erlang and Go runtimes. We'll compare the design decisions they make, and get an idea of the fundamentals of scheduler design. Along the way, we'll discuss those questions, and explore how we can actually analyze scheduler behavior in action."

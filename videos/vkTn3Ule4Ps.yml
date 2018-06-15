@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+title: 'Android Performance Patterns: Overdraw, Cliprect, QuickReject'
+language: English
+recordingDate: 1420572809
+description: "The Android system knows that overdraw is a really difficult problem, and in general, it does what it can to remove unseen surfaces before they can waste your precious processing time. But sadly, this doesn’t extend to complex custom views, where the system may not be able to understand what types of overlap are occurring on your view.\n\nIn this video Colt McAnlis takes a look at these problems, and introduces two simple APIs to help address it in your application.\n\nWatch more Android Performance Patterns here: http://goo.gl/3dBbse"

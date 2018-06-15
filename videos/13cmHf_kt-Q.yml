@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Stuart Sierra - Components Just Enough Structure'
+recordingDate: 1395830835
+description: "Functional programming with immutable values is wonderful, but sooner or later every program has to deal with mutable, stateful, imperative tasks. A large program may need to manage dozens of stateful services: database connections, thread pools, network services, scheduled tasks, and caches. How do we do this in a functional programming model? All too often we fall back, almost by accident, into global mutable state, promiscuous sharing, and imperative spaghetti code.\n\nTo escape this quagmire, we need to recall some basic principles of both functional and object-oriented programming: referential transparency, immutable values, message-passing, encapsulation, and interface contracts. The Component pattern and its library implementation offer a minimal way to structure the stateful dependencies of a functional program.\n\nThis talk will cover the motivation for the Component pattern, its benefits and downsides, comparisons with other approaches, and how to use it in Clojure programs. This talk builds on the concepts in last year's \"Clojure in the Large\" but does not assume viewers have seen that talk first."

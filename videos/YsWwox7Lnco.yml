@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Flink Forward 2016 - Francesco Versaci - Flink in genomics...'
+recordingDate: 1474880858
+description: "http://flink-forward.org/kb_sessions/flink-in-genomics-efficient-and-scalable-processing-of-raw-illumina-bcl-data/\n\nA single run in genome sequencing can easily produce several terabytes of data, which subsequently feed a complex pipeline of tools. Typically, the first step in this workflow is a rearrangement of data, roughly equivalent to a matrix transposition, to reconstruct the original DNA fragments from the raw BCL data, where the fragments are sliced and scattered over multiple files. This step is followed by the sorting of the fragments by a specific identifying tag sequence, which is attached during the preparation of the sample. In this talk we will present a parallel program which performs these essential operations. Our BCL converter is shown to have comparable performance to the shared-memory Illumina bcl2fastq tool, while also enabling easy and scalable distributed-memory parallelization. We will describe the techniques we have used to achieve high performance and discuss the features of Flink which we have particularly appreciated as well as the ones which we think are still missing."

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'Safely Shoot Yourself in the Foot with Java 9 by Heinz Kabutz'
+language: English
+recordingDate: 1510428489
+description: "So what work do you do?\" \"Um, computers.\" \"Oh nice, what exactly?\" \"Well, I code Java\". And then: \"Actually, I have a question about that. My PC says I must update Java ...\"\n\nTwo decades ago, the world gasped as an applet moved pixels on a web page. Dynamic content on the World Wide Wait! We were hooked. \"And it's 100% secure!\"\n\nJava 9 finally keeps the promise of \"... it's 100% secure!\" by removing Unsafe, deep reflection on system classes, etc. All those lovely toys to peek and poke into native memory ... they're gone.\n\nWell, not entirely. We can still do almost anything from Java 8. We can change Strings using deep reflection, Unsafe or even VarHandles. We can throw checked exceptions as unchecked. We can mark fields as @Contended. But this needs special privileges to work. It won't work in Java 10. Promise. (We'll see)\n\nThis talk will show you how to use some of the new Java 9 features, such as VarHandles, jshell and Stream improvements. We explain why you need to move over to G1 soon. We show how you can do all the old Java nasties, such as deep reflection into java.lang and throwing asynchronous exceptions.\n\n# Heinz Kabutz \nHeinz Kabutz is the author of the Java Specialists Newsletter, where he researches Java constructs. He regularly investigates techniques for writing better, faster concurrent Java code. He has also published courses on Java and specifically on concurrency."

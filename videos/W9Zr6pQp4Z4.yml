@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - ios
+title: 'YOW! Connected 2016 Prasanna Gopalakrishnan - Big Bang Releases on the AppStore'
+recordingDate: 1486942573
+description: "Making large big bang releases on the AppStore is an inherently risky and hard problem. From our experience of releasing the largest update to our app a few weeks back, I would like to share some of the strategies and processes we put in place, to reduce the risk of such a release.\n\nI qill also share our experience of creating a new approach to change aversion management. At realestate.com.au, we shipped a few weeks back, the largest update we have made in over 3 years. We did this release while\n\n* running no long running branches. All code in master - behind feature toggles\n* Releasing every 4 weeks for the previous 7 months, which are considerably large releases themselves\n* Transitioning the whole team to use Swift for nearly 100% of new code\n* Changing our underlying persistence layer from Core Data to Realm\n* Going from 3 to 10 people in the team\n* Distributed team\n* On a 6 year old codebase\n\nIn this talk, I will provide a blueprint of some of the strategies and processes we put in place to make sure we can make such a release possible.\n\nSome of the strategies I will talk about include Release trains, Engineering docs, Small releases and our approach to tech debts. I will also talk about our approach to minimizing change aversion. We released the new navigation structure behind toggle, which the user can opt into.\n\nPrasanna is a Lead iOS Engineer at realestate.com.au.\n\nFor more on YOW! Connected, visit http://connected.yowconference.com.au"

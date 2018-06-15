@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+title: 'Locker: Consistent Distributed Locking - Knut Nesheim'
+recordingDate: 1368028923
+description: "Erlang Factory SF Bay Area 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/SFBay2013/talks\n\nGame servers built at Wooga uses Erlang processes to model users, worlds and connections. A locking mechanism was needed to ensure processes don't step on each other toes. This forms the backbone of distributed real-time multiplayer game servers at Wooga.\n\nThe first attempt used Redis as a central serialization point as\nit offers a compare-and-swap operation. After hard work in the\nfollowing generations of game servers, this single point of failure was the last one still standing.\n\nAfter long discussions and reading many papers, locker got\nstarted as a Friday hack. How hard could it be to create a consistent distributed locking system from scratch?"

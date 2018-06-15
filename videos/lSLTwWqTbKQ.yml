@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - elixir
+title: 'Taking Elixir to the Metal with Rust - Sonny Scroggin'
+recordingDate: 1493364379
+description: "Elixir is a great choice for most applications. It's powered by the battle-tested Erlang VM know as the BEAM. It allows programmers to build incredibly fast, efficient, scalable, and fault-tolerant distributed systems.\nAs it turns out, Elixir isn't the fastest kid on the block. And while raw CPU speed matters little for most applications, there does exist a couple reasons you might want want to reach for tools that give you access to native power.\n\nIn this talk we're going to discuss Native Implemented Functions (NIFs) - Erlang's Foreign Function Interface (FFI).\n\nNIFs are normally implemented in C and are considered dangerous. But we're going explore writing safer NIFs in Rust - a new systems programming language developed by Mozilla, that focuses on memory safety.\n\nWe'll talk about the pitfalls with writing NIFs and how Rust can make this process easier and safer."

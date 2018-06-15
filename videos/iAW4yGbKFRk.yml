@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - startup
+    - aws
+title: 'Air Marshal: No More Secrets In Your Manifests - Michael Brodhead, Stark & Wayne'
+language: English
+recordingDate: 1475944649
+description: "Air Marshal: No More Secrets In Your Manifests - Michael Brodhead, Stark & Wayne\n\nIn real-world use our BOSH and Concourse manifests are littered with secrets: passwords, AWS credentials, SSH keys, you name it. Dealing with these secrets is a pain in the neck. If we check secrets into source control then there are myriad ways to accidentally leak them. Without source control distribution becomes a hassle and we still have some risk of leaking. Ideally we would like to keep production secrets off staff workstations altogether. \n\nEnter Air Marshal. Air Marshal acts as a proxy between staff workstations and BOSH or Concourse. Manifests checked into source control have placeholders wherever secrets are necessary. Air Marshal reads secrets from a secure back-end, adding them to manifests where needed.\n\nMichael Brodhead\nStark & Wayne, LLC\nMichael Brodhead, mkb to his pals, works for Stark & Wayne, a consultancy based in Palo Alto, CA. Mkb has worked for financial giants, tiny startups, and everything in between. At Stark & Wayne he helps clients secure and automate large-scale cloud deployments."

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - java
+title: 'Mnemosyne: a distributed bitmapped indexing layer for big data with Phil Messenger'
+language: English
+recordingDate: 1526549527
+description: "The Brandwatch Audiences product allows adhoc queries joining hundreds of millions of social network profiles with billions of post and tens of billions of follower graph edges, all updated in realtime at thousands of transactions per second.\n\nFace with scalability limitations in our original data backend, we opted to build Mnemosyne, our own distributed indexing layer. Fusing succinct data structures, free text search, in memory computing with the JVM, CUDA and Kafka, the final system is able to ingest millions of entities a second whilst still answering complex queries.\n\nThis talk is the story of this build, diving into how Mnemosyne works and revealing some surprising things we learned along the way. We'll cover CAP theorem trade-offs, how brute force approaches are sometimes better than indexes, the data structures and techniques required to sort billions of records in milliseconds, how GPU's can solve unexpected problems and how to do all this on the JVM."

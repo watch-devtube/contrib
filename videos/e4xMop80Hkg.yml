@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+title: 'Building a Messaging and Service Protocol - Jeremy Ong'
+recordingDate: 1367940419
+description: "Erlang Factory SF Bay Area 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/SFBay2013/talks\n\nThis talk presents the architecture behind a new backend for a game. The backend exhibits stateful design, modular components, and supports many concurrent users. Communication is built atop Cowboy websockets and it is pluggable.\n\nAt its core, the backend is a chat server. However, entities on the server can be users or services. Services are essentially chat bots with programmable capabilities. API requests to the server resemble chat messages to services so the client is easy to program. Adding new functionality is simply a matter of modifying an existing service or spinning up a new one with a rebar template.\n\nThe services themselves modify the user's state in memory as well as on the database so the entire flow requires very few database reads."

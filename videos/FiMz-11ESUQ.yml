@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - ml
+    - tensorflow
+    - scala
+title: '"Monadic Deep Learning" by Yang Bo, Xiaolei Wang'
+language: English
+recordingDate: 1506788489
+description: "Most of current deep learning frameworks are static. The structure of neural networks in those frameworks must be determined before running. In this talk, we will present the design and implementation tips of the dynamic neural network feature in DeepLearning.scala 2.0.\n\nDeepLearning.scala is a simple Domain Specific Language(DSL) for creating complex neural networks, which has the following advantages in comparison to TensorFlow or some other deep learning frameworks:\n\nDeepLearning.scala's DSL represents the process that dynamically creates computational graph nodes, instead of static computational graphs.\nOur neural networks are programs. All Scala features, including functions and expressions, are available in the DSL.\nThe DSL is based on Monads, which are composable, thus a complex layer can be built from atomic operators.\nAlong with the Monad, we provide an Applicative type class, to perform multiple calculations in parallel.\nIn brief, in DeepLearning.scala 2.0, you can create neural networks in the same way as ordinary Scala programs, and the computation in the networks still get scheduled onto GPU and CPU in parallel.\n\nYang Bo\nTHOUGHTWORKS\n\nYANG Bo is a Lead Consultant in Big Data research team in ThoughtWorks. He founded various open-source projects including Binding.scala and DeepLearning.scala. He now focuses on applying meta-programming and functional programming paradigms in different domains including front-end, micro-service, online-games and machine learning.\n\nXiaolei Wang\nTHOUGHTWORKS\n\nXiaolei Wang is a Data Scientist of ThoughtWorks. Mastered the art of extracting, designing and to developing the creative data analytics, to build scalable solutions and help automate data processing challenges is another highlight of her role as the expert in advanced statistics, mathematical modeling, data mining, machine learning and business intelligence area."

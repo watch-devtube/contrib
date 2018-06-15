@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: '"Exotic Functional Data Structures: Hitchhiker Trees" by David Greenberg'
+language: English
+recordingDate: 1474201208
+description: "Functional data structures are awesome--they're the foundation of many functional programming languages, allowing us to express complex logic immutably and efficiently. There is one unfortunate limitation: these data structures must fit on the heap, limiting their lifetime to that of the process. Several years ago, Datomic appeared as the first functional database that addresses these limitations. However, there hasn't been much activity in the realm of scalable (gigabytes to terabytes) functional data structures.\n\nIn this talk, we'll first review some of the fundamental principles of functional data structures, particularly trees. Next, we'll review what a B tree is and why it's better than other trees for storage. Then, we'll learn about a cool variant of a B tree called a fractal tree, how it can be made functional, and why it has phenomenal performance. Finally, we'll unify these concepts to understand the Hitchhiker tree, an open-source functionally persistent fractal tree. We'll also briefly look at an example API for using Hitchhiker trees that allows your application's state to be stored off-heap, in the spirit of the 2014 paper \"Fast Database Restarts at Facebook\"."

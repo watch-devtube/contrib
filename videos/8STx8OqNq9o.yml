@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - java
+title: '#bbuzz 2018: Nick Burch – Scalably crashing JVMs, or why binary data to content is hard'
+recordingDate: 1528904402
+description: "Further information: https://berlinbuzzwords.de/18/session/scalably-crashing-jvms-or-why-binary-data-content-hard\n\nSession abstract: \nLarge amounts of unknown data seeks helpful tools to identify itself and generate content! Ideally without crashing too often...\n\nWith one or two files, you can take time to manually identify them, and pull out useful content. With thousands of files, or the internet's worth, no amount of mechnical turks will scale this for you! Rolling your own will be slow, and probably crash your JVM... Luckily, there are open source tools and programs out there to help.\n\nWe'll start by figuring out why identifying what a given blob of 1s and 0s represents is tricky. Then, we'll see how tools like Apache Tika can help identify, and extract common metadata, text and embedded resources. As we scale out, we'll see how things can go wrong. Finally, we'll see how best to handle Big Data quantities, without crashing your cluster! (Too often...)"

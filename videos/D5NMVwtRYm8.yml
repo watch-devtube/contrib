@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - storage
+    - bigdata
+    - java
+title: '#bbuzz: Kris Geusebroek "I Mapreduced a Neo store: Creating large Neo4j Databases with Hadoop"'
+recordingDate: 1371631813
+description: "Kris Geusebroek\nhttp://berlinbuzzwords.de/users/krisgeus\n\nWhen exploring very large raw datasets containing massive interconnected networks, it is sometimes helpful to extract your data, or a subset thereof, into a graph database like Neo4j. This allows you to easily explore and visualize networked data to discover meaningful patterns.\n\nWhen your graph has 100M+ nodes and 1000M+ edges, using the regular Neo4j import tools will make the import very time-intensive (as in many hours to days).\n\nIn this talk, I'll show you how we used Hadoop to scale the creation of very large Neo4j databases by distributing the load across a cluster and how we solved problems like creating sequential row ids and position-dependent records using a distributed framework like Hadoop.\nAbout the speaker: \nKris is a developer with a passion for combining technologies to create new possibilities for the people around him. Coming from a Java and GIS background and being a fan of open source software, Kris started working with distributed systems and graph databases in the last couple of years. He's currently working on visualizing Big Data with the help of Hadoop and Neo4j. Kris has spoken at in-house knowledge sharing events and several local meetups. He also has experience doing handson training sessions at the dutch java user group."

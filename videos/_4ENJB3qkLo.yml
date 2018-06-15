@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Orchestrating Consumers and Producers Like an Octopus - Jusabe Guedes - ElixirConfEU 2018'
+language: English
+recordingDate: 1525269485
+description: "Imagine a scenario, where a queue needs to be consumed and each element must pass through a pipeline; the results may then go to different buckets. Each bucket must work independently, making sure all elements are correctly processed and flushed whenever possible.\n\nOrchestrating many consumers/producers at the same time can be challenging, especially when the operation depends on third party services which have different constraints. With this in mind, we are going to show an use case on how we achieved parallelism, necessary to work smoothly with thousands of clients simultaneously. We'll see how things like GenStage and GenServer can be used for all the heavy lifting, leaving us to focus on the business logic.\n\nView more on website here: http://www.elixirconf.eu/elixirconfeu2018/jusabe-guedes"

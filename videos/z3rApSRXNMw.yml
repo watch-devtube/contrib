@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - performance
+title: '#bbuzz 2016: Todd Lipcon -  Apache Kudu (incubating): Fast Analytics on Fast Data'
+recordingDate: 1465735673
+description: "Find more information here: https://berlinbuzzwords.de/session/apache-kudu-incubating-fast-analytics-fast-data\n\nOver the past several years, the Hadoop ecosystem has made great strides in its real-time access capabilities, narrowing the gap compared to traditional database technologies. With systems such as Impala and Spark, analysts can now run complex queries or jobs over large datasets within a matter of seconds. With systems such as Apache HBase and Apache Phoenix, applications can achieve millisecond-scale random access to arbitrarily-sized datasets.\n\nDespite these advances, some important gaps remain that prevent many applications from transitioning to Hadoop-based architectures. Users are often caught between a rock and a hard place: columnar formats such as Apache Parquet offer extremely fast scan rates for analytics, but little to no ability for real-time modification or row-by-row indexed access. Online systems such as HBase offer very fast random access, but scan rates that are too slow for large scale data warehousing workloads.\n\nThis talk will investigate the trade-offs between real-time transactional access and fast analytic performance from the perspective of storage engine internals. It will also describe Apache Kudu (incubating), a new addition to the open source Hadoop ecosystem that fills the gap described above, complementing HDFS and HBase to provide a new option to achieve fast scans and fast random access from a single API."

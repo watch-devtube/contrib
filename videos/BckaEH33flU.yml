@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - performance
+    - architecture
+    - java
+title: '"Onyx-Native, Information Flow Models and Scientific computing" by George Kierstein'
+language: English
+recordingDate: 1506824697
+description: "Scientific computing systems, especially climate-data ingest systems, have an exceptionally long life-spans, multiple independent non-developer authors years apart, are often polyglot (Java/C++/Bash) and usually provide 'institutional knowledge' as documentation. This makes any changes to code by a non-domain expert risky, time-consuming, and expensive. As a consequence, the typical approach to tackle code-debt is more like 'code archeology', chipping out those pesky gotos, instead of re-architecting its underlying structure to address systemic problems.\n\nThis talk presents Onyx-Native, a new library designed to support usage of stateful, native-code backed Java objects in an Onyx Platform workflow. Using the ASOS Ingest System as an touchstone, this talk will outline how Onyx's information flow model is particularly well suited to the kinds of legacy systems that require scientific correctness of results and are often opaque to the developer doing the work. This talk presents the library via specific examples of Onyx-Native applied to the scientific computing problem domain in practice. The ASOS Ingest System is a cornerstone product at NCEI (The National Centers for Environmental Information in NOAA) that is over 15 years old, uses modems to reach instrument platforms, which has grown to include code in: Java, C, C++, FORTRAN; and whose workflow is wired together by BASH.\n\nGeorge Kierstein\nNATIONAL CENTERS FOR ENVIRONMENTAL INFORMATION (NOAA)\n\nMs. George Kierstein has a deep interest in functional approaches to system architecture and a long professional history building high-performance computing systems on a variety of platforms. She is a recent functional programming convert and is excited about what functional programming and Clojure in particular can bring to the scientific community. She has over 16 years experience in industry and a Masters in Computational Neuroscience from Boston University"

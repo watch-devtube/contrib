@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Creating DSLs   A tale of spec tacular success and failure - Claire Alvis'
+recordingDate: 1460752811
+description: "Datomic has a fantastic Clojure API that is simple and data-driven, but too low level to directly express certain restrictions on the shape and types of data living on the database.\n\nspec-tacular is a DSL that lives between Clojure and Datomic and enforces extra restrictions on data types (via a specification language) by providing concise syntactic shortcuts to create, update, and query those well-typed entities from Clojure. Unfortunately, the resulting language (as implemented) has unreasonable restrictions that do not compensate for the corresponding loss of expressive power.\n\nIn this talk, I'll present the design of spec-tacular and describe how well it lives up to my vision of a healthy layer of abstraction over Datomic. I'll discuss the success of spec-tacular features in production, and trace failures back to poor language design."

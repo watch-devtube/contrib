@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: '"Caching at Netflix: The Hidden Microservice" by Scott Mansfield'
+language: English
+recordingDate: 1474123713
+description: "Netflix is well known for championing the microservice model, but within the complex layers of dependencies is a hidden service: the caching layer. The Netflix customer experience relies heavily on caches to provide a high-volume, low latency, globally available data layer that backs our stateless services. Throughout a typical customer experience, from sitting down on the couch through playing a movie, caches play a role in every interaction. The use cases here range from session storage to video history to subscriber status, all of which benefit from the stability and fault tolerance of EVCache, the primary caching system in use at Netflix.\n\nThe second part of the talk will peek under the hood of EVCache and its open source components: the EVCache client library, Rend, Memcached, and the not-yet-open-source Mnemonic. We will also look at sister projects that make up the rest of the EVCache ecosystem within Netflix. All of these components combined make up a high-volume, low-latency persistence system that fits many different use cases, even some where a cache might not normally be an obvious choice."

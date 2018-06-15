@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - elixir
+    - scala
+title: 'Torben Hoffmann - Game of Threads - You Spawn or You Die'
+recordingDate: 1387271592
+description: "Code Mesh London is the best place in Europe for non-mainstream tech and programming languages. On 4-5 December 2013 over 50 inventors and originators of the most innovative languages and technologies of the moment shared their experience with 200 attendees. Topics included Scala, Haskell, Clojure, Erlang, Elixir, Julia and much more. See you at Code Mesh 2014! codemesh.io/\n\nAbout the talk:\nErlang was tuned to writing distributed, concurrent systems and as such it has a set of core primivites for doing exactly that.\n\nHowever, it falls short performance wise when it comes to dealing with compute intensive problems due to the lack of floating point numeric operations within the VM and lack of GPU awareness. Another problem is that when you are playing a game of threads you have to manually spawn and manage processes, which can become unwieldly.\n\nThis talk will show how we have gone from offloading work via OpenCL to the creation of an intensional DSL to eliminate the burden of thinking about process management and coordination whilst writing parallel algorithms."

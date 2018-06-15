@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - cloud
+    - security
+title: '"How to make error handling less error-prone" by Daira Hopwood'
+language: English
+recordingDate: 1411388321
+description: "Error handling is one of the most difficult problems in computer science and in practical programming. Incorrect error handling often leads to security vulnerabilities (such as many of the recent spate of bugs found in TLS implementations), data loss, and user frustration.\nIn this talk, we'll first discuss why programs using existing error handling styles and mechanisms (return and status code checking, conditions and restarts, and exceptions) often fail to recover correctly from errors. We argue that this is due to a fundamental conflict between encapsulation and having enough information to recover a consistent state.Then we explain how this conflict can be solved by providing language support for automatically recovering the state before the call that failed, so that failures cannot cause inconsistency. We also describe how the 'Ken' protocol complements this automatic recovery and extends it to asynchronous and distributed systems.\n\nby Daira Hopwood (@DairaHopwood) - LeastAuthority.com\n\nDaira Hopwood works on cloud storage systems for LeastAuthority.com. Ze has a long-standing interest in programming language research and security, and after 20 years has finally turned that into a concrete language design. Daira is transgender and uses 'ze/hir' pronouns."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - scala
+title: 'Building Scala Hygienically with Pants'
+recordingDate: 1363723947
+description: "In this talk from the 2013 Northeast Scala Symposium, Foursquare engineer Mark Chu-Carroll presents a new build tool called pants (part of the twitter-commons library), which is the primary build system at Foursquare.\n\nScala's type system enforces code hygiene in Scala code. But the most common Scala build tools (SBT and Maven) do not enforce dependency hygiene during builds. Loose package hygiene in the build process results in unintended dependency cycles and slower, more error-prone builds.\n\nPants requires explicit declaration of inter-module dependencies, and uses a bottom-up build process to enforce those dependencies without sacrificing compilation speed.\n\n** It's not just about Scala! It's about the future. Check out tons more at http://bit.ly/nescala13"

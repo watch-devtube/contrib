@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: '"Reasoning about performance (in the context of search)" by Dan Luu'
+language: English
+recordingDate: 1474122549
+description: "We're going to use search as a case study on how to reason about performance before coding. Imagine you're building a search engine from scratch. There are maybe a trillion documents on the Internet. If each each document is 10kB, that's 10 petabytes of data! How do you query 10PB of data in a fraction of a second?\n\nThat might take years to implement, but it's surprisingly easy to reason about the performance of various possible designs. We'll talk about how to estimate performance using back of the envelope calculations that can be done in minutes or hours, even for applications that take months or years to implement.\n\nIn particular, we'll walk through a core search algorithm used in Bing, discuss how we initially estimated the performance and decided the system was worth building, and how the actual performance compared to the estimated performance.\n\nWe'll also talk about why the class of algorithm we're discussing has been considered obsolete as a core search engine technology for almost two decades, despite having reasonable performance characteristics in theory and practice."

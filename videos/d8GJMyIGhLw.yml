@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+title: 'Beyond the CAP theorem, consistency without consensus with CRDTs by Sam Bessalah'
+language: English
+recordingDate: 1447314630
+description: "Building distributed systems is about making trade offs. One example of trade off is sometimes having to choose between availability and strong consistency, like stated in the famous CAP Theorem. In real life production systems, providing predictable eventual consistency in highly available distributed systems is often done via external synchronization mechanisms, and complex consensus protocols like Paxos, RAFT, 2PC or Zab (Zookeeper).\n\nHopefully, a lot of academic research to provide strong eventual consistency has emerged in the form of Commutative and Convergent Replicated Data Types, commonly known as CRDTs. CRDTs are data structures that look similar to well-known data types like counters, sets, or maps. But their internal structure makes them safe for concurrent and distributed updates, without requiring any consensus between writers, and without any loss of information in the face of concurrency."

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - mobile
+    - android
+title: 'Project stORM: An Open Source ORM for SQLite on Android'
+recordingDate: 1353355280
+description: "When David Chandler joined the Android team at Google, he immediately found himself unhappy with the available Object Relational Mapping tools available to him. So naturally, he made his own, and previewed it at an SF Android Usergroup Meetup.\n\nChandler describes \"Project stORM\" as \"A new offering that aims for a streamlined developer experience (only two annotations required) and solid performance (preferring code generation over reflection). stORM is extensible, minimally intrusive, and offers built-in CSV backup / restore capabilities to facilitate database version upgrades.\"\n\nDavid has asked us to add this note to the talk:\n\nRevised setup instruction:\n1. Add storm-api.jar to your project's libs/ folder. It's no longer necessary to export it.\n2. Add storm-apt.jar to the annotation factory classpath (as before).\n\nCode improvements:\n * Enums are now supported.\n * The generated DatabaseFactory class now properly implements the singleton in a thread-safe way, so getDatabaseHelper() can safely be called from another thread such as an AsyncTask.\n * SQLiteDAO base class now properly closes the Cursor wherever it can."

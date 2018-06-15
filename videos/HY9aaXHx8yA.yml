@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+title: 'Pre-scaling Bitmaps (100 Days of Google Dev)'
+language: English
+recordingDate: 1438276395
+description: "For media rich applications, BITMAPS are everywhere. But these high-resolution images can cause a horde of performance problems if the size of the image in memory is larger than the size you’re displaying it on screen. As such one of the most important things you can do to alleviate memory pressure in your app, is resizing your bitmaps.\n\nRather than writing all your own image resizing code, Android has a set of APIs which can do all this work for you. But the trick is, knowing which one to use?\n\nFor example, inSampleSize is the fastest way to down-scale your image; But you can only make it smaller by some factor of your image. createScaledBitmap is a great API, but requires an extra memory allocation to get it done. \n\nThankfully, Colt McAnlis covers all these topics (and more) in this video, helping you reduce your memory footprint, and get some smaller images.\n\nWatch more Android Performance Patterns here: http://goo.gl/4ZJkY1\n\nJoin the G+ Community here : http://goo.gl/g7mxmI\n\n100 Days of Google Dev / 100 developer videos over 100 days / #GoogleDev100 \n\nSubscribe to the Google Developers channel here: http://goo.gl/mQyv5L"

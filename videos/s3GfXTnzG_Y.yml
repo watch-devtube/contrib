@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cassandra
+    - architecture
+title: '"Building a Distributed Task Scheduler With Akka, Kafka, and Cassandra" by David van Geest'
+language: English
+recordingDate: 1474335065
+description: "Dynamically scheduled tasks are at the heart of PagerDuty's microservices. They deliver incident alerts, on-call notifications, and manage myriad administrative chores. Historically, these tasks were scheduled and run using an in-house library built on Cassandra, but that solution had begun to show its age.\n\nEarly in 2016, the Core team at PagerDuty built a new Task Scheduler using Akka, Kafka, and Cassandra. After six weeks in development, the Scheduler is now running in production. This talk discusses how the strengths of the three technologies were leveraged to solve the challenges of resilient, distributed task scheduling.\n\nThis talk will present a number of distributed system concepts in the real-world context of the Scheduler project. How can you dynamically adjust for increased task load with zero downtime? Can you guarantee task ordering across many servers? Do your tasks still run when an entire datacenter goes down? What happens if your tasks are scheduled twice? Attendees can expect to see how all of these challenges were addressed.\n\nSome familiarity with distributed queueing and actor systems will be helpful for attendees of this talk."

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'mnesia + leveldb (...) - Mikael Pettersson - Erlang User Conference 2015'
+recordingDate: 1436175336
+description: "\"mnesia + leveldb: liberating mnesia from the limitations of DETS\"\nSlides and more info: http://www.erlang-factory.com/euc2015/mikael-pettersson\n\nMnesia offers various database features, but restricts users to a few storage engines with substantial limitations. This talk describes mnesia_ext, an extension which allows arbitrary storage engines to be plugged into mnesia, and how Klarna used this to migrate parts of its database to LevelDB. We will also talk about our experiences with LevelDB, and some improvements we have made.\n\nTalk objectives:\n\n- Present mnesia_ext. Show that LevelDB is a production-grade storage engine for Erlang (with or without mnesia on top).\n\nTarget audience:\n\n- Backend developers. Erlang/OTP maintainers.\n\n\nStarted out in academia studying formal semantics of programming languages. Shifted towards compilers, runtime support, and virtual machines. Researcher in the HiPE group working on compiling Erlang to native code, and various aspects of the Erlang VM. Worked on performance analysis tools for the high-performance computing market. Now works for Klarna, on its Erlang-based transaction engine. Wishes Erlang had Scheme's syntax and SML's type system. Cider maker and former beer brewer."

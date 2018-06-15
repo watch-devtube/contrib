@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Transactions and Concurrency Control Patterns by Vlad Mihalcea'
+language: English
+recordingDate: 1488459180
+description: "Transactions and Concurrency Control are very of paramount importance when it comes to enterprise systems data integrity.\n\nHowever, this topic is very tough since you have to understand the inner workings of the database system, its concurrency control design choices (e.g. 2PL, MVCC), transaction isolation levels and locking schemes.\n\nIn this presentation, I'm going to explain what data anomalies can happen depending on the transaction isolation level, with references to Oracle, SQL Server, PostgreSQL, and MySQL.\n\nI will also demonstrate that database transactions are not enough, especially for multi-request web flows.\n\nFor this reason, I'm going to present multiple application-level transaction patterns based on both optimistic and pessimistic locking mechanisms."

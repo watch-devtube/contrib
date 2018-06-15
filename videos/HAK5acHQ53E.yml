@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+title: 'Avoiding Allocations in onDraw() (100 Days of Google Dev)'
+language: English
+recordingDate: 1435078343
+description: "One of the common problems with memory issues in an Android Application has to do with Memory Churn; that is, allocating a bunch of objects, in a short period of time. This issue can kick off a load of Garbage Collection events, which eats into your potential framerate. \n\nIn this video, Ian Ni-Lewis takes a deep loop at one of the most common causes of memory-churn : Doing allocations inside of an onDraw() function. But the main question is, why would an allocation in onDraw() be worse than an allocation anywhere else? \n\nWatch more Android Performance Patterns here: http://goo.gl/4ZJkY1\n\nJoin the G+ Community here : http://goo.gl/g7mxmI\n\n100 Days of Google Dev / 100 developer videos over 100 days / #GoogleDev100 \n\nSubscribe to the Google Developers channel here: http://goo.gl/mQyv5L"

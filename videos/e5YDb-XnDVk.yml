@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+title: 'Snappy travels with the Roads API'
+language: English
+recordingDate: 1425502811
+description: "Mobile apps need accurate visualization of actual roads travelled.\n\nThe Google Maps Roads API lets you send a bunch of GPS coordinates collected from your mobile phone to Google’s servers and get returned coordinates that snap to roads - letting you create a more accurate visualization of journeys your device has been traveling.\n\nBy detecting noisy GPS coordinates and discarding them, as well as providing interpolated intermediate points, the returned coordinates can more accurately represent the actual path you’ve been traversing.\n\nMobile apps need to conserve battery power, and reducing GPS sample rates is a good way to reduce power consumption, but if the number of samples gets too low to trace an accurate path, the Roads API lets a mobile app reproduce the actual path travelled without the penalty of power consumption from too much polling.\n\nTo find out more, head over to the documentation at:\nhttps://developers.google.com/maps/documentation/roads/\n\nand explore the samples at:\nhttps://developers.google.com/maps/documentation/roads/snap\n\n#googlemaps"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cassandra
+    - cloud
+title: 'Ian Eslick -  Probe: Program Traces as First Class State'
+recordingDate: 1395780668
+description: "Traditional logging systems throw away a great deal of implicit dynamic program state in the process of serializing to interoperable string formats. Within the walled garden of our Clojure applications, having easy programmatic access to the complete dynamic behavior of your program is not only feasible, but desirable.\n\nThis talk introduces Probe, a library meant to serve as your primary infrastructure for capturing and analyzing dynamic program behavior. Instead of generating strings, it captures maps of explicit (provided via arguments) and implicit program state.\n\nState, or probes, captured by statements can be enabled/disabled at runtime, reducing the computational cost of putting probe statements in your code. Further, Probe can also attach to any function call interface or probe point at runtime. State maps are immediately handed off to core.async channels to reduce the cost on the current thread. These channels filter, aggregate and route the data to an extendable set of sinks.\n\nWe are using Probe in a pre-production system to capture the dynamic behavior of a distributed cloud-based system to a Cassandra cluster. We introduce a set of user cases and our growing library of forensics queries which simplifies our modeling of a real-time, cloud-based distributed system."

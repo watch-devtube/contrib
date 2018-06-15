@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - react
+    - devops
+    - security
+title: 'Velocity 2013: Dylan Richard, "Gamedays on the Obama Campaign"'
+recordingDate: 1371759848
+description: "http://velocityconf.com\nMain idea: We did a series of gamedays on the Obama campaign to prepare for election day. Doing these exercises allowed us to illuminate critical limitations in our systems in a safe environment with time to fix them, and made election day (which is traditionally crazy) uneventful.\n\nWhy we did a gameday building out infrastructure for 18 months to support 1 (4 day long) day in the end; all of the tech could fail, but we needed to be sure we could GOTV teambuilding What we did Process changes to better respond to failure Defining desired failure states Fast iteration to keep engineering focus How we did it: low feature sprints to focus on durability production-like staging environment -- allows freedom to really break everything. make it about the response, not the specific cases being tested started according to plan -- broke from that plan DevOps/Management backchannel there are no safewords (if we're acting like it's for play, then it isn't real). killing things: security groups /etc/hosts overrides Results of doing the gameday: Found weak points and fixed them Teams worked on failure points from both sides of the problem (api and client, db and code, etc.) Runbooks: actual documentation stating how to react to issues. Need to reproduce -- do more on smaller scale on regular schedule.\n\nhttp://velocityconf.com/velocity2013/public/schedule/speaker/150628"

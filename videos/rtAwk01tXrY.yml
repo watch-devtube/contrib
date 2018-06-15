@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - scala
+title: 'On the way to low latency (Artem Orobets, Ukraine)'
+recordingDate: 1468314067
+description: "This is a story about how we struggled to implement strict latency requirements in a service implemented with Scala and Netty. And how we managed to do that.\n\nThe most common latency contributors are an in-process locking, thread scheduling, I/O, algorithmic inefficiencies and, of course, garbage collector.\n\nI will share our experience of dealing with the causes. And tell what you can do to prevent them from affecting the production."

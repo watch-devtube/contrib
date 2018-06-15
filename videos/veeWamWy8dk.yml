@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - scala
+title: '"Practical data synchronization with CRDTs" by Dmitry Ivanov'
+language: English
+recordingDate: 1474122490
+description: 'In a connected world, synchronising mutable information between different devices with different clock precision can be a difficult problem. A piece of data may have many out-of-sync replicas but all of those should eventually be in a consistent state. For example, TomTom users, having personal navigation devices, smartphones, MyDrive website accounts, expect their navigation information be synchronised properly even in the occasional absence of network connection. Conflict-free Replicated Data Types (CRDTs) provide robust data structures to achieve proper synchronisation in an unreliable network of devices. They enable the conflict resolution being done locally at the data type level while guaranteeing the eventual consistency between replicas. In addition to an introduction to common CRDT types, the main focus is on the special subtype of CRDT-Set called OUR-Set (Observed, Updated, Removed), which we created to extend known CRDT sets with update functionality. I will demonstrate basic implementations of various CRDTs in Scala and enumerate subtle considerations which should be taken into account. I will also explain the advantages of these data structures to solve many synchronisation problems as well as their limitations.'

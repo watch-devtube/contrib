@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - elixir
+    - ruby
+    - python
+    - java
+title: 'Migrating an Invoicing System to Elixir/Erlang by Norberto Ortigoza'
+recordingDate: 1474974394
+description: "Slides and more info: http://www.erlang-factory.com/euc2016/norberto-ortigoza\n\nElectronic invoices are a critical part of trade in Mexico. If invoices are not created and delivered in time, we can generate serious problems such as complete loss of cargo ships, representing millions of Mexican pesos in losses. \n\nWe had a legacy system developed in Java from 8 years ago. It had a lot of problems including:\n\n1) Big memory footprint (24 GB per server)\n\n2) A lot of servers in order to distribute load and isolate errors (15 servers)\n\n3) Frequently downtimes \n\n4) No proper error handling and messages for troubleshooting\n\n5) No statistics (they produced more load in the system)\n\nWe built a new system that resolves all these problems and provides a better foundation for future services.\n\nWe wrote the backend in Erlang and Elixir, with additional micro-services in Python, C++ and Java for XML validation and PDF generation.\n\nIn this presentation I will talk about:\n\n1) How we trained the team of java/ruby in Elixir/Erlang \n\n2) Metrics about the new system (from 15 to 4 servers, etc.)\n\n3) Problems we face\n\n4) How to introduce Elixir/Erlang in a company with a lot of investment in Java. \n\nTalk objectives:\n\n- To show another area where Erlang/Elixir fits very well (High availability). \n\n- To show how to introduce Erlang in a medium size company with no previous experience using it.\n\n- To show how to transition from a Java system to an Erlang one.\n\nTarget audience:\n\nProject or Technical Leaders, CTOs, Programmers"

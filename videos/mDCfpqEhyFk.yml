@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+title: 'Pandas And Scikit-learn: Secret Best Friends'
+language: English
+recordingDate: 1523550603
+description: "The vast majority (all?) examples in the scikit-learn documentation are shown with numpy arrays as the dataset container. When your dataset is entirely numerical and your transformations are fairly simple, this works well. However, when your dataset is more complex (with a mix of dates, categorical and numerical variables... where pandas shines) and your training pipelines are longer, it would be very nice to keep your data as pandas DataFrames and be able to use their power to write most of the steps of your training pipeline. It turns out, this is supported by scikit-learn, and possible out of the box.\n\nIn this talk, we'll show how this is possible and easy, through an interactive example. We'll show how keeping your dataset as a pandas DataFrame until the end allows you to prototype transformations using pandas, and then drop those transformations into your model pipeline with minimal work. At the end of the talk, people already using scikit-learn will be able to integrate this technique into the machine learning pipelines to be more productive when working with complex datasets, and will also have an online example to refer to if needed.\n\nEVENT:\n\nPyCon Canada 2017\n\nSPEAKER:\n\nChristian Hudon\n\nPERMISSIONS:\n\nPyCon Organizer provided Coding Tech with the permission to republish this video."

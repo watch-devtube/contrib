@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'Building a P2P Multi-Purpose Database by Benoit Chesneau'
+recordingDate: 1474898070
+description: "Slides and more info: http://www.erlang-factory.com/euc2016/benoit-chesneau\n\nBarrel (https://barrel-db.org) is a modern multi-purpose database in Erlang focusing on data locality (put/match the data next to you) and P2P. Building a database in Erlang is indeed challenging. I/Os are handled differently from the other VM for example. Performance is always a trade-off versus the concurrency and the fault tolerance. On the other hand, Erlang, its vm, the OTP framework offer many competitive advantages that can help you to build a very effective database. To achieve this we created a binding of Facebook rocksdb based on dirty-nif, cowdb to have a pure erlang key/value storage ithout the limit of DETS and our own way to manage presence and claim spaces to store our data over the web.\n\nTalk objectives:\n\nThis talk will show how we built Barrel in Erlang, using C when we needed it, which pattern we choose to achieve the read/write concurrency and how we distribute the data. It will show you also how we built a P2P protocol allowing us to distribute our data without any bottleneck."

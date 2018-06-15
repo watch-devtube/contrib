@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - web
+    - react
+    - architecture
+title: 'Maurice De Beijer: Event-Sourcing your React-Flux applications - JSConf Budapest 2016'
+language: English
+recordingDate: 1465551951
+description: "Most React-Flux applications just store the data being edited as is in a database. While it is perfectly fine to treat data in a simple CRUD fashion like this with a smaller application this is not very optimal when applications get more complex. For more complex applications using the Command Query Responsibility Segregation (CQRS) design pattern together with Event-Sourcing (ES) is a much more powerful solution.\n\nWith Event-Sourcing every action leading up to the current state is stored as a separate domain event. This collection of domain events is then used as the write model in the CQRS model. These same events are projected out to a secondary database to build the read model for the application. In this session Maurice de Beijer will explain why you might want to use Event-Sourcing and how to get started with this design in your React and Flux applications.\n\nhttp://jsconfbp.com/speakers/maurice-de-beijer.html"

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+title: 'Android Performance Patterns: Understanding VSYNC'
+language: English
+recordingDate: 1420572808
+description: "Unbeknown to most developers, there’s a simple hardware design that defines everything about how fast your application can draw things to the screen.\n\nYou may have heard the term VSYNC - VSYNC stands for vertical synchronization and it's an event that happens every time your screen starts to refresh the content it wants to show you.\n\nEffectively, VSYNC is the product of two components Refresh Rate (how fast the hardware can refresh the screen), and Frames Per Second (how fast the GPU can draw images), and in this video +Colt McAnlis walks through each of these topics, and discusses where VSYNC (and the 16ms rendering barrier) comes from, and why it’s critical to understand if you want a silky smooth application.\n\nWatch more Android Performance Patterns here: http://goo.gl/3dBbse\n\n#develop, #performance, #render, #vsync"

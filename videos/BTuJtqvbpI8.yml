@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'The Pooler Story: How I Learned OTP by Writing a Connection Pool - Seth Falcon'
+recordingDate: 1367329345
+description: "Erlang Factory SF Bay Area 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/SFBay2013/talks\n\nPooler is a generic process pooling OTP application. It was originally designed as a connection pool for Riak and was later repurposed to pool Postgresql connections in Opscode's Hosted Chef web service.\n\nThis is the story of the design evolution of pooler and how it helped me understand OTP. The primitives for process linking in Erlang make building an exclusive access pool easy. The task of composing those primitives in a way that follows the OTP design principles is less straight forward for the beginner.\n\nIn this talk I'll describe the journey from simple gen_server to\ncomplete OTP application and highlight some lessons learned when running the application under load and integrating it into OTP\nreleases."

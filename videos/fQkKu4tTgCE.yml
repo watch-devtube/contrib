@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - scala
+title: 'Field guide to DDD/CQRS using the Scala Type System and Akka by Renato Cavalcanti'
+language: English
+recordingDate: 1447230486
+description: "In this talk we'll explore some techniques you can use when implementing a DDD/CQRS application using Akka and Scala.\n\nFirst we'll show how we can use the Scala Type System to build a domain model based on case classes and functional paradigms. Contrary to what the common sense dictates, we'll demonstrate that functional programming is a very good fit for domain modeling.\n\nSecondly we'll explore the available options when integrating it with Akka and Akka Persistence.\n\nWe'll cover the following points:\n\nThe advantages and pitfalls of using Akka as a messaging subsystem\nHow to reliably propagate events from the command side to the query side of your CQRS application\nHow to recover from failure\nHow to fit it in an asynchronous programming model\nWe'll wrap-up the talk with a short demo application built on Play and Akka."

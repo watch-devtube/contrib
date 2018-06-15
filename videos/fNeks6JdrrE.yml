@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - containers
+title: '#bbuzz 17: Jim Dowling - Hops: Multi-Tenancy and Streaming-First in an open-source SaaS platform'
+recordingDate: 1497534506
+description: "Further information: https://berlinbuzzwords.de/17/session/hops-multi-tenancy-and-streaming-first-open-source-saas-platform\n\nHops is a new European version of Hadoop that introduces new concepts to Hadoop to enable multi-tenant Streaming-as-a-Service. In particular, Hops introduces the abstractions: projects, datasets and users. Projects are containers for datasets and users, and are aimed at removing the need for users to manage and launch clusters today, as clusters are currently the only strong mechanims for isolating users and their data from one another.\n\nIn this talk we will discuss the challenges in building multi-tenant streaming applications on both Spark and Flink over YARN using Hops concepts. Our platform, called Hopsworks, is in an entirely UI-driven environment built with only open-source software. We also show how we use the ELK stack (Elasticsearch, Logstash, and Kibana) for logging and debugging running Spark streaming applications, how we use Grafana and InfluxDB for monitoring Spark streaming applications, and finally how Apache Zeppelin can provide interactive visualizations and charts to end-users. We will also show how applications are run within a 'project' on a YARN cluster with the novel property that applications are metered and charged to projects. We will also discuss our experiences running streaming-as-a-service on a cluster in Sweden with over 150 users (as of early 2017).  \n\nSpeaker:\nJim Dowling\nhttps://twitter.com/jim_dowling"

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Multi Env Deploys with Terraform as Application Glue with Ben Vickers'
+recordingDate: 1526547591
+description: 'In simple software releases, and in simple deployments, Continuous Delivery looks like a solved problem. However, many services come with external dependencies and rely on multiple platforms. When these applications need to be deployed across multiple environments, both developers and operators alike may struggle. In this talk I am going to show an easy way to tackle these problems with a familiar tool: Terraform. Terraform is primarily used for infrastructure management. However, since the APIs that it integrates with are also those we depend on at the application layer, Terraform can help us in the process of deploying software too. We are first going to introduce the general problem of deploying an app and gluing it together with its backing services. Then we will explore how Terraform can help to solve this problem in the specific example of adding a database to an existing service. Modules, workspaces, and dependency resolution will prove to be useful features. Finally, we will look at some limitations of this approach.'

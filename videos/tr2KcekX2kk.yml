@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - storage
+    - startup
+    - architecture
+title: '"Why We Built Our Own Distributed Column Store" by Sam Stokes'
+language: English
+recordingDate: 1506949542
+description: "How do you understand the behaviour of complex distributed systems in production? Distributed systems can fail in unpredictable, hard-to-detect ways. To track down problems quickly, you need to look for patterns and correlations in your data, trying different ways of breaking it down. \"Does the problem occur on just one host, or one partition, or for particular customers?\"\n\nSub-second complex queries over large data volumes in real time: sounds like a tall order. The Scuba paper from Facebook describes an architecture that can do it: a low-latency, distributed, schemaless database. Scuba achieves fast queries by storing all data in memory. It stores the raw events, and fans out queries to multiple nodes, so it can support complex queries including aggregates (like mean and percentile statistics) and breakdowns by fields of arbitrary cardinality.\n\nBuilding Honeycomb, we needed a database with these properties, but we had additional constraints: multi-tenancy, cost to serve, and the limited resources of a startup. This talk describes Retriever, a custom-built database inspired by Scuba. Retriever ingests events from Kafka, and chooses disk over memory, using an efficient column-oriented storage model. I'll discuss interesting aspects of the implementation, and lessons learned from operating a hand-rolled database at production scale with paying customers.\n\nSam Stokes\nHONEYCOMB\n\nSam Stokes is a software engineer who can't leave well enough alone. He's compelled to fix broken things, whether they are software systems, engineering processes or cultures. After watching too many systems catch fire, he's building better smoke detectors at Honeycomb; in a past life he cofounded Rapportive and built recommendation systems at LinkedIn."

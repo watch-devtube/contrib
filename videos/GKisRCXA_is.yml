@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Beyond MapReduce - Prashanth Mundkur'
+recordingDate: 1367505850
+description: "Erlang Factory SF Bay Area 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/SFBay2013/talks\n\nThe goal of Disco has been to be a simple and usable implementation of MapReduce. To keep things simple, this MapReduce aspect has been hard-coded into Disco, both in the Erlang job scheduler, as well as in the Python library. To fix various issues in the implementation, we decided to take a cold hard look at the dataflow in Disco's version of MapReduce. We came up with a generalization that should be more flexible and hence also more useful than plain old MapReduce. We call this the Pipeline model, and we hope to use this in the next major release of Disco. This will implement the old MapReduce model in terms of a more general programmable pipeline, and also expose the pipeline to users wishing to take advantage of the optimization opportunities it offers.\n\nIf time permits, we will also discuss other aspects of the Disco roadmap, and the future of the Disco project."

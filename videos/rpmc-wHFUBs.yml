@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - heroku
+    - heroku
+title: 'Logs as Data - Mark McGranaghan'
+recordingDate: 1357585589
+description: 'A unifying principle of Clojure''s design is expressing programs in terms of a few universal abstractions such as functions, maps, and sequences. Such unification allows us to apply Clojure''s powerful library to diverse problem domains and to compose programs that cross these domains. We''ve previously seen this principle applied to HTTP servers and runtime exceptions. In this talk we examine the traditionally-overlooked area of logging in light of the unifying abstractions of functions, maps, and sequences. Treating logs as a sequence of maps and log analysis as the application of functions over map sequences allows logs to become an enormously powerful and general tool for metrics, analytics, alerting, and debugging in production systems. In additional to a general discussion of logs-as-data, we examine the paradigm in detail for Clojure applications on both the producing and consuming sides. On the producing side, we show how a Clojure application can be instrumented to capture log data and to emit it in a way that is orthogonal both to the application''s execution environment and to the one or more possible consumers of the log sequence. On the consuming side, we discuss the Pulse service. Pulse is a distributed log consumer, analyzer, and aggregator, written in Clojure, that processes the log firehouse from the Heroku cloud platform and uses it to power a real-time Heroku operations dashboard.'

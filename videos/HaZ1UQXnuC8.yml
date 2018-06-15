@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - c++
+    - ios
+    - scala
+title: 'CppCon 2017: Michael Park “MPark.Patterns: Pattern Matching in C++”'
+language: English
+recordingDate: 1507930303
+description: "http://CppCon.org\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/CppCon/CppCon2017\n—\nPattern matching brings a declarative approach to destructuring and inspecting complex data types. It’s a very powerful abstraction provided by many programming languages such as Haskell and OCaml, and more recently, Rust, Scala, and Swift. \n\nWe’ll see a glimpse of pattern matching in C++17 and their current limitations through features such as structured bindings, `apply`, and `visit`. We’ll then jump into MPark.Patterns, an experimental pattern matching library for C++. The following is an example of `fizzbuzz` written with the library: \n\nvoid fizzbuzz() { \n   for (int i = 1; i ＜= 100; ++i) { \n    using namespace mpark::patterns; \n    match(i % 3, i % 5)( \n      pattern(0, 0) = [] { std::cout ＜＜ \"fizzbuzz\\n\"; }, \n      pattern(0, _) = [] { std::cout ＜＜ \"fizz\\n\"; }, \n      pattern(_, 0) = [] { std::cout ＜＜ \"buzz\\n\"; }, \n      pattern(_, _) = [i] { std::cout ＜＜ i ＜＜ '\\n'; }); \n  } \n} \n\nWe’ll see many more examples like this that lead to simpler, declarative code that focuses on the desired shape/state of the data, rather than a sequence of imperative code that tries to inspect the data in piecemeal. \n\nThe goal of the library, and the talk is to gain experience and exposure to pattern matching in order to potentially help guide the design of a language-based pattern matching mechanism.\n— \nMichael Park: Mesosphere, Software Engineer\n\nI’m a committer for the Apache Mesos project, and work as a Distributed Systems Engineer at Mesosphere. Within the realm of computer science, I’m very much intrigued by language design, compiler construction, and distributed systems. I’m also an active member of the ISO C++ Standards Committee.\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"

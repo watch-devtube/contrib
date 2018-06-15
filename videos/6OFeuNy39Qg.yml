@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - startup
+    - containers
+    - kubernetes
+title: '"The hows and whys of a distributed SQL database" by Alex Robinson'
+language: English
+recordingDate: 1506788950
+description: "Until recently, developers have had to deal with some serious tradeoffs when picking a database technology. One could pick a SQL database and deal with their eventual scaling problems or pick a NoSQL database and have to work around their lack of transactions, strong consistency, and/or secondary indexes. However, a new class of distributed database engines is emerging that combines the transactional consistency guarantees of traditional relational databases with the horizontal scalability and high availability of popular NoSQL databases.\n\nIn this talk, we'll examine the history of databases to see how we got here, covering the motivations for this new class of systems and why developers should care about them. We'll then take a deep dive into the key design choices behind one open source distributed SQL database, CockroachDB, that enable it to offer such properties and compare them to past SQL and NoSQL designs. We will look specifically at how to achieve the easy deployment and management of a scalable, self-healing, strongly-consistent database with techniques such as dynamic sharding and rebalancing, consensus protocols, lock-free transactions, and more.\n\nAlex Robinson\nCOCKROACH LABS\n\nAlex Robinson is a member of the technical staff at Cockroach Labs, the startup leading the development of the fully open source (Apache-licensed) CockroachDB project. Previously, he was a senior software engineer at Google, where he spent his last two years as a core developer of both Kubernetes and Container Engine. Prior to that, he worked on Google's cloud logging and monitoring infrastructure and improved the efficiency of privacy checks at Facebook."

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - cloud
+    - mobile
+    - architecture
+title: 'An Economic Architecture for Cloud Computing'
+recordingDate: 1242094343
+description: "Google Tech Talk\r\nMay 8, 2009\r\n\r\nABSTRACT\r\n\r\nPresented by Kevin Lai\r\n\r\nCloud computing and its predecessors, grid and utility computing, all address shared, on-demand computing at scale. To achieve sufficient scale to amortize costs, cloud computing emphasizes saving human time through 1) automated management, 2) easier programming using systems like MapReduce and Hadoop, and 3) shared and open access.\r\n \r\nExisting architectures for achieving these goals are composed of largely isolated resource allocation sub-systems (e.g., for MapReduce scheduling, virtualization, CPU, network bandwidth, power, etc.) These sub-systems have global impact, but local visibility, which can cause them to work against each other. The shared, open nature of cloud computing systems requires balancing the need to do efficient local allocation of resources and the need to regulate and differentiate applications globally.\r\n \r\nWe take a clean slate approach to designing a cloud computing architecure. We apply economic mechanisms to resources at every layer from the high-level Hadoop system through the allocation of virtualized resources to physical servers. We find that this approach 1) simplifies system design, 2) provides more high-level optimization opportunities, 3) provides greater control over predictability, and 4) increases overall application utility.\r\n \r\nKevin Lai is a Research Scientist in the Social Computing Lab at HP Labs. He has done research on operating systems, mobile and wireless networking, network measurement, and economic approaches to resource allocation. He is currently the lead developer of the Open Cirrus cloud computing system. He received his Ph.D. in Computer Science from Stanford University."

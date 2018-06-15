@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: '"A Frontend Server, Front to Back" by Zach Tellman'
+language: English
+recordingDate: 1474123909
+description: "For any service, the frontend is the services which depend on it, and the backend is the services it depends upon. In a many-layered service-oriented system, the frontend server is the outermost layer, responsible for handling requests from the outside world. Typically, a frontend server is responsible for universal behavior, including authentication, rate limiting, and traffic prioritization.\n\nThe exact behavior will vary from company from company, and so most large software organizations will write one from scratch; Google has \"gws\", and Twitter has \"tfe\". Recently, Fitbit built its own. Such a server has to be fast, stable, scalable, extensible, and easy to monitor. However, the entire code base is only 3000 lines of code, making it an ideal platform for exploring the low-level engineering decisions that enable these properties, and the tradeoffs between them.\n\nThis talk will explore the implementation of Fitbit's frontend server, covering topics ranging from queueing theory and software design to GC tuning and the Netty library. It is meant to be a deeply practical discussion of topics which are normally only discussed in the abstract."

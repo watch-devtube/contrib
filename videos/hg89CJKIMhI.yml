@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Andrew Stone - Building Actor Systems in Rust - Code Mesh 2017'
+language: English
+recordingDate: 1513616665
+description: "Rust is a statically typed programming language focused on safety, speed and concurrency.\n\nRust provides many features of modern programming languages such as abstract data types, pattern matching, lazy iterators, type inference and generics. It provides memory safety and prevents data races at compile time via its unique ownership system, which allows building zero-cost abstractions without garbage collection.\n\nWhile Rust allows writing clear, concise, and correct code with excellent performance, the nature of its type system provides many choices when implementing an actor system. There are many obstacles that must be overcome when implementing an actor system in a language such as Rust, and many tradeoffs that must be considered along the way. The number of obstacles and tradeoffs grows when we talk about location-transparent actor systems that span multiple nodes and don't run inside a single process.\n\nThis talk will discuss the key obstacles to be overcome when building a location-transparent actor system in Rust. It will progress by choosing specific forks in the road, all the while describing the tradeoffs in terms of performance, flexibility, ergonomics, extensibility, and testability of\nthe actor library being constructed. Along the way, the listener will learn just enough Rust to understand the capabilities and challenges the language provides for building actor systems.\n\nRead more here: http://www.codemesh.io/codemesh2017/andrew-stone"

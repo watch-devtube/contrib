@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - java
+    - .net
+title: 'Juggling with Bits and Bytes - How Apache Flink operates on binary data - Fabian Hueske'
+language: English
+recordingDate: 1433370362
+description: "Apache Flink Meetup Berlin 27.05.15\n\nSlides: http://www.slideshare.net/fhueske/how...\n\nBlog post: https://flink.apache.org/news/2015/05...\n\nA common challenge that all JVM-based data analytics engines such as Apache Flink face is to store large amounts of data in memory to enable efficient sorting and joining. The most straight-forward approach to process on lots of data in a JVM is to put it as objects on the heap and operate on these objects. However, this approach has a few notable drawbacks. \nIn this talk, Fabian will explain in detail how Flink actively manages its memory, serializes objects into binary representations, and efficiently operates on this data. He will also show some numbers comparing the performance of sorting objects on the heap and sorting them in a serialized format.\n\nhttps://flink.apache.org/\nhttp://data-artisans.com/"

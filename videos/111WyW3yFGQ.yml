@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - containers
+    - docker
+    - architecture
+    - java
+title: 'An Evolution of a Betting Engine at William Hill - Peter Morgan'
+recordingDate: 1447860328
+description: "Slides and more info: http://www.codemesh.io/codemesh2015/peter-morgan\n\nTake a peek at some of the R&D that we are doing at William Hill to cope with 464 bets per second, 5,000,000 price changes and 160TB of data passing daily through our networks on a system that is available 24x7.\n\nTalk objectives\n\nMany of our current systems are based on a traditional database centric architecture. Our current capacity is fixed for the major sporting events relying on more exotic hardware each year to vertically scale this monolith. Much of this capacity can be idle during the troughs of the sporting calendar. We are exploring new Architecture patterns for our sports betting system designed to scale elastically according to demand, with a soft realtime shared nothing message based architecture We are now on our third iteration of a stream based erlang betting engine, where we use Apache Kafka as our firehose. Our micro services are packaged in Docker and sometimes are as big as 64kb of code. Join us as we discuss the issues that we have found in earlier iterations of the architecture: how we have measured and the tuning that we have applied.\n\nTarget audience\n\nFunctional programmers with an interest in Erlang and writing systems at scale.\n\nAbout Peter\n\nPeter is responsible for all development projects at William Hill and has been a strong adopter of distributed architecture, including NoSQL Riak database. Previously, Peter was co-founder and lead Java programmer of jcoverage which subsequently morphed into cobertura and co-founder at EJBHome, acquired by IONA technologies."

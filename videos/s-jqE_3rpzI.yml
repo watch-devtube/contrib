@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+    - javascript
+title: 'Exploiting Relationship Graphs to Isolate Tenant Data - Dian Fay'
+recordingDate: 1499244332
+description: "Multi-tenant database architecture is a common and intuitive strategy for supporting many clients in the enterprise software world: everyone's using the same software, everyone's data fit the same schema, and it's much easier to manage one database than dozens or hundreds. But implicit in this is the assumption that each client is using the same version of the same software and schema, which is either fixed forever or under the vendor's complete control. When this assumption no longer holds, how can we accommodate a client who wants to strike out on their own -- without making export management a recurring chore for backend developers?\n\nRelational databases provide the raw information we need by exposing the schema itself to the query engine, but structuring and navigating it is up to us. This talk explores building a future-proof exporter with Node.js, using metadata to graph a PostgreSQL database's relationship structure, isolate a single tenant's data, and generate constraint-safe scripts."

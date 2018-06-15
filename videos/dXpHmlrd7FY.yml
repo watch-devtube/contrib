@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - python
+    - .net
+title: 'Using Queryable State to update ML Algorithms per datapoint for... - Warmerdam & Driesprong'
+recordingDate: 1505300430
+description: "Flink Forward Berlin, September 2017 #flinkforward\n\nVincent Warmerdam, Pokemon Master, & Fokko Driesprong, Data Engineer at GoDataDriven\n\nUsing Queryable State to update ML Algorithms per datapoint for Online Gaming\n\nIn this talk we will demonstrate a matchmaking system for online video games that needs to work in a streaming setting where data is handled point by point. We will demonstrate a solution to the following problems; - How can you estimate the skill of a video game player in an online distributed setting? Both for single player matches as well as teams. - Given these skill estimations, how to you match players into teams such that the waiting time is minimal. The stack we use is apache flink together with some prototyping scripts in python. We intend to demonstrate a solution to this problem both on an engineering perspective (Fokko) as well as a machine learning perspective (Vincent). The main points; - we can leverage flink to allow us to learn and apply ML models on a stream of data [no batch at all!] - the queryable state functionality prevents the need for an external component - be mindful of some things that can go wrong when you design custom algorithms on Flink.\n\nhttps://www.slideshare.net/FlinkForward/flink-forward-berlin-2017-fokko-driesprong-vincent-warmerdam-using-queryable-state-to-update-ml-algorithms-per-datapoint-for-online-gaming\n\nhttps://data-artisans.com/"

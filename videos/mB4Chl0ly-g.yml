@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+title: '"Expressing complex data aggregations with Histogrammar" by Jim Pivarski'
+language: English
+recordingDate: 1474123518
+description: "Since the 1970's, data analysis in high energy physics has revolved around the histogram: an array of integers approximating a distribution. Fortran codes drawing ASCII-art plots bear a strong resemblance to the analysis scripts that discovered the Higgs boson: imperative for-loops filling histogram objects.\n\nIf this sounds cumbersome, it is. Explicit for-loops must be manually edited to add concurrency. However, the histogram concept itself is powerful: many data visualizations can be constructed by cleverly filling suites of related histograms, adding them, subtracting them, and dividing them bin by bin.\n\nToday, high-energy physics analysis is colliding with tools from the Big Data community. In my work with physicists adopting Apache Spark, I've found that histograms can benefit from a functional style, accepting fill rules as lambda functions, and they can be subdivided into more fundamental units.\n\nIn fact, all the tricks for building complex data visualizations with histograms can be formalized as a grammar of \"aggregator monoids.\" These aggregators are associative for easy concurrency and simple enough to implement in many languages.\n\nIn this talk, I'll show you how to use Histogrammar, a lightweight, cross-language suite of histogramming primitives. Examples will include cluster-wide histogramming in Spark and tapping intermediate values in a GPU computation. It is my belief that the Big Data community can learn as much from physicists as physicists are from Big Data."

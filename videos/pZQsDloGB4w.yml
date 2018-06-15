@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - python
+    - scala
+title: 'RDDs, DataFrames and Datasets in Apache Spark - NE Scala 2016'
+language: English
+recordingDate: 1460757378
+description: "Traditionally, Apache Spark jobs have been written using Resilient Distributed Datasets (RDDs), a Scala Collections-like API. RDDs are type-safe, but they can be problematic: It's easy to write a suboptimal job, and RDDs are significantly slower in Python than in Scala. DataFrames address some of these problems, and they're much faster, even in Scala; but, DataFrames aren't type-safe, and they're arguably less flexible.\n\nEnter Datasets, a type-safe, object-oriented programming interface that works with the DataFrames API, provide some of the benefits of RDDs, and can be optimized via the Catalyst optimizer.\n\nThis talk will briefly recap RDDs and DataFrames, introduce the Datasets API, and then, through a live demonstration, compare the performance of all three against the same non-trivial data source.\n\nTalk by Brian Clapper\nMarch 4th, 2016\n\nhttp://www.nescala.org/\n\nProduced by NewCircle - Spark Training & Resources:\nhttps://newcircle.com"

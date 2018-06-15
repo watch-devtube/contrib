@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Condition Systems in an Exceptional Language - Chris Houser'
+recordingDate: 1447775941
+description: "\"Some errors, however, are sufficiently obscure to escape detection for a surprisingly long time.\" -Brooker and Wheeler, 1952\n\nClojure does not come with a Condition system as powerful as Common Lisp's. Instead, we have Exceptions, which start unwinding the stack the moment they're thrown, destroying information as they go. The values of locals disappear, and there is no ability to continue from the location of the error. Several libraries solve this problem, but they do not compose well with each other. We will discuss these libraries, how they work, and why they don't compose. We will consider alternatives that may compose better, and the tradeoffs and amongst all of these.\n\nAbout the speaker: Chris, a.k.a. Chouser, co-authored \"The Joy of Clojure\" and enjoys using Clojure regularly with the LonoCloud team at ViaSat."

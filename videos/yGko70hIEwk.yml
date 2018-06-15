@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - java
+title: 'Bare Metal Clojure with clojure.Spec - Michael Reitzenstein'
+language: English
+recordingDate: 1479963811
+description: "Clojure provides powerful abstractions and dynamic typing, and its high performance is enabled only through the amazing optimizations provided by the powerful JITs in JVM, V8 et al.\n\nUsing Clojure's new spec and gen features, it's possible to generate specialized versions of Clojure code for constrained specifications, eliminating much of the boilerplate and branch heavy code, which can then be translated into efficient C.\n\nThis talk follows optimization of the humble (fn fib [n]) in its most naive form, using a series of generally applicable techniques to transform it from a O( 2n ) to a O( log n ) algorithm, generating efficient C that would be difficult to match by hand."

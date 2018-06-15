@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+    - performance
+    - .net
+title: 'Generating Low-Overhead Dynamic Binary Translators'
+recordingDate: 1276133426
+description: "Google Tech Talk\r\nJune 9, 2010\r\n\r\nABSTRACT\r\n\r\nPresented by Mathias Payer.\r\n\r\nDynamic (on the fly) binary translation is an important part of many software systems. In this talk we discuss how to combine efficient translation with the generation of efficient code, while providing a high-level table-driven user interface that simplifies the generation of the binary translator (BT).\r\n\r\nThe translation actions of the BT are specified in high-level abstractions that are compiled into translation tables; these tables control the runtime program translation. This table generator allows a compact description of changes in the translated code.\r\n\r\nWe use fastBT, a table-based dynamic binary translator that uses a code cache and various optimizations for indirect control transfers to illustrate the design tradeoffs in binary translators. We present an analysis of the most challenging sources of overhead and describe optimizations to further reduce these penalties. Keys to the good performance are a configurable inlining mechanism and adaptive self-modifying optimizations for indirect control transfers.\r\n\r\nLink to the paper:\r\nhttp://nebelwelt.net/index.php?id=54\r\n\r\nUsing a BT to secure running programs:\r\nHacking the Hackers with User-Space Virtualization\r\nhttp://nebelwelt.net/index.php?id=50\r\n\r\nProject page of the BT:\r\nhttp://nebelwelt.net/fastBT"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - elixir
+title: 'Building videochat with Elixir and Phoenix - Anil Wadghule - ElixirConf EU 2018'
+language: English
+recordingDate: 1525270283
+description: "Anil Wadghule reports back on the videochat system he has been building with Elixir and Phoenix.\n\nHis app makes use of the following Elixir and Phoenix features:\n\n- Realtime with Phoenix channels\n\nHow a Videochat benefits from realtime features from the Phoenix framework. In a videochat app, there are many interactions happening in a group, so you need realtime capabilities in your server.\n\n- Supervisors\n\nInstead of crashing, how do we gracefully stop services? When users close tabs, other users in the videochat should be gracefully informed that user's have quit. Anil covers how he made use of Supervisors and Gensevers for use cases.\n\n- Genstage\n\nFor events processing with remote WebRTC media server - third party media server has API and continually sends different events such as 'network is slow,' 'user's video is unpublished' or 'audio gone off' etc. Anil will show how he made use of Genstage's event handling to interactively show users feedback.\n\n- Debugging\n\nAnil will show how Erlang's debugging tools came in hand when there was something wrong.\n\nSlides can be found on website here: http://www.elixirconf.eu/elixirconfeu2018/anil-wadghule"

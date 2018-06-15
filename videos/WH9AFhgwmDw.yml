@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+title: 'Android Performance Patterns: Android UI and the GPU'
+language: English
+recordingDate: 1420572807
+description: "One of the most challenging questions for Android Developers is “how does your activity actually get drawn to the screen?” Or rather, how does all that crazy XML and markup language turn into pixels that the user can see and understand?\n\nAt its core, this is done with a process known as “Rasterization”, and for most android devices, there’s a special piece of hardware dedicated to performing this task. Which is great, since it tends to be a heavy and slow process. One down-side though, is that getting this piece of hardware to work right, and performant, all the time, means making a lot of tradeoffs in flexibility and design.\n\nIn this video, Colt McAnlis introduces how the GPU fits into Android’s rendering system, and talks about the complexities you should know about in order to ensure that your system is always running fast and smooth."

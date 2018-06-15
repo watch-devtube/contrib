@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - startup
+    - aws
+    - architecture
+    - java
+    - spring
+    - hibernate
+title: 'Using sagas to maintain data consistency in a microservice architecture by Chris Richardson'
+language: English
+recordingDate: 1495012928
+description: "The microservice architecture structures an application as a set of loosely coupled, collaborating services. Maintaining data consistency is challenging since each service has its own database to ensure loose coupling. To make matters worse, for a variety of reasons distributed transactions using JTA are not an option for modern applications.\n\nIn this talk we describe an alternative transaction model known as a saga. You will learn about the benefits and drawbacks of using sagas. We describe how sagas are eventually consistent rather than ACID and what this means for developers. You will learn how to design and implement sagas in a Java application.\n\nChris Richardson is a developer and architect. He is the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2. Today, he is a recognized thought leader in microservices. Chris is the creator of http://microservices.io, a website describing how to develop and deploy microservices. He provides microservices consulting and training and is working on his third startup http://eventuate.io, an application platform for developing microservices."

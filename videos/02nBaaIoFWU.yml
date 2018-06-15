@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - mobile
+title: 'Multipath TCP'
+recordingDate: 1338834137
+description: "Speaker Info:\n \nCostin Raiciu (Lecturer, University Politehnica of Bucharest)\nChristoph Paasch (PhD Student, Universite Catholique de Louvain)\n \nAbstract:\nNetworks have become multipath: mobile devices have multiple radio interfaces, datacenters have redundant paths and multihoming is the norm for big server farms. Meanwhile, TCP is still only single-path and this makes it very difficult for endpoints to take advantage of network-level redundancy . There are numerous examples of problems caused by this mismatch: for instance, TCP connections are reset when a mobile device exits WiFi coverage despite the availability of 3G connections; and in datacenters random load-balancing often overloads a subset of links leaving parts of the network underutilized.\n \nIn this talk we will present Multipath TCP, an extension of TCP that is currently being standardized at the IETF. Multipath TCP enables unmodified applications that today use TCP to function over multiple paths and achieve better performance and better robustness. Multipath TCP requires no changes to the networks: it works just fine over the existing infrastructure.\n \nWe will discuss MPTCP's key design issues and the main deployment scenarios where we envision MPTCP can make a difference today. We will also highlight the main challenges we encountered while implementing MPTCP in the LInux Kernel, present a few experimental results and (conditions permitting) will do a live demo\n\nSlides:  https://docs.google.com/presentation/d/1KR2UuoODrkGuzeAYiTmR6j4NKD7vm0nWLhAdNX1Y1D4/edit"

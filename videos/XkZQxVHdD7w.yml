@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+title: '#FlinkForward SF 2017: Ufuk Celebi - The Stream Processor as a Database'
+recordingDate: 1492195122
+description: "We present a new design pattern for data streaming applications, using Apache Flink and Apache Kafka: Building applications directly on top of the stream processor, rather than on top of key/value databases populated by data streams. Unlike classical setups that use stream processors or libraries to pre-process/aggregate events and update a database with the results, this setup simply gives the role of the database to the stream processor (here Apache Flink), routing queries to its workers who directly answer them from their internal state computed over the log of events (Apache Kafka). This talk will cover both the high-level introduction to the architecture, the techniques in Flink/Kafka that make this approach possible, as well as a live demo. \n\nVideos Filmed & Edited by Bash Films: http://BashFilms.com"

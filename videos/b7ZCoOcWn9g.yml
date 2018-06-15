@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'A step-by-step approach toward high quality OutOfMemoryError analysis (Vladimir Sitnikov, Russia)'
+recordingDate: 1468313750
+description: "When you face lack of memory condition, the common wisdom is you should grab Eclipse MemoryAnalyzer and wrap your mind around it a bit. It works for most of the cases, however there are scenarios that make even experienced engineer helpless.\n\nWe will review complex realistic scenarios leading to OOM condition, and we will learn approaches of identifying the root cause. We will see why WeakHashMap might keep memory from being garbage collected, we’ll learn the way to find out native memory leaks, and we’ll discuss how finalizers interact with OpenJDK’s GC.\n\nYou will learn the way to analyze lack of memory issues, and you’ll get familiar with best practices to avoid lack of memory condition."

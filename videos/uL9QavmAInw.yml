@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - graphql
+    - performance
+    - java
+title: 'The Power of Lacinia & Hystrix in Production - Tiago Luchini'
+language: English
+recordingDate: 1507908235
+description: "Lacinia is Walmartlabs’ implementation of Facebook’s GraphQL on Clojure. It supports the full GraphQL spec, a high-performance parser for GraphQL queries built on Antlr4, and efficient and asynchronous query execution.\n\nHystrix is Netflix’ circuit-breaker implementation. It is a Java library that helps you control the interactions between distributed services by adding latency tolerance and fault tolerance logic.\n\nBy combining Lacinia’s resolvers and Hystrix’ highly performant thread-pool and fallback options you can achieve increased performance while also improving your system’s overall resiliency.\n\nIn this talk, we will explore the power of these two libraries together."

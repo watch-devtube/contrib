@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - craftsmanship
+title: 'Tamas Kozsik - Static analysis to identify divide-and-conquer algorithms (Lambda Days 2016)'
+recordingDate: 1461660048
+description: "Slides and more info: http://www.lambdadays.org/lambdadays2016/tamas-kozsik\n\nRoutines implementing divide-and-conquer algorithms are good candi- dates for parallelization. Their identifying property is that such a routine divides its input into “smaller” chunks, calls itself recursively on these smaller chunks, and combines the outputs into one. We set up conditions which characterize a wide range of d&c routine definitions. These conditions can be verified by static program analysis. This way d&c routines can be found automatically in existing program texts, and their parallelization based on semi-automatic refactoring can be facilitated. We work out the details in the context of the Erlang programming language."

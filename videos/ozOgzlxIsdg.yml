@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - containers
+title: 'Generic Locking in C++ -  Andrei Alexandrescu'
+recordingDate: 1470646369
+description: "Lock-based synchronization continues to be a dominant technique for synchronizing multithreaded programs. Better support for multiple readers/single writer locks has made it more competitive. Furthermore, C++1x STL introduces special guarantees for containers aimed at better support for the readers/writer paradigm.\nHowever, lock-based synchronization still has well understood downsides such as proneness to races and deadlocks due to its poor integration with type systems. This talk discusses folly/Synchronized, a C++ library that provides reliable encapsulated locking for generic types."

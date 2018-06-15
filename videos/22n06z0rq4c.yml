@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Task Queue Basics'
+recordingDate: 1360087820
+description: "This lesson presents an overview and inner workings of the Task Queue.\n\nThe task queue has two flavors: push queue and pull queue. The push queue is a great way to schedule a unit of work, such as sending an e-mail, outside of a user request. This prevents blocking the user request while the e-mail is enqueued for delivery. Push tasks are treated as normal http requests, and are executed ASAP on the same app engine application.\n\nThe pull queue allows enqueuing tasks that can be leased by workers according to user defined logic. Unlike push tasks, pull tasks are pieces of data that can be accessed from other app engine instances, servers, or external servers.\n\nLearn how to use both push and pull queues as well as fine tune configuration to optimize performance. Also learn how to execute push tasks on a regular schedule using cron jobs."

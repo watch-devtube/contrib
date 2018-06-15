@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cassandra
+    - bigdata
+    - architecture
+    - java
+title: 'Brisk: Truly Peer-to-Peer Hadoop'
+recordingDate: 1309472815
+description: "In this presentation given at the San Francisco Java User Group on June 14, 2011, SriSatish Ambati, Chief Java Tinkerer at DataStax is going to show you how to run Hadoop MapReduce on a truly peer-to-peer storage layer powered by Cassandra FS.\nBrisk is an open-source Hadoop & Hive distribution that uses Apache Cassandra for its core services and storage. Brisk makes it possible to run Hadoop MapReduce on top of CassandraFS, an HDFS-compatible storage layer. By replacing HDFS with CassandraFS, users leverage MapReduce jobs on Cassandra's peer-to-peer, fault-tolerant and scalable architecture.\n\nWith CassandraFS all nodes are peers. Data files can be loaded through any node in the cluster and any node can serve as the JobTracker for MapReduce jobs. Hive MetaStore is stored & accessed as just another column family (table) on the distributed data store. Brisk makes Hadoop truly peer-to-peer. \n\nWe demonstrate visualization & monitoring of Brisk using OpsCenter. The operational simplicity of Cassandra's multi-datacenter & multi-region aware replication makes Brisk well-suited for a rich set of Applications and use-cases. And by being able to store and isolate HDFS & online data within the same data cluster, Brisk makes analytics possible without ETL!\n\n** Check out the slides at http://mrkn.co/f/383"

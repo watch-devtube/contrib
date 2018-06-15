@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - web
+    - javascript
+title: 'Rendering without the lumpy bits'
+recordingDate: 1383937133
+description: "Right, we've got a new project, we have to calculate and draw 500,000 pixels, and the deadline is in 1.667 milliseconds. When we're done, we'll do it again, and again. Web performance has always been about delivering those pixels on time, but the target has shifted. Optimising pure JavaScript (loops, string concatination, arithmetic) is more irrelevant than ever, performance gains are to be found in the DOM, layout dependencies, and the interaction with the GPU.\n\nWe'll look at a series of real-world rendering issues and how to combat them, understanding why particular hacks work, and how sometimes working against the browser can trick it into performing better. Covering basic html layout and animation, GPU interaction and high-dpi (retina) considerations across browsers and devices."

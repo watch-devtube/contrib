@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Priority Search Queues: 1.5 dimensional Tree Search - Michał Marczyk'
+language: English
+recordingDate: 1479497689
+description: "Priority Search Queues are an interesting abstract data type that simultaneously supports sorted map and priority queue operations in such a way that an entry's position in the map's sort order depends on its key, but its priority, as used by the priority queue operations, depends on its value. Additionally, these aspects of PSQs mesh together, so that one can iterate over precisely those entries whose keys fall in between a certain pair of keys and whose values are less than some particular value, in effect performing a 1.5-dimensional search of the PSQ.\n\nPSQs have been given a particularly elegant presentation and implementation - in Haskell - by Ralf Hinze in his 2001 paper \"A Simple Implementation Technique for Priority Search Queues\". This talk aims to examine the main ideas behind Hinze's concrete realization of PSQs, to briefly compare it to Edward M. McCreight's original PSQ implementation from the \"Priority Search Trees\" paper of 1985, and finally to place PSQs in a Clojure context."

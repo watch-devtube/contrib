@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: '#bbuzz 2016: Tugdual Grall - Real-World NoSQL Schema Design'
+recordingDate: 1465747388
+description: "Find more information here: https://berlinbuzzwords.de/session/real-world-nosql-schema-design\n\nThere are lots of claims about the benefits of NoSQL databases, but few realistic demonstrations of the impact that such a database can have on anything more than toy-sized data. \n\nIn this talk, I will deconstruct a real-world database schema into the corresponding NoSQL design. The database that I will use is the Musicbrainz database, which exhibits many important idioms found in real databases, such as factoring relations into multiple tables to implement column families, linkage tables, and many-to-one relationships. In spite of such radical structural changes, the resulting denormalized and nested data can still be queried with SQL using Apache Drill, and the queries are often noticeably simpler than the queries used against the original data structures. The methods are practical and easy to apply, and can sometimes be largely automated. For example, I'll show how a percolator pattern can be used to allow the resulting NoSQL database to be automatically maintained in multiple NoSQL technologies simultaneously, so that full text search, recommendations, and the HBase API can all be used to access the same data."

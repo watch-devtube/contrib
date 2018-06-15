@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - web
+title: '#bbuzz 17: Fokko Driesprong & Vincent Warmerdam - Balancing Heroes and Pokemon in Real Time'
+recordingDate: 1497535765
+description: "Futher information: https://berlinbuzzwords.de/17/session/balancing-heroes-and-pokemon-real-time-streaming-variant-trueskill-online-ranking\n\nIn this talk we will demonstrate a matchmaking system for online video games that needs to work in a streaming setting. In particular we will demonstrate a solution to the following problems; \n\n- How can you estimate the skill of a video game player in an online setting? Note that this needs to work for one vs. one player games as well as games with a team setting. \n\n- Given these skill estimations, how can you match them such that each player is always playing against a similar skill leven and doesn't need to wait very long. Note that this needs to work in a distributed session as well. \n\nTo demonstrate an easy setting we will demonstrate how we are able to rank pokemon in one vs. one matches.  To demonstrate a harder setting we will streaming game logs from heroes of the storm into our algorithm to show how it works. The stack we use is apache flink together with elasticsearch and kibana. We intend to demonstrate a solution to this problem both on an engineering perspective (mainly handled by Fokko) as well as a machine learning perspective (mainly handled by Vincent). \n\nThe skill estimation algorithm can in part be found described on Vincent's blog: http://koaning.io/pokemon-recommendations-part-2.html\n\nSpeaker:\nFokko Driesprong & Vincent Warmerdam"

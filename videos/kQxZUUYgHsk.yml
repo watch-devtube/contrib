@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - testing
+    - architecture
+title: 'Business Parameters: a framework for managing complex configuration by Maarten Van Puymbroeck'
+language: English
+recordingDate: 1510260673
+description: "A lot of an application's configuration is technical: URLs of REST services to connect to, database connection parameters... There is also something one might call \"business configuration\": what countries we ship to, what the shipping rate is, when discounts are applicable... These requirements can be more complex than a simple key-value mapping. The classic properties-file is not well suited for this, and is difficult for business users to manage. The alternative is a custom development, spending time and budget on non-core functionality.\n\nThe \"Business Parameters\" platform is a new open-source project aimed to provide more complex configuration capabilities. Use cases include application parametrization, functionality switches, A/B testing and market segmentation. The platform consists of two parts: an API used by your application, and a management UI. It provides a basic set of configuration \"types\", like values that are valid for a range of keys or for distinct periods of time. These configuration types can be chained and extended, quickly and easily providing customized configuration.\n\nIn this presentation, we will showcase the possibilities of the platform.\n\n# Maarten Van Puymbroeck\nMaarten Van Puymbroeck has been working as an IT consultant for 13 years, focusing on object-oriented design and architecture. Recently he decided to become more involved in the development of open-source frameworks and software."

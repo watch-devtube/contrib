@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - startup
+    - security
+    - architecture
+title: 'Enhancing Cloud Foundry Application Security with Vault'
+language: English
+recordingDate: 1498578131
+description: "Enhancing Cloud Foundry Application Security with Vault - Seth Vargo, HashiCorp    \n\nVault is a popular open source tool for managing application secrets at scale, and it uses an innovative approach to secret acquisition and managing the lifecycle of credentials over time. This approach is not without tradeoffs, since it often goes against common architectures, and Cloud Foundry is no exception.\n\nUnlike traditional secret acquisition which is just a single request, Vault requires a regular updates from the application. This is very akin to a DHCP lease or a TTL. If an application dies or is restarted, it requests new credentials, and it renews those credentials over time. Unused credentials are automatically revoked, reducing the secret sprawl and decreasing the attack surface. Additionally, each instance of an application receives a different credential; if an attacker is able to compromise one application, it's easy to revoke a single credential without causing application downtime.\n\nSeth will discuss the architecture of the Cloud Foundry Vault integration, exploring technical challenges exposed by both Vault's own architecture and design decisions in Cloud Foundry in implementing the Cloud Foundry Vault broker, which controls the distribution of secrets to applications running under Cloud Foundry.\n\nSeth Vargo\nHashiCorp\nDirector of Technical Advocacy\nPittsburgh, PA\nWebsitehttps://sethvargo.com\nSeth Vargo is the Director of Technical Advocacy at HashiCorp. Previously, Seth worked at Chef (Opscode), CustomInk, and a few Pittsburgh-based startups. He is the author of Learning Chef and is passionate about reducing inequality in technology. When he is not writing, working on open source, teaching, or speaking at conferences, Seth enjoys spending time with his friends and advising non-profits. He loves all things bacon."

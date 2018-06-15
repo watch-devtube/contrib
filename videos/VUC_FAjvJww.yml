@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: '#bbuzz 2016: Stephan Ewen -  The Stream Processor as a Database: Building Online Applications ...'
+recordingDate: 1465735025
+description: "Find more information here: https://berlinbuzzwords.de/session/stream-processor-database-building-online-applications-directly-streams-apache-flink-and\n\nWe present a new design pattern for data streaming applications, using Apache Flink and Apache Kafka: Building applications directly on top of the stream processor, rather than on top of key / value databases populated by data streams.\n\nUnlike classical setups that use stream processors or libraries to pre-process / aggregate events and update a database with the results, this setup simply gives the role of the database to the stream processor - here Apache Flink -, routing queries to its workers who directly answer them from their internal state computed over the log of events - Apache Kafka."

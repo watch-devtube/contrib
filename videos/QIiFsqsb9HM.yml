@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+title: 'CppCon 2016: Sergey Zubkov “Examining applications that do not terminate on std::bad_alloc"'
+language: English
+recordingDate: 1475688280
+description: "http://CppCon.org\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/cppcon/cppcon2016\n—\nSystem memory holds a special place in the hierarchy of program resources; its availability is the implied precondition for many innocuous lines of code, from std::string::substr() to passing std::function＜＞ by value. The ability to always create another object is ingrained in the OOP mindset so much that it is often said that immediate termination is the cleanest way to handle memory allocation failures in most situations. Nevertheless, C++, when consistently applying RAII, makes it possible to treat memory allocation exactly as any other resource acquisition.\n\nTo what degree do actual applications take advantage of that possibility and what responses to allocation failures are there in the wild? This presentation will examine over 300 open source projects that incorporate explicit handling for std::bad_alloc, examine the causes (it’s not always “out of memory”), response strategies (it’s more than just rollback), and related practical considerations.\n— \nSergey Zubkov\nMorgan Stanley\nSergey is a former biochemistry researcher and OS developer, who now works in finance and spends his free time editing cppreference.com\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"

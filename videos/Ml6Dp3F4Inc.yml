@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - javascript
+title: '"Visualising program execution" by Jan Paul Posma'
+language: English
+recordingDate: 1443354025
+description: "We don't see how code executes. We take peeks, using console.logs and breakpoints, but they don't tell the whole story. This talk shows how to take off our blindfolds.\n\nFirst we briefly look at why seeing how programs execute is important. The prime example is debugging, which programmers spend about half of their time on. We show that the right visualisation can dramatically speed up debugging, but also help with other programming tasks.\nWe take a detailed look at generating and visualising execution traces in Javascript. For this we use Esprima and Falafel, to parse Javascript into an abstract syntax tree, and add instrumentation by transforming this tree. We see how easy it is to do this, even for larger programs.\nWe then look at advanced tricks to scale all this to performance-intensive programs, using games as an example. We will look at well-known techniques from the literature -- snapshotting and deterministic replay -- which only recently have been brought to the browser.\nFinally we look at practical tools that implement these techniques, which you can use during your everyday programming.\n\nJan Paul Posma\nBRIGADE\n@JanPaul123\n\nJan Paul Posma is a programmer who has been working on code visualisations for jsdares.com. In his day job he works on revitalising our democracy at Brigade, and has earlier worked on education at Versal, and collaborative knowledge at Factlink and Wikimedia."

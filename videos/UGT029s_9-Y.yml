@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - career
+    - security
+    - architecture
+title: '"rustc in userland" by Richo Healey'
+language: English
+recordingDate: 1443380844
+description: "A neat feature of rust's compiler architecture is that all of it's internals are present in a rustc install- meaning that unlike nearly any other AOT compiled language, you get all the machinery to parse source code, transform, and emit object files from userland code. This offers you a lot of scope for implementing two types of tools that traditionally have had little language/standard library support: Static analysis tools, and compilers.\n\nThis talk will dive into the machinery that rust offers you to do this, as a side effect of the compiler's modularity. Covered will be writing a simple static analyser (distinct from the macro, and compiler plugin infrastructure); which is unfortunately rust specific and comparitively uninteresting. Following up, we'll demonstrate how to write Rust programs that excercise the Rust codegen machinery at runtime, to implement a simple LISP that emits native objects using rust's packaging machinery. Finally we'll dive into some more platform specific hacks that can be used to fake out a JIT compiler using these techniques.\n\nRicho Healey\nSTRIPE\n@rich0H\n\nRicho likes his ducks flat and his instruction sets reduced. Currently a Security Engineer at Stripe, richo's disdain for computers has been fueled by his career across security, distributed systems, operations and development. At night, he dons a scarf (capes are so last year) and writes open source code to distract him from security research."

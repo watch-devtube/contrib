@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - startup
+    - python
+    - scala
+title: '"Aggregator: MapReduce in the type system" by Dan Frank'
+language: English
+recordingDate: 1443445797
+description: "Users of Hadoop will recognize, behind the buzzwords, yet another implementation of the oldest pattern in the data aggregation book. In this talk, we'll walk through the basics of the MapReduce pattern, from GROUP BY in sql to split-apply-combine in Python's Pandas. We'll tease apart the differences between the infrastructure-level implementation of the MapReduce engine (how are elements grouped and stored) and the application-level definition of the job (how are grouped elements combined, or \"reduced\"). We'll then introduce the Aggregator trait in Twitter's Algebird library, which neatly captures the application logic of a MapReduce operation in a Scala type. We'll have a look at some of the stock Aggregator implementations that ship with Algebird, from basic to esoteric.\n\nWhen you look at the pattern apart from the implementation, you'll start to see it all over your code, from rate-limiting to comment ranking. We'll take a look at how we put these concepts into practice at Stripe in an online fraud detection system. Using Aggregator in combination with Twitter's Summingbird, we're able to run the same application logic on Storm and Hadoop, giving us access to sophisticated fraud signals in real time. Of course, nothing is without tradeoffs, and we'll also examine some of the limitations that Aggregators impose, and compare this application to other systems with similar goals.\n\nAttendees should emerge with new recognition of a common thread through many of their projects, and an itch to try out a new library or two. You don't need to know anything about Scala, MapReduce, or type theory to follow this talk, but hopefully I can teach you a bit and convince you to learn some more.\n\nDan Frank\nSTRIPE\n@danielhfrank\n\nDan grew up in Brooklyn, with the mathematical distinction of occupying the zip code corresponding to the first five digits of the Fibonacci sequence - if you start at 1. He earned a degree in Math from Yale, and has since been working as a developer at small startups that process large quantities of data, much of it generated in 140 character increments. He is currently a member of the realtime data team at Stripe. When not in front of a monitor, he can often be found endangering himself on mountains."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: '#bbuzz 2015: Uwe Schindler - Apache Lucene 5 - New Features and Improvements for Apache Solr...'
+recordingDate: 1433343726
+description: "Find more information here: http://berlinbuzzwords.de/session/apache-lucene-5-new-features-and-improvements-apache-solr-and-elasticsearch\n\nThis talk will present the improvements and new features, but also some incompatible changes in the Lucene 5 release:\n\nLucene 5 will focus on data safety: The move to Java 7 was completed. Lucene now uses all the brand new features (NIO.2) of Java 7 to make the indexing process more stable and resulting indexes durable. Checksums are used during merging to prevent bugs in the underlying JVM or data corruption due to networking errors (e.g., while distributing indexes during recovery in Elasticsearch) to persist in newly created index segments.\n\nThe previous major version, Lucene 4 was a major release that introduced index codecs. In Lucene 5, the API around codecs will be cleaned up and will likely get more stable. There are also new features, like a common FilterCache that can be reused by Solr and Elasticsearch.\n\nIn parallel Apache Solr 5 was released, the first version that will now work as a server out of the box, so Solr is no longer exposed as a webapp. Init.d scripts are included and configuration is managed easier through Zookeeper.\n\nThis talk will give an overview over the background of these changes and how to make the best out of it."

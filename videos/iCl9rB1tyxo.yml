@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Predicate Dispatch - David Nolen'
+recordingDate: 1357585589
+description: 'When designing functions that can leverage more than the type of the first argument, the Clojurian reaches for multimethods. Yet after some experience, he/she might realize that multimethods have considerable limitations, particularly the closed nature of the dispatch function itself. How can we fulfill the promise of open extension? Predicate dispatch as described by Craig Chambers and Weimin Chen seems promising, but their implementation hardwires many important details. By leveraging the literature around high performance pattern matching compilation as found in Standard ML, OCaml, and Haskell and by driving the compilation with a logic engine, we can achieve a fully open predicate dispatch system with considerable performance gains over multimethods.'

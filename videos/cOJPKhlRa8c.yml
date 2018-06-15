@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - performance
+    - android
+    - kotlin
+title: 'KotlinConf 2017 - kscript - Scripting Enhancements for Kotlin by Holger Brandl'
+language: English
+recordingDate: 1510747847
+description: "Kotlin has some support for scripting already but it is not yet feature-rich enough to be a viable alternative in the shell. Over the last year we have evolved a small utility called kscript which complements the existing scripting support provided by kotlinc with several new features. First, it caches compiled scripts and tracks changes by using md5 checksums. Second, it allows to declare dependencies with gradle-style resource locators and resolves those with maven. Third, it allows for different modes to provide the scripts including URLs, reading from stdin, local files, direct script arguments, or by using it as interpreter in the shebang line of a script. Finally, kscript is complemented by a support library to ease the writing of Kotlin scriptlets. The latter includes solutions to common use-cases like argument parsing, data streaming, IO utilities, and various iterators to streamline the development of kscript applications.\n\nTake all these features together, kscript provides an easy-to-use, very flexible, and almost zero-overhead solution to write self-contained mini-applications with Kotlin. To ensure long-term stability, kscript is developed against a continuously integrated suite of tests. Over the course of the last year it has a growing but active community.It is documented well with an extensive reference manual including many examples and recipes.\n\nHolger Brandl works as a data scientist at the Max Planck Institute of Molecular Cell Biology and Genetics (Dresden, Germany). He holds a Ph.D. degree in machine learning, and has developed new concepts in the field of computational linguistics. More recently he has co-authored publications in high-ranking journals such as Nature and Science. He is a main developer of the \"R Language Integration\" for Intellij IDEA, which is increasingly written in Kotlin, and has published several Kotlin artifacts for bioinformatics, high-performance computing and data mining."

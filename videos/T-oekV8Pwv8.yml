@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - scala
+title: 'Reinventing Haxl: Efficient, Concurrent and Concise Data Access - Alexey Kachayev'
+recordingDate: 1436277419
+description: 'Often times your business logic relies on remote data that you need to fetch from different sources: databases, caches, web services or 3rd party APIs, and you can''t mess things up. You need to keep your business logic clear of low-level details while performing efficiently: fetching data in parallel, batching requests, handling failures, retries, and so forth. There are a few projects that aim to solve this problem: Haxl (open-source Haskell library from Facebook) and Stitch (Scala library from Twitter, not open-sourced yet but a few talks are available). Both projects give you the ability to access remote data sources in a concise and consistent way, while the library handles batching and overlapping requests to multiple data sources behind the scenes. How can you solve the same problem with Clojure code? In this talk we''ll go over concrete examples and see how to achieve the same results with Clojure.'

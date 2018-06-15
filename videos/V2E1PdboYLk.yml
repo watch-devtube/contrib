@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - containers
+    - docker
+title: 'Dagobah, a Data centric Meta scheduler - Matt Bossenbroek'
+recordingDate: 1447714214
+description: "On the Netflix search team we had many data pipelines, patched together using different technologies, which made it difficult to integrate and monitor system health. This inspired us to build Dagobah, a new take on data pipelines with a focus on data provenance.\n\nDagobah is a cross-platform, meta-scheduler that's different from your typical workflow engine. With Dagobah you describe each node as an independent, addressable computation.\n\nA node can specify its data dependencies and Dagobah will compute them prior to running the node. You then ask Dagobah for data you need and it figures out how to build it and any dependencies, enabling data sharing and versioning in a unique and flexible way.\n\nUsers can optionally specify that a node in the graph must come from a specific build, git branch, or commit. Because each computation is memoized and all data is immutable, multiple users can all rely on the same data without duplicating work.\n\nDagobah is capable of running jobs on many platforms and can be extended to utilize many others. At Netflix, we use Dagobah to build data pipelines that run PigPen jobs on Hadoop, Spark jobs on various platforms, and Docker containers on Titan.\n\nAbout the speaker: Matt Bossenbroek works at Netflix on the Personalization & Search team. He helps to manage the data pipelines that deliver the Netflix you know & love. He is a Clojure enthusiast, writing Dagobah, PigPen, and other internal Netflix libraries in Clojure, working to spread the language throughout the company. Previously he worked at Microsoft, doing basically the same thing in c# (sans OSS)."

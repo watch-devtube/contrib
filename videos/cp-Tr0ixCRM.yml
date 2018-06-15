@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: '"Deterministic Memory Management for Managed Runtimes" by Aaron Bedra'
+language: English
+recordingDate: 1411343566
+description: "Following close on the heels of heartbleed we have seen a resurgence in questioning C as the implementation choice for critical infrastructure. With performance innovations on managed runtimes the option to implement more and more critical pieces in alternative languages is becoming tangible. Of course this brings along with it a different set of problems. To re-write a system like OpenSSL or even just to implement SSL/TLS on top of a managed runtime there are some serious obstacles to overcome.\nThis talk will examine solving the memory management problem present when building cyrptographic systems on top of managed runtimes. It's no secret that key material and other such sensitive data should be able to be properly allocated and erased from memory with certainty. Aaron will detail the problem with a small implementation of a common cryptographic system and demonstrate how the issue surfaces. He will then detail what steps need to be taken to solve this issue and re-examine the suitability of using these platforms for critical infrastructure.\n\nby Aaron Bedra (@abedra)\n\nAaron is a Senior Fellow at Groupon. He is the creator of Repsheet, an open source threat intelligence and reputation tool for web applications. Aaron is a co-author of Programming Clojure 2nd Edition and a constant contributor to open source software."

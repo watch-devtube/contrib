@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - ruby
+    - scala
+    - java
+title: 'Life of a Twitter JVM engineer: the garbage keeps coming... Tony Printezis'
+language: English
+recordingDate: 1447405731
+description: "Twitter runs a swarm of services executing on several different managed runtimes. The services have migrated from mainly Ruby in the past to mostly Scala today. Targeting the JVM allows developers to quickly write and deploy reliable code. Automated memory management, in particular, improves productivity of teams in a fast paced environment. But with these benefits also come challenges. The way code is executed on the JVM makes trouble-shooting quite tricky, especially in production, as it is often difficult for developers to understand what has gone wrong and how to fix it. To make matters even more challenging, the sheer volume of data that flows through these services and their stringent requirements, stress the JVM in different and novel ways.\n\nThe talk will cover:\n\nOverview of how services are deployed and monitored at Twitter.\nBenefits of using a custom-built JVM with in-house features.\nChallenges of the use of the JVM in an environment like Twitter."
