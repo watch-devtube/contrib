@@ -6,6 +6,8 @@
 * No webinars
 * No commercial videos
 
+Channels can be added to [channels.yml](https://github.com/watch-devtube/contrib/edit/master/channels.yml).
+
 ## How to edit video metadata
 * Please use spaces for formatting
 
