@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Matthias Endler - Protector - a circuit breaker for InfluxDB'
+recordingDate: 1472052075
+description: 'At trivago we store a subset of our realtime metric data in InfluxDB. We currently ingest 4 Mbit/s of incoming metric data and run hundreds of thousands of queries per day. Unfortunately it is pretty easy to overload the database or the clients by executing queries that return too many datapoints. Also deleting data and dropping a series are very expensive operations which should be prevented by default. That''s why we wrote Protector - a circuit breaker for time series databases that blocks malicious queries. It''s soon going to be released as Open Source.'
