@@ -17,7 +17,7 @@ tags:
     - tag2
 speaker:
     name: Speaker full name
-    twitter: @SpeakerTwitterHandle
+    twitter: SpeakerTwitterHandle (no @)
 title: Title goes here
 language: English
 recordingDate: 1444245407
