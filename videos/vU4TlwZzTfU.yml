@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - python
+    - .net
+    - functional
+title: 'Radim Řehůřek - Faster than Google? Optimization lessons in Python.'
+recordingDate: 1406457646
+description: "View slides for this presentation here:\nhttp://www.slideshare.net/PyData/radim-ehek\n\nPyData Berlin 2014 \nLessons from translating Google's deep learning algorithm into Python. Can a Python port compete with Google's tightly optimized C code? Spoiler: making use of Python and its vibrant ecosystem (generators, NumPy, Cython...), the optimized Python port is cleaner, more readable and clocks in—somewhat astonishingly—4x faster than Google's C. This is 12,000x faster than a naive, pure Python implementation and 100x faster than an optimized NumPy implementation. The talk will go over what went well (data streaming to process humongous datasets, parallelization and avoiding GIL with Cython, plugging into BLAS) as well as trouble along the way (BLAS idiosyncrasies, Cython issues, dead ends). The quest is also documented on my blog."
