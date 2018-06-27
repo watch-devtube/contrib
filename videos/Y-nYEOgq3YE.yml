@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - testing
+    - python
+title: 'Mike Mull: The Art and Science of Data Matching'
+recordingDate: 1449251041
+description: "PyData NYC 2015\n\nData matching is the process of finding records in one or more data sources that refer to the same item. Variants of this process include de-duplication (one data source), record linkage (two data sources), and entity resolution (2+ data sources). This talk will discuss Python tools and libraries that can be applied to data matching, as well as various tricks of the trade.\n\nData matching enriches existing data sources, leading to new data products or clean input for further analysis. Correct matching is also a crucial aspect of information quality for enterprise data. Although there are many commercial tools for data matching, the Python ecosystem has components that make it relatively simple to build domain-specific matching applications or to incorporate matching into products and services.\n\nData matching uses basic computer science, NLP, statistics and machine learning; combined with a variety of hacks to deal with notoriously messy data like human names and street addresses. This talk will work through a test case, covering the following specific areas:\n\nUsing pandas as a framework for pre-processing and merging data\nProfiling data to assess how hard or successful the matching process might be\nSimilarity metrics for approximate string matching\nTechniques for parsing and matching human names\nTechniques for handling address data, including geo-coding\nUsing blocking or indexing to reduce the number of comparisons\nProbabilistic methods for optimal matching, such as the Fellugi-Sunter method\nUsing scikit-learn classifiers for record-linkage\nA demonstration of the open-source dedupe tool\nInformation quality metrics"
