@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - .net
+title: 'Stephanie deWet - Personalized Content Blending In The Pinterest Homefeed - MLconf SF 2016'
+recordingDate: 1479496366
+description: "Presentation slides: http://www.slideshare.net/SessionsEvents/stephanie-dewet-software-engineer-pinterest-at-mlconf-sf-2016\n\nPersonalized Content Blending in the Pinterest Homefeed: The Pinterest Homefeed is a personalized feed of content (or “Pins”) drawn from many sources, including followed users, followed topics, and recommendations, among other sources. Each types of content is ranked by its own specialized machine learning model, and then blended with a ratio-based round robin to create the final Homefeed.\n\nThis presentation dives into how the current system evolved, and describes in depth an approach for personalizing the content blending ratio. This method uses historical user action data and models the Pin action rates of each pin type as a Bernoulli distribution. Each content type’s overall utility is modeled as a sum of the Pin action rate distributions, weighted by action-specific reward constants. I will discuss different methods for assigning blending ratios based on the utility distribution.\n\nAs we iterate on our blending systems, new questions have arisen as to how we measure success. . Unlike traditional search ranking problems, Pinterest faces both short- and long-term optimization challenges as we balance immediate user-engagement metric movements and long term ecosystem health. This talk concludes with an overview of some of the different dimensions of success we currently monitor as we continue to work on blending."

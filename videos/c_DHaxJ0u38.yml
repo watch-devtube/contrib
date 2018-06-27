@@ -1,5 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+tags:
+    - lisp
 title: 'Lisp-like DSL for Benchmarking by Renat Idrisov'
 recordingDate: 1475505961
 description: "Slides and more info: http://www.erlang-factory.com/euc2016/renat-idrisov\n\nOnce you need to benchmark a distributed system, you have a lot of different scenarios and cases to cover. There are two boundary solutions: to give a user ability to write scenarios in the same language as the system itself or leave only rates and other constants changeable. The first kind of systems are hard to support and insecure, the second kind is hard to extend. I'd like to present something in-between these two, it is about MZBench (available on GitHub).\n\nTalk objectives:\n\nI want to show that DSL-based systems are easy to create in Erlang, especially Lisp-like; they are easily extendable and could be as flexible as system creator desire\n\nTarget audience:\n\nErlang engineers, people interested in Erlang and benchmarking engineers."

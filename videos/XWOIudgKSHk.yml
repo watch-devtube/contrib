@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - performance
+    - .net
+title: 'Dr. Erin LeDell - Multi-algorithm Ensemble Learning at Scale: Software... - MLconf SEA 2016'
+recordingDate: 1464380034
+description: "Presentation slides: http://www.slideshare.net/SessionsEvents/dr-erin-ledell-maching-learning-scientist-h2oai\n\nMulti-algorithm Ensemble Learning at Scale: Software, Hardware and Algorithmic Approaches: Multi-algorithm ensemble machine learning methods are often used when the true prediction function is not easily approximated by a single algorithm. The Super Learner algorithm, also known as stacking, combines multiple, typically diverse, base learning algorithms into a single, powerful prediction function through a secondary learning process called metalearning. Although ensemble methods offer superior performance over their singleton counterparts, there is an implicit computational cost to ensembles, as it requires training and cross-validating multiple base learning algorithms.\n\nWe will demonstrate a variety of software- and hardware-based approaches that lead to more scalable ensemble learning software, including a highly scalable implementation of stacking called “H2O Ensemble”, built on top of the open source, distributed machine learning platform, H2O. H2O Ensemble scales across multi-node clusters and allows the user to create ensembles of deep neural networks, Gradient Boosting Machines, Random Forest, and others. As for algorithm-based approaches, we will present two algorithmic modifications to the original stacking algorithm that further reduce computation time — Subsemble algorithm and the Online Super Learner algorithm. This talk will also include benchmarks of the implementations of these new stacking variants."
