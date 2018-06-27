@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - java
+    - .net
+title: 'Jake Mannix - Smarter Search With Spark-Solr - MLconf SEA 2016'
+recordingDate: 1464383170
+description: "Presentation slides: http://www.slideshare.net/SessionsEvents/jake-mannix-lead-data-engineer-lucidworks\n\nSmarter Search With Spark-Solr: Search gets smarter when you know more about your documents and their relationship to each other (think: PageRank) and the users (i.e. popularity), in addition to what you already know about their content (text search). It also gets smarter when you know more about your users (personalization) and both their affinity for certain kinds of content and their similarities to each other (collaborative filtering recommenders).\n\nBuilding all of these pieces typically requires a big mix of batch workloads to do log processing, as well as training machine-learned models to use during realtime querying, and are highly domain specific, but many techniques are fairly universal: we will discuss how Spark can interface with a Solr Cloud cluster to efficiently perform many of the pieces to this puzzle in one relatively self-contained package (no HDFS/S3, all data stored in Solr!), and introduce “spark-solr” – an open-source JVM library to facilitate this."
