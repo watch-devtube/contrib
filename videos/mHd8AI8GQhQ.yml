@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - python
+    - functional
+title: 'Jim Crist: Dask Parallelizing NumPy and Pandas through Task Scheduling'
+recordingDate: 1449251028
+description: "PyData NYC 2015\n\nDask is a pure python library that allows for easy parallelism through task scheduling and blocked algorithms. By leveraging the existing PyData ecosystem (NumPy, Pandas, etc...), as well as some clever algorithms, we're able to compute on arrays and dataframes that are larger than memory, while exploiting parallelism.\n\nThe PyData ecosystem is great for doing data analysis. Packages like NumPy and Pandas provide an excellent interface to doing complicated computations on datasets. With only a few lines of code one can load some data into a NumPy array, run some analysis, and plot the results. However, this workflow starts to falter when working with data that's larger than the memory on your computer.\n\nDask is designed to fit the space between in memory tools like NumPy/Pandas and distributed tools like Spark/Hadoop. By using blocked algorithms and the existing Python ecosystem, it's able to work efficiently on large arrays or dataframes - often in parallel.\n\nIn this talk we'll discuss both the what and the how of Dask. Starting from examples of using dask collections that mirror NumPy arrays and Pandas DataFrames, we'll then dive into how these collections are actually implemented. Along the way we'll discuss the global interpreter lock and its relevance (or lack of relevance) to parallel computation in numeric Python.\n\nSlides available here: https://speakerdeck.com/jcrist/pandas-through-task-scheduling-1\n\nGithub Repo: https://github.com/jcrist/Dask_PyData_NYC"

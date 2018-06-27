@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - python
+title: 'PyCon UK 2014: Tests without boilerplate'
+language: English
+recordingDate: 1413259359
+description: "Presented by Jonathan Fine\n\nThis talk is about a new way of writing tests. We arrange matters so that the expression statement\n\n    add(2, 2) == 4\n\nreports a test failure if add(2, 2) does not return 4. Similarly\n\n    add(2, '2') ** TypeError\n\nreports a test failure if add(2, '2') does not raise a TypeError exception. These new semantics (which provide no-boilerplate testing) do not apply when comparison expressions are used in conditional statements etc.\n\nI will demonstrate Python software that implements this, and will discuss with you the use, benefits and development of this new approach to writing tests."
