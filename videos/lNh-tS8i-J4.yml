@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - python
+title: 'Many-to-many, minus the middleman by Alex Hill'
+recordingDate: 1438658614
+description: "This talk is about an alternative Django ManyToManyField implementation that uses (abuses?) PostgreSQL's full-text search engine instead of an intermediary table to store its relationships. As well as showing off some handy things you can do with this field, we'll talk along the way about full-text search in Postgres, inverted indexes, and how Django's ManyToManyField is implemented.\r\n\r\nBehind the scenes, ManyToManyField uses an intermediary table to record its relationships –\_a classic relational database technique you most likely mastered in Databases 101. But to believe some present-day commentators, classic relational databases with their fixed schemas and their ACID habit belong back in the 70s where they came from.\r\n\r\nEnter Postgres, the hip, switched-on parent who works as a public defender and gets on uncomfortably well with your friends. Postgres builds on a wealth of relational history while embracing modern non-relational ideas in a thoughtful, sane way.\r\n\r\nIn this talk, we'll press full-text search, one of Postgres' repertoire of many useful features, into a service it performs remarkably well despite being designed for quite a different purpose. Code and benchmarks provided!\n\nPyCon Australia is the national conference for users of the Python Programming Language. In 2015, we're heading to Brisbane to bring together students, enthusiasts, and professionals with a love of Python from around Australia, and all around the World. \n\nJuly 31-August 4, Brisbane, Queensland, Australia"
