@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - ruby
+    - javascript
+    - java
+title: 'Web Rebels 2017 – Matteo Collina – Building a Scalable Pub/Sub system with UpRing'
+language: English
+recordingDate: 1506931789
+description: "Building a Scalable Pub/Sub system with UpRing\n\nThe world is real-time: our users expect to receive live notifications, updates, and use extremely reactive interfaces. In a real-time world, we might want to connect physical things, each of them with their own live connection to the cloud. Delivering live notifications has always been a complex task, but tools like WebSockets and Socket.io have enabled a wide range of applications to flourish. \n\nScaling those systems often turns out to be problematic. Generally an external publish/subscribe broker is leveraged to deliver the messages, with our application or the framework acting as a proxy. These brokers are usually central points of failure, and extremely difficult to scale. \n\nUpRing is a distributed system framework for building applications on top of a Consistent Hashring. In other words, UpRing is a P2P system for cloud applications. With UpRing, all the notifications for a single element are routed through the same server, removing the central point of failure and allowing for fine-grained elastic scalability in ratio to the amount of current users.\n\nMatteo Collina\nMatteo is a code pirate and mad scientist. He spends most of his days programming in node.js, but in the past he worked with Ruby, Java and Objective‑C.\n\nHe recently got a Ph.D. with a thesis titled \"Application Platforms for the Internet of Things\". Now he is a Software Architect at nearForm, where he consults for the top brands in world. Matteo is also the author of the Node.js MQTT Broker, Mosca and of the LevelGraph database. He is also co-author of the book \"Javascript: Best Practices\" edited by FAG, Milan."
