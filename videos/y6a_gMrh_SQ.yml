@@ -1,5 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+tags:
+    - functional
 title: 'Boldizsar Nemeth - C preprossor macros from functional programs (Lambda Days 2016)'
 recordingDate: 1457614051
 description: "Slides and more info: http://www.lambdadays.org/lambdadays2016/boldizsar-nemeth\n\nThe preprocessor of the C language provides a standard way to generate code at compile time. However, writing and understanding these macros is difficult. Lack of typing, statelessness, and uncommon syntax are the main reasons of this difficulty. Haskell is a high-level purely functional language with an expressive type system, algebraic data types, and many useful language extensions. These suggest that Haskell code can be written and maintained more easily than preprocessor macros. Functional languages have certain similarities to macro languages. By using these similarities this paper describes a transformation that translates lambda expressions into preprocessor macros. The existing compilers of functional languages are used to generate lambda expressions from the source code. As a result it is possible to write Haskell code that will be translated to preprocessor macros manipulating source code. This may result in faster development and maintenance of complex macro metaprograms."
