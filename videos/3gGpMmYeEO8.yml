@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - azure
+    - containers
+    - docker
+    - kubernetes
+    - architecture
+title: 'Securing Cluster Networking with Network Policies - Ahmet Balkan, Google'
+recordingDate: 1513369668
+description: "Securing Cluster Networking with Network Policies - Ahmet Balkan, Google\n\nIn a secure microservices cluster, you should only have the pods that need to communicate with each other to be able to establish network connections, and block all others. But how? Until recently, Kubernetes users could not enforce policies for container networking. \n\nFirst introduced in Kubernetes 1.3, Network Policies are now a stable feature in Kubernetes 1.7. In this talk, we will discuss use cases for network policies, the Network Policy API, how to configure network policies, and how the configured policies are enforced. We will also present some network policies that address some common use cases and are relevant to securing your Kubernetes clusters. \n\nAlso, we will discuss the roadmap for Network Policies feature, other methods you can use to secure applications at network and application layers, and how Network Policies relate to service mesh projects such as Istio that offer similar functionality.\n\nAbout Ahmet Alp Balkan\nAhmet is a software engineer at Google Kubernetes Engine, working on optimizing the developer experiences. He creates developer tools and tells stories about complicated features.\n\nPreviously, he has worked on Microsoft Azure on projects like porting Docker to Windows and Azure Container Registry."

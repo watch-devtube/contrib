@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+title: 'GridSound : A free HTML5 Digital Audio Workstation (DAW) Pushing the boundaries of the Web Audio API'
+language: English
+recordingDate: 1520769843
+description: "by Melanie Ducani (Misty) and Thomas Tortorini\n\nAt: FOSDEM 2017\n\nGridSound is a free open source HTML5 audio sequencer based on the new freshWeb Audio technology. Drag and drop your samples, mix them and create acomposition directly in your modern browser.\n\nGridSound uses many new HTML5 technologies, the main one is the Web Audio APIwhich provides a powerful and versatile system for controlling audio on theWeb. We chose to extract all the reusable Web Audio code into a standalonelibrary: webaudio-library. The user's intial audio sample files have to bedropped into the app then into the samplegrid. For these actions we use theDrag and drop API, and for opening and read the files we use the File API.User Interface : We write our design with a modern CSS3 without any browserprefixes (eg : -webkit, -moz) and by using properties like transition anddisplay: flex, the CSS is organised into different files using Sass (SCSS).The HTML part is separated into different templates, for that we useHandlebars. We use ❮canvas❯ to draw a live audio analyser of the masteroutput, and all the audio waveform are drawn with SVG.\n\n\nRoom: H.2215 (Ferrer)\nScheduled start: 2017-02-05 14:20:00"
