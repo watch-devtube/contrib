@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+speaker:
+    name: 'Martin Fowler'
+    twitter: martinfowler
+title: 'DDD Dead Simple - Robert Friberg'
+recordingDate: 1442840819
+description: "Robert Friberg\nhttp://lanyrd.com/2015/dotnetfringe/sdkttp/\nThe subtitle of Eric Evans book “Domain Driven Design” is “Tackling complexity at the heart of software”. Ironically, the event sourcing and CQRS based approaches to DDD are fairly complex on their own yet have become somewhat of a de facto standard. These approaches do have some merit, but there are simpler, often neglected, architectures worth considering before going full blown CQRS.\r\nWith OrigoDB all the domain objects live in-memory as a single object graph modelled with NET types and collections. Read and write transactions are served from the same in-memory model with full ACID guarantees. There is no need to explicitly deal with events for persistence or rehydrating aggregates, it’s all taken care of behind the scenes.\r\nIn this session, Robert presents the Memory Image pattern (coined by Martin Fowler), OrigoDB and how it can be applied to DDD."

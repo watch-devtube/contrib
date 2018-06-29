@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - ruby
+    - functional
+title: 'RubyConf 2010 - LDAP: the Original "NoSQL" by: Michael Granger'
+recordingDate: 1428421221
+description: 'There has been a movement of late to re-think the use of relational databases for some classes of problems, opting instead for some kind of structured storage that allows for more free-form, organic storage of data. A whole crop of new technologies have sprung up to fulfill this requirement, but as so often happens, I think we might be overlooking a technology that can already fulfill the needs of many structured-data applications that''s well-tested, stable, robust, and already deployed in many organizations: LDAP, the "Lightweight Directory Access Protocol". While LDAP has a reputation for being complex and strange, and is often relegated to being "only for phone directories", it''s actually quite a capable, elegant, and pleasantly Ruby-ish datastore. It also matches some of the more-popular "NoSQL" datastores feature for feature, and is applicable to some of the same problems. I''ll introduce the protocol at a high level, talk about some of its features and philosophies, and then show how nicely it plays in a Ruby environment. I''ll also introduce Treequel, a functional-style LDAP library modeled after the Sequel database library, and show how it maps Ruby objects onto directory entries in a clean, natural way. I''ll show some examples of how to use LDAP in a wide range of applications from traditional ones like company directories and address books, to some more esoteric ones like Asterisk phone auto-provisioning, automated service monitoring and trending, and physical asset inventories. If there''s time, I''ll also demonstrate some off-the-wall experimental uses like an MMORPG objectstore.'

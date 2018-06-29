@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'SREcon16 - Building Reliable Social Infrastructure for Google'
+language: English
+recordingDate: 1464386347
+description: "Marc Alvidrez, Google\n\nIf you were evaluating a system design for anti-patterns, you might look for the following characteristics:\n\nsignificant amounts of global, mutable data with a very high update rate requiring ACID semantics\nserve application data with no natural sharding (i.e. partitioning) dimension\ndata storage-level hot-spotting\ninteractive latency requirements for a global base of users\nThese undesirable characteristics in your system, however, are precisely the desirable characteristics of your application! They form the basis of critical features needed for any successful Social network, and many socially-enabled applications.\n\nCome and hear about the tradeoffs explored and design idioms we discovered as we built Google's Social infrastructure."
