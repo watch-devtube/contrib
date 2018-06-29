@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - security
+    - testing
+    - architecture
+title: 'DEF CON 25 - spaceB0x - Exploiting Continuous Integration (CI) and Automated Build systems'
+language: English
+recordingDate: 1509660001
+description: 'Continuous Integration (CI) systems and similar architecture has taken new direction, especially in the last few years. Automating code builds, tests, and deployments is helping hordes of developers release code, and is saving companies a great amount of time and resources. But at what cost? The sudden and strong demand for these systems have created some widely adopted practices that have large security implications, especially if these systems are hosted internally. I have developed a tool that will help automate some offensive testing against certain popular CI build systems. There has been a large adoption of initiating these builds through web hooks of various kinds, especially changes to public facing code repositories. I will start with a brief overview of some of the more popular CI tools and how they are being used in many organizations. This is good information for understanding, at a high level, the purpose of these systems as well as some security benefits that they can provide. From there we will dive into specific examples of how these different CI implementations have created vulnerabilities (in one case to a CI vendor themselves). Last we will explore the tool, its purpose, and a demonstration of its use. This tool takes advantage of the configurations of various components of the build chain to look for vulnerabilities. It then has the capability to exploit, persist access, command and control vulnerable build containers. Most of the demonstration will revolve around specific CI products and repositories, however the concepts are applicable across most build systems. The goal here is to encourage further exploration of these exploitation concepts. The tool is built "modularly" to facilitate this. If you are new to CI and automated build systems, or if you have been doing it for years, this talk and tool will help you to better secure your architecture'
