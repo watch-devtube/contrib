@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - startup
+    - ruby
+title: 'RubyConf 2017: Improving TruffleRuby’s Startup Time with the SubstrateVM by Kevin Menard'
+language: English
+recordingDate: 1512059896
+description: "Improving TruffleRuby’s Startup Time with the SubstrateVM by Kevin Menard\n\nRuby applications can be broadly split into two categories: those that run for a short period and those that stick around for a while. Optimizing performance for one often comes at the expense of the other. Over the years, alternative Ruby implementations have demonstrated remarkable performance gains for long-lived applications -- so-called peak performance -- but often lose out to MRI for short-lived applications.\n\nIn this talk, I'll introduce the SubstrateVM and show how we use it to massively improve TruffleRuby's startup time with minimal impact on peak performance."

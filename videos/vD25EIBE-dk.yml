@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - devops
+    - security
+title: 'SREcon17 Asia/Australia: Managing Changes Seamlessly on Yahoo''s Hadoop Infrastructure Servers'
+language: English
+recordingDate: 1497561676
+description: "Vineeth Vadrevu, Yahoo\n\nYahoo's grid-ops makes frequent changes (15 per-week) to below entities:\n\n- OperatingSystem configuration (packages, security-patches)\n- Hadoop (packages)\n- Supporting applications i.e. LDAP, Kerberos, Logging, Monitoring\n\nFor a platform like Hadoop at Yahoo's scale; stability, reliability and uptime are highly crucial because of the sheer magnitude to which the platform caters to. The objectives that are set, for pushing changes, so that the platform doesn't take a hit on stability, reliability and uptime are:\n\n- Continuous Delivery and DevOps philosophies are strictly adhered to \n- Every node always has right configs\n- Each change is seen to be pushed within specific time period and is uniform across all nodes\n- Changes made can be visualised, tracked, monitored, validated and if required, can be reverted easily\n- Feasible mechanisms are made available in the pipeline to promote pushes across Hadoop clusters in a staged manner so that change rollovers are smooth\n- Effective gates are in place to reduce the impact of a wrong change\n- Any change reviewed and committed makes it's way automatically to every node\n\nThis presentation will share and discuss:\n\n1. How the objectives are achieved through automation\n2. Experiences and lessons learned\n\nWe believe our practices can easily be adopted by SREs to effectively manage Large-Scale Infrastructure.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

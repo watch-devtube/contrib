@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+title: 'SREcon17 Asia/Australia: Draining the Flood—A Combat against Alert Fatigue'
+language: English
+recordingDate: 1497561675
+description: "Yu Chen, Baidu Inc.\n\nMonitoring system is an important tool for SREs to guarantee service stability and availability. Baidu’s monitoring system, Argus, keeps tracking hundreds of services of distribution system. With the increasing complexity of the services, the monitoring items and the corresponding anomaly detectors grows to a magnitude that the generated alerts floods from time to time. On an average day, Argus detects millions of warning events and sends out thousands of SMS alerts to on-call engineers. This results in a per person amount of more than 100 alerts during the day time and 30 during the night time. When a severe failure occurs, the alerts flood in a massive surge, and become little helpful for the engineers to fix the problem. Therefore, it is imperative to improve the detection accuracy of abnormal events, reduce the amount of alerts, and organize them into a meaningful way.\n\nIn this talk, we will introduce our practice that leverage machine learning methods to detect anomalies and group alerts, in order to solve the above issues. We will also share some successful experiences, such as alert based datacenter-level failure detection, and alert-triggering automatic recovery techniques.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

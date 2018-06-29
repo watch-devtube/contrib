@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - serverless
+    - devops
+    - containers
+    - kubernetes
+    - testing
+title: 'Fission: Serverless Functions for Kubernetes [B] - Soam Vasani, Platform9 Systems'
+recordingDate: 1513370227
+description: "Fission: Serverless Functions for Kubernetes [B] - Soam Vasani, Platform9 Systems\n\n\"Serverless\" functions allow users to easily create services from source code without dealing with packaging, deployment, scaling, etc.\n\nFission is a serverless function framework built on Kubernetes. Users write functions and map them to event sources, such as HTTP requests, timers, Kubernetes watches, and message queues. Users don't have to deal with container images, registries or even learn Kubernetes in much detail.\n\nFunctions consume CPU and memory resources only when running. Fission makes on-demand function loading very fast by keeping an idle pool of containers running, in effect creating a distributed \"threadpool\".\n\nFission is useful for:\n* Creating web app backends or REST APIs\n* Implementing webhooks\n* Watching Kubernetes Resources for changes to implement simple custom\ncontrollers\n* Creating Kubernetes Initializers with minimal work\n\nIn this talk we'll give a few demos for these use cases, and cover:\n\n* How fission works with function dependencies in a language-agnostic manner\n* The development lifecycle of Functions: testing and incremental deployment\n* The composition of functions into workflows using the Fission Workflow project\n* Observability: log aggregation, metrics with Prometheus, tracing with Opentracing/Zipkin\n* The interaction of functions with service meshes (Istio/Envoy)\n\nAbout Soam Vasani\nSoam Vasani created and works on the Fission framework at Platform9 Systems. He's also worked on Platform9's Kubernetes cluster deployment and management product. His past work includes distributed filesystems, a log analysis stack, and infrastructure management products; as well as the GNU debugger and toolchain. He's interested in distributed systems, devops tools and frameworks, and programming languages."

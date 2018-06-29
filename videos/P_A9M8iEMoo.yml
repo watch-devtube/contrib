@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - devops
+    - containers
+    - kubernetes
+    - security
+    - testing
+title: 'Developer Tooling for Kubernetes Configuration [I] - Gareth Rushgrove, Puppet'
+recordingDate: 1513370399
+description: "Developer Tooling for Kubernetes Configuration [I] - Gareth Rushgrove, Puppet\n\nWriting Kubernetes YAML files provides a simple starting point for most users of Kubernetes. Mainly through the power of copy and paste we all get our first examples working. But as usage of Kubernetes grows, spanning teams and time, we build up a lot of those YAML files. Many people reach for templating, or look at higher-level tooling like Helm packages next. But catching errors is still mainly a manual process of running the resulting configuration against a working Kubernetes cluster.\n\nIn this talk we’ll look at what’s missing in this workflow, looking for inspiration from developer tooling from other languages and frameworks. In particular we’ll consider:\n\n* Ways of providing feedback about invalid configuration in our text editors\n* Validating configuration against the Kubernetes types, especially useful when generating that configuration from templates\n* Checking Kubernetes configuration is valid for different versions of Kubernetes\n* What unit testing our Kubernetes configuration looks like\n* How to integrate all of this together into a continuous integration based workflow\n\nWe’ll show examples using straight YAML files, templating and higher-level tooling like Helm and Jsonnet. The talk will also cover the benefits of a standard development environment, especially for new users, and provide tips for those getting started and more experienced users. The audience should come away with ideas for making there Kubernetes experience more efficient and more developer friendly.\n\nAbout Gareth Rushgrove\nGareth Rushgrove is a principal software engineer at Puppet. He works remotely from Cambridge, UK, building interesting tools for people to better manage infrastructure. Previously he worked for the UK Government Digital Service focused on infrastructure, operations and information security. When not working he can be found writing the Devops Weekly newsletter or hacking on software in new-fangled programming languages."

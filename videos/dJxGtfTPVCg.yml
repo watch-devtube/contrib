@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'SREcon17 Asia/Australia: Event Correlation: A Fresh Approach towards Reducing MTTR'
+language: English
+recordingDate: 1497561676
+description: "Renjith Rajan and Rajneesh, LinkedIn\n\nLinkedIn has hundreds of microservices spanning across different data centres and dependent on each other. Even though microservice architecture has its own advantages, often times, identifying the problematic service during an incident/outage could significantly contribute to a high MTTR and unnecessary escalations. Event Correlation Engine is an attempt to algorithmically identify the responsible service quickly and escalate to the right team.\n\nEvent Correlation Engine examines the entire service stack by looking at critical downstream latencies, error metrics and other monitoring events to recommend a responsible service. It understands callee caller communication for linkedIn’s complex microservices architecture.The engine uses dynamic thresholds, which it learns by processing last 30 days data, to provide an effective recommendation. We’ll discuss the approach we used in building it and how it is being used at LinkedIn to reduce MTTR and on call escalations.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
