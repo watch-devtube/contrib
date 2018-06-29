@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+title: 'LISA17 - Pintrace: A Distributed Tracing Pipeline'
+language: English
+recordingDate: 1510786713
+description: "Suman Karumuri, Pinterest\n@mansu\n \nSpeed improves customer engagement. With the emergence of micro services, it is very common for a single customer interaction, such as loading the home page or querying a search end point, to invoke hundreds of calls to dozens of back-end services. In this multi-tenant environment, traditional monitoring and profiling tools can't tell us why a specific request was slow.\n\nDistributed tracing is the only tool available today that lets us trace a request across several systems. Using the gathered traces, we can correctly debug how a specific request is processed across the service, understand where an application spent most of its time and gain insight into why a particular request was slow.\n\nIn this talk, I will present PinTrace, our zipkin based distributed tracing infrastructure. I will also talk about the challenges of instrumenting and deploying the tracing in a polyglot micro-services architecture at scale. I will also share a few examples of how we use traces from production to debug p99 latency issues, identify unnecessary network calls and performance bottlenecks in the system. I will conclude the talk with a few use cases of distributed tracing beyond performance optimization like architectural visualization.\n\nView the full LISA17 program: https://www.usenix.org/lisa17/program"
