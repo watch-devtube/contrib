@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+    - testing
+title: 'Lightning Talk: Tips for Operating Kubernetes with OpenStack Cloud Provider - Yang Yu & Yifeng Xiao'
+recordingDate: 1525452740
+description: "Want to view more sessions and keep the conversations going?  Join us for KubeCon + CloudNativeCon North America in Seattle, December 11 - 13, 2018 (http://bit.ly/KCCNCNA18) or in Shanghai, November 14-15 (http://bit.ly/kccncchina18)\n\nLightning Talk: Tips for Operating Kubernetes with OpenStack Cloud Provider - Yang Yu & Yifeng Xiao, VMware (Beginner Skill Level)\n\nOpenStack, one of popular Kubernetes cloud providers, consists of diverse components and is highly configurable, this proposal introduces some tips and tuning configurations to improve the performance and stability to operate Kubernetes in a OpenStack cloud. Problems which you never see in a small Kubernetes cluster come up as you expand it to a certain scale. Not only tons of logs are caused by polling data from each Kubernetes node, thousands of API calls also causes high CPU usage of OpenStack control nodes. OpenStack Cinder provides a natural fit to support Persistent Volume. But due to volume attaching is an interaction between Nova and Cinder, it leads to issues under large scale. Scaling out Kubernetes degrades service performance drastically because all nodes are inside OpenStack loadbalancer member pools, enabling health monitor or not can make a difference in performance.\n\nAbout Yang\nYang Yu is a software engineer at VMware, working on Kubernetes CNI plugin for VMware NSX. She specializes in software defined network and has previously worked on OpenStack neutron for more than 4 years. She is one of founding members of neutron driver for VMware NSX. She has also spoken twice in VMware innovation meetings at San Francisco and once in China OpenStack Days.\n\nAbout Yifeng\nYifeng Xiao specializes in software automation testing, from continuous integration to system testing. He is involved in scale testing and performance testing of multiple VMware big data systems and cloud platforms, including Hadoop/HBase, OpenStack and Kubernetes."
