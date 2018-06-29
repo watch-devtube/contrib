@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+    - security
+    - testing
+    - ruby
+    - python
+    - javascript
+title: '#HITB2018AMS D2T2 - Exposing Hidden Exploitable Behaviors Using EDF - Fernando Arnaboldi'
+recordingDate: 1524985166
+description: "In December 2017 I presented a paper entitled “Exposing Hidden Exploitable Behaviors in Programming Languages Using Differential Fuzzing” – a talk that focused on the unexpected behaviors that I found on programming languages when fuzzing the interpreters. A differential fuzzing framework was created to detect dangerous and unusual behaviors in similar software implementations. To prove its effectivity, multiple implementations of the top five interpreted programming languages were analyzed: JavaScript, Perl, PHP, Python, and Ruby. After fuzzing the default libraries and built-in functions, several dangerous behaviors were automatically identified.\n\nIn this session I present the technical side of that research: which are the different analysis that can be performed to obtain the unexpected behaviors. When fuzzed applications don’t crash, you can still potentially find more than 20 different types of issues. This talk exemplifies the capabilities of differential fuzzing with practical examples identifying which undocumented functions could allow OS command execution, when sensitive file contents may be partially exposed in error messages, how native code is being unexpectedly interpreted – locally and remotely – and when constant’s names could be used as regular strings for OS command execution. Additional undisclosed vulnerabilities will be shown throughout the talk to exemplify how to find more issues.\n\nThis talk will also include a new special release of the fuzzer.\n\n=== \n\nFernando Arnaboldi is a senior security consultant at IOActive specializing in penetration testing and code reviews on multiple platforms. He has focused his research on programming languages and has presented his findings in security conferences such as Black Hat USA & Europe, DEF CON, Ruxcon and OWASP AppSec USA."
