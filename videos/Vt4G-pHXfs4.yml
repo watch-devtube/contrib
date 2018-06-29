@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - java
+    - functional
+title: 'Devoxx Poland 2016 - Christopher Batey - The JVM and Docker, a good idea?'
+language: English
+recordingDate: 1468392079
+description: "Containers are the latest hype. It goes without saying that Docker for the development environment is a good thing but what about running our production Java applications inside a container?\n\nOne of the well known benefits of containers is that they provide a self-contained way to package and ship applications. However, it is already common practice to build fat executable jars that require only a JRE so what advantages would containers actually offer a pure Java shop? At Sky our motivation is efficient utilisation of hardware. We used to run single purpose VMs, which makes sense for production but for our countless test environments it is prohibitively expensive. Even IaaS is still too slow to provision new environments and bootstrap new applications. This talk will be focusing on the downsides and lessons learned from running JVMs inside containers.\n\nWe will cover the following topics:\n- The benefits, downsides and complexities of running a Java application inside a container.\n- Tuning memory limits taking into account Heap, Native memory, Metaspace, Stacks to avoid being OOM killed\n- Tracking native memory with jcmd\n- Operating system tools that are/are not container aware"
