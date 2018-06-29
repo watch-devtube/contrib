@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - performance
+title: 'Juliet Hougland, Data Scientist, Cloudera @ MLconf NYC'
+recordingDate: 1427957488
+description: 'Matrix Decomposition at Scale: Matrix decomposition is an incredibly common task in machine learning, appearing everywhere including recommendation algorithms (SVD++), dimensionality reduction (PCA), and natural language processing (Latent Semantic Analysis) . Many well-known existing libraries can compute matrix decompositions when matrices fit in memory on a single machine. When the matrix no longer fits in memory and distributed computation is required, the computations becomes more complex and the details of the implementation become much more important. In this talk I will focus on the three major open source implementations of distributed eigen/singular value decomposition– LanczosSolver and StochasticSVD in Mahout and the SVD implementation in Spark MLLib. I will discuss the tradeoffs of of these implementations from the perspective of real world performance (beyond big-o notation for flops) and accuracy. I will conclude with some guidelines for choosing which implementation to use based on accuracy, performance, and scale requirements.'

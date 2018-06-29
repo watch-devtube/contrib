@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: '#bbuzz 2018: Abhishek Kumar Singh – Schema Learning in Apache Solr'
+recordingDate: 1530024441
+description: "Further information: https://berlinbuzzwords.de/18/session/schema-learning-apache-solr\n\nSession abstract: \nApache Solr has come a long way from being used for simple full-text search to modern day analytics, geospatial, media and multi-tenant search applications. However, it suffers from the inductive problem of “schema-resolution”.\n\nWhile there exists a “schema-less” mode in Apache Solr, it doesn't really solve the above problem, as it generates a very generic schema under the hood. At Unbxd, a multi-tenant e-commerce search platform, arriving at the most optimal schema is critical for performance and functionality.\n\nThis talk presents our contribution to Solr (SOLR-11741 https://issues.apache.org/jira/browse/SOLR-11741), a “schema-learning mode” that leverages “field type hierarchy” to solve the schema inference problem by learning from source documents and run-time query patterns. The talk additionally focuses on how searching, sorting & faceting can become more efficient with this feature and provide insights into data anomalies."

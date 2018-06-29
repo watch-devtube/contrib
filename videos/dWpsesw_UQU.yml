@@ -1,5 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+tags:
+    - functional
 title: 'Natalia Chechina - Scalable Distributed Erlang'
 recordingDate: 1404484223
 description: 'In this talk we present Scalable Distributed (SD) Erlang - an extension of distributed Erlang functional programming language for reliable scalability. The work is a part of the RELEASE project that aims to improve the scalability of Erlang programming language. We start by providing an overview of the RELEASE project and discussing distributed Erlang limitations. Then we introduce SD Erlang, its design, motivation, and the main two components, i.e. scalable groups and semi-explicit placement. The scalable groups (s_groups) enable scaling the network of Erlang nodes by eliminating transitive connections, i.e. a node may belong to multiple s_groups where each s_group node has transitive connections with the nodes from the same s_groups and non-transitive connections with other nodes. The semi-explicit placement enables to spawn processes on nodes either in a particular s_group, or with particular attributes (e.g. available hardware or software), or with certain parameters (e.g. least load). We''ll also cover the results of the preliminary validation, and SD Erlang operational semantics and its verification. We conclude the talk by providing a brief overview of the ongoing work and future plans.'

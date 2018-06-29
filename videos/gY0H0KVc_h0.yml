@@ -1,5 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+tags:
+    - lisp
 title: 'Nathan Sorenson - Domain Specific Type Systems'
 recordingDate: 1429586517
 description: 'When writing DSLs, we sometimes forget we''re not stuck with the type system of the host language. We may be in a situation where dynamic or gradual types don''t give us the best power-to-weight ratio for our specific use case. This talk will show how macros enable localized forms of static checking that go beyond vanilla Clojure or core.typed. We''ll tackle the gnarly problems of error messages (what good is a statically-checked error we can''t understand?) and interoperability (what good is code that can''t interact safely with other libraries?) Practicality will be paramount as we show these ideas at work in a typed query DSL for Datomic.'

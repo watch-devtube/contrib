@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - performance
+    - cloud
+    - aws
+    - architecture
+title: 'Jeremy Stanley, EVP/Data Scientist, Sailthru @ MLconf NYC'
+recordingDate: 1427957432
+description: "Cost Effectively Scaling Machine Learning Systems in the Cloud: E-commerce and publishing clients use Sailthru to personalize billions of digital experiences for their customers weekly. Earlier this year, Sailthru launched Sightlines to allow clients to predict the future behavior of individual users. In this talk we cover how we scaled Sightlines cost effectively in the cloud by combining inexpensive computing resources with an efficient architecture and easy to maintain and evolve implementation.\n\nTo access computing resources cost effectively, we utilize Amazon spot instances and Apache Mesos to pool together large quantities of CPU and memory. This approach can be orders of magnitude more cost effective than traditional deployments, but requires sophisticated automation and orchestration tools, and a fine-grained fault tolerant application architecture.\n\nGiven cost effective resources, the next challenge was to design the application to be efficient. Simple sampling and data pre-processing techniques significantly limit the computational requirements without adversely impacting model performance. Further, by controlling how often we run various components of the pipeline, we minimize cost while keeping models up to date.\n\nThe final challenge is to make such a system maintainable and easy to evolve. This includes removing single points of failure, automating infrastructure management, building distributed logging and monitoring capabilities, and running identical A / B production environments to enable aggressive, iterative changes to the code base and architecture in production.\n\nWe hope to demonstrate that the challenges faced in scaling a complex machine learning system in the cloud are at least as interesting as the science behind it, and to provide some insight into modern tools and methods for addressing these scalability challenges."

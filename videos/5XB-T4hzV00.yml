@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - python
+title: 'Nick Evans: Realtime Risk Management Using Kafka, Python, and Spark Streaming'
+recordingDate: 1449251042
+description: "PyData NYC 2015\n\nAt Shopify, we underwrite credit card transactions, exposing us to the risk of losing money. We need to respond to risky events as they happen, and a traditional ETL pipeline just isn't fast enough. Spark Streaming is an incredibly powerful realtime data processing framework based on Apache Spark. It allows you to process realtime streams like Apache Kafka using Python with incredibly simplicity.\n\nAt Shopify, we need to watch for evidence of credit risk so that we don't lose money to fraudsters. We also want to do this in as near realtime as possible, as paying out money to our merchants is time-sensitive. We are a SaaS company that facilitates commerce, so we want to get our merchants their hard-earned money as soon as possible.\n\nOur old infrastructure for doing this was to use hourly emails that were powered by SQL queries. These SQL queries were meant to find risky database records, and were informed by the past experience of our risk team.\n\nWe began looking for something to replace our old infrastructure, which wasn't scaling well. The Shopify application sends events to Kafka, and the data team is a Python shop that uses Apache Spark, so Spark Streaming seemed like a perfect fit.\n\nThis talk will cover the basics of Apache Spark / Spark Streaming, as well how we used both to help our risk team be data-driven. It will also cover some of the other solutions we tried, and why they didn't work for us."

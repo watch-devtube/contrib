@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Stephan Hoyer - Introducing xray: extended arrays for scientific datasets'
+recordingDate: 1403540538
+description: "PyData SV 2014 \nxray is a new Python package for labeled array data. It aims to provide a data analysis toolkit as efficient and powerful as pandas but designed for homogeneous N-dimensional arrays instead of tabular data. Indeed, many of its internals are built on pandas (most notably, fast indexing), and its interface mirrors pandas for features such as label-based indexing, data alignment and group-by operations. xray implements two data-structures that are missing in pandas: the DataArray, an extended array object with labeled coordinates and dimensions, and the Dataset, a dictionary-like container for manipulating a collection of DataArrays aligned along shared dimensions. The labeled dimensions of the DataArray allow for array alignment (e.g., broadcasting) and operations (e.g., sum) based on dimension names instead of array shapes and axis numbers. The data model is based on Unidata's Common Data Model for self-describing scientific datasets, which is widely used in the geosciences."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Postgres, MVCC, and you or, Why COUNT(*) is slow (David Wolever)'
+recordingDate: 1525728734
+description: "It's hard to be a developer today without using a database… but they're often surrounded by an air of reverent mystery.\n\nOne of those mysteries is why it's so slow to count all the rows in a table using COUNT(*). After all, it's just a matter of walking a b-tree and counting leaves… and that should be trivial to optimize!\n\nIn this talk I'll answer the question of \"why COUNT(*) is slow\" by taking a deep dive into the the internals of Postgres' MVCC implementation, looking at:\n\n    The question of \"why COUNT(*) is slow\"\n    The on-disk storage layout and why, under the hood, it's not a b-tree\n    What Postgres means by MVCC, with examples of the utility of transactions\n    Introduce xid, xmin, xmax\n    Discuss tuple visibility\n    Explain VACUUM and xid wraparound\n    Show off transaction isolation levels\n\nThis talk is accessible to anyone who's used an SQL database, with enough depth that experienced developers will find some interesting tidbits.\n\nPresentation page -- https://2017.pycon.ca/schedule/25/"
