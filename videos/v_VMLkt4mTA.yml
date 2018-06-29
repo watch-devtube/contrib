@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - web
+    - react
+    - containers
+    - kubernetes
+    - leadership
+    - architecture
+title: 'Kubernetes Ingress Controller with Apache Traffic Server [I] - Mrunmayi Dhume, Oath (Yahoo)'
+recordingDate: 1513372341
+description: "Kubernetes Ingress Controller with Apache Traffic Server [I] - Mrunmayi Dhume, Oath (Yahoo) & Suresh Visvanathan, Yahoo!\n\nToday, the Oath Media Brands and Products container platform is serving critical application workloads like Yahoo Sports and Yahoo Finance at a large scale using Kubernetes as the orchestration framework. \n\nFor a platform at this scale, it is critical to have a powerful and flexible ingress routing layer (controller) that is able to handle the dynamic behavior of container based applications, such as auto-scaling, frequently changing pod IP addresses, self-serve onboarding and cluster-aware routing. This L7 routing layer must be quick to react to changes on the cluster without affecting its routing capabilities and impacting the in-flight requests. In a multi-tenant system it is even more vital that a single application deployment does not cause an impact to user traffic or hinder the release velocity of other tenants. \n\nWe developed an ingress controller based on Apache Traffic Server that satisfies the requirements stated above, while remaining scalable and easy to integrate with both Kubernetes and the Oath ecosystem. In this talk/presentation, we will elaborate on the architecture of the ingress controller, the performance metrics we’ve achieved, and the key learnings from supporting such a critical infrastructure component.\n\nAbout Mrunmayi Dhume\nMrunmayi Dhume is a Senior Software Engineer in the Core Infrastructure team at Oath Media Brands and Products. She was involved early on in the introduction of Kubernetes in the organization and took a leadership role in designing and implementing the ingress routing layer components and container pipelines for core platforms used at Oath. Prior to that she has worked in various other projects focused in the areas of developer productivity tools, CI/CD processes and chaos engineering. Before joining Oath she completed her Masters in Computer Science from Stony Brook University, New York.\n\nAbout Suresh Visvanathan\nSuresh Visvanathan, Sr Architect, has over 13 years of experience in IT and Software. Suresh’s current responsibilities include the architecture, vision, strategy and design of cloud platform as-a-service (PaaS). Suresh has been architecting solutions and building products around resilience engineering, Auto recovery Systems and is a frequent speaker at K8s meetup, Chaos Community Events."
