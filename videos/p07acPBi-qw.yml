@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+    - web
+    - security
+    - javascript
+title: 'AppSec EU 2017 Don''t Trust The DOM: Bypassing XSS Mitigations Via Script Gadgets by Sebastian Lekies'
+language: English
+recordingDate: 1495760058
+description: "Over the years many techniques have been introduced to prevent or mitigate XSS. Thereby, most of these techniques such as HTML sanitizers or CSP focus on script tags and event handlers. In this talk, we present a novel Web hacking technique that enables an attacker to bypass these mitigations. In order to to so, the attacker abuses so-called script gadgets. A gadget Is a legitimate piece of JS in a page that reads elements via selectors and processes them in a way that results in script execution. To abuse a gadget, the attacker injects benign elements that match the gadget&rsquo;s selector. Subsequently, the gadget selects the elements and executes the attacker's scripts. As the attacker's markup is benign it passes HTML sanitizers and security policies. The XSS only surfaces when the gadget mistakenly elevates the privileges of the element. Based on real-world examples, we will demonstrate that these gadgets are present in almost all modern JavaScript libraries, APIs and applications.\n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"

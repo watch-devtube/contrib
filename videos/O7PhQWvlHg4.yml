@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - security
+title: 'Let''s Parse to Prevent Pwnage'
+recordingDate: 1339521122
+description: "Mike Samuel and Ulfar Erlingsson, Google\n\nSoftware that processes rich content suffers from endemic security vulnerabilities. Frequently, these bugs are due to data confusion: discrepancies in how content data is parsed, composed, and otherwise processed by different applications, library frameworks, and language runtimes. Data confusion often enables code injection attacks, such as cross-site scripting or SQL injection, by leading to incorrect assumptions about the encodings and checks applied to rich content of uncertain provenance. However, even for well-structured, value-only content, data confusion can critically impact security, e.g., as shown by XML signature vulnerabilities. \n\nThis paper advocates the position that data confusion can be effectively prevented through the use of simple mechanisms—such as parsing—that resolve ambiguities by fully resolving content data to canonical, clearly-understood formats. \n\nUsing code injection on the Web as our motivation, we make the case that automatic defense mechanisms should be integrated with programming languages, application frameworks, and runtime libraries, and applied with little, or no, developer intervention. We outline a scalable, sustainable approach for developing and maintaining those types of mechanisms.  The resulting tools can offer comprehensive protection against data confusion, even when multiple types of rich content data are processed and composed in complex ways"
