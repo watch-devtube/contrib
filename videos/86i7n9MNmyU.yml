@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+title: 'SREcon16 - Debugging Distributed Systems'
+language: English
+recordingDate: 1464201064
+description: "Donny Nadolny, PagerDuty\n\nDespite our best efforts, our systems fail. Sometimes it’s our fault - code that we wrote or bugs that we caused. But sometimes the fault is with systems that we rely on.\n\nZooKeeper is a very useful distributed system that is often used as a building block for other distributed systems, like Kafka and Spark. It is used by PagerDuty for many critical systems, and for five months it failed on us a lot.\n\nWe will walk through the process of finding and fixing one cause of many of these failures. You will learn how to use various tools to stress test the network, some intricate details of how ZooKeeper works, and possibly more than you wanted to know about TCP including an example of machines having a different view of the state of a TCP stream."
