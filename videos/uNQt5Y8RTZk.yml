@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'A Scheduling Simulator for Capacity Estimation of Kubernetes Clusters - Avesh Agarwal'
+recordingDate: 1513374050
+description: "A Scheduling Simulator for Capacity Estimation of Kubernetes Clusters - Avesh Agarwal, Red Hat\n\nCapacity planning is very important for meeting dynamic demands in any clusters. Without having an approximate view of the remaining capacity in a cluster, it is hard for cluster operators to decide if and when the cluster should be provisioned with more capacity or not. In Kubernetes clusters, capacity is associated with worker nodes in terms of resources such as cpu, memory or storage. Discussing capacity in terms of individual resources may be a bit ambiguous because a Pod is the smallest schedulable unit in Kubernetes clusters. Therefore, cluster operators may be more interested in knowing an approximate number of pods of a specific size (amount of resources) that can be scheduled on a cluster. This talk will introduce a new tool, called cluster capacity, that can be used to analyze the capacity of a Kubernetes cluster in this way. First, the talk will discuss about its use cases, followed by its design and implementation as a scheduling simulator. The talk will also include a demo to demonstrate various ways the tool can be run against a Kubernetes cluster. This talk will conclude with the discussion of future directions for this tool.\n\nAbout Avesh Agarwal\nAvesh Agarwal works at Red Hat. He is a core contributor to Openshift and Kubernetes projects."

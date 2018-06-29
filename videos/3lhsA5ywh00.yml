@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+    - functional
+title: 'Daniel Pope - gevent: asynchronous I/O made easy'
+recordingDate: 1411368776
+description: "Daniel Pope - gevent: asynchronous I/O made easy\n[EuroPython 2014]\n[23 July 2014]\n\ngevent provides highly scalable asynchronous I/O without becoming a nest of callbacks, or even needing code changes.\nDaniel will explain how to get started with gevent, discuss patterns for its use and describe the differences with Twisted, Tornado and Tulip/asyncio.\n\n-----\n\nIt has been claimed \"Callbacks are the new GOTO\". Most asynchronous IO libraries use callbacks extensively.\n\ngevent (http://www.gevent.org) uses coroutines to provide highly scalable asynchronous I/O with a synchronous programming model that doesn't need code changes and callbacks. By elegantly monkey patching the Python standard library, both your code and all pure Python libraries become asynchronous too, making a separate collection of protocol implementations (in the style of Twisted) unnecessary.\n\nCode written like this is easier to understand, particularly for more junior developers. Crucially, IO errors can be raised at the right places.\n\nI will be introducing gevent's programming model, why it's easier, walk through simple code samples, and discuss experiences and metaphors for programming with it."
