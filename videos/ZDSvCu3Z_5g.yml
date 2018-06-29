@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Running virtual machines in containers'
+language: English
+recordingDate: 1520845410
+description: "by Michal Rostecki\n\nAt: FOSDEM 2017\n\nThe idea of running virtual machines inside containers is surprisingly old andwas used due to several reasons. They include willingness to run VM-s incontainer orchestration engines like Kubernetes or Borg, or packaging IaaScloud software like OpenStack in containers. In this presentation, I am goingto describe these use cases and two main different approaches ofcontainerizing VM-s - putting every qemu(-kvm) process in a separate container(like Borg or Rancher OS are doing) and putting libvirtd process in container(like OpenStack Kolla or Stackanetes are doing)\n\n\nRoom: UA2.220 (Guillissen)\nScheduled start: 2017-02-05 15:10:00"
