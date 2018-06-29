@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - ruby
+    - lisp
+    - scala
+    - java
+title: 'JVM Polyglot Programming: JRuby FTW! by Ravindra R.; Jaju'
+recordingDate: 1337528906
+description: "The Ruby language has a very robust and high-performance implementation on the JVM - JRuby. While JRuby by itself brings a lot of (implicit) benefits of the JVM to the Ruby world, the rest-of-the-world isn't without its share of excitement!\n\nScala, Clojure, Mirah et al have a host of features which make them very expressive and powerful for certain classes of problems. For example, type-safety combined with the compilation phase bring in performance improvements. Or immutability allows for easy-to-reason-about concurrent implementations. Lazy evaluation allows for easier expression and solution of still another class of problems. And for situations requiring you to handle asynchronous situations, there are Actor libraries.\n\nWith JRuby, there are two ways to leverage the benefits of these languages. Since everything boils down to classes (and typically, JAR-libraries), one can directly call into these libraries with Ruby's syntactic sugar-coating as well as the smooth-as-butter maven integration! And for those situations that are expressed better in these other languages, one can embed that code directly in (J)Ruby and just enjoy the perks of being on the JVM!\n\nIn this talk, I will present some initiating material on JRuby's JVM basis, and then proceed to show how JRuby projects can leverage the benefits of the new, shiny JVM languages that have arrived on the scene."

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - ruby
+title: 'Sandboxing Ruby Code - Lessons from the battlefield by Tejas Dinkar and Jasmin A Basheer'
+recordingDate: 1337019480
+description: "Sometime you want to run untrusted code on your server. Our expirements with sandboxing started with the creation of a hosted continuous integration service called Goldberg Pro, and then continued on with RubyMonk, which needed to prevent users from performing potentially dangerous operations in code they submitted via the website.\n\nHere we discuss various system level, language level, and application level techniques that we tried (and we plan to try in the future) to ensure that the user does not bring down the entire system. Some techniques we plan to speak about include LXC (Linux Containers), Chroots, Ruby's SAFE levels, Kernel level limits, SELinux and PTrace.\n\nSome of our learnings are published in the form of the Open Source ruby gem - secure."
