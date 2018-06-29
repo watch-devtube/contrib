@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'CNCF Webinar Series – Writing Less YAML – Using jsonnet and kubecfg to Manage Kubernetes Resources'
+recordingDate: 1521587610
+description: "Using YAML and kubectl is an easy way to describe simple Kubernetes workloads, but the devil is in the detail when you want to change “just” a few bits here and there to accommodate for multiple different environments, CI/CD pipelines and so on. Kubernetes users have quickly encountered the “face full of YAML” problem and need better solutions to manage their application manifests.\n\nIn this webinar, we’ll look at how jsonnet can help create declarative manifests, using its features like modularity, lazy evaluation, etc. to allow using common templates and derived manifest trees. Additionally we’ll explore the features provided by kubecfg CLI tool to ease interacting with Kubernetes directly from these jsonnet files and/or stock YAML manifests."
