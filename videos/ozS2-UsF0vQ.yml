@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+title: 'SREcon18 Americas - Stable and Accurate Health-Checking of Horizontally-Scaled Services'
+language: English
+recordingDate: 1525125074
+description: "Lorenzo Saino, Fastly\n\nThis talk explains how Fastly built a distributed health-checking system capable of driving stable traffic allocation, while quickly and accurately identifying failures. The key intuition behind our design is that the common approach of estimating the operational readiness of a service instance based on its state alone leads to inaccurate decisions. Instead, the health of each instance should be evaluated in the context of the whole service: an instance should be classified unhealthy only if its behavior deviates significantly from other instances in a cluster. Our design borrows techniques from machine learning, signal processing and control theory to ensure overall system availability.\n\nAttendees will learn:\n\nAbout the challenges involved in health-checking complex services and how to make accurate, timely and stable decisions.\nHow health-checking can be abstracted into a tractable mathematical problem that can be effectively solved by applying known tools and techniques from machine learning, signal processing and control theory.\nHow to implement such a system practically, what the issues are, and the tradeoffs involved.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

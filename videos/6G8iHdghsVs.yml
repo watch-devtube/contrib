@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'AF_KTLS - TLS/DTLS Linux kernel module'
+language: English
+recordingDate: 1520770108
+description: "by Fridolín Pokorný\n\nAt: FOSDEM 2017\n\nA Linux kernel module that introduces an AF _KTLS socket. AF_ KTLS socket canbe used to transmit data over TLS 1.2 using TCP or DTLS 1.2 using UDP.Currently, there is supported only AES GCM cipher.\n\nAF _KTLS kernel module introduces an AF_ KTLS socket. AF_KTLS socket can beused to transmit data over TLS 1.2 using TCP or DTLS 1.2 using UDP. Currently,there is supported AES GCM cipher.\n\nThe socket does data transmission, the handshake, re-handshaking and othercontrol messages have to be served by user space using appropriate librariessuch as OpenSSL or Gnu TLS. AF_KTLS socket is suitable for CPU offloading anduse cases where can be omitted user space (buffered-copy) interaction (usingsendfile(2) or splice(2)).\n\n\nRoom: H.1308 (Rolin)\nScheduled start: 2017-02-05 14:00:00"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'SREcon18 Americas - Lessons Learned from Our Main Database Migrations at Facebook'
+language: English
+recordingDate: 1525124552
+description: "Yoshinori Matsunobu, Facebook\n\nAt Facebook, we created a new MySQL storage engine called MyRocks. Our objective was to migrate one of our main databases (UDB) from compressed InnoDB to MyRocks and reduce the amount of storage and number of servers used by half. In August 2017, we finished converting from InnoDB to MyRocks in UDB. The migration was very carefully planned and executed, and it took nearly a year. But that was not the end of the migration. SREs needed to continue to operate MyRocks databases reliably. It was also important to find any production issue and to mitigate or fix it before it becomes critical. Since MyRocks was a new database, we encountered several issues after running in production. In this session, I will introduce several interesting production issues that we have faced, and how we have fixed them. Some of the issues were very hard to predict. These will be interesting for attendees to learn too.\n\nAttendees will learn the following topics.\n\nWhat is MyRocks, and why it was beneficial for large services like Facebook\nWhat should be considered for production database migration\nHow migration should be executed\nLearning 4-6 real production issues\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
