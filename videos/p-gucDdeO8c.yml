@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - containers
+    - docker
+    - kubernetes
+    - security
+    - architecture
+    - java
+    - spring
+title: 'Managing secrets at scale by Mark Paluch'
+recordingDate: 1501623133
+description: "Running multiple instances of microservices, deploying Docker images to Kubernetes is the current trend. But what about security? Are you encrypting passwords? Where do you store the key? How often do you rotate secrets? A modern system requires access to a multitude of secrets: database credentials, API keys for external services, credentials for service-oriented architecture communication and often much more.\n\nTraditional, manual patterns cannot keep the security bar high with dynamic deployment scenarios. Secrets should stay secret and not get distributed amongst the landscape.\n\nCome to this session to learn how to keep the security bar high while running services that require secrets. You'll see how to securely share and manage secrets (certificates, passwords, keys) for your services using Vault and how to use it with Spring Boot."

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Devoxx Poland 2016 - Aleksandar Seovic - The Illusion of Statelessness'
+language: English
+recordingDate: 1468514414
+description: "While everyone is talking about 'stateless' services as a way to achieve scalability and high availability, the truth is that they are about as real as the unicorns.\n\nBuilding applications and services that way simply pushes the problem further down the stack, which only makes it worse and more difficult to solve (although, on the upside, it might make it somebody else’s problem). This is painfully obvious when building microservices, where each service must truly own its state.\n\nThe reality is that you don't need 'stateless' services to either scale out or be fault tolerant -- what you really need is a scalable, fault tolerant state management solution that you can build your services around.\n\nIn this talk we will discuss how some of the popular microservices frameworks are tackling this problem, and will look at technologies available today that make it possible to build scalable, highly available systems without 'stateless' service layers, whether you are building microservices or good ol' monoliths."
