@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+    - security
+title: 'CSRF: not all defenses are created equal - Ari Elias-Bachrach'
+recordingDate: 1391449971
+description: "CSRF is an often misunderstood vulnerability. In this talk I will introduce CSRF and the basic defenses against it. Then I will go through all of the various major solutions and describe how they \nimplement the general solution and the positives and negatives of each implementation.\n\nThe general solution is to implement the synchronizer token pattern. This is usually done in the framework and not by the individual developer. For example .net applications can use the antiforgerytoken (for MVC applications) or viewstateuserkey. Tomcat web server and F5 load balancers also now include CSRF prevention filters. OWASP of course has the CSRF guard. All of these solutions though are slightly different and can lead to different side effects, some of which are little understood and poorly documented. Some side effects can impact usability, or cause worse security problems while trying to defend against CSRF.\n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"
