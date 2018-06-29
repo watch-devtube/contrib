@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - scala
+    - java
+    - functional
+title: 'Pacific Northwest Scala 2013 Network I/O for a More Civilized Age: The New Akka I/O'
+recordingDate: 1383075217
+description: "by Brendan McAdams\n\nUntil recently, users seeking a way of doing Scalable I/O had two choices: NIO, which provides an esoteric interface requiring serious expertise and concurrency control, or Netty - which provides a rich and powerful layer above NIO. The downsides to Netty however include an extremely idiomatic Java API, and a series of separated threads and thread pools left out of the control of the user.\n\nThere is, however, hope for the Scala user who abhors free range threading and wants a more Scala-sane interface to a network. Working with the Spray (http://spray.io), the Akka team (http://Akka.io | http://letitcrash.com ) has recently introduced a new, lightweight Non-blockimg network I/O interface built around Akka's core Actors.\n\nThis talk will explore the benefits and power of this new Akka I/O layer, including a brief exploration of its benefits over the \"Old\" Akka IO. The presenter will introduce the ByteString & it's powerful manipulation tools for network traffic, the Pipeline system for composed protocol decoding, and much more. Further insights will include a demonstration of Akka I/O's built in system for Backpressure — allowing true handling & awareness of an overloaded network buffer, and compositing of Futures on top of the Actor API to emulate a more functional interface.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FG6y/"

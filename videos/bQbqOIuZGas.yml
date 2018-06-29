@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - scala
+    - java
+    - functional
+title: 'Pacific Northwest Scala 2013 Inlining anonymous functions with macros by Erik Osheim'
+recordingDate: 1382970465
+description: "The inlining problem (described by Cliff Click) is something that affects all functional languages on the JVM. The basic idea is that tight-loops dispatching to an anonymous function can defeat all of the JVMs optimization strategies. This creates a natural tension between writing the most concise code possible (DRY) and \"manually inlining\" boilerplate code for performance reasons.\n\nMacros give us one possible tool to solve this problem. This talk describes a strategy where we can use anonymous function literals to generate implementations at compile-time. This strategy has the potential to give us terse, high-level source code that compiles to fast bytecode. In this talk, we'll see some early efforts, as well as challenges.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FG6r/"
