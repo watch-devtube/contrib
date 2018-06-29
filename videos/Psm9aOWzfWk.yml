@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - devops
+    - containers
+    - kubernetes
+    - security
+title: 'Zero Configuration Pattern of Kubernetes on Bare Metal [A] - Rob Hirschfeld, RackN'
+recordingDate: 1513373239
+description: "Zero Configuration Pattern of Kubernetes on Bare Metal [A] - Rob Hirschfeld, RackN\n\nIn recent releases, we've enabled node admission and configuration APIs that eliminate configuration requirements for Kubernetes workers. This allows cluster operators to add and remove nodes from clusters without a configuration management tool driving the process. This fully automate node management behavior allows physical data centers to be much more cloud-like and lights-out.\n\nIn this session, we'll run this process as a demo and decompose the various parts that must work together for success. We'll discuss the specific APIs and how to implement them in a coordinated way that ensures node security and minimizes workload disruption. We'll also discuss how to improve node security by using trusted platform modules (TPM). By the end of the session, operators will be able to duplicate the steps on their own to learn the process.\n\nWhile we have a focus on bare metal infrastructure for this session, the lessons learned are equally usable on cloud infrastructure.\n\nAbout Rob Hirschfeld\nRob Hirschfeld is CEO and co-founder of RackN. He co-chairs the ClusterOps SIG and served four years on the OpenStack Board. With over 15+ years of cloud and physical infrastructure automation experience, he brings a unique technology and process perspective to DevOps and SRE fields. He is also the co-founder of the open Digital Rebar project which focuses on underlay automation for physical infrastructure."
