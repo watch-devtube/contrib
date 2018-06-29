@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - azure
+title: 'Mert Coskun: Inside State Manager'
+language: English
+recordingDate: 1527791782
+description: "Meet Mert Coskun, a developer on the Service Fabric team who is part of the famed 3I pod you learned about in our tour videos. He's spent a lot of time focusing on reliable state management. Specifically, he wrote the State Manager. The State Manager exposes common dictionary methods for managing state, similar to those found in Reliable Dictionary.\n\nYou can use the State Manager to store data regardless of which persistence setting is used. It does not provide any guarantees that a running actor service can be changed from a volatile (in-memory-only) state setting to a persisted state setting through a rolling upgrade while preserving data. However, it is possible to change replica count for a running service.\n\nHere, Mert takes us through the design of the State Manager and rides tandem with the random (as you must know by now, we turn the camera on and what happens happens). You'll learn about what the State Manager does and how it does it. This is the final part of our 3 videos covering Reliable State Management in Service Fabric. See the others here:\n\nPreetha on TStore and Reliable Collections:\nhttps://youtu.be/wcfewGJ6Tu8\n\nSumukh on Data Replication:\nhttps://youtu.be/OlO7aSMGvJg\n\nTune in.\n\nMore information:\n\nState Manager source code: \nhttps://github.com/Microsoft/service-fabric/tree/master/src/prod/src/data/txnreplicator/statemanager\n\nService Fabric Reliable Collections:\nhttps://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-services-reliable-collections"
