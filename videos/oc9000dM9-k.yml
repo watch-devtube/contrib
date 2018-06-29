@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - security
+title: 'USENIX ATC ''17: Performance Superpowers with Enhanced BPF'
+language: English
+recordingDate: 1502867932
+description: "Brendan Gregg, Senior Performance Architect, Netflix\n\nThe Berkeley Packet Filter (BPF) in Linux has been enhanced in very recent versions to do much more than just filter packets, and has become a hot area of operating systems innovation, with much more yet to be discovered. BPF is a sandboxed virtual machine that runs user-level defined programs in kernel context, and is part of many kernels. The Linux enhancements allow it to run custom programs on other events, including kernel- and user-level dynamic tracing (kprobes and uprobes), static tracing (tracepoints), and hardware events. This is finding uses for the generation of new performance analysis tools, network acceleration technologies, and security intrusion detection systems.\n\nThis talk will explain the BPF enhancements, then discuss the new performance observability tools that are in use and being created, especially from the BPF compiler collection (bcc) open source project. These tools provide new insights for file system and storage performance, CPU scheduler performance, TCP performance, and much more. This is a major turning point for Linux systems engineering, as custom advanced performance instrumentation can be used safely in production environments, powering a new generation of tools and visualizations.\n\nBecause these BPF enhancements are only in very recent Linux (such as Linux 4.9), most companies are not yet running new enough kernels to be exploring BPF yet. This will change in the next year or two, as companies including Netflix upgrade their kernels. This talk will give you a head start on this growing technology, and also discuss areas of future work and unsolved problems.\n\nView the entire USENIX ATC '17 program at https://www.usenix.org/conference/atc17/program"

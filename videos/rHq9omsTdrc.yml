@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - python
+    - javascript
+title: 'DEF CON 21 - Kenneth Lee - How to use CSP to stop XSS'
+recordingDate: 1387787345
+description: "How to use CSP to stop XSS \nKENNETH LEE PRODUCT SECURITY ENGINEER, ETSY INC.\n\nCrosssite scripting attacks have always been a mainstay of the OWASP Top 10 list. The problem with detecting XSS is that you can't go looking at web log traffic to determine if a request contains an actual cross site scripting attack attempt, much less one that will actually succeed against your defenses. Our work has helped reveal some nuances with implementing content security policy to help detect and prevent XSS attacks across a major website. This talk will demonstrate a new python based tool that we are open sourcing for Defcon that combines client and server based whitelisting mechanisms to verify unauthorized scripts (I.e. XSS) running on a page, mixed content, and inline javascript across a site.\n\nKenneth Lee (@Kennysan) is a product security engineer at Etsy.com working on everything from HTTP security headers to shattering the site with new vulnerabilities. Previously, Kenneth worked at FactSet Research Systems preventing The Hackers from stealing financial data. He went to Columbia and got an MS in computer science focusing on computer security. Between sweet hacks, Kenneth enjoys drinking tea and force feeding Etsy's operations team with Japanese chocolates.\n\nTools released for this presentation available on github here: https://github.com/Kennysan/CSPTools \nMaterials: \nhttps://www.defcon.org/images/defcon-21/dc-21-presentations/Lee/DEFCON-21-How-to-use-CSP-to-stop-XSS-Updated.pdf"

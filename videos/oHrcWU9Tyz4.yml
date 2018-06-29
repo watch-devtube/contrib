@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+    - architecture
+    - java
+title: 'Kubernetes in the Datacenter: Squarespace’s Journey Towards Self-Service Infrastructure'
+recordingDate: 1513371942
+description: "Kubernetes in the Datacenter: Squarespace’s Journey Towards Self-Service Infrastructure [I] - Kevin Lynch, Squarespace\n\nAs Squarespace’s engineering organization evolved, microservices became an obvious solution to quickly deliver new features and improve infrastructure reliability. We encountered significant challenges in our transition to a microservice-based architecture. Each new service increased the operations burden to provision and maintain a growing fleet of servers, frequently slowing the process of adding new services and scaling existing services in our datacenters. \n\nI’ll discuss how we used Kubernetes to containerize our microservice ecosystem and solve those challenges. To effectively work with ephemeral Kubernetes pods, we replaced Graphite with Prometheus and Sensu with AlertManager to monitor service health rather than individual instances. We discovered massive performance issues containerizing our Java services and worked around JVM complexities. To ease our transition from virtualization to containerization, services running inside and outside of Kubernetes must seamlessly discover each other with Consul and communicate with each other. Thanks to Calico, BGP, and our Leaf-Spine Layer 3 network topology, we efficiently route pod network traffic with the rest of our network.\n\nAbout Kevin Lynch\nKevin Lynch is a Staff Engineer on the Infrastructure Engineering team at Squarespace. He focuses his efforts on eliminating the complexities of datacenters with the help of automation. He received his BSc and MSc degrees in Computer Science from Drexel University. During his time there he worked on a variety of different projects including processor design, source code transformation, and autonomic computing."

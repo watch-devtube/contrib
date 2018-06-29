@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'kubectl apply, and The Dark Art of Declarative Object Management [I] - Aaron Levy, CoreOS'
+recordingDate: 1513372168
+description: "kubectl apply, and The Dark Art of Declarative Object Management [I] - Aaron Levy, CoreOS\n\nkubectl apply is a powerful and commonly used command meant for declaratively managing your applications. However, even if you are using this command today, you may still be surprised by how it functions. In this talk we will go over the inner-workings of the kubectl apply command, and discuss patterns for successfully managing your applications using declarative object management techniques.\n\nWe will cover areas such as the interplay between imperative commands (set, scale, edit, etc.) and declarative object management. The different types of patch strategies, and how object merges are calculated. As well as pros/cons of the various approaches, and some subtle gotchas you might run into.\n\nWhen you leave this talk it will make sense when you describe that your application is managed as a declarative base, with replicas driven imperatively, by an autoscaler that is declaratively configured. In other words, Kubernetes magic.\n\nAbout Aaron Levy\nAaron Levy is a software engineer at CoreOS, working on all things Kubernetes. He is also the lead maintainer of Bootkube, a kubernetes-incubator project that enables launching self-hosted kubernetes clusters."
