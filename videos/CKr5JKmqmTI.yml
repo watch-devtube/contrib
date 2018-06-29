@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mobile
+    - android
+title: 'Storing and displaying data with Room and Paging by Florina Muntenescu, Google EN'
+recordingDate: 1526284103
+description: "This session was given at Paris Android Makers 2018 by Florina Muntenescu, Google.\n\nMore info: http://androidmakers.fr/schedule/#session-2\n\nDid you know that deleting a “?” can make your app crash? Making a nullable object non-null in a Room Entity class leads to a change in the database schema that consequently requires you to implement a migration. This answer only leads to more questions:\n• How does Room create tables?\n• How does it check the validity of the schema and knows which migrations to trigger?\n• How are transactions handled?\n• Is @Relation actually creating a relation between two tables?\nTo answer all of these questions we’ll do a deep dive into Room’s API. By understanding how it works under the hood, you’ll get a better grasp of Room’s capabilities and limitations.\n\nNow that you have data stored in Room, you probably need to display a list based on the database content. The Paging Library can help with this but it also brings a series of new questions:\n• How does Paging work with Room?\n• Can Paging be used with data coming from the network or from a database backed by network?\n• Who handles the threading of the operations, and how?\nYou’ll first get to know the Paging API and then I’ll show you the inner wiring and how it connects everything together.\n\n Alex Karp Production"
