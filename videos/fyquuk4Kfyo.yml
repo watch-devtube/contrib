@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - containers
+    - docker
+    - kubernetes
+title: 'Fleet et etcd des outils simples mais efficaces pour orchestrer vos services (Yannick Grenzinger)'
+language: French
+recordingDate: 1493054120
+description: "Parfois vous avez envie de gérer un parc de machines et de services associés sans sortir l’artillerie lourde (Kubernetes, Mesos ..) tout en évitant un processus entièrement “manualisés”, c’est là que deux outils proposés par CoreOS peuvent vous aider.\n\nEtcd une base de données NoSQL clé / valeur tout à fait adaptée au “service discovery”, en particulier avec la capacité de notifier ses changements à ses clients. Elle est d’ailleurs à la base de Kurbenetes.\nFleet, un outil d’orchestration, qui étend les capacités du service systemd d'une machine à un cluster de machine.\nNous vous ferons une présentation de ces technos liés à notre expérience de leur utilisation ainsi qu’une démo dans le cadre d’un déploiement de service, Docker parce que c'est hype ! :)"
