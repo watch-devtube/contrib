@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+    - security
+title: 'New Features in Kubernetes Storage by Brad Childs, Red Hat'
+recordingDate: 1479335385
+description: "New Features in Kubernetes Storage - Brad Childs, Red Hat\n\n\"Two major features were recently added to kubernetes storage-- volume selectors and dynamic provisioning using StorageClasses.\n\nThe addition of persistent volume selectors greatly increases a user’s ability to manage and consume volumes.  With pv-selector the user can still view storage as ‘cattle’, meaning fungible, but with specific attributes that may impact a running application.\n\nWith the addition of StorageClass as configuration parameters to dynamic provisioning in Kube 1.4, administrators can create multiple provisioners with different parameters.  Users then request instances of that storage by name.  \n\nIn this presentation we’ll go over use-cases and scenarios where pv-selector is helpful in managing volumes.  Some of the scenarios covered are data in brownfield (legacy storage), various storage topologies, shared storage security, and storage with specific performance characteristics. \n\nWe’ll also demonstrate use cases for StorageClass, configuring StorageClasses and requesting storage by named StorageClass.  Dynamic Provisioning of storage on both AWS and GCE will be covered.  \n\nAbout Brad Childs\nBrad is a principal software engineer and the container storage development lead at Red Hat.  He has experience with big data, storage, cloud and PaaS engineering."
