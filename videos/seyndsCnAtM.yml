@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - testing
+title: 'SREcon17 Europe/Middle East/Africa - Case Study: Lessons Learned from Our First Worldwide Outage'
+language: English
+recordingDate: 1505775935
+description: "Yoav Cohen, Imperva Incapsula\n\nLast year, on March 10, Incapsula experienced the first worldwide outage in its history… While relatively short in duration, it affected thousands of websites that rely on our security and acceleration every day.\n\nRooted in a 3-year old dormant bug in our IncapRules code, this outage made us realize there were changes we needed to make in the way we write and qualify code. As VP of Engineering, the faulty code and our testing procedures are my responsibility, and it was up to me to lead the team to achieve an order of magnitude higher reliability.\n\nOne of the key things we were missing was a way to propagate customer configuration across our network in a way that is fast but without compromising on safety. The result was a new configuration sandbox system which achieved that.\n\nIn this talk I’ll present the process we took to analyze the true reliability of our system and the framework we use to reason about it, to prioritize tasks across teams and to design a more reliable service.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

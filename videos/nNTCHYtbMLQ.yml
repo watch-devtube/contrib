@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'SREcon17 Europe/Middle East/Africa - The Dangers of Being Overly-Paranoid'
+language: English
+recordingDate: 1505775934
+description: "Ingrid Epure, Intercom\n\nShipping code is not enough. You also need logs, tests and static analyzers to have the necessary confidence in the change you just deployed. Especially when you’re shipping to production every 10 minutes, at peak time.\n\nA common philosophy for feeling that things are in control is simply adding more data. And when something bad happens, first reaction is even more instrumentation to cover that specific scenario. You need more information in the logs to troubleshoot, more inputs for your tests and more linting rules. And then you’ll never run into that problem again, right!?\n\nWell…maybe, but you’ve just hit a bigger one:\n\nWhen your app is small, you can easily get away with test duplication, log noisiness and introducing new tools.\n\nAs you grow, the noise becomes impactful. You’re being slowed down by the shortcuts and poor decisions you took earlier, until it becomes a non trivial problem to solve.\n\nIn this talk we will explore the approach we took in Intercom for introducing information sanity, by focusing on:\n\nlogging myths, and dangerous fallacies\nbeing deliberate about operational and engineering needs\nbetter troubleshooting using structured and canonical logs\ngetting more benefits and performance out of notoriously slow static analyzers\nwriting tests with performance in mind\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
