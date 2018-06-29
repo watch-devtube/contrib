@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+title: 'USENIX Security ''17 - CAn’t Touch This...'
+language: English
+recordingDate: 1505501553
+description: "CAn’t Touch This: Software-only Mitigation against Rowhammer Attacks targeting Kernel Memory\n\nFerdinand Brasser, Technische Universität Darmstadt; Lucas Davi, University of Duisburg-Essen; David Gens, Christopher Liebchen, and Ahmad-Reza Sadeghi, Technische Universität Darmstadt\n\nRowhammer is a hardware bug that can be exploited to implement privilege escalation and remote code execution attacks. Previous proposals on rowhammer mitigations either require hardware changes or follow heuristic-based approaches (based on CPU performance counters). To date, there exists no instant protection against rowhammer attacks on legacy systems.\n\nIn this paper, we present the design and implementation of a practical and efficient software-only defense against rowhammer attacks. Our defense, called CATT, prevents the attacker from leveraging rowhammer to corrupt kernel memory from user mode. To do so, we extend the physical memory allocator of the OS to physically isolate the memory of the kernel and user space. We implemented CATT on x86 and ARM to mitigate rowhammer-based kernel exploits. Our extensive evaluation shows that our mitigation (i) can stop available real-world rowhammer attacks, (ii) imposes virtually no runtime overhead for common user and kernel benchmarks as well as commonly used applications, and (iii) does not affect the stability of the overall system.\n\nView the full program: https://www.usenix.org/sec17/program"
