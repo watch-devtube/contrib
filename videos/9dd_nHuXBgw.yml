@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - testing
+    - python
+    - javascript
+title: 'Tim Babych - Front-end testing with Python'
+language: English
+recordingDate: 1506598072
+description: "\"Front-end testing with Python\n[EuroPython 2017 - Talk - 2017-07-10 - PyCharm Room]\n[Rimini, Italy]\n\nWeb-developers use Python to develop web-applications, serving HTML or JSON content to user's browsers which render it. We test our applications to check that they serve content right and that they respond to HTTP requests in an expected way. However, this is not all that happens in a modern web application. There are lots of moving parts which are executed not on the server, but directly in user's browser, and they need to be tested too. The best way to check that our app works well in a browser is to test it in a browser, and Python gives you tools to do that conveniently.\n\nWith a Selenium tool and Python package, you can control the browsers, making them open web pages and interacting with them. I will show how to install Selenium and needed drivers, and tell about best practices for writing Selenium tests, such as\n\n\nPage Object pattern\nPut browser interactions in the page object, not the test\nPut assertions in the test, not the page object\nNever use time.sleep()\nAlways make pages wait for actions to complete\nWait for JavaScript to load\n\n\nTo test the visual look of your application there is a Needle tool, which lets you compare screenshots with baseline set, and highlight the differences. I will talk about how to incorporate that functionality into your tests.\n\nAs browser testing can get quite slow, I will also show how to set up running them concurrently.\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2017.europython.eu/en/speaker-release-agreement/"
