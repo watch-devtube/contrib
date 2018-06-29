@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DEF CON 25 IoT Village - Brian Knopf - Redesigning PKI For IoT Because Crypto is Hard'
+language: English
+recordingDate: 1507847593
+description: 'As the previous Director of Security at companies like Linksys, Belkin, and Wink, I learned hard lessons about the pitfalls of PKI. This was especially true on IoT devices, where the responsibility was on consumers or site managers to update devices when security issues arose. I''ve experienced expired keys that killed device connections, private keys being accidentally dropped on consumer devices, and breaches that required replacing all keys on devices, servers, and user applications. That led me to create oneID, now called Neustar Trusted Device Identity (TDI), which is an open source framework that replaces PKI with one that has real-time revocation, key rotation, key reset/replacement, and individual identities for every device, server, service, and user. It starts with the premise that every server, service, network, device, and user will be compromised at some point, so we should start our security model with that assumption and build protection to limit that as much as possible. It specifically does not trust anything by default and trust continually has to be proven, rather than trusting and checking for revocation. It puts the SOC or NOC in control rather than the users or site managers.'
