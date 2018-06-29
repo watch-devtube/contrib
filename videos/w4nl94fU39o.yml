@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - architecture
+title: 'Optimized and reproducible HPC Software deployment with free software and GNU Guix'
+language: English
+recordingDate: 1520373003
+description: "by Ludovic Courtès and Pjotr Prins\n\nAt: FOSDEM 2017\n\nHPC computing environment and especially super computing has its bag ofchallenges when it comes to software deployment. As scientists we often do notget root access which means that we either depend on what software isavailable or we build software in a dedicated directory using tools such asBrew, Conda or even from source. Unfortunately these solutions depend onalready installed tools from an underlying distribution, often proprietary ordated compilers, and, for example, modules. Any binary that gets produced,therefore, tends to be totally unique, both in the generated binary and itsset of dependencies. This is bad, both for trouble shooting and for pursuingreproducible science. With GNU Guix we are developing a fully reproduciblefree software stack including all dependencies targeting cross-builds forheterogeneous computing environments, such as the Beacon Intel PHI-basedsupercomputer, without having a requirement for containers. In this talk Iwill describe the challenges we are overcoming and what it will mean for theHPC community to have architecture optimized and fully reproducible buildtargets that can be deployed in a non-root, non-container environment.\n\n\nRoom: H.2213\nScheduled start: 2017-02-04 10:30:00"

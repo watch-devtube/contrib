@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - azure
+    - aws
+    - containers
+    - kubernetes
+    - security
+title: 'Kuberneters in Hybrid Environments Using Cloud Interconnect [A] - Marc Chisinevski, F5 Networks'
+recordingDate: 1513370093
+description: "Kuberneters in Hybrid Environments Using Cloud Interconnect [A] - Marc Chisinevski, F5 Networks\n\nSolutions to enable customers to apply consistent traffic management and security policies regardless of whether their applications are running on-premises, in a Public Cloud or in a managed Kubernetes environment.\n\n\nThe demos (please below) use Equinix as the cloud interconnection; however, the solution would work very similarly with other colo/interconnect providers.\n\nThe demos are using Google Container Engine but this would work very similarly in AWS, Azure and Oracle Baremetal Cloud.\n\nDemo\n------------\nHow it works\n---------------------\nThe F5 Container Connector configures the F5 BIG-IPs to expose applications in a Kubernetes cluster as virtual servers, serving North-South traffic.\n\nComponents\n---------------------\nF5 Container Connector (http://clouddocs.f5.com/containers/v1/kubernetes/) \nrunning in Google Container Engine (GKE). \n\nF5 BIG-IPs running in Equinix and doing IPSec VPN to Google Cloud Platform (using Google Compute Engine VPN gateway).\nThe F5 BIG-IP routes traffic to the container networks via the IPSec tunnel.\n\nAbout \nMarc Chisinevski\nSolution Architect (worldwide), F5 Networks\nhttps://www.linkedin.com/in/chisinevski"

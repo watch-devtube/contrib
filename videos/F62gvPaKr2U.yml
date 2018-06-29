@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Vita Smid - Feeding a real-time user interface'
+language: English
+recordingDate: 1507387409
+description: "\"Feeding a real-time user interface\n[EuroPython 2017 - Talk - 2017-07-11 - Anfiteatro 2]\n[Rimini, Italy]\n\nImagine you have some streaming computations running on a server. Client programs subscribe to real-time updates, so that they may visualise the computations for end users. \n\nHow do you share this constantly changing server state with all connected clients? Sending an entire snapshot after each change is very inefficient, so you must implement some sort of incremental updates – diffs. \n\nBut how do you generate these diffs on the server? And how do you represent them so the clients know how to apply them to update their own state?\n\nWe have been working on these problems for a long time while building a stock trading platform in Python. I'd like to show you a couple of open source libraries that we developed for this purpose, and share our experience with tracking state and propagating it to user interfaces running in other processes.\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2017.europython.eu/en/speaker-release-agreement/"

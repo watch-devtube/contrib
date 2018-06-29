@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - cloud
+    - mobile
+    - android
+    - aws
+    - devops
+    - testing
+    - python
+    - java
+title: 'Android DevOps: Espresso on Genymotion in AWS by Michael Aubert, Starling Bank EN'
+recordingDate: 1529097144
+description: "This session was given at Paris Android Makers 2018 by Michael Aubert, Starling Bank.\n\nMore info: http://androidmakers.fr/schedule/#session-59\nSlides link: https://speakerdeck.com/michaelaubert/android-devops-espresso-on-genymotion-in-aws\n\nHow do you create a mobile-only bank account that customers trust enough to deposit money in? The mobile application needs to be high quality. After evaluating and comparing what other companies, small and big, do to test their android applications and the available technologies (device farms, hypervisors...), we picked Genymotion on Demand and built a continuous integration system in the AWS cloud. The cost and coverage of running tens of thousands of Espresso tests every day are tracked. We have fragmentation of OS versions and screen sizes. Tests are sharded to reduce build time. Videos of tests are recorded. JUnit test reports are generated. We had to adapt to open source libraries breaking because of new versions of the Android toolchain. This is a multi-technology stack using Android, Bash, Gradle, Cloud Formation, Teamcity, Slack, C++, Python, Groovy, Artifactory... This is about sharing the journey and what we learned along the way, from building internal buy-in to providing feedback to Genymotion itself and the many technical things that broke along the way. We are using this system and plan to expand it with Appium tests for application upgrade and stress testing.\n\n Alex Karp Production"

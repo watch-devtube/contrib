@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Pet-VMs and Containers united?'
+language: English
+recordingDate: 1520845516
+description: "by Roman Mohr\n\nAt: FOSDEM 2017\n\nHow do you integrate containers in your IaaS? In a VM based IaaS environment,introducing containers can be a painful experience. Most likely you end uprunning containers inside VMs to reuse existing infrastructure, or you startdividing your data-center into a container- and a VM-world. Either way, youhave two management solutions and non optimal resource management. But what ifwe put VMs inside containers? Would such a copernican revolution give us somebenefits? This talk covers our research around using Kubernetes as a virtualmachines cluster manager.\n\nHow do you integrate containers in your IaaS? In a VM based IaaS environment,introducing containers can be a painful experience. Most likely you end uprunning containers inside VMs to reuse existing infrastructure, or you startdividing your data-center into a container- and a VM-world. Either way, youhave two management solutions and non optimal resource management. But what ifwe put VMs inside containers? Would such a copernican revolution give us somebenefits? This talk covers our research around using Kubernetes as a virtualmachines cluster manager.\n\nFirst we will briefly look into what a typical container and a typical VM is.Then we will look into the details on how resource and device limitations areenforced on VMs. In our research we used oVirt, so comparing its host sidestack (VDSM/libvirt/QEMU/systemd) to Kubernetes container host side stack(kubelet/docker/rkt/systemd/cni). At the end we will have a betterunderstanding of the differences and overlaps, and can therefore consider howto manage Pet-VMs and containers in the same cluster, managed by kubernetes.\n\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2017-02-04 11:30:00"

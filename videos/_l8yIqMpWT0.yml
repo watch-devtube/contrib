@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+    - testing
+    - architecture
+title: 'Load Testing Kubernetes: How to Optimize Your Cluster Resource Allocation in Production [I]'
+recordingDate: 1491874302
+description: "Load Testing Kubernetes: How to Optimize Your Cluster Resource Allocation in Production [I] - Harrison Harnisch, Buffer\n\nSo you've carefully crafted your first Kubernetes service, and you're ready to deploy it to production. Well, not quite: there are still some important unknowns to understand before your service will be ready for production traffic. It's still unclear how the new service behaves when it's being pushed, and it's possible that Kubernetes will kill the service before serving a single request. At Buffer, we've developed a technique to optimize Kubernetes deployment limits by using load testing to identify optimal values for resource limits. When the service is under heavy load there are a few key metrics to watch to identify bottlenecks. These key metrics can be used to adjust resource limits. This real world approach allowed us to safely and efficiently switch over more than half our production traffic to our Kubernetes cluster and can be applied to any application.\n\nThis talk will include a live demo of how to tune Hashicorp's Consul application using methods we do at Buffer.\n\nAbout Harrison Harnisch\nSenior Software Engineer at Buffer, implementing the transition to microservices with Kubernetes and Docker."

@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'fortification vs memcheck Making gcc/glibc fortification and valgrind memcheck work better together'
+language: English
+recordingDate: 1520882533
+description: "by Mark Wielaard\n\nAt: FOSDEM 2017\n\ngcc/glibc support fortification of some functions by defining _FORTIFY_SOURCE. This inserts some compile and runtime buffer overflow checks forselected glibc functions. These checks have no or very little runtime overheadand work on the object level (the compiler provides/proofs the size of theobject buffer size). valgrind memcheck provides similar memory buffer overflowchecks. These checks don't need any compiler help (you won't have to rebuildyour code). But they have a much higher runtime overhead. They also work on adifferent level. valgrind memcheck doesn't know anything about the objects theuser is manipulation but has knowledge of all memory blocks allocated. Letsexplore how these different mechanisms work and how we can make them workbetter together.\n\n\nRoom: UD2.119 (Moved from AW1.124)\nScheduled start: 2017-02-04 12:30:00"

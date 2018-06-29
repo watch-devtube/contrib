@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - security
+    - lisp
+title: 'USENIX Security ''17 - Measuring the Insecurity of Mobile Deep Links of Android'
+language: English
+recordingDate: 1505501657
+description: "Fang Liu, Chun Wang, Andres Pico, Danfeng Yao, and Gang Wang, Virginia Tech\n\nMobile deep links are URIs that point to specific locations within apps, which are instrumental to web-to-app communications. Existing “scheme URLs” are known to have hijacking vulnerabilities where one app can freely register another app’s schemes to hijack the communication. Recently, Android introduced two new methods “App links” and “Intent URLs” which were designed with security features, to replace scheme URLs. While the new mechanisms are secure in theory, little is known about how effective they are in practice.\n\nIn this paper, we conduct the first empirical measurement on various mobile deep links across apps and websites. Our analysis is based on the deep links extracted from two snapshots of 160,000+ top Android apps from Google Play (2014 and 2016), and 1 million webpages from Alexa top domains. We find that the new linking methods (particularly App links) not only failed to deliver the security benefits as designed, but significantly worsen the situation. First, App links apply link verification to prevent hijacking. However, only 194 apps (2.2% out of 8,878 apps with App links) can pass the verification due to incorrect (or no) implementations. Second, we identify a new vulnerability in App link’s preference setting, which allows a malicious app to intercept arbitrary HTTPS URLs in the browser without raising any alerts. Third, we identify more hijacking cases on App links than existing scheme URLs among both apps and websites. Many of them are targeting popular sites such as online social networks. Finally, Intent URLs have little impact in mitigating hijacking risks due to a low adoption rate on the web.\n\nView the full program: https://www.usenix.org/sec17/program"

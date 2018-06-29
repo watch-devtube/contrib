@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - craftsmanship
+    - architecture
+title: 'The Turtles Project: Design and Implementation of Nested Virtualization'
+recordingDate: 1286563573
+description: "Presented at the 9th USENIX Symposium on Operating Systems Design and Implementation (OSDI '10) held in Vancouver, BC, Canada, October 4-6, 2010.\n\nPaper authors: Muli Ben-Yehuda, IBM Research—Haifa; Michael D. Day, IBM Linux Technology Center; Zvi Dubitzky, Michael Factor, Nadav Har'El, and Abel Gordon, IBM Research—Haifa; Anthony Liguori, IBM Linux Technology Center; Orit Wasserman and Ben-Ami Yassour, IBM Research—Haifa\n\nAbstract: In classical machine virtualization, a hypervisor runs multiple operating systems simultaneously, each on its own virtual machine. In nested virtualization, a hypervisor can run multiple other hypervisors with their associated virtual machines. As operating systems gain hypervisor functionality—Microsoft Windows 7 already runs Windows XP in a virtual machine—nested virtualization will become necessary in hypervisors that wish to host them. We present the design, implementation, analysis, and evaluation of high-performance nested virtualization on Intel x86-based systems. The Turtles project, which is part of the Linux/KVM hypervisor, runs multiple unmodified hypervisors (e.g., KVM and VMware) and operating systems (e.g., Linux and Windows). Despite the lack of architectural support for nested virtualization in the x86 architecture, it can achieve performance that is within 6-8% of single-level (non-nested) virtualization for common workloads, through multi-dimensional paging for MMU virtualization and multi-level device assignment for I/O virtualization."

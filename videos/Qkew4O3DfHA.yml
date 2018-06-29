@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - bigdata
+    - ml
+    - python
+    - scala
+title: 'Andrew Musselman, Committer & PMC Member, Apache Mahout at MLconf Seattle 2017'
+recordingDate: 1495582519
+description: "Andrew recently joined Lucidworks to head up their Advisory practice, and is a Committer and PMC member on the Apache Mahout project.\n\nAbstract summary\n\nApache Mahout: Distributed Matrix Math for Machine Learning:\nMachine learning and statistics tools like R and Scikit-learn are declarative, flexible, and extensible, but they scale poorly. “Big Data” tools such as Apache Spark, Apache Flink, and H2O distribute well, but have rudimentary functionality for machine learning and are not easily extensible. In this talk we present Apache Mahout, which provides a Scala-based, R-like DSL for doing linear algebra on distributed systems, letting practitioners quickly implement algorithms on distributed matrices. We will highlight new features in version 0.13 including the hybrid CPU/GPU-optimized engine, and a new framework for user-contributed methods and algorithms similar to R’s CRAN.\n\nWe will cover some history of Mahout, introduce the R-Like Scala DSL, provide an overview of how Mahout is able to operate on matrices distributed across multiple computers, and how it takes advantage of GPUs on each computer in a cluster creating a hybrid distributed/GPU-accelerated environment; then demonstrate the kinds of normally complex or unfeasible problems users can easily solve with Mahout; show an integration which allows Mahout to leverage the visualization packages of projects such as R, Python, and D3; and lastly explain how to develop algorithms and submit them to the Mahout project for other users to use."

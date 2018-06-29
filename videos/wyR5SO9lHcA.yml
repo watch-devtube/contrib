@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Adding 16-bit Character Support in LLVM'
+language: English
+recordingDate: 1520511378
+description: "by Simon Cook\n\nAt: FOSDEM 2017\n\nLLVM has a great track record for being able to target a large range ofprocessors, both large 32/64-bit devices and deeply embedded 8/16-bitprocessors. From most perspectives, from Clang through to code generation, thesize of most operations do not make much difference to the ease ofimplementation. However there are some assumptions that are baked deeply intothe compiler; one of which is the memory access width, more specifically thatit is addressible in 8-bit words. This however is not always the case, manyembedded DSPs can only access memory with 16-bit addressibility, and trying toteach LLVM about this proves to be a challenge.\n\nIn this talk, we will present our first explorations in this area, and shareour thoughts on how we can make LLVM more memory agnostic for all targets withnon-8-bit memory.\n\n\nRoom: K.3.201\nScheduled start: 2017-02-05 10:30:00"

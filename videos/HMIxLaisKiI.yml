@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - azure
+    - containers
+    - docker
+    - kubernetes
+title: 'Getting started with CI/CD & Azure Container Service (AKS) powered by VSTS'
+language: English
+recordingDate: 1525717802
+description: "In this video we walk through, step by step, how to setup a complete CI/CD pipeline for Azure Container Service (AKS) and VSTS. You will learn how to build and push a Docker image to Azure Container Registry, and then use that image as part of your release definition where you create a deployment to your AKS Kubernetes cluster.  \n\nIf you are completely new to Kubernetes, this is the video for you. We use two simple commands as tasks to handle the deployment during release:\n\nkubectl run [deployment-name] --image [image-name] --port [application-port]\n\nkubectl expose deployment [deployment-name] --type=LoadBalancer --port 80 --target-port [application-port]\n\nThat's it! Try it out and tag me on Twitter (@jldeen) if you deploy your first container (pod)!\n\nGet started today with VSTS, visit: https://www.visualstudio.com/vsts\n\nSpeaker: Jessica Deen\n\nCreate a Free Account (Azure): https://aka.ms/c9-azurefree"

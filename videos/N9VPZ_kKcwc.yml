@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'Secure and Safe Updates for Your Embedded Device'
+language: English
+recordingDate: 1521326844
+description: "by Enrico Jörns\n\nAt: FOSDEM 2017\n\nRecent DDoS attacks powered by embedded devices have finally discredited theold excuse that security is not important: security support (and thus softwareupdates) is suddenly a required feature.\n\nOften, physical access to these devices is limited and there is noadministrator who can fix issues manually. Thus, performing updates is anoperation with a critical design goal: Never brick the device!\n\nThis talk gives an overview of the surprisingly complex requirements andcommon pitfalls for a generic update mechanism by comparing several existingapproaches. Also, our reasons for implementing (yet another) tool and thereasoning behind the design choices are explained.\n\nUsing RAUC and other open source update tools as examples, requirements,limitations and possible pitfalls in the process of designing and implementinga redundancy and update infrastructure will be presented. You will also get abrief overview over RAUCs design and abstraction of the underlying system thatallows to manage both simple asymmetric setups consisting of a full system andan initramfs-based recovery system as well as complex setups with multipleroot filesystems, application and data storage partitions.\n\n  * How to make updates atomic?  * How to manage both simple and complex redundancy concepts?  * How to allow secure and trusted updates?  * How to schedule updates to a large number of devices?\n\n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2017-02-04 16:00:00"

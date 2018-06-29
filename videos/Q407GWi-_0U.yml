@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'SREcon18 Americas - Distributed Tracing, Lessons Learned'
+language: English
+recordingDate: 1525124552
+description: "Gina Maini, Jet.com\n\nYour engineering job might look something like this:\n\n1. Understand dependencies.\n2. Keep the site up.\n3. Understand where you messed up.\n\nDistributed Tracing helps you with all of these. Industry standards like OpenTracing provide some mindshare on tracing RPC style communications, but leave much unsaid about asynchronous communications over message busses or Kafka. At Jet.com we use Kafka and Event Sourcing at nearly every tier of our architecture, so tracing these types of communications motivated us to create our own protocol and semantics around operations and channels. We learned a lot from creating our own libraries in F# and on-boarding engineering teams around our company to try tracing their communications. We learned a lot and are here to share tips, tricks, and hard earned lessons.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - ux
+    - mobile
+    - ios
+    - security
+title: 'USENIX Security ''17 - Differential Privacy: From Theory to Deployment'
+language: English
+recordingDate: 1505501560
+description: "Abhradeep Guha Thakurta, Assistant Professor, University of California, Santa Cruz\n\nMachine learning has fundamentally transformed the way we interact with many networked devices around us and has enabled rich user-centric applications. However, this effectiveness raises profound privacy concerns—how do we control the collection and use of user data gathered? This tension between the collection of users' information to improve user experience (e.g., better predictive keyboards on cell phones), and the corresponding privacy concerns is increasing at an alarming rate with the advent of technologies like the Internet of Things. Differential privacy, a rigorous notion of statistical data privacy, has gained immense popularity in both academia and industry for enabling statistical analysis on sensitive user data while preserving user privacy.\n\nIn this talk, I will share my experience in deploying differential privacy technology for iOS 10, catering to more than 300 million customers. I will highlight some of the unique theoretical challenges that arose from the scale of the deployment, and how we had to design theoretically optimal algorithms to mitigate the challenges. Furthermore, I will describe some of the systemic challenges that arose from engineering a large scale distributed system under the constraint of differential privacy. As a concrete problem, I will focus on the problem of learning new words people are typing on their keyboard, under the constraint of differential privacy. For example, from what people type on their keyboards we seek to learn trending words (like the word 't3en'), or internet chat lingos in various languages. We outline a solution to this problem which we deployed at scale in over 10 languages.\n\nThe project resulted in three 3 granted US patents, more than 200 news articles, and a follow-up paper under submission.\n\nDisclaimer: The algorithmic and systemic details that will be mentioned in the talk are independent of any specific deployment by any company, but focus on the general scientific principles.\n\nView the full program: https://www.usenix.org/sec17/program"

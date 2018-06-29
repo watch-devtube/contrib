@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'Next Generation of the LuaRocks test suite'
+language: English
+recordingDate: 1520510983
+description: "by Robert Karasek\n\nAt: FOSDEM 2017\n\nIn my presentation I will focus on my project during Google Summer of Codeprogram (mentor Hisham Muhammad). I will tell basic informations about thisprogram and then continue to talk about our main goal, which was to increasequality of LuaRocks test suite, use new features from Lua unit testingframework busted and how to use / extend this suite. We implemented the newtest suite with Lua unit testing framework busted and changed ContinuousIntegration practice.\n\nContent of presentation:\n\n  * Basic informations about Google Summer of Code program  * Basic introduction to Unit test  * Advantages of Lua unit testing framework busted     * Main features of this framework    * Smarter tests that check execution and results  * Idea of black-box testing based on old bash script used before     * Few details about old style testing of LuaRocks    * What was used from old suite  * Multi-platform of this suite (Windows primary)     * OS X on TravisCI added    * Which tests are executable on Windows    * Known issues with Windows platform  * Some specific tests, how we deal with black-box tests problems     * Example of creating mock http server (kind of system testing)  * What was needed to be changed in LuaRocks Continuos Integration practice     * Example of yaml files    * Codecov.io instead of Coveralls.io  * Merging results of tests from more services     * Example of new test results\n\n\nRoom: K.3.201\nScheduled start: 2017-02-04 10:40:00"

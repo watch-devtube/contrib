@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - containers
+    - kubernetes
+title: 'Configuring and Deploying Stateful Applications with PetSet by David Oppenheimer'
+recordingDate: 1479335347
+description: "Configuring and Deploying Stateful Applications with PetSet - David Oppenheimer and Prashanth Balasubramanian, Google & Clayton Coleman, Red Hat\n\nKubernetes 1.3 introduced the PetSet abstraction, which represents a collection of Pods with unique identities represented by an index, along with associated persistent storage and network identities. PetSet makes it easy to run stateful services on Kubernetes, including clustered applications like ZooKeeper and Redis. In this talk we discuss the design and implementation of PetSet, show how to use PetSet to deploy some common off-the-shelf stateful applications, and discuss our future plans for PetSet. We also describe “init containers,” which allow you to set up the user environment of a pod before the main container starts executing. We demonstrate how you can use this feature to configure the relationship between master and peers in a clustered application that is managed by a PetSet, and how new replicas are automatically configured when the application scales up.\n\nAbout"

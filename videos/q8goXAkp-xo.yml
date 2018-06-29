@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'GELIBoot Booting FreeBSD from encrypted disk'
+language: English
+recordingDate: 1520511261
+description: "by Allan Jude\n\nAt: FOSDEM 2017\n\nFreeBSD has supported disk encryption with GBDE and GELI since 2002 and 2005respectively. However, booting the system required storing the loader andkernel unencrypted so that the requisite GEOM module could be loaded to handledecryption. This became a significantly larger stumbling block with theintroduction of ZFS, as having multiple separate partitions detracts from theadvantages of ZFS, and also causes headaches when upgrading the operatingsystem. With the growing popularity of ZFS Boot Environments, a solution wasneeded that allowed the kernel and loader to remain part of the primary filesystem, even if it was encrypted. This paper provides an overview of thedesign of the GELI enabled BIOS boot code and loader, as well as the numerouschallenges encountered during their development.\n\nA walk through the tale of woe that was implementing support for GELI in theFreeBSD bootcode and loader. Hear the story of a very junior developerpersisting through countless complications and roadblocks to finally arrive atworking code. Learn just how complicated it is to boot a computer, and howmuch worse it can get. In the end, we are left with working ZFS BootEnvironments, even with fully encrypted pools.\n\n\nRoom: K.3.201\nScheduled start: 2017-02-04 14:30:00"

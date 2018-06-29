@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - c++
+    - cloud
+    - architecture
+title: 'Mansoor Mohsin: Inside the Failover Manager'
+language: English
+recordingDate: 1529525282
+description: "Meet Mansoor Mohsin, a Principal Software Engineer on the Service Fabric team and a 10-year veteran of the Reliability subsystem engineering group. For most his time here, Mansoor has been  focused on designing and implementing strategies and algorithms for managing how Service Fabric does Failover, which is a very important concept and set of capabilities that any distributed systems platform like Service Fabric must nail. \n\nMansoor's work is materialized in the Service Fabric Failover Manager (FM), which is a stateful Service Fabric system service that maintains a global view of all replica groups inside the nodes of a Service Fabric cluster. The global view includes status of all nodes in the cluster, list of current applications and services, list of replicas and their placement, etc. The FM manages the creation of services, upgrades, etc... It works closely with daemons on each node called Reconfiguration Agents (RAs), which continually collect the node’s available memory, CPU utilization, disk and network access behaviors, etc. The FM coordinates with the Placement and Load Balancer (PLB). The FM periodically receives load reports from the Reconfiguration Agents running on each node, aggregates, and sends it to the Placement and Load Balancer. You'll learn a lot about the details of these interactions and more in this conversation.\n\nSource Code:\nhttps://github.com/Microsoft/service-fabric/tree/master/src/prod/src/Reliability/Failover/fm\nStart with this file: https://github.com/Microsoft/service-fabric/blob/master/src/prod/src/Reliability/Failover/fm/FailoverManager.cpp\n\nIf you didn't see AP's interview covering RA, watch it here:\nhttps://youtu.be/BvIWoMpj4vI\n\nRead the latest Service Fabric ACM paper: \nhttps://blog.acolyer.org/2018/06/05/servicefabric-a-distributed-platform-for-building-microservices-in-the-cloud/"

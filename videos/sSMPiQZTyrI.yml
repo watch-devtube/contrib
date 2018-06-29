@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Francisco Fernández Castaño - Knowing your garbage collector'
+recordingDate: 1438930688
+description: "Francisco Fernández Castaño - Knowing your garbage collector\n[EuroPython 2015]\n[20 July 2015]\n[Bilbao, Euskadi, Spain]\n\nAs Python programmers we're used to program without taking care about allocating\nmemory for our objects and later on freeing them, Python garbage collector\ntakes care of this task automatically for us.\n\nGarbage collection is one of the most challenging topics in computer science,\nthere are a lot of research around the topic and different ways to tackle\nthe problem.\n\nKnowing how our language does this process give us a better understanding\nof underlying interpreter and allow us to know why problems like cycles\ncan happen in CPython interpreters.\n\nSo, this talk aims to be and introduction to the topic and a walkaround\nthrough different approaches followed in CPython and PyPy:\n\n* Generational Reference counting with cycles detector on CPython.\n* Incremental version of the MiniMark GC on PyPy."

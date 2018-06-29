@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - architecture
+title: 'NSDI ''18 - Towards Battery-Free HD Video Streaming'
+language: English
+recordingDate: 1525814497
+description: "Saman Naderiparizi, University of Washington\n \nVideo streaming has traditionally been considered an extremely power-hungry operation. Existing approaches optimize the camera and communication modules individually to minimize their power consumption. However, designing a video streaming device requires power-consuming hardware components and computationally intensive video codec algorithms that interface the camera and the communication modules. For example, monochrome HD video streaming at 60 fps requires an ADC operating at a sampling rate of 55.3 MHz and a video codec that can handle uncompressed data being generated at 442 Mbps.\n\nWe present a novel architecture that enables HD video streaming from a low-power, wearable camera to a nearby mobile device. To achieve this, we present an “analog” video backscatter technique that feeds analog pixels from the photo-diodes directly to the backscatter hardware, thereby eliminating power-consuming hardware components, such as ADCs and codecs. To evaluate our design, we simulate an ASIC, which achieves 60 fps 720p and 1080p HD video streaming for 321 μW and 806 μW, respectively. This translates to 1000x to 10,000x lower power than it used for existing digital video streaming approaches. Our empirical results also show that we can harvest sufficient energy to enable battery-free 30 fps 1080p video streaming at up to 8 feet. Finally, we design and implement a proof-of-concept prototype with off-the-shelf hardware components that successfully backscatters 720p HD video at 10 fps up to 16 feet.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - c++
+    - ruby
+    - java
+    - hibernate
+title: 'Wt::Dbo: a C++ ORM (Object Relational Mapping) library'
+recordingDate: 1266147509
+description: "By Koen Deforche\r\n\r\nThe talk introduces Wt::Dbo. It will be compared to existing ORM and database solutions for C++ and other programming languages. Based on simple examples, you will learn how you can use Wt::Dbo to manipulate objects that are stored in a database from within C++. \r\n\r\nWt::Dbo is a brand new C++ ORM layer. Similar to Hibernate for Java and ActiveRecords for Ruby, Wt::Dbo offers a convenient way to interact with objects which are serialized in a database. \r\n\r\nAlthough the lack of introspection in C++ seems to be problematic to write a decent ORM in C++, Wt::Dbo demonstrates that appropriate use of the C++ template system offers a perfect alternative. \r\n\r\nCurrently, Wt:dbo contains the following functionality:\r\nAutomatic schema creation\r\nMapping of 1-N and M-N relations\r\nLazy loading of objects and collections\r\nUses prepared statements throughout\r\nBasic query support\r\nAutomatic dirty checking and database synchronization\r\nBuilt-in optimistic locking (using a version field)Transactional integrity, even when a transaction fails: dirty objects remain dirty and may later be saved in a new transaction, or may be reverted to their persisted state (unlike Hibernate where you are forced to discard the whole session)\r\nTransaction write-behind for changes, with support for manual flushing\r\nForces use of surrogate keys\r\nDoes not depend on Wt (can be used independently) Simple backend system: at the moment only SQLite3. We are looking at how we can perhaps can leverage SOCI if it makes its way into Boost.\r\nLinks:\r\n◦http://www.webtoolkit.eu/wt/blog/2009/11/26/wt__dbo__an_orm__c___style \r\n\r\nFOSDEM (Free and Open Source Development European Meeting) is a European event centered around Free and Open Source software development. It is aimed at developers and all interested in the Free and Open Source news in the world. Its goals are to enable developers to meet and to promote the awareness and use of free and open source software. More info at http://fosdem.org"

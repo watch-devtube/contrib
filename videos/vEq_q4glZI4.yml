@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+    - cloud
+    - aws
+    - security
+    - python
+title: 'There’s a new sheriff in town; dynamic security group recommendations with Grouper and Dredge'
+language: English
+recordingDate: 1507929020
+description: "There’s a new sheriff in town; dynamic security group recommendations with Grouper and Dredge\n\n\nAt Netflix Security, we try our best to enable developers by removing roadblocks and providing systems with “sane” defaults that keep everyone from shooting themselves in the foot. When dealing with AWS security groups, not shooting yourself in the foot is important. VPCs, subnets, CIDR ranges, group membership, are all part of the security group vocabulary and essential in ensuring that applications can only talk to each other on an as-needed basis.\n\n\nHow many times have you heard fellow engineers mutter, “Well adding 0.0.0.0/0 seems to work. We will fix it later.” Grouper and Dredge together provide a solution for generating AWS security group rules based on current network data, ensuring that least privilege isn’t a future milestone. Both Grouper and Dredge are deeply integrated into our stack providing developer network insights that were previously unsurfaced. -- unsurfaced is an interesting word choice.\n\n \n\nThis talk will focus on the history of our security group infrastructure. The challenges of security groups in a large environment (limitations on the number of rules, multiple accounts, lack of cross region security groups, etc.,). Our current security group management and maturity strategy. How Grouper aligns with the freedom and responsibility culture at Netflix.\n\n \n\nThe Netflix cloud security team has a strong commitment towards open source. Given interest and maturity in these projects, we are open to open-sourcing them in the future.\n\n\nKevin Glisson\nSenior Cloud Security Engineer, Netflix\nWhen Kevin Glisson is not playing with security automation, new languages and python libraries he is an avid mountain biker and backpacker enjoying all parts of the Sierra's. Kevin is currently a Security Engineer at Netflix writing tools to help streamline security operations.\n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"

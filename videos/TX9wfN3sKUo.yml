@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - lisp
+title: 'USENIX Security ''17 - REM: Resource-Efficient Mining for Blockchains'
+language: English
+recordingDate: 1505501612
+description: "Fan Zhang, Ittay Eyal, and Robert Escriva, Cornell University; Ari Juels, Cornell Tech; Robbert van Renesse, Cornell University\n\nBlockchains show promise as potential infrastructure for financial transaction systems. The security of blockchains today, however, relies critically on Proof-of- Work (PoW), which forces participants to waste computational resources.\n\nWe present REM (Resource-Efficient Mining), a new blockchain mining framework that uses trusted hardware (Intel SGX). REM achieves security guarantees similar to PoW, but leverages the partially decentralized trust model inherent in SGX to achieve a fraction of the waste of PoW. Its key idea, Proof-of-Useful-Work (PoUW), involves miners providing trustworthy reporting on CPU cycles they devote to inherently useful workloads. REM flexibly allows any entity to create a useful workload. REM ensures the trustworthiness of these workloads by means of a novel scheme of hierarchical attestations that may be of independent interest.\n\nTo address the risk of compromised SGX CPUs, we develop a statistics-based formal security framework, also relevant to other trusted-hardware-based approaches such as Intel’s Proof of Elapsed Time (PoET). We show through economic analysis that REM achieves less waste than PoET and variant schemes.\n\nWe implement REM and, as an example application, swap it into the consensus layer of Bitcoin core. The result is the first full implementation of an SGX-based blockchain. We experiment with four example applications as useful workloads for our implementation of REM, and report a computational overhead of 5—15%.\n\nView the full program: https://www.usenix.org/sec17/program"

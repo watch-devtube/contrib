@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - web
+    - react
+    - functional
+title: 'ServerSwitch: A Programmable and High Performance Platform for Data Center Networks'
+recordingDate: 1302554442
+description: "Paper presented by Guohan Lu, Chuanxiong Guo, Yulong Li, Zhiqiang Zhou, Tong Yuan, Haitao Wu, Yongqiang Xiong, Rui Gao, and Yongguang Zhang of Microsoft Research Asia at the 8th USENIX Symposium on Networked Systems Design and Implementation (NSDI '11).\n\nRecipient of the Best Paper Award.\n\nAbstract: As one of the fundamental infrastructures for cloud computing, data center networks (DCN) have recently been studied extensively. We currently use pure software-based systems, FPGA based platforms, e.g., NetFPGA, or OpenFlow switches, to implement and evaluate various DCN designs including topology design, control plane and routing, and congestion control. However, software-based approaches suffer from high CPU overhead and processing latency; FPGA based platforms are difficult to program and incur high cost; and OpenFlow focuses on control plane functions at present. In this paper, we design a ServerSwitch to address the above problems. ServerSwitch is motivated by the observation that commodity Ethernet switching chips are becoming programmable and that the PCI-E interface provides high throughput and low latency between the server CPU and I/O subsystem. ServerSwitch uses a commodity switching chip for various customized packet forwarding, and leverages the server CPU for control and data plane packet processing, due to the low latency and high throughput between the switching chip and server CPU. We have built our ServerSwitch at low cost. Our experiments demonstrate that ServerSwitch is fully programmable and achieves high performance. Specifically, we have implemented various forwarding schemes including source routing in hardware. Our in-network caching experiment showed high throughput and flexible data processing. Our QCN (Quantized Congestion Notification) implementation further demonstrated that ServerSwitch can react to network congestions in 23us."

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: '6LoWPAN in picoTCP And how to support new Link Layer types'
+language: English
+recordingDate: 1520432893
+description: "by Jelle De Vleeschouwer\n\nAt: FOSDEM 2017\n\n6LoWPAN enables, as the name implies, IPv6-communication over Low-powerWireless Personal Area Networks, e.g. IEEE802.15.4. A lot of resources areavailable to allow 6LoWPAN over IEEE802.15.4, but how can one extend the6LoWPAN feature-set for the use with other link layer types? This talk willcover the details about a generic implementation that should work with everylink layer type and how one can provide support for ones own custom wirelessnetwork. The goal is to give quite a technical and detailed talk with finallya discussion about when 6LoWPAN is actually useful and when is it not.\n\nLast year, as a summer project, I've implemented a generic 6LoWPAN adaptionlayer into picoTCP, an open source embedded TCP/IP-stack developed by AltranIntelligent Systems, with an eye on the IoT. I've made an effort to make theadaption layer as generic as possible allowing it to be easily expandable withnew link layer types and topologies. The layer should also be able to allowmultiple link-layer extensions, for post-network-layer processing. This couldbe used for mesh-under routing, link layer security, whatever you want. Thistalk will cover how one can take advantage of these features and caveats thatcome with it. I also have my personal thoughts on 6LoWPAN and I would like toshare them with you at the end of the talk.\n\n\nRoom: AW1.126\nScheduled start: 2017-02-04 12:30:00"

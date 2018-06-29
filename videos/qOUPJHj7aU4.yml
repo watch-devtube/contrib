@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - security
+title: 'USENIX Security ''17 - Qapla: Policy compliance for database-backed systems'
+language: English
+recordingDate: 1505501620
+description: "Aastha Mehta and Eslam Elnikety, Max Planck Institute for Software Systems (MPI-SWS); Katura Harvey, University of Maryland, College Park and Max Planck Institute for Software Systems (MPI-SWS); Deepak Garg and Peter Druschel, Max Planck Institute for Software Systems (MPI-SWS)\n\nMany database-backed systems store confidential data that is accessed on behalf of users with different privileges. Policies governing access are often fine-grained, being specific to users, time, accessed columns and rows, values in the database (e.g., user roles), and operators used in queries (e.g., aggregators, group by, and join). Today, applications are often relied upon to issue policy compliant queries or filter the results of non-compliant queries, which is vulnerable to application errors. Qapla provides an alternate approach to policy enforcement that neither depends on application correctness, nor on specialized database support. In Qapla, policies are specific to rows and columns and may additionally refer to the querier’s identity and time, are specified in SQL, and stored in the database itself. We prototype Qapla in a database adapter, and evaluate it by enforcing applicable policies in the HotCRP conference management system and a system for managing academic job applications.\n\nView the full program: https://www.usenix.org/sec17/program"

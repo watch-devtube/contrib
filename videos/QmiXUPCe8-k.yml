@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DEF CON 25 - Mikhail Sosonkin - Hacking travel routers like it''s 1999'
+language: English
+recordingDate: 1509660001
+description: "Digital nomads are a growing community and they need internet safety just like anyone else. Trusted security researchers have warned about the dangers of traveling through AirBnB’s. Heeding their advice, I purchased a HooToo TM06 travel router to create my own little enclave while I bounce the globe. Being a researcher myself, I did some double checking. \n\nSo, I started fuzzing and reverse engineering. While the TM06 is a cute and versatile little device - protection against network threats, it is not. In this talk, I will take you on my journey revealing my methodology for discovering and exploiting two memory corruption vulnerabilities. The vulnerabilities are severe and while they’ve been reported to the vendor, they are very revealing data points about the security state of such devices. While the device employs some exploitation mitigations, there are many missing. I will be showing how I was able to bypass them and what mitigations should’ve been employed, such as NX-Stack/Heap, canaries, etc, to prevent me from gaining arbitrary shellcode execution.\n\nIf you’re interested in security of embedded/IoT systems, travel routers or just good old fashioned MIPS hacking, then this talk is for you!"

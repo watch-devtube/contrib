@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - ux
+    - containers
+    - kubernetes
+title: 'ConfigMaps 102: Using ConfigMaps in Dynamic Application Deployments - Trevor McKay'
+recordingDate: 1513374269
+description: "ConfigMaps 102: Using ConfigMaps in Dynamic Application Deployments - Trevor McKay, Red Hat\n\nConfigMaps let you “decouple configuration artifacts from image content”. In other words, if you use ConfigMaps wisely in your apps you’ll never have to respin an image just to change a flag. This is a powerful feature which greatly simplifies creating and managing containerized applications. As powerful as they are, however, use of ConfigMaps has typically required a pretty static application deployment -- for example, ConfigMaps must exist before the apps that reference them, their names must be known ahead of time, and it was only recently that the (wonderful) idea of “optional” ConfigMaps was introduced. In this talk we’ll look at several ways we’ve found to use ConfigMaps dynamically in the context of a management platform for Apache Spark clusters we call Oshinko. You’ll leave armed with new ideas of how to leverage the power of ConfigMaps in dynamic applications with a broader set of deployment options.\n\nAbout Trevor McKay\nTrevor McKay is a Principal Software Engineer at Red Hat with a background in distributed computing and big data processing, having worked extensively with Apache Spark on OpenStack and now on Kubernetes. He is passionate about simplifying user experience in general and making analytics accessible in particular."

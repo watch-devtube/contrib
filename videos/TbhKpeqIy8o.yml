@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'The Evolution of MonoTorrent'
+recordingDate: 1268428226
+description: "By Alan McGovern\r\n\r\nMonoTorrent is an implementation of the BitTorrent protocol written in C# for the .NET platform.\r\n\r\nThis talk will have two parts. The first part will revolve around the Piece Picking algorithm and how it evolved \r\nfrom a simplistic and inextensible initital implementation to its current highly extensible form as more complex behaviours were required.\r\n\r\nThe second part will be about the different strategies used to manage the multi-threaded workload. A typical bittorrent download will open about 100 connections so it is critical that the syncronisation strategy used to access any shared state does not prevent the sockets from sending/receiving data, otherwise performance will suffer.\r\n\r\n\r\nFOSDEM (Free and Open Source Development European Meeting) is a European event centered around Free and Open Source software development. It is aimed at developers and all interested in the Free and Open Source news in the world. Its goals are to enable developers to meet and to promote the awareness and use of free and open source software. More info at http://fosdem.org"

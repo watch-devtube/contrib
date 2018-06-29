@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - python
+title: 'Kay Hayen - The Python Compiler'
+recordingDate: 1438987046
+description: "Kay Hayen - The Python Compiler\n[EuroPython 2015]\n[20 July 2015]\n[Bilbao, Euskadi, Spain]\n\nThe Python compiler Nuitka has evolved from an absurdly compatible\nPython to C++ translator into a **statically optimizing Python\ncompiler**. The mere peephole optimization is now accompanied by full\nfunction/module level optimization, with more to come, and only\nincreased compatibility.\n\nWitness local and module **variable value propagation**, **function\nin-lining** with suitable code, and graceful degradation with code\nthat uses the full Python power. (This is considered kind of the break\nthrough for Nuitka, to be finished for EP.) No compromises need to be\nmade, full language support, all modules work, including extension\nmodules, e.g. PyQt  just works.\n\nAlso new is a plugin framework that allows the user to provide\nworkarounds for the standalone mode (create self contained\ndistributions), do his own type hinting to Nuitka based on e.g. coding\nconventions, provide his own optimization based on specific knowledge.\n\nUltimately, Nuitka is intended to grow the Python base into fields,\nwhere performance is an issue, it will need your help. Scientific\nPython could largely benefit from future Nuitka. Join us now."

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - go
+    - performance
+    - security
+title: 'DEF CON 24 - regilero - Hiding Wookiees in HTTP: HTTP smuggling'
+language: English
+recordingDate: 1479078202
+description: "HTTP is everywhere, everybody wants to write an HTTP server. So I wrote mine :-) But mine not fast, and come with an HTTP client which sends very bad HTTP queries. My tool is a stress tester for HTTP servers and proxies, and I wrote it because I found flaws in all HTTP agents that I have checked in the last year i.e. nodejs, golang, Apache httpd, FreeBSD http, Nginx, Varnish and even Haproxy. This presentation will try to explain how flaws in HTTP parsers can be exploited for bad things; we'll play with HTTP to inject unexpected content in the user browser, or perform actions in his name. \n\nIf you know nothing about HTTP it should be understandable, but you'll have to trust me blindly at the end. If you think you know HTTP, you have no reason to avoid this talk. Then, the short part, I will show you this new Open Source stress tool that I wrote and hope that you will remember it when you'll write your own HTTP parser for you new f** language.\n\nBio:\nregilero is a DevOp, and this started far before this term. Twenty years in open Source as web developer, sysadmin, web security training, database performance, tuning, audits. Took some time to be on the apache top responder in Stack Overflow, some stuff on SaltStack, made two daughters also. HTTP was the missing piece, like everyone he use it every day, but never took the time to really test the HTTP tools. Last year he started checking... and found some interesting issues."

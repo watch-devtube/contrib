@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - php
+    - performance
+    - web
+    - startup
+    - security
+title: 'Black-Box Approximate Taint Tracking by Utilizing Data Partitioning - AppSecUSA 2017'
+language: English
+recordingDate: 1507826706
+description: "Black-Box Approximate Taint Tracking by Utilizing Data Partitioning\n\nThe information security industry has a long history of challenges when it comes to ensuring the safety of user input data. User input must be escaped when using a template to build a string. Whether in HTML, SQL, or shell commands it is best practice to escape data from untrusted sources. Most of the time this is done by having the developer think through all possible code paths the string could have taken. This requires heroic effort and is still error-prone. Far more reliable is using a type or metadata system to tag the data and track it through the system, but this requires the designer of the system to consistently use the tagged string types, or have some additional runtime support to provide a tracking mechanism. Further, such techniques (explored extensively in academic research) have invariably encountered severe performance impacts, making them unpractical for runtime protection.\n\n \n\nWe propose a black-box taint tracking system in which we observe only the user inputs (http parameters) and system outputs (commands and SQL queries). By parsing the input and the output commands we can determine if an input data partition straddles an output data partition. This would indicate that the input data partition had injected information from the data portion of the input to the command portion of the output. Since we look only at the input and output of the application code, code complexity is arbitrary. Previously, if a system was not designed from the beginning to have taint tracking, introducing taint tracking was cost prohibitive. “Approximate taint tracking” allows after-the-fact introduction of these protections in a way that is cost-effective, and performant.\n\n\nBoris Chen\n\nVP of Engineering, tCell.io, Inc.\nBoris is co-founder and VP of Engineering at tCell, a security startup based in San Francisco. tCell's solution is the next generation of runtime attack monitoring and protection for web applications, covering the OWASP Top 10 and more. \n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"

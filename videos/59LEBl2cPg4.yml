@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - java
+title: 'Challenges updating your code to work with Java 9 Jigsaw'
+language: English
+recordingDate: 1520769820
+description: "by Uwe Schindler\n\nAt: FOSDEM 2017\n\nWith the introduction of the Jigsaw module system many projects are confrontedwith issues running their code, now throwing new Exceptions likeInaccessibleObjectException because they used to work around issues in theJava API. Although many features like the famous sun.misc.Unsafe are nowprovided by other public APIs, there is still the problem of making your codework with previous Java versions, but also dynamically using the new Java 9replacements. Apache Lucene, the open source fulltext search library behindApache Solr and Elasticsearch, is also using some of those \"hacks\" to workaround issues in the Java API, but the developers also noticed that some codein the project hit some limits introduced by the module system. This talk willshow on some examples how Apache Lucene managed to allow its code to run withdifferent java versions (without using multi-release JAR files, as this bringsadditional burden with the build system) and still offer backwardscompatibility to earlier versions. It will show also the common pitfalls thatcan be easily found with running your tests in a security manager to uncoverbugs.\n\n\nRoom: H.1302 (Depage)\nScheduled start: 2017-02-04 15:30:00"

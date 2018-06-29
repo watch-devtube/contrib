@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - ruby
+    - python
+    - javascript
+    - scala
+    - java
+title: 'RubyConf 2010 - Mustache in the Front, Mustache in the Back by: Patrick Ewing'
+recordingDate: 1428422076
+description: 'Mustache, the tiny templating library first written for Github, now has implementations in Python, Erlang, Javascript, Scala... the list goes on. Besides the appeal of "logic-less templates," a strong selling point for this approach has been the promise that views code could be reused across language boundaries. This is the story of a "big rewrite" of the Twitter front-end with Mustache.rb and Mustache.js being used in close conjunction. The performance of Twitter''s front-end servers has long been a bottleneck for scaling the service; even as many core components were being rewritten to run on the JVM, the Rails app still at its core is being redesigned to rendering work to the client while still supporting gracefully degrading in environments when Javascript is unavailable (mobile clients, web crawlers, email daemons etc.) We''ll go over the perils of server-side rendering in JS using V8 and Spidermonkey and why Ruby was ultimately the language of choice there. Extensions to this simple-by-design templating libraries to allow for i18n support for an great number of languages will be explained in depth. Perhaps most importantly, we''ll explore the practices developed while sharing view code between languages with very different coding conventions and developer cultures (particularly how that horrific chimera, the camel_Snake, was at last brought to its knobby knees).'

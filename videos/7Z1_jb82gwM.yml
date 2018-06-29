@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - testing
+title: 'Register - Better In-app-building testings on Android - Walter Dziemianczyk'
+recordingDate: 1527088868
+description: "Google Play Store’s In-app Billing API makes purchases and subscriptions easy. In just a few calls, your app can purchase items and subscriptions, verify previous purchases, etc. However, at The New York Times we ran into limitations while following Google’s recommended practices for testing our app’s use of the Billing API.\n\n1.) App published in the Play Store in the alpha or beta channel\n2.) The testing app needs to be the same package and signed with the same key as the app in Google Play\n3.) The items being purchased must be published in Google Play\n4.) Test purchases can only be done by testers whose Gmail addresses are registered with the developer account on Google Play Console\n5.) Since the state of purchases is maintained within Google Play, it can be difficult to get into a desired state\n6.) Test purchases only offer “happy path” testing\n\nThis talk will discuss the library and companion app to use in conjunction with your app which allows you to easily mock purchases and control responses. With minimal changes to an existing codebase, you can easily test your purchases within any scenario."

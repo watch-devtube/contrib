@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+title: 'Block Volumes Support in Kubernetes [I] - Mitsuhiro Tanino, Hitachi Data Systems'
+recordingDate: 1513373153
+description: "Block Volumes Support in Kubernetes [I] - Mitsuhiro Tanino, Hitachi Data Systems\n\nStorage is an essential part of any computing systems. In current Kubernetes, user can utilize storage volume with filesystem in a container but can't be utilized volume without filesystem called raw block volume. \n\nBy adding a feature to enable raw block storage directly, for example, user can use the raw block volume for database applications such as MariaDB and this improves I/O performance.\n\nIn this session, I will explain current activity and feature plan of Block Volumes Support in Kubernetes.\n\nAbout Mitsuhiro Tanino\nMitsuhiro Tanino is a software engineer who has been working for Hitachi since 2004 and a principal software engineer Hitachi Data systems since 2014. He has experience about development of virtual machine manager for heterogeneous cloud systems and RAS features for KVM virtual environments. Also he contributed OpenStack Cinder project for three years. His current working area is Kubernetes sig-storage, he is enhancing reliability and stability for iSCSI and FC drivers and also contributing Block Volumes Support feature developement."

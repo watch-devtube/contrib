@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - python
+title: 'Tanker Embrace the relational model'
+language: English
+recordingDate: 1520770171
+description: "by Bertrand Chenal\n\nAt: FOSDEM 2017\n\nTanker goal is to allow easy batch operations without compromising databasemodeling. For pandas users, it's like DataFrame.to_sql on steroids.\n\nThe Tanker inception is based on two strong observations (not particularlynew):\n\n  * The object-relation mapping in so called libraries is sometimes source of performance and semantic difficulties, especially with queries involving multiple joins. On the other hand, the relational model is both powerful and simple, and there are no reason not to expose it to the Python world.\n\n  * When working with external data sources, we are often faced with the challenge of matching those records with the database content. We have to know which record is new, which has been updated, etc. We also often have to de-normalize content and map it with a (hopefully) well-designed and 3NF schema.\n\nThis presentation will show how Tanker answers those two aspects, how it wasinspired by existing libraries and how it is currently used in productionapplications.\n\n\nRoom: H.1308 (Rolin)\nScheduled start: 2017-02-04 12:00:00"

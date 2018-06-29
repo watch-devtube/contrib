@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'Can strace make you fail? strace syscall fault injection'
+language: English
+recordingDate: 1520373188
+description: "by Dmitry Levin\n\nAt: FOSDEM 2017\n\nstrace is a diagnostic, debugging and instructional utility for Linux. It isused to monitor interactions between processes and the Linux kernel, whichinclude system calls, signal deliveries, and changes of process state. In2016, strace has been extended to tamper with tracees using syscall faultinjection, making strace also a syscall fault injection tool, the onlyunprivileged userspace command-line runtime tool of this kind for Linux.\n\nThe last summer as a part of strace GSoC 2016 project Nahim El Atmani hasimplemented a prototype of syscall fault injection - a software testingtechnique used for improving test coverage of error handling code paths thatmight otherwise rarely be followed by introducing faults. Now the feature hasfinally been implemented and is a part of strace 4.15 released in December2016.\n\nIn this talk the maintainer of strace will demonstrate the new feature,describe its implementation, and show examples of real bugs found with itshelp.\n\n\nRoom: H.2213\nScheduled start: 2017-02-05 10:45:00"

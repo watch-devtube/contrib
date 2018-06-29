@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - rest
+    - unix
+    - php
+    - performance
+    - mobile
+    - android
+    - security
+title: 'An Overview of API Underprotection - AppSecUSA 2017'
+language: English
+recordingDate: 1508375126
+description: "An Overview of API Underprotection\n\nThe OWASP 2017 top ten is adding a new category of underprotected APIs. This reflects how RESTful Web APIs are rapidly becoming the backbone of communication on the modern web. A whole series of new challenges are thus presented for dealing with security and access authorization issues. These are not well covered by existing tools or techniques. This talk will cover some of the potential threats that result from failure to secure Web APIs sufficiently and discuss some of the emerging security technologies in the field. In this API driven world there are a more complex set of API consuming clients, some of which may need to embed access credentials such as API keys. We will discuss the differences between software authorization via static API keys and user authorization via OAuth2 and the interplay between them. We will pay particular attention to API consumers such a mobile apps where the code must be published in the public domain. We will look at the typically poor level of practice in concealment of access credentials such as API keys in these apps. Some practical advice with code examples will be provided about how to improve the security posture of mobile apps accessing an API. We will cover the use of TLS and how it is not an effective countermeasure to credentials being extracted unless certificate pinning is also used to prevent Man-in-the-Middle attacks against the app. There will be some practical advice on how to implement TLS pinning with code examples. Finally we will look at more advanced techniques such as app hardening, white box cryptography and software attestation for mobile applications where security is crucial. Attendees should gain a good understanding of the underprotected API problem, some short term practical tips to improve their API security posture with minimal effort and an appreciation of emerging tools and technologies that enable a significant step change in security.\n\n\nRichard Taylor\nCTO, Critical Blue Ltd\nRichard Taylor co-founded CriticalBlue in 2002 to commercialise new techniques for code performance analysis and optimization. CriticalBlue has consulted for various OEMs improve software performance for Linux and Android system.\n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - testing
+title: 'Evaluating NVMe drives for accelerating HBase NVM HBase acceleration'
+language: English
+recordingDate: 1520845226
+description: "by Nicolas Poggi\n\nAt: FOSDEM 2017\n\nNon-Volatile-Memory express (NVMe) standard promises and order of magnitudefaster storage than regular SSDs, while at the same time being more economicalthan regular RAM on TB/$. This talk evaluates the use cases and benefits ofNVMe drives for its use in Big Data clusters with HBase and Hadoop HDFS.\n\nFirst, we benchmark the different drives using system level tools (FIO) to getmaximum expected values for each different device type and set expectations.Second, we explore the different options and use cases of HBase storage andbenchmark the different setups. And finally, we evaluate the speedups obtainedby the NVMe technology for the different Big Data use cases from the YCSBbenchmark.\n\nIn summary, while the NVMe drives show up to 8x speedup in best casescenarios, testing the cost-efficiency of new device technologies is notstraightforward in Big Data, where we need to overcome system level caching tomeasure the maximum benefits.\n\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2017-02-05 11:00:00"

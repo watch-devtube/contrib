@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - containers
+    - kubernetes
+title: 'Building GPU-Accelerated Workflows with TensorFlow and Kubernetes [I] - Daniel Whitenack'
+recordingDate: 1513374534
+description: "Building GPU-Accelerated Workflows with TensorFlow and Kubernetes [I] - Daniel Whitenack, Pachyderm\n\nGPUs are critical to some artificial intelligence workflows. In particular, workflows that utilize TensorFlow, or other deep learning frameworks, need GPUs to efficiently train models on image data. These same workflows typically also involve mutli-stage data pre-processing and post-processing. Thus, a unified framework is needed for scheduling multi-stage workflows, managing data, and offloading certain workloads to GPUs.\n\nIn this talk, we will introduce a stack of open source tooling, built around Kubernetes, that is powering these types of GPU-accelerated workflows in production. We will do a live demonstration of a GPU enabled pipeline, illustrating how easy it is to trigger, update, and manage multi-node, accelerated machine learning at scale. The pipeline will be fully containerized, will be deployed on Kubernetes via Pachyderm, and will utilize TensorFlow for model training and inference.\n\nAbout Daniel Whitenack\nDaniel (@dwhitena) is a Ph.D. trained data scientist working with Pachyderm (@pachydermIO). Daniel develops innovative, distributed data pipelines which include predictive models, data visualizations, statistical analyses, and more. He has spoken at conferences around the world (ODSC, Spark Summit, PyCon, GopherCon, JuliaCon, and more), teaches data science/engineering with Purdue University (@LifeAtPurdue) and Ardan Labs (@ardanlabs), maintains the Go kernel for Jupyter, and is actively helping to organize contributions to various open source data science projects."

@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - startup
+    - devops
+    - containers
+    - architecture
+    - ruby
+title: 'The Patterns of Distributed Logging and Containers [I] - Satoshi Tagomori, Treasure Data, Inc.'
+recordingDate: 1491874341
+description: "The Patterns of Distributed Logging and Containers [I] - Satoshi Tagomori, Treasure Data, Inc.\n\nIn recent days, logging becomes important more and more. Microservices produce much more various logs than past, and also require to see many logs to trace what users do. Containers are very useful for microservice architecture, but containers cannot have persistent storage in many cases. It makes \"tracable\" logging hard.\nThis talk will explain some patterns of logging architecture on container based computing, show an example using Fluentd and discuss about best practice to scale it from startup size to huge platform. These discussions include how to ship logs from applications in containers, how to ship logs from middleware (e.g., web servers) in containers, how to gather these logs from many servers which runs containers and how to store whole logs into many/various storages.\n\nAbout Satoshi Tagomori\nA open source software engineer, mainly working about web services, devops, distributed processing and data collection. Committer of Fluentd, maintainer of MessgePack-Ruby, author of Norikra, Woothee and many other projects. Day job is at Treasure Data, SaaS company to provide data processing platform.I did many presentations about my specialty at Hadoop Conference Japan/Taiwan, Ruby conferences in US/Europe/Japan and many other conferences."

@@ -1,5 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+tags:
+    - functional
 title: 'Into the Core - Squeezing Haskell into Nine Constructors by Simon Peyton Jones'
 recordingDate: 1473851938
 description: "Keynote talk from Erlang USer Conference 2016 http://www.erlang-factory.com/euc2016/\n\nErlang and Haskell are childhood friends who grew up together. Throughout the years, they have learnt a lot from each other. And just because they have become adults does not mean the learning stops.\n\nGHC translates all of Haskell into a tiny but super-expressive intermediate language called Core, does a lot of optimisations on Core, and then generates executable code.   Core is statically typed, making GHC one of the very few production compilers that is statically typed all the way through to code generation.  It pulls off this trick by drawing directly on System F, a mathematical calculus from type theory.  Functional programming is amazing: serious theory leads directly to beautiful implementations.\n\nIn this talk I’ll take you on a journey into Core and its design choices.  I’ll sketch Core’s type system, and the optimisations that GHC implements in Core, including let-floating, strictness analysis, specialisation, inlining, and the case-of-case transformation.\n\nHaskell and Erlang are both functional languages, albeit with significant differences (strict vs lazy, untyped vs typed).  I hope that the talk may lead to dialogue about how these similarities and differences show up in a compiler."

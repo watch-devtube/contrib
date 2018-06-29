@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+title: 'RubyConf 2010 - TANSTAAFL - Implementing Maglev Ruby on top of GemStone'
+recordingDate: 1428011915
+description: "by: Monty Williams, Peter McLain\n\nWhen we started the MagLev project, it looked straightforward to implement Ruby on a system which already ran Smalltalk. The object models were quite similar, the languages had a lot in common. We were aware of some key differences and had strategies to deal with them. However we quickly rediscovered the TAANSTAFL principle -- There Ain't No Such Thing As A Free Lunch. There were differences in modules and eigenclasses, class definition and open classes, collection classes, method contexts, block/proc/lambdas, exception handling, the order of rescue/ensure processing, etc. Since much of MagLev is written in Ruby, there was even the danger that wild monkeys might patch methods in Hash and break the parser. You'll learn what techniques we developed to deal with the differences, which ones worked well, and which ones we would do differently next time.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GXlO/"

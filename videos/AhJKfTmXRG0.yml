@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - ux
+    - security
+    - python
+title: 'Playing with the lights Control LIFX WiFi-enabled light bulbs'
+language: English
+recordingDate: 1520433070
+description: "by Louis Opter\n\nAt: FOSDEM 2017\n\nIn this talk we'll take a close look at a one of the \"smart\" (WiFi-connected)light-bulbs available on the market today. The bulbs expose a small API overUDP that I used to run an interface on a programmable buttons array. We willsee how topics like reverse engineering, security, licensing, \"self-hosting\"and user experience came into play.\n\nmonolight is an user interface to control LIFX WiFi-enabled light bulbs.monolight runs on a programmable button array; it is written in Python 3.6 (tohave type annotations and asyncio), and it interfaces with the bulbs through amore complex daemon written in C: lightsd.\n\nThis talk will start with a live demo of the button grid remotely controllingthe light bulbs. We will then explore how it works and some of the motivationsbehind it (network isolation, trying to not depend on the \"cloud\",reliability, user-experience). Finally, we will look into what kind ofopportunities even more open IoT products could bring, and open leave theplace to Q&A and discussion.\n\n\nRoom: AW1.126\nScheduled start: 2017-02-04 10:30:00"

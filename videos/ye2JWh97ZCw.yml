@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - ml
+    - aws
+    - testing
+title: 'Maja Kabiljo, Software Engineer, Facebook Inc. @ MLconf ATL'
+recordingDate: 1442942948
+description: "Large-scale item recommendations with Apache Giraph – This is a joint work with Aleksandar Ilic, Facebook Inc.: Recommendation systems try to make personalized item recommendations to users based on available historical information. One of the well-known recommendation techniques is Collaborative Filtering – which is often solved with matrix factorization of a sparse user-item matrix of known ratings. In this talk, we will describe our scalable implementation of SGD and ALS methods for Collaborative Filtering on top of Apache Giraph (an iterative graph processing system built for high scalability on big data).\n\nIn order to scale our implementation to over a billion users and tens of millions of items, we developed novel methods for distributing the problem and added several extensions to the Giraph framework. Experiments show that our implementation is up to 10x faster than some of the leading open source implementations in this domain (e.g. Spark MLlib) on the Amazon benchmark data while maintaining the same output quality.\n\nWe will describe several additional techniques for handling Facebook’s data (e.g. implicit and skewed item data, different offline metrics) that are required in page and group recommendations. To complete our comprehensive approach for computing recommendations at Facebook, we also implemented an efficient method for finding top-k recommendations per user and item-based recommendations with pairwise item similarities that is easily extendable with different formulas."

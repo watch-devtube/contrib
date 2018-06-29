@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - azure
+    - security
+title: 'NSDI ''18 - Azure Accelerated Networking: SmartNICs in the Public Cloud'
+language: English
+recordingDate: 1525814498
+description: "Daniel Firestone, Microsoft \n\nModern cloud architectures rely on each server running its own networking stack to implement policies such as tunneling for virtual networks, security, and load balancing. However, these networking stacks are becoming increasingly complex as features are added and as network speeds increase. Running these stacks on CPU cores takes away processing power from VMs, increasing the cost of running cloud services, and adding latency and variability to network performance.\n\nWe present Azure Accelerated Networking (AccelNet), our solution for offloading host networking to hardware, using custom Azure SmartNICs based on FPGAs. We define the goals of AccelNet, including programmability comparable to software, and performance and efficiency comparable to hardware. We show that FPGAs are the best current platform for offloading our networking stack as ASICs do not provide sufficient programmability, and embedded CPU cores do not provide scalable performance, especially on single network flows.\n\nAzure SmartNICs implementing AccelNet have been deployed on all new Azure servers since late 2015 in a fleet of 1M hosts. The AccelNet service has been available for Azure customers since 2016, providing consistent 15μs VM-VM TCP latencies and 32Gbps throughput, which we believe represents the fastest network available to customers in the public cloud. We present the design of AccelNet, including our hardware/software co-design model, performance results on key workloads, and experiences and lessons learned from developing and deploying AccelNet on FPGA-based Azure SmartNICs.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"

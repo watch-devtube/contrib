@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+title: 'Lessons Learned From Maintaining Continuous Delivery While Migrating From a Static Infrastructure'
+recordingDate: 1491874399
+description: "Lessons Learned From Maintaining Continuous Delivery While Migrating From a Static Infrastructure to Kubernetes [B] - Audun Fauchald Strand & Øyvind Ingebrigtsen Øvergaard, FINN.no / Schibsted\n\nFinn.no is Norway's largest website. Whilst running on static infrastructure, we support 300 microservices, 1400 deploys a week, and 6 minutes from git push to production. But our platform didn't meet the demands of our developers. So we started to migrate our platform from static servers to a dynamic approach, both on premise and in the cloud. We are not yet done with that process, but we have learned a lot. We want to share these learnings with you \n\nThe talk will maintain the following parts:\n- Introduction to FINN, and its legacy infrastructure\n- How we set up kubernetes, and how this has changed in the last 6 months\n- On-premise vs GKE\n- Tools we made for easier deployment and migration\n- FIAAS (Tool for deploying apps with a minimal config for each app)\n- HA proxy ingress controller for migrating app traffic\n- How to integrate Prometheus and Kubernetes for painfree metrics Experiences\n- Migrating apps are difficult\n- Kubernetes is complex\n- Developers like to make apps quickly\n- Monitoring is everything\n\nAbout Audun Fauchald Strand\nAudun has worked as a developer and arcitect for 14 years across many industries. He now works on creating a common runtime for all teams in Schibsted. He has expereienced alot of TLA: gof, mq, ejb, wli, bpel, eda, soa,esb, ddd, k8s"

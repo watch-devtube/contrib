@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+    - c++
+    - java
+title: 'Everything You Always Wanted to Know About "Hello, World"* (*But Were Afraid To Ask)'
+language: English
+recordingDate: 1520372827
+description: "by Brooks Davis\n\nAt: FOSDEM 2017\n\nI've been working on a new system call ABI and the required runtime supportfor a C variant with spacial memory safety. Along the way I've encounteredlots of interesting bits and pieces required to implement a simple C \"Hello,World\" program. I found the process fascinating so this talk brings all thatknowledge together in one place.\n\nThe first example in the classic \"The C Programming Language\" by Kernighan andRitchie is in fact a remarkably complete test of the C programming language.This talk provides a guided tour a slightly more complex program whereprintf() is called with multiple arguments. Along the way from the initialprocesses' call to exec() to the final _exit(), we'll tour the program loadingcode in the kernel and the dynamic linker, the basics of system callimplementation, the implementation of the memory allocator, and of courseprintf(). We'll also touch on localization and a little on threading support.Where appropriate, I'll discuss portions of the system that need changing toaccommodate memory safe versions of C like the version we are developing forour CHERI CPU.\n\nThis talk will assume some knowledge of a language with C-like syntax (C, C++,Java, and PHP should all be fine).\n\n\nRoom: Janson\nScheduled start: 2017-02-04 14:00:00"

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - docker
+    - kubernetes
+title: 'Building a Fault-Tolerant Resources Controller on Kubernetes - Morgan Bauer & Srinivas Brahmaroutu'
+recordingDate: 1525675400
+description: "Want to view more sessions and keep the conversations going? \_Join us for KubeCon + CloudNativeCon North America in Seattle, December 11 - 13, 2018 (http://bit.ly/KCCNCNA18) or in Shanghai, November 14-15 (http://bit.ly/kccncchina18).\n\nBuilding a Fault-Tolerant Custom Resources Controller on Kubernetes - Morgan Bauer & Srinivas Brahmaroutu, IBM Corp. (Intermediate Skill Level)\n\nCRD (custom resource definition) is widely used to extend the behavior of Kubernetes. As all other kubernetes resource have controllers, so do CRDs. It is important that the custom resources are managed reliably during any failures of the custom controller specific to any CRD, such that a consistent state is maintained across failures. This talk will share the experiences we've gained: how leader election is used to ensure liveness, design principle of namespaced CRDs vs. clustered CRDs, how to handle unexpected events from APIServers, and maintaining the running system.\n\nAbout Srinivas\nSrinivas Brahmaroutu works as a Software Engineer at IBM Corp. He has many years of experience around IBM cloud offerings. He has worked on many strategic open source projects including Cloud Foundry, Docker and Mesos. Currently he works on Kubernetes contributing to test-infra and conformance.\n\nAbout Morgan\nMorgan Bauer works on Open Source at IBM in San Jose as part of the Cloud Division. Morgan is a maintainer on the core Docker Engine and also a founding contributor of the Kubernetes Service-Catalog."

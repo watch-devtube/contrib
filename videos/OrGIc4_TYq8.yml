@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'NSDI ''18 - Net2Text: Query-Guided Summarization of Network Forwarding Behaviors'
+language: English
+recordingDate: 1525814498
+description: "Rüdiger Birkner, ETH Zürich\n \nToday network operators spend a significant amount of time struggling to understand how their network forwards traffic. Even simple questions such as \"How is my network handling Google traffic?\" often require operators to manually bridge large semantic gaps between lowlevel forwarding rules distributed across many routers and the corresponding high-level insights.\n\nWe introduce Net2Text, a system which assists network operators in reasoning about network-wide forwarding behaviors. Out of the raw forwarding state and a query expressed in natural language, Net2Text automatically produces succinct summaries, also in natural language, which efficiently capture network-wide semantics. Our key insight is to pose the problem of summarizing (\"captioning\") the network forwarding state as an optimization problem that aims to balance coverage, by describing as many paths as possible, and explainability, by maximizing the information provided. As this problem is NP-hard, we also propose an approximation algorithm which generates summaries based on a sample of the forwarding state, with marginal loss of quality.\n\nWe implemented Net2Text and demonstrated its practicality and scalability. We show that Net2Text generates high-quality interpretable summaries of the entire forwarding state of hundreds of routers with full routing tables, in few seconds only.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"

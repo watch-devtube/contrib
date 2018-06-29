@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'GPU Userspace - kernel interface & Radeon kernel modesetting status'
+recordingDate: 1267345719
+description: "By Jerome Glisse\r\n\r\nThe GPU is one of the most complex piece of hardware in modern computer. With kernel modesetting, more part of the driver move from userspace to the kernel allowing a cleaner support for suspend/resume and others GPU specific handling. The complexity of OpenGL driver, and also driver for new API such as OpenCL, are in userspace and will more than likely stay there.\r\n\r\nThis presentation will look at the unique problem of GPU kernel API to userspace. How userspace can interface with the kernel to submit GPU command in an as efficient as possible way. A brief review of what have been done and what is done now for various GPU, and insight on what might be better solution in the future will be given. Last part of the presentation will devolve to the status of radeon kernel modesetting which is now the largest driver inside the linux kernel with more the 70 000 lines of code and supporting more than 7 different GPU families.\r\n\r\n\r\nFOSDEM (Free and Open Source Development European Meeting) is a European event centered around Free and Open Source software development. It is aimed at developers and all interested in the Free and Open Source news in the world. Its goals are to enable developers to meet and to promote the awareness and use of free and open source software. More info at http://fosdem.org"

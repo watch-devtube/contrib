@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - startup
+    - java
+title: 'Diagnosing Issues in Java Apps using Thermostat and Byteman.'
+language: English
+recordingDate: 1520769821
+description: "by Severin Gehwolf\n\nAt: FOSDEM 2017\n\nThermostat is a monitoring and management tool for Java deployments, allowingusers to measure and monitor a host of different performance aspects of theirJava applications. Available metrics range from raw CPU and memory usage tooperation of the Garbage Collector and JIT compiler through to thread activityand method call/heap profiles. Thermostat provides a GUI view of activity oflocal and distributed JVMs in a live-view or, alternatively, offline forafter-the-fact analysis.\n\nWhat Thermostat cannot do on its own is track events and record statisticsthat are specific to a given Java application, at least not unless theapplication co-operates with it, for example by publishing JMX statistics thatThermostat can read, persist and display in its GUI. However, that's about tochange thanks to work Thermostat developers have been doing to integrateByteman into Thermostat.\n\nByteman is a tool which can be used to modify the behaviour of Java programsby injecting extra Java code almost anywhere in the program. You don't need torecompile your program or even prepare it in advance in order for this towork. You can specify changes to the program on the command line but, what ismore amazing, you can actually use Byteman to change the way a program runsafter startup while it is still running.\n\nIn this talk we will show how Thermostat can collect and visualize metricswith Byteman's help in order to better understand a specific performance issuein a Java application.\n\n\nRoom: H.1302 (Depage)\nScheduled start: 2017-02-04 11:30:00"

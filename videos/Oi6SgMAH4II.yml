@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - ruby
+    - java
+title: 'Scientific Computing on JRuby'
+language: English
+recordingDate: 1520511598
+description: "by Prasun Anand\n\nAt: FOSDEM 2017\n\nI worked on “Port NMatrix to JRuby” in the context of GSoC 2016. Theperformance of NMatrix-JRuby is outstanding even without making use of JRubythreading capabilities. Also, I am working on ArrayFire gem that helps in easyGPU computation and is 1e4 to 1e7 times faster than NMatrix gem\n\nJRuby is known for performance. NMatrix, a linear algebra library, nowsupports JRuby. All SciRuby gems that depend on NMatrix can now be run onJRuby. A scientific library must be highly efficient as the programs can bememory intensive. The programs must be fast at the same time. This calls foroptimization.\n\nSuppose, you are running a Ruby program and you need to make it faster; youuse threads, yet you are not happy with the results! Just chain the Rubymethods to Java methods. Using Java method can improve the speed, around 1000times when compared to using Ruby method. Not only speed, it can help you savea lot of RAM, around 10 times. JRuby’s Garbage Collection can sometimes slowdown your program if you are not careful with handling a large amount of data.\n\nI would also like to share about ArrayFire gem that would be soon availablefor MRI that can be used for high-performance GPU computing using OpenCL/CUDA.\n\n\nRoom: K.4.201\nScheduled start: 2017-02-04 15:45:00"

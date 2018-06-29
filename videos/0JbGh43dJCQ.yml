@@ -1,0 +1,16 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - php
+    - heroku
+    - web
+    - heroku
+    - security
+    - testing
+    - javascript
+title: 'Caspr and Friends - Stuart Larsen - OWASP AppSec California 2015'
+language: English
+recordingDate: 1431017514
+description: "AppSec California 2015 - Day 2, Track 3, Slot 1\n\nTitle\n\nCaspr and Friends (Content-Security-Policy Reporting and Aggregation)\n\nAbstract\n\n“Caspr, a free and open source tool for collecting, aggregating and analyzing Content-Security-Policy (CSP) violation reports was released near the end of summer. This talk will cover the background of CSP and violation reports, give an overview of Caspr and how it can be used, and then talk about some of the other tools surrounding CSP violation reports. The tools include Enforcer, a chrome extension for forcing CSP on websites, and csp-tools, a suite of tools for managing CSP reports from command line.\n\nCSP is a relatively new HTTP header for eliminating potential XSS vulnerabilities from websites. CSP is a white list that specifies where assets are allowed to be loaded from and executed. This includes scripts that come from the same website. If the website tries to load or execute an asset that isn’t on the white list, an asset being javascript, css, websockets, images, etc, the asset will be blocked.\n\nA report-uri can be specified so that when a CSP violation occurs, a report will be sent out describing the violation. These reports can be extremely important in gauging the effectiveness and coverage of your policy.\n\nAs of the summer (2014), there weren’t any popular tools for gathering these reports, or doing analysis and policy generation. And thus Caspr was born.\n\nCaspr handles the collection, aggregation, and analysis of these reports. It runs on Heroku, so it’s as simple as a button click to have your own instance of Caspr up and running.\n\nA few tools have been released for dealing with CSP violation reports. This talk will also give a brief intro to those tools.\n– Enforcer: Chrome Extension for forcing a policy on a website\n– csp-tools: A suite of tools for testing/setting up/analyzing reports from command line\n“\nBio\n\n“Hai I’m c0nrad.\n\nI started programming about 10 years ago on my TI-84 so I could cheat on exams. I’ve been cheating (and sometimes programming) ever since. I graduate this December (2014) with a degree in Electrical Engineering from Michigan Technological University.\n\nBefore then I used to work at Solar and Heliospheric Research Group doing data and algorithmic analysis, Air Force Research Labs doing security research on highly assured systems, Fog Creek Software as a intern software developer, MongoDB as a Security Intern, and a part time security contractor at IncludeSecurity.\n\nWhen not writing software, I can be found drinking cheap and sweet wine, doing Crossfit, and pretending to be social. But I’m usually just programming.\n“\n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"

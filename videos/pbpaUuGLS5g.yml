@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - security
+title: 'DEF CON 23 - Patrick Wardle - Stick That In Your root Pipe and Smoke It'
+language: English
+recordingDate: 1451045413
+description: "You may ask; \"why would Apple add an XPC service that can create setuid files anywhere on the system - and then blindly allow any local user to leverage this service?\" Honestly, I have no idea!\n\nThe undocumented 'writeconfig' XPC service was recently uncovered by Emil Kvarnhammar, who determined its lax controls could be abused to escalate one's privileges to root. Dubbed ‘rootpipe,' this bug was patched in OS X 10.10.3. End of story, right? Nope, instead things then got quite interesting. First, Apple decided to leave older versions of OS X un-patched. Then, an astute researcher discovered that the OSX/XSLCmd malware which pre-dated the disclosure, exploited this same vulnerability as a 0day! Finally, yours truly, found a simple way to side-step Apple's patch to re-exploit the core vulnerability on a fully-patched system. So come attend (but maybe leave your MacBooks at home), as we dive into the technical details XPC and the rootpipe vulnerability, explore how malware exploited this flaw, and then fully detail the process of completely bypassing Apple's patch. The talk will conclude by examining Apple’s response, a second patch, that appears to squash ‘rootpipe’…for now.\n\nSpeaker Bio:\nPatrick Wardle is the Director of Research at Synack, where he leads cyber R&D efforts. Having worked at NASA, the NSA, and Vulnerability Research Labs (VRL), he is intimately familiar with aliens, spies, and talking nerdy. Currently, Patrick’s focus is on automated vulnerability discovery, and the emerging threats of OS X and mobile malware.\n\nIn his personal time, Patrick collects OS X malware and writes OS X security tools. Both can be found on his website Objective-See.com"

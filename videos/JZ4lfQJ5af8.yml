@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - aws
+    - lisp
+title: 'NSDI ''18 - Inaudible Voice Commands: The Long-Range Attack and Defense'
+language: English
+recordingDate: 1525814497
+description: "Sheng Shen, University of Illinois at Urbana-Champaign\n\nRecent work has shown that inaudible signals (at ultrasound frequencies) can be designed in a way that they become audible to microphones. Designed well, this can empower an adversary to stand on the road and silently control Amazon Echo and Google Home-like devices in people’s homes. A voice command like \"Alexa, open the garage door\" can be a serious threat.\n\nWhile recent work has demonstrated feasibility, two issues remain open: (1) The attacks can only be launched from within 5 ft of Amazon Echo, and increasing this range makes the attack audible. (2) There is no clear solution against these ultrasound attacks, since they exploit a recently discovered loophole in hardware non-linearity.\n\nThis paper is an attempt to close both these gaps. We begin by developing an attack that achieves 25 ft range, limited by the power of our amplifier. We then develop a defense against this class of voice attacks that exploit non-linearity. Our core ideas emerge from a careful forensics on voice, i.e., finding indelible traces of nonlinearity in recorded voice signals. Our system, LipRead, demonstrates the inaudible attack in various conditions, followed by defenses that only require software changes to the microphone.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"

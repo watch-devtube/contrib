@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - startup
+    - agile
+    - python
+title: 'Marwan Al-Sabbagh - Executing scripts in a few milliseconds with MicroPython'
+language: English
+recordingDate: 1509196025
+description: "\"Executing scripts in a few milliseconds with MicroPython\n[EuroPython 2017 - Talk - 2017-07-14 - Arengo]\n[Rimini, Italy]\n\nCommand execution time can become important in a number of applications. Commands executed in command-line completion need to execute in less then 100ms or users will perceive a delay. In Shell scripting one might want to execute commands repeatedly in a for loop and fast execution times makes this more feasible. \n\nPython is a very powerful language but has a much slower startup time compared to other interpreted languages like Perl, Lua and Bash. It can take up to 10 times longer to startup then some of these other languages.\n\nMicroPython was written as a lean implementation of Python 3 with a small subset of the standard library mainly intended to run on microcontrollers. But it happily runs on Unix systems with excellent startup performance, making it an ideal candidate for implementing certain time sensitive commands.\n\nThis talk will:\n\n\nExplain when achieving fast execution times matters and when it doesn’t.\nPresent two different approaches to measuring command execution time, one simple and the other more detailed and accurate.\nCompare execution times of a simple set of scripts that add two numbers in an number of different interpreted languages (micropython, python3, awk, perl, lua, bash). \nPresent an example use case of MicroPython on Unix. Bash completion for pip install that completes the names of available packages live from a remote pypi mirror.\nDemonstrate the auto completion script with pip on a local pypi mirror.\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2017.europython.eu/en/speaker-release-agreement/"
