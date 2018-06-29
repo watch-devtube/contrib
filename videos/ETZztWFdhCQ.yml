@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'USENIX Security ''17 - DeTor: Provably Avoiding Geographic Regions in Tor'
+language: English
+recordingDate: 1505501658
+description: "Zhihao Li, Stephen Herwig, and Dave Levin, University of Maryland\n\nLarge, routing-capable adversaries such as nation-states have the ability to censor and launch powerful deanonymization attacks against Tor circuits that traverse their borders. Tor allows users to specify a set of countries to exclude from circuit selection, but this provides merely the illusion of control, as it does not preclude those countries from being on the path between nodes in a circuit. For instance, we find that circuits excluding US Tor nodes definitively avoid the US 12% of the time.\n\nThis paper presents DeTor, a set of techniques for proving when a Tor circuit has avoided user-specified geographic regions. DeTor extends recent work on using speed-of-light constraints to prove that a round-trip of communication physically could not have traversed certain geographic regions. As such, DeTor does not require modifications to the Tor protocol, nor does it require a map of the Internet’s topology. We show how DeTor can be used to avoid censors (by never transiting the censor once) and to avoid timing-based deanonymization attacks (by never transiting a geographic region twice). We analyze DeTor’s success at finding avoidance circuits through simulation using real latencies from Tor.\n\nView the full program: https://www.usenix.org/sec17/program"
