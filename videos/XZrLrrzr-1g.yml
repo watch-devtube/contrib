@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - javascript
+title: 'USENIX Security ''17 - Loophole: Timing Attacks on Shared Event Loops in Chrome'
+language: English
+recordingDate: 1505501618
+description: "Pepe Vila, IMDEA Software Institute & Technical University of Madrid (UPM); Boris Köpf, IMDEA Software Institute\n\nEvent-driven programming (EDP) is the prevalent paradigm for graphical user interfaces, web clients, and it is rapidly gaining importance for server-side and network programming. Central components of EDP are event loops, which act as FIFO queues that are used by processes to store and dispatch messages received from other processes.\n\nIn this paper we demonstrate that shared event loops are vulnerable to side-channel attacks, where a spy process monitors the loop usage pattern of other processes by enqueueing events and measuring the time it takes for them to be dispatched. Specifically, we exhibit attacks against the two central event loops in Google’s Chrome web browser: that of the I/O thread of the host process, which multiplexes all network events and user actions, and that of the main thread of the renderer processes, which handles rendering and Javascript tasks.\n\nFor each of these loops, we show how the usage pattern can be monitored with high resolution and low overhead, and how this can be abused for malicious purposes, such as web page identification, user behavior detection, and covert communication.\n\nView the full program: https://www.usenix.org/sec17/program"
