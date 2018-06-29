@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - mobile
+    - android
+title: 'Revisiting Storage for Smartphones'
+recordingDate: 1331157290
+description: "Hyojun Kim, Nitin Agrawal, and Cristian Ungureanu, NEC Laboratories America\n\nAwarded FAST '12 Best Paper\nConventional wisdom holds that storage is not a big contributor to application performance on mobile devices. Flash storage (the type most commonly used today) draws little power, and its performance is thought to exceed that of the network subsystem. In this paper we present evidence that storage performance does indeed affect the performance of several common applications such as web browsing, Maps, application install, email, and Facebook. For several Android smartphones, we find that just by varying the underlying flash storage, performance over WiFi can typically vary between 100% to 300% across applications; in one extreme scenario the variation jumped to over 2000%. We identify the reasons for the strong correlation between storage and application performance to be a combination of poor flash device performance, random I/O from application databases, and heavy-handed use of synchronous writes; based on our findings we implement and evaluate a set of pilot solutions to address the storage performance deficiencies in smartphones."
