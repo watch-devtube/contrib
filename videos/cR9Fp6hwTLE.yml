@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - architecture
+title: 'Alerting in Cloud Native Environments [I] - Fabian Reinartz, CoreOS'
+recordingDate: 1491874390
+description: "Alerting in Cloud Native Environments [I] - Fabian Reinartz, CoreOS\n\nIn a Cloud Native infrastructure, component failure is normal and expected. The loss of a single node or a dozen hard drives is automatically handled by the systems running a datacenter, removing the need to page someone at 4am.\n\nThis calls for an alerting system that understands service availability at a global scope, yet is still able to give detailed reports if and when there is a service-impacting incident. Prometheus achieves this by defining alerting conditions directly on time series data. The resulting alerts are grouped and aggregated into comprehensive and meaningful notifications.\n\nFabian will walk through the philosophy of time series based alerting, the Prometheus architecture behind it, and how practical anomaly detection can be implemented.\n\nAbout Fabian Reinartz\n| Fabian Reinartz is a software engineer at CoreOS and one of the core developers of Prometheus, a monitoring system and time series database. | Previously, he was a production engineer at SoundCloud and worked on information retrieval during his time at Saarland University."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'The Page-Fault Weird Machine: Lessons in Instruction-less Computation'
+recordingDate: 1378488122
+description: "Julian Bangert, Sergey Bratus, Rebecca Shapiro, and Sean W. Smith, Dartmouth College\nPresented at the 7th USENIX Workshop on Offensive Technologies (WOOT '13)\n\nTrust Analysis, i.e. determining that a system will not execute some class of computations, typically assumes that all computation is captured by an instruction trace. We show that powerful computation on x86 processors is possible without executing any CPU instructions. We demonstrate a Turing-complete execution environment driven solely by the IA32 architecture's interrupt handling and memory translation tables, in which the processor is trapped in a series of page faults and double faults, without ever successfully dispatching any instructions. The \"hard-wired\" logic of handling these faults is used to perform arithmetic and logic primitives, as well as memory reads and writes. This mechanism can also perform branches and loops if the memory is set up and mapped just right. We discuss the lessons of this execution model for future trustworthy architectures."
