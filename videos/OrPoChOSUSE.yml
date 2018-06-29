@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - performance
+    - containers
+    - docker
+    - python
+title: 'Sylvain Bellemare: Learning to use Docker for development'
+recordingDate: 1432986172
+description: "A very simple tutorial, ideally aimed at beginners, for both Docker and scientific Python, who wish to learn the basics to be able to create and manage their own development environments, using Docker.We'll write a Dockerfile to build a Docker image that will have a few basic scientific libraries (matplotlib, numpy, ipython/jupyter notebook). We'll run the notebook in the docker container, and then learn how to interact with the notebook.Next step, we'll use docker-machine to run our docker container on a remote host. (This may be practical for performance reasons.)If time allows, we may also spin up another container, running Postgres, or another data store (e.g.: Redis, Elasticsearch). We'll tie in the communication between both containers using docker-compose. We'll figure out a way of storing some data in our data store and plotting some graphs for it in the notebook.The goal of the tutorial is to empower the developers, such that they can totally take over their own development environment, meanwhile leveraging what Docker has to offer to do so. Hence, the tutorial will adopt a pace that beginners will be able to follow, such that at the end, they will have completed a re-usable Docker-based development environment, which they may extend and modify according to theirs needs, in the future\n\nSylvain Bellemare"

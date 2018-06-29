@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+title: 'Job queues, messages queues : état des lieux & retours d''expérience  - Forum PHP 2013'
+recordingDate: 1386594960
+description: "Jean-François Bustarret, Sylvain Lassaut\n\nLorsqu'on construit un site à forte charge, lorsqu'on met en place des interactions avec différents modules hétérogènes, on s'aperçoit assez vite qu'il est intéressant (indispensable ?) de pouvoir déléguer des jobs ou envoyer des messages d'un processus (ex: une page web) vers un worker séparé tournant potentiellement sur un autre serveur. S'il existe des solutions généralistes permettant de résoudre la plupart des problèmes au prix d'une certaine complexité (ex: RabbitMQ), il existe aussi des solutions plus spécialisées, qu'elles soient optimisées pour la diffusion de messages (ex: Kafka), de jobs (ex: Kestrel, Beanstalk, NSQ), le RPC (ex: Gearman), le stream processing (ex: Storm), voire des librairies bas niveau dédiées (ex: 0MQ). La présentation sera l'occasion de présenter les forces et faiblesses de chaque outil et d'apporter des retours d'expérience sur certains d'entre eux.\n\nhttps://joind.in/talk/view/9352\n\nhttp://www.afup.org"
