@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+title: 'USENIX Security ''17 - Vale: Verifying High-Performance Cryptographic Assembly Code'
+language: English
+recordingDate: 1505501551
+description: "Barry Bond and Chris Hawblitzel, Microsoft Research; Manos Kapritsos, University of Michigan; K. Rustan M. Leino and Jacob R. Lorch, Microsoft Research; Bryan Parno, Carnegie Mellon University; Ashay Rane, The University of Texas at Austin; Srinath Setty, Microsoft Research; Laure Thompson, Cornell University\n\nHigh-performance cryptographic code often relies on complex hand-tuned assembly language that is customized for individual hardware platforms. Such code is difficult to understand or analyze. We introduce a new programming language and tool called Vale that supports flexible, automated verification of high-performance assembly code. The Vale tool transforms annotated assembly language into an abstract syntax tree (AST), while also generating proofs about the AST that are verified via an SMT solver. Since the AST is a first-class proof term, it can be further analyzed and manipulated by proven correct code before being extracted into standard assembly. For example, we have developed a novel, proven-correct taint-analysis engine that verifies the code’s freedom from digital side channels. Using these tools, we verify the correctness, safety, and security of implementations of SHA-256 on x86 and ARM, Poly1305 on x64, and hardware-accelerated AES-CBC on x86. Several implementations meet or beat the performance of unverified, state-of-the-art cryptographic libraries.\n\nView the full program: https://www.usenix.org/sec17/program"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Shenandoah Why Do We Need Yet Another Garbage Collector'
+language: English
+recordingDate: 1520769889
+description: "by Christine H Flood and Roman Kennke\n\nAt: FOSDEM 2017\n\nGarbage Collection (GC) liberates the programmer from having to call mallocand free. More importantly GC saves the programmer from having to debug theirmistakes when using malloc and free. Unfortunately the details of how GC worksare often a black box. This talk will start with a tour of all of the GCalgorithms currently available in OpenJDK. We'll discuss how they work, theirstrengths and weaknesses, and which class of applications they were developedfor. We'll work our way through serial gc, parallel gc, concurrent mark andsweep, and g1. We'll make the case for why we need all of them and just onemore GC algorithm, Shenandoah.\n\nShenandoah is a parallel and concurrent GC algorithm designed for applicationswith 100gb+ heaps and tight pause time constraints. It's the first GCalgorithm targeting OpenJDK which compacts the live objects while the Javathreads are running. We'll describe the algorithm itself, the implementationdetails, and the optimizations needed to achieve good performance. We'llpresent performance numbers and give a demo that visualizes Shenandoah.\n\n\nRoom: H.1302 (Depage)\nScheduled start: 2017-02-04 13:00:00"
