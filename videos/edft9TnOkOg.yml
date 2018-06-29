@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - ruby
+title: 'MongoMapper, Mixins, and Migrations - a look at managing data-model complexity by Tim Connor'
+recordingDate: 1323743057
+description: 'An exploration of how the DataMapper pattern used by MongoMapper works very well with key value stores, in general, and how exceptionally well it works in a Document store like Mongo exceptionally, versus it''s less ideal match with a schema based document store like an RDBMS. Tim will be comparing benefits of how the ease of modeling your data in such a way, versus the iconic DB modeling of 3rd normal form, which brings up issues of composition over inheritance, which favors 3rd normal and how ruby''s mixin system plays into that tension. This all leads up to having a data model that is trivial to make excessively dynamic, and challenging to keep sane and consistent, in such a system. Methods of migration and data massage are discussed with Tim suggesting what has worked best on some real Mongo projects, but such an approach would work well with any kv store.'

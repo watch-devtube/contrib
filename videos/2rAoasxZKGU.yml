@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - ruby
+title: 'Ruby Conf 12 - Grow Your Unix Beard Using Ruby by Jesse Storimer'
+recordingDate: 1353225372
+description: "Ruby, like Perl before it, has great support for systems programming and interfaces to common system calls. Unfortunately, this doesn't get talked about much in the Ruby community. In an age where alternative runtimes and threads are getting lots of attention many of the largest Rails deployments are running on single-threaded, blocking I/O, preforking web server called Unicorn.\n\nThis talk will be a safari tour through the unique features and internals of Unicorn. By strongly following the Unix philosophy of 'doing one thing well' Unicorn has carved out a reputation as a high-performance, dependable choice for Ruby apps.\n\nThe Unicorn codebase is the best, most comprehensive example of Unixsystems programming in Ruby that I've come across. You'll see real-worldexamples of fork(2), accept(2), execve(2), and others. I'll walk throughhow Unicorn distributes connections across a shared socket, how it implements deferred signal handling, how it can replace a running instance of itself without losing any connections. Trust me, by the time it's over you'll begin to feel mysteriously compelled to start growing your Unix beard.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FGe1/"
