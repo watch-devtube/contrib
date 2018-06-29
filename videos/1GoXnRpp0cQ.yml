@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - security
+    - java
+title: 'DEF CON China 1   Samit Anwer   Androsia Securing data in process for your Android Apps'
+language: English
+recordingDate: 1529145960
+description: 'Each Android app runs in its own VM, with a limited heap size for creating new objects. The Android OS/app doesn''t differentiate between regular objects and objects that contain security sensitive information. These critical objects are kept around in the heap until the OS hits a memory constraint. The OS then chooses to invoke garbage collector in order to reclaim memory from the apps. Java does not provide explicit APIs to reclaim memory occupied by objects. This leaves a window of time where the security critical objects live in the memory and wait to be garbage collected. During this window a compromise of the app can allow an attacker to read the credentials. This is a needless risk every Android application lives with today. We propose a tool called Androsia, which performs a summary based interprocedural data flow analysis to determine the points in the program where security sensitive objects are last used (so that their content can be cleared). Androsia then performs bytecode transformation of the app to flush out the secrets resetting the objects to their default values. Attendees will learn: a) why java.security.* APIs for destroying objects are not upto the mark?, b) the key terms used in data flow analysis with live examples and finally, c) how Androsia protects data in process of Android apps?'
