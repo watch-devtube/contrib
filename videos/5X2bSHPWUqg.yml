@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'SREcon17 Asia/Australia:  InnoDB to MyRocks Migration in Main MySQL Database at Facebook'
+language: English
+recordingDate: 1497561679
+description: "Yoshinori Matsunobu, Facebook\n\nAt Facebook, we open sourced MyRocks—Flash optimized, space and write efficient MySQL database engine. We are in the process of migrating our main MySQL databases—storing Facebook social graphs, massively sharded, low latency and automated services—from InnoDB to MyRocks. We have been very successful so far and have reduced database size by half.\n\nCompared to deploying new database software into new or non-critical services, replacing existing stable database running on very critical services is much harder. You need to pay attention to lots of things, like how to migrate existing data without stopping or slowing down services, how to migrate within reasonable amount of time, and how to continuously verify not to corrupt any data.\n\nIn this session, the speaker will talk about MyRocks production deployment story. The following topics will be covered\n\n- Overview of MySQL at Facebook\n- What is MyRocks, and why we decided to create yet another database engine\n- How Facebook MySQL SRE team collaborated with Engineering team\n- How we prepared, executed and monitored InnoDB to MyRocks migration\n- Lessons learned from the migration\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
