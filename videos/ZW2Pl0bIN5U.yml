@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - lisp
+title: 'Clojure Conj 2012 - Web Testing with Logic Programming'
+recordingDate: 1433266977
+description: "Web Testing with Logic Programming by: Daniel Gregoire\n\nThere are a plethora of libraries and frameworks for authoring tests at all levels, but how do we test complex application states? Higher-level tests that need to verify complex scenarios tend to result in sequential, nested conditional logic that is both hard to read and does not represent the intention of a test: to verify the state of an application at a snapshot in time. Logic programming, like that provided by core.logic, provides one solution to this problem by providing a declarative syntax for asserting facts about a system. The logic engine can then prove the veracity of tests composed with core.logic (do the facts add up?), or can infer further facts about the system, which provides a new level of expressivity around the values we test. This presentation will use the clj-webdriver and webdriver-logic libraries to demonstrate these concepts by running tests against an application in a full web browser."

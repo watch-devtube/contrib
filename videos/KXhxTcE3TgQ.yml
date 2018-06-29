@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - lisp
+title: 'Clojure Conj 2012 - TCO'
+recordingDate: 1433267953
+description: "TCO by:  Chris Frisz\n\nTail-call optimization (TCO) allows programmers to write interesting tail-recursive functions without worry of overflowing the program's stack memory. In languages that require constant space tail calls (i.e. Scheme and Standard ML), recursion becomes a natural and efficient way to express iteration. In this talk we discuss a method to extend Clojure's TCO support for arbitrary mutual recursion via well-known code transformations including CPS and trampolining, and how these transformations enable more succinct and clear programming. We also examine a source-to-source compiler that applies these transformations, having minimal impact on the performance of the generated code and allowing interoperability with non-CTCO Clojure programs."

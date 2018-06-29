@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - lisp
+    - java
+title: 'Clojure Conj 2012 - Debuggers for Clojure'
+recordingDate: 1433268070
+description: "Debuggers for Clojure by: Hugo Duncan\n\nWith the recent introduction of nREPL , there is hope that many development environments for clojure can re-use nREPL server middleware.\n\nRitz started as a swank backend for the SLIME environment in Emacs, but has now grown to support the nREPL protocol, and provide a debugger for nrepl.el. It is becoming a library that can provide common operations for all nREPL based clojure development environments.\n\nIn this talk we will show how to install and use ritz with nrepl.el to work with stack traces, whether at an exception or a breakpoint. We will demonstrate how to inspect locals in a stack frames, to evaluate expressions in the context of a stack frame, to jump to the source of a frame (clojure or java), and to disassemble a frame's code."
