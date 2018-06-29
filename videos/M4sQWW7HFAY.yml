@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'VM: Hey VM, can I share a host with you? Affinity rules in a virtual cluster'
+language: English
+recordingDate: 1520845563
+description: "by Martin Sivák\n\nAt: FOSDEM 2017\n\nThe workloads and scenarios for virtual machines grow more complex every year.So do the interactions, availability, and performance requirements. All thatrequires the administrators to carefully plan where to start the VMs thatdepend on each other and/or specific hosts.\n\nThis talk will present the concepts that allow the administrator to expressthe rules for affinity between virtual machines and between virtual machinesand hosts to form complex relationships that will cover for example:\n\n  * licensing rules - limiting group of VMs to only use certain hosts  * overhead - web + database VMs running together  * performance - eg. storage VMs running on hosts with better IO performance  * failover recovery - VMs returning to “their” hosts  * reservation - There is place for only one of us!\n\noVirt is an open source project for managing virtual data centers that willnow help the administrator with exactly the above tasks. We have introducedthe virtual machine affinity feature in the past and a huge improvement inthat area is coming right now.\n\nAnd the best part is that all this works in a fully dynamic environment withautomatic conflict resolution and no manual management of host pinning rules,saving the administrator his precious time.\n\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2017-02-04 16:00:00"
