@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - javascript
+title: 'Embedding/Maintaining SpiderMonkey in a large scale project'
+language: English
+recordingDate: 1520694304
+description: "by Nicolas Trani\n\nAt: FOSDEM 2017\n\nMozilla's SpiderMonkey library can be used to embed JavaScript in any C++projects. It is quite easy to expose some simple bindings and get a \"helloworld\" application running in no-time.\n\nHowever, after this first hello world, you'll quickly notice that you'll needother features such as timer, networking, file access, threading or evengraphics and audio. At this point things get much more complicated, andmaintaning the bindings can quickly become overwhelming.\n\nOur team has been creating such bindings for SpiderMonkey since 2007 inseveral projects and this talk will present best practices, tips and caveatsthat we have learned over the years. We will also see how to make embedderslife easier by using nidium library that bundles many basic bindings, in thehope that more developers can use the power of SpiderMonkey in a convienientway.\n\n\nRoom: UD2.218A\nScheduled start: 2017-02-04 13:30:00"
