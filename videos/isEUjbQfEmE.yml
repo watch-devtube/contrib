@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - performance
+    - cloud
+    - mobile
+    - security
+title: 'USENIX Security ''17 - vTZ: Virtualizing ARM TrustZone'
+language: English
+recordingDate: 1505501560
+description: "Zhichao Hua, Jinyu Gu, Yubin Xia, and Haibo Chen, Institute of Parallel and Distributed Systems, Shangha Jiao Tong University; Shanghai Key Laboratory of Scalable Computing and Systems, Shanghai Jiao Tong University; Binyu Zang, Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University; Haibing Guan, Shanghai Key Laboratory of Scalable Computing and Systems, Shanghai Jiao Tong University\n\nARM TrustZone, a security extension that provides a secure world, a trusted execution environment (TEE), to run security-sensitive code, has been widely adopted in mobile platforms. With the increasing momentum of ARM64 being adopted in server markets like cloud, it is likely to see TrustZone being adopted as a key pillar for cloud security. Unfortunately, TrustZone is not designed to be virtualizable as there is only one TEE provided by the hardware, which prevents it from being securely shared by multiple virtual machines (VMs). This paper conducts a study on variable approaches to virtualizing TrustZone in virtualized environments and then presents vTZ, a solution that securely provides each guest VM with a virtualized guest TEE using existing hardware. vTZ leverages the idea of separating functionality from protection by maintaining a secure co-running VM to serve as a guest TEE, while using the hardware TrustZone to enforce strong isolation among guest TEEs and the untrusted hypervisor. Specifically, vTZ uses a tiny monitor running within the physical TrustZone that securely interposes and virtualizes memory mapping and world switching. vTZ further leverages a few pieces of protected, self-contained code running in a Constrained Isolated Execution Environment (CIEE) to provide secure virtualization and isolation among multiple guest TEEs. We have implemented vTZ on Xen 4.8 on both ARMv7 and ARMv8 development boards. Evaluation using two common TEE-kernels (secure kernel running in TEE) such as seL41 and OP-TEE shows that vTZ provides strong security with small performance overhead.\n\nView the full program: https://www.usenix.org/sec17/program"

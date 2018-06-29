@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - aws
+    - security
+    - functional
+title: 'USENIX Security ''17 - The Loopix Anonymity System'
+language: English
+recordingDate: 1505501560
+description: "Ania M. Piotrowska and Jamie Hayes, University College London; Tariq Elahi, KU Leuven; Sebastian Meiser and George Danezis, University College London\n\nWe present Loopix, a low-latency anonymous communication system that provides bi-directional ‘third-party’ sender and receiver anonymity and unobservability. Loopix leverages cover traffic and Poisson mixing—brief independent message delays—to provide anonymity and to achieve traffic analysis resistance against, including but not limited to, a global network adversary. Mixes and clients self-monitor and protect against active attacks via self-injected loops of traffic. The traffic loops also serve as cover traffic to provide stronger anonymity and a measure of sender and receiver unobservability. Loopix is instantiated as a network of Poisson mix nodes in a stratified topology with a low number of links, which serve to further concentrate cover traffic. Service providers mediate access in and out of the network to facilitate accounting and off-line message reception.\n\nWe provide a theoretical analysis of the Poisson mixing strategy as well as an empirical evaluation of the anonymity provided by the protocol and a functional implementation that we analyze in terms of scalability by running it on AWS EC2. We show that mix nodes in Loopix can handle upwards of 300 messages per second, at a small delay overhead of less than 1.5ms on top of the delays introduced into messages to provide security. Overall message latency is on the order of seconds – which is relatively low for a mix-system. Furthermore, many mix nodes can be securely added to the stratified topology to scale throughput without sacrificing anonymity.\n\nView the full program: https://www.usenix.org/sec17/program"

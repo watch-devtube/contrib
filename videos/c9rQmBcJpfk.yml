@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - mobile
+    - security
+    - testing
+title: 'USENIX Security ''17 - AutoLock: Why Cache Attacks on ARM Are Harder Than You Think'
+language: English
+recordingDate: 1505501561
+description: "AutoLock: Why Cache Attacks on ARM Are Harder Than You Think\n\nMarc Green, Worcester Polytechnic Institute; Leandro Rodrigues-Lima and Andreas Zankl, Fraunhofer AISEC; Gorka Irazoqui, Worcester Polytechnic Institute; Johann Heyszl, Fraunhofer AISEC; Thomas Eisenbarth, Worcester Polytechnic Institute\n\nAttacks on the microarchitecture of modern processors have become a practical threat to security and privacy in desktop and cloud computing. Recently, cache attacks have successfully been demonstrated on ARM based mobile devices, suggesting they are as vulnerable as their desktop or server counterparts. In this work, we show that previous literature might have left an overly pessimistic conclusion of ARM’s security as we unveil AutoLock: an internal performance enhancement found in inclusive cache levels of ARM processors that adversely affects Evict+Time, Prime+Probe, and Evict+Reload attacks. AutoLock’s presence on system-on-chips (SoCs) is not publicly documented, yet knowing that it is implemented is vital to correctly assess the risk of cache attacks. We therefore provide a detailed description of the feature and propose three ways to detect its presence on actual SoCs. We illustrate how AutoLock impedes cross-core cache evictions, but show that its effect can also be compensated in a practical attack. Our findings highlight the intricacies of cache attacks on ARM and suggest that a fair and comprehensive vulnerability assessment requires an in-depth understanding of ARM’s cache architectures and rigorous testing across a broad range of ARM based devices.\n\nView the full program: https://www.usenix.org/sec17/program"
