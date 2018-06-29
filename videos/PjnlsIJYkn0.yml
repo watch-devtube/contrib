@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - ruby
+title: 'MountainWest RubyConf 2015 - Better Routing Through Trees'
+recordingDate: 1427736808
+description: "by Jeremy Evans\nThis presentation will describe an approach to routing web requests efficiently through the use of a routing tree. A routing tree usually routes requests by looking at the first segment in request path, and sending it to the routing tree branch that handles that segment, repeating until the entire path is processed.\nAt any point while handling a request, the routing tree can operate on the request, for things like enforcing access control or object retrieval from a database, where such behavior is common for the entire branch. In addition to considering the request path, a routing tree also usually considers the request method, and may consider information from the request headers or request body when deciding how to route a request.\nA routing tree’s request handling is similar to how a file system processes requests for files, where it looks at the first segment of the path, sees if it is a directory, and if so, looks for the rest of the path inside that directory.\nThis presentation will describe what makes routing requests using a routing tree faster and simpler than the routing approaches used by the popular ruby web frameworks.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GWI8/"
