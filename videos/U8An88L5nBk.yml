@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - testing
+    - ruby
+title: 'RailsConf 2015 - High performance APIs in Ruby using ActiveRecord and Goliath'
+recordingDate: 1431450677
+description: "By, Dan Kozlowski & Colin Kelley\nWe had a real-time API in Rails that needed much lower latency and massive throughput. We wanted to preserve our investment in business logic inside ActiveRecord models while scaling up to 1000X throughput and cutting latency in half. Conventional wisdom would say this was impossible in Ruby, but we succeeded and actually surpassed our expectations. We'll discuss how we did it, using Event-Machine for the reactor pattern, Synchrony to avoid callback hell and to make testing easy, Goliath as the non-blocking web server, and sharding across many cooperative processes."

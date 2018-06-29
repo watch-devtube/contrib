@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+title: 'RailsConf 2015 - Better callbacks in Rails 5'
+recordingDate: 1431447396
+description: "By, Claudio Baccigalupo\nIn Rails 5, the old way of returning false to implicitly halt a callback chain will not work anymore.\n\nThis change will impact any codebase using ActiveSupport, ActiveRecord, ActiveModel or ActiveJob.\n\nMethods like before_action, before_save, before_validation will require developers to explicitly throw an exception in order the halt the chain.\n\nThis talk will explain the motivations behind the new default, will delve into the internals of Rails to show the actual code, and will help developers and gem maintainers safely upgrade their apps to Rails 5."
