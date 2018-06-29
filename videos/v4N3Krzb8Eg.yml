@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - performance
+    - azure
+    - aws
+    - containers
+    - docker
+    - kubernetes
+    - architecture
+title: 'Keynote: Building the Infrastructure that Powers the Future of AI - Vicki Cheung & Jonas Schneider'
+recordingDate: 1491519884
+description: "Keynote: Building the Infrastructure that Powers the Future of AI - Vicki Cheung, Member of Technical Staff & Jonas Schneider, Member of Technical Staff, OpenAI\n\nOpenAI is a non-profit research company that does cutting-edge AI research. Our mission is to build safe AI, and ensure AI's benefits are as widely and evenly distributed as possible. This means democratizing the technology and releasing our research publicly. As a result, we rely heavily on open-source software. The majority of our experiments run on our Kubernetes cluster that spans Azure, AWS, and our own data center. Kubernetes and Docker have allowed us the flexibility to experiment with various computing frameworks and topologies without paying the infrastructure cost. However, our use cases are distinctly different from the well-supported microservice use case, and we've written custom components on top of Kubernetes to optimize for our work. Some examples include our own autoscaler for batch jobs, a library to deploy distributed Tensorflow jobs, custom scripts to do GPU-scheduling and CPU-affinity, and a variety of internal tools to make Kubernetes friendly to researchers who have no experience in operations. In this talk, we will go over some of the motivations and internals of our customizations, as well as an example of how they all come to work together to accelerate research on the Universe platform.\n\nAbout Vicki Cheung\nVicki was part of the founding team and leads infrastructure at OpenAI, where they run deep learning experiments with large numerical compute requirements at scale. Previously, she led engineering at TrueVault and was a founding engineer at Duolingo.\n\nAbout Jonas Schneider\nJonas leads OpenAI's Robotics engineering team to build a platform for real-time control and distributed data collection. In his spare time (how?!), he builds infrastructure at OpenAI to provide high-performance compute for our research projects."
