@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+title: 'LoneStarRuby Conf 2010 - Beehive, scalable application deployment by: Ari Lerner'
+recordingDate: 1428424305
+description: "Okay, your rack app is done and you are ready to deploy it. Now, instead of developing your application you have to switch gears and start thinking about how it should be deployed. What http server should you use? How do you scale it beyond a single instance, load-balance it? How do you even get your app on a server? This discussion happens every time that you finish an application to deploy!\n\nThere is no disputing it, deployment is hard and you either have to be great at both or hire someone who is great at one. At AT&T interactive, we deploy many different applications from many different developers all the time. Additionally, we have application support staff, release schedules, server management staff, etc. etc.\n\nIn this talk, I'll introduce Beehive, a new open-source application deployment framework helps address this problem. We'll discuss why it was developed, how it works and how to use it. Without introducing any new tools, application developers can deploy their applications with a single command git push. Written primarily in ruby, c and erlang, Beehive can run on any hardware supported by the erlang vm. It's written to be entirely distributed, fault-tolerant and maintain high availability for applications."
