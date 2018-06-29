@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - architecture
+title: 'Radu Popescu - The CernVM File System: Beyond Static Content Distribution'
+recordingDate: 1498042434
+description: "Abstract\nThe CernVM File System (CernVM-FS) provides a scalable, reliable and low-maintenance software distribution service. It was developed at CERN to assist High Energy Physics (HEP) collaborations in deploying software on the worldwide distributed computing infrastructure for data processing applications. CernVM-FS is actively developed and is used across the entire HEPcommunity. Internally, CernVM-FS is implemented as a POSIX read-only file system in user space (FUSE), usingcontent-addressable storage and Merkle trees in order to maintain file data and meta-data. Files and directories are stored remotely on standard web servers and are retrieved and cached on-demand through outgoing HTTP connections only, avoiding most of the firewall issues of other network file systems. Unlike general-purpose read-write file systems, CernVM-FS follows a publish-subscribe pattern with a single source of new content that is propagated to a large number of readers. An active line of R&D is the implementation of a new publication architecture, capable of accommodating dynamic strategiesfor content publishing, and improving the scalability of the publication phase. The new architecture, implemented using a mix of Erlang/OTP and C++, will open up new uses cases for CernVM-FS."
