@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+title: 'From Screen to Pods: Bootstrapping a Cloud Agnostic System using Kubernetes [I] - Patrick McQuighan'
+recordingDate: 1513374495
+description: "From Screen to Pods: Bootstrapping a Cloud Agnostic System using Kubernetes [I] - Patrick McQuighan, Algorithmia\n\nToday, Algorithmia runs multiple Kubernetes clusters each with CPU and GPU nodes, 100s of pods, and 10,000s of containers created daily. We can create a copy of our entire stack in a variety of cloud environments in about an hour. Twelve months ago, Algorithmia was limited to AWS and reliant on an enterprise product for deployment management. In that time, we learned how to ensure a highly-available setup in multiple environments, handled networking issues between old applications and pod-based applications, discovered many quirks with cloud components (such as AWS ELB), learned what wrong assumptions we held about the cloud, and migrated our live production services to run within Kubernetes. We also learned the limits of Kubernetes and when to control components on our own. Ultimately, we reduced the number of servers needed to run our full stack, simplified the process of adding services, reduced dependency on particular cloud services, and have a hardened way to deploy our platform.\n\nIn this talk I’ll cover why we moved to Kubernetes to build our enterprise product, the benefits it entailed, difficulties we encountered with Kubernetes, containers, cloud providers, and what we’re most excited about in the future of Kubernetes.\n\nAbout Patrick McQuighan\nI joined Algorithmia in December 2015 and have been improving system performance and creating the Algorithmia Enterprise product. In that time we have grown from a single pool of workers to heterogenous groups of machines, and developed support for running the platform in multiple cloud providers. Previously I worked in the display advertising analytics platform at Amazon creating big data pipelines and managing a platform that runs thousands of jobs per day."

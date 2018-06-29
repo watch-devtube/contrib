@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - cloud
+    - devops
+    - containers
+    - kubernetes
+    - functional
+title: 'All You Need to Know to Build Your GPU Machine Learning Cloud [B] - Ye Lu, Qunar'
+recordingDate: 1513374514
+description: "All You Need to Know to Build Your GPU Machine Learning Cloud [B] - Ye Lu, Qunar\n\nGPU is becoming the new common, but at the moment, GPU resources are still hard to find for people who wants to have a taste. So how to build your GPU machine learning cloud?\n\nResource management & App templating\nEven if your company or organization have purchased some GPU devices. Environment and resource isolation is always a problem. Also at the beginning the cloud is more used as a playground, so another consideration is to improve usage rate of resources. How we use Kubernetes to solve this problems.\n\nHow to use a wizard to generate machine learning, you can choose using tensorflow or theano, how many GPUs you need, etc.\n\nMake the “customized changes” in immutable container be played back.\nThe features of container is immutable, which is a double-edged sword, which can ensure the environment can be unique/portable. On the other side, any changes inside the running container can be lost after recreation. How the customed env is saved and reuse?\n\nManaging persistence storage in Kubernetes\nHow to turn our RBD served as hosted s3, to save models, training data, and so on. So The data scientist can access their data both as a volume and s3 standard api.\nSupport the running machine learning app,like tensorflow to do online resize.\n\nApp model & permission control\nWe'll talk about the app center , design of appcode and permission control.\n\nAbout Ye Lu\nDevops Engineer @Qunar. Experienced in operating and managing OpenStack cloud, including Qunar OpenStack Cloud in 7 regions. Started constructing and using kubernetes Cloud since 2015. | OpenStack Ambassador."
