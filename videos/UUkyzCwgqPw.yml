@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - ios
+    - containers
+    - docker
+    - architecture
+    - python
+title: 'Stephan Jaensch - Building mobile APIs with services at Yelp'
+recordingDate: 1438873809
+description: "Stephan Jaensch - Building mobile APIs with services at Yelp\n[EuroPython 2015]\n[21 July 2015]\n[Bilbao, Euskadi, Spain]\n\nAt Yelp, we ship code multiple times a day and have maintained this\npace as our team has grown to 300+ and our codebase to several million\nlines of Python code. This talk explores the pain points we\nexperienced along the ways, how our service-oriented architecture\nalleviates them, and the infrastructure we built to develop, test, and\ndeploy in this highly-distributed environment. As a case study, we’ll\nbe looking at the backend powering the new Yelp Business Owner Android\nand iOS apps.\n\nAt the start, most of the development at Yelp occurred in a single,\nmonolithic web application, creatively named “yelp-main” (naming is\nhard!). As the company grew, our developers were spending increasing\namounts of time trying to ship code. After recognizing this pain\npoint, we started experimenting with a service oriented architecture\nto scale the development process, and so far it’s been a resounding\nsuccess. Over the course of the last three years, we’ve gone from\nwriting our first service to having over seventy production services.\nAlong the way, we’ve dabbled with Docker containers, Pyramid,\nSQLAlchemy, uWSGI, gevent, and virtualenv in an effort to build the\nnext-generation service platform for our engineers."

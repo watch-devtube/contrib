@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - javascript
+    - functional
+title: 'NSDI ''18 - Vesper: Measuring Time-to-Interactivity for Web Pages'
+language: English
+recordingDate: 1525814666
+description: "Ravi Netravali, MIT CSAIL\n\nEveryone agrees that web pages should load more quickly. However, a good definition for “page load time” is elusive. We argue that, for pages that care about user interaction, load times should be defined with respect to interactivity: a page is “loaded” when above-the-fold content is visible, and the associated JavaScript event handling state is functional. We define a new load time metric, called Ready Index, which explicitly captures our proposed notion of load time. Defining the metric is straightforward, but actually measuring it is not, since web developers do not explicitly annotate the JavaScript state and the DOM elements which support interactivity. To solve this problem, we introduce Vesper, a tool that rewrites a page’s JavaScript and HTML to automatically discover the page’s interactive state. Armed with Vesper, we compare Ready Index to prior load time metrics like Speed Index; across a variety of network conditions, prior metrics underestimate or overestimate the true load time for a page by 24%–64%. We introduce a tool that optimizes a page for Ready Index, decreasing the median time to page interactivity by 29%–32%.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - security
+title: 'NSDI ''18 - SafeBricks: Shielding Network Functions in the Cloud'
+language: English
+recordingDate: 1525814498
+description: "Rishabh Poddar, UC Berkeley\n \nWith the advent of network function virtualization (NFV), outsourcing network processing to the cloud is growing in popularity amongst enterprises and organizations. Such outsourcing, however, poses a threat to the security of the client’s traffic because the cloud is notoriously susceptible to attacks.\n\nWe present SafeBricks, a system that shields generic network functions (NFs) from an untrusted cloud. SafeBricks ensures that only encrypted traffic is exposed to the cloud provider, and preserves the integrity of both traffic and the NFs. At the same time, it enables clients to reduce their trust in NF implementations by enforcing least privilege across NFs deployed in a chain. SafeBricks does not require changes to TLS, and safeguards the interests of NF vendors as well by shielding NF code and rulesets from both clients and the cloud. To achieve its aims, SafeBricks leverages a combination of hardware enclaves and language-based enforcement. SafeBricks is practical, and its overheads range between ~0–15% across applications.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"
