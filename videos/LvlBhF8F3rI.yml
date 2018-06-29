@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - lisp
+title: 'Footwork PCB designs as code and EDA as code synthesis'
+language: English
+recordingDate: 1520432311
+description: "by Kaspar Emanuel\n\nAt: FOSDEM 2017\n\nFootwork is an experimental KiCAD footprint (text) editor written in Racket.Footwork takes advantage of Lisp's code-data equivalence to offer a uniqueapproach to PCB design: KiCAD's footprint format becomes a domain specificlanguage embedded in the Racket programming language.\n\nFootwork's interface is text first allowing users to make arbitrary edits:their requirements need not be fully anticipated by the user interface. Theusers still immediately see the effects of their edits through a graphicalpreview but can use a fully featured general purpose programming languages togenerate and modify footprints.\n\nTraditional (mouse based) manipulation is being added as calls to scripting.Most interestingly, Racket's Rosette language, an interface to SMT solvers,offers the opportunity to make use of cutting edge techniques in programmingsynthesis for design automation.\n\n\nRoom: AW1.120\nScheduled start: 2017-02-05 14:30:00"

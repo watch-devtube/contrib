@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - docker
+title: 'Puffin Free Webapp Hosting for Average Users'
+language: English
+recordingDate: 1520432754
+description: "by Jarek Lipski\n\nAt: FOSDEM 2017\n\nThe goal of the project is to allow average, tech-oriented user to run theirown server applications, without worrying about maintaining a server. Theultimate aim is to achieve greater decentralization of federated services,such as social networking, file sharing, blog or email, on the net.\n\nWhile many people are looking at containers as a way to run massiveapplications, automatically scaling to millions of users, Puffin allowsrunning many independent personal lightweight applications on a singlephysical machine.\n\nThe first part of the project is a specialized application catalog for Docker,with easy to use interface à la app store, that can be easily run on apersonal server. The second part is a common hosting platform which allowsrunning limited number of applications for free.\n\nDuring the presentation I will introduce the ideas behind the project and showa demo.\n\nThe difference between Puffin and other container management and hostingservices such as Docker Cloud or Rancher, is that the applications are curatedto achieve optimal efficiency on a small scale and the interface is morefriendly towards an average computer user. Docker was chosen as containertechnology due to its popularity - more and more web applications areproviding Dockerfile or even docker-compose.yml themselves, so it's not verydifficult to adapt them to include in the package repository.\n\nPutting multiple containers on a single machine to reduce hosting costsimplies multi-tenancy. Although Docker is not fully secure against accessinghost system from a container, I believe the situation will improve in thefuture or alternatively another container technology will be used for Puffin.\n\n\nRoom: AW1.125\nScheduled start: 2017-02-05 14:15:00"
