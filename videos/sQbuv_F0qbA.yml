@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - php
+    - security
+    - python
+title: 'Paolo Di Prodi Tim Burrell - Monitoring Web Sites for Malware Injection with Web Detector'
+language: English
+recordingDate: 1404486002
+description: "From AppSecEU 2014 in Cambridge\nhttps://2014.appsec.eu/\n\nIt's estimated that 86% of all websites had at least a serious vulnerability during 2012. Attackers either manually or automatically (via botnets) deploy C&C servers and malware droppers within exploited websites to infect clients. When such an intrusion is not detected by the owner, the website can deliver malware for long periods until somebody either privately or publicly notices it and maybe an investigation starts. \n\nTo tackle this, we have developed a web monitoring tool called WebDetector, that can be scheduled to run periodically over a list of domain names and to produce a score that indicates how malicious a page is. \n\nThe tool is currently written in python and relies on several open source components for mirroring, file tracking and indexing plus a set of heuristics to detect harmful components like javascripts, PDF, shockwaves, form spoofing and link redirection. The framework can be expanded with modular signatures to detect in future more types of attacks with the help of the community. \n\nWe have tested the efficacy of WebDetector by deliberately adding common malicious behaviour in a controlled Wordpress installation. More sophisticated malware strategies needs refined heuristics for detection that will be addressed in future. \n\n\nSpeakers\n\nTim Burrell\n\nPaolo Di Prodi\nMachine Learning Engineer, Microsoft\nI love control systems and robotics.\n\n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"
