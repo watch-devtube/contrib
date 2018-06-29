@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - startup
+    - .net
+title: 'How to reactively load and cache data without even trying by Mike Nakhimovich, New York Times EN'
+language: English
+recordingDate: 1493107590
+description: "This session was given at Paris Android Makers 2017 by Mike Nakhimovich, New York Times.\n\nMore info: http://androidmakers.fr/schedule/#session-18\nSlides link: https://www.slideshare.net/nakhimovich/data-loading-made-easy-with-mike-nakhimovich-droidcon-italy-2017\n\nAndroid has a wealth of open source libraries covering everything from network clients to UI frameworks. Something that is missing is a library to help load data from multiple sources, particularly 2 levels of caching + network. NY Times has recently open sourced such a library built on RxJava, Guava + OKIO which will dramatically simplifiy the common task of “get from mem cache, if not there get from disk, if not there hit the network, parse and update cache“. I'll be taking users through the problems that we tried to solve and the solution that we propose for it.\n\nThe library is Store https://github.com/NYTimes/Store. Stores dramatically simplify data loading and caching while being exposed through reactive interfaces. Stores are the foundation of the NY Times app and allow us to both have best in class startup time as well as allowing us to work offline. In this talk I'll introduce the library and then go through the open source tools we used to build it. Topics will include: Streaming data from OKHTTP using BufferedSource/Sink, Creation a blazing fast file system. Using Guava for intelligent caching, leveraging RxJava for combining and transforming multiple data sources\n\nType: Android development\nExperience: intermediate\n\n Alex Karp Production"

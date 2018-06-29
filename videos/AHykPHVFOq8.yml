@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+title: 'Un cluster Hadoop de 1117 noeuds doit avoir un frère (Stuart Pook)'
+language: French
+recordingDate: 1462798703
+description: "Criteo has a 26808 core cluster with 39 PB of raw storage and 11 TB RAM that runs up to 90000 jobs per day. Criteo decided to create a cluster with the capacity to temporarily replace, in both storage and compute, the existing cluster while it is upgraded. We will then run both clusters in parallel as part of our disaster recovery program and for extra capacity. The new hardware was chosen after manufacturers were asked to make competing bids to supply the new machines. In this talk we will describe:\n\nthe criteria we established for the 800 new computers and our comparison tests between suppliers' hardware and prices\n\nour non-blocking level 3 network infrastructure with 10 Gb endpoints scalable to 5000 machines\n\nthe installation and configuration, using Chef, of a new cluster with a new version of Hadoop on new hardware\n\nthe problems encountered in moving our jobs and data from the old CDH4 cluster to the new CDH5 cluster\n\nthe plans for running the two clusters in parallel and for failing over between them in case of disaster\n\nthe operational issues we face running two large clusters and three smaller clusters"

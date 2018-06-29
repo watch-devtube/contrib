@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - cloud
+    - security
+title: 'USENIX Security ''17 - Seeing Through The Same Lens...'
+language: English
+recordingDate: 1504711742
+description: "Seeing Through The Same Lens: Introspecting Guest Address Space At Native Speed\n\nSiqi Zhao and Xuhua Ding, Singapore Management University; Wen Xu, Georgia Institute of Technology; Dawu Gu, Shanghai JiaoTong University\n\nSoftware-based MMU emulation lies at the heart of out-of-VM live memory introspection, an important technique in the cloud setting that applications such as live forensics and intrusion detection depend on. Due to the emulation, the software-based approach is much slower compared to native memory access by the guest VM. The slowness not only results in undetected transient malicious behavior, but also inconsistent memory view with the guest; both undermine the effectiveness of introspection. We propose the immersive execution environment (ImEE) with which the guest memory is accessed at native speed without any emulation. Meanwhile, the address mappings used within the ImEE are ensured to be consistent with the guest throughout the introspection session. We have implemented a prototype of the ImEE on Linux KVM. The experiment results show that ImEE-based introspection enjoys a remarkable speed up, performing several hundred times faster than the legacy method. Hence, this design is especially useful for realtime monitoring, incident response and high-intensity introspection.\n\nView the full program: https://www.usenix.org/sec17/program"

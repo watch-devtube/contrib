@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - security
+title: 'DEF CON 25 -  Dimitry Snezhkov - Abusing Webhooks for Command and Control'
+language: English
+recordingDate: 1509660001
+description: "You are on the inside of the perimeter. And maybe you want to exfiltrate data, download a tool, or execute commands on your command and control server (C2). Problem is - the first leg of connectivity to your C2 is denied. Your DNS and ICMP traffic is being monitored. Access to your cloud drives is restricted. You've implemented domain fronting for your C2 only to discover it is ranked low by the content proxy, which is only allowing access to a handful of business related websites on the outside.\n\nWe have all been there, seeing frustrating proxy denies or triggering security alarms making our presence known.\nHaving more choices when it comes to outbound network connectivity helps. In this talk we'll present a technique to establish such connectivity with the help of HTTP callbacks (webhooks). We will walk you through what webhooks are, how they are used by organizations. We will then discuss how you can use approved sites as brokers of your communication, perform data transfers, establish almost realtime asynchronous command execution, and even create a command-and-control communication over them, bypassing strict defensive proxies, and even avoiding attribution. \n\nFinally, we'll release the tool that will use the concept of a broker website to work with the external C2 using webhooks."

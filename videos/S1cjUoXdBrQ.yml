@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'USENIX Security ''17 - Efficient Protection of Path-Sensitive Control Security'
+language: English
+recordingDate: 1505501560
+description: "Ren Ding and Chenxiong Qian, Georgia Tech; Chengyu Song, UC Riverside; Bill Harris, Taesoo Kim, and Wenke Lee, Georgia Tech\n\nControl-Flow Integrity (CFI), as a means to prevent control-flow hijacking attacks, enforces that each instruction transfers control to an address in a set of valid targets. The security guarantee of CFI thus depends on the definition of valid targets, which conventionally are defined as the result of a static analysis. Unfortunately, previous research has demonstrated that such a definition, and thus any implementation that enforces it, still allows practical control-flow attacks.\n\nIn this work, we present a path-sensitive variation of CFI that utilizes runtime path-sensitive point-to analysis to compute the legitimate control transfer targets. We have designed and implemented a runtime environment, PITTYPAT, that enforces path-sensitive CFI efficiently by combining commodity, low-overhead hardware monitoring and a novel runtime points-to analysis. Our formal analysis and empirical evaluation demonstrate that, compared to CFI based on static analysis, PITTYPAT ensures that applications satisfy stronger security guarantees, with acceptable overhead for security-critical contexts.\n\nView the full program: https://www.usenix.org/sec17/program"

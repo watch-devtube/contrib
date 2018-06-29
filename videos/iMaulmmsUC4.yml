@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - java
+title: 'L''API Collector dans tous ses états (José Paumard)'
+language: French
+recordingDate: 1493053329
+description: "Introduite en Java 8, l'API Collector vit dans l'ombre de l'API Stream, ce qui est logique puisqu'un collecteur doit se connecter à un stream pour fonctionner. Le JDK est organisé de sorte que l'on utilise surtout les collectors sur étagère : groupingBy, counting et quelques autres. Ces deux éléments masquent non seulement le modèle de traitement de données des collectors, mais aussi sa puissance et ses performances.\n\nOn parlera donc collectors : ceux qui existent car il faut les connaître, ceux que l'on peut créer, ceux dont on se doute que l'on peut les créer une fois que l'on comprend un peu les choses, et les autres, tant les possibilités offertes par cette API sont illimitées.\n\nOn insistera sur le concept de downstream collector, central dans cette API.\n\nOn montrera comment écrire des traitements entiers sous forme de collectors, de façon à pouvoir les passer en paramètre d'autres traitements.\n\nOn ne laissera de côté ni la lisibilité du code ni ses performances, vue l'importance de ces deux points dans ce type de traitement.\n\nDes slides, mais aussi beaucoup d'exemples réels en live coding."

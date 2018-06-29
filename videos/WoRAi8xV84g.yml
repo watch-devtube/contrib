@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+    - functional
+title: 'Mike Muller - Shared Memory Parallelism with Python'
+recordingDate: 1396548754
+description: "PyData London 2014\n\nPython threads cannot utilize the power of multiple CPUs. Other solutions such multiprocessing or MPI wrapper are based on message passing, resulting substantial overhead for certain types of tasks.\n\nWhile pure Python does not support shared memory calculations, Cython combined with OpenMP can provide full access to this type of parallel data processing.\n\nThis talk gives a whirlwind tour of Cython and introduces Cython's OpenMP abilities focusing on parallel loops over NumPy arrays. Source code examples demonstrate how to use OpenMP from Python. Results for parallel algorithms with OpenMP show what speed-ups can be achieved for different data sizes compared to other parallelizing strategies."

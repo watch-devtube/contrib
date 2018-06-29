@@ -1,5 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+tags:
+    - lisp
 title: 'Ctries in Clojure; or, Concurrent Transients - Michał Marczyk'
 recordingDate: 1436261981
 description: "The ability of persistent data structures to participate in complex version graphs where many independent instances of a data structure are derived from a single original through the application of various update-like operations is crucial to many of the benefits that they bring to our day-to-day programming in Clojure.\n\nCtries, presented by Prokopec, Bronson, Bagwell and Odersky, bring this ability to the world of concurrently modifiable data structures. In addition, they are lock-free (\"global progress guaranteed\") and admit constant-time snapshots; and under the hood, they bear a striking resemblance to Clojure's transients.\n\nThis talk aims to examine some of the more interesting aspects of Ctries' inner workings and their relationship to the data structures built-in to Clojure, and to describe the API choices made by ctries.clj to make using them feel natural in Clojure."

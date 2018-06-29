@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - swit
+    - ios
+    - java
+    - spring
+title: 'En finir avec les problèmes de gestion de dépendances (C. Champeau)'
+language: French
+recordingDate: 1525249448
+description: "Qui n'a jamais souffert d'avoir 2 versions différentes d'une même librairie sur le classpath ? Qui ne s'est jamais retrouvé avec des dépendances involontaires parce que les métadonnées sur Maven Central pour ce module étaient incorrectes ? Qui n'a jamais eu besoin de garantir sa compatibilité avec Spring 5 ? Pourquoi autoriser l'upgrade d'une 1.0.2 à une 2.0.4 si on sait que la librairie suit le semantic versioning ?\n\nTous ces problèmes sont extrêmement fréquents mais n'ont jusqu'ici pas été résolus correctement. Pourtant, les entreprises ont des problèmes encore plus complexes à gérer : garantir qu'on ne dépend que de versions validées par la QA, figer les versions pour garantir la reproducibilité des builds ou tout simplement blacklister des versions buggées.\n\nJusqu'ici, Gradle supportait les métadonnées issues de Maven (pom.xml) ou Ivy (ivy.xml), mais avec la version 5, un nouveau format propre à Gradle, entre en jeu. Supportant les variantes, il est conçu pour résoudre ces problématiques, dans un environnement ouvert: Java ou natif (C++, Swift, ...).\n\nIl est temps d'en finir avec ces problèmes et de publier la nouvelle génération de métadonnées !"

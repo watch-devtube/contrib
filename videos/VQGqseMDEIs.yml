@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - ios
+title: 'DEF CON 25 - Artem Kondratenko - Cisco Catalyst Exploitation'
+language: English
+recordingDate: 1509660001
+description: "On March 17th, Cisco Systems Inc. made a public announcement that over 300 of the switches it manufactures are prone to a critical vulnerability that allows a potential attacker to take full control of the network equipment.\n\nThis damaging public announcement was preceded by Wikileaks' publication of documents codenamed as \"Vault 7\" which contained information on vulnerabilities and description of tools needed to access phones, network equipment and even IOT devices.\n\nCisco Systems Inc. had a huge task in front of them - patching this vast amount of different switch models is not an easy task. The remediation for this vulnerability was available with the initial advisory and patched versions of IOS software were announced on May 8th 2017.\n\nWe all heard about modern exploit mitigation techniques such as Data Execution Prevention, Layout Randomization. But just how hardened is the network equipment? And how hard is it to find critical vulnerabilities? \n\nTo answer that question I decided to reproduce the steps necessary to create a fully working tool to get remote code execution on Cisco switches mentioned in the public announcement.\n\nThis presentation is a detailed write-up of the exploit development process for the vulnerability in Cisco Cluster Management Protocol that allows a full takeover of the device."

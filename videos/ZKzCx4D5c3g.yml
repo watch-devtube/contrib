@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Michal Wysokinski - Running Python code in parallel and asynchronously'
+language: English
+recordingDate: 1507387408
+description: "\"Running Python code in parallel and asynchronously\n[EuroPython 2017 - Talk - 2017-07-11 - Anfiteatro 2]\n[Rimini, Italy]\n\nMy outline will be:\n1) What does it mean to run code in parallel in Python? How does it differ from concurrency? Can they be applied at the some time?\n2) GIL and why it complicates parallelism in Python (CPython), but only to some extent.\n3)  Difference between a thread and a process from the OS point of view.\n4) When parallelism in Python is useful and when to avoid it.\n5) Description of how to achieve parallel execution in CPython and how to do it properly.\n6) Possible traps when using parallel programming in Python.\n7) What happens if the code runs both in parallel and asynchronously?\n8) Is it really beneficial?\n9) How such execution can be achieved?\n\nAs the outline shows I will focus on the parallel part as it is an important topic in our current time of multicore processors and multiprocessor systems.\n\nThe topic has been discussed a lot of times but mainly from the scientific point of view, where it's been used for speeding up calulcations time.  I will not go into these use cases (e.g. using MPI) but rather discuss it from web development point of view (e.g. multi worker applications).\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2017.europython.eu/en/speaker-release-agreement/"

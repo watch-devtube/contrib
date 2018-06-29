@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Binary analysis with angr Using VEX for static analysis'
+language: English
+recordingDate: 1520882682
+description: "by Andrew Dutcher\n\nAt: FOSDEM 2017\n\nThe angr binary analysis platform (http://angr.io) uses libVEX as the base ofits analysis engine. In this talk, we discuss the things about VEX that makeit attractive for static analysis and symbolic execution, its pitfalls, andways that it can be improved, including the changes we have made in our forkof libVEX.\n\nAgenda\n\n  * The goals of static analysis and symbolic execution on binary code  * Brief overview of competing analysis IRs  * Design of angr structured around libVEX     * PyVEX, FFI wrapper of libVEX objects into python    * simuvex, symbolic implementation of most VEX operations, ccalls, and dirty calls  * Pitfalls we've encountered     * VEX is not truly SSA    * libVEX is not designed for fault tolerance    * libVEX's multiarch support is a little shoddy    * Licensing concerns  * Our patches to libVEX     * The only real thing stopping us from submitting our patches upstream is manpower  * The possibility of a simplified python interface for writing lifters  * angr     * symbolic execution    * static analyses       * control-flow recovery      * binary rewriting      * type inference (sort of)      * value-set analysis\n\n\nRoom: UD2.119 (Moved from AW1.124)\nScheduled start: 2017-02-04 15:30:00"

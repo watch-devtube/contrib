@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+title: 'buildsystem.mk (fr) - Remy Gottschalk & Charles-Henry Prunier, Genymobile - Droidcon Paris 2014'
+recordingDate: 1412673536
+description: "Droidcon Paris 2014 \nRemy Gottschalk & Charles-Henry Prunier, Genymobile\n\n##\n## This module is about android build system, especially its makefiles and how to use them well\n##\n## @authors : Remy Gottschalk, Charles-Henry Prunier\n\nLOCAL_PATH:= $(call for-paper)\ninclude $(CLEAR_VARS)\n\nLOCAL_MODULE := buildsystem.mk\nLOCAL_SRC_FILES := \\\nAndroid.mk \\\nBoardConfig.mk \\\nAndroidProducts.mk \\\nCleanSpec.mk \\\ndevice.mk\n\nLOCAL_CONF_FLAGS := -Obuild_system\nLOCAL_CONF_FLAGS += -DHAVE_CUSTOM_ROM -IRomCooking\n\nLOCAL_CONF_INCLUDES += \\\ndefinitions \\\nfonctionnement \\\nmots_cles \\\nutilisation \\\nmodifications \\\nbonnes_pratiques\n\nLOCAL_MODULE_PATH := $(TARGET_OUT_BRAIN)\nLOCAL_MODULE_TAGS := eng\n\ninclude $(BUILD_CONFERENCE)"

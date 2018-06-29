@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'LISA17 - Capacity and Stability Patterns'
+language: English
+recordingDate: 1510787057
+description: "Brian Pitts, Eventbrite\n@sciurus\n\nAt Eventbrite, engineers are tasked with building systems that can withstand dramatic spikes in load when popular events go on sale. There are patterns that help us do this:\n\nBulkheads: partitioning systems to prevent cascading failures\nCanary testing: Slowly rolling out new code\nGraceful degradation: turning functionality on and off in response to failures or load\nRate limiting: controlling the amount of work you accept\nTimeouts: limiting time you wait for a request you made to complete\nLoad shedding: purposefully not handling some requests in order to reserve resources for others\nCaching: saving and re-serving results to lessen expensive requests\nPlanning: getting the resources you need in place, before you need them\nIn this talk you learn about each of those patterns, how Eventbrite has adopted them, and how to implement them within your own code and infrastructure.\n\nView the full LISA17 program: https://www.usenix.org/lisa17/program"

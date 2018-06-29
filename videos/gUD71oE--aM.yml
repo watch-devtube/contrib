@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - lisp
+title: 'USENIX Security ''17 - Phoenix: Rebirth of a Cryptographic Password-Hardening Service'
+language: English
+recordingDate: 1505501667
+description: "Russell W. F. Lai, Friedrich-Alexander-University Erlangen-Nürnberg, Chinese University of Hong Kong; Christoph Egger and Dominique Schröder, Friedrich-Alexander-University Erlangen-Nürnberg; Sherman S. M. Chow, Chinese University of Hong Kong\n\nPassword remains the most widespread means of authentication, especially on the Internet. As such, it is the Achilles heel of many modern systems. Facebook pioneered using external cryptographic services to harden password-based authentication in a large scale. Everspaugh et al. (USENIX Security ’15) provided the first comprehensive treatment of such a service and proposed the PYTHIA PRF-Service as a cryptographically secure solution. Recently, Schneider et al. (ACM CCS ’16) proposed a more efficient solution which is secure in a weaker security model.\n\nIn this work, we show that the scheme of Schneider et al. is vulnerable to offline attacks just after a single validation query. Therefore, it defeats the purpose of using an external crypto service in the first place and it should not be used in practice. Our attacks do not contradict their security claims, but instead show that their definitions are simply too weak. We thus suggest stronger security definitions that cover these kinds of real-world attacks, and an even more efficient construction, PHOENIX, to achieve them. Our comprehensive evaluation confirms the practicability of PHOENIX: It can handle up to 50% more requests than the scheme of Schneider et al. and up to three times more than PYTHIA.\n\nView the full program: https://www.usenix.org/sec17/program"

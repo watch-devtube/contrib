@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - mobile
+    - android
+    - ios
+    - architecture
+title: 'How We Built a Framework at Twitter to Solve Service Ownership & Improve Infrastructure Utilization'
+recordingDate: 1513365204
+description: "How We Built a Framework at Twitter to Solve Service Ownership & Improve Infrastructure Utilization at Scale [I] - Vinu Charanya, Twitter\n\nTwitter is powered by thousands of microservices that run on our internal Cloud platform which consists of a suite of multi-tenant platform services that offer Compute, Storage, Messaging, Monitoring, etc as a service. These platforms have thousands of tenants and run atop hundreds of thousands of servers, across on-prem & the public cloud. The scale & diversity in multi-tenant infrastructure services makes it extremely difficult to effectively forecast capacity, compute resource utilization & cost and drive efficiency.\n\nIn this talk, I would like to share how my team is building a system (Kite - A unified service manager) to help define, model, provision, meter & charge infrastructure resources. The infrastructure resources include primitive bare metal servers / VMs on the public cloud and abstract resources offered by multi-tenant services such as our Compute platform (powered by Apache Aurora/Mesos), Storage (Manhattan for key/val, Cache, RDBMS), Observability. Along with how we solved this problem, I also intend to share a few case-studies on how we were able to use this data to better plan capacity & drive a cultural change in engineering that helped improve overall resource utilization & drive significant savings in infrastructure spend.\n\nAbout Vinu Charanya\nVinu Charanya is a Senior Software Engineer at Twitter where she works in the Compute Platform building Twitter’s internal cloud infrastructure management platform. She is also a core team member of Women who code, a non-profit organization dedicated to inspiring women to excel in technology careers. She is also a part-time teacher and a mentor helping students learn iOS and Android development at CodePath. Vinu received her Masters in Computer Science and Engineering from University at Buffalo, where she worked on the PhoneLab Testbed research group under Prof. Geoff Challen and Prof. Steve Ko."

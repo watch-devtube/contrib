@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - ruby
+    - python
+    - javascript
+    - java
+title: 'Leverging Rust to Build a Windows friendly ecosystem for mruby'
+language: English
+recordingDate: 1520511651
+description: "by Terence Lee\n\nAt: FOSDEM 2017\n\nEven if mruby core works on Windows, any mruby app is may not work if thelibraries it depends on don’t compile and run on Windows. Using Rust, we canwork towards building an ecosystem that is Windows compatible. This talk walksthrough building mruby libraries that do that.\n\nUnlike some other languages like JavaScript, Java, or Python, Ruby is notknown for it’s ability to run well on Windows. The Windows environment isoften treated as a second or third class citizen even though there are manypotential users. Part of this is due to Ruby’s strong POSIX oriented standardlibrary. This has mostly been ok since most Ruby applications are hosted andrun on UNIX servers.\n\nmruby is a lightweight Ruby that can be linked and embedded inside otherapplications. Being embeddable means that the runtime host could be Windows.mruby also has no Operating System specific standard library. Since theecosystem is young, there’s potential for an ecosystem that is Windowsfriendly. But writing cross platform native extensions in C for mruby is stilldifficult.\n\nRust is a modern systems programming language that is fast and built toprevent segfaults and guarantee thread safety. It’s more than just a compiler,it’s a platform that has a great dependency manager and cares about crosscompilation out of the box. This makes it a great candidate over C to writenative extensions.\n\nIn this talk, we’ll go over some basic Rust and how we can integrate this towrite mruby libraries that compile on Linux, OS X, and Windows. It’ll dig intonot only writing the library code, but also the mruby C API as well as themruby/Rust binding layer that makes this all possible.\n\n\nRoom: K.4.201\nScheduled start: 2017-02-04 11:45:00"

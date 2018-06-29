@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+    - .net
+title: 'Francois Scharffe: Word embeddings as a service'
+recordingDate: 1449251039
+description: "PyData NYC 2015\n\nThis talk will show how to deal with word embeddings in python, from learning a model to using it in production in a django application.\n\nWord embeddings are a very convenient tool for performing a large variety of natural language processing task, like Part Of Speech tagging, Named Entity Recognition, or building similarity measures between documents. The Gensim library leverages the efficient word2vec algorithm with Cython optimizations allowing fast learning of word embedding models. Experimentations show the larger the training corpus the better the model, independently of the task to be performed. Resulting models can thus become pretty large and require a non embedded usage. The word2vec API is a simple wrapper providing an easy to deploy service around arbitrary word embeddings. In this talk I will present the workflow and tools for working with word embeddings in Python. I will show how to simply build an efficient document recommendation engine, and present a Django module for efficiently storing, caching and manipulating word embeddings\n\nSlides available here: http://nbviewer.ipython.org/github/lechatpito/PyDataNYC2015/blob/master/Word%20embeddings%20as%20a%20service%20-%20PyData%20NYC%202015%20%20.ipynb   http://www.slideshare.net/lechatpito/word-embeddings-as-a-service-pydata-nyc-2015"

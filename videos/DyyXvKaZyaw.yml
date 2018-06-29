@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+title: 'Algorithmes distribués pour le Big Data, saison 2 (DuyHai DOAN)'
+language: French
+recordingDate: 1462798693
+description: "Vous avez aimé la première saison des algorithmes pour le Big Data avec HyperLogLog et Paxos ? La saison 2 est là et vous propose au menu 1 structure de donnée et un algorithme tout frais sorti des publications universitaires.\n\nCréer une structure de données qui supporte des opérations distribuées sans coordination relève d'une gageure. Mais Marc Shapiro a relevé le défi avec les CRDT! Nous allons voir comment, sous réserve de respecter quelques propriétés, on peut obtenir une convergence des données distribuées sans besoin de recourir à un lock global.\n\nExécuter des opérations de manière atomique sur des architectures distribuées est théoriquement impossible sans coordination globale (donc quelque part un lock global). Par contre, il est possible d'obtenir une visibilité atomique sans coordination avec l'algorithme RAMP Transaction présenté par Peter Bailis en 2014. Cet algorithme ouvre la porte à des perspectives intéressantes pour des besoins comme des indexes distribués etc..\n\nComme toujours, chaque structure/algorithme sera présenté avec une implémentation concrète pour mieux illustrer les cas d'utilisation."

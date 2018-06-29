@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Policy-Based Volume Snapshots Management in Kubernetes - Jing Xu, Google'
+recordingDate: 1525675677
+description: "Want to view more sessions and keep the conversations going? \_Join us for KubeCon + CloudNativeCon North America in Seattle, December 11 - 13, 2018 (http://bit.ly/KCCNCNA18) or in Shanghai, November 14-15 (http://bit.ly/kccncchina18).\n\nPolicy-Based Volume Snapshots Management in Kubernetes - Jing Xu, Google (Intermediate Skill Level)\n\nMalware and unexpected file corruption leave your data at risk. Storage snapshots -- either on premises or in the cloud -- can offer protection. In the event of a problem, user can roll back to a snapshot from a specific point in time and restore the storage system to that prior state. Snapshots can also be used to replicate data efficiently. In this talk, we present Snapshot feature in Kubernetes. It allows users to create/delete snapshots and restore/clone volumes from snapshots in the same way of managing volumes. We also show to how build custom controller to manage snapshots based on pre-defined policy. The policy specifies how often to take snapshots, what commands to execute before and after taking snapshots, and what is the maximum number of snapshots are allowed. The custom controller can automatically execute snapshotting workflow and clean up old snapshots automatically.\n\nAbout Jing\nJing Xu obtained her Ph.D. from Electrical and Computer Engineering Department, University of Florida in May 2011. After graduation, she had been a lecture in School of Computer Science in Florida International University for about 4 years. She moved to Bay area in late 2014 and joined VMware, working on Storage Policy Based Management project. Later in 2016, she joined Kubernetes team in Google and now is working on storage management."

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - mobile
+title: 'From Gtk to Qt: An Strange Journey, part 2 The continuation of the original talk from Dirk Hohndel …'
+language: English
+recordingDate: 1520691423
+description: "From Gtk to Qt: An Strange Journey, part 2 The continuation of the original talk from Dirk Hohndel and Linus Torvalds about the port of Subsurface from Gtk to Qt, now with mobile in mind.\nby Tomaz Canabrava\n\nAt: FOSDEM 2017\n\nAs subsurface evolved from a Gtk Application to a Qt one, cutting a quarter ofthe codebase while still gaining new functionalities, a new developmentproposal was done: \"How do we get this desktop based application and run it onmobile, on a unified codebase?\"\n\nHow do we get a kernel developer application writed in kernel-style code forthe desktop and make it universal, running in any operating system, mobile anddesktop?\n\nOn this talk I'll present you piece-by-piece history on what we had whenSubsurface started, the chalenges that kernel hackers faced when creating adesktop application and why the choice was made to port away from Gtk into Qt- even tougth the main developer of subsurface back then loathed C++.\n\nAfter the initial port to Desktop a new era began, the era of MobileApplications, and Qt had launched it's new Qml language that promissed goodintegration on mobile and even desktop with minimal effort. We wanted to giveit a try. At the same time the KDE hackers launched a new idea \"Kirigami\", alibrary build on Qml to simplify development of Qml based software, and sincewe where already on the bleeding edge of things, why not give it a try?\n\nThis is the tale of Subsurface, From Gtk to Qt to Mobile, from one of it'smain hackers.\n\n\nRoom: K.4.401\nScheduled start: 2017-02-05 13:35:00"

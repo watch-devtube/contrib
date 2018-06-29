@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - ruby
+title: 'RailsConf 2016 - How We Scaled GitLab For a 30k-employee Company By Minqi Pan'
+language: English
+recordingDate: 1464116788
+description: 'GitLab, the open source alternative to GitHub written in Rails, does not scale automatically out of the box, as it stores its git repositories on a single filesystem, making storage capabilities hard to expand. Rather than attaching a NAS server, we decided to use a cloud-based object storage (such as S3) to replace the FS. This introduced changes to both the Ruby layer and the deeper C layers. In this talk, we will show the audience how we did the change and overcame the performance loss introduced by network I/O. We will also show how we achieved high-availability after the changes.GitLab, the open source alternative to GitHub written in Rails, does not scale automatically out of the box, as it stores its git repositories on a single filesystem, making storage capabilities hard to expand. Rather than attaching a NAS server, we decided to use a cloud-based object storage (such as S3) to replace the FS. This introduced changes to both the Ruby layer and the deeper C layers. In this talk, we will show the audience how we did the change and overcame the performance loss introduced by network I/O. We will also show how we achieved high-availability after the changes.'

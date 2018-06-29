@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Santiago M. Mola - Babelfish: Universal Code Parsing Server'
+recordingDate: 1498042898
+description: "Abstract\nAt source{d} we analyze source code from all online Git repositories we can find.That is +60M repositories and the number is growing. By looking at all public source code as a single dataset we were able to train ML models for different applications. At first, our analysis was extremely shallow, like how many bytes were added with each commit. Then it evolved to be based on token sequences. Recently we started building ML models based on identifiers used in source code. We are gradually moving to a more complex analysis such as discovering patterns in a code structure. As our analysis evolves, extracting the required features from code written in hundreds of different programming languages at scale gets harder and harder. Babelfish project https://doc.bblf.sh/ is our answer to this problem. It is an open source project, designed to be a server for parsing source code in virtually every programming language and do it in a performant way. In this talk we’ll have an in-depth look at motivation for starting Babelfish, it’s approach and architecture, highlight challenges that we’re facing while building it and share plans for the future work.\n\nBio\nSantiago is the Lead Data Engineer at source{d}, working on a pipeline to analyze all open source found online."

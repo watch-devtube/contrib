@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - web
+    - java
+title: 'Using LNT to track performance'
+language: English
+recordingDate: 1520511154
+description: "by Kristof Beyls\n\nAt: FOSDEM 2017\n\nLast year, at the 2016 LLVM dev room, I presented ideas on how to improve LNTto make performance tracking of LLVM generated code easier. We've implementedmost ideas since, and we're happy to see that our ideas work out in practice:quite often, understanding the root cause for a performance regression nowtakes about 5 to 10 minutes of work, whereas before it typically took us halfa day to produce all data that is now recorded automatically.\n\nI intend to give a demo of how we use LNT at ARM's LLVM teams. I'll alsodiscuss how LNT is useful for other projects that need to track performance ofgenerated code. LNT is starting to be used by at least also some GCC, java jitand even a Verilog-to-C++ compiler teams.\n\nI'll also give the necessary pointers on what you need to get started on LNTfor your own projects.\n\nYou can find a preview of the kind of things I plan to demo athttp://blog.llvm.org/2016/06/using-lnt-to-track-performance.html\n\n\nRoom: K.3.201\nScheduled start: 2017-02-05 12:45:00"

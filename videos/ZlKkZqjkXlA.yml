@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Deterministic replay support for Genode components Performance penalty and challenges'
+language: English
+recordingDate: 1520432748
+description: "by Mahoukpego Parfait Tokponnon\n\nAt: FOSDEM 2017\n\nwe are modifying Nova kernel to make it support temporal redundancy for userprocesses running Genode components. Every time a process releases the CPU, wemanage to restart it from its last starting point and re-run the same portionof the process code. An practical application of this could be animplementation of a fault tolerant system. At the end of the two executions,one may compare their memory footprints to detect an eventual fault due forexample to SEU. We are also interested in the performance penalty this wouldinduce on the overall systems compared to existing redundancy models. In thistalk, we will present how Genode components performances are impacted by thistype of redundancy. Possible choices and remaining challenges for extendingthis model for multiprocessor environment will also be discussed.\n\n\nRoom: AW1.125\nScheduled start: 2017-02-04 11:45:00"

@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - php
+    - security
+    - testing
+title: 'Automating TLS Configuration Verification - AppSecUSA 2017'
+language: English
+recordingDate: 1525757872
+description: "Best practices for HTTPS deployment have been steadily improving over the past decade. TLS usage on web servers has been steadily increasing and there are dozens of tools (O-Saft being the most popular) now available to test the correctness of the TLS configuration of a front-end web server. All good news. But what about the other services and protocols used in a web application stack? What about the connection between the web application server and the backing data store? Unfortunately, the state of the art regarding proper TLS configuration in popular databases has not progressed as quickly as it has for HTTPS.\n\n \n\nVirtually all important data sent between a client and a web application, will also be sent between the application server and its backing data store. The network IS hostile and any connection to the backing data store of a web application needs to have the same level of network confidentiality and integrity as the front-end client.\n\n \n\nThis talk will look at the current TLS capabilities of popular web application data stores (MySQL, PostgreSQL, and MongoDB), including both the most recent versions as well as the most widely deployed versions. We’ll discuss best practices for defining TLS configuration within these data stores, which are somewhat different from HTTPS, and improvements in tools made by the presenter, to help verify proper server configuration of TLS. Finally, with these new tools we’ll survey actual TLS configurations of publicly connected data stores to determine adherence to best practices in the wild.\n\n\nSpeakers\n\nSteven Danneman\nSecurity Engineer, Security Innovation\nSteven Danneman is a Security Engineer at Security Innovation in Seattle, WA, making application software more secure through targeted penetration testing.\n\n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"

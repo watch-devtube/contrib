@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - react
+    - containers
+    - kubernetes
+title: 'Writing a Custom Controller: Extending the Functionality of Your Cluster [I] - Aaron Levy'
+recordingDate: 1491874291
+description: "Writing a Custom Controller: Extending the Functionality of Your Cluster [I] - Aaron Levy, CoreOS\n\nMuch of the functionality in a Kubernetes cluster is managed by a reconciliation pattern within \"controllers\". The node, service, or deployment controllers (just to name a few) watch for changes to objects, then act on those changes to drive your cluster to a desired state. This same pattern can be used to implement custom logic, which can be used to extend the functionality of your cluster without ever needing to modify Kubernetes itself.\n\nThis talk will cover how to implement your own custom controller, from contacting the Kubernetes API to using existing libraries to easily watch, react, and update components in your cluster. By building on existing functionality and following a few best practices, you can quickly and easily implement your own custom controller.\n\nAbout Aaron Levy\nAaron Levy is a software engineer at CoreOS, working on all things Kubernetes. He is also the lead maintainer of bootkube, a kubernetes-incubator project that enables launching self-hosted kubernetes clusters."

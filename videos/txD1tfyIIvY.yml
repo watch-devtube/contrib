@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - elixir
+title: 'ElixirConf 2015 - CRDT: Datatype for the Apocalypse by Alexander Songe'
+recordingDate: 1444843402
+description: "Conflict-free Replicated Data Types (CRDTs) are a hot new datatype in distributed programming that promise coordination-free and always eventually-consistent writes. Most of the stuff you will read about them is limited to the context of high-end distributed databases, but CRDT's are more flexible and shouldn't be limited to this field. In the talk, I will demonstrate how CRDT's are great for applications that have partial connectivity (including websites): updates can be applied locally, and when communication is possible, you can send the data back up, and the data will remain consistent even in the most byzantine (or apocalyptic) scenarios. There are even scenarios that can support multiple simultaneous editors.\n\nBeyond that, I will also demonstrate how Elixir's metaprogramming can be used to compose complex models out of CRDT's that themselves exhibit the same exact features. I will also exhibit some newer CRDT features, such as shared-context and delta-operation CRDT's to overcome some of the shortcomings of older CRDT's.\n\nI plan to keep the talk light on theory (the academic literature is sufficient for that).\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HO21/"

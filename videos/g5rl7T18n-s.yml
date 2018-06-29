@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Large Scale Teaching Infrastructure with Kubernetes - Yuvi Panda, Berkeley University'
+recordingDate: 1513369720
+description: "Large Scale Teaching Infrastructure with Kubernetes - Yuvi Panda, Berkeley University\n\nData Science & Programming literacy is an important aspect of literacy in the 21st century, but teaching these skills at scale is quite difficult. At UC Berkeley, we are trying - our 'Foundations of Data Science' course has no pre-requisites, and routinely attracts more than a 1000 students from across majors. \n\nRequiring students to have local programming environments installed & debugged is a non-starter at this scale. We have been running a Kubernetes based JupyterHub environment that allows them to do all their programming with a web based environment with Jupyter Notebooks. This is an important change in many ways:\n\n1. Lets students start instantly with writing code, rather than dealing with the accidental complexity of installing software locally\n\n2. Acts as an equalizer - a student using a chromebook borrowed from the library has no disadvantage over someone using an expensive Macbook Pro\n\n3. This is course critical infrastructure, and needs high availability at low human / dollar cost\n\nIn this talk we'll go over how we have:\n\n1. Used Kubernetes to make reduce our costs while allowing a larger group of people to deploy safely to various cloud providers.\n\n2. Extracted our JupyterHub deployment into a project part of Project Jupyter (Zero to JupyterHub) that is being adopted at other universities & organizations.\n\nAbout Yuvi Panda\nUC Berkeley, Data Science Education Program"

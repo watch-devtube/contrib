@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - aws
+    - security
+title: 'DEF CON 16 - Mike Perry: 365-Day: Active https cookie hijacking'
+recordingDate: 1385448891
+description: "DEF CON 16 - Mike Perry: 365-Day: Active https cookie hijacking\nLast year during my Tor presentations at Black Hat and Defcon, and in a follow up post on BugTraq, I announced that many SSL secured websites are vulnerable to cookie hijacking by way of content element injection. Unfortunately, my announcement was overshadowed by Robert Graham's passive cookie stealing attacks (aka 'SideJacking').\n\nThe difference between our attacks is this: instead of sniffing passively for cookies, it is possible to actively cull them from targets on your local network by injecting images/iframes for desired sites into unrelated webpages. Moreover, since many sites do not set the 'secure' bit for their SSL cookies, it is even possible to grab cookies used in https sessions and use them to impersonate users. This will be demonstrated.\n\nAt the time of this writing, vulnerable SSL sites include Gmail, Facebook, Amazon, and many others. Since wide-spread awareness of the threat seems to be the only way to convince these vendors that they need to secure their cookies, fully automated exploit code will be provided two weeks after the demonstration (however, it is also possible to steal insecure https cookies with just airpwn and wireshark).\n\nMike Perry is a forward and reverse engineer employed by Riverbed Technology. He also moonlights as a volunteer for the Tor Project, and considers security a hobby. He is somewhat annoyed that the https cookie issues he discussed are still not fixed on most major websites, a full year later. \n\nFor copies of the slides and additional materials please see the DEF CON 16 Archive here: https://defcon.org/html/links/dc-archives/dc-16-archive.html"

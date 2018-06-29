@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - mobile
+    - android
+    - security
+    - java
+title: 'DEF CON 20 - John Floren - Hellaphone: Replacing the Java in Android'
+recordingDate: 1383153616
+description: "Copy of the slides for this talk are here: https://media.defcon.org/dc-20/presentations/Floren/DEFCON-20-Floren-Hellaphone.pdf \n\nHellaphone: Replacing the Java in Android\nJohn Floren Senior Member of Technical Staff, Sandia National Labs\n\nAndroid is the only widespread open-source phone environment available today, but actually hacking on it can be an exercise in frustration, with over 14 million lines of code (not counting the Linux kernel!), build times in the hours, and the choice of writing Java or C++/JNI. Add in security debacles like the CarrierIQ affair or the alleged man-in-the-middle attacks at the last DEF CON and Android starts to seem less attractive.\n\nWe wanted a phone that's easy to hack on, with a quick development turnaround time. By killing off the Java layer of Android and only loading the underlying Linux system, we found a useful, relatively light-weight platform for further development. We then adapted the Inferno operating system to run on our phones, eventually getting a graphical phone environment in under 1 million lines of code, including a phone application, an SMS app, several text editors, a shell, a compiler, a web browser, a mail client, and even some games. The actual core of the Inferno OS is small and simple enough for one person to read, understand, audit, and hack on; applications are similarly simple and easy to write.\n\nThis talk discusses in greater depth our motivations and the methods we used to adapt Android phones to new and excitingly broken purposes. If the Demo Gods are kind, there will also be a demonstration of the Inferno phone environment.\n\n*Sandia National Laboratories is a multi-program laboratory managed and operated by Sandia Corporation, a wholly owned subsidiary of Lockheed Martin Corporation, for the U.S. Department of Energy's National Nuclear Security Administration under contract DE-AC04-94AL85000. SAND-2012-3785 A\n\nJohn Floren is a Senior Member of Technical Staff at Sandia National Laboratories, where he works in High Performance Computing and security research. He occasionally puts odd operating systems on inappropriate systems, so far having helped port Plan 9 to the IBM Blue Gene series and Inferno to cell phones."

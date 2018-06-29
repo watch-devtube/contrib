@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'IPVS for Scaled Private Cloud Load Balancing [I] - Kimberly Messimer, Comcast VIPER'
+recordingDate: 1491874337
+description: "IPVS for Scaled Private Cloud Load Balancing [I] - Kimberly Messimer, Comcast VIPER\n\nIn this talk, we discuss how Comcast VIPER addresses network-scaling bottlenecks using IPVS as a load balancer. We discuss the benefits including enabling us to achieve over 500Gbit/s egress from a modest Kubernetes cluster as well as dynamic VIP allocation.\n\nUsing a tool we’ve written in-house called Kube2IPVS, which utilize Kubernetes config maps, we can assign an ingress IP address and port to a Kubernetes service, and our load balancer will automatically reconfigure, with no downtime, to load balance traffic into a service.\n\nWe go into technical detail in this presentation, starting with a brief overview of IPVS and why it’s useful. We will then descend into the requirements surrounding L2 adjacency and why ARP is your frenemy. We’ll discuss how we addressed the challenges of running IPVS internal to Kubernetes, including IPVS master and backend co-location.\n\nFinally, we'll highlight how port forwarding is not possible using IPVS in direct-reply mode, and then discuss how Kube2IPVS manages iptables rules to route packets directly into Kubernetes service chains, effectively bypassing this restriction.\n\nWe expect to have Kube2IPVS open-sourced in 2017.\n\nAbout Kimberly Messimer\nPlatform Engineer, Comcast VIPER"

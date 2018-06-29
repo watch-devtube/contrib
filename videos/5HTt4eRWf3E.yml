@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - lisp
+title: 'USENIX Security ''17 - Oscar: A Practical Page-Permissions-Based Scheme...'
+language: English
+recordingDate: 1505501555
+description: "Oscar: A Practical Page-Permissions-Based Scheme for Thwarting Dangling Pointers\n\nThurston H.Y. Dang, University of California, Berkeley; Petros Maniatis, Google Brain; David Wagner, University of California, Berkeley\n\nUsing memory after it has been freed opens programs up to both data and control-flow exploits. Recent work on temporal memory safety has focused on using explicit lock-and-key mechanisms (objects are assigned a new lock upon allocation, and pointers must have the correct key to be dereferenced) or corrupting the pointer values upon free(). Placing objects on separate pages and using page permissions to enforce safety is an older, well-known technique that has been maligned as too slow, without comprehensive analysis. We show that both old and new techniques are conceptually instances of lock-and-key, and argue that, in principle, page permissions should be the most desirable approach. We then validate this insight experimentally by designing, implementing, and evaluating Oscar, a new protection scheme based on page permissions. Unlike prior attempts, Oscar does not require source code, is compatible with standard and custom memory allocators, and works correctly with programs that fork. Also, Oscar performs favorably–often by more than an order of magnitude–compared to recent proposals: overall, it has similar or lower runtime overhead, and lower memory overhead than competing systems.\n\nView the full program: https://www.usenix.org/sec17/program"

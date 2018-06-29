@@ -1,0 +1,16 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - career
+    - php
+    - performance
+    - cloud
+    - mobile
+    - containers
+    - docker
+    - leadership
+    - security
+title: 'Chenxi Wang - Protect Containerized Applications With System Call Profiling - AppSecUSA 2016'
+language: English
+recordingDate: 1479701597
+description: "Recorded at AppSecUSA 2016 in Washington, DC\nhttps://2016.appsecusa.org/\n\nProtect Containerized Applications With System Call Profiling\n\nContainer technologies like Docker are gaining mainstream interest from development and operations teams. Unlike virtual machines, containers running on the same host share the underlying OS kernel. As such, a malicious container can influence the execution of other containers through the common kernel by either exploiting a kernel vulnerability or simply leveraging the privileges of the compromised container. In this talk we describe an approach to harden and isolate containerized applications via system call profiling. We show that one can develop accurate system call profiles via static analysis of the container images and knowledge of the host system. Using this profile in runtime, one can monitor for and protect against malicious behavior that deviates from the profile. We show that one can build these profiles automatically from analyzing information within the container image and Dockerfiles. We show that runtime profiling and monitoring adds approximately 5-8% performance overhead for running applications. We demonstrate system call profiling on a sample micro-service application and show that it is a non-intrusive and effective method to detect behavioral anomalies with low false positives.\n\n\nChenxi Wang\nTwistlock\nDr. Chenxi Wang is Chief Strategy Officer of Twistlock, where she is responsible for product strategy and thought leadership. Chenxi built an illustrious career at Forrester Research, Intel Security, and CipherCloud. At Forrester, Chenxi covered mobile, cloud, and enterprise security, and wrote many hard hitting research papers. At Intel Security, she led the ubiquity strategy that spans both hardware and software platforms. \n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"

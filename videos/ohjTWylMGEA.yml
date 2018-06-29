@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - security
+    - java
+title: 'DEF CON 25 - Chaosdata - Ghost in the Droid: Possessing Android Applications with ParaSpectre'
+language: English
+recordingDate: 1509160964
+description: "Modern Android applications are large and complex, and can be a pain to analyze even without obfuscation - static analysis can only get one so far, the debugger sucks, Frida doesn't give you enough access to the Java environment, and editing smali or writing Xposed hooks can be time consuming and error prone. There has to be a better way!\n\nWhat if we could inject a command line REPL into an app to drive functionality? And what if we could also make writing function hooks fast and easy?\n\nIn this talk, I will introduce ParaSpectre, a platform for dynamic analysis of Android applications that injects JRuby into Android applications. It bundles a hook configuration web API, a web application interface to configure and edit hooks, and a connect-back JRuby REPL to aid application exploration from the inside-out. It supports various selectors to match classes and methods, can be reconfigured on-the-fly without requiring a device reboot, and takes the pain out of writing method hooks for Android apps.\n\nParaSpectre is for developers and security researchers alike. While not itself a debugger, it provides a level of access into a running application that a debugger generally won't."

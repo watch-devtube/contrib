@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - testing
+    - python
+title: 'Continuous Integration Testing for Your Database Migrations by Joshua Hesketh'
+recordingDate: 1407753589
+description: "This is a talk about how OpenStack does database migration continuous integration, and how other projects might be able to learn from what we've done.\n\nOpenStack is an interesting project in that it runs in a variety of different scale scenarios. There are very small deployments of only a few machines, and large public clouds with thousands of machines. The OpenStack project takes Continuous Integration (CI) very seriously, and runs a suite of unit and integration tests on all proposed patches.\n\nOne thing we weren't very good at testing though, was database upgrades. We have unit tests for many of them, but we don't know how these upgrades affect real users in the field. As a response, we worked on adding database migration testing to our CI environment. This new test infrastructure is open source (https://github.com/stackforge/turbo-hipster), and extensible. It currently runs tests on smaller databases, as well as a largish real user database. It has already caught two significant performance problems in database migrations.\n\nThis talk will cover how we built the test infrastructure (in python!). It will cover what we've learned from the 12 months of running it - time that we'll have had by the conference day. It will tell a story about some of the bugs we've found and how we fixed them.\n..\n\nPyCon Australia is the national conference for users of the Python Programming Language. In August 2014, we're heading to Brisbane to bring together students, enthusiasts, and professionals with a love of Python from around Australia, and all around the World. \n\nAugust 1-5, Brisbane, Queensland, Australia"

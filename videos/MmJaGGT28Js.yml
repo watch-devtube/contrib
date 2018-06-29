@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - elixir
+    - ruby
+    - python
+    - java
+title: 'ElixirConf 2016 - Migrating an Invoicing System to Elixir/Erlang by Norberto Ortigoza'
+language: English
+recordingDate: 1476391490
+description: "Migrating an Invoicing System to Elixir/Erlang by Norberto Ortigoza\n\nElectronic invoices are a critical part for trade in Mexico. If invoices are not created and delivered in time, we can generate serious problems such as complete loss of cargo ships, representing millions of Mexican pesos in losses.\nWe had a legacy system developed in Java from 8 years ago. It had a lot of problems including:\nBig memory footprint (24 GB per server)\nA lot of servers in order to distribute load and isolate errors (15 servers)\nFrequently downtimes\nNo proper error handling and messages for troubleshooting\nNo statistics (they produced more load in the system)\nWe built a new system that resolve all these problems and provide a better foundation for future services. This is the backend that will be used in all the retail and online Apple Stores in Mexico. We wrote the backend in Erlang and Elixir, with additional micro-services in Python, C++ and Java for XML validation and PDF generation.\nIn this presentation I will talk about:\nHow we trained the team of java/ruby in Elixir/Erlang\nMetrics about the new system (from 15 to 4 servers, etc.)\nProblems we face\nHow to introduce Elixir/Erlang in a company with a lot of investment in Java"

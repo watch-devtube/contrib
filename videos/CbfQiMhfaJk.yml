@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+title: 'Projet Sparkube Transformer Apache Spark en cube OLAP (A. Chambille)'
+language: French
+recordingDate: 1525249594
+description: "Apache Spark est à l'origine une plateforme généraliste de traitement des données en batch. Mais aujourd'hui grâce au stockage des données en colonnes, la gestion de la mémoire off-heap, la génération de code et le push des prédicats, Spark a beaucoup en commun avec les grands systèmes OLAP optimisés pour l'analyse interactive.\n\nLe projet Sparkube vient d'être lancé pour explorer cette idée, une extension Spark pour exposer les datasets comme des cubes multidimensionnels, sans rien avoir à configurer, et sans déplacer les données. Cette nouvelle stack (qui incorpore le moteur MDX d'ActiveViam) permet à des utilisateurs métier d'analyser les données d'un datalake directement dans une Pivot Table Excel, ou dans Tableau, en déléguant les hiérarchies, les filtres et les agrégations au moteur Spark.\n\nPendant la conférence nous expliquerons en détail comment Sparkube marche et nous ferons tourner un prototype en live pour illustrer les analyses et les expériences utilisateur qui deviennent possibles. Nous terminerons sur une analyse des performances du moteur Spark sur ces workloads OLAP."

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - cloud
+    - containers
+    - kubernetes
+    - security
+title: 'K8SNIff - End-to-End Encryption Till the Pod [A] - Sebastian Scheele & Jason Murray, Loodse GmbH'
+recordingDate: 1491874303
+description: "K8SNIff - End-to-End Encryption Till the Pod [A] - Sebastian Scheele & Jason Murray, Loodse GmbH\n\nWhen running Kubernetes on Kubernetes, in order to ensure end-to-end encryption, we were confronted with the challenge to route TLS traffic directly to the pods. With one ingress only per cluster, that was not possible with the existing solutions. \n\nTo solve this problem, we created K8SNIff as an open source project on github: https://github.com/kubermatic/k8sniff. K8SNIff is a small ingress server that will accept incoming TLS connections, and parse TLS Client Hello messages for the SNI Extension. If one is found, K8Sniff will forward that connection to the pod.\n\nIn this talk, participants will learn how easy it is to implement your own logic on top of the Kubernetes API. Moreover, we will give practical examples for the use of K8SNIff.\n\nAbout Jason Murray\nJason Murray is a Senior Infrastructure Architect at Loodse. He has contributed to both Kubernetes and Container Linux, focusing on large scale bare metal deployments. Prior to joining Loodse, Jason worked as an Operations Engineer at Collins and was Head of Development at Contetto.\n\nAbout Sebastian Scheele\nSebastian Scheele is a co-founder of Loodse, a software company that has developed a solution for the management of multiple container clusters and provides consulting and training services in the area of cloud native strategies. He has been a major contributor to the development of K8SNIff. Prior to founding Loodse, Sebastian worked as a software developer for SAP. He holds a degree in Computer Science from the University of Applied Science and Arts of Dortmund."

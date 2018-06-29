@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - ruby
+title: 'Rocky Mountain Ruby 2015 - Safely Decomposing a Highly Available Rails App by Adam Forsyth'
+recordingDate: 1444061856
+description: 'The Braintree Payment Gateway dates to 2008, and was built as a "monorail" -- a monolithic rails application that does everything. Over time, outward-facing features had to be built into it rather than as separate services because identity management, authorization, and authentication were tightly coupled to the rest of the application. Last year, we decided to fix that. We built a new, modern Rails API app, and I''ll discuss the many differences from the old platform and why we decided to stick with rails. We also used some nontraditional methods such as running reads and writes through both applications to give us confidence in the new code and help us find missing test coverage. I''ll talk about what we learned, what went well and poorly, and how we eventually switched over and split the two applications'' databases without downtime.'

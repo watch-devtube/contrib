@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'LISA17 - Disaggregating the Network: Switching as a Service'
+language: English
+recordingDate: 1510787231
+description: "Nina Schiff, Facebook\n\nAt Facebook, we’ve traditionally focused on disaggregation through most of our systems. This has helped us to iterate faster, harden where needed and scale out our bottlenecks more easily. However, in the network, we have had very little control over the switching ecosystem, making us reliant on the timelines of other companies. Adaptability and customization are not typically what comes to mind when people think about network switches. Hardware is often proprietary, and if you're buying a vendor switch, you don't control the frequency or speed of new features or bug fixes. These constraints are inconvenient at best, particularly for large production environments. This led us to try something different - disaggregating the hardware components and software workflow, into Wedge and FBOSS respectively. We also moved to make our switches look significantly more like traditional servers. While this has brought new (and definitely interesting) challenges, it has also meant that we’ve been able to piggyback off advances in server management. This talk takes a look at this composite architecture within our production setting while examining the lessons we learnt along the way. It also highlights how having a server as a switch helps us iterate faster, provides a more reliable network and meets the scaling demands of Facebook’s ever-increasing traffic growth.\n\nView the full LISA17 program: https://www.usenix.org/lisa17/program"

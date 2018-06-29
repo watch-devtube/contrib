@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+title: 'LISA17 - Case Study: Deploying a Multi-Region, Highly Available MySQL Architecture'
+language: English
+recordingDate: 1510782152
+description: "Gabriel Ciciliani, OSDB Internal Principal Consultant at Pythian\n@gabocic\n\nA customer recently asked us to design a multi region database architecture that allows their application to read by default from a local database instance while writing on a single master region. It would also need an automated way to handle failures on any of the regional database instances by redirecting both, read and write traffic to an available region.\n\nIn this session we are going to go through the architecture designed to fulfill the above requirements, what technologies were considered and why ProxySQL was chosen.\n\nWe will also also discuss advantages and limitations of the proposed architecture while sharing a few lessons learned in the process.\n\nView the full LISA17 program: https://www.usenix.org/lisa17/program"

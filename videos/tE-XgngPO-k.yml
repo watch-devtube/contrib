@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Towards a HVM-like Dom0 for Xen reducing the OS burden while taking advantage of new hardware featu…'
+language: English
+recordingDate: 1520845432
+description: "Towards a HVM-like Dom0 for Xen reducing the OS burden while taking advantage of new hardware features\nby Roger Pau Monné\n\nAt: FOSDEM 2017\n\nXen is a hypervisor using a microkernel design that allows running multipleconcurrent operating systems on the same hardware. One of the key features ofXen is that it is OS agnostic, meaning that any OS (with proper support) canbe used as a host. Xen has a long history going back to the 90s when it wasdesigned and the early 2000s when it was released. As a consequence of this,many of the assumptions and virtualization techniques backed into it are nowsuperseeded by new hardware features, that make virtualization moretransparent from an OS point of view.\n\nThis talk provides an overview on the different kind of guests supported byXen and how these new hardware features are used in order to improve andevolve them. It also describes the design and implementation of a new guesttype, called PVHv2, and how it can be used as a control domain (Dom0).\n\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2017-02-04 17:45:00"

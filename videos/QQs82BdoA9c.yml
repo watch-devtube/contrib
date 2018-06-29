@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - web
+    - security
+    - testing
+title: 'Modern Fuzzing of Media-processing projects Keeping media processing secure and stable'
+language: English
+recordingDate: 1520511534
+description: "by Max Moroz\n\nAt: FOSDEM 2017\n\nThe talk gives an overview of fuzzing of media formats based on our experiencein Google Chrome. Besides those tips and tricks, we will also share how OpenMedia developers may join a recently announced OSS-Fuzz project to use apowerful (thousands of CPU cores) and automated fuzzing infrastructure forfree.\n\nIn this talk, we will be speaking about guided in-process approach to fuzzingof Media-processing projects. We will explain advantages of continuous fuzzingusing libFuzzer fuzzing engine, different memory tools such asAddressSanitizer and others fuzzing engines as well.\n\nMedia processing is always a complex thing. An appropriate and fine-tuned fuzztesting is a great way to uncover lots of security and stability issues. Justremember [Stagefright](https://en.wikipedia.org/wiki/Stagefright_%28bug%29) or[FFmpeg and a thousand fixes](https://security.googleblog.com/2014/01/ffmpeg-and-thousand-fixes.html), for example.\n\nAt the end of the talk, we will share success stories of libFuzzer applicationfor fuzzing of Media processing in Chromium browser and other projects.\n\nAlso we will present OSS-Fuzz project aimed to help Open Source Software tohave continuous fuzzing at scale.\n\nThe talk is meant for C/C++ developers and test engineers working on Media-processing projects. After the talk, attendees will be able to writelibFuzzer-based fuzzers, will know how to analyze performance of theirfuzzers, how to improve them, and, finally, will be able to increase testcoverage of their projects by adding of continuous fuzz testing.\n\n\nRoom: K.3.401\nScheduled start: 2017-02-05 14:00:00"

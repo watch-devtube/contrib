@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - docker
+    - architecture
+    - python
+    - javascript
+    - scala
+    - functional
+title: 'Matthew Conlen: Lightning Web First Data Visualization in Python'
+recordingDate: 1449251041
+description: "PyData NYC 2015\n\nThe Lightning data visualization server provides access to modern interactive data visualizations on the web from within Python. The visualizations are available within notebook environments (e.g. Jupyter), support streaming updates, and allow user interactions in the browser to trigger updates and callbacks within python. Users can remix and share their own custom visualization templates.\n\nThe Lightning data visualization server provides access to modern interactive data visualizations on the web from within a Python client (clients are also available for other languages, including R, Scala, and JavaScript). By using a client-server architecture, Lightning cleanly separates the logic of visualization from the logic of analysis, allowing users to create more powerful and responsive visualizations. The visualizations are available within notebook environments (e.g. Jupyter), support streaming updates, and allow user interactions in the browser to trigger updates and callbacks within python.\n\nEvery Lightning visualization is a self contained JavaScript module that is available on GitHub and hosted on npm; this structure facilitates the customization, remixing, and sharing of user created visualizations. These visualizations can work with almost any third party javascript library (such as D3, leaflet, or three.js), and the same visualization can be exposed to many languages, including Python, as well as R, Scala, and JavaScript.\n\nLightning also supports visualization of large data sets. The library makes extensive use of canvas to increase rendering performance, and can also conditionally load portions of data sets into the browser based on user interactions. By taking advantage of callbacks in Python, these interactions can also be used to trigger further data processing.\n\nThere are many ways to get started, including an OSX app, docker image, and free-for-anyone-to-use server hosted at http://public.lightning-viz.com. The python client is pure Python, installable via pip, and can be used in a “headless” mode — without a backing server — for quick usage or performance optimization"

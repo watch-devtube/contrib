@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - testing
+title: 'DEF CON 25 - Ilja van Sprundel - Are all BSDs are created equally? A survey of BSD kerne'
+language: English
+recordingDate: 1509660000
+description: "In this presentation I start off asking the question \"How come there are only a handful of BSD security kernel bugs advisories released every year?\" and then proceed to try and look at some data from several sources. It should come as no surprise that those sources are fairly limited and somewhat outdated. \n\nThe presentation then moves on to try and collect some data ourselves. This is done by actively investigating and auditing. Code review, fuzzing, runtime testing on all 3 major BSD distributions [NetBSD/OpenBSD/FreeBSD]. This is done by first investigating what would be good places where the bugs might be. Once determined, a detailed review is performed of these places. Samples and demos will be shown. \n\nI end the presentation with some results and conclusions. I will list what the outcome was in terms of bugs found, and who -based on the data I now have- among the 3 main BSD distributions can be seen as the clear winner and loser. I will go into detail about the code quality observed and give some pointers on how to improve some code. Lastly I will try and answer the question I set out to answer (\"How come there are only a handful of BSD security kernel bugs advisories released every year?\")."

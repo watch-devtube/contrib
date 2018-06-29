@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+    - performance
+    - architecture
+title: 'High performance and scaling techniques in Golang using Go Assembly'
+language: English
+recordingDate: 1520770000
+description: "by Frank Wessels\n\nAt: FOSDEM 2017\n\nIn this presentation we present some optimizations we have developed for theMinio object server. To maximize hashing performances for bit-rot protectionwe have exploited the Go Assembly capabilities to natively optimizing BLAKE2and SHA2 techniques for both Intel and ARM platforms. In addition we willpresent a distributed locking package to aid with scaling a single serversolution into a multi server solution.\n\nIn this presentation we would like to focus on a couple of developments thatwe have done for the Minio object server in terms of performance improvementsand scaling techniques.\n\nRegarding hashing we have developed Go packages for two hashing algorithms(BLAKE2 and SHA256) that take advantage of the Golang (or Plan9) assemblycapabilities. These packages exploit SIMD instructions of Intel and theCryptography Extensions for the ARM platform. The speed up range from 3 to 4times (Intel) to 100X (on ARM). Due to the use of Golang assembly there is noneed for a C-compiler in order to use these packages (when compiling fromscratch). For the Intel platform SSE, AVX, and AVX2 specific version areavailable and the most performant architecture is automatically chosen.\n\nIn addition we have developed a distributed locking and syncing package forGo. Its main features are: \\- Simple design for avoiding many tricky edgecases \\- No need for a master node \\- Resilient so other nodes are notaffected when a node goes down \\- Drop-in replacement for sync.RWMutex-Automatically reconnect to (restarted) nodes \\- Limited scalability of up to16 nodes\n\nWe are successfully using this package for the Distributed version of theMinio Object Server\n\n\nRoom: H.1302 (Depage)\nScheduled start: 2017-02-05 10:45:00"

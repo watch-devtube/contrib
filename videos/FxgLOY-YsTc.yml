@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - testing
+    - python
+title: 'Stephan Jaensch - Fixture factories for faster end-to-end tests'
+language: English
+recordingDate: 1508615440
+description: "\"Fixture factories for faster end-to-end tests\n[EuroPython 2017 - Talk - 2017-07-13 - Anfiteatro 2]\n[Rimini, Italy]\n\nWhen developing and maintaining many different services, unit testing is not enough to make sure your code works in production. By now, many teams doing SOA (service-oriented architectures) have a set of end-to-end tests that cover critical workflows to make sure these work. For these tests, all of the utilized services need to have the proper test fixture data in their datastores. This often leads to developers having to deal with raw datastore data (like JSON or SQL) for these tests, making the authoring of those tests very slow, tedious, and error-prone.\n\nThis talk is going to discuss several approaches we tried at Yelp to generating these fixture data in a quicker, developer-friendly and more correct way. \n\nThe main part of the talk will be a deep-dive into what fixture factories are, how to implement them and how to integrate them with pytest, the leading Python testing framework. I'll show you several other benefits this approach has over writing raw fixture data and how this leads to more maintainable and easier to adapt code. We'll also explore how you can then run your tests in parallel, cutting down runtime drastically.\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2017.europython.eu/en/speaker-release-agreement/"

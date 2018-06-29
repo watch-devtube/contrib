@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Valgrind, the anti-Alzheimer pill for your memory problems'
+language: English
+recordingDate: 1520882519
+description: "by Philippe Waroquiers\n\nAt: FOSDEM 2017\n\nValgrind and its different tools are providing a rich set of functionality totrack memory problems such as dangling pointers, memory leaks, raceconditions, etc.\n\nIn this talk, we will describe some old and new features that help tounderstand what happens in your application. Among others, we will give a demoand/or discuss:\n\n  * how to use valgrind with your application specific memory pool\n\n  * how to (interactively) ask Valgrind to describe a piece of memory\n\n  * some heuristics used by Valgrind to reduce the number of 'possibly lost' leaks with C++ code\n\n  * ...\n\nWe will discuss more in detail the concept of execution trees, which will beavailable in the next Valgrind release. An execution tree associates stacktraces of your program with some data. Execution trees allow Memcheck andHelgrind to provide a memory profile of your application. We will show howsuch an execution tree memory profile can be visualised using tools such asMassif visualiser or kcachegrind.\n\n\nRoom: UD2.119 (Moved from AW1.124)\nScheduled start: 2017-02-04 11:30:00"

@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+    - kotlin
+    - java
+    - .net
+title: 'The bytecode gobbledygook by Raimon Ràfols, AXA EN'
+recordingDate: 1529097076
+description: "This session was given at Paris Android Makers 2018 by Raimon Ràfols, AXA.\n\nMore info: http://androidmakers.fr/schedule/#session-7\nSlides link: https://www.slideshare.net/RaimonRls/the-bytecode-gobbledygook\n\nWe know one of the main characteristics of Java is portability, and that usually means it is not as efficient as it should be. That might be the reason Java has never been associated with high performance, but nowadays there are a lot of Java powered devices in the world and lots of people are building applications for them.\n\nCompilers that produce native machine code do a great optimization job because they know where the code is going to be executed. But because of the portability feature, the Java Compiler could not assume anything about where our program is going to run and leaves all the optimizations to be done by the JVM while loading or, even, running our code. This has been the case until Google introduced Jack and Jill compilers, but now that has already deprecated them in favour of Java 8 tooling and introducing the new D8 compiler, will this assumption still be true? Also, with the recent addition of Kotlin, there is another language that generates bytecode. How will it perform compared with plain Java code?\n\nIn this session, you will not only learn what to avoid when looking for critical performance, you’ll also get a bigger understanding of how the java compiler works\n\n Alex Karp Production"

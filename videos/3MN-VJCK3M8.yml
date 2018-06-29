@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - aws
+    - security
+    - architecture
+title: 'SREcon18 Americas - SparkPost: The Day the DNS Died'
+language: English
+recordingDate: 1525124553
+description: "Jeremy Blosser, SparkPost\n\nMore than 25% of the world's non-spam email is sent using SparkPost's technology, and our cloud service sends nearly 15 billion messages per month. Running this service in the cloud has provided all the expected benefits of flexibility and scalability, but also unique challenges due to email's inherent nature as a highly stateful, push-oriented service. To support our use case, our service and network utilization models are similarly atypical.\n\nOur DNS needs are particularly extreme. Our infrastructure currently has to support 8,000 DNS queries per second. Two major DNS-related events in early 2017 caused significant delays for our customers and sent us back to the drawing board once again. We recently completed a ground-up DNS tier redesign that includes dedicated VPCs with optimized security groups and ACLs, distribution across tiers and availability zones, resolver tuning and custom configurations, and multiple local caching resolvers per instance.\n\nIn this talk, we will discuss our history addressing this challenge, the limitations discovered in our previous approaches, and our current architecture's design and results. Attendees will gain an understanding of what it takes to host a robust DNS service in AWS at a scale beyond what is currently natively supported by AWS' resolver services.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DEF CON 25 -  Elie Bursztein - How We Created the First SHA 1 Collision'
+language: English
+recordingDate: 1502134962
+description: "In this talk, we recount how we found the first SHA-1 collision. We delve into the challenges we faced from developing a meaningful payload, to scaling the computation to that massive scale, to solving unexpected cryptanalytic challenges that occurred during this endeavor.\n\nWe discuss the aftermath of the release including the positive changes it brought and its unforeseen consequences. For example it was discovered that SVN is vulnerable to SHA-1 collision attacks only after the WebKit SVN repository was brought down by the commit of a unit-test aimed at verifying that Webkit is immune to collision attacks. \n\nBuilding on the Github and Gmail examples we explain how to use counter-cryptanalysis to mitigate the risk of a collision attacks against software that has yet to move away from SHA-1. Finally we look at the next generation of hash functions and what the future of hash security holds."

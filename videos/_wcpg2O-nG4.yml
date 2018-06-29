@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: '(Ab)using Google''s Chromium-EC firmware for your own designs Building Franken-Chromebook-devices'
+language: English
+recordingDate: 1521326989
+description: "by Moritz Fischer\n\nAt: FOSDEM 2017\n\nGoogle’s chromebooks and routers use off the shelf Microcontrollers (MCU) todo power sequencing, fan control, PWM and other hardware control tasks onetypically encounters in embedded systems. Interestingly enough the firmware isavailable under (3 clause) BSD license and thus open for hacking, abusing andmodifying to your needs.\n\nWe’ll look at a bunch of MCU options and eval boards to get started with,their availability and pricing in low quantities as well as ways to hook themup to your embedded platform. Moreover we’ll look at hardware levelrequirements your SoC / board will have to provide in order to make it allwork.\n\nWe’ll cover existing driver / software support in upstream Linux and U-Boot,as well as parts that are or were missing.\n\nTypical tasks of an embedded controller for a chromebook or random otherdevices like mine - which is everything but a laptop - will be discussed.Topics covered will include boot selection, firmware upgrades, watchdog timersand others.\n\nFinally I’ll share my experiences building a real world Zynq based systemusing chromium-ec on an STM32 MCU and my experiences adapting the software tomy needs and interacting with the community. Examples include replacing thecoreboot bootflow with U-Boot, creating device drivers for things like buttonsand issues encountered in making things work.\n\n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2017-02-04 10:00:00"

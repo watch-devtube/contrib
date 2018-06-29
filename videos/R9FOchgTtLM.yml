@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - craftsmanship
+    - tdd
+    - agile
+    - ruby
+    - java
+title: 'Why You Don''t Get Mock Objects  by Gregory Moeck'
+recordingDate: 1319582792
+description: 'Although the Ruby community has embraced TDD like no other community ever has, we have always looked at mock objects with disdain, and perhaps even a little hatred. I''ve heard conference speakers call them "Wastes of time", "Scams", and even "Testing Heresies". Why would anyone have ever developed these pieces of junk? In reality though many in the agile community have embraced mock objects within their testing cycles because they have found using these fake objects improves the design of their systems. But why not Rubyists? Most Rubyists don''t get mock objects because they don''t understand their history or their creators intent. They try to fit them into their current workflow without understanding them, and find them unhelpful and stupid. After all, almost all of the good literature on the subject is written in Java, and we know how frustrating it is to read Java when your used to Ruby. As such, this talk will attempt to demonstrate in Ruby the usefulness of mock objects, and how to use them to improve the design of your system. Specifically the following will be covered: * Why do we need mock objects (Following the ''Tell, Don''t Ask Principle'') * Why you should only mock objects you own * Why you shouldn''t use mocks to test boundary objects like external API calls * Why you should mock roles, not Objects * Why you should only mock your immediate neighbors * Why listening to your unit tests will tell you about design problems in your code'

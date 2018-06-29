@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'Infrastructure Monitoring with Postgres'
+language: English
+recordingDate: 1520845089
+description: "by Steven Simpson\n\nAt: FOSDEM 2017\n\nThe revolt against SQL continues at a steady but considerably slower pace.Bespoke database software seems to crop up daily in the name of performance orfunctionality. This talk will examine the ever growing field of monitoringsystems and their respective databases, and look in depth as to how Postgrescan be used in a number of these places. Systems of this nature are typicallytasked with collecting and storing metrics from your infrastructure, drawingpretty graphs, and nagging you when things break.\n\nForms of data stored by these systems are nothing to be afraid of - they ofteninclude: \\- Time series metrics - the history of a measurement over time, e.g.temperatures \\- Logs - unstructured text emitted by applications, operatingsystems and hardware \\- Events - schema-less but well structured notifications\n\nAn assertion of this talk is that for a majority of use cases, Postgres ismore than capable of storing all of this data. We will attempt to replacenumerous well known pieces of software with just one Postgres database. Ofcourse we are told to use the right tool for the job, but having to learn andoperate a single tool is a huge operational advantage.\n\nWe’ll get quite technical in this talk, take a look the data models and accesspatterns required, and how this can be fitted into the general purposeenvironment of Postgres. Additionally, it is always constructive to look atwhat can be problematic, and not just focus on the positives, and why manyturn to other bespoke solutions.\n\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2017-02-05 14:00:00"

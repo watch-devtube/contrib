@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+    - security
+    - architecture
+title: 'Golang UK Conference 2016 - Slawosz Slawinski - What every developer should know about logging'
+recordingDate: 1473278871
+description: "Go is one of the most popular languages to write applications structured into (micro)services, which gives developers lot of freedom, fun and possibilities to explore new solutions. Such applications are harder to debug on production than normal, monolithic applications, due to many services involved during single operation (eg. http request). Proper logging is a good way to overcome this problem. \n\nFirst, I will answer why we need logs - to understand what application is doing on production and how is used. This information are crucial for debugging and continuous improvements.\n\nThen, I will cover popular golang logs libraries: standard library log package and glog. After such introduction I will cover implementations of more advanced logging implemented in open source microservices library go-kit.\n\nI want to cover also more topics: log sampling in high traffic deployments, log tricks like switching log level in production systems, log infrastructure elements such as log forwarders, log readers and log storage. I also will cover security risks when logs are not properly anonymized.\n\nI am convinced that this presentation will help developers to write logs that makes theirs job more enjoyable and less stressful."

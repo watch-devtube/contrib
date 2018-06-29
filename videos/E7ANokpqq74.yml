@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+title: 'NSDI ''18 - LHD: Improving Cache Hit Rate by Maximizing Hit Density'
+language: English
+recordingDate: 1525814497
+description: "Asaf Cidon, Stanford University and Barracuda Networks\n\nCloud application performance is heavily reliant on the hit rate of datacenter key-value caches. Key-value caches typically use least recently used (LRU) as their eviction policy, but LRU’s hit rate is far from optimal under real workloads. Prior research has proposed many eviction policies that improve on LRU, but these policies make restrictive assumptions that hurt their hit rate, and they can be difficult to implement efficiently.\n\nWe introduce least hit density (LHD), a novel eviction policy for key-value caches. LHD predicts each object’s expected hits-per-space-consumed (hit density), filtering objects that contribute little to the cache’s hit rate. Unlike prior eviction policies, LHD does not rely on heuristics, but rather rigorously models objects’ behavior using conditional probability to adapt its behavior in real time.\n\nTo make LHD practical, we design and implement RankCache, an efficient key-value cache based on memcached. We evaluate RankCache and LHD on commercial memcached and enterprise storage traces, where LHD consistently achieves better hit rates than prior policies. LHD requires much less space than prior policies to match their hit rate, on average 8x less than LRU and 2–3x less than recently proposed policies. Moreover, RankCache requires no synchronization in the common case, improving request throughput at 16 threads by 8x over LRU and by 2x over CLOCK.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"

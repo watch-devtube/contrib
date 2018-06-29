@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - heroku
+    - heroku
+    - ruby
+title: 'RubyConf 2014 - Incremental GC for Ruby interpreter by Koichi Sasada'
+recordingDate: 1419007945
+description: "In this presentation, I will talk about incremental GC algorithm for Ruby interpreter.\n\nRuby 2.1 has Generational GC algorithm, which improves GC performance dramatically. However, long application pause time problem on major GC is not solved.\n\nTo overcome this problem, we Matz team at Heroku, Inc. implemented a well-known incremental GC algorithm into MRI/CRuby interpreter to reduce application pause time without any compatibility issues, with our \"write-barrier-unprotected\" objects technique. In this talk, I will explain the algorihtnm, implementation and evaluation results about new GC.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FqJd/"

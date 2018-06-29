@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+title: 'Open source behind a web request explaining a web request through open source software'
+language: English
+recordingDate: 1520691362
+description: "by Willian Molinari (PotHix)\n\nAt: FOSDEM 2017\n\nIn this talk, we will go through an end-to-end web request. Based on an opensource web application deployed in a hosting company, we will analyze manyopen source software that composes a web request.\n\nUsing Chromium as the user browser, we will understand what it does when a URLis typed and how it resolves the domain. DNS and UDP protocols will beexplained in order to get the server IP. The IP received from DNS will be usedto create a TCP connection to the server and we will understand how the three-way handshake works for that matter. Instead of using only the HTTP protocol,this connection will use HTTPS and we will analyze the TLS handshake as well.\n\nFrom the user local network to the hosting server, there are many routes tofollow and we will analyze some of them. Getting to the server we willunderstand how the web server receives the request and forward to the webapplication. Web application talks to the web framework and your applicationthat creates the HTML response. Everything will be assembled and return to theweb browser that will process and render everything.\n\nThroughout the entire process, we will point to open source code wheneverpossible.\n\n## Audience\n\nEveryone that knows a little bit about internet and has done some developmentfor the it\n\n\nRoom: K.4.401\nScheduled start: 2017-02-05 14:45:00"

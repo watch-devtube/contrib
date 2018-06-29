@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+    - functional
+title: 'Lazy Java (M. Fusco)'
+language: English
+recordingDate: 1525249333
+description: 'Like all imperative languages Java is, with some minor but notable exceptions, an eagerly evaluated programming language. Nevertheless the introduction of lambdas in Java 8 also allowed the adoption of some lazy patterns and data structures that are more typically employed in functional languages. Streams represent the most evident example of how also native Java API has taken advantage of laziness, but there is a number of other interesting scenarios where laziness can be an effective solution to quite common problems. In fact laziness is the only possible technique to process potentially infinite amount of data, or more in general to delay the expensive evaluation of an expression only when and if it is necessary. But laziness is even more than that: for instance the reader monad delays not only a computation but also the need of external dependencies thus lowering the abuse of dependency injection, while a trampoline uses laziness to delay and then linearize recursive calls preventing the overflow of the stack. The purpose of this talk is illustrating why and how implementing laziness in Java with practical examples delivered with both slides and live coding sessions.'
