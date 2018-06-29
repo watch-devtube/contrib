@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'Optimizing MySQL without SQL or touching my.cnf'
+language: English
+recordingDate: 1520844743
+description: "by Maxim Bublis\n\nAt: FOSDEM 2017\n\nAt Dropbox, with 1000s of machines running MySQL, performance is important.Among other things, out team is responsible for our MySQL servers being tunedwell. In this talk, we will talk about the performance impact of“environmental” MySQL tuning, where the tuning is neither at the SQL level(like creating indexes or using different table structures), nor with settingMySQL parameters (tuning parameters like innodb _buffer_ pool _size or innodb_log _file_ size even more obscure ones like innodb _lru_ scan_depth). Instead,in the talk we will cover the following areas (we won’t limit the talk tothese):\n\n  * Operating system level tuning opportunities  * Compiling MySQL: does it worth to build your own from the performance perspective?  * Building MySQL with different compilers  * Building MySQL with profile-guided optimization  * Impact of using different memory allocators  * CPU and memory affinity with running multiple instances\n\nThe experiments we conducted here helped us to make more educated decisionsabout how to run MySQL at Dropbox.\n\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2017-02-04 09:40:00"

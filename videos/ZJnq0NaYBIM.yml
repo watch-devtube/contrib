@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'SREcon18 Americas - Automatic Metric Screening for Service Diagnosis'
+language: English
+recordingDate: 1525124554
+description: "Yu Chen, Baidu\n\nWhen a service is experiencing an incident, the oncall engineers need to quickly identify the root cause in order to stop the loss as soon as possible. The procedure of diagnosis usually consists of examining a bunch of metrics, and heavily depends on the engineers’ knowledge and experience. As the scale and complexity of the services grow, there could be hundreds or even thousands of metrics to investigate and the procedure becomes more and more tedious and error-prone.\n\nWhile hard to humans, algorithms are good at performing such repetitive work efficiently and precisely. In this talk, we will introduce an automatic screening approach on service metrics, including system performance indicators and user-defined metrics. An anomaly detection algorithm filters out the normal metrics and creates the machine/instance level abnormal patterns. The abnormal patterns are then clustered into groups. At last the groups are ranked according to their abnormal level. The top groups, together with their abnormal metrics, are presented to the engineers as a recommendation. Our experience on real cases shows that the top 3 groups can cover most of the root cause modules and reveal important information to understand the reason of the corresponding incident.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+title: 'SREcon17 Europe/Middle East/Africa - Traffic Steering using Rum DNS @ LinkedIn'
+language: English
+recordingDate: 1505775819
+description: "Abhijeet Rastogi, LinkedIn\n\nDo you serve customers across the world with varying network conditions? Do you struggle with automatically sending your users away from an unavailable POP/DC to the next best one? Wouldn’t it be great if you magically knew about the regional issues related to last mile connectivity from the users?\n\nLinkedIn uses real user measurements backed by triple-vendor DNS. These measurements are collected from members’ browsers to gain insight into our performance from every last mile. We then leverage Big Data to send members to closest edges in real-time and deliver fast member experience.\n\nLinkedIn members from Mumbai visiting LinkedIn will be sent to our Mumbai POP using member’s geolocation. If the POP is unreachable, member browsers elsewhere will report this to our RUM backend and our DNS will learn to stop resolving to the unreachable POP - all within a matter of a few seconds.\n\nAttendees will learn about:\n\nWeb Performance: CDNs, POPs, RUM steering\nMulti-vendor strategy for redundancy & performance\nTools for cross-vendor consistency, vendor fail-out, global site monitoring & status boards\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

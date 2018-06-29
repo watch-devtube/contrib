@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'Speeding Up Analytical Queries in MariaDB CTE''s and Window Functions Highlight'
+language: English
+recordingDate: 1520844726
+description: "by Vicentiu Ciorbaru\n\nAt: FOSDEM 2017\n\nWindow functions are an important tool for analytical queries. Windowfunctions act as regular functions but have access to more than one row duringcomputation. This makes them highly useful for optimising queries involvingself-joins, as well as queries that need to extract data from multiple relatedrows from the same table. The performance speedups obtained are sometimes 100fold. This talk will explain how that is possible, as well as use cases forwindow functions.\n\nOn top of that, window functions pair well with another feature that MariaDB10.2 has introduced - Common Table Expressions. This feature was contributedby a community member and helps make queries more maintainable and sometimesfaster. This feature will be covered, mostly through the use of windowfunctions, but also introduce new use cases.\n\nThe agenda for the talk is:\n\n  * What are CTEs  * What are window functions  * Solving problems with regular SQL and window functions  * Smoothing data  * Top-N Queries  * Difference between consecutive rows\n\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2017-02-04 14:35:00"
