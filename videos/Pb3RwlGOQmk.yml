@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Ingest node réindexer et enrichir des documents dans Elasticsearch (David Pilato)'
+language: French
+recordingDate: 1493054126
+description: "Lorsque vous injectez des données dans elasticsearch, vous pouvez avoir besoin de réaliser des opérations de transformation assez simples. Jusqu'à présent, ces opérations devaient s'effectuer en dehors d'elasticsearch, avant l'indexation proprement dite.\n\nSouhaitez la bienvenue à Ingest node ! Un nouveau type de noeud qui vous permet justement de faire cela.\n\nCe talk explique le concept de Ingest Node, comment l'intégrer avec le reste de la suite logicielle Elastic et comment développer son propre plugin Ingest par la pratique en montrant comment j'ai développé le plugin ingest-bano pour enrichir des adresses postales et/ou des coordonnées géographiques françaises (pour l'instant).\n\nCe talk parlera également de l'API de réindexation qui peut également bénéficier du pipeline d'ingestion pour modifier vos données à la volée lors de la réindexation. Notamment, comment relire vos données existantes et les enrichir grace à ingest-bano."
