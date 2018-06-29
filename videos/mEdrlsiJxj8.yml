@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - javascript
+title: '''method_missing'' Should be Missing by Matthew Kirk'
+recordingDate: 1337528271
+description: "Meta programming can be disastrous. While it is cleaner in many cases, it must be used with prudence. This talk will cover the issues that arise from irresponsible meta-programming like overuse of method_missing, \"\"monkey patching\"\", and eval.\n\n'method_missing' can be used to create methods on the fly. What people don't realize is that method_missing is called when you typed in an error, and you may define error handling code for this. While it may be easy to create dynamic methods this way, those methods are never actually defined and therefore cannot be documented properly. Instead I will explain the use of define_method which is much more suitable in 80% of cases.\n\nMonkey Patching, or adding methods to an existing class, is also dangerous. Being able to override functions like \"\"freeze\"\" is extremely dangerous. Instead I suggest a better way of overriding methods on single objects instead of classes.\n\nEval which is also prevalent in javascript is a major offender. Being able to say eval(\"\"@#{variable}\"\") in most cases is due to someone not reading the existing methods out there. Eval also decreases performance substantially. We will look at some bad examples of eval and why you should never use this.\n\nJoin me on a meta-programming safari where we will learn responsible meta-programming"
