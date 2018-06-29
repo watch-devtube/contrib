@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - performance
+    - java
+title: 'Devoxx Poland 2016 - Simon Ritter - Faster Java By Adding Structs (Sort Of)'
+language: English
+recordingDate: 1468513883
+description: "The ObjectLayout package provides a set of data structure classes designed with optimised memory layout in mind. In languages like C and C++, the use of structs and explicit pointers can deliver high performance for data access through hardware optimisations for caching and pre-fetching. Java's use of implicit pointers, mutable arrays and general inheritance forces the use of reference lookups whenever an object needs to be accessed.\n\nThis session will look at the ObjectLayout package (www.objectlayout.org), which provides a new set of APIs that are aimed at matching the natural speed benefits similar data structure constructs enable in most C-style languages while maintaining an idiomatic Java feel and a natural fit with existing code and libraries.\n\nThe session will talk through the need for these APIs then describe how they work in practice. We'll also look at how the JVM can further optimise the implementation of the API by making this intrinsic."

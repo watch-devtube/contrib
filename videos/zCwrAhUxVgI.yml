@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - performance
+title: 'GeeCON 2017: Avishai Ish-Shalom - Actionable Exceptions'
+recordingDate: 1502695041
+description: 'So that exception I see in the logs 3000 times is a ''normal exception''? sounds legit. Repeat after me: A Normal Exception is Not. Exception raising/handling is a popular and ingrained mechanism for dealing with faults. Unfortunately, this mechanism is not without issues: confusing control flow, performance problems, ignored faults and bugs that are very hard to understand. But moreover, exception handling is abused; Even in languages with checked exceptions, studies consistently find that the majority of exceptions are ignored, swallowed or handled by a default snippet. It''s not uncommon to see elaborate machine learning systems crunching terrabytes of logs to filter out hordes of meaningless exception messages thrown from our code. We can do better. This talk introduces a guiding principle for proper exception handling: ''Actionable Excpetions'''
