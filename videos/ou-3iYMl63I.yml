@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - javascript
+title: 'jQuery Conference SF 2012 Plugin Unit Testing - Get around the event loop by John K Paul'
+recordingDate: 1346187328
+description: "For many front end developers, including me, a jQuery plugin was their first repository on GitHub. Reading that code again, I found many bugs and I am very grateful that no one ever used it in production. At the time, I was completely confident about my code working as I intended it to, but I never stopped to think twice about why I felt that way. Since then, the most significant tool that I have picked up is unit testing and the biggest hindrance in learning how to unit test has consistently been the event loop. For example, how do I ensure that particular code paths are followed when an element is clicked, double clicked, or if the window has scrolled into a particular state.\n\nMost unit testing examples focus on very straightforward imperative tests. I have seen many explanations of JavaScript unit testing that describe how to verify the logic behind a calculator or a form validation library, but not how to test a more complex, event-triggered interaction. In this talk, I will address how to begin unit testing jQuery plugins, and how to avoid common pitfalls when dealing with asynchronous, or event handling code. Most importantly, I will explain how to deal with verifying that code is executed when native browser events fire."
