@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - devops
+    - containers
+    - kubernetes
+title: 'Lightning Talk: Flexible Logging Pipelines with Fluentd and Kubernetes - Jakob Karalus, codecentric'
+recordingDate: 1491518771
+description: "Lightning Talk: Flexible Logging Pipelines with Fluentd and Kubernetes - Jakob Karalus, codecentric\n\nLog forwarding from containers in kubernetes with fluentd works like a charm. But most applications require more than just forwarding, various applications require different parsing patterns, outputs, formats etc. Managing these in a large multi tenant cluster can be challenging and usually require an additional shared forwarding/parsing infrastructure. Otherwise manual configuration changes by a cluster operator are needed. Both ways can be problematic when many different teams share the same cluster.\n\nIn this Lighting Talk attendees will learn how to leverage the tools to automatically load specifications/grok patterns from kubernetes at runtime. This leads developers to define those on their own in their pod definition without the existence of a cluster operator or an extra infrastructure. Because of this new possibility the developer gains more flexibility in his application without the necessity to coordinate with cluster operators or other teams.\n\nAbout Jakob Karalus\nJakob is a IT-Consultant at codecentric focussing on DevOps. His main interest is to play with exciting and evolving technologies around orchestration and automation. Currently he helps a large Enterprise as a cluster operator at running a multi tenant kubernetes cluster with supporting infrastructure like logging and monitoring."
