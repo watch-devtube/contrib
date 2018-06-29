@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+    - ruby
+title: 'SREcon17 Europe/Middle East/Africa - Building an On-Premise Kubernetes...'
+language: English
+recordingDate: 1505775813
+description: "Building an On-Premise Kubernetes Cluster For a Large Web Application\n\nDaniel Turner, Shopify\n\nRecently, Shopify began migrating from our custom container management system to Kubernetes. This switch will makes us more efficient at running our large Rails monolith, as well as the current and future microservices that run alongside. The first step in migrating was building a cluster using our own hardware. Running Kubernetes on-premise requires building services that cloud providers hide from their customers: Etcd, high-availability master nodes, scalable networking, Ingress, and persistent storage. We believe that understanding the challenges and tradeoffs in providing these services is beneficial to not only those who run their own cluster, but also to those who use cloud providers.\n\nBeyond building the cluster, we also had to modify our core application and tooling to fit Kubernetes’ container-centric framework. We expect that most applications currently on homegrown deployment systems will have to similarly overcome host-based assumptions. In our case: unbounded jobs, hard coded assumptions about hosts, and services exposed to external monitoring tools via global DNS.\n\nAttendees will leave this talk equipped to decide if running their own Kubernetes cluster is right for them and how to make the shift as successful as possible.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - performance
+    - java
+title: 'LISA17 - Fast and Safe Production Monitoring of JVM Applications with BPF Magic'
+language: English
+recordingDate: 1510784525
+description: "Sasha Goldshtein, Sela Group\n@goldshtn\n \nAll of us have seen these evasive performance issues or production bugs in the field, which standard monitoring tools don't see or catch. BPF is a Linux kernel technology that enables fast, safe, dynamic tracing of a running system without any preparation or instrumentation in advance. The JVM itself has a myriad of insertion points for tracing garbage collections, object allocations, JNI calls, and even method calls with extended probes. When the JVM tracepoints don't cut it, the Linux kernel and libraries allow tracing system calls, network packets, scheduler events, off-CPU time, time blocked on disk accesses, and even database queries. In this talk, we will see a holistic set of BPF-based tools for monitoring JVM applications on Linux, and revisit a systems performance checklist that includes classics like fileslower, opensnoop, and strace—all based on the non-invasive, fast, and safe BPF technology.\n\nView the full LISA17 program: https://www.usenix.org/lisa17/program"
