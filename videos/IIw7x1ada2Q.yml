@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'LuaJIT for AArch64 and MIPS64 platforms Improvements and the status'
+language: English
+recordingDate: 1520511132
+description: "by Djordje Kovacevic and Stefan Pejic\n\nAt: FOSDEM 2017\n\nIn this talk, we will present the latest improvements done for ARM64 andMIPS64 platforms in LuaJIT. The talk will cover challenges related to new GC64mode, as well as arch-specific issues.\n\nUp to recently, the only 64-bit architecture that LuaJIT supported was x86_64and in the latest official release it had limits with addressable memory. Inthe meantime, new GC64 mode was finished which enabled LuaJIT to address47-bit address space. ARM64 and MIPS64 ports were done on the top of the newGC64 mode. We will discuss the current status of these ports and point outsome pending issues that could cause problems in today's software that usesLuaJIT. The talk will also be useful to those interested to port LuaJIT toanother architecture.\n\n\nRoom: K.3.201\nScheduled start: 2017-02-04 12:25:00"
