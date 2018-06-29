@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Weave Cortex: Horizontally Scalable, Multitenant Prometheus as a Service by Tom Wilkie, Weaveworks'
+recordingDate: 1479335596
+description: "Weave Cortex: Horizontally Scalable, Multitenant Prometheus as a Service - Tom Wilkie, Weaveworks\n\n\"In this talk we'll present Weave Cortex - a multitenant, horizontally scalable Prometheus as a service.\n\nOur solution turns a lot of the Prometheus architectural assumptions on its head, by marrying a scale-out PromQL query engine with a storage layer based on DynamoDB and S3. We have disaggregated the Prometheus binary into a microservices-style architecture, with separate services for query, ingest, alerting rules and recording rules. By designing all these services as fungible replicas, this solution can be scaled out with ease and failure of any individual replica can be dealt with gracefully.\"\n\nAbout"
