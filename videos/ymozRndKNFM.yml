@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - php
+    - startup
+    - security
+    - testing
+    - ruby
+    - python
+    - java
+title: 'SQLViking: Pillaging your Data - Jonn Callahan & Ken Toler - OWASP AppSec California 2015'
+language: English
+recordingDate: 1430881727
+description: "AppSec California 2015 - Day 2, Track 2, Slot 4\n\nTitle\n\nSQLViking: Pillaging your Data\n\nAbstract\n\nOn every network there are is a set of highly desired assets which every pentester strives to compromise. One of those assets are databases which house sensitive information. The default settings of most databases are to communicate over unencrypted channels. Because of this, why bother attempting to compromise the database server itself when all the information you could ever want is already flying over the wire? SQLViking is a tool which takes advantage of this in two ways. The first piece, dubbed ‘scout,’ passively sits on a network segment logging any SQL queries it sees and and the corresponding result set. The active piece, called ‘pillage,’ leverages TCP injection for executing arbitrary SQL queries without credentials. SQLViking is available as a standalone python tool and can be easily loaded onto a small device with a LAN tap such as a Raspberry Pi for physical pentests. The tool is still very much in the beta testing stages and only supports the MySQL and SQL Server (Tabular Data Stream) network protocols at this time. We’re also investigating ways to increase the likelihood of a successful TCP injection attack on very busy networks.\n\nBio\n\n“Jonn Callahan has spent the last two years rooting out web application flaws both at the source code level and dynamically. When not actively researching whatever topic has piqued his interest, he’s losing money on the cryptocoin market and getting beat up by his two dogs.\n\nKen Toler is a Senior Application Security Consultant at nVisium specializing in web application penetration testing and static analysis in Ruby, Java, and .NET. He also comes with a network security background and has worked closely with growing startups in the DC area. ”\n\n-\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"
