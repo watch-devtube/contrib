@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - cloud
+    - mobile
+    - containers
+    - kubernetes
+    - architecture
+title: 'Kata Containers: Hypervisor-Based Container Runtime - Xu Wang, HyperHQ & Samuel Ortiz, Intel'
+recordingDate: 1513363655
+description: "Kata Containers: Hypervisor-Based Container Runtime - Xu Wang, HyperHQ & Samuel Ortiz, Intel\n\nKata Containers is a merge of 2 hypervisor based container runtime efforts: Hyper's runV and Intel's Clear Containers. With Kata Containers, each container is hypervisor isolated just like an EC2 or GCE instance. It is an OCI compatible runtime and as such can seamlessly work with containerd or hyperd. Moreover it fully supports the Kubernetes CRI APIs and thus can run and manage hypervisor isolated Kubernetes pods through CRI-O, containerd-cri or frakti. Finally, Kata Containers is a multi architecture project as it supports x86, ARM, Power and s390x platforms.\n\nDuring this talk we will describe the Kata Containers architecture and how it drastically reduces the virtualization overhead in order to be as fast as a namepace based container runtime while being as secure as a legacy VM. We will also run a multi tenant Kubernetes demo in order to show how Kata Containers could become the cornerstone of a secure, infrastructure free, container cloud.\n\nAbout Xu Wang\nXu Wang is the CTO and Cofounder of Hyper HQ, which contributed the hypervisor based container runtime runV (secure as VM, fast as container), and provides a runV based container native Cloud. Before founded HyperHQ, Xu worked in a public cloud in China since 2011 and was working for China Mobile cloud team during 2007 to 2011. Xu had experiences on Linux Kernel, virtualization, container, and distributed storage system. And he is also an technical writer and translator on Linux, virtualization, NoSQL etc.\n\nAbout Samuel Ortiz\nPrincipal Engineer, Intel"
