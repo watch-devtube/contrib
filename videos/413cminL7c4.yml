@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - mobile
+    - android
+    - security
+title: '#HITB2018AMS D2T1 - Uncovering the Android Patch Gap - Karsten Nohl & Jakob Lell'
+recordingDate: 1524904801
+description: "The Android ecosystem has a long-standing reputation of haphazard security, with regular headliner bugs. Despite its open source roots, Android security is still a black box for most users. Security patches are little understood, and users have to blindly trust their phone vendors to install patches.\n\nWe find that this trust is not warranted for many Android vendors, most of which skip at least some patches.\n\nUsing a novel analysis approach, we find missing Android patches on phones or from firmware files. The analysis compares function signatures to large collections of pre-compiled samples.\n\nOur binary-only analysis technique applies to Android and many other domains where patch levels need to be measured without access to source code.\n\nFor Android, we find that most vendors forget to include, or deliberately omit, some critical patches in their updated firmwares. Based on our analysis of hundreds of phone firmwares we provide an overview of which sets of bug fixes are missing.\n\nThis talk enables you and the larger Android ecosystem to check patch level, and drive a higher protection level for everyone.\n\n=== \n\nKarsten Nohl is cryptographer and one of the most renowned white hats, with a focus on critical infrastructures. Karsten has spoken widely on security gaps since 2006. Karsten’s team has uncovered flaws in mobile communication, payment, and other widely-used infrastructures.\n\n--- \n\nJakob Lell is a security researcher, hacker, and consultant at Security Research Labs in Berlin. He loves thinking about complex security problems involving Linux, Android, cryptography, embedded devices, or the web. Jakob enjoys unearthing widespread security issues and building the tools he needs to expose them."
