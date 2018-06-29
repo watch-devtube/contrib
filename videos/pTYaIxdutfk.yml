@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - functional
+title: 'Stateful packet processing with eBPF an implementation of OpenState interface'
+language: English
+recordingDate: 1520844982
+description: "by Quentin Monnet\n\nAt: FOSDEM 2017\n\nSoftware Defined Networks (SDNs) usually involve programmable switches withlimited autonomy of decision, that heavily rely on the instructions of theircontroller to handle “exceptions” and to adapt to traffic evolution. In anattempt to bring back some of the dataplane logic from the controller to theprogrammable switches, the [OpenState](https://beba-eu.github.io/) abstractionlayer has been designed, to enable efficient stateful packet processingthrough programmable actions occurring at the switch level.\n\nThe first part of this talk in an introduction to OpenState and includes adescription of the layer as well as some example use cases. Then theimplementation prototypes of OpenState realized during the project will bepresented. One, in particular, will get more focus: because[eBPF](https://www.iovisor.org/blog/2016/04/12/exploring-ebpf-io-visor-and-beyond) (extended version of Berkeley Packet Filter) can be stateful and hasbeen conceived to reach high performances for inline packet filtering andprocessing, we found it to be an excellent target for OpenState.\n\nAs for the background: the work around OpenState (and its extended version,Open Packet Processor) has been achieved in the context of the[BEBA](http://www.beba-project.eu/) research project (Horizon 2020), thattackles dataplane programmability for SDNs. Started in January 2015 andclosing in March 2017, this project has entered its final stage, mostlycentered on functional and performance tests for the validation of thedeveloped prototypes.\n\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2017-02-04 13:00:00"

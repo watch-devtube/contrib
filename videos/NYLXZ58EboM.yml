@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - containers
+    - architecture
+title: 'LISA17 - Linux Container Performance Analysis'
+language: English
+recordingDate: 1510784615
+description: "Brendan Gregg, Netflix\n\nContainers pose interesting challenges for performance monitoring and analysis, requiring new analysis methodologies and tooling. Resource-oriented analysis, as is common with systems performance tools and GUIs, must now account for both hardware limits and soft limits, as implemented using cgroups. A reverse diagnosis methodology can be applied to identify whether a container is resource constrained, and by which hard or soft resource. The interaction between the host and containers can also be examined, and noisy neighbors identified or exonerated. Performance tooling can need special usage or workarounds to function properly from within a container or on the host, to deal with different privilege levels and name spaces. At Netflix, we're using containers for some microservices, and care very much about analyzing and tuning our containers to be as fast and efficient as possible. This talk will show you how to identify bottlenecks in the host or container configuration, in the applications by profiling in a container environment, and how to dig deeper into kernel and container internals.\n\nView the full LISA17 program: https://www.usenix.org/lisa17/program"
