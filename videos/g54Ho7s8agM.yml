@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - startup
+    - testing
+    - architecture
+title: 'DEF CON 8 - Ghandi - Dot-Com Smashing: Buffer Overflows on the SPARC'
+recordingDate: 1393398852
+description: "Ghandi - Dot-Com Smashing: Buffer Overflows on the SPARC\n\nThe talk/demonstration is intended for audiences familiar with assembly language and/or stack-based buffer overflows on other architectures (most probably Intel).\n\nThe topics aren't really anything new, I would just like to present them with the focus on a different processor/paradigm than Intel to better define the concepts in use. I will be covering SPARC assembly language on a fairly low level.\n\n- Introduction to SPARC assembly\n- RISC, LOAD/STORE architecture\n- Register windows, Allocating space on the stack\n- SPARC subroutine calling conventions, How the code we're attacking will look\n- Leaf procedure optimization, How to write optimized assembly\n- Unix system calls from assembly language, Overview of traps\n- Hand assembling instructions, Conversion to hex, Testing hex-encoded instructions in C __asm__ blocks\n\n- Using GDB (Gnu Debugger) and ADB (Absolute Debugger), Disassembling compiled code, assembling instructions to hexadecimal (faster than by hand), Patching executables, Examining the stack of a running process, Altering the stack/return address\n\n- Hand-crafting shellcode, Basics, Basic shellcode, Intermediate shellcode, Advanced shellcode\n- Delivering the payload\n- Bonus topics (time permitting)\n\nghandi is a a Computer Science student beginning work on distributed, interactive environments (ala FreeNet or Stephenson's Metaverse) for an departmental honors project. I also work as a System Administrator at a web startup managing Sun clusters, FreeBSD servers, and Linux workstations. \n\nDEF CON 8.0 was held July 28th - 30th, 2000, in Las Vegas, Nevada USA"
