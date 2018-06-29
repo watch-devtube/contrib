@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Successful and not (yet?) successful optimisations in Valgrind'
+language: English
+recordingDate: 1520882720
+description: "by Philippe Waroquiers\n\nAt: FOSDEM 2017\n\nMaking Valgrind faster is a never ending challenge. In this talk, we willdescribe 2 optimisations in Valgrind.\n\nA first optimisation is a speedup of Helgrind (a race detection tool). A verysimple observation has led to an optimisation in the way helgrind capturesstack traces for its 'full recording' of where a piece of memory was modified.This optimisation gives a typical speed up of 25%. We will describe the issuesencountered during the implementation and discuss the reasons why thisoptimisation is not (yet?) committed in the Valgrind sources.\n\nThe second optimisation is the implementation of the execution tree concept :this generalises the way Massif (a heap profiler) records the memory usage ofa program. We will show how a (maybe counter-intuitive) representation of atree using a hash table of flat stack traces has doubled the speed of Massiffor some workloads.\n\nThis talk is aimed at Valgrind developers and any application developerinterested in data structures and algorithm optimisations.\n\n\nRoom: UD2.119 (Moved from AW1.124)\nScheduled start: 2017-02-04 13:30:00"
