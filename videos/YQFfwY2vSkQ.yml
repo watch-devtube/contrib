@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+    - testing
+title: 'OpenStack Magnum at CERN Scaling container clusters to thousands of nodes'
+language: English
+recordingDate: 1520845246
+description: "by Spyros Trigazis\n\nAt: FOSDEM 2017\n\nMagnum is an OpenStack service offering Container Clusters as a service, withsupport for Docker Swarm, Kubernetes, Mesos or DC/OS. Users of the service candeploy clusters of thousands of nodes in minutes, and access them securelyusing their native APIs.\n\nIn the first part of this talk we introduce the Magnum service. We present itsbasic and more advanced features, including support for heterogeneousclusters, cluster upgrades, cluster drivers and the ongoing effort to make itrock solid.\n\nNext, you can get idea if how Magnum is integrated in CERN’s cloudinfrastructure. How it started as a pilot service, the efforts done to addmissing features and how CERN’s users benefit from it. CERN’s use casesinclude end user physics analysis, web services, continuous integration,infrastructure services and more.\n\nFinally, such a complex service needs to be tested and benchmarked in depth,so the last section includes the results of a series of tests done in CERNcloud infrastructure and the CNCF testing infrastructure scaling the differentcontainer orchestration engines to thousands of nodes. Specifically, we reportresults of running several thousand containers in Kubernetes and scaling aservice to millions of requests a second.\n\n\nRoom: UA2.220 (Guillissen)\nScheduled start: 2017-02-05 11:35:00"

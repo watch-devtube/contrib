@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+    - python
+title: 'PYCON UK 2017: piwheels: a faster Python package repository for RaspberryPi'
+language: English
+recordingDate: 1510257374
+description: "piwheels: a faster Python package repository for RaspberryPi\n\nBen Nuttall | Sunday 16:30 | Room D\n\npiwheels is a Python package repository providing Python wheels natively compiled for the Raspberry Pi's ARM architecture. It solves the problem that \"pip install\" can take a long time to build packages implemented in C. Wheels are a general solution to this problem, but PyPI does not currently allow maintainers to upload ARM platform wheels.\n\nI wrote some tooling for automating the building of all 115,000+ packages on PyPI, including all version releases, which totals up to over 750,000 package builds, monitoring the build status and logging the output.in a database, and providing the wheels in a pip-compatible web server. Raspberry Pi users can now \"pip install\" from this server (a Raspberry Pi) and get pre-built Python wheels, which take just seconds to install.\n\nThe first build run I completed was on a Raspberry Pi in my living room: I built the latest version of every package (110k). Then, in order to build all versions of all packages (750k), I moved the project to a cluster of 20 Raspberry Pis in a data centre.\n\nLink to slides: https://speakerdeck.com/bennuttall/piwheels-pyconuk"

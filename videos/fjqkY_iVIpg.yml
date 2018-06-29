@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'PYCON UK 2017: Writing file objects with CFFI'
+language: English
+recordingDate: 1511206397
+description: "Daniel Pope | Friday 14:30 | Room L\n\nThis session will be an introduction to CFFI, taking the example of writing file-like objects that read and write byte streams.\n\nCFFI is a binding generator for writing C code extensions for Python, which work on a range of Python interpreters including PyPy.\n\nFile-like objects are Python's protocol to read and write streaming data, which you'll be familiar with from open() and StringIO, among many others.\n\nWe will learn how to use CFFI to wrap a simple C API, and adapt it to a file object API. To do this we will also need to understand how to use bytes, bytearray and memoryview objects to minimise copying."

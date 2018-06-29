@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - aws
+    - containers
+    - architecture
+title: 'How does Clever Cloud work? (Clément Delafargue - Quentin Adam)'
+language: French
+recordingDate: 1462798710
+description: "Clever Cloud, comment ça marche ? Cela fait 5 ans qu'on construit un PaaS avec des microservices.\n\nClever Cloud est un PaaS français, pas construit au dessus d'amazon (ni d'aucun autre IaaS). Clever Cloud n'utilise ni cloud foundry ni OpenStack.\n\nPourquoi ces choix ? Pourquoi utilisons-nous des VMs et pas des containers? Comment gère-t-on la sécurité ? Beaucoup de nos choix architecturaux sont différents de ce qui est fait dans d'autres boites. Pourquoi sommes-nous partis sur cette voie ? Plus important : est-ce que ça marche ?\n\nClever Cloud est construit autour de microservices (~100 projects qui collaborent pour faire fonctionner la plateforme).\n\nCe talk décrit notre architecture, les protocoles utilisées (il n'y a pas que HTTP dans la vie). Nous verrons comment nous ajoutons des fonctionnalités et comment l'archi nous permet de gérer le changement et de sortir rapidement des features tout en intégrant de nombreuses technologies.\n\nCette université est un mix entre retour d'expérience et concepts d'archi."

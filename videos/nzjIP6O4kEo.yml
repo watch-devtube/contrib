@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - performance
+    - ruby
+title: 'GoGaRuCo 2013 - Thread Safety First by Emily Stolfo'
+recordingDate: 1381363757
+description: "Concurrency in Ruby is hard and our thread-unsafe code often works by accident. We are not used to thinking about concurrency because of the GVL but there are different implementations of Ruby with their own semantics that can unearth concurrency bugs. We have to get more accustomed to writing threadsafe code and understanding concurrency, especially with the rise in popularity of JRuby.\n\nI will discuss approaches to writing threadsafe code in this talk, with a specific focus on performance considerations. I'll start with explaining some basic concurrency concepts, describe methods for handling shared mutable data, and touch on the subtleties of concurrency primitives (Queue, ConditionVariable, Mutex). Historical, squashed, hair-raising bugs in the Ruby driver to MongoDB will be used throughout the presentation to illustrate particular concurrency issues and techniques for solving them.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FG7s/"

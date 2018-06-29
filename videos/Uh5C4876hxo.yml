@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'Using NVDIMM under KVM Applications of persistent memory in virtualization'
+language: English
+recordingDate: 1520845464
+description: "by Stefan Hajnoczi\n\nAt: FOSDEM 2017\n\nThe introduction of non-volatile memory changes how applications, databases,and virtual machines will work in the future. NVDIMM is not simply a fasterblock device. Programs can avoid block I/O entirely and use byte-addressableNVDIMM to benefit from the performance characteristics of RAM. This requiresnew storage APIs that applications must use instead of traditional block I/O.\n\nThese new programs run successfully inside KVM virtual machines thanks to thevNVDIMM support already available in QEMU. Virtualization offers additionaloptions for managing and using NVDIMM beyond what is available on bare metal.\n\nThis talk covers the NVDIMM programming model and how KVM virtual machines canuse NVDIMM for faster I/O, reduced memory footprint, and faster boot times.\n\nXiao Guangrong recently gave a talk at KVM Forum covering the ACPI andhardware interface for NVDIMM under KVM. I want to follow that up with a talkfor a wider audience of developers and system administrators who care moreabout the use of NVDIMM than its implementation.\n\nThis talk covers recent work on NVDIMM in QEMU and focuses on how applicationscan take advantage of this new class of storage device. It is suitable for anaudience interested in storage or virtualization. Most of the concepts carryover to other hypervisors besides KVM.\n\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2017-02-04 16:45:00"

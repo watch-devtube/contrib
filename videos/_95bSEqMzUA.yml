@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - python
+title: 'Alexander Müller - Spatial Range Queries Using Python In-Memory Indices'
+language: English
+recordingDate: 1508768240
+description: "When you’re working with a spatial dataset a common use case is that you need to get points of interests that are within a certain radius of a reference point, also know as spatial range queries. A standard solution for this problem is to use databases like MongoDB or Postgres which provided advanced spatial indexing capabilities. However, if you don’t have those capabilities available or you need to perform millions of queries and don’t want to add load to your production database, you need to explore other alternatives.\n\nThus, this talk will discuss a potential remedy for this problem by showing how to use python together with some available libraries (numpy, sklearn, rtree, geohash) to enable in-memory radius searches. We will dive into some implementation details and show which methods to use for which use cases, by benchmarking them against each other.\n\n****\n\nwww.pydata.org\n\nPyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R. \n\nPyData conferences aim to be accessible and community-driven, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases."

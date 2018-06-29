@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - docker
+title: 'BTRFS, l''épice des bons cycles de CI avec Docker (N. Muller, C. Vandome)'
+language: French
+recordingDate: 1525249521
+description: 'Durant ce talk, nous allons discuter présenter BTRFS, un des différents FileSystem disponibles sous Linux avec AUFS, DeviceMapper et expliquer surtout pourquoi la maîtrise de celui-ci peut vous aider chaque jour. Pour cela nous allons répondre à cas d''usage un peu extrême mais qui peut arriver à nous tous : Comment faire de l''intégration continue avec une base de 500 Go en mode feature branching ? Vous n''êtes pas riches, vous n''avez qu''un seul disque de 1To et une armée de développeurs qui dézinguent votre base de données tout le temps... vous en avez marre de passer votre vie à la restaurer pour que ces ami(e)s développeurs puissent enfin jouer leurs tests. Il ne vous reste qu''une unique solution... et pas la moindre. Ainsi nous allons vous montrer comment créer une infinité d''environnement de dev ou recette avec des bases de volumétries monstrueuses grâce à BTRFS. La présentation portera sur Docker, des rappels sur la notion de UnionFS et comment faire un cycle sympa de CI en mêlant tout ceci. Evidemment tout ceci peut s''appliquer sans de grosses volumétries mais quand on aime on compte pas !'

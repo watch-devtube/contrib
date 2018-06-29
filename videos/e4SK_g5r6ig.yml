@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - containers
+    - docker
+title: 'Deni Bertovic - Supercharge your development environment using Docker'
+recordingDate: 1410633537
+description: "Deni Bertovic - Supercharge your development environment using Docker\n[EuroPython 2014]\n[23 July 2014]\n\nThese days applications are getting more and more complex. It's becoming\nquite difficult to keep track of all the different components an application\nneeds to function (a database, an AMQP, a web server, a document store...). It keeps getting harder and harder to setup new development environments and to bring new developers into the team. Stuff works on one dev machine but doesn't on others? Code breaks often when deployed to production even though all tests were passing and it worked on the dev machine?\nThe idea of this talk is to convey how important it is that we have our development environment as close to production as possible. That means setting up all those various services on your laptop/workstation.\n\n-----\n\nIn this talk I am going to show how to utilize light weight lxc containers\nusing docker, and make your development process much more straightforward. How to share container images among your development team and be sure that everyone is running the exact same stack. Do all this without hogging too many resources, without the need for complex provisioning scripts and management systems. And above all else, how to do it fast!\n\nRough Guidelines:\n\n1. Describe what is LXC  (Linux containers)\n2. Benefits of using containers instead of traditional VM's\n2. Explain where Docker comes in\n3. Show how to build simple containers using Dockefile syntax\n4. What are container images and how to share them\n5. How to share private container images\n6. Tips and tricks on how to automate"

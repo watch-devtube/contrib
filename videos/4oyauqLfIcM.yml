@@ -1,0 +1,16 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - swit
+    - web
+    - react
+    - mobile
+    - android
+    - ios
+    - javascript
+    - kotlin
+    - java
+    - functional
+title: 'Brandon Kase - Composable Caching in Swift'
+recordingDate: 1497969588
+description: "Abstract\nConsider what it means to be a cache. You need to be able to(1) associate a key with a value and (2) get some value given a key if such a value exists. That’s basically it. Caches tend to appear in layers. In a CPU, memory reads check L1, then L2, then L3, then RAM. When you want to load an image, you first check RAM, then disk, and finally network. On the backend, not caching enough means your clients will sit at loading screens. In a mobile app, if you don’t nail your cache code, the phone will use a lot of data. Excessive networking causes both battery and data-plan drain. On the frontend and the backend, your users will suffer. We can help ensure a clean correct implementation and encourage using caches in more places (leading to more responsive services and apps) by making it composable. Basic abstract algebra can help! Given two caches A and B, A on-top-of B means first check A, fallthrough to B, then write back to A. Now you can define a monoid for caches. Monoids imply easy composition. Easy composition means reasoning about our code becomes easy. Such an abstraction isn’t possible to express both statically and generically in languages like Objective-C and Java, but you can with Swift’s strong type system. The caching library Carlos provides the foundation upon which you can build prefetching and other useful transformations. Caches became reusable legos. Caching and prefetching are necessary for mobile apps and for backend services. In this talk, I will cover how to think about caches as monoids, how a monoidal caching system can simplify our jobs as software engineers, and what to expect when putting such a system into production.\n\nBio\nBrandon Kase brings typed functional programming to weird places. He has shipped production code on Android with Kotlin, iOS with Swift and React Native, and Web with JS/Flow/React. Brandon is an iOS core-experience engineer at Pinterest who came across functional programming while pursuing a B.S. in Computer Science from Carnegie Mellon University. Brandon is excited that strong static typing and functional programming are becoming mainstream, and believes that techniques once reserved for academia will help industry produce more reliable software. He is in general fascinated by anything and everything related to well-designed programming languages and libraries."

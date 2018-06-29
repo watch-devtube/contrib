@@ -1,5 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+tags:
+    - functional
 title: 'CodeMesh 2014 - Edwin Brady - Verifying Stateful and Side-effecting Programs using Dependent Types'
 recordingDate: 1415887678
 description: "http://www.codemesh.io/\nVerifying Stateful and Side-effecting Programs using Dependent Types\n\nDependent types allow us to express a program's behaviour precisely in its type, meaning that type checking is equivalent to formally and mechanically checking a program's correctness. Introductory examples typically involve length preserving operations on lists, or ordering invariants on sorting. Realistically, though, programming is not so simple: programs interact with users, communicate over networks, manipulate state, deal with erroneous input, and so on. In this talk I will show how advanced type systems allow us to express such interactions precisely, and how they support verification of stateful systems as a result. As examples, I will show simple communication protocols, and a word game (Hangman), in the Idris programming language.\n\nTalk objectives: I aim to show that, with a sufficiently expressive type system, writing a correct program ought to be easier than writing an incorrect program!\n\nTarget audience: Developers interested in type systems, software correctness, or programming language research in general. Some ability to read (but not necessarily write) a functional language such as Haskell or OCaml will be assumed."

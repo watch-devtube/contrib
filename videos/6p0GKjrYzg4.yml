@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - startup
+    - azure
+    - containers
+    - kubernetes
+title: 'Building a Storage Cluster with Kubernetes [I] - Bassam Tabbara, Quantum Corp.'
+recordingDate: 1491874397
+description: "Building a Storage Cluster with Kubernetes [I] - Bassam Tabbara, Quantum Corp.\n\nModern software storage systems are inherently complex. They are composed of numerous distributed components, require careful balancing of resources, and have stringent performance requirements. If you're running your applications in a public cloud you're typically shielded from this complexity and can utilize managed storage services like EBS, S3 and EFS. If you're running on-premise, however, your choices are quite limited and typically result in using traditional big-iron storage systems. \n\nIn this talk we'll walkthrough how we've built a production-ready storage cluster using Kubernetes. Storage nodes run as pods and enumerate the available storage devices within the cluster. We'll explore how to optimize the network through CNI plugins to separate client and storage cluster traffic. We'll show how some of the features of Kubernetes including controllers/operators, third-party resources, resource management, and rolling upgrades can lead to more powerful and resilient storage clusters. We'll also walk through use cases where the storage cluster is dedicated (hyperscaled) or shared with other applications (hyperconverged).\n\nAbout Bassam Tabbara\nBassam Tabbara is the CTO of Quantum Corporation, a world-class leader in storage. He is spearheading several storage projects including Rook (http://rook.io). Prior to Quantum, Bassam was the CTO and co-founder of Symform, a P2P storage startup acquired by Quantum. Prior to that he was at Microsoft where he lead a number of key initiatives as part of Microsoft Research, Azure, Windows Server, and Visual Studio."

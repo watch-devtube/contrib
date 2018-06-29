@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - python
+    - java
+title: 'Jiwon Seo - SociaLite Python integrated Query Lamguage for Big Data Analysis'
+recordingDate: 1402201061
+description: "PyData SV 2014 \nSociaLite is a Python-integrated query language for big data analysis. It makes big data analysis simple, yet achieves fast performance with its compiler optimizations, often more than three orders of magnitude faster than Hadoop MapReduce programs. For example, PageRank algorithm can be implemented in just 2 lines of SociaLite query, which runs nearly as fast as an optimal C implementation. High-level abstractions in SociaLite help implement distributed data analysis algorithms. For example, its distributed in-memory tables allow large data to be stored across multiple machines, and with minimal user annotations, fast distributed join operations can be performed. Moreover, its Python integration makes SociaLite very powerful. We support embedding and extending, where embedding supports using SociaLite queries directly in Python code, and extending supports using Python functions in SociaLite queries. To support embedding, we apply source code rewriting that transforms SociaLite queries to invoke SociaLite runtime interfaces. For extending, we keep track of functions defined in Python interpreter and make them accesible from SociaLite. The integration makes it easy to implement various data mining algorithms in SociaLite and Python. I will demonstrate in the talk a few well-known algorithms implemented in SociaLite, including PageRank, k-means, and logistic regression. The high-level queries can achieve fast performance with various optimizations. The queries are compiled into Java bytecode with compiler optimizations applied, such as prioritizations or pipelined evaluation. Also, the runtime system gives its best effort to achieve full utilizations of multi-core processors as well as network bandwidths. With the compiler optimizations and the runtime system we achieve very fast performance that is often close to optimal C implementations."

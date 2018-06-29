@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - bigdata
+    - performance
+    - cloud
+    - heroku
+    - heroku
+    - python
+title: 'Alexander Kagoshima: A Data Science Operationalization Framework'
+recordingDate: 1432920402
+description: "In a lot of our Data Science customer engagements at Pivotal, the question comes up how to put the developed Data Science models into production. Usually, the code produced by the Data Scientist is a bunch of scripts that go from data loading over data cleansing to feature extraction and then model training. There is rarely much thought put into how the resulting model can be used by other pieces of software and this is generally not a good practice of encapsulating the Data Scientist's work for others to re-use.What we as Data Scientists want is to create models that drive automated decision-making but there is clearly a mismatch to the above way of going about Big Data projects. Considering these challenges, we created a small prototype for a Data Science operationalization framework. This allows the Data Scientist to implement a model which is exposed by the framework as a REST API for easy access by software developers.The difference to other predictive APIs is that this framework allows for automatic periodic retraining of the implemented model on incoming streaming data and is able to free the Data Scientist of some tedious work - like Ÿkeeping track of results for different modelling and feature engineering approaches, basic visualization of model performance and the creation of multiple model instances for different data streams. It is written by practitioning Data Scientists for Data Scientists.Moreover, the framework will be released this year under an Open Source license which means that unlike other predictive APIs which only host one instance for Data Scientists to push their models to, this allows Data Scientists to completely control their own model codebase. In addition, it is deployable on Cloud Foundry and Heroku and can thus use some features of PaaS, which means less work in thinking about how to deploy and scale a model in production. The model is implemented in Python and uses Flask to expose the REST API and the current prototype uses Redis as backend storage for the trained models. Models can be either custom-written or use existing Python ML libraries like scikit-learn. The framework is currently geared towards online learning, but it is possible to hook it up to a Spark backend to realize model training in batch on large datasets.\n\nAlexander Kagoshima"

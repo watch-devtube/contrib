@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+title: 'RubyConf 2015 - Writing concurrent libraries for all Ruby runtimes by Petr Chalupa'
+recordingDate: 1448123197
+description: "Writing concurrent libraries for all Ruby runtimes by Petr Chalupa\n\nHave you ever wondered how to use all of your cores?\n\nThe talk will take you on a path of writing a simple concurrent class. We'll start with a basic implementation and gradually improve it based on presented problems and newly learned facts. Our final solution will behave well in the face of concurrency and execute consistently on all Ruby implementations.\n\nWe’ll investigate various Ruby runtime differences that we’ve abstracted away with the synchronization layer of the concurrent-ruby gem. We'll go down to JRuby extensions, even volatile fields and compare-and-swap operations."

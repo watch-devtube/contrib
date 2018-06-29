@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - architecture
+    - functional
+title: 'NSDI ''18 - Salsify: Low-Latency Network Video through Tighter Integration'
+language: English
+recordingDate: 1525814666
+description: "Sadjad Fouladi, Stanford University\n\nSalsify is a new architecture for real-time Internet video that tightly integrates a video codec and a network transport protocol, allowing it to respond quickly to changing network conditions and avoid provoking packet drops and queueing delays. To do this, Salsify optimizes the compressed length and transmission time of each frame, based on a current estimate of the network’s capacity; in contrast, existing systems generally control longer-term metrics like frame rate or bit rate. Salsify’s per-frame optimization strategy relies on a purely functional video codec, which Salsify uses to explore alternative encodings of each frame at different quality levels.\n\nWe developed a testbed for evaluating real-time video systems end-to-end with reproducible video content and network conditions. Salsify achieves lower video delay and, over variable network paths, higher visual quality than five existing systems: FaceTime, Hangouts, Skype, and WebRTC’s reference implementation with and without scalable video coding.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"

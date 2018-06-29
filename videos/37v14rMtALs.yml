@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - web
+    - mobile
+    - android
+    - security
+title: '#HITB2016AMS D2T2 - Perf: From Profiling To Kernel Exploiting - Wish Wu'
+recordingDate: 1467095368
+description: "Perf has been added into Linux kernel since 2.6.3x to provide a framework for all things performance analysis. It covers hardware level (CPU/PMU, Performance Monitoring Unit) features and software features (software counters, trace points) as well. Among the supported perf measurable event list, there is a small set of common hardware events monikers which get mapped onto an actual events provided by the CPU, if they exists, otherwise the event cannot be used. So there is no surprise CPU vendors may customize related codes in kernel source.\n\nIn this talk, we will dive deeply into a major CPU vendor’s perf implement in its Android kernels which are widely deployed in hundreds of millions of popular Android devices. We will describe details of a series of new discovered critical vulnerabilities. We will choose one of these critical vulnerabilities to explain our exploit methodology and show how we can bypass all existing Android protection mechanisms and finally gain root on the device.\n\nFinally, we will present a live demonstration on rooting a Nexus 6 equipped with the latest Android release by using a  zero permission required application.\n\n======\n\nWish Wu is a researcher in Mobile Threat Response Team of Trend Micro in China. He works on malware analysis , vulnerability discovery and exploits. His research is mainly focused on Android. When he was in high school, he thought smart phones like iPhone and Android will change the world.  He wants to create a safer world for Android and prevent bad guys from exploiting the bugs  he finds.  To date, he has found 5 critical severity level bugs, 1 high and 3 low severity level bugs in Android. He is also the very first recipient of Google’s Android Security Rewards (http://source.android.com/security/bulletin/2015-08-01.html)."

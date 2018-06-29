@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'DEF CON 24 - Jake Kambic - Cunning with CNG: Soliciting Secrets from Schannel'
+language: English
+recordingDate: 1479078867
+description: "Secure Channel (Schannel) is Microsoft's standard SSL/TLS Library underpinning services like RDP, Outlook, Internet Explorer, Windows Update, SQL Server, LDAPS, Skype and many third party applications. Schannel has been the subject of scrutiny in the past several years from an external perspective due to reported vulnerabilities, including a RCE. \n\nWhat about the internals? How does Schannel guard its secrets? This talk looks at how Schannel leverages Microsoft's CryptoAPI-NG (CNG) to cache the master keys, session keys, private and ephemeral keys, and session tickets used in TLS/SSL connections. It discusses the underlying data structures, and how to extract both the keys and other useful information that provides forensic context about connection. This information is then leveraged to decrypt session that use ephemeral cipher suites, which don't rely on the private key for decryption. Information in the cache lives for at least 10 hours by default on modern configurations, storing up to 20,000 entries for client and server each. This makes it forensically relevant in cases where other evidence of connection may have dissipated.\n\nBio:\nJake Kambic is a DFIR researcher and network penetration tester"

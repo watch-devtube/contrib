@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'Network Block Device how, what, why'
+language: English
+recordingDate: 1520845490
+description: "by Wouter Verhelst\n\nAt: FOSDEM 2017\n\nThis talk will describe the NBD protocol: what is it, what can it do, and whyis it relevant for virtualization and IaaS. We will also touch at a fewfeatures that have been specified for the protocol, but so far have not beenimplemented in any known implementation.\n\nThe Network Block Device (NBD) was originally written for the Linux kernel, touse and export block devices over a network (TCP) link. Its feature set wasvery limited, however, which limited its practical usability for manypurposes. Over the years, however, the protocol has evolved, with featuressuch as better negotiation, improved reliability through flush requests, andawareness of holes in backing files being implemented.\n\nRecent versions of QEMU implement the client side of the protocol, while atthe same time also being able to export local resources through NBD. Thissituation makes it possible for NBD to be used as a protocol for sharedstorage, backup, or mirroring of resources to other systems for livemigration.\n\nWe will quickly cover the history of the protocol, describing some of thefeatures that were added over the years; make a short comparison againstsimilar protocols such as iSCSI and AoE and why NBD is relevant in thatcontext; and then move on to newer features that were added to the protocol atthe request of the QEMU developers.\n\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2017-02-04 13:00:00"

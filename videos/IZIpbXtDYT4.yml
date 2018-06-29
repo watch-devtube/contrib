@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+    - testing
+    - .net
+title: 'Florian Tramèr - Discovering Unwarranted Associations in Data-Driven... - MLconf SEA 2016'
+recordingDate: 1464382202
+description: "Presentation slides: http://www.slideshare.net/SessionsEvents/florian-tramr-researcher-epfl-at-mlconf-sea-52016\n\nDiscovering Unwarranted Associations in Data-Driven Applications with the FairTest Testing Toolkit: In today’s data-driven world, programmers routinely incorporate user data into complex algorithms, heuristics, and application pipelines. While often beneficial, this practice can have unintended and detrimental consequences, such as the discriminatory effects identified in Staples’ online pricing algorithm and the racially offensive labels recently found in Google’s image tagger.\n\nWe argue that such effects are bugs that should be tested for and debugged in a manner similar to functionality, performance, and security bugs. We describe FairTest, a testing toolkit that detects unwarranted associations between an algorithm’s outputs (e.g., prices or labels) and user subpopulations, including protected groups (e.g., defined by race or gender). FairTest reports any statistically significant associations to programmers as potential bugs, ranked by their strength and likelihood of being unintentional, rather than necessary effects.\n\nWe designed FairTest for ease of use by programmers and integrated it into the evaluation framework of SciPy, a popular library for data analytics. We used FairTest experimentally to identify unfair disparate impact, offensive labeling, and disparate rates of algorithmic error in six applications and datasets. As examples, our results reveal subtle biases against older populations in the distribution of error in a real predictive health application, and offensive racial labeling in an image tagger."

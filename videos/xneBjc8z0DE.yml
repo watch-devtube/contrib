@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - career
+    - php
+    - performance
+    - security
+    - python
+    - javascript
+    - java
+title: 'DEF CON 22 - Dan Kaminsky - Secure Random by Default'
+language: English
+recordingDate: 1420595798
+description: "Secure Random By Default \nDan Kaminsky Chief Scientist, White Ops\n\nAs a general rule in security, we have learned that the best way to achieve security is to enable it by default. However, across operating systems and languages, random number generation is always exposed via two separate and most assuredly unequal APIs -- insecure and default, and secure but obscure.\n\nWhy not fix this? Why not make JavaScript and PHP and Java and Python and even libc rand() return strong entropy? What are the issues stopping us? Should we just shell back to /dev/urandom, or is there merit to userspace entropy gathering? How does fork() and virtualization impact the question? What of performance, and memory consumption, and headless machines?\n\nTurns out the above questions are not actually rhetorical. Just because a change might be a good idea doesn't mean it's a simple one. This will be a deep dive, but one that I believe will actually yield a fix for the repeated *real world* failures of random number generation systems.\n\nDan Kaminsky has been a noted security researcher for over a decade, and has spent his career advising Fortune 500 companies such as Cisco, Avaya, and Microsoft.Dan spent three years working with Microsoft on their Vista, Server 2008, and Windows 7 releases.\n\nDan is best known for his work finding a critical flaw in the Internet’s Domain Name System (DNS), and for leading what became the largest synchronized fix to the Internet’s infrastructure of all time. Of the seven Recovery Key Shareholders who possess the ability to restore the DNS root keys, Dan is the American representative. Dan is presently developing systems to reduce the cost and complexity of securing critical infrastructure."

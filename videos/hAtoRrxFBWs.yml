@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DEF CON 25 - Josh Datko, Chris Quartier - Breaking Bitcoin Hardware Wallets'
+language: English
+recordingDate: 1508990921
+description: "The security of your bitcoins rests entirely in the security of your private key. Bitcoin hardware wallets help protect against software-based attacks to recover or misuse your key. However, hardware attacks on these wallets are not as well studied. In 2015, Jochen Hoenicke was able to extract the private key from a TREZOR using a simple power analysis technique. While that vulnerability was patched, he suggested the Microcontroller on the TREZOR, which is also the same on the KeepKey, may be vulnerable to additional side channel attacks.\n\nIn this presentation we will quickly overview fault injection techniques, timing, and power analysis methods using the Open Source Hardware tool, the ChipWhisperer. We then show how to apply these techniques to the STM32F205 which is the MCU on the Trezor and KeepKey. Lastly, we will present our findings of a timing attack vulnerability and conclude with software and hardware recommendations to improve bitcoin hardware wallets. We will show and share our tools and methods to help you get started in breaking your own wallet!"

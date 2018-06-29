@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - ml
+title: 'Braxton McKee, CEO & Founder, Ufora @ MLconf SF'
+recordingDate: 1447778801
+description: 'Is Machine Learning Code for 100 Rows or a Billion the Same?: We have built an automatically distributed, implicitly parallel data science platform for running large scale machine learning applications. By abstracting away the computer science required to scale machine learning models, The Ufora platform lets data scientists focus on building data science models in simple scripting code, without having to worry about building large-scale distributed systems, their race conditions, fault-tolerance, etc. This automatic approach requires solving some interesting challenges, like optimal data layout for different ML models. For example, when a data scientist says “do a linear regression on this 100GB dataset”, Ufora needs to figure out how to automatically distribute and lay out that data across a cluster of machines in the cluster in order to minimize travel over the wire. Running a GBM against the same dataset might require a completely different layout of that data. This talk will cover how the platform works, in terms of data and thread distribution, how it generates parallel processes out of single-threaded programs, and more.'

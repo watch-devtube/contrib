@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - c++
+    - python
+    - javascript
+title: 'Building distributed systems with Msgflo Flow-based-programming over message queues'
+language: English
+recordingDate: 1520432902
+description: "by Jon Nordby\n\nAt: FOSDEM 2017\n\nMsgFlo is a tool to build systems that span multiple processes and devices,for instance IoT sensor networks. Each device acts as a black-box componentwith input and output ports, mapped to MQTT message queues. One thenconstructs a system by binding the queues of the components together. Focus oncomponents exchanging data gives good composability and testability, bothimportant in IoT. We will program a system with MsgFlo using Flowhub, a visuallive-programming IDE, and test using fbp-spec.\n\nAt the 2014 IoT devroom, we introduced flow-based programming (FBP) forheterogenous IoT systems, using NoFlo and MicroFlo. The programming modelworked well for individual devices, but between the devices of the system oursolution caused too tight coupling. When we realized this, we decided to buildMsgflo, which reuses many of the same concepts and tools.\n\nIn MsgFlo each process/device is an independent participant, receiving data oninput queues, and sending data on output queues. A participant do not knowwhere the data comes from, nor where (if anywhere) the data will go. Thisstrong encapsulation gives good composability and testability. MsgFlo uses astandard message queue protocol (MQTT or AMQP). This makes it easy to use withexisting software. As each participant is its own process and communicate overnetworks, they can be implemented in any programming language. Conveniencelibraries exist for C++, Python, Arduino, Node.js and Rust. On top of themessage queue protocol, a simple discovery mechanism is added. For existingdevices without native Msgflo support, the discovery messages can be sent by adedicated tool.\n\nWe have used Msgflo in a handful of real-life deployments, and willdemonstrate building a simple stand-alone IoT system.\n\n\nRoom: AW1.126\nScheduled start: 2017-02-04 12:00:00"

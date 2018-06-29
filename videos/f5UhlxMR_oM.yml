@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'Optimizing Errors Away'
+language: English
+recordingDate: 1520771485
+description: "by Volker Simonis\n\nAt: FOSDEM 2017\n\nThe HotSpot JIT compilers use a lot of sophisticated optimization techniquesto speed up your Java code. Sometimes, these advanced optimizations are soaggressive that they may eliminate required checks by mistake and thereforesuppress expected program errors.\n\nIn this talk, I'll briefly introduce Escape Analysis and Intrinsics, twocommonly used HotSpot optimization techniques. I'll show how a combination ofthese two features can optimize away IndexOutOfBoundsExceptions in some cornercases where they are required by the standard and how I fixed this error inrecent versions of the OpenJDK.\n\n\nRoom: H.1302 (Depage)\nScheduled start: 2017-02-04 12:00:00"

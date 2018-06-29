@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - aws
+    - devops
+    - containers
+    - kubernetes
+    - python
+title: 'One Chart to Rule Them All: Continuous Deployment with Helm at Ticketmaster - Michael Goodness'
+recordingDate: 1513374292
+description: "One Chart to Rule Them All: Continuous Deployment with Helm at Ticketmaster - Michael Goodness & Raphael Deem, Ticketmaster\n\nAs Kubernetes continues to mature, it's increasingly hard for users to keep track of the latest resource types, much less the best way to employ them. ReplicationControllers and Services were easy enough. Then came Deployments and Ingresses. Now we have PodDisruptionBudgets, ClusterRoleBindings, and HorizontalPodAutoscalers. Luckily, we also have Helm to package and deploy these various components (and more) as a single unit.\n\nIn this talk we'll dissect the single, flexible Helm chart Ticketmaster developed for use by multiple product teams. We'll show how we use just a handful of variables to enable log collection with Fluentd, metric scraping with Prometheus, and automatic scaling of pods. Then we'll demonstrate the GitLab CI workflow through which we deploy multiple builds of an application to multiple Kubernetes clusters running both on-prem and in AWS.\n\nAbout Raphael Deem\nRaphael is a Systems Engineer at Ticketmaster and open source contributor. He is a relative newcomer to the community, having started working with Kubernetes within the last six months. Prior to working at Ticketmaster, he was a remote engineer for Platform.sh, a Paris-based PaaS built with Python and LXC containers running on AWS. He was (briefly) a high school math teacher, and is a casual juggler.\n\nAbout Michael Goodness\nMike is a Lead Systems Engineer on the Kubernauts team at Ticketmaster and a CNCF Ambassador. He began working with Kubernetes in late 2015, and quickly became an avid member of the community. While primarily involved with day-to-day cluster operations, he is also keenly interested in helping developers use cloud native technologies to deploy scalable, reliable applications. He is a co-maintainer of the Helm community charts repository and has contributed several popular charts. Hailing from Wisconsin, Mike is a co-organizer of DevOps Days Madison, a dedicated Milwaukee Brewers fan, and a cheese curd aficionado."

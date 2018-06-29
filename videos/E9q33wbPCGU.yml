@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Valentin Haenel: Blosc'
+recordingDate: 1432903015
+description: "Blosc is a fast metacodec with two main features: the shuffle filter and threading. The shuffle filter, which is implemented using SSE2 instructions, allows reordering bytes to reduce the complexity of certain datasets. Threading, on the other hand, allows parallelization of existing codecs, hence the term *metacodec*. Blosc was originally conceived to mitigate the problem of starving CPUs which results from the ever growing divide between clock speed and memory latency. Recently, it has become increasingly useful for other scenarios too, for example, out-of-core approaches and compressed in-memory storage.  Blosc has a small codebase and is implemented in C. Additionally, several pieces of interesting software, largely written in Python, have emerged that make use of Blosc, showcasing it's potential and exploring the new use-cases. Bcolz, for example, is a compressed in-memory and out-of-core container for numerical data. This talk is about Blosc and it's Python friends.\n\nValentin Haenel"

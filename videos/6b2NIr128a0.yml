@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - architecture
+    - python
+title: 'Akka stream pour la recherche d''exoplanete Akka stream de 0 à 1 (E. Feller)'
+language: French
+recordingDate: 1525249594
+description: "Chercher une exoplanète c'est simple : il suffit de comparer des millions de photos pour détecter 1 pixel qui bouge ...\n\nPour cela on a la pile big data qui va bien, notamment avec warp10 pour analyser les series temporelles de ces pixels. Mais comment injecter les données ? les images astronomiques sont des fichiers binaires (en format FITS). Il faut donc les parser et les injecter dans warp10.\n\nLes centaines de Go, les millions de fichiers, mettent les solutions actuelles des astrophysiciens (en python) à genoux : il est frustrant de devoir mettre des dizaines de machines pendant des dizaines de jours pour injecter les données ...\n\nUn pipeline akka stream répond à ces problématiques de parallélisation et d'architecture réactive.\n\nNous verrons comment concevoir un pipeline akka stream depuis la base : - qu'est-ce qu'un stream ? concrètement comment ça marche ? - comment segmenter les différentes étapes de mon pipeline ? - paralléliser et être \"reactive\" ? - debug de stream ?"

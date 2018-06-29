@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - testing
+    - architecture
+    - ruby
+    - javascript
+title: 'Ruby Conf 2013 - Promiscuous: A robust service-oriented architecture framework'
+language: English
+recordingDate: 1386338819
+description: "For anyone who has built an application that's larger than what a small team can build in a few months, the euphoria of working with frameworks like Rails or Sinatra is quickly lost to the pain of a sprawling disorganized code base, slow tests, and long ramp up time for new developers. Extracting Service Objects or abandoning MVC for something like MOVE only complicates the code base and fails to make things simpler. Moving to Javascript MVC helps extract a lot of view logic but you're still left with a monolithic backend. The solution we propose is to split up your monolithic app into many smaller, easy to maintain, applications.\n\nSplitting applications is challenging for numerous reasons. One of the biggest challenge is to keep all the applications' data in sync. We introduce Promiscuous[1], an open source replication framework that facilitates data replication across applications in a safe and consistent manner. Unlike traditional approaches such as Stripe's MoSQL[2] and LinkedIn's Databus[3], which operate at the database level, Promiscuous transparently instruments the ActiveModel interface to replicate model operations by using Redis and RabbitMQ. This makes it a great solution for separation of concerns, heterogeneous database replication, and asynchronous triggers in the datacenter.\n\nBy Nicolas Viennot & Kareem Kouddous\n\nWe'll dive into the mechanics of Promiscuous and how we used it to split our monolithic application into eight small, single purpose applications. We will also show our findings in scalability, deployment, migration, unit/integration testing, and general architecture best practices laced with real world examples.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FG4Z/"

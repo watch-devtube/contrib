@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - python
+    - .net
+title: 'Scott Sanderson: Developing an Expression Language for Quantitative Financial Modeling'
+recordingDate: 1449251028
+description: "PyData NYC 2015\n\nWe discuss the design and implementation of zipline.modeling, a new component of the backtesting engine that powers Quantopian. Drawing inspiration from libraries such as SQLAlchemy, Dask, and Theano, we develop a declarative API for concisely describing efficient computations on financial data. Along the way, we consider some of the unique challenges of computing in the financial domain.\n\nThis talk details the challenges addressed during the development of Zipline's new Modeling API, which provides a high-level expression language allowing users to describe computations on rolling windows of continuously-adjusted financial data. We discuss the notion of \"perspectival\" time-series data, arguing that this concept provides a useful framework for formally reasoning about financial data in the face of domain oddities like stock splits, dividends, and restatements.\n\nWe also consider the architectural and performance benefits of developing an API focused on symbolic computation, drawing comparisons to several recent developments in the Python numerical ecosystem.\n\nSlides available here: http://www.slideshare.net/ScottSanderson5/developing-an-expression-language-for-quantitative-financial-modeling.\n\nThey're also available on SpeakerDeck here:\nhttps://speakerdeck.com/ssanderson/developing-an-expression-language-for-quantitative-financial-modeling\n\nThe notebooks and underlying assets are on GitHub here:\nhttps://github.com/ssanderson/pydata-nyc-2015"

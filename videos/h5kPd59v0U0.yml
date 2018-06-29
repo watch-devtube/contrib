@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - performance
+title: 'NSDI ''18 - SnailTrail: Generalizing Critical Paths for Online Analysis of Distributed Dataflows'
+language: English
+recordingDate: 1525814497
+description: "Moritz Hoffmann, ETH Zurich\n\nWe rigorously generalize critical path analysis (CPA) to long-running and streaming computations and present SnailTrail, a system built on Timely Dataflow, which applies our analysis to a range of popular distributed dataflow engines. Our technique uses the novel metric of critical participation, computed on time-based snapshots of execution traces, that provides immediate insights into specific parts of the computation. This allows SnailTrail to work online in real-time, rather than requiring complete offline traces as with traditional CPA. It is thus applicable to scenarios like model training in machine learning, and sensor stream processing.\n\nSnailTrail assumes only a highly general model of dataflow computation (which we define) and we show it can be applied to systems as diverse as Spark, Flink, TensorFlow, and Timely Dataflow itself. We further show with examples from all four of these systems that SnailTrail is fast and scalable, and that critical participation can deliver performance analysis and insights not available using prior techniques.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'modular VDEplug: switchless switching networks (and libslirp) VDEplug now supports plugins... inclu…'
+language: English
+recordingDate: 1520845600
+description: "modular VDEplug: switchless switching networks (and libslirp) VDEplug now supports plugins... including slirp\nby Renzo Davoli\n\nAt: FOSDEM 2017\n\nThe new VDEplug code now supports a URL-like syntax to define the virtualnetworking system to use. While it is backward compatible, and it is supportedby many VM (kvm/qemu, virtualbox, user-mode linux, umview), now it is possibleto add the compatibility layer for current and future virtual networkingenvironments.\n\nCurrently VDEplug supports: legacy VDE, point-to-point AF_UNIX or UDP, tap,vxlan, vxvde, slirp.\n\nIn the developing phase of the slirp plugin, we have implemented a generalpurpose slirp library (derived from qemu's slirp implementation).\n\nVDEplug4 together with new tools for the management of namespaces andcapability create a new ecosystem for the support of virtual networking.\n\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2017-02-04 10:00:00"

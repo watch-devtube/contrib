@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Kafka Operator: Managing and Operating Kafka Clusters in Kubernetes [A] - Nenad Bogojevic'
+recordingDate: 1513373941
+description: "Kafka Operator: Managing and Operating Kafka Clusters in Kubernetes [A] - Nenad Bogojevic, Amadeus\n\nIn this talk we will demonstrate an approach to management of kafka clusters in kubernetes deployments. We will show how we can provision kafka clusters and configure it using kubernetes concepts and an operator process. The kafka and zookeeper cluster elements will be provisioned using StatefulSet. As these applications benefit from high performance storage, we will also show how we can use node selectors or persistent volume claims to schedule instances on correct hardware. In order for clients to use it, the necessary message topics have to be configured in kafka cluster. We will show how using an operator process, based on kubernetes custom resources or ConfigMaps we can manage this configuration in descriptive manner and ensure consistent configuration across different development and operations stages as well as cluster restarts. Finally we will discuss how all this ties in with service catalog. \n\nAbout Nenad Bogojevic\nNenad Bogojevic, platform solutions architect at Amadeus, has 20+ years of experience in software development. He has worked on e-commerce applications, natural language processing tools, and high-performance network middleware. In his job, Nenad is an architect who codes, a technical lead and speaker, open source contributor and an evangelist for application platforms, online and web technologies. Currently, he is driving design of new kubernetes based platform for new data driven services. In his spare time he travels, manages small home clusters or builds and programs robots with his daughters."

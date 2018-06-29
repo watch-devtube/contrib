@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - 'code design'
+title: 'Xavier Gouchet - Did Your Mocks Read the Terms of Service'
+recordingDate: 1523194208
+description: "When writing unit tests, we are used to inject mocks instead of concrete implementations. The problem is that the mock behavior is not tied at all to the actual implementation, and so even though all unit tests are green, you can still have bugs inside your codebase.\n\nBut tests are meant to define the contract of the feature under test. It unambiguously verifies that the feature behaves as expected no matter what. So there must be a way to use the power of testing to ensure the mocks also follow the same contract.\n\nThis talk will introduce the concept of contract based testing, which allows describing mocks, and ensure that the concrete implementation actually behave the same way. It will then show examples design patterns and best practices on how this can be used to enhance the unit tests in a project."

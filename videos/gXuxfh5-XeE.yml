@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DEF CON 22 - David Dorsey - Why Don’t You Just Tell Me Where The ROP Isn’t Suppose To Go'
+language: English
+recordingDate: 1420594373
+description: "Slides here: https://defcon.org/images/defcon-22/dc-22-presentations/Dorsey/DEFCON-22-David-Dorsey-Why-Dont-You-Tell-Me-ROP-UPDATED.pdf\n\nWhy Don’t You Just Tell Me Where The ROP Isn’t Suppose To Go \nDavid Dorsey LEAD SECURITY RESEARCHER AT CLICK SECURITY \nUsing a ROP chain to bypass operating system defenses is commonplace and detecting this technique while executing is still difficult. This talk will discuss a method built on Intel’s dynamic binary instrumentation tool, Pin, to dynamically detect ROP attacks against the Microsoft Windows operating system. The method is designed to detect ROP attacks that use the return instruction and the indirect call instruction. We will discuss how we determine if a return or indirect call is jumping to a valid location. Then we will show examples of the method working, discuss its effectiveness, and its limitations. After the talk, the source code for the pintool will be released.\n\nDavid has been in the security industry on the defensive side for nearly 10 years and has been focusing on file analysis for the last 5 years. He likes tearing apart shellcode and figuring out what the attack is trying to accomplish."

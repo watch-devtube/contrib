@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - security
+title: 'Securing Shopify''s PaaS on GKE [I] - Jonathan Pulsifer, Shopify'
+recordingDate: 1513374203
+description: "Securing Shopify's PaaS on GKE [I] - Jonathan Pulsifer, Shopify\n\nShopify has leveraged Kubernetes through Google Container Engine (GKE) to build its new cloud platform. This PaaS is currently serving the majority of the company's internal tools as well as business-critical production workloads. Moving to Kubernetes and a public cloud is no easy task, especially for a security team. \n\nUnfortunately for us, a hosted solution does not offer all the features we've come to love in Kubernetes including NetworkPolicies, PodSecurityPolicies, and admission controllers among others. Given this, the security team has created a number of Kubernetes controllers and other cloud platform solutions to maintain an effective security posture on our new platform.\n\nIn this talk we'll introduce our cloud platform, explore the tools we've created to bridge the security gaps, detail the struggles we've encountered using Google Cloud Platform and GKE, and discuss our growing pains with Kubernetes multi-tenancy. Attendees will gain an understanding of the current state of Kubernetes security controls on GKE, a familiarity with some of the products available on Google Cloud Platform, and insight on how to integrate security controls into their development pipelines.\n\nAbout Jonathan Pulsifer\nJonathan is a Senior Security Engineer at Shopify working on securing their new platform using Kubernetes on GKE. Previously, he was a SANS mentor, network defense instructor, and a team lead at the Canadian Forces Network Operations Centre in Ottawa. Find Jonathan on Twitter @JonPulsifer"

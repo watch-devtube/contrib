@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: '#HITB2017AMS COMMSEC D1 - Disarming EMET 5 52 - Niels Warnars'
+recordingDate: 1493972636
+description: "This talk will present  a new disarming flaw that can be used to prevent all anti-ROP checks in EMET 5.5x from ever being performed. The disarming condition is caused by the fact that references to the read-only CONFIG_STRUCT are always retrieved from the process heap (which has a PAGE_READWRITE protection). This is obfuscated by the usage of DecodePointer throughout EMET.\n\nPresentation Outline\n\n    Short introduction of EMET\n    Short introduction of info leak / RW-primitive requirement\n    Recap of Offensive Security research on disarming EMET 4.1 and 5.0 and how these disarms got fixed.\n    New disarming flaw identification\n    New disarming flaw exploitation\n    Purpose of EAF, what changed in EMET 5.5x and how to bypass it\n\n=== \n\nNiels Warnars studies Computer Science at the Delft University of Technology. On a part-time basis he is a threat intelligence analyst at a Dutch security company. Some of his areas of interest include exploit analysis and mitigations and threat actor research."

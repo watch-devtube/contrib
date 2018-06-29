@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Profile-Guided Optimization in the LDC D compiler Implementation and Benefits'
+language: English
+recordingDate: 1520511231
+description: "by Kai Nacke\n\nAt: FOSDEM 2017\n\nProfile-Guided Optimization (PGO) is an optimization technique which usesinformation about the runtime profile of an application. PGO is an area ofactive development in LLVM. In this talk I discuss how PGO was implemented inLDC, the LLVM-based D compiler, and which speedup the use of PGO can give.\n\nProfile-Guided Optimization (PGO) is an optimization technique which usesinformation about the runtime profile of an application. The binary of anapplication is instrumented to collect data like number of times a function iscalled. This additional information is used to apply advanced optimizations tothe application. PGO is an area of active development in LLVM. A recent updateof LDC, the LLVM-based D compiler, is able to use PGO. In this talk I discusswhich additonal IR code must be generated for PGO and how it was implementedin LDC. I also show the effect of PGO on a test application and the compileritself.\n\n\nRoom: K.3.201\nScheduled start: 2017-02-05 09:45:00"

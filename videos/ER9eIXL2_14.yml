@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - containers
+    - kubernetes
+    - security
+    - architecture
+title: 'Accelerating Envoy with the Linux Kernel - Thomas Graf, Covalent (Advanced Skill Level)'
+recordingDate: 1525675400
+description: "Want to view more sessions and keep the conversations going? \_Join us for KubeCon + CloudNativeCon North America in Seattle, December 11 - 13, 2018 (http://bit.ly/KCCNCNA18) or in Shanghai, November 14-15 (http://bit.ly/kccncchina18).\n\nAccelerating Envoy with the Linux Kernel - Thomas Graf, Covalent (Advanced Skill Level)\n\nThis talk will provide an introduction to injection options of Envoy and then deep dive into ongoing Linux kernel work that enables injecting Envoy while introducing as little latency as possible. The servicemesh and the sidecar proxy model are on a steep trajectory to redefine many networking and security use cases. This talk explains and demos a new socket redirect Linux kernel technology that allows running Envoy with similar performance as if the sidecar was linked to the application using a UNIX domain socket. The talk will also give an outlook on how Envoy can use the recently merged kernel TLS functionality to gain access to the clear text payload transparently for end to end encrypted applications without requiring to decrypt and re-encrypt any data to further reduce the overhead and latency.\n\nAbout Thomas\nThomas Graf has been a Linux kernel developer for more than 15 years, working on a variety of networking and security subsystems. His current focus is on how the Linux kernel can evolve into an ideal platform to run modern microservices and API driven applications. Thomas is involved in the development of BPF/XDP, socket redirect, in-kernel stream processing, kTLS. Thomas has been a contributor to various open source projects over the years including the Linux kernel, Cilium, Kubernetes and Open vSwitch. Thomas is also the CTO & Co-Founder at Covalent."

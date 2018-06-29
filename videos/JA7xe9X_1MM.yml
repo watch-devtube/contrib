@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - python
+title: 'How to run a stable benchmark'
+language: English
+recordingDate: 1521327231
+description: "by Victor Stinner\n\nAt: FOSDEM 2017\n\nWorking on optimizations is a task more complex than expected on the firstlook. Any optimization must be measured to make sure that, in practice, itspeeds up the application task. Problem: it is very hard to obtain stablebenchmark results.\n\nThe stability of a benchmark (performance measurement) is essential to be ableto compare two versions of the code and compute the difference (faster orslower?). An unstable benchmark is useless, and is a risk of giving a falseresult when comparing performance which could lead to bad decisions.\n\nI'm gonna show you the Python project \"perf\" which helps to launch benchmarks,but also to analyze them: compute the mean and the standard deviation onmultiple runs, render an histogram to visualize the probability curve, comparebetween multiple results, run again a benchmark to collect more samples, etc.\n\nThe use case is to measure small isolated optimizations on CPython and makesure that they don't introduce performance regression in term of performance.\n\n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2017-02-05 14:00:00"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Kubernetes Scheduling Features or How Can I Make the System Do What I Want? [I] - Marek Grabowski'
+recordingDate: 1491874394
+description: "Kubernetes Scheduling Features or How Can I Make the System Do What I Want? [I] - Marek Grabowski & Wojciech Tyczynski, Google\n\nEach user has her own set of requirements and constraints on where their Pods should be placed in a cluster. Some want to increase utilization, thus they want to pack Pods as densely as possible. Other want to maximize reliability, so they spread the Pods as thinly as they can. \n\nAnother one may have Pods that interfere with each other, e.g. by writing a lot to a local disk and don't want to put those on a single Node.\n\nDuring this talk I'll tell what features are present in the default Kubernetes scheduler that can help you to accomplish all those things and more.\n\nMarek Grabowski\nMarek is a Software Engineer working on Google’s Technical Infrastructure since 2013. He works on Kubernetes since February 2015, focusing mainly on scalability and machine management. Before that he was working on Omega project, doubling as an SRE for some clusters. Before his life at Google he attended University of Warsaw majoring in both Mathematics and Computer Science, and for a few years he was teaching at the Faculty of Mathematics, Informatics and Mechanics in Warsaw."

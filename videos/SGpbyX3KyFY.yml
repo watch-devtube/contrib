@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - containers
+    - docker
+    - security
+title: 'LISA17 - Charliecloud: Unprivileged Containers for User-Defined Software Stacks in HPC'
+language: English
+recordingDate: 1510786735
+description: "Michael Jennings, Los Alamos National Laboratory\n\nSupercomputing centers are seeing increasing demand for user-defined software stacks (UDSS), instead of or in addition to the stack provided by the center. These UDSS support user needs such as complex dependencies or build requirements, externally required configurations, portability, and consistency. The challenge for centers is to provide these services in a usable manner while minimizing the risks: security, support burden, missing functionality, and performance. We present Charliecloud, which uses the Linux user and mount namespaces to run industry-standard Docker containers with no privileged operations or daemons on center resources. Our simple approach avoids most security risks while maintaining access to the performance and functionality already on offer, doing so in just 900 lines of code. Charliecloud promises to bring an industry-standard UDSS user workflow to existing, minimally altered HPC resources.\n\nView the full LISA17 program: https://www.usenix.org/lisa17/program"

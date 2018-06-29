@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - ios
+    - security
+title: '#HITBGSEC 2017 Conf D2 - Rootten Apples: Vulnerability Heaven In The iOS Sandbox - Adam Donenfeld'
+recordingDate: 1506657914
+description: "Attackers have been lurking around iOS in the hope of achieving a full attack-chain to the device. Following Apple’s introduction of self-signed applications, the attack surface for containerized applications on iOS is pretty constant. Apple is doing a good job in improving its security, from narrowing down the attack surface to introducing new mitigations, both from a software and a hardware perspective. As a side effect of these efforts, most of the attack surface that is not accessible by a containerized application is often ignored.\n\nWith this in mind, we decided to examine code that is not accessible by default to the common containerized app, but to any other process – regardless of its security context. We were surprised to see that what is not accessible from the initial code execution context needs much more attention. During our research, we found multiple privilege escalation vulnerabilities affecting all iOS devices in the market.\n\nIn this presentation, we will review the privilege escalation vulnerabilities, as well as demonstrate and present a detailed exploitation that is crafted from chaining all these vulnerabilities together, eventually leading to the execution of arbitrary kernel code and to bypassing all of the security mitigations currently available on iOS devices.\n\n===\n\nAdam Donenfeld is a mobile security researcher at Zimperium with vast experience in the mobile research field. Researching vulnerabilities and exploiting them for both PC and mobile environments, Adam has presented his researches at several international security conferences including Black Hat, DEF CON and HITB."

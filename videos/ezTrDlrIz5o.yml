@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'Terracotta Off-Heap pour les nuls (Ludovic Orban)'
+language: French
+recordingDate: 1462798691
+description: "Depuis Java 1.4 il est possible d’accéder aux zones de mémoire off-heap non gérées par le garbage collector. Le gros intérêt de ces zones étant de ne pas subir les limitations engendrées par les différents garbage collectors.\n\nTerracotta a développé une librairie pour gérer la mémoire off-heap à la fois stable et fiable en se basant sur des concepts théoriques bien connus. La librairie est disponible en open source et peut gérer jusqu'à 6 To de mémoire par JVM et jusqu'à 1 To par map. Elle permet ainsi :\n\nde créer des maps et des caches avec une consommation du heap minimale\nd’utiliser pleinement les énormes quantités de mémoire - de l’ordre de plusieurs To - disponibles sur les serveurs actuels à très bon marché, contrairement au garbage collector qui devient contraignant avec une taille de heap de quelques dizaines de Go\nNous allons tout d’abord voir dans la présentation qu’est-ce que le off-heap par rapport au heap. Nous nous pencherons ensuite sur quelques classes clés, afin de vous aider à en comprendre l’implémentation que nous avons réalisé. Enfin, nous vous montrerons comment en tirer profit pour vos propres applications."

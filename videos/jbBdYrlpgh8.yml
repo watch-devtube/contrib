@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'De la grosse application spaghetti aux micro services (N. Helleringer, P. Grimaud)'
+language: French
+recordingDate: 1525249333
+description: "Cette présentation est un retour d'expérience sur une migration démarrée il y a maintenant 5 ans.\n\nLe constat était sans appel: Faire grossir nos méga-apps n'était plus gérable. Un “incident” nous a forcé à revoir notre architecture. Et notre organisation. Il fallait découper ces vieilles applications et en sortir des \"services\".\n\nNous allons vous accompagner le long du chemin que nous avons suivi à partir de ce moment. Car ce n'était pas juste un problème de code, il fallait changer les esprits, l'organisation, la façon de releaser, l'implication des gens.\n\nNous allons parler de l'inconvénient d'avoir des grosses apps (opérationnel, organisationnel, technique, impact sur le GC..), de load balancing maison (HAProxy n'était plus une option), de Mesos (Gérer des serveurs Windows à la main, ça va 5 minutes), de monitoring (Pour tout le monde ce coup ci), de services en général, micro ou pas. Nous allons parler de ce que nous avons fait, de ce que nous aurions dû faire, de ce que nous n'aurions pas dû faire. Et de ce que nous en avons retenu."

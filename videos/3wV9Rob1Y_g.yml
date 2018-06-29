@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - scala
+    - java
+title: 'Un assembleur dynamique sur la JVM ? (Guillaume Bort)'
+language: French
+recordingDate: 1462798714
+description: "La génération de code dynamique sur la JVM est une technique aujourd'hui bien connue. Il suffit de fabriquer du Java ByteCode, et de charger les classes correspondantes à l'exécution.\n\nCependant j'ai été récemment confronté à un challenge intéressant: serait-il possible générer directement du code natif dynamiquement ? C'est à dire sans passer par du Java ByteCode et l'étape de compilation JIT de Hotspot, et ainsi avoir totalement la main sur le code natif d'une fonction ?\n\nC'est effectivement possible. Dans cette présentation j'exposerai les différentes étapes qui permettent de réaliser la génération de code natif dynamiquement sur la JVM:\n\nDécrire une API minimale permettant de manipuler un langage assembleur directement dans le langage hôte.\nEcrire un mini-assembleur permettant de le traduire en code natif au runtime.\nCharger ce code natif en mémoire, et le rendre executable.\nEnfin, le rendre interopérable avec le langage hôte et lui assignant un type fonction.\nIci j'utiliserai Scala comme langage hôte, mais les techniques présentées peuvent être facilement appliquées en Java ou un autre langage de la JVM."

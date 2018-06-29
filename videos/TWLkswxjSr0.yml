@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - craftsmanship
+    - architecture
+title: 'Modularizing Android Applications - Marvin Ramin'
+recordingDate: 1527692411
+description: "Most Android applications consist of one big, monolithic application project. As your application grows this single module can become harder and harder to manage, responsibilities between teams become unclear and build times grow. With the introduction of Android Instant Apps the discussions about how to best modularize Android applications have also increased.\n\nThis talk will discuss why you should consider splitting up your codebase into multiple, smaller modules and how you can get started in doing so. It will show how a refactoring towards a modularized application can help you improve the architecture of your application. It will also discuss other benefits of a modularized application such as clearer interfaces and responsibilities of components and potentially faster build times. While Android Instant Apps have also pushed the discussions about how to best modularize Android applications they will not be a focus in this talk.\n\nAs modularizing an application changes the way you interact with the build system this talk will also show how your build setup and build times might change and how different build systems (such as Gradle, Buck and Bazel) interact with multiple modules. As most applications use Gradle as their build system this will also be the focus in this talk."

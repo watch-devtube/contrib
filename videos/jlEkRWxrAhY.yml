@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+    - .net
+title: 'Ruby bindings for Libgerbv Display and edit Gerber RS247X files the easy way'
+language: English
+recordingDate: 1520432276
+description: "by Patrick Franken\n\nAt: FOSDEM 2017\n\nWorking with Gerber files today is a task done by CAM personnel usingextremely expensive and proprietary software. Until today no easy way existsto edit Gerber files through an API. What only few know is that libgerbv fromthe Geda project has proper support to not only show but also to edit Gerberfiles.\n\nUsing the Ruby bindings for libgerbv it is now possible to edit Gerber filesthrough a simple API.\n\nWorking with Gerber files within the PCB manufacturing process takes a largechunk of the work as a lot of tasks like panelization are done directly withinthese files. However, until today there is no easy or an open source way towork with these files.\n\nThe Geda Team has done a great job with their Gerbv software as it is usedworldwide to check Gerber files for correctness before production. What mostpeople do not know is that libgerbv, which is used under the hood, is alsocapable of editing Gerber files. One of the reasons might be, that libgerbv isnot accessible by most software engineers. To overcome this we, i.e. AISLER,have developed a simple Ruby binding for libgerbv. Using the API it ispossible to load, edit and save Gerber files with just a few lines of code.Possible use cases are panelization, adding fiducials, receiving designinformation such as drill count and much more.\n\nRight now the libgerbv ruby bindings (which will probably get some more catchyname later) are used within our own PCB manufacturing process athttps://go.aisler.net. They'll be published during FOSDEM 2017.\n\n\nRoom: AW1.120\nScheduled start: 2017-02-05 12:30:00"

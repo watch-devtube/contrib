@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - javascript
+    - scala
+title: 'Comment maintenir de la cohérence dans votre architecture microservices (Clément Delafargue)'
+language: French
+recordingDate: 1493055037
+description: "La tendance est au délaissement des architectures monolithiques au profit de micro-services bien découpés. Ainsi nous facilitons le passage à l'échelle, réduisons la taille de chaque projet et pouvons utiliser la pile techno adaptée à chaque module.\n\nCependant, en séparant ces briques, nous repoussons la complexité à la limite entre chaque module. La cohérence fournie par une base de code atomique et son système de types est perdue.\n\nDans cette session, je montrerai comment tenir compte explicitement des frontières entre modules permet de réduire le risque de données incohérentes. Je montrerai comment encoder les messages inter-modules, en déclarant explicitement pour chaque brique, la structure nécessaire et ce qui doit pouvoir évoluer sans impacter le module. La serialisation implicite a beau etre plus simple au début, l'explicite aide beaucoup.\n\nJe donnerai des exemples en scala et javascript, tout en tirant des comparaisons avec mon expérience en développement web, où on a une expérience fournie de ce qui se passe quand les développeurs essayent d'ignorer les frontières entre coté serveur et coté client."

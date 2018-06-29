@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+title: 'Network Policy Controller in Weave Net Blocking unwanted network traffic in Kubernetes'
+language: English
+recordingDate: 1520695029
+description: "by Bryan Boreham\n\nAt: FOSDEM 2017\n\nDescribing the design and function of Weave Network Policy Controller, whichuses iptables and ipsets to govern which Linux containers can talk to whichother containers, under control of Kubernetes. The code is all written in Go,and available on GitHub under Apache Licence.\n\n[Kubernetes](https://kubernetes.io/) [NetworkPolicy](https://kubernetes.io/docs/user-guide/networkpolicies/) is an abstractspecification to define which connections are to be allowed within aKubernetes cluster. [Weave Network PolicyController](https://www.weave.works/securing-microservices-kubernetes/)(weave-npc) is an implementation of this specification in Go, under the ApacheLicence. This talk will describe the design of weave-npc; how it was builtfrom existing components in Linux, Kubernetes and the wider Go ecosystem, howit integrates with the Linux network stack, and how it can be used to tightensecurity on a typical Cloud application.\n\n\nRoom: H.2215 (Ferrer)\nScheduled start: 2017-02-04 16:40:00"

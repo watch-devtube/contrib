@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Wicked Good Ember 2015 - Writing Code to Update our Code by Adolfo Builes'
+recordingDate: 1435934580
+description: "Writing Code to Update our Code by Adolfo Builes\n\nAfter upgrading Ember we might have times where we start to receive warnings about things that we should update in our code because of deprecations.\nWe can write scripts with tools like sed or Perl to fix our code but, when we are working with multiple teams and projects, we can see that those scripts start to fail or are not easy to maintain.\nIn this talk we’ll cover a different approach to update our code through direct operations on its abstract syntax tree (AST) using recast and how to distribute our solutions as addons so they can be used by other teams.\nSpecifically we’ll see how AST transform are used for scenarios like:\n- Route generation in ember-cli\n- Update QUnit tests via ember-watson\n- Upgrade Ember-Data deprecations"

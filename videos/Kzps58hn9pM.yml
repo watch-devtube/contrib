@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - docker
+    - architecture
+title: 'Portability of containers across diverse HPC resources with Singularity'
+language: English
+recordingDate: 1520373089
+description: "by Michael Bauer and César Gómez-Martín\n\nAt: FOSDEM 2017\n\nTraditional container technology (i.e. Docker) was not meant for thedeployment of HPC applications among large computing clusters. New containertechnology like Singularity focuses on the portability of compute, allowing usto ease deployment, reducing administrative overhead and user support.However, some issues still need special attention, for example how to handledifferent MPI configurations (e.g. over Infiniband), and how to handle specialresources like GPUs.\n\nToday, there is no need to have applications installed on any cluster orHPC/scientific resource; we can use container technology to encapsulate allthe software and libraries of any specific application, ensuring the operationthereof in any possible operating system, software, and hardware architecture,avoiding incompatibilities and retaining native or near-native performance.Our design strategy makes the container agnostic to the queue system i.e. thecontainer works with SLURM, TORQUE and stand alone.\n\nThis talk will cover creating such portable containers using multipleresources, and showing how simple is to deploy a complex MPI dependantapplication across multiple TOP500 supercomputer with only a regular useraccount, including the ability to exploit existing resources like Infinibandand GPGPUs.\n\nAlso we’ll show how to add open source profiling tools to the container. Weare going to show execution profiling samples of critical HPC/ML applicationslike VASP, Amber, Seismic Imaging and Chainer running on portable containersacross different HPC systems.\n\n\nRoom: H.2213\nScheduled start: 2017-02-04 09:35:00"

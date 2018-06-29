@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - go
+    - containers
+    - kubernetes
+title: 'Programming Kubernetes with the Go SDK [I] - Aaron Schlesinger, Deis'
+recordingDate: 1491874300
+description: "Programming Kubernetes with the Go SDK [I] - Aaron Schlesinger, Deis\n\nMost people talk to their Kubernetes clusters using the kubectl tool, but we’re seeing more and more cases where engineers are writing their own software to talk to the Kubernetes API itself. The use cases for doing so are many: writing ingress controllers, managing pods and watching logs to name a few.\n\nAt Deis, we’re using the Kubernetes Go SDK for quite a few different purposes. We first started by vendoring in the Kubernetes mono-repo to watch pod events. We pushed our code to production and quickly learned all about Kubernetes event stream internals and the server-side event cache. When we got something working reliably, we expanded our usage of this client code to a few other domains. We later migrated to the the client-go package when it was released and now use it in almost all of our projects and infrastructure.\n\nIn this talk, we’ll share our use cases and detail what we’ve learned using client-go in production. We’ll also share some best practices and show a demo to illustrate how you can get started with the client yourself.\n\nAbout Aaron Schlesinger\nSr. Software Engineer, Deis\nAaron Schlesinger is a Sr. Software Engineer at Deis. He leads or contributes to development on the Deis Workflow PaaS projects, Helm and the Kubernetes sig-service-catalog Kubernetes incubator project. He’s been a software developer for 10+ years, and most of that time has focused on distributed systems from large scale data warehousing to real time servers. He's a Golang developer at heart."

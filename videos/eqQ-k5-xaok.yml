@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'SREcon17 Europe/Middle East/Africa - Capturing and Analyzing Millions...'
+language: English
+recordingDate: 1505775940
+description: "Capturing and Analyzing Millions of Queries without Any Overhead\n\nKarthik Appigatla, Sr. Database Engineers, LinkedIn, and Basavaiah Thambara, LinkedIn\n\nThis talk is about a new way of monitoring and analyzing millions of queries with no overhead. \n\nOptimizing queries is the most important aspect of scaling database servers. Before we can optimize, we need to identify the problematic queries. We have slow-query log in MySQL where we can set a threshold and all the queries crossing threshold will be logged in a file and later can be used for analysis. Other way is to use performance_schema database inside MySQL which gives various metrics of queries. \n\nThe problem is that enabling the slow query log will incur a 25-35% overhead on the database, since we have to have to write to a file. Additionally, since only queries exceeding the threshold will be logged, we won't have any data about queries below that threshold. Meanwhile, enabling performance_schema incurs a 10-20% overhead, and is complex to understand. \n\nTo minimize overhead and effectively measure all queries, we have built a query analyzer which incurs less than 3% CPU overhead and no overhead on any other resources.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

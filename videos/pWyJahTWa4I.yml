@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+    - security
+title: 'Container Isolation at Scale (Introducing gVisor) - Dawn Chen & Zhengyu He, Google'
+recordingDate: 1525913267
+description: "Want to view more sessions and keep the conversations going?  Join us for KubeCon + CloudNativeCon North America in Seattle, December 11 - 13, 2018 (http://bit.ly/KCCNCNA18) or in Shanghai, November 14-15 (http://bit.ly/kccncchina18)\n\nContainer Isolation at Scale (Introducing gVisor) - Dawn Chen & Zhengyu He, Google (Intermediate Skill Level)\n\nContainers are the modern way of running your services at scale because of the portability and lightweightness. However, due to the fact that they depend on OS multi-tenancy as they share the same host OS (usually Linux which represents a large attack surface), containers are considered providing weaker isolation than virtual machines. We will start from discussing the security principles in running services in Google, and then summarize a list of best practices we have explored for preventing, auditing and mitigating security threats. Specifically, we will focus on the challenges we have faced at the host operating system level.\n\n\"About Dawn\nDawn Chen (dchen1107@github) is a Senior Staff Software Engineer from Google Kubernetes Team. She has been one of tech leads in both Kubernetes and GKE, mostly focus on Node area. Prior Kubernetes, she was the one of the tech leads for Google internal container infrastructure for about 6 years.\n\nAbout Zhengyu\nZhengyu is one of the tech leads and managers in Google infrastructure team, mostly focus on kernel and security.\""

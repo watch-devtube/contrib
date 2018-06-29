@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - python
+title: 'Jean Christophe Fillion Robin, Matt McCormick, Max Smolens, Omar Padron |  Scikit build: A build'
+recordingDate: 1475599317
+description: "PyData Carolinas 2016\n\nIn this talk we present \"scikit-build\", an improved build system generator for CPython C extensions. It provides better support for additional compilers, build systems, cross compilation, and locating dependencies and determining their build requirements. We also describe how Matplotlib and SymEngine are updated to make use of \"scikit-build\"\n\nAlthough the scientific packages NumPy, SciPy, SymEngine or Matplotlib can be used from Python today, since they bundle C, C++ or Fortan extensions, successfully building the associated binary wheels is complex and prone to errors. This is a significant barrier to allow use of these scientific packages on a broader set of platforms like mobile, Raspberry Pi or HPC.\n\nTo facilitate the build process, the scikit-build package is fundamentally just glue between the setuptools Python module and CMake. Currently, the package is available to perform builds in a setup.py file. In the future, the project aims to be a build tool option in the currently developing pyproject.toml build system specification."
