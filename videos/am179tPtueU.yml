@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+    - testing
+title: 'Scale and Performance Testing of Kubernetes: Answers for Specific Applications'
+recordingDate: 1479335587
+description: "Scale and Performance Testing of Kubernetes: Answers for Specific Applications - Georgy Okrokvertskhov & Aleksandr Shaposhnikov, Mirantis\n\n\"Managing thousands containers can be challenging, but if you want to know how Kubernetes will behave at scale we might be able to provide an answer. In this talk, we share the data we collected in our scale lab, which consists of 500 physical nodes. Using virtual machines, we can simulate up to 5000 Kubernetes minions running actual workloads, and our tests are designed to reveal how Kubernetes behaves while managing a complex application (in this case, OpenStack services) at large scale. \n\nAfter the talk you will understand:\n1. How Kubernetes performs rolling-updates, from a time and performance perspective\n2. How fast one can roll-out containers on 500 nodes with specific constraints\n3. How traffic flows between services, and what networking performance one should expect\n4. How a single Service can facade 1000+ Pods with or without Autoscaler, and any limits involved\n5. How many Services 1000-5000 Minions Kubernetes can support\n6. How long it takes to deploy Pods for a single Service via Autoscaler to handle 1000 workloads\n7. How long it takes to deploy Pods for a single Service via RC to handle 1000 workloads\"\n\nAbout Georgy Okrokvertskhov\nGeorgy has worked with Mirantis for more than 8 years, starting in 2008. He has experience managing Windows datacenters for large, distributed companies. Georgy also has a deep networking background, which he obtained while working for Cisco Systems. Today, Georgy actively works on a performance and scale testing of OpenStack and Kubernetes."

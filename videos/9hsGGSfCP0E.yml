@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'Continuously Integrating Puppet'
+recordingDate: 1373574094
+description: "Matthew Barr, Snap Interactive\nPresented at the 2013 USENIX Configuration Management Summit (UCMS '13)\n\nContinuous integration, or CI, has been widely embraced by developers, but configuration management can find a lot of power in testing configuration management code as it's developed. Simple static analysis is a good first step, but more advanced analysis is required to ensure maximum uptime. Traditional testing tools like rspec-puppet often have limitations that make them less useful for very complex modules. \n\nIn this talk, we will examine approaches to improving confidence in configuration through various approaches, including catalog compilation with predetermined facts, test deployments, virtual copies of production systems, and canary server builds. We'll also show typical failures that make it past each stage of testing, and why each new aspect of testing can improve uptime and reduce errors. We will also explore how sound CI testing can help ease rapid systems and configuration management growth."

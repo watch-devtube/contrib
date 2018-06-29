@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Lightning Talk - Say what? You''re Running the Storage Platform IN Kubernetes?'
+recordingDate: 1479335550
+description: "Lightning Talk - Say what? You're Running the Storage Platform IN Kubernetes? - Stephen Watt, Red Hat\n\nGlusterFS is an open source, scale out, distributed filesystem that is becoming popular as a shared storage solution for containers. This talk is about how the GlusterFS community containerized GlusterFS and enabled it to run directly in Kubernetes. This is fairly novel as actual storage platforms (as opposed to storage adapters or volume plugins) are a *very new* type of workload for Kubernetes. This approach allows a single Kubernetes cluster to run both the application containers and the containers for the storage platform that provides the volumes consumed by the applications. Besides a demo, this talk will also describe the tradeoffs between running the platform as ReplicaSets vs. PetSets and usage of the platform with the new GlusterFS Dynamic Provisioner features in Kubernetes v1.4.\n\nAbout Steve Watt\nSteve Watt is a Consulting Software Engineer at Red Hat and is a member of the Kubernetes Storage Special Interest Group (SIG). Steve leads Red Hat’s Platform (OpenShift and RHEL Atomic) and Storage (Gluster and Ceph) engineering initiatives for Container Storage."
