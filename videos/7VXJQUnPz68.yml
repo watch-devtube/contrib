@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - startup
+    - ruby
+title: 'Services Inception with  Ruby by Dave McCrory'
+recordingDate: 1323220124
+description: 'Ruby code creating services for it to then consume aka Service Metaprogramming A very large number of Ruby apps are deployed in hosted environments. Many of these hosted environments offer both internal and external services with APIs that your Ruby app can consume. The problem is that the use of these services often requires provisioning tasks for each service and the service must always be there or the app will fail. This session will show Metaprogramming Ruby code and a RubyGem for provisioning/de-provisioning, binding/unbinding, sharing configuration state, and more. This allows your application to create a Redis or MySQL instance only if needed (say on initial startup) or bind to a specific service, but only if/when it is present. This approach eliminates many of the forgotten steps during deployments and makes it easier to understand what your Ruby code really depends on because it is all encapsulated in the application''s code itself!'
