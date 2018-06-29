@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - testing
+title: 'Unity by Arun Tomar'
+recordingDate: 1337532943
+description: "Today organizations, including SMEs, have multiple internet connections (ISP) for failover capabilities. However, they can use only one of them at a time. We smelt an opportunity here and realized that it would be really helpful and cost effective if we could use all the internet connections simultaneously - balance the load over different connections and also have a failover incase any ISP goes down. This increases the internet bandwidth and provides failover - we get best of both worlds! There are devices which do this but they are limited only to 2 ISPs and are also expensive and picky about the internet connection (only lease lines).\n\nWe have built the gem \"\"isp-unity\"\" which is a gem for managing multiple heterogeneous (broadband, wifi, lease line, data-card etc) connections from multiple internet providers. This also has advanced features like quality of service (QoS) for scheduling, prioritizing of traffic and managing bandwidth.\n\nHow did we do this? The solution exists in linux kernel but it's very hard to configure and manage and requires lot of technical and networking knowledge. We've built a gem that makes all this very easy. Using chef, we plans to deploy this as an \"\"Enterprise Gateway Solution\"\" along with other necessary services like proxy, dns, firewall, vpn, ldap etc, replacing or complementing existing appliances/routers."

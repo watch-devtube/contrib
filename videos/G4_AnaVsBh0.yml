@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - architecture
+    - ruby
+title: 'ArrrrCamp 2015 - Decouple all the things: Asynchronous messaging keeps it simple by Kerstin Puschke'
+language: English
+recordingDate: 1449263749
+description: "If a customer changes their address, it's often not enough to update their master data record. E.g. the component processing customer orders might have to learn about the update in order to ship to the correct address. In a distributed architecture, you have to spread information about a master data update to several client apps. You can do this via REST, but if a client app is temporarily down or too busy to accept requests, it's going to miss the information. Adding a new client app requires changes to the master app. Asynchronous messaging helps to avoid such a tight coupling of components. And it offers much more than a simple action trigger: parallelizing computing-heavy tasks, load testing, or migrating existing components to new services are some of the possibilities explored in this talk. You're going to learn how to get started with asynchronous messaging from within Ruby, and how it helps you to keep your codebase clean and your overall system stable as well as maintainable.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/H495/"
