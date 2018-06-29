@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - ruby
+    - python
+title: 'Mutants, tests and zombies aka mutation testing with Python and a pinch of Ruby'
+language: English
+recordingDate: 1520374031
+description: "by Alexander Todorov\n\nAt: FOSDEM 2017\n\nMutation testing is a technique in which the software under test is modifiedin a controlled manner to produce a mutant. Then test cases are executedagainst each mutant. This helps answer the question \"How good is our testsuite?\". For example if we have made the following change:\n\n            - if A and B:    + if A or B:    \n\nand our test suite reports a PASS result that means we are not doing a goodjob at detecting possible errors.\n\nI have been using mutation testing for production grade software in bothPython and Ruby and I'm also the most active contributor to Cosmic Ray, themutation testing tool for Python. In this talk I will explain how mutationtesting works and what it can be used for. I will give practical examples ofcode which wasn't tested and how to test it and also examples of bugs thatI've found. I will also mention some differences between the Python and Rubytools.\n\n\nRoom: H.2213\nScheduled start: 2017-02-05 08:55:00"
