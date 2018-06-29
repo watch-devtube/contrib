@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+    - ruby
+    - functional
+title: 'Ruby OpenSSL Present Future and Why It Matters by Martin Boßlet'
+recordingDate: 1323719565
+description: 'We will start with an overview of what exists today (Ruby 1.9.3) in Ruby''s OpenSSL wrapper and how and where you can use it and why you should. After this brief introduction we will encounter new features that could find their way into future versions of Ruby OpenSSL. Among these is OpenSSL::ASN1::Template, a DSL that allows parsing/encoding ASN.1 structures with simple declarations that look similar to ASN.1 itself. We will find out why I finally decided to ditch a working implementation in pure Ruby just to replace its majority with C code - including the lessons learned about performance. Another feature would be XML signature support (OpenSSL meets Nokogiri) and a clean solution to finally stop people from using OpenSSL::SSL::VERIFY_NONE by making certificate validation less of a pain while still improving the security. Finally I''d like to revive a concept that never really found broad acceptance although it would largely increase the trustworthiness of our beloved gems - *digitally signed* gems.'
