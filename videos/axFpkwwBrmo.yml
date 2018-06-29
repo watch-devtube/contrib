@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - ruby
+title: 'VoIP on Rails in India by Shailesh Patil and Sandip Ransing'
+recordingDate: 1337535408
+description: "In India, VoIP is not commercially legalized. You cannot terminate a VoIP call to a PSTN or mobile! What does that mean for Indian clients? This talk is very relevant for most companies having a support center, a call center or a helpline in India, since infrastructure costs for the traditional way are sky high! This talk is about how we built a hosted Rails solution for SMEs in India to serve out-bound and in-bound calls (including IVR) in India.\n\nWe used Asterisk (the software EPABX) and Adhearsion (a Ruby framework) to build a fully-featured framework for supporting VoIP over a PRI line with QoS integrated. This is not only legal but also a commercially cost-effective solution. In this talk we are going to see the live demo of how we can did this. It includes:\n\nManaging Audit logs of each call.\nRecording calls, checking the audio logs, finding anomalies.\nQoS Resource utilization - we can verify that all the calls were for business, find out calls which were private etc. and validate the performance of a Tele-caller!\nRouting of each call to specific extensions of Tele-callers.\nPlaying sound files for each call function (busy, ringing, dropped)\nClick to call from the web browser using twinkle"
