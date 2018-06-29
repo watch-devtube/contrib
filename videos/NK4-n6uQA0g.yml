@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - kotlin
+title: 'How to write Gradle plugins (in Kotlin) - Stefan May'
+recordingDate: 1527604437
+description: "Every Android Developer is familiar with Gradle, right?\nWe know how to apply a plugin, how to setup the Android extension and how to declare our dependencies.\n\nBut from where does the Android extension come from?\nWhich settings are possible here?\nHow can a task use these information to run a specific action?\n\nI'll explain all the Gradle magic by showing how to write a Gradle plugin.\nThe plugin will be pretty simple and straightforward but shows you what Gradle does behind the scenes.\n\nNaturally we will write the plugin in Kotlin.\nWe will also cover a little bit about Gradle's Kotlin DSL.\n\nBasically you will leave my talk knowing the basics of the Gradle plugin development:\n* How can I declare my own task?\n* How can I declare my own extension?\n* How can I test my plugin?\n* And maybe some extras ;)"
