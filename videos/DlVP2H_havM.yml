@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Distributed tracing, lessons learned'
+language: English
+recordingDate: 1524244095
+description: 'Industry standards like OpenTracing provide some mindshare on tracing RPC style communications, but leave much unsaid about asynchronous communications over message busses or Kafka. At Jet.com Gina and her Team use Kafka and Event Sourcing at nearly every tier of their architecture, so tracing these types of communications motivated them to create their own protocol and semantics around operations and channels. They learned a lot from creating their own libraries in F# and on-boarding engineering teams around their company to try tracing their communications. Gina and her Team learned a lot and they will share with you tips, tricks, and hard earned lessons.'
