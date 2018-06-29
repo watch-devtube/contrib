@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DEF CON 25 Crypto and Privacy Village - Lee Brotherston -  Blue Team TLS Hugs'
+language: English
+recordingDate: 1512176401
+description: "TLS, and it’s older forerunner SSL, are used to maintain the confidentiality and integrity of network communications. This is a double edged sword for Information Security departments as this allows private information to remain private, but can also be used to hide malicious activity.\n\nCurrent defensive measures for dealing with network traffic encrypted using TLS typically takes one of two forms:\n\n- Attempting to detect malicious activities via other means which are outside of the encrypted session, such as endpoint security tools and IP address blacklists.\n\n- Break the TLS trust model by effectively attacking all connections, including trusted connections, via MiTM with a trusted certificate.  (yes AV vendors, I'm looking at you)\n\nThis talk discusses (ok maybe rants about) the problems with the current \"state of the art\" and introduces other techniques, such as TLS Fingerprinting and TLS Handshake Mangling, which can be used to solve the same problems with less of the issues of current systems."

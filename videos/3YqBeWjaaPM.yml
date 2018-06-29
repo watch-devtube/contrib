@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - testing
+title: 'MountainWest RubyConf 2013 Migrating a live site across the country without downtime'
+recordingDate: 1367044429
+description: "Title: Migrating a live site across the country without downtime\nPresented by: Drew Blas\n\nChargify.com's customers rely on us to process payments for them 24 hours a day. We do not have any planned maintenance windows: we're simply expected to be up all the time. We recently migrated from a private datacenter to EC2, moving all our operations and data across the country with zero downtime. All thanks to a combination of highly-automated configuration with Chef and specialized DB tools like Tungsten.\nYou'll learn about our pain points in planning the switchover, like:\nSynchronizing data\nCross DC communication & VPNs\nRedirecting traffic\nRedundancy\nMigrating Redis/Resque\nAutomation\nAnd most importantly, how we addressed every one! I'll demonstrate how we rebuilt our entire infrastructure platform from the ground up: New system images with all new cookbooks that were deployed into our existing operation without any interruption. Finally, I'll discuss testing our stack and how we replicate it among various environments and plan for future expansion.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FGbf/"
