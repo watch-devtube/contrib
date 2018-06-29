@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - testing
+title: 'NSDI ''18 - Semi-Oblivious Traffic Engineering: The Road Not Taken'
+language: English
+recordingDate: 1525814497
+description: "Praveen Kumar, Cornell\n\nNetworks are expected to provide reliable performance under a wide range of operating conditions, but existing traffic engineering (TE) solutions optimize for performance or robustness, but not both. A key factor that impacts the quality of a TE system is the set of paths used to carry traffic. Some systems rely on shortest paths, which leads to excessive congestion in topologies with bottleneck links, while others use paths that minimize congestion, which are brittle and prone to failure. This paper presents a system that uses a set of paths computed using Räcke’s oblivious routing algorithm, as well as a centralized controller to dynamically adapt sending rates. Although oblivious routing and centralized TE have been studied previously in isolation, their combination is novel and powerful. We built a software framework to model TE solutions and conducted extensive experiments across a large number of topologies and scenarios, including the production backbone of a large content provider and an ISP. Our results show that semi-oblivious routing provides near-optimal performance and is far more robust than state-of-the-art systems.\n\nView the full NSDI '18 program: https://www.usenix.org/conference/nsdi18/technical-sessions"
