@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+title: 'LoneStarRuby Conf 2013 - Asynchronous Workers to the Resque'
+recordingDate: 1376956260
+description: "By Dave Kapp \n\nWhile Ruby is a terrific language, it doesn't offer a lot of ways to deal with asynchronous tasks using the default libraries. Thankfully, the community has come up with several great options for bringing asynchronicity to your applications. Resque is one of the forerunners of this, and it offers a lot of functionality and flexibility with an easily approachable API. Here, we'll go over several techniques for utilizing asynchronous workers to benefit your projects.\n\nWe'll start off with a review of how asynchronous processing works, and then we'll delve into three different things you can use Resque for: speeding up your applications by processing slow operations on the side, performing sequential updates with pipelining, and performing periodic maintenance tasks. We'll go over example code for how to handle these different situations and ideas for how to integrate them with existing applications.\n\nWhile the examples will be given using Resque, the ideas and patterns discussed will be applicable to other worker queues, such as delayed_job and Sidekiq.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FG8l/"

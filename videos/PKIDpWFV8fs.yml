@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - architecture
+title: 'USENIX Security ''17 - Prime+Abort: A Timer-Free High-Precision L3 Cache Attack using Intel TSX'
+language: English
+recordingDate: 1505501664
+description: "Craig Disselkoen, David Kohlbrenner, Leo Porter, and Dean Tullsen, University of California, San Diego\n\nLast-Level Cache (LLC) attacks typically exploit timing side channels in hardware, and thus rely heavily on timers for their operation. Many proposed defenses against such side-channel attacks capitalize on this reliance. This paper presents PRIME+ABORT, a new cache attack which bypasses these defenses by not depending on timers for its function. Instead of a timing side channel, PRIME+ABORT leverages the Intel TSX hardware widely available in both server- and consumer-grade processors. This work shows that PRIME+ABORT is not only invulnerable to important classes of defenses, it also outperforms state-of-the-art LLC PRIME+PROBE attacks in both accuracy and efficiency, having a maximum detection speed (in events per second) 3× higher than LLC PRIME+PROBE on Intel’s Skylake architecture while producing fewer false positives.\n\nView the full program: https://www.usenix.org/sec17/program"
