@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+title: 'Chronix as Long Term Storage for Prometheus by Moritz Kammerer, QAware GmbH'
+recordingDate: 1479335596
+description: "Chronix as Long Term Storage for Prometheus - Moritz Kammerer, QAware GmbH\n\n\"Prometheus is great when it comes to monitoring and alerting. But the long term storage opportunities are comparatively weak compared to related time series databases (missing data distribution, sharding etc.). At this point Chronix [1] enters the stage. Chronix is an open source time series database. It focuses on an efficient long term storage both in terms of storage volume and access times. Chronix achieves a compression rate of 98% compared to data in CSV files while an average query took 21 milliseconds, determined in a benchmark asking 96 queries for different time ranges and time series. Chronix offers a multi-dimensional generic data model for storing all kinds of time series, functions for anomaly detection used in the frameworks EGADS [2] and SAX [3], and an integration with Apache Spark [4] allows for distributed time series processing.\nIn this code-intense session we show the integration of Prometheus and Chronix. We also dig into the details of Chronix and explain why Chronix loves Prometheus and vice versa. Furthermore we demonstrate a toolchain: collect data with Prometheus, pipe them to Chronix, visualize both data sources in Grafana [5], and easily analyze tons of data with Spark and Apache Zeppelin [6].\n\n[1] www.chronix.io\n[2] https://github.com/yahoo/egads\n[3] https://github.com/jMotif/SAX\n[4] http://spark.apache.org/\n[5] http://grafana.org/\n[6] https://zeppelin.apache.org/\"\n\nAbout"

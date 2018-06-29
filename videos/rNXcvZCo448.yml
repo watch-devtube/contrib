@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - startup
+    - containers
+    - docker
+    - kubernetes
+title: 'Building a Cloud-Native SQL Database [I] - Alex Robinson, Cockroach Labs'
+recordingDate: 1491874401
+description: "Building a Cloud-Native SQL Database [I] - Alex Robinson, Cockroach Labs\n\nWhile compute management solutions like Docker and Kubernetes have rapidly advanced in recent years due to the proliferation of cloud infrastructure, storage options have been left behind in comparison. Conventional SQL databases have tacked on clustering options that help a little bit, but what would it take to build a strongly-consistent database specifically for cloud-native deployments.\n\nThis talk takes a deep-dive into the design of one such database, CockroachDB, which is being built from the ground up via open source. We will look specifically at how to achieve the easy deployment and management of a scalable, self-healing, strongly-consistent database with techniques such as dynamic sharding and rebalancing, consensus protocols, lock-free transactions, and more. We will then explore how you can both contribute to it and use it to build scalable, resilient applications that can be deployed to any cloud infrastructure.\n\nAbout Alex Robinson\nAlex Robinson is a software engineer at Cockroach Labs, the startup leading the development of the fully open source (Apache-licensed) CockroachDB project. Previously, he was a senior software engineer at Google, where he spent his last two years as a core developer of both Kubernetes and Container Engine. Prior to that, he worked on Google's cloud logging and monitoring infrastructure."

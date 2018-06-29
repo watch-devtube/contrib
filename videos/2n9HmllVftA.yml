@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - security
+    - architecture
+    - java
+title: '#HITB2017AMS D2T1 - Hunting For Vulnerabilities In Signal - Markus Vervier'
+recordingDate: 1494900441
+description: "Signal is the most trusted secure messaging and secure voice application, recommended by Edward Snowden and the Grugq. And indeed Signal uses strong cryptography, relies on a solid system architecture, and you’ve never heard of any vulnerability in its code base. That’s what this talk is about: hunting for vulnerabilities in Signal.\n\nWe will present vulnerabilities found in the Signal Android client, in the underlying Java libsignal library, and in example usage of the C libsignal library. Our demos will show how these can be used to crash Signal remotely, to bypass the MAC authentication for certain attached files, and to trigger memory corruption bugs.\n\nCombined with vulnerabilities in the Android system it is even possible to remotely brick certain Android devices. We will demonstrate how to initiate a permanent boot loop via a single Signal message.\n\nWe will also describe the general architecture of Signal, its attack surface, the tools you can use to analyze it, and the general threat model for secure mobile communication apps.\n\n===\n\nMarkus Vervier is a security researcher from Germany. Software security is his main focus of work.  During the last 15 years he collected professional experience in offensive IT security working as a penetration tester and security consultant for highly regarded companies. His experience combined with his personal passion regarding security research made him start his own company in 2015. Besides his daily security work, he is very actively practicing security research and discovers high profile vulnerabilities regularly such as the recent libotr heap overwrite."
