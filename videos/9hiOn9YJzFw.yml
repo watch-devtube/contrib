@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - serverless
+    - containers
+    - kubernetes
+    - testing
+    - python
+title: 'Fission: a Serverless Function Framework on Kubernetes [B] - Soam Vasani, Platform9 Systems, Inc.'
+recordingDate: 1491874305
+description: "Fission: a Serverless Function Framework on Kubernetes [B] - Soam Vasani, Platform9 Systems, Inc.\n\n\"Serverless\" functions allow users to easily create services from source code without dealing with the packaging, deployment, scaling, etc.\n\nFission is a serverless function framework built on Kubernetes. Users write functions and map them to HTTP routes. They don't have to deal with container images, registries or even learn Kubernetes in much detail.\n\nFunctions can be associated with HTTP routes, events, or timers. Functions consume CPU and memory resources only when running; they are started on-demand and killed when idle. Fission makes on-demand function loading very fast, by keeping an idle pool of containers running, in effect creating a distributed \"threadpool\".\n\nFission is useful for:\n* Creating web app backends or REST APIs\n* Implementing webhooks\n* Writing event handlers \n\nWe'll demo the creation of a simple web app using fission functions in Python. We'll also cover:\n\n* Unit testing and integration testing of functions\n* Function versioning\n* Logging, metrics, tracing\n* Extensibility -- how to add arbitrary dependencies\n\nWe'll also show how tying together Kubernetes Watches and Fission functions make it very easy to write custom behaviour triggered by changes to arbitrary resources on Kubernetes.\n\nAbout Soam Vasani\nSoam Vasani is a software engineer at Platform9 Systems Inc, where he | works on the Fission framework. In the past he's worked at VMware on | a distributed filesystem, a log analysis stack, and an infrastructure | management product. Before that, he spent some time working on the | GNU debugger and toolchain. He's interested in programming languages, | tools and frameworks, and in distributed systems."

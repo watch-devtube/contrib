@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'How We Run Kubernetes in Kubernetes, aka Kubeception [I] - Timo Derstappen, Giant Swarm'
+recordingDate: 1491874303
+description: "How We Run Kubernetes in Kubernetes, aka Kubeception [I] - Timo Derstappen, Giant Swarm\n\nAt Giant Swarm our users want fully-managed Kubernetes clusters without any limitations (incl. privileged access to the nodes). We deploy and manage these clusters either in our data center, in the preferred cloud of the customer, or even on-premise. Both for ourselves as well as for enterprise customers we need full isolation between clusters and a easy way to manage and update clusters without downtime.\n\nIn this talk we explain how we use a “mother” Kubernetes to deploy and manage fully-isolated and encrypted Kubernetes clusters for different customers or teams - aka Kubeception. Our model treats (inner) Kubernetes clusters as a third party resource and manages them with a custom controller. This way we have an automated way of provisioning and managing clusters without additional tooling or complex monitoring setups. Further, through our API, we are to be able to spin clusters up and down on demand, scale them, update them, keep track of which clusters are available, and be able to assign them to organizations and teams flexibly.\n\nAbout Timo Derstappen\nTimo Derstappen is CTO and co-founder of Giant Swarm. He has many years of experience in building scalable and automated cloud architectures."
