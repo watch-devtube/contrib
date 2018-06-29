@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - security
+    - testing
+    - functional
+title: 'CloudABI Easily develop sandboxed apps for UNIX'
+language: English
+recordingDate: 1520372823
+description: "by Ed Schouten\n\nAt: FOSDEM 2017\n\nOne of the fundamental problems with UNIX-like operating systems is that theydon't seem to make it easy and intuitive to develop applications that arestrongly hardened against exploits through sandboxing. With CloudABI, we'retrying to make this process a lot easier.\n\nCloudABI is a blend of POSIX and pure capability-based security, which allowsyou to create applications that are only capable of accessing those thingsthat they are designed to use. As you'll see, software also becomes easier totest and deploy as a result of using this model.\n\nIn this presentation I am going to discuss a project I've been working on overthe last two years, called CloudABI. CloudABI is a simplified POSIX-likeruntime environment that is inspired by FreeBSD's Capsicum. It allows you tocreate programs that can solely interact with the environment through filedescriptors (capabilities). Compared to traditional UNIX-like systems, thisapproach has three advantages:\n\n  1. It reduces the impact of exploits. If an attacker manages to take over control of a CloudABI application, it can only access those resources that the application was designed to use (for a networked service: typically an already bound TCP socket and some data directories). This is different from most traditional UNIX-like systems, where an attacker would gain access to all resources that the user running the application can access, which is very broad.\n\n  2. It makes applications easier to test. By knowing that an application can only access those resources that are provided explicitly, the entire environment in which the application runs can be customized for testing.\n\n  3. Similarly, it makes applications easier to deploy. This model tends to reduce the need for using containers and virtual machines. Applications can be started directly, while still providing the necessary isolation from the rest of the system.\n\nIn this talk I'm going to explain how CloudABI works in detail, while alsodiscussing some of its design decisions. I'll also show how you can designyour own CloudABI programs.\n\nCloudABI is available for Linux, FreeBSD and Mac OS X. A NetBSD port alsoexists.\n\n\nRoom: Janson\nScheduled start: 2017-02-04 11:00:00"
