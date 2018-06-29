@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+    - spring
+title: 'Devoxx Poland 2016 - Christopher Batey - The Java developers'' guide to asynchronous programming'
+language: English
+recordingDate: 1468393157
+description: "Blocking/synchronous programming has been the norm in Java. However this programming model has a major limitation: it requires one thread per concurrent request. This means that the number of requests you can process concurrently cannot exceed the number of threads, which limits scaling. This talk will explore how an asynchronous programming model can be used to avoid this limitation.\n\nAfter an introduction to asynchronous design, there will be a live coding session where we will build an example service that makes concurrent calls.\n\nWe will cover the following tools:\n- The Java Future\n- New in Java 8: The CompletableFuture\n- RxJava Observables\n- The async Servlet, Spring and JAX-RS APIs\n- The Ratpack Promise\n\nThe see the following patterns:\n- Merging multiple calls into a single result\n- Returning a result when a subset of multiple calls return without blocking waiting for the rest (e.g. saving an audit log without blocking the user request)\n- Executing multiple calls and creating a result from the one that returns first\n\nBy the end of the session you should be aware of the popular tools you have for non-blocking programming in Java and when and why you should use them."

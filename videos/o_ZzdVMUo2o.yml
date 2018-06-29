@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+title: 'Migrating to Microservice Databases: From Relational Monolith to Distributed Data by Edson Yanaga'
+language: English
+recordingDate: 1501572091
+description: "In a Microservices architecture with multiple moving parts we can’t allow that a single complement downtime breaks down the entire system. Dealing with stateless code is easy, but it gets much harder when we have to deal with persistent state. In this scenario, zero downtime migrations are paramount to guarantee integrity and consistency.\n\nWithin all the Microservices characteristics, undoubtedly the one that creates more perplexity is the “one database per Microservice”. However, very few teams have the privilege of starting something from scratch: most of the times they have a legacy database that will survive any new implementation.\n\nIn legacy systems you traditionally have a model that adopts transactions and CRUD. Now we must reassess some of these concepts. In this talk we’ll discuss consistency, CRUD and CQRS, Event Sourcing, and how these techniques relate to each other in many different integration strategies for databases. We’ll explore Views, Materialized Views, Mirror Tables, Event Sourcing, Data Virtualization, Change Data Capture, and how these strategies enable you to build up a Microservices architecture from a legacy monolithic relational database."

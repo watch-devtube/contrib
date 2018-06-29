@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+title: 'Devoxx Poland 2016 - Louis Jacomet - Data consistency: Analyse, understand and decide'
+language: English
+recordingDate: 1468393201
+description: "Most applications handle some form of data. And quickly you end up duplicating this data … whether going from a JPA entity to a DTO, offering a caching layer on top of your services or even because the database is replicated and clustered.\n\nAs soon as there is duplication, there is a risk of inconsistency. How long is my DTO meaningful? How do I invalidate my cache? What happens if asynchronous data replication fails?\n\nAnswering these questions quickly becomes extremely complicated and most often requires a final decision be made at the application level.\n\nBy illustrating these concepts using the resilience strategy developed for Ehcache 3, we will see that even for libraries targeted at handling data consistency in the face of failure, only the application may know the answer.\n\nHandling these issues from day one, during design and architecture, is a major concern. And after all, isn’t the easy path quite boring?"
