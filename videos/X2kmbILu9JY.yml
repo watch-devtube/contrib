@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ux
+    - mobile
+    - android
+title: 'Gradle in Android Studio 3.2 and beyond - Alex Ruiz'
+recordingDate: 1529660544
+description: "Android Studio is a build system-centric IDE, where Gradle is the only source of truth:\n- Projects in the IDE are set up based on the structured obtained by Gradle.\n\n- Builds are delegated to Gradle, instead of the IDE's own infrastructure.\n\nThis decision was made when we started Android Studio back in 2013, with the following benefits in mind:\n- IDE configuration files (IML files) are generated when syncing a project with Gradle. Android developers no longer have to manually edit IML files.\n\n- Build output will be the same regardless of where the build is executed: IDE, command line or CI server.\n\nEven though Android Studio delivered on these promises, there is still friction between Android Studio and Gradle, making the user experience not awesome:\n\n- Syncing a project with Gradle is slow.\n\n- Syncing a project with Gradle is not automatic, and is a process that has to be manually started.\n\n- Editing build.gradle files is not trivial.\n\n- There is no way to visualize the complete structure of a project: a full dependency graph (including transitive dependencies not declared in build files,) how build variants are composed (how product flavors, dimensions and build types are combined,) etc.\n\n- Importing big projects (with a few hundred modules) makes the IDE crawl.\n\nIn this session, I'll cover each problem and the work my team is currently doing to solve each of these issues. \nAs part of this session, I'd love to gather feedback from the audience, to have a better understanding of their pain points and how our strategy aligns with their priorities."
