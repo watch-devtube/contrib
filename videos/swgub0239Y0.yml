@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'GoGaRuCo 2012 - Services, Scale, Backgrounding and WTF is going on here?!??!'
+recordingDate: 1436891480
+description: "Services, Scale, Backgrounding and WTF is going on here?!??! by: David Copeland\n\nYou want to improve the performance of your app, or you want to keep your system composed of small, easy to understand services. You start using background jobs, REST calls, and cron. And then weird things happen.\n\nDesigning services from the start can be tricky, but there is guidance out there. Extracting services can be even trickier, and whenever there's a message queue or job processing system, it becomes very difficult to truly understand the order in which things happen in your system. If you're lucky, you've got alerting when things go wrong, but even then, what do you do about it?\n\nThis talk will go through an increasingly frustrating set of circumstances that I've seen on a regular basis at LivingSocial as we extracted code from a monolithic app into a set of services. I'll then show the solutions to these issues that make our payment processing system more or less bullet-proof, and generalize these lessons into what you can do when extracting and designing services."

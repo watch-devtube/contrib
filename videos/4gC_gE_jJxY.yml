@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+title: 'SREcon17 Asia/Australia: Talking to an OpenStack Cluster in Plain English'
+language: English
+recordingDate: 1497561675
+description: "Wei Xu, Tsinghua University\n\nModern systems build on layers and layers of abstractions with tons of modules. These abstractions help the development but make it a nightmare to operate. OpenStack is a system of this kind: its states, including persistent (DB) states, are distributed across dozens of modules in the system. Operators have to access these states using obscure command line tools that has hundreds of switches no one remembers. Integrating it with other open source projects like Ceph further complicates the problem. Reasoning about the inconsistencies of these states – one of the leading causes of user-visible bugs – is beyond what current log-based monitoring systems’ capability. \n\nAs both system operation practitioners and academic researchers, we discuss our experience in operating a 130-node OpenStack private cloud, as well as our research on how we automatically build a knowledge graph based on system states and logs. We will demonstrate our natural language interface that can provide all information about the system, crossing layers, and modules – all with plain English queries. Finally, we also present a simple anomaly detection system indicating “why” a problem happens.\n\nSign up to find out more about SREcon https://srecon.usenix.org"
