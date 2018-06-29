@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - python
+    - javascript
+title: 'Domen Kožar - Rethinking packaging, development and deployment'
+recordingDate: 1411368815
+description: "Domen Kožar - Rethinking packaging, development and deployment\n[EuroPython 2014]\n[22 July 2014]\n\nIn Python, we're trying to solve packaging problems in our own domain, but maybe someone else already solved most our problems.\nIn the talk I'll show how I develop and deploy Python projects that can be easily mixed with non-Python dependencies.\nhttp://nixos.org/nix/ will be demonstrated to replace technologies in our stack: pip, virtualenv, buildout, ansible, jenkins.\n\n-----\n\nPython is often mixed with other languages in development stack, nowadays it's hard to escape any JavaScript dependencies. If you add some C dependencies such as GStreamer to the stack, packaging becomes a burden.\n\nWhile tweaking our packaging infrastructure will make things better, it's hard to fix fundamental problem of packaging with current ad-hoc solutions in Python domain.\n\nUsing Nix (http://nixos.org/nix/) for about a year gave me an insight that solving packaging problem at operating system level (bottom-up) is a better approach.\n\nFor example, wouldn't it be cool to have \"virtualenv\" implemented inside your package manager, so you could isolate also non-Python dependencies and not just Python packages for your project and not worry if system was updated?\n\nWe'll also show what benefits do we get by using the same tool for development and deployment and how little we have to do to deploy our application.\n\nTo see how Haskell community is touching the same subject, see blog post http://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html"
