@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - elixir
+    - testing
+    - ruby
+title: 'ElixirConf 2015 - Confident Elixir by Lance Halvorsen'
+recordingDate: 1444835377
+description: "This talk will be in dialog with Avdi Grimm's book \"Confident Ruby\". It will also be a distant echo of Kent Beck's book \"Smalltalk Best Practice Patterns\". We'll talk about what confidence looks like in code, and how to achieve it. We'll look at examples of non-confident code in Ruby, briefly look at how to make them less timid, and then spend quality time with them in Elixir.\n\nConfidence is reflected in code which clearly states its intention. It means removing the clutter of conditionals and error handling which obscure meaning and flow. Elixir provides many language-level constructs to make confident code the natural path to follow. Pattern matching, multi-clause functions, guard clauses, and protocols all foster code confidence. Tagged tuples provide significant, non-nil return values, and structs provide a form of type system. We'll introduce each of these and show how they can work together to even greater effect. We'll work up to supervision trees, the ultimate trump card in confident Elixir code.\n\nLet's look at a quick example involving inserting a new record into a database. In Ruby, we might use the ActiveRecord save method, which returns boolean true on success and false on error. This pushes us toward a branching conditional."

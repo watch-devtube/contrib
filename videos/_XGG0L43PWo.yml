@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - python
+title: 'Selinon Distributed dynamic task flow management with Python'
+language: English
+recordingDate: 1521326900
+description: "by Fridolín Pokorný\n\nAt: FOSDEM 2017\n\nSelinon is a project that is based on popular Python project Celery. Celery isa distributed task queue that offers one to run tasks. Selinon gives one apower to define flows and dependencies in flows, schedule tasks based onresults of workers, success or any external events, handle errors, trace flowstate and actions in a distributed environment. Its main goal is to split tasklogic (code) and persistence logic from data and time dependencies betweentasks in flows that are stated in simple YAML configuration files.\n\nSelinon is an advanced flow management above Celery project (an asynchronousdistributed task queue) written in Python3, that allows you to dynamicallyschedule tasks based on results of previous tasks, group tasks to flows,schedule flows from other flows, store results of tasks in your storages anddatabases transparently, validate results against defined JSON schemas, trackflow progress via the build-in tracing mechanism, complex per-task or per-flowfailure handling with fallback tasks or fallback flows and run the wholesystem in a distributed environments orchestrated by OpenShift or Kubernetes.\n\n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2017-02-05 09:30:00"

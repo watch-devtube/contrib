@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - docker
+    - kubernetes
+    - python
+title: 'Cloud Native Python The road to being a first-class Kubernetes application'
+language: English
+recordingDate: 1521326982
+description: "by Floris Bruynooghe\n\nAt: FOSDEM 2017\n\nServerside applications are more and more likely to need to run in dynamiccloud environments where they can automatically scale as required. Onerightfully popular approach is to run the application as a Docker containerinside a Kubernetes cluster, giving you a lot of operational benefits thanksto the Kubernetes folks.\n\nFor the most part it is rather easy to make your Python application workinside a Docker container. But there are a number of common patterns one canfollow to save time by delegating more things to the runtime environment.Furthermore you can start adding a few simple non-intrusive features to yourapplication which will help improve the application live-cycle in the cluster,ensuring smooth hand-over when migrating the container to different nodes orscaling it up or down.\n\nThis talk will discuss how to write a Python application which will behavewell in this environment, starting with the basics steps you can rely on theruntime for, covering logging and all the way to supporting the service life-cycle, health checking and monitoring in a Kubernetes environment. You willsee that building a cloud-native application is not very hard and somethingyou can gradually introduce.\n\n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2017-02-05 12:00:00"
