@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - rest
+    - storage
+    - architecture
+    - ruby
+title: 'Ruby Conf 2011 Rails services in the walled garden  (Niranjan Paranjape, Sidu Ponnappa)'
+recordingDate: 1319662035
+description: 'In typical service oriented architectures, monolithic applications are sliced along domain verticals to create several independently evolving ''services'' that can be used in combination to achieve various outcomes. Rails applications lend themselves to this architecture beautifully and are slowly making inroads in big organisations for this reason. One of the big problems with this approach is that analyzing and managing large quantities of data from multiple services to produce a result becomes very hard. What was originally a relatively simple task when all data sat in the same database as part of a monolithic application, becomes, when split into multiple services, a whole different beast. This talk will focus on our experiences building a system involving about a dozen rails based services integrated over HTTP and XML and the issues we had to deal with when working with large data sets. We will talk about: * Various problems we faced while building RESTful APIs which demanded asynchronous communication between two services * Places where this asynchronous communication was needed to be initiated by the server, essentially a push mechanism instead of pull * Different approaches to this solution ** Sharing a database using read-only ''remote models'' ** Creating read only local caches at each consumer *** Propagating updates by having the producer explicitly update each consumer *** Propagating updates using a message queue and the pros and cons of integrating with them in Ruby'

@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Lonestar ElixirConf 2017- Shattering your application into an umbrella project by Luke Imhoff'
+language: English
+recordingDate: 1488299184
+description: "Lonestar ElixirConf 2017- Shattering your application into an umbrella project by Luke Imhoff\n\nWith the announcement of Phoenix 1.3 supporting umbrella projects at ElixirConf 2016, I was inspired to start early on converting our Phoenix 1.2 application to umbrella. Since the umbrella project templates weren't publicly available yet, I had to find the seams in our single, monolithic application where I could start breaking it into OTP apps for the umbrella project. \n\nI'll cover the thought process of how I broke up the app and what guidelines I use now when adding new code as to whether add it to a pre-existing application or to make a new OTP application. I'll share the common code I was able to share between our RPC server and API controllers, which I believe is a good behaviour for resource module in Phoenix 1.3."
