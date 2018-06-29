@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - performance
+    - containers
+    - kubernetes
+    - security
+title: 'Enforcing Bespoke Policies in Kubernetes [I] - Torin Sandall, Styra'
+recordingDate: 1513374248
+description: "Enforcing Bespoke Policies in Kubernetes [I] - Torin Sandall, Styra\n\nKubernetes enables fully-automated, self-service management of large-scale, heterogenous deployments. These deployments are often managed by distributed engineering teams that have unique requirements for how the platform treats their workloads, but at the same time, they must conform to organization-wide constraints around cost, security, and performance. As Kubernetes matures, extensibility has become a critical feature that organizations can leverage to enforce their organization’s bespoke policies.\n\nIn this talk, Torin explains how to use extensibility features in Kubernetes (e.g., External Admission Control) to enforce custom policies over workloads. The talk shows how to build custom admission controllers using Initializers and Webhooks, and shows how the same features lay the groundwork for policy-based control through integration with third party policy engines like the Open Policy Agent project.\n\nAbout Torin Sandall\nTorin Sandall is the technical lead of the recent open source Open Policy Agent (OPA) project. He has spent 10 years as a software engineer working on large-scale distributed systems projects. Prior to working on the Open Policy Agent project, Torin was a senior software engineer at Cyan Inc. (acquired by Ciena Corp.) where he designed and developed core components of their SDN/NFV platform such as modelling languages as well services for resource orchestration and topology discovery. Torin has recently given talks on policy-related topics in Kubernetes at ContainerDaysPDX and LinuxCon Beijing as well as the Kubernetes Community Meeting and the Kubernetes SF meetup."
