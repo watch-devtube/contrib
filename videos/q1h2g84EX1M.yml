@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - go
+title: 'SREcon17 Asia/Australia: Golang''s Garbage'
+language: English
+recordingDate: 1497561678
+description: "Andrey Sibiryov, Uber\n\nIn the first part of this talk, we’ll chat about the design of Golang’s Garbage Collector (GC) and the theory behind modern garbage collection in general. We’ll go over common GC traits, such as whether a given GC is exact, generational, compacting and so on, try to figure out each trait’s upsides and downsides and how they relate to the current and future Golang’s GC designs.\n\nIn the second part, I’ll use a particular in-memory database project as an example to demonstrate some easy and some quite complicated tricks on memory management aimed at overcoming certain design shortcomings and trade-offs made in Golang’s GC. We’ll chat about the ubiquity and the cost of pointers, the runtime optimizations out there that might help reduce the pointer burden (like pointerless maps and channels, and uintptr-based weak pointers), about object pooling and how sync.Pool is a very different animal from your common channel-based pools.\n\nIn the third and final part, we’ll hit the rock bottom and chat about some dark magic with native heap allocations and alternative unsafe heaps.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

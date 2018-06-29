@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'SREcon17 Asia/Australia: Testing for DR Failover Testing'
+language: English
+recordingDate: 1497561676
+description: "Zehua Liu, Zendesk\n\nDisaster Recovery is an important area in SRE. A simplified scenario is recovery from a full data centre failure. The Zendesk Chat backend infrastructure operates in a single data centre. The way to be sure that DR works is to perform a real failover. The past failover attempts were full of surprises and unexpected issues, most of them having to do with the applications failing to work after failover, due to various reasons. These unexpected issues led to failed failover tests and/or extended maintenance window due to extra efforts required to bring things back to order, causing bad customer experience.\n\nHow can we increase our confidence in the system being working after failing over? We want to confidently declare that it should work, instead of typing the finger-crossed emoji. In this talk, we share our experiment with setting up testing for the DR environment. The biggest question here is whether we would accept writes to the DR DBs other than those coming from replication from production. The compromise is between the risks of production stability and risks of failed DR failover. We will discuss the alternates we considered and the final approach we have adopted.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

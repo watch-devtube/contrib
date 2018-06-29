@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'Composing system services in GuixSD or how we came to wonder what a "system service" really is'
+language: English
+recordingDate: 1520694233
+description: "by Ludovic Courtès\n\nAt: FOSDEM 2017\n\nWhat's a \"system service\"? How do we model that in GuixSD?\n\nIn most people’s mind, system services are a bunch of daemons that simply needto be started at boot time, or whenever they are actually needed. Possiblyservices form a dependency graph, and possibly they are actions other thanspawning a daemon, such as mounting a file system.\n\nAs always, the devil is in the detail, and reality is that “system services”on a modern GNU/Linux system—with udev, dbus, polkit, along with moretraditional Unix services—include lots of different “activities”, with lots ofinteractions among them. That naive picture of a graph of services no longerworks.\n\nThis talk is going to tell the story of system services in GuixSD. GuixSDstarted from the naive visions of a “dependency graph of actions” to evolveinto a generic model of service composition. I will describe what makesGuixSD’s service composition model unique, and how it helps users andsysadmins reason about the whole system.\n\n\nRoom: K.4.601\nScheduled start: 2017-02-05 11:00:00"

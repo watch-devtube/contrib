@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'SREcon17 Asia/Australia: Accept Partial Failures, Minimize Service Loss'
+language: English
+recordingDate: 1497561674
+description: "Daxin Wang, Baidu Inc.\n\nLarge Internet products are too complex to completely recover from a failure rapidly, as root cause localization and large scale operation are very time-consuming. If the failures can be isolated to a small part of system, we can transfer user query to the other parts still work, or cut off the failed minor subsystem, which is much more rapid than completely system recovery. This talk will presents some practical experiences for failure isolation in Baidu.\n\nFirst, we should have at least N+1 data center redundancy, and eliminate unnecessary global “single-point” module. All automated operations should be limited to execute in one data center first. When the system in one data center is damaged by network or software failure, we can transfer user requests to other data centers rapidly, even automatically.\n\nSecond, we make the non-essential components of the system detachable. When one of them fails, it can be detached immediately to keep the major function still work for user.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

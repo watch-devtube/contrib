@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - docker
+    - kubernetes
+title: 'SREcon17 Asia/Australia: Distributed Scheduler Hell'
+language: English
+recordingDate: 1497561678
+description: "Matthew Campbell, DigitalOcean\n\nAt DigitalOcean we went through growing pains of trying out 5 of the top major Docker container schedulers, Mesos, Kubernetes, Docker Swarm, Nomad and we even tried manual scheduling of containers. We will walk through how we chose different schedulers for different applications, and tips and tricks for choosing a scheduler to use. Also we will discuss in detail about the internals of distributed schedulers and why most are written in GO.\n\nThis talk will start off teaching people the basics of how process schedulers work in linux. Then we will expand to how schedulers like Nomad/Kubernetes work across entire clusters. We will go into detail about how to build a simple scheduler in Go. DigitalOcean also uses a Go based scheduler for deploying Virtual machines, we will delve into how scheduling different types of resources like containers vs virtual machines work. Also we will glance over what some popular scheduling systems are.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
