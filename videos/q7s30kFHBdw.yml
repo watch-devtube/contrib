@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+title: 'Golang UK Conference 2016 - Travis Bischel - When Idioms Become Bottlenecks'
+recordingDate: 1473278740
+description: "Idiomatic Go code is composable and easy to understand, greatly improving the experience of writing new code and contributing to unfamiliar code bases. This allows Go to compete as a language suitable for myriad tasks. When using Go as a low-level systems language, occasionally idioms come back to bite you.\n\nIdioms are generally great: they provide portability guarantees as well as a common baseline for programmers. However, these idioms sometimes break down when applied to scalable systems code. For example, we’re told not to use the \"unsafe\" package, instead, avoid performing “unsafe” memory operations. Similarly, don't use \"atomic, use \"sync\" instead. In essence, “Don't be clever.” In some cases, following these idioms to the letter becomes a real bottleneck.\n\nIn this talk, we'll explore how eschewing some of these idioms leads us to predictable latency and in some cases drastically improved throughput. We can use low level, “unsafe” primitives correctly through careful coding. We'll look at how to do this without sacrificing too much in terms of composability, comparing several concurrent communication patterns in Go to non-idiomatic counterparts in the context of a messaging platform."

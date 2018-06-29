@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - python
+    - java
+    - 'c#'
+title: 'Fang: Pythonic dependency injection by Nathan Craike'
+recordingDate: 1438658609
+description: "Dependency injection (DI) is a technique most often used in \"big OO\" languages like Java and C#. It's usually dismissed by Python developers as only needed because of these other languages' deficiencies: static typing, restrictive object systems, lack of reflection, etc.\r\n\r\nHowever, there are other dynamically-typed languages which do use forms of dependency injection. From looking at these systems, we can see there are some advantages to dependency injection _even if_ you're not using a traditional \"big OO\" language with static types and interfaces. Dependency-injected code can be more modular, much easier to test, easier to analyse, and easier to modify or extend to meet new requirements.\r\n\r\nDespite this, there aren't many dependency-injection systems for Python. The few that do exist aren't \"Pythonic\", or implement DI in ways that compromise a lot of its benefits.\r\n\r\nFang is a library which adds dependency injection to Python in a way which provides real benefits for code clarity, ease of testing, and maintainability, while still fitting naturally into Python's idioms. Fang describes dependencies concisely but explicitly, and doesn't restrict the developer to a particular paradigm on how dependencies are validated or met.\r\n\r\nThis talk will give a brief overview of how DI is used across a few languages (both traditional OO and dynamic languages) and highlight what elements of DI can be beneficial in Python. The talk will then demo how Fang can be used to add DI to Python code, and show some of the benefits to code clarity, unit testing and code analysis.\n\nPyCon Australia is the national conference for users of the Python Programming Language. In 2015, we're heading to Brisbane to bring together students, enthusiasts, and professionals with a love of Python from around Australia, and all around the World. \n\nJuly 31-August 4, Brisbane, Queensland, Australia"

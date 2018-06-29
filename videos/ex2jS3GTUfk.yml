@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - security
+    - java
+title: 'Testcontainers pour de vrais tests d''intégration d''Elasticsearch (D. Pilato)'
+language: French
+recordingDate: 1525249595
+description: "Les tests d'intégration peuvent devenir un cauchemar lorsqu'ils sont lancés depuis la même JVM que votre code:\n\nConflit de JARs (JAR Hell)\nSecurity Manager\nEffets de bord\nDe plus, tester avec un produit qui est lancé de façon différente de la façon dont il est lancé en production, ne garantira jamais que les tests d'intégration sont sincères.\n\nAussi, après avoir découvert le projet TestContainers qui lance des conteneurs Docker depuis, j'ai décidé d'écrire une implémentation pour Elasticsearch: testcontainers-java-module-elasticsearch. Je vous propose de découvrir tout cela pendant ce quickie."

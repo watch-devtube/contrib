@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - swit
+    - ios
+    - python
+title: 'Python for bridging between researchers and service operators: from CFFI to Jupyterhub'
+recordingDate: 1471244712
+description: "Kevin Plastow\nhttps://2016.pycon-au.org/schedule/108/view_talk\nThis talk will give an overview of a water forecasting system, which exposes via Python a suite of tools developed in C++ for hydrologists to use. \r\n\r\nPySWIFT is a Python software system that allows the use of SWIFT (Short-term Water Information and Forecasting Tools), a hydrologic suite of tools for flood and short-term streamflow forecasting.\r\n\r\nWhen integrating the SWIFT C++ system with Python, we aimed to achieve two main goals: \r\n1. Provide a productive and interactive environment for hydrological modelling.\r\n2. Take advantage of a complex multi-threaded C++ suite of tools that enables rapid execution.\r\n\r\nTo achieve the first goal, we created a modelling environment using JupyterHub. In this environment, modellers can set up, run, inspect and modify models, which is ideal to conduct exploratory experiments with the models. \r\nTo achieve the second goal, we used CFFI to create a Python wrapper for SWIFT’s API. CFFI allows us to interact with SWIFT’s C interface. \r\n\r\nIn this presentation, we will highlight the challenges and learnings that came about whilst building this system."

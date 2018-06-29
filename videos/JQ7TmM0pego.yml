@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Intégration continue d’images Docker (Benoît Gastinne - Arnaud MAZIN)'
+language: French
+recordingDate: 1493053779
+description: "L'histoire de la construction à partir de zéro d'une mécanique d'intégration continue dans une usine à images Docker.\n\nNous suivrons cette construction étape par étape. Nous partirons du minimum vital permettant de construire automatiquement des images, pour ensuite choisir et intégrer les éléments de validation et de distribution permettant d’aller sereinement jusqu’au déploiement dans des environnements de production.\n\nAu menu : gestion des sources et orchestration (GitLab CI), promotion vers une Registry sécurisée (Portus par SUSE), signature (Notary) et déploiement vers Kubernetes, et bien sur des tests (sur les conteneurs «live» avec BATS), des tests (de vulnérabilité avec Clair de CoreOS), des tests (sur les déploiements) !"

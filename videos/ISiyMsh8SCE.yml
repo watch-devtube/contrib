@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - javascript
+title: 'Shared memory multicore computation in JavaScript by Lars Hansen at Web Rebels 2015'
+language: English
+recordingDate: 1443798659
+description: "My phone has four cores, my laptop has eight, and my workstation has sixteen, but my scripts can only easily use one core at a time. We need to give JavaScript access to the full power of the machine, if web apps are to remain as capable as native apps. Workers communicating with events and marshaled data are safe, but slow and awkward; Parallel JS is also safe, but again slow and awkward. The power remains locked away. So what are we to do?\nSuppose we sacrifice a little safety for a lot of performance: We give JavaScript workers access to shared memory, and let them truly share data and communicate through the shared memory. A low-level framework is all we need initially; libraries can provide data-parallel abstractions, task queues, synchronization, and similar. Such a framework is available in Firefox Nightly now, and I will present it and demo some things we can do with it."

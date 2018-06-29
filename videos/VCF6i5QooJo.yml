@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - performance
+    - cloud
+    - mobile
+    - architecture
+    - python
+title: 'Tobias Kuhn, Nakul Selvaraj: Real-Time Monitoring of Distributed Systems'
+recordingDate: 1432904324
+description: "Instrumentation has seen explosive adoption on the cloud in recent years. With the rise of micro-services we are now in an era where we measure the most trivial events in our systems. At Trademob, a mobile DSP with upwards of 125k requests per second across +700 instances, we generate and collect millions of \_time-series data points. Gaining key insights from this data has proven to be a huge challenge.Outlier and Anomaly detection are two techniques that help us comprehend the behavior of our systems and allow us to take actionable decisions with little or no human intervention. Outlier Detection is the identification of misbehavior across multiple subsystems and/or aggregation layers on a machine level, whereas Anomaly Detection lets us identify issues by detecting deviations against normal behavior on a temporal level. The analysis of these deviations is simplified through the use of a time and memory efficient data structure called a t-digest. With t-digests we are able to store error distributions with high accuracy, especially for extreme quantile values.At Trademob, we developed a Python-based real-time monitoring system to conquer those challenges in order to reduce false positive alerts and increase overall business performance. By correlating a multitude of metrics we can determine system interdependencies, preemptively detect issues and also gain key insights to causality. This session will provide insights into both the system’s architecture and the algorithms used to detect unwanted behaviors.\n\nTobias Kuhn, Nakul Selvaraj"

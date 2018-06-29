@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - performance
+    - python
+title: 'Mehdi Amini - Pythran: Static Compiler for High Performance'
+recordingDate: 1403541977
+description: "PyData SV 2014 \nPythran is a an ahead of time compiler that turns modules written in a large subset of Python into C++ meta-programs that can be compiled into efficient native modules. It targets mainly compute intensive part of the code, hence it comes as no surprise that it focuses on scientific applications that makes extensive use of Numpy. Under the hood, Pythran inter-procedurally analyses the program and performs high level optimizations and parallel code generation. Parallelism can be found implicitly in Python intrinsics or Numpy operations, or explicitly specified by the programmer using OpenMP directives directly in the Python source code. Either way, the input code remains fully compatible with the Python interpreter. While the idea is similar to Parakeet or Numba, the approach differs significantly: the code generation is not performed at runtime but offline. Pythran generates C++11 heavily templated code that makes use of the NT2 meta-programming library and relies on any standard-compliant compiler to generate the binary code. We propose to walk through some examples and benchmarks, exposing the current state of what Pythran provides as well as the limit of the approach."

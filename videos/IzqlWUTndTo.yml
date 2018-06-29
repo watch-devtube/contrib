@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - .net
+title: 'Francesc Alted - Blosc: Sending Data From Memory to CPU (and back) Faster Than memcpy()'
+recordingDate: 1396548688
+description: "http://www.slideshare.net/PyData/blosc-py-data-2014\n\nBlosc is a high performance compressor optimized for binary data. It has been designed to transmit data to the processor cache faster than the traditional, non-compressed, direct memory fetch approach via a memcpy() OS call. Blosc is the first compressor (that I'm aware of) that is meant not only to reduce the size of large datasets on-disk or in-memory, but also to accelerate memory-bound computations (which is typical in vector-vector operations). It uses the blocking technique (as described in this talk: http://www.pytables.org/docs/StarvingCPUs.pdf) to reduce activity on the memory bus as much as possible. In short, the blocking technique works by dividing datasets in blocks that are small enough to fit in L1 cache of modern processor and perform compression/decompression there. It also leverages SIMD and multi-threading capabilities present in nowadays multi-core processors so as to accelerate the compression/decompression process to a maximum. Recently, in Blosc 1.3, support for different ultra-fast compressors like LZ4 and Snappy have been added, as well as LZ4HC and Zlib, which are more meant for achieving high compression ratios. This adds a lot of flexibility to Blosc, so that it can be used in more scenarios. During my talk I will explain why I created Blosc, and its ultimate goal: reducing memory I/O and hence, making computations more efficient."

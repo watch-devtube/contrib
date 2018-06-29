@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - cloud
+title: 'Monitorer l''inconnu, 1000 * 100 series par jour (C. Delafargue,  Q. Adam)'
+language: French
+recordingDate: 1525249278
+description: "Comment monitorer ce qu’on ne connait pas? Un des défis technique chez Clever CLoud, à part la scalabilité, c’est de monitorer automatiquement toutes les stacks techniques de nos clients, sans que l’on sache quoi que ce soit. Notre premier but quand nous avons reconstruit notre plateforme de monitoring était de supporter notre pattern Imutable Infrastructure qui génère quantité de hosts éphémères chaque minute. L’approche traditionel est de se concentrer sur les VMs et les Hosts, pas les applications?\n\nIl fallait changer de paradigme pour avoir une approche de découverte automatique des métriques à monitorer, permettre à du code tiers de publier ses propres métriques. Ce talk décrit le chemin qui nous a ammené à construire Clever Cloud Metrics, basé sur Warp10 ( basé sur Kafka/Hadoop/Storm) pour améliorer les conditions de travail de nos utilisateurs et la stabilité de nos applications."
