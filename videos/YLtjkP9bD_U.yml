@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - ruby
+title: 'RubyConf 2016 - Ruby’s C Extension Problem and How We''re Solving It by Chris Seaton'
+recordingDate: 1479750092
+description: "RubyConf 2016 - Ruby’s C Extension Problem and How We're Solving It by Chris Seaton\n\nRuby’s C extensions have so far been the best way to improve the performance of Ruby code. Ironically, they are now holding performance back, because they expose the internals of Ruby and mean we aren’t free to make major changes to how Ruby works.\n\nIn JRuby+Truffle we have a radical solution to this problem – we’re going to interpret the source code of your C extensions, like how Ruby interprets Ruby code. Combined with a JIT this lets us optimise Ruby but keep support for C extensions."

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'SREcon17 Asia/Australia: Smart Monitoring System for Anomaly Detection on Business Trends in Alibaba'
+language: English
+recordingDate: 1497561674
+description: "Zhaogang Wang, Alibaba Group\n\nAnomaly detection based on time series analysis approaches has been a focused theme in the field of monitoring, especially for business indicators monitoring. In Alibaba, hundreds of major KPIs need to be monitored in real time to detect the abnormal events and raise alarms. The effectiveness of the alarms is strictly evaluated by human operators. Therefore, we proposed an intelligent anomaly detection method to make the business monitoring system more scalable and easier to maintain.\n\nThere are two major problems in traditional anomaly detection approaches:\n\nHow to get accurate predictions based on seasonal time series data with complex noises and interferences.\nHow to determine the segmental thresholds dynamically, and learn from human feedbacks, e.g. the manual labelling data, to improve the accuracy of anomaly detection, and tolerate the error, event contradictions within the labelling data. \n \nFor the first problem, as a tradeoff among computation performance, accuracy and robustness, we introduced a specific method to pre-process the data, and chose the STL method to do predictions on our business data.\n\nFor the second problem, we proposed a closed loop feedback method to determine the initial segment thresholds, and utilized the human labelling data to update the thresholds continuously.\n\nSign up to find out more about SREcon https://srecon.usenix.org"
