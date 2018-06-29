@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - python
+title: 'A. Skrobov - How CPython parser works, and how to make it work better'
+language: English
+recordingDate: 1507904104
+description: "\"How CPython parser works, and how to make it work better\n[EuroPython 2017 - Talk - 2017-07-12 - PythonAnywhere Room]\n[Rimini, Italy]\n\nThe part of CPython core that parses the Python source code is some very old and convoluted code: the time has proven its reliability, but few CPython hackers understand (or care) how it works, or even what exactly it does. There is, however, a good reason to care: for short-running scripts, the performance of CPython may easily be dominated by that of parsing the source code.\n\nThe talk will describe the two parsers that are involved, it will explain how these two parsers build two different kinds of syntax trees, and then show how the structure of one of the trees can be amended to reduce its memory footprint threefold, with only minor changes necessary in its consumers. It will also suggest other, more invasive improvements, which can yield even better savings.\n\nThe talk will assume fluency in C and a basic acquaintance with CPython core internals, and will give the attendees an introduction into hacking the parser, guiding their way through to the very tangible end result of reducing Python overall memory consumption by up to 30%, measured at standard micro-benchmarks.\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2017.europython.eu/en/speaker-release-agreement/"

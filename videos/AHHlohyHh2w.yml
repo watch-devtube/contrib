@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - python
+    - functional
+title: 'Jean-Sébastien Bevilacqua - Call a C API from Python becomes more enjoyable with CFFI'
+language: English
+recordingDate: 1507904148
+description: "\"Call a C API from Python becomes more enjoyable with CFFI\n[EuroPython 2017 - Talk - 2017-07-12 - Anfiteatro 2]\n[Rimini, Italy]\n\nPython is slow ! Python can’t access bare metal!\n\nYou often hear theses assumptions? Theses limitations can be surpassed by Python extensions written in C. However, according to my personal experience, doing this by leveraging C may yield to several issues (e.g., memory management).\n\nC Foreign Function Interface for Python (a.k.a., CFFI) allows you to easily write Python extensions. One of the main aims of CFFI is to to wrap C libraries. Along the same lines, it may also be used for performance enhancement.\n\nBy this call, I am firstly presenting CFFI and it’s two modes of utilization: API level and ABI level. Then I will share my own experience about wrapping shaderc library (https://github.com/google/shaderc) in six hours pyshaderc (https://github.com/realitix/pyshaderc).\n\nNext we are going to the next level, let’s wrap all the Vulkan API! Vulkan is the new 3D API and is not a piece of cake. To see the real advantage of CFFI, a side by side comparison between two Python modules is going to be presented:\n\nCVulkan is a Vulkan wrapper written fully in C, it’s a classic C extension for Python\nvulkan is its CFFI counterpart without any C written, only Python\n\nI have developed two versions of Vulkan wrapper (one in a pure C, and the second by leveraging CFFI) and I can assure you that CFFI is a a way better!\n\nLet’s code!\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2017.europython.eu/en/speaker-release-agreement/"
