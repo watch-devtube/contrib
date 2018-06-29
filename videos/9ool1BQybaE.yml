@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+title: 'SREcon18 Americas - "Capacity Prediction" instead of "Capacity Planning":'
+language: English
+recordingDate: 1525124552
+description: "Rick Boone, Uber\n\nAt Uber, the majority of our services are in the critical path of customer-facing features (matching drivers and riders, handling ongoing trips, determining prices or ETA's, etc). Each of these services consumes resources (CPU, MEM, NET, DISK) in a manner which is \"driven\" by the behavior of 1 or more of a few key business metrics (\"Trips Occurring\", \"Drivers Online\", \"App Opens\", etc)—for instance, a CPU-bound, \"trips-driven\" service will see its CPU utilization increase when trips demand increases. With this in mind, along with historical data and machine learning algorithms in hand, we can statistically model the relationship between these key business metrics and the resource utilization of each individual service. This allows us to accurately build predictions of how many hardware resources any service will need at any arbitrary point in the future with stunning accuracy. This talk will walk you through the method of gathering the right data and applying machine learning to it, to allow you to revolutionize how you approach and perform capacity planning.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
