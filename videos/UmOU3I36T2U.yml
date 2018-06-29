@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - python
+title: 'LISA16: Linux 4.X Tracing Tools: Using BPF Superpowers'
+language: English
+recordingDate: 1492815536
+description: "Speaker: Brendan Gregg, Netflix\n\nAbstract: The Linux 4.x series heralds a new era of Linux performance analysis, with the long-awaited integration of a programmable tracer: BPF. Formally the Berkeley Packet Filter, BPF has been enhanced in Linux to provide system tracing capabilities, and integrates with dynamic tracing (kprobes and uprobes) and static tracing (tracepoints and USDT). This has allowed dozens of new observability tools to be developed so far: for example, measuring latency distributions for file system I/O and run queue latency, printing details of storage device I/O and TCP retransmits, investigating blocked stack traces and memory leaks, and a whole lot more. These lead to performance wins large and small, especially when instrumenting areas that previously had zero visibility. Tracing superpowers have finally arrived.\n\nIn this talk I'll show you how to use BPF in the Linux 4.x series, and I'll summarize the different tools and front ends available, with a focus on iovisor bcc. bcc is an open source project to provide a Python front end for BPF, and comes with dozens of new observability tools (many of which I developed). These tools include new BPF versions of old classics, and many new tools, including: execsnoop, opensnoop, funccount, trace, biosnoop, bitesize, ext4slower, ext4dist, tcpconnect, tcpretrans, runqlat, offcputime, offwaketime, and many more. I'll also summarize use cases and some long-standing issues that can now be solved, and how we are using these capabilities at Netflix.\n\nFull Program: https://www.usenix.org/conference/lisa16/conference-program"
