@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+    - functional
+title: 'GORUCO 2015: Bryan Reinero: Event sourcing'
+recordingDate: 1435943222
+description: "@blimpyacht\nEvent Sourcing is powerful way to think about domain objects and transaction processing. Rather than persisting an object in it's current state, event sourcing instead writes an immutable log of deltas (domain events) to the database. from this set of events, an object's state is derived, at any point in the past, simply by replaying the event history sequentially. Event sourcing is a deceptively radical idea which challenges our contemporary notions about transaction processing, while also being a mature pattern with a long history. This talk will take a look at how event processing is used across a spectrum of use cases, including database engines and financial systems, to Google Docs hacks.\n\n Talk given at GORUCO 2015: http://goruco.com"
