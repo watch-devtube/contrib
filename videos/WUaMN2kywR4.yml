@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'SREcon17 Asia Australia: Data Checking at Dropbox'
+language: English
+recordingDate: 1497561714
+description: "David Mah, Dropbox\n\nAt Dropbox, we’ve worked incredibly hard to build infrastructure that we are confident in trusting. A major aspect of our confidence comes from the verification of our data at rest, which gives us signal that our data will be properly usable when requests actually come in.\n\nIn this talk, we’ll break down the thinking about how to design and build a consistency checker system. We’ll start with the actual needs/goals of such a system, then follow with the sub-components of the system. We’ll include both distributed system design AND how to design your alert escalation workflow to be as simple as possible for human operators.\n\nAttendees are expected to leave the session understanding how they could build consistency checkers for their own systems. This includes:\n\n- Do you even need a consistency checker?\n- What independent components need to exist?\n- What is a good alerting + triaging workflow?\n- What is involved in an auto-remediation mechanism for constraint failures\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
