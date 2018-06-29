@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Putting Your Jobs Under the Microscope using OGRT'
+language: English
+recordingDate: 1520373017
+description: "by Georg Rath\n\nAt: FOSDEM 2017\n\nWith the advent of modern package managers for scientific applications(EasyBuild, Spack, etc.) automated building of large amounts of software isbecoming easier, quickly giving rise to issues related to life cyclemanagement of applications. This makes tracking the applications and librariesthat actually get used considerably more important. Existing solutions (moduleload hooks, launch wrappers) do not account for user-built software, are hardto deploy or produce inconclusive results.\n\nOGRT enables the tracking of jobs on a cluster with process-level granularityand without discernible performance penalty. It tracks used shared libraries,environment variables and loaded modules at the moment of process execution.It also supports watermarking executables and shared objects and reading thosewatermarks out of memory at runtime. Gathered information is collected andshipped to various backends.\n\nOGRT aims to be a versatile tool, which can be used to:\n\n  * provide a census of used software (including user-built)  * troubleshoot problems with programs picking up unexpected shared libraries  * retroactively inform users about buggy libraries  * overlay process-level data onto existing job monitoring tools  * contribute to reproducibility of application runs\n\nThis presentation will give an overview of the design and implementation ofOGRT, as well as demoing some of its capabilities when plugged into anElasticsearch backend.\n\n\nRoom: H.2213\nScheduled start: 2017-02-04 11:30:00"

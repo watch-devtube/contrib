@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+    - ios
+    - testing
+title: 'Infer A static analyzer for catching bugs before you ship'
+language: English
+recordingDate: 1520373246
+description: "by Jules Villard\n\nAt: FOSDEM 2017\n\nStatic analyzers are automated tools that spot bugs in source code by scanningprograms without running them. They complement traditional dynamic testing:Where testing allows individual runs through a piece of software to be checkedfor correctness, static analysis allows multiple and sometimes even all flowsto be checked at once. Infer is an open-source static analyzer that is usedinternally at Facebook to analyze the main apps for Android and iOS, FacebookMessenger, and WhatsApp, among others. Infer reports bugs responsible for appcrashes and performance issues, such as accessing null pointers, and leakingresources such as Context instances.\n\nEach month, hundreds of potential bugs identified by Infer are fixed by ourdevelopers before they are committed to our codebases and deployed to people'sphones.\n\nThis talk will present Infer and show how it can be integrated as part of thedevelopment workflow.\n\n\nRoom: H.2213\nScheduled start: 2017-02-05 13:30:00"

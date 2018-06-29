@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - python
+title: 'Reproducible HPC Software Installation on Cray Systems with EasyBuild'
+language: English
+recordingDate: 1520372964
+description: "by Guilherme Peretti-Pezzi\n\nAt: FOSDEM 2017\n\nEasyBuild is a framework for building and installing (scientific) software onHPC clusters, implemented in Python and available under the GPLv2 FOSSlicense. It has served HPC support teams well on standard Linux/x86 systemssince 2012.\n\nMore recently, interest has grown to also employ EasyBuild on Cray systems,where the Cray Programming Environment (PE) not only provides common tools(compilers, ...) and libraries (MPI, BLAS/LAPACK, FFTW, ...), but also tunedinstallations of 3rd party libraries like HDF5, netCDF and PETSc. The Cray PEconsists of an extensive stack of environment modules, providing a familiaryet complex working environment of users.\n\nTo leverage the Cray PE a couple of enhancements had to be made to EasyBuild,including support for using 'external' modules, and defining Cray-specificcompiler toolchains. In addition, the way in which EasyBuild deals withenvironment modules had to be carefully revisited, since standard operationslike 'module purge' are not supported by the Cray PE.\n\nThis work has led to the use of EasyBuild in production on the largest Craysupercomputer in Europe, the Piz Daint system at the Swiss NationalSupercomputing Centre.\n\nIn this talk, we will outline how Cray systems are different from standard HPCsystems, motivate the need for a tool like EasyBuild despite the presence ofCray PE, and show how EasyBuild was tweaked to support reproducible softwareinstallations on Cray systems.\n\nWe believe this is interesting success story of how FOSS has significantlyenhanced the software environment on a multi-million dollar production system.\n\n\nRoom: H.2213\nScheduled start: 2017-02-04 11:00:00"

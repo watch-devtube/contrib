@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+title: 'Kafka Streams and Protobuf stream processing at trivago'
+language: English
+recordingDate: 1520373039
+description: "by Clemens Valiente\n\nAt: FOSDEM 2017\n\nA lot of components in the Kafka and hadoop ecosystem assume you are workingwith avro messages. In this talk I will highlight some of the advantages andchallenges of stream processing with protobuf encoded messages, and why itmight be worth using them.\n\nA powerful feature of protobuf messages is its handling of unknown fields, andthe ability to partially parse messages with different schema versions or noschema at all. This helps in stream processing when you don't actually need toknow all message fields in order to process and forward them.\n\n\nRoom: H.2213\nScheduled start: 2017-02-04 16:30:00"
