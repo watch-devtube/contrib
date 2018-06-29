@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Does your coffee machine speaks Bocce Teach your IoT thing to speak Modbus and it will not stop tal…'
+language: English
+recordingDate: 1520432998
+description: "Does your coffee machine speaks Bocce Teach your IoT thing to speak Modbus and it will not stop talking\nby Yaacov Zamir\n\nAt: FOSDEM 2017\n\nThere are many IoT dashboards out on the web, most will require networkconnection to a server far far away, and use non standard protocols. We willshow how to combine free software tools and protocols from the worlds of ITmonitoring, Industrial control and IoT to create simple yet robust dashboards.\n\nModbus [1] is a serial communication protocol developed in 1979 for use withprogrammable logic controllers (PLCs). In simple terms, it is a method usedfor transmitting information over serial lines between electronic devices.,it’s openly published, royalty-free, simple and robust.\n\nMany industrial controllers can speak Modbus, we can also teach “hobby”devices like Arduino boards and ESP8266 to speak Modbus [2]. Reliable, robustand simple free software Modbus client [3] will be used to acquire the metricsfrom our device, then the metrics will be collected [6][7] and sent toHawkular and Grafana [8] to store and visualize our data.\n\n(*) http://starwars.wikia.com/wiki/Bocce\n\n[1] https://en.wikipedia.org/wiki/Modbus [2]https://github.com/yaacov/ArduinoModbusSlave [3]https://github.com/yaacov/node-modbus-serial [6]https://github.com/hawkular/hawkular-client-python [7]https://github.com/yaacov/hawkular-client-cli [8]https://github.com/hawkular/hawkular-grafana-datasource\n\n\nRoom: AW1.126\nScheduled start: 2017-02-04 10:00:00"
