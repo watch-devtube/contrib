@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - performance
+title: 'Stephanie Mifsud - Optimizing queries for not so big data in PostgreSQL'
+language: English
+recordingDate: 1508615441
+description: "\"Optimizing queries for not so big data in PostgreSQL\n[EuroPython 2017 - Talk - 2017-07-13 - Arengo]\n[Rimini, Italy]\n\nHotjar’s user recordings count above 400 million, with supporting tables containing 4.5 billion records. This 5TB data fits nicely into Postgres and doesn’t quite merit the full big data suite of tools. However, at the rate of 1000 recordings per minute, and overall request rate of 750K per minute, the penalty of inefficient queries and updates can quickly cause nasty performance spikes if not thought out well.\nThis talk is about the challenges we faced at the lower end of big data: the good decisions which helped keep our application running and other lessons we had to learn the hard way\n\nConsiderations for Database Design\n\n\nDesign entities for the domain\nBalance normalization with performance\nSharding later has big migration costs, consider designing for this early\n\nSpeak to the database from your Web Application\n\n\nWhy use ORMs and at which level of abstraction?\nStored Procedures are fast, should we have more of those?\n\nBringing data closer to the application\n\n\nMaterialize Views\nDefer aggregations\nApplication Level Caching\n\nHandling Operational Troubles\n\n\nExplain(analyze, buffers) is your friend\nDetect and manage Index Bloat\nReduce Deadlocks\n\nReducing Impact of Background Maintenance Jobs\n\n\nKeep impact on database low with cursors and streaming\nPlan data retention policies early, so cleaning can be an ongoing process\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2017.europython.eu/en/speaker-release-agreement/"
