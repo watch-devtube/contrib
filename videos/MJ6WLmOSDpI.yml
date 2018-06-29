@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - security
+title: 'DEF CON 15 - Sergey Bratus - Entropy Based Data Organization Tricks'
+recordingDate: 1391484126
+description: "Sergey Bratus: Entropy-based data organization tricks for log and packet capture browsing.\nI will show how entropy, a measure of information content defined by Shannon in 1948, can provide useful ways of organizing and analyzing log data.\n\nIn particular, we use entropy and mutual information heuristics to group syslog records and packet captures in such a way as to bring out anomalies and summarize the overall structure in each particular data set. I will show a modification of Ethereal that is based on these heuristics, and a separate tool for browsing sys logs.\n\nOur data organization heuristics produce decision trees that can be saved and applied to building views of other data sets. Our tools also allow the user to mark records based on relevance, and use this feedback to improve the data views. \n\nOur tools and algorithm descriptions can be found at http://kerf.cs.dartmouth.edu\"For the past five years, my research at Dartmouth's Institute for Security  Technology Studies was related to application of information theory and  machine learning to log analysis and other security topics. Before that, I  worked as a research scientist at BBN Technologies on applications of  similar techniques to Natural Language Processing, English text and  speech."
