@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Hyper-converged, persistent storage for containers with GlusterFS'
+language: English
+recordingDate: 1520845237
+description: "by Jose Rivera and Mohamed Ashiq\n\nAt: FOSDEM 2017\n\nWhile containers themselves are stateless many applications still haverequirements on storage that should persist across containers and instances ofcontainers. Many such storage solutions require an administrator to set up astorage solution on hardware outside their existing container platforms.GlusterFS changes all that.\n\nGlusterFS is a software-defined, distributed, and scale-out filesystem. Recentdevelopments have made it possible to deploy GlusterFS as a containerizedapplication on your existing container platform (e.g. Kubernetes, OpenShift)thus allowing for a hyper-converged storage solution that only requires havingstorage devices attached to your nodes.\n\nIn this session we will cover how GlusterFS was containerized, how to deployit, and how it can provide persistent storage for other containerizedapplications.\n\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2017-02-05 14:45:00"
