@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - scala
+title: 'Anomaly detection in real-time a.k.a. simplicity is the ultimate sophistication by Piotr Guzik'
+language: English
+recordingDate: 1501629807
+description: "Imagine such situation: you have deployed a service to production and everything seems to work. After some time your phone rings and an analyst says ‘Could you help me with searching latest clickstream produced by your application?’. Well, now it got serious. To make matters worse, you have been notified about the error by your client. It shouldn’t have happened. It should be the other way round.\n\n@Allegro we found a solution for this use-case. I am going to tell you how we managed to detect anomalies (heavy web traffic after successful commercial, or fall of search events, or no clicks on Ad).\n\nWe tested all available solutions (Twitter detector, HTM algorithms) and came to conclusion that all machine learning models are too complicated. We didn’t understand them. We created our own simple model. I will show you how we moved from promising idea in R language to final working solution in Scala.\n\nIf you like buzzwords these might be for you: #Machine Learning, #Scala, #R, #Statistics, #Simplicity, #Real-time processing"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Rethinking Microservices with Stateful Streams by Ben Stopford'
+language: English
+recordingDate: 1501570665
+description: "Microservices are one of those polarising concepts that technologists either love or hate. Splitting applications into autonomous units clearly has advantages, but larger service-based systems tend to struggle as the interactions between the services grow.\n\nAt the core of this sits a dichotomy: Data systems are designed to make data as accessible as possible. Services, on the other hand, actively encapsulate. These two forces inevitably compete in the architectures we build. By understanding this dichotomy we can better reason about how services should be sewn together. We strike a balance between the ability to adapt quickly and the loose coupling we need to retain autonomy, long term.\n\nIn this talk we'll examine how Stateful Stream Processing can be used to build Event Driven Services, using a distributed log like Apache Kafka. In doing so this Data-Dichotomy is balanced with an architecture that exhibits demonstrably better scaling properties, be it increased complexity, team size, data volume or velocity."
