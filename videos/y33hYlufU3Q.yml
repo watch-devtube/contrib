@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - craftsmanship
+    - tdd
+    - agile
+    - ruby
+title: 'Smells and patterns in test/spec code by Sidu ponnappa and Aninda Kundu'
+recordingDate: 1337536758
+description: "The Ruby community is notable for it's whole-hearted adoption of Agile and XP, especially testing; testing is now a standard practice on the vast majority of Ruby codebases. TDD is commonly recommended because:\n\nIt makes for good design, helping one create well encapsulated, decoupled production code\nIt provides documentation for production code\nIt minimizes regression issues and makes bugs easy to diagnose and fix\nWhat is rarely discussed is the fact that a test driven codebase exhibits patterns and smells in test code just like it does in its domain code. These test smells are as useful in identifying quality issues as are, say, violation of the law of Demeter in domain code. This talk will cover some of the common patterns and smells that a test driven codebase exhibits and their implications.\n\nSome of the patterns/smells we will cover include:\n\nThe long test file\nThe test with too many assertions\nThe test that cannot fail\nThe test that has logic\nThe implementation bound test\nThe test with arcane terminology\nThe test that verifies program flow\nThe slow test\nThe test that has complex setup\nThe test that shows high churn\nThe test file that shows high churn"
