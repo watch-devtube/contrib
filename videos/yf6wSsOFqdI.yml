@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+title: 'Queueing Theory, In Practice: Performance Modelling in Cloud-Native Territory [I] - Eben Freeman'
+recordingDate: 1513365310
+description: "Queueing Theory, In Practice: Performance Modelling in Cloud-Native Territory [I] - Eben Freeman, Honeycomb.io\n\nKubernetes and similar cloud-native infrastructure make it easier than ever to adjust a service's capacity based on variable demand. In practice, it's still hard to take observed metrics, and translate them into quantitative predictions about what will happen to service performance as load changes. Resource limits are often chosen by guesstimation, and teams are likely to find themselves reacting to slowdowns and bottlenecks, rather than anticipating them. \n\nQueueing theory can help, by treating large-scale software systems as mathematical models. But it's not easy to translate between real-world systems and textbook models. This talk will cover practical techniques for turning operational data into actionable predictions. We'll show how to use results from queueing theory to develop a model of system performance. We'll discuss what data to gather in production to better inform its predictions -- for example, why it's important to capture the shape of a latency distribution, and not just a few percentiles. We'll also talk about some of the limitations and pitfalls of performance modelling.\n\nAbout Eben Freeman\nNow largely reformed after stints studying theoretical math and living as an itinerant rock climber, Eben is fascinated by tools that help humans better understand the systems they create. He works as an engineer at Honeycomb.io."
