@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - containers
+    - kubernetes
+title: 'Global Container Networks on Kubernetes at DigitalOcean - Andrew Sy Kim, DigitalOcean'
+recordingDate: 1525452552
+description: "Want to view more sessions and keep the conversations going?  Join us for KubeCon + CloudNativeCon North America in Seattle, December 11 - 13, 2018 (http://bit.ly/KCCNCNA18) or in Shanghai, November 14-15 (http://bit.ly/kccncchina18).\n\nGlobal Container Networks on Kubernetes at DigitalOcean - Andrew Sy Kim, DigitalOcean (Intermediate Skill Level)\n\nBuilding a container network that is reliable, fast and easy to operate has become increasingly important in DigitalOcean’s distributed systems running on Kubernetes. Today’s container networking technologies can be restrictive as Pod and Service IPs are not reachable externally which forces cluster administrators to operate load balancers. The addition of load balancers introduces new points of failure in a cluster and hinders observability since source IPs are either NAT’d or masqueraded. This talk will be a deep dive of how DigitalOcean uses BGP, Anycast and a variety of open source technologies (kube-router, CNI, etc) to achieve a fast and reliable container network where Pod and Service IPs are reachable from anywhere on DigitalOcean’s global network. Design considerations for scalability, lessons learned in production and advanced use cases will also be discussed.\n\nAbout Andrew\nAndrew is a Software Engineer at DigitalOcean and an active member of the Kubernetes community. At DigitalOcean, his team provides a robust and comprehensive set of tools for delivering services to production."
