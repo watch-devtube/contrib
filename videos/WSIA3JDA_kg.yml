@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: '16/10/11 - 01 - NumaGIC : a garbage collector for Big-Data'
+language: French
+recordingDate: 1476695880
+description: 'Sur une architecture avec de nombreux coeurs, les applications avec une grande empreinte mémoire souffrent à cause du ramasse-miettes. Quand le ramasse-miettes scanne la mémoire, il sature le réseau interne de la machine connectant les coeurs et les bancs mémoires. Nous résolvons ce problème avec NumaGiC, un nouveau ramasse-miettes reposant sur un algorithme issu du domaine des systèmes distribués. Notre évaluation sur deux multicoeurs avec 48 et 80 coeurs montre que NumaGiC permet de doubler les performances du ramasse-miettes sur plusieurs applications, dont Spark et Neo4j, gérant de grands volumes de données (350GB).'
