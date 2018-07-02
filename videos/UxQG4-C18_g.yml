@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - java
+title: 'crash test à haute vitesse'
+recordingDate: 1372147886
+description: "Votre application a réussie tous les tests, qu'ils soient unitaires, d'intégration, fonctionnels ou de charge ... mais vous vous posez toujours des questions.\n\n« Que se passe-t-il si votre fonctionnalité de recherche (module critique de votre applicatif) met plus de huit secondes à répondre ? »\n\n« Que se passe-t-il si l'accès à la base de données tombe ? »\n\n« Comment se comporte la JVM et votre application lorsqu'on atteint 80% de la heap ? »\n\n« Peut-on activer les logs GC à pleine charge tout en maitrisant l'impact de l'overhead ? »\n\n« Que se passe-t-il si un client accède à notre application par un réseau très lent ou de mauvaise qualité ? »\n\nAprès quelques retours d'expérience sur ce type de problème, nous verrons comment mettre en place des tests de charge à caractères techniques (robustesse) à l'aide de l'outil de test de charge Apache JMeter associé à JBoss Byteman, EJ JProfiler, JMX, Groovy et quelques commandes Unix. Le tout de manière automatisé : il suffira de lancer le script Apache JMeter qui s'occupera de tout le reste (lancement de Byteman, modification de l'application cible, etc.)."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'HTTP/2 en pratique (Alexis Hassler)'
+recordingDate: 1524054765
+description: "Je suppose que vous avez déjà vu cette démo montrant une image morcelée qui s'affiche tellement plus vite en HTTP/2. Si ce n'est pas le cas, je vous la montrerai, et je vous expliquerai brièvement pourquoi c'est aussi rapide.\n\nLe but de cette présentation, c'est surtout de vous montrer comment HTTP/2 est implémenté aujourd'hui, en accès direct ou en reverse proxy. On verra en particulier comment configurer les principaux serveurs Web du marché, comme Apache httpd, nginx ou NodeJS.\n\nComme souvent, le cas de Java est un peu plus compliqué. Rien que pour Tomcat, il y a plusieurs variantes : en h2 ou h2c, avec Java 8 ou Java 9, avec JSSE ou OpenSSL. Je vous expliquerai pourquoi toutes ces variantes. Ensuite, on fera un petit tour des autres serveurs Web et Java EE de l'écosystème et on verra que ce n'est pas aussi compliqué pour tous.\nEnfin nous évaluerons l'impact que peut avoir HTTP/2 sur notre code et comment les API Push peuvent faire charger l'image morcelée encore plus rapidement."
