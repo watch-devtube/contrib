@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+    - java
+title: '14/01/14 - 06 - YBL14 - Pimp my Inter Thread Communication aka Inter-Thread Messaging Architecture'
+recordingDate: 1389956182
+description: "Pour faire transiter des messages entre threads on utilise le plus souvent une queue comme medium de transport.\nC'est par compliqué à mettre en œuvre, et l'api est assez simple.\nEn revanche si on veut passer du HelloWorld avec 1 thread qui produit; une Queue comme medium ; un/plusieurs thread qui consomme, à une archi plus complexe par exemple:\n1/ Un producteur avec plusieurs consommateur qui consomment en parallèle le même message.\n\n2/ Un producteur avec plusieurs consommateur qui consomment en parallèle des messages différents\n\n3/ Une architecture Diamond \nProducer vers consumer-1 parallèle à consumer-2 vers consumer 3\n\nLa tache se complique, sans oublié la gestion du locking.\n\nUne solution qui allie simplicité, élégance mais aussi haute performance et open source est proposée par LMAX : Plateforme de trading, qui se prénomme Disruptor.\n\nDurant cette présentation, nous allons voir le cœur du Disruptor : RingBuffer aka CircularBuffer et aussi comment implémenter ces différents cas d'utilisation vu au dessus.\n\nVoici le pitch de LMAX sur disruptor http://www.lmax.com/disruptor\n\nLMAX Disruptor is a software pattern and software component for high performance inter-thread communication that avoids the need for message queues or resource locking.\n\nLMAX Exchange has open-sourced the Java implementation of the Disruptor component and a number of other libraries.\n\nPar Hichame El Khalfi"

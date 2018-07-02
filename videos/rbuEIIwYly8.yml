@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - architecture
+    - javascript
+title: 'BATTLESTAR GALACTICA: Saison 5 - Les Cylons passent dans le cloud avec Vert.x (Philippe Charrière)'
+language: French
+recordingDate: 1509115150
+description: "Ne cherchez pas, cette saison n’existe pas. 😭 BSG S5 Depuis la 1ère version de ce talk lors de l’édition 2015 du JUG SummerCamp les Cylons se sont mis à jour et ont décidé de \"passer au Cloud\"\nRappel:\n\nLes fonctions internes des \"Basestars\" (vaisseaux mères cylon) sont contrôlées par un système d'ordinateur central mi biologique, mi machine appelé l'Hybride. L'ensemble des 7 humanoïdes Cylons décidèrent lors du Plan (https://www.rottentomatoes.com/m/battlestar_galactica_the_plan/), de basculer l'ensemble des basestars en mode “microservices\" pour donner la possibilité à tous les Hybrides de calculer les positions de milliers de Raiders (chasseurs cylons) afin d'éviter qu'ils n'entrent en collision lors des attaques.\nLa mise en oeuvre du Plan consistera en ceci:\n\n    Microservices & Cloud-Native: Qu’est-ce c’est, bonnes pratiques, patterns, ...\n    Du code et de la démo: (Vert.x est polyglotte … donc il y aura plusieurs langages)\n        Ecrire un microservice en Vert.x\n        Gérer la partie “Discovery” (sinon personne ne va se parler) 📞\n        Gérer la partie “Houston we have a problem” (health checks, failures …) 🙀\n        Il y a toujours quelqu'un pour ne pas faire comme tout le monde 😡:\n            \"j'avais pas lu les specs, j'ai fait un service en Node.js, je peux jouer quand même?\"\n    Du déploiement: si ça marche en local, ça doit se déployer (et si les 😇 dieux d’internet sont avec nous)\n        déploiement \"en masse\" des hybrides et de quelques raiders sur une plateforme de cloud 😝\n\nA la fin de ce talk, vous aurez assez de matière pour être opérationnel rapidement sur le sujet\n\nPar : Philippe Charrière\n\nSlides : https://speakerdeck.com/k33g/le-plan\n\nTalk filmé au DevFest Toulouse 2017\nhttps://devfesttoulouse.fr"

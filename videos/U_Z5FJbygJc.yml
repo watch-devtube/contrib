@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - javascript
+title: 'Top 3 Don''t-Need-jQuery'
+language: English
+recordingDate: 1524816002
+description: "You don’t NEED jQuery today. Let’s look at the three things you totally can accomplish without dropping in the jQuery library on your app or site. $.ajax(), $().ready() and the jQuery DOM selector.\n\nThis is DevTips with David.\n\ndocument.querySelector()\nhttps://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector\nhttps://caniuse.com/#feat=queryselector\n\nDOMContentLoaded\nhttps://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded\nhttps://caniuse.com/#feat=domcontentloaded\n\nfetch()\nhttps://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch\nhttps://caniuse.com/#feat=fetch\n\nCodePen used in the video\nhttps://codepen.io/devtips/pen/VXbqqo\n\njQuery pushed Web 2.0 forward. But today the web has caught up. It wasn’t trivial to query the DOM ten years ago. jQuery solved that.\nIt also has a handy wait-for-the-DOM-to-load call. And it had handy features such as toggles for checkboxes, making AJAX requests (which are asynchronous JavaScript calls to other resources such as other JavaScript or XML or HTML documents), picking up form values, changing styles, or manipulate the DOM.\n\nIf you wanted to build something slightly more advanced back in the days, you almost needed jQuery. Today, you don't.\n\njQuery did things well. But I see people use it still and its fine. It just bugs me that today they could just as well NOT drop in that pretty big library, if all they want to do is either DOM selection, AJAX XHR fetching or waiting for the document to load."

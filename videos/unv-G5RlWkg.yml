@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - react
+    - containers
+    - docker
+    - architecture
+title: 'Design d''architecture modulaire à la BBC - Thomas Parisot'
+recordingDate: 1454429701
+description: "Vidéo tournée lors de #BlendWebMix 2015 !\n\nDesign d'architecture modulaire à la BBC - Thomas Parisot\n\nQuelle est la différence entre un composant visuel, un \"package\" npm, une image Docker et une machine, physique ou virtuelle ? À vrai dire, \"aucune\" : on attend d'eux résilience, composition et fiabilité.\n \nDans notre équipe de BBC R&D, nous avons pris le chemin de la modularité à plusieurs niveaux :\n \n- nous n'avons pas de WebApp : nous avons une application consomant des \"composants React\" ;\n- nous n'avons pas de génération séquentielle de métadonnées : nous avons une \"boucle événementielle distribuée\" faisant appel à une flotille de \"conteneurs Docker\" ;\n- nous n'avons pas d'architecture 3-tiers : nous avons des \"conteneurs Docker\" reliés entre eux et exposant des ports.\n \nCette approche s'est révélée être utile et efficace pour prototyper rapidement en quelques itérations. Car au-delà des principes d'ingéniérie, elle a permis de \"réduire la boucle de feedback\" avec d'autres corps de métiers et de \"faciliter la réutilisation\" de notre code par d'autres équipes de la BBC.\n \nCette présentation est un voyage technique et fonctionnel autour des concepts des architectures modulaires, de qualité et de résilience, à la fois pour les machines et les êtres humaines que nous sommes."

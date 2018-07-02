@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+    - java
+    - spring
+    - functional
+title: 'Quand nous avons emmené notre web app chez les Bisounours (Alexis Tual)'
+language: French
+recordingDate: 1509111343
+description: "Les Bisounours sont renommés pour avoir élu domicile dans les nuages. Mais depuis peu ils ne sont plus seul. Avec la popularité de plateformes comme Kubernetes, développer et déployer des applications \"cloud native\" devient un pré-requis. Démarrer \"from scratch\" avec des frameworks de type Spring Cloud est relativement aisé, mais adapter une application existante comporte des difficultés à surmonter.\n\nCette présentation technique détaille les changements entrepris pour faciliter le déploiement d'Artifactory 5 sur Kubernetes, Mesos sans toutefois tout re-écrire.\n\n- Pourquoi déployer sur Kubernetes et compagnie ?\n- Architecture Artifactory HA\n- Nouvelles exigences pour les nodes \"cloud native\"\n   * Stateless\n   * Immutable\n   * \"Network agnostic\"\n   * Stockage distribué\n- Comment remplir ces exigences ?\n   * Synchro des configs\n   * Stockage distribué \"maison\" avec redondance\n   * Working queue distribuée\n- Demo lancement d'un cluster Artifactory sur Kubernetes\n\n Par : Alexis Tual\n\nSlides : https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-c76d7.appspot.com/o/slides%2FBisounoursDevFestTlse2017.pdf?alt=media&token=7b4b5691-5372-463c-a73e-ec0db8c27119\n\nTalk filmé au DevFest Toulouse 2017\nhttps://devfesttoulouse.fr"

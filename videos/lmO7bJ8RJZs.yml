@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - security
+title: '16/06/28 - 01 - Secure Real Time Edition (Cryptpad/Xwiki)'
+language: French
+recordingDate: 1469098670
+description: "In 2013, XWiki SAS began work on the Chainpad project, which utilizes a minimal Operational Transformation (OT) algorithm with Blockchains (a technology popularized by Bitcoin) for Collaborative Real Time Editing (CRTE) that does not depend on a central server. XWiki SAS has since continued to build an ecosystem of collaborative editors that depend on Chainpad, most notably our RealTime WikiText and RealTime CKEditor WYSIWYG plugins in XWiki Enterprise, and Cryptpad: a standalone webserver written in Nodejs which serves a growing suite of prototypes.\n\nSince Cryptpad's server only acts as a relay, it can store and deliver messages without requiring knowledge of their content. It derives its name from the fact that all its applications encrypt their messages before they are sent to other clients, ensuring that the server remains oblivious.\n\nA browsers' native behaviour is to never send URL hashes in HTTP requests. We exploit this behaviour to make it possible for users to share symmetric encryption keys through URLs, making encrytion more accessible to a wider range of users.\n\nI will demonstrate our most recent developments: arbitrary DOM synchronization via \"HyperJSON\", multi-user form applications, serverless collaboration using WebRTC, collaborative lists and maps via realtime JSON, and collaborative canvas editing via FabricJS. I'll discuss the challenges presented by each of these projects, their current status, what we'd like to accomplish next, and how developers can take advantage of our work in their own applications.\n\n\nPar Ludovic Dubost et Aaron MacSween"

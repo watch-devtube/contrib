@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+title: '#serverless - 🛳 mettez-le en œuvre dans votre entre… (Ludovic Piot, Adrien Blind, Laurent Grangeau)'
+recordingDate: 1524054668
+description: "Tout comme le _Cloud IaaS_ avant lui, le _serverless_ promet de faciliter le succès de vos projets en accélérant le _Time to Market_ et en fluidifiant les relations entre Devs et Ops.\n\nMais sa mise en œuvre au sein d'une entreprise reste complexe et coûteuse.\n\nAprès 2 ans à mettre en place des plateformes managées de ce type, nous partagons nos expériences de ce qu’il faut faire pour mettre en œuvre du _serverless_ en entreprise, en évitant les douleurs et en limitant les contraintes au maximum.\n\nTout d’abord l’architecture technique, avec 2 implémentations très différentes : `Kubernetes` et `Helm` d'un côté, \n*Clever Cloud* _on-premise_ de l'autre.\n\nEnsuite, la mise en place et l’utilisation d’`OpenFaaS`. Comment tester et versionner du _Function as a service_. Mais aussi les problématiques de _blue/green deployment_, de _rolling update_, d’_A/B testing_.\nComment diagnostiquer rapidement les dépendances et les communications entre services.\n\nEnfin, en abordant les sujets chers à la production :\n\n* _vulnerability management_ et _patch management_,\n* hétérogénéïté du parc,\n* monitoring et alerting,\n* gestion des stacks obsolètes, etc."
