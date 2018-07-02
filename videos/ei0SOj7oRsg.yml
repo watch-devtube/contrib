@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - ios
+    - testing
+title: 'Introduction au marble testing Rx (Web, iOS, Android) (Alexandre Delattre)'
+language: French
+recordingDate: 1509115150
+description: "Ce quicky est une introduction à une technique de test innovante et visuelle d'un flow de données Rx, encore méconnue des utilisateurs de Rx.\n\nCette technique, inspirée des diagrammes marble, facilite énormément l'écriture d'un test unitaire d'un système asynchrone tout en réduisant la verbosité du test.\n\nAppliquée à un MVVM réactif, où les entrées utilisateurs, appels à des services et sorties sont cablés sous forme d'un flow Rx, il devient possible de tester le comportement de l'interface (ViewModel) dans le temps, sans recourir à du test end to end.\n\nCe talk s'appuiera sur l'exemple d'une application météo simple, ou l'utlisateur rentre le nom de sa ville et voit apparaitre la météo dans sa ville.\n\nLe marble testing permettra de tester aisément des cas \"tordus\", mais réalistes, tel qu'un utilisateur qui tape une autre ville alors que la météo de la ville précédente est encore en cours de chargement.\n\nL'exemple live sera donné en RxJs, mais l'application sera déclinée en RxSwift (iOS) et RxJava (Android) sur des repositories fournis ultérieurement.\n\nPar : Alexandre Delattre\n\nSlides : https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-c76d7.appspot.com/o/slides%2FRXMarbleTesting.pdf?alt=media&token=0863894e-d439-46c6-b70e-894c0830154f\n\nTalk filmé au DevFest Toulouse 2017\nhttps://devfesttoulouse.fr"
