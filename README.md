@@ -2,9 +2,13 @@
 # Dev.Tube Contribution Data
 
 ## Channel contribution guidelines
-* Only conference talks and panel discussions are accepted
+* Conference talks are accepted
+* Panel discussions are accepted
+* High quality video tutorials are accepted (only time-proven channels, with no aggressive marketing)
 * No webinars
 * No commercial videos
+
+> We do not add videos shorter than 5 minites. Short videos are automatically ignored.
 
 Channels can be added to [channels.yml](https://github.com/watch-devtube/contrib/edit/master/channels.yml).
 
