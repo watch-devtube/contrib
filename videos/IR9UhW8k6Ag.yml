@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: '[DevFest Nantes 2014] Scaling clusters declaratively with Kubernetes and Docker realisation'
+recordingDate: 1417093074
+description: "We’ve all written an application from scratch before. You start with some code on your laptop and tell a server to run it. You make tweaks, update manually, and realize that you’ve committed yourself to a very imperative process. It’s manual. Inefficient. What’s worse, it’s completely unreproducible.\nSo then you might turn to Docker, which solves the process-level reproducibility by packaging up a full execution environment. But once we get beyond a single machine, we need to coordinate the work across a cluster of machines -- trying to do it imperatively can quickly turn into a tangled mess! You want to declare to your cluster what you expect it to do, and have the cluster assign the resources to get it done, recover from failures, and scale easily. \nKubernetes is a recently open sourced cluster manager and scheduler that simplifies the complex tasks of deploying and managing your application. You simply declare the desired state, and Kubernetes does the work to keep it that way. In this talk, we’ll do a hands-on demonstration of how you can move from a single Docker container to many containers running across a cluster of machines by using Kubernetes.\n\nPresentation by Brian Dorsey"
