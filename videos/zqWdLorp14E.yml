@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - mobile
+    - android
+    - architecture
+title: '16/01/12 - 03 - YBL16 - Une stack logicielle de géolocalisation et geofencing à faible consommation'
+language: French
+recordingDate: 1453664245
+description: "En quelques années, la localisation est devenue l’une des données personnelles les plus prisées. Un grand nombre d’applications web et mobile utilisent cette information pour proposer des résultats plus pertinents (sites d’information, réseaux sociaux...) ou se reposent sur les systèmes de géolocalisation des terminaux des utilisateurs pour proposer des fonctionnalités supplémentaires (navigation, réalité augmentée…).\n\nAujourd’hui, il n’existe pas d’architecture généraliste standard permettant la mise en place simple de ce genre de services, et le développement de telles fonctionnalités en dehors de tout framework nécessite par ailleurs beaucoup de travail tout en soulevant un ensemble de problèmes techniques : diversité des terminaux clients et des méthodes de géolocalisation, précision, consommation énergétique, stockage et exploitation des données géographiques…\n\nDans ce talk, je présenterai un exemple de stack logicielle permettant la mise en place efficace de ces services : Android et son API Location pour le client mobile, Google Cloud Messaging pour le système de notifications push, Tomcat pour le backend serveur et PostgreSQL/PostGIS pour la manipulation des données géographiques.\n\nJe montrerai ensuite comment un tel écosystème permet d’implémenter des fonctionnalités avancées comme l’analyse statistique des données de géolocalisation ou le geofencing (envoi de notifications déclenché par l’entrée de l’utilisateur dans une zone géographique donnée).\n\nJe terminerai en proposant quelques concepts d’applications mobiles basées sur ces technologies et des pistes de réflexion dans le domaine de la géolocalisation.\n\npar Romain Vernoux"
