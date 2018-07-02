@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: '15/01/13 - 03 - YBL15 - Faire tourner une JVM avec 4 Téraoctets de mémoire : Yes We Can !'
+language: French
+recordingDate: 1425238416
+description: "Chez Quartet FS, nous développons une base de données qui garde tout en mémoire plutôt que de lire les données depuis un disque dur. Mais une base de données, c'est fait pour gérer de gros volumes, et pour convaincre nos clients, c'est le jeu de celui qui aura la plus grosse... JVM. Alors que la plupart des gens qui déploient des JVM à plus de 10 Gigaoctets prient le dieu du Garbage Collector pour que tout se passe bien, nous avons sans peur déployé notre solution sur un Bullion (4 \"serveurs\" reliés par un réseau interne, vus par l'OS comme une seule machine), sur lequel on a pu faire tourner une JVM responsable de 4 Téraoctets de mémoire. Cette présentation vous permettra de comprendre en quelques minutes ce que nous avons mis 2 ans à faire marcher : on parlera de off-heap, de NUMA... et si vous êtes sages, d'un petit bug que j'ai découvert dans le jdk8.\nPar Gaëlle Guimezanes"
