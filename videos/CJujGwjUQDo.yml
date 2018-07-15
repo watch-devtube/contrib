@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - architecture
+    - java
+    - .net
+title: 'Tuning Large Scale Java Platforms'
+language: ""
+recordingDate: 1415901951
+description: "Recorded at SpringOne2GX 2014.\nSpeakers: Emad Benjamin, Jamie O'Meara\nSlides: http://www.slideshare.net/SpringCentral/tuning-large-scale-java-platforms\nThe session will cover various GC tuning techniques, in particular focus on tuning large scale JVM deployments. Come to this session to learn about GC tuning recipe that can give you the best configuration for latency sensitive applications. While predominantly most enterprise class Java workloads can fit into a scaled-out set of JVM instances of less than 4GB JVM heap, there are workloads in the in memory database space that require fairly large JVMs. In this session we take a deep dive into the issues and the optimal tuning configurations for tuning large JVMs in the range of 4GB to 128GB. In this session the GC tuning recipe shared is a refinement from 15 years of GC engagements and an adaptation in recent years for tuning some of the largest JVMs in the industry using plain HotSpot and CMS GC policy. You should be able to walk away with the ability to commence a decent GC tuning exercise on your own. The session does summarize the techniques and the necessary JVM options needed to accomplish this task. Naturally when tuning large scale JVM platforms, the underlying hardware tuning cannot be ignored, hence the session will take detour from the traditional GC tuning talks out there and dive into how you optimally size a platform for enhanced memory consumption. Lastly, the session will also cover Pivotal Application Fabric reference architecture where a comprehensive performance study was done."

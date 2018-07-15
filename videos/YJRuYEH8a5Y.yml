@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - security
+    - python
+    - javascript
+title: 'Ari Talja / Rovio: Eventual Consistency and Conflict Resolution in Modern Databases'
+recordingDate: 1487253948
+description: "Presented at Reaktor Dev Day 2012\n\nReaktor Dev Day is a conference for developers by developers. Organized on Oct 19th in Helsinki, Finland it attracted over 300 enthusiastic developers. Topics included Haskell, Python, JavaScript, FP, Data security and Bacon.js.\n\nFor more information, please visit \nreaktordevday.fi/\nreaktor.fi/en/\n\nIntroduction to eventual consistency\n- Different implementations briefly\n- Implementation in Riak\n- Operations on multiple tables/buckets (data offloading)\n\nHow riak solves the issue\n- Copies of data, read and write quorum\n- Primary and secondary nodes\n- Vector clock\n- Read repair\n- Successful write vs. failed write\n\nConflict resolution\n- Application taking the responsibility\n- Different strategies + CRDT\n- More complex scenario - conflict resolution in data offloading case"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - python
+    - java
+title: 'Timo Savola/ Ninchat-Heterogeneous backend architecture'
+recordingDate: 1487602394
+description: "\"Life is too short for coding Java\"\nNinchat's server software architecture employs several languages (Go,Python, C++), tools (ZeroMQ, Protocol Buffers) and techniques to solve various problems elegantly. In particular, the fresh Go language isused for managing client connections, leveraging its powerful concurrent programming model. Some aspects of the system require frequent development iterations; others are more stable, retaining more state. Inherently distributed architecture with auto-configuration and failover aims for low administration overhead.\n\nSeen at Reaktor Dev Day 2013\nreaktordevday.fi\nblog.reaktordevday.fi"
