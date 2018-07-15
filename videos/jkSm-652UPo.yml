@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - architecture
+    - ruby
+    - java
+    - spring
+    - .net
+    - 'c#'
+title: 'An Introduction to Distributed Tracing and Zipkin'
+language: ""
+recordingDate: 1485248684
+description: "Recorded at SpringOne Platform 2016.\nSpeaker: Adrian Cole\nSlides: http://www.slideshare.net/SpringCentral/how-to-properly-blame-things-for-causing-latency\n\nLatency analysis is the act of blaming components for causing user perceptible delay. In today's world of microservices, this can be tricky as requests can fan out across polyglot components and even data-centers. In many cases, the root source of latency isn't a component, but rather a link between components.\n\nThis session will overview how to debug latency problems, using call graphs created by Zipkin. We'll use trace zipkin itself, setting up from scratch using docker. While we're at it, we'll discuss how the model works, and how to safely trace production. Finally, we'll overview the ecosystem, including tools to trace ruby, c#, java and spring boot apps.\n\nWhen you leave, you'll at least know something about distributed tracing, and hopefully be on your way to blaming things for causing latency!"

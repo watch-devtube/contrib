@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - security
+    - java
+    - spring
+    - .net
+title: 'Implementing Config Server and extending it'
+language: ""
+recordingDate: 1485249066
+description: "Recorded at SpringOne Platform 2016.\nSpeaker: Clint Checketts, Domo.com\nSlides: http://www.slideshare.net/SpringCentral/implementing-config-server-and-extending-it\n\nSpring Cloud Config Server is a great tool for getting your application configuration under source control. We'll start with the quick overview of Spring's Environment and properties and how config server enhances those, while keeping the same model.\n\nNext we'll discuss what concerns you need to take into account when rolling out config server like security, encryption, and location of your repositories (if using Git).\n\nFinally we'll discuss Config Server's extensibility, particularly dealing with security (since config server serves up properties decrypted) and even going so far as adding 'Filtering' to allow for capability akin to CloudFoundry 'Services' for making shared configs that are available across many applications, even accounting for how you might test those extensions."
