@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - testing
+    - scala
+    - functional
+title: 'YOW! Lambda Jam 2018 -  Dylan Just + Ryan Pollard - Flax: a good source of Selenium'
+recordingDate: 1531098003
+description: "In this talk, we discuss the design and implementation of \"Flax\", a purely functional wrapper around the Selenium web testing library. Flax is written in Scala and allows you to create web tests within an \"Action\" Monad. By making use of Scala's for-comprehensions, Flax tests read like a set of test instructions, but with the benefits of a functional approach.\n\nThe talk describes Flax's Action Monad in detail, showing how it is a stack of Either, Reader, Writer and Task. Each of these effects has a specific purpose in Flax's use as a tool for constructing browser-based tests.\n\nInitially, in Flax, we wanted to just do something quick-and-dirty - FP is nice, but for a testing library, do we really need it? However, a number of design problems quickly arose. We'll talk about these issues and how we realized that the purely functional approach was the only sensible way forward.\n\nA key problem we encountered with the functional approach was that we no longer able to use stack traces to identify where a test failed. To address this, we used the Writer Monad to track the actions performed. The actions are tracked as a tree of operations, which lets us group higher-level actions as a tree of lower-level actions. This is particularly useful for structuring browser tests, as often a specification of desired behavior can translate into a long sequence of individual steps. \n\nDylan is an enthusiastic programmer who proudly flies the functional flag. Working at Tiny, he uses FP daily in delivering cloud features for rich text editors.\n\nRyan is an enthusiastic engineer working at Tiny. He's worked on projects involving purely functional user testing automation for integrated systems.\n\nFor more on YOW! Conference, visit http://www.yowconference.com.au"
