@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - cloud
+    - architecture
+    - java
+    - spring
+    - .net
+title: 'Apps + Data + Cloud: What Does It All Mean?'
+language: ""
+recordingDate: 1426569128
+description: "Recorded at SpringOne2GX 2014.\nSpeaker: Matt Stine\nDeveloping for the Cloud Track\nSlides: http://www.slideshare.net/SpringCentral/apps-data-cloud-what-does-it-all-mean\nBig Data. Fast Data. NoSQL. NewSQL. We've experienced something of a renaissance in the storage and processing of data in the last decade of computing after years of \"Relational Winter.\" We're now entering into the next phase of this evolution: the convergence of data and the cloud.\n\nMuch of this revolution has arrived on the coattails of data fabrics designed for horizontal scale-out on commodity hardware. Cloud platforms, especially PaaS platforms like Cloud Foundry, allow us to provision the requisite virtual hardware on-demand, removing the last mile of overhead in assembling scale-out data platforms. Coupling PaaS with microservice architectures and polyglot persistence allows developers to design systems utilizing stores uniquely designed for specific write, process, and query patterns. Leveraging the Lambda Architecture combination of real-time analytics platforms coupled with scale-out batch processing systems like Hadoop give us the ability to always ask questions of all of our data.\n\nIn this talk will look at various Spring projects that allow us, coupled with Cloud Foundry, to uniquely position ourselves to take advantage of this convergence:\nSpring Boot: the opinionated framework for microservice development\nSpring Data: the access layer for SQL, NoSQL, NewSQL, and Hadoop\nReactor: the foundation for reactive fast data applications on the JVM\nSpring XD: the platform for data ingest, real-time analytics, batch processing, and data export\nWe'll tie all of these projects together in a suite of applications running on Cloud Foundry and Hadoop, closing the Apps/Data/Cloud loop"
