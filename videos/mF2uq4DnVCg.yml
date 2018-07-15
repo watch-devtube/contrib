@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+    - spring
+title: 'Spring Integration Internals'
+recordingDate: 1393963612
+description: "Recorded SpringOne2GX 2013 in Santa Clara, CA\nSpeaker: Gary Russell\nA comprehensive review of message routing within a flow - including\n\n    exactly how and when replyChannel and errorChannel headers are used\n\n    how and when these headers apply in an error flow\n\n    differences between synchronous and asynchronous processing (with task executors and pollers)\n\n    Use of SpEL (for messagemethod mapping as well as certain \"dynamic\" config attributes)\n\n    Type conversion (via SpEL, datatype channels, etc)\n\n    Implicitly created channels\n\n    How chains work\n\n    How messages are mapped to methods when a message arrives at a component\n\n    How gateway methods are mapped to messages (and a first look at some enhancements we are considering)\n\n    Options for synchronous and asynchronous flows\n        simple multi-threading\n        aggregation\n        aggregating messages from different sources\n\n    How to debug Spring Integration applications\n\n    Advanced configuration techniques\n\nand more...\n\nThis presentation will be mainly demonstration and code walkthroughs.\n\nLearn more about Spring Integration at http://projects.spring.io/spring-integration/"

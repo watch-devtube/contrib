@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - javascript
+    - java
+    - spring
+    - functional
+title: 'AOP-ing your JavaScript'
+recordingDate: 1395802081
+description: "Recorded at SpringOne2GX 2013 in Santa Clara, CA.\nSpeaker: Brian Cavalier\nLoose coupling. Your web front-end has that, right? Your JavaScript is using pubsub, event emitters, and message buses! Guess again, you can do better.\n\nAspect Oriented Programming (AOP) is a technique for augmenting the behavior of objects, methods, and functions non-invasively. AOP adds new behaviors and modifies existing behaviors \"from the outside\". Using AOP, it's possible to create connections between components without either having any knowledge of the other and without any extra library dependencies in your code.\n\nWhile you may be familiar with AOP in Spring, you may not yet have applied it in JavaScript. In this talk, we'll do just that. We'll introduce simple techniques for applying AOP in pure JavaScript using no additional libraries, and then look at meld.js (https://github.com/cujojs/meld), the AOP library that powers Cujo.js (http://cujojs.com). We'll work from simple examples of making connections between components to more sophisticated examples that integrate pubsub, message buses, etc. in a truly loosely coupled way."

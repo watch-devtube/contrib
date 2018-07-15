@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - javascript
+    - scala
+    - java
+title: 'Futures and Rx Observables: powerful abstractions for consuming web services asynchronously'
+recordingDate: 1398812572
+description: "Recorded at SpringOne2GX 2013 in Santa Clara, CA\nSpeaker: Chris Richardson\nA modular, polyglot architecture has many advantages but it also adds complexity since each incoming request typically fans out to multiple distributed services. For example, in an online store application the information on a product details page - description, price, recommendations, etc - comes from numerous services. To minimize response time and improve scalability, these services must be invoked concurrently. However, traditional concurrency mechanisms are low-level, painful to use and error-prone.\n\nIn this talk you will learn about some powerful yet easy to use abstractions for consuming web services asynchronously. We will compare the various implementations of futures that are available in Java, Scala and JavaScript. You will learn how to use reactive observables, which are asynchronous data streams, to access web services from both Java and JavaScript. We will describe how these mechanisms let you write asynchronous code in a very straightforward, declarative fashion."

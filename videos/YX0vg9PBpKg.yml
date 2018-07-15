@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - 'code design'
+    - java
+    - spring
+title: 'In-memory data and compute on top of Hadoop'
+recordingDate: 1397573162
+description: "Recorded at SpringOne2GX 2013 in Santa Clara, CA\nSpeaker: Jags Ramnarayan, Anthony Baker\nHadoop gives us dramatic volume scalability at a cheap price. But core Hadoop is designed for sequential access - write once and read many times; making it impossible to use hadoop from a real-time/online application. Add a distributed in-memory tier in front and you could get the best of two worlds - very high speed, concurrency and the ability to scale to very large volume. We present the seamless integration of in-memory data grids with hadoop to achieve interesting new design patterns - ingesting raw or processed data into hadoop, random read-writes on operational data in memory or massive historical data in Hadoop with O(1) lookup times, zero ETL Map-reduce processing, enabling deep-scale SQL processing on data in Hadoop or the ability to easily output analytic models from hadoop into memory. We introduce and present the ideas and code samples through Pivotal in-memory real-time and the Hadoop platform.\nLearn more about Gemfire and Spring at: \nhttp://projects.spring.io/spring-data-gemfire\nLearn more about Spring and Hadoop at:\nhttp://projects.spring.io/spring-hadoop (Spring for Apache Hadoop)\nhttp://projects.spring.io/spring-xd (Spring XD)\nhttp://www.gopivotal.com/products/pivotal-hd (Pivotal HD)"
