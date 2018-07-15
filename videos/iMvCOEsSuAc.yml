@@ -1,0 +1,16 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - cloud
+    - ux
+    - mobile
+    - craftsmanship
+    - architecture
+    - java
+    - spring
+    - .net
+title: 'Developing Microservices for PaaS with Spring and Cloud Foundry'
+language: ""
+recordingDate: 1416855323
+description: "Recorded at SpringOne2GX 2014.\nSpeaker: Matt Stine\nSlides: http://www.slideshare.net/SpringCentral/developing-microservices-for-paas-with-spring-and-cloud-foundry\nMarc Andressen has famously said \"Software is eating the world.\" What does that mean? We take it to mean that multiple industries with historically entrenched leaders are being disrupted by businesses built around a software core. These software factories are characterized by:\n\ntight feedback loops\nrapid iteration\nhorizontal scaling\nmobile-first UX\ncontinuous delivery\nThese factors have contributed to drive a change in how we approach infrastructure, which has taken the lead in adapting to meet these needs with the move to the cloud, and Platform as a Service (PaaS) offerings like Cloud Foundry have raised the level of abstraction to a focus on an ecosystem of applications and services. However, most applications are still developed as if we're living in the previous generation of both business and infrastructure: the monolithic application.\n\nMicroservices - small, loosely coupled applications that follow the Unix philosophy of \"\"doing one thing well\"\" - represent the application development side of enabling rapid, iterative development, horizontal scale, polyglot clients, and continuous delivery. They also enable us to scale application development and eliminate long term commitments to a single technology stack.\n\nWhile microservices are simple, they are certainly not easy. It's recently been said that \"microservices are not a free lunch.\" Interestingly enough, if you look at the concerns typically expressed about microservices, you'll find that they are exactly the challenges that a PaaS is intended to address. So while microservices do not necessarily imply cloud (and vice versa), there is in fact a symbiotic relationship between the two, with each approach somehow compensating for the limitations of the other, much like the practices of eXtreme Programming do the same.\n\nThis session will describe architectural patterns for developing microservices:\n\nService Decomposition\nAPI Gateways\nStateless / Shared-Nothing Apps\nConfiguration and Backing Service Consumption\nFault Tolerance\nAlong the way we'll see how to leverage technologies such as Spring Boot and Reactor to develop microservices targeted at Cloud Foundry."
