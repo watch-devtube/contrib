@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+    - java
+    - spring
+    - .net
+title: 'Applied Spring Integration, Spring AMQP and RabbitMQ in Spring XD'
+language: ""
+recordingDate: 1457494753
+description: "Recorded at SpringOne2GX 2015\nPresenter: Gary Russell\nData / Integration Track\nSlides: http://www.slideshare.net/SpringCentral/applied-spring-integration-spring-amqp-rabbitmq-in-spring-xd\n\nIn this session we will discuss how Spring Integration and Spring AMQP are used as two of the underlying technologies in Spring XD.\n\nThe RabbitMQ message bus is used to dynamically create and bind queues and exchanges at runtime when modules are deployed. \nItems of particular interest include the provision of taps using fanout exchanges, use of the RabbitMQ REST API and spring-retry within the message bus. Spring Integration is used to bind the modules to the message bus (as well as being the technology used within the modules themselves.\n\nThis use case shows how these technologies can be used in a much more dynamic scenario than the typical enterprise integration application.\n\nAttendees will learn the architecture and how to apply similar techniques to their own applications. As an added bonus, we will see some of the performance enhancements that XD has driven into the Spring Integration project - in particular how the JMX support is now much more streamlined and performant."
