@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'SREcon18 Asia/Australia - How to Serve and Protect (with Client Isolation)'
+language: English
+recordingDate: 1531268607
+description: "Frances Johnson, Google Australia\n\nClient isolation is an important consideration for the reliability of Google Maps. We want to avoid becoming overloaded where possible and degrade gracefully otherwise. Following some user-visible outages in the area, Geo SRE began working on implementing client isolation.\n\nBut these things are never easy. There are multiple points in the stack where you can drop traffic so where should you do it and what are the tradeoffs? Are all requests created equal? What if your system changes partway through? Why doesn't exempting important traffic make sense? What other unexpected benefits does client isolation give you? All this and more!\n\nAttendees will learn about what goals you can set for traffic management, identifying characteristics of your traffic and system architecture to leverage, and the strategies which can be used to design the solution.\n\nView the full SREcon18 Asia/Australia Program at https://www.usenix.org/conference/srecon18asia/program\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
