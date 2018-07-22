@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+title: 'Synchronous replication across data center for messaging system at Uber - Mingmin Chen, Hongliang Xu'
+language: English
+recordingDate: 1531662181
+description: 'Most storage systems replicate data across data center asynchronously, which introduces eventual consistency in the system. This is not acceptable for high-value data which requires strongly consistency across data center. At Uber, we build a messaging system that can synchronously replicate data to another data centers such that data will be available even after single data center failure. In this talk, we will discuss how we leverage Apache Zookeeper, Apache Kafka and cloud to build this system.'
