@@ -9,7 +9,7 @@
 * No webinars.
 * No commercial videos (product or company advertisement or hiring promotions).
 * We do not add videos shorter than 5 minites. Short videos are automatically ignored.
-* If your channel contains comercial videos, but you still want to share some of the technical videos, please, create a playlist and share that instead.
+* If your channel contains commercial videos, but you still want to share some of the technical videos, please, create a playlist and share that instead.
 
 Channels and playlists can be added to [channels.yml](https://github.com/watch-devtube/contrib/edit/master/channels.yml).
 
