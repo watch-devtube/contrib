@@ -39,7 +39,7 @@ If you want a video to be removed, create a new GitHub issue and explain why you
 
 ## Video auto-tagging
 
-In addition to editing video metadata, auto-tagging is supported. Auto-tagging takes place when video metadata is modified or a videos is ingested.
+In addition to editing video metadata, auto-tagging is supported. Auto-tagging takes place when video metadata is modified or a a new video is ingested.
 
 Contribute to auto-tagging by modifying [tags.yml](https://github.com/watch-devtube/contrib/edit/master/tags.yml)
 
@@ -48,4 +48,9 @@ Contribute to auto-tagging by modifying [tags.yml](https://github.com/watch-devt
 When a new video is ingested, Dev.Tube tries to determine author's twitter account.
 
 Contribute to speaker auto-discovery by modifying [speakers.yml](https://github.com/watch-devtube/contrib/edit/master/speakers.yml).
+
+## FAQ
+
+### I made a contribution, but do no see the change
+Videos are updated few times in a week, but we try to do it more frequently. We're also working on the solution to make changes on the fly.
 
