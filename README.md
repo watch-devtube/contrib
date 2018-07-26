@@ -39,7 +39,7 @@ If you want a video to be removed, create a new GitHub issue and explain why you
 
 ## Video auto-tagging
 
-In addition to editing video metadata, auto-tagging is supported. Auto-tagging takes place when video metadata is modified or a a new video is ingested.
+In addition to editing video metadata, auto-tagging is supported. Auto-tagging takes place when video metadata is modified or a new video is ingested.
 
 Contribute to auto-tagging by modifying [tags.yml](https://github.com/watch-devtube/contrib/edit/master/tags.yml)
 
