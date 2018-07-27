@@ -1,6 +1,15 @@
 
 # Dev.Tube Contribution Data
 
+Let's build the best tech video hub together! Check out 🥇[contributors leaderboard](https://dev.tube/contributors).
+
+## What help is needed?
+
+* please help fixing video metadata
+* please help adding speakers
+* please help [improve the website](https://github.com/watch-devtube/web/issues)
+* please contribute new channels
+
 ## Channel or playlist contribution guidelines
 
 * Conference talks are accepted.
