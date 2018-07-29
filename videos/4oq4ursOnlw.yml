@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - ruby
+title: 'Lightweight inventory management with Pallet Jack'
+recordingDate: 1484714184
+description: "Karl-Johan Karlsson\nhttp://linux.conf.au/schedule/presentation/114/\nInventory management for systems administrators is crucial for day-to-day operations. When installing a new machine, its MAC address needs to be registered with the DHCP server. While it runs, the configuration management system needs to know what role it has so it can install the correct software. When it breaks, you need to know which rack and switch port to find it in, its serial number and when its service contract expires.\r\n\r\nWe present [Pallet Jack](https://github.com/saab-simc-admin/palletjack), a systems administrator-friendly inventory database.\r\n\r\nIts back-end store consists of a directory tree with YAML fragments, which means you can insert, version and extract information using standard text processing tools. Inheritance and automatic text processing eliminates the need to store duplicated information. Finally, a simple but powerful Ruby library helps with generating configuration files from the database."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'Sparse warnings'
+recordingDate: 1484714196
+description: "Daniel Axtens\nhttp://linux.conf.au/schedule/presentation/132/\n`sparse` is a semantic parser for C, and is one of the static analysis tools avaliable to kernel devs.\r\n\r\nSparse is a powerful tool with good integration into the kernel build system. However, we suffer from warning overload - there are too many sparse warnings to spot the serious issues amongst the trivial. This makes it difficult to use, both for developers and maintainers.\r\n\r\nIn hopes of making sparse more useful, I've been slowly chipping away at the sparse warnings in `arch/powerpc` over the last year.\r\n\r\nThis talk covers:\r\n * my experience doing this - what I've learned about the kernel and sparse\r\n * some stats and pretty pictures about the state of sparse warnings\r\n * where to from here - how to make sparse a useful part of the kernel dev workflow\r\n * tooling to make sparse more useful - assuming I manage to get it written before the talk!\r\n\r\n**Are you interested in kernel development and not sure where or how to start? This talk will cover how fixing sparse warnings can be used as a path into kernel development.**"
