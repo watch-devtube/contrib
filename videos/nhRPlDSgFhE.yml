@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+title: 'Managing internal PKI system at scale with Anchor'
+recordingDate: 1484965372
+description: "Stan Pitucha\nhttp://linux.conf.au/schedule/presentation/97/\nManaging Public Key Infrastructure for internal systems is hard. Manual approvals, revocation lists, renewals are all more complicated than they should be.\r\n\r\nI'd like to show the Anchor project created by HPE security to simplify the process for issuing certificates to services and systems. It's very different from the usual enterprise solutions and close to what Let's Encrypt has started recently. The main reasons behind creating Anchor were:\r\n\r\n- revocation as it exists on the internet today doesn't really work\r\n- certificate expiry / renewal is hard to manage and often forgotten\r\n- existing PKI systems are huge and complicated\r\n- OpenStack deployments needed TLS on every service without depending on big PKI system\r\n- it provides configurable validation/authentication of requests without involving users\r\n\r\nI'll explain how Anchor solves those and other issues.\r\n\r\nAnchor is currently used in HP's Helion OpenStack project and is one of the official OpenStack security projects. It supports standard X509 and simple CMC requests. It also integrates easily with common authentication backends (local, keystone, ldap) and can sign certificates either locally or via PKCS11 interface (this includes keyrings, hardware security modules, etc.)"

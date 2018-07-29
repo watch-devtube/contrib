@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - python
+title: 'Life in the Armoury'
+recordingDate: 1484858206
+description: "Peter Chubb\nhttp://linux.conf.au/schedule/presentation/170/\nOur group does seL4, eChronos and Linux kernel development across many different embedded  platforms, including various ARM, aarch64, PPC, and Intel.\r\nEven though the core of the released seL4 kernel is formally verified, the experimental versions are not, and need to be tested on all these platforms.  In addition only one of the platforms corresponds to the verified kernel.\r\nWe have a very limited budget, so often have only one of a platform.\r\nThis talk explains how we do continuous integration and continued development without going mad,\r\nWe have developed custom hardware (the switcheroo) that is essentially an arduino-controlled multi-output high current power supply, use commercial-off-the-shelf telnet to serial gadgets, use a Cubietruck running Debian to boot some things via fastboot, but everything we can we boot via TFTP.\r\nClever python scripts talk to everything as glue.\r\nInteresting problems include hard-wired fastboot identifiers (what do you do when three of your development boards identify as 123456789abcdef as a fastboot ID?), multiplexing between different users (the obvious solutions have problems, and we still don't have a good way to do this), and the need for custom u-boot that means that sometimes the things we test don't match what's available to the average punter."

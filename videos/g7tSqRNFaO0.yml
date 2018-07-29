@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - swift
+    - ios
+    - containers
+    - testing
+title: 'Challenges when Scaling: Continued adventures in Swift''s sharding'
+recordingDate: 1484826315
+description: "Matthew Oliver\nhttp://linux.conf.au/schedule/presentation/36/\nBackground: Swift is an open-source, highly available, distributed, eventually-consistent object storage system.  As the project has matured, so has the need to store more and more data.  Some sites have moved to using expensive solid state drives (SSDs) for storage, but there has to be a better way we can solve this in software, right?\r\n\r\nThis presentation continues our Swift sharding adventure from where we left it last year - but now addressing a new set of challenges we've come across in our proof of concept container sharding implementation. During testing of even larger data sets we've come across a number of limitations of the underlying SQLite database, meaning we've had to develop work arounds so that we are able to shard even larger containers. Come and see how we performed large scale testing, how we narrowed down where the limitations were, how we developed our solutions to these problems, all the while trying to maintain backwards comparability."

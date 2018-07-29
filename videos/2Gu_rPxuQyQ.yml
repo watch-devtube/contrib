@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - testing
+title: 'Running production workloads in a programmable infrastructure'
+recordingDate: 1484803222
+description: "Alejandro Tesch\nhttp://linux.conf.au/schedule/presentation/165/\nInfrastructure as Code is a hot topic today, however several IT managers and System Administrators often fail to see the benefits that it can provide to their day to day operations.\r\n\r\nIn this mini-conf session we will go in depth into two use cases that can leverage on OpenStack to address common operation challenges.\r\n\r\n1) We will demo how to leverage HEAT and Ansible to automate the deployment of a two-tier load balanced environment within seconds that will host your enterprise applications.  We will showcase as well the autoscaling capabilities by overloading our web farm until we hit the CPU threshold that will spawn another tomcat server.\r\n\r\n2) \"Data Cloning as a Service\" will demonstrate how to automate the cloning of a 24 x 7 Mission critical Oracle database without impacting the end users.\r\n\r\nAnsible is used to place an enterprise database in backup mode, take a snapshot of the volume containing the Database, clone the cinder volume and get it transferred to a development tenant who will automatically start a clone of the database for testing and QA."

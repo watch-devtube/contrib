@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - java
+title: 'Preventing Deserialization attacks in Java applications'
+recordingDate: 1484714189
+description: "Jason Shepherd\nhttp://linux.conf.au/schedule/presentation/163/\nRecent research by [Chris Frohoff and Gabriel Lawrence has exposed gadget chains](https://frohoff.github.io/appseccali-marshalling-pickles/) in various libraries that allow code to be executed during object deserialization in Java. They've done some excellent research, including [publishing some code](https://github.com/frohoff/ysoserial/) that allows anyone to serialize a malicious payload that when deserialized runs the operating system command of their choice, as the user which started the Java Virtual Machine (JVM). The vulnerabilities are not with the gadget chains themselves but with the code that deserializes them.\r\n\r\nThere are couple of ways in which this type of attack on the JVM can be mitigated:\r\n\r\n* not deserializing untrusted objects;\r\n* not having the classes used in the 'gadget chain' in the classpath;\r\n* running the JVM as a non-root operating system user, with reduced privileges;\r\n* egress filtering not allowing any outbound traffic other than that matching a connection for which the firewall already has an existing state table entry.\r\n\r\nIn this talk we'll explore each of these in detail, using JBoss EAP as a example of how these mitigations can be introduced."

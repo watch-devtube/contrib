@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'Kernel-bypass networking for fun and profit'
+recordingDate: 1484803198
+description: "Matthew Chapman\nhttp://linux.conf.au/schedule/presentation/134/\nIn the quest for ever lower networking latencies, there are a growing number of kernel-bypass TCP/IP stacks available from various network card vendors: for example Exablaze's exasock, Solarflare's OpenOnload, Mellanox's VMA, Myricom's DBL and Chelsio's WireDirect.  All of these use the LD\\_PRELOAD mechanism to hijack AF\\_INET socket calls and direct them to a library and ultimately the network adapter.  Some are entirely implemented in userspace, while others have in-kernel support components that allow more graceful connection handling across processes.  In this talk I will discuss the how and why of these stacks, with a particular focus on the exasock stack developed by my team at Exablaze."

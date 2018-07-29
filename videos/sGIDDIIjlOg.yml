@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - testing
+    - ruby
+    - python
+    - javascript
+    - scala
+    - java
+    - functional
+title: 'Discovering edge cases with property-based testing.'
+recordingDate: 1484803210
+description: "Svetlana Filimonova\nhttp://linux.conf.au/schedule/presentation/153/\nProperty-based testing is a popular concept in the world of functional programming. QuickCheck in Haskell is an iconic framework supporting this testing approach. Today we can find testing libraries supporting PBT in any main-stream languages, inlcuding Scala, JavaScript, Ruby, Python, Java etc.\r\n\r\nGenerated input is obviously constrained by the type of parameters accepted as an input for the code. However the range of this input covers large amount of edge cares, the cases you didn't even know existed in your application. Discovering these cases on early stages of your development process brings quite a big support for 'building quality in' instead of ensuring the quality after an application has been created. As any other automated tests, PBT tests are a part of your continuous integration pipeline, which gives quite a big coverage for regression testing as well. It provides essential feeling of confidence in changing the product as much as required.\r\n\r\nIn this talk I will present pbt concept and my experience of adopting it on a couple of projects I've been engaged too. I will give an introduction into this practice and some pros and cons, so hopefully it will give you a good idea on when and \r\nwhy would you want to use it.\r\n\r\nTarget Audience: testers/developers, people ensuring quality."

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - architecture
+title: 'Servo Architecture: Safety and Performance'
+recordingDate: 1484803132
+description: "Jack Moffitt\nhttp://linux.conf.au/schedule/presentation/63/\nServo is a browser engine designed for modern hardware written in\r\nRust. Current browsers were designed over a decade ago when phones were not\r\nsmart, clock speeds were still increasing, and web pages were still static.\r\nTaking advantage of modern amenities requires new approaches.\r\n\r\nServo's architecture is all about doing many things at once. Taking advantage\r\nof multiple cores, GPUs, and SIMD means that Servo can render pages\r\nfaster. Servo's design also gives it many safety properties not found in other\r\nbrowsers and improves some that you've already been enjoying.\r\n\r\nI'll discuss how Servo is structured for maximum performance and safety, and\r\nhow Rust enables many of the things that Servo does. I'll also compare Servo's\r\ndesign with that of existing engines."
