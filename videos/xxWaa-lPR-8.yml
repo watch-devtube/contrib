@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'The Future of the Linux Page Cache'
+recordingDate: 1484829937
+description: "Matthew Wilcox\nhttp://linux.conf.au/schedule/presentation/25/\nThe page cache is one of the most important parts of the Linux kernel. Sitting at the intersection of memory management and filesystems, it is used for all buffered I/O and mmap. Every file is stored in the page cache.\r\nPersistent Memory and Transparent Huge Pages are two recent features that require an enhanced page cache. For Persistent Memory, the page cache needs to be able to store entries which are not actually pages at all, but merely provide information about the underlying Persistent Memory. For Transparent Huge Pages, the page cache needs to understand that one huge page represents a larger chunk of the file than a regular page. On server-class machines, Persistent Memory is available in such large quantities that both Persistent Memory and Transparent Huge Pages must be used to manage memory efficiently.\r\nThis talk will show how we are enhancing the page cache (and the radix tree underlying it) to handle new technologies which are almost or already upon us. Attendees will come away with a better understanding of how this vital piece of the kernel works and how they can use it more effectively."

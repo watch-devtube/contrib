@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - docker
+    - testing
+    - ruby
+    - python
+    - javascript
+title: '400,000 ephemeral containers: testing entire ecosystems with Docker'
+recordingDate: 1484803273
+description: "Daniel Axtens\nhttp://linux.conf.au/schedule/presentation/81/\nThe value of a high-level language isn't just in the language itself, but rather in the ecosystem surrounding it. Python is hugely enriched by PyPI, Ruby by gems, and Node.js by npm. These ecosystems have hundreds of thousands of packages, evolve rapidly, and vary wildly in quality. \r\n\r\nWhat if you want to test how _all_ the packages work in a given situation? This is the question we set out to answer in this talk. \r\n\r\nPreviously, testing each and every one of the 458,100+ packages came with an enormous infrastructure cost - for each package you need a VM with a full OS, and the associated memory, CPU and disk requirements. This makes exhaustive testing infeasible for most teams. However, we found that by using Docker, we could test the entire Python, Ruby or Node.js ecosystem over a weekend with a single VM.\r\n\r\nIn this talk, we look at:\r\n\r\n * how we leveraged Docker to rapidly test the entire Python, Ruby and Node.js package sets on OpenPOWER,\r\n * how the characteristics of containers vs VMs made an otherwise infeasible task both feasible and simple,\r\n * how we evolved this into a continuous-integration process,\r\n * other interesting applications of testing at this scale,\r\n * what we found, and some of the interesting quirks and bugs we encountered and lessons we learned."

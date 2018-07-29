@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'Linux-Kernel Memory Ordering: Help Arrives At Last!'
+recordingDate: 1484832200
+description: "Paul E. McKenney\nhttp://linux.conf.au/schedule/presentation/19/\nIt has been said that Documentation/memory-barriers.txt can be used to [frighten small children][1], and perhaps this is true.  However, it is woefully inefficient.  After all, there are a very large number of children in this world, and it would take a huge amount of time and effort to read it to all of them.\r\n\r\nThis situation clearly calls out for automation, which has been developed over the past two years.  An automated tool takes short fragments of C code as input, along with an assertion, and carries out the axiomatic equivalent of a full state-space search to determine whether the assertion always, sometimes, or never triggers.  This talk will describe this tool and give a short demonstration of its capabilities.\r\n\r\n[1] http://lwn.net/Articles/575835/"

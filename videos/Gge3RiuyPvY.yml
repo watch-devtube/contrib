@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+    - testing
+title: 'Drink from the firehose: release-monitoring.org'
+recordingDate: 1484814150
+description: "Nick Coghlan\nhttp://linux.conf.au/schedule/presentation/42/\nFor a long time, the preferred approach to network service security has been\r\nthe hardened bunker: define a system, deploy it, and patch it promptly when\r\nsecurity vulnerabilities in the components used are reported and fixed.\r\n\r\nHowever, continuous integration services and automated deployments have\r\nopened up a new model: the moving target that grabs new releases of\r\ndependencies almost as soon as they are available, runs them through the CI\r\nprocess like any other software change, and then deploys them to production.\r\nEven if a new security flaw slips through testing, that's considered better\r\nthan being exposed to the flaws that were classified as normal bug fixes, but\r\nactually represented security issues.\r\n\r\nrelease-monitoring.org is a shared community service born out of the Fedora\r\nInfrastructure team that monitors for new upstream releases, and emits\r\nstructured events that can be used to automatically trigger appropriate\r\nfollow-on action.\r\n\r\nSo if you'd like to learn how to drink from the firehose, this talk's for you!"
