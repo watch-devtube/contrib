@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - architecture
+title: 'Optimizing a new processor architecture'
+recordingDate: 1484833479
+description: "Rob Landley\nhttp://linux.conf.au/schedule/presentation/29/\nWhen the last patents on the SuperH architecture started expiring in 2014, the http://j-core.org project released a new BSD-licensed clean room VHDL implementation of an SOC compatible with the sh2 instruction set already capable of booting Linux to a shell prompt on a $50 FPGA board. Linux Weekly news covered this at https://lwn.net/Articles/647636/\r\n\r\nNow we'd like to talk about the things we've done to speed up linux, gcc, musl-libc, and the VHDL itself since we first got Linux booted on the thing ~3 years ago. We've doubled the MHZ, added SMP support, implemented futexes, ported everything to device tree, tracked down kernel and toolchain bugs of the \"how did this ever work\" variety (spoiler: it didn't), and even have a native compiler working on the board. We'll explain why we selected this architecture instead of i386/sparc/m68k (whose patents have had just as long to expire), scaling the processor design up to 64 bit and down to Arduino country at the same time, when the best way to go isn't clear because of tradeoffs (with a \"prefetch vs cache\" example), decisions about compatibility (sh2 vs sh3 system call numbers, should 64 bit mode have branch delay slots), issues with interrupts and clocks and futexes we hit modernizing an older architecture, and so on."

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+    - 'code design'
+    - functional
+title: 'Getting into the Rusty Bucket: Lessons from Integrating Rust with Existing C'
+recordingDate: 1485125168
+description: "William Brown\nhttp://linux.conf.au/schedule/presentation/51/\nRust is a modern language developed by Mozilla pursuing the trifecta: Safety, Speed, and Concurrency. With such promise for the future, how can we use this now? We are not always in the beautiful open green fields; we must contend with our existing grunty applications!\r\n\r\n389 Directory Server is based on code now more than 20 years old. We cannot throw this out and replace it, but we want the benefits Rust gives us - especially for authentication and security critical code. \r\n\r\nWe will explore the challenges of security in engineering, and behaviours of the modern programmer. I will discuss why we have spiraled down a mountain of failure as an engineering discipline - and why we need tools like Rust to validate our work. I will explore the Directory Server plugin interface, where we have the ability to provide pure Rust plugins, allowing safe, fast extensibility to a core piece of systems authentication. This will explore the challenges to build it, and the design patterns needed in C, to make sure that the integration between Rust and C is possible today, leading towards a future rewrite."

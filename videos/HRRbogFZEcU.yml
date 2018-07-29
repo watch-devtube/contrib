@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - swift
+    - ios
+    - security
+title: 'At-rest Encryption in OpenStack Swift'
+recordingDate: 1484832312
+description: "John Dickinson\nhttp://linux.conf.au/schedule/presentation/33/\nRecently, the OpenStack Swift project released a feature that implements server-side encryption. The feature is designed to protect user data from being exposed if drives were to leave the cluster, something that can happen intentionally through an RMA process or unintentionally from mistakes or malicious intent. If drives leave the cluster, we want to be sure that the users' data is protected and impossible to recover. Swift's at-rest encryption feature encrypts user data and metadata with AES using a unique key for every object stored.\r\n\r\nIn this talk, we will cover the details of how the server-side encryption works, including the on-disk format, and we'll dig into the key-management used. Also, we'll discuss the ways in which this feature can be improved to support more advanced functionality and more robust key management."

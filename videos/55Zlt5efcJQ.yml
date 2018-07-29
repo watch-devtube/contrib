@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'Advances in CPU Frequency Management'
+recordingDate: 1485564401
+description: "Rafael J. Wysocki\nhttp://linux.conf.au/schedule/presentation/131/\nQuite significant and radical changes were made in the kernel's CPU frequency management (CPUFreq) subsystem over the last year.  The most significant of them was the switch from using timers to a new control flow based on governor callbacks invoked by the CPU scheduler.  That change made it possible to clean up the CPUFreq core quite substantially and to add more functionality on top of it.  Among other things, a new CPUFreq governor, called schedutil and making decisions based on the CPU utilization information provided by the CPU scheduler, was introduced.  Moreover, the scheduler can pass hints to all of the CPUFreq governors now.  That opened up new possibilities and, for instance, work is in progress to implement energy-aware scheduling (EAS) on top of the schedutil governor.  Apart from that, improvements are being made in the other parts of the CPUFreq subsystem as well, which leads to an optimistic outlook on its future."

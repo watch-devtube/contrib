@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: 'Making kernel objects movable: A history and the way forward'
+recordingDate: 1484866023
+description: "Christoph Lameter\nhttp://linux.conf.au/schedule/presentation/130/\nA key technology in the kernel is the ability to move objects around. This is essential for proper object locality with NUMA and also important to ensure that the kernel can defragment memory properly so that data can be place closely together and to enable to use of huge or giant pages. Over time most Linux systems today require a reboot because performance will suffer as memory becomes more and more fragmented. Servers and devices need to be periodically rebooted. The more complex our kernels become the more different sizes of objects are needed. Growth of complexity results in more opportunities for fragmentation and thus more issues with slowdowns and sluggish behavior.\r\n\r\nThe first implementation on this level was page migration in 2004 which made pages mapped into a user process movable. Then later CMA added the ability to move larger sets of kernel pages that are not on the LRU used for user space pages. This approach may be extended and the hooks used for also making slab objects movable using some callbacks. This could enable much better defragmentation and avoid the need to have to debug Linux systems regularly."

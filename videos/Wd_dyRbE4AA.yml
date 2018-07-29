@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+title: 'libtls: Rethinking the TLS/SSL API'
+recordingDate: 1485125176
+description: "Joel Sing\nhttp://linux.conf.au/schedule/presentation/27/\nAs anyone who has written code that implements a TLS client or server will know,\r\nmany of the existing APIs (namely OpenSSL) are confusing, difficult to use and\r\nfull of pitfalls for the unwary. Many security issues (and less serious bugs)\r\nare due to the mistakes made by human developers, while trying to navigate their\r\nway through the various function calls, return codes and missing functionality.\r\n\r\nlibtls is a component of the [LibreSSL project](http://www.libressl.org/); a\r\nproject that started as a fork of OpenSSL following the infamous\r\n[heartbleed](http://www.heartbleed.com/) incident. While the general goals for\r\nLibreSSL are to modernise the codebase, improve security, and apply best practice\r\ndevelopment processes, libtls aims to completely rethink the TLS API.\r\n\r\nThis talk will cover some of the many issues with existing TLS/SSL APIs, prior\r\nto looking at how libtls has been designed to be different. The history of libtls\r\nwill be discussed, before detailing the API development process that has been\r\nused, which has allowed the library to morph and improve over time. The set of\r\nrules that have been put in place to ensure that the API is as developer friendly\r\nas possible will be explained, followed by a discussion of the overall litmus\r\ntest and proving ground that has been used during its design and development."
