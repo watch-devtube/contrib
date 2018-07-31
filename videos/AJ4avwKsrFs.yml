@@ -4,5 +4,6 @@ tags:
     - storage
     - architecture
 title: 'Sagas in Erlang: Distributed Transactions Without Locks - Mark Allen - EUC17'
+language: English
 recordingDate: 1499853017
 description: 'Sagas are a technique described in a 1987 paper by Hector Garcia-Molina in the context of long-lived database transactions. Sagas provide a transactional abstraction across arbitrarily distributed services: either all of the operations in a Saga succeed or the operations are unwound back to the prior state. The idea never caught on in the world of databases, but 30 years later it is worth re-evaluating this idea when we need to provide transactional state changes across a variety of distributed microservices.'
