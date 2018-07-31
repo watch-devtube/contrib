@@ -1,5 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
 title: 'Concurrency Fount: a Pace-Regulated Supply of Newly Spawned Processes by Jay Nelson'
+language: English
 recordingDate: 1475079147
 description: "Slides and more info: http://www.erlang-factory.com/euc2016/jay-nelson\n\nWorker pools have become the most overused (and most commonly improperly implemented) Erlang tool. The new cxy_fount behaviour of https://github.com/duomark/epocxy offers an alternative that doesn't suffer the catastrophic failures of most supervised worker strategies. It provides a reservoir of pre-spawned single-use processes, with a time-regulated replacement mechanism to allow back pressure to smooth demand spikes. The result is a tunable throttle on client requests, which ensures that the server does not exceed its computational capacity while adapting to multiple service demands simultaneously.\n\nTalk objectives:\n\nTo explain a new architectural library component that can be introduced to provide a system with a tunable control on client demand.\n\nTarget audience:\n\nIntermediate to advanced Erlang system engineers."
