@@ -4,5 +4,6 @@ tags:
     - storage
     - performance
 title: 'Scalable ETS: Does Such a Thing Exist? - David Klaftenegger, Kjell Winblad'
+language: English
 recordingDate: 1374133227
 description: "Erlang User Conference 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/ErlangUserConference2013/talks \n\nErlang Term Storage (ETS) is Erlang's own in-memory database system, which is used by many to store shared data in parallel applications. Using ETS concurrently is a challenge, and even the Erlang/OTP R14B release notes claim that certain uses of it \"\"will never scale\"\". How to do it in a way that might work, and how much truth there is in this claim will be topics in this talk.\nUnderstanding the effects of ETS concurrency options, and how they reflect in the underlying implementation is required to see the limits of ETS scalability, but also the opportunities. Using the ets module's interface properly is required to get good performance even on future releases of Erlang/OTP."
