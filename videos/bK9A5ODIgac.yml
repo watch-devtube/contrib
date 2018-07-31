@@ -6,5 +6,6 @@ tags:
     - docker
     - architecture
 title: 'Container Performance Analysis'
+language: English
 recordingDate: 1493225725
 description: "Brendan Gregg - Senior Performance Architect, Netflix\n\nContainers pose interesting challenges for performance monitoring and analysis, requiring new analysis methodologies and tooling. Resource-oriented analysis, as is common with systems performance tools and GUIs, must now account for both hardware limits and soft limits, as implemented using resource controls including cgroups. The interaction between containers can also be examined, and noisy neighbors either identified of exonerated. Performance tooling can also need special usage or workarounds to function properly from within a container or on the host, to deal with different privilege levels and name spaces. At Netflix, we're using containers for some microservices, and care very much about analyzing and tuning our containers to be as fast and efficient as possible. This talk will show how to successfully analyze performance in a Docker container environment, and navigate differences encountered."
