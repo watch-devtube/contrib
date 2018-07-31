@@ -4,5 +4,6 @@ tags:
     - storage
     - architecture
 title: 'Flink Forward 2016: Jamie Grier - The Stream Processor as a Database'
+language: English
 recordingDate: 1474887998
 description: "http://flink-forward.org/kb_sessions/the-stream-processor-as-a-database-building-online-applications-directly-on-streams/\n\nWe present a new design pattern for data streaming applications, using Apache Flink and Apache Kafka: Building applications directly on top of the stream processor, rather than on top of key/value databases populated by data streams. Unlike classical setups that use stream processors or libraries to pre-process/aggregate events and update a database with the results, this setup simply gives the role of the database to the stream processor (here Apache Flink), routing queries to its workers who directly answer them from their internal state computed over the log of events (Apache Kafka). This talk will cover both the high-level introduction to the architecture, the techniques in Flink/Kafka that make this approach possible, as well as experiences from a large scale setup and technical details."
