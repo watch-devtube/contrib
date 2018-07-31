@@ -3,5 +3,6 @@
 tags:
     - testing
 title: 'Slamming-Your-Head-Into-Keyboard-HOWTO: Packaging Applications - Jared Morrow'
+language: English
 recordingDate: 1372250308
 description: "Erlang User Conference 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/ErlangUserConference2013/talks\n\nErlang developers are lucky to have a solid VM, great community, and great tools for building, testing, and debugging their applications. When that application is written and tested, and you as a developer want to make it easy to install everywhere, that is where the *easy* option cannot be found. Few people know how to write a proper .spec file or make deb files and I argue that few people *need* to know about it.\n\nErlang developers shouldn't have to know about debuild, rpmbuild, pkgsrc, pkg_create, or pkg_add. They shouldn't need to read through tomes like Maximum RPM (409 pages), Debian New Maintainers' Guide + Debian Policy (160 pages), or The pkgsrc Guide (154 pages). If you know how pkg_add on FreeBSD is different than pkg_add on SmartOS you are experiencing way too much pain. These are all problems we have at Basho when shipping Riak and Riak CS to customers. This talk covers our solution to this problem with node_package, a universal packaging tool for Erlang applications."
