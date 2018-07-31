@@ -3,5 +3,6 @@
 tags:
     - performance
 title: 'JIT, a Maze of Twisty Little Traces - Frej Drejhammar'
+language: English
 recordingDate: 1374056579
 description: "Erlang User Conference 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/ErlangUserConference2013/talks \n\nYou are in a maze of twisty little traces, all alike. Last year at EUC I gave an in-depth tour of how automated source-to-source transformations were used to generate a proof-of-concept JIT compiler from the VM sources. Since then work has progressed to turn the proof-of-concept into a prototype.\n\nTurning a proof-of-concept into a prototype is a process with many degrees of freedom, not unlike an old-school adventure game where you start out with minimal knowledge of your surroundings and the path to your goal. Compared to a proof-of-concept, a prototype not only has to behave correctly, it must also perform well but the way to get there is not apparent without a lot of experimentation.\n\nThis talk will provide a brief introduction to the just-in-time compiler followed by a walk-through of last year's development. The walk-through will cover the changes made to the initial proof-of-concept to increase performance and also show how the current version of the just-in-time compiler compares to the unmodified system and HiPE."
