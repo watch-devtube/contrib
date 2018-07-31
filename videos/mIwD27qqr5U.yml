@@ -4,5 +4,6 @@ tags:
     - elixir
     - 'code design'
 title: 'Tomasz Kowal - Elixir and Elm - the perfect couple (Lambda Days 2016)'
+language: English
 recordingDate: 1461747626
 description: "Slides and more info: http://www.lambdadays.org/lambdadays2016/tomasz-kowal\n\nI will compare design decisions between Elm and Elixir programming languages. Elm forces programmer to explicitly design all the flows in your program as a static one-way graph of dependencies between components. This makes it easy to debug and reason about programs. Erlang VM lets programmer create dynamic flows, which is a much more complex approach. I will show, how this is a direct consequence of langauge constraints (high availability and distribution) using CAP theorem. Elm doesn't have to deal with partitioning and a good practice is to keep all the state in one place. Everything is consistent and available, because there is no partitioning. Elixir has to be available and handle network splits, so it needs to deal with inconsistencies and dynamic flows. I will show how OTP design patterns make it easier for programmer to work with that problem."
