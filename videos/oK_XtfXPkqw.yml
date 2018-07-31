@@ -3,5 +3,6 @@
 tags:
     - java
 title: 'DAGGER 2 - A New Type of dependency injection'
+language: English
 recordingDate: 1408660324
 description: "The best classes in any Java application are the ones that do stuff,\ne.g., the BarcodeDecoder, the KoopaPhysicsEngine, the AudioStreamer, etc. These classes all have dependencies; perhaps a BarcodeCameraFinder, DefaultPhysicsEngine, and an HttpStreamer.  In contrast, the worst classes in any application are the ones that take up space without doing much at all, e.g., the BarcodeDecoderFactory, the CameraServiceLoader, and the MutableContextWrapper. These classes are the clumsy duct tape that wires the interesting stuff together.\n\nDagger is a very fast and simple replacement for these FactoryFactory\nclasses. It allows you to focus on the interesting classes.  You just simply declare dependencies, specify how to satisfy them, and ship your app.\n\nDagger is a joint effort between Google and Square with some individual contributors from other places such as Netflix.  It is descended conceptually from another project used widely within Google called Guice, which despite its popularity was not without issues.\n\nThis is the story of another small group of engineers attempting to evolve and improve DI forward yet again with Dagger: a dramatically different reimplementation using generated code."
