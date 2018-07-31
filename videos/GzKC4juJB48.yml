@@ -1,5 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
 title: 'The Async Arrow - Troy Kershaw'
+language: English
 recordingDate: 1492584989
 description: "We call services a lot. We have to deal with authorisation, data transformation, logging, retries, error handling and more. To make this simpler we often wrap this logic in a function that takes a Request and returns an asynchronous Response. If you have, congratulations: you've already implemented an async arrow.\nArrows are simple to define, yet their application is incredibly powerful. By always providing access to the Request and Response values, arrows allow us to remove the logging, retries, etc. from within our function and compose them instead.In this talk we'll discuss async in F# and use it to create an async arrow that calls a service. We'll then create functions that show how arrows greatly simplify this common task. By the end we will have used our arrow to:\n\nCall a service\nHandle the response\nLog the request and the response\nAdd an authorisation token to the request\nRetry with exponential backoff\nHandle errorsand we'll do all of this using composition and without needing to run our async expression."
