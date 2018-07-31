@@ -4,5 +4,6 @@ tags:
     - performance
     - ios
 title: '#FlinkForward SF 2017: Stefan Richter - Improvements for large state and recovery in Flink'
+language: English
 recordingDate: 1492195125
 description: "Stateful stream processing with exactly-once guarantees is one of Apache Flink's distinctive features and we can observe that the scale of state that is managed by Flink in production constantly grows. This leads to a couple of interesting challenges for state handling in Flink. In this talk, we presents current and future developments to improve the handling of large state and recovery in Apache Flink. We show how to keep snapshots for large state swift and how to minimize negative effects on job performance through incremental and asynchronous checkpointing. Furthermore, we discuss how to greatly accelerate recovery under failures and for rescaling. In this context, we go into details about improved execution graph recovery, caching state on task managers, and considering new features of modern storage architectures for our state backends. \n\nVideos Filmed & Edited by Bash Films: http://BashFilms.com"
