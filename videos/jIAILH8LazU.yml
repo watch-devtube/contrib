@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - javascript
+    - java
+    - spring
+title: 'Setting up a scalable CI platform with jenkins, docker and rancher - R. Burgstaller & W. Brauneis'
+language: English
+recordingDate: 1499431106
+description: "Spring I/O 2017 - 18 -19 May, Barcelona\n\nLinks:\nhttps://github.com/rburgst/rancherci-presentation\nhttps://github.com/rburgst/rancherci-seedjob \nhttps://github.com/rburgst/rancherci-demoapp\n\nRolling your own CI system is not easy. Choosing the right solutions is becoming more and more difficult with the advent of new solutions and technologies such as Gitlab CI, CodeShip, Drone.io, travis, ...\n\nHowever, when you have specific needs there are few solutions that can compare with the flexibility of jenkins. Setting up, configuring and managing a jenkins instance can be a laborious job, especially when you are supporting multiple teams which are using different development environments (Java, Node.js, go, ...). Oftentimes it takes days of hand tuning the system per project and keeping up with updates is a job of its own.\n\nIn this session we will show how to set up a rancher cluster, run jenkins with jenkins swarm on a number of hosts, all build jobs are configured using code (jenkinsfile) so that every change is accounted for in the git history.\nDue to the use of dockerized build containers it becomes straightforward to support every possible build environment.\n\nAs a demo we will use a spring based web application which will be built, tested, dockerized and deployed into a staging environment.\n\nTime permitting more in-depth topics such as LDAP authentication, SSH key exchange, automatic DNS updates will be addressed.\n\nTo get the most out of this session a solid understanding of docker and docker-compose is recommended."
