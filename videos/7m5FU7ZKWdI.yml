@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - containers
+    - docker
+    - architecture
+    - java
+    - spring
+title: 'Manage distributed configuration and secrets with Spring Cloud and Vault -  Andreas Falk'
+language: English
+recordingDate: 1499435371
+description: "Spring I/O 2017 - 18 -19 May, Barcelona\n\nSlides: https://www.slideshare.net/AndreasFalk2/manage-distributed-configuration-and-secrets-with-spring-cloud-and-vault-spring-io-2017\n\nRunning multiple instances of microservices as docker images or in the cloud is widely adopted these days.\n\nBut what about your configuration and secrets? Do you spread all values using application local property files? Do you still store secrets in clear text? \nIn case you are encrypting passwords where do you store the key to decrypt these? Do you already rotate database credentials regularly?\n\nIn this session you will learn how to externalize your configuration using spring cloud config and store your secrets safely using the recently released spring cloud vault config project. \nFirst I will give you a short demo on how to externalize all your application configuration values to a git repository.\n\nThen after a general introduction into vault you will see how spring cloud vault config facilitates the integration of vault into your application.\n\nAfter this session you hopefully will be well prepared to start using externalized configuration and to stop ever storing secrets again in an unsafe way."
