@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - cloud
+    - devops
+    - containers
+    - docker
+    - architecture
+title: 'Patterns for building zero-support distributed systems in Erlang - Rob Ashton'
+recordingDate: 1533555214
+description: "We have all seen the local demos of the \"let it fail\" philosophy that Erlang espouses, but what happens when you take that and apply it across a complete distributed system in production? What does it look like and how does it change the manner in which you then support it?\nFor the last several years, I have been working in a very small team, both building and deploying/supporting bespoke products that power upwards of half a million live video events a year, as well as forming the backbone of various television services across the UK. For some of our customers, it has been half a decade since we received a support call and indeed it is a virtual non-happening that anybody has to get out of bed to solve a problem in production. A lot of this results directly from our use of OTP, and there are then wider patterns that have arisen across our codebases and even the manner in which we provide support to our clients. \n\nIn this session, we will be using code and examples from real-world projects to demonstrate how we build, deploy, and then support hundreds of services/workloads across both the cloud and our on-premise high density units in production, as well as also covering how our software stack ensures that on a bad day, our services carry on delivering content even when servers are catching fire or somebody has spilled coffee on the datacentre power supply. \n\nRelevant subjects covered in this talk: Docker, Erlang, Etcd, Elm, high density computing, Microservices, devops"

@@ -1,0 +1,18 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - rest
+    - web
+    - react
+    - angular
+    - mobile
+    - android
+    - ios
+    - security
+    - architecture
+    - java
+    - spring
+title: 'Securing RESTful services with Spring HATEOAS and HDIV - Roberto Velasco @ Spring I/O 2016'
+recordingDate: 1467016790
+description: "Spring I/O 2016 - 19 -20 May Barcelona\n\nThe number of applications based on a client-side MVC architecture which consume RESTful services, is increasing exponentially.  For example, mobile native applications (iOS, Android, etc.) or client-side MVC web applications (AngularJS, React, etc.).\n\nIn many cases, the security risks associated with those environments are very similar to the traditional web risks associated with server-side MVC architectures based on traditional web frameworks such as Spring MVC, Grails or JSF.\n\nEven though the level of complexity to implement attacks against those kinds of client-side MVC architectures can sometimes be higher, the existing risks remain almost the same, basically because many are server-side risks that do not depend on the client-side technology. \n\nAnalyzing the traditional OWASP Top 10 web risks, we can consider almost all of them are relevant to these new scenarios, except for the XSS risk within native mobile applications which do not use any web rendering feature.\n\nSo the question is, how can we protect these service based applications against the traditional OWASP Top 10 web risks?\n\nHATEOAS is a constraint included within REST application architecture, which, in addition to the already well known benefits such as discoverability and decoupled architecture, can help to improve your application security. Unlike REST implementations without HATEOAS, where the clients determine what they can do next, HATEOAS proposes a new approach where the server not only returns data, but also hypermedia artifacts, giving the client a way to determine the set of actions available at any given point, based on the state of the server application workflow.\n\nThis talk will present an innovative approach to automate the protection of Spring HATEOAS services against OWASP Top 10 security risks, through the integration of Spring HATEOAS with the Hdiv security framework."
