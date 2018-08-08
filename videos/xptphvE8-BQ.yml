@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - testing
+title: 'Effective testing of Spark programs and jobs - Strata NY 2015 video'
+language: English
+recordingDate: 1446262729
+description: "This session explores best practices of creating both unit and integration tests for Spark programs as well as acceptance tests for the data produced by our Spark jobs. We will explore the difficulties with testing streaming programs, options for setting up integration testing with Spark, and also examine best practices for acceptance tests. \nUnit testing of Spark programs is deceptively simple. The talk will look at how unit testing of Spark itself is accomplished, as well as factor out a number of best practices into traits we can use. This includes dealing with local mode cluster creation and teardown during test suites, factoring our functions to increase testability, mock data for RDDs, and mock data for Spark SQL. \nTesting Spark Streaming programs has a number of interesting problems. These include handling of starting and stopping the Streaming context, and providing mock data and collecting results. As with the unit testing of Spark programs, we will factor out the common components of the tests that are useful into a trait that people can use. \nWhile acceptance tests are not always part of testing, they share a number of similarities. We will look at which counters Spark programs generate that we can use for creating acceptance tests, best practices for storing historic values, and some common counters we can easily use to track the success of our job. \nRelevant Spark Packages & Code: https://github.com/holdenk/spark-testing-base / http://spark-packages.org/package/holdenk/spark-testing-base https://github.com/holdenk/spark-validator\n\nSlides at http://www.slideshare.net/hkarau/effective-testing-for-spark-programs-strata-ny-2015"
