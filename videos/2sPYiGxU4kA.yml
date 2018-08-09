@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - android
+    - kotlin
+    - lisp
+    - java
+title: 'YOW! Lambda Jam 2018 - Colin Fleming - Developing an IDE for Clojure code'
+recordingDate: 1533776400
+description: "Cursive is an IDE for Clojure, based on the IntelliJ framework. In contrast to the majority of Clojure development environments, Cursive uses static analysis of the source code to work its magic rather than using runtime inspection of a live system via the REPL. IntelliJ provides a sophisticated indexing infrastructure, and this in combination with static analysis allows many interesting features which are difficult or impossible to achieve with a traditional REPL-based environment. Essential code navigation tools such as Find Usages and refactorings such as Rename become possible, and using IntelliJ's code inspections can provide error marking and static analysis of code, right in the editor. This ability to see problems immediately provides an even shorter feedback loop than working in the REPL.\n\nI'll discuss some of the challenges of developing a traditional IDE for a language as flexible as Clojure, including the implementation details of how to deal with syntax extensions from macros. I'll also talk about the various ups and downs of developing much of it in Clojure, and why some of it is also developed in Kotlin. I'll also talk about why I believe our editors should be syntax aware, not just text based.\n\nCollin is the developer of Cursive, an IDE for Clojure code. He has programmed things for a long time now, and came to Clojure from Java via Scheme a few years ago. When he is not hacking on Cursive I'm mostly waiting for my daughter to get old enough to program robots together.\n\nFor more on YOW! Conference, visit http://www.yowconference.com.au"
