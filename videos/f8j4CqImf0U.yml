@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - ios
+    - testing
+title: '#DCBerlin18 105 Kelly using Server Driven UI to rapidly iterate on Android and Across Platforms DAY1'
+recordingDate: 1533898458
+description: "Laura Kelly, Software Engineer, Airbnb\n\nUSING SERVER-DRIVEN UI TO RAPIDLY ITERATE ON ANDROID AND ACROSS PLATFORMS\nIntermediate / Best Practices / Code Quality / Talk\n\nOften companies with large mobile user bases find that they have to balance rapid iteration with the amount of work involved in launching and coordinating a product on multiple platforms (web, native Android, and native iOS). Faced with exactly this question for the Airbnb reservation system, we designed a server-driven UI framework for web, iOS, and Android that allows us to launch new types of reservations on all platforms with a simple backend change. It uses a commonly shared API that is parsed on the client and rendered into a set of corresponding components supported on all platforms. In this talk, I will discuss how we designed this multi-platform system to provide the flexibility needed to launch new types of reservations and UI components, while keeping boilerplate client code to a minimum. Using a common API across all platforms, this type of server-driven UI framework hits the sweet spot of customizability while minimizing redundant client-side work. Moreover, I’ll explain how this system has enabled us to deploy new features on all platforms simultaneously via a simple backend change, without having to release new versions of the native apps. In the code deep dive, I’ll go through the API that is used on all three platforms, how the polymorphic API response is parsed on Android with Jackson, and how those data models are rendered into a reservation using Epoxy, Airbnb’s open-source library for rendering models in a RecyclerView. I'll also touch on how the data models are stored locally for offline usage."
