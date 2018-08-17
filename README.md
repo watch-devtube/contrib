@@ -36,7 +36,6 @@ tags:
 speaker:
     name: Speaker full name
     twitter: SpeakerTwitterHandle (no @)
-    matches: ["foo", "bar"] (Optionally, match speaker if video has "foo" or "bar" text in addition to full name)
 title: Title goes here
 language: English
 featured: true (you need to have enough karma points, see https://dev.tube/contributors)
