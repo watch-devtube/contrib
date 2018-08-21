@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - craftsmanship
+    - java
+title: 'Testing and Refactoring Legacy Code'
+recordingDate: 1355539766
+description: "In this video, we take a piece of crappy Java code with no tests. Our objective is to write tests for it and then refactor to make it better. The code has the most common problems that much larger legacy applications have, like Singletons, static calls and feature envy. It also has some design problems. Fixing that is quite hard, mainly when we need to write all the tests before we start the refactoring. Another rule: We cannot change production code if it is not covered by tests but quite often we need to change the production code in order to be able to test it. How to solve this problem? Well, I hope I can answer all these questions in this video.\n\nIf you want to know more about Software Craftsmanship, please check my book: https://leanpub.com/socra\n\nIf you want to play with the code, clone it from: https://github.com/sandromancuso/trip-service-kata"
