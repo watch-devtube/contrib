@@ -1,6 +1,37 @@
+# Examples:
+
+# Match by full name
+# - name: Eduards Sizovs
+#   twitter: eduardsi
+
+# Match by full name AND "blog.sizovs.net" text
+# - name: Eduards Sizovs
+#   twitter: eduardsi
+#   matches
+#     - blog.sizovs.net
 
 - name: Roy Osherove
   twitter: RoyOsherove
+  
+- name: Yegor Bugayenko
+  twitter: yegor256  
+  
+- name: Christopher Okhravi
+  twitter: chrokh
+  matches: [christopherokhravi]
+  
+- name: Mattias P Johansson
+  twitter: mpjme
+  matches: [mpjme, funfunfunction]
+  
+- name: Patrick Kua
+  twitter: patkua
+  
+- name: Hadi Hariri
+  twitter: hhariri
+  
+- name: Marcin Grzejszczak
+  twitter: MGrzejszczak  
 
 - name: Ben Orenstein
   twitter: r00k
@@ -196,6 +227,9 @@
 
 - name: 'Daniel Shiffman'
   twitter: shiffman
+  matches:
+    - shiffman
+    - codingtrain
 
 - name: 'Roman Elizarov'
   twitter: relizarov
@@ -208,6 +242,22 @@
 
 - name: 'Alexey Buzdin'
   twitter: AlexeyBuzdin
+  
+- name: Siraj Raval
+  twitter: sirajraval
+  matches:
+    - sirajraval
 
 - name: 'Stephane Nicoll'
   twitter: snicoll
+
+- name: Nicolas Fränkel
+  twitter: nicolas_frankel
+  matches:
+    - frankel
+    - fränkel
+
+- name: 'Xavier F. Gouchet'
+  twitter: xgouchet
+  matches:
+    - gouchet

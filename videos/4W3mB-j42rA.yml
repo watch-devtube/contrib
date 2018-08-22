@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+title: 'Yang Li: Service Fabric Cluster Resource Manager'
+language: English
+recordingDate: 1534278978
+description: "The Service Fabric Cluster Resource Manager (CRM, not to be confused with Customer Relationship Management) is responsible for optimizing the placement and load balancing (PLB, not to be confused with network load balancing) of nodes inside a cluster. This is the part of Service Fabric where Simulated Annealing is done to optimize and balance the \"heat\" distribution among nodes (so, no node does too little work (cold) nor too much work (hot) - balance is important - it's really Zen). You first heard about our use of a metallurgical algorithm during the Gopal interview. \n\nCheck out the Simulated Annealing algorithm as implemented by Yang and co:\nhttps://github.com/Microsoft/service-fabric/blob/master/src/prod/src/Reliability/LoadBalancing/Searcher.cpp#L1453\n\nCheck out Yang's code:\nhttps://github.com/Microsoft/service-fabric/tree/master/src/prod/src/Reliability/LoadBalancing"
