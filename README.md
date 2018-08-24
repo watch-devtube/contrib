@@ -1,7 +1,7 @@
 
 # Dev.Tube Contribution Data
 
-Let's build the best tech video hub together! Check out 🥇[contributors leaderboard](https://dev.tube/contributors).
+Let's build the best technical video hub together! Check out 🥇[contributors leaderboard](https://dev.tube/contributors).
 
 ## What help is needed?
 
