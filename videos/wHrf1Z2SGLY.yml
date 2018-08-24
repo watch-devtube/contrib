@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Defrag Tools #193 - Windows Upgrade Logs'
+language: English
+recordingDate: 1535061941
+description: "In this episode of Defrag Tools, we talk about the Windows Upgrade Log files.\nThe \"Panther\" logs track the installation of a Windows Upgrade. The logs contain Information, Warnings and Errors. Not all errors are fatal, the trick is to look at only the (last) fatal error if an upgrade fails.\nThe logs pre/post upgrade can be found in:\n* \\$Windows.~bt\\sources\\panther\n* \\$Windows.~bt\\Sources\\Rollback\n* \\Windows\\Panther\n* \\Windows\\Panther\\NewOS\nYou can review the logs manually, or use SetupDiag.\nIn the next episode, we'll dive deep into the logs when there is an application migration issue.\nContact us at defragtools@microsoft.com and/or @defragtools"
