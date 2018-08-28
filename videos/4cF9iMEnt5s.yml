@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - architecture
+    - java
+title: 'JDK IO 2018 - Felix Mueller - 3 common pitfalls in microservice integration and how to avoid them'
+recordingDate: 1535355086
+description: "Video recording of a presentation given at JDK IO conference in Copenhagen in June 2018 at the IT-University organized by the Danish Java User Group - Javagruppen.\n\nhttps://jdk.io/jdk-io-2018/speakers/213-felix-mueller\n\n3 common pitfalls in microservice integration and how to avoid them\n\nSpeaker: Felix Mueller\n\nIntegrating microservices and taming distributed systems is hard. In this talk I will present three challenges we observed in real-life projects and discuss how to avoid them.\n\nCommunication is complex. With everything being distributed failures are normal so you need sophisticated failure handling strategies (e.g. stateful retry).\n\nAsynchronicity requires you to handle timeouts. This is not only about milliseconds, systems get much more resilient when you can wait for minutes, hours or even longer.\n\nDistributed transactions cannot simply be delegated to protocols like XA. So you need to solve the requirement to retain consistency in case of failures.\n\nI will not only use slides but also demonstrate concrete source code examples available on GitHub."
