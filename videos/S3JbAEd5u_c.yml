@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - java
+title: 'Lukas Eder - 2000 Lines of Java? Or 50 Lines of SQL? The Choice is Yours!'
+recordingDate: 1445386840
+description: "In the past decade, RDBMS related traction has moved away completely from SQL towards JPA / JPQL, or even further, towards NoSQL. Evangelists have widely agreed that RDBMS are not \"web scale\", even if the race is far from being decided. \nIn this talk, I want to show you how many features you're missing out on, when you don't do real SQL. When you don't take advantage of recent SQL standard evolutions, such as SQL:1999 hierarchical SQL, SQL:2003 window functions, or many vendor specific extensions. In an example session, we're going to look at how we can calculate running totals on medium-sized data sets using\n- nested selects\n- window functions\n- hierarchical SQL\n- the Oracle MODEL clause\n- stored functions\nAnd most importantly, we're going to see how the above can help us increase performance while we decrease the number of lines of code when using any of MyBatis, jOOQ, or SpringJDBC."
