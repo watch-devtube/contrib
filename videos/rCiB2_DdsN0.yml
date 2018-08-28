@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'VDB16 - Employing a View Model API Based on Dynamic Proxies - Kenan Sevindik'
+recordingDate: 1477301360
+description: "This presentation was recorded at Voxxed Days Belgrade 2016 - https://belgrade.voxxeddays.com/\n\nEnterprise apps are mainly built upon layered architecture. Each layer only speaks to its below layer, and data among layers are shared via persistent domain objects. However, employing same domain objects in each layer causes some problems. Data might be modified unintentionally in which an ORM tool or a UI framework like JSF is used. Binding domain objects with UI fields directly creates a mess inside domain classes because of UI only fields added. To prevent such problems, it's better to employ a separate model, specific to the UI layer. Such a separate model is employed to convert data obtained from back, and deliver it to the UI layer for presentation. UI components are bound to view model objects so that user input is first accumulated into those objects and delivered to back when appropriate. However, creating such a view model mainly overlaps with persistent domain model, and job of handling data transformations between two model is a tedious task. We propose a solution based on dynamic proxies to create view model classes automatically and an API to handle various tasks occur during those data transformations. We will present our solution and discuss about the API evolved over time."
