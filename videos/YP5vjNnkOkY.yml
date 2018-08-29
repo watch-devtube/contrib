@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'Overcoming a million reasons not to be HTTPS only - Halvor Skagshaug'
+recordingDate: 1535466853
+description: "It's 2018 so we should have everything on HTTPS, but why aren't we there yet? For many it's simply about getting a certificate and redirecting to HTTPS, but companies often have more complex scenarios that pose challenges to adoption. In our case it was hundreds of clients with their custom domains and 60000 documents with a million references to content on HTTP.\nWhen we go HTTPS only, references to content on HTTP will cause mixed content. For the users this could result in anything from loss of security indicators in the browser, to partial or full loss of functionality. Our clients would need to fix their references, but it would cause them massive pain. That pain would also hit sales and support.\n\nTo alleviate that pain, development resources had to be diverted to build tools for finding, classifying, and fixing references to content on HTTP. Operations had to help out detecting all templates and documents with HTTP references and all custom domains.\n\nThis talk will cover a lot of the things you may need to consider to be HTTPS only: Technical details of detecting and classifying content, finding HTTP references at runtime, getting support by decision makers and preparing the organization for the upcoming change."
