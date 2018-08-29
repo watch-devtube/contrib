@@ -4,5 +4,6 @@ tags:
     - craftsmanship
     - architecture
 title: 'Logic vs. side effects: functional goodness you don''t hear about - Enrico Buonanno'
+language: English
 recordingDate: 1506326616
 description: "The talk will present one of the underlying themes of my book on Functional Programming: the separation of logic from side effects.\n\nFP not only gives us (1) power, and (2) safety, but equally importantly it brings (3) clarity, which is key to good software architecture and maintainability.\n\nOne way in which FP helps us achieve this clarity is by building a discipline in isolating logic (which is pure, technology agnostic, and can be captured in a specification) from side effects (which are impure, technology specific, and the reason why customers pay for a product).\n\nWhile we certainly need both, the mainstream approach (side effects everywhere) leads to code that is difficult to maintain, test, and reason about. Conversely, a functional approach, in which logic and side effects are clearly separated, leads to more testable and reliable programs.\n\nThe talk will firstly explain exactly what side effects are - there are various types. Then, for each type of side effect, code samples will be shown, and techniques will be explained for refactoring standard idioms to a more functional style, where side effects and logic are isolated."

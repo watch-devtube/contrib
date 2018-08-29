@@ -5,5 +5,6 @@ tags:
     - cloud
     - architecture
 title: '#FlinkForward SF 2017: Kenneth Knowles - Portable stateful big data processing in Apache Beam'
+language: English
 recordingDate: 1492195120
 description: "Apache Beam lets you write data pipelines over unbounded, out-of-order, global-scale data that are portable across diverse backends including Apache Flink, Apache Apex, Apache Spark, and Google Cloud Dataflow. But not all use cases are pipelines of simple \"map\" and \"combine\" operations. Beam's new State API adds scalability and consistency to fine-grained stateful processing, all with Beam's usual portability. Examples of new use cases unlocked include: * Microservice-like streaming applications * Aggregations that aren't natural/efficient as an associative combiner * Fine control over retrieval and storage of intermediate values during aggregation * Output based on customized conditions, such as limiting to only \"significant\" changes in a learned model (resulting in potentially large cost savings in subsequent processing) This talk will introduce the new state and timer features in Beam and show how to use them to express common real-world use cases in a backend-agnostic manner.\n\nVideos Filmed & Edited by Bash Films: http://BashFilms.com"

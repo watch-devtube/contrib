@@ -17,7 +17,7 @@ Let's build the best tech video hub together! Check out 🥇[contributors leader
 * High quality video tutorials are accepted (only time-proven channels, with no aggressive marketing)
 * No webinars.
 * No commercial videos (product or company advertisement or hiring promotions).
-* We do not add videos shorter than 5 minites. Short videos are automatically ignored.
+* We do not add videos shorter than 5 minutes. Short videos are automatically ignored.
 * If your channel contains commercial videos, but you still want to share some of the technical videos, please, create a playlist and share that instead.
 
 Channels and playlists can be added to [channels.yml](https://github.com/watch-devtube/contrib/edit/master/channels.yml).
@@ -38,6 +38,7 @@ speaker:
     twitter: SpeakerTwitterHandle (no @)
 title: Title goes here
 language: English
+featured: true (you need to have enough karma points, see https://dev.tube/contributors)
 recordingDate: 1444245407 # 
 description: Some text goes here #
 ```

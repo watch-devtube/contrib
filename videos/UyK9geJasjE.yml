@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Type-safety in low-level programming: Modern C++ in game console emulators - Tony Wasserka'
+recordingDate: 1535455633
+description: "Console emulation needs to stem the difficult balance between optimizing code for stable frame rates and maintaining the complex logic required to emulate the given hardware - any subtle bug in this system easily manifests in a user-visible glitch. How can modern C++ help?\nUsing the toolbox of compile-time programming, we take a look at the Nintendo 3DS kernel interface and discuss how the type system can be revitalized when operating on otherwise untyped data. We will see how declarative interfaces are the key to this by allowing to document hardware expressively while ensuring a consistent implementation - all without compromising maintainability or performance.\n\nConcrete examples to be shown are the system call interface, inter-process communication, and the classical problem of data serialization."

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - java
+    - spring
+title: 'JDK IO 2017 - Thomas Much - Easy Bean Mappings with MapStruct 1.2'
+recordingDate: 1510512577
+description: "Those who have survived the DTO hell of former J2EE versions, where we had to copy data between all the layers of our enterprise applications, appreciate the ease that Spring and Java EE have brought us more than one decade ago.\n\nBut if we look closely at our current architectures and design styles like Hexagonal Architecture and DDD, we're in need again for adapters and transfer objects, for example in the anticorruption layer of a DDD bounded context. In other words: We still need to map data between different entity structures.\n\nOften, BeanUtils or Dozer are used to map data between entities, DTOs and similar structures. But those mappings can be slow and are error-prone due to missing type safety... Say hello to MapStruct, the fast and type-safe bean mapper, which - as an annotation processor - generates mapping code at compile time and goes without reflection!\n\nThis presentation will show you the basics of MapStruct and its flexible mapping options. We'll have a look at the generated, readable code, and discuss common mapping challenges from real world projects. If you happen to use Project Lombok or Java 8 streams - we'll have a look at them, too.\n\nWe'll see some slides and live coding!"

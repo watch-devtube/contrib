@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - cloud
+    - aws
+    - security
+    - 'code design'
+title: 'Serverless architectural patterns - Yan Cui'
+recordingDate: 1534149509
+description: "Serverless technologies like AWS Lambda has drastically simplified the task of building reactive systems - drop a file into S3 and a Lambda function would be triggered to process it, push an event into a Kinesis stream and magically it'll be processed by a Lambda function in real-time, you can even use Lambda to automate the process of auditing and securing your account by automatically reacting to rule violations to your security policy.\nJoin us in this talk to see some architectural design patterns that have emerged with Lambda, and how to pick the right event source based on the tradeoffs you want. Here are a few patterns that we'll cover in the talk: pub-sub, cron, push-pull, saga and decoupled invocation."

@@ -3,5 +3,6 @@
 tags:
     - javascript
 title: 'G C Marty: Play DVDs in JavaScript for the sake of interoperability [JSConf2014]'
+language: English
 recordingDate: 1402334593
 description: "We have everything we need to read DVD-video discs in a browser, so why don't we start?\n\nFor that purpose, I ported libdvdread and libdvdnav libraries to JavaScript so that we can parse the DVD-video info files and emulate a virtual machine.\n\nBut this comes with technical challenges such as browsers being bad at manipulating huge files or not supporting the codecs used in DVD (MPEG-2, AC-3...). That's why this port comes with a server in Node.js to circumvent these limitations.\n\nThe resulting project is a mix of websockets, video elements, media source extensions and a lot of open source love.\n\nGet ready for a mind blowing demo!\n\nhttp://2014.jsconf.us"

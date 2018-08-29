@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - architecture
+    - java
+    - spring
+title: 'Consumer driven contracts in a polyglot world by  Riccardo Lippolis / Jeroen Bruinink @ Spring I/O'
+language: English
+recordingDate: 1530802845
+description: "Spring I/O 2018 - Barcelona, 24-25 May\n\nSlides: https://docs.google.com/presentation/d/19BFGJiTElU3VVIbpF3Gqac26m4uaNpPEQpVB1eIPa90/edit#slide=id.p\n\nHave you ever been in the situation where your microservice stopped working, because one of the services it consumes changed? Or did you ever want to change a service but found it difficult to find out which consumers it has? We ran into these problems numerous times (usually head first) after breaking up a monolithic application into microservices. Where once the compiler would complain or our unit tests would fail, everything would now seem fine at first. Problems would only become visible after deploying to the integration environment, or worse: in production!\nIn this talk, we will explain how we mitigate these problems using Spring Cloud Contract to specify and test the interface between our Spring Boot microservices. Furthermore, with the new Polyglot support, we are now able to extend the specifications to include our non-JVM services and frontend applications.\nThe presented code examples will be shared on GitHub."

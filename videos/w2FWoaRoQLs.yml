@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mobile
+    - android
+    - security
+    - architecture
+title: '#DCBerlin18 405 Schranz ARTist A Novel Instrumentation Framework for Customizing and Analyzing Apps'
+recordingDate: 1534012858
+description: "Oliver Schranz, Researcher & Ph.D. Student, CISPA, Saarland University\n\nARTIST - A NOVEL INSTRUMENTATION FRAMEWORK FOR CUSTOMIZING AND ANALYZING APPS\nPro / Open Source and Research / Talk\n\nIn this talk, I will give an introduction to a novel instrumentation framework called ARTist, the Android Runtime instrumentation and security toolkit, which allows to arbitrarily modify the code of installed apps. Similar to existing approaches, such as Frida and XPosed, this can be used for modding applications (adding or removing functionality) and app analysis (record traffic, change files, modify databases). However, it does not break the app signature and hence modified applications still receive updates without compromising on security. Additionally, it is capable of modifying not only apps, but also the system server (Package Manager, Activity Manager Service, ...) and application framework classes (everything within framework.jar, ...). I will first outline the basic architecture of ARTist that is built on top of the Android Runtime's (ART) on-device compiler. We will have a look at the underlying design decisions and the deployment options, from regular (rooted) devices to custom ROMs. Then, I will introduce the ARTist SDK that allows developers to easily create own Modules to adapt the functionality of their favorite apps to their needs.\nThe goal is to make you comfortable with creating own extensions for your installed apps. And finally, it will showcase some interesting Modules for different use cases, such as app reversing and analysis for pentesters and researchers, and app customization and modding for developers and power users. By the end of this session, you will be able to judge which problems ARTist can solve and how to get started with your first Module right away."

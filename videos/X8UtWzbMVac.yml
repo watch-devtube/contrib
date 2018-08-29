@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'Integrating visual testing into the build pipeline - Shokoofeh Hesari'
+recordingDate: 1535458730
+description: "No sane QA engineer will risk shipping visual bugs, which will hardly go unnoticed by the end users. As a result, in systems delivering rich graphical user interfaces, an end-to-end test suite will not have enough coverage without automated image comparison tests. Therefore, integrating visual testing into the continuous integration pipeline is vital to assure visual bugs being captured early in the testing process.\n\nIn this talk, I present an experiment on integrating automated image comparison into the continuous delivery pipeline for a web-based application. I go through some of the technical challenges, such as pixel shifts, exclusion of the dynamic content, and tackling the anti-aliasing issues. I also briefly evaluate existing tools, and the hacks for amending the weaknesses of the selected toolset. Finally, I reflect on the results of the implemented test suit and its integration into the pipeline."

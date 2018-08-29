@@ -5,5 +5,6 @@ tags:
     - scala
     - java
 title: 'Composing high performance process workflows with Akka Streams - Vagif Abilov'
+language: English
 recordingDate: 1499244447
 description: "Actor model is one of those old new things that has recently been adopted by projects with high performance and scalability requirements, thanks to Akka framework available on both JVM and .NET platforms. With great appraisals come certain concerns criticizing actors for low level detail management and lack of composability. Akka team tried to address some of them in a module called Akka Streams that lets developers define their process workflows at a higher level, even drawing it as a graph, and use Akka system as a process materializer that will create and connect underlying actors behind the scenes and let messages flow in streams according to the workflow definition.\n\nThis talk presents an example of a process workflow implemented using traditional actors and then demonstrates how to replace a set of manually defined actors with a workflow definitions based on Akka Streams. We will show how to integrate in streams message queues and Web services and how to define process workflows in C#, F# and even Scala."

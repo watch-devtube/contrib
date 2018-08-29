@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - kotlin
+    - java
+    - functional
+title: '#DCBerlin18 407 Lage Migrating from Autovalue to Kotlin Data Classes DAY1'
+recordingDate: 1534155647
+description: "Ricardo Lage, Software Engineer, BlaBlaCar\n\nA DEEP DIVE INTO MIGRATING FROM AUTOVALUE TO KOTLIN DATA CLASSES \nLanguages Talk, Intermediate\n\nAutoValue is a powerful tool provided by Google to generate Java immutable value classes. If you are migrating your project to Kotlin, data classes are the most direct way to replace it while keeping the same features. There are however trade-offs to take into account.\n\nIn this talk we will introduce how we migrated our project from AutoValue to Kotlin data classes and how we dealt with the issues we encountered along the way. We will also discuss the advantages and disadvantages of each approach in terms of build time, apk size, method count and serialization time.\nAfter this introduction, we will deep dive into two topics: First, we will look into different serialization strategies available and how they perform. We will look into Gson, Moshi and Kotlinx.serialization libraries and explore their trade-offs when choosing one.\n\nSecond, we will explain how we built an IntelliJ/Android Studio plugin to help us automate the conversion from AutoValue to Kotlin Data Classes. We will explain how plugins work and how you can also develop one to help automate repetitive IDE-related tasks."

@@ -5,5 +5,6 @@ tags:
     - elixir
     - testing
 title: 'Gary Rennie - The Road to 2 Million Websocket Connections in Phoenix (ElixirConfEU 2016)'
+language: English
 recordingDate: 1464095276
 description: "Slides and more info: http://www.elixirconf.eu/elixirconf2016/gary-rennie\n\nThis talk will discuss how the Phoenix team was able to create a single chat room with 2 million users on a single machine. Benchmarking WebSockets is a little more in depth than benchmarking HTTP requests, this talk covers the Tsung tool which was used for the benchmarks and how it can be configured for different testing scenarios. I will cover how Tsung was used to find the concurrent connection limits that Phoenix could handle. I will then cover the techniques that were used to find the parts of the Phoenix codebase with the bottlenecks that caused these limits and how these limits were overcome.\n\nTalk objectives\n\n \n\nLearn how to benchmark WebSockets using Tsung Explore how to find and fix bottlenecks.\n\nTarget audience\n\nAnyone interested in Phoenix Channel performance.\n\n\nGary is a member of the Phoenix core team, often found answering questions on StackOverflow for the elixir and phoenix-framework tags. He is developer at VoiceLayer using Elixir and Phoenix on a daily basis.\n\nGithub: Gazler\n\nTwitter: @TheGazler"

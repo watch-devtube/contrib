@@ -3,5 +3,6 @@
 tags:
     - performance
 title: 'Eduard Bopp - Functional Reactive Rust (Lambda Days 2016)'
+language: English
 recordingDate: 1459328463
 description: "Slides and more info: http://www.lambdadays.org/lambdadays2016/eduard-bopp\n\n\nFunctional reactive programming as pioneered by Conal Elliott is gaining wide-spread interest as the go-to abstraction for interactive applications. Many functional idioms rely on a high level of abstraction over details like memory layout.\n\nBut can this concept be translated to an application domain, where you cannot afford this luxury? Think of real-time systems like video game engines or embedded software, where you have a tight performance budget.\n\nRust is a new programming language developed as a community project supported by Mozilla. It brings a strong type system with compile-time memory safety and high-level abstractions to the world of low-level systems programming.\n\nThis talk tells the story of a library called Carboxyl, an implementation of functional reactive event streams and behaviours in Rust. Dealing with explicit memory management provides certain unique implementation challenges. However, Rust's static memory-safety guarantees were very helpful overcoming these. Furthermore, the talk will demonstrate typical architectural patterns for using FRP in practice."

@@ -5,5 +5,6 @@ tags:
     - rest
     - performance
 title: 'Peter Chittum - Boxcars and Cabooses: When one more XHR is too much'
+language: English
 recordingDate: 1472053063
 description: 'RESTful APIs have simplified backend access providing clean URL-based resource representations using standard HTTP methods. But growth in the number of these APIs can lead to inefficiencies: if an app needs to access many of these resources at once, performance can bog down. ''Boxcarring'' is the bundling together of multiple HTTP requests into one. For example, the client might bundle multiple requests into a single call. On the server, a RESTful API can accept a POST to multiple resources in one request. This talk will demonstrate both client and server side examples of boxcar requests.'

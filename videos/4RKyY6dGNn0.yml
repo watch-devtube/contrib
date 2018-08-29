@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - security
+title: '#DCBerlin18 402 Derr Escaping the Dependency Hell on Android DAY1'
+recordingDate: 1534151867
+description: "Erik Derr, Researcher, CISPA, Intermediate, Open Source and Research Saarland University\n\nESCAPING THE DEPENDENCY HELL ON ANDROID\nIntermediate / Open Source and Research / Talk\n\nThird-party libraries on Android have been shown to be security and privacy hazards by adding security vulnerabilities to their host apps or by misusing inherited access rights to steal personal data. A particularly aggravating factor to this is that apps frequently include outdated library versions. In this talk I'll first present a library detection technique that is resilient against common code obfuscations and capable of pinpointing exact library versions in apps. Applying this approach to apps from Google Play we measure the outdatedness of libraries and particularly show that app developers slowly adapt new library versions exposing their end-users to large windows of vulnerability. We discover that even long-known security vulnerabilities in popular libraries are still present in current apps. We then approach the question of why app developers don't update their dependencies. A subsequent analysis of the apps' library usage reveals that 86% of included libraries in general could be updated by at least one version without changing the app code. Moreover 97.8% of apps that actively use a library with a known vulnerability could be easily fixed through a drop-in replacement of the vulnerable version with the fixed version. I conclude with a discussion of root causes of the current status-quo and by proposing actionable items to mitigate the situation."

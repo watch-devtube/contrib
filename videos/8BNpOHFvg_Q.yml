@@ -3,5 +3,6 @@
 tags:
     - unix
 title: 'Lager: Logging with Confidence - Andrew Thompson'
+language: English
 recordingDate: 1365528319
 description: "Erlang Factory SF Bay Area 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/SFBay2013/talks\n\nLogging with Erlang can be fraught with peril. If it isn't a gen_server with a 10mb binary in its state crashing and OOMing the node as error_logger tries to print its state, it's your webserver crashing with 10,000 open connections with each one trying to log that it crashed. Or maybe you're writing an Erlang-powered product and don't want to scare your customers with scary, giant Erlang tuples in their log messages.\n\nLager is Basho's answer to the problems it encountered shipping Riak with the default SASL logger. Lager's goals are to provide safe, reliable, customer friendly logging with familiar UNIX logfile semantics."

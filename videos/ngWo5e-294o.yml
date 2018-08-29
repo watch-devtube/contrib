@@ -5,5 +5,6 @@ tags:
     - ruby
     - javascript
 title: 'Claudia Doppioslash | Building a Graphical IDE in Elm/Purescript'
+language: English
 recordingDate: 1496407771
 description: "Filmed in Barcelona at ElixirConf EU 2017\n\n\"Building a Graphical IDE in Elm/Purescript for an Embedded Language that Compiles to the Erlang VM\"\n\nFunctional Programming languages that compile to Javascript can be used to develop complex frontend projects successfully, while sparing yourself a lot of pain and obsessive test coverage.\nIn this deep dive into the Typed-FP-languages-targeting-Javascript ecosystem, I'll show you how we used Elm to build a complex IDE for a visual PLC language for embedded hardware (Programmable Logic Controllers).\nOur PLC programming language implementation gets compiled to BEAM files and runs in the Erlang VM.  That allows us to take advantage of Erlang's distributed model, and through our custom websocket library the IDE can talk directly with a Cowboy handler running on the device, to get debugging information in realtime. \nWe'll also cover our choice of framework when porting the IDE to Purescript, good and less good parts of the two languages, and how they relate to Haskell.\n\nElixirConf EU is a community conference created to promote education, networking and collaboration within the Elixir/Erlang/Ruby communities."

@@ -3,5 +3,6 @@
 tags:
     - storage
 title: 'MariaDB Galera cluster at Grammarly (Dmitry Tiagulskyi and Igor Mazur, Grammarly)'
+language: Russian
 recordingDate: 1504535929
 description: "If you run a production database, there comes a time when you want to distribute it across multiple machines. Maybe your load grows bigger than a single machine can handle. Maybe you need fault tolerance – continue working if one machine or even an entire datacenter goes down.\n\nFor years, traditional master-slave replication was the primary choice for scaling relational databases. In this talk, we demonstrate Galera Cluster – a technology for Multimaster replication, available for MySQL and MariaDB. For many organizations and workloads, it is a sweet spot between high availability and ease of use.\n\nWhat to expect from this talk:\n\n– A case study of using Galera Cluster as a production database at Grammarly for several years.\n– The key concepts of Galera Cluster and synchronous replication. Is it real?\n– Demos that show pitfalls and best practices when dealing with primary keys, locks and schema change."

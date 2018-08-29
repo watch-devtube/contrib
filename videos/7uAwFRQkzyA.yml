@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - testing
+title: 'C++: Be type-safe - The journey of determining the number of elements in an array - Andreas Fertig'
+recordingDate: 1533200879
+description: "Have you ever accidentally determined the size of a pointer instead of the number of elements in an array and spent hours debugging? You want to avoid this in the future? Then you should visit my presentation.\nType safety is one of the most valuable things we have in programming. A strongly typed system helps us write more robust code and detect errors at compile time. A quality that we definitely want in critical systems. The type system of C++ is great for this! However, there are some tasks that are often ignoring the type system. For example, determine the number of elements in an array. For years, an excellent way to give yourself or others a headache.\n\nThe C++ Standards since C++11 offer us new valuable elements such as constexpr. This functionality allows us to perform calculations at compile time. That's exactly what we need for our type-safe implementation to get the number of elements in an array.\n\nIn this talk I will show you how to implement such a feature. Spoiler alert: It is harder than you might expect!"

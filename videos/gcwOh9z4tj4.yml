@@ -3,5 +3,6 @@
 tags:
     - performance
 title: '#bbuzz 2015: Toke Eskildsen: Solr Sparse Faceting'
+language: English
 recordingDate: 1433344584
 description: "Find more information here: http://berlinbuzzwords.de/session/solr-sparse-faceting\n\nnetarchive.dk maintains a historical archive of Danish net resources. We are indexing its 500TB of raw data into Solr. One of the requirements is to provide faceting on several fields, the largest having billions of unique String values. Stock Solr is not capable of doing that with satisfiable performance on our hardware. Inspection of Solr's core faceting code has led to multiple performance improvements for high cardinality faceting.\n\n    Less memory overhead, using packed counters\n    Less garbage collection, reusing counters\n    Better performance for small result sets, using sparse counters\n    Better performance overall with distribution, rewriting fine-counting logic\n\nPerformance gains relative to stock Solr varies with result size. A rule of thumb is 2x for single shard indexes and 4x for multi shard. The principles behind the improvements will be presented and their influence on the faceting performance curve will be discussed and visualized with data from tests and production systems.\n\nSparse faceting is Open Source and available at http://tokee.github.io/lucene-solr/"

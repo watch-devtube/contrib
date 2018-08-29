@@ -3,5 +3,6 @@
 tags:
     - java
 title: 'HotSpot Intrinsics (Volker Simonis, Germany)'
+language: German
 recordingDate: 1468311721
 description: "By definition, intrinsics are functions which are handled specially by the compiler or the VM. The HotSpot virtual machine supports intrinsics for specific API functions in the interpreter as well as in the C1 and C2 JIT compilers. In general, intrinsics are a great possibility for optimization. But they also come at a certain cost. First of all, they are inherently platform and implementation dependent. If available, they can lead to consistency problems if they are implemented differently in the interpreter and the JIT compilers. Finally, they can change the program control (e.g. safepoint behavior) and observability (e.g. profiling, instrumentation) in subtle ways.\n\nThis talk will give an overview of the intrinsics currently available in the HotSpot VM. It will explain how their usage can be controlled, in which way they are implemented and how you can add an intrinsic for your favorite Java method."

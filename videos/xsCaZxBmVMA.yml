@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - react
+    - mobile
+    - android
+    - architecture
+    - kotlin
+    - functional
+title: '#DCBerlin18 103 Munio The Rise of the State Machines DAY1'
+recordingDate: 1533889839
+description: "Mounir Boudraa\nSenior Android Developer, Shopify\n\nTHE RISE OF THE STATE MACHINES: AN INTRODUCTION TO PREDICTABLE STATE CONTAINER BASED ARCHITECTURES F\nPro / Android Architecture / Talk\n\nYou're right, that title seems scary: there are so many complicated words and... come on, we all know there's no silver bullet in programming. So instead of superficially explaining why an architecture is better than another, let's discuss some issues we face in our daily Android development job and how we can solve those easily through 3 examples. 1. I have crashes I can't reproduce. Those crashes can be seen on different devices. I would like to know exactly all the steps that led to these issues to understand and fix those easily. 2. Integration tests are great and necessary to ensure a complete flow is working as expected, but they are complex to set up, and it takes time to run the whole test suite when using aninstrumentation tool such as Espresso 3. My legacy app has some \"startActivity\" calls in activites, fragments, custom views, and even in RecyclerView adapters (who did that !?!). I have no visibility regarding the overall navigation of my app and the code is sometimes hard to follow. Hopefully, those issues are not specifically targeting Android, but all front-end developers. \nAnd some huge companies and smart people have already worked for years on how we could avoid those. Redux, for instance, is becoming increasingly popular with web front-end developers, because this predictable state container tool helps you write applications that behave consistently and are easy to test. We will see today the concepts underneath and how such an architecture can be implemented using functional programming patterns through writing a Kotlin DSL. This talk is targetting developers who have already written some Kotlin code. At the end of the talk, you will get a new, fresh, vision on how to approach programming on Android, through a unidirectional data flow structure, and maybe you'll be interested in implementing a similar architecture in your apps."

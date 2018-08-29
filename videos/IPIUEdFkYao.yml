@@ -3,5 +3,6 @@
 tags:
     - performance
 title: 'Frej Drejhammar - A Status Update of BEAMJIT, the Just-in-Time Compiling Abstract Machine'
+language: English
 recordingDate: 1404294593
 description: "The reference implementation of the Erlang programming language includes an emulator for the Erlang abstract machine, called BEAM. We are developing an LLVM-based tracing just-in-time compiler for Erlang, called BEAMJIT. BEAMJIT uses the LLVM component libClang to analyze and extract the semantics of the BEAM instructions from the C-implementation of BEAM. BEAMJIT then synthesizes an abstract machine with support for tracing, a BEAM-trace-to-IR code generator, and extends BEAM to collect, compile and run traces.\n\nThis talk will provide a brief overview to the just-in-time compiler followed by a walk-through of last year's development. Since last year's talk about BEAMJIT at the EUC, the BEAMJIT prototype has acquired a number of performance enhancing features. Apart from a few degenerate examples which triggers weaknesses in BEAMJIT, single core BEAMJIT now consistently outperforms the reference implementation."

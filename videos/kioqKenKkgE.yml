@@ -3,5 +3,6 @@
 tags:
     - performance
 title: 'Adaptive Algorithms for Online Optimization'
+language: English
 recordingDate: 1205574544
 description: "Google Tech Talks\nMarch, 14 2008\n\nABSTRACT\n\nThe online learning framework captures a wide variety of learning problems. The setting is as follows - in each round, we have to choose a point from some fixed convex domain. Then, we are presented a convex loss function, according to which we incur a loss. The loss over T rounds is simply the sum of all the losses. The aim of most online learning algorithm is to minimize *regret* : the difference of the algorithm's loss and the loss of the best fixed decision in hindsight. Unfortunately, in situations where the loss function may vary a lot, the regret is not a good measure of performance. We define *adaptive regret*, a notion that is a much better measure of how well our algorithm is adapting to the changing loss functions. We provide a procedure that converts any standard low-regret algorithm to one that provides low adaptive regret. We use an interesting mix of techniques, and use streaming ideas to make our algorithm efficient. This technique can be applied in many scenarios, such as portfolio management, online shortest paths, and the tree update problem, to name a few.\n\nSpeaker: Seshadhri Comandur - Research Scientist - New Grad - Mountain View"

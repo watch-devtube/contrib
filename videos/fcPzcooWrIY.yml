@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - azure
+    - aws
+title: 'Peter Hoffmann - Using Pandas and Dask to work with large columnar datasets  in Apache Parquet'
+language: English
+recordingDate: 1534968981
+description: "Using Pandas and Dask to work with large columnar datasets  in Apache Parquet\n[EuroPython 2018 - Talk - 2018-07-25 - Fintry [PyData]]\n[Edinburgh, UK]\n\nBy Peter Hoffmann\n\nApache Parquet Data Format\n\nApache Parquet is a binary, efficient columnar data format. It uses various\ntechniques to store data in a CPU and I/O efficient way like row groups,\ncompression for pages in column chunks or dictionary encoding for columns.\nIndex hints and statistics to quickly skip over chunks of irrelevant data\nenable efficient queries on large amount of data.\n\nApache Parquet with Pandas &amp; Dask\n\nApache Parquet files can be read into Pandas DataFrames with the two libraries\nfastparquet and Apache Arrow. While Pandas is mostly used to work with data\nthat fits into memory, Apache Dask allows us to work with data larger then memory\nand even larger than local disk space. Data can be split up into partitions\nand stored in cloud object storage systems like Amazon S3 or Azure Storage.\n\nUsing Metadata from the partiton filenames, parquet column statistics and\ndictonary filtering allows faster performance for selective queries without\nreading all data. This talk will show how use partitioning, row group skipping \nand general data layout to speed up queries on large amount of data.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2018.europython.eu/en/speaker-release-agreement/"
