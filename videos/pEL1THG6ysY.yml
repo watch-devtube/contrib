@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'code design'
+    - python
+title: 'Andy Fundinger - A Taxonomy of Decorators: A E'
+language: English
+recordingDate: 1536233665
+description: "A Taxonomy of Decorators: A-E\n[EuroPython 2018 - Talk - 2018-07-27 - Moorfoot]\n[Edinburgh, UK]\n\nBy Andy Fundinger\n\nThis talk will briefly go over the various decorator syntaxes before breaking up the common usages of decorators into 5 categories. Effectively, these are design patterns for decorators. The usages to be considered are:\n\n\nA - Argument Changing Decorators -- Decorators that change a function's arguments, including changing its signature\nB - Binding Decorators -- Decorators that implement the Descriptor Protocol, such as the builtins: @property, @classmethod, and @staticmethod\nC - Control Flow Decorators -- Decorators that change when or whether the function will be called, such as @retry or @lrucache\nD - Descriptive Decorators -- Decorators that do not change the function, but create a reference to it elsewhere, like pytest.mark and flask.app.route\nE - Execution Decorators -- Decorators that retrieve source code and/or AST and alter it.\n\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2018.europython.eu/en/speaker-release-agreement/"
