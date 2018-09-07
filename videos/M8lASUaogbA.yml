@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - python
+title: 'Alex Willmer - Rehabilitating Pickle'
+language: English
+recordingDate: 1536233739
+description: "Rehabilitating Pickle\n[EuroPython 2018 - Talk - 2018-07-27 - Smarkets]\n[Edinburgh, UK]\n\nBy Alex Willmer\n\nPickle is a compact serialisation protocol for Python objects.  It could be a convenient way for Python programs and distributed systems to communicate. Unfortunately pickle is widely considered to be unsafe, and it has lead to several vulnerabilities over the years. As the Python manual warns\n\n\n  The pickle module is not secure against erroneous or maliciously \n  constructed data. Never unpickle data received from an untrusted\n  or unauthenticated source.\n\n\nDoes this have to be the case? Can we use Pickle safely?\n\nThis talk will be a deep dive into what an attacker can do with a maliciously constructed pickles. I’ll show what defences you can implement against the common attacks, especially those that gain arbitrary code execution. I will present new research into other attacks, and mitigations. Finally I will review a few less known alternatives to pickle.\n\nThis talk will expand on a https://www.youtube.com/watch?v=5omAT9sqguE&amp;list=PLWsDEQH0HiPZUhtqGczfDnNdiJMhWpmWd&amp;index=9&amp;t=13m10s \nPyLondinium 2018 lightning talk\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2018.europython.eu/en/speaker-release-agreement/"

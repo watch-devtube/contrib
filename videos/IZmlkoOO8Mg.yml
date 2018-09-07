@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - testing
+    - architecture
+    - python
+    - java
+title: 'Neil Gall - System testing with Pytest, Docker, and Flask'
+language: English
+recordingDate: 1536233664
+description: "System testing with Pytest, Docker, and Flask\n[EuroPython 2018 - Talk - 2018-07-27 - Moorfoot]\n[Edinburgh, UK]\n\nBy Neil Gall\n\nThe composability of fixtures in pytest is an improvement over traditional\nxUnit setup/teardown, reducing the incentive to commit testing crimes such as\nmulti-stage and stepwise tests. This is great out of the box for unit tests,\nbut I'm going to show how to combine the power of pytest fixtures with Docker\nto build high-level integration tests for microservices or other complex\nsystems with multiple components. I'll then build on that to show how to embed\nmock web services written with Flask right into the test code.\n\nWith a sample Java application that makes use of some external resources to\noffer a data processing service I'll first quick an overview of Pytest, Docker,\nand Flask. Then I'll mix some pre-built code with live test coding to\ndemonstrate how to build high-level system tests which spin up the application\nand its dependencies in Docker. I'll then mock one of the external dependencies\nusing Flask, allowing the test to control and verify interaction between the\nsystem components. Finally I'll show how to wrap the Flask application in a\nWSGI middleware that lets the test inspect interaction with the mocked service.\n\nFrom a learning and development point of view, building your own is better than\nre-using someone else's code so I'll show how the support code for these\nfeatures is relatively simple and how the audience can build it themselves to\nexactly meet their own needs. And I'll do it all with a sense of fun, a joke\nor two and maybe a little storytelling.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2018.europython.eu/en/speaker-release-agreement/"
