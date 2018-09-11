@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - java
+speaker:
+    name: 'Holden Karau'
+    twitter: holdenkarau
+title: 'Debugging PySpark -- Or trying to make sense of a JVM stack trace when you were minding your own bus'
+recordingDate: 1526153786
+description: "Speaker: Holden Karau\n\nApache Spark is one of the most popular big data projects, offering greatly improved performance over traditional MapReduce models. Much of Apache Spark’s power comes from lazy evaluation along with intelligent pipelining, which can make debugging more challenging. This talk will examine how to debug Apache Spark applications, the different options for logging in PySpark, as well as some common errors and how to detect them.\n\nSpark’s own internal logging can often be quite verbose, and this talk will examine how to effectively search logs from Apache Spark to spot common problems. In addition to the internal logging, this talk will look at options for logging from within our program itself.\n\nSpark’s accumulators have gotten a bad rap because of how they interact in the event of cache misses or partial recomputes, but this talk will look at how to effectively use Spark’s current accumulators for debugging as well as a look to future for data property type accumulators which may be coming to Spark in future version.\n\nIn addition to reading logs, and instrumenting our program with accumulators, Spark’s UI can be of great help for quickly detecting certain types of problems.\n\nDebuggers are a wonderful tool, however when you have 100 computers the “wonder” can be a bit more like “pain”. This talk will look at how to connect remote debuggers, but also remind you that it’s probably not the easiest path forward.\n\n\nSlides can be found at: https://speakerdeck.com/pycon2018 and https://github.com/PyCon/2018-slides"
