@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+speaker:
+    name: 'Holden Karau'
+    twitter: holdenkarau
+title: 'Debugging Apache Spark with Holden Karau (Google) & Joey Echeverria (Rocana) - Strata Singapore 2017'
+language: English
+recordingDate: 1515200951
+description: "Apache Spark is one of the most popular big data projects, offering greatly improved performance over traditional MapReduce models. Much of Apache Spark’s power comes from lazy evaluation along with intelligent pipelining, which can make debugging more challenging. Holden Karau and Joey Echeverria explore how to debug Apache Spark applications, the different options for logging in Spark’s variety of supported languages, and some common errors and how to detect them.\n\nSpark’s own internal logging can often be quite verbose. Holden and Joey demonstrate how to effectively search logs from Apache Spark to spot common problems and discuss options for logging from within your program itself. Spark’s accumulators have gotten a bad rap because of how they interact in the event of cache misses or partial recomputes, but Holden and Joey look at how to effectively use Spark’s current accumulators for debugging before gazing into the future to see the data property type accumulators that may be coming to Spark in future versions. And in addition to reading logs and instrumenting your program with accumulators, Spark’s UI can be of great help for quickly detecting certain types of problems. Holden and Joey cover how to quickly use the UI to figure out if certain types of issues are occurring in your job.\n\nThe talk will wrap up with Holden trying to get everyone to buy several copies of her new book, High Performance Spark ( http://bit.ly/hkHighPerfSpark ).\n\nFrom https://conferences.oreilly.com/strata/strata-sg/public/schedule/detail/62817"
