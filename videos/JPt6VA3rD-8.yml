@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - security
+title: 'Who Is Answering My Queries: Understanding and Characterizing Interception of the DNS'
+language: English
+recordingDate: 1537298366
+description: "Baojun Liu\nTsinghua University\n\nAbstract: \nDNS queries from end users are handled by recursive DNS servers for scalability. For convenience, Internet Service Providers (ISPs) assign recursive servers for their clients automatically when the clients choose the default network settings. But users should also have flexibility to use their preferred recursive servers, like public DNS servers. This kind of trust, however, can be broken by the hidden interception of the DNS resolution path (which we term as DNSIntercept). Specifically, on-path devices could spoof the IP addresses of user-specified DNS servers and intercept the DNS queries surreptitiously, introducing privacy and security issues.\n\nIn this paper, we perform a large-scale analysis of on-path DNS interception and shed light on its scope and characteristics. We design novel approaches to detect DNS interception and leverage 148,478 residential and cellular IP addresses around the world for analysis. As a result, we find that 259 of the 3,047 ASes (8.5%) that we inspect exhibit DNS interception behavior, including large providers, such as China Mobile. Moreover, we find that the DNS servers of the ASes which intercept requests may use outdated vulnerable software (deprecated before 2009) and lack security-related functionality, such as handling DNSSEC requests. Our work highlights the issues around on-path DNS interception and provides new insights for addressing such issues.\n\nView the full USENIX Security '18 program at https://www.usenix.org/usenixsecurity18/technical-sessions"

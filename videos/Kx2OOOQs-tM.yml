@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DelegaTEE: Brokered Delegation Using Trusted Execution Environments'
+language: English
+recordingDate: 1537298244
+description: "Sinisa Matetic \nETH Zurich\n\nAbstract: \nWe introduce a new concept called brokered delegation. Brokered delegation allows users to flexibly delegate credentials and rights for a range of service providers to other users and third parties. We explore how brokered delegation can be implemented using novel trusted execution environments (TEEs). We introduce a system called DelegaTEE that enables users (Delegatees) to log into different online services using the credentials of other users (Owners). Credentials in DelegaTEE are never revealed to Delegatees and Owners can restrict access to their accounts using a range of rich, contextually dependent delegation policies.\n\nDelegaTEE fundamentally shifts existing access control models for centralized online services. It does so by using TEEs to permit access delegation at the user's discretion. DelegaTEE thus effectively reduces mandatory access control (MAC) in this context to discretionary access control (DAC). The system demonstrates the significant potential for TEEs to create new forms of resource sharing around online services without the direct support from those services.\n\nWe present a full implementation of DelegaTEE using Intel SGX and demonstrate its use in four real-world applications: email access (SMTP/IMAP), restricted website access using a HTTPS proxy, e-banking/credit card, and a third-party payment system (PayPal).\n\nView the full USENIX Security '18 program at https://www.usenix.org/usenixsecurity18/technical-sessions"
