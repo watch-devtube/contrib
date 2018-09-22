@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - craftsmanship
+title: 'RustConf 2018 - C2Rust: Migrating Legacy Code to Rust by Per Larsen'
+language: English
+recordingDate: 1536261802
+description: "RustConf 2018 - C2Rust: Migrating Legacy Code to Rust by Per Larsen\n\nAlthough Rust is safer and more modern than C/C++, it is still difficult to justify the cost of migrating existing, mature systems code.\n\nThis talk will present a trifecta of tools to address the costs and risks of such migration efforts. The first tool is a transpiler which generates structurally equivalent-yet-unsafe Rust code from the input C code. The second is a dynamic analysis tool which runs the original C code alongside the new Rust code to check whether they are performing the same computations. The third is a refactoring tool which helps programmers idiomize the output of our transpiler.\n\nOur aim is to automate many of the steps that are entirely manual when migrating from C to Rust today. However, we do not expect that the migration process will be fully automatic. Therefore, we focus on detecting unexpected discrepancies as the programmer gradually rewrites the transpiled code to make better use of Rust idioms. Our tools are open source and available to anyone."

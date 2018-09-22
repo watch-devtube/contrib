@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - security
+    - python
+title: 'Mark Shannon - Is your code tainted? Finding security vulnerabilities using taint tracking'
+language: English
+recordingDate: 1535664155
+description: "Is your code tainted? Finding security vulnerabilities using taint-tracking.\n[EuroPython 2018 - Talk - 2018-07-26 - Kilsyth]\n[Edinburgh, UK]\n\nBy Mark Shannon\n\n\"Taint tracking\" is a technique used in code analysis to find security vulnerabilities and other problems.\n\nAny data that comes from an untrusted source, for example a HTTP request, is treated as \"tainted\".\nIf that \"tainted\" data is able to reach a vulnerable part of your code, then you have a problem.\nSophisticated code analysis tools can track this data, and reveal potential security problems.\nExamples of the sort of problem that can be found include  cross-site scripting (XSS), code injection, SQL injection and others.\n\nIn this talk I will show how taint tracking analysis works in practice, introducing the concepts of source, sink and sanitizer.\nI will then demonstrate using taint tracking to find a XSS vulnerability in a django app.\n(We will chose a project that is designed to teach django security, where the vulnerability is deliberate.)\n\nI will also explain how thinking in terms of \"taint\" can help you write safer code,\neven without access to code analysis.\n\nDuring this talk I will use the code analysis tools on lgtm.com to demonstrate the analysis.\nlgtm.com is free to use for open-source projects. A paid version is available.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2018.europython.eu/en/speaker-release-agreement/"

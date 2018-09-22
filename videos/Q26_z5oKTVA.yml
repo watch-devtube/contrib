@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - security
+title: 'Guarder: A Tunable Secure Allocator'
+language: English
+recordingDate: 1537297908
+description: "Sam Silvestro\nUniversity of Texas at San Antonio\n\nAbstract: \nDue to the on-going threats posed by heap vulnerabilities, we design a novel secure allocator --- Guarder --- to defeat these vulnerabilities. Guarder is different from existing secure allocators in the following aspects. Existing allocators either have low/zero randomization entropy, or cannot provide stable security guarantees, where their entropies vary by object size classes, execution phases, inputs, or applications. Guarder ensures the desired randomization entropy, and provides an unprecedented level of security guarantee by combining all security features of existing allocators, with overhead that is comparable to performance-oriented allocators. Compared to the default Linux allocator, Guarder's performance overhead is less than 3% on average. This overhead is similar to the previous state-of-the-art, FreeGuard, but comes with a much stronger security guarantee. Guarder also provides an additional feature that allows users to customize security based on their performance budget, without changing code or even recompiling. The combination of high security and low overhead makes Guarder a practical solution for the deployed environment.\n\nView the full USENIX Security '18 program at https://www.usenix.org/usenixsecurity18/technical-sessions"

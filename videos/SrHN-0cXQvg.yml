@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - security
+title: 'FlowCog: Context-aware Semantics Extraction and Analysis of Information Flow Leaks in Android Apps'
+language: English
+recordingDate: 1537298123
+description: "Xiang Pan\nGoogle Inc./Northwestern University\n\nAbstract: \nAndroid apps having access to private information may be legitimate, depending on whether the app provides users enough semantics to justify the access. Existing works analyzing app semantics are coarse-grained, staying on the app-level. That is, they can only identify whether an app, as a whole, should request a certain permission, but cannot answer whether a specific app behavior under certain runtime context, such as an information flow, is correctly justified.\n\nTo address this issue, we propose FlowCog, an automated, flow-level system to extract flow-specific semantics and correlate such semantics with given information flows. Particularly, FlowCog statically finds all the Android views that are related to the given flow via control or data dependencies, and then extracts semantics, such as texts and images, from these views and associated layouts. Next, FlowCog adopts a natural language processing (NLP) approach to infer whether the extracted semantics are correlated with the given flow. FlowCog is open-source and available at https://github.com/SocietyMaster/FlowCog. Our evaluation shows that FlowCog can achieve a precision of 90.1% and a recall of 93.1%.\n\nView the full USENIX Security '18 program at https://www.usenix.org/usenixsecurity18/technical-sessions"

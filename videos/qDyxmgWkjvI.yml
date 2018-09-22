@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - python
+title: 'Ivaylo Donchev - Django queries optimization'
+language: English
+recordingDate: 1535664156
+description: "Django queries optimization\n[EuroPython 2018 - Talk - 2018-07-26 - Kilsyth]\n[Edinburgh, UK]\n\nBy Ivaylo Donchev\n\nCollecting data from multiple Models is a common flow in Django development. In most of the cases prefetch_related and select_related do all of the job for optimizing the queries.\n\nWhen the models structure become complicated enough and we've put our logic for collecting these items in models' properties we suddenly cannot use prefetch_related or select_related anymore. Our View 's queries count depends on selected items count with high complexity. The problem is in the selection logic: we've implemented an algorithm which calculates something and we cannot prefetch or select all of the objects. \n\nSo this talk's purpose is: To show how to use Django ORM to move the selection logic, the calculations, the aggregations over group of objects from our python code to our database and moving all of the logic for this in one place - the queryset and test it easily.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2018.europython.eu/en/speaker-release-agreement/"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+title: 'Debloating Software through Piece-Wise Compilation and Loading'
+language: English
+recordingDate: 1537298124
+description: "Anh Quach\nBinghamton University\n\nAbstract: \nPrograms are bloated. Our study shows that only 5% of libc is used on average across the Ubuntu Desktop envi- ronment (2016 programs); the heaviest user, vlc media player, only needed 18%. In this paper: (1) We present a debloating framework built on a compiler toolchain that can successfully de- bloat programs (shared/static libraries and executables). Our solution can successfully compile and load most li- braries on Ubuntu Desktop 16.04. (2) We demonstrate the elimination of over 79% of code from coreutils and 86% of code from SPEC CPU 2006 benchmark pro- grams without affecting functionality. We show that even complex programs such as Firefox and curl can be debloated without a need to recompile. (3) We demon- strate the security impact of debloating by eliminating over 71% of reusable code gadgets from the coreutils suite, and show that unused code that contains real-world vulnerabilities can also be successfully eliminated with- out adverse effects on the program. (4) We incur a low load time overhead.\n\nView the full USENIX Security '18 program at https://www.usenix.org/usenixsecurity18/technical-sessions"

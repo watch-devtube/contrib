@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+title: 'Making C Less Dangerous'
+language: English
+recordingDate: 1537111761
+description: "With the kernel written in C, it comes with some worrisome baggage, \"undefined\" behaviors, and other weaknesses that lead to security flaws and vulnerable infrastructure. Some of these weaknesses related to the design of chipsets and how close C is to machine code, but others are less specific. \n\nThis presentation will explore the areas where the kernel is changing the C standard, defining undefined behaviors, or otherwise reorganizing things to make C itself less of a hazard. \n\nSpecifically this will cover removing (and enforcing the lack of) Variable Length Arrays in kernel code, forcing all stack variables to be initialized with a GCC plugin, performing implicit bounds checking with overloaded builtins, handling arithmetic overflows safely, and protecting forward (call) and reverse (return) indirect function calls with CFI under Clang.\n\nEVENT:\n\nLinux Security Summit 2018\n\nSPEAKER:\n\nKees Cook, Google\n\nPERMISSIONS:\n\nOriginal video was published with the Creative Commons Attribution license (reuse allowed).\n\nCREDITS:\n\nOriginal video source: https://www.youtube.com/watch?v=XfNt6MsLj0E"

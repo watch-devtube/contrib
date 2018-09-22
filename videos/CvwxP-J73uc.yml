@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+title: 'HeapHopper: Bringing Bounded Model Checking to Heap Implementation Security'
+language: English
+recordingDate: 1537297909
+description: "Moritz Eckert\nUniversity of California, Santa Barbara\n\nAbstract: \nHeap metadata attacks have become one of the primary ways in which attackers exploit memory corruption vulnerabilities. While heap implementation developers have introduced mitigations to prevent and detect corruption, it is still possible for attackers to work around them. In part, this is because these mitigations are created and evaluated without a principled foundation, resulting, in many cases, in complex, inefficient, and ineffective attempts at heap metadata defenses.\n\nIn this paper, we present HeapHopper, an automated approach, based on model checking and symbolic execution, to analyze the exploitability of heap implementations in the presence of memory corruption. Using HeapHopper, we were able to perform a systematic analysis of different, widely used heap implementations, finding surprising weaknesses in them. Our results show, for instance, how a newly introduced caching mechanism in ptmalloc (the heap allocator implementation used by most of the Linux distributions) significantly weakens its security. Moreover, HeapHopper guided us in implementing and evaluating improvements to the security of ptmalloc, replacing an ineffective recent attempt at the mitigation of a specific form of heap metadata corruption with an effective defense.\n\nView the full USENIX Security '18 program at https://www.usenix.org/usenixsecurity18/technical-sessions"
