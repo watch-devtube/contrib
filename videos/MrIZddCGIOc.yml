@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'SREcon18 Europe - Know Your Kubernetes Deploys'
+language: English
+recordingDate: 1538005101
+description: "Felix Glaser, Shopify\n\nContainers changed the way we develop and package our code. Kubernetes made it easy to deploy and orchestrate our workloads. Now that those steps are well understood, it is time to draw attention to securing the software supply chain. This talk shows how Shopify secures and tracks its workloads.\n\nWe secure our software supply chain by creating signatures on our containers which state that they originate from the correct deploy pipeline, got tested and contain no known vulnerabilities or outdated software.\n\nDuring deployment we use an admission controller that enables us to enforce deploy time policies that check the presence of the before created signatures so that we prevent privilege escalation via code deployment.\n\nView the full SREcon18 Europe Program at: https://www.usenix.org/conference/srecon18europe/program\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
