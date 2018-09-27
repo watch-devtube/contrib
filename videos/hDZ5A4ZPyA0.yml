@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - performance
+    - testing
+title: 'SREcon18 Europe - Kernel Upgrades at Facebook'
+language: English
+recordingDate: 1538005102
+description: "Pradeep Nayak Udupi Kadbet\n\nThe goal of this talk is to explain the importance of automating your kernel upgrades and why you should invest time in building automation which reliably and continuously enforces newer kernels on your hosts.\n\nThe Kernel Team at Facebook is in charge of the Linux kernel used at Facebook, along with other 'system level' packages that go with. The kernel team works on tasks like:\nMerging upstream changes into the Facebook Linux Kernel\nCreating custom kernel changes for our needs\nInvestigating Linux-related performance issues and failures\nPeriodically building and initial testing of new Facebook kernel rpms\nMySQL is one of the primary data stores which Facebook relies on. We have tens of thousands of database hosts which run on linux boxes with different kernel versions. No kernel is perfect and often time database hosts hit kernel bugs which impact production traffic. The remediation often is to upgrade to newer kernels which have these fixes.\n\nIn this talk I will go over some of the kernel bugs which impacted our production database servers and how we invested time in developing an automation framework to enforce new kernels on our database hosts in a continuous fashion at Facebook scale. I will also go over how MySQL Infrastructure at Facebook adopted this and is successfully upgrading tens of thousands of database servers without impacting production traffic.\n\nView the full SREcon18 Europe Program at: https://www.usenix.org/conference/srecon18europe/program\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
