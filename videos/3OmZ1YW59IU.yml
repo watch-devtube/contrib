@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+title: 'Passive filesystem verification'
+recordingDate: 1538217695
+description: "https://media.ccc.de/v/ASG2018-185-passive_filesystem_verification\n\n(and massage)\n\nA more generic approach to ensure you have what you'd expect to have\n\nA side effect of the many new ways to package filesystems (here's looking at you, containers!), is that filesystems are being copied around without many of the features that traditional packaging provided (i.e. `rpm -qV ...`). Much progress has been made for reproducible digests of containers. In this talk Vincent Batts will review options for distributing filesystems with reproducibility, and verifying the at-rest outcomes.\n\nVincent Batts\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/185"
