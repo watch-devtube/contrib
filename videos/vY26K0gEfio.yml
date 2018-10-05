@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - cloud
+    - architecture
+title: 'Point-to-Point Messaging Architecture - The Reactive Endgame'
+language: English
+recordingDate: 1538634060
+description: "What's next after Microservices Architecture? Can we do better than \"WebHooks\" over HTTP? Should distributed systems grow more complex every year? Can we start thinking beyond Cloud Computing? A majority of modern distributed softwares is built on the assumption that HTTP is the [only] standard communication protocol. The implications are deep as entire solutions standardize around HTTP including service meshes or messaging with gRPC over H2. Efficient systems also make use of a message broker such as Kafka, RabbitMQ or SQS to enable data distribution, streaming and event-driven architectures. Sadly, there is a hard semantic boundary between HTTP and these messaging solutions. The primary consequence is an uncontrolled request backlog, usually mitigated by a strong Observability story in the platform to assist elastic scaling. In this session, we will try to explore those many questions and will provide our R&D perspective on the future of distributed systems.\n\nSpeakers:\nRyland Degnan\nCo-founder and CTO, Netifi\nStephane Maldini\nReactive Engineering Cook, Pivotal\nFilmed at SpringOne Platform 2018"
