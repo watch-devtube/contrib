@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+title: 'C++: No more nulls! (Fixing the billion dollar mistake) - Anders Schau Knatten'
+recordingDate: 1538568751
+description: "I recently worked for several years in a large C# code base where null was banned. It was beautiful! In C++ it can be even better.\nTalk level: Introductory\nI recently worked for several years in a large C# code base where null was banned. It was beautiful! In C++ it can be even better.\n\nNull is a traditional way of indicating \"no value\", but the approach has several problems:\n\nAll pointers can be null, there's nothing explicit about which ones are actually allowed be so\nInterfaces get harder to understand\nYou risk ending up with a lot of pointless null checks\nYou risk dereferencing a null pointer\nDisallowing null eliminates null pointer dereferencing, makes it explicit which variables might not contain a value, removes unnecessary null checks, and makes the code safer and much easier to reason about.\n\nWe'll start with going through the common uses of null (as arguments, return values and members). We'll then look at ways to improve our code by:\n\nFor non-optional values, using non-nullable types (value semantics / references)\nFor optional values, using C++17's std::optional.\nFor remaining pointers, using gsl::not_null\nTony Hoare, the inventor of null, calls it his \"billion-dollar mistake\". Let's see if we can fix it.\n\n\n\nNDC Conferences \nhttps://ndctechtown.com\nhttps://ndcconferences.com"

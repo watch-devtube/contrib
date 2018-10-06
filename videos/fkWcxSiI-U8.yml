@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - performance
+title: 'Part II: A Performance Analysis of a Trading System over Compliers - Jason McGuiness'
+recordingDate: 1538400120
+description: "High-Frequency Trading (HFT) and low-latency trading are a major preserve of C++. The fact that it is amenable to extensive optimisation, including micro-optimisations, has made it highly effective. Also the impact of hardware and O/S upon such performance-critical systems are other major factors that C++ can build upon.\nContinued demand has meant this talk is updated with results from the latest versions of G++ and Clang! The talk shall cover, amongst other items: an analysis of some micro-optimisation techniques with particular focus on the quirks in generated assembler due to different compiler versions. Exactly what is static branch-prediction, and how is it (ab)used? Followed on by the \"curious case of the switch-statement\". All of these, and more, have been successfully implemented in a simple FIX-to-MIT/BIT trading system, for which the performance shall be analysed. Moreover the impact of selected O/Ss upon performance shall be discussed. Much has been written and speculated upon the mitigations for Spectre and Meltdown upon performance. I shall present results that appear to contradict the currently-propounded beliefs of some major organisations.\n\n\n\nNDC Conferences \nhttps://ndctechtown.com\nhttps://ndcconferences.com"

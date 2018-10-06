@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+    - architecture
+title: 'Isolating GPU access in its own process - Patricia Aas'
+recordingDate: 1538570106
+description: "Chromium's process architecture has graphics access restricted to a separate GPU-process. There are several reasons why this could make sense, three common ones are: Security, Robustness and Dependency Separation.\nGPU access restricted to a single process requires an efficient framework for communication over IPC from the other processes, and most likely a framework for composition of surfaces. This talk describes both the possible motivations for this kind of architecture and Chromium's solution for the IPC framework. We will demonstrate how a multi-process program can compose into a single window on Linux.\n\n\n\nNDC Conferences \nhttps://ndctechtown.com\nhttps://ndcconferences.com"
