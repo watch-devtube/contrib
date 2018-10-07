@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - java
+title: 'Understanding Spark tuning with autotuning or magical spells to stop your pager going off at 2am'
+language: English
+recordingDate: 1537213015
+description: "Apache Spark is an amazing distributed system, but part of the bargain we’ve made with the infrastructure deamons involves providing the correct set of magic numbers (aka tuning) or our jobs may be eaten by Cthulhu. Tuning Apache Spark is somewhat of a dark art, although thankfully, when it goes wrong, all we tend to lose is several hours of our day and our employer’s money.\n\nHolden Karau, Rachel Warren, and Anya Bida explore auto-tuning jobs using both historical and live job information, using systems like Apache BEAM, Mahout, and internal Spark ML jobs as workloads. Much of the data required to effectively tune jobs is already collected inside of Spark. You just need to understand it. Holden, Rachel, and Anya outline sample auto-tuners and discuss the options for improving them and applying similar techniques in your own work. They also discuss what kind of tuning can be done statically (e.g., without depending on historic information) and look at Spark’s own built-in components for auto-tuning (currently dynamically scaling cluster size) and how you can improve them.\n\nEven if the idea of building an auto-tuner sounds as appealing as using a rusty spoon to debug the JVM on a haunted supercomputer, this talk will give you a better understanding of the knobs available to you to tune your Apache Spark jobs.\n\nAlso, to be clear, Holden, and Rachel don’t promise to stop your pager going off at 2:00am, but hopefully this helps."
