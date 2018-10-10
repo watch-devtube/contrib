@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+title: 'Sane and Safe C++ Class Types - Peter Sommerlad'
+recordingDate: 1539087505
+description: "C++ is a complex language and with the introduction of move semantics, noexcept and constexpr in C++11 and later, defining or declaring the right combination of magic keywords in the right place is daunting for the uninitiated.\nThere is the Rule of Zero telling that you should let the compiler figure out what to provide. It carries far for the application level programmer, but still might not be sufficient. Should you then rely on the Rule of Five or Six? What would be the consequences? When should you actually deviate from the Rule of Zero.\n\nFor example, classes representing values should better not have virtual member functions. But should you use final or not? Do you really need class hierarchies?\n\nMany C++ guidelines try to limit the use of the language features so that resulting code has higher chances to be correct and safe. This talk will give an overview of the kind of classes you can create in such a controlled setting and provides a map to where is expert territory that requires deliberate care about your classes.\n\nThe talk will further provide guidelines for how to circumvent expert territory and how to step there without shooting yourself in the foot or tripping a mine.\n\n\n\nNDC Conferences \nhttps://ndctechtown.com\nhttps://ndcconferences.com"
