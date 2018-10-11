@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - docker
+title: 'Using Seccomp to Limit the Kernel Attack Surface - Michael Kerrisk'
+recordingDate: 1539168487
+description: "Seccomp (secure computing) is a means to limit the system calls a program may make to the Linux kernel. It can be used to select exactly which system calls are permitted (or denied) and to restrict the arguments that may be passed to those system calls. System call filtering is achieved by writing BPF programs--programs written for a small in-kernel virtual machine that is able to examine system call numbers and arguments.\nIn this session, I'll examine the BPF virtual machine and look at some illustrative examples of filter programs that restrict the set of permitted system calls. I'll also briefly mention some of the productivity aids available for writing BPF filters and consider some caveats regarding its use. The goal is to provide a solid understanding of a tool that has found use in a wide range of applications running on Linux, including Docker, LXC, various web browsers, systemd, Flatpak, and Firejail.\n\n\n\nNDC Conferences \nhttps://ndctechtown.com\nhttps://ndcconferences.com"
