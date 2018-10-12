@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - testing
+    - functional
+title: 'CppCon 2018: Alastair Rankine “Tools and Techniques for Testing Callbacks Using Standard C++”'
+language: English
+recordingDate: 1539286228
+description: "To Kill a Mocking Framework: Tools and Techniques for Testing Callbacks Using Standard C++\n--\nhttp://CppCon.org\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/CppCon/CppCon2018\n—\nCallbacks are a commonly used technique for delivering data and passing control from one component to another. Their many uses include handling asynchronous events, providing customizations, and (with polymorphic lambdas) enable functional-style programming in C++. Testing components which invoke polymorphic callbacks can be a challenge, and this leads some developers to either avoid testing altogether, or to rely on mocking frameworks such as Google Mock. \n\nMocking frameworks sometimes rely on a Domain Specific Language or other syntax for expressing expectations on the mocked objects. My intention for this talk is to outline some ways in which standard C++ features and idioms can be used to test components with callbacks, as an alternative to such frameworks. In particular, I'll show how employing core features - lambdas, std::function, and RAII - allows us to build mocks which clearly express the desired behavior from the code under test, whilst being expressive and hard to misuse.\n— \nAlastair Rankine, Morgan Stanley\nVP, Automated Market Making\n\nAlastair is a developer who has been in the finance industry for the last 10 years, writing low latency trading software. He first discovered C++ in the early 90s, and has been developing software with it professionaly ever since. He likes solid abstractions, efficient processes, good wine and bad movies.\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"

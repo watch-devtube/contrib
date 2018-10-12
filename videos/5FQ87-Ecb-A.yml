@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - career
+    - c++
+    - performance
+    - functional
+title: 'CppCon 2018: Bob Steagall “Fast Conversion From UTF-8 with C++, DFAs, and SSE Intrinsics”'
+language: English
+recordingDate: 1539286969
+description: "http://CppCon.org\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/CppCon/CppCon2018\n—\nUTF-8 is taking on an increasingly important role in text processing. Many applications require the conversion of UTF-8 to UTF-16 or UTF-32, but typical conversion algorithms are sub-optimal. This talk will describe a fast, correct, DFA-based approach to UTF-8 conversion that requires only three simple lookup tables and a small amount of straightforward C++ code. \n\nWe'll begin with a quick review UTF-8 and its relation to UTF-16 and UTF-32, as well as the concept of code units and code points. Next, we'll look at the layout of bits within a UTF-8 byte sequence, and from that, show a simple algorithm for converting from UTF-8 to UTF-32. Along the way will be a definition of overlong and invalid byte sequences. Following that will be a discussion of how to construct a DFA to perform the same operations as the simple algorithm. We'll then look at code for the DFA traversal underlying the basic conversion algorithm, and how to gain an additional performance boost by using SSE intrinsics. \n\nFinally, we'll compare the performance of this approach to several commonly-available implementations on Windows and Linux, and show how it's possible to do significantly faster conversions.\n— \nBob Steagall, KEWB Computing\nCppCon Poster Chair\n\nI've been working in C++ since discovering the second edition of The C++ Programming Language in a college bookstore in 1992. The majority of my career has been spent in medical imaging, where I led teams building applications for functional MRI and CT-based cardiac visualization. After a brief detour through the world of DNS and analytics, I'm now working in the area of distributed stream processing. I'm a relatively new member of the C++ Standardization Committee, and launched a blog earlier this year to write about C++ and related topics. I hold BS and MS degrees in Physics, and I'm an avid cyclist when weather permits.\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"
