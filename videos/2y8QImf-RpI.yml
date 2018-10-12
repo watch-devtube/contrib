@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - performance
+    - web
+    - react
+    - security
+    - python
+    - java
+title: '"Chasing the Stream Processing Utopia" by Kartik Paramasivam'
+language: English
+recordingDate: 1539289398
+description: "Over the last 15 years batch processing frameworks have thrived and ruled over big data processing. But now in the age of social computing, it is no longer acceptable to wait for data to land into a data-lake before it gets processed. We want our applications to react to new data as soon as it gets generated upstream. For a web site, members expect their feed to be updated as soon as some relevant activity, news, jobs etc. happens. We are talking seconds (or minutes). We also want to detect degraded site experience, fraud, security breaches, spam etc. instantaneously. Even business metrics (written in traditionally batch oriented languages like HIVE/PIG) are now expected to run in realtime. The current status-quo of real-time data processing (stream processing) is still very far from Utopia.\n\nAt LinkedIn, we capture Trillions of events(PB's of data) per day into Apache Kafka. Updates happening in our databases are captured using Brooklin and made available via Kafka. We process this deluge of events in real time using Apache Samza.\n\nIn this session we will discuss the hard problems in ingesting and processing data reliably and efficiently at internet scale. We will take an in depth tour of how we process events at scale using application local state to achieve a 100X improvement in performance over using traditional key-value databases. We will also discuss the need to express event processing logic in different programming languages (eg Java, SQL, Python) and\n\nSpeaker: Kartik Paramasivam"
