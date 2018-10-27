@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - devops
+    - containers
+    - docker
+    - security
+title: 'DevOpsDaysRiga 2017 | Daniel Houston | Thinking outside the box: The Docker socket security concern'
+recordingDate: 1510223165
+description: "Daniel is a technical team lead in Accenture Lativa, having recently moved here from the UK.\nPreviously, Daniel worked in IBM for around 5 years, where he helped found the DevOps Department in IBM Cambridge. While he was there he took part in a number of patent groups, He is a named inventor on an Intelligent route navigation patent https://www.google.com/patents/US9347780 and has some patents awaiting publish.\n\nThe Docker socket is insecure when mounted through to containers, allowing subsequent contains to escape the docker model and root the docker host.\n\nMany use Docker in their CI pipelines; but few everyday users are aware of the security issues surrounding the docker socket on docker hosts and the complications this brings. I want to highlight one such issue with the docker socket when creating docker containers within docker containers."
