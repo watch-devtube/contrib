@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - ruby
+    - python
+    - javascript
+    - java
+    - spring
+title: 'DEF CON 26 - Orange Tsai - Breaking Parser Logic Take Your Path Normalization Off and Pop 0Days Out'
+language: English
+recordingDate: 1540249665
+description: "We propose a new exploit technique that brings a whole-new attack surface to defeat path normalization, which is complicated in implementation due to many implicit properties and edge cases. This complication, being under-estimated or ignored by developers for a long time, has made our proposed attack vector possible, lethal, and general. Therefore, many 0days have been discovered via this approach in popular web frameworks written in trending programming languages, including Python, Ruby, Java, and JavaScript. \n\nBeing a very fundamental problem that exists in path normalization logic, sophisticated web frameworks can also suffer. For example, we've found various 0days on Java Spring Framework, Ruby on Rails, Next.js, and Python aiohttp, just to name a few. This general technique can also adapt to multi-layered web architecture, such as using Nginx or Apache as a proxy for Tomcat. In that case, reverse proxy protections can be bypassed. To make things worse, we're able to chain path normalization bugs to bypass authentication and achieve RCE in real world Bug Bounty Programs. Several scenarios will be demonstrated to illustrate how path normalization can be exploited to achieve sensitive information disclosure, SMB-Relay and RCE. \n\nUnderstanding the basics of this technique, the audience won't be surprised to know that more than 10 vulnerabilities have been found in sophisticated frameworks and multi-layered web architectures aforementioned via this technique."

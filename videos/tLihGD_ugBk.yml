@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DEF CON 26 - Bui and Rao - Last mile authentication problem Exploiting the missing link'
+language: English
+recordingDate: 1540249665
+description: "With \"Trust none over the Internet\" mindset, securing all communication between a client and a server with protocols such as TLS has become a common practice. However, while the communication over Internet is routinely secured, there is still an area where such security awareness is not seen: inside individual computers, where adversaries are often not expected. \n\nThis talk discusses the security of various inter-process communication (IPC) mechanisms that local processes and applications use to interact with each other. In particular, we show IPC-related vulnerabilities that allow a non-privileged process to steal passwords stored in popular password managers and even second factors from hardware tokens. With passwords being the primary way of authentication, the insecurity of this \"last mile\" causes the security of the rest of the communication strands to be obsolete. The vulnerabilities that we demonstrate can be exploited on multi-user computers that may have processes of multiple users running at the same time. The attacker is a non-privileged user trying to steal sensitive information from other users. Such computers can be found in enterprises with centralized access control that gives multiple users access to the same host. Computers with guest accounts and shared computers at home are similarly vulnerable."

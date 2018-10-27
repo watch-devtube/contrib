@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'DEF CON 26 - Alfonso Alguacil and Murillo Moya - Playback a TLS 1 point 3 story'
+language: English
+recordingDate: 1540249665
+description: "TLS 1.3 is the new secure communication protocol that should be already with us. One of its new features is 0-RTT (Zero Round Trip Time Resumption) that could potentially allow replay attacks. This is a known issue acknowledged by the TLS 1.3 specification, as the protocol does not provide replay protections for 0-RTT data, but proposed countermeasures that would need to be implemented on other layers, not at the protocol level. Therefore, the applications deployed with TLS 1.3 support could end up exposed to replay attacks depending on the implementation of those protections. \n\nThis talk will describe the technical details regarding the TLS 1.3 0-RTT feature and its associated risks. It will include Proof of Concepts (PoC) showing real-world replay attacks against TLS 1.3 libraries and browsers. Finally, potential solutions or mitigation controls would be discussed that will help to prevent those attacks when deploying software using a library with TLS 1.3 support."

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+title: 'DEF CON 26 - Romailler and Amiet - Reaping and Breaking Keys at Scale When Crypto Meets Big Data'
+language: English
+recordingDate: 1540249664
+description: "Public keys are everywhere, after all, they are public. These keys are waiting to be reaped by those who know their real value. Hidden behind this public face lurks some potentially dangerous issues which could lead to a compromise of data and privacy. \n\nLeveraging hundreds of minion devices, we built a public key reaping machine (which we are open sourcing) and operated it on a global scale. Collected keys are tested for vulnerabilities such as the recent ROCA vulnerability or factorization using batch-GCD. We've collected over 300 million keys so far and built a database 4 to 10 times bigger than previous public works. \n\nPerforming the initial computation on over 300 million keys took about 10 days on a 280 vCPU cluster. Many optimizations allow our tool to incrementally test new RSA keys for common prime factors against the whole dataset in just a few minutes. \n\nAs a result of our research, we could have impersonated hundreds of people by breaking their PGP keys, mimicked thousands of servers thanks to their factored SSH keys and performed MitM attacks on over 200k websites relying on vulnerable X509 certificates. \n\nIn the end, we were able to do this in an entirely passive way. Going further is possible, but it would lead us to the dark side. Would big brother hesitate to go there?"

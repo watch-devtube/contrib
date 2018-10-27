@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'DEF CON 26 - Sanat Sharma - House of Roman a Leakless Heap Fengshui to Achieve RCE on PIE Binaries'
+language: English
+recordingDate: 1540249665
+description: "Regarding ptmalloc2, many heap exploitation techniques have been invented in the recent years, well documented on the famous how2heap repository, or as writeups of famous CTF challenges (like House of Orange). However, most of them require atleast a libc/heap leak , or fail in non-PIE binaries. My new technique titled House of Roman leverages a single bug to gain shell leaklessly on a PIE enabled Binary. I shall showcase the ease of aligning the heap to perform this attack, thus demonstrating its versatility. \n\nSince this a 20 mins talk, attendees should be aware of basic heap exploitation techniques, like fastbin attacks and unsorted bin attacks, and have a general idea of how the ptmalloc2 algorithm works. As a bonus, I also discuss how to land a fastbin chunk in memory regions with no size alignment (like __free_hook )."

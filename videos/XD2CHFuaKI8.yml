@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - ios
+    - security
+title: 'DEF CON 26 -  Zheng and Bai - Fasten your seatbelts We are escaping iOS 11 Sandbox'
+language: English
+recordingDate: 1540249665
+description: "Apple's sandbox was introduced as \"SeatBelt\" in macOS 10.5 which provided the first full-fledged implementation of the MACF policy. After a successful trial on macOS, Apple applied sandbox mechanism to iOS 6. In its implementation, the policy hooked dozens of operations. The number of hooks has been growing steadily when new system calls or newly discovered threats appeared. In the beginning, Apple's sandbox used a black list approach which means Apple originally concentrated on the known dangerous APIs and blocked them, allowing all others by default. However, with the evolution of Apple's sandbox, it applies a white list approach that denies all APIs and only allows secure ones that Apple trusts. \n\nIn this talk, we will first introduce Apple's sandbox mechanism and profiles in the latest iOS. Then, we discuss iOS IPC mechanism and review several old classic sandbox escape bugs. Most importantly, we show two new zero-day sandbox escape vulnerabilities we recently discovered in the latest iOS 11.4. Besides, we share our experience of exploiting vulnerabilities in system services through OOL msg heap spray and ROP (Return-oriented programming). In addition, we discuss a task port exploit technique which can be used to control the whole remote process through Mach messages. By using these techniques, security researchers could find and exploit sandbox escape bugs to control iOS user mode system services and further attack the kernel."

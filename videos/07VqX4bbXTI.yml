@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - ios
+    - security
+    - testing
+title: 'DEF CON 26 - Bai and Zheng  - Analyzing and Attacking Apple Kernel Drivers'
+language: English
+recordingDate: 1540249665
+description: "Though many security mechanisms are deployed in Apple's macOS and iOS systems, some old-fashioned or poor-quality kernel code still leaves the door widely open to attackers. Especially, as kernel's critical components, device drivers are frequently exploited to attack Apple systems. In fact, bug hunting in Apple kernel drivers is not easy since they are mostly closed-source and heavily relying on object-oriented programming. In this talk, we will share our experience of analyzing and attacking Apple kernel drivers. In specific, we will introduce a new tool called Ryuk. Ryuk employs static analysis techniques to discover bugs by itself or assist manual review. \n\nIn addition, we further combine static analysis with dynamic fuzzing for bug hunting in Apple drivers. In specific, we will introduce how we integrate Ryuk to the state-of-art Apple driver fuzzer, PassiveFuzzFrameworkOSX, for finding exploitable bugs. \n\nMost importantly, we will illustrate Ryuk's power with several new vulnerabilities that are recently discovered by Ryuk. In specific, we will show how we exploit these vulnerabilities for privilege escalation on macOS 10.13.3 and 10.13.2. We will not only explain why these bugs occur and how we find them, but also demonstrate how we exploit them with innovative kernel exploitation techniques."

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+title: 'DEF CON 26 - Rousseau and Seymour - Finding Xori Malware Analysis Triage with Automated Disassembly'
+language: English
+recordingDate: 1540249665
+description: "In a world of high volume malware and limited researchers we need a dramatic improvement in our ability to process and analyze new and old malware at scale. Unfortunately what is currently available to the community is incredibly cost prohibitive or does not rise to the challenge. As malware authors and distributors share code and prepackaged tool kits, the corporate sponsored research community is dominated by solutions aimed at profit as opposed to augmenting capabilities available to the broader community. With that in mind, we are introducing our library for malware disassembly called Xori as an open source project. Xori is focused on helping reverse engineers analyze binaries, optimizing for time and effort spent per sample. \n\nXori is an automation-ready disassembly and static analysis library that consumes shellcode or PE binaries and provides triage analysis data. This Rust library emulates the stack, register states, and reference tables to identify suspicious functionality for manual analysis. Xori extracts structured data from binaries to use in machine learning and data science pipelines. \n\nWe will go over the pain-points of conventional open source disassemblers that Xori solves, examples of identifying suspicious functionality, and some of the interesting things we've done with the library. We invite everyone in the community to use it, help contribute and make it an increasingly valuable tool for researchers alike."

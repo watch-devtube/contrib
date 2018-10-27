@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+title: 'DEF CON 26 - Nevermoe - One Step Ahead of Cheaters Instrumenting Android Emulators'
+language: English
+recordingDate: 1540249664
+description: "Commercial Android emulators such as NOX, BlueStacks and Leidian are very popular at the moment and most games can run on these emulators fast and soundly. The bad news for game vendors is that these emulators are usually shipped with root permission in the first place. On the other hand, cheating tools developers are happy because they can easily distribute their tools to abusers without requiring the abusers to have a physical rooted device, nor do they need to perform laborious tuning for different Android OS / firmware version. However, luckily for game vendors, commercial Android emulators usually use an x86/ARM mixed-mode emulation for speed-up. As a result, a standard native hooking/DBI framework won't work on this kind of platform. This drawback could discourage the cheating developers. \n\nIn this talk, I will introduce a native hooking framework on such a kind of mixed-mode emulators. The talk will include the process start routine of both command-line applications and Android JNI applications as well as how these routines differ on an emulator. The different emulation strategies adopted by different emulators and runtime environments (Dalvik/ART) will also be discussed. Based on these knowledge, I will explain why the existing hooking/DBI frameworks do not work on these emulators and how to make one that works. \n\nLastly, I will present a demo of using this hooking framework to cheat a game on emulator. With this demo, I will discuss how the dark market of mobile game cheating may develop in the foreseeable future."

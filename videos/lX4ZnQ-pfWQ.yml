@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+title: 'DEF CON 26 - Gabriel Ryan - Bypassing Port Security In 2018 Defeating MacSEC and 802 1x 2010'
+language: English
+recordingDate: 1540249665
+description: "Existing techniques for bypassing wired port security are limited to attacking 802.1x-2004, which does not provide encryption or the ability to perform authentication on a packet-by-packet basis [1][2][3][4]. The development of 802.1x-2010 mitigates these issues by using MacSEC to provide Layer 2 encryption and packet integrity check to the protocol [5]. Since MacSEC encrypts data on a hop-by-hop basis, it successfully protects against the bridge-based attacks pioneered by the likes of Steve Riley, Abb, and Alva Duckwall [5][6]. \n\nIn addition to the development of 802.1x-2010, improved 802.1x support by peripheral devices such as printers also poses a challenge to attackers. Gone are the days in which bypassing 802.1x was as simple as finding a printer and spoofing address, as hardware manufacturers have gotten smarter. \n\nIn this talk, we will introduce a novel technique for bypassing 802.1x-2010 by demonstrating how MacSEC fails when weak forms of EAP are used. Additionally, we will discuss how improved 802.1x support by peripheral devices does not necessarily translate to improved port-security due to the widespread use of weak EAP. Finally, we will consider how improvements to the Linux kernel have made bridge-based techniques easier to implement and demonstrate an alternative to using packet injection for network interaction. We have packaged each of these techniques and improvements into an open source tool called Silent Bridge, which we plan on releasing at the conference."
