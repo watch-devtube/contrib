@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - cloud
+title: 'AskTOM Office Hours: SmartDB Separation of Concerns through APIs'
+language: English
+recordingDate: 1529497913
+description: "Held on June 19 2018\n\nShould the database be used as a persistence layer only, or a full-fledged processing engine that runs business logic too? We call the latter the #SmartDB approach. Use these sessions to explore with Bryn Llewellyn and Toon Koppelaars the #SmartDB approach for building secure, high performance applications on Oracle Database through PL/SQL APIs.\n\nIn this session, we asserted that SmartDB means exactly that the only database user(s) for which outside-of-the-database clients know the connect credentials own empty schemas and have no privileges except for the designed set of PL/SQL subprograms that jointly define the database’s API. We classified these API subprograms into two groups: XAPIs—which change data; and QAPIs which only read data. We stressed that each XAPI subprogram must have “commit” as its last ordinary executable statement—and that each must issue rollback if an error occurs. We stressed too that “commit” may be done ONLY in a XAPI subprogram. We went on to discuss the possible use of a TAPI (table API) in pursuit of DRY in the implementation of XAPIs and QAPIs. And we were able to separate the notion of generation (not restricted to juts TAPIs) from the notion of the TAPI itself, as a PL/SQL encapsulation of operations upon a single table.\n\n01:22 Separation of Concerns through APIs by Toon\n23:02 Q&A Begins\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit\n\n\nmusic: bensound.com"
