@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - swift
+    - mobile
+    - ios
+    - security
+title: '"Vellvm - Verifying the LLVM" by Steve Zdancewic'
+language: English
+recordingDate: 1539705749
+description: "LLVM is an industrial-strength compiler that's used for everything from day-to-day iOS development (in Swift) to pie-in-the-sky academic research projects. This makes the LLVM framework a sweet spot for bug-finding and verification technologies--any improvements to it are amplified across its many applications.\n\nThis talk asks the question: what does LLVM code mean, and, how can we ensure that LLVM-based tools (compilers, optimizers, code instrumentation passes, etc.) do what they're supposed to -- especially for safety or security critical applications? The Verified LLVM project (Vellvm) is our attempt to provide an answer.\n\nWe'll look at the LLVM intermediate representation from the point of view of programming language semantics and see how Vellvm provides a basis for developing machine-checkable formal properties about LLVM IR programs and transformation passes. Along the way, we'll get a taste of what LLVM code looks like, including some of its trickier aspects, and see (at a high level) how modern interactive theorem provers--in this case, Coq--can be used to verify compiler transformations.\n\nNo experience with LLVM or formal verification technologies will be assumed.\n\nThis is joint work with many collaborators at Penn, and Vellvm is part of the NSF Expeditions project: The Science of Deep Specifications.\n\nSpeaker: Steve Zdancewic"

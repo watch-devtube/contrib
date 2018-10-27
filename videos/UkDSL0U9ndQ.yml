@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - functional
+    - elm
+title: '"Hazel: A Live Functional Programming Environment with Typed Holes"  by Cyrus Omar'
+language: English
+recordingDate: 1539706835
+description: "When programming, we spend a substantial amount of our time working on programs that are not yet complete. For example, there can be blank spots, type errors or merge conflicts at various locations in the program. Conventional programming language definitions assign no formal meaning to these incomplete programs, so development tools can at best resort to ad hoc heuristics to provide various useful language services without interruption, including code completion, type inspection, code navigation, and live debugging.\n\nWe are working to develop a more principled approach to working with incomplete programs, rooted in the first principles of type theory. We model incomplete programs as programs with holes, which (1) stand for parts of the program that are missing; and (2) serve as membranes around parts of the program that are erroneous or conflicted.\n\nWe are incorporating this approach into Hazel (hazel.org), a web-based live programming environment for an Elm-like functional language designed from the ground up to support typed hole-driven development. Uniquely, Hazel inserts holes automatically to ensure that every editor state has both static meaning (so we can provide type-based services, like type inspection, without interruption) and dynamic meaning (so we can provide run-time services, like Hazel's novel live debugger, without interruption). We are currently using Hazel to develop interactive course material that introduces functional programming.\n\nCyrus Omar"

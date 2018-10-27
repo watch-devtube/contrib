@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+title: '"Software Performance: A Shape Not a Number" by Kay Ousterhout'
+language: English
+recordingDate: 1539706421
+description: "Software has evolved tremendously over the past twenty years, but unfortunately the way that we both reason and actually measure performance has barely changed. It's time for people to stop thinking about software performance as a single number and see it as a shape.\n\nIn this talk, we'll present the case for evolving the industry's approach to measuring real-time performance from using averages and percentile estimates to unsampled histograms. We'll explore three distinct phases of evolution in application performance management: average request latency, high-percentile latency as an important leading indicator of systemic performance problems, and finally the rise of microservices and the ensuing need for detailed real-time latency histograms. Latency histograms provide clear visualizations of the statistical modes of production systems and explain variances in performance with greater precision than past approaches. An unsampled, filterable, real-time histogram representation of performance makes it easier to identify the distinct modes of behavior, triage, and explain latency issues. We'll illustrate these points with side-by-side examples of multi-modal histograms and traditional percentile time series statistics.\n\nWhile p99 latency can still be a useful statistic, the complexity of today's microservice architectures warrants a richer and more flexible approach. Our tools must identify, triage, and explain latency issues, especially as organizations adopt microservices.\n\nKay Ousterhout"
