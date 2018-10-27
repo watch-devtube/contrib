@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - cloud
+    - containers
+    - architecture
+title: '"Scalable Anomaly Detection (with Zero Machine Learning)" by Arthur Gonigberg'
+language: English
+recordingDate: 1539705667
+description: "In a large scale distributed system, detecting and pinpointing failures gets exponentially harder as an architecture gets more complex. Netflix's cloud architecture is composed of thousands of services and hundreds of thousands of VMs and containers. Failures can happen at any level and can often cascade quickly, some can cause massive outages on several systems, while others only only break one or two. This creates a needle in a haystack problem that requires automated and precise detection. Zuul, as the front door for all of Netflix's cloud traffic, sees all requests and responses and is ideally positioned to identify and isolate only the broken paths in the maze of microservices.\n\nWe leveraged Zuul to stream real-time events for each request-response and built an anomaly detector to automatically identify and alert services in trouble. We scaled this detector to thousands of nodes, handling millions of requests, without a single line of machine learning. Sometimes you need machine learning and sometimes you don't. Although it's en vogue to apply machine learning to every problem, it can be more practical and approachable to solve certain problems with old-fashioned math!\n\nIn this talk, we'll discuss how we built this system with stream processing, anomaly detection algorithms, and a rules engine. We will also deep-dive into the anomaly detection algorithm and show how sometimes a simple, elegant algorithm can be just as good as any sophisticated machine learning.\n\nSpeaker: Arthur Gonigberg"
