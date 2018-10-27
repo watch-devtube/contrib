@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: '"The Magical Rebalance Protocol of Apache Kafka" by Gwen Shapira'
+language: English
+recordingDate: 1539705602
+description: "Very few people know that inside's Apache Kafka's binary protocol for publishing and retrieving messages hides another protocol - a generic, extensible protocol for managing work assignments between multiple instances of a client application.\n\nWhen multiple Kafka consumers in the same consumer group subscribe to a set of topic partitions, Kafka knows how to assign a subset of topic partitions to each consumer and how to handle failover automatically. What is less known is that this assignment is determined by the consumer client itself and that the same protocol can be used by any application for both leader election and task assignment.\n\nIn this session we'll dive into the internals of this little-known assignment protocol -- the binary network protocol and the Java APIs. We'll look in detail at how Kafka Consumers, Connect and Streams API use this protocol for task management. And finally we'll show how you too can extend this protocol to implement task assignment in your application with an algorithm of your choice - even if it doesn't use Kafka for anything else.\n\nSpeaker: Gwen Shapira"

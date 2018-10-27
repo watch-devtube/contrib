@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - aws
+title: '"Building Financial Systems on Eventually Consistent DBs" by Rahul Pilani'
+language: English
+recordingDate: 1539705491
+description: "Netflix operates in 190 countries worldwide and we have 125M+ customers and growing. At any moment, around the globe, millions of customers are getting charged for their next month of service, thousands are trying to fix payment issues so that they can start watching again and many are signing up. Reliable systems are critical for a great customer experience - this is why we operate out of multiple AWS regions with systems that can quickly failover between regions. Typically, Financial Systems are implemented using a strongly consistent, single-master relational-store. But with these requirements, using a single-master store becomes a bottleneck and recovery after a failover becomes very cumbersome. Multi-master databases that take writes in many regions are an option, but they come with the caveat that they are usually eventually consistent and not ACID compliant. Balancing availability with consistency becomes an exercise in tradeoffs and careful engineering to ensure we are properly managing a customer's financial state. We will cover how the Billing Engineering platform built a solution that is scalable, available and strongly consistent (with caveats).\n\nSpeaker: Rahul Pilani"
