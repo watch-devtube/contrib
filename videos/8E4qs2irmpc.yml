@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+    - architecture
+title: '"Mill vs. Spectre: Performance and Security" by Ivan Godard'
+language: English
+recordingDate: 1539448343
+description: "The Meltdown and Spectre attacks, disclosed last year, have upended the industry. With them an attacker can read any location in memory and extract the secret content at high rates. The attacks are unique because they gain access, not by exploiting some bug in application or kernel code, but through a fundamental architecture design flaw in most modern commercial CPUs. Working around the flaw reliably can cost a third or more of program performance.\n\nThe keyword above is \"most\". General purpose CPUs today commonly use Out of Order (OOO) scheduling and speculative execution to obtain higher performance. Unfortunately, Spectre and Meltdown have revealed that the increase in speed provided by OOO comes with an inherent cost: total loss of security. However, not all CPUs use the OOO architecture. Many low-end architectures that are more concerned with power usage than speed use an older approach, In-Order (IO), and eschew speculation. Such chips are inherently immune to Meltdown/Spectre. In fact, the microcode workarounds applied to OOO machines to prevent these attacks in effect convert them into IO machines - that run at In-Order speed while using OOO power to do it.\n\nThere is an exception to this gloomy news. The Mill architecture was designed from the beginning to provide OOO performance on an IO power budget. It does no hardware speculation and so, serendipitously, is immune to Meltdown and Spectre. That's the easy part - a Z80 does no hardware speculation and is immune too. The hard part is getting the performance of speculation without opening security holes. The talk will explain the security problem, show why the Mill is immune, and will lightly address why Mill performance does not need OOO.\n\nSpeaker: Ivan Godard"
