@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - java
+title: 'A JDBC Datasource for Failing Over and Replaying In-Flight Transactions'
+language: English
+recordingDate: 1433784726
+description: "Application continuity in the face of planned and unplanned database outages is a business requirement. Upon a database outage, Java applications are confronted with four main issues: hang, errors, outcome of in-flight work, and resubmission of in-flight work. This session presents a new JDBC  datasource that transparently captures database interactions and then, upon database instance failure, fails over connections and replays in-flight transactions. Just plain standard JDBC, no proprietary API. In most cases, the replay datasource can transparently fail over in-flight transactions. The presentation also discusses design considerations, configurations, and restrictions.\n\n\nAuthors:\nKuassi Mensah\nundefined\nView more trainings by Kuassi Mensah at https://www.parleys.com/author/kuassi-mensah-1\n\nDouglas Surber\nDouglas is Consulting Member of Technical Staff within Oracle Server Technologies Division. He is a lead developer and architect of JDBC and UCP development.\nView more trainings by Douglas Surber at https://www.parleys.com/author/douglas-surber\n\nJean De Lavarene\nJean de Lavarene is Director of Development within Oracle's Server Technologies. He oversees the development of the Database access for Java. This year Jean will talk about Application Continuity, Transaction Guard, Table Access for Hadoop and in general how to best leverage the latest 12c Database features in your applications.\nView more trainings by Jean De Lavarene at https://www.parleys.com/author/jean-de-lavarene\n\nFind more related tutorials at https://www.parleys.com/category/developer-training-tutorials"
