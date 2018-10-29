@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - cloud
+title: 'Bulk Processing in PL/SQL'
+language: English
+recordingDate: 1538515629
+description: "\"Row by row = slow by slow\" - one of Tom Kyte's more famous and catchy memes. Row by row processing of data is so not the way to go. How to avoid it? Fully leverage SQL to do set processing and if that doesn't totally do it for you, then \"fall back\" on FORALL and BULK COLLECT. These are just about the most important performance features of PL/SQL, and Steven Feuerstein takes a close look in our October Office Hours session. \n\nHighlights:\n\n00:30 Introduction, review of Office Hours program\n03:32 Why is bulk processing needed?\n10:19 BULK COLLECT to retrieve more than one row with each fetch\n15:25 FORALL for repeated execution of non-query DML\n30:13 Converting row-by-row to bulk processing\n\nThen on to Q & A.\n\n39:27 How can I convince developers of the performance benefit of BULK COLLECT?\n42:00 Use global temporary tables + SQL instead of FORALL?\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\nMusic by bensound.com\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit\n\nMusic by bensound.com"

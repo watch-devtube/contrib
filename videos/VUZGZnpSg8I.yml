@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+    - javascript
+title: 'DEF CON 26 - ldionmarcil - Edge Side Include Injection Abusing Caching Servers into SSRF'
+language: English
+recordingDate: 1540249664
+description: "When caching servers and load balancers became an integral part of the Internet's infrastructure, vendors introduced \"Edge Side Includes\" (ESI), a technology allowing malleability in caching systems. This legacy technology, still implemented in nearly all popular HTTP surrogates (caching/load balancing services), is dangerous by design and brings a yet unexplored vector for web-based attacks. \n\nThe ESI language consists of a small set of instructions represented by XML tags, served by the backend application server, which are processed on the Edge servers (load balancers, reverse proxies). Due to the upstream-trusting nature of Edge servers, ESI engines are not able to distinguish between ESI instructions legitimately provided by the application server and malicious instructions injected by a malicious party. We identified that ESI can be used to perform SSRF, bypass reflected XSS filters (Chrome), and perform Javascript-less cookie theft, including HTTPOnly cookies. \n\nIdentified affected vendors include Akamai, Varnish, Squid, Fastly, WebSphere, WebLogic, F5, and countless language-specific solutions (NodeJS, Ruby, etc.). This presentation will start by introducing ESI and visiting typical infrastructures leveraging it. We will then delve into identification, exploitation of popular ESI engines, and mitigation."

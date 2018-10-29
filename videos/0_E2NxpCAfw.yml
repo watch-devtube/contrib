@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DEF CON 26 - Zheng and Panel - Your Peripheral Has Planted Malware An Exploit of NXP SOCs'
+language: English
+recordingDate: 1540249664
+description: "There are billions of ARM Cortex M based SOC being deployed in embedded systems. Most of these devices are Internet ready and definitely security is always the main concern. Vendors would always apply security measurements into the ARM Cortex M product for few major reasons: 1) People will not be able to copy and replicate the product; 2) License control for the hardware and software; 3) Prevent malicious code injection in to the firmware. Vendors normally rely on the security measurements built within the chip (unique ID number/signature) or security measurements built around the chip (secure boot).\n\nIn this talk, we will share the ARM Cortex M SOC vulnerability that we discovered and it will be two parts:\n\nThe first is security measurement build within the SOC and how we break it. We could gain control of changing the SOC unique ID and write the firmware or even turn the device into a trojan or bot.\n\nThe second is security measure built around the SOC and how we break the Secure Boot elements and write into the firmware."

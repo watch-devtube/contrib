@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+title: '"Moving from 1 to N regions: an open retrospective" by Andrew Bloomgarden'
+language: English
+recordingDate: 1539706649
+description: "For the past year, I and a small team of engineers have had one job: allow New Relic to run an independent European region for data sovereignty reasons. More regions were almost certain to follow on potentially any cloud vendor, so we knew the project really had to be the Nth region project, not the EU region project.\n\nThat means taking around 500 services written by around 50 teams that have historically been assumed to run in just one deployment, our existing US-based region, and changing them to work anywhere. We also had to avoid doubling our operational burden as the result of adding a second region. Oh, and because every team owns their own services from development through operations, every team needed to make the changes themselves.\n\nThe talk will be in two parts, because a project like this isn't purely technical or organizational:\n\nWe needed to choose technical changes that turned region turn-up from a many-month-long process for all teams into a project for one small team. We decided that the key was to move all services, stateless and stateful alike, to run in containers, and have them all do service discovery via dependency injection.\n\nThe reality of working at a medium-sized organization meant we had to have a lot of coordination and buy-in. I'll talk about how our roadmapping process both hindered and enabled this project to work at all, and how we used test buildouts and teardowns to integrate early and often.\n\nAndrew Bloomgarden"

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - css
+    - web
+    - testing
+title: '"Browser Testing using Grammars and a Consensus Oracle" by Joel Martin'
+language: English
+recordingDate: 1539619185
+description: "Browser rendering is an area that can greatly benefit from property-based testing. However, generating interesting inputs (web pages containing HTML and CSS) and creating a test Oracle that can detect an incorrectly rendered web page based on randomly generated inputs is a significant challenge. In this talk I will describe a property-based testing (PBT) approach that uses controllable grammar-based generators for creating the input pages and that uses a lack of consensus among multiple rendering engines to identify failing test cases. The use of property-based testing means that the failing test cases are shrunk to the bare minimum that triggers the rendering difference which helps with root-cause analysis. I will focus on browser render testing in this talk but the same technique can be used to test other software systems where there is at least one preexisting implementation of the system under test.\n\nSpeaker: Joel Martin"

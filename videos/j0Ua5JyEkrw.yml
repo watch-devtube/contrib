@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+title: '"Validating Big Data Pipelines & ML (w Spark & Beam)" by Holden Karau'
+language: English
+recordingDate: 1539572754
+description: "Do you ever wonder if your data pipeline is still producing the correct results? Has it ever not? Have you not tricked anyone else into tacking over the pager for your system?\n\nAs big data jobs move from the proof-of-concept phase into powering real production services, we have to start consider what will happen when everything eventually goes wrong (such as recommending inappropriate products or other decisions taken on bad data). This talk will attempt to convince you that we will all eventually get aboard the failboat (especially with ~40% of respondents automatically deploying their Spark jobs results to production), and its important to automatically recognize when things have gone wrong so we can stop deployment before we have to update our resumes.\n\nFiguring out when things have gone terribly wrong is trickier than it first appears, since we want to catch the errors before our users notice them (or failing that before CNN notices them). We will explore general techniques for validation, look at responses from people validating big data jobs in production environments, and libraries that can assist us in writing relative validation rules based on historical data.\n\nOnce we feel like we've almost got it all under our belt, we will shift focus from traditional ETL pipelines to all of the wonderful special concerns that come with producing ML models and how we can (try) and validate that things are getting better (or at least not that much worse).\n\nSpeaker: Holden Karau"

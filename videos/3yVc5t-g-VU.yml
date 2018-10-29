@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+    - java
+title: '"All the Languages Together" by Amal Ahmed'
+language: English
+recordingDate: 1539619287
+description: "As software becomes increasingly complex, we need toolchains that simplify building systems using a mix of languages so we can use the best language for each part of a system. That \"best\" language might be Rust for a high-performance component, a terminating domain-specific language for a protocol parser, or a general-purpose scripting language for UI code.  \n\nIdeally, we should be able to reason only in our chosen language when working on that component. Unfortunately, most current languages and toolchains were designed with language interoperability as an afterthought, so they lack the means to support single-language reasoning when building multi-language software. For instance, we can reason about safe memory usage in Rust, but if our Rust component shares references with a Java method, we must reason about the possibility that Java might violate Rust's borrowing discipline leading to unsafe memory use.  \n\nThis talk is about how to change the status quo to make it easier to build multi-language software.  I'll argue that language designers should equip their \"core\" language with extensions, dubbed linking types, that allow programmers to annotate how their components should interact with features missing from their core language.  Moreover, toolchain developers should devise compilers and linkers that prevent linking with external code that violates safety or security properties provided by the core language, unless the programmer uses linking-type annotations to request such linking.\n\nSpeaker: Amal Ahmed"

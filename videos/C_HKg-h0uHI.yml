@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+title: 'Turning Relational Database Tables into Spark Datasources'
+language: English
+recordingDate: 1513356362
+description: 'https://developer.oracle.com/code/online | Kuassi Mensah: This session presents a Spark data source for joining big data with master data in an RDBMS. It describes how such an implementation: Allows parallel and direct access to the RDBMS database (with the option of controlling the number of concurrent connections). Introspects the RDBMS table, generates partitions of Spark JDBCRDDs based on the split pattern, and rewrites Spark SQL queries into the RDBMS SQL dialect. Uses hooks in the JDBC driver for faster type conversions. Pushes down predicates to the RDBMS, prunes partitions based on the where clause, and projects columns to the RDBMS to reduce the amount of data returned and processed on Spark. Writes back the result set to the RDBMS table for use by traditional BI tools'

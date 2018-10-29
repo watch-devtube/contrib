@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - cloud
+    - aws
+    - architecture
+title: 'Building Maintainable, Observable Applications on Serverless Architecture'
+language: English
+recordingDate: 1539714191
+description: "Building Maintainable, Observable Applications on Serverless Architecture - Park Kittipatkul, SignalFx\n\nUsing serverless computing has a number of obvious benefits over traditional application infrastructure - you pay only for what you use, scale up or down immediately to match supply with demand, and avoid operating any server infrastructure at all.\n\nHowever, implementing maintainable and scalable applications using serverless computing services like AWS Lambda and the soon-to-be-released Pivotal Function Service poses a number of challenges. The absence of long-lived, user-managed servers means that states cannot be maintained by the service. Longer function invocation times (referred to as cold starts) become very important to track, because they impact the response time of the service and will impose additional cost. Additionally, the transition to smaller individual components (much like breaking a monolithic application into microservices) results in a simpler deployment model, but makes the system as a whole increasingly complex.\n\nIn this talk, Park will discuss patterns and best practices around architecting and implementing code in serverless environments, specifically around how to build maintainable serverless code and minimize the occurrence of cold starts. Additionally, he will cover how to properly instrument applications and supporting services so that your systems remain easily observable.\n\nhttps://cfseu18.sched.com/event/FRyH/building-maintainable-observable-applications-on-serverless-architecture-park-kittipatkul-signalfx"

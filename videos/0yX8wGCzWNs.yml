@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - scala
+title: '"Leverage vs. Autonomy in a Large Software System" by Jake Donham'
+language: English
+recordingDate: 1539623713
+description: "How do you make good use of hundreds of software engineers to build a large system?\n\nThere's a tradeoff between centralizing components (libraries, services, dev/ops tools, etc.) to give engineers higher leverage; and decentralizing components to give them better autonomy. Lacking autonomy, engineers waste time waiting on other teams. Lacking leverage, they waste time reinventing wheels.\n\nIn this talk I'll briefly describe some of the concrete ways in which the leverage-autonomy tradeoff has played out at Twitter, where we have hundreds of engineers collectively building the Twitter product.\n\nI'll also describe a new system we're building, called Strato, which attempts to give engineers a large increase in leverage with an acceptable loss of autonomy.\n\nStrato is a \"serverless\" platform for running application code; code is written in a Scala-like DSL which provides implicit concurrency (see Simon Marlow's 2017 Strange Loop talk) and native manipulation of Thrift data. Strato gives engineers leverage by centralizing ops effort and packaging common patterns in a convenient form; it preserves autonomy by permitting engineers to independently develop and deploy their own application code.\n\nI'll briefly sketch the design and implementation of Strato, and report on how it's serving Twitter so far with respect to leverage and autonomy.\n\nSpeaker: Jake Donham"

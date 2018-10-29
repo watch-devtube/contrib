@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: '"FaCT: A New Language for Constant-Time Programming" by Sunjay Cauligi'
+language: English
+recordingDate: 1539705546
+description: "Implementing cryptographic algorithms that do not inadvertently leak secret information is notoriously difficult. Today's general-purpose programming languages and compilers do not account for data sensitivity; consequently, most real-world crypto code is written in a subset of C intended to predictably run in constant time. This C subset, however, forgoes structured programming -- crypto developers, today, do not have the luxury of if-statements, efficient loops, or procedural abstractions when handling sensitive data. Unsurprisingly, even high-profile libraries, such as OpenSSL, have repeatedly suffered from bugs in such code.\n\nIn this talk, I will describe FaCT, a new domain-specific language that addresses the challenge of writing constant-time crypto code. With FaCT, developers write crypto code using standard, high-level language constructs; FaCT, in turn, compiles such high-level code into constant-time assembly. We designed FaCT to be embedded into existing, large projects and languages instead of serving as yet another general purpose language. To this end, I will describe how we integrated FaCT in several such projects (OpenSSL, libsodium, and mbedtls) and languages (C, Python, and Haskell).\n\nSpeaker: Sunjay Cauligi"

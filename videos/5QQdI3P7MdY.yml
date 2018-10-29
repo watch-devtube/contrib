@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - lisp
+title: '"Hackett: a metaprogrammable Haskell" by Alexis King'
+language: English
+recordingDate: 1539448423
+description: "What would you get if you combined a cutting edge, state of the art macro system with a tried and true, industrial-strength type system? The answer is Hackett, a programming language that embeds the power of the Haskell type system within the Racket macro system. Traditional approaches to macro-enabled Haskells have been relatively straightforward, bolting a macroexpander onto the frontend of an otherwise mundane compiler, but this is a shallow, unsatisfying embedding--by its very nature, the typechecker does not run until macroexpansion is complete, so the wealth of static information embedded in the type system is inaccessible to macro authors. In contrast, Hackett applies and extends recent research first published at POPL 2017 that enables interleaving macroexpansion and typechecking, opening up entirely new ways for programmers to tinker with their language and construct embedded DSLs.\n\nWhile Hackett is still in development, it is already starting to bear fruit as a vehicle to explore this relatively unexplored design space. In this talk, we will take a look at some real Hackett code to get a feel for what the language is like, survey some of the underlying Racket technologies that make a sampling of Hackett's features possible, and also discuss some of the ways Hackett is likely to grow and develop in the near future. Finally, we'll compare and contrast Hackett's approach to metaprogramming with other approaches in the design space to see what makes Hackett unique.\n\nSpeaker: Alexis King"

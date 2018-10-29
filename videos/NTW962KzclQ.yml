@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - azure
+    - aws
+    - architecture
+title: 'Implementing Multi-AZ, HA, nZDM Stateful BOSH Based Service Broker on AWS, Azure, GCP and OpenStack'
+language: English
+recordingDate: 1539714284
+description: "Implementing Multi-AZ, HA, nZDM Stateful BOSH Based Service Broker on AWS, Azure, GCP and OpenStack - Ketaki Gadre & Shashank Mohan Jain, SAP\n\nIn the words of Jonas Boner \"There is no such thing as a stateless architecture It's just someone else's problem\". While a stateless broker can be easily made HA by using a load balancer it is the stateful once which are challenging. Service Brokers are critical for PaaS providers and a downtime has a potential to create outages. A line of defense can be BOSH resurrection however it takes minutes to bring up all the various processes for example a Stemcell update may take around 5-10 minutes. And this is unacceptable by any standards where the expectation is to be 99.99% available.\n\nIn this talk Ashish and Shashank will share how Service Fabrik broker from Cloud Foundry community has been implemented as a highly available, disaster resistant with failover time of few seconds. In this talk implementation specifics on AWS, Azure, GCP and OpenStack platforms will be covered followed a by a demo on one of the IaaS.\n\nhttps://cfseu18.sched.com/event/FRyp/implementing-multi-az-ha-nzdm-stateful-bosh-based-service-broker-on-aws-azure-gcp-and-openstack-ketaki-gadre-shashank-mohan-jain-sap"

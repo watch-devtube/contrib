@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'DEF CON 26 -  Knight and Speers - Designing and Applying Extensible RF Fuzzing Tools'
+language: English
+recordingDate: 1540249664
+description: "In this session, we introduce an open source hardware and software framework for fuzzing arbitrary RF protocols, all the way down to the PHY. While fuzzing has long been relied on by security researchers to identify software bugs, applying fuzzing methodologies to RF and hardware systems has historically been challenging due to siloed tools and the limited capabilities of commodity RF chipsets.\n\nWe created the TumbleRF fuzzing orchestration framework to address these shortfalls by defining core fuzzing logic while abstracting a hardware interface API that can be mapped for compatibility with any RF driver. Thus, supporting a new radio involves merely extending an API, rather than writing a protocol-specific fuzzer from scratch.\n\nAdditionally, we introduce Orthrus, a low-cost 2.4 GHz offensive radio tool that provides PHY-layer mutability to offer Software Defined Radio-like features in a flexible and low-latency embedded form factor. By combining the two, researchers will be able to fuzz and test RF protocols with greater depth and precision than ever before.\n\nAttendees can expect to leave this talk with an understanding of how RF and hardware physical layers actually work, and how to identify security issues that lie latent in these designs."

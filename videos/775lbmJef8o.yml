@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - cloud
+    - testing
+    - architecture
+title: '"Resurrecting a Recommendations Platform" by Leemay Nassery'
+language: English
+recordingDate: 1539447036
+description: "Implementing a deep learning model to derive recommendations can be both fun and complex. However, building a new algorithm while maintaining the \"legacy\" platform that serves millions of customers daily that is built on bare metal with very little infrastructure resources (and people resources) can be even more complex (but still fun!).\n\nIn this talk we'll walk through how we implemented a new deep learning model to derive recommendations like what movies you should watch while maintaining the existing platform and migrating to the new cloud base architecture. Emphasis will be on three tiers that make a successful recommendations platform - the data tier, the machine learning tier and the a/b testing tier. It's what we consider to be the recommendations trinity. These three tiers can not exist without each other. The importance of the data collection pipelines and efficiently storing training datasets with intentions of avoiding the \"pipeline jungle construct\" by thinking holistically about the data and the flow that follows the initial consumption of these data/signals that are fed into our models. This data tier then allows us to easily build, train and evaluate models. Once models have been vetted in the offline sense, easily a/b testing these algorithms prior to exposing them to millions of customers is the final step.\n\nWe'll also discuss in detail comparing the legacy platform to the current cloud base system and how these changes increased the reliability, stability\n\nSpeaker: Leemay Nassery"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - functional
+title: '"Type-Driven Program Synthesis" by Nadia Polikarpova'
+language: English
+recordingDate: 1539706095
+description: "A promising approach to improving software quality is to enhance programming languages with declarative constructs, such as logical specifications or examples of desired behavior, and to use program synthesis technology to translate these constructs into efficiently executable code. In order to produce code that provably satisfies a rich specification, the synthesizer needs an advanced program verification mechanism that is sufficiently expressive and fully automatic. In this talk, I will present a program synthesis technique based on refinement type checking: a verification mechanism that supports automatic reasoning about expressive properties through a combination of types and SMT solving.\n\nThe talk will present two applications of type-driven synthesis. The first one is a tool called Synquid, which creates recursive functional programs from scratch given a refinement type as input. Synquid is the first synthesizer powerful enough to automatically discover programs that manipulate complex data structures, such as balanced trees and propositional formulas. The second application is a language called Lifty, which uses type-driven synthesis to repair information flow leaks. In Lifty, the programmer specifies expressive information flow policies by annotating the sources of sensitive data with refinement types, and the compiler automatically inserts access checks necessary to enforce these policies across the code.\n\nNadia Polikarpova"

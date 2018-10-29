@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - cloud
+title: 'Deploy my Application Across Multiple CF with Persistent Data - Vick Kelkar, Redis Labs'
+language: English
+recordingDate: 1539714374
+description: "Deploy my Application Across Multiple CF with Persistent Data - Vick Kelkar, Redis Labs\n\nWe have geo-distributed teams; each using a local [P]CF\nWe have an internal application that needs to sync persistent data between CFs.\nTwo ways to solve this problem\nWe could have setup a GeoDNS based solution for CF, sync blobs, VPN etc\nWe chose to go with an active-active redis replication solution for our needs\nWe used a bosh-release of redis-enterprise in each CF\n Setup a geo-distributed redis cluster that takes care of replication and consistency using CRDB\n\nSo app-developers do a blue-green deploy of their app to both cloud-foundries and the redis-active-active cluster takes care of application persistent data with CRDB.\n\nhttps://cfseu18.sched.com/event/FRyg/deploy-my-application-across-multiple-cf-with-persistent-data-vick-kelkar-redis-labs"

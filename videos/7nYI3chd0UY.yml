@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+title: 'Materialized Views and More SQL Stuff'
+language: English
+recordingDate: 1537992813
+description: "Held on September 13 2018\n\nIn this session Chris Saxon led an exploration through Oracle SQL that mostly looked at materialized views, with a brief discussion of full outer joins:\n\nHighlights include:\n\n01:30 - what is a materialized view; why do they exist; benefit comparing to saving summary data in a new table\nrefreshing an MV\n06:30 - MV refresh options; when to use them\n12:50 - fast refresh restrictions; analyzing issues using dbms_mview.explain_mview; updating MV log\n27:00 - statement level refresh (12.2)\n34:00 - how to do a \"double outer\" aka full join; adding a running count for duplicate rows with analytics\n38:10 - updateable MV alternatives; DIY sharding & other issues of dealing with a large database.\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"

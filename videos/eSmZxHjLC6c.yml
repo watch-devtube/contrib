@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+    - scala
+title: '"Scala DSLs and Probabilistic Programming" by Joe Wingbermuehle'
+language: English
+recordingDate: 1539739099
+description: "Stan is a probabilistic programming language for statistical modeling, data analysis, and prediction with interfaces in R, Python, and other languages. By implementing a statistical model in Stan, one can perform Bayesian inference using Markov-Chain Monte-Carlo (MCMC) as well as optimization and variational inference.\n\nScalaStan is a fundamentally new kind of interface to Stan. Not only does ScalaStan allow one to interface with Stan from Scala, but, unlike the other Stan interfaces, ScalaStan also supports the type-safe programmatic manipulation and generation of Stan programs via an embedded domain-specific language (DSL). Thus, ScalaStan allows one to fully specify a Stan program in Scala, marshal data to and from the program in a type-safe way, and cache Stan models for fast iteration.\n\nIn this talk, we show how the Scala type system allows us to enforce type-safety in the Stan model and prevents us from generating invalid Stan code. Next, we show how the ScalaStan DSL can be used to generate higher-level Stan models. Finally, we dive into the details of several specific techniques ScalaStan employs to enforce type safety and prevent invalid code in an embedded DSL.\n\nJoe Wingbermuehle"

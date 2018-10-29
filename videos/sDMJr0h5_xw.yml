@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: '"Design and Implementation of a Topic Detection System" by Wes Chow'
+language: English
+recordingDate: 1539447209
+description: "Ah, the topic detection dream! To automagically sift and discover \"things\" that people are talking about without human input.\n\nCortico, a non-profit dedicated to fostering a healthy public sphere, requires the ability to discover the small transient topics latent in public speech (ex. how do different geographic regions talk about the same event?). This style of topic detection differs from traditional analysis, in that the \"topics\" are much more fine grained (we call them events) and closely tied to current activity, and thus must be computed relatively quickly.\n\nTo solve this, we implemented our event detection method using a word co-occurrence model that performs well on collections of very small documents, such as tweets or sentences uttered on talk radio. We also bucked the trend of employing K-Means, LDA, Non-Negative Matrix Factorization and their ilk, opting instead to discover event clusters with Louvain, a network graph algorithm. The resulting output is intuitive, fast to compute, and produces interesting side models of events that we can apply to generate other delightful results.\n\nSpeaker: Wes Chow"

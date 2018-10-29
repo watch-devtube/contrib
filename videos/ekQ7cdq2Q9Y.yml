@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+title: 'Autoscaler - Bring Your Own Metrics - Tanmoy Pal, SAP Labs India'
+language: English
+recordingDate: 1539714191
+description: "Autoscaler - Bring Your Own Metrics - Tanmoy Pal, SAP Labs India\n\nAutoscaler (https://github.com/cloudfoundry-incubator/app-autoscaler) helps Cloud Foundry application developers to scale up or down applications horizontally by specifying policy on the consumption pattern of standard container metrics i.e. memory, throughput and response time. The scale up or down of an application is triggered when the crucial application resources are exhausted or under-utilised. For applications running on production, it is not enough to scale them based on only these few standard metrics. For example, an application consuming messages from a message queue (RabbitMQ) needs to scale up when the application is not able to consume enough messages from the queue at a fast-enough rate. Therefore, rather than standard metrics, in this case, queue length should be the decisive metrics for scaling.\n\nThe goal of this proposal is to propose the capability to application developers to scale their applications based on custom metrics. This session will demonstrate how an application can emit custom metrics that can be read and understood by autoscaler and used to trigger (auto) scaling when needed.\n\nhttps://cfseu18.sched.com/event/GATz/autoscaler-bring-your-own-metrics-tanmoy-pal-sap-labs-india"
