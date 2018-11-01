@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - containers
+    - docker
+    - kubernetes
+    - architecture
+title: 'How and Why Prometheus'' New Storage Engine Pushes the Limits of Time Series Databases'
+language: English
+recordingDate: 1509727216
+description: 'The Prometheus monitoring system collects and stores time series data to give valuable insights over hosts, containers, and applications. Its storage engine was designed to be multiple orders of magnitude faster and more space efficient than, say, RRD or SQL storage. However, with the rise of orchestration systems such as Docker Swarm and Kubernetes, and their extensive use of techniques like rolling updates and auto-scaling, environments are becoming increasingly dynamic. This increases the strain on metrics collection systems. To deal with the challenges, a new storage engine has been developed from scratch, bringing a sharp increase in performance and enabling new features. This talk will describe this new storage engine, its architecture, its data structures, and explain why and how it is well suited to gracefully handle high turnover rates of monitoring targets and provide consistent query performance.'

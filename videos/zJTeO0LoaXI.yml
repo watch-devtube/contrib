@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - docker
+title: 'Containerizing Hardware Accelerated Applications'
+language: English
+recordingDate: 1509731563
+description: 'Many applications allow you to use hardware such as GPUs and FPGAs for acceleration. Common examples include media processing and offloading highly parallel work to a GPU. Applications that use accelerators are resource heavy and have stacks spanning kernel and user space; accelerators often have their own requirements for operating system support and kernel versions. While it may not seem intuitive to containerize this type of application, the use of containers provides benefits such as reduced setup time from container reuse, reduction in dependency conflicts and dependency on a specific operating system, and easier updates. In this session I show a media processing stack, making use of containers alongside a GPU. Specifically, I explain the kernel and user space divide of a hardware-accelerated transcode application using a device exposed to the container. This specific stack is an interesting case because of its dependency on hardware, use of a custom kernel and libraries, and operating system requirements. Our investigations have shown the use of containers has minimal performance overhead compared to running natively. Furthermore, we can quickly deploy on other machines with reduced configuration effort. There are some aspects of the application not suited to containerization, however. Since the application relies on a custom kernel, the use of containers does not necessarily increase portability. Improvement in this area would require rethinking how the applications are developed and distributed. Other areas of innovation include things such as Docker plugins to check for compatibility between the container software and host kernel.'

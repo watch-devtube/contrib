@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - docker
+    - security
+    - architecture
+title: 'Cilium - Kernel Native Security & DDOS Mitigation for Microservices with BPF'
+language: English
+recordingDate: 1509731834
+description: 'We have introduced Cilium at DockerCon US 2017 this year. Cilium provides application-aware network connectivity, security, and load-balancing for containers. This talk will follow up on the introduction and deep dive into recent kernel developments that address two fundamental questions: How can I provide application-aware security and routing efficiently without overhead embedded into every service? How can container hosts protect themselves from internal and external DDoS attacks? The solutions include: kproxy: a kernel-based socket proxy which allows for application-aware routing and security enforcement with minimal overhead. XDP: A lightning-fast packet processing datapath using BPF. The technology is intended for DDoS mitigation, load-balancing, and forwarding. This talk will deep dive into these exciting technologies and show how Cilium makes BPF and these kernel features available on Linux for your Docker containers.'
