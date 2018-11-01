@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - devops
+    - containers
+    - docker
+title: 'Continuous Packaging is also Mandatory for DevOps'
+language: English
+recordingDate: 1509732476
+description: 'While DevOps are comfortable with continuous integration and automatic tests, the area of continuous packaging has not been given the attention it deserves. Even with containers, delivering an application using software packages provides multiple advantages with regards to file-based installation: it allows to manage dependencies more easily, to provide metadata, checksum, and signature mechanisms, to deal with packages repositories. But doing that in a continuous packaging approach means that the generation of these packages is fully automated and part of the build process of the software. As a consequence, it eases the various steps of a solution lifecycle (controlled impact of installation/uninstallation, identical deliveries up to the customer, avoidance of code or metadata duplication) This presentation will detail the methodological approach around continuous packaging and demonstrate how this can be put in place using an Open Source tool such as project-builder.org and how this allows the MondoRescue project to deliver packages at will for lots of distribution tuples through the same number of Docker containers.'
