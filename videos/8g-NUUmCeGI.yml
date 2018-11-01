@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - security
+    - architecture
+title: 'What Have Syscalls Done for you Lately?'
+language: English
+recordingDate: 1509726697
+description: 'If you''ve ever written any code - even just Hello World - you''ve used some syscalls. In this talk we''ll explore what syscalls are, how they are used to set up containers, and how to make your deployment more secure at runtime by limiting the syscalls your containers can make thanks to seccomp and Linux security modules like AppArmor. We''ll also discuss how, if your architecture is broken into containerized microservices, this gives you a great opportunity to improve security by limiting what each container can do. This is where containerized microservices really shine over traditional monoliths from a security perspective - so it''s helpful to know about if you''re trying to convince your security team that containers are a good idea. There will be lots of live demos!'
