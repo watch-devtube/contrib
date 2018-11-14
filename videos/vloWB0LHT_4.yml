@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - python
+title: 'DEF CON 26 WIRELESS VILLAGE - Eric Reuter - Introduction to Railroad Telemetry'
+language: English
+recordingDate: 1542156568
+description: 'North American railroads use several wireless systems for remote control, monitoring, and tracking of locomotives, railcars, signals, and other equipment. This talk will provide an overview of the systems in use, an in-depth look of two of them: The end-of-train (EOT) device contributed to the demise of the caboose 35 years ago, taking over one of its primary functions: monitoring brake pipe pressure. The EOT transmits pressure, its unique ID, and other data, encoded into AFSK packets, to a corresponding head-of-train (HOT) device in the locomotive. A secondary function is venting the line in an emergency braking event, under command of the HOT. BCH error correction is employed for reliability, but there are inherent security flaws. A SDR/GNU Radio/Python workflow for decoding and verifying packets will be demonstrated. Attempts at automatically identifying passing railcars were largely unsuccessful until the introduction of the Automatic Equipment Identification (AEI) system in the early 90s. This 900 MHz RFID system consists of passive tags on each locomotive and car and wayside readers at rail yard entrances and other locations of interest. The author''s day job in environmental noise consulting led to a study of the feasibility of using AEI for rail noise studies. It had to be reverse-engineered first, of course. Using a repurposed commercial reader, Raspberry Pi, and cellular modem, a remote monitoring system gathered tag date for 5 weeks. Details of the protocol and monitoring system will be presented, along with video demonstrations.'
