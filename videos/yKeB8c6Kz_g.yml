@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - aws
+title: 'DEF CON 26 PACKET HACKING VILLAGE - Ed Miles - Bitsquatting Passive DNS Hijacking'
+language: English
+recordingDate: 1542245854
+description: "The Domain Name System is one of the foundational technologies that allow the internet to function, but unfortunately, DNS is surprisingly brittle to certain issues, such as bitsquatting.\n\nLookups to names that are a \"bitflip\" away from well-known sites (like 'amczon.com' instead of 'amazon.com' since 'c' and 'a have a single bit difference) can be caused by memory failing due to defect or overheating situations, rogue cosmic rays, or even (allegedly) radiation caused by nuclear reactions.\n\nI was curious how realistic the last case really was - can we 'detect' active nuclear tests based solely on bitsquatting data? To find out, I revisited bitsquatting. First I'll briefly introduce the key concepts required for understanding bitsquatting (including ASCII, DNS and HTTP, Internet infrastructure, and memory error scenarios). I'll show the tools and techniques used to identify and register over 30 newly identified bitsquat domains, monitor DNS and HTTP requests, and process, enrich, and investigate the data. Finally, I will discuss any observations gathered from the data, with a focus on regional trends, specific devices, and current events - and try and see if I could prove any correlation.\n\nIn the end, attendees should leave with knowledge of the prevalence of bitsquatting and how it has evolved since the phrase was coined 8 years ago, as well as a few techniques for analyzing bitsquatting data and drawing some interesting conclusions."

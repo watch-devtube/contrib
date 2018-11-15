@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'DEF CON 26 PACKET HACKING VILLAGE - TryCatchHCF - PacketWhisper Stealthily Exfiltrating Data'
+language: English
+recordingDate: 1542245853
+description: "Data exfiltration through DNS typically relies on the use of DNS query fields to exfiltrate data via the attacker's DNS server. This approach has several shortcomings. The first is attribution, since attackers end up creating a trail back to their own infrastructure. The second is awareness, as DFIR analysts have made careful study of DNS fields as exfiltration vectors. The third is access, since companies are increasingly using DNS server whitelisting to prevent or alert on outgoing DNS queries to servers controlled by attackers. But what if data could be transferred using the target's own whitelisted DNS servers, without the communicating systems ever directly connecting to each other or a common endpoint? Even if the network boundary employed data whitelisting to block data exfiltration?\n\nThrough a combination of DNS queries and text-based steganography, we'll cover the methods used to transfer data across a network, hidden in plain sight, without direct connectivity between systems, while employing multiple levels of deception to avoid generating alerts as well as to mislead analysis attempts. The presentation will include a demonstration of PacketWhisper, a new tool written in Python, that automates all of these steps for you. PacketWhisper will be made available on GitHub to coincide with this session (https://github.com/TryCatchHCF)."
