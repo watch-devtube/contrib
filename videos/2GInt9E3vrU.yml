@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cassandra
+title: 'LISA18 - Cross Atlantic: Scaling Instagram Infrastructure from US to Europe'
+language: English
+recordingDate: 1542323876
+description: "Sherry Xiao, Facebook\n\nAbstract: \nDeploying a service across multiple continents is difficult, especially when you have a stateful service. Facebook now has multiple datacenters across US and Europe, while Instagram infrastructure still remains only in the US. How can we scale Instagram across the ocean? What are the problems we need to solve?\n\nOne of the databases Instagram uses heavily is Cassandra. Running Cassandra with too many copies increases the complexity of maintaining this database, not to mention that having the quorum requests travel across the ocean is just... slow. So, we partitioned our dataset! The idea is to have a Cassandra European partition and a US partition, and send the users to their nearest partition.\n\nWhen we started to put together the plan for deploying Instagram in current European datacenters, we encountered several problems. How do we make sure users have all the data they need stored in the same partition? When one of the European datacenters fails, how do we failover and where do we send that traffic?\n\nThis talk will cover:\n\nThe challenges we had during the infrastructure design and disaster recovery planning\nHow we use social hash to make sure all the data belonging to one user stays in the same partition as much as possible, and how it helps improving cache miss rate\nThe failover plan when one European datacenter fails, including how we shift the traffic around\n\nView the full LISA18 Program at https://www.usenix.org/lisa18/conference-program"

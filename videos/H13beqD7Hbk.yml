@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - security
+title: 'LISA18 - How Our Security Requirements Turned Us into Accidental Chaos Engineers'
+language: English
+recordingDate: 1542323876
+description: "Paul Carleton, Stripe Inc.\n\nAbstract: \nThis talk will cover a security focused project that evolved into a chaos injection system.\n\nThe system is called “Lifespan Management” and it enforces a lifespan on a cloud hosted VM. After the lifespan expires, the host is terminated, and a replacement is brought up. It has the benefits of making it easier to apply fixes for CVE’s (CVE comes out on day X, we know hosts will age out by day Y), and reducing the value of a compromised machine (“I’ve finally captured a host! It’s being shutdown?? No!”)\n\nThis seemed simple enough, but the complexity it uncovered made for a fun, year-long adventure in chaos engineering.\n\nIn this talk, I’ll cover the evolution of the system, and some lessons we learned along the way like:\n\nAll termination API calls are not created equal\nZero failing health checks does not mean a host is healthy\nAnswering “Was this the chaos system?” quickly is essential\nI’ll also include anecdotes like how it helped with Spectre/Meltdown mitigations, how it mercilessly killed all our kubernetes workers, and how it locked us out of our QA environment.\n\nView the full LISA18 Program at https://www.usenix.org/lisa18/conference-program"
