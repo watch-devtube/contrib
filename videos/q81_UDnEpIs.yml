@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'The Incredible Flashback Data Archive'
+language: English
+recordingDate: 1542309726
+description: "Chris Saxon explores Flashback Data Archive: what it's for, how to use it, and why you can get ORA-01405 errors when querying it.\n\nWe also looked at how to use SQL to report overlapping date periods, show all the rows in a time period. This covered unpivoting and recursive solutions, comparing the performance of the two.\n\nHighlights include:\n\nFlashback\n\n-  2:00 The problem of fraud and the need for auditing to detect it\n-  8:10 Flashback query; how you can use this to see changes; the limiations with this\n- 10:45 How to enable Flashback Data Archive\n- 12:30 Flashback Data Archive demonstration\n\nSQL: Merging overlapping dates\n\n- 30:00 The problem: breaking overlapping from/to date periods into all the possible sub-periods\n- 32:30 How to solve this; pivoting from/to dates, then generating all the subperiods\n- 33:40 A walk through the SQL\n- 38:40 The SQL in action; a discussion of it's performance and comparison to other methods\n- 50:00 How to get exeuction plans in SQL Developer and compare two plans, side-by-side"
