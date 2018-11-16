@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: 'LISA18 - Debugging Linux Issues with eBPF'
+language: English
+recordingDate: 1542323935
+description: "Ivan Babrou, Cloudflare\n\nAbstract: \nThis is a technical dive into how we used eBPF to solve real-world issues uncovered during an innocent OS upgrade. We'll see how we debugged 10x CPU increase in Kafka after Debian upgrade and what lessons we learned. We'll get from high-level effects like increased CPU to flamegraphs showing us where the problem lies to tracing timers and functions calls in the Linux kernel.\n\nThe focus is on tools what operational engineers can use to debug performance issues in production. This particular issue happened at Cloudflare on a Kafka cluster doing 100Gbps of ingress and many multiple of that egress.\n\nThis is also an introductory talk to a training on ebpf_exporter by Alexander Huyhn.\n\nView the full LISA18 Program at https://www.usenix.org/lisa18/conference-program"

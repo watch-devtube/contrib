@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+title: 'LISA18 - Designing for Failure: How to Manage Thousands of Hosts Through Automation'
+language: English
+recordingDate: 1542323934
+description: "Brandon Bercovich, Uber\n\nAbstract: \nAt Uber, we run thousands of services on top many thousands of hosts using Apache Mesos with the Apache Aurora framework. This setup ensures that when a host breaks a service will automatically get rescheduled to another host, but what happens to the host? What happens when a host is still running services but is misconfigured or has a hardware fault that can be affecting the performance of the service. How about when you want to upgrade the Kernel or other software across your fleet. At Uber, we created CLM or Cluster Lifecycle Manager which is used to answer these questions in a safe and automated way. In this talk we will go through the architecture we are using to make this possible and how we are ensuring our actions don't impact services.\n\nView the full LISA18 Program at https://www.usenix.org/lisa18/conference-program"

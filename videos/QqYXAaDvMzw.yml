@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - cloud
+    - aws
+title: 'LISA18 - Managing OS Release Transitions at Netflix Scale'
+language: English
+recordingDate: 1542323935
+description: "Edward Hunter, Netflix\n\nAbstract: \nNetflix runs over 150k+ instances of Ubuntu inside the Amazon cloud (AWS) supporting hundreds of micro-services to serve over 125m customers worldwide. A small team of engineers is responsible for maintaining and evolving the base OS (BaseAMI) on which every service depends. Over the past year or so we have migrated the majority of the fleet from Ubuntu's Trusty release to Xenial. When Bionic released we were ready to start moving services very shortly after the release date.\n\nOur goals with the migration were simple:\n\nDon't break Netflix\nMinimize developer pain/complexity during the migration\nBe ready for the next release of Ubuntu as soon as practical after it's release\nMeeting these goals required changes to packaging, tools and processes. This talk will reveal some of what we do to manage the OS and allow Netflix to deploy it quickly to thousands of VMs on a daily basis. It will also look at what it takes to stay up-to-date with patches and other changes in the ecosystem all while supporting our users, both internal and external, 24x7.\n\nView the full LISA18 Program at https://www.usenix.org/lisa18/conference-program"
