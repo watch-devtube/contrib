@@ -45,7 +45,7 @@ description: Some text goes here #
 
 ## How to remove a video
 
-If you want a video to be removed, create a new GitHub issue and explain why you think the video should be removed. In particular, we'd appreciate if you created issues for marketing videos.
+If you want a video to be removed, [create an entry in ignored.yml](https://github.com/watch-devtube/contrib/blob/master/ignored.yml) and explain why you think the video should be removed. In particular, we'd appreciate if you removed marketing videos.
 
 ## Video auto-tagging
 
