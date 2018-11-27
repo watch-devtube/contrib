@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - web
+title: 'Top-10 fails on real highload project (Dmitry Menshikov, Ukraine)'
+recordingDate: 1515769330
+description: "In this talk I’m going to present experience, that I have achieved together with my team through pain on real highload project with millions of users. I will cover 10 hot stories:\n\n– wrong selection of id algorithm, that almost led to closing of project and wasting of 2 years of development;\n– fighting with over, over, overloaded MySql servers when turning replication on kills server;\n– cleaning of partitions in MySql that caused server outage;\n– HTML coder that changed design and instigated downtime for 4 hours;\n– lack of knowledge of internal logic of Redis costs $50k;\n– adding and removing servers from Memcahced pool starts full cache invalidation;\n– fix of test and millions lost emails after that;\n– release of one projects crashed another project;\n– the biggest fail in design of message broker."

@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Application Architecture – Inside/Outside Thinking With Hexagons (Nathan Johnstone, Netherlands)'
+recordingDate: 1515769939
+description: "The traditional layered architecture has been around for a long time, and for equally as long has been often implemented naively with little to no regard for the direction of dependencies, who is coupled to whom and who is causing change to whom.\n\nI will discuss the Hexagonal Architecture approach first written up by Alistair Cockburn and how it provides a clear way to think about your application and it’s most important pieces, namely the boundaries between different responsibilities and how to keep them from become entangled.\n\nI’ll also show some concrete examples of how I’ve implemented various adapters in .NET for incoming (commands / use cases) and outgoing (persistence / notification etc…) ports."
