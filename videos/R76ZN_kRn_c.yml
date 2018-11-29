@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - web
+    - react
+    - security
+title: 'DEF CON 26 AI VILLAGE - Rob Brandon - JMPgate Accelerating Reverse Engineering Into Hyperspace'
+language: English
+recordingDate: 1543443309
+description: "One of the most exciting potential applications for artificial intelligence and machine learning is cognitive augmentation of humans. At its best, AI allows humans to handle more information, react faster to complex events, and potentially even sense features of the world that we are currently incapable of perceiving. This has many applications in the security field, such as aiding humans in the task of binary reverse engineering. Reverse engineering binary code is one of the most challenging skill sets in the security field to learn. The ability to look at a block of raw machine code and understand what it does, as well as recognize similarities to code previously seen, often requires years spent doing tedious analysis of large amounts of code.\nIn this talk I show how we can use machine learning to handle the tedious parts of this process for us. If we show a generative neural network a wide variety of machine code, the network will learn the most relevant features needed to reproduce and describe that code. Once the network is trained, we can show it a new segment of code and capture the state of the neurons at the end of the segment. This neural state is effectively a summary of the entire sequence summarized into a vector.\nComparing these vectors allows easy measurement of the similarity of several code sequences by simply measuring the Euclidean distance between them. These vectors can also be used as inputs to other machine learning models that can perform a variety of tasks, such as identifying compiler settings used to generate the code. As part of the presentation, I will also be releasing a tool, the JMPgate framework, which can be used to accomplish tasks like identifying library code within an executable binary."
