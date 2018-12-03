@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'Wiring NIO2 File Providers in Groovy'
+recordingDate: 1543777261
+description: 'The java.nio2.file libraries have been around since JDK7, but there is hardly any publicly available offerings that exploits these capabilites. A long-standing user of the Apache Commons VFS libraries and as author of the Groovy VFS library I have been intrigued by what could possible be done via NIO2 i.e. having a SFTP or FTP-based filesystems. Building on my experience from VFS I set out to explore authoring providers for the nio2.file interface. In this session I''ll explore the interfaces, what is required in implementing providers and the challneges of implement Groovy VFS2 purely on top of NIO2.Hopefully this will change the learning curve for others who want to travel this road and inspire some people to contribute and write some useful providers.'
