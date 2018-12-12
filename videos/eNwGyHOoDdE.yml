@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+title: '#QA,  Rajdeep Varma,  Application Backdoor via Appium'
+language: English
+recordingDate: 1528288211
+description: "Rajdeep Varma\nBadoo\n\nApplication Backdoor via Appium\n\nThere's a shift towards open-source mobile test automation tools happening today among developers and QAs. Whether it be Appium, Calabash or anything else: all are good, with some major limitations. While a chosen tool may work well when you first start using it, things can quickly get out of hand with changing business requirements. We started using Calabash at Badoo when there was no Appium. Given the capability of Appium to drive the whole device, we started automation of new apps with Appium. However, we realized a powerful feature was missing in Appium for Android! : The ability to call Application code from automation code like Calabash Backdoors. As Appium UiAutomator server is based on instrumentation, we modified it such that we could instrument our app under test. This gave us the power to access context of Application under test and invoke public methods of Activity using reflection APIs. We use these methods to setup app state, seed DB OR even enable/disable some client-side A/B tests. This makes our application more testable and our tests more predictable. This talk is going to be about how I achieved the above solution and benefits of backdoors.\n\nhttps://codefest.ru/"
