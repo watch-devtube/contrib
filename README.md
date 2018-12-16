@@ -7,7 +7,7 @@ Let's build the best tech video hub together! Check out 🥇[contributors leader
 
 * please help fixing video metadata
 * please help adding speakers
-* please help [improve the website](https://github.com/watch-devtube/web/issues)
+* please help [improving the website](https://github.com/watch-devtube/web/issues)
 * please contribute new channels
 
 ## Channel or playlist contribution guidelines
