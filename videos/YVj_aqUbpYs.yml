@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - containers
+    - kubernetes
+title: 'Sharded And Federated Prometheus Servers to Monitor Distributed Databases - Jun Li & Viswa Vutharkar'
+recordingDate: 1544936259
+description: "Sharded And Federated Prometheus Servers to Monitor Distributed Databases - Jun Li & Viswa Vutharkar, eBay \n\nAt eBay we have developed a geo-distributed transactional document store called NuData. It is deployed on Kubernetes. The current deployment has thousands of pods across three datacenters, and is monitored by Prometheus. For scalability, our Prometheus cluster has sharded servers to monitor individual infrastructure components and federation servers to retrieve aggregated metrics from sharded servers. For high availability, each sharded/federated server is configured with an active/standby pair over its load-balancer. A routing map ( a time series) is automatically constructed by each shard server and assembled by the federation server, to direct Prometheus queries to the right servers. Today we have over 90 Prometheus servers on two datacenters to collect over 11 M metrics/60 seconds on 400 metrics (and 900 rules), to support health monitoring and performance debugging of NuData. \n\nTo learn more:  https://sched.co/GrXO"

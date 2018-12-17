@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+    - containers
+    - kubernetes
+    - python
+    - java
+title: '!go, Interacting with and Extending Kubernetes in a Polyglot World - Brendan Burns, Microsoft'
+recordingDate: 1544936260
+description: "!go, Interacting with and Extending Kubernetes in a Polyglot World - Brendan Burns, Microsoft \n\nKubernetes is implemented in golang and most of the tools around extending it or automation using it (such as kubebuilder) are written in golang. Accessing APIs in another language and writing controller loops or automation tools using non-go languages helps expand the community and tooling around the project and give more options to users. Kubernetes-client is a project started a year ago around the idea of accessing kubernetes in as many programming languages as useful. It based on OpenAPI spec generated from main kubernetes repository and standard client generators such as swagger-codegen. This talk will cover these topics: OpenAPI for standard types &nbsp;Structure of kubernetes generated clients Example: Python client Pros/Cons of generated clients Builder pattern (e.g. Java client) ProtocolBuffer Generation (and challenges) Client generation for CRDs Demo: A controller loop in python \n\nTo learn more:  https://sched.co/GrUa"
