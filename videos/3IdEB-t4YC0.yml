@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'Using a Kubernetes Operator to Manage Application Tenancy in a B2B SaaS App - Mike Arpaia, Kolide'
+recordingDate: 1544937519
+description: "Using a Kubernetes Operator to Manage Application Tenancy in a B2B SaaS App - Mike Arpaia, Kolide \n\nCompanies that create products for other companies or teams often have to reason about how to deal with the application-level tenancy of each team. The two ends of the spectrum are to either deploy one monolithic application that handles multi-tenant data isolation via application logic or to deploy and proxy to many instances of isolated single-tenant applications.  This presentation will discuss how Kolide has approached the problem of application tenancy by building a Kubernetes Operator to manage the complete lifecycle of each tenant as an isolated instance of a single-tenant application. We will analyze strategies for account management, observability, deployments, networking, and security.  Finally, we will consider the efficacy of this strategy in general by analyzing the observed pros and cons after using this approach in production to serve thousands of customer instances. \n\nTo Learn More: https://sched.co/GrU9"

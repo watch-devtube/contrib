@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - testing
+title: 'Getting The Most Out Of Kubernetes with Resource Limits and Load Testing - Harrison Harnisch, Buffer'
+recordingDate: 1544937519
+description: "Getting The Most Out Of Kubernetes with Resource Limits and Load Testing - Harrison Harnisch, Buffer \n\nYou've carefully crafted your first K8s service, and you're ready to deploy it to production. Well, not quite: there are still some important unknowns to understand before your service will be ready for production. It's still unclear how the new service behaves when it's being pushed, and it's possible that K8s will kill the service before serving a single request. At Buffer, we've developed a technique to optimize K8s deployment limits using load testing to identify optimal resource limits. When the service is under heavy load there are a few key metrics to watch to identify bottlenecks. These key metrics can be used to adjust resource limits. This approach allowed us to safely and efficiently switch over more than half our production traffic to our K8s cluster and can be applied to any application. This talk will include a live demo of how to tune Etcd using methods we do at Buffer. \n\nTo Learn More: https://sched.co/GrRX"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Real-time Vision Processing on Kubernetes: Working with Data Locality - Yisui Hu, Google'
+recordingDate: 1544937519
+description: "Real-time Vision Processing on Kubernetes: Working with Data Locality - Yisui Hu, Google \n\nKubernetes as a general purpose cloud native application platform simplifies the operation of applications. Data processing is one of the common of applications that benefit from the power of Kubernetes. However attempting real-time computer vision processing on Kubernetes isn't that straightforward, as the maximum processing time for a single frame is expected to be less than 30ms to reach 30fps or no more than 60ms (15fps, start being laggy). This presentation demonstrates the actual issues, feature gaps encountered and workarounds applied running a real-time vision pipeline on Kubernetes from the presenter's hobby robotics project. The pipeline involves a few image pre-processing tasks, a ML model (SSD mobilenet) for object detection and depth estimation with a single camera. The biggest challenge is how to distribute the tasks across nodes with data locality in consideration. \n\nTo Learn More: https://sched.co/GrVe"
