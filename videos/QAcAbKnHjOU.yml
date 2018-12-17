@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Deep Dive: Scheduling SIG - Bobby (Babak) Salamat, Google'
+recordingDate: 1544936050
+description: "Deep Dive: Scheduling SIG - Bobby (Babak) Salamat, Google \n\nThis talk will be useful for cluster operators who are interested in learning about new scheduling features in Kubernetes. The talk will provide insights about ways to run clusters more efficiently and securely. We will give a brief summary of existing Scheduler features and then provide more details about some of the new features of the scheduler, namely priority and preemption, and gang scheduling. We will also provide a summary of Descheduler. Changes in the cluster size and available resources happen continuously. These changes may make some of the scheduling decisions made before sub-optimal under new conditions. Descheduler monitors clusters and helps fixing previously made scheudling decisions by removing (descheduling) already running Pods when there are better placement opportunities in clusters. We will also talk about the new Pod scheduling policies that allow admins to restrict scheduling properties of Pods. Pod scheduling policies help prevent abuse in clusters where not all users are trusted. \n\nTo learn more:  https://sched.co/GrdO"
