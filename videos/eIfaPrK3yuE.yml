@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - architecture
+    - ruby
+title: 'Berlin Buzzwords 2011: Tim Lossen - Redis to the rescue'
+recordingDate: 1545060761
+description: "Games in social networks offer interesting scaling\nchallenges, as the user base can grow explosively once they\nbecome popular.\n\nWhen wooga started work on the facebook game 'Happy\nHospital' in early 2010, we set ourselves an ambitious\ngoal: \"Let's try to scale it to a million players per day\n-- with as few servers as possible.\"\n\nThis constraint led us to select Redis as the main backend\nstorage, running on dedicated (but cheap, consumer-grade)\nhardware. As an in-memory database, Redis offers an\norder-of-magnitude reduction in query latency, but also\nintroduces new challenges in the area of durability.\n\nThis case study will recount how our backend architecture\nhas evolved over time, highlight the difficulties we ran\ninto, describe how they shaped our final setup ... and how\nwe came up with a new Redis persistence model (diskstore)\non the way.\n\nFind out how many machines you *really* need for a\nhigh-traffic game backend -- even using a 'slow' language\nlike Ruby.\n\nhttp://2011.berlinbuzzwords.de/content/redis-rescue\n\nDescription of Tim Lossen: \nhttp://2011.berlinbuzzwords.de/content/tim-lossen-0"
