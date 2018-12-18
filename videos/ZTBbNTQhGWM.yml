@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cassandra
+title: 'Berlin Buzzwords 2012: Sean Cribbs - Eventually Consistent Data Structures'
+recordingDate: 1545060416
+description: "There are many reasons to use an eventually-consistent database -- like Riak, Voldemort, or Cassandra -- including increased availability, lower latency, and fault-tolerance. However, doing so requires a mental shift in how to structure client applications, and certain types of traditional data-structures, like sets, registers, and counters can't be resolved simply in the face of race-conditions. It is difficult to achieve \"logical monotonicity\" except for the most trivial data-types. That is, until the advent of Convergent Replicated Data Types (CRDTs). CRDTs are data-structures that tolerate eventual consistency. They replace traditional data-structure implementations and all have the property that, given any number of conflicting versions of the same datum, there is a single state on which they converge (monotonicity). This talk will discuss some of the most useful CRDTs and how to apply them to solve real-world data problems.\n\nMore Info: https://2012.berlinbuzzwords.de/sessions/eventually-consistent-data-structures\n\nDescription of Sean Cribbs:\nhttps://2012.berlinbuzzwords.de/content/sean-cribbs"
