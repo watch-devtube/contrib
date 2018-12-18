@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Kubernetes Manages More Than Just Containers - Ashley Schuett, Containership'
+recordingDate: 1544937360
+description: "Kubernetes Manages More Than Just Containers - Ashley Schuett, Containership \n\nKubernetes is known for managing, scaling and deploying containerized applications, but it can also be leveraged for managing your infrastructure. When running a cluster there is the option of running a cloud controller manager(CCM) which can make creating resources and creating hardware synonymous. The CCM can provision loadbalancers, set up routes, and tear down vms.   In this talk we will do a deep dive into the different controllers that make up a CCM, and how they are keeping the state of your infrastructure consistent with the clusters resources. The main controllers behind the CCM are cloud agnostic and live in core kubernetes, but each provider has to specify its own implementation. We will examine how provider specific logic hooks into the core and how to leverage the framework to write a custom CCM for any provider or bare metal solution. \n\nTo learn more:  https://sched.co/GrYM"

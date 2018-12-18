@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Migrating Jenkins to Kubernetes Broke Our Brains - Jonathan Hess & Loren Trout, SAP'
+recordingDate: 1544937577
+description: "Migrating Jenkins to Kubernetes Broke Our Brains - Jonathan Hess & Loren Trout, SAP \n\nTrying to migrate Jenkins to Kubernetes broke our brains. We migrated our Jenkins-based build system from plain VMs + Chef to Kubernetes running on VMs in our SAP corporate datacenter. Here is how we did it so that you can too.  We will walk through some of the nitty-gritty details to build a Kubernetes cluster from scratch on virtual machines, walking through our open-source example repo:  Provisioning the Cluster: * building a solid cluster with kubeadm * preparation of the underlying OS * how to keep the base machines clean * system and application monitoring  Running Jenkins on Kubernetes safely: * our helm charts + shell scripts * sizing the pods for builds * persistent volumes and backups  Additionally, we will discuss some of the lessons we discovered along the way: * What problems got solved migrating Jenkins to K8s? * Lessons for other legacy apps \n\nTo Learn More: https://sched.co/GrSh"
