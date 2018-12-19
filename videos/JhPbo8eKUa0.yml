@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Berlin Buzzwords 2012: Christian Richter - Near real time processing of time series data with HBase'
+recordingDate: 1545060707
+description: "A known problem when storing time series data in HBase is having hot regions when using timestamps as keys. A common solution is to use a salt as prefix to distribute the data over multiple regions. This presents a problem when one wants to process the data ordered by timestamps in a Map/Reduce job, as currently only one Scan object can serve as input. One approach is to start a Map/Reduce job for each prefix. Another solution is to allow multiple Scan objects, one for each prefix, to serve as input in a Map/Reduce job by implementing a MultiSegmentTableInputFormat. Using the MultiSegmentTableInputFormat in a Map/Reduce job has the advantage of being able to use a prefix to avoid hot regions when writing data and allows to process data ordered by timestamps in a single Map/Reduce job, though improving performance. This talk will provide details on how we use HBase for near real time processing of time series data from a real world application.\n\nMore Info: https://2012.berlinbuzzwords.de/sessions/near-real-time-processing-time-series-data-hbase\n\nDescription of Christian Richter: \nhttps://2012.berlinbuzzwords.de/content/christian-richter"

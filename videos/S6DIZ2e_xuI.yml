@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Berlin Buzzwords 2012: Owen O''Malley - Processing High Volume Updates in Hive'
+recordingDate: 1545060503
+description: "Apache Hive provides a convenient SQL-based query language to data stored in HDFS. HDFS provides highly scaleable bandwidth to the data, but does not support arbitrary writes. One of Hortonworks' customers needs to store a high volume of customer data ( 1 TB/day) and that data contains a high percentage (15%) of record updates distributed across years. In many high-update use-cases, HBase would suffice, but the current lack of push down filters from Hive into HBase and HBase's single level keys make it too expensive. Our solution is to use a custom record reader that stores the edit records as separate HDFS files and synthesizes the current set of records dynamically as the table is read. This provides an economical solution to their need that works within the framework provided by Hive. We believe this use case applies to many Hive users and plan to develop and open source a reusable solution.\n\nMore Info: https://2012.berlinbuzzwords.de/sessions/processing-high-volume-updates-hive\n\nDescription of Owen O'Malley:\nhttps://2012.berlinbuzzwords.de/content/owen-omalley"

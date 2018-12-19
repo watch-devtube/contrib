@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+title: 'Berlin Buzzwords 2012: Christoph Goller - Implementing a Text Classifier based on Lucene & LIBSVM'
+recordingDate: 1545060708
+description: "During the last ten years statistical text classification has become an important application area. After briefly showing some interesting applications I will sketch how a statistical text classification system can be implemented based on Lucene as basis for storing training- and test data and LIBSVM as machine learning library. Classification Rules delivered by the support vector machines can be represented as Lucene queries thus allowing very efficient classification of big document collections provided they are already indexed (batch mode classification). On the other hand, classification of one document (online classification) with respect to thousands of classification rules (e.g. Patent Classification) might best be implemented by representing all classification rules as a Lucene index (boosts in payloads) and applying the document that has to be classified as query.\n\nMore info: https://2012.berlinbuzzwords.de/sessions/implementing-text-classifier-based-lucene-and-libsvm\n\nDescription of Christoph Goller: \nhttps://2012.berlinbuzzwords.de/content/christoph-goller"
