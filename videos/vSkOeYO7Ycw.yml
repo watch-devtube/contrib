@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - security
+    - testing
+title: 'DrupalCon Vienna 2017: Automatic Drupal Updates using Visual Regression & Continuous Integration'
+recordingDate: 1506506779
+description: "Your Drupal site really loves to be updated! Be it core, contributed modules, base themes, distributions, or libraries there is a LOT of code that you need to update for every site. However, even with tools like Drush, updating your site is hard work. You need to apply updates, test updates, and deploy updates. And do it for every single site for which you are responsible every single time an update comes out.\n\nEnter \"Automatic Drupal Updates\" and making the robots do your updates. This session will talk about how to use a Continous Integration and Visual Regression solution to do the following magic:\n\nSetup Continous Integration to check every hour to see if there are new updates for your Drupal site\nIf there are updates available...\nCreate a new git branch & development environment with your current code, database, and files.\nApply the new updates to the new git branch. Clear all caches.\nDo Visual Regression Testing to see if the update created a visual difference on the site. Most security and bug fix updates should not change the visual look & feel of your site.\nIf there are no visual changes, commit the new updates to Git and deploy the updates automagically to your production environment.\nSend you a Slack notification of the results of the testing & what updates were applied\nWait an hour to do this all AGAIN.\n\nIf this is your life, this session is for you.\nCome join Matt Cheney to see this automagical workflow in action!"
