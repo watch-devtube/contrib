@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - php
+    - performance
+title: 'DrupalCon Baltimore 2017: Drupal Commerce Performance'
+recordingDate: 1493169795
+description: "We run some high volume Drupal Commerce sites, taking upwards of 10,000 orders an hour and have done a lot of performance work to get these\_values. Commerce traditionally can't be cached and tuned the same way an unauthenticated content site can, and normal tricks like varnish and other static caching are of limited use.\n\nAn overview of performance problems with Drupal Commerce and Drupal 7 and ways to fix or mitigate them.\n\nCaching with authenticated users\nCaching with dynamic content\nScaling Orders\nDatabase Locking\nOrder Locking\nPHP 7 benefits specific to Commerce\nScaling Attributes and Options\nI will also touch on changes coming with Commerce 2.x for Drupal 8 and how this will affect performance in Drupal, especially related to cache contexts and bigpipe.\n\nAfter this talk, Commerce site admins should be able to increase there order throughput hopefully by a factor or 3x or more, depending what there existing site setup is.\n\nBlog post example regarding locking in commerce:\_https://www.acromediainc.com/blog/drupal-commerce-performance-locking"
