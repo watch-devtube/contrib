@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - css
+    - web
+    - testing
+title: 'DrupalCon New Orleans 2016: Production is an Artifact of Development'
+recordingDate: 1463075649
+description: "The tools that build the thing are not the thing itself. A production-ready Drupal repository is the product of our development chain.\n\nDrupal project repositories include myriad development tools from a Vagrantfile to a Gemfile from Composer to Behat. We commit our SASS but deploy our CSS. We commit instructions to build the thing but deploy the thing.\n\nAs we look beyond the Drupal community for tools to test, deploy, package manage, and build our Drupal projects, the creation of our Drupal root is the output of the machinery that we use to build and test it.\n\nI will walk through my development workflow that conceptualizes production as a product of development and thus a separate repository.\n\nThis includes:\n\nUsing Composer to manage project dependencies\nSetting up an automated testing, building, and deployment environment with Travis and CircleCI\nAutomating the building of that artifact on an automation platform\nPushing that artifact, and only the artifact, to Pantheon\nThe audience for this presentations probably has:\n\nAn aversion to any site that hasn't exported their configuration as code\nAt least an understanding that a Drupal project should make their deployment strategy scriptable\nSome familiarity with automation tools (Jenkins, Travis, CircleCI, etc.)\nSome knowledge of Composer\nLearning Objectives & Outcomes: \n\nAn understanding of this problem space\nAn introduction to how you might go about addressing separating your deployable Drupal from your Drupal development toolchain\nRenewed energy for building deployable Drupal"

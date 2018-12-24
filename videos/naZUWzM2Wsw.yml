@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+title: 'DrupalCon Nashville 2018: How Memory Works in PHP and Its Hidden Costs'
+recordingDate: 1523543654
+description: "Go behind the scenes and learn a bit about how PHP uses memory when it runs your code. PHP's ease of use and low barrier to entry also have some side effects to how memory is used, sometimes using memory differently and in places you didn't expect. If you're doing small pages that load quickly, for a low traffic site, this probably won't even be noticeable unless things go quite wrong. Once you get into heavy pages on high traffic sites, or even worse, long running background processes, then knowing a bit more about the memory you're using can help a lot.\n\nIn PHP, variables have a lot of meta-data they need to store, since they can be any size and of any type. They need all this meta data to store information like how much data they hold, what type of data it is and how it is stored. Often this \"hidden\" meta data cost will use more memory than the actual info you are storing, although recent versions of PHP have improved on this.\n\nThe idea isn't to learn every low level detail, just to have a little knowledge of what is happening with memory usage when you're programming so you can be cognizant of the choices you make and a bit more efficient in your usage.\n\nHopefully this talk will be interesting to even experienced developers, but you only need some programming basics to follow along."
