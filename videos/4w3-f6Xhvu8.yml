@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+    - architecture
+title: 'DrupalCon New Orleans 2016: The Symfony Monolith Repository'
+recordingDate: 1462905177
+description: "Google and Facebook both store all their codebase into one giant code repository. The Symfony Open-Source project, one of the most popular PHP framework, has been using this technique as well thanks to Git and some secret sauce with great success since 2010.\n\nThe main Symfony repository consists of 30+ decoupled components and 10 bridges and bundles that glue everything together. Having only one repository makes code management much easier for both end users and core contributors: one central place to submit pull requests and report bugs, simple cross-project atomic changes, fast releases, and more.\n\nBut what about users wanting to use only one component? Enter \"repository splitting\". This talk will describe how we manage one big read-write repository and 50+ read-only repositories.\n\nAfter learning some theory about subtree splits and how to create them with the Git built-in but slow \"subtree\" command, we will talk about the tool we developed using libgit2 and Go to make the process almost real time.\n\nIf you have a microservice oriented architecture and manage one repository per microservice, you could probably benefit from using the same technique with one repository for development and read-only splits for packaging and deployment.\n\nWe will also see how this could benefit Drupal."
