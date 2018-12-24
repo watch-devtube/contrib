@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - aws
+title: 'DrupalCon New Orleans 2016: How Puppet Labs runs Drupal on AWS'
+recordingDate: 1462920029
+description: "At Puppet Labs, we're running our own Drupal web infrastructure on AWS. This talk will describe the architectural decisions we've made, our operational experience, and specific implementation details. This will be an advanced talk for developers with modest operational experience, or a beginner-to-intermediate-level talk for people with strong web operations experience.\n\nSpecifically, we'll walk through the puppetlabs.com infrastructure and talk about:\n\nwhy we're hosting our own, rather than using one of the many excellent Drupal hosting services\nwhat AWS services we're using (RDS MySQL, EFS for NFS) and why we decided to run our own haproxy failover cluster rather than using Elastic Load Balancers\nwhy we got rid of varnish and memcached\nhow we use haproxy to mitigate high-volume account registration spam attempts\nhow our puppet-based workflow has allowed web developers to drive changes to production, without blocking (much) on operations\nhow puppet-based provisioning of AWS resources allows us to treat infrastructure as disposable, ephemeral nodes\nhow we trace problems thorughout the stack by injecting UUID headers at the load balancer\nwhere our solution falls short compared to hosted options we've evaluated\nThe objective of this talk is to share our experiences and thought processes. The particular decisions we made may not be appropriate for everybody, but the questions that drove those decisions will apply to nearly everybody who's deciding whether to host their own infrastructure on AWS or outsource it to a hosted service."

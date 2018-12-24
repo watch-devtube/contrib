@@ -1,0 +1,17 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - rest
+    - ml
+    - performance
+    - web
+    - react
+    - security
+    - architecture
+    - javascript
+    - java
+    - spring
+title: 'DrupalCon Nashville 2018: Creating a single face of government across multiple websites'
+recordingDate: 1523471888
+description: "One year after sharing our early Mass.gov pilot project at Drupalcon Baltimore, the team that reinvented Mass.gov is now charged with bringing a data-driven, constituent-centric, “digital first”, approach to all of the state’s web properties. Our vision is to stitch together a coherent experience across the diverse constellation of websites and technology stacks. Whether you’re renewing your driver’s license, checking eligibility for food assistance, or starting a new business, we want your experience to be as seamless as it would be on a banking or e-commerce website. Even if you have to interact with four different government agencies, it should all feel like one government organization with a consistent look and feel. But “single face of government” doesn’t stop at visual design, it also includes a single search interface, a single data catalog, and a single URL and consistent developer experience for the state’s RESTful APIs.\n\nIt’s a tall mountain to climb. But we’ve had some early successes to build on and we’re optimistic that we’ll get there if we keep putting one foot in front of the other. Here’s what this is beginning to look like behind the scenes and under the hood:\n\nIn the last quarter of 2017 we completed a successful round of analytics-driven content performance improvements. Today, we’re piloting opinionated content performance dashboards aiming to monitor key performance indicators at scale. If it works, we believe we will be able to enlist hundreds of authors and subject matter experts beginning this spring to make measurable improvements to our constituents’ experiences.\n\nWe have decoupled our design system from Drupal’s theme layer and implemented it in two non-Drupal applications, a stand-alone React-based search application, and a static budget website.\n\nWe’re leveraging machine learning for text classification to (1) automate rote metadata improvements to hundreds of thousands of records, and (2) generate more meaningful insights and actionable analysis from constituent feedback submitted through feedback forms.\n\nWe have built a small-but-growing number of microservices which connect new and legacy applications, and which will likely pave the way to our progressively-more-decoupled future.\n\n\n\nAlong the way we’ve also taken pride in making a few contributions Drupal (the first in MA state government, as far as we know!):\n\nWe fixed JavaScript bug in Drupal core that was creating accessibility issues\n\nWe worked with the Drupal Security Team to fix critical vulnerabilities in the Two Factor Authentication module\n\nAnd soon we hope to have a patch to submit which we believe improves Drupal core’s approach to drag-and-drop rows\n\n\n\nWe’re eager to share our experiences, learn from the Drupal community, and invite other government organizations to collaborate with us."

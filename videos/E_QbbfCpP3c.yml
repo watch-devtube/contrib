@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+    - containers
+    - docker
+    - architecture
+title: 'DrupalCon Vienna 2017: Drupal 8 in a microservices world'
+recordingDate: 1506509935
+description: "Drupal 8 allows us to get off the island and integrate with a lot of great PHP packages. But still a lot of things are more easily of efficently implementable in other languages or technologies.\n\nWe have to see Drupal 8 as piece of a bigger puzzle. With the Symfony components, Composer to manage external dependencies and the great results of the WSCCI initiative, integrate Drupal 8 in a microservices architecture is more easy than ever.\n\nIn this talk we will go through a real system we've build to demonstrate that even a medium application can leverage those techniques easily.\n\nWe will see:\n\nhow to delegate asyncronous work from Drupal to a bunch of very reactive applications written in Go using some RabbitMq queues\nhow to use Elasticsearch as a common data storage between services\nhow to expose REST endpoints where the external services of the architecture can notificate back to Drupal\nhow to connect to a websocket server to push and pull messages between services\nhow to use Ansibile and Docker to describe and run all these services in a controlled and replicable way"
