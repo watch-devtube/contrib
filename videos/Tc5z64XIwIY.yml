@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - web
+    - testing
+    - craftsmanship
+    - tdd
+title: 'On Writing Software Well #5: Testing without test damage or excessive isolation.'
+recordingDate: 1519089405
+description: "In which I show how we test models that are still attached to databases and controllers that still render full views AND talk to the databases. Isolation of tests is not a particular virtue you need to optimize for. Mocks and stubs are necessary evils when talking to external services in some cases, but you rarely need them within the boundaries of your own app.\n\nSome related links to the \"TDD is dead\" discussion:\n- http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html\n- https://www.youtube.com/watch?v=z9quxZsLcfo\n- https://www.youtube.com/watch?v=9LfmrkyP81M"
