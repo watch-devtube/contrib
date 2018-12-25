@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - ux
+    - mobile
+    - architecture
+title: 'Fault Tolerance is a Requirement Not a Feature - Adar Danait, Lilian Ernest, Citi'
+language: English
+recordingDate: 1513268856
+description: "The application ecosystem for our business consists of 700+ services. A typical transaction request flows through 5+ service instances before its processed. In this distributed environment, inevitably some of the many service dependencies will fail. Each dependent service invocation is costly and a single failure can lead to diminished user experience and a lower Net Promoter Score for us either on the mobile app or desktop. It also places a higher stress on the underlying system that is attempting to recover from the failure. We use Hystrix as a fault tolerance open source framework provided by Netflix designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.\n\nDuring this session you will learn:\n\nHystrix Circuit breaker mechanism\nHow to use Hystrix in microservices\nHystrix best practices and recommendations\n\nSlides: TBA\n \nAdar Danait, Principal Software Engineer, Citi\nLilian Ernest, Apps Dev Tech Specialist, Citi\nFilmed at SpringOne Platform 2017"
