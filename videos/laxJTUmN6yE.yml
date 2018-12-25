@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - javascript
+    - java
+title: 'Unbundling distributed monolith with Node.js - Vilius Lukosius'
+recordingDate: 1505719782
+description: "Wix transitioned from monolith to microservices around 8 years ago. Or did it? At Wix Engineering, there are hundreds of microservices in production with teams working on separate independent services or groups of services with decoupled deployments and SLAs. Sounds like a microservice architecture, but there is a dark truth to it - single platform (jvm), shared libraries (framework), fat clients (binary dependencies). In the industry it is called a distributed monolith. There is no natural way or incentive to get rid of it, but there is a way - adding a new platform.\n\nThis talk is a story of adding a second backend stack in Wix - node.js:\n- background on why and how;\n- uncovering 'skeletons in the closet';\n- joys of reverse engineering contracts;\n- approach to fixating/encoding contracts;\n- impact of evolution on existing (jvm) stack."
