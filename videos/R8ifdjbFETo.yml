@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - ruby
+title: 'Baruco 2013: Rabbit Hole: Garbage Collection and Ruby''s Future, by Chris Kelly'
+recordingDate: 1382007917
+description: "A talk from Barcelona Ruby Conference 2013 (http://baruco.org)\n\nDespite its reputation for being slow, MRI is still the most widely installed implementation of Ruby. Do you know how MRI got that reputation? Do you know what goes into executing Ruby on MRI? And more importantly, should today's Ruby be saddled with that reputation still? We're going to take a walk through the C internals from Foo.new through garbage collection in Ruby's MRI. We'll examine the idioms and optimizations in the C source and leave you feeling comfortable to explore the code yourself. At the end of the rb_newobj() rabbit hole is a whole world of garbage collection. Major changes have been made in MRI's garbage collector from Ruby 1.8 through 2.0: changes intended to make Ruby more performant, changes intended to capitalize on MRI's roots in UNIX. From mark-and-sweep to copy-on-write and bitmap marking, we'll see what the future of Ruby performance might look like by peering through the window of the garbage collector.\n\nhttp://www.baruco.org/talks/rabbit-ho...\n\nRecorded & produced by El Cocu (http://elcocu.com)"
