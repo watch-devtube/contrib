@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'You mean I don''t have to write a BOSH release? - Mikey Boldt, Pivotal'
+language: English
+recordingDate: 1513809930
+description: "Services on Container Runtime\n(or, \"\"You mean I don't have to write a BOSH release?\"\")\n\nOur team, Pivotal Cloud Foundry Platform Engineering, works with software vendors to integrate their service software with Cloud Foundry. Using lessons we've learned from years of this integration work, we give a sneak peek of how Container Runtime can improve this experience for software vendors, application developers, and operators.\n\n= Motivation =\nWant your service software to Cloud Foundry? Build a BOSH release. BOSH does great things, but:\n- BOSH is hard (at least has a steep learning curve) = high cost.\n- BOSH is not widely used outside of Cloud Foundry = low reward.\n\n= Opportunity =\nContainer Runtime provides a new deployment mechanism. Kubernetes deployments are:\n- Less difficult = less expensive.\n- Widely used = higher reward, and might already be done.\n\n= Approach =\nWe will explain how:\n- Software vendors can use existing Kubernetes deployments on Container Runtime.\n- We are developing a generic Service Broker for on-demand Kubernetes service deployments, saving software vendors the hassle.\n- Application developers keep the familiar `cf create-service` and `cf bind-service` interface.\n- Operators can easily deploy these services.\n\nSpeaker: Mikey Boldt, Pivotal\nRecorded At SpringOne Platform 2017."
