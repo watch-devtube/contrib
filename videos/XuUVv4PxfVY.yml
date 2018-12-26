@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - php
+    - aws
+    - testing
+    - python
+    - javascript
+    - functional
+title: 'DrupalCon Nashville 2018: Load Testing Drupal At Scale with Locust.io'
+recordingDate: 1523569578
+description: "As Drupal becomes an ever larger mainstay in the Enterprise world of Internet websites and applications, it becomes more important for developers to test their work's ability to scale. While a piece of functionality may work perfectly fine with 5, or even 50, concurrent users, how does it work with 200? 500? 1000? Past Drupal itself, do the other pieces of the infrastructure such a MySQL, Redis, Varnish or other services keep up as the user requests pile up?\n\nTo answer these questions and more has moved well past the abilities of older load testing solutions. Apache Bench is fantastic, for example, but it doesn't parse a page, gather information, and act accordingly. It can't mimic a user working through a shopping cart, nor peruse all the mystery books on an online bookstore.\n\nAfter several years of in the trenches load testing it's been both my pain and pleasure to have worked through many different solutions as I've tried to find the One Load Testing Framework To Rule Them All. While the magic solution has yet to present itself, I've found a pretty good combination:\n\nElastic Beanstalk + Locust + CasperJS = A highly scalable, fairly easy to set up, functional open source load testing framework that meets 95% of my daily needs.\n\nIn this talk I will introduce the moving parts and walk through one of our more common load testing scenarios: A non-profit Drupal marketing site with an e-commerce based donations flow. The test itself will browse site content with anonymous users and make random donations to non-profits as part of a fundraising drive.\n\nAttendees should have a good working knowledge of Drupal, PHP, Javascript and Amazon Web Services (EC2). Passing knowledge of Git, Python, Javascript and Elastic Beanstalk is also useful.\nOnce done, the attendees will have a good overview of how to run load tests against Drupal sites at a high scale using open source projects and on-demand infrastructure."
