@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - css
+    - web
+title: 'Sass Tutorials #9 - Nth Function In Lists'
+recordingDate: 1330660134
+description: "This is the 2nd tutorial in a series that show users how to code CSS using advanced features in Sass. \r\n\r\nThis tutorial covers the use of the Nth function to find values in lists. This example goes over the basics of Nth and then uses an @each statement to build gradually lighten a back background over 4 separate divs.\r\n\r\nThe code:\r\n@each $p in (\r\n  one black,\r\n  two black + 20,\r\n  three black + 40,\r\n  four black + 60\r\n) {\r\n  .#{nth($p,1)} { background:#{nth($p,2)}; }\r\n}"
