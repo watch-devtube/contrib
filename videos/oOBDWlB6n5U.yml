@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - containers
+    - kubernetes
+    - java
+    - spring
+title: 'Containerizing a Data Warehouse for Kubernetes'
+language: English
+recordingDate: 1538632750
+description: "Kubernetes provides a new way to deploy and run software in containers with flexible Services and global DNS discovery. This session will describe the new deployment of Greenplum on the Pivotal Container Service (PKS - the K is for Kubernetes), which provides an enterprise grade Kubernetes environment. Container environments change the game for Greenplum. Persistent disks add a new degree of HA, and speed the creation of replacement containers. On-demand deployment of Greenplum scales to any number of segment containers with a single command. For segment failover, a DBA can specify that a mirror takes over, requiring no further Greenplum downtime for rebalancing, using affinity rules to determine how computing resources are distributed. For master failover, the Kubernetes predefined Service for port 5432 means that clients can be load-balanced to the standby master with no change in IP address. What about Spring Boot Apps? Apps running in PAS can leverage this new datastore for all their MPP data crunching needs. Learn more about the power of combining your data driven apps with Kubernetes and Greenplum - the best enterprise class, open source, Postgres-based data analytics platform.\n\nSeptember 25, 2018\n5:40 pm - 6:10 pm\nMaryland Ballroom D\n\nSpeaker:\nJemish Patel\nGreenplum for Kubernetes Engineer, Pivotal\nFilmed at SpringOne Platform 2018"
