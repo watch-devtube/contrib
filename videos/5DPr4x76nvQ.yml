@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+speaker:
+    name: 'Adrian Cockcroft'
+    twitter: adrianco
+title: 'microXchg 2016 - Adrian Cockcroft : Analyzing Response Time Distributions for Microservices'
+recordingDate: 1454699525
+description: 'The end to end response time of a network of microservices tends to have a wide distribution with a long tail at the 99th percentile, even if the mean is short. By collecting the response time distributions and throughput for request traces we can see how the individual microservices respond, but to combine these distributions and find which microservice is contributing the most to the 99th percentile requires application of montecarlo simulation. This talk will explain how this technique works and investigate tools ranging from Excel plugins to R packages that can implement montecarlo models.'
