@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - architecture
+    - java
+    - spring
+title: 'microXchg 2017 - Adrian Cole: How to Properly Blame Things for Causing Latency'
+language: English
+recordingDate: 1487348190
+description: "Latency analysis is the act of blaming components for causing user\nperceptible delay. In today's world of microservices, this can be\ntricky as requests can fan out across polyglot components and even\ndata-centers. In many cases, the root source of latency isn't a\ncomponent, but rather a link between components.\n\nThis session will overview how to debug latency problems, using call\ngraphs created by Zipkin.  While we're at it, we'll discuss how the\nmodel works, and how to safely trace production. We'll demo with an\nexample app you can download, using spring boot with spring cloud\nsleuth. Finally, we'll overview the ecosystem, including tools to\ntrace other languages and frameworks.\n\nWhen you leave, you'll at least know something about distributed\ntracing, and hopefully be on your way to blaming things for causing\nlatency!"
