@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - web
+    - containers
+    - kubernetes
+title: 'microXchg 2018 - Kubernetes: Shifting the mindset from servers to containers - Schlomo Schapiro'
+language: English
+recordingDate: 1524306335
+description: "With Kubernetes pods and containers several fundamental assumptions of server operations don't apply any more. Some Linux services like SSH even disappear and are provided by Kubernetes instead.\n\nThis talk explores the mindset shift that developers and admins of Linux servers have to do in order to fully take advantage of the power of a Kubernetes cluster:\n\n* Servers turn into pods\n* Linux application services turn into containers\n* Standard services like cron and SSH disappear completely\n* How to separate between initialization, run and maintenance phases\n* Building pods with multiple containers that work together\n* Scale out into multiple pods instead of scale up with more CPU power\n\nFollowing practical examples from real migration projects participants gain a new understanding of the role of services, init scripts, cron jobs and other standard Linux components. Key takeaways are a better understanding of how to model a complex system on top of Kubernetes and practical tips for migrating servers into Kubernetes containers.\n\nSuccessfully adopting Kubernetes requires a big change in how developers and admins think about servers - bigger than any change before. Bigger than the change brought by VMs. This talk shows why it pays to change traditional concepts and to embrace the new world of Linux services modularization that Kubernetes stands for.\n\nSee Using Kubernetes with Multiple Containers for Initialization and Maintenance (http://blog.schlomo.schapiro.org/2017/06/using-kubernetes-with-multiple.html) for more information."
