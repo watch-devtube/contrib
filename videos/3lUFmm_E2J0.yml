@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Surprises in Object Lifetime'
+language: English
+recordingDate: 1548178200
+description: "One of the main defining features of C++ is that of well defined object lifetime. We know that when a scope exits any local variables will be properly cleaned up. This is something that we rely upon and use regularly for the management of resources (ie RAII). \n\nHowever, there are some corners of the language that challenge our understanding of object lifetime. I have been teaching classes on understanding object lifetime for over a year now and some of these places continue to surprise my students and have even surprised me. \n\nWe will explore these corners of C++ and ask if they cause enough concern that the language features should not be used, or if they are still worth the price? We will also ponder if these can be considered mistakes in the language or just side effects of a useful feature. We will also explore when and how the compiler and analyzers can warn on these issues.\n\nEVENT:\n\nCppCon 2018\n\nSPEAKER:\n\nJason Turner\n\nPERMISSIONS:\n\nCppCon Organizer provided Coding Tech with the permission to republish this video."
