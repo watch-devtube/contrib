@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'dotScale 2017 - Marco Slot - Scaling out (Postgre)SQL'
+language: English
+recordingDate: 1500889607
+description: "Filmed at https://2017.dotscale.io on April 24th in Paris. More talks on https://dotconferences.com/talks\n\nSQL databases (RDMBS) are versatile data storage platforms, but have historically become a scalability bottleneck due to their inability to scale across multiple servers. However, the theory of scaling out SQL is now well-understood and is starting to see successful implementations.\n\nIn this talk - based on his years of work on Postgres and at [Citus Data](https://www.citusdata.com) working on the Citus distributed database -  Marco shows one aspect of scaling a SQL database: Distributing the computation of queries across many servers.\n\nThe relational algebra underlying SQL can be extended to represent queries on distributed tables. Commutativity and distributivity rules can be used to optimise the execution plan of a query on a distributed table in order to minimise network traffic and maximise parallelism. The resulting relational algebra tree can be converted back into a set of SQL queries that can be executed on individual shards, in parallel, to give the end result. This means that a single-server SQL database can act as a building block to a distributed SQL database.\n\nPostgreSQL is uniquely positioned for implementing this model because of its extension API, which allows key parts of its query planning and execution pipeline to be overridden. Through an extension, PostgreSQL can simultaneously acts as a distributed SQL engine, and as the underlying data storage and processing layer."
