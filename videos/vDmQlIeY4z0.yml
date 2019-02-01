@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+title: 'There is a new future - Felix Petriconi - Meeting C++ 2017'
+language: English
+recordingDate: 1516787963
+description: "Futures were added to C++11 as high level abstractions for asynchronous operations and are planed to be enhanced with the upcoming C++17 TS. Severals think today that std::future is broken in multiple ways.\n\nTherefore Sean Parent and I have developed an alternative, open source, concurrency library that addresses these std::future deficiencies.\n\nIn the first half of my talk I want to highlight those problems and illustrate how our library solves those.\n\nA graph of futures and continuations is for single execution only and would have been to be recreated for each additional run. An alternative for such recreations are channels - known from Communicating Sequential Processes (CSP) -, these allow the creation of similar, but persistent execution graphs.\n\nIn the second half of my talk I want to give a brief introduction into channels and show how easy it is to create such persistent processing graphs with our library."

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - sap
+title: 'The Three Little Dots and the Big Bad Lambdas - Joel Falcou - Meeting C++ 2017'
+language: English
+recordingDate: 1515608274
+description: "We are all more or less familiar with the notion of meta-programming: writing code that generate new code at compile time. The level of interest in such techniques usually ebbs and flows, but, currently, a lot of work is being done around it including smash hits like Boost. Hana, work around new ways to perform type based computation with MPL11, Metal or Brigand. People usually mixes meta-programming with complex invocations of the dual-faced angle brackets god and a lot of thinking using types. A nice change of perspective is to try to see how C++14 and 17 provides new tools to make code generation easier and more amenable to day-to-day practice.\n\nIn this talk, we'll go over a bunch of examples to see how a couple of lines of C++14/17 can build reusable, generic tools like an arbitrary code unroller, a for-each over tuple member or other fancy yet directly applicable meta-programmed snippets. To do so, we'll dive into some other languages like metaOCAML and see how we can steal a page from its meta-programming books -namely code quoting and code splicing - and adapt them to C++ using our trusted..., generic lambdas and if constexpr."

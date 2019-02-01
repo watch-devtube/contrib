@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: 'Reader-Writer Lock versus Mutex - Jeffrey Mendelsohn - Meeting C++ 2017'
+language: English
+recordingDate: 1517315964
+description: "Mutexes have frequently been observed to outperform reader-writer locks in domains where, logically, reader-writer locks should dominate. I was recently given an opportunity to addess this inconsistency and, to demonstrate my certainty of success, accepted a bet regarding outperforming a mutex for a high read, low write work task with short -- but not extremely short -- lock hold times.\n\nI lost the bet.\n\nI resolved to understand how I lost this bet and, in my mind at least, convert this \"loss\" to a \"win\". The bet focused on a Linux platform (the evaluations presented are multi-platform). This presentation will discuss design criteria for a reader-writer lock, the \"losing\" implementation, the performance results for the \"losing\" implementation, a possible explanation for the loss, the novel \"winning\" implementation, and the results supporting the value of the \"winning\" implementation.\n\nA basic understanding of mutexes, reader-writer locks, and atomic operations is recommended for attendees."

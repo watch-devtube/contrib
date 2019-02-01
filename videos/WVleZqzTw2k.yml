@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Strong types for strong interfaces - Jonathan Boccara - Meeting C++ 2017'
+language: English
+recordingDate: 1516704130
+description: "Strong types are such a powerful tool for bringing expressiveness into code. By using them we can precisely state our intentions about our C++ objects, both to compilers and to human beings reading our code.\n\nThis topic has been popular for years in the C++ community, notably with an implementation in Boost (strong typedef), and proposals for standards. Actually, std::chrono already intensively uses strong typing.\n\nIn this talk, you will see what strong types are, how they can make your code clearer, and whether or not you will incur a performance cost in your code by using them. We will see various usages of strong types, including units and named parameters. This will be based on a simple implementation of generic strong typing that I am proposing and that was already presented to many people.\n\nBut I want to take this topic further, by also showing practical aspects of strong types that do come up in real code, which includes:\n- Passing strong types by reference, \n- Strong typing over generic types, or otherwise unknown types like lambdas,\n- Inheriting functionalities from the underlying type,\n- Converting strong types to one another."
