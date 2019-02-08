@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - cloud
+title: 'Calling PL/SQL Functions From SQL'
+language: English
+recordingDate: 1549572904
+description: "Isn't it great how you \"extend\" Oracle SQL by calling your own user-defined PL/SQL functions from within SQL statements? Yes, it really is nice, but there are things you need to know about and take into consideration, from read-consistency to optimizer nuances. \n\nChris Saxon gave an overview of the key issues from performance to correctness.\n\nHighlights include:\n\n03:30 - performance comparison of plain SQL vs. calling PL/SQL function\n04:30 - SQL to PL/SQL context switches; what they are and how they affect performance\n06:10 - Techniques to make calling PL/SQL from SQL faster: scalar subquery caching, deterministic keyword, function result cache, pragma UDF\n14:00 - Performance comparison of these options\n21:20 - Performance comparison when calling non-deterministic functions\n35:30 - The danger when you have SQL that calls PL/SQL that calls SQL\n41:30 - Calling PL/SQL in SQL dos and don'ts\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"
