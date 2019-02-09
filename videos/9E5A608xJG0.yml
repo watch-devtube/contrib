@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - testing
+title: 'Better loop mounts with NBD Take your loop mounts to the next level with nbdkit'
+language: English
+recordingDate: 1549650398
+description: "by Richard Jones\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.1.105/nbdkit.webm\n\n\nLoop mounts let you mount a simple file as a device.  But imagine having \"FUSE for loop mounts\".  Linux Network Block Device (NBD) with the nbdkit server takes the concept of loop mounting to the next level, giving you a flexible, scriptable loop device, useful for end users, and for developers wanting to test anything involving a block device. Loop mounts let you mount a simple file as a device.  Network Block Device (NBD) with the nbdkit server takes this concept to the next level.  You can mount compressed files.  Turn multiple files into a partitioned device.  Mount esoteric formats like VMDK.  NBD can also be used for testing:  You can create giant devices up to 2^63 bytes in RAM and find out how filesystems cope.  Inject errors on demand into your block devices to test error detection and recovery.  Add delays to make disks deliberately slow.  I will also show you how to write useful block devices using 10 line shell scripts, and show some advanced live visualizations of how the kernel and filesystems use block devices. \n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2019-02-02 11:00:00+01"

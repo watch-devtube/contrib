@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Git database with bitmap index'
+language: English
+recordingDate: 1549649761
+description: "by Kuba Podgórski\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.120/gitdatabase.webm\n\n\nData retrieval team at source{d} process lot of data from git repositories. Most of the key components  in our workflow  like engine, gitbase, mysql-server are implemented in Go. This talk will go through the story how we embedded \"pilosa\" (distributed bitmap index) in our SQL frontend for git repositories.\n- Why we decided to use bitmaps as indexes\n- How we got to the point where we are (we have embedded pilosa's server implementation inside mysql server implementation)\n- What problems we came across and how we solved them. \n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2019-02-02 12:00:00+01"

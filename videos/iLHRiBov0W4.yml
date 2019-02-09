@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+title: 'Introducing kubectl-trace bpftrace meets Kubernetes with kubectl-trace'
+language: English
+recordingDate: 1549649982
+description: "by Alban Crequy\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.114/containers_kubectl_trace.webm\n\n\nI will show how to use BPFtrace to trace both function calls in your programs and kernel functions. Then, I will show how such a low-level tracing tool can be used in high-level environments like Kubernetes clusters with kubectl-trace. kubectl-trace (https://github.com/fntlnz/kubectl-trace) schedules bpftrace programs on your kubernetes cluster using the kubectl. \n\nBPFtrace (https://github.com/iovisor/bpftrace) is a new tracing tool announced in October 2018. You can write one-liner commands in your shell using a high-level tracing language inspired by awk and C, and predecessor tracers such as DTrace and SystemTap. Behind the scenes, it compiles this high-level language with LLVM into eBPF bytecode (extended Berkeley Packet Filter) available in recent Linux kernels. It allows you to trace different layers of the system: kernel dynamic tracing (kprobes), user-level dynamic tracing (uprobes), and tracepoints. \n\nIt can be used to trace containers, for example running on Kubernetes, the most popular container orchestration tool. BPFtrace is used as a base tool by kubectl-trace to build more complex tracing tools on Kubernetes. \n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2019-02-03 15:40:00+01"

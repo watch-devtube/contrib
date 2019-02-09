@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - security
+    - python
+    - java
+title: 'FreeIPA and cross-distribution packaging experience'
+language: English
+recordingDate: 1549649846
+description: "by Alexander Bokovoy\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.3.401/freeipa_cross_distrbution_packaging_experience.webm\n\n\nThe talk is going to reflect on the effort Fedora development community has done to allow complex solutions like FreeIPA to be tested continuously and to ensure a working solution at any release time. FreeIPA is one of projects that would benefit from a tighter collaboration between distributions and we would also like to discuss how its cross-distribution support could be improved to provide a more consistent behavior to our users across multiple distributions. FreeIPA is an identity management solution for POSIX environments. It is often characterized as an 'Active Directory for Linux systems' which, while not exactly right description, helps to visualize a level of complexity FreeIPA has to deal with. FreeIPA as a solution is built on a number of existing and proven technologies implemented as a free and open source software. As result, a FreeIPA deployment has to deal with coordination between a lot of packages. In Fedora, for example, a fully-functioning FreeIPA deployment requires to install several hundred binary packages, including but not limited to SSSD, MIT Kerberos, 389-ds LDAP server, Samba, Apache, OpenSSH, database libraries, Java components for Dogtag Certificate Authority server, and many Python libraries. \n\nIt is not a surprise that coordinating these components often leads to complications in an operating system distribution release management. Packages need to be at right versions at right time with knowledge about that not always shared across multiple groups of developers and maintainers. Regressions need to be tracked and fixed. Security updates and cross-platform protocol compatibility issues are adding their own flavor. \n\nRoom: K.3.401\nScheduled start: 2019-02-03 14:50:00+01"
