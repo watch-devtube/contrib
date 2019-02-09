@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+title: 'An operator centric way to update application containers with AtomFS'
+language: English
+recordingDate: 1549648951
+description: "by Tycho Andersen\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.114/containers_atomfs.webm\n\n\nOperators today have a problem when they want to update application containers: they have to go ask the developers to re-build and re-test the container. That's because application containers today are a bit-for-bit representation of the container that the developer ran. \n\nAn insight here is that applications probably don't care about which versions of what libraries are in use: any reasonable libc, python3, ssl, etc. will do. But today, to fix a CVE in SSL, an entire container rebuild is required. \n\nEnter AtomFS. AtomFS is an entirely userspace tool designed to allow operators to update individual libraries inside app containers. In this talk Tycho will cover how the tooling works, as well as what changes are needed to make application container builds work with AtomFS. \n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2019-02-03 09:35:00+01"

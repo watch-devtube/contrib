@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'IGT GPU Tools - the past, the present, the future'
+language: English
+recordingDate: 1549648712
+description: "by Arek Hiler\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.401/igt_tools.webm\n\n\nIGT recently underwent quite a few changes. The name is now\nvendor-agnostic, meson is the new default build system, we are on the\nGitLab, and the new runner, a piglit replacement, has landed. So what's up with the name change from \"Intel GPU Tools\" to \"IGT GPU\nTools\"? Is it just GNU, with its sweet recursiveness, being that\ninspiring or do we really belive that having a vendor agnostic test\nsuite that benefits the whole DRM subsystem is important? \n\nLet's also talk build system. Everyone, and their dog, is switching to Meson\nnowadays, so we have too jumped on the bandwagon. How has the switch went?\nHow does Meson compare to autotools? Are we going to remove the old build\nsystem... and when is that going to happen? \n\nGitLab and its CI/CD pipleine allows us to generate and publish\ndocumentation efortlessly, get us cross-compilation working and run some\npost-merge autotools/meson consistency checs. \n\nThere is also the new runner. Are we suffering from \"Not Invented Here\"\nsyndrome or it there actual, compelling reason to do all the extra\ndevelopment? This allows us to drop Python as a dependency and have a\nway to run a single binary with multiple subtests in one go, instead of\nspawning a new process for each subtest which does the same\ninitialization, and shaving off those sweet sweet seconds so we can\nsqueeze even more CI runs in a day. \n\nRoom: K.4.401\nScheduled start: 2019-02-02 12:00:00+01"
