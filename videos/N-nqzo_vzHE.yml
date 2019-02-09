@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - architecture
+title: 'Speeding up the Booting Time of a Toro Appliance'
+language: English
+recordingDate: 1549633409
+description: "by Matias Vara\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2213/vai_ppeeding_up_the_booting_time_of_a_toro_appliance.webm\n\n\nMicroservices propose a new paradigm to split monolithic cloud infrastructure into unitary services which allow better scaling of the global infrastructure by integrating heterogeneous technologies. Current cloud infrastructure allows to implement cheap microservices by hosting them in VMs. To leverage host resources, VMs are launched on demand, i.e., when the microservice is idle, the VM is shutdown and it is only powered on when a request arrives. In this context, the time that takes the VM to be ready and serves incoming requests becomes very important. We have identified two problems that prevent VMs to start up on time: first, the initialization of the hypervisor, and second, the size of the image. In this talk, we present three approaches that work around on these problems, i.e., Qboot, NEMU and Firecracker. We evaluate these approaches on a Toro appliance that is a unikernel dedicated to microservices. In Toro, the kernel and the microservice are compiled together and the result is a single image that can be used to launch a Virtual Machine (VM) on different hypervisors like Xen, KVM or HyperV. \n\nRoom: H.2213\nScheduled start: 2019-02-02 15:30:00+01"

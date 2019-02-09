@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'Automated Analysis of TLS 1.3'
+language: English
+recordingDate: 1549633728
+description: "by Thyla van der Merwe\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.208/automated_analysis_of_tls_1_3.webm\n\n\nThe Transport Layer Security (TLS) protocol is the security backbone of the Web, and is used my millions, if not billions, of users of a daily basis. Weaknesses in TLS 1.2 and below, as well as pressure to improve the protocol's efficiency, lead the Internet Engineering Task Force (IEFT) to engage in development of a new version of the protocol, namely TLS 1.3. In the design of TLS 1.3, the IETF welcomed analyses of the protocol prior to its official release, with the intention of remedying flaws and weaknesses before users would be affected. This \"analysis-prior-to-deployment\" design process was in sharp contrast to previous versions of the protocol. In this talk I will present two analyses of TLS 1.3 using the Tamarin prover, a state-of-the-art formal methods tool designed specfically for cryptographic protocol analysis. The first analysis, of draft 10, found a serious attack against the protocol and informed the next draft of this critical protocol. The TLS 1.3 draft, however, was a rapidly moving target, and the second analysis effort, of draft 21, went on to confirm the stability of the protocol, showing that after four years of development, the logical core of the protocol was sound. This confirmation gave the IETF confidence to release the protocol, and it was officially approved in August of 2018. \n\nRoom: UD2.208 (Decroly)\nScheduled start: 2019-02-02 15:10:00+01"

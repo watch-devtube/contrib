@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'Virtual IOMMU Implementation using HW Nested Paging'
+language: English
+recordingDate: 1549634486
+description: "by Eric Auger\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2213/vai_iommu_implementation_using_hw_nested_paging.webm\n\n\nDirect device assignment allows a virtual machine to directly interact with a host device. The device DMA registers are programmed by the guest with guest physical addresses (GPAs) and the virtualizer uses a physical IOMMU to map the GPAs to the actual host physical addresses (HPAs) backing the virtual machine RAM space. The physical IOMMU guarantees the DMA transfers initiated by the guest are properly translated and isolated. \n\nWhen a virtual IOMMU is exposed to a guest, the physical IOMMU needs to be programmed with the combination of two mappings: the IOVA/GPA mapping programmed by the guest OS and the former GPA/HPA mapping programmed by the hypervisor. \n\nSome IOMMU architectures implement nested paging, including the ARM SMMUv3. This talk aims to describe the work recently done to set up the two translation stages at the Linux and QEMU levels. This integration allows a guest exposed with a virtual SMMUv3 to get the full benefit of the underlying physical SMMUv3, avoiding the need to implement shadow page tables. \n\nThe principles of the integration will be explained and the APIs will be covered. IOMMU nested paging will be compared with the existing virtual Intel IOMMU integration relying on shadow page tables. Remaining challenges will be presented. \n\nRoom: H.2213\nScheduled start: 2019-02-02 18:30:00+01"

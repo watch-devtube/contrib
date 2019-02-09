@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'RustPython: a Python implementation in Rust Building a Python 3 interpreter in Rust'
+language: English
+recordingDate: 1549633745
+description: "by Windel Bouwman and Shing Lyu\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.208/rust_python.webm\n\n\nRust is a relatively new programming language aimed as a safe competitor of C.\nThere are already attempts to write extension modules in rust and load them into\nCPython. A whole new approach would be to re-implement the Python language in rust.\nThis is what RustPython is about. RustPython is a relatively new project. The aim of the project is to create a\nPython interpreter written entirely in Rust. Until now we used many of the language\nfeatures available in rust, such as vectors, hashmaps, iterators. To implement standard\nlibrary modules, we would like to wrap existing rust crates.\nThis is what we did with the json module for example. \n\nDuring this talk, we will demo the current state of the art of the project. We\nwill take a dive into the internals of RustPython, from parsing, compilation, bytecode\nto actual execution on the Python virtual machine. Next to this we will cover\nthe growing community, and the road ahead! \n\nRoom: UD2.208 (Decroly)\nScheduled start: 2019-02-03 09:00:00+01"
