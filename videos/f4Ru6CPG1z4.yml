@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - security
+title: 'Base64 is not encryption A better story for Kubernetes Secrets'
+language: English
+recordingDate: 1549622125
+description: "by Seth Vargo\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.218A/base64_not_encryption.webm\n\n\nSecrets are a key pillar of Kubernetes' security model, used internally (e.g. service accounts) and by users (e.g. API keys), but did you know they are stored in plaintext? That's right, by default all Kubernetes secrets are base64 encoded and stored as plaintext in etcd. Anyone with access to the etcd cluster has access to all your Kubernetes secrets. \n\nThankfully there are better ways. This lecture provides an overview of different techniques for more securely managing secrets in Kubernetes including secrets encryption, KMS plugins, and tools like HashiCorp Vault. Attendees will learn the tradeoffs of each approach to make better decisions on how to secure their Kubernetes clusters. This lecture and discussion outlines the current state of Kubernetes' security with respect to managing and securing Kubernetes Secrets. \n\nFirst, attendees will learn the current state of the world: a default Kubernetes cluster has secrets pretty widely exposed. We will talk briefly about how some cloud providers add additional layers of security, but the default is insecure. \n\nNext, attendees will learn about features released in Kubernetes 1.7 to allow for application-layer encryption of secrets. We will discuss the pros and cons of this approach, and walk through same code/live demo of it working in action. \n\nNext, attendees will learn about features released in Kubernetes 1.10 to allow for delegated application-layer encryption of secrets to a KMS provider. We will again discuss the pros and cons of this approach, show some code and live demos. \n\nFinally, attendees will see an example of a full secrets management on Kubernetes, using the open source HashiCorp Vault tool. \n\nImportantly, this talk is not a general security talk - it is specific to Kubernetes secrets. Specifically, there are no plans to discuss cluster-level security, firewall security, ACLs, or RBAC. \n\nRoom: UD2.218A\nScheduled start: 2019-02-03 14:30:00+01"
