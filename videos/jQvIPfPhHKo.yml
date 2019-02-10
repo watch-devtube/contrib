@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - web
+    - javascript
+title: 'Inject the Web into your GStreamer pipeline with WPE using a GStreamer/WebKit source element'
+language: English
+recordingDate: 1549739766
+description: "by Philippe Normand\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.1309/media_gstreamer_wpe.webm\n\n\nThis lightning talk will showcase a new GStreamer plugin that allows applications to overlay HTML pages on top of video content. This plugin also allows to capture and interact with an HTML page in a live GStreamer pipeline, for recording purposes for instance. Overlaying content on top of live video is common practice in the broadcasting industry nowadays. What if you could use HTML and Javascript for your overlay implementations? This would be possible with GStreamer and WebKit's WPE port combined in a GStreamer plugin. \n\nGstWPE receives EGLImages from WPE and shares them as GstMemory objects attached to buffers injected into the pipeline. This approach enables applications to perform overlaying directly in the GPU using shaders. Alternatively the EGLImages can be downloaded to the CPU main memory using the GStreamer gldownload element and processed there. \n\nGStreamer is an extremely powerful and versatile framework for creating streaming media applications.\nWPE WebKit allows embedders to create simple and performant systems based on Web platform technologies. It is designed with hardware acceleration in mind, leveraging common 3D graphics APIs for best performance. \n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2019-02-02 13:00:00+01"
