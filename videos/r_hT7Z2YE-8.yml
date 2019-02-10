@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - java
+title: 'Tuning Go GC Parameters'
+language: English
+recordingDate: 1549739541
+description: "by Bryan Boreham\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.120/gogc.webm\n\n\nThe Go runtime has a garbage collector (GC) which is famously simple and lacking in tuning parameters compared to, say, a JVM. \n\nHowever there are controls, and in this talk we shall look at what they do and when you might use them.\nWe will also look at how to understand what GC is doing and how much that work might be costing your program. Primarily we will look at the GOGC environment variable, and how it can be used to increase or decrease the rate of garbage collection, or turn it off completely. \n\nWe will show how garbage-collection activity can be observed via metrics, e.g. using Prometheus, or in more low-level detail via the GODEBUG environment variable. \n\nWe will also look at the evolution of GC performance in Go over the last five years, and new controls being added in the next version of Go. \n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2019-02-02 17:30:00+01"

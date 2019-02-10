@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - testing
+title: 'Building an LLVM-based tool Lessons Learned'
+language: English
+recordingDate: 1549739798
+description: "by Alex Denisov\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.201/llvm_building.webm\n\n\nIn this talk, I want to share my experience in building an LLVM-based tool. \n\nFor the last three years, I work on a tool for mutation testing. Currently, it works on Linux, macOS, and FreeBSD and the source code is compatible with any LLVM version between 3.8 and 7.0. Anything that can run in parallel - runs in parallel.\nI will cover the following topics: \n\n\nHow to support multiple LLVM versions\nHow to support different operating systems (Linux, macOS, FreeBSD)\nHow to build against precompiled LLVM and sources at the same time\nHow to parallelize everything\nHow to test things\nDifferent ways to get bitcode from any project\n\n\n\nRoom: K.4.201\nScheduled start: 2019-02-03 10:30:00+01"
