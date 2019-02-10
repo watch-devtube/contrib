@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - ux
+    - testing
+    - python
+title: 'ReFrame: A Regression Testing and Continuous Integration Framework for HPC systems'
+language: English
+recordingDate: 1549621980
+description: "by Victor Holanda\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.118/reframe.webm\n\n\nRegression testing of HPC systems is of crucial importance when it comes to ensure the quality of service offered to the end users. At the same time, it poses a great challenge to the systems and application engineers to continuously maintain regression tests that cover as many aspects as possible of the user experience. In this presentation, we present ReFrame, a new framework for writing regression tests for HPC systems. ReFrame is designed to abstract away the complexity of the interactions with the system and separate the logic of a regression test from the low-level details, which pertain to the system configuration and setup. Regression tests in ReFrame are simple Python classes that specify the basic parameters of the test plus any additional logic. The framework will load the test and send it down a wel-defined pipeline which will take care of its execution. All the system interaction details, such as programming environment switching, compilation, job submission, job status query, sanity checking and performance assessment, are performed by the different pipeline stages. Thanks to its high-level abstractions and modular design, ReFrame can also serve as a tool for continuous integration (CI) of scientific software, complementary to other well-known CI solutions. Finally, we present the use cases of two large HPC centers that have adopted or are now adopting ReFrame for regression testing of their computing facilities. \n\nRoom: UA2.118 (Henriot)\nScheduled start: 2019-02-03 11:15:00+01"
