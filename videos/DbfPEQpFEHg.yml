@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cassandra
+    - performance
+title: 'Raft in Scylla Consensus in an eventually consistent database'
+language: English
+recordingDate: 1549633681
+description: "by Duarte Nunes\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.1.105/raft_in_scylla.webm\n\n\nThis talk will cover the characteristics and requirements of Scylla's Raft implementation, how it enables strongly consistent updates, and how it improves the reliability and safety of internal processes, such as schema changes, node membership, and range movements. Eventually consistent databases choose to remain available under failure, allowing for conflicting data to be stored in different replicas (later repaired by background processes). Weakening the consistency guarantees improves not only availability, but also performance, as the number of replicas involved in a given operation can be minimized. There are, however, use-cases that require the opposite trade-off. Indeed, Apache Cassandra and Scylla provide Lightweight Transactions (LWT), which allow single-key linearizable updates. The mechanism underlying LWT is asynchronous consensus in the form of the Raft algorithm. In this talk, we'll describe the characteristics and requirements of Scylla's consensus implementation, and how it enables strongly consistent updates. We will also cover how consensus can be applied to other aspects of the system, such as schema changes, node membership, and range movements, in order to improve their reliability and safety. We will thus show that an eventually consistent database can leverage consensus without compromising either availability or performance. \n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2019-02-02 18:00:00+01"
