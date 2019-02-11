@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - security
+    - architecture
+title: 'What are your users kubectl-ing into your Kubernetes cluster?'
+language: English
+recordingDate: 1549827560
+description: "by Julio Garcia\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.218A/falco_container_monitoring.webm\n\n\nIn any Cloud Native architecture, there’s a seemingly endless stream of events that happen at each layer. These events can be used to detect abnormal activity and possible security incidents, as well as providing an audit trail of activity. In this talk, we’ll cover how we extended Falco, the container behavior monitoring tool to ingest events beyond just host system calls, such as Kubernetes audit events. We will also show how to create Falco rules to detect behaviors in these new event streams, eg: a user trying to create a serviceAccount or storing some credentials in a ConfigMap rather than on a Secret.\nAttendees will gain a deep understanding of Kubernetes audit system, and how to audit and trigger events based on Kubernetes anomalous behavior. \n\nRoom: UD2.218A\nScheduled start: 2019-02-03 15:00:00+01"

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - php
+    - web
+    - javascript
+    - lisp
+title: 'Templating Languages for Interactive Fiction'
+language: English
+recordingDate: 1549739168
+description: "by Michael Gran\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.201/templatinglanguagesinteractive.webm\n\n\nInteractive Fiction, or \"Choose Your Own Adventures\" games, have been reinvigorated by new, friendly tools such as Twine.  Twine and its scripting language Harlowe are a type of Templating Language, where static presentation content dominates, but is modified by small snippets of embedded code.  Thus, Harlowe is in the same family of templating languages such as PHP, M4, or front-end web application libraries.  I examine the characteristics of truly minimal templating languages intended for non-programmers and demonstrate a toy templating language built with Scheme. From the point of view of language design and implementation, scripting languages for interactive fiction or visual novels -- such as Harlowe, SugarCube, or Ren'Py -- are interesting in their pragmatism.  They hide complexity from the programmer and try to put focus on generating story content.  While paradigms such as Model-View-Controller or Model-View-ViewModel tend to crop up in general-purpose programming languages to help manage front-end complexity, these languages mix code and content much like how PHP or HTML+JavaScript was used a decade ago.  But by keeping syntax simple, the MVC or MVVM separation of concerns is not necessary. \n\nTo keep things intuitive for the non-programmer, they make some interesting decisions about readers, interaction models, procedure definitions, and scoping.  These decisions are examined and contrasted with Scheme's standard programming paradigm. \n\nRoom: K.4.201\nScheduled start: 2019-02-02 11:15:00+01"

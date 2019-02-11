@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+title: 'Greenfield: An in-browser Wayland compositor Running a Wayland compositor entirely in your browser'
+language: English
+recordingDate: 1549739347
+description: "by Erik De Rijcke\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.401/greenfield.webm\n\n\nGreenfield is a Wayland compositor running entirely in your browser. No plugins or black magic required. This talk will go into the conception, exploration and struggles of making this possible. The result is a product far from finished, but already capable of running existing Wayland applications directly in your browser. Greenfield is a in-browser Wayland compositor capable of running existing Wayland applications in the browser. This is made possible by leveraging a large amount existing HTML5 apis. \n\nGreenfield is different from existing solutions like VNC or RDP in that it does not stream a final server side generated image to a remote. Instead Greenfield live encodes each individual application to h264 frames using gstreamer. After encoding, frames are send to the browser using a dedicated WebRTC datachannel. On reception, the h264 frames are decoded using a WebAsembly h264 decoder running in a WebWorker while WebGL is used to do color conversion from YUV+A to RGBA. The end result are applications who's content is drawn in their own HTML5 canvas. As a consequence, the entire screen you see in the browser is actually composed of nothing more than ordinary browser DOM elements. All of this is done while adhering to the Wayland mantra 'Every frame is perfect'. \n\nRoom: K.4.401\nScheduled start: 2019-02-02 13:00:00+01"

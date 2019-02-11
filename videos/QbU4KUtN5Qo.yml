@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - security
+title: 'rust-vmm shared virtualization crates'
+language: English
+recordingDate: 1549647679
+description: "by Andreea Florescu\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2213/vai_rust_vmm.webm\n\n\nrust-vmm aims to create a common base of virtual machine monitor (vmm) components written in Rust. It's organized as a shared-effort, shared-ownership open-source project that includes (so far) the crosvm, Kata Containers, and Firecracker teams . We believe that Rust is a great fit for a vmm: its memory management guarantees simplify the task of security hardening, while its roots as a system programming language ensure C-like performance. So far, we've started with the initial KVM wrapper crate, and, while separating out a few more basic functionality crates is underway, we still have to answer questions like \"can independent teams compose reliable yet different vmms out of a set of decoupled components?\", \"how much can be decoupled?\", \"what's the right way to import/build these components into the larger vmm projects?\", or, \"does the world even need that many vmms?\". During this talk, we'll look at some ways to answer these questions, but we're really here to get the room's feedback and opinions! \n\nRoom: H.2213\nScheduled start: 2019-02-02 18:00:00+01"
