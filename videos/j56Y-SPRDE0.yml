@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Introduction to dpdk-burst-replay A tiny tool for easily inject pcap files on DPDK NICs'
+language: English
+recordingDate: 1549646490
+description: "by Jonathan Ribas\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2214/dpdk_burst_replay.webm\n\n\ndpdk-burst-replay is a friendly tcpreplay tool for DPDK NICs, main objective being to operate as fast as possible (similar to --topspeed option of tcpreplay).\nTo achieve this, it pre-load the pcap file on memory before sending it to the Tx queues.\nIt can send the packets simultaneously through multiple ports (with dedicated threads), and several times in a row. \n\nWe will start with an overview of what it can do, what it is made for, then we will see how to use it on a typical use case: setting up a stress test between several NIC ports with pcap dumps of real traffic.\nFinally, we will talk about how it was designed, how it should evolve, and what features we would like to add. \n\nRoom: H.2214\nScheduled start: 2019-02-02 17:20:00+01"

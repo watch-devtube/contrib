@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - testing
+    - python
+title: 'Compute the QOS of your infrastructure with DEPC'
+language: English
+recordingDate: 1549646718
+description: "by Nicolas Crocfer and Anthony Olea\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.120/python_compute_qos_of_your_infrastructure.webm\n\n\nDepC is an open source tool written in Python 3.5+ : https://github.com/ovh/depc \n\nWe use it to compute the Quality Of Service (QoS) of our IT infrastructure and customers (14k servers and 1.4M customers in the WebHosting department). \n\nTo be able to do this we use some open source technologies :\n- TimeSeries databases and Pandas / Numpy for the QoS computing,\n- Neo4j to store the graph of our dependencies (a customer depends on several servers and some services, like databases, themselves depends on servers. If a server fails, several customers QOS are impacted),\n- Kafka consumer to update in real time the graph in Neo4j,\n- Apache Airflow to schedule the jobs used to compute the QOS of the whole infrastructure (the graph in Neo4j contains ~10M nodes). \n\nThe goal of this conference is to show you how do we assemble these technologies to construct DepC in OVH. \n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2019-02-03 15:30:00+01"

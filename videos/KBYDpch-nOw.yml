@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - css
+    - web
+    - python
+title: 'Tree matchings with Behavior Trees How to recognize a complex subtree in a big tree'
+language: English
+recordingDate: 1549736053
+description: "by Lionel Auroux\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.120/python_matching_with_behavior_trees.webm\n\n\nAny python data structure could be seen as a big tree of related objects.\nWould it be useful for you to recognize in this big tree some specific form? \n\nRecognizing of subtrees is really a common aim in compilers implementation. But it's not an easy task.\nI recently found that I could easily use behavior trees to do such things. However this kind of techniques could be useful in other situation.\nThis talk want to popularize this technique by explaining how behavior trees work in common way, how to adapt then for a bottom-up tree matching algorithm. \n\nFor instance, some HTML parser provide CSS Selector function to match one node at the time optionally related to some ancestor. Here, with this kind of matching algorithm you could match many nodes in only one pass. \n\nI create on my github a \"treematching\" module that use this algorithm to provide an Embedded DSL to write patterns, match any python data structure and in some case, allow you to do tree rewriting. \n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2019-02-03 11:30:00+01"
