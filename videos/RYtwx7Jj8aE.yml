@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'Automated firewall testing'
+language: English
+recordingDate: 1549739268
+description: "by Kristof Provost\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.3.401/automated_firewall_testing.webm\n\n\nWe're all convinced that automated tests are a good idea. For some applications (e.g. grep, awk, cc, ...) this is very straightforward. Others are a lot harder to test, for example firewalls.\nTypically testing firewalls takes two to three hosts. One to send traffic, the firewall test host and one to receive traffic. This makes automated test orchestration complex and brittle. This in turn means that tests either don't get written, are difficult to write and/or suffer random failures unrelated to issues in the firewall itself. Virtualisation has made this all somewhat easier, but it's still fiddly and difficult to make robust. It's also slow. \n\nThe new FreeBSD network stack virtualisation lets us build on the existing jails system to build test setups, execute tests and clean up in mere seconds, without any requirement for additional hardware, or even hardware virtualisation support. FreeBSD 12 will ship with network stack virtualisation (known as VIMAGE or vnet). This is an important feature for many applications, one of which is automated network stack and firewall testing.\nAs of FreeBSD 12 PF fully support VIMAGE, allowing users to configure a firewall for each jail. \n\nThis talk will introduce VIMAGE and show how it can be used to easily write firewall tests. If there's time a few interesting bugs and their test cases will also be discussed. \n\nRoom: K.3.401\nScheduled start: 2019-02-02 11:45:00+01"

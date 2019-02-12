@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Structured Concurrency Finding our way out of callback hell'
+language: English
+recordingDate: 1549826517
+description: "by Martin Sustrik\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2215/structured_concurrency.webm\n\n\nWe've got rid of GOTO and the spaghetti code it leads to in 1970's. However, we are encoutering very much the same problems when writing concurrent code even now, 50 years later. Programmers are still stuck deep in the callback hell or state machine hell. Concurrent code still looks like spaghetti. And while Go language provided a tool to write unspaghettified concurrent code to the masses, by no way are all the pieces of the puzzle in place. \n\nThis talk focuses on what's missing. It explains where the current mainstream paradigms break the vital principles of encapsulation, separation of concerns and correspondence between layout of the code and the execution flow. \n\nIt introduces a bunch of current approaches covered by the umbrella term of \"structured concurrency\" that attempt to solve these problems. \n\nThe talk may be interesting to anyone who has to deal with concurrency, irrespective of the language they are using. Besides looking at the problems at hand, the talk will show examples of structured concurrency in Python (Trio) and C (libdill). \n\nRoom: H.2215 (Ferrer)\nScheduled start: 2019-02-02 13:40:00+01"
