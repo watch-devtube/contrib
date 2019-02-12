@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - swift
+    - ios
+title: 'Storing "Lots Of Small Files" in a Swift cluster'
+language: English
+recordingDate: 1549827119
+description: "by Romain LE DISEZ\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2214/small_files_in_swift_cluster.webm\n\n\nOpenStack Swift is the massively scalable object storage of OpenStack. It can store billions of objects in a single cluster without any disturbances. But what happens if all of your objects are \"small objects\"? \n\nBecause OpenStack Swift stores objects as files on XFS, disks will end-up storing millions of small files, creating large performance and stability issues. This is all related to the constraints of POSIX filesystems. \n\nDuring this presentation, we will give you an overview of these issues, and explain their root causes. You will then discover what we tried to overcome them, as well as the chosen solution. Eventually, we will present you results of our production deployment. \n\nRoom: H.2214\nScheduled start: 2019-02-03 16:15:00+01"
