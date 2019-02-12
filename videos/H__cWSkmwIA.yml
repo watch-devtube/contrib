@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Reducing Memory Usage of Mesa''s Shader Compiler (Again) Why does this shader need 80GiB to compile?'
+language: English
+recordingDate: 1549827462
+description: "by Ian Romanick\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.401/mesa_mem.webm\n\n\nDuring recent work to implement software double precision (fp64) support in Mesa's shading language compiler, some shaders were found to use excessive amounts of memory.  One pessimal test case used over 80GiB.  This talk will discuss techniques that were used to reduce that memory usage to less the 2GiB.  This reduction was achieved through a combination of optimizing existing data structures, use of more compact data structures, and improved memory management.  Use of tools such as Valgrind and pahole will be covered. \n\nRoom: K.4.401\nScheduled start: 2019-02-02 18:00:00+01"
