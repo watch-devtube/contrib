@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Super-speedy scoring in Lucene 8'
+language: English
+recordingDate: 1550000469
+description: "by Alan Woodward\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.3.201/super_speedy_scoring_lucene.webm\n\n\nLucene 8 will have some remarkable speed-ups when it comes to querying across large datasets.  In this talk I will describe how this has been implemented, from new data structures through to changes in the scoring API, and the trade-offs required to make them possible. \nLightning overview of the structure of an inverted index, showing how current queries are executed and documents scored\nExtension of an inverted index to include Impacts (single level, multi-level)\nGiven impacts, show how a scorer can skip large blocks of documents\nRestrictions on Similarity implementations to make this possible (scores must increase with docfreq, must be greater than 0, etc)\n\n\n\nRoom: K.3.201\nScheduled start: 2019-02-03 14:00:00+01"
