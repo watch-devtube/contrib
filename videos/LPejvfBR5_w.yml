@@ -4,5 +4,6 @@ tags:
     - containers
     - kubernetes
 title: 'Managing Addons with Operators (Or How We Dropped Untested... - Jeff Johnson & Justin Santa Barbara'
+language: English
 recordingDate: 1544936050
 description: "Managing Addons with Operators (Or How We Dropped Untested bash/sed for Go) - Jeff Johnson & Justin Santa Barbara, Google \n\nKubernetes has long deployed core components like kube-dns by running kubectl apply every few minutes from a directory on a master node. This worked great with simple addons on a single master node. Addons are a rapidly growing avenue for delivering new features and this growth has demonstrated the shortcomings of the current approach (k/k#23233, eg: configuration is hard and opaque; changes require a cluster restart; addons must be developed in the main repo)    Jeff and Justin will talk about their work in replacing thousands of lines of bash, sed and replacing it with operators. They’ll discuss managing dependencies between addons, rolling upgrades, configuration, and health. They’ll cover a few addons that have already been converted and open-sourced, and demonstrate building an operator with their open source toolkit which makes it easy to build a best-practice operator. \n\nTo learn more:  https://sched.co/GrY1"

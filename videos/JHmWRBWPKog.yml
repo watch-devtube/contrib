@@ -5,5 +5,6 @@ tags:
     - containers
     - kubernetes
 title: 'Collecting Operational Metrics for a Cluster with 5,000 Namespaces - Rob Szumski & Chance Zibolski'
+language: English
 recordingDate: 1544936050
 description: "Collecting Operational Metrics for a Cluster with 5,000 Namespaces - Rob Szumski & Chance Zibolski, Red Hat\n\nKubernetes is popular to provide a multi-tenant, shared infrastructure layer for many eng teams within an org. This is great for the teams, as they have a stable, scalable cluster to build upon. However, the Ops team needs insight into resource usage, availability & more, especially once an app is running in multiple regions/clouds.\n\nThis talk will introduce the open source Operator Metering project, which collects metrics from Prometheus about Pods/Namespaces & combines it against cloud resource usage and other metrics to compute cost per Pod and other reports on a periodic interval. This capability unlocks billing for internal biz units, capacity planning, and operational knowledge of Operators running within a cluster.\n\nAt the end, we’ll show the project running against a real cluster with over 5,000 namespaces, proving the scale and insight the reports can provide to an Ops team.\n\nTo learn more:  https://sched.co/GrXg"

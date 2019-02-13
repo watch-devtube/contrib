@@ -6,5 +6,6 @@ tags:
     - kubernetes
     - architecture
 title: 'Deep Dive: CoreDNS - Michael Grosser, Okkur Labs & John Belamaric, Google'
+language: English
 recordingDate: 1544936049
 description: "Deep Dive: CoreDNS - Michael Grosser, Okkur Labs & John Belamaric, Google \n\nCoreDNS is a DNS server written in Go. It can be used in a multitude of environments because of its flexibility. The flexibility is due to CoreDNS’ unique plugin-based architecture: if some functionality is not provided out of the box, you can add it by writing a plugin. In this deep dive session, we take a detailed look at the plugin system of CoreDNS. We walk through the code base of a simple plugin which sync up Kubernetes deployment with services outside of the Kubernetes cluster. This plugin showcases the ease of adding new functionalities to CoreDNS, which is very valuable for DevOps in a hybrid and complicated environment. \n\nTo learn more:  https://sched.co/GreJ"

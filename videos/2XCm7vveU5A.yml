@@ -7,5 +7,6 @@ tags:
     - security
     - architecture
 title: 'Shopify’s $25k Bug Report, and the Cluster Takeover That Didn’t... - Greg Castle & Shane Lawrence'
+language: English
 recordingDate: 1544936050
 description: "Shopify’s $25k Bug Report, and the Cluster Takeover That Didn’t Happen - Greg Castle, Google & Shane Lawrence, Shopify \n\nIn May, a security researcher reported a vulnerability in a Shopify microservice and demonstrated how it could be used to access keys from the Google Cloud metadata API. This could have led to a cluster takeover, for which Shopify awarded $25k through its bug bounty program.    Shane will share his experience responding to the report, analyzing Kubernetes audit logs, and hardening the cluster to block the escalation path. Together, Greg and Shane will describe some example Kubernetes audit log queries that can help discover unusual activity in the form of Kubernetes API access, and assess the impact of credential exposure, such as in this report. The collection of example queries will be released for use by the Kubernetes community and we will also share some hardening best practices. \n\nTo learn more:  https://sched.co/GrZf"
