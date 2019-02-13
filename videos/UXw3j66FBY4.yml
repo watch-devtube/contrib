@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - security
+title: 'Merging System and Network Monitoring with BPF Merging packets with system events using eBPF'
+language: English
+recordingDate: 1549825641
+description: "by Luca Deri and Samuele Sabella\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2214/merging_system_and_network_monitoring_with_bpf.webm\n\n\nNetwork traffic monitoring is traditionally based on packet analysis. While this approach still makes sense in many contexts, it is unable to provide detailed visibility when containers or virtual systems are used. This talk describes how the advent of eBPF enables the creation of monitor rich applications that can provide both network and application monitoring information to provide detailed information for both monitoring and troubleshooting. It shows how eBPF has been used in ntopng, an opensource monitoring application, and what are the challenges and pitfalls when integrating packets with system monitoring events. This talk describes how packet monitoring and system-based event monitoring work and how they could be merged together to provide increased visibility. From the network administrator perspective the advantage is that monitoring does not stop at network level but it can also identify the application/username that has generated traffic. From a security standpoint this enables to identify suspicious network traffic and bind it to applications, for network administrators it allows faulty applications misbehaving users  to be identified and tracked. System visibility is yet another layer of observability on top of traditional packet traffic monitoring and deep-packet-inspection. \n\nRoom: H.2214\nScheduled start: 2019-02-02 11:40:00+01"

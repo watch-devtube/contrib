@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'OpenEBS asymmetric block layer in user-space breaking the million IOPS barrier'
+language: English
+recordingDate: 1549825853
+description: "by Jeffry Molanus\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2214/openebs_breaking_million_iops_barrier.webm\n\n\nContainer Attached Storage was introduced at FOSDEM last year, we will revisit the basic concept shortly and give an update how we have abstracted storage fully in user space, and are capable of breaking the million IO barrier with the latest data engine. Last years talk was more a generic introduction about the concepts and ideas around openEBS. This time around we will go over more detail as to how we do it. We will go over the concept of front-ends and back-ends and how they allow for asymmetrical backends. \n\nWe will also be talking about, how we implement proxying and replication in openEBS and the ability to do rebuilds.  Also, how can we make sure we are making good use of the latest hardware, e.g., NVMe devices and NVMe-OF (RDMA as well as TCP) and make sure we do not incur a penalty of being in user space? \n\nRoom: H.2214\nScheduled start: 2019-02-03 11:40:00+01"
