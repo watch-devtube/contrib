@@ -4,5 +4,6 @@ tags:
     - storage
     - performance
 title: 'Got a Need for Speed? Accelerate Your Prometheus Dashboard Using... - Shilla Saebi & James Ranson'
+language: English
 recordingDate: 1544936383
 description: "Got a Need for Speed? Accelerate Your Prometheus Dashboard Using Trickster - Shilla Saebi & James Ranson, Comcast \n\nWe live in a world where high performance, and speed are essential. A few extra seconds of response time on a dashboard can be a deal breaker. Many dashboards request the entire time range of data from the time series database, every time a dashboard loads or reloads. This can result in slower rendering times, and different results depending on when the request is made. We are proud to announce that Trickster, a new open source project, was developed to address this very issue. Written in Go, Trickster is a reverse proxy cache for the Prometheus HTTP APIv1 that considerably accelerates dashboard rendering times for any series queried from Prometheus. This is possible because of the delta proxy, step boundary normalization, and fast forward features. In the presentation, we will discuss how Trickster was developed at Comcast, and we will show you a live demo of the software. \n\nTo learn more:  https://sched.co/GrZ2"

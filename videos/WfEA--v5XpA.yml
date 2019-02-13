@@ -5,5 +5,6 @@ tags:
     - containers
     - kubernetes
 title: 'Kata and gVisor: A Quantitative Comparison - Xu Wang, hyper.sh'
+language: English
 recordingDate: 1544936382
 description: "Kata and gVisor: A Quantitative Comparison - Xu Wang, hyper.sh \n\nIn the past year, hyper.sh+intel released Kata Containers, and Google released gVisor. The two projects shared many features:     - both aim to work with kubernetes CRI seamlessly;  - both could be treated as secure container runtimes;  - both introduce some hypervisor technologies to improving isolation.    On the other hand, the two projects have many differences. Kata Containers is a more general solution and could work with existing accelerating technologies, while gVisor provide better flexibility, which means the user could scale up/down a running container easily.    In this session, the speakers will introduce both projects in detail, and make the quantitive comparison between them -- how much footprint/performance costs are introduced by the different methods of isolation; which perform better in standard benchmarks and lifetime workload, etc. \n\nTo learn more:  https://sched.co/GrZK"

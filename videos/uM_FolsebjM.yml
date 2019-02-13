@@ -8,5 +8,6 @@ tags:
     - kubernetes
     - security
 title: 'Running Serverless HPC Workloads on Top of Kubernetes and Jupyter Notebooks - Christopher Woods'
+language: English
 recordingDate: 1544936383
 description: "Running Serverless HPC Workloads on Top of Kubernetes and Jupyter Notebooks - Christopher Woods, University of Bristol \n\nJupyter notebooks, deployed on top of k8s, are finding rapid adoption in universities and industry. While k8s can spawn new pods for each notebook session, launching high performance computing (HPC) jobs during dynamic workflows is complicated. Fn is a serverless solution that sits on top of k8s. Individual simulations are deployed as Fn functions that are called dynamically from workflows run within Jupyter notebooks. A notebook running on a lightweight k8s cluster can burst HPC workloads via Fn serverless calls to another cluster running on a bare metal HPC/GPU cloud. Using Fn, we have constructed a distributed access, authentication and accounting layer around a shared object store. This adds security and accountability, thereby making it easy for end users to manage complex multi-cloud workflows involving lots of different types of hardware from within a easy-to-use Jupyter notebook. \n\nTo learn more:  https://sched.co/GraL"

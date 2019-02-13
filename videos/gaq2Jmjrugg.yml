@@ -5,5 +5,6 @@ tags:
     - kubernetes
     - testing
 title: 'Our Journey to Service 5 Million Messaging Connections on Kubernetes - Dylan O''Mahony & Dave Doyle'
+language: English
 recordingDate: 1544925361
 description: "Our Journey to Service 5 Million Messaging Connections on Kubernetes - Dylan O'Mahony, Bose & Dave Doyle, Connected \n\nWe propose to present a case study on how we built a high-scale messaging service and state store on Kubernetes. The solution supports millions of persistent, concurrent connections; enables tens of thousands of messages per second; is globally addressable; stores millions of states; and responds with minimal latency (&lt;250ms). To evaluate build approaches, the team split into Makers & Breakers. Makers developed the solution stack while Breakers focused on repurposing Locust, a high-scale load testing framework, to simulate behavior. Leveraging the flexibility of Kubernetes, we were able to scale the stack and solve blockers on the path to a viable solution. Blockers included ingress, file descriptors, service discovery and resource limits. The experience was deeply educational, generating key learnings for developers tasked with building a scaled solution on top of Kubernetes. \n\nTo learn more:  https://sched.co/GrRy"

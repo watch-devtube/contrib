@@ -4,5 +4,6 @@ tags:
     - containers
     - kubernetes
 title: 'Custom Deployment Strategies for Kubernetes - Nail Islamov, Atlassian'
+language: English
 recordingDate: 1544936382
 description: "Custom Deployment Strategies for Kubernetes - Nail Islamov, Atlassian \n\nMany tech companies are using continuous deployments (CD) to deliver changes to their users faster and more frequently. One of the challenges with automated deployments is making them safe by detecting and quickly rolling back in the event of a bad release. Standard CD practices include using canary and blue-green deployments; unfortunately, Kubernetes only supports the \"rolling update\" deployment strategy out of the box, which can only prevent trivial failures. Thanks to extensibility of Kubernetes, it is possible to build custom advanced deployment strategies while reusing Kubernetes core concepts. Nail Islamov will give an overview of how Deployment, ReplicaSet and Pod objects work together along with Service and Ingress, and will provide examples of implementing blue-green and canary deployments reusing these concepts by introducing extra CRD resources. \n\nTo learn more:  https://sched.co/GrUI"

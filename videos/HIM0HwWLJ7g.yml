@@ -6,5 +6,6 @@ tags:
     - kubernetes
     - security
 title: 'Security Considerations for Container Runtimes - Daniel Walsh, Red Hat'
+language: English
 recordingDate: 1544936383
 description: "Security Considerations for Container Runtimes - Daniel Walsh, Red Hat \n\nExplain/demonstrates using Kubernetes with different security features for your container environment  General Concept  - Run containers without root, period - Take advantage of all security features the host provides  Configuring CRI-O: - Run containers with read-only images - Limit the Linux capabilities running within your container - Set up container storage to modify the storage options in a more secure manner - Configure alternative OCI Runtimes: Kata, Gvisord and Nabla to run locked down containers  Building images with security in mind. - Limit packages/attack surface of container images - Build container images within a locked down kubernetes container  Advances in User Namespaces - Demonstrate running each container with a different User Namespace - Configure system to take advantage of user namespace container separation, without taking a drastic speed hit  And many more... \n\nTo learn more:  https://sched.co/GrZ8"
