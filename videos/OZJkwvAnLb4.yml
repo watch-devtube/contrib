@@ -7,5 +7,6 @@ tags:
     - kubernetes
     - security
 title: 'How to Choose a Kubernetes Runtime - Justin Cormack, Docker'
+language: English
 recordingDate: 1544937069
 description: "How to Choose a Kubernetes Runtime - Justin Cormack, Docker \n\nThis year has seen the launch of several new container runtimes,including gVisor from Google and Nabla from IBM, as well as the consolidation of the Hyper and Intel VM container projects into Kata containers. This talk looks at all the runtimes, how we can evaluate their security, and how they compare to the standard OCI runtime, runc.\n\nThere are a variety of ways of measuring how much the different runtimes reduce the Linux kernel attack surface, so this talk makes an assessment of those risks, based on types of code that are blocked, and actual and theoretical attacks. In addition we discuss the threat models for different types of users and code, and look at which types of user should consider these options.\n\nThis talk is aimed at people wishing to increase the security of the runtimes they are using for Kubernetes, and who wish to understand what the risks and improvements are. \n\nTo learn more:  https://sched.co/GrZB"
