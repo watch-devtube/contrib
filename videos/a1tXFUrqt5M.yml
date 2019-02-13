@@ -6,5 +6,6 @@ tags:
     - kubernetes
     - architecture
 title: 'Running Envoy as an Edge Proxy - Bala Madhaven, eBay + Qiu Yu, eBay'
+language: English
 recordingDate: 1547660653
 description: "Running Envoy as an Edge Proxy - Bala Madhaven, eBay + Qiu Yu, eBay\_\n\nAt eBay we run Envoy as our Edge proxy in PoPs (Point of Presence) across the globe. In this talk, while we walk through eBay's journey of running Envoy at all eBay POP's, we will discuss the following key aspects:\nArchitecture overview of eBay Edge Proxy\nManaging Envoy in Kubernetes.\nConsistently developing the entire stack across all edges of Helm.\nBuilding a metrics and access log based pipelines for better visibility using Prometheus and ELK stacks. \nMigrating Hardware LB configurations to Envoy and validating them using automation tools.\nIntegrating Envoy at ATS (Apache Traffic Server) to enable dynamic caching at eBay.\nIn this talk, we will touch on the challenges and the solutions that were applied while we completely moved all eBay mobile traffic from Hardware LB to Envoy."

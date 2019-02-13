@@ -6,5 +6,6 @@ tags:
     - containers
     - architecture
 title: 'Building + operating a service mesh at a mid-size company - Taiki Ono, Cookpad Inc.'
+language: English
 recordingDate: 1547660382
 description: "Building + operating a service mesh at a mid-size company - Taiki Ono, Cookpad Inc.\_\n\nService meshes are not only for big companies. It works for intermediate-sized companies as well. We, Cookpad, are a mid-sized company having 200+ developers, 10+ teams, 90M monthly users.\n\nWe are building our own service mesh using Envoy proxy for our microservices. And, we are getting the benefit of service mesh. The biggest benefit is observability: we can easily know how our microservices are working by looking into fine-grained metrics per upstream service. The second benefit is process model independency: we now have the outbound proxy for every app which controls retries, timeouts, circuit breaking and load balancing.\n\nI will share the knowledge and techniques through our case: how did we build, and our architecture and toolchains. We are using AWS ECS as a container orchestration, and our service mesh is built on it."
