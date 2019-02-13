@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Design Automation in Wonderland The EPFL Logic Synthesis Libraries'
+language: English
+recordingDate: 1550000385
+description: "by Bruno Schmitt\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/AW1.125/epfl_logic_synthesis.webm\n\n\nThe EPFL logic synthesis libraries are a collection of open source C++ libraries for the development of logic synthesis applications. Today, there are six libraries focused on classical computing: alice, easy, kitty, lorina, mockturtle and percy. All libraries are well documented and tested. Furthermore, being header-only, the libraries can be readily used as core components in complex design automation systems, e.g., Yosys. \n\nIn this talk, I will demonstrate how simple it is to compose these libraries to create a personalized synthesis tool capable of reading a Verilog description of a circuit, building a logic network out of it, optimizing the logic network, and then map it to lookup tables of six inputs (LUT6). \n\nThe libraries:\n - The alice library is a lightweight wrapper for shell interfaces, which is the typical user interface for most design automation applications. It includes a Python interface to support scripting.\n - The lorina library is a parsing library for simple CAD file formats.\n - The kitty library is a truth table library for explicit representation and manipulation of Boolean functions.\n - The mockturtle library implements several logic network representations and logic optimization algorithms.\n - percy is an exact synthesis library with multiple engines to find optimum logic networks. \n\nRoom: AW1.125\nScheduled start: 2019-02-03 11:00:00+01"

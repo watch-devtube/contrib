@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'MySQL 8.0 Component Infrastructure Why, what''s there, what''s next and how to use it'
+language: English
+recordingDate: 1549826377
+description: "by Joro Kodinov\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.118/mysql_component.webm\n\n\nYou probably saw the new MySQL 8.0 commands INSTALL COMPONENT and UNINSTALL COMPONENT and been wondering \"is there anything for me\". I'll try to explain what the component infrastructure is, why do we need it, what's available through it and where do we have the ambition to get it.\nI'll present what does it take to create a simple component too. The MySQL component infrastructure is intended as a reboot of the plugin functionality. It's built on the principle of modularity, explicit interfaces and dependencies and obfuscation of complex internal structures and object instances behind handles. It inherits the best from the plugin functionality while avoiding the known pitfalls and providing missing functionality.\nWe'll go over the architectural principles behind the components, services and service implementations. We'll also create a simple component, see how it declares the APIs it needs and provides and how does it interact with the other APIs available in the service registry. At the end we'll go through an enumeration of the services available from the MySQL server component.\nWe'll then try to think together on what's missing, what could be next and what's more desired in terms of functionality. \n\nRoom: UA2.118 (Henriot)\nScheduled start: 2019-02-02 18:10:00+01"

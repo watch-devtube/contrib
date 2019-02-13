@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Setting up an HPC lab from scratch with Mr-Provisioner, Jenkins and Ansible'
+language: English
+recordingDate: 1549735587
+description: "by Renato Golin\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.118/hpc_lab_from_scratch.webm\n\n\nAt Linaro, we have an HPC lab where we can setup multiple clusters and machines, install OpenHPC, run the test-suite, benchmarks using Mr-Provisioner, Jenkins and Ansible automation. This allows us to test new kernels/initrd, new versions of OpenHPC, compilers, applications, etc. on different architecture at the same time, from scratch. The work we did is open source, on GitHub, and is intended to be used by other people. We started with hard-coded rules but are slowly moving towards generic configuration-based setup from the ground up, so that anyone else can clone, change the configuration files and run the Ansible playbooks. From scratch. These are the repositories that we contribute to / use: \n\nMr-Provisioner, the bare metal provisioner that installs OSs on all our servers (Arm or Intel):\nhttps://github.com/Linaro/mr-provisioner \n\nOur infrastructure scripts, setting up Jenkins and running the jobs logic:\nhttps://github.com/Linaro/hpclabjenkins \n\nOur benchmark harness, which runs benchmarks in a repeatable way:\nhttps://github.com/Linaro/benchmark_harness \n\nOur OpenHPC Ansible scripts, which install OpenHPC on bare-metal/VM, clusters (Arm or Intel):\nhttps://github.com/Linaro/ansible-playbook-for-ohpc \n\nRoom: UA2.118 (Henriot)\nScheduled start: 2019-02-03 12:40:00+01"

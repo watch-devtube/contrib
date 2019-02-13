@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ux
+title: 'A low latency GPU engine based reset mechanism for a more robust UI experience'
+language: English
+recordingDate: 1550000326
+description: "by Carlos Santa\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.401/gpu_reset.webm\n\n\nOn newer generations of Intel Gen GPUs we now have the ability to reset specific engines for a light weight engine reset approach when things go wrong inside the GPU. Instead of resorting to a full GPU reset mechanism from the get go when things go wrong there are less aggressive options that could help us achieve a faster and smoother recovery from a hung GPU. This talk will go over one such mechanism that includes a low latency engine based reset approach through the use of a GPU watchdog timeout. The talk will end by discussing a specific use case under Chrome OS that shows how all the pieces fit together (including how media drivers can make use of this mechanism from user space) and also how a compositor could take advantage of this approach and improve the user experience. \n\nRoom: K.4.401\nScheduled start: 2019-02-02 15:00:00+01"
