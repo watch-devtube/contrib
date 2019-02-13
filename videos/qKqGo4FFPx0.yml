@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - performance
+title: 'Fine-grained Distributed Application Monitoring Using LTTng'
+language: English
+recordingDate: 1549999908
+description: "by Jeremie Galarneau\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.1.105/lttng.webm\n\n\nThere is no shortage of great tools to monitor distributed applications. However, most of them focus on monitoring overall performance metrics and error rates, giving only a general idea of the health of an infrastructure. \n\nUnfortunately, rarely occurring issues are often hidden by general trends making it difficult to completely understand infrequent, yet sometimes catastrophic, problems. \n\nTracers are great at tracking down sporadic problems in production environments, but the amount of data they generate can be hard to manage in the wild. \n\nThis talk will present how the work done on LTTng over the last year, notably the introduction of a session rotation mode, makes it easier to integrate fine-grained monitoring in production environments. \n\nThe talk will also cover approaches to collecting traces on multiple hosts to troubleshoot problems occurring in distributed systems using both kernel and user-space traces. \n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2019-02-03 12:00:00+01"
