@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - containers
+    - kubernetes
+title: 'How Kubernetes used gRPC to encrypt secrets with an external Key Management Service'
+language: English
+recordingDate: 1550084980
+description: "by Rita Zhang\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.120/encryptedgrpc.webm\n\n\nHow Kubernetes used gRPC to encrypt secrets with an external Key Management Service \n\nIn recent headlines, there are increasing news about cloud resources getting hacked caused by attacks on Kubernetes clusters. Failing to properly secure your Kubernetes data can result in cloud resources getting hacked and your application secrets getting stolen. The etcd database contains information that may grant an attacker significant visibility into the state of your cluster. \n\nThis presentation focuses on how a gRPC-based implementation was added to Kubernetes to delegate encrypting secrets to an external Key Management Service and the benefits of using a gRPC-based design for this type of problem. Basic knowledge of Kubernetes and gRPC is a plus but not required. \n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2019-02-02 18:00:00+01"
