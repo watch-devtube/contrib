@@ -5,5 +5,6 @@ tags:
     - containers
     - kubernetes
 title: 'Extending Load Balancer Using CRD in Different Kubernetes Clou... - Wei Huang & Srinivas Brahmaroutu'
+language: English
 recordingDate: 1544926419
 description: "Extending Load Balancer Using CRD in Different Kubernetes Cloud Providers - Wei Huang & Srinivas Brahmaroutu, IBM \n\nMajor k8s cloud providers (IBM Cloud, EKS, GKE, AKS) provides in-tree implementation for LoadBalancer which varies in their design, implementation and capabilities they expose. In this session we will firstly share our experiences working with load balancers on different cloud providers. After that, we will demonstrate a common solution based on CRD to enable sharing the same LoadBalancer among different services to reduce cost. In some L4 service scenarios, there are multiple TCP/UDP services need to be exposed publicly. Here comes a question: is it possible to only use one LoadBalancer to expose those services (on different ports)? Instead of being given multiple LoadBalancers which is neither cost effective nor user friendly. Furthermore, is there a common way to adapt to different cloud providers while maintaining a simple interface? We will explore these details through our demos. \n\nTo learn more:  https://sched.co/GrUd"
