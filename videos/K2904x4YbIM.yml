@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - docker
+    - kubernetes
+    - javascript
+    - .net
+title: '.NET Core 2.1 in Production How Namely develops .NET Core services'
+language: English
+recordingDate: 1549998503
+description: "by Steve Ognibene\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.3.201/dotnet_netcore_2_1_in_production.webm\n\n\nIn this talk, Steve will discuss the benefits and challenges his team found using .NET Core 2.1 in production at Namely.com.  We'll discuss .NET Core service deployment in containers on Kubernetes, how we monitor our services with logs, charts, and alerting, and how we use service templates and a common .NET Standard helpers library to promote consistency and type safety, and to implement new services fast. \n\nYou'll hear about some of the issues we encountered while using .NET Core - such as the BadImageFormatException with New Relic or the HttpClient \"CPU leak\" issue - and which ones you will still need to watch out for (like Kubernetes OOM-kills). We've been using .NET Core in production at Namely since 2017.  We started with three ASP.NET Core WebAPI projects, and now also deploy .NET Core services that are scaffolded from Protobuf definitions and communicate via gRPC.  Steve will talk about some of the issues we encountered while deploying .NET Core 2.0 and 2.1, and how we resolved them (and which ones you'll still have to look out for because they're unfixed as of December 2018).  He will also demonstrate the process of how to define a service in the Protobuf format, and how we scaffold our .NET services (and clients) from the proto, taking advantage of some of our common internal NuGet libraries.  Steve will demonstrate how to compile a proto to a TypeScript API client - since the server is also scaffolded from the same proto, we call this \"NotSupportedException as a Service\".  Lastly, Steve will talk about how we build and run our .NET services in Docker containers on Linux with Kubernetes deployed via Spinnaker. \n\nRoom: K.3.201\nScheduled start: 2019-02-02 15:00:00+01"

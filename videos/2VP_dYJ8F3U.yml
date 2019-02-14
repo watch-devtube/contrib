@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - react
+title: 'Fraud mitigation using traffic pattern monitoring with CGRateS'
+language: English
+recordingDate: 1549913048
+description: "by Teofil Voivozeanu\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.1309/cgrates.webm\n\n\nTraffic transparency and ability to react on pattern changes became more than a nice to have functionality in modern communication infrastructure.\nIn this talk Teo will explore various mechanisms implemented in the new ThresholdS module of CGRateS, focusing not only on improving QoS stats but also towards securing networks with automatic reaction profiles against fraud attempts.\nCGRateS is a battle-tested Enterprise Billing Suite with support for various prepaid and postpaid billing modes. Traffic transparency and ability to react to pattern changes became more than a nice to have functionality in modern communication infrastructure.\nThresholdS module within CGRateS offers the ability to monitor generic events in real-time and react when preset thresholds are hit. As reactions, one can set notifications via HTTP or AMQP or CGRateS accounts related top-ups, debits or complete account deactivation. The events can be injected into ThresholdS via simple RPC (ie: JSON-RPC over socket), contributing to easy integration from external systems. In case of the high amount of events received in a short time, ThresholdS will absorb them via built-in DoS protection and only react on predefined intervals or number of events.\nAll these characteristics make ThresholdS an ideal candidate as a standalone component (without involving additional billing subsystems within CGRateS) for fraud detection and mitigation.\nCGRateS is a battle-tested Enterprise Billing Suite with support for various prepaid and postpaid billing modes. \n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2019-02-03 15:40:00+01"

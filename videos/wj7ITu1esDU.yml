@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - startup
+    - architecture
+title: 'How compact is compiled RISC-V code?'
+language: English
+recordingDate: 1549913215
+description: "by Jeremy Bennett\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/AW1.126/riscvcompact.webm\n\n\nRISC-V is an increasingly popular architecture for embedded systems. For such systems, compiled code density is a critical factor, particularly for deeply embedded and low power systems, where memory may be very\nconstrained.  Architectures in this space are often designed to improve code density. Thus ARM has its Thumb-2 instructions and RISC-V has its compressed instructions. \n\nIf compiler tool chains are to generate compact code, we need to be able to measure how well we are doing. In this talk I shall present measurements of code density for 32-bit RISC-V, ARM and ARC architectures using the GCC and Clang/LLVM compiler tool chains using the BEEBS benchmark suite for deeply embedded systems (http://beebs.eu/). I shall show how confounding factors (such as emulation library implementation and C run-time startup) can be eliminated from such measurements, to ensure the results are meaningful. \n\nThe purpose of this exercise is not to show that any one architecture is \"best\" but to provide insight which will drive compiler optimization for code density. I shall use the data to highlight areas where the RISC-V compiler tool chain can be improved, drawing on customer work carried out by Embecosm during 2018. \n\nRoom: AW1.126\nScheduled start: 2019-02-02 14:15:00+01"

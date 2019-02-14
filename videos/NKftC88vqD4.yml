@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'Writing X11/Wayland agnostic GL applications with Waffle'
+language: English
+recordingDate: 1549913337
+description: "by Emil Velikov\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.401/waffle.webm\n\n\nWhen writing GL applications, one needs to use APIs to bridge the rendering (as done by OpenGL, OpenGLES) with the underlying platform - X11, Wayland and others. As the technical details greatly varies across platforms, a project called Waffle was introduced in 2012. \n\nToday Waffle is a core library, used heavily for testing GL drivers with piglit.\nAdditionally, the library provides a simple API which allows easy integration and use of GL application across both X11 and Wayland. \n\nFor newcomers, a quick outline of the project and its usecase will be provided. Then we'll walk through the project evolution - from platforms supported, feature set and developer base.\nThe main part of the talk will focus on the work done to improve the quality of the project. The CI that was recently deployed will be presented,  static analysis tools and code coverage. \n\nFinally, we'll talk about the outstanding \"issues\" of the projects - from missing features, additional testing, tooling required and everything else that is preventing people from using the project. \n\nRoom: K.4.401\nScheduled start: 2019-02-02 14:30:00+01"
