@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - cloud
+    - startup
+    - java
+title: 'Java Checkpoint/Restore'
+language: English
+recordingDate: 1549912033
+description: "by Christine H Flood\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.1302/checkpoint_restore.webm\n\n\nJava has evolved significantly in the past 20+ years.  Users still\nwant to run highly scalable monolithic applications, but now they also\nwant to run in the cloud with fast startup and small footprint.\nCheckpointing will solve at least half of that problem.  I'll show you\nhow to  checkpoint your java application and then restore it on a\ndifferent machine, or several different machines.  An application that\nmight take minutes to warm up, can be warmed up, garbage collected,\netc and then checkpointed.  Users can restore Java processes in ms.\nI'll give an overview of CRIU (Checkpoint Restore In Userspace) a\nLinux utility that Java checkpointing is based on, present the\nproposed Java API,  and then demo some interesting use cases. \n\nRoom: H.1302 (Depage)\nScheduled start: 2019-02-02 12:20:00+01"
