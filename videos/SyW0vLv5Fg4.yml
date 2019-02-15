@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - lisp
+title: 'Using SAIL to generate GNU assembler/disassembler and simulator for RISC-V'
+language: English
+recordingDate: 1549998927
+description: "by Mary Bennett\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/AW1.126/riscvsail.webm\n\n\nAt the GNU Tools Cauldron, my colleague, Jeremy Bennett, showed how the\nlong established GNU tool, CGEN, can be used to create an assembler,\ndisassembler and simulator from a semi-formal description of the RISC-V\narchitecture in Scheme (https://gcc.gnu.org/wiki/cauldron2018#cgen). \n\nHowever the CGEN specification in Scheme is far from rigorous by today's\nstandards. Alastair Reid of ARM has shown how SAIL can be used to\ndefine rigorous semantics for RISC-V in a paper to be presented at POPL\nin January 2019 (https://alastairreid.github.io/papers/POPL_19/). \n\nIn this talk I shall show how a SAIL specification can be transformed\ninto a CGEN framework. Using this approach, a rigorous SAIL semantic\nspecification can be used to generate a practical GNU assembler,\ndisassembler and simulator. \n\nThis will is a work in progress - the project is not due to finish until\nMay 2019. I shall explore the general approach used, and the areas where\nthe greater rigour of SAIL runs into problems with the limitations of\nCGEN Scheme specification. \n\nRoom: AW1.126\nScheduled start: 2019-02-02 17:15:00+01"

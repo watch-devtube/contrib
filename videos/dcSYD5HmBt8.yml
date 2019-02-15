@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'MySQL Performance Schema in 20 Minutes'
+language: English
+recordingDate: 1549999132
+description: "by Sveta Smirnova\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.118/pfs_20min.webm\n\n\nBorn in 2010 in MySQL 5.5.3 as \"a feature for monitoring server execution at a low level,\" grown in 5.6 times with performance fixes and DBA-faced features, in MySQL 5.7 Performance Schema is a mature tool, used by humans and more and more monitoring products. It becomes more popular over the years. In this talk I will give an overview of Performance Schema, focusing on its tuning, performance, and usability. Performance Schema helps to troubleshoot query performance, complicated locking issues, memory leaks, resource usage, problematic behavior, caused by inappropriate settings and much more. It comes with hundreds of options which allow precisely tune what to instrument. More than 100 consumers store collected data. \n\nPerformance Schema is a potent tool. And very complicated at the same time. It does not affect performance in most cases and can slow down server dramatically if configured without care. It collects a lot of data, and sometimes this data is hard to read. \n\nThis talk will start from the introduction of how Performance Schema designed, and you will understand why it slowdowns server in some cases and does not affect your queries in others. Then we will discuss which information you can retrieve from Performance Schema and how to do it effectively. \n\nI will cover its companion sys schema and graphical monitoring tools. \n\nRoom: UA2.118 (Henriot)\nScheduled start: 2019-02-02 17:40:00+01"

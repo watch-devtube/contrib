@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Updates from the RISC-V TEE Group Working on a Trusted Execution Environment spec for RISC-V'
+language: English
+recordingDate: 1549999278
+description: "by Nick Kossifidis\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/AW1.126/riscvtee.webm\n\n\nIn this talk, I'll try to provide an overview of the RISC-V Trusted Execution Environment working group, and what we are working on. A Trusted Execution Environment guarantees the integrity and confidentiality of code and data, ARM has TrustZone, Intel has SGX, and we are working on a similar spec for RISC-V. Our main tool is Physical Memory Protection (PMP) functionality of RISC-V (part of the Privilege spec) for isolating memory regions of the execution environment's hart (hardware thread) from the rest of the harts on the system. We are also working on a proposal for an I/O PMP hw block for providing similar memory isolation between the different devices on the system (bus masters). The goal is to provide a flexible and scalable solution, that can work from 32bit embedded devices without MMU, to large 64bit systems with virtual machines etc, and keep it as simple and RISCy as possible. \n\nRoom: AW1.126\nScheduled start: 2019-02-02 16:15:00+01"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - go
+title: 'Building a Hardware MIDI Player Exploration of Linux''s System Interfaces'
+language: English
+recordingDate: 1549999439
+description: "by Terin Stock\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.120/gomidi.webm\n\n\nAn exploration of using Go to build a hardware MIDI player, complete with floppy drive, on a minimal Linux distribution, gokrazy. Without our standard system utilities, in this talk we'll explore Go's syscall interface, as well as Linux's other interfaces, such as netlink and kobject. There will also be sweet, sweet chiptunes. In this talk, I'll be talking about the hardware MIDI project powered by Go I built in 2018, inspired by the mid-90s Roland MT-80S. \n\nThis MIDI player was built on a Raspberry Pi using a USB floppy drive. It's using the minimalist and Go-focused Linux distribution gokrazy. As gokrazy doesn't provide the usual system utilities, your project is expected to handle everything, this is a good project to explore the system interfaces. The three main interfaces I'll be exploring are: \n\n\nsyscall: The unix syscall interface, golang.org/x/sys/unix. These are calls into the kernel, and while large, the syscall interface is extremely powerful for low level system administrative tasks.\nnetlink: A family of RPC interfaces with the Linux kernel. The kernel implements this interface where function calls and directly passing structures in memory would be more difficult.\nkobject: A stream interface, related to netlink, where the kernel can inform userspace (that is, us!) about objects changing in the kernel, such as hardware devices being added or removed.\n\n\n\nBy pulling these interfaces together with Go, we can build a MIDI player that starts playing when a floppy disk is inserted. There will be chiptunes. \n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2019-02-02 15:30:00+01"
