@@ -5,5 +5,6 @@ tags:
     - kubernetes
     - testing
 title: 'Deep Dive: Testing SIG - Cole Wagner & Katharine Berry, Google'
+language: English
 recordingDate: 1544936260
 description: "Deep Dive: Testing SIG - Cole Wagner & Katharine Berry, Google \n\nThis presentation is intended for contributors who want to know more about how testing is done for the project or want to write new test jobs themselves. We will briefly explain that open source Kubernetes builds and tests are executed by Prow as ProwJobs, then we’ll walk through the life of a ProwJob, demoing job triggering, execution, reporting, and cleanup. After that we’ll describe some pains we had withProwJobs and showcase some recent improvements and additions from SIG-Testing that ease them by making it easier to create job images, configure jobs to run, and display job artifacts: - Prow’s Pod Utilities transparently provide source code checkout and log/metadata upload to job containers. - Splitting Prow’s job config into multiple files to granularly specify ownership and ease review. - Using reasonable defaults for ProwJob fields to reduce the size and repetition of our job configs. \n\nTo learn more:  https://sched.co/GrdF"
