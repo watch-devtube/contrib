@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'Ultralow Latency with Java 11 and Terabytes of Data by Per Minborg'
+recordingDate: 1550057989
+description: 'Is it possible to create and consume a standard Java stream in under 200 ns? Just accessing 64-bit main memory takes about 100 ns, and if the stream is backed by huge datasets, high speed becomes less likely. In this session, you will learn how to connect Java streams directly to RAM, enabling retrieval of data with ultralow latency for a wide range of operations. This will work for terabytes of data without affecting garbage collection. The presentation shows how to leverage off-heap memory for storing serialized objects that are accessible via off-heap indexes and elaborates on the recent features in Java 9, 10, and 11 to show how dockerization, added stream operation types, local-variable type inference, and JVM optimizations make the solution easy to use.'

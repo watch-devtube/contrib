@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+title: 'Implementing event-sourced microservices by Rafael Winterhalter'
+recordingDate: 1550057988
+description: "Event-sourced applications only apply changes to their state by processing a persisted sequence of event messages. Using this model, it is possible to fully trace and explain any change that ever occurred within a system and to recreate any past state that the system has ever held.\n\nThese properties motivated the Norwegian tax authority, Skatteetaten, to reimplement its register for subjects to taxation (partsregister) using such an event model. This talk gives an outline on how event sourcing is realized while dealing with asynchrony and eventual consistency of message processing within a system of distributed services. In this context, challenges of performance are also discussed."
