@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'XDP (eXpress Data Path) as a building block for other FOSS projects'
+language: English
+recordingDate: 1550136288
+description: "by Magnus Karlsson and Jesper Brouer\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2214/xdp_overview_and_update.webm\n\n\nThe eXpress Data Path (XDP) is a Linux kernel feature, that have gain\na lot of traction over the last couple of years.  This talk is focused\non how other FOSS projects can leverage XDP.  How we believe XDP\nshould be seen as a software offload for the kernel network stack. \n\nThe motivation is to plant FOSS seeds for collaboration by describing\nthat XDP offers of facilities and capabilities.  But also explain that\nXDP is not the magic-bullet by framing the XDP design and what layer\nit operates at (e.g. no de-fragmentation) and what limits XDP impose\nwhen enabled (e.g. no jumbo-frames). \n\nIn the second part of this talk we will focus on AF_XDP and how it can\nbe leveraged by the DPDK project.  AF_XDP is a new socket type\nintroduced in Linux 4.18, that allow the XDP driver hook to deliver\nraw frames into userspace.  This offers new opportunities for\ne.g. integrating with DPDK via a Poll Mode Driver (PMD) for AF_XDP. \n\nRoom: H.2214\nScheduled start: 2019-02-02 10:30:00+01"

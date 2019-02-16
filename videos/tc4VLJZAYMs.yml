@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+title: 'Zink OpenGL on Vulkan'
+language: English
+recordingDate: 1550135428
+description: "by Erik Faye-Lund\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.401/zink.webm\n\n\nFor the last 25 years or so, OpenGL has been the only major cross-platform 3D graphics API out there. But in the last couple of years this has changed, and it's looking more and more like Vulkan will take over the throne. This means that we currently need two graphics drivers for each GPU, one per API. But it's not like the available workforce for opensource drivers all of a sudden doubled, so this leaves us with a scalability problem. \n\nTo remedy this, we have started working on Zink, a new Mesa Gallium driver that implements OpenGL on top of Vulkan. This means that in the future, GPU vendors can focus on one, high-performance Vulkan driver, and leave OpenGL as a legacy/compatibility feature. This does come at a loss of performance, but this might not be as bad as one would fear. \n\nThis approach also has some extra interesting benefits when virtualizing GPU access, where the channel through the VM to the GPU needs to be thoroughly vetted for security issues. Allowing this to be done once rather than twice has obvious benefits. \n\nThis talk will cover what the current status of the project is, what problems are on the horizon, and where it'll hopefully go in the future. \n\nRoom: K.4.401\nScheduled start: 2019-02-03 13:30:00+01"
