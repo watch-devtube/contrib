@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Roll your own compiler with LLVM Easy IR generation'
+language: English
+recordingDate: 1550136028
+description: "by Kai Nacke\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.201/llvm_irgen.webm\n\n\nA close look at IR code generation inside a Modula-2 compiler. With LLVM, one of the main tasks of an compiler engineer is to design the IR code generation from an abstract syntax tree (AST).\nHow easy is it? Although I have worked with and on LLVM for several years now I have not yet written an compiler from scratch.\nSo I began to work on my own compiler for an simple yet powerful language: Modula-2. In this talk I introduce the architecture\nof the m2lang compiler. My main focus is the generation of basic blocks and IR code from the AST. I show which general patterns\nemerged and which areas of the languages caused trouble. I also give hints when it is useful to introduce yet another intermediate\nlanguage between the AST and the IR. \n\nRoom: K.4.201\nScheduled start: 2019-02-03 09:00:00+01"
