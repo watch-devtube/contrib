@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - testing
+title: 'Introducing DBus-ASIO How and why we built a new D-Bus library from the ground up'
+language: English
+recordingDate: 1549999782
+description: "by Steven Goodwin\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2215/dbus_asio.webm\n\n\nModern software needs inter-process communication. Often through DBus. But the state of the existing libraries are more perfunctory, than active. Consequently, the limits of these libraries become apparent when you go beyond a single thread, are limited to standard libraries, or use anything other than a classical event loop. In this talk we cover the journey, from the realisation of the problem, the guiding development tenets, to the implementation of a library that covers everything from the low-level protocol and high-level C++ interface. We start with a breakdown on the whys and wherefores of the choices made, be it C++11 or C++14, to fork or not to fork existing code, or whether boost::asio should be used. \n\nWe continue with a discussion on the implementation details, such as the pitfalls in serial protocols, zero-length strings, non-aligned data, and the problems in C++ over C. \n\nWe end up with production-quality code, the politics of naming, and a question: will this be the final DBus library we need to write? \n\nBackground: D-Bus is an inter-process mechanism that allows communication between multiple programs running on the same machine. Asio is a cross-platform C++ library for network and low-level I/O programming. This talk covers how and why the former was implemented using the latter. \n\nRoom: H.2215 (Ferrer)\nScheduled start: 2019-02-03 13:20:00+01"
