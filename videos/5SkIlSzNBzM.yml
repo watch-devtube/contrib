@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Using getdns for local DNSSEC validation'
+language: English
+recordingDate: 1549912549
+description: "by Philip Homburg\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.601/dns_getdns_local_validation.webm\n\n\nThe most common setup is where a recursive DNS resolver does the DNSSEC\nvalidation. The nice thing about this approach in that existing applications\ndo not require modifications. \n\nHowever, an application cannot easily tell if the resolver is doing DNSSEC\nvalidation, and the path between the application and the resolver is\nunprotected. \n\nThe solution to this, is for applications to do local DNSSEC validation.\nThis can be done using the getdns library. The getdns library provides other\nadvantages as well, such as a modern interface to DNS resolution, support\nfor event libraries (such as libevent). \n\nIn this presentation I will describe getdns and show two examples of how it\ncan be used in practice. \n\nRoom: K.4.601\nScheduled start: 2019-02-03 09:35:00+01"

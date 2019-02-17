@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'It''s Time for the Populator Declarative initialization of kubernetes persistent storage'
+language: English
+recordingDate: 1549912257
+description: "by Adam Litke\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2213/vai_its_time_for_the_populator.webm\n\n\nKubernetes clusters increasingly host applications that manipulate data in persistent storage.  Preserving that data is important but how does it get there in the first place?  Unless it can generate its own data, the application should expect the volume to be populated prior to initialization.  This may seem like a trivial problem with many simple solutions but we can build on kubernetes design principles to produce a superior solution.  In this session you will discover a declarative PV population pattern, observe some concrete examples how this can be applied to different sources of data, learn about some common problems in this area and how kubernetes can help to solve them.  After the session you will be ready to contribute your own populator to the kubernetes community. \n\nRoom: H.2213\nScheduled start: 2019-02-02 12:00:00+01"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - java
+title: 'A walkthrough guide to implementing a compiler intrinsic'
+language: English
+recordingDate: 1549912369
+description: "by Andrew Dinn\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.1302/compiler_instrinsic.webm\n\n\nOne of the ways Java achieves high performance is to provide a route for\naccelerated, hand-crafted compilation of certain critical methods via\nthe JIT. This optimization path is available both for native methods\nimplemented as callouts to C code and for methods that are defined in\nJava. In both cases the method needs to be flagged as a HotspotIntrinsic\nand provided with a JITted code implementation. The intrinsic\nimplementation defines the hand-crafted definition of as a high-level\nintermediate representation (IR) graph for the C2 JIT. This means it can\nbe inlined into the IR graph for caller methods, providing even greater\nopportunities for optimization. \n\nThis talk will demonstrate how to implement an intrinsic by walking\nthrough a specific real-life example that is currently under review as a\nJEP candidate. It will start by motivating the need for the intrinsic\nand defining the candidate as a Java method which relies on an\nunderlying native implementation. It will then show how the candidate\ncan be replaced with an intrinsic implementation, working through the\nchanges required in the VM, the JIT compiler front and back end and,\nultimately, the assemblers for x86 and AArch64. \n\nRoom: H.1302 (Depage)\nScheduled start: 2019-02-02 15:50:00+01"
