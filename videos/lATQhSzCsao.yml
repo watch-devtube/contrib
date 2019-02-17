@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Tapping Into the Binary Log Change Stream'
+language: English
+recordingDate: 1550135229
+description: "by Luis Soares\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.1301/tapping_binlogs.webm\n\n\nRow-based binary log is mostly used as a logical replication log for\nMySQL. However, ever since row-based replication was introduced, it\nhas also been widely used as an integration point between a MySQL\nserver and other components in an IT infrastructure. It is often used\nas a capture-data-changes stream, as a source of data for\nextract-transform-load operations or even as an event notification\ntrigger (e.g., propagating transaction information to proxy layers). \n\nCommonly deployed setups revolve around collecting/subscribing to data\nchanges and propagating these to downstream consumers through a\nmessage bus, like Kafka for instance. \n\nThis session will present such use cases, highlighting the additional\nmetadata added to the binary log in the latest releases, explain how\nto efficiently make the most out of these and how to optimize the\nimplementation of a change capture procedure. We will also showcase\na couple of example plugins that tap into the server's binary log\nstream and export it even before it reaches the binary log files. \n\nRoom: H.1301 (Cornil)\nScheduled start: 2019-02-02 12:40:00+01"
