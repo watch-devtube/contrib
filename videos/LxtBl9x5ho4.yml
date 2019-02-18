@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'The Missing Benchmark Metric: Memory Consumption'
+language: English
+recordingDate: 1549912006
+description: "by Jens Wilke\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.1302/memory_benchmark.webm\n\n\nWhen doing benchmarks we are usually interested in comparing the throughput of\ndifferent solutions. However, when the code under investigation is not\ntrivial, memory consumption may vary significantly, because using more memory\nto achieve better throughput is a typical design trade off. \n\nThe talk discusses what memory metrics are more or less meaningful and what\napproaches can be used to track memory consumption alongside JMH benchmarks. A\nspecial focus will be given on dynamic effects on the interaction with the\ngarbage collector and whether it is possible to get some stable benchmark\nresults. \n\nRoom: H.1302 (Depage)\nScheduled start: 2019-02-02 15:20:00+01"

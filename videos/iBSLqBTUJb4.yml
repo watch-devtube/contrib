@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - testing
+    - java
+title: 'Making the JIT part of the cloud'
+language: English
+recordingDate: 1549911986
+description: "by Irwin D'Souza\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.1302/jit_cloud.webm\n\n\nMany language runtimes like the JVM rely on JIT compilation to improve\napplication performance, but JIT compilers actively compete with\napplications for CPU and memory resources. Because of this, a JIT\ncompiler's activities may hinder application throughput and create\nperformance hiccups that can affect quality of service while also\ncomplicating resource provisioning. On top of that, it takes a while even\nfor the best JIT compilers to fully compile the performance critical\nmethods of an application to deliver the steady state performance we all\nexpect from the JVM. An approach we are exploring is to decouple the JIT\ncompiler from the rest of the JVM so that JIT compilation can operate as a\nseparate, remote service. This approach opens up the possibility of an\nelastic, cloud based service offering JIT compilation for many\napplications, languages, and even different architectures simultaneously. \n\nIn this talk we will present our experience building an open source\nJIT-as-a-service prototype based on the Eclipse OpenJ9 JVM. We will discuss\nsome of the engineering challenges we encountered, demonstrate the\nadvantages we've seen thus far, and present performance data for enterprise\ngrade Java EE benchmarks. \n\nRoom: H.1302 (Depage)\nScheduled start: 2019-02-02 16:50:00+01"

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - performance
+    - python
+    - java
+title: 'Video Analysis using CUDA and OpenCV Detecting scene changes in videos using CUDA and OpenCV'
+language: English
+recordingDate: 1549912190
+description: "by Sam Radhakrishnan\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.1309/media_scene_changes.webm\n\n\nCUDA has gained popularity as the programming language for GPUs. \n\nOpenCV remains the most popular library for computer vision. \n\nThe aim of the talk is to introduce people to harness both the technologies to build high performance models for image and video processing, by using the simple problem of detecting scene changes in a video. Detecting scene changes in videos using CUDA and OpenCV. \n\nCUDA is a parallel computing platform and application programming interface (API) model created by Nvidia. It allows software developers and software engineers to use a CUDA-enabled graphics processing unit (GPU) for GPGPU (General-Purpose computing on Graphics Processing Units). \n\nOpenCV stands for Open Source Computer Vision Library. It has C++, python and Java interfaces. \n\nThe scene change detection problem is can be defined formally as  - given two frames, do they belong to the same scene, or different scenes? The content-aware scene change detection finds all areas in a video where the difference between two subsequent frames exceeds a threshold value. This allows to detect cuts between scenes. \n\nThe proposed algorithm has the following steps -\n   * Decode the video.\n   * For each frame - \n\n       * Convert the frame to HSV colour space.\n       * For each channel, find the average pixel by pixel difference with the previous frame\n       * Average the difference over the number of channels.\n       * If greater than a given threshold declare the frame as a scene change\n\n\nThe pixel-by-pixel operation of each channel can be optimised to execute in parallel. This can be achieved using CUDA. \n\nThe simple algorithm above can be optimised to execute on a GPU and achieve 10x improvements in speed. \n\nAll the code is written in C++ \n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2019-02-02 14:30:00+01"

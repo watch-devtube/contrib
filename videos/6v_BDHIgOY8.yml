@@ -6,5 +6,6 @@ tags:
     - docker
     - kubernetes
 title: 'Container Networking From Scratch - Kristen Jacobs, Oracle'
+language: English
 recordingDate: 1544936382
 description: "Container Networking From Scratch - Kristen Jacobs, Oracle \n\nLearn how to construct an overlay network across multiple hosts in just a few lines of bash!    Containers in a system such as Kubernetes need to be able to communicate, and a common networking solution is to use an overlay network, for example, Flannel. In this talk we aim to 'demystify' container networking, and it's constituent elements such as Linux bridges, veth pairs, routing routes and TUN/TAP devices.     Starting with defining a simple network namespace, we will work through networking between containers on the same machine (using the default docker model), up toward a full overlay network spanning multiple machines (as in Kubernetes). We will explain both how this works and why/when it is required, providing the necessary background for understanding and evaluating common  existing Kubernetes networking solutions such as Flannel and Calico. \n\nTo learn more:  https://sched.co/GrWx"

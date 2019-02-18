@@ -6,5 +6,6 @@ tags:
     - redis
     - cloud
 title: 'Instrumenting and Scaling Cloud-Native Databases with Envoy - Daniel Hochman, Lyft'
+language: English
 recordingDate: 1544936382
 description: "Instrumenting and Scaling Cloud-Native Databases with Envoy - Daniel Hochman, Lyft\n\nEvery request to a database at Lyft is proxied by Envoy, providing complete visibility into the L3/L4 aspects of database interactions. This allows engineers to easily visualize changes to a database's load profile and pinpoint the root cause if necessary. Lyft has also open-sourced codecs for MongoDB, DynamoDB, and Redis. Protocol codecs in combination with custom filters yield benefits ranging from operation-level observability to horizontal scalability via sharding. Using Envoy for this purpose means that enhancements are implemented once and usable across a polyglot stack. The talk will demonstrate Envoy's utility beyond traditional RPC service interactions in the network. Topics will include protocol analysis, using a proxy for connection pooling, network-level rate limiting, and partitioning with consistent hashing. \n\nTo learn more:  https://sched.co/Gray"
