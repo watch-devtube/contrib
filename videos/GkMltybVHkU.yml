@@ -6,5 +6,6 @@ tags:
     - containers
     - kubernetes
 title: 'eBPF Powered Distributed Kubernetes Performance Analysis - Lorenzo Fontana, InfluxData'
+language: English
 recordingDate: 1544936383
 description: "eBPF Powered Distributed Kubernetes Performance Analysis - Lorenzo Fontana, InfluxData \n\nSince the Linux kernel 4.x series a lot of enanchements reached mainline to the eBPF ecosystem giving us the capability to do a lot more than just network stuff.  The purpose of this talk is to give an initial understanding on what eBPF programs are and how to hook them to programs running inside Kubernetes clusters in order to answer targeted questions at cluster level but about very specific fine-grained situations happening in our programs and systems, like:  - Had that function in my program been called ?  - For a given function which arguments have been passed to it? And what it did return?  - Which TCP packets are being retransmitted?  - What are the queries running slow?  - Insights on programming language events/gc  - Had that file been opened?  Imagine a programmable Kubernetes performance analysis tool that runs at cluster level without performance implications how would you it to be? \n\nTo learn more:  https://sched.co/GrYw"
