@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - perl
+    - unix
+title: 'Package software for any distribution with upt'
+language: English
+recordingDate: 1550696745
+description: "by Cyril Roelandt\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.3.401/package_software_with_upt.webm\n\n\nIn this talk, we will introduce the Universal Packaging Tool (upt), a modular tool meant to help packagers in their daily tasks. We will show how it is an improvement over similar existing tools, which upt means to replace. This will be especially interesting for distribution developers that have had to deal with upstream platforms such as PyPI, CPAN or RubyGems. Nowadays, most languages come with a package manager (such as pip or gem) that can install packages from an upstream package archive (such as pypi.org or rubygems.org). Traditional distributions (such as Debian, Fedora or OpenBSD) still package these same pieces of software, making them available through their own package manager (such as apt, dnf or the OpenBSD ports). \n\nOver the years, multiple scripts have been written in order to automate part of the packaging process. Tools like pypi2deb (which turns a package from PyPI into a Debian package) or gem2rpm (which turns a package from RubyGems into an RPM package) make the work of packagers much easier. There are a lot of these tools, and they all behave a bit differently, expose a different interface to their users, and duplicate a lot of code. \n\nIn this presentation, I will introduce the Univesal Packaging Tool (upt), a modular program that allows packagers to create packages from any language-specific upstream archive to any GNU/Linux or *BSD distribution. We will show how this is done without any code duplication, and how any improvement to this tool will benefit developers from all distributions. \n\nRoom: K.3.401\nScheduled start: 2019-02-03 11:20:00+01"
