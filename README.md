@@ -38,6 +38,7 @@ speaker:
     twitter: SpeakerTwitterHandle (no @)
 title: Title goes here
 language: English
+category: conference # or vlog
 featured: true (you need to have enough karma points, see https://dev.tube/contributors)
 recordingDate: 1444245407 # 
 description: Some text goes here #
