@@ -185,11 +185,15 @@ tags:
   - name: .net
     matches: [.net, dotnet, asp.net, aspnet]
 
-  - name: f#
-    matches: [f#, fsharp]
+  - name: "f#"
+    matches: 
+     - "f#"
+     - fsharp
 
-  - name: c#
-    matches: [c#, csharp]
+  - name: "c#"
+    matches: 
+     - "c#"
+     - csharp
 
   - name: functional
     matches: [functional, monads, pure, immutable]
