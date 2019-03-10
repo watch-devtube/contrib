@@ -1,5 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 title: 'A debugger from scratch'
 recordingDate: 1538148620
 description: "https://media.ccc.de/v/ASG2018-213-a_debugger_from_scratch\n\n\n\nAt some stage in your programming life you may well have used a debugger, but did you wonder how it was able to step into and control your executable? In this talk we'll see how debuggers work by building one from scratch in a few lines of Go.\n\nIn this talk Liz will explore how a debugger gains control of a process with the all-powerful ptrace system call. You'll see how we can find the machine code that corresponds to a line of human-readable source code and vice-versa. She will show how breakpoints are set, explain how the stack gets built up, and demonstrate how to generate a stack trace showing the path to that breakpoint. \n\nEven if you know nothing about machine code, you'll leave this talk with a better understanding of how a computer runs an executable, and how a debugger is able to start and stop the executable as you wish. \n\nLiz Rice\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/213"
