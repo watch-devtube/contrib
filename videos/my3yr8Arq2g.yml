@@ -1,14 +1,15 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 tags:
     - cloud
     - architecture
     - java
     - spring
+speaker:
+    name: 'Josh Long'
+    twitter: starbuxman
 title: 'Webinar: Smarter Service-to-Service Invocations with Spring Cloud'
 language: English
 recordingDate: 1431030961
 description: "Speaker: Josh Long\nSlides: https://speakerdeck.com/joshlong/smarter-service-to-service-invocation-with-spring-cloud\nSpring Cloud 1.0 is here! It offers a powerful way to create and consume microservices. As you introduce new services, you introduce integration problems: services can be shaky, they can disappear and - as they're often exposed over HTTP - they require a bit more footwork than in-process method invocations. In this webinar, we'll focus specifically on how Spring Cloud integrates service registration (e.g.: Eureka, Consul, or Zookeeper), declarative REST clients (with Netflix's Feign), reactive programming and the circuit breaker pattern with Hystrix to support easy, robust service-to-service invocations."
-speaker:
-    name: Josh Long
-    twitter: starbuxman

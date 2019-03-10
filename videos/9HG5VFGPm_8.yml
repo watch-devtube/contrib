@@ -1,5 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 tags:
     - storage
     - redis
@@ -7,10 +8,10 @@ tags:
     - containers
     - java
     - spring
+speaker:
+    name: 'Josh Long'
+    twitter: starbuxman
 title: 'Webinar Replay: Introducing Spring Session'
 language: ""
 recordingDate: 1426179810
 description: "Speaker: Josh Long, Pivotal \nSlides: https://speakerdeck.com/joshlong/bootiful-sessions\nBack in the era of the application server, HTTP Session replication was a common way to scale out user session data, as well as make it fault tolerant. In today's world of lightweight containers, PaaS, and virtualization, Spring Session offers a 100% server and/or container portable HTTP Session. See how Spring Session easily plugs in implementations like Redis, scales out across a cluster, handles multiple users' browser sessions, works with WebSocket, and allows header based authentication within REST apps. It's a perfect fit for working with user data, particularly in a highly distributed environment like the cloud, or on a Platform like Cloud Foundry."
-speaker:
-    name: Josh Long
-    twitter: starbuxman
