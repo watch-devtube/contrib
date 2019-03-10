@@ -1,5 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 tags:
     - cloud
     - android
@@ -9,10 +10,10 @@ tags:
     - java
     - spring
     - functional
+speaker:
+    name: 'Josh Long'
+    twitter: starbuxman
 title: 'Cloud Native Java, part 2 - Josh Long'
 language: English
 recordingDate: 1531848097
 description: "You know what nobody has ever said to me? \"I wish you'd covered even more in your 45 minute 'Cloud Native Java' talk!\" And I listened! In this talk, we'll look at Spring Cloud.next to support modern microservices development, focusing on the things that really matter (or, at least, the things we've got cooking in Spring Boot 2.0 and Spring Cloud Finchley, both due before April or so):\n\nfunctions-as-a-service with Spring Cloud Function. We've got FUNCTIONS (wrapped in apps, in containers, running on servers, in datacenters) functional reactive REST endpoints (totally different meaning for \"function\" here, though) reactive programming with Spring Framework 5. Leverage flow control at every layer and make the most efficient use of every CPU when doing input/output. You're going to need every bit of efficiency that you can get after you've installed the patches for Spectre and Meltdown! Kotlin. Yes, KOTLIN: you wanted Java and I'm giving it to you.. in libraries that I'll use from Kotlin. messaging with Apache Kafka. Nothing funny here. It's just awesome. Live on the edge with the new, reactive, rate-limiting, proxying, websocket-aware Spring Cloud Gateway ASCII art!"
-speaker:
-    name: Josh Long
-    twitter: starbuxman
