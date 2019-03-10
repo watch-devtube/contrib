@@ -1,22 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+category: conference
 tags:
-  - Continuous Integration
-  - android
+    - 'Continuous Integration'
+    - android
 speaker:
-  name: Nicolas Fränkel
-  twitter: nicolas_frankel
-  matches:
-   - Frankel
-title: Automated Android CI, how hard can it be?
+    name: 'Nicolas Fränkel'
+    twitter: nicolas_frankel
+    matches: [Frankel]
+title: 'Automated Android CI, how hard can it be?'
 language: English
-featured: false
 recordingDate: 1456873200
-description: I'm not an Android developer by far, but I've been working in a mobile
-  development team as the DevOps guy, which basically translates to do anything that
-  is not related to development proper. When I was introduced to the team, they had
-  hacked something on a Bamboo server, based on custom Python scripts that uploaded
-  the binaries to a Hockeykit server, completely decoupled from the Maven build and
-  the Nexus repository. The they decided to switch to Gradle... In this presentation,
-  I will describe how I migrated from this situation to a standard build on a full-fledged
-  Jenkins server and more importantly the pain points I encountered regarding the
-  provisioning of Gradle , the updates of the Android SDK platforms, extras and repositories
-  and the management of Robolectric behind the entreprise proxy.
+description: "I'm not an Android developer by far, but I've been working in a mobile\ndevelopment team as the DevOps guy, which basically translates to do anything that\nis not related to development proper. When I was introduced to the team, they had\nhacked something on a Bamboo server, based on custom Python scripts that uploaded\nthe binaries to a Hockeykit server, completely decoupled from the Maven build and\nthe Nexus repository. The they decided to switch to Gradle... In this presentation,\nI will describe how I migrated from this situation to a standard build on a full-fledged\nJenkins server and more importantly the pain points I encountered regarding the\nprovisioning of Gradle , the updates of the Android SDK platforms, extras and repositories\nand the management of Robolectric behind the entreprise proxy."
+featured: false
