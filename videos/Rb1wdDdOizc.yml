@@ -1,5 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 title: libcapsule
 recordingDate: 1538239886
 description: "https://media.ccc.de/v/ASG2018-173-libcapsule\n\nsegregated loading of dynamic libraries\n\nlibcapsule is a project that allows segregated dynamic linking: Access to the symbols of a library without being exposed to any of the dependencies of that library without requiring recompilation of the binary that pulls it in.\n\n\nlibcapsule's goal is to improve portability of programs that are distributed with runtimes (cf flatpak) that still need access to [some] libraries from the host (eg libGL) while insulating said program from any system libraries outside the runtime other than those it directly requires.\n\nVivek Das Mohapatra\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/173"
