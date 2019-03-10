@@ -1,10 +1,10 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - ruby
     - functional
-title: 'Embedded with Go: from an AWK prototype to a gokrazy appliance How to build a self-contained toy foâ€¦'
+title: 'Embedded with Go: from an AWK prototype to a gokrazy appliance How to build a self-contained toy fo…'
 language: English
 recordingDate: 1549739533
 description: "Embedded with Go: from an AWK prototype to a gokrazy appliance How to build a self-contained toy for young children to give them control over their music and rhymes\nby Anisse Astier\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.120/embeddedwithgo.webm\n\n\nIn this talk we'll see how to build a toy using off-the-shelf hardware (Raspberry PI and Mir:ror), the various explorations that led to this creation. How we moved from a shell and AWK prototype, to a Go program, removing many bugs and races in the process. Then, we'll see how we used gokrazy to remove most of the non-go userspace, and move from raspbian to a custom, pure-go distro. This talk is a continuation of the awk driven IoT blog post, in which I explained how I explored various toy concepts with awk and shell scripts. Once I found a working concept, I decided to rewrite it in Go to fix race conditions, and ease adding new features. I'll show the challenges of this first step: how to drive an external program (mp3 player) with context and goroutines, while simultaneously getting events from the hardware NFC reader. \n\nThen I'll show how to convert the raspbian image with a systemd service, shell, etc. to a gokrazy image; first using the breakglass escape hatch to have a minimal working solution, then solving the various parts that can rely on external dependencies, in order to achieve a real pure-go userspace: using a custom mp3 decoder, handling the alsa audio output, using the proper HID device, etc. \n\nWe'll finish with a demo of the working device, the lessons learned, and a small suprise at the end. \n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2019-02-02 17:00:00+01"

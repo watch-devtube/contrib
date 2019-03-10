@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 title: 'Near-Optimal Parallel Join Processing in MapReduce'
 recordingDate: 1305765243
 description: "Google Tech Talk (more info below)\r\nMay 5, 2011\r\n\r\nPresented by Dr Mirek Riedewald, Associate Professor College of Computer and Information Science Northeastern University http://www.ccs.neu.edu/home/mirek/\r\n\r\nABSTRACT\r\n\r\nAs the amount and complexity of data in many fields increases rapidly, new tools are needed for exploratory analysis and scientific discovery. Our Scolopax system's goal is to address these challenges with novel techniques for large-scale parallel data management. In this talk, we will present an overview of Scolopax and then focus on parallel processing of joins. Joins combine information across data sets, e.g., to discover correlations. Our proposed join model simplifies reasoning about how to assign computation tasks to processors in MapReduce and other parallel environments. Using this model, we derive a surprisingly simple randomized algorithm, called 1-Bucket-Theta, for implementing arbitrary joins in a single MapReduce job. This algorithm only requires minimal statistics (input cardinality) and we provide proofs and strong evidence that for a variety of join problems, its latency is either close to optimal or the best realizable option. For some popular joins we show how to improve over 1-Bucket-Theta by exploiting additional input statistics. Most of these results will appear at SIGMOD 2011."

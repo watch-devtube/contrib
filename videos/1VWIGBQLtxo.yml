@@ -1,10 +1,10 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - unix
     - storage
-title: 'PostgreSQL vs. fsync How is it possible that PostgreSQL used fsync incorrectly for 20 years, and whâ€¦'
+title: 'PostgreSQL vs. fsync How is it possible that PostgreSQL used fsync incorrectly for 20 years, and wh…'
 language: English
 recordingDate: 1549633907
 description: "PostgreSQL vs. fsync How is it possible that PostgreSQL used fsync incorrectly for 20 years, and what we'll do about it.\nby Tomas Vondra\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.1.105/postgresql_fsync.webm\n\n\nAbout a year ago the PostgreSQL community discovered that fsync (on Linux and some BSD systems) may not work the way we always thought it is, with possibly disastrous consequences for data durability/consistency (which is something the PostgreSQL community really values). I'll walk you through fsync basics, explain how we always thought/assumed it works and how it actually behaves. I'll also discuss where the misunderstanding likely comes from - which is a mix of cultural and technical reasons rooted in the past. We'll see how this issue impacts current PostgreSQL deployments, what you can (and can't) do about it, and finally outline some plans for addressing it properly in the future. \n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2019-02-02 17:00:00+01"

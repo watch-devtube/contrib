@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - javascript
-title: '#bbuzz 2018: Volker Mische â€“ Noise: a search library in Rust'
+title: '#bbuzz 2018: Volker Mische – Noise: a search library in Rust'
 language: German
 recordingDate: 1529331719
 description: "Further information: https://berlinbuzzwords.de/18/session/noise-search-library-rust\n\nSession abstract: \nNoise (https://github.com/pipedown/noise/) is a new open source search library written in Mozilla's Rust programming language(https://www.rust-lang.org/). It is centered around JSON documents. Whenever you insert data, it gets automatically indexed. There's no need to take care of your indices manually. Strings will be indexed for full-text searches, numbers for range queries and geospatial data (GeoJSON) for bounding box queries.\n\nAlthough there's already too many query languages out there, Noise is introducing another one. But compared to others, Noise's query language(https://github.com/pipedown/noise/blob/master/query_language_reference.md) is is based on a different concept called \"Query by Example\"(https://berlinbuzzwords.de/18/session/noise-search-library-rust), which got invented in the 70s but has forgotten since. This way of doing queries was adapted for the use with JSON. It leads to an easy to understand syntax that you can also understand months after you've written the query.\n\nA Node.js binding(https://github.com/pipedown/node-noise/) makes it easy to get started with Noise, it's a simple \"npm install noise-search\".\n\nAfter the talk you should have an understanding on how Noise is different from other similar systems and how it works internally.\n\nNoise is licensed under Apache License 2.0 and MIT License."

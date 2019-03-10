@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - unix
     - performance
@@ -9,7 +9,7 @@ tags:
     - security
     - python
     - 'c#'
-title: 'Writing Network Drivers in High-Level Languages How to write drivers in Rust, go, C#, Swift, Haskelâ€¦'
+title: 'Writing Network Drivers in High-Level Languages How to write drivers in Rust, go, C#, Swift, Haskel…'
 language: English
 recordingDate: 1549648123
 description: "Writing Network Drivers in High-Level Languages How to write drivers in Rust, go, C#, Swift, Haskell, and OCaml\nby Paul Emmerich and Simon Ellmann\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2214/writing_network_drivers_in_high_level_languages.webm\n\n\nDrivers are usually written in C for historical reasons, this can be bad if you want your driver to be safe and secure. We show that it is possible to write low-level drivers for PCIe devices in modern high-level languages.\nWe are working on super-fast user space network drivers for the Intel 82599ES (ixgbe) 10 Gbit/s NIC in Rust, C#, go, OCaml, Haskell, Python, Swift, and a few more languages (WIP). All of our drivers are written from scratch and require no additional kernel code. \n\nCheck out our GitHub page with links to all implementations, performance measurements, and publications for further reading. Supposedly modern user space drivers (e.g., DPDK or SPDK) are still being written in C in 2018 :( \n\nThis comes with all the well-known drawbacks of writing things in C that might be prevented by using safer programming languages.\nAlso, did you ever see a kernel panic because a in-kernel driver did something stupid? It doesn't have to be that way, drivers should not be able to take down the whole system. \n\nThere are three steps to building better drivers: \n\n\nWrite them in a safer programming language eliminating whole classes of bugs and security problems like bad memory accesses\nIsolating them from the rest of the operating system: user space drivers that drop privileges\nIsolating the hardware using the IOMMU\n\n\n\nWe are showing that it is possible to achieve all of these goals for PCIe drivers on Linux by implementing user space network drivers in all of the aforementioned programming languages. Our techniques are transferable to other drivers that would benefit from more modern implementations. \n\nOur drivers in Rust, C#, go, OCaml, and Swift are completely finished, tuned for performance, evaluated, and benchmarked (they are about 80-90% as fast as our user space C driver which is as fast as older versions of DPDK). \n\nThe main thing to take away from this talk is: writing drivers is neither scary nor hard. You can write one in your favorite programming language, so go ahead and try that :) \n\nRoom: H.2214\nScheduled start: 2019-02-02 13:00:00+01"

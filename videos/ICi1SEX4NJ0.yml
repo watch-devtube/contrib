@@ -1,13 +1,13 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - unix
     - performance
     - cloud
     - containers
     - kubernetes
-title: 'VPP & Ligato use cases: Contiv/VPP CNI plugin for Kubernetes & IPSEC VPN gateway Development of cloâ€¦'
+title: 'VPP & Ligato use cases: Contiv/VPP CNI plugin for Kubernetes & IPSEC VPN gateway Development of clo…'
 language: English
 recordingDate: 1549913221
 description: "VPP & Ligato use cases: Contiv/VPP CNI plugin for Kubernetes & IPSEC VPN gateway Development of cloud-native network functions with VPP & Ligato\nby Giles Heron and Rastislav Szabo\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.2214/vpp_ligato_as_ipsec_gateway.webm\n\n\nIn this talk, we will introduce FD.io VPP and the Ligato cloud-native networking framework and demonstrate how these are used to address two use cases - a CNI plugin for Kubernetes (Contiv/VPP) and an IPSEC VPN gateway. FD.io VPP is a high-performance packet forwarder that runs on commodity CPUs.  Ligato provides a platform for developing Cloud-Native Network Functions (CNFs) using VPP running in Linux user-space and leveraging Intel's DPDK to grab packets directly from the NIC. \n\nContiv/VPP is a CNI (Container Network Interface) plugin that uses VPP to provide network connectivity for Kubernetes pods.  Its aim is to bypass the kernel for packet handling in a Kubernetes cluster wherever possible. To achieve this, it replaces the kube-proxy load-balancer by leveraging VPP's advanced NAT functionality, and implements native Kubernetes policy (to avoid the requirement for a kernel-based policy plugin). As well as providing fast packet processing, Contiv/VPP can be used as the foundation for CNF deployments running in Kubernetes - since it is based on the Ligato VPP Agent its functionality can be easily extended to interconnect CNFs, e.g. using the Ligato SFC Controller. \n\nStrongSwan is probably the most common IPSEC VPN concentrator in use today. It provides an IKE daemon but leverages the Linux kernel for IPSEC forwarding. Using Ligato we can interface StrongSwan's IKE implementation to VPP's IPSEC forwarding plane to create a high-performance IPSEC VPN CNF. \n\nIn general we will look at the benefits of forwarding traffic using VPP rather than the Linux Kernel in terms of:\n1) performance\n2) flexibility\n3) manageability \n\nRoom: H.2214\nScheduled start: 2019-02-02 15:00:00+01"

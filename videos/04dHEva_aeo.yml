@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 title: '2017 Unbreaking reloads: strategies for fast and non-blocking reconfiguration'
 recordingDate: 1508668306
 description: "https://media.ccc.de/c/asg2017/ASG2017-131-unbreaking_reloads_strategies_for_fast_and_non-blocking_reconfiguration\n\n\n\nWhen configuration changes, daemon-reload stops the world in an increasingly unsustainable way. The problem is getting worse for two reasons: (1) heavier use of systemd means more units and longer reload times and (2) expanded use of socket activation/D-Bus activation/automount means more things urgently need PID 1's attention. There are ways to fix this up, but we'll need to move away from stopping the world (the main event loop), throwing out most loaded state, reloading state, and then resuming event handling.\n\n\n\nDavid Strauss"

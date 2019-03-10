@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 title: 'Stavros Aronis - Concuerror: Into Real Code'
 recordingDate: 1407244036
 description: "Debugging race conditions in concurrent programs is sometimes a sad story. There is lament about how difficult it is to reproduce the bug, a lot of guessing about the causes and maybe even some proposed fixes that \"may or may not completely solve the problem\". Concuerror is a tool whose vision is to make the process of isolating such problems easy: simply specify the entry point of your test and let the tool automatically instrument all the code and explore all interleavings of the processes, focusing smartly on pairs of \"racing\" events and even popping hints about what you can do to optimize the search. If a process crashes, Concuerror will then give you a detailed log of the events that lead up to the crash.\nYou may have already seen one of Kostis' tutorials or demos on how to use Concuerror with small toy programs; in this talk you will see how Concuerror is crawling through a real program and learn all the knobs, bells and whistles that you can use to apply its analysis efficiently on your own code.\n\nTalk objectives: This talk's goal is to convince you that isolating concurrency bugs is trivial, with Concuerror\n\nTarget audience: Erlang testers"

@@ -1,10 +1,10 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - devops
     - architecture
-title: 'DevOps'' Swiss Army knife for the BEAM by Csaba Hoch, ViktÃ³ria FÃ¶rdÅ‘s'
+title: 'DevOps'' Swiss Army knife for the BEAM by Csaba Hoch, Viktória Förd?s'
 language: English
 recordingDate: 1474453542
 description: "Slides and more info: http://www.erlang-factory.com/euc2016/csaba-hoch\n\nErlang/OTP provides a rich platform that allows you to build, test, deploy and maintain distributed Erlang systems. What Erlang/OTP lacks are the runtime tools that are still usable in case of distributed Erlang systems. The built-in tools are real Swiss Army knives in the event of an ongoing outage once you have figured out a way to use them on a remote node (and have installed all dependencies). \n\nIn this talk we give insight into the existing tools (etop, redbug, etc.) and highlight their strengths and weaknesses. We will show you how innocent looking commands (e.g. calling io:format/2 or tracing with redbug) can kill a node. \n\nWorking with popular tools, we have realised that these tools should be reshaped to meet today's requirements such as ease of use and safety. Therefore, we extended the architecture of WombatOAM, an operation and maintenance tool for systems running on the BEAM virtual machine, to enable the wide variety of tools we wanted to support. We present this architecture, which is feature-driven, distributed and generic enough to drive the next generation of runtime tools.\n\nTalk objectives:\n\n    Discover the capabilities of Erlang specific runtime tools.\n    Learn how to convert chaos into an architecture design. \n    Explore a feature-driven distributed architecture."

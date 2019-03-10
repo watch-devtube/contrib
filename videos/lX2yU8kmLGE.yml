@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - cloud
     - java
@@ -8,4 +8,4 @@ tags:
 title: 'Service Discovery more than it seems (Alexander Tarasov, Software Engineer at OK.ru)'
 language: Russian
 recordingDate: 1504531811
-description: "There is a problem of finding the best instance of a service in dstributed systems with dynamic configuration.\n\nNowadays, there are many products for the configuration storage and service discovery. It should be mentioned at least Netflix Eureka, Consul, etcd or good old Zookeeper. These products can keep and give configuration, manage service instances lifecycle and some of them even can be as dynamic DNS service. But main question is not about what instance may be called at the certain time. It is about what instance is better for call? This means that smart load balancing top on service discovery is required.\n\nSpring Cloud project allows to integrate these products to your project and provides powerful solutions for typical problems, that make cloud native services developing easier.\n\nThis talk will review the internal structure of SpringCloud implementation of Client-Side Service Discovery and Client Load Balancing patterns. It also will include specific details of concrete implementations with examples from official libraries and the authorâ€™s own library."
+description: "There is a problem of finding the best instance of a service in dstributed systems with dynamic configuration.\n\nNowadays, there are many products for the configuration storage and service discovery. It should be mentioned at least Netflix Eureka, Consul, etcd or good old Zookeeper. These products can keep and give configuration, manage service instances lifecycle and some of them even can be as dynamic DNS service. But main question is not about what instance may be called at the certain time. It is about what instance is better for call? This means that smart load balancing top on service discovery is required.\n\nSpring Cloud project allows to integrate these products to your project and provides powerful solutions for typical problems, that make cloud native services developing easier.\n\nThis talk will review the internal structure of SpringCloud implementation of Client-Side Service Discovery and Client Load Balancing patterns. It also will include specific details of concrete implementations with examples from official libraries and the author’s own library."

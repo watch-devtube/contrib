@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - ml
     - tensorflow
@@ -11,4 +11,4 @@ tags:
 title: 'Auto-scalable microservices for Machine Learning @ UnifyID'
 language: English
 recordingDate: 1494276104
-description: "Lef Ioannidis - Principal Engineer, UnifyID\r \r In this talk weÌ¢âÂã¢ll show how weÌ¢âÂã¢re scaling our Machine Learning back-end at UnifyID, capable of servicing 1+ million users, requiring both CPU, but mostly GPU intensive Neural Network computations. WeÌ¢âÂã¢ll be demonstrating how we are running containers on EC2 GPU instances and how we have tackled some problems often seen when deploying Machine Learning clusters in production. Issues addressed include but not limited to: Horizontal scaling using GPU information from NVML. Leveraging multiple APIs for ML (TensorFlow, Caffe, Torch) by creating a uniform API for ML microservices. Running unreliable, academic quality ML code reliably in production. This is how the talk will progress; We will start by discussing the design of our auto-scalable ML back-end and the issues we tried to address. Then we will present our uniform, open-source API for Machine Learning microservices, which is available on DockerHub. Then weÌ¢âÂã¢ll discuss why GPU horizontal scaling is still unavailable for Kubernetes and Mesos. Finally we will present our in-house built auto-scaler which works based on GPU information from NVML."
+description: "Lef Ioannidis - Principal Engineer, UnifyID\r \r In this talk we̢?��?�ll show how we̢?��?�re scaling our Machine Learning back-end at UnifyID, capable of servicing 1+ million users, requiring both CPU, but mostly GPU intensive Neural Network computations. We̢?��?�ll be demonstrating how we are running containers on EC2 GPU instances and how we have tackled some problems often seen when deploying Machine Learning clusters in production. Issues addressed include but not limited to: Horizontal scaling using GPU information from NVML. Leveraging multiple APIs for ML (TensorFlow, Caffe, Torch) by creating a uniform API for ML microservices. Running unreliable, academic quality ML code reliably in production. This is how the talk will progress; We will start by discussing the design of our auto-scalable ML back-end and the issues we tried to address. Then we will present our uniform, open-source API for Machine Learning microservices, which is available on DockerHub. Then we̢?��?�ll discuss why GPU horizontal scaling is still unavailable for Kubernetes and Mesos. Finally we will present our in-house built auto-scaler which works based on GPU information from NVML."

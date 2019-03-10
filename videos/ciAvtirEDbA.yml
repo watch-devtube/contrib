@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - api
     - rest
@@ -11,4 +11,4 @@ tags:
 title: 'A Materialization Engine for Data Integration with Flink - Mihail Vieru (Zalando)'
 language: English
 recordingDate: 1505382338
-description: "Flink Forward Berlin, September 2017 #flinkforward\n\nMihail Vieru, Big Data Engineer at Zalando\n\nIn Zalando's microservice architecture, each service continuously generates streams of events for the purposes of inter-service communication or data integration. Some of these events describe business processes, e.g. a customer has placed an order or a parcel has been shipped. Out of this, the need to materialize event streams from the central event bus into persistent cloud storage evolved. The temporarily persisted data is then integrated into our relational data warehouse. In this talk we present a materialization engine backed by Apache Flink. We show how we employ Flinkâ€™s RESTful API, custom accumulators and stoppable sources to provide another API abstraction layer for deploying, monitoring and controlling our materialization jobs. Our jobs compact event streams depending on event properties and transform their complex JSON structures into flat files for easier integration into the data warehouse.\n\nhttps://www.slideshare.net/FlinkForward/flink-forward-berlin-2017-mihail-vieru-a-materialization-engine-for-data-integration-with-flink\n\nhttps://data-artisans.com/"
+description: "Flink Forward Berlin, September 2017 #flinkforward\n\nMihail Vieru, Big Data Engineer at Zalando\n\nIn Zalando's microservice architecture, each service continuously generates streams of events for the purposes of inter-service communication or data integration. Some of these events describe business processes, e.g. a customer has placed an order or a parcel has been shipped. Out of this, the need to materialize event streams from the central event bus into persistent cloud storage evolved. The temporarily persisted data is then integrated into our relational data warehouse. In this talk we present a materialization engine backed by Apache Flink. We show how we employ Flink’s RESTful API, custom accumulators and stoppable sources to provide another API abstraction layer for deploying, monitoring and controlling our materialization jobs. Our jobs compact event streams depending on event properties and transform their complex JSON structures into flat files for easier integration into the data warehouse.\n\nhttps://www.slideshare.net/FlinkForward/flink-forward-berlin-2017-mihail-vieru-a-materialization-engine-for-data-integration-with-flink\n\nhttps://data-artisans.com/"

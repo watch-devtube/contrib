@@ -1,11 +1,11 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - unix
     - mobile
     - architecture
-title: 'Complex cameras are (were?) complex How to make complex cameras easier: an update from the Libcamerâ€¦'
+title: 'Complex cameras are (were?) complex How to make complex cameras easier: an update from the Libcamer…'
 language: English
 recordingDate: 1549739218
 description: "Complex cameras are (were?) complex How to make complex cameras easier: an update from the Libcamera project\nby Jacopo Mondi\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.401/cameras.webm\n\n\nThe 'complex camera' user-space library is a fairly new and hot topic\nin the Linux kernel video community. The issue is debated and targets\na real technical debt of Linux systems. Device producers have been\ntackling this with in-house solutions that proved not to scale once\nbrought in the open space, so a generic solution is now required to\naddress the issue. The Linux kernel video input subsystem and its APIs changed greatly in\nthe last years to keep up with the increasing complexity and\nprocessing power embedded in modern SoCs. Namely, the biggest\ngame-changing feature introduced already 5 years ago is the media controller\nsubsystem and its pad oriented APIs, that allows composing pipelines\nof processing blocks to model the acquisition and re-processing of\nvideo and images. \n\nWhile most of the media subsystem drivers in mainline Linux have been\nported to fully support media-controller, the real missing component\nis now user space support to automate setting up and controlling the\nimage processing pipelines. \n\nThe Video4Linux community is now tackling the issue by implementing\nsupport for \"complex camera\" systems by providing a user space library\nthat aims to support the most recent use cases represented by mobile\nconsumer devices and high end laptops. \n\nThis talks provides an overview of modern media-controller capable video\ndevice drivers, their userspace APIs and the challenges the currently\nin-development \"libcamera\" library has to face. \n\nIt also aims to provide to both driver and application developers an\noverview of the most modern implementation of the Linux video input\nstack architecture, that will likely be found in most system in next\nyears. \n\nRoom: K.4.401\nScheduled start: 2019-02-02 13:30:00+01"

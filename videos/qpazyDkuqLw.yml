@@ -1,13 +1,13 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - unix
     - security
     - 'code design'
     - architecture
     - functional
-title: 'A microkernel written in Rust: Porting the UNIX-like Redox OS to Armv8 A case study of Rust as a laâ€¦'
+title: 'A microkernel written in Rust: Porting the UNIX-like Redox OS to Armv8 A case study of Rust as a la…'
 language: English
 recordingDate: 1550135400
 description: "A microkernel written in Rust: Porting the UNIX-like Redox OS to Armv8 A case study of Rust as a language for writing microkernel based compositions\nby Robin Randhawa\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/AW1.121/microkernel_written_in_rust.webm\n\n\nThis talk is about my experiences porting the Rust language based Redox OS stack to the Arm v8 architecture. The talk uses this theme to discuss the general importance of microkernel architecture in safety critical domains, the trends I've seen in safety themed system design - especially around the Arm architecture, the viability of the Rust language for safety themed system software construction and the design of the Redox OS stack - a stack written in Rust on top of the Redox microkernel. I work at Arm on safety critical software architecture. My area of interest is at the intersection of operating system architecture, safety focused programming models and safety themed extensions to the Arm architecture. \n\nMicrokernels are a justifiably popular design choice in safety critical domains with most of the dominant OS' in the proprietary realm being microkernel implementations. \n\nRust is a modern systems programming language with features that assist with safe software development. Rust focuses on memory safety, especially in concurrent execution scenarios and presents functional and imperative design patterns - traditionally the domain of very high level interpreted languages - in an accessible form to system software programmers. \n\nThe Redox OS is a UNIX like operating system with a microkernel core - all written in Rust. \n\nWith version 8 of the Arm architecture, Arm became 64-bit capable. The Arm architecture has continued to evolve with new safety and security themed extensions being added such as hardware support for memory tagging, pointer authentication and others. \n\nI wanted to test the claims made by the Rust language community about the safety centric properties of Rust. I also wanted to explore how microkernel design can leverage the evolving Arm architecture. \n\nPorting Redox OS to Arm v8 presented me with an opportunity to explore all of the above. \n\nIn this talk, I would like to share my experiences of the above while describing the design of Redox OS. \n\nRoom: AW1.121\nScheduled start: 2019-02-03 11:10:00+01"

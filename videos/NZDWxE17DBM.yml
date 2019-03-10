@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - storage
     - redis
@@ -10,7 +10,7 @@ tags:
     - aws
     - architecture
     - javascript
-title: 'microXchg 2018 - CQRS and Event Sourcing in the AWS Cloud - Gunnar Wrobel, Sven SchrÃ¶der'
+title: 'microXchg 2018 - CQRS and Event Sourcing in the AWS Cloud - Gunnar Wrobel, Sven Schröder'
 language: English
 recordingDate: 1522479723
 description: "The architectural pattern of Command and Query Responsibility Segregation (CQRS) and Event Sourcing segregates write (command) and read (query) operations. This splits structures typically lumped together in architectures built on top of read/write databases. Developers can easily run the rather small parts resulting from such a split within light weight cloud based functions.\n\nWithin the JobMatchMe startup we build such a CQRS/Event Sourced system based on building blocks provided by the Amazon Cloud (AWS). Core elements are JavaScript based Lambda functions that connect with a DynamoDB database as the event store and prepare or present event projections via a fast redis cache.\n\nThe talk will detail why the rapid conquering of the core business domain tackled by our startup and the machine learning behind our matching platform made CQRS and Event Sourcing look like a reasonable choice. The resulting system demonstrated an extreme resilience with regards to the changes required to go along with our increasing knowledge of our domain. At the same time the system has been extremely low cost from a financial point of view. But as no architectural choice comes without costs this retrospective of our current implementation provides not only a view on the benefits earned but also the drawbacks we experienced or foresee.\n\nThe talk will also detail the core technical choices made. In addition it will provide some guidelines to replicate our approach in your own implementation of a CQRS/Event Sourced system on AWS if you choose to do so."

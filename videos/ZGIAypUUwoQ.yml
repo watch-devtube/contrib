@@ -1,11 +1,11 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - 'distributed systems'
     - storage
     - performance
-title: '"WhenÂ "Worst"Â is Best (in Distributed Systems)" by Peter Bailis'
+title: '"When "Worst" is Best (in Distributed Systems)" by Peter Bailis'
 language: English
 recordingDate: 1443287254
 description: "In many areas of systems design, provisioning for worst-case behavior (e.g., load spikes and anomalous user activity) incurs sizable penalties (e.g., performance and operational overheads) in the typical and best cases. However, in distributed systems, building software that is resilient to worse-case network behavior can -- perhaps paradoxically -- lead to improved behavior in typical and best-case scenarios. That is, systems that don't rely on synchronous communication (or coordination) in the worst case frequently aren't forced to wait in any case -- improving latency, scalability, and performance via increased concurrency.\n\nIn this talk, we'll explore how to use this worst-case analysis as a more general design principle for scalable systems design. As developers increasingly interacting with and building our own distributed systems, we tend to fixate only on failure scenarios (e.g., \"partition tolerance\" in the CAP Theorem); this is an important first step, but it's not the whole story. To illustrate why, I'll present practical lessons learned from applying this principle to both web and transaction processing applications as well as database internals such as integrity constraints and indexes. We've found considerable evidence that many of these common tasks and workloads can benefit substantially (e.g., regular order-of-magnitude speedups) from this analysis. In all likelihood, you can too.\n\nPeter Bailis\nUC BERKELEY\n@pbailis\n\nPeter Bailis is a final-year Ph.D. candidate at UC Berkeley working in databases and distributed systems. As part of his dissertation work, he has studied and built high performance distributed data management systems for large scale transaction processing, data serving, and statistical analytics in the AMPLab and BOOM projects under the advisement of Joseph M. Hellerstein, Ali Ghodsi, and Ion Stoica. He is the recipient of the NSF Graduate Research Fellowship, the Berkeley Fellowship for Graduate Study, and best-of-conference citations for research appearing in both SIGMOD and VLDB. He received his A.B. in Computer Science from Harvard College in 2011, where he also received the CRA Outstanding Undergraduate Researcher Award."

@@ -1,10 +1,10 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - unix
     - cloud
     - security
-title: 'securely backing up gpg private keys.. to the cloud‽'
+title: 'securely backing up gpg private keys.. to the cloud?'
 recordingDate: 1484829928
 description: "Joey Hess\nhttp://linux.conf.au/schedule/presentation/152/\nImagine a world in which gpg was not hard to use, and was used widely. Users exchange encrypted email, gpg sign comments on websites, make encrypted backups, and so on.\r\n\r\nWhat happens, in that world, when a user's gpg private key gets deleted? The only backup is encrypted with the lost private key. Catch 22.\r\n\r\nWe're not in that world, and so we don't often worry about this problem. Unless we've lost gpg key ourselves. But solving the gpg key backup problem seems a necessary step in the path toward that world.\r\n\r\nMost ways to back up gpg private keys require physical security, like a safe to keep the key in, and often cumbersome backup and restore procedures.\r\n\r\nKeysafe makes backup and restore easy, by backing the private key up to the cloud. It necessarily trades off some security to do so, but manages to make it very expensive to compromise its backups. I'll explain how Argon2, Shamir Secret Sharing, relatively weak passwords, and AES decryption puzzles are combined in keysafe to accomplish this."

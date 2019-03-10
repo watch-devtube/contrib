@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - storage
-title: 'MariaDB and MySQL â€” what statistics optimizer needs or when and how not to use indexes'
+title: 'MariaDB and MySQL — what statistics optimizer needs or when and how not to use indexes'
 language: English
 recordingDate: 1549999453
 description: "by Sergei Golubchik\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.118/stats_optimizer.webm\n\n\nWhen your SQL query reaches the DBMS, it's the optimizer job to decide how to execute it for you to get the result as fast as possible. To make this decision optimizer can examine the actual table data, but with multi giga- and terabyte tables, the only practical solution is to use various data statistics that was collected in advance. The better the statistics is and the more precisely it describes the actual data, the faster the plan will be, because optimizer image of the reality will be closer to the actual reality. \n\nIn this talk you'll learn what data statistics MariaDB and MySQL can collect, what statements do that, how to tell the optimizer to use it (it won't necessarily do it automatically!) and how it can make your queries many times faster. \n\nAnd, of course, when not to use indexes, when up-to-date statistics is enough. \n\nRoom: UA2.118 (Henriot)\nScheduled start: 2019-02-02 15:10:00+01"

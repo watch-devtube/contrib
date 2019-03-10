@@ -1,7 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
-title: '#bbuzz 2018: Rui Vieira â€“ Building your own Distributed Streaming Recommendation Engine'
+
+title: '#bbuzz 2018: Rui Vieira – Building your own Distributed Streaming Recommendation Engine'
 language: English
 recordingDate: 1529331718
 description: "Further information: https://berlinbuzzwords.de/18/session/building-your-own-distributed-streaming-recommendation-engine\n\nSession abstract: \nCollaborative filtering is a well known method to implement recommendation engines. Although modern techniques, such as Alternating Least Squares (ALS), allow us to perform product rating predictions with large amounts of observations, typically ALS is implemented as a (distributed) batch algorithm where retraining must be performed with the entirety of the data. However, in scenarios where we have large amounts of data arriving as stream, batch retraining might be problematic. In this talk Rui will guide us in building a distributed streaming ALS implementation based on Stochastic Gradient Descent, where model training can be performed using the observations as they arrive. The advantages of real-time streaming collaborative filtering will be discussed as well as the scenarios where batch ALS might be preferable."

@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - architecture
-title: 'Tailflow - An Openflow Controller Framework - TorbjÃ¶rn TÃ¶rnkvist'
+title: 'Tailflow - An Openflow Controller Framework - Torbjörn Törnkvist'
 language: English
 recordingDate: 1401375210
 description: "Tail-f's Network Control System (NCS) supports programming of network services on both traditional networks and Openflow networks. Tailflow is the part of NCS that supports Openflow. Inspired by the 20 year old ideas around micro-protocols, Tailflow introduces a concept called the 'flowlet'. Each flowlet encapsulates  some minimum amount of logic in order to make it composable and easy to understand. By stacking flowlets on top of each other, the full functionality of an Openflow device is constructed, may it be an ordinary learning switch or a more complex NAT/FW device or, in principle, any other kind of networking device.\n\nThis talk will describe the architecture of Tailflow and show how we, by using OpenVSwitch, created a simulated Data Center with many server racks, each server running many VMs. A Layer-2 virtual network is implemented as well as a NAT/FW for public access, all controlled by a Tailflow application.\n\nTalk objectives: Describe an approach for constructing Openflow control software."

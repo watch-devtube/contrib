@@ -1,11 +1,11 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - web
     - react
     - architecture
-title: 'Reactive Equations - AndrÃ© Bergner - Meeting C++ 2017'
+title: 'Reactive Equations - André Bergner - Meeting C++ 2017'
 language: English
 recordingDate: 1517489143
 description: "Details: https://github.com/andre-bergner/zignal/tree/master/reactive_equations\n\nA common problem is to map a set of input values to a set of output values, whereas when one or more of the input values change, all dependent output or intermediate values have to be updated accordingly. For instance, consider a radius and angle pair that has to be mapped to Cartesian x,y coordinates but with some temporary sin/cos computation that would only need to be updated when the angle changes but not when the radius changes. Handling these kind of dependencies for a larger set of input/output values is usually quite tedious and error-prone.\n\nIn QML, for instance, all properties that are declared in a script are reactive, i.e. whenever a property changes all dependent properties update magically, the react on the change. Building something similar within C++ requires some sort of special type that keeps track of all its usages through some internal vector of callbacks. When it changes it signals all listeners about the change which then would need to re-evaluate.\n\nMy goal is to have a similar mechanism within C++ but entirely defined at compile time in order to not have the overhead of signals that would induce heap allocations and non-inline-able indirections even when the equation structure does not change at runtime.\n\nIn the main part of the talk will discuss how this can be achieved. I will outline the architecture of the problem, the constraints, I will talk about meta-programming techniques, such as compile time algorithms for maps and sets as well as expression templates which are requires to build the dependency graph. I will show some benchmarks and assembly code, of course ;)"

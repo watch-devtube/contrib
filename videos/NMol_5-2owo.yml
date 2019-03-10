@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - performance
     - containers
@@ -9,7 +9,7 @@ tags:
     - lisp
     - scala
     - functional
-title: 'The most valuable values - Juanpe BolÃ­var - Meeting C++ 2017'
+title: 'The most valuable values - Juanpe Bolívar - Meeting C++ 2017'
 language: English
 recordingDate: 1519213367
 description: "Immer: immutable data structures\nhttps://sinusoid.es/immer\nEwig: a text editor with an immutable data model \nhttps://github.com/arximboldi/ewig\n\nThe modern C++ community puts a strong emphasis on value semantics. We have learnt to build types and algorithms thinking in terms of values, their properties, and relationships.  However, when it gets to the architecture of big software, we end up growing ad-hoc webs of mutable objects that perform poorly and are hard to understand, debug and maintain.\n\nIn this talk, we will learn how to use value semantics where it matters most: for the big components of our system!\n\nWe will present Immer, a very efficient library of persistent immutable data structures. These containers don't change their values, the are manipulated by producing new values. The old values remain there and can be read safely from multiple threads without locks. New and old values share common data---they are fast to compare and use little memory. As such, they are great for concurrent and interactive systems: they simplify the architecture of desktop software and allow servers to scale better. They are the secret sauce behind the success of Clojure or Scala and even the JavaScript crowd is loving it via Facebook's Immutable.js.\n\nThen we will put these tools into practice to build a text-editor, discussing its design and digging into code.  We will show how striking simplicity that does not compromise performance.  Don't believe it? Come and see!\n\nLinks:\n\n    Immer: immutable data structures | https://sinusoid.es/immer\n    Ewig: a text editor with an immutable data model | https://github.com/arximboldi/ewig"

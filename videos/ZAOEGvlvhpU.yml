@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - storage
     - cloud
-title: 'Refuge: Build a Decentralized Data Platform - BenoÃ®t Chesneau'
+title: 'Refuge: Build a Decentralized Data Platform - Benoît Chesneau'
 recordingDate: 1367323423
 description: "Erlang Factory SF Bay Area 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/SFBay2013/talks\n\nThe Refuge project aims to build a decentralized and open-source data platform allowing you to share, manipulate and link any kind of data.  \n\nThis talk will highlight different features of the refuge platform\nbuilt in Erlang, how we did them and why using Erlang for them:\n\n- coffer: a blob server able to store the data on different backends (FS, S3, Cloud files, ...)\n- blanket: a document-oriented database library able to use different backends (couch_btree obviously but also eleveldb, bitcask, hanoidb, ...)\n- beacon: the layer that handles the data nodes discovery (P2P) and different levels of trusts and authentication.\n- postie: the message processing system that promotes distributed and decentralized topologies without single point of failures (pretty similar to nsq but in Erlang)"

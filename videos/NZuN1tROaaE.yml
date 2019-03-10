@@ -1,13 +1,13 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - mobile
     - android
     - security
     - architecture
     - javascript
-title: 'Retroshare JSON API Making libRetroshare a generic service for decentralized and private communicatâ€¦'
+title: 'Retroshare JSON API Making libRetroshare a generic service for decentralized and private communicat…'
 language: English
 recordingDate: 1550000057
 description: "Retroshare JSON API Making libRetroshare a generic service for decentralized and private communication\nby Gioacchino Mazzurco\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UD2.218A/retroshare_json.webm\n\n\nRetroShare is a platform that allows users to create a fully decentralized network with a high level of security, privacy and confidentiality.\nIt offers a unique combination of features (File transfer, publishing channels, forums, distributed chat, asynchronous email,...) that\nprovide users lots of ways to interact. Its generic nature allows to create new services based on an existing cryptographic and networking backend. \n\nThe presentation will start with a short overview of the RetroShare software and motivate the need for a JSON API to safely access the features offered by the core of the software.\nOur JSON API, to be released in December 2018, uses clever techniques to automatically generate handles from existing code based on Doxygen capabilities as well as a very compact serialization technique.\nWe will explore the potential of the JSON API with concrete examples including the --preliminary-- web interface and Android RetroShare clients.\nFinally, a call to  developers will be made, based on generic examples, while proposing  multiple ideas of distributed services to be developed on top of it. The detailed plan for the presentation will be the following.\nEach line indicates the approximate time duration and number of slides.\nThe presentation is tuned to approximately 20 mins. \n\nOverview of the Retroshare platform \n\n\nServices offered by the application (FT, channels, forums, identities, etc)\nArchitecture (libretroshare + Qt UI, main components)\nMotivation for a JSON API (use of RetroShare as a background library for decentralized communication, Android client, web interface, getting rid of old UI...)\n\n\n\nThe JSON API \n\n\nAutomated serialization\nAutomated JSON API code stub generation\nInteraction, syntax\nAuthentication\n\n\n\nConcrete examples \n\n\nRetroShare's new web interface\nExperimental mobile chat app based on RetroShare JSON API\nElRepo.io App based on RetroShare JSON API\n\n\n\nCall for contributions \n\n\nideas of applications\nconclusion and contacts\n\n\n\nSlides available at https://gitlab.com/RetroShare/presentation-retroshare-json-api-fosdem2019-reveal.js \n\nRoom: UD2.218A\nScheduled start: 2019-02-02 13:00:00+01"

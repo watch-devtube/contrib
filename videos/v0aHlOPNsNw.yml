@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - craftsmanship
-title: 'Free the Conqueror! (Refactoring divide-and-conquer functions) - Tam√°s Kozsik (Lambda Days 2017)'
+title: 'Free the Conqueror! (Refactoring divide-and-conquer functions) - Tam·s Kozsik (Lambda Days 2017)'
 language: English
 recordingDate: 1489752091
-description: "http://www.lambdadays.org/lambdadays2017/tamas-kozsik\n\nFunctions implementing divide-and-conquer algorithms are good candidates for parallelization. Their identifying property is that such a function divides its input into ‚Äúsmaller‚Äù chunks, calls itself recursively on these smaller chunks, and combines the outputs into one. Last year I gave a talk on how such functions can be identified by static source code analysis. This year I explain how divide-and-conquer functions can be transformed with a refactoring tool into a parallel equivalent. Tool-based refactoring is a safe process: we apply a sequence of semantics preserving transformations, so we do not need to worry about breaking the code. I present a number of useful transformations, implemented (or currently being implemented) in RefactorErl, a refactoring tool for Erlang."
+description: "http://www.lambdadays.org/lambdadays2017/tamas-kozsik\n\nFunctions implementing divide-and-conquer algorithms are good candidates for parallelization. Their identifying property is that such a function divides its input into ìsmallerî chunks, calls itself recursively on these smaller chunks, and combines the outputs into one. Last year I gave a talk on how such functions can be identified by static source code analysis. This year I explain how divide-and-conquer functions can be transformed with a refactoring tool into a parallel equivalent. Tool-based refactoring is a safe process: we apply a sequence of semantics preserving transformations, so we do not need to worry about breaking the code. I present a number of useful transformations, implemented (or currently being implemented) in RefactorErl, a refactoring tool for Erlang."

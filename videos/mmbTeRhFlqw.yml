@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - containers
     - kubernetes
@@ -8,4 +8,4 @@ tags:
 title: 'Rootless Kubernetes Running Kubernetes and CRI/OCI Runtimes as an unprivileged user'
 language: English
 recordingDate: 1549912620
-description: "by Akihiro Suda and Giuseppe Scrivano\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.114/containers_k8s_rootless.webm\n\n\nKubernetes supports several security mechanisms such as Seccomp, Apparmor, SELinux, and runAsUser for protecting the hosts from container-breakout attacks. However, these mechanisms are not sufficient for the security demand because Kubelet and CRI/OCI runtimes require the root privileges on the hosts, and these components are seriously bug-prone. The dependency on the root privileges has been also problematic for promoting Kubernetes to the HPC world, where users are often disallowed to install software as the root. \n\nIn this talk, Akihiro and Giuseppe will show the communityâ€™s ongoing work for making Kubernetes deployable and runnable as a non-root user, by using User Namespaces. The main topics of discussion will be UID/GID mapping, unprivileged Copy-on-Write filesystems, Usermode networking (Slirp), and Cgroups. \n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2019-02-03 14:40:00+01"
+description: "by Akihiro Suda and Giuseppe Scrivano\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.114/containers_k8s_rootless.webm\n\n\nKubernetes supports several security mechanisms such as Seccomp, Apparmor, SELinux, and runAsUser for protecting the hosts from container-breakout attacks. However, these mechanisms are not sufficient for the security demand because Kubelet and CRI/OCI runtimes require the root privileges on the hosts, and these components are seriously bug-prone. The dependency on the root privileges has been also problematic for promoting Kubernetes to the HPC world, where users are often disallowed to install software as the root. \n\nIn this talk, Akihiro and Giuseppe will show the community’s ongoing work for making Kubernetes deployable and runnable as a non-root user, by using User Namespaces. The main topics of discussion will be UID/GID mapping, unprivileged Copy-on-Write filesystems, Usermode networking (Slirp), and Cgroups. \n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2019-02-03 14:40:00+01"

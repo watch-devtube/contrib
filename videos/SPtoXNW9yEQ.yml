@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 title: 'Netmap: A Novel Framework for High Speed Packet I/O'
 recordingDate: 1313716740
 description: "Google Tech Talk (more info below)\r\nAugust 8, 2011\r\n\r\nPresented by Luigi Rizzo, Universita` di Pisa\r\n\r\nABSTRACT\r\n\r\nSoftware packet processing at line rate is problematic both in userspace and within the kernel, due to the cost of managing in-kernel metadata, and system calls/and data copy overhead.\r\n\r\nWe present a novel framework, called netmap, that solves these challenges by integrating and extending good ideas from existing proposals.  With netmap, it takes as little as 70 clock cycles to move one packet between the wire and userspace processes -- more than 10 times faster than existing APIs.  As an example, a single core running at 900MHz can generate the 14.8Mpps that saturate a 10GigE interface.  This efficiency is an enabling factor for doing high speed packet processing within the safe and feature-rich user space environment provided by modern operating systems.\r\n\r\nIn the talk we will present netmap and its internals, explain why it is efficient yet safe and easy to use, and report our experience in developing and porting applications to the new API -- a task made easy by the existence of a pcap compatibility library.\r\n\r\nnetmap is available on FreeBSD -- work supported by EU FP7 Project \"CHANGE\"\r\n\r\nURL     http://info.iet.unipi.it/~luigi/netmap/"

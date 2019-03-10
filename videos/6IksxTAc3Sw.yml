@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - containers
     - kubernetes
@@ -9,4 +9,4 @@ speaker:
     twitter: xeraa
 title: 'Centralized Logging Patterns by Philipp Krenn'
 recordingDate: 1550058155
-description: "Most organizations feel the need to centralize their logs  once you have more than a couple of systems, SSH and tail will not serve you well any more. This talk presents multiple approaches and patterns with their advantages and disadvantages:\n\nParse: Take the log files of your applications and extract the relevant pieces of information.\nSend: Add a log appender to send out your events directly without persisting them to a log file.\nStructure: Write your events in a structured file, which you can then centralize.\nContainerize: Keep track of short lived containers and configure their logging correctly. Orchestrate: Stay on top of your logs even when services are short lived and dynamically allocated on Kubernetes."
+description: "Most organizations feel the need to centralize their logs ? once you have more than a couple of systems, SSH and tail will not serve you well any more. This talk presents multiple approaches and patterns with their advantages and disadvantages:\n\nParse: Take the log files of your applications and extract the relevant pieces of information.\nSend: Add a log appender to send out your events directly without persisting them to a log file.\nStructure: Write your events in a structured file, which you can then centralize.\nContainerize: Keep track of short lived containers and configure their logging correctly. Orchestrate: Stay on top of your logs even when services are short lived and dynamically allocated on Kubernetes."

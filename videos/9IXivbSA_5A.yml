@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - c++
 title: 'True parallelism, with no concept of threads - Alfred Bratterud - Meeting C++ 2017'
 language: English
 recordingDate: 1517578413
-description: 'Fibers, green threads, channels, lightweight processes, coroutines, pthreads - there are lots of options for parallelism abstractions. But what do you do if you just want your application to run a specific task on a specific core on your machine? In IncludeOS we have proper multicore support allowing you to do just that in C++: assign a task - for instance a lambda - directly to an available CPU. It will run uninterrupted by context switches or meddling schedulers optimized to please everyone. In this talk weâ€™ll show you how we use CPU cores to do things like TLS decryption under heavy load and handle individual TCP connections. Weâ€™ll also explore how direct per-core processing can be combined with threading concepts like C++14 fibers or coroutines, without taking away from the simplicity of getting work done uninterrupted.'
+description: 'Fibers, green threads, channels, lightweight processes, coroutines, pthreads - there are lots of options for parallelism abstractions. But what do you do if you just want your application to run a specific task on a specific core on your machine? In IncludeOS we have proper multicore support allowing you to do just that in C++: assign a task - for instance a lambda - directly to an available CPU. It will run uninterrupted by context switches or meddling schedulers optimized to please everyone. In this talk we’ll show you how we use CPU cores to do things like TLS decryption under heavy load and handle individual TCP connections. We’ll also explore how direct per-core processing can be combined with threading concepts like C++14 fibers or coroutines, without taking away from the simplicity of getting work done uninterrupted.'

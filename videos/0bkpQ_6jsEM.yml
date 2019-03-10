@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 title: 'Kexec/Kdump under the hood'
 recordingDate: 1538224994
 description: "https://media.ccc.de/v/ASG2018-169-kexec_kdump_under_the_hood\n\nHow to debug your crashed system\n\nKdump is a vital tool for debugging severe kernel crashes, especially if the failure can't be reproduced easily or an direct access to the system is not possible.\n\n\n\nKdump is a vital tool for debugging severe kernel crashes, especially if the failure can't be reproduced easily or an direct access to the system is not possible.\n\nWhen an sever error happens in the kernel, a new crash kernel get loaded which saves the memory of the crashed system. These dump can be used to analyze the state of the machine and hopefully give insights on what has happened.\n\nThis talks will dive into the internals of kexec and kdump. How the crash kernel get set-up, how it's execution get triggered. We will also look into kexec-tool, the user-space part needed to set up a system to use kdump. Where necessary, the architectural specific details will be explained by looking at the arm64 implementation. This talk is thought for people who want to have an insight into how kdump is working.\n\nMatthias Brugger\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/169"

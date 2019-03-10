@@ -1,11 +1,11 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - ml
     - performance
     - architecture
-title: '#bbuzz 2018: Robert Rodger â€“ Learned Indexes: a New Idea for Efficient Data Access'
+title: '#bbuzz 2018: Robert Rodger – Learned Indexes: a New Idea for Efficient Data Access'
 language: English
 recordingDate: 1528904402
 description: "Further information: https://berlinbuzzwords.de/18/session/learned-indexes-new-idea-efficient-data-access\n\nSession abstract: \nIndexes are what make efficient access for our data storage systems possible. Though traditionally implemented with highly-optimized tree-based data structures, this past December a group from Google proposed a novel idea: replace certain types of index structures with trained machine learning algorithms. After all, an index is nothing other than a model that maps a key to the position of a record; in this light, exchanging, say, your B-tree search with a deep neural network prediction seems at least possible, if not practical. Surprisingly, doing so can often lead to significant performance improvements, in terms of both time and memory consumption.\n\nIn this talk we discuss how learned indexes accomplish this. We focus on neural networks, and in particular how recent trends in processor architecture design make them computationally competitive against tree search. We then have a look at how machine learning algorithms can be applied to the task of range indexation, how they can deliver error bound guarantees, and how their accuracy can be honed by layering them recursively. We finish with a review of the Google group's results on three realistic datasets and a brief mention of how machine learning can be applied to other indexation tasks."

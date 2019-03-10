@@ -1,7 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
-title: 'Scalable Multi-Language Data Analysis on Beam: The Cuneiform Experience by JÃ¶rgen Brandt'
+
+title: 'Scalable Multi-Language Data Analysis on Beam: The Cuneiform Experience by Jörgen Brandt'
 language: English
 recordingDate: 1474891885
 description: "Slides and more info: http://www.erlang-factory.com/euc2016/jorgen-brandt\n\nThe need to analyze large scientific data sets on the one hand and the availability of distributed compute resources with an increasing number of CPU cores, on the other hand, have promoted the development of a variety of systems for distributed data analysis. Erlang, a language focused on concurrency and asynchronous communication, is a perfect match for orchestrating concurrent, distributed computation. In this talk we discuss the building blocks constituting the distributed execution environment underlying the Cuneiform workflow language. We show how Erlang actors and behaviours can be composed to build a system for concurrently running workloads comprising a large number of independent tasks and accessing large amounts of data through distributed file systems.\n\nCuneiform is a minimal workflow language focused on parallelism and integration. Users create workflows by defining and calling deterministic, side effect-free tasks. The Cuneiform interpreter automatically derives task- and data parallelism in a workflow. Tasks can be defined in any given programming language. Thus, external tools and libraries can be integrated with minimal effort. We demonstrate how workflows integrating external libraries from the bioinformatics domain are specified in Cuneiform and how parallel execution takes place on the Erlang VM orchestrating distributed compute resources and file systems."

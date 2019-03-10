@@ -1,13 +1,13 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - storage
     - performance
     - mobile
     - android
     - java
-title: 'Reflection No Reflection by Stéphane Nicolas'
+title: 'Reflection No Reflection by St�phane Nicolas'
 language: English
 recordingDate: 1447308043
-description: "On Android, many applications rely on the Java Reflection API. For instance, all data driven apps get data from the network, save data in your local cache files / databases. And most of the libraries used to simplify those tasks will use reflection in their core.\n\nUnfortunately, Reflection is slow on Android due to limitations of Dalvik and Art. The usual workaround is to write annotation processors and replace Reflection by generated code. But, it comes with a price : all the robust and mature libs from Java can't be reused and must be rewritten, often in a degraded, simpler version. And the annotation processor API is quite tricky, leaving this work to a handful of expert coders.\n\nIn this talk, we will demonstrate a new approach using the Reflection No Reflection (RNЯ). This new technology provides a much faster access to reflection data, while maintaining compatibility with the Reflection API. Using this technique, any library can swap out use of the Reflection API with this interface-compatible implementation to achieve greater performance."
+description: "On Android, many applications rely on the Java Reflection API. For instance, all data driven apps get data from the network, save data in your local cache files / databases. And most of the libraries used to simplify those tasks will use reflection in their core.\n\nUnfortunately, Reflection is slow on Android due to limitations of Dalvik and Art. The usual workaround is to write annotation processors and replace Reflection by generated code. But, it comes with a price : all the robust and mature libs from Java can't be reused and must be rewritten, often in a degraded, simpler version. And the annotation processor API is quite tricky, leaving this work to a handful of expert coders.\n\nIn this talk, we will demonstrate a new approach using the Reflection No Reflection (RN?). This new technology provides a much faster access to reflection data, while maintaining compatibility with the Reflection API. Using this technique, any library can swap out use of the Reflection API with this interface-compatible implementation to achieve greater performance."

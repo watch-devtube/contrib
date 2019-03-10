@@ -1,13 +1,13 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - api
     - rest
     - web
     - java
     - spring
-title: 'Documenting RESTful APIs with Spring REST Docs and RAML by Mathias DÃ¼sterhÃ¶ft @ Spring I/O 2018'
+title: 'Documenting RESTful APIs with Spring REST Docs and RAML by Mathias Düsterhöft @ Spring I/O 2018'
 language: English
 recordingDate: 1530624137
 description: "Spring I/O 2018 - Barcelona, 24-25 May\n\nSlides: https://speakerdeck.com/mduesterhoeft/documenting-restful-apis-with-spring-rest-docs-and-raml\n\nSpring REST Docs is a great tool to produce documentation for your RESTful services that is accurate and readable.\n\nIt offers support for AsciiDoc and Markdown. This is great for generating simple HTML-based documentation.\n\nBut what if your REST API is a big part of the product you offer? Then static HTML is probably not enough and you have to offer a richer experience for your API consumers.\n\nIn this case, Asciidoctor and Markdown are not ideal - they are markup languages and hard to process further. You are better off with a technical representation of your API - something like RAML.\n\nThe RESTful API Modeling Language (RAML) is a YAML-based language to describe RESTful APIs. Having a RAML representation of your API opens a lot of possibilities. There is a rich ecosystem around it, and of course, you can write your own tools to process your API description.\n\nLet's look at how restdocs-raml (https://github.com/ePages-de/restdocs-raml) can help us to add RAML support to String REST Docs. I will motivate why we built restdocs-raml and give an introduction to the project and RAML in general. We will take an existing project that uses Spring REST Docs and apply restdocs-raml to it. Once we have a RAML description of our API, I will showcase the possibilities that RAML gives you out of the box."

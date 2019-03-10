@@ -1,12 +1,12 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - architecture
     - ruby
     - scala
     - java
-title: 'GOTO 2013 â€¢ Fast but not Loose: Typesafe Clients in a Distributed Service Architecture â€¢ Eric Bowman'
+title: 'GOTO 2013 • Fast but not Loose: Typesafe Clients in a Distributed Service Architecture • Eric Bowman'
 language: English
 recordingDate: 1445940801
 description: "This presentation was recorded at GOTO Aarhus 2013\nhttp://gotocon.com\n\nEric Bowman - Gilt Groupe\n\nABSTRACT\nGilt Groupe is an innovative online shopping destination offering its members special access to inspiring merchandise, culinary offerings, and experiences every day, many at insider prices. Every day at noon New York time, Gilt launches dozens of new sales which draw many thousands of visitors to the site, often within the span of a few seconds around noon. As a result, Gilt has some challenging technical & non-functional requirements, and the Architecture Team at Gilt is focused on how to scale Gilt's model to accommodate more sales, more customers, and more people working on the system.\n\nGilt Groupe's service architecture started as Ruby, migrated to the JVM but kept a hashmaps & JSON approach, and then migrated again to a typesafe, futures-based strong client model implemented in Scala. This talk is a retrospective on this journey with particular emphasis on the last approach. What are the benefits of a strong client model? When did it slow down development, and when did it speed it up? How did we handle binary compatibility across hundreds of services (or did we??)? How do we guarantee compatibility across multiple versions of the client stack?  Would we do it this way Again?\n\nhttps://twitter.com/gotocon\nhttps://www.facebook.com/GOTOConference\nhttp://gotocon.com"

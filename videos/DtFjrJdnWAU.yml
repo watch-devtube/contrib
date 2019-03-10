@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - unix
-title: 'How and why (not) to use the 127.0.0.53 nameserver, systemd-resolved and resolvctl Or what is systeâ€¦'
+title: 'How and why (not) to use the 127.0.0.53 nameserver, systemd-resolved and resolvctl Or what is syste…'
 language: English
 recordingDate: 1549740069
 description: "How and why (not) to use the 127.0.0.53 nameserver, systemd-resolved and resolvctl Or what is systemd-resolved and how it is integrated on Ubuntu\nby Dimitri John Ledkov\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.4.601/dns_systemd_resolved.webm\n\n\nResolved is a local, caching, DNS nameserver resolver and is used by default on Ubuntu. This talk's goals is to de-mystify how it works and what it does by default on Ubuntu, and how one can further configure it to either not get in the way, or do even more cool things. We will discuss how it can be used (nss, dbus, over the network, command-line, text-configs) and how to configure it (config files, command line, resolvconf, dbus, networkd, network-manager). We will cover advanced use cases for per-interface nameservers, true split-dns configuration, and optional features such as DNSSEC MDNS Zeroconf. Last we will discuss bugs, DNS violations and diss captive portals. Talk outline \n\n= Fantastic DNS records and where to find them = \n\nDemystifying systemd-resolved and how it is integrated on Ubuntu \n\n== What is systemd-resolved? == \n\n\nLocal, caching nameserver resolver\nNss-module, dbus-interface, command-line tool, networked daemon\nPer-connection nameservers\n\n\n\n== How can one integrate systemd-resolved on the system? == \n\n\nNss\nResolv.conf symlinks\n\n\n\n== How to update resolved nameservers == \n\n\nNetplan.io / NetworkManager / Networkd\nDbus\nSystemd-resolved / Resolvctl\nResolvconf\nRead resolv.conf\n\n\n\n== Ubuntu defaults == \n\n\nThings we do by default\nDivergent defaults from upstream applied\n\n\n\n== Fun stuff == \n\n\nDnssec\nMdns\nZeroconf\nSplit DNS ~\n\n\n\n== Bugs == \n\n\nEdns0 is sad\nCaptive portals are sad\nAbuse of Option 15 for multiple domains\nMDNS taking too long\nDomain-less searches are not forwarded\n\n\n\nRoom: K.4.601\nScheduled start: 2019-02-03 10:10:00+01"

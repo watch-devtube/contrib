@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 title: 'DrupalCon Vienna 2017: Using JSON Web Tokens & Varnish to cache content for logged-in users'
 recordingDate: 1506431038
 description: 'Varnish caching in Drupal isn''t considered an unsolved problem any more: there are a couple of really good Varnish configuration files out there and Drupal modules to invalidate the cache. But once we start working with logged-in users, all bets are off. In this presentation, I''ll show you how JSON Web Tokens are an alternative way to store session state. The difference is that the session state is securely stored at the client-side and that Varnish can validate the session and access session data. By shifting the decision making process to Varnish, cache variations can be made for logged-in and anonymous content, without having to access the backend. JWT and the appropriate Varnish measures will help you to get the most out of your cache.'

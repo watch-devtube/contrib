@@ -1,11 +1,11 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - storage
     - performance
     - architecture
-title: 'ElasticSearch Correctness and perfOrmance Validator Formally measuring the cost of a query before hâ€¦'
+title: 'ElasticSearch Correctness and perfOrmance Validator Formally measuring the cost of a query before h…'
 language: English
 recordingDate: 1549735865
 description: "ElasticSearch Correctness and perfOrmance Validator Formally measuring the cost of a query before hitting the fan\nby Santiago Saavedra\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/K.3.201/elasticsearch_correctness_performance_validator.webm\n\n\nAlright, you built an application to show off your impressive skills at data gathering and processing. Now you got data on ElasticSearch that you want to show, but your users may want to see too many data points and will shatter your DB performance. In this talk, we will present a project to formally measure the cost of queries before actually running them, and your app can decide, given a cost value, whether to launch a query or not. ESCOVA leverages the ElasticSearch query parser to generate the parse tree of an ES query, and we use tree-based cost analysis in order to determine the cost of queries. Moreover, users may restrict their queries to only those of forms that have been previously whitelisted in order to avoid blocking the database. ESCOVA is available both as a plugin for an Elasticsearch as well as a library (that can, e.g., be deployed independently as a microservice). \n\nThe talk will describe:\n- How you can currently profile queries in Elasticsearch\n- A discussion about the pros and cons of static analysis/symbolic computation v. profiling\n- The inner structure of the project\n- Lessons learned on how to build an Elasticsearch plugin\n- Future work, questions and feedback \n\nNo specific prior knowledge required; topics will be presented before diving into them. \n\nRoom: K.3.201\nScheduled start: 2019-02-03 10:30:00+01"

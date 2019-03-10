@@ -1,7 +1,7 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
-title: 'Fixing Erlangâ€™s Distribution Protocol - Peer Stritzinger - EUC17'
+
+title: 'Fixing Erlang’s Distribution Protocol - Peer Stritzinger - EUC17'
 language: English
 recordingDate: 1500909339
 description: "Erlang's built in transparent distribution is one of the features that has enticed many into the ecosystem for the first time. It certainly did so for me. Later, when I accumulated more experience, other features became more important.\n\nAs you may well have noticed, after thorough use Erlang's Distribution Protocol unfortunately shows some limitations, like:\n\n    The fully connected network of today can't scale well\n    Head of line blocking prevents sending of large messages without delaying messages between unrelated processes\n    Erlang distribution can't be used in hostile environments\n\nCurrently everyone separately implements external or application level workarounds for these problems. But wouldn't it be nice if Erlang distribution would just work for a much larger set of applications?\n\nI will present our plan to spend available budget to tackle these problems by extending Erlang's distribution implementation. Some problems will be avoided altogether, while improved and easier pluggability for further improvements down the line will be provided. \n\nAll this will only be useful if it eventually shows up in OTP, so we will do anything required to make this happen."

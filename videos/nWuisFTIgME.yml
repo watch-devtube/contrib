@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - storage
-title: 'Keeping Track of Stateful Infrastructure An overview over InnoGames infrastructure and the tools weâ€¦'
+title: 'Keeping Track of Stateful Infrastructure An overview over InnoGames infrastructure and the tools we…'
 language: English
 recordingDate: 1549648742
 description: "Keeping Track of Stateful Infrastructure An overview over InnoGames infrastructure and the tools we build\nby Patrick Meyer\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UB2.252A/keeping_track_stateful_infrastructure.webm\n\n\nAt InnoGames we have to keep track of three collocations, ~30 racks with thousands of VMs to run games for over 200 million registered users. We have to manage our self hosted as well as various external services and preferably do so in a way that does not wake our oncall admin at 3am. All our infrastructure is configured via a central configuration management database. We use that database to keep track of physical and virtual machines, network equipment and configuration, monitoring and much more. We have open sourced our configuration management database [0], as well as our tooling for managing KVM VMs [1]. What makes serveradmin unique is how easy it is to modify the database schema as well as its very easy to use and fast API. \n\nThis talk will\n- give you an overview over our infrastructure and custom tooling.\n- explain our approach to API driven infrastructure automation.\n- show you how to model your infrastructure in serveradmin.\n- demonstrate creation, deletion and live migration of KVM VMs. \n\n[0] https://github.com/innogames/serveradmin\n[1] https://github.com/innogames/igvm \n\nRoom: UB2.252A (Lameere)\nScheduled start: 2019-02-02 11:00:00+01"

@@ -1,13 +1,13 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - storage
     - bigdata
     - performance
     - 'code design'
     - java
-title: '#bbuzz 2015: Ema Iancuta & Radu Chilom â€“ In-memory data pipeline and warehouse at scale'
+title: '#bbuzz 2015: Ema Iancuta & Radu Chilom – In-memory data pipeline and warehouse at scale'
 language: English
 recordingDate: 1433487062
 description: "Find more information here: http://berlinbuzzwords.de/session/memory-data-pipeline-and-warehouse-scale-using-spark-spark-sql-tachyon-and-parquet\n\nLive demo of building an in-memory data pipeline and data warehouse from a web console with architectural guidelines and lessons learned. The tools and APIs behind are built on top of Spark, Tachyon, Mesos/YARN, SparkSQL and are using our own open-sourced Spark Job Server and Http Spark SQL Rest Service.\n\nLast year Spark emerged as a strong technology candidate for distributed computing at scale, as a Hadoop MapReduce and Hive successor. Tachyon is a very promising young project that provides an in-memory distributed file system that serves a caching layer for sharing datasets across multiple Spark/Hadoop applications. Mesos and YARN are resource managers that ensure a more efficient utilization of the resources in a distributed cluster. Parquet is a columnar storage format that enables storing data and schema in the same file, without the need for an external metastore.\n\nIn this talk we will showcase the strengths of all these open source technologies and will share the lessons learned while using them for building an in-memory data pipeline (data ingestion and transformation) and a data warehouse for interactive querying of the in-memory datasets (Spark JVM and Tachyon) using a familiar SQL interface. \n\nWe will provide architectural guidelines and design patterns meant to help us achieve optimal CPU/Memory for the utmost performance during large scale processing and interactive querying. We will touch on RDDs, shuffle, file consolidation, RDD persistence models (memory, disk, off-heap) serialization, Tachyon (native and hdfs apis) and will provide tips and tricks for maximizing performance and working around the weaknesses of these technologies.\n\nWe will also provide a quick description of the Spark Job Rest (https://github.com/Atigeo/spark-job-rest) and Http Spark SQL REST (https://github.com/Atigeo/jaws-spark-sql-rest) projects that we decided to share back with the open source community."

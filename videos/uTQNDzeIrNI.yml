@@ -1,12 +1,12 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - storage
     - containers
     - docker
     - testing
-title: 'Automated testing on steroids â€“ Trick for managing test data using Docker snapshots'
+title: 'Automated testing on steroids – Trick for managing test data using Docker snapshots'
 language: English
 recordingDate: 1526466533
 description: "with Lucas Jellema \n\nAutomated testing is important. We all know that we should do it. We also know that this can be painful, for many reasons. One of the most agonizing aspects of automated testing is the handling of the data. In order to run even the simplest of tests against the user interface, a service or API or even a stored procedure typically requires that a proper starting point needs to be established in the database with respect to the data. Complex set up steps need to prepare various records to ensure the test can even start and afterwards in similarly complex tear down scripts we have to clean up after the test. This session demonstrates how this hardship can be a thing of the past. Using snapshots of a test database in a Docker container with a managed test data set that supports all tests, we can create automated tests without any set up or tear down effort. These tests can run very fast, concurrently, and whenever and wherever you like them to run. This way of working opens up much higher test coverage and much increased productivity for developers and testers."

@@ -1,10 +1,10 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - ml
     - testing
-title: '#bbuzz 17: Doug Turnbull & Jason Kowalewski â€“ We built an Elasticsearch Learning to Rank plugin'
+title: '#bbuzz 17: Doug Turnbull & Jason Kowalewski – We built an Elasticsearch Learning to Rank plugin'
 language: English
 recordingDate: 1497534236
 description: "Futher information: https://berlinbuzzwords.de/17/session/we-built-elasticsearch-learning-rank-plugin-then-came-hard-part\n\nLearning to Rank uses machine learning to improve the relevance of search results. In this talk, I discuss how we built a learning to rank plugin for Elasticsearch. But what's more interesting is what happened next. Learning to rank requires new ways of thinking about search relevance, and in this talk I go on to discuss the specific problems faced by production-ready learning to rank systems. We learned these hard way so you don't have to. These systems need to solve a variety of problems including:\n\n    Correctly measuring, using analytics, what a user deems \"\"relevant\"\" or \"\"irrelevant\"\"\n    Hypothesizing which features of users, queries, or documents (or query-user dependent features) might correlate to relevance\n    Logging/Gathering hypothesized features using the search engine\n    Training models in a scalable fashion\n    Selecting and evaluate models for appropriateness and minimal error\n    Integrating models in a live search system alongside business logic, and other non-relevance considerations\n    A/B testing learning to rank models and avoiding future bias of training data\n\nEach of these requires solving pretty tough problems. This talk will discuss our war stories, practical lessons, and the goings-on inside real life search implementations that can help you decide what pitfalls to avoid and decide whether learning to rank is the right direction for your search problem.\n\nSpeaker:\nDoug Turnbull & Jason Kowalewski"

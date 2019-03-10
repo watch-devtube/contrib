@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - security
-title: 'We Still Donâ€™t Have Secure Cross-Domain Requests: an Empirical Study of CORS'
+title: 'We Still Don’t Have Secure Cross-Domain Requests: an Empirical Study of CORS'
 language: English
 recordingDate: 1537298366
 description: "Jianjun Chen\nTsinghua University\n\nAbstract: \nThe default Same Origin Policy essentially restricts access of cross-origin network resources to be \"write-only\". However, many web applications require \"read'' access to contents from a different origin, so developers have come up with workarounds, such as JSON-P, to bypass the default Same Origin Policy restriction. Such ad-hoc workarounds leave a number of inherent security issues. CORS (cross-origin resource sharing) is a more disciplined mechanism supported by all web browsers to handle cross-origin network accesses. This paper presents our empirical study about the real-world uses of CORS. We find that the design, implementation, and deployment of CORS are subject to a number of new security issues: 1) CORS relaxes the cross-origin \"write'' privilege in a number of subtle ways that are problematic in practice; 2) CORS brings new forms of risky trust dependencies into web interactions; 3) CORS is generally not well understood by developers, possibly due to its inexpressive policy and its complex and subtle interactions with other web mechanisms, leading to various misconfigurations. Finally, we propose protocol simplifications and clarifications to mitigate the security problems uncovered in our study. Some of our proposals have been adopted by both CORS specification and major browsers.\n\nView the full USENIX Security '18 program at https://www.usenix.org/usenixsecurity18/technical-sessions"

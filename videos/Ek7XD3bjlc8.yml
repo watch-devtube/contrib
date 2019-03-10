@@ -1,6 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - containers
     - java
@@ -8,4 +8,4 @@ tags:
 title: 'Splitting component containers to simplify dependencies - Eugene Petrenko @ Spring I/O 2017'
 language: English
 recordingDate: 1499432284
-description: "Spring I/O 2017 - 18 -19 May, Barcelona\n\nSlides: https://docs.google.com/presentation/d/1CRjAKdQEvVNi9JzuudEKlnncJffKi5k8Lw0J335IYMk/edit?usp=sharing\n\nThe bigger a monolithic application, the larger the dependency set. Adding or changing dependencies becomes a tricky task. Similarly, the complexity is in a number of beans and their dependencies in components container.\n\nIn this talk, weâ€™ll discuss a way to simplify things by splitting component containers into smaller ones. \nWeâ€™ll see how to split a monolithic ApplicationContext into a number of sub-contexts, how to isolate sub-context internal beans, clear their APIs and avoid non-trivial dependencies.\nEach sub-context can have its own classpath, which tackles the dependency hell problem.\nAfter being divided, a monolithic system becomes easier to split into a set of micro-services or processes.\nFrom the talk, attendees will learn several practical tips and tricks on how to split component containers into smaller ones"
+description: "Spring I/O 2017 - 18 -19 May, Barcelona\n\nSlides: https://docs.google.com/presentation/d/1CRjAKdQEvVNi9JzuudEKlnncJffKi5k8Lw0J335IYMk/edit?usp=sharing\n\nThe bigger a monolithic application, the larger the dependency set. Adding or changing dependencies becomes a tricky task. Similarly, the complexity is in a number of beans and their dependencies in components container.\n\nIn this talk, we’ll discuss a way to simplify things by splitting component containers into smaller ones. \nWe’ll see how to split a monolithic ApplicationContext into a number of sub-contexts, how to isolate sub-context internal beans, clear their APIs and avoid non-trivial dependencies.\nEach sub-context can have its own classpath, which tackles the dependency hell problem.\nAfter being divided, a monolithic system becomes easier to split into a set of micro-services or processes.\nFrom the talk, attendees will learn several practical tips and tricks on how to split component containers into smaller ones"

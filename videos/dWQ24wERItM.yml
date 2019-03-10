@@ -1,9 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
-category: conference
+
 tags:
     - .net
-title: 'A look at Flinkâ€™s internal data structures & algorithms for efficient checkpointing - Stefan Richter'
+title: 'A look at Flink’s internal data structures & algorithms for efficient checkpointing - Stefan Richter'
 language: German
 recordingDate: 1505382337
 description: "Flink Forward Berlin, September 2017 #flinkforward\n\nStefan Richter, Software Engineer at data Artisans\n\nStateful stream processing with exactly-once guarantees is one of Apache Flink's distinctive features and we have observed that the scale of state that is managed by Flink in production is constantly growing. This development created new challenges for state management in Flink, in particular for state checkpointing, which is the core of Flink's fault tolerance mechanism. Two of the most important problems that we had to solve were the following: (i) how can we limit the duration and size of checkpoints to something that does not grow linearly in the size of the state and (ii) how can we take checkpoints without blocking the processing pipeline in the meantime? We have implemented incremental checkpoints to solve the first problem by checkpointing only the changes between checkpoints, instead of always recording the whole state. Asynchronous checkpoints address the second problem and enable Flink to continue processing concurrently to running checkpoints. In this talk, we will take a deep dive into the details of Flink's new checkpointing features. In particular, we will talk about the underlying datastructures, log-structured merge trees and copy-on-write hash tables, and how those building blocks are assembled and orchestrated to advance Flink's checkpointing.\n\nhttps://www.slideshare.net/FlinkForward/flink-forward-berlin-2017-stefan-richter-a-look-at-flinks-internal-data-structures-and-algorithms-for-efficient-checkpointing\n\nhttps://data-artisans.com/"
