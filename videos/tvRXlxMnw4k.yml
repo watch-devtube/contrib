@@ -1,5 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 tags:
     - cloud
     - security
@@ -7,10 +8,10 @@ tags:
     - architecture
     - java
     - spring
+speaker:
+    name: 'Josh Long'
+    twitter: starbuxman
 title: 'Building “Bootiful” Microservices with Spring (Josh Long, USA)'
 language: English
 recordingDate: 1437576980
 description: "We get it already! Microservices help you build smaller, singly-focused services, quicker. They scale out. They’re more agile because individual teams can deliver them at their own pace. They work well in the cloud because they’re smaller, and benefit from elastic, horizontal scaling. But what about the complexity? There’s a cost associated with adding services and coordinating the interactions between them. In this talk, we’ll look at Spring Cloud, which builds atop Spring Boot and the Netflix OSS stack, and see how it lets you easily integrate service-discovery, security, reliability patterns like the circuit breaker, and centralized and journaled property configuration (and more) to build resilient microservices that scale.\n\nWe’ll look at service discovery and registration with a Eureka service registry and Spring Cloud’s Eureka integration, centralized, journaled configuration with Spring Cloud’s Config server, refreshing bean configuration in-situ with the `@RefreshScope`, building an API gateway using Zuul and reactive programming, and isolating failure cascades using the Hystrix circuit-breaker."
-speaker:
-    name: Josh Long
-    twitter: starbuxman
