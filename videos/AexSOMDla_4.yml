@@ -1,14 +1,15 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 tags:
     - storage
     - cloud
     - java
     - spring
+speaker:
+    name: 'Josh Long'
+    twitter: starbuxman
 title: 'Chicago - The Power of  Spring Data: How I Wrote a Spring Data Adapter for Spanner'
 language: ""
 recordingDate: 1509607906
 description: "Speaker:  RAY TSANG DEVELOPER ADVOCATE, GOOGLE\nGoogle Cloud Spanner is the first and only relational database service that is both strongly consistent and horizontally scalable. With Cloud Spanner you enjoy all the traditional benefits of a relational database: ACID transactions, relational schemas (and schema changes without downtime), SQL queries, while maintaining five 9's of availability! In this session, we'll briefly introduce Spanner and the different ways of accessing Spanner (via JDBC and also the API). But, to make it Spring-friendly, Ray worked w/ Josh Long on a POC Spring Data Spanner integration. Spring Data Commons is a powerful meta-framework that allows you write your own object-to-datastore mapping easily. We'll explore in detail all the different Spring Data Commons components that were used to develop this. Your contributions would be welcomed!"
-speaker:
-    name: Josh Long
-    twitter: starbuxman
