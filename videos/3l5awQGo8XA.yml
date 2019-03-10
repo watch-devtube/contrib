@@ -1,13 +1,14 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 tags:
     - storage
     - testing
     - java
     - spring
+speaker:
+    name: 'Josh Long'
+    twitter: starbuxman
 title: 'Multi Environment Spring Applications'
 recordingDate: 1397591300
 description: "Recorded at SpringOne2GX 2013 in Santa Clara, CA\nSpeaker: Josh Long and Kevin Nilson\nIt'd be nice to assume everything remains the same from one environment to another, but the realities of today's deployment targets (clouds, app servers, etc.) make this difficult. An application may target one in-memory database in development and target a traditional database in production. A/B testing is a common practice that lets you incrementally expose potentially high risk features. Feature switches can be invaluable; should something go wrong, you can revert to a known state. All of these use cases, and more, can be handled using the Spring framework.\n\nJoin JavaOne Rock Star and Java Champion Kevin Nilson and Spring Developer Advocate Josh Long for a look at how you can run your application in differing environments using the Spring Framework.\nLearn more about Spring at http://www.spring.io"
-speaker:
-    name: Josh Long
-    twitter: starbuxman
