@@ -1,10 +1,9 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 tags:
     - javascript
     - java
-speaker: null
 title: 'CodeMesh 2014 - Bodil Stokke - Pure Script (Maybe This Time We Get Java Script Right)'
-language: null
 recordingDate: 1415960833
 description: "http://www.codemesh.io/codemesh2014/bodil-stokke\n\nPure Script (Maybe This Time We Get Java Script Right)\n\nThe web browser is the world’s most ubiquitous user interface. Sadly, this means we’re all basically stuck in an abusive relationship with JavaScript. Obviously not a desirable position to find ourselves in, we’ve tried breaking out of the JS trap in a variety of ways: JS dialects (solving no design flaws but at least looking prettier) and JS as a compilation target (resulting, mostly, in unappealingly large output to support the emulated runtimes).\n\nSo when I found myself having to build a system with real deliverable size constraints, my only options seemed to be JS itself, or TypeScript, which doesn’t add much to JS but at least provides a modicum of type checking. After a few months of fighting TypeScript, though, I’d had enough. Happily, my frustration coincided with the advent of PureScript.\n\nAt first glance, PureScript looks and feels like Haskell, but there’s hardly any extraneous machinery. The PureScript compiler generates very concise JS, and the language itself is designed with the platform’s constraints in mind. Yet it offers things like higher-kinded polymorphism, type classes and similar deep Haskell magic. More appealingly, it comes with a growing number of libraries for coping with the browser as a platform: functional DOM manipulation, reactive programming, and more.\n\nIt turned out to be a delight, getting out of my tangled mess of JavaScript and rebuilding it all in PureScript, and I’d like to show you how and why."
