@@ -1,5 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 title: 'The ''Jobs'' Load Regulation Framework - Ulf Wiger'
 recordingDate: 1373873680
 description: "Erlang User Conference 2013\nMore info and slides on the website: http://www.erlang-factory.com/conference/ErlangUserConference2013/talks \n\nThe 'Jobs' load regulation framework, first presented at the 2010 Erlang Workshop, takes the approach that overload should be prevented through regulated input queues - that is, as soon as an incoming request is classified, it is inserted in an appropriate queue and allowed to proceed according to a predefined rate limit or pool size. This approach has much in common with 'DiffServ' regulation in IP multimedia networks, and has the advantage that core components can focus on operating as efficiently as possible. In this talk, we will describe 'Jobs', and our experiences to-date, and walk through a few examples of how it can be configured."
