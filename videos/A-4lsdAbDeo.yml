@@ -1,5 +1,6 @@
 # Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
 
+category: conference
 title: 'Berlin Buzzwords 2011: Simon Wilnauer - Heavy Committing Lucene DocValues aka. Column Stride Fields'
 recordingDate: 1545060707
 description: "This talk will introduce one of the new features in the next intentionally backwards incompatible Apache Lucene release. Beside Flexible Indexing & Realtime Search Lucene 4.0 will ship with an alternative column based per-document storage called DocValues or Column Stride Fields. DocValues provide efficient storage for per document values used for sorting, result rendering or scoring. Unlike FieldCache DocValues don't need to be indexed nor be un-inverted and allow users to specify how values are stored per field.\n\nThis session will provide a broad introduction to this feature and the related Flex API and show how it has been integrated into the codec layer and show upcoming functionality like update document values without reindexing the entire document.\n\nmore Info: http://2011.berlinbuzzwords.de/content/heavy-committing-lucene-docvalues-aka-column-stride-fields"
