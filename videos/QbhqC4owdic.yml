@@ -2,7 +2,13 @@
 
 tags:
     - performance
+    - nodejs
+    - concurrency
+speaker:
+    name: Kok Chee Kean
+    twitter: kokcheekean
 title: 'Concurrency in NodeJS - SingaproeJS'
 language: English
+category: conference
 recordingDate: 1552489572
 description: "Speaker: Kok Chee Kean\r\n\r\nNodeJS has fantastic I/O performance for a seemingly single-threaded computing model due to its ability to handle such tasks asynchronously. But this fails for CPU-bound tasks that block threads. Before the current NodeJS LTS version, computationally heavy tasks could be farmed out to child processes, taking advantage of multicore CPUs, but processes do not share memory and inter-process communication adds significant overhead. Multithreading support landed in NodeJS as of v10.5.0, and is still flagged as an experimental API. We can now process tasks in separate threads with shared memory, but this power does not come for free. We'll compare the implementation and performance of a multithreaded NodeJS web server with that of some other industry solutions, and see how we can manage shared memory and orchestrate threads using buffers and atomics.\r\n\r\nChee Kean is a software engineer from the Maltem Consulting Group and uses NodeJS extensively for pet projects.\r\n\r\nEvent Page: https://www.meetup.com/Singapore-JS/events/259534284/\r\n\r\nProduced by Engineers.SG\n\nHelp us caption & translate this video!\n\nhttps://amara.org/v/oByD/"
