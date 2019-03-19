@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - architecture
+    - .net
+speaker:
+    name: 'Steve Gordon'
+    twitter: stevejgordon
+title: 'Let''s Talk HTTP in .NET Core - Steve Gordon'
+recordingDate: 1552905742
+description: "In the world of microservices (yes, there's that buzzword again!) and distributed systems, we often find ourselves communicating over HTTP. What seems like a simple requirement can quickly become complicated! Networks aren't reliable and services fail. Dealing with those inevitable facts and avoiding a cascading failure can be quite a challenge. In this talk, Steve will explore how we can build .NET Core applications that make HTTP requests and rely on downstream services, whilst remaining resilient and fault tolerant.\nThis session will focus on some of the improvements which have been released in .NET Core and ASP.NET Core 2.1, such as IHttpClientFactory and the new, more performant SocketHttpHandler. Steve will identify some HTTP anti-patterns and common mistakes and demonstrate how we can refactor existing code to use the new HttpClientFactory features.\n\nNext, Steve will demonstrate other HTTP tips and tricking, including Polly; a fantastic resilience and transient fault handling library which can be used to make your applications less prone to failure. When integrated with the Microsoft IHttpClientFactory; wrapping your HTTP calls in retries, timeouts and circuit-breakers has never been easier!\n\nIf you're building services which make HTTP calls, then this talk is for you!\n\n\n\nNDC Conferences\nhttps://www.ndcconferences.com/\nhttps://ndc-london.com/"
