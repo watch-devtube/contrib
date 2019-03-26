@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - architecture
+    - python
+    - javascript
+    - kotlin
+    - java
+    - 'c#'
+title: 'Using Kotlin Coroutines for Asynchronous and Concurrent Programming - Pedro Felix'
+recordingDate: 1553525613
+description: "Asynchronous and concurrent programming plays a very important role in the current world of HTTP APIs and microservices, where a significant part of our code is about orchestrating interactions with external systems.\nUsing traditional synchronous models, where threads are blocked while waiting for external responses, is not suitable for platforms where threads are costly, such as .NET or the JVM, or where there are special threads that can't be blocked, such as on Javascript or Android applications.\nThere are various programming models to handle asynchronicity, ranging from simple callbacks to reactive streams, as a way to handle asynchronous sequences.\nAmong these, the concept of Future has seen broad adoption in multiple platforms (e.g. Promises in javascript, CompletableFuture in Java 8, Task in .NET), including language support via the async-await constructs, which are now available in languages such as C#, Javascript, and Python.\nHowever, instead of also adding explicit async-await support in the Kotlin language, their designers decided to go another route and address these problems with the different and more generic concept of coroutines.\n\nThis session presents Kotlin coroutines, as implemented via suspending functions, and their use to write asynchronous and concurrent programs.\nStarting from the ground-up, we show how suspending functions allows us to turn callbacks into suspension points that don't break the apparent control flow.\nFrom then we move into creating, starting coroutines as instances of these suspending functions. We show how the async-await construct can be implemented as library functions without needing explicit language support.\nSpecial emphasis is given to the concept of structured concurrency as a way to manage and coordinate coroutines, namely its cancellation.\nThe relation between coroutines and threads is also illustrated, with emphasis on thread scheduling (e.g. ensuring the coroutine always run in the Android UI thread) and context propagation.\n\n\n\nNDC Conferences\nhttps://www.ndcconferences.com\nhttps://ndcporto.com"
