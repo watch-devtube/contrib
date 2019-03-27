@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+title: '[VDZ19] Streaming Visualisation by Guido Schmutz'
+language: English
+recordingDate: 1553603648
+description: 'Most data visualization solutions today still work on the “data at rest” paradigm, where data is persisted first and then analyzed. But data sources today often come as a constant stream of data, from IoT devices to Social Media streams. These data streams publish information with high velocity and messages often have to be processed as quick as possible. For the processing and analytics, so called stream processing solutions are available. But these only provide minimal or no visualization capabilities. So how do we solve the visualization of high velocity data streams? An option is to first persist the data and then use a traditional data visualization solution to present the data. If latency is not an issue, this might be good enough. A NoSQL database might be an ideal solution, but not all traditional visualization tools might easily integrate with the specific data store. Another option is to use a dedicated Streaming Visualization solution. They are specially built for streaming data but on the other hand often do not support batch data. This talk presents different architecture blueprints for visualizing fast data and shows some products for implementing these blueprints.'
