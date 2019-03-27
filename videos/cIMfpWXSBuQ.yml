@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - cloud
+title: '[VDZ19] Meetup Recommendations with Micronaut by Michael Hunger'
+language: English
+recordingDate: 1553603584
+description: 'In an active open-source community, Meetups play an important part of pulling people interested in a tech topic together and foster exchange of ideas. In this talk, we want to show how to use Micronaut to build a fully federated solution based on the streaming RSVP API of meetup.com. We ingest the RSVP events with the reactive http client and make it available to our system via Kafka. To demonstrate the polyglot functionality in our event-sourced system, we will store events in Redis, members and groups in Postgres, and meetups and attendance in Neo4j. Each service can make its data available via reactive APIs, and on top of that, we''re providing meetup recommendations for members with the built-in Neo4j integration. As a proper "cloud-native" application, we use Micronauts integrations for orchestration, tracing, monitoring while making sure that we are not affected by outages of our dependent APIs using CircuitBreakers and Retries. We hope that the talk gives you enough hands-on experience for building your own Micronaut-based applications.'
