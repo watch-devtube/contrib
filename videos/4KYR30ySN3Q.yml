@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: '[VDZ19] Graph-based ML for Automated Health Care Services by J. Kindelsberger, A. Fritzen, R. Patra'
+language: English
+recordingDate: 1553603585
+description: "In this presentation, we talk about how we tackle the problem of automatically predicting diagnoses for patients staying in critical care units. To this end, we employ a restricted database comprising of de-identified healthcare data associated with over 40 thousand patients with multiple admissions per patient.\n\nIn our approach, we consider four measurements/events as predictive features per admission: fluids into patient, fluids out of the patient, lab test results and drugs prescribed by doctors. These events represent the evolving state of a patient during his stay which is then captured by a graph with different nodes for each event, and the topology and linkage of the graph are evolving as new events arrive. Our final objective is to feed this evolving graph to a Recurrent Neural Network and predict at every step the probability that of one or many of the top-K diagnoses will occur. Our approach shows significant preliminary results as we leverage Graph-based ML techniques to convey relational information from previous admissions of other patients. Hence, we show how the combination of graphs and advanced ML techniques helps pushing automated healthcare at the forefront."
