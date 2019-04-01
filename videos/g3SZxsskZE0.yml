@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - architecture
+    - .net
+title: 'DiagnosticSourcery 101 - Mark Rendle'
+recordingDate: 1553857375
+description: ".NET has a new mechanism for generating and storing diagnostic data: DiagnosticSource. This is the cross-platform alternative to ETW. Much of ASP.NET Core and EF Core produce useful metric data using DiagnosticSource, and you can produce your own and stream some or all of the data to the metrics storage of your choice.\n\nIn this talk I'll run through how DiagnosticSource works, show you how to use it to output your own metrics in any .NET application, and how to pipe those metrics to a Time-Series database and turn them into a lovely Grafana dashboard.\n\nYou can use DiagnosticSource in anything from an ASP.NET Core cloud-native microservice to a WPF desktop application, and it's a Microsoft package with no 3rd-party dependencies, so this talk should be interesting and useful for any .NET developer.\n\n\n\nNDC Conferences\nhttps://www.ndcconferences.com/\nhttps://ndc-london.com/"

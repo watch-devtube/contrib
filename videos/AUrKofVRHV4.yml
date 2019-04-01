@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - azure
+    - architecture
+title: 'Life Beyond Distributed Transactions: An Apostate''s Implementation - Jimmy Bogard'
+recordingDate: 1553849402
+description: "Over a decade ago, Pat Helland authored his paper, \"Life Beyond Distributed Transactions: An Apostate's Opinion\" describing a means to coordinate activities between entities in databases when a transaction encompassing those entities wasn't feasible or possible. While the paper and subsequent talks provided great insight in the challenges of coordinating activities across entities in a single database, implementations were left as an exercise to the reader!\n\nFast forward to today, and now we have NoSQL databases, microservices, message queues and brokers, HTTP web services and more that don't (and shouldn't) support any kind of distributed transaction.\n\nIn this session, we'll look at how to implement coordination between non-transactional resources using Pat's paper as a guide, with examples in Azure Cosmos DB, Azure Service Bus, and Azure SQL Server. We'll look at a real-world example where a codebase assumed everything would be transactional and always succeed, but production proved us wrong! Finally, we'll look at advanced coordination workflows such as Sagas to achieve robust, scalable coordination across the enterprise.\n\n\n\nNDC Conferences\nhttps://www.ndcconferences.com/\nhttps://ndc-london.com/"
