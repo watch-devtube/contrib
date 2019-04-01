@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - graphql
+    - rest
+    - mobile
+    - android
+    - ios
+    - architecture
+title: 'Give it a REST - Tips for designing and consuming public API''s - Liam Westley'
+recordingDate: 1553680592
+description: "Ever wondered why someone created a REST API in the way they did? \n\nEver wondered why someone consumed your REST API in the way they did?\nIn the past five years at Huddle we've been updating out public API to be more restful, more tolerant, and to handle the move from a monolithic application to one based on microservices with async operations.\n\nWe've also created clients for web, iOS, Android, Windows and OS/X that consume that same API and experienced some of the same pain as our customers when we have taken a wrong turn.\n\nIt's not been easy and it's time to share the knowledge of the real-world problems of maintaining a useable API that keeps everyone happy (some of the time).\n\nRather than describe the principles of REST and HATEOAS we'll examine everyday issues, best practice for both creators and consumers, and maybe highlight some gaffs along the way.\n\nInitial design - the chicken and egg of where to start\nExtensibility and versioning, improving an API without breaking it for existing users\nPatterns for async operations\nRate limiting on the server\nHandling deprecation gracefully\nBackend for frontends - how to handle (hide) the world of microservices behind your API, with technology such as GraphQL\nHow to consume API's to keep your application reliable\nExtensibility and versioning, coping with change without rolling a new release\nUnderstanding caching, rate limiting for the client, and dealing with weird responses\n\n\n\nNDC Conferences\nhttps://www.ndcconferences.com\nhttps://ndcporto.com"

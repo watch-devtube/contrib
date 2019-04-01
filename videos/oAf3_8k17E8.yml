@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - docker
+    - .net
+title: 'HTTPS in ASP.NET Core 2 in Docker Linux Containers Deep Dive - Rob Richardson'
+recordingDate: 1553682906
+description: "ASP.NET Core lights up HTTPS by default. Running from the command line or from Visual Studio installs and trusts self-signed certificates so we don't get the browser error when debugging. But how do we get this trust experience when running inside Linux Docker containers?\nLet's dive deep into certificate trust, how Linux stores certificates, and how ASP.NET Core uses certificates. With that knowledge in place, let's build up Docker containers for both development (self-signed) work, and containers that have real, trusted certificates should you choose a Layer-4 load balancer in production.\n\n\n\nNDC Conferences\nhttps://www.ndcconferences.com\nhttps://ndcporto.com"

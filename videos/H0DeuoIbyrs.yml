@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Manual memory management in .NET Framework - Adam Furmanek'
+recordingDate: 1553683561
+description: "Value types are on a stack and reference types are on a heap - this is a typical answer when one is asked about placement of values in memory. However, is it really defined that way in the .NET Framework specification? Or can we bend the rules and manage memory differently?\nDuring the session I will show how to allocate memory directly by hand using TypedReferences. We will see that it is possible to allocate reference type on a stack, how to implement generic List faster than the default implementation provided by .NET Framework, how to implement custom memory allocator (with any fragmentation strategy we like), and finally, how to hack new keyword provided by the platform to use different allocator. We will examine memory dumps with WinDBG, emit IL code dynamically, and generate machine code for x86 directly in runtime.\n\n\n\nNDC Conferences\nhttps://www.ndcconferences.com\nhttps://ndcporto.com"
