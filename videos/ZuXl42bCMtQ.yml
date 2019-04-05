@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - docker
+    - security
+    - testing
+    - java
+title: 'Create a Continuous Delivery Pipeline in 45 minutes'
+language: English
+recordingDate: 1554413821
+description: "Johan Janssen\nTrainer / architect\nInfo Support\n\nIn this presentation I will demonstrate how you can quickly create a Continuous Delivery pipeline for Java. All the applications run in Docker containers managed by Docker compose. The pipeline will execute the following steps: - Trigger Jenkins job after a push to GitLab - Execute code quality analysis in SonarQube - Deploy the artifact to Nexus - Create a Docker image with the application - Store the Docker image in the Docker registry - Create and run a Docker container with the application - Use Gatling for performance testing A Jenkinsfile is used to define all the build steps from compile to running and testing our application for performance and security issues. A live demo is of course included."
