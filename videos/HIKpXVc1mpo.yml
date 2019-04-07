@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - performance
+title: 'Building Machine Learning Models with Strict Privacy Boundaries'
+recordingDate: 1554519902
+description: "Speaker: Renaud Bourassa, Staff Software Engineer at Slack\n\nSlides: https://www.slideshare.net/SessionsEvents/renaud-bourassa-building-machine-learning-models-with-strict-privacy-boundaries\n\n\"Every day, millions of people rely on Slack to get the information they need to do their jobs. To make their working lives more productive, we built a number of machine learning models to help users make sense of the data flowing through Slack. Although these models vary in structure and objective, they all share one common characteristic: they must deal with strict privacy boundaries inherent to the underlying dataset.\n\nBy policy, users can only be exposed to data that was publicly shared in their own Slack team. These restrictions must carry over into the machine learning models we build: not only must the models refrain from outputting data from foreign teams, patterns in foreign teams’ data must not be inferable from the usage of these models.\n\nIn this talk, I will discuss how Slack’s dataset differs from many traditional machine learning datasets. I will also present some techniques we developed to leverage our entire dataset to improve the performance of our models without jeopardizing the privacy boundaries we guarantee to our customers.\""
