@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'Vault ''19 - New Techniques to Improve Small I/O Workloads in Distributed File Systems'
+language: English
+recordingDate: 1554841104
+description: "Dan Lambright, Huawei\n\nDistributed file systems work well with high throughput applications that are parallelizable. Due to network overhead, they tend to perform less well with workloads that are meta-data or small-file intensive. This problem has been closely studied, resulting in many innovative ideas. For example, researchers have proposed storing inodes in column-store databases to speed up directory reads. Another idea is to have file systems publish “snapshots” visible to a subset of clients during metadata creation, which are later subscribed to by the rest of the system.\n\nAre these techniques practical outside university labs? To answer this question, we introduce software that makes the original implementations much easier to use, by acting as a layer on top of Ceph object storage. The talk will walk through how to set up and run the configuration in realistic environments. The original research will be described in detail, explaining how improved performance comes with some loss of Posix generality, along with a small number of new operational steps outside of traditional file system workflows. The talk will show how this solution could be a good fit for analytics use cases where file system semantics are needed and there is flexibility at the application level.\n\nView the full Vault '19 program at https://www.usenix.org/conference/vault19/program"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'FAST ''19 - GearDB: A GC-free Key-Value Store on HM-SMR Drives with Gear Compaction'
+language: English
+recordingDate: 1554834735
+description: "Ting Yao, Huazhong University of Science and Technology and Temple University\n\nHost-managed shingled magnetic recording drives (HM-SMR) give a capacity advantage to harness the explosive growth of data. Applications where data is sequentially written and randomly read make the HM-SMR an ideal solution due to its capacity, predictable performance, and economical cost. Key-value stores based on the Log-Structured Merge Trees (LSM-trees) data structure is such a good fit due to their batched sequential writes. However, building an LSM-tree based KV store on HM-SMR drives presents severe challenges in maintaining the performance and space efficiency due to the redundant cleaning processes for applications and storage devices (i.e., compaction and garbage collections). To eliminate the overhead of on-disk garbage collections (GC) and improve compaction efficiency, this paper presents GearDB, a GC-free KV store tailored for HM-SMR drives, with three new techniques: a new on-disk data layout, compaction windows, and a novel gear compaction algorithm. We implement GearDB and evaluate it with LevelDB on a real HM-SMR drive. Our extensive experiments have shown that GearDB achieves good performance and space efficiency, i.e., on average $1.71\\times$ faster than LevelDB in random write with a space efficiency of 89.9%.\n\nView the full FAST '19 program at https://www.usenix.org/conference/fast19/technical-sessions"
