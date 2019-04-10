@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'FAST ''19 - Write-Optimized Dynamic Hashing for Persistent Memory'
+language: English
+recordingDate: 1554834506
+description: "Moohyeon Nam, UNIST (Ulsan National Institute of Science and Technology\n\nLow latency storage media such as byte-addressable persistent memory (PM) requires rethinking of various data structures in terms of optimization. One of the main challenges in implementing hash-based indexing structures on PM is how to achieve efficiency by making effective use of cachelines while guaranteeing failure-atomicity for dynamic hash expansion and shrinkage. In this paper, we present Cacheline-Conscious Extendible Hashing (CCEH) that reduces the overhead of dynamic memory block management while guaranteeing constant hash table lookup time. CCEH guarantees failure-atomicity without making use of explicit logging. Our experiments show that CCEH effectively adapts its size as the demand increases under the fine-grained failure-atomicity constraint and reduces the maximum query latency by over two-thirds compared to the state-of-the-art hashing techniques.\n\nView the full FAST '19 program at https://www.usenix.org/conference/fast19/technical-sessions"

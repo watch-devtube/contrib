@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'NSDI ''19 - Correctness and Performance for Stateful Chained Network Functions'
+language: English
+recordingDate: 1554831638
+description: "Junaid Khalid and Aditya Akella, University of Wisconsin - Madison\n\nNetwork functions virtualization (NFV) allows operators to employ NF chains to realize custom policies, and dynamically add instances to meet demand or for failover. NFs maintain detailed per- and cross-flow state which needs careful management, especially during dynamic actions. Crucially, state management must: (1) ensure NF chain-wide correctness and (2) have good performance. To this end, we built CHC, an NFV framework that leverages an external state store coupled with state management algorithms and metadata maintenance for correct operation even under a range of failures. Our evaluation shows that CHC can support ~10Gbps per-NF throughput and $0.6μs increase in median per-NF packet processing latency, and chain-wide correctness at little additional cost.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

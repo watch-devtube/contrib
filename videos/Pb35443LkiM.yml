@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+title: 'FAST ''19 - Orion: A Distributed File System for Non-Volatile Main Memory and RDMA-Capable Networks'
+language: English
+recordingDate: 1554833941
+description: "Jian Yang, UC San Diego\n\nHigh-performance, byte-addressable non-volatile main memories (NVMMs) force system designers to rethink trade-offs throughout the system stack, often leading to dramatic changes in system architecture. Conventional distributed file systems are a prime example. When faster NVMM replaces block-based storage, the dramatic improvement in storage performance makes networking and software overhead a critical bottleneck.\n\nIn this paper, we present Orion, a distributed file system for NVMM-based storage. By taking a clean slate design and leveraging the characteristics of NVMM and high-speed, RDMA-based networking, Orion provides high-performance metadata and data access while maintaining the byte addressability of NVMM. Our evaluation shows Orion achieves performance comparable to local NVMM file systems and outperforms existing distributed file systems by a large margin.\n\nView the full FAST '19 program at https://www.usenix.org/conference/fast19/technical-sessions"

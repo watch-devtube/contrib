@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - bigdata
+    - performance
+title: 'NSDI ''19 - Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure'
+language: English
+recordingDate: 1554830972
+description: "Qifan Pu, UC Berkeley; Shivaram Venkataraman, University of Wisconsin, Madison; Ion Stoica, UC Berkeley\n \nServerless computing is poised to fulfill the long-held promise of transparent elasticity and millisecond-level pricing. To achieve this goal, service providers impose a finegrained computational model where every function has a maximum duration, a fixed amount of memory and no persistent local storage. We observe that the fine-grained elasticity of serverless is key to achieve high utilization for general computations such as analytics workloads, but that resource limits make it challenging to implement such applications as they need to move large amounts of data between functions that don’t overlap in time. In this paper, we present Locus, a serverless analytics system that judiciously combines (1) cheap but slow storage with (2) fast but expensive storage, to achieve good performance while remaining cost-efficient. Locus applies a performance model to guide users in selecting the type and the amount of storage to achieve the desired cost-performance trade-off. We evaluate Locus on a number of analytics applications including TPC-DS, CloudSort, Big Data Benchmark and show that Locus can navigate the cost-performance trade-off, leading to 4×-500× performance improvements over slow storage-only baseline and reducing resource usage by up to 59% while achieving comparable performance on a cluster of virtual machines, and within 1.99× slower compared to Redshift.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

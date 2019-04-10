@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - performance
+title: 'FAST ''19 - GraphOne: A Data Store for Real-time Analytics on Evolving Graphs'
+language: English
+recordingDate: 1554834827
+description: "Pradeep Kumar, George Washington University\n\nThere is a growing need to perform real-time analytics on evolving graphs in order to deliver the values of big data to users. The key requirement from such applications is to have a data store to support their diverse data access efficiently, while concurrently ingesting fine-grained updates at a high velocity. Unfortunately, current graph systems, either graph databases or analytics engines, are not designed to achieve high performance for both operations. To address this challenge, we have designed and developed GraphOne, a graph data store that combines two complementary graph storage formats (edge list and adjacency list), and uses dual versioning to decouple graph computations from updates. Importantly, it presents a new data abstraction, GraphView, to enable data access at two different granularities with only a small data duplication. Experimental results show that GraphOne achieves an ingestion rate of two to three orders of magnitude higher than graph databases, while delivering algorithmic performance comparable to a static graph system. GraphOne is able to deliver 5.36x higher update rate and over 3x better analytics performance compared to a state-of-the-art dynamic graph system.\n\nView the full FAST '19 program at https://www.usenix.org/conference/fast19/technical-sessions"

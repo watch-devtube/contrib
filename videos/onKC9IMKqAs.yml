@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+title: 'NSDI ''19 - Shoal: A Network Architecture for Disaggregated Racks'
+language: English
+recordingDate: 1554830985
+description: "Vishal Shrivastav, Cornell University; Asaf Valadarsky, Hebrew University of Jerusalem; Hitesh Ballani and Paolo Costa, Microsoft Research; Ki Suh Lee, Waltz Networks; Han Wang, Barefoot Networks; Rachit Agarwal and Hakim Weatherspoon, Cornell University\n\nDisaggregated racks comprise a dense cluster of separate pools of compute, memory and storage blades, all inter-connected through an internal network within a single rack. However, their density poses a unique challenge for the rack’s network: it needs to connect an order of magnitude more nodes than today’s racks without exceeding the rack’s fixed power budget and without compromising on performance. We present Shoal, a power-efficient yet performant intra-rack network fabric built using fast circuit switches. Such switches consume less power as they have no buffers and no packet inspection mechanism, yet can be reconfigured in nanoseconds. Rack nodes transmit according to a static schedule such that there is no in-network contention without requiring a centralized controller. Shoal’s congestion control leverages the physical fabric to achieve fairness and both bounded worst-case network throughput and queuing. We use an FPGA-based prototype, testbed experiments, and simulations to illustrate Shoal’s mechanisms are practical, and can simultaneously achieve high density and high performance: 71% lower power and comparable or higher performance than today’s network designs.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

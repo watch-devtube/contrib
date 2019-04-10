@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'NSDI ''19 - Confluo: Distributed Monitoring and Diagnosis Stack for High-speed Networks'
+language: English
+recordingDate: 1554831637
+description: "Anurag Khandelwal, UC Berkeley; Rachit Agarwal, Cornell University; Ion Stoica, UC Berkeley\n \nConfluo is an end-host stack that can be integrated with existing network management tools to enable monitoring and diagnosis of network-wide events using telemetry data distributed across end-hosts, even for high-speed networks. Confluo achieves these properties using a new data structure—Atomic MultiLog—that supports highly-concurrent read-write operations by exploiting two properties specific to telemetry data: (1) once processed by the stack, the data is neither updated nor deleted; and (2) each field in the data has a fixed pre-defined size. Our evaluation results show that, for packet sizes 128B or larger, Confluo executes thousands of triggers and tens of filters at line rate (for 10Gbps links) using a single core.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"
