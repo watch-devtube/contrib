@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - ml
+    - performance
+title: 'NSDI ''19 - Tiresias: A GPU Cluster Manager for Distributed Deep Learning'
+language: English
+recordingDate: 1554831846
+description: "Juncheng Gu, Mosharaf Chowdhury, and Kang G. Shin, University of Michigan, Ann Arbor; Yibo Zhu, Microsoft and Bytedance; Myeongjae Jeon, Microsoft and UNIST; Junjie Qian, Microsoft; Hongqiang Liu, Alibaba; Chuanxiong Guo, Bytedance\n\nDeep learning (DL) training jobs bring some unique challenges to existing cluster managers, such as unpredictable training times, an all-or-nothing execution model, and inflexibility in GPU sharing. Our analysis of a large GPU cluster in production shows that existing big data schedulers cause long queueing delays and low overall performance.\n\nWe present Tiresias, a GPU cluster manager tailored for distributed DL training jobs, which efficiently schedules and places DL jobs to reduce their job completion times (JCTs). Given that a DL job’s execution time is often unpredictable, we propose two scheduling algorithms – Discretized Two-Dimensional Gittins index relies on partial information and Discretized Two-Dimensional LAS is information-agnostic – that aim to minimize the average JCT. Additionally, we describe when the consolidated placement constraint can be relaxed, and present a placement algorithm to leverage these observations without any user input. Experiments on the Michigan ConFlux cluster with 60 P100 GPUs and large-scale trace-driven simulations show that Tiresias improves the average JCT by up to 5.5× over an Apache YARN-based resource manager used in production. More importantly, Tiresias’s performance is comparable to that of solutions assuming perfect knowledge.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"
