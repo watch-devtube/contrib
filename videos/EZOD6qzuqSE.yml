@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - cloud
+    - azure
+    - security
+    - functional
+title: 'Vault ''19 - SMB3 Linux/POSIX Protocol Extensions: Overview and Update on Current Implementations'
+language: English
+recordingDate: 1554841060
+description: "Jeremy Allison, Samba Team, Google, and Steve French, Samba Team, Microsoft Azure Storage\n \nThe SMB3 POSIX Extensions, a set of protocol extensions to allow for optimal Linux and Unix interoperability with Samba, NAS and Cloud file servers, have evolved over the past year, with test implementations in Samba and now merged into the Linux kernel. These extensions address various compatibility problems for Linux and Unix clients (such as case sensitivity, locking, delete semantics and mode bits among others). This presentation will review the state of the protocol extensions, what was learned in the implementations in Samba and also in the Linux kernel (including from running exhaustive Linux file system functional tests to try to better match local file system behavior over SMB3 mounts) and what it means for real applications.\n\nWith the deprecation of older less secure dialects like CIFS (which had standardized POSIX Extensions documented by SNIA), these SMB3 POSIX Extensions are urgently needed to be more broadly deployed to avoid functional or security problems and to optimally access Samba from Linux.\n\nView the full Vault '19 program at https://www.usenix.org/conference/vault19/program"

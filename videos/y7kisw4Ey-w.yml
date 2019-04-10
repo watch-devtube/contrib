@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - performance
+    - cloud
+title: 'NSDI ''19 - FreeFlow: Software-based Virtual RDMA Networking for Containerized Clouds'
+language: English
+recordingDate: 1554831085
+description: "Daehyeok Kim, Carnegie Mellon University\n\nMany popular large-scale cloud applications are increasingly using containerization for high resource efficiency and lightweight isolation. In parallel, many data-intensive applications (e.g., data analytics and deep learning frameworks) are adopting or looking to adopt RDMA for high networking performance. Industry trends suggest that these two approaches are on an inevitable collision course. In this paper, we present FreeFlow, a software-based RDMA virtualization framework designed for containerized clouds. FreeFlow realizes virtual RDMA networking purely with a software-based approach using commodity RDMA NICs. Unlike existing RDMA virtualization solutions, FreeFlow fully satisfies the requirements from cloud environments, such as isolation for multi-tenancy, portability for container migrations, and controllability for control and data plane policies. FreeFlow is also transparent to applications and provides networking performance close to bare-metal RDMA with low CPU overhead. In our evaluations with TensorFlow and Spark, FreeFlow provides almost the same application performance as bare-metal RDMA.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

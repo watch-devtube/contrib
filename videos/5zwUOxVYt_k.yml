@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - ml
+    - tensorflow
+    - containers
+    - docker
+    - kubernetes
+    - architecture
+title: 'Serverless Machine Learning Predictions in Kubernetes Cluster'
+language: English
+recordingDate: 1554832345
+description: "Peter Doschkinow\nORACLE Deutschland B.V. & Co. KG\n\nThe presentation is based on a demo app for collaborative drawing in real time, consisting of three microservices with separate and fully automated CI/CD pipelines, that is deployed in a Kubernetes Cluster. The microservice, responsible for drawing, is then extended to recognize drawn digits by using ML predictions, that is implemented as a function of a serverless framework. The redeployment of this microservice shows the new app functionality, without loosing any drawings. This is possible since the app state is implemented as a distributed cache in another microservice. The ML predictions, based on Octave or Tensorflow is packed in a docker container and can be selected through a simple function configuration of the serverless framework."
