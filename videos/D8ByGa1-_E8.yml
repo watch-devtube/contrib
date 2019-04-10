@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - c++
+    - performance
+title: 'Vault ''19 - Skyhook: Programmable Storage for Databases'
+language: English
+recordingDate: 1554841183
+description: "Jeff LeFevre, University of California, Santa Cruz, and Noah Watkins, Red Hat\n\nCeph is an open source distributed storage system that is object-based and massively scalable. Ceph provides developers with the capability to create data interfaces that can take advantage of local CPU and memory on the storage nodes (Ceph Object Storage Devices). These interfaces are powerful for application developers and can be created in C, C++, and Lua.\n\nSkyhook is an open source storage and database project in the Center for Research in Open Source Software at UC Santa Cruz. Skyhook uses these capabilities in Ceph to create specialized read/write interfaces that leverage IO and CPU within the storage layer toward database processing and management. Specifically, we develop methods to apply predicates locally as well as additional metadata and indexing capabilities using Ceph's internal indexing mechanism built on top of RocksDB.\n\nSkyhook's approach helps to enable scale-out of a single node database system by scaling out the storage layer. Our results show the performance benefits for some queries indeed scale well as the storage layer scales out.\n\nView the full Vault '19 program at https://www.usenix.org/conference/vault19/program"

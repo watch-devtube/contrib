@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: 'FAST ''19 - Pay Migration Tax to Homeland: Anchor-based Scalable Reference Counting for Multicores'
+language: English
+recordingDate: 1554834552
+description: "Seokyong Jung, Hanyang University\n\nThe operating system community has been combating scalability bottlenecks for the past 10 years with victories or all the then-new multicore hardware. File systems, however, are in the midst of turmoil yet. One of the culprits behind performance degradation is reference counting widely used for managing data and metadata, and scalability is badly impacted under load with little or no logical contention, where the capability is desperately needed. To address this, we propose PAYGO, a reference counting technique that combines per-core hash of local reference counters with an anchor counter to make concurrent counting scalable as well as space-efficient, without having any other delay for managing counters. PAYGO imposes the restriction that decrement must be performed on the original local counter where the act of increment has occurred so that reclaiming zero-valued local counters can be done immediately. To this end, we enforce migrated processes running on different cores to update the anchor counter associated with the original local counter. We implemented PAYGO in the Linux page cache, and so our implementation is transparent to the file system. Experimental evaluation with underlying file systems (i.e., ext4, F2FS, btrfs, and XFS) demonstrated that PAYGO scales file systems better than other state-of-the-art techniques.\n\nView the full FAST '19 program at https://www.usenix.org/conference/fast19/technical-sessions"

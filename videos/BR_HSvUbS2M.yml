@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - testing
+title: 'NSDI ''19 - Model-Agnostic and Efficient Exploration of Numerical State Space of Real-World...'
+language: English
+recordingDate: 1554831002
+description: "Model-Agnostic and Efficient Exploration of Numerical State Space of Real-World TCP Congestion Control Implementations\nWei Sun and Lisong Xu, University of Nebraska-Lincoln; Sebastian Elbaum, University of Virginia; Di Zhao, University of Nebraska-Lincoln\n\nThe significant impact of TCP congestion control on the Internet highlights the importance of testing the correctness and performance of congestion control algorithm implementations (CCAIs) in various network environments. Many CCAI testing questions can be answered by exploring the numerical state space of CCAIs, which is defined by a group of numerical (and nonnumerical) state variables of the CCAIs. However, the current practices for automated numerical state space exploration are either limited by the approximate abstract CCAI models or inefficient due to the large space of network environment parameters and the complicated relation between the CCAI states and network environment parameters. In this paper, we propose an automated numerical state space exploration method, called ACT, which leverages the model-agnostic feature of random testing and greatly improves its efficiency by guiding random testing under the feedback iteratively obtained in a test. Our experiments on five representative Linux TCP CCAIs show that ACT can more efficiently explore a large numerical state space than manual testing, undirected random testing, and symbolic execution based testing, while without requiring any abstract CCAI models. ACT successfully detects multiple implementation bugs and design issues of these Linux TCP CCAIs, including some new bugs and issues not reported before.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

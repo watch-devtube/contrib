@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - cloud
+title: 'FAST ''19 - INSTalytics: Cluster Filesystem Co-design for Big-data Analytics'
+language: English
+recordingDate: 1554834814
+description: "Midhul Vuppalapati, Microsoft Research India\n\nWe present the design, implementation, and evaluation of Instalytics, a co-designed stack of a cluster file system and the compute layer, for efficient big data analytics in large-scale data centers. Instalytics amplifies the well-known benefits of data partitioning in analytics systems; instead of traditional partitioning on one dimension, Instalytics enables data to be simultaneously partitioned on four different dimensions at the same storage cost, enabling a larger fraction of queries to benefit from partition filtering and joins without network shuffle.\n\nTo achieve this, Instalytics uses compute-awareness to customize the 3-way replication that the cluster file system employs for availability. A new heterogeneous replication layout enables Instalytics to preserve the same recovery cost and availability as traditional replication. Instalytics also uses compute-awareness to expose a new {\\em sliced-read} API that improves performance of joins by enabling multiple compute nodes to read slices of a data block efficiently via co-ordinated request scheduling and selective caching at the storage nodes.\n\nWe have implemented Instalytics in a production analytics stack, and show that recovery performance and availability is similar to physical replication, while providing significant improvements in query performance, suggesting a new approach to designing cloud-scale big-data analytics systems.\n\nView the full FAST '19 program at https://www.usenix.org/conference/fast19/technical-sessions"

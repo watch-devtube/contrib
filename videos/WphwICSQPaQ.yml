@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - ml
+    - performance
+    - cloud
+title: 'NSDI ''19 - Flashield: a Hybrid Key-value Cache that Controls Flash Write Amplification'
+language: English
+recordingDate: 1554831804
+description: "Assaf Eisenman, Stanford University; Asaf Cidon, Stanford University and Barracuda Networks; Evgenya Pergament and Or Haimovich, Stanford University; Ryan Stutsman, University of Utah; Mohammad Alizadeh, MIT CSAIL; Sachin Katti, Stanford University\n\nAs its price per bit drops, SSD is increasingly becoming the default storage medium for hot data in cloud application databases. Even though SSD’s price per bit is more than 10× lower, and it provides sufficient performance (when accessed over a network) compared to DRAM, the durability of flash has limited its adoption in write-heavy use cases, such as key-value caching. This is because key-value caches need to frequently insert, update and evict small objects. This causes excessive writes and erasures on flash storage, which significantly shortens the lifetime of flash. We present Flashield, a hybrid key-value cache that uses DRAM as a “filter” to control and limit writes to SSD. Flashield performs lightweight machine learning admission control to predict which objects are likely to be read frequently without getting updated; these objects, which are prime candidates to be stored on SSD, are written to SSD in large chunks sequentially. In order to efficiently utilize the cache’s available memory, we design a novel in-memory index for the variable-sized objects stored on flash that requires only 4 bytes per object in DRAM. We describe Flashield’s design and implementation, and evaluate it on real-world traces from a widely used caching service, Memcachier. Compared to state-of-the-art systems that suffer a write amplification of 2.5× or more, Flashield maintains a median write amplification of 0.5× (since many filtered objects are never written to flash at all), without any loss of hit rate or throughput.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"
