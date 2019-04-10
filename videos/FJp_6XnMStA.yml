@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: 'FAST ''19 - Software Wear Management for Persistent Memories'
+language: English
+recordingDate: 1554834522
+description: "Vaibhav Gogte, University of Michigan\n\nThe commercial release of byte-addressable persistent memories (PMs) is imminent. Unfortunately, these devices suffer from limited write endurance—without any wear management, PM lifetime might be as low as 1.1 months. Existing wear-management techniques introduce an additional indirection layer to remap memory across physical frames and require hardware support to track fine-grain wear. These mechanisms incur storage overhead and increase access latency and energy consumption.\n\nWe present Kevlar, an OS-based wear-management technique for PM that requires no new hardware. Kevlar uses existing virtual memory mechanisms to remap pages, enabling it to perform both wear leveling—shuffling pages in PM to even wear; and wear reduction—transparently migrating heavily written pages to DRAM. Crucially, Kevlar avoids the need for hardware support to track wear at fine grain. Instead, it relies on a novel wear estimation technique that builds upon Intel's Precise Event Based Sampling to approximately track processor cache contents via a software-maintained Bloom filter and estimate write-back rates at fine grain. We implement Kevlar in Linux and demonstrate that it achieves lifetime improvement of 18.4x (avg.) over no wear management while incurring 1.2% performance overhead.\n\nView the full FAST '19 program at https://www.usenix.org/conference/fast19/technical-sessions"

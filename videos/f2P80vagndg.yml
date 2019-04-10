@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+    - functional
+title: 'FAST ''19 - SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution'
+language: English
+recordingDate: 1554834750
+description: "Maurice Bailleu, Jörg Thalheim, and Pramod Bhatotia, The University of Edinburgh; Christof Fetzer, TU Dresden; Michio Honda, NEC Labs; Kapil Vaswani, Microsoft Research\n\nWe introduce Speicher, a secure storage system that not only provides strong confidentiality and integrity properties, but also ensures data freshness to protect against rollback/forking attacks. Speicher exports a Key-Value (KV) interface backed by Log-Structured Merge Tree (LSM) for supporting secure data storage and query operations. Speicher enforces these security properties on an untrusted host by leveraging shielded execution based on a hardware-assisted trusted execution environment (TEE)—specifically, Intel SGX. However, the design of Speicher extends the trust in shielded execution beyond the secure SGX enclave memory region to ensure that the security properties are also preserved in the stateful (or non-volatile) setting of an untrusted storage medium, including system crash, reboot, or migration.\n\nMore specifically, we have designed an authenticated and confidentiality-preserving LSM data structure. We have further hardened the LSM data structure to ensure data freshness by designing asynchronous trusted counters. Lastly, we designed a direct I/O library for shielded execution based on Intel SPDK to overcome the I/O bottlenecks in the SGX enclave. We have implemented Speicher as a fully-functional storage system by extending RocksDB, and evaluated its performance using the RocksDB benchmark. Our experimental evaluation shows that Speicher incurs reasonable overheads for providing strong security guarantees, while keeping the trusted computing base (TCB) small.\n\nView the full FAST '19 program at https://www.usenix.org/conference/fast19/technical-sessions"
