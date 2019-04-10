@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - functional
+title: 'NSDI ''19 - Zeno: Diagnosing Performance Problems with Temporal Provenance'
+language: English
+recordingDate: 1554831021
+description: "Yang Wu, Facebook; Ang Chen, Rice University; Linh Thi Xuan Phan, University of Pennsylvania\n \nWhen diagnosing a problem in a distributed system, it is sometimes necessary to explain the timing of an event—for instance, why a response has been delayed, or why the network latency is high. Existing tools o er some support for this, typically by tracing the problem to a bottleneck or to an overloaded server. However, locating the bottleneck is merely the first step: the real problem may be some other service that is sending traffic over the bottleneck link, or a misbehaving machine that is overloading the server with requests. These off-path causes do not appear in a conventional trace and will thus be missed by most existing diagnostic tools.\n\nIn this paper, we introduce a new concept we call temporal provenance that can help with diagnosing timing-related problems. Temporal provenance is inspired by earlier work on provenance-based network debugging; however, in addition to the functional problems that can already be handled with classical provenance, it can also diagnose problems that are related to timing. We present an algorithm for generating temporal provenance and an experimental debugger called Zeno; our experimental evaluation shows that Zeno can successfully diagnose several realistic performance bugs.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

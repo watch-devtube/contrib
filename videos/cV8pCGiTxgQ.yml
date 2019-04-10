@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'NSDI ''19 - Performance Contracts for Software Network Functions'
+language: English
+recordingDate: 1554831637
+description: "Rishabh Iyer, Luis Pedrosa, Arseniy Zaostrovnykh, Solal Pirelli, Katerina Argyraki, and George Candea, EPFL\n \nSoftware network functions (NFs), or middleboxes, promise flexibility and easy deployment of network services but face the serious challenge of unexpected performance behaviour. We propose the notion of a performance contract, a construct formulated in terms of performance critical variables, that provides a precise description of NF performance. Performance contracts enable fine-grained prediction and scrutiny of NF performance for arbitrary workloads, without having to run the NF itself.\n\nWe describe BOLT, a technique and tool for computing such performance contracts for the entire software stack of NFs written in C, including the core NF logic, DPDK packet processing framework, and NIC driver. BOLT takes as input the NF implementation code and outputs the corresponding contract. Under the covers, it combines pre-analysis of a library of stateful NF data structures with automated symbolic execution of the NF’s code. We evaluate BOLT on four NFs—a Maglev-like load balancer, a NAT, an LPM router, and a MAC bridge—and show that its performance contracts predict the dynamic instruction count and memory access count with a maximum gap of 7% between the real execution and the conservatively predicted upper bound. With further engineering, this gap can be reduced.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

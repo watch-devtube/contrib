@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - containers
+title: 'NSDI ''19 - Slim: OS Kernel Support for a Low-Overhead Container Overlay Network'
+language: English
+recordingDate: 1554831040
+description: "Danyang Zhuo and Kaiyuan Zhang, University of Washington; Yibo Zhu, Microsoft and Bytedance; Hongqiang Harry Liu, Alibaba; Matthew Rockett, Arvind Krishnamurthy, and Thomas Anderson, University of Washington\n\nContainers have become the de facto method for hosting large-scale distributed applications. Container overlay networks are essential to providing portability for containers, yet they impose significant overhead in terms of throughput, latency, and CPU utilization. The key problem is a reliance on packet transformation to implement network virtualization. As a result, each packet has to traverse the network stack twice in both the sender and the receiver’s host OS kernel. We have designed and implemented Slim, a low-overhead container overlay network that implements network virtualization by manipulating connection-level metadata. Our solution maintains compatibility with today’s containerized applications. Evaluation results show that Slim improves the throughput of an in-memory key-value store by 66% while reducing the latency by 42%. Slim reduces the CPU utilization of the in-memory key-value store by 54%. Slim also reduces the CPU utilization of a web server by 28%-40%, a database server by 25%, and a stream processing framework by 11%.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

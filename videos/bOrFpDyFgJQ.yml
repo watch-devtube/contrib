@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - swift
+    - cloud
+    - ios
+title: 'NSDI ''19 - Loom: Flexible and Efficient NIC Packet Scheduling'
+language: English
+recordingDate: 1554830994
+description: "Brent Stephens, UIC; Aditya Akella and Michael Swift, UW-Madison\n\nIn multi-tenant cloud data centers, operators need to ensure that competing tenants and applications are isolated from each other and fairly share limited network resources. With current NICs, operators must either 1) use a single NIC queue and enforce network policy in software, which incurs high CPU overheads and struggles to drive increasing line-rates (100Gbps), or 2) use multiple NIC queues and accept imperfect isolation and policy enforcement. These problems arise due to inflexible and static NIC packet schedulers and an inefficient OS/NIC interface.\n\nTo overcome these limitations, we present Loom, a new NIC design that moves all per-flow scheduling decisions out of the OS and into the NIC. The key aspects of Loom's design are 1) a new network policy abstraction: restricted directed acyclic graphs (DAGs), 2) a programmable hierarchical packet scheduler, and 3) a new expressive and efficient OS/NIC interface that enables the OS to precisely control how the NIC performs packet scheduling while still ensuring low CPU utilization. Loom is the only multiqueue NIC design that is able to efficiently enforce network policy. We find empirically that Loom lowers latency, increases throughput, and improves fairness for collocated applications and tenants.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

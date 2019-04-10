@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - performance
+title: 'NSDI ''19 - Exploiting Commutativity For Practical Fast Replication'
+language: English
+recordingDate: 1554830968
+description: "Seo Jin Park and John Ousterhout, Stanford University\n\nTraditional approaches to replication require client requests to be ordered before making them durable by copying them to replicas. As a result, clients must wait for two round-trip times (RTTs) before updates complete. In this paper, we show that this entanglement of ordering and durability is unnecessary for strong consistency. Consistent Unordered Replication Protocol (CURP) allows clients to replicate requests that have not yet been ordered, as long as they are commutative. This strategy allows most operations to complete in 1 RTT (the same as an unreplicated system). We implemented CURP in the Redis and RAMCloud storage systems. In RAMCloud, CURP improved write latency by 2x (14us - 7.1us) and write throughput by 4x. Compared to unreplicated RAMCloud, CURP's latency overhead for 3-way replication is just 1us (6.1us vs 7.1us). CURP transformed a non-durable Redis cache into a consistent and durable storage system with only a small performance overhead.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

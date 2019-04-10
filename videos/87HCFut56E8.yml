@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'NSDI ''19 - SweepSense: Sensing 5 GHz in 5 Milliseconds with Low-cost Radios'
+language: English
+recordingDate: 1554831806
+description: "Yeswanth Guddeti, UC San Diego; Raghav Subbaraman, IIT Madras; Moein Khazraee, Aaron Schulman, and Dinesh Bharadia, UC San Diego\n \nWireless transmissions occur intermittently across the entire spectrum. For example, WiFi and Bluetooth devices transmit frames across the 100 MHz-wide 2.4 GHz band, and LTE devices transmit frames between 700 MHz and 3.7 GHz). Today, only high-cost radios can sense across the spectrum with sufficient temporal resolution to observe these individual transmissions.\n\nWe present “SweepSense”, a low-cost radio architecture that senses the entire spectrum with high-temporal resolution by rapidly sweeping across it. Sweeping introduces new challenges for spectrum sensing: SweepSense radios only capture a small number of distorted samples of transmissions. To overcome this challenge, we correct the distortion with self-generated calibration data, and classify the protocol that originated each transmission with only a fraction of the transmission’s samples. We demonstrate that SweepSense can accurately identify four protocols transmitting simultaneously in the 2.4 GHz unlicensed band. We also demonstrate that it can simultaneously monitor the load of several LTE base stations operating in disjoint bands.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"

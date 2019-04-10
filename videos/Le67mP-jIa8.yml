@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+title: 'NSDI ''19 - Hyperscan: A Fast Multi-pattern Regex Matcher for Modern CPUs'
+language: English
+recordingDate: 1554831013
+description: "Xiang Wang, Yang Hong, and Harry Chang, Intel; KyoungSoo Park, KAIST; Geoff Langdale, branchfree.org; Jiayu Hu and Heqing Zhu, Intel\n \nRegular expression matching serves as a key functionality of modern network security applications. Unfortunately, it often becomes the performance bottleneck as it involves compute-intensive scan of every byte of packet payload. With trends towards increasing network bandwidth and a large ruleset of complex patterns, the performance requirement gets ever more demanding.\n\nIn this paper, we present Hyperscan, a high performance regular expression matcher for commodity server machines. Hyperscan employs two core techniques for efficient pattern matching. First, it exploits graph decomposition that translates regular expression matching into a series of string and finite automata matching. Unlike existing solutions, string matching becomes a part of regular expression matching, eliminating duplicate operations. Decomposed regular expression components also increase the chance of fast DFA matching as they tend to be smaller than the original pattern. Second, Hyperscan accelerates both string and finite automata matching using SIMD operations, which brings substantial throughput improvement. Our evaluation shows that Hyperscan improves the performance of Snort by a factor of 8.7 for a real traffic trace.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"
