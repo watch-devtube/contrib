@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - architecture
+title: 'NSDI ''19 - Hydra: a federated resource manager for data-center scale analytics'
+language: English
+recordingDate: 1554831079
+description: "Carlo Curino, Microsoft\n\nMicrosoft's internal data lake processes exabytes of data over millions of cores daily on behalf of thousands of tenants. Scheduling this workload requires 10x to 100x more decisions per second than existing, general-purpose resource management frameworks are known to handle. In 2013, we were faced with a growing demand for workload diversity and richer sharing policies that our legacy system could not meet. In this paper, we present Hydra, the resource management infrastructure we built to meet these requirements.\n\nHydra leverages a federated architecture, in which a cluster is comprised of multiple, loosely coordinating subclusters. This allows us to scale by delegating placement of tasks on machines to each sub-cluster, while centrally coordinating only to ensure that tenants receive the right share of resources. To adapt to changing workload and cluster conditions promptly, Hydra's design features a control plane that can push scheduling policies across tens of thousands of nodes within seconds. This feature combined with the federated design allows for great agility in developing, evaluating, and rolling out new system behaviors.\n\nWe built Hydra by leveraging, extending, and contributing our code to Apache Hadoop YARN. Hydra is currently the primary big-data resource manager at Microsoft. Over the last few years, Hydra has scheduled nearly one trillion tasks that manipulated close to a Zettabyte of production data.\n\nView the full NSDI '19 program at https://www.usenix.org/conference/nsdi19/technical-sessions"
