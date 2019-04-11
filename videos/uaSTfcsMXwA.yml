@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cassandra
+    - performance
+    - containers
+    - kubernetes
+    - architecture
+title: 'How to Make K8s Autoscale Work: Novice to Pro to VIP with Real Multi-Tier MicroServices'
+recordingDate: 1554909018
+description: 'Assuring your Application performs to Service Level Objectives is the end game, and Kubernetes provides Horizontal Pod Autoscaling Policies that allow you to define a set of conditions for when Kubernetes will automatically scale your services to help manage to SLOs. Identifying the best values for these policies is not easy, with limited information on how to achieve results for real, complex applications. Policies that do not properly account for multiple factors will not only fail to assure performance, but could negatively impact other services. Effective policies need to consider how to choose the best KPIs that reflect SLOs and resources, how to use multiple metrics, how to determine the max number of replicas per service, and when does vertical work better than horizontal scaling. We will share our repeatable methodology based on a twitter-like app consisting of multiple services: http frontend, multiple gRPC accessed backends, using Cassandra. We deployed Istio to load balance traffic, which provided telemetry data for response time based KPIs, and used Locust for load generation. We will share lessons and best practices using an iterative approach that ensures SLO while maximizing resource efficiency with HPA policies.'
