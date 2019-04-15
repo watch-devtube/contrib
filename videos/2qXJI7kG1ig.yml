@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - java
+    - hibernate
+title: 'Vlad Mihalcea -  Transactions and Concurrency Control Patterns'
+language: English
+recordingDate: 1555263231
+description: "Transactions and Concurrency Control are very of paramount importance when it comes to enterprise systems data integrity.\nHowever, this topic is very tough since you have to understand the inner workings of the database system, its concurrency control design choices (e.g. 2PL, MVCC), transaction isolation levels and locking schemes.\nIn this presentation, I'm going to explain what data anomalies can happen depending on the transaction isolation level, with references to Oracle, SQL Server, PostgreSQL, and MySQL.\nI will also demonstrate that database transactions are not enough, especially for multi-request web flows. For this reason, I'm going to present multiple application-level transaction patterns based on both optimistic and pessimistic locking mechanisms.\nLast, I'm going to talk about Concurrency Control strategies used in the Hibernate second-level caching mechanism, which can boost performance without compromising strong consistency."
