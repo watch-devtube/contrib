@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+    - cloud
+    - architecture
+    - javascript
+title: 'Bosh Vault: Secretless Bosh Manifests and Vault - Matt Surabian, Zipcar'
+language: English
+recordingDate: 1555372260
+description: "Bosh Vault: Secretless Bosh Manifests and Vault - Matt Surabian, Zipcar\n\nCloudFoundry's config server API has changed the way we're able to manage our infrastructure's secrets by limiting the amount of information our Bosh director needs to remember. Even though the config server API was designed as a generic abstraction, Credhub was the only secure implementation of it. \n\nAt Zipcar we were already invested in Vault and didn't want to have to manage two secret storage solutions, so we decided to write a config server implementation that was able to use Vault as a backend. This talk introduces the bosh-vault open source project, explores working with config servers and Bosh in general, and talks about the awesome community support that made this experiment possible.\n\nAbout Matt Surabian\nMatt is a full stack engineer on Zipcar's infrastructure team, which supports the car sharing company’s custom Cloud Foundry architecture. This tooling gives Zipcar's developers the power to continuously deploy thousands of micro-services across multiple data centers. Matt’s background includes high availability application and infrastructure development at Alexa top 500 scale. Matt holds a BS in computer science and two HashiCorp certifications in Vault. You can find him on GitHub in the JavaScript and Golang open source communities. Most recently, Matt released Bosh-Vault a Cloud Foundry Configuration Server implementation backed with Vault. Outside of work, Matt enjoys spending time working on his 103-year-old house, or being in the outdoors hiking, hunting, and fishing.\n\nhttps://www.cloudfoundry.org/"
