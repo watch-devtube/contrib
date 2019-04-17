@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - testing
+    - architecture
+title: 'Testing Production Environments and Verifying Open Service Broker API Compliance - Oliver Wolf'
+language: English
+recordingDate: 1555372298
+description: "Testing Production Environments and Verifying Open Service Broker API Compliance - Oliver Wolf, anynines\n\nYou’ve developed a Service Broker and want to test your broker’s implementation? Maybe you're considering writing a new Service Broker and want some kind of test suite to validate against.\n\nanynines makes use of two different kind of tests suites when it comes to automating deployments with the Open Service Broker API. The first ones are the “BOSH releases tests” and are used to verify that service instances behave like expected during failure scenarios. While these kind of tests are used in the CI/CD pipeline of the anynines Data Services, they don’t verify compliance against the OSBAPI or whether a concrete customer production setup is working correctly.\n\nThis talk focuses on the latest type of tests and shows how a generic test suite that verifies production platform environments and OSBAPI compliance can be used for different kind of data services.\n\nAbout Oliver Wolf\nOliver works with Cloud Foundry and BOSH for over three years now. Started with CF V1 his responsibilities where operating the public anynines platform as well developing additional solution around Cloud Foundry. At the moment he is part of the anynines service development team and takes care that the architecture meets the customer requirements. Frequently he is involved in consulting and training projects regarding Cloud Foundry, BOSH and cloud ready app development.\n\nhttps://www.cloudfoundry.org/"

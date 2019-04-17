@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - sap
+title: 'Zero-downtime Update of CloudFoundry Applications with Database Migrations - Tsvetan Tsokov, SAP'
+language: English
+recordingDate: 1555372298
+description: "Zero-downtime Update of CloudFoundry Applications with Database Migrations - Tsvetan Tsokov, SAP\n\nThe blue-green deployment process in CloudFoundry is sufficient for update of applications that don’t have schema changes in database. However, it does not work well when there are database schema changes, since the database as a single-point-of-truth cannot co-exist both in “blue” and in “green” version at the same time. This can be achieved by manually implementing data migration scripts, which is error-prone and time-consuming. To address these challenges a tools and concept, together with the MultiApps project, are developed, providing model for developers to describe their database evolutions.\n\nAbout Tsvetan Tsokov\nTsvetan is software developer on MultiApps deployment service, providing lifecycle management for applications in SAP Cloud Platform.\n\nhttps://www.cloudfoundry.org/"
