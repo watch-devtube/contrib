@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Florina Muntenescu - Migrating to Paging library'
+recordingDate: 1555576057
+description: "The paging library offers a complete solution for efficiently displaying large lists of data but adopting such a comprehensive library can be daunting. \n\nIn this talk, I’ll cover some of the lessons we learned while gradually migrating from a RecyclerView.Adapter, populated from a tightly coupled domain and presentation layers, to Paging library. \n\nYou’ll learn about the main components of the Pagining library, where they fit in your architecture, how decoupling the UI and the data/domain layers results in more maintainable & testable code. \n\nYou’ll understand which DataSource type you need for your use case see how you can display multiple data types in the same RecyclerView and how to handle other use cases like interactions with a view item, deleting or inserting an item, selection states or showing section headers. Learn from our experience how to migrate to paging and the benefits we saw."
