@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - android
+    - security
+title: 'Doug Stevenson - (Android) Transformers - bytecode in disguise!'
+recordingDate: 1555665785
+description: "If you’ve used Firebase Performance Monitoring, you know that it automatically discovers and reports performance metrics for all the HTTP transactions in your app. \n\nBut have you ever wondered how it does that? Android doesn’t provide any APIs to listen in on an arbitrary connection (that would be a security problem!), and Firebase supports URLConnection, Apache, and OKHTTP APIs. \n\nThe secret here is bytecode manipulation at build time using the Transform API provided by the Android build tools. Join this session to find out how the Firebase Performance Monitoring Gradle plugin intercepts and measures HTTP transactions at runtime with some assistance from bytecode manipulation at build time."
