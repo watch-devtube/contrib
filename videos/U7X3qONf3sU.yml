@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'SREcon19 Americas - Madaari: Ordering for the Monkeys'
+language: English
+recordingDate: 1555953520
+description: "Ashutosh Raina and Ramprasad Ellupuru, eBay\n\nLineage Driven Fault Injection (LDFI) is a state of the art technique in chaos engineering experiment selection. As SRE's we would like to perform chaos experiments that reveal the bugs that the customers are most likely to hit first. In this talk, we present new improvements to LDFI that orders the experiment suggestions.\n\nIn the first the half of the talk we will show introduce LDFI as a technique that can be widely used within an enterprise. We also highlight how ordering is general purpose technique that we can use to encode the peculiarities of a heterogeneous microservices architecture. LDFI can work in an enterprise by harnessing the observability infrastructure to model the redundancy of the system.\n\nNext, we present experiments conducted within eBay using ordered LDFI and some preliminary results. We show examples of services where we discovered bugs, and how carefully controlling the order of experiments allowed LDFI to avoid running unnecessary experiments.\n\nWe will discuss open problems and future direction of LDFI.\n\nKey takeaways :\n\n1. Understand how LDFI can be integrated in the enterprise by harnessing the observability infrastructure\n2. Limitations of LDFI w.r.t unordered solutions and why ordering matters for chaos experiments\nPreliminary results of prioritized LDFI and a future direction for the community\n3. No prior knowledge of LDFI is required.\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

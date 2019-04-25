@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - python
+title: 'SREcon19 Americas - Strategies to Edit Production Data'
+language: English
+recordingDate: 1555953519
+description: "Julie Qiu, Google\n\nAt some point, we all find ourselves at a SQL prompt making edits to the production database. We know it’s a bad practice and we always intend to put in place safer infrastructure before we need to do it again—what does a better system actually look like?\n\nThis talk progresses through 5 strategies for teams using a Python stack to do SQL writes against a database, to achieve increasing safety and auditability:\n\n1. Develop a process for raw SQL edits\n2. Run scripts locally\n3. Run scripts on an existing server\n4. Use a task runner\n5. Build a Script Runner service\nWe’ll talk about the pros and cons of each strategy and help you determine which one is right for your specific needs.\n\nBy the end of this talk you’ll be ready to start upgrading your infrastructure for making changes to your production database safely!\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
