@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - css
+    - web
+    - containers
+    - python
+    - javascript
+title: 'DjangoCon 2018 - Can packaging improve Django deployments?'
+recordingDate: 1527083824
+description: "https://media.ccc.de/v/hd-117-can-packaging-improve-django-deployments-\n\n\n\nHow can packaging Django projects make deployments easier, faster and more reliable?\n\nDeployments of Django projects can be a challenging task. Beside the Python source code itself you usually have to handle a lot of other stuff:\n\n* Installing Python dependencies\n* Shipping JavaScript code and installing it's dependencies\n* Compiling SCSS to CSS\n* Collecting static files\n* Building documentation\n* Compiling translations\n* …\n\nAnd of course you want a deployment approach that is independent of a specific hosting solution.\n\nAlso you have to think about the scalability of your deployment when the number of servers you operate increases.\n\nThis usually means that `git pull` is not the best way to deal with these tasks.\n\nSo I will discuss different ways to package your Django project like\n\n* Wheels\n* JavaScript packages\n* Operating system packages\n* Containers\n\nSome of these concepts will hopefully help you to make your deployment process easier, faster and more reliable.\n\nMarkus Zapke-Gründemann"
