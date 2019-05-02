@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Docker Containers and Kubernetes | Brian Dorsey | Codemotion Madrid 2014'
+language: English
+recordingDate: 1556742323
+description: "We've all written an application from scratch before. It’s manual, inefficient, and what’s worse, it’s completely unreproducible.\n\nSo then you might turn to Docker, which solves the process-level reproducibility by packaging up a full execution environment. But once we get beyond a single machine, we need to coordinate the work across a cluster of machines -- trying to do it imperatively can quickly turn into a tangled mess! You want to declare to your cluster what you expect it to do, and have the cluster assign the resources to get it done, recover from failures, and scale easily.\n\nKubernetes is a recently open sourced cluster manager and scheduler that simplifies the complex tasks of deploying and managing your application. You simply declare the desired state, and Kubernetes does the work to keep it that way. In this talk, I'll do a hands-on demonstration of how you can move from a single Docker container to many containers running across a cluster of machines with Kubernetes."
