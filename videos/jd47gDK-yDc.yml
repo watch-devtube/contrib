@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'MADPIG: mesure et optimisation de la performance en Go (Valentin Deleplace)'
+recordingDate: 1556713843
+description: "Vous aimez quand ça rame? Moi non plus.\n\nQuand vous commencez à optimiser les performances, la théorie et l'intuition c'est bien, mais la mesure c'est mieux. Écrivez des benchmarks, essayez plusieurs approches, optimisez différents niveaux d'abstraction, trouvez le goulot d'étranglement, et recommencez!\n\nL'outillage en Go met l'exploration de performances à votre portée. \n- Avec Pprof, découvrez où le temps est consommé. Souvent ce n'est pas là où vous croyez!\n- Envisagez la concurrence avec les goroutines, lorsque le gain surpasse le coût.\n- Avec Trace, espionnez ce que font vos CPU: pourquoi sont-il oisifs? Pourquoi tant de context switch? Est-ce que c'est le garbage collector qui me ralentit?\n- Écrivez des tests pour préserver la sémantique au fil des refactorings, sans dérailler!\n- Découvrez comment écrire un benchmark en 3 lignes.\n- Utilisez le Race Detector, et apprenez pourquoi c'est important.\n- Examinez la couverture de code pour découvrir le \"code mort\" et le \"code chaud\".\n- C'est quoi un Flame Graph?"
