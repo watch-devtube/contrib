@@ -1,0 +1,16 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+    - security
+    - python
+    - javascript
+title: 'A new approach to container isolation with Nabla'
+language: English
+recordingDate: 1556759276
+description: "by Brandon Lum\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UA2.114/containers_nabla.webm\n\n\nDespite its many advantages, containers have not been accepted as isolated sandboxes. In this talk, we present Nabla containers, which uses library OS/unikernel techniques to avoid system calls and thereby reduce the attack surface on the host kernel. We will demonstrate the running of popular applications (node.js, python, redis, etc.) on container ecosystems (kubernetes, etc.) as nabla containers (using &lt; 9 syscalls). In addition, We will compare isolation and performance metrics against other isolation technologies (gvisor, kata, etc.) Horizontal attacks are an important security concern for cloud providers and its tenants. Despite its many advantages, containers have not been accepted as isolated sandboxes, which is crucial for container-native clouds. The exposure of the syscall interface directly to untrusted workloads has greatly increased the number of exploits possible to the host. \n\nWe present Nabla containers, which uses library OS/unikernel techniques to avoid system calls and thereby reduce the attack surface on the host kernel. Using our OCI runtime, runnc (https://github.com/nabla-containers/runnc), we show the running of popular applcations: Node.js, python, redis, etc. permitting the use of &lt; 9 syscalls via seccomp. In this talk, we will discuss and demo how we have leveraged libOS ideas in a novel way and compare isolation and            performance metrics against other technologies such as gvisor and Kata Containers. In addition, we will demonstrate the running nabla containers with the existing container ecosystems such as kubernetes. \n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2019-02-03 15:05:00+01"

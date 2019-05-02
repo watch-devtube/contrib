@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+    - javascript
+    - functional
+title: 'Node.js feature-flipping through Git Git as a Continuous Manager'
+language: English
+recordingDate: 1556748566
+description: "by Matthias Dugué\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/H.1308/git_continuous_manager.webm\n\n\nLet's imagine you run a complex service or app, and you have to manage a backend solution that grows fast. You have to find a way to handle the releases cycle. It means taking care of restarting services, migrating databases, expiring caches, as well as notifying client's apps for the update. Now, add a new layer of complexity: to quickly try-and-fail, you also use a feature-flipping architecture that allows you to run tests on various client segments. Even for a limited amount of time. And, because your team is great, you deliver several times a day. To address all those needs, Node.js is a great candidate. Properly hooked behind a Git repository that will allow you to push your codebase and configs, we can conceive a modular system to manage your deployment process. Based on Streams and Functional Programming, we will present a global solution capable to deliver your codebase and reprocess its configuration on-the-fly. With a simple git push. Let's see what a modern, robust, and distributed deployment platform should look like. \n\nRoom: H.1308 (Rolin)\nScheduled start: 2019-02-03 16:00:00+01"

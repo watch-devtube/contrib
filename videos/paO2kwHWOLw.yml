@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Deep Dive: Kubernetes Metrics with Prometheus'
+language: English
+recordingDate: 1556759190
+description: "by Matthias Loibl and Sergiusz Urbaniak\n\nAt: FOSDEM 2019\nhttps://video.fosdem.org/2019/UB2.252A/deep_dive_kubernetes_metrics_with_prometheus.webm\n\n\nKubernetes traditionally uses metrics for its core scheduling decisions - in the beginning all of this started with an opinionated internal stack. Since then Kubernetes has introduced 3 orthogonal standardized metrics APIs. As of today many implementations exist - i.e. for cloud providers and on premise. In this talk we will first show the community process around metrics in Kubernetes, how the Special Interest Group (SIG) for instrumentation works and how to get involved. We will do an overview and deep dive in all 3 metric APIs, with a concrete fully open source Prometheus based deployment example. Once we have Prometheus running we will show how to bridge the gap between Prometheus and Kubernetes to use these APIs. Finally, we will conclude the talk with an example on scaling your deployments based on custom metrics served by your Prometheus. \n\nRoom: UB2.252A (Lameere)\nScheduled start: 2019-02-03 15:50:00+01"
