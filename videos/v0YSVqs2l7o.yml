@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+title: 'Dr Gopher, Anatomie du Scheduler (Nicolas Lepage)'
+recordingDate: 1556713806
+description: "Dr Gopher a décidé de comprendre comment fait le runtime Golang pour multiplexer des goroutines sur des threads système.\n\n\nIl va trifouiller dans les entrailles du scheduler, pour y découvrir ses éléments de base G M et P, ainsi que ses différents mécanismes : création de thread, thread parking, local queues, ou encore work stealing...\n\n\nLa programmation concurrentielle en Go permet au développeur de s’abstraire de la gestion des ressources systèmes ; penchons-nous avec Dr Gopher sur l’anatomie du scheduler et voyons comment il optimise naturellement l’utilisation de ces ressources."
