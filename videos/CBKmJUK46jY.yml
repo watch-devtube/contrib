@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - architecture
+    - kotlin
+    - functional
+title: 'The Rise Of The State Machines by Mounir Boudraa, Delphia FR'
+language: French
+recordingDate: 1557085145
+description: "This session was given at Paris Android Makers 2019 by Mounir Boudraa, Delphia.\n\nMore info: http://androidmakers.fr/schedule/?sessionId=EHB-6826\n\nYou're right, that title seems scary: there are so many complicated words and we all know there's no silver bullet in programming.\n\nSo instead of explaining why an architecture is better than another, let's discuss some issues we face in our daily Android development job and how we can solve those through 3 examples:\n\n1. I have crashes I can't reproduce.\n2. Integration tests are great and necessary to ensure a complete flow is working as expected, but they are complex to set up, and it takes time to run the whole test suite when using an instrumentation tool such as Espresso\n3. My legacy app has some \"startActivity\" calls in activites, fragments, custom views, and even in RecyclerView adapters (who did that !?!). I have no visibility regarding the overall navigation of and the code is sometimes hard to follow.\n\nWe will see today the concepts underneath and how such an architecture can be implemented using functional programming patterns through writing a Kotlin DSL.\n\nAt the end of the talk, you will get a new, fresh, vision on how to approach programming on Android, through a unidirectional data flow structure, and maybe you'll be interested in implementing a similar architecture.\n\nAlex Karp Production"

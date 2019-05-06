@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - kotlin
+    - java
+    - .net
+title: 'Making any codebase more readable with Kotlin coroutines by Louis CAD, SuiviDeFlotte.net - Beepiz EN'
+language: English
+recordingDate: 1557085145
+description: "This session was given at Paris Android Makers 2019 by Louis CAD, SuiviDeFlotte.net - Beepiz.\n\nMore info: http://androidmakers.fr/schedule/?sessionId=DFO-2916\n\nFunctions that take a long time to return are a problem because they block the calling thread, which could be the main thread, where your UI runs.\nYou can workaround this issue by using callbacks instead, but it introduces other issues:\n\n- Mangled functions signatures\n- Inability to use even simple language constructs like `if`, `while` or local variables\n- More verbose usage (boilerplate never scales well)\n- Harder error/exception handling\n\nSeeing it brings more problems than it solves helps us understand why people refer to callback hells.\n\nThere's been attempts to circumvent these issues with AsyncTask (no comment), Futures (from JDK, Guava, and more), Tasks API (from Google Play Services), reactive programming (e.g. RxJava used for threading and callbacks), and none solves all the issues mentioned above.\n\nKotlin coroutines are changing the game with an implementation of the nearly 60 years old concept that brings back the simplicity of blocking code, without the blocking issue.\n\nIn this talk, you'll see how any waiting or blocking code can be made easier to write and read.\nYou'll learn how to use kotlinx.coroutines correctly in Android, and peek at how it all works.\n\nAlex Karp Production"
