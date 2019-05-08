@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Consul@Criteo: Des services un peu, des machines beaucoup, du ServiceMesh bientôt (Pierre Souchay)'
+language: French
+recordingDate: 1557218560
+description: "Nommer les choses est difficile, les trouver encore plus, surtout dans une infrastructure comme Criteo constituée de plus de plus de 1500 types de services fonctionnant sur 30 000 nœuds répartis sur 8 DCs !\n\nHashiCorp Consul et son système de découverte de services permet de mélanger conteneurs et machines physiques, de passer d'un système de machine dédiées à une architecture de services dynamiques, d'une topologie physique à une topologie virtuelle dynamique.\n\nNous verrons comment Criteo réparti la charge sur son infrastructure avec des mécanismes variés: HaProxy, F5 (matériels) ou des bibliothèques côté client (Client Side Load Balancing) et de basculer à terme vers du ServiceMesh - que nous expliquerons - en utilisant Consul.\n\nCette présentation est à destination de développeurs ou d'Ops qui pourrons découvrir une vision d'architecture au delà d'une simple présentation du produit.\n\nNous expliquerons également comment Criteo est devenu premier contributeur externe à Consul, et quelques unes de nombreuses optimisations que nous avons dû y apporter de manière à en faire un des fondements de notre infrastructure."
