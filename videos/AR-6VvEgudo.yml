@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - docker
+    - kubernetes
+    - architecture
+title: 'Comment et pourquoi construire un dépôt central pour module Go avec Kubernetes (Jonathan Roquelaure)'
+language: French
+recordingDate: 1557218621
+description: 'Avec la mise en ligne récente de GoCenter nous avons, à JFrog, dû aborder une approche différente afin d''utiliser au mieux les nouveaux standards du cloud (K8s et docker pour ne pas les nommer). Pour nous cela voulait dire changer la manière de coder (plus de Go), de construire et packager nos applications et enfin de les déployer. Pendant cette présentation nous introduirons rapidement GoCenter et son architecture en expliquant les choix effectués en étant attentif à ces petits détails (logging, persistence, limits,...) qui vous repellent cruellement que non, containeriser une app existante ne consiste pas juste à la mettre dans une image docker. Nous aborderons aussi les stratégies d''optimisation de scaling mises en place qui, à échelle et sur du cloud, se doivent de respecter à la fois des contraintes de performances et d''optimisation des coûts. A la fin de cette présentation vous saurez ce qu''est GoCenter. Comment et pourquoi l''utiliser. Comment le service est architecturé et conçu.'

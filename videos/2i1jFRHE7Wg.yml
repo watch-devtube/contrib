@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - devops
+    - security
+    - java
+title: 'Sécuriser son runtime Java sous Linux avec SELinux (Pierre-Antoine Grégoire, Valeriane Venance)'
+language: French
+recordingDate: 1557218621
+description: "La sécurité applicative passe bien évidemment pas de bonnes pratiques de codage, par l'usage de librairies, frameworks et runtimes non obsolètes, ainsi que par le contrôle des entrées et sorties de l'application. Des bonnes pratiques de développement en somme. Nous allons ici nous intéresser à la sécurisation des systèmes qui hébergent les applications, afin d'éviter qu'une application ne dépasse les limites qui lui sont allouées, quelque soit le niveau d'application des bonnes pratiques de sécurité lors du processus de développement. Apprenons ensemble comment rendre le système qui héberge nos applications plus robuste.\n\nCeci est important dans une démarche Devops, pour que tout le monde comprenne bien les contraintes et limites de ce qui est du ressort du développement et ce qui est du ressort de l'environnement de déploiement.\n\nNous expliquerons les concepts autour du Mandatory Access Control (MAC) basé sur les Linux Security Modules, et expliciterons comment configurer SELinux sur son système pour des applications installées de manière totalement non-générique (personnalisée), en créant ses propres modules et policies."
