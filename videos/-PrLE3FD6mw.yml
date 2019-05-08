@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Cycle de vie des applications dans Kubernetes (C. Sabourdin & J.C. Sirot)'
+language: French
+recordingDate: 1557218708
+description: "Lors de cette présentation, nous allons dans un premier temps rappeler la spécificité de docker par rapport à une VM (PID, cgroups, etc) parler du système de layer et de la différence entre images et instances puis nous présenterons succinctement kubernetes.\n\nEnsuite, nous présenterons un processus « standard » de propagation d’une version CI/CD (développement, préproduction, production) à travers les tags docker.\n\nEnfin, nous parlerons des différents composants constituant une application docker (base-image, tooling, librairie, code).\n\nUne fois cette introduction réalisée, nous parlerons du cycle de vie d’une application à travers ses phases de développement, BAU pour mettre en avant que les failles de sécurité en période de développement sont rapidement corrigées par de nouvelles releases, mais pas nécessairement en BAU où les releases sont plus rares. Nous parlerons des diverses solutions (jfrog Xray, clair, …) pour le suivie des automatique des CVE et l’automatisation des mises à jour. Enfin, nous ferons un bref retour d’expérience pour parler des difficultés rencontrées et des propositions d’organisation mises en oeuvre."

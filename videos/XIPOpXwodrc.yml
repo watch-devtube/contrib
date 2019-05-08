@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - javascript
+title: 'Sourcemap ça coule de source (Trung NGUYEN)'
+language: French
+recordingDate: 1557218621
+description: "Qui n’utilise pas un transpiler, TypeScript ou Babel, aujourd’hui ? Qui dit transpiler dit sourcemap, un outil indispensable pour débugger une application JS, en maintenant le lien entre code de production et code source d’origine. La plupart du temps, nous utilisons le sourcemap sans avoir besoin d’en comprendre le fonctionnement interne puisqu’une simple configuration permet de le faire fonctionner. Mais alors que les bundles de code JS compressés prennent plusieurs mégas, comment sourcemap fait pour ne pas dégrader les performances, ne pas exploser la RAM et le CPU de ta machine ?\n\nJe te propose lors de ce talk de démystifier le fonctionnement du sourcemap en parlant des deux principaux algorithmes d’encodage qui sont les sauces secrètes de sa recette: Base64 et VLQ."

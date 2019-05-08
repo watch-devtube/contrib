@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Reactive "Jammed" Architecture ou comment survivre à l''A6 en heure de pointe (N. Phung, J. Aguiar)'
+language: French
+recordingDate: 1557218622
+description: 'Aujourd''hui, les architectures "réactives" sont populaires, notamment pour traiter des milliers de requêtes/seconde en parallèle... mais ceci n''est pas l''objet de ce talk. Ici, on va plutôt vous expliquer comment nous avons utilisé ce type d''architecture et notamment des technos comme Kafka ou Akka pour s''interfacer avec des services bloquants, non scalables et embouteillés, dans un contexte temps-réel. Nous n''allons pas chercher à nous mettre à l''échelle du web, mais plutôt à utiliser de manière pragmatique le streaming d''événements pour communiquer avec des systèmes complexes pré-existants.'

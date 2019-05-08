@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - react
+title: 'Streaming Apps Poison Pill: Comment Kafka-Streams compte faire passer la pilule (Loïc DIVAD)'
+language: French
+recordingDate: 1557218621
+description: "Kafka-Streams, la librairie de traitement de données en temps réel de Apache Kafka permet de traiter une grande quantité de messages avec de très faibles latences. Les messages peuvent avoir des formats différents, des schémas différents et même être sérialisés de manières différentes. Alors que se passe-t-il quand un message indésirable se retrouve dans un flux ? Ces applications de stream processing ne peuvent pas se permettre d’attendre une remise en route manuelle. Comment notre librairie gère donc ces événements ?\n\nCe talk propose d’explorer l’API StreamDSL de Kafka-Streams. Des techniques comme les sentinel values ou encore les dead letter queues y sont proposées. Voyons ensemble comment elles rendent possible la gestion des messages erronés, appelés aussi poison pills."
