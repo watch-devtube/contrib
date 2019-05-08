@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'Comprendre les GC à faible latence (J.-P. Bempel)'
+language: French
+recordingDate: 1557218560
+description: 'Depuis quelques années, le monde du GC sur la JVM évolue. Une nouvelle catégorie de GC émerge: Les GC à faible latence (low latency). Shenandoah est mis à disposition par Red Hat, Oracle a mis en open Source ZGC dans l''OpenJDK depuis le JDK 11 et Azul C4 est toujours là. Comme les GC "classiques" sont plutôt bien compris maintenant, cette présentation s''attardera sur les arcanes des plus récents. Nous allons expliquer le concurrent marking (tri-color marking), la Load Value Barrier de C4, les Brooks pointers de Shenandoah et le multi-mapping de ZGC. Enfin, comment choisir son GC à faible latence ?'

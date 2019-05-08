@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'L’Intégration Continue comme partenaire pour des suggestions d''amélioration des tests (C. Landry)'
+language: French
+recordingDate: 1557218560
+description: "Le CI (Intégration Continue) exécute en continu les tests unitaires et d'intégration pour donner aux développeurs un retour d'information sur la qualité du code. Cependant, il fournit peu de rétroaction sur la qualité des cas de test eux-mêmes. Cet exposé présente deux techniques automatiques qui fonctionnent dans le CI afin de suggérer les faiblesses et les améliorations possibles des cas de test.\n\nLa première technique est basée sur du test par mutation. Elle identifie les méthodes pseudo-testées : méthodes qui sont couvertes par la suite de tests mais qui peuvent être complètement supprimées sans qu'aucun cas de test n'échoue. Ceci indique que les cas de test qui couvrent ces méthodes doivent être améliorés pour observer et spécifier le comportement de manière plus approfondie. La seconde technique est basée sur l'amplification de test : elle suggère des améliorations possibles des cas de test pour mieux tester les méthodes pseudo-testées. Les deux techniques sont implémentées pour Java et sont disponibles sous forme d'outils open source : Descartes et DSpot."

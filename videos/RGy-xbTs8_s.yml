@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+title: 'S''il te plait... dessine moi un vrai test d''intégration (Yvonnick Esnault)'
+language: French
+recordingDate: 1557218500
+description: "Qui n'a pas eu le besoin d'exécuter un VRAI test d'intégration ?\n\n1 - Inscription sur une application\n2 - Vérifier le mail envoyé par l'application\n3 - Le mail contient une URL, ouvrir cette URL pour valider l'inscription\n4 - S'authentifier avec le nouveau compte créé\n5 - Naviguer sur l'application Web\n6 - Vérifier en DB, ou sur votre API que les données sont cohérentes\nDifférents outils permettent de faire ces tests de manière indépendante, mais ne vous êtes vous pas retrouvé avec un script bash de 300 lignes pour les orchestrer ?\n\nQuid des résultats ? de nouveau 300 lignes de bash pour agréger les résultats ?\n\nVenom répond à 5 problématiques:\n\nlisibilité des scénarios de tests\nmulti-protocoles\nrésultats xUnit compréhensibles\n\"as-code\", les tests sont sur vos dépôts git\nextensibilité via les exécuteurs (mail, rest, web, kafka, redis, ...)\nOpensource - https://github.com/ovh/venom"

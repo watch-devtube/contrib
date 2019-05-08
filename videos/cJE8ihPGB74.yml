@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - aws
+title: 'Comment nous avons construit un Data Lake AWS de 700 To (A. Milleker & S. Cocula))'
+language: French
+recordingDate: 1557218441
+description: "A l'origine était le Data Warehouse\n\nOgury a commencé à entreposer ses Data \"propres\" dans Redshift (Data Warehouse d'AWS) en 2016. Le besoin est simple : centraliser les données pour voir et comprendre ce qu'il se passe opérationnellement sur le targeting publicitaire de nos millions de téléphones en services.\nLe Data Lake efficace\n\n2 ans plus tard, nous avons des centaines de millions de téléphones en service, alimentant de la Data pour des usages bien différents (Data Scientist, Business Analysts, ...). Nous avons maintenant un Data Lake de 700 To, basé sur Redshift, Spectrum, Athena, Data Pipeline, Spark. Il est performant, scalable et répond à tous les besoins :\n- depuis le Business Analysts qui veut un accès très simple\n- au Data Scientist qui veux des accès à tout et partout ... Perfs incluses !\n- tout en évitant le Data swamp ou manque d'organisation\n\nNous verrons ensemble quelles sont les principales composantes de notre proposition de Data Lake AWS, leur fonctionnements, leur optimisations et limitations. Cette présentation est particulièrement adaptée aux Data Engineers, Tech Lead, Architectes ... Ou curieux !"

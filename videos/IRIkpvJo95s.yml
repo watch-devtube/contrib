@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - graphql
+title: 'Migrer ses APIs vers GraphQL: pourquoi? comment! (Guillaume Scheibel)'
+language: French
+recordingDate: 1557218499
+description: "Comme beaucoup, Expedia déploie des APIs que ce soit pour ses applications mobiles, les plateformes de conversations (Alexa etc) ou simplement pour alimenter les pages web. Avec plusieurs dizaines APIs différentes s'appuyant sur le modèle REST, l'ensemble s'est retrouvé inconsistant en terme de type: comment représenter un prix ou une date, en terme style: utilisation des variables en paramètres ou dans le chemin etc.\n\nL'un des effets de cette inconsistance est d'avoir les équipes utilisants ces APIs de passer trop de temps à maintenir ces différents styles et donc autant de temps qui n'est pas employé au service du développement de fonctionnalités pour les utilisateurs finaux.\n\nAvec une hétérogénéité des clients, toutes les données retournées ne sont pas forcément nécessaires. Pourquoi obligatoirement retourner l'image associée à un hôtel pour la plateforme Alexa?\n\nDurant cette présentation nous verrons comment Expedia utilise GraphQL (schéma et langage) pour améliorer ces APIs tant au niveau technique que fonctionnel."

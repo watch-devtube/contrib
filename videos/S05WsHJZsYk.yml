@@ -1,0 +1,16 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - go
+    - cloud
+    - azure
+    - aws
+    - containers
+    - architecture
+    - javascript
+    - java
+title: 'Quarkus: Comment faire une appli Java Cloud Native avec Graal VM (E. Bernard, C. Escoffier)'
+language: French
+recordingDate: 1557218441
+description: "Les applications Cloud Native (microservices classiques, event-driven, serverless) en Java, c’est bien. Mais pas que. Malgré son énorme écosystème technique et humain, Java souffre dans les containers face à Golang ou Node.js: consommation mémoire initiale haute, temps de démarrage digne d’un diesel, etc. Vous êtes-vous demandé pourquoi peu de fonctions AWS-Lamba ou Azure sont écrites en Java?\n\nLa donne change grâce au projet Graal VM: une compilation des applications Java en binaire natif. Il permet:\n\ndes temps de démarrages en millisecondes\ndes consommations mémoire système initiale de l’ordre de la dizaine de MB\ndes dépendances et donc des tailles de containers minimales\nMais ce n’est pas gratuit et beaucoup de challenges se dressent entre votre application Java et sa compilation en natif par Graal VM. Quarkus a été architecturé pour résoudre ces problèmes.\n\nObjectif de la session: Plonger dans l’univers Quarkus, comprendre pourquoi Graal VM est le prochain gros virage du monde Java que vous utilisiez Graal VM ou pas. Et surtout apprendre comment rendre vos applications vraiment Nativement Cloud Native. Démo et live coding inclus bien sûr."
