@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - web
+title: 'Indexes, Buffer Cache and More'
+language: English
+recordingDate: 1557409091
+description: "In April's session we looked at the impact of reading old \"cold\" data into the buffer cache. We also reviewed index maintenance and discussed when - if ever - you should rebuild an index (hint: the answer's almost always never).\n\nHighlights include:\n\n01:20 - The impact of reading old data into the buffer cache\n11:30 - Using direct path reads & writes to load data into the PGA instead of buffer cache\n14:10 - Using parallel DML to do direct path operations; challenges with doing this\n21:45 - Avoid moving data by using partition exchange\n27:40 - Recap of techniques to reduce buffer cache contention\n\n30:40 - Are index rebuilds necessary?\n31:25 - Overview of B-tree index structure\n33:30 - B-tree index maintenance demo using https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html\n42:20 - When is an index rebuilt useful?\n45:00 - Using coalesce to reclaim space in an index\n58:00 - Using an index rebuild to change its physical properties; e.g. move to a new tablespace or change compression level\n1:03:00 - Recap of index rebuilding\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"
