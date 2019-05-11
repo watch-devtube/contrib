@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - javascript
+    - java
+title: 'Testing UI using intuitive commands | Rafael Alonso | Codemotion Madrid 2016'
+language: English
+recordingDate: 1557474305
+description: "In Openbravo, we have developed a testing framework based on JUnit, Selenium, Java and Javascript; that facilitates any developer to create tests and understand the existing ones. The framework provides intuitive commands such as tap (click) or verify, which mimic the same actions that a user can perform in a Web application. Asynchronous calls synchronization, assertions, etc are all managed by the framework allowing the developer to focus on the topic of the test.\n\nExample of the content of a test:\n\ntap(Id.BUTTON_BROWSE);\n\nverify(Id.LABEL_TOTALTOPAY, \"0.20\");\n\nThe framework transforms these intuitive Java commands into javascript. The javascript is then sent to the browser using selenium. In the browser, the test logic finds the object in which the action must be performed, and the action is finally executed. The result is then returned to the test.\n\nThis talk will tell our 2 year experience and what we have achieved, along with more technical information about the technologies involved.\n\nAs an opensource company our test logic is also opensource.\n\nContact: rafa.alonso@openbravo.com"
