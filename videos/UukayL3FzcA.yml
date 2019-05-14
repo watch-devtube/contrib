@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - security
+    - python
+title: 'DjangoCon US 2018 - Unique ways to Hack into a Python Web Service by Tilak T'
+recordingDate: 1541724372
+description: "DjangoCon US 2018 - Unique ways to Hack into a Python Web Service by Tilak T\n\nPython covers a significant portion of the present day Web services landscape because of frameworks like Django, Flask, CherryPy etc. Many Highly Scalable services are built on one or more of these frameworks.\n\nHowever, there is a perception among developers that these frameworks protected all classes of Web attacks and the OWASP Top 10 vulnerabilities. This is because of the inherent middleware that has battle-tested controls against some common vulnerabilities like CSRF, SQL Injection, and XSS. However, I have observed that many Python devs do not watch out for lesser-known vulnerabilities that seem to be rife in many Python Web Apps. For instance, in more recent security tests against Python Web Services that our team executes, I find that vulnerabilities like Insecure Deserialization, XML External Entities, Server-Side Template Injection and Authorization Flaws are quite prevalent.\n\nAs a developer (largely of Python Web Apps), I find that there are some simple steps that engineering teams can take towards finding and fixing such vulnerabilities with Python Web Services built on Django and Flask. My talk is meant to be a holistic perspective on finding and fixing some uncommon flaws in Python Web Apps. The talk will be replete with multiple demos, anecdotes, and examples of secure and insecure code in Python. I will also delve into SAST and DAST techniques (AST and ZAP Custom Scripts) to identify such flaws in python web applications.\n\nThe example repository will be available on GitHub for the community to use."

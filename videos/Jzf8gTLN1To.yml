@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - security
+    - python
+    - functional
+title: 'DjangoCon US 2018 - Containerless Django: Deploying without Docker by Peter Baumgartner'
+recordingDate: 1541704146
+description: "DjangoCon US 2018 - Containerless Django: Deploying without Docker by Peter Baumgartner\n\nDocker or more generally, containers, are great for lots of use cases, but they don’t come for free. Container runtimes, network virtualization, orchestration platforms, and registries are all added to the stack. Like all software, they bring their own bugs and operational burden with them. For most Django sites, containers are a heavyweight solution to a lightweight problem.\n\nDespite the overhead, Docker gets a lot of things right. It makes it easy to generate an image of your application in a known state, test the image, pull the image down to your server, apply a specific configuration environment, and run it in a secure sandbox.\n\nBut guess what? We can do all that without Docker! Using mostly “boring” software that is already a part of your server or development environment. I’ll walk you through each step of the pipeline and show you how to:\n\nGenerate immutable deployment artifacts\nTest the artifact\nDeploy the artifact\nSandbox your application to improve security\nQuickly rollback to a previous version"
