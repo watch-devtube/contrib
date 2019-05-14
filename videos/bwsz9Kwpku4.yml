@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'Birth, life and death of a class (Volker Simonis, Germany)'
+recordingDate: 1557781443
+description: "https://jeeconf.com/program/birth-life-and-death-of-a-class/\n\nIn this talk we will explore the life cycle of a Java class in depth. We will see how classes can be generated (statically by a compiler, dynamically at runtime or even «anonymously» by the VM itself), how they get loaded into the VM and how they can be modified (i.e. instrumented) during this process. We will describe how classes may live in different class loaders and how a single class loader can have several versions of the same class due to class redefinition. We will also explain how classes are maintained inside the HotSpot virtual machine (in the meta-space) and how they are mirrored in Java trough java.lang.Class objects. We will show how class loading and redefinition can impact apparently unrelated parts of the VM like for example JIT compilation and how the VM manages these dependencies. Finally we will see how classes can die and how they finally get garbage collected."

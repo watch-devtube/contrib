@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - java
+title: 'Elastic JVM: Automatic Vertical Scaling of the Java Heap (Ihor Kolodyuk, Ukraine) [RU]'
+language: Russian
+recordingDate: 1557783315
+description: "https://jeeconf.com/program/elastic-jvm-automatic-vertical-scaling-of-the-java-heap/\n\nContainers provide much better elasticity and density than VMs, but JVM-based applications are not fully container-ready. The first issue is that HotSpot JVM doesn’t release unused committed heap memory automatically. Second, it is not possible to increase the size of the JVM heap at runtime. To solve these major issues and make JVM more container-friendly, a new patch is implemented for the Garbage-First collector in OpenJDK 9. This session shares details of what is done and how the added improvements enhance resource consumption efficiency."
