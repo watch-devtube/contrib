@@ -3,7 +3,7 @@
 
 tags:
     - architecture
-title: '#bbuzz 2018: Tomás Fernández Löbbe – New Replica Types in Solr 7'
+title: '#bbuzz 2018: TomÃ¡s FernÃ¡ndez LÃ¶bbe â€“ New Replica Types in Solr 7'
 language: English
 recordingDate: 1528981831
 description: "Further information: https://berlinbuzzwords.de/18/session/new-replica-types-solr-7\n\nSession abstract: \nFor the majority of cases, the current SolrCloud distributed indexing works great. There is a subset of use cases for which Solr's legacy Master/Slave replication may be a better fit, like cases where NRT is not required, and where read availability is more important than consistency. Solr 7 now ships with three different types of replicas to choose depending on different consistency and availability needs. With a combination of replica types, one can create a SolrCloud cluster that behaves like the Master/Slave architecture from Solr lower than 4.0 and provides separation of responsibilities (search vs index) while still getting most of the SolrCloud benefits, like high availability of writes, replica discovery, collections API, etc. This talk will be a deep dive into the new Replica Type feature: reasons for implementing it, differences between the types and how/why one would choose to use them, and implementation details of the feature."
