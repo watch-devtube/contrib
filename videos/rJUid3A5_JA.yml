@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - javascript
+    - java
+title: 'Fun with `var` (Nicolai Parlog, Germany)'
+recordingDate: 1557782293
+description: "https://jeeconf.com/program/fun-with-var/\n\n“Since Java 10 you can use `var` to let the compiler infer a local variable’s type:\n\n`var users = new ArrayList()`\n\nAnd that’s pretty much it, right? Surprisingly, no! There are a lot of details to consider…\n\n* is this JavaScript?!\n* how exactly is the type inferred?\n* where can I use `var` and what should I look out for?\n* won’t this lead to unreadable code?\n\n… and a few fun things to do with `var`…\n\n* playing with anonymous classes (don’t!)\n* faking traits (don’t!)\n* faking intersection types (do!)\n\nAfter this live-coding deep dive into `var`, you’ll know all about Java 10’s flagship feature."

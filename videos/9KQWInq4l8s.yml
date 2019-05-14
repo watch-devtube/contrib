@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Fast and reliable builds with Gradle and Maven (Marc Philipp, Germany)'
+recordingDate: 1557782064
+description: "https://jeeconf.com/program/fast-and-reliable-builds-with-gradle-and-maven/\n\nHaving fast and reliable builds has a major influence on developer productivity. Faster builds make feedback cycles shorter by reducing wait times and context switches for developers. If a build is unreliable, developers may re-run the same build over and over again and when that fails, run a clean build and/or clear all the caches. Doing so removes many of the performance optimizations of the build tool, forcing every step of the build to be recomputed which takes much longer than an incremental build.\n\nIn this session, we will show you how Gradle Enterprise can be used for both Gradle and Maven to make builds faster and more reliable through build caching and build scans, respectively. The build cache, very different from the m2 cache, stores the outputs of each step of the build on a remote server. These cached outputs can then be used by both developer and CI builds. We’ll also dive into ways to increase the speed and reliability of each step of the build using build scans. Build scans provide insights into where bottlenecks occur and provide the data to optimize problems specific to your build."
