@@ -4,7 +4,7 @@
 tags:
     - performance
     - scala
-title: '"Failing (and recovering) asynchronously: a saga" by Daniel Solano Gómez'
+title: '"Failing (and recovering) asynchronously: a saga" by Daniel Solano GÃ³mez'
 language: English
 recordingDate: 1474119920
 description: "Asynchronous, event-driven programming is quickly becoming ubiquitous, and it comes in many forms: promises, futures, channels, actors, and more. These techniques help us build robust high-performance applications. However, what do we do when something fails? \"Let it crash\" is perfectly acceptable for many situations. However, what about the situation when one part of a multi-step process fails, and you need to undo the side effects of earlier steps? Are there patterns for reasoning about and resolving this problem?\n\nIn 1986, Hector Garcia-Molina and Kenneth Salem published \"Sagas\", a paper describing how to improve the performance of long-lived transactions in DBMS systems by breaking them up into \"sagas\", a collection of smaller transactions which can be undone in the case of a failure. It is possible to adapt the saga pattern to solve our asynchronous recovery pattern. In particular, we will examine how to use it in both reactive stream-based systems and future-based systems with examples in Scala."

@@ -3,7 +3,7 @@
 
 tags:
     - c++
-title: 'Fun with (user-defined) attributes - Jonathan Müller - Meeting C++ 2017'
+title: 'Fun with (user-defined) attributes - Jonathan MÃ¼ller - Meeting C++ 2017'
 language: English
 recordingDate: 1519304635
 description: "C++11 added a generalized attribute syntax to annote your code with additional information - basically comments that your compiler will read. It also standardized a couple of attributes. C++14 and 17 went on to add more standardized attributes. But C++17 also added another feature regarding attributes, often overlooked: Compilers are now required to completely ignore attributes they don't know without issuing any diagnostic.\n\nThat opens the door to the realm of custom, user-defined attributes. You can now define your own attributes and use them for your own tools!\n\nIn this talk, we'll explore what is possible with user-defined attributes. We'll take a look how custom attributes can be used for static analyzers, documentation generators and libraries. But most importantly, we will write our own parser for custom attributes and use it for boilerplate code generation - enum to string conversion, serialization, ... - or emulation of possible future language features like comparisons by default."

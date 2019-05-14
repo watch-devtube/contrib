@@ -5,7 +5,7 @@ tags:
     - bigdata
     - performance
     - java
-title: 'Flink Forward 2016: G·bor Horv·th - Code Generation in Serializers and Comparators of Apache Flink'
+title: 'Flink Forward 2016: G√°bor Horv√°th - Code Generation in Serializers and Comparators of Apache Flink'
 language: English
 recordingDate: 1474892232
 description: "http://flink-forward.org/kb_sessions/code-generation-in-serializers-and-comparators-of-apache-flink/\n\nPerformance of Big Data applications are often limited by serializers and comparators. In the case of Flink, despite its delicate type system, hand writing serializers leads to a 10% improvement for a simple WordCount job using Pojos. There are applications where the gain can be even more, about 30%. A significant amount of the overhead is the result of using reflection to access the fields of Pojo objects. There is some additional overhead due to the fact that the JVM has a hard time to optimize the current default serializers and comparators because of their dynamic nature. In order to improve the performance, I implemented runtime code generation, to generate specialized code for each Pojo type at runtime to improve the performance. The generated code accesses fields without reflection and easier to optimize. In the talk I will give a detailed overview of the challenges of implementing code generation, the solutions, and some measurements about the performance improvements."
