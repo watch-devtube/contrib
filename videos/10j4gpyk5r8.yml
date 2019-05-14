@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - java
+    - hibernate
+title: '[VDM19] Mastering GraalVM: booting Hibernate ORM in 5ms and 15MB total memory by Sanne Grinovero'
+language: English
+recordingDate: 1557840032
+description: "The Graal VM, also known as Substrate VM, is rocking the Java world. A boot time measured in milliseconds and very very low memory consumption allows to improve efficiency of several orders of magnitude for typical JVM based microservices and containerized applications, and allows to consider using Java in areas previously dominated by other programming languages.\n\nBut there’s no free lunch: the radical new architectural choices of this new VM imply both strong benefits and significant limitations; limitations which will break your existing applications and dependencies in surprising ways. Libraries must be adapted and you need to look at your code from a new angle.\n\nCome discover the revolution of Substrate VM, its advantages, its disadvantages and how to get your existing applications and frameworks working great for a fraction of memory, as we explain what we did to get Hibernate ORM to work on this very promising platform."
