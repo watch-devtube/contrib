@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - agile
+    - architecture
+    - java
+title: 'Test Driven Architecture (Peter Gafert, Germany)'
+recordingDate: 1557869733
+description: "https://jeeconf.com/program/test-driven-architecture/\n\nEvery complex software product has a variety of architectural concepts that directly affect the code base. Which types of components do we have, how do we identify these components, how do we structure them and how are they allowed to depend on each other and through which interfaces. However, in an agile environment with many developers and distributed roles, it becomes harder and harder to keep a common understanding and a consistent code structure.\n\nIf the architecture deteriorates, costs for development will rise. Also fixing the code structures will become more and more expensive, the longer it takes to find and fix architecture violations. Thus every project should establish an automated test process to continuously check for violations and allow developers to fix them, while the costs are still low.\n\nThis presentation will show through lots of live coding, how the open source library ArchUnit can help to maintain these structures. ArchUnit at its core imports Java byte code and offers many properties which can then be tested by abstract rules as plain unit tests. Whether certain classes should only be accessed by certain packages, certain annotations mark public API or certain classes form a module that only exports a dedicated API. ArchUnit can be tailored to any project’s needs, it can be used to add missing scopes (like sub-package) or introduce modules similar to Jigsaw in Java 8 or even Java 7 projects."
