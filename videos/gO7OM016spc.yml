@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+title: 'Tom vs Steven on Exception Propagation'
+language: English
+recordingDate: 1557860383
+description: "In the April session, Steven touched on his thoughts regarding where to handle exceptions (briefly: as close as possible to where it was raised). This conflicts with Tom Kyte's position that you should let the exception propagate up to the outermost block and then handle exceptions there. Tom can't speak for himself, but Steven is sure others will chime in. \n\n00:00 Setting the stage\n03:15 Tom Says\n04:00 Steven Says\n05:00 Chris Says\n08:15 LiveSQL exploration\n11:40 Avoiding redundant entries in error log\n13:30 Using conditional compilation to direct output to screen\n15:00 Chris says: handle expected exceptions, avoid WHEN OTHERS\n17:30 Lots of discussion\n29:30 Don’t forget to log the call stack\n33:23 Picking a -20NNN error code for raise_application_error\n35:29 Utility package by Sven Weller on top of utl_call_stack\n38:02 Thoughts on tracing parameter values\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"
