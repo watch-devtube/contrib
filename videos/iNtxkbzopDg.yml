@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - graphql
+    - storage
+    - mobile
+    - android
+    - ios
+    - architecture
+title: 'Exploring GraphQL-Braid: Leaving RESTish world and building a distributed GraphQL system'
+language: English
+recordingDate: 1557993358
+description: "Do you have 100 microservices on your backend all exposing an API? And Android and iOS apps trying to communicate with them?\n\nYou would probably create a funnel-like API which forwards app calls, collects and returns the data. Then the app guys ask you to return one more field to the endpoint or create a new endpoint. A simple GET request (DB-wise). You plan, you build, you release. App engineers are waiting. Product guys are waiting. Users are waiting!\n\nThen you wake up one day and see that you have an age-old endpoint which returns half of the database. You have to put an end to this mess! What options are there?\n\nIn this session we will share the result of our GraphQL and Atlassian Braid exploration journey. We are building a new distributed services architecture which will combine GraphQL backends into one schema. The result should be a fast, safe and easily maintainable cluster of microservices."
