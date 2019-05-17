@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - java
+    - functional
+title: 'Stopping entropy with ArchUnit by Alexander Schwartz'
+language: English
+recordingDate: 1557993470
+description: "So your team has agreed on naming conventions for classes and how to structure classes in packages. Last week you found out that a specific class is error prone to use. Writing this down in a Wiki will not allow for automatic checks. Tools that produce dashboards look nice at first sight, but will fall into oblivion soon.\n\nThe library ArchUnit allows you to code your project’s rules as tests in pure Java code. They will execute like any other unit test. Developers can run them locally before they commit the code. When the tests fail, they provide a descriptive error message.\n\nThis talk shows how to code architecture rules and best practices as ArchUnit tests. It will compare ArchUnit with other tools to show limits and advantages of this approach."

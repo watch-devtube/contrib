@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - java
+    - hibernate
+title: 'Quarkus and GraalVM: booting Hibernate at supersonic speed, subatomic size by Sanne Grinovero'
+language: English
+recordingDate: 1557993690
+description: "GraalVM is rocking the Java world! With native images we can get boot times measured in milliseconds and very low memory consumption.\n\nImproving efficiency of orders of magnitude compared to typical JVM based microservices allows to consider Java in areas it was previously unfit for.\n\nBut there’s no free lunch: the radical new architectural choices of these native images imply both strong benefits and significant limitations; limitations which will break your existing dependencies as they were designed in a different era. All libraries must be adapted, or you will hit very surprising, cryptic error messages.\n\nCome listen to how we created Quarkus, how it works and how it’s able to get complex libraries such as Hibernate ORM compatible with GraalVM native images, and how the architecture of Quarkus also benefits efficiency on normal HotSpot.\n\nBut it’s not only about memory and bootstrap times - Quarkus takes this opportunity to rethink what a modern platform could give you, such as support for live-reload baked in.\n\nI will show some hands-on demos, but unfortunately these take no more than 5ms :) We’ll have time for lots of demos!"
