@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - architecture
+title: 'Data and the Environment @ Port Of Rotterdam by Peter Van Der Meer'
+language: English
+recordingDate: 1557993618
+description: "Imagine that you need to create an environmental and statistical view of the largest port of Europe, Rotterdam. At your disposal is a variety of (real time) data sources.\n\nThis presentation is a walk-through on how we as a team of engineers and scientists combined the different data formats its attributes and infrastructure to create the required views. This resulted in an architecture based on Apache Kafka Stream processing and utilising Time-series and Document stores incorporated in a Kubernetes cluster.\n\nHarbourmaster data (Cargo, docks, etc.) and Radar, AIS (GPS, Ship information) are the main sources. They are processed in realtime so we can present (near real time) dashboards about Co2 emissions, ship movements, passages and visits.\n\nThe efforts from the Port Of Rotterdam are a part of their ambition to become the smartest, efficient and most environmental friendly port of the world."

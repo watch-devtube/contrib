@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - containers
+    - docker
+    - testing
+    - architecture
+    - java
+    - spring
+title: 'Integration Testing with Docker and Testcontainers by Kevin Wittek'
+language: English
+recordingDate: 1557993325
+description: "Unit testing is fine, but without proper integration testing, especially if you work with external resources like databases and other services, you might not know how your application will actually behave once it has been deployed to the real production environment.\n\nBefore Docker, configuring the environment for integration testing was painful – people were using fake database implementations, mocking servers, usually it was not cross-platform as well. However, thanks to Docker, now we can quickly prepare the environment for our tests.\n\nIn this talk I would like to show how you can use Testcontainers ( https://github.com/testcontainers/testcontainers-java ) – a popular Java testing library that harnesses Docker to easily, reliably, spin up test dependencies. We will use it with a Spring Boot microservice and test against real PostgreSQL and Redis data stores, we’ll isolate it from other microservices, then start Selenium browsers in Docker and test our application, and all with the same library!\n\nCome and learn why Apache, Spring, ZeroTurnaround, JetBrains, Playtika, Zipkin and others already decided to use Testcontainers for their integration testing needs!"

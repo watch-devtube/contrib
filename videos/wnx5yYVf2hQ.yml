@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - ml
+    - performance
+    - containers
+    - docker
+    - kubernetes
+    - testing
+title: 'Continuous deployment of machine learning models by Edward Kent & Paul Doran'
+language: English
+recordingDate: 1557993218
+description: "Auto Trader is the UK’s leading digital automotive marketplace. We receive 60 million cross-platform visits each month, while our ML-powered car valuations provide 5.5 million valuations a month to both consumers and dealers.\n\nContinuous delivery practices are well established at Auto Trader, especially when it comes to deploying more traditional web applications. We are therefore keen to ensure that any new machine learning models we develop fit this way of working; reducing the time to live allows for more experimentation and reduces the cost of getting machine learning models into production.\n\nThis talk describes how we launched a suite of new machine learning models with the ability serve low-latency predictions in real time. These models are automatically retrained and redeployed using continuous deployment pipelines in our existing deployment infrastructure, making use of technology including Apache Spark, Airflow, Docker and Kubernetes. Since models are deployed without manual intervention, we developed a robust testing strategy to ensure deployments will not cause a drop in model performance, including accuracy and coverage."
