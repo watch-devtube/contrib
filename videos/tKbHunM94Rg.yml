@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - cloud
+    - java
+    - spring
+title: 'Java Day Minsk 2017 - Aleksandr Tarasov - Service Discovery, More Than It Seems'
+recordingDate: 1514027857
+description: 'There is a problem of finding the best instance of a service in distributed systems with dynamic configuration. Nowadays, there are many products for the configuration storage and service discovery. It should be mentioned at least Netflix Eureka, Consul, etc or good old Zookeeper. These products can keep and give configuration, manage service instances lifecycle and some of them even can be as dynamic DNS service. But main question is not about what instance may be called at the certain time. It is about what instance is better for call? This means that smart load balancing top on service discovery is required. Spring Cloud project allows to integrate these products to your project and provides powerful solutions for typical problems, that make cloud native services developing easier. This talk will review the internal structure of SpringCloud implementation of Client-Side Service Discovery and Client Load Balancing patterns. It also will include specific details of concrete implementations with examples from official libraries and the author’s own library.'
