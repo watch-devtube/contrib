@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+title: 'RubyConfBY 2019: "How to Hijack, Proxy and Smuggle Sockets with Rack/Ruby", David Halasz'
+language: English
+recordingDate: 1556261462
+description: "RubyConfBY 2019 - https://rubyconference.by\n\nVideo Partner – iTechArt https://www.itechart.by \n\nAbout the talk: \nDoes your network only let through HTTP connections? No problem! Let's hijack some sockets from incoming HTTP connections and use it to smuggle any kind of traffic through an HTTP session! Concurrently! In Ruby! \n\nRack is a super simple, yet a very versatile tool to implement web servers in Ruby. It beats under the hood of Rails, but it can do much more. The socket hijacking has been implemented into Rack to support WebSockets by bypassing the middleware and so not blocking the worker threads. Together with the HTTP Upgrade requests, this can be used to send regular TCP traffic through an open HTTP connection. This talk is about leveraging socket hijacking to smuggle an SSH connection through an HTTP session using Rack. All this by using Ruby, a language that's not ideal for doing concurrency and IO.\n\nWarning: your infosec team already does not like me, but I have some cute stickers."

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - react
+    - architecture
+    - ruby
+    - javascript
+title: 'RubyConfBY 2019: "Optimistic UI with Logux & Ruby", Dmitry Salahutdinov'
+language: English
+recordingDate: 1556261461
+description: "RubyConfBY 2019 - https://rubyconference.by\n\nVideo Partner – iTechArt  https://www.itechart.by \n\nAbout the talk: \nThe modern web becomes more distributed: both front-end and back-end turns out to be the complicated part of the bipolar web-application. And communication between them is going to be a new challenge. \n\nThe classic AJAX problems: - the unstable network makes AJAX based UI works annoying - does not work offline - there is no way to merge conflits, last processed update is accepted as the last truth - UI becomes pessimistic with a huge amount of loaders and other request-time lockers - the increasing complexity of the JavaScript code for processing AJAX requests - AJAX work only in one way and does not allow live updates \n\nLogux is the new way of synchronization between client and server, which provides many features for modern web out of the box: Live Updates, Optimistic UI, Offline-first. \n\nWhat does Logux bring to level up client-server communication? - uses event-sourcing and CRDT concepts to work automatic resolving conflicts - communicates over web-socket in both directions to support Live Updates - synchronizes event log between clients automatically - support the protocol upgrade - is fully integrated with the current front-end ecosystem (Redux) \n\nI will talk about how basic Logux concepts and how all of the work together to support the modern web features."
