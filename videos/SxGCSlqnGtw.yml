@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+    - security
+title: 'GoWayFest 2017 - Daniel Podolskiy - Build Your Own Network Security Protocol and Get Away Uncaught'
+recordingDate: 1503407956
+description: "This speech is about team which invented its own network security protocol for the big Golang project. Yes we were sober and conscious and still did it!\nFirst of all - “why”?!\nEverybody knows Go runtime SSL is quite slow. Less common it’s memory footprint could not be considered as optimal.\nYes, we do know we can link OpenSSL to our program and get as performant as NGINX, for example.\nBut did it cross your mind OpenSSL is also not fast enough for some corner cases? Say, you have to accept 1M new connections in 30 seconds… \nThe problem is: SSL is slow and CPU intensive on establishing connection phase.\nOn inCaller project we came across this: to perform the tasks we need 32 CPU cores only. That mean 4 servers cluster. To accept new connections fast enough we need 480 CPU cores, which give us 60 servers cluster.\n60 servers cluster is about 15 times worst than 4 servers cluster, obviously.\nLooking to this unpleasant math we’ve decided to build our own encryption and security protocol. And we succeeded!\nWhat we did, how we did it and what we’ve got finally - this is what my speech about."

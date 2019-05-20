@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+title: 'GoWayFest 2017 - Will Sewell & Jim Fisher - Golang''s Realtime GC in Theory and Practice'
+recordingDate: 1503406770
+description: "Each day, Pusher sends billions of messages in realtime: source to destination in less than 100ms. How do we achieve this? A key factor is Go’s low-latency garbage collector. \nGarbage collectors are a bane of realtime systems because they pause the program. So when designing our new message bus, we chose the language carefully. Go emphasizes low latency, but we were wary: does Go really achieve this? If so, how? \nGo's garbage collector runs concurrently with the program. But concurrency is hard! It was only through several white-board sessions that we convinced ourselves that Go's GC works. In the first half of this talk we step through animations of the algorithm which we hope will give you some intuition. \nSo much for theory -- is it low latency in practice? In the second half of the talk we will present the results of benchmarking pause times in a number of languages. How did Go compare? Come to this talk to see the results...\nThis talk is given by Will Sewell and Jim Fisher, both working at Pusher. Can't wait? You can read their investigation into Go's GC."
