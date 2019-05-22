@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - architecture
+    - functional
+title: 'Lightning Talk: Using Istio''s Mixer for Network Request Caching - Zach Arnold, Ygrene Energy Fund'
+language: English
+recordingDate: 1558457562
+description: "Lightning Talk: Using Istio's Mixer for Network Request Caching - Zach Arnold, Ygrene Energy Fund \n\nService Meshes (and Istio in particular,) have helped application developers off-load a good chunk of logic surrounding network requests. Our microservices should be as close to pure business logic as possible, but what happens when we add so many services that our network requests are dramatically slowing the application down? The natural result is to look for some caching of requests on either the client or service side. Enter Redis, Memcached, and other caching tools all to help reduce network calls and overall latency. All of this comes with implementation penalty reducing the purity of our services. We will demonstrate how Istio's Mixer component can be used to cache requests at the request level and how that can keep your application fast, without ruining the purity of your services. \n\nhttps://sched.co/MPgT"

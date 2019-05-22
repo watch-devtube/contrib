@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - web
+    - react
+    - containers
+    - kubernetes
+title: 'Lightning Talk: Beyond Operators: Reimagine Distributed Applications on Kubernetes - Vladimir Vivien'
+language: English
+recordingDate: 1558457507
+description: "Lightning Talk: Beyond Operators: Reimagine Distributed Applications on Kubernetes - Vladimir Vivien, VMware \n\nKubernetes runs the distributed replicas of an application completely independent with no mechanism provided for coordination between replicas. To minimize race conditions, and other side effects of distributability, applications are often deployed with a replica count limited one or use primitives like StatefulSet to influence pod scheduling stickiness. Unfortunately, these are not enough to create truly distributed applications that can gracefully react to changes in their environment at runtime. While the controller and operator patterns have helped, they tend to use raw API primitives that are not related to building distributed systems. This presentation is a discussion that presents the features needed to create truly distributed applications that can react to changes in a distributed environment and including features such as leader election, synchronization, and coordination. \n\nhttps://sched.co/MPgB"
