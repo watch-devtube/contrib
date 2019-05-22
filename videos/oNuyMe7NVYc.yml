@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - security
+    - ruby
+title: 'Buildpacks and the hunt for the missing dependency version'
+language: English
+recordingDate: 1558475210
+description: "Buildpacks are the proven plug’n’play method that allows any Cloud Foundry platform to attempt to compile and run any application you can throw at it. They are also a very important vehicle for delivery security patches to all applications. But what if a new upstream security patch is published but it hasn’t turned up in your Cloud Foundry yet? You’re a humble app developer; what can you do about it? Fortunately, you’ve got options.\n\nBuildpacks documentation starts at https://docs.cloudfoundry.org/buildpa... and includes links to the GitHub repositories for each buildpack.\n\nThe CI pipeline for all CF buildpacks is http://bit.ly/cf-buildpacks. The group of jobs that specifically update Ruby are at https://buildpacks.ci.cf-app.com/team....\n\nConversation with Buildpack Core Team about master vs develop branch, release cadence of critical patches, and version numbers https://cloudfoundry.slack.com/archiv...\n\nThis video was created by Cloud Foundry Foundation member Stark & Wayne https://starkandwayne.com who help you run production-ready, continuously upgraded Cloud Foundry across your company, and to help you make your company cloud native along the journey."
