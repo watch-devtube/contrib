@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - docker
+title: 'Intro to CNAB: Packaging Cloud Native Applications with Multiple Toolchains - Chris Crone, Docker'
+language: English
+recordingDate: 1558533853
+description: "Intro to CNAB: Packaging Cloud Native Applications with Multiple Toolchains - Chris Crone, Docker \n\nWhen you deploy a cloud native application, you probably use a variety of tools for each part of the application. Terraform or ARM templates for the infrastructure, Helm or Compose for containers, etc. No single tool handles all your needs and each one has its own package manager! This talk will introduce the Cloud Native Application Bundle (CNAB) specification and tooling: - duffle: Reference implementation of CNAB installer - duffle-bag: GUI for installing CNABs - cnab-to-oci: Convert CNAB to an OCI index CNAB embraces the multi-tool world and allows one to package up multiple formats and their toolchains into a single artifact. Imagine a single installable application package that uses Terraform to launch an RDS instance and Helm to deploy the application that uses it. CNAB allows you to package this all together, cryptographically sign it, and share it via any container registry. \n\nhttps://sched.co/MPX8"
