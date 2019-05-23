@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Keynote: How Spotify Accidentally Deleted All its Kube Clusters with No User Impact - David Xia'
+language: English
+recordingDate: 1558549100
+description: "Keynote: How Spotify Accidentally Deleted All its Kube Clusters with No User Impact - David Xia, Infrastructure Engineer, Spotify \n\nDuring Spotify's Kubernetes migration, David's team deleted most of their production Kubernetes clusters. Accidentally. Twice. With little to no user impact. David shares how they recovered and learned to operate many clusters automatically and safely.\n\nIn 2017, Spotify planned the migration of hundreds of teams, thousands of services, and tens of thousands of hosts to Google Kubernetes Engine (GKE). In the last half of 2018, Spotify migrated 50 teams and hundreds of services, including critical ones, onto multiple production clusters.\n\nDavid describes what led to the cluster deletions and how they barely affected users. Since the postmortem, Spotify has minimized downtime and human error by declaratively defining clusters in code with Terraform, backing up and restoring clusters with Ark, and increasing scalability and availability by running many more clusters. \n\nhttps://sched.co/MQbb"
