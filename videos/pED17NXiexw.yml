@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Operating kube-apiserver Without Hiccups - Stefan Schimanski & David Eads, Red Hat'
+language: English
+recordingDate: 1558533930
+description: "Operating kube-apiserver Without Hiccups - Stefan Schimanski & David Eads, Red Hat \n\nKube-apiserver is the central component of every Kubernetes cluster. Keeping it available at all times is crucial for reliable operation. At the same time we want to restart kube-apiserver, for version upgrades, key rotation or just configuration changes. How can this be done without dropping a single request on the floor? Outline: - overview and problem statement - graceful termination - health and readiness checks - rolling upgrades - reliable use of informers in client apps - self-hosting done right, without self-references. David and Stefan are both the builders and the consumers of core apiserver infrastructure used in kube-apiserver, maintaining most of the code behind those features. \n\nhttps://sched.co/MPcV"

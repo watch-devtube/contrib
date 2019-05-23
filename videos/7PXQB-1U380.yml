@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+    - security
+title: 'Using eBPF to Bring Kubernetes-Aware Security to the Linux Kernel - Dan Wendlandt, Isovalent'
+language: English
+recordingDate: 1558533930
+description: "Using eBPF to Bring Kubernetes-Aware Security to the Linux Kernel - Dan Wendlandt, Isovalent \n\neBPF is a powerful Linux kernel technology that has recently become available in mainstream Linux distributions, enabling radically deeper visibility into and control over many aspects of operating system behavior. In this talk, we will cover the basics of eBPF and then dive into a hands-on exploration of use cases where eBPF-based technologies like Cilium and BCC can enable security visibility and isolation well beyond what is possible with traditional Linux security primitives, Examples include: 1. Auditing the set of syscalls made by users who access pods via \"kubectl exec\".  2. Network visibility and access control that distinguishes between a sidecar and primary container inside a single pod.  3. API-layer visibility into inter-service connectivity, even if the connection is encrypted using TLS. \n\nhttps://sched.co/MPdW"

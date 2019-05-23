@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - performance
+    - cloud
+title: 'Extending Envoy with WebAssembly - John Plevyak & Dhi Aurrahman, Tetrate'
+language: English
+recordingDate: 1558533854
+description: "Extending Envoy with WebAssembly - John Plevyak & Dhi Aurrahman, Tetrate \n\nEnvoy is a high-performance proxy in the cloud-native landscape designed to be extensible at its core. There are several possible “extension points” in Envoy as outlined in data-saferedirecturl=\"https://www.google.com/url?q=https://github.com/envoyproxy/envoy/tree/master/source/extensions&source=gmail&ust=1556395125347000&usg=AFQjCNFHQR9CrsgtJI-Xw0wgTplXqCad3w\" href=\"https://github.com/envoyproxy/envoy/tree/master/source/extensions\" target=\"_blank\" https://github.com/envoyproxy/envoy/tree/master/source/extensions. However, the currently available approaches to extend it is rather limited. Since Envoy is written in C++, the primary way to introduce new extended functionality in Envoy is by writing an extension (e.g. filters, either network or HTTP filter, as one of the most relevant use-cases in Envoy), in C++. It is also possible to write an extension for Envoy using Lua, but the current scope of this extension is only for HTTP traffic. This talk introduces the possibility to extend Envoy with WebAssembly-based extension and report the current progression of it. \n\nhttps://sched.co/MPbR"

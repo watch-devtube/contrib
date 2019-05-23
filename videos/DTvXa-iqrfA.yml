@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Streamlining Kubernetes Application CI/CD with Bazel - Gregg Donovan & Chris Love'
+language: English
+recordingDate: 1558533930
+description: "Streamlining Kubernetes Application CI/CD with Bazel - Gregg Donovan, Etsy.com, Inc. & Chris Love, CNM Consulting \n\nCreating a repeatable Kubernetes application deployment pipeline with the Bazel build system offers a number of advantages over traditional Kubernetes application CI/CD approaches. We will describe how Etsy uses Bazel, along with its container and Kubernetes support, to deploy many different services to multiple different clusters and environments. Using a repeatable build process maximizes container layer caching and takes advantage of Kubernetes built in pod template hashing. With this caching in place, it becomes feasible to deploy all services in a large repo reliably without under-deploying -- not deploying changed components, leaving them unvalidated on master -- or over-deploying, waiting for a potentially expensive rollout despite not having made changes. Bazel's rules_docker also allow you to build deterministic container images without the Docker daemon, simplifying CI/CD. \n\nhttps://sched.co/MPYv"

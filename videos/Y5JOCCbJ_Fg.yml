@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - containers
+    - kubernetes
+title: 'Scale Kubernetes Service Endpoints 100x - Minhan Xia & Wojciech Tyczynski, Google'
+language: English
+recordingDate: 1558533929
+description: "Scale Kubernetes Service Endpoints 100x - Minhan Xia & Wojciech Tyczynski, Google \n\nService and endpoints have been core primitives in K8s since 1.0. As k8s deployments gets larger, the scalability of k8s service endpoints has become a bottleneck, causing high overhead on network, cpu and memory across the cluster. In addition, the size of the endpoints object will be larger than what can be stored in the Etcd database. This talk will deep dive into the internals of k8s service endpoints API and sort out the associated scalability challenges in the current design. Minhan and Wojtek will introduce a new K8s endpoints API design that aims to improve Endpoint scalability by 100x, as well as an overview of the ongoing effort to revamp K8s Service. \n\nhttps://sched.co/MPcn"

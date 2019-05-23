@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'Envoy SDS: Fortifying Istio Security - Yonggang Liu & Quanjie Lin, Google'
+language: English
+recordingDate: 1558533930
+description: "Envoy SDS: Fortifying Istio Security - Yonggang Liu & Quanjie Lin, Google \n\nIn Istio 1.1, Citadel Agent is introduced to dynamically provision x.509 certificates and private keys to workloads through the Envoy Secret Discovery Service (SDS) API. Running on Kubernetes nodes as DaemonSets and standalone on VMs, Citadel Agents improve security by making sure the generated private keys never leave the node and can be securely delivered to workloads via UDS. Citadel Agent also offers flexibility on local workload identity attestation and various adapters to integrate with custom CAs. In this talk we will demonstrate how SDS makes this model really efficient, and citadel working independently from other Istio components for both K8s and non-K8s workloads. \n\nhttps://sched.co/MPe0"

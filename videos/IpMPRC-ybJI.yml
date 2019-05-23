@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Rootless, Reproducible, and Hermetic: Secure Container Build Showdown - Andrew Martin, Control Plane'
+language: English
+recordingDate: 1558533930
+description: "Rootless, Reproducible, and Hermetic: Secure Container Build Showdown - Andrew Martin, Control Plane \n\nRootless container image builds (as distinct from rootless runtimes) have crept ever closer with orca-build, BuildKit, and img proving the concept. And they are desperately needed: a build pipeline with an exposed Docker socket can be used by an attacker to escalate privilege - and is probably a backdoor into most Kubernetes-based CI build farms. With a slew of new rootless tooling emerging including Red Hat’s buildah, Google’s Kaniko, and Uber’s Makisu, will we see build systems that can securely build untrusted Dockerfiles? How are traditional build and packaging requirements like reproducibility or hermetic isolation being approached? In this talk we:  - Compare the strengths and weaknesses of modern container image build tools - Explore the safety of untrusted image builds - Live demo attacking container build pipelines - Chart the history and future of container image build tooling \n\nhttps://sched.co/MPYp"

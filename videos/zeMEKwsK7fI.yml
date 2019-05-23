@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - testing
+    - architecture
+speaker:
+    name: 'Ian Cooper'
+    twitter: icooper
+title: 'How to Escape The Distributed Monolith - Ian Cooper'
+recordingDate: 1558513815
+description: "Microservices were all the rage, so you broke up your monolith. The services talk to each other by gRPC, you use a service mesh to route and load balance, and provide reliability oriented computing, you are fully buzzword compliant.\n\nYet something seems to be wrong.\n\nYou can't easily release software from one team, without coordinating with teams creating other. Testing has to be end-to-end to flush out problems or risk your team creating breaking changes for another team. Your 'heavy-lifters', whether you call the principals or architects seem to spend all their time on Docker, K8s, Istio and a whole slew of infrastructure technologies. Your system won't run without them, and you feel locked in.\n\nWhat happened?\n\nIn this talk we look at the emerging world of \"smart proxies and dumb endpoints\" and ask whatever happened to the vision of \"smart endpoints and dumb pipes\", and what you can do to change course and deliver on the original promises of microservices to allow your teams to release frequently and independently of each other. In particular, We'll look at event driven architectures as an alternative to RPC based integration.\n\n\n\nNDC Conferences\nhttps://www.ndcconferences.com/\nhttps://ndcminnesota.com/"
