@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Restart-Free Vertical Scaling for Kubernetes Pods - Vinay Kulkarni & Peng Du, Huawei'
+language: English
+recordingDate: 1558619035
+description: "Restart-Free Vertical Scaling for Kubernetes Pods - Vinay Kulkarni & Peng Du, Huawei \n\nCurrently, vertical scaling of Kubernetes pod CPU or memory resources requires pod restarts. This is disruptive to services, and expensive for long-running applications or jobs. It is very important to have the ability to scale pod resources without restarts.    In this talk, Vinay and Peng will present a design for restart-free scaling of pod resources, with container restart as a policy-controlled choice rather than a necessity. They will illustrate a customer use case, a gene-sequencing application where pod restart is expensive. They will go over the changes to Kubernetes components that made this feature possible. They will discuss how they addressed some unique challenges such as multiple scheduler race conditions, and respecting pod disruption budget if pod restart is needed. They will talk about how failures are handled via smart retries, and conclude with a demo. \n\nhttps://sched.co/MPcJ"

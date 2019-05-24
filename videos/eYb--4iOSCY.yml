@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Migrating South East Asia''s Biggest Payments Company to Kubernetes - Akashdeep Singh'
+language: English
+recordingDate: 1558619035
+description: "Migrating South East Asia's Biggest Payments Company to Kubernetes - Akashdeep Singh, GO-JEK & Abhishek Sangwan, MavenHive Technologies \n\nGo-pay, one of the biggest payment companies in south east asia, is a Indonesian Unicorn. At peak hours Go-pay does ~15k Financial transactions/minute. The complete infra used to run on ~1500 VMs with  130 micro-services. The talk is about our journey from 1500 VMs to 15 K8 VMs without a single downtime. It will cover the problems that we faced, how we handled those problems.  With our international expansion, we wanted to have easier, faster cluster setup. So we decided to move gopay to k8s.  To list down a few issues in our path:   1. Go-pay runs with our custom client side load balancing with service discovery. This works well with VMs having static IPs. But with containers every deployment change IP addresses.   2. To lower down risks we wanted to run VMs in parallel with kubernetes pods. But they are in different network, VMs in underlay and pods in kube’s overlay network. \n\nhttps://sched.co/MPc7"

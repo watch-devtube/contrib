@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - startup
+    - containers
+    - kubernetes
+title: 'Ready? A Deep Dive into Pod Readiness Gates for Service Health... - Minhan Xia & Ping Zou'
+language: English
+recordingDate: 1558619203
+description: "Ready? A Deep Dive into Pod Readiness Gates for Service Health Management - Minhan Xia, Google & Ping Zou, Intuit \n\nThis talk will be a deep dive on “pod readiness gates”, a new Kubernetes API for extending pod readiness with custom external controllers and introduce its usage in real world scenarios with service health management. Kubernetes clusters that integrate with external network infrastructure (such as a cloud provider) need a way to coordinate Kubernetes Pod “readiness” with setup latencies in the network fabric. Not tackling this problem causes lost packets and dropped connections OR requires inserting worst-case delays to pod startup to account for external setup. It allows Foremast, an open source engine to maintain the health of applications running on K8s, to remediate similar problems in a much smoother way.\n\nMinhan and Ping will cover the coordination problem, how the new pod readiness gate API fixes the issue and experiences from both Google and Intuit using the API with real workloads. At Google, this API is used to ensure no traffic disruption occurs for user service across changes to the workload. At Intuit, this API is used to maintain application health during canary deployment using Foremast. \n\nhttps://sched.co/MPaQ"

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+    - ux
+    - containers
+    - kubernetes
+title: 'OpenAPI Specs – Towards Native User Experience of CRDs - Stefan Schimanski, Red Hat'
+language: English
+recordingDate: 1558619202
+description: "OpenAPI Specs – Towards Native User Experience of CRDs - Stefan Schimanski, Red Hat \n\nWhenever kubectl creates or changes resources, OpenAPI is involved in the background. OpenAPI is a core technology for client-side validation, docs (kubectl explain), intelligent Kubernetes manifest completion in IDEs and the starting point for client generation in other languages than Go.\n\nWith 1.14, we start publishing OpenAPI specs for CRDs, kubectl explain for CRDs will start working. Providers of CRDs will want to create OpenAPI specs for their resources for a native user experience.\n\nThe talk will cover:\n- Intro to OpenAPI specs\n- CRD validation using OpenAPI\n- OpenAPI based client generation\n- Typical Kubernetes API patterns expressed in OpenAPI\n- Towards a standard openapi-spec-gen to extract specs from Golang types\n- Expressivity and limits of OpenAPI\n\nStefan is a core contributor to API machinery, client-go and CRDs, and maintainers of the OpenAPI code in Kubernetes. \n\nhttps://sched.co/MPZz"

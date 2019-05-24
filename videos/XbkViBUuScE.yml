@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Going from 5s to 5ms: Benefits of a Node-Local DNSCache - Pavithra Ramesh & Blake Barnett'
+language: English
+recordingDate: 1558619034
+description: "Going from 5s to 5ms: Benefits of a Node-Local DNSCache - Pavithra Ramesh, Google & Blake Barnett, Postmates \n\nDNS is one of the most heavily used services in Kubernetes clusters.The kubernetes community has long struggled with these mysterious 5s connection delays or DNS failures. This talk discusses how this problem is (mostly!) solved with the node-local DNSCache, a feature introduced in Kubernetes 1.13. We’ll start by diving into the DNS problem, the motivation for the feature as well as the design and implementation. Attendees will learn how to use this feature on their clusters. In addition to the latency issue itself, visibility into DNS has been a pain point for many users. Not any more! The metrics exposed by the local DNSCache provides insight into user workloads' DNS needs. We’ll show some of these metrics, along with a demo of how the feature works. Finally, we will share the performance improvements observed in a large-scale production deployment running node-local DNS Cache. \n\nhttps://sched.co/MPbO"
