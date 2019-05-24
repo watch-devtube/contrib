@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+title: 'Resize Your Pods w/o Disruptions aka How to Have a Cake and Eat a Cake - Karol Gołąb & Beata Skiba'
+language: English
+recordingDate: 1558618881
+description: "Resize Your Pods w/o Disruptions aka How to Have a Cake and Eat a Cake - Karol Gołąb & Beata Skiba, Google \n\nWhether you’re using Vertical Pod Autoscaler or controlling Pod resources on your own, one thing is certain: applying new settings is disruptive as it requires Pods to be killed and recreated.  Why should you change those setting you might ask?  Stale settings, incompatible with your current load, might cause CPU starvation and Out Of Memory events or hinder cluster utilization.    In this talk we’ll present In-Place Resources Update (planned) feature which allows changing Pod resources on the fly, without restarting the Pod or its containers. This way you can have the best of two worlds: up-to-date resource settings and stable workloads.    You’ll learn the whys and hows of this feature, including how various core components like scheduler, kubelet or admission plugins are involved. We’ll also show the avenues it opens due to significantly lower cost of applying new resource settings. \n\nhttps://sched.co/MPaE"
