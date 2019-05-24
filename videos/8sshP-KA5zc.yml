@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+title: 'Treating Network Assets as Scheduleable Resources - Vinothkumar Siddharth, Amazon'
+language: English
+recordingDate: 1558619034
+description: "Treating Network Assets as Scheduleable Resources - Vinothkumar Siddharth, Amazon \n\nSeveral cloud-providers now offer a managed Kubernetes solution. Customers launch their worker nodes within a Virtual Private Cloud (VPC) and in majority of these environments, Container Network Interface (CNI) is the preferred networking solution.    While the default scheduler tracks CPU and Memory as resources and allocates pods to nodes based on the availability of the required resources, it does not natively track network resources such as IP addresses. This session will describe a centralized cluster networking solution built using custom resource controllers, admission webhooks and CNI plugins to enable network assets to be treated as cluster wide Kubernetes resources.    The controller and webhook are re-usable platform agnostic components that can support Linux, Windows and ARM64 worker nodes. They also serve as the foundational blocks for building special purpose extensions. \n\nhttps://sched.co/MPb3"

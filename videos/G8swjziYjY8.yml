@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Scavenging for Reusable Code in the Kubernetes Codebase - Kevin Lingerfelt, Buoyant'
+language: English
+recordingDate: 1558612670
+description: "Scavenging for Reusable Code in the Kubernetes Codebase - Kevin Lingerfelt, Buoyant \n\nThe magic of open source software and Go's support for remote import paths makes it trivial to import and run code from many of the most popular CNCF projects directly in your own project. Sometimes, however, the process of finding that one piece of code in a large codebase that’s just right for your use case can feel like a scavenger hunt. But the spoils of the hunt are vast. This talk explores how the Linkerd project has leveraged the Kubernetes codebase to replace their bespoke code with existing code that's more robust and better tested. Specific examples include switching the project to use Kubernetes' shared informers for caching API responses and adding rate limiting via work queues for TLS certificate distribution. Linkerd's Kevin Lingerfelt will show you how to undertake an effective Go scavenger hunt, and he'll discuss when you should skip the hunt and write it from scratch. \n\nhttps://sched.co/MPXB"
