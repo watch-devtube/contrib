@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - containers
+    - kubernetes
+title: 'Where''s My Pod, Already? A Tale of Cold-Start Struggles on Kubernetes - Gregory Haynes, IBM'
+language: English
+recordingDate: 1558688777
+description: "Where's My Pod, Already? A Tale of Cold-Start Struggles on Kubernetes - Gregory Haynes, IBM \n\nA core component of serverless platforms is scale-to-zero functionality which provides users with near 0 application cost when idle. With this comes the dreaded cold-start problem: When a user's application is not in use for an extended period an activating request can take significantly longer to complete. Knative is no different in this respect and until recently our cold-start time was measured in seconds due to the cost of Kubernetes deployments. Recently, a large effort was undertaken to improve this delay and the result is a system which scales Kubernetes deployments up from 0 in nearly a second. We will dive deep into what actually goes on inside Kubernetes when a deployment is scaled up, how we determined where time is spent, and then some of our novel techniques to drastically speed up this process. \n\nhttps://sched.co/MPcb"

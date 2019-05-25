@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - containers
+    - docker
+    - kubernetes
+    - security
+title: 'Lessons Learned Migrating Kubernetes from Docker to containerd Runtime - Ana Calin, Paybase'
+language: English
+recordingDate: 1558688886
+description: "Lessons Learned Migrating Kubernetes from Docker to containerd Runtime - Ana Calin, Paybase \n\nIn 2016 Docker span out its core container runtime functionality into a standalone component, containerd. Using containerd developers can customize, extend and swap out functionality as needed, without unnecessary abstraction getting in their way.   containerd provides all the core primitives needed to manage containers on Linux and Windows hosts allowing Docker and other leading container systems, including Kubernetes to use it as their core container runtime. containerd is fully OCI compliant.  This talk covers lessons learned by migrating a Kubernetes platform from a docker runtime based OS to a containerd based OS. It includes observations around security, performance and usability, as well as the benefit of debugging using crictl - containerd’s cli, compared to the docker cli. Find out if there’s a real benefit in swapping and the kind of effort required to achieve complete migration. \n\nhttps://sched.co/MPd8"

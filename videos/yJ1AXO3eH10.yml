@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Dealing with the Pesky Path Parameter Problem: Service Profiles - Alex Leong, Buoyant'
+language: English
+recordingDate: 1558688777
+description: "Dealing with the Pesky Path Parameter Problem: Service Profiles - Alex Leong, Buoyant \n\nFor platform owners and developers to truly grok their service behaviors in Kubernetes, they must understand their services in terms of actual request and responses by HTTP path. Unfortunately, a nearly unlimited number of unique potential paths tends to overwhelm time series capture, making it difficult to get a clear picture of service behaviors. In this talk I’ll introduce the concept of the Service Profile, a custom Kubernetes resource used by Linkerd. The service profile lets operators define permitted routes for the service with regular expressions, which allows Prometheus to scrape and aggregate service behaviors in a manageable way. It also allows operators to set detailed service behavior rules such as retries and timeouts that can be easily reproduced and monitored. \n\nhttps://sched.co/MPfP"

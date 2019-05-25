@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - cloud
+    - azure
+    - aws
+    - containers
+    - kubernetes
+title: 'Reenforce Kubernetes Image Isolation in Multi-Tenant Service - Eric Lin, Alibaba'
+language: English
+recordingDate: 1558688886
+description: "Reenforce Kubernetes Image Isolation in Multi-Tenant Service - Eric Lin, Alibaba \n\nServerless Computing is one of the fast-evolving technologies in Public Cloud nowadays, such as AWS fargate, Azure ACI. However, this introduces various isolation challenges as multiple tenants could share the same physical server. This talk introduces one of the key isolation issues while using k8s as a public multi-tenant service. The isolation issues within this talk are particularly focused on the image. K8s is a great project that aggregates a large number of computing nodes and providing container service to tenants, which also provides very basic isolation features. However, the isolation is still not good enough to serve the public cloud scenario. There are some flaws existing in both k8s and its dependency containerd. And in this talk, we will go through the causes of these flaws and how we fix and feedback it to upstream \n\nhttps://sched.co/MPdE"

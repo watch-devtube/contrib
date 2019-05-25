@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - ruby
+title: 'Building and Maintaining a Client Library - Stories From the Trenches - Jussi Nummelin, Kontena Inc.'
+language: English
+recordingDate: 1558688777
+description: "Building and Maintaining a Client Library - Stories From the Trenches - Jussi Nummelin, Kontena Inc. \n\nAs Kubernetes is a pretty complex system, so is the (REST) API of it. On the first look things feel pretty simple, you authenticate with a token or SSL client certificate and POST few resources to the correct API endpoint. How hard can that be?     As we’ve been developing our own Kubernetes distribution and some additional tooling for Kubernetes, we’ve also build a new client library for the API in Ruby, k8s-client (https://github.com/kontena/k8s-client). While building and maintaining the client library we've stumbled on few, well, odd things on the API and faced some technical challenges also. In this session we'll go through some the most interesting findings and how we've tackled them. These topics include for example the complexity of merge-patching resources, empty vs. null vs. non-existing values, PUT vs. PATCH and API compatibility. \n\nhttps://sched.co/MPXW"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Unblocking the Release Train with Istio Traffic Management - Dave Shepherd & Pierre Meunier'
+language: English
+recordingDate: 1558688886
+description: "Unblocking the Release Train with Istio Traffic Management - Dave Shepherd & Pierre Meunier, Wealth Wizards \n\nWealth Wizards employs a microservice architecture, with each service being actively developed.    As soon as a change is in the mainline it’s on the release train and any subsequent changes traditionally ended up in a queue. If that change has a delay, then all subsequent changes get stuck and then have to be released together.    There are many ways to try and avoid these problems, but one way is to stop items getting on the release train until it's ready.    Istio does many things, but the traffic management functionality is the key to this solution. It allows traffic to be routed to different versions of the same service. The Wealth Wizards implementation will route all traffic to the mainline or master version of a service by default. However, if the hostname includes a version prefix then it will route traffic to the corresponding version of the service, if it exists. \n\nhttps://sched.co/MPfY"

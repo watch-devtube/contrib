@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'Network Observability with IPFIX, Prometheus and Elastic Stack - Rastislav Szabo'
+language: English
+recordingDate: 1558688885
+description: "Network Observability with IPFIX, Prometheus and Elastic Stack - Rastislav Szabo, Pantheon Technologies \n\nIn traditional networks, protocols such as Netflow or IPFIX are used to export packet flow records from networking devices. In k8s, each node effectively becomes a switch/router of the traffic passing between the PODs. Some k8s CNI plugins allow using these protocols to export traffic flow information as well. Together with good analysis tools, this can provide better visibility into the network in the cluster (both in real time and in history), which is crucial for debugging networking issues, identifying the bottlenecks, or investigation of security incidents.    In this talk, I will showcase how a powerful IPFIX collector and analyzer for k8s can be build using existing open-source tools: GoFlow and Logstash for collecting and post-processing of the flow records, Elasticsearch as the storage and search engine for the flows, and Prometheus + Kibana for easy observability of the flows. \n\nhttps://sched.co/MPbp"

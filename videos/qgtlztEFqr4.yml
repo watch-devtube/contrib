@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - containers
+    - kubernetes
+    - testing
+title: 'Databases on Kubernetes Using a Custom Operator: Day 1, Day 2, and Beyond - Johannes Unterstein'
+language: English
+recordingDate: 1558689638
+description: "Databases on Kubernetes Using a Custom Operator: Day 1, Day 2, and Beyond - Johannes Unterstein, Neo4j \n\nWe started the journey of building a managed cloud version of the graph database Neo4j. A bit later we started developing an operator to manage multiple database clusters in k8s. Handling persistence and Neo4j's own distributed consensus algorithm within k8s gave us a challenge. In this session we want to share the lessons we learned writing this operator and using it in production. We will start with how to get started using the k8s controller tooling to create an operator to manage a CRD. We go beyond the \"day 1\" tasks of creating and deleting databases and discuss how we meet \"day 2\" concerns such as: - Unit testing our operator using k8s fakes. - Continuously deploying an operator into a GKE cluster. - Automatic rolling updates of Neo4j databases with zero downtime and fault tolerance. - Database administration (backup, restore, password resets etc.) via an operator. \n\nhttps://sched.co/MPYU"
