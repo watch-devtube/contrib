@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'How Intuit Does Canary and Blue Green Deployments with a K8s Controller - Daniel Thomson'
+language: English
+recordingDate: 1558688886
+description: "How Intuit Does Canary and Blue Green Deployments with a K8s Controller - Daniel Thomson & Alex Matyushentsev, Intuit \n\nGitOps has taken Kubernetes by storm, but the default kubernetes deployment is missing strategies such as canary and blue green. How do you run two versions of one application at the same time in a GitOps manner? Do you need to make multiple commits to orchestrate those strategies? Isn’t that redundant for a single deployment? The onus is on the user to orchestrate these industry standard strategies often using error prone scripts. To address this need, Intuit open sourced a deployment controller called Argo Rollouts that codifies these industry standard strategies into an custom resource called Rollout. This session will discuss how Intuit leverages rollouts of hundreds of apps in a GitOps style to implement these missing strategies, the challenges in converting inherently imperative strategies into a declarative configuration, and envisioning the future for GitOps based deployments. \n\nhttps://sched.co/MPZD"
