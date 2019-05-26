@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - web
+title: 'Linux Kernel Extension for Databases / Александр Крижановский (Tempesta Technologies)'
+language: Russian
+recordingDate: 1492897691
+description: "Зал Бангалор,  7 ноября, 17:00\n\nПрезентация и тезисы:\nhttp://www.highload.ru/2016/abstracts/2286.html\n\nМного лет назад у меня была задача разработать собственное хранилище для истории Instant Messenger'а. Начав с простого индексного дерева поверх mmap(2), я быстро понял, что mmap(2), madvise(2) и компания не подходят в качестве основы для движка СУБД. Я переключился на direct IO и начал разрабатывать свой собственный менеджер памяти, продвинутое вытеснение, планирование IO с адаптивным read ahead и, конечно, обработкой транзакций. ..."
