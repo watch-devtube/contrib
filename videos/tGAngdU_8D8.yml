@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+    - functional
+title: 'Luciano Ramalho - Set Practice: learning from Python''s set types - PyCon 2019'
+recordingDate: 1557111000
+description: "\"Speaker: Luciano Ramalho\n\nKey takeaways:\n\n1. Set operations enable simpler and faster solutions for many tasks;\n1. Python's set classes are lessons in elegant, idiomatic API design;\n1. A set class is a suitable context for implementing operator overloading.\n\nBoolean logic and set theory are closely related. In practice, we will see cases where set operations provide simple and fast declarative solutions to programming problems that otherwise require complicated and slow procedural coding.\n\nPython's set built-ins and ABCs provide a rich and well designed API. We will consider their interfaces, and how they can inspire the creation of Pythonic APIs for your own classes.\n\nFinally, we will discuss operator overloading — a technique that is not suitable everywhere, but certainly makes sense with sets. Taking a few operators as examples, we will study their implementation in a new `UintSet` class for integer elements. `UintSet` fully implements the `MutableSet` interface over a totally different internal representation based on a bit array instead of a hash table. Membership tests run in _O(1)_ time like the built-in sets (however, `UintSet` is currently pure Python, so YMMV). Using bit arrays allow core set operations like intersection and union to be implemented with fast bitwise operators, and provides compact storage for dense sets of integers.\n\n\nSlides can be found at: https://speakerdeck.com/pycon2019 and https://github.com/PyCon/2019-slides\""
