@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Bitmap indexes. Marko Kevac, Badoo.'
+recordingDate: 1557147082
+description: "What's that and why they help us achieve unbelievable search speed.\nInside DBMS we use indexes to speed up searching. And everybody heard about B-trees, most widely known data structure used for this. It is also the most versatile data structure. I want to tell you about less known, but no less interesting approach called bitmap index. We will see how it works, when it's better, when it's worse and when it can be orders of magnitude faster. We will see which databases already use bitmap indexes and write our own in Go. And then we are going to use available libraries to write our own ultra-fast specialized database."
