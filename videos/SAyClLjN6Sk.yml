@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cassandra
+    - web
+title: 'Cassandra для хранения метаданных: успехи и провалы / Андрей Смирнов (Virtustream)'
+language: Russian
+recordingDate: 1532001652
+description: "HighLoad++ 2017\n\nЗал «Сингапур», 7 ноября, 16:00\n\nТезисы:\nhttp://www.highload.ru/2017/abstracts/2917.html\n\nМы разработали и поддерживаем экзабайтное облачное объектное хранилище (S3-совместимое), и нам необходимо сохранять метаданные объектов. Работа с метаданными сложнее работы с данными, т.к. необходимо поддерживать конкурентные операции по записи/удалению одного и того же объекта, версионирование и т.п. Наше хранилище поддерживает работу в режиме active-active через два дата-центра (eventual consistency), что дополнительно усложняет слой метаданных.\n...\n\nНашли ошибку в видео? Пишите нам на support@ontico.ru"

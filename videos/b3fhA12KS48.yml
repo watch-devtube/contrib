@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'CUE: a data constraint language and shoo-in for Go. Marcel van Lohuizen, Google.'
+recordingDate: 1557147116
+description: 'A configuration language needs to balance compactness with complexity. Most language end up being too complex for the value they provide. We show that inheritance is the culprit and provide an alternative: constraints. CUE''s constrain describe configurations more compactly while at the same time validating them. Constraints sound scary, but actually look very familiar. The result is more readable and more correct configurations. CUE also has a rich Go API that allows you to analyze and manipulate your configurations. One of the provided tools, "trim", uses it to automatically rewrite your existing configurations given some templates, often considerably reducing them in size. A demo shows its power applied to 2000 lines of Kubernetes YAML. At the end of the 10 minute demo, the YAML is converted and refactored into compact CUE, with all Kubernetes objects neatly mapped into a single namespace. We also show how to extend the cue CLI tool with custom commands to operate on our configuration using CUE''s declarative scripting layer. Finally we show how CUE can automatically extract CUE templates from your Go code that you can use to type check your data. As a separate thread throughout the talk, I''ll explain how the idea for CUE was conceived, that it actually predates BCL, and why it wasn''t implemented before.'

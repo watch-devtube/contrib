@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+    - java
+    - rust
+title: 'Golang race detector. Neven Miculinic, Kraken Systems.'
+recordingDate: 1557147086
+description: 'Data races are nasty kinds of bugs; rare, hard to replicate and tend to occur at the worst possible moment. Their effect is undefined, detection hard, almost impossible without expensive formal verification and static analysis tools...Or is it? This talk focuses on ThreadSanitizer, a library for detecting race conditions at run-time. It originated in clang & C++ community and its use spread to go (-race), rust, java, and some other languages. It covers how it works conceptually, and necessary background for its understanding, building from DJIT+ and Fast track to ThreadSanitizer v2.'
