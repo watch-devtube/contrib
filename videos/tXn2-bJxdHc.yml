@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+title: 'Peeking into the Black Hole Called PL/PGSQL - the New PL Profiler / Jan Wieck (OpenSCG)'
+recordingDate: 1492897705
+description: "Зал Сингапур, 8 ноября, 11:00\n\nПрезентация и тезисы:\nhttp://www.highload.ru/2016/abstracts/2449.html\n\nThe new PL profiler allows you to easily get through the dark barrier, PL/pgSQL puts between tools like pgbadger and the queries, you are looking for. Query and schema tuning is tough enough by itself. But queries, buried many call levels deep in PL/pgSQL functions, make it torture. The reason is that the default monitoring tools like logs, pg_stat_activity and pg_stat_statements cannot penetrate into PL/pgSQL. All they report is that your query calling function X is slow. That is useful if function X has 20 lines of simple code. Not so useful if it calls other functions and the actual problem query is many call levels down in a dungeon of 100,000 lines of PL code. Learn from the original author of PL/pgSQL and current maintainer of the plprofiler extension how you can easily analyze, what is going on inside your PL code."

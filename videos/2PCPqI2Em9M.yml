@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - web
+    - containers
+    - docker
+    - kubernetes
+title: 'Aviasales: миграция поискового движка в docker / Дмитрий Кузьменков (Aviasales)'
+language: Russian
+recordingDate: 1492897707
+description: "Зал Пекин + Шанхай, 8 ноября, 12:00\n\n Презентация и тезисы:\nhttp://www.highload.ru/2016/abstracts/2275.html\n\n* Yasen (Yet Another Search Engine) – первоначальная архитектура поискового движка.\n* Немного о старой схеме деплоя и её боли – buildbot, chef, git, monit, haproxy.\n* Docker – простота и мощь в одной команде.\n* Настраиваем запуск демона – что нужно знать.\n* Dockerfile – проблемы и решения.\n* Swarm, Kubernetes, Rancher – обзор вариантов оркестрации.\n* Простой путь – docker-compose, и как его готовить.\n* Разбираемся с сетью – bridge, host, overlay, macvlan, none.\n* Root или не root в контейнере? Выбираем подходящее решение.\n* Shared volumes и проблема права доступа к файлам.\n* User namespaces – как и зачем?\n* Docker и linux capabilities – добавляем безопасности.\n* Нюансы ограничения ресурсов контейнеру: memory, cpu, swap.\n* Stateful & Stateless в docker\n* Автоматизация деплоя через docker-compose.\n* Итоговая архитектура и процесс выкатки в production."
