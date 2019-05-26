@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - web
+title: 'TokuDB internals / Владислав Лесин (Percona)'
+language: Russian
+recordingDate: 1491767696
+description: "HighLoad++ 2015, 3 ноября\n\nПрезентация и тезисы:\nhttp://www.highload.ru/2015/abstracts/1896.html\n\nTokuDB - это реализация так называемых фрактальных деревьев для MySQL. Фрактальные деревья - это те же самые B+-деревья, но с буфером сообщений в каждой ноде. Сообщения описывают изменения данных. За счет того, что все изменения накапливаются в буферах сообщений и спускаются по дереву только по мере необходимости, при росте фрактальное дерево деградирует по скорости гораздо меньше, чем B+-дерево.\n..."
