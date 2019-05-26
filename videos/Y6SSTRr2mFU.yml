@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - css
+    - web
+    - rust
+title: 'The Story of Stylo: Replacing Firefox''s CSS engine with Rust — Josh Matthews'
+language: English
+recordingDate: 1515257587
+description: "Firefox is in the process of shipping a new implementation of CSS styling written in Rust as part of Mozilla’s Servo project. Firefox has 20+ million lines of code and hundreds of millions of users, so this is no small undertaking! As a case study for integrating a large, multi-repo Rust project into a larger C++ project, this talk explains how we:\n\n- created bi-directional FFI boundaries that maximized each project’s strengths\n- addressed cross-language mismatches including threadsafety and ownership\n- integrated two fast-moving codebases while managing regressions\n\nWe’ll cover specific successes and failures that emerged over the course of the project, and discuss how Rust contributed to those outcomes."

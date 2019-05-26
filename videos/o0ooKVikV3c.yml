@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - rust
+title: 'Pijul: Sane Version Control — Pierre Étienne Meunier'
+language: English
+recordingDate: 1483969309
+description: "This talk is about a new distributed version control system written in Rust, based on category theory to define conflicts properly, but nevertheless as fast as even the fastest competitors. Its main distinctive feature is to implement the naive intuition of how distributed version control system should work: a branch in a repository is just an (unordered) set of patches. This makes it really easy to use, which we believe has the potential to help beginners collaborate with others, and get non-programmers use version control for their work. Our tool can also simplifying the workflows of big projects, especially since it handles big codebases faster than others. Moreover, the solid theory means it is easy to understand and predict what it does, which makes it easy to script and reuse in other projects.\n\nWhile previous systems based on this idea failed to compete in speed with the more widely-used tools out there, we invented a new data structure to efficiently handle asynchronous parallel contributions to a repository. We believe our construction of this datastructure can be reused in other contexts, especially since Rust is really well-suited to parallel computing. This talk will explain the architecture of the software, and what made Rust the best tool for writing it. We'll also talk about a few open problems, both about the theory and the implementation.\n\nhttp://www.rust-belt-rust.com/"

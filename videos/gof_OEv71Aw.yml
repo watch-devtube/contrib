@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - rust
+title: 'Rayon: Data Parallelism for Fun and Profit — Nicholas Matsakis'
+language: English
+recordingDate: 1483969308
+description: "Materials for this talk are available at https://speakerdeck.com/nikomatsakis/rayon-rust-belt-rust\n\nRayon is a convenient library for adding parallelism into Rust programs. Rayon allows you to easily convert for loops using iterators to run in parallel, as well as recursive functions. Under the covers, Rayon uses work-stealing to dynamically balance your parallel processing, allowing it to scale gracefully to different numbers or processors and a diverse range of workloads. Best of all, thanks to Rust's ownership and borrowing sytem, using Rayon is guaranteed not to add data races to your programs. This talk will summarize how you can use Rayon in your own programs, as well as lifting the covers to show how Rayon itself is implemented.\n\nhttp://www.rust-belt-rust.com/"
