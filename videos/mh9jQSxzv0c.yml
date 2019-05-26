@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - python
+title: 'Michael Sullivan - Getting to Three Million Lines of Type-Annotated Python - PyCon 2019'
+recordingDate: 1557110999
+description: "\"Speaker: Michael Sullivan\n\nDropbox is a heavy user of the mypy type checker, recently passing three million lines of type-annotated Python code, with over half of that added in 2018. Type checking is helping find bugs, making code easier to under stand, enabling refactors, and is an important aid to our ongoing Python 3 migration.\n\nIn this talk, we discuss how we got there. We’ll talk about what we tried in order to get our engineers to type annotate their code—what worked, what didn’t, and what our engineers had to say about it. \n\nAdditionally, we’ll discuss the performance problems we faced as the size of our checked codebase grew, and the techniques we employed to allow mypy—which is implemented in Python—to efficiently check (faster than a second, for most incremental checks) millions of lines of code, which culminated in mypyc, a new ahead-of-time compiler for type-annotated Python!\n\nSlides can be found at: https://speakerdeck.com/pycon2019 and https://github.com/PyCon/2019-slides\""
