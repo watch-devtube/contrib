@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - php
+    - web
+title: 'Опыт переезда соцсети Livestreet с PHP/MySQL на NodeJS/Redis/Lua / Дмитрий Дегтярев (Хабикаса)'
+language: Russian
+recordingDate: 1492897667
+description: "HighLoad++ 2013\n\nПрезентация и тезисы:\nhttp://www.highload.ru/2013/abstracts/1167.html\n\nМы взяли типичное веб-приложение на базе PHP/MySQL (движок социальной сети Livestreet) и убрали из него все медленное и плохое:\n- постоянный маршаллинг данных PHP - MySQL - Memcached;\n- процессы инициализации фреймворка при каждом вызове;\n- кэши и механизмы их инвалидации;\n- нормализованную структуру данных и множество операций JOIN таблиц;\n- обращения к ФС, в том числе со стороны БД;\n- кривые, опостылевшие и плохо поддающиеся JIT-компиляции языки программирования.\n..."
