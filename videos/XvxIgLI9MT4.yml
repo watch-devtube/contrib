@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - performance
+title: '5 boring performance improvements in MongoDB 3.4 that matter / Henrik Ingo (MongoDB)'
+language: Russian
+recordingDate: 1534419463
+description: "HighLoad++ 2017\nЗал «Мумбай», 8 ноября, 17:00\n\nТезисы:\nhttp://www.highload.ru/2017/abstracts/2921\n\nI will talk about performance improvements to MongoDB replication and sharding whose development I have been involved in. These under-the-hood improvements make a difference to users that have terabytes of data and possibly also lots of shards.\nI'll cover the following improvements in MongoDB 3.4:\n- Order of magnitude faster initial sync for replicas by building indexes in parallel\n- Removing throttling from migrations (re-balancing) between shards\n- Allowing parallel migrations between shards\n- Moving the balancer process from the mongos servers to the primary config server (a singleton)\n- Wire Protocol Compression to speed up replication in geographically distributed clusters\n- Future improvements to expect\n\n--------\nНашли ошибку в видео? Пишите нам на support@ontico.ru"

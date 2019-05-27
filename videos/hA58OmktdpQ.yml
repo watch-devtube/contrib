@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - performance
+    - cloud
+    - aws
+    - testing
+title: 'Measuring performance variabillity of EC2 / Henrik Ingo'
+language: Russian
+recordingDate: 1534419405
+description: "Highload++ 2017\nЗал «Мумбай», 8 ноября, 13:00\n\nТезисы:\nhttp://www.highload.ru/2017/abstracts/2924\n\nWorking in the MongoDB Server Performance Testing team, we use Amazon EC2 for system level testing. This allows us to flexibly deploy and tear down MongoDB clusters of various topologies, day after day. On the other hand, using a public cloud for performance testing can be challenging for repeatability of test results - to put it mildly. We therefore ended up spending several months just benchmarking EC2 itself. We compared combinations of different instance types and disks (ephemeral SSD vs PIOPS EBS). In the end we found that the largest impact in reducing variability came from the same configuration options that we use on physical HW as well: turning off hyperthreading, using numactl and turning off CPU power saving states. Thus, you could argue that blaming \"the cloud\" for our performance trouble was wrong. It's possible to get similar performance characteristics from EC2 as physical hardware, when used correctly, and when used incorrectly, both physical and cloud hardware will perform poorly. \n...\n--------\nНашли ошибку в видео? Пишите нам на support@ontico.ru"
