@@ -133,7 +133,7 @@ tags:
     matches: [security, owasp, encryption]
 
   - name: testing
-    matches: [testing, quality]
+    matches: [testing, quality, "#QA"]
 
   - name: craftsmanship
     matches: [craftsmanship, clean code, refactoring, extreme programming, xp, tdd, bdd, pair programming]
@@ -189,12 +189,12 @@ tags:
     matches: [.net, dotnet, asp.net, aspnet]
 
   - name: "f#"
-    matches: 
+    matches:
      - "f#"
      - fsharp
 
   - name: "c#"
-    matches: 
+    matches:
      - "c#"
      - csharp
 
@@ -203,7 +203,7 @@ tags:
 
   - name: elm
     matches: [elm]
-   
+
   - name: sap
     matches: [sap, abap, hana, fiori, sapui5]
 
@@ -218,3 +218,6 @@ tags:
 
   - name: wasm
     matches: [web assembly, wasm]
+
+  - name: embedded
+    matches: [embedded]
