@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - cloud
+    - containers
+    - kubernetes
+    - security
+title: 'Kubernetes + Encrypted Memory = Security * Privacy - Harshal Patil & Pradipta Banerjee, IBM'
+language: English
+recordingDate: 1559259939
+description: "Kubernetes + Encrypted Memory = Security * Privacy - Harshal Patil & Pradipta Banerjee, IBM \n  \nThe Memory Encryption on hardware is coming soon. From Intel's TME/MKTME[1] to IBM's Ultravisor[2], hardware manufacturers are aiming to make sure 'what's written by the process stays within the process'. Once the hardware is out, it will change the way we perceive the security and privacy in the cloud. In this talk, we will discuss briefly on the upcoming memory encryption technologies and how we modified kata container runtime to handle kubernetes' Ephemeral Volumes (aka, EmptyDir volumes) to keep your data and application protected from the container image registry (encrypted at rest) to runtime (protected by memory encryption). For the demonstration, we run a container image with the encrypted TensorFlow model using kubernetes such that even the root user on the worker node won’t be able to read the model parameters. [1] https://goo.gl/Xt3MJf [2] https://goo.gl/X2A5yx \n\nhttps://sched.co/MPdQ\n\nJoin us for KubeCon + CloudNativeCon in Shanghai June 24 - 26 and San Diego November 18 - 21! Learn more at https://kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects."
