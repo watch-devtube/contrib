@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - containers
+    - kubernetes
+title: 'GPU Sharing for Machine Learning Workload on Kubernetes - Henry Zhang & Yang Yu, VMware'
+language: English
+recordingDate: 1559358311
+description: "GPU Sharing for Machine Learning Workload on Kubernetes - Henry Zhang & Yang Yu, VMware   \n\nMachine learning is becoming more and more popular in the technology world. The community is beginning to leverage Kubernetes to deploy and manage the machine learning workload.\n\nOne of the key challenges is to schedule the GPU-intensive workload. The Kubernetes has included GPU support for applications. However, there are some limitations of GPU usage:\n1. GPU assignment is exclusive. Containers cannot share GPU resources.\n2. A container can request one or more GPUs, but it is not possible to request a fraction of a GPU.\n\nThis session introduces how to run workload using the GPU in Kubernetes. In addition, an approach will be demonstrated to use virtual GPU (vGPU) technology to enable multiple pods concurrently accessing the same physical GPU. This approach not only increases the utilization of GPU resources, it also allows more GPU workloads to be scheduled on the same physical GPU. \n\nhttps://sched.co/MPb0"
