@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - security
+title: '#HITBHaxpo D2 - Secure And Scalable Anomaly-Based Network Intrusion Detection - Philipp Mieden'
+language: English
+recordingDate: 1559437896
+description: "Corporate communication networks are frequently attacked with sophisticated and previously unseen malware or insider threats, which makes advanced defense mechanisms such as anomaly based intrusion detection systems necessary, to detect, alert and respond to security incidents. Both signature-based and anomaly detection strategies rely on features extracted from the network traffic, which requires secure and extensible collection strategies that make use of modern multi core architectures. Available solutions are written in low level system programming languages that require manual memory management, and suffer from frequent vulnerabilities that allow a remote attacker to disable or compromise the net- work monitor. Others have not been designed with the purpose of research in mind and lack in terms of flexibility and data availability.\n\nTo tackle these problems and ease future experiments with anomaly based detection techniques, a research framework for collecting traffic features implemented in a memory-safe language will be presented. It provides access to network traffic as type-safe structured data, either for specific protocols or custom abstractions, by generating audit records in a platform neutral format. To reduce storage space, the output is compressed by default. The approach is entirely implemented in the Go programming language, has a concurrent design, is easily extensible and can be used for live capture from a network interface or with PCAP and PCAPNG dumpfiles.\n\nFurthermore the framework offers functionality for the creation of labeled datasets, targeting application in supervised machine learning. To demonstrate the developed tooling, a series of experiments is conducted, on classifying malicious behavior in the CIC-IDS-2017 dataset, using Tensorflow and a Deep Neural Network."
