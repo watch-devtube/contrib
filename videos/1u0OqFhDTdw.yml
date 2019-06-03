@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - architecture
+    - embedded
+title: '#HITB2019AMS D1T3 - How To Dump, Parse, And Analyze i.MX Flash Memory Chips - Damien Cauquil'
+language: English
+recordingDate: 1559461864
+description: "NXP i.MX architecture offers a great platform for embedded systems, and is usually found in automotive and home automation devices and much more. However, analyzing the security of such devices is not straightforward as it relies on specific mechanisms, including a custom flash memory management.\n\nDuring one of our assignments, we stumbled upon one of these devices (i.MX6) and faced the hard truth: There was no tool to help us in recovering any filesystem from a memory dump we made for this device. We faced a lot of issues with binwalk and other dedicated tools, dealing with buggy extracted filesystems and much more. We were stuck and decided to dig into it and figured out a way to parse and analyze i.MX6 flash memory dumps and eventually extract the whole filesystems in order to assess the security of our target device.\n\nThis talk will cover the i.MX architecture and its associated flash memory layouts, its specificities (use of spare area, block storage mechanism, partitions and of course some variants we saw during our tests), how to read it to get valuable information, and of course how to recover any filesystem stored in it.\n\nWe will present and release a new set of opensource tools we developed to handle this specific memory layout during this talk."

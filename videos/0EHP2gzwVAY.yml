@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - ios
+    - security
+title: '#HITB2019AMS D1T1 - Finding Vulnerabilities In iOS/MacOS Networking Code - Kevin Backhouse'
+language: English
+recordingDate: 1559440190
+description: "By its nature, networking code is both complex and security critical. Any data received from the network is potentially malicious and therefore needs to be handled extremely carefully. However, the multitude of different networking protocols, such as IP, IPv6, TCP, and UDP, inevitably make the networking code very complicated, thereby making it more difficult to ensure that the code is bug free. For example, many of the functions in Apple’s networking code are thousands of lines long, with a huge number of different control flow paths to handle all the possible flags and options.\n\nOver the course of 2018, I found and reported a number of RCE vulnerabilities in iOS and macOS, all related to mbuf processing in Apple’s XNU operating system kernel: CVE-2018-4249, -4259, -4286, -4287, -4288, -4291, -4407, -4460. The mbuf datatype is used by the networking code in XNU to store and process all incoming and outgoing network packets.\n\nIn this talk I will explain some of the low level details of how network packets are structured, and how the mbuf datatype is used to process them in XNU. I will discuss some of the corner cases that were handled incorrectly in XNU, making the code vulnerable to remote attack. I will also talk about how I discovered each vulnerability using custom-written variant analysis with Semmle QL (http://github.com/Semmle/QL), a research technique that complements other bug-finding techniques such as fuzzing. To finish off, I will explain the C programming techniques that I used to implement PoC exploits for each of these vulnerabilities, with demonstrations of these exploits in action (crashing the kernel)."
