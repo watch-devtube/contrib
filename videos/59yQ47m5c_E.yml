@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - ios
+    - security
+title: '#HITB2019AMS D1T2 - Researching New Attack Interfaces On iOS And OSX - Lilang Wu and Moony Li'
+language: English
+recordingDate: 1559462139
+description: "The more you know about your enemy, then the more probability you have of defeating him – But how? Ever since iOS 10, Apple has released the unpacked/decrypted kernel cache (*.ipsw files) but the system source code, specifically the kernel and driver parts are kept closed. Further more, symbol info in the binaries (kernel cache) have also been removed which brings more difficulty for reverse engineering.\n\nTo us a challenge means a chance. As is true in security research, the more attack interfaces you expose and the newer your implementations the more likely you could hunt some 0days. The are always existing interfaces and implementation code changes (e.g. more selectors exposed in driver services via IOUserClient) in every iOS/MacOS system update or new hardware iteration. This talk will cover the typical workflow and thinking needed in order to explore and analyze new kernel attack interfaces. Using our workflow, we have found dozens of kernel and driver 0days and will introduce you to the steps we took to hunt them down. Some of the bugs we will cover include:\n\n    CVE-2018-4462 – An Integer overflow vulnerability which can leak kernel information found in AMDFramebuffer driver\n    NULL PAGE Reference Issue found in IntelAccelerator\n    Overflow Issue due to No Boundary Check in IOUSBFamliy extension\n    OOB read issue found in AMDRadeonX4000_AMDAccelResource class\n    Divide Zero issue found in IOAccelCommandQueue class\n\nIn addition, we will open source the relative toolchain to explore the attack interfaces and also release a kernel vulnerability hunting system based on enhanced passive fuzzing."

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - functional
+title: '#HITB2019AMS D2T2 - ModJack: Hijacking The MacOS Kernel - Zhi Zhou'
+language: English
+recordingDate: 1559515486
+description: "When talking about kernel exploits, most of the known attack techniques are related to memory safety or object lifecycle, requiring knowledge for kernel structures and internals to exploit, and sometimes with limited success rate.\n\nHowever, in this session, we’ll demonstrate a pure userspace logic bug chain that can escalate from a normal user to kernel privilege, to load a completely unsigned kernel extension on macOS High Sierra 10.13.6. Secure Kernel Extension Loading (SKEL) and System Integrity Protection (rootless) are both bypassed. What’s even interesting is that the exploit has abused sandbox, which is originally supposed to be a security measure.\n\nThe key is to do module hijacking on a trusted binary that can obtain arbitrary task port of user space. Code sideloading has been long exploited to bypass UAC or LPE on Windows. With no memory corruption involved, the stability is as solid as a rock. We’ll also discuss mitigations like Library Validation, SKEL, SIP and how they failed this exploit. Apple has neither assigned any CVE nor publicly acknowledged, but they’ve mitigated the issue in AppleMobileFileIntegrity (AMFI) on latest Mojave. One insecure code path is still present on 10.14.2 but no longer works because of the mitigation. In addition, we will introduce a dumb but surprisingly effective binary analysis tool that helped discovered this and other logic privilege escalation bugs."

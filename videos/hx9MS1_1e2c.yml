@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: '#HITB2019AMS D1T1 - TOCTOU Attacks Against Secure Boot And BootGuard - Trammell Hudson & Peter Bosch'
+language: English
+recordingDate: 1559440189
+description: "BootGuard’s Verified Boot mode on modern Intel CPUs is the core root of trust and measurement during the boot process, and preserves the chain of trust by only executing firmware with a valid vendor signature. These protections are supposed to be secure against physical attacks on the SPI flash, although we’ve found multiple errors in handling the firmware volumes as well as a new technique for changing the firmware after the signature check has been done.\n\nIn this talk we’ll demonstrate how to build an inexpensive open source tool for investigating these TOCTOU techniques and how to use it to test the security of your own systems."

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - security
+title: '#HITB2019AMS D1T2 - Hourglass Fuzz: A Quick Bug Hunting Method - M. Li, T. Han, L. Jiang and L. Wu'
+language: English
+recordingDate: 1559440190
+description: "As we all know, the Android operating system has a huge market reach and is a a key target for security researchers. Many modern fuzzing methods have been proposed to hunt vulnerabilities such as typical code coverage feedback fuzzing systems like syzkaller and libFuzzer from Google OSS-fuzz.\n\nHowever, typical fuzzing methods are NOT silver bullets for bug hunting – AFL-like or syzkaller-like fuzzing could not go to deeper code locations because of data dependencies and code execution sequences. It also consumes too much computation power and time to hunt a single bug.\n\nIn this talk, we will introduce Hourglass Fuzz – a system aimed at Android though it could be used for other platforms as well. Several graphic driver 0day bugs in both the kernel and Bluetooth system in user mode have been discovered and reproduced after hourglass fuzz on the latest version Android 9 on Pixel 3. We believe Hourglass Fuzz will expand the fuzzing thinking for security researchers and also add more power to typical fuzzing tools."

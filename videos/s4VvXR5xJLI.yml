@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - testing
+title: '#HITB2019AMS D1T2 - Automated Discovery Of Logical Priv. Esc. Bugs In Win10 - Wenxu Wu and Shi Qin'
+language: English
+recordingDate: 1559462588
+description: "Services have always been an important component of Windows 10. In recent years, there have been quite a few privilege escalation vulnerabilities in them.\n\nAt present, we can effectively automate the testing of memory corruption vulnerabilities by building fuzzers, but the discovery of logical vulnerabilities still relies more on manual inspection, and automated discovery has always been the goal we want to achieve. We analyzed and summarized the characteristics of historic vulnerabilities to build a system which realizes the automatic discovery and preliminary analysis of logical vulnerabilities by randomly simulating user interaction and calling related interfaces.\n\nIn this presentation, we will start from a historical bug analysis , then share the methodology about how we started this work with minimum knowledge of Windows internals. We will explain the inner workings of this technique and how we analyzed Advanced Local Procedure Call (ALPC) in Windows and discovered a local privilege escalation bug in the ALPC interface.\n\nWe will also cover battles with security checks such as the TOCTOU problem and how to cleverly use advanced skills to bypass a series of security checks to achieve privilege escalation. Finally, we will talk about how we built our automated discovery system and used it to find 3 new vulnerabilities in one week!"
