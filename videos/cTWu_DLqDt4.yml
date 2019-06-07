@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+    - java
+    - spring
+    - functional
+title: 'Configuration Management with Kubernetes, a Spring Boot use case by Nicolas Frankel'
+language: English
+recordingDate: 1559814031
+description: "Spring I/O 2019 - Barcelona, 16-17 May\n\nSlides: https://docs.google.com/presentation/d/18jSt6HyGJCr8HENvnDHBh9Z5N12CUT013NX9z-yJQ_M\n\nGitHub repo: https://github.com/exoscale-labs/config-mgmt-springboot-kubernetes/tree/demo\n\nDocker images are supposed to (and should be) immutable. Given that the same image should be promoted from the development environment to the production environment, it needs to be parameterized in each environment.\n\nKubernetes provides different ways to do that. On the other, the Spring Boot platform allows a wide range of configuration options. In this talk, I’ll go through (and demo!) what common options are available, and what pro(s)/con(s) each of them have."
