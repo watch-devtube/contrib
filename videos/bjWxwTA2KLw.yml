@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - rust
+    - wasm
+title: 'Build Your Own Blockchain with Substrate and Rust - Bill Laboon'
+recordingDate: 1559919558
+description: "In this workshop, you will learn how blockchains work and how to generate your own private blockchain from scratch with Substrate. You'll generate your own keys, create your own blocks, and connect nodes. You'll also learn about how we can modify the blockchain code to meet your needs, as well as how blockchains can interact via Polkadot, a heterogenous multi-chain framework.\n\nNote: the actual workshop will start at 7:00 PM. However, if you do not have git and Rust already installed, you can show up at 6:00-7:00 PM and we'll help you get everything installed before the workshop starts.\n\nPresenters: Bill Laboon (University of Pittsburgh / Web3 Foundation) and Joshy Orndorff (Parity Technologies)\n\n--- BEFORE WE START ---\n\nThese should work on OS X, Linux, or Ubuntu for Windows. Please run the following commands.\n\n----\ncurl https://sh.rustup.rs -sSf | sh\n\nrustup update nightly\nrustup target add wasm32-unknown-unknown --toolchain nightly\nrustup update stable\ncargo install --git https://github.com/alexcrichton/wasm-gc\n----\n\nYou will also need to run one of the following commands, depending on if you are on Linux or OS X:\n\n----\nLinux command:\n\nsudo apt install cmake pkg-config libssl-dev git clang libclang-dev\n\nOS X command:\n\nbrew install cmake pkg-config openssl git llvm\n----\n\nEveryone should then run the following commands.\n\ngit clone https://github.com/paritytech/substrate\ncd substrate/node-template\ngit checkout 53df5619c0273ef226ed9a470ca863d212ac917c\n./scripts/init.sh\n./scripts/build.sh\ncargo build\ncd ..\ncargo install --force --path subkey subkey"

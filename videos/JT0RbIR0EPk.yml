@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - java
+    - spring
+title: 'Chaos Engineering: withstanding turbulent conditions in production by Benjamin Wilms'
+language: English
+recordingDate: 1559900916
+description: "Spring I/O 2019 - Barcelona, 16-17 May\n\nSlides: https://speakerdeck.com/mrbw/o-2019-barcelona\n\nWhy we need Chaos Engineering\n\nThe complexity in modern and distributed architectures continues to increase. We have successfully broken down our application into small and maintainable components. Each individual component can be automated and brought into production at any time. A lot of effort was put into the development to keep the test coverage as high as possible. Every release has to successfully pass our pipeline and countless unit, integration and acceptance tests.\n\nBut why do we have this unpleasant feeling shortly before our arrival at the most beautiful place in the world (production)?\n\nknown unknowns\n\nMany open questions cannot be answered by simple unit or integration tests: 1. will our fallbacks work? 2. does the retry take effect in case of an error? 3. is our Service Discovery up and synchronised? 4. has anyone seen our client-side-load-balancer in action? 5. where’s our database gone?\n\nThis is where Chaos Engineering comes in.\n\nIt helps us to become master of chaos and please do not claim that you are not in chaos! There is a whole industry that sells us ticket systems to document chaos.\n\nWhat to expect\n\nIn this talk you will learn how to introduce Chaos Engineering. Using practical examples, you will learn what can go wrong. At the end of the talk we will conduct a Chaos Experiment in a distributed Spring Boot application. With the help of the Chaos Monkey for Spring Boot we will try to crash the application. But thanks to the implemented Resilience Pattern this won’t work.\n\nYou will take part in the trip to a Cloud-Native Spring Boot application and see how we can automate our chaos experiments. I will also show you useful helpers and tools for your first steps into the world of Chaos Engineering and how you can develop and improve Chaos Experiments together with your colleagues."
