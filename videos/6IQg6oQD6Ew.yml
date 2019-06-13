@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - java
+    - spring
+title: 'Building resilient scheduling in distributed systems with Spring by Marek Jeszka @ Spring I/O 2019'
+language: English
+recordingDate: 1560344597
+description: "Spring I/O 2019 - Barcelona, 16-17 May\n\nSlides: https://www.slideshare.net/MarekJeszka/building-resilient-scheduling-in-distributed-systems-with-spring\n\nIt is common to have jobs running periodically, especially in asynchronous and distributed systems. If the service is scaled horizontally (i.e. there are multiple instances of the same service), you often only want a single node to handle the task.\n\nIn this session I will demonstrate how to manually setup Spring to have custom logic in scheduling configuration and perform recurring tasks only on a single node. This requires keeping notation of the leader and persisting the selection.\n\nThe key takeaway of this session is how to implement distributed locking and how simple it is to run Spring application on top of it. In this talk you will learn how to mitigate challenges that arise when you use traditional declarative approach for scheduling and how to switch to a more flexible programmatic approach."
