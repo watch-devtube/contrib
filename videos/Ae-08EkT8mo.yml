@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - architecture
+    - java
+    - spring
+title: 'Distributed Tracing in the Wild by Adrian Cole @ Spring I/O 2019'
+language: English
+recordingDate: 1560420539
+description: "Spring I/O 2019 - Barcelona, 16-17 May\n\nSlides: https://speakerdeck.com/adriancole/set-your-sites-on-tracing-fcbfe2d4-51a4-4272-9689-0f0c338168ec\n\nWhile not new technology, distributed tracing has caught quite a buzz in recent years. Like all trendy tech, it can be difficult to distill reality from hype. If you haven’t heard yet, distributed tracing allows you to understand a single request as it crosses an arbitrarily complex (microservice or not) architecture.\n\nThe Apache Zipkin community has helped many new folks understand what is marketing from what is real, leading to numerous site deployments. This session aims to share our “Sites” project which is an inventory of real-life setups people use today. These sites employ distributed tracing to increase developer productivity or reduce time in triage.\n\nWhile this will be “Zipkin Centric”, it is not exclusively a Zipkin session. Real world sites employ other monitoring systems, log analysis and even other tracing systems to complete their stories.\n\nMeanwhile, applications send data to the tracing system in a myriad of ways. While the best way is implicit tracing such as agents or framework plugins like Spring Cloud Sleuth, reality happens. Sometimes sites use tracing libraries directly, whether they are Zipkin, OpenCensus, OpenTracing or something home grown. We’ll navigate this ecosystem with examples from real sites run by real people. You’ll learn what role is played by what.\n\nBy the end of this talk, you’ll not only learn concrete examples of what tracing is all about, but you’ll also get a connection to the community. We’ll introduce you to the gitter (chat) channel where everyone involved are. You can leverage us to begin or enhance your journey in observability."
