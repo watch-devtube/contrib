@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - craftsmanship
+    - 'code design'
+    - agile
+title: 'Improving the Quality of Incoming Code'
+language: English
+recordingDate: 1560642902
+description: "Looking to move to Continuous Delivery? Worried about the quality of your the code? Helping your developers understand clean-code practices and getting the right testing strategy in place can take a while. What should you do to control the quality of the incoming code till then? This talk shares our experience of using PRRiskAdvisor to gradually educate and influence developers to write better code and also help the code reviewer to be more effective at their reviews.\n\nEvery time a developer raises a pull-request, PRRiskAdvisor analyzes the files that were changed and publishes a report on the pull request itself with the overall risk associated with this pull request and also risk associated with each file. It also runs static code analysis using SonarQube and publishes the configured violations as comments on the pull request. This way the reviewer just has to look at the pull request to get a decent idea of what it means to review this pull request. If there are too many violations, then PRRiskAdvisor can also automatically reject the pull request.\n\nBy doing this, we saw our developers starting paying more attention to clean code practices and hence the overall quality of the incoming code improved, while we worked on putting the right engineering practices and testing strategy in place.\n\nEVENT:\n\nAgile India 2019\n\nPUBLICATION PERMISSIONS:\n\nOriginal video was published with the Creative Commons Attribution license (reuse allowed).\n\nATTRIBUTION CREDITS:\n\nOriginal video source: https://www.youtube.com/watch?v=HQKpHkL7pOQ"
