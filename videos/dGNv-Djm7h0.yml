@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - java
+    - spring
+title: 'Multi Service Reactive Streams Using Spring, Reactor, and RSocket by Ben Hale @ Spring I/O 2019'
+language: English
+recordingDate: 1560787303
+description: "Spring I/O 2019 - Barcelona, 16-17 May\n\nAs more applications are experiencing the benefits of using a reactive programming model, one of the biggest problems they experience is the mismatch between Reactive Stream back pressure and current networking protocols. Most existing network protocols don’t support the key Reactive Streams concept of pull-push backpressure. Even newer protocols such as HTTP/2 only do flow control at the packet level and provide no way to slow down production on the publisher side of a connection. This talk explores how to create a fully reactive multi-service architecture utilizing the RSocket protocol. The RSocket protocol enables Reactive Streams back pressure to be transmitted across a network link connecting reactive flows in multiple applications to directly affect one another in a positive way. In addition to discussing the RSocket protocol and how to use it, this talk will show integration with Spring and how it can be used in ways familiar to long-time Spring developers."
