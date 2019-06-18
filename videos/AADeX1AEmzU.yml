@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - java
+    - spring
+title: 'Managing Dependencies for Spring Projects with Gradle by Jenn Strater and Andy Wilkinson'
+language: English
+recordingDate: 1560768661
+description: "Spring I/O 2019 - Barcelona, 16-17 May\n\nSlides: https://speakerdeck.com/jlstrater/managing-dependencies-for-spring-projects-with-gradle\n\nManaging dependencies is hard. For Spring projects, Gradle and Maven are just two of the tools we can use to help make dependency management easier. They both handle dependency management effectively, but in very different ways. For example, Maven uses BOMs, and, until recently, Gradle didn’t have an equivalent concept. Because of this and other differences, the Spring Dependency Management plugin was created so that Gradle users who already knew Maven could manage dependencies in a way that was familiar to them.\n\nFor earlier versions of Gradle, the plugin’s version enforcement and dependency exclusion features were revolutionary and led to the Spring Dependency Management Plugin’s popularity in the Spring ecosystem and spread to other JVM-based communities such as Android. Now that Gradle 5.X includes native BOM support, users can replace parts of the plugin and take advantage of the productivity gains of the native support.\n\nIn this session, we’ll go over some basic use cases for Gradle native BOM support and show you how to use it to manage the dependencies of a Spring Boot application. We’ll also look at some scenarios where you’ll still want to use the Spring Dependency Management Gradle plugin."
