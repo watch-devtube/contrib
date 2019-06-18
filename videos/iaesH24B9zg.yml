@@ -1,0 +1,16 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - web
+    - angular
+    - containers
+    - docker
+    - kubernetes
+    - architecture
+    - java
+title: 'How I Automated My Barn with Arduino, Raspberry Pi, Micronaut, Docker & Oracle Autonomous Database'
+language: English
+recordingDate: 1560816102
+description: "Abstract:\nA few years ago I created a small system to automate some tasks in our barn where we keep pet potbelly pig and our chickens.  Simple things, like scheduling when the lights turn on and off, temperature monitoring and a webcam.  It was nice to automate those things, but the best part for me was being able to tinker with the sensors and devices and learn new libraries, frameworks, and languages.  \n\nI‚Äôve recently re-imagined the system as a way to learn more new technologies.  I‚Äôve created a prototype version to demonstrate how I might build it again if I were to start over from scratch and in this session, we‚Äôll look at that model and learn about the hardware and software used in it.  At its core, the system uses an Arduino, Raspberry Pi, and various pumps, solenoids, motors, and sensors to simulate the automation of certain tasks like filling a water bowl, opening and closing doors, monitoring environment and turning on and off lights on demand or via a schedule.  The hardware runs a client which has been implemented in several languages for demo purposes (currently Node and Groovy).  The client interfaces with a messaging queue a via a cloud-based microservice (also implemented in Node and Groovy with Micronaut) for messaging to both store sensor data in an Autonomous Database instance and stream data to the Angular front-end in real time via server-sent events. The Raspberry Pi client also receives commands for remotely performing certain tasks on demand.  The persisted data is formatted and displayed on a web application running in a Docker container that is deployed to a cloud-based Kubernetes cluster.  \n\nWe'll look at both the hardware and software that power this system and how I used the project as a playground for learning new technologies, languages, and frameworks."
