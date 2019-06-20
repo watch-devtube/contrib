@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'Ensar Basri Kahveci - java.util.concurrent for Distributed Coordination'
+language: English
+recordingDate: 1560925797
+description: "The long-lasting java.util.concurrent APIs can be extended for distributed execution in order to be used for coordination tasks. In this talk, we will explore the new java.util.concurrent implementation of Hazelcast on top of the Raft consensus algorithm.\n\nThe evolution of distributed coordination tools shows that high-level APIs eases the implementation of coordination tasks, such as leader election, locking, synchronized actions. For instance, The Chubby paper highlights familiarity of lock-based interfaces. Apache Curator hides the complexity ZooKeeper recipes behind Java APIs, while etcd and Consul implement concurrency primitives on their own.\n\nA different path in this journey would be extending the long-lasting java.util.concurrent APIs for distributed coordination. Hazelcast follows this path by offering distributed implementations of Java locks, semaphores, and other concurrency primitives. Unfortunately, these implementations were suffering from consistency issues.\n\nIn this talk, we will explore the new java.util.concurrent implementation of Hazelcast on top of the Raft consensus algorithm. We will walk through code samples to see how Java locks, semaphores, etc. can be used in distributed environments that involve partial failures."
