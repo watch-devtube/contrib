@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - cloud
+title: 'Berlin Buzzwords 2019: Owen O''Malley – Introducing Apache Iceberg: Tables Designed for Object Stores'
+recordingDate: 1560948780
+description: "Hive tables are an integral part of the big data ecosystem, but the simple directory-based design that made them ubiquitous is increasingly problematic. Netflix uses tables backed by S3 that, like other object stores, don’t fit this directory-based model: listings are much slower, renames are not atomic, and results are eventually consistent. Even tables in HDFS are problematic at scale, and reliable query behavior requires readers to acquire locks and wait.\n\nI will present an overview of Apache Iceberg, a new open source project that defines a new table layout addresses the challenges of current Hive tables, with properties specifically designed for cloud object stores, such as S3. Iceberg is joined Apache Incubator last year. It specifies the portable table format and standardizes many important features, including:\n\n* All reads use snapshot isolation without locking.\n* No directory listings are required for query planning.\n* Files can be added, removed, or replaced atomically.\n* Full schema evolution supports changes in the table over time.\n* Partitioning evolution enables changes to the physical layout without breaking existing queries.\n* Data files are stored as Avro, ORC, or Parquet.\n* Support for Spark, Hive, and Presto.\n\nMore information: https://berlinbuzzwords.de/19/session/introducing-apache-iceberg-tables-designed-object-stores"
