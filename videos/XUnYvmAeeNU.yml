@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Berlin Buzzwords 2019: Houston Putman–Running Solr within Kubernetes at Scale'
+recordingDate: 1561025118
+description: "The Search Infrastructure team at Bloomberg runs over a thousand Solr clouds spread across hundreds of machines. This scale creates significant challenges in managing hardware resources. Beyond just managing where clouds are allocated and the resources available across the cluster, tasks that affect multiple clouds, such as upgrading OS versions or taking a machine down for maintenance, can grow into serious undertakings.\n\nKubernetes is a system designed to help orchestrate large scale applications. However, it has room for improvement in use cases such as running on physical hardware or managing stateful applications. In this talk, Houston Putman will detail how the team has addressed these issues and begun to run production Solr clouds on Kubernetes. He will also share his experience and the performance characteristics when running Solr on Kubernetes vs. on bare metal.\n\nMore information: https://berlinbuzzwords.de/19/session/running-solr-within-kubernetes-scale"

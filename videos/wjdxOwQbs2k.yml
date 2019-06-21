@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - performance
+    - testing
+title: 'Berlin Buzzwords 2019: Lester Solbakken–Scaling ONNX and TensorFlow model evaluation in search'
+recordingDate: 1561038654
+description: "With the advances in deep learning and the corresponding increase in machine learning frameworks in recent years, a new class of software has emerged: model servers. These promise, among other things, performance and scalability. There is however a large class of applications where such model servers are inadequate. For instance, search and recommendation applications must efficiently evaluate models over potentially many thousands of data points as part of handling a query. In such cases the amount of data transferred to the model servers can quickly saturate the network and thus decrease total system throughput and degrade quality of service.\n\nIn this talk we present a solution to this problem which is to evaluate the models where data is stored rather than moving data to where the model is hosted. We base our solution on Vespa, an open-sourced platform developed at Yahoo for building scalable real-time data processing applications over large data sets. Vespa has  native features to import ONNX and TensorFlow models and represent the computational graphs in its internal tensor language. In this talk we will show how this achieves model evaluation performance at web-scale, and that even if one does not take advantage of specialized hardware such as GPUs and TPUs, the total system throughput can scale much better.\n\nMore information: https://berlinbuzzwords.de/19/session/scaling-onnx-and-tensorflow-model-evaluation-search"
