@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'Seth Vargo - Base64 is not encryption – a better story for Kubernetes Secrets'
+language: English
+recordingDate: 1561109772
+description: "Secrets are a key pillar of Kubernetes, but anyone with access to etcd can all the plaintext values!\n\nAttendees will learn techniques for securing Kubernetes secrets including encryption, KMS plugins, and tools like HashiCorp Vault, and the tradeoffs of each approach to better secure their clusters.\n\nSecrets are a key pillar of Kubernetes’ security model, used internally (e.g. service accounts) and by users (e.g. API keys), but did you know they are stored in plaintext? That’s right, by default all Kubernetes secrets are base64 encoded and stored as plaintext in etcd. Anyone with access to the etcd cluster has access to all your Kubernetes secrets.\n\nThankfully there are better ways. This lecture provides an overview of different techniques for more securely managing secrets in Kubernetes including secrets encryption, KMS plugins, and tools like HashiCorp Vault. Attendees will learn the tradeoffs of each approach to make better decisions on how to secure their Kubernetes clusters."
