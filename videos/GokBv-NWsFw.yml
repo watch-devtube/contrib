@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - java
+title: 'What hit my webservice with 408?! - Paweł Krzywicki'
+recordingDate: 1561367698
+description: "On a windy, cold night, a webservice hosted on a popular cloud provider was struck by a mysterious http request and surprisingly did not recover for half an hour. That event triggered an investigation that quickly reminded that if you start hosting a publicly available webservice, you immediately become a target for a number of scanners that relentlessly crawl the internet trying to find vulnerabilities.\nThis lightning talk discusses a real-world story of a certain message from such a massive scan that instead of failing gracefully with 404 response code (Not found) started to cause 408 (Request timeout), which poses a bigger threat of Denial of Service. \nThe investigation of the message showcased different methods of logging such suspects - both using cloud services, as well as Java application based - when they fail and when they succeed to log all the details required to reproduce the issue. Surprisingly, it also offered a way to optimize the load on the hosting infrastructure and offered an interesting insight into modern scans, as well as individual malware campaigns launched.\nThe talk includes also a demo of quick analyses of logged http requests\n\n\n\nCheck out more of our talks in the following links!\n\nNDC Conferences\nhttps://ndcoslo.com\nhttps://ndcconferences.com"
