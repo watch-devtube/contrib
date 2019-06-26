@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+    - python
+    - 'c#'
+title: 'Event Driven Collaboration - Ian Cooper'
+recordingDate: 1561468221
+description: "When we move from a monolith to microservices we abandon integrating via a shared database, as each service must own its own data to allow them it to be autonomous. But now we have a new problem, our data is distributed. What happens if I need one service needs to talk to another about a shared concept such as a product, a hotel room, or an order? Does every service need to have a list of all our users? Who knows what users have permissions to the entities within the micro service? What happens if my REST endpoint needs to include data from a graph that includes other services to make it responsive? And I am not breaking the boundary of my service when all of this data leaves my service boundary in response to a request?\n\nNaive request-based solutions result in chatty calls as each service engages with multiple other services to fulfil a request, or in large message payloads as services add all the data required to process a message to each message. Neither scale well.\n\nIn 2005, Pat Helland wrote a paper ‘Data on the Inside vs. Data on the Outside’ which answers the question by distinguishing between data a service owns and reference data that it can use. Martin Fowler named the resulting architectural style; Event Driven Collaboration. This style is significant because it shifts the pattern from request to receiver-driven flow control. \n\nIn this presentation we will explain how events help us integrate our service architectures. We’ll provide examples in C#, Python and Go as well as using RMQ and Kafka.\n\n\n\nCheck out more of our talks in the following links!\n\nNDC Conferences\nhttps://ndcoslo.com\nhttps://ndcconferences.com"

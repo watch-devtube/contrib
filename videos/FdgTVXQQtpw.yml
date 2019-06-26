@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - storage
+    - devops
+title: 'Adding Observability to Distributed Systems - David Ostrovsky'
+recordingDate: 1561465379
+description: "Tell me if this sounds familiar: you have a web service, that calls another service, that sends a Kafka message to a third service, that writes something to a database. Except sometimes it doesn’t. Where did the message go? Did the client not send it? Or did Kafka eat it? You don’t know. You look in the logs, but there are so many logs! You try to reproduce the problem, but annoyingly everything works fine. What to do?\n\nIn this talk we’ll explore mechanisms for observing and debugging distributed systems, with an eye towards taking an existing codebase that lacks observability and evolving it over time. In particular, we’ll focus on distributed tracing tools that let us track transactions which span multiple services and execution contexts. We’ll discuss how tracing differs from logging and monitoring. How to instrument applications to emit trace data, how to collect and store it, how to visualize transactions, and how this benefits developers, devops, and the business itself. We’ll look at leveraging popular open source technologies, like the CNCF OpenTracing project, Jaeger, Zipkin, and the newly released Elastic APM OpenTracing bridge.\n\n\n\nCheck out more of our talks in the following links!\n\nNDC Conferences\nhttps://ndcoslo.com\nhttps://ndcconferences.com"
