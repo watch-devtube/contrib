@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - cloud
+    - aws
+    - python
+title: 'Berlin Buzzwords 2019: Suneel Marthi–Measuring Vegetation Health to Predict Natural Hazards'
+recordingDate: 1561643877
+description: "With the abundance of Remote Sensing satellite imagery available on public clouds(AWS), the possibilities are endless as to the kind of insights that can be derived from them. One such use is to determine the use of satellite imagery for predicting natural hazards like forest fires and the risk to residential localities like the recent forest fires in California.\n\nIn this talk, we’ll be looking at leveraging the Near Infrared (NIR) bands from Landsat satellite imagery data to determine the health of vegetation and predicting the likelihood of next big forest fire based on the chlorophyll content in the vegetation that’s captured in NIR bands of Landsat images. This, when combined with MLS data of properties in the region, can be used to determine the risk to property.  \n\nFor this talk, we’ll be looking at building Deep Learning models built with Tensorflow to determine vegetation health. We will be showing how to ingest satellite data along with MLS datasets as different streams, and predicting the risk to a residential property due to a potential natural calamity.\n\nWe’ll be leveraging streaming pipelines built on Apache Beam and TFX (Tensorflow Transforms) for preprocessing, model training and inference in real-time at scale. Developers will come away with a better understanding of how to analyze satellite imagery available on public clouds like AWS and leveraging Apache Beam Python pipelines on Apache Flink runner for real-time predictions."

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - testing
+title: 'Berlin Buzzwords 2019: Robert Burke–Writing a Distributed Ray Tracer with Apache Beam, Abridged'
+recordingDate: 1561638329
+description: "Ray Tracing is an embarrassingly parallel way to render high quality images, but distributing work between machines is hard. Apache Beam is a model for efficient distributed data processing. In this talk I map Ray Tracing onto the Apache Beam Go SDK.\n\nApache Beam SDKs portably abstract computations and data into DoFns and PCollections, and allow you to construct a graph of how data flows and connects. Then any compatible Runner can optimize that graph for computation, and distribute work to the runners.\n\nI'll give a overview of Ray Tracing  and introduce the Apache Beam model, it's history,  demonstrating mapping one to the other. I'll explain the benefits and limits of the model and how to get the most out of your pipelines, and show it running on compatible runners like Apache Flink and Google Cloud Dataflow. Further, I'll show using the same pipeline running in batch and streaming modes, with minimal changes."

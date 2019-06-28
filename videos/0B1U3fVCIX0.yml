@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - rust
+title: 'C# and Rust: combining managed and unmanaged code without sacrificing safety - Ashley Mannix'
+recordingDate: 1561625451
+description: "Why would you ever want to introduce unmanaged code into your managed codebase when recent versions of C# have made writing high performance code in .NET more accessible than ever before? While C# has been pushing downwards into the realm of \"systems programming\", Rust, a language that already operates in this space, has been pushing upwards. The result isn't a competition where one language must emerge as more universally applicable than the other. It's a broader set of cases where C# and Rust can work together, and integrating them effectively is more idiomatic thanks to this broadening of scope.\n\nWhen we set out in 2018 to rebuild the storage engine for our log server, Seq, we decided to complement our existing C# codebase with a new one written in Rust. In this talk we'll look at why you might want to add unmanaged code to your managed codebase, using Seq as an example. We'll explore how to use the tools that .NET and Rust give us to design and build a safe and robust foreign function interface. In the end we'll have a new perspective on the implicit safety contracts we're expected to uphold in our purely managed codebases.\n\n\n\nCheck out more of our talks in the following links!\n\nNDC Conferences\nhttps://ndcoslo.com\nhttps://ndcconferences.com"

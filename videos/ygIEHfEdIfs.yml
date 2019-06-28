@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - architecture
+title: 'Berlin Buzzwords 2019: Umesh Dangat–Evolution of Yelp search to a ranking platform'
+recordingDate: 1561644248
+description: "Yelp’s core business search was one of the oldest systems at Yelp designed well before the advent of Elasticsearch. While this system served Yelp well for a few years, we were getting close to a point where the original search infrastructure architecture was not sufficient to solve modern day search problems.\n\nThis talk will detail\n\nHow Yelp’s search engineers decoupled the search infrastructure from search relevance.\n\nThe challenges associated with transferring complex custom lucene based ranking and text analysis functionality to elasticsearch.\n\nThe benefits of offloading search infrastructure to elasticsearch and\n\nFinally the dividends it paid by allowing us to further leverage our technological investment in elasticsearch, by hosting machine learning models in elasticsearch by using Learning to Rank plugin, and making contributions to it."

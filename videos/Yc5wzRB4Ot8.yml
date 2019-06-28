@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+title: 'Berlin Buzzwords 2019: Shaofeng Shi–Accelerate big data analytics with Apache Kylin'
+recordingDate: 1561646348
+description: "To achieve high performance or interactive analytics on a big data set, most massively parallel processing (MPP) solutions resort to putting a large proportion of the dataset into memory and launch as many CPU cores as possible to deliver query results in time. By nature, MPP solutions could easily hit throughput bottlenecks at high concurrency or budget issues when datasets grow too large to fit in memory.\n\nApache Kylin proposed another solution to speed up analytical queries with pre-built OLAP Cube (which is essentially groups of aggregate tables). The Cubes are built with MapReduce/Spark on commodity hardware so that a large volume of datasets can be handled at a reasonable cost.\n\nThis talk will have the following detailed topics:\n\n- Apache Kylin background\n\n- Why OLAP Cube is needed for big data\n\n- How Kylin build the Cube on Hadoop\n\n- Performance benchmark\n\n- Use cases"
