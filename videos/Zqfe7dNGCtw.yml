@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - java
+    - spring
+    - embedded
+title: 'Johan Janssen - Processing IoT sensor data with InfluxDB'
+language: English
+recordingDate: 1561623636
+description: "In this session we’ll retrieve sensor data with a Spring Boot application. After that we will store the data in InfluxDB a time series database. We can store the data with the InfluxDB Java client or by making REST calls. Then we’ll make the data available in some nice dashboards running in Grafana and Chronograf.\n\nSensors give us a wealth of information. But how do we store the information and how do we make it available in a readable way? In this session, I will show you how you can send the sensor data to an InfluxDB data storage with a Spring Boot application. InfluxDB is a time series database which is a perfect fit to store sensor data. It’s possible to send the data by making a REST call to InfluxDB or by using the Java InfluxDB client.\n\nThe example (including a live demo) is based on a Raspberry Pi with the following sensors: – BME280 sensor connected to the GPIO ports of a Raspberry Pi – Xiaomi Mijia temperature and humidity sensor connected via Bluetooth to the Raspberry Pi\n\nAfter the sensor data is stored we want to make it available in a nice graphical way. Therefore we use the Grafana and Chronograf dashboards."
