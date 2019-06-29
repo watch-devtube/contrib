@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - python
+    - rust
+title: 'Anchored Metadata - Austin Bingham'
+recordingDate: 1561707012
+description: "When building software, we often need to associate metadata with the code we’re writing. A typical example is when we need to tell our linters to ignore a specific range of code. A common approach to adding this metadata is to embed it directly in the code using the syntax of the language, but this approach has a number of drawbacks including language specificity, potential for collision, and cluttering of the code.\n\nIn this talk we’ll look at an alternative approach that stores the metadata separate from the code using a technique called _anchoring_. The metadata is associated with an anchor, a region of code inside the source file. Critically, the anchor also includes a context, a snapshot of the code surrounding the anchored region. As the source code is changed, this context – along with some very interesting algorithms for aligning text -– is used to automatically update the anchors.\n\nTo demonstrate these concepts we’ll look at spor, a tool that implements anchoring and anchor updating. The primary implementation of spor is in Python, so it’s very approachable and, indeed, open for contribution. As a side note, we’ll also look at a partial implementation of spor written in Rust. Finally, we’ll look at how spor is being used in Cosmic Ray, a mutation testing tool for Python.\n\n\n\nDon't forget to check out Austin Bingham's next talk at this year's NDC Techtown:\nhttps://ndctechtown.com/\n\nCheck out more of our talks in the following links!\n\nNDC Conferences\nhttps://ndcoslo.com\nhttps://ndcconferences.com"
