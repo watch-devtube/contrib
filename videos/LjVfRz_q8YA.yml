@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+title: 'Berlin Buzzwords 2019: Abhishek Kumar Singh–Managing Distributed Workflows at Scale'
+recordingDate: 1561715341
+description: "Full title: Managing Distributed Workflows at Scale - Kubernetes Jobs in Action\n\nKubernetes has been widely accepted as the de-facto deployment orchestrator for managing and scaling containers in the cloud. While it's capabilities have been well acknowledged in the deployment space, its ability to manage business-specific workflows is yet to see a wide application.\n\nThis talk gives an insight into how we at Unbxd used 'Kubernetes Jobs' to build a Workflow Orchestration Engine that helps to configure and manage complex sequence of processes where the output of each step is used as an input for the next node. This architecture can also use\_existing\_microservices running on any platform as a node in the workflow and the data routing intelligence remains with the workflow orchestration layer (in the form of\_fault-tolerant DAGs). \_\_\n\nThis\_dynamic and configurable workflow also helps in scaling\_the architecture well, as the inter-node data flow is controlled by the Orchestrator from within a Kubernetes pod (using a distributed message queue)."

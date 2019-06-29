@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - containers
+    - kubernetes
+title: 'Berlin Buzzwords 2019: Ken LaPorte–Monitoring Solr at Scale'
+recordingDate: 1561716923
+description: "It’s 3am and your phone wakes you up. A service you own is having a problem. This is an all too familiar issue for application and infrastructure teams alike. When that team is Bloomberg's Search Infrastructure team and the global financial markets are relying on the services you provide, you have to get up and fix it right away.\n\nBut how did you learn about the problem or how severe it is in the first place? And how do you scale that for hundreds and thousands of services? What can you do to ensure your services are performing within your SLAs - despite peak load (a question that becomes even more interesting when many of those services are managed using Kubernetes)?\n\nBloomberg's Search Infrastructure team has created a holistic, extensible and configurable monitoring solution for large scale distributed systems. Our solution allows us to scale monitoring both horizontally (the types of services) and vertically (the number of services). In this talk, I will discuss how our approach has evolved as the number of services we monitor has increased dramatically. I will detail how we leveraged Kafka\_to improve our reliability and unlink our monitoring and alarming solutions. Finally, I’ll demonstrate how ChatOps have helped us all get a good night's sleep."
