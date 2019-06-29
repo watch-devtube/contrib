@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - testing
+title: 'Transparent Chaos Testing with Envoy , Cilium and BPF - Thomas Graf, Isovalent'
+language: English
+recordingDate: 1561762433
+description: "Transparent Chaos Testing with Envoy , Cilium and BPF - Thomas Graf, Isovalent \n\nChaos testing has become a prerequisite for successful operations by testing chaotic, unexpected situations before they occur in production. Chaos testing is still done manually to a large extent. This talk will demonstrate how to use Envoy in combination with Cilium and BPF to introduce chaos such as service unavailability, latency and random rate limiting into any Kubernetes environment in a completely transparent manner. To achieve this, we will make use of Cilium and BPF to transparent adjust the networking behavior and use Go extensions for Envoy to customize chaos behavior by returning HTTP error codes for specific events, limit request throughput to a trickle and to simulate network segmentation between availability zones. \n\nhttps://sched.co/MPcG\n\nJoin us for KubeCon + CloudNativeCon in Shanghai June 24 - 26 and San Diego November 18 - 21! Learn more at https://kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects."
