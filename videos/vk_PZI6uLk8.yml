@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+title: 'Vidar Eidissen -Effective PL/SQL Code Insight With PL/Scope–or another reason to put code in the dtb'
+language: English
+recordingDate: 1561970983
+description: "A GDPR-compliance project with nine months ‘til deadline. With no previous knowledge of the system or the domain – how could our little externally sourced team do thousands of modifications with surgical precision and very few errors in a system with more than 1 million lines of PL/SQL code?\n\nSo: You’re a consultant. Hired to do a GDPR-revision project. Your small team, all externally hired, is faced with approximately 1.000.000 lines of PL/SQL code. You know basically nothing about the system and the domain. You need to analyse, identify and modify code in a system with tons of thousand of SQL statements to find out where certain pieces of information is entering the system and later changed. You have 9 months.\n\nOn the positive side, the application is written with all the business logic in PL/SQL inside an Oracle database. All the SQL statements are there. The client layer just calls stored procedures in the database.\n\nIn this presentation I’ll show how we used Oracles free PL/Scope to analyse the code base to make informed and well working design decisions. We also introduced a new logging framework and started changing code, deploying changes live several times a day. Some things we rewrote from scratch. Other places we replaced SQL-statements with calls to our low level APIs, as well as re-instrumenting code and fixing old bugs that suddenly were a lot more easy to identify.\n\nWe’ll talk about the importance of static SQL and putting the statements in the database: The true effects on maintainability and performance.\n\nSHARE"
