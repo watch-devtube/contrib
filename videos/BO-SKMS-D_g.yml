@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - storage
+    - redis
+    - performance
+    - .net
+title: 'Solving Tricky Coordination Problems in Stateless .NET Services - Loris Cro'
+recordingDate: 1561964865
+description: "Developing modern, service-oriented architectures requires that our services become stateless to enable horizontal scalability. ASP.NET helps in doing so with IDistributedCache, but caching is only one of many new coordination problems.\n\nIn this session I will present how to approach some coordination problems, with a deeper focus on using Redis Pub/Sub to prevent concurrent client requests from triggering the same online-but-expensive computation over and over, by creating a distributed lock that does the job once and instantly notifies all other pending requests when the computation is completed.\nThis type of computation-locking is useful for preventing “stampedes” when generating reports, serving AI models, running serverless functions, and more. \n\nDuring the presentation I will also demo a sample ASP.NET Core project that implements said mechanism by making full use of asynchronous code and System.Collections.Concurrent to maximise performance.\n\n\n\nCheck out more of our talks in the following links!\n\nNDC Conferences\nhttps://ndcoslo.com\nhttps://ndcconferences.com"
