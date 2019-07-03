@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Understanding how to use Task and ValueTask'
+language: English
+recordingDate: 1562069313
+description: "Understanding the Whys, what’s, and when’s of ValueTask\nhttps://devblogs.microsoft.com/dotnet/understanding-the-whys-whats-and-whens-of-valuetask?WT.mc_id=ondotnet-c9-cxa\n\nValueTask reference docs\nhttps://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.valuetask-1?WT.mc_id=ondotnet-c9-cxa\n\nNuGet package for ValueTask\nhttps://www.nuget.org/packages/System.Threading.Tasks.Extensions?WT.mc_id=ondotnet-c9-cxa\n\nIn this episode, Stephen Toub chats with Rich about ValueTask and how it might help reduce allocations and memory usage for your asynchronous .NET code.\n\n[00:34] - What is ValueTask and why do we need it?\n[05:22] - What is a good scenario for ValueTask?\n[10:00] - What is IValueTask?\n[12:14] - Why was the non-generic ValueTask introduced?\n[13:54] - Does ValueTask offer cancellation?\n[14:42] - What can you do with Task vs ValueTask?\n[16:28] - What’s the uptake with ValueTask usage?\n[18:28] - How does IAsyncEnumerable task advantage of ValueTask?\n[21:11] - What other performance work is happening around allocations?"
