@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'Understanding and Deploying Kubernetes Pod Security Policies'
+recordingDate: 1562099835
+description: "As cluster-admin, you’ve probably done due diligence using RBAC to create “non-admin” users and service accounts with narrowed access, but did you know that most cluster setups give anyone the ability to create a single Pod to land on any node as root? \n\nIn this Webinar, we’ll demonstrate the “escape” vector mentioned above, and then explain how Pod Security Policies (PSPs) aim to tackle these kinds of issues by restricting what Pods can do. Lastly, we will explore the instrumentation we use to build PSPs, roles and their bindings in a sustainable way. By the end of this webinar, you will understand how to easily build a progressive PSP “hierarchy” from privileged to fully restricted and then bind them to specific subjects (users, groups, service accounts, etc) to help you build more secure Kubernetes environments."
