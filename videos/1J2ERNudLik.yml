@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - ml
+    - performance
+    - python
+title: 'Realtime Store Visit Predictions at Scale - Luca Giovagnoli'
+recordingDate: 1562299969
+description: "Realtime Store Visit Predictions at Scale\n\nThis talk aims to inspire attendees with a multidisciplinary Flink application, where different fields have come together with a graceful synergy. You will hear about geospatial clustering algorithms, a gradient boosting ML model, and cutting-edge stream-processing technology - all in the same talk! And, if you are wondering, you can incorporate all this into your SOA using Async I/O!\n\nAfter introducing our product use-case (real-time notifications for nearby local businesses), we’ll dive into the big data challenges. The talk will be describing a Visit Detection algorithm we have built to cluster raw GPS pings into Visits, using Flink state management and custom processing constructs (custom Windows, Triggers and Evictors). Finally we will discuss a real-time machine learning model to predict the correct nearby business, leveraging Flink’s Async I/O at scale.\n\nFlink enabled us to scale complex algorithms to thousands of operations per second, and to power hundreds of thousands of daily push notifications. It availed itself as a clearly superior alternative, whose performance netted Yelp great cost savings, and allowed us to move away from hardly scalable Python alternatives.\n\nFlink Forward San Francisco 2019\n#flinkforward"
