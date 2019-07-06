@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Efficient and Flexible Virtual Machine Networking Through eBPF - Jason Wang, Red Hat'
+language: English
+recordingDate: 1562350895
+description: "Efficient and Flexible Virtual Machine Networking Through eBPF - Jason Wang, Red Hat \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nThis talk will seek the method to build VM networking infrastructure through eBPF. Traditional networking datapath and several limitations of it will be reviewed first . Then eBPF based method will be introduced: eBPF based filtering allows a user configurable high speed packet filtering solution like virtio-net filter for vhost; eBPF based packet steering allows userspace to inject its own steering policy like RSS; eBPF/XDP based host datapth acceleration allow userspace to build a flexible and efficient datapath on host; eBPF offloading allow guest to offload eBPF tasks like XDP and tc_cls to host for a native packet processing on host. At the end, the performance numbers, challenges and future work will be also discussed. \n\nhttps://sched.co/Nrtz"

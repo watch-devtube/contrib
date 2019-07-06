@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: 'SPDK Based User Space NVMe Over TCP Transport Solution - Ziye Yang, Intel'
+language: English
+recordingDate: 1562351277
+description: "SPDK Based User Space NVMe Over TCP Transport Solution - Ziye Yang, Intel \n\nJoin us for KubeCon + CloudNativeCon North America in Seattle, December 11 - 13, 2018 (http://bit.ly/KCCNCNA18) or in Shanghai, November 14-15 (http://bit.ly/kccncchina18) ) \n\nRecently, NVM express releases the new spec of TCP transport (TP8000) for NVMe over fabrics. In this talk, we would like to introduce the design, implementation and development plan of TCP transport for NVMe-oF in SPDK . Currently, SPDK implements both TCP transport in host and target side, and it can be tested against Linux kernel solution with good interoperability. Besides, some experiments results will be presented to demonstrate the performance and scalability of SPDK's NVMe-oF TCP transport implementation. Moreover, we will introduce some techniques for the further performance improvement of SPDK's solution, e.g., (1) leveraging user space TCP stack (e.g., VPP + DPDK) to replace the kernel TCP stack; (2) leveraging some features of hardware such as ADQ on Intel's E810 NIC.   \n\nhttps://sched.co/NruW"

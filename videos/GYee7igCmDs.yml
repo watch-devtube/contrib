@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'Network Flow Monitoring in Kubernetes with Contiv/VPP CNI and Elastic Stack - Rastislav Szabo'
+language: English
+recordingDate: 1562351058
+description: "Network Flow Monitoring in Kubernetes with Contiv/VPP CNI and Elastic Stack - Rastislav Szabo, Pantheon Technologies \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nAlthough most of the Kubernetes cluster administrators do not care about the network traffic in their clusters while everything works, visibility into the network flows in the cluster (both in real time and in history) is crucial for debugging networking issues, identifying the bottlenecks in the deployments, or investigation of security incidents.    This talk showcases how a powerful network flow monitoring & analysis tool for Kubernetes can be built by integrating of several existing open-source components:    - Contiv/VPP CNI plugin, which uses FD.io VPP (Vector Packet Processing) stack with enabled IP Flow Information Export (IPFIX),  - Logstash for collecting and post-processing of the network flows,  - Elasticsearch which acts as the storage and search engine for the flows,  - Kibana for easy observability of the stored flows. \n\nhttps://sched.co/Nrnz"

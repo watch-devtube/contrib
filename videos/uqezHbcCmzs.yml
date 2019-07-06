@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+title: 'Embracing Big Data Workload in Cloud-Native Environment with Data Locality - Sammi Chen & Xiaoyu Yao'
+language: English
+recordingDate: 1562351277
+description: "Embracing Big Data Workload in Cloud-Native Environment with Data Locality - Sammi Chen, Tencent & Xiaoyu Yao, Cloudera \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects. \n\nKubernetes support schedule workloads based on CPU and memory resource with node affinity, pod affinity and anti-affinity. This works very well for stateless workloads. For stateful workloads, especially big data workloads, scheduling compute close to data source can greatly boost performance, reliability and availability. However, in many cloud based storage systems, the data locality info is either unavailable or not exposed to container orchestra.     In this talk, we will first compare the data locality support from mainstream container attached storage for Kubernetes. Then we will introduce network topology support from Apache Hadoop Ozone and how to use it as locality aware container attached storage via Ozone CSI plugin for better workloads scheduling. Last, we will use Spark on K8s to demo the benefits of data locality aware scheduling with Apache Hadoop Ozone. \n\nhttps://sched.co/Nrq1"

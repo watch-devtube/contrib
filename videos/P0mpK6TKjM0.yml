@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Introduce an SPDK vhost FUSE Target to Accelerate File Access in... Liu Changpeng & Liu Xiaodongl'
+language: English
+recordingDate: 1562351630
+description: "Introduce an SPDK vhost FUSE Target to Accelerate File Access in VM and Containers - Liu Changpeng & Liu Xiaodongl, Intel \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nVirtio-fs(https://virtio-fs.gitlab.io/) is proposed recently to provide file system sharing for lightweight VMs and containers workloads, where shared volumes are a requirement.  In this presentation, we propose an SPDK(Storage Performance Development Kit, https://spdk.io) userspace vhost-user-fs solution, which can be used together with QEMU/Kata Container to accelerate virtio-fs. Virtio-fs uses FUSE instead of 9P for communication. We will present this solution in details including the utilization of techniques such as virtio-fs, blobfs (SPDK file system) and the significant performance gain achieved. Blobfs can be built on abstract block device layer in SPDK, which can access local or remote storage services via iSCSI/NVMe/NVMeoF protocols in userspace. Relying on this solution, we are going to build a fast, consistent and secure manner to share directory tree on host to guests. \n\nhttps://sched.co/Nrv9"

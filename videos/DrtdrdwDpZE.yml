@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - rust
+title: 'Deep Dive: etcd - Jingyi Hu, Google'
+language: English
+recordingDate: 1562350895
+description: "Deep Dive: etcd - Jingyi Hu, Google \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\netcd, a distributed key-value store, is the most critical component to Kubernetes control plane to provide strong consistency and durability of cluster metadata. etcd implements Raft consensus algorithm to distribute the data across multiple nodes. All data replication is done by Raft. Did you know etcd Raft package is also used in many other projects? CockroachDB shares etcd Raft implementation for its group membership protocol. TiKV ported etcd Raft to Rust, which is originally written in Go, and uses it to implement their distributed transactional data base. This session will cover the basics of Raft consensus algorithms, its implementation details, and future roadmap of Raft package. \n\nhttps://sched.co/Nrqh"

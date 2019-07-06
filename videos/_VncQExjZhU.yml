@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+title: 'Recursive Read Deadlocks and Where to Find Them - Boqun Feng, Huawei'
+language: English
+recordingDate: 1562351278
+description: "Recursive Read Deadlocks and Where to Find Them - Boqun Feng, Huawei \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects. \n\nLockdep (the deadlock detector in the Linux kernel) is a powerful tool to detect deadlocks, and has been used for a long time by kernel developers. However, when comes to read/write lock deadlock detections, lockdep only has limited support. Another thing makes this limited support worse is some major architectures (x86 and arm64) has switched or is trying to switch its rwlock implementation to queued rwlock. One example is we found some deadlock cases that happened in kernel but we could not detect it with lockdep.    To improve this situation, a patchset to support read/write deadlock detection in lockdep has been post to lkml and got to its v6.     This topic will give a brief introduction on rwlock related deadlocks (recursive read deadlocks) and how we can tweak lockdep to detect them. It will focus on the detection algorithm and its correctness, but also some implementation details. \n\nhttps://sched.co/NruT"

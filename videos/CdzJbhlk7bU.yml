@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Flow-based Packet Processing Framework on DPDK and VPP - Hongjun Ni, Intel'
+language: English
+recordingDate: 1562350795
+description: "Flow-based Packet Processing Framework on DPDK and VPP - Hongjun Ni, Intel \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nTraditionally, many networking data plane processing is based on packets, which leads to some real issues:  not sharing states, not guaranteeing packets order, etc.  This talk will introduce a flow-based packet processing framework based on DPDK and VPP.  It shows high performance, guarantees packet order, shares state among features and keeps flexibility.  It can be applied on 5G and SD-WAN cases.  It contains below key elements:  1) Implement a centralized and generalized flow infrastructure.  2) Implement a Hardware flow offloading feature in NIC, improving performance of classifying flows.  3) Implement a Software flow mechanism when configured flow entries exceed the limit of Hardware NIC.  4) Support Bridge-domain Aware and VRF Aware flow processing.  5) Support Policy-based Routing, and Tunnel Offloading Processing.  6) Support One flow maps to many NICs, and one NIC contains many flows. \n\nhttps://sched.co/Nrth"

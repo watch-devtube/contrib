@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Understanding Scalability and Performance in the Kubernetes Master - Xingyu Chen & Fansong Zeng'
+language: English
+recordingDate: 1562351009
+description: "Understanding Scalability and Performance in the Kubernetes Master - Xingyu Chen & Fansong Zeng, Alibaba \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects. \n\nCurrently, the scale limit of Kubernetes is 5k nodes, so if you want to use it to manage a web-scale cluster like 10k nodes, you probably can't make it.    Have you wondered what is the performance bottleneck for Kubernetes to manage more than 5k nodes? When you want to expand its scalability to a new level, who's to \"blame\" first? Etcd, apiserver, or scheduler?    Understanding these questions is the key to operate a large-size kubernetes cluster. In Alibaba, we encountered many issues like pod creation gets extremely slower as the cluster grows to larger and larger. In this talk, we would like to share how we did various benchmark tests and profiling. And how we did tweaks/tunings on the master and achieved more than 100x performance improvement in the master. Currently, operating a 10K-node kubernetes cluster is just as smooth as a 2k-node one. \n\nhttps://sched.co/Nroo"

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'OpenSSL Hardware Offload Enhancement - Ping Yu, Intel'
+language: English
+recordingDate: 1562351009
+description: "OpenSSL Hardware Offload Enhancement - Ping Yu, Intel \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nTLS traffic in Internet grows fast, and web gateway nowadays has the increasing demand to accelerate the cryptography operation in TLS. OpenSSL is widely deployed in industry as a de facto SSL/TLS implementation. In latest OpenSSL, an asynchronous acceleration framework is designed and implemented, which consists of a new ASYNC library, enhanced TLS stack and engines. In this talk, we will recap our practical experience to utilize and enhance this framework to enable a high performance and low CPU utilization acceleration TLS engine in Nginx and Fd.io/VPP. We will share how we resolve the challenge in enterprise-grade deployment such as CPU/memory consumption, user private key protection, and finally present the enhancement we recently made for a more efficient and high-performance kernel bypass asynchronous communication mechanism which is now merged to OpenSSL 3.0.0 master branch. \n\nhttps://sched.co/Nrsp"

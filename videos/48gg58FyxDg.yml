@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - cloud
+    - containers
+    - docker
+    - kubernetes
+title: 'Cloud Native Load Balancing From Scratch - Fangyuan Li, VMware'
+language: English
+recordingDate: 1562351058
+description: "Cloud Native Load Balancing From Scratch - Fangyuan Li, VMware \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nLoad balancing is required by all modern distributed systems, which can be done in many places and multiple layers. With all the options on the table, eg: gRPC, Envoy, IPVS/BPF, have you been curious of when and how any one of them will fit into your stack and scale your system as traffic grows?    Aiming to “demystify” load balancing in K8s, I’d like to share my experience utilizing these cloud-native load balancing techniques, discussing their tradeoffs and applicable scenarios.    The journey starts with a simple VIP iptable implementation. Then we dive deeper and examine from client to server, kernel to userspace, going up from IP to HTTP. We’ll draw the big picture and demonstrate the use of different tools in plain Bash scripts. With these building blocks in mind, we’ll summarize by comparing them across K8s(clusterIP/nodePort), Docker(routing mesh), Envoy, and a number of CNI plugins. \n\nhttps://sched.co/Nro2"

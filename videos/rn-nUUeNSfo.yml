@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Topology-Aware Service Routing for Kubernetes is Coming Soon! - Jun Du, Huawei'
+language: English
+recordingDate: 1562351058
+description: "Topology-Aware Service Routing for Kubernetes is Coming Soon! - Jun Du, Huawei \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nThere are 3 topology-awareness areas in Kubernetes, e.g. scheduling, storage and service. Topology-aware scheduling and volume provision have already been supported, while topology-aware service routing is not supported yet. As we know, cross-zone network traffic being charged, while in-zone is not. Suppose an user only want to visit service backends that are in the same zone with client. Kube-scheduler can constraint the Pods to run on a particular zone, but kube-proxy may choose an endpoint which is in the different zone. In order to get rid of such paint points, sig-network is leading a new feature development in community - topology-aware service routing.  The feature owner will dive into the design and challenges in implementing topology-aware service routing. Future direction of this feature will be covered as well, including what's on the table for beta and graduation criteria. \n\nhttps://sched.co/Nro5"
