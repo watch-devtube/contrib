@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - containers
+    - kubernetes
+title: 'Minimizing GPU Cost for Your Deep Learning on Kubernetes - Kai Zhang & Yang Che, Alibaba'
+language: English
+recordingDate: 1562350974
+description: "Minimizing GPU Cost for Your Deep Learning on Kubernetes - Kai Zhang & Yang Che, Alibaba \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nMore and more data scientists run their Nvidia GPU based deep learning tasks on Kubernetes. Meanwhile, it's found over 40% cost are wasted on idle GPU in the cluster. So one important challenge is how Kubernetes can help to improve GPU usage efficiency.   In this talk we will introduce a GPU sharing solution on native Kubernetes. All design and implementation details will be discussed. Key topics include,  - How to define GPU sharing API   - How to make GPU sharing can be scheduled in the Kubernetes cluster without changing scheduler bare bone code.  - How to integrate GPU isolation solution with Kubernetes  A demo will be shown to illustrate how Tensorflow users to run different jobs on the same GPU device in Kubernetes cluster.   In practise of the solution , overall GPU usage gets remarkable improvement, especially for AI model develop, debug and inference services. \n\nhttps://sched.co/Nrnk"
