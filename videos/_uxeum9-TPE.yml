@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Building and Managing Kubernetes with Kubernetes - Xin Ma, eBay'
+language: English
+recordingDate: 1562351629
+description: "Building and Managing Kubernetes with Kubernetes - Xin Ma, eBay \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nKubernetes as a declarative and portable system can be used to do many things in different ways. At eBay we built a fleet management system based on k8s. Everything(server, subnet, OS, package and state) is declarative and can be modeled as CRDs in k8s, or referred to as a commit id in git from the objects. By running various controllers on top of these CRD objects, we use k8s to manage k8s, and the entire eBay data center.  - Our system provisions hosts the same way k8s creates and manages pods.  - We build k8s clusters with Salt. each host has a set of states defined in its salt CRD object. controllers pull states from git based on commit ids to apply.  - We build both schedulers and deployment transactions to manage the k8s clusters for both config deployments and upgrades.  This declarative, highly scalable, auto healing, and cloud native system is what we think can unify eBay’s fleet. \n\nhttps://sched.co/Nrm0"

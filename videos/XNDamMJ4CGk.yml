@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+    - leadership
+title: 'How Should You Effectively Use etcd Metrics - Wenjia Zhang & Jingyi Hu, Google'
+language: English
+recordingDate: 1562351010
+description: "How Should You Effectively Use etcd Metrics - Wenjia Zhang & Jingyi Hu, Google \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nAll production systems need monitoring, to detect problems in advance and troubleshoot with the right information. etcd is no exception. How to effectively use ~100 etcd metrics and how to interpret the values under different usages?    First of all, one must monitor if a leader exists, otherwise the system becomes unavailable. Furthermore, frequent leadership changes can impair the performance of consensus systems. Therefore, leader related metrics are critical. Some other etcd metrics also need special attention. Disk I/O and networking I/O related metrics hint physical constraints. Latency and throughput metrics are meaningful only when cross referencing with hardware configurations. We will walk you through etcd benchmarking tool, explain the important etcd metrics, and eventually help you understand how to apply etcd metrics with some case studies. \n\nhttps://sched.co/Nroi"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Co-Location of CPU and GPU Workloads with High Resource Efficiency - Penghao Cen & Jian He'
+language: English
+recordingDate: 1562351629
+description: "Co-Location of CPU and GPU Workloads with High Resource Efficiency - Penghao Cen, Ant Financial & Jian He, Alibaba \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects. \n\nUsers run various workloads in Kubernetes including long running services and AI batch jobs. Normally, GPU machines are dedicated only for AI training and the resource utilization is low in some time.    Have you ever thought about co-locating different kinds of workloads on same node so you can save machines, aka money?    In this talk we will share experience and practices of leveraging co-location mechanism in Kubernetes cluster.    In detail:  Why & how we created a new QoS class from BestEffort?  Why & How we created node level cgroup for batch jobs?  How we use a CRD named PodGroup to achieve gang scheduling?  How we do the utilization evaluation?    In the past months, we build a co-location cluster which has more than 100 GPU (NVIDIA Tesla P100) nodes and more than 500 CPU nodes. We co-deployed both long-running services and AI batch jobs and achieved utilization increase of 10%. \n\nhttps://sched.co/Nrm6"

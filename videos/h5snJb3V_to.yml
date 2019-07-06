@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Three Approaches to Speed up Image Distribution in Cloud Native Era - Jiang Yong, Alibaba'
+language: English
+recordingDate: 1562351630
+description: "Three Approaches to Speed up Image Distribution in Cloud Native Era - Jiang Yong, Alibaba \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nHave you ever bothered image distribution issues as cluster scale grows?    In this talk, we will share practise and lessons learned from improving image distribution efficiency at web-scale in Alibaba. According to different scenarios, we take advantage of different methods for image distribution. P2P-based distribution of CNCF/Dragonfly is the most straightforward way to ease registry's bandwidth and decrease distribution time. In addition, remote filesystem snapshotter in CNCF/containerd directly stores image remotely and makes container engine read image content via network, which hardly takes time for distribution. You will find that the second way relies on network stability most, then how about dynamically loading image from remote to local storage according to image content R/W request as a tradeoff? At last we will conclude how to choose your fittable way for image distribution. \n\nhttps://sched.co/NrmO"

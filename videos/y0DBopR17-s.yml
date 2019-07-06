@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Proxy Service: A New Network Traffic Abstraction in Kubernetes - Walter Fender & Yongkun Gui, Google'
+language: English
+recordingDate: 1562351277
+description: "Proxy Service: A New Network Traffic Abstraction in Kubernetes - Walter Fender & Yongkun Gui, Google \n\nJoin us for KubeCon + CloudNativeCon North America in Seattle, December 11 - 13, 2018 (http://bit.ly/KCCNCNA18) or in Shanghai, November 14-15 (http://bit.ly/kccncchina18) ) \n\nKubernetes master-to-cluster communication doesn’t get as much attention as the opposite direction, yet many critical features (kubectl proxy, logs, exec, …) rely on it to function. In order to support secure communications from Kube API Server running on the control network to nodes running on a cluster network, SSH Tunnels were developed. This technology complicates the API Server in a manner which is neither extensible nor popular. The new proposed gRPC based proxy service abstracts this complexity away from the API Server, while providing a greater degree of extensibility. In this talk, we will see how SSH tunnels are implemented right now, what the new proxy service looks like, and how it opens the door to future extensions for use cases like auditing and multi-network support. \n\nhttps://sched.co/Nrn7"

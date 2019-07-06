@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Storage Version Migrator: Never Worry About Stale API Objects Again - Chao Xu, Google'
+language: English
+recordingDate: 1562350795
+description: "Storage Version Migrator: Never Worry About Stale API Objects Again - Chao Xu, Google \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nHave you ever had zombie Kubernetes API objects that your API server refuses to get, update or even delete? This is probably because the objects persisted in etcd were encoded in an obsolete version. This talk presents the Kubernetes storage version migrator, which solves this problem once and for all. After you enable this alpha feature, the migrator automatically makes sure that all your API objects stored in etcd are encoded in the proper version at all times. In the talk, Chao, a main contributor behind the design and the implementation of the storage version migrator, will share how the migrator manages not only the Kubernetes resources like Pods, but also your custom resources. You will also learn the caveats when using the migrator, e.g., if you are managing an HA cluster. Chao will also share the road map to graduate the storage migrator. \n\nhttps://sched.co/NroQ"
