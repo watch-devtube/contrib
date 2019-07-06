@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - architecture
+title: 'Using Flink to inspect live data as it flows through a data pipeline - Matthew Dailey'
+recordingDate: 1562337554
+description: "Using Flink to inspect live data as it flows through a data pipeline\n\nOne of the hardest challenges with authoring a data pipeline in Flink is understanding what your data looks like at each stage of the pipeline. Pipeline authors would love to answer questions like \"\"why is no data coming through my filter?\"\" Or \"\"why did my regex not extract any fields?\"\" Or \"\"is my pipeline even reading anything from Kafka?\"\" Unit and integration testing pipeline logic goes a long way, and metrics are another great tool to understand what a pipeline is doing, but sometimes you need the data itself to answer why a pipeline is behaving the way it is.\n\nTo answer these questions for ourselves and our customers, at Splunk we created a simple yet robust architecture for extracting data as it moves through a pipeline. You'll also learn about our implementation of this architecture, including the lessons learned while creating it, and how you can apply this architecture yourself. You'll hear about how to rewrite your Flink job graph at job submission time, how to retrieve data from all the nodes in the job graph, and how to expose this information to a user interface through a REST API.\n\nFlink Forward San Francisco 2019\n#flinkforward"

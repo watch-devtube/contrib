@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - architecture
+title: 'Moving from Lambda and Kappa Architectures to Kappa+ at Uber - Roshan Naik'
+recordingDate: 1562332318
+description: "Moving from Lambda and Kappa Architectures to Kappa+ at Uber\n\nKappa+ is a new approach developed at Uber to overcome the limitations of the Lambda and Kappa architectures. Whether your realtime infrastructure processes data at Uber scale (well over a trillion messages daily) or only a fraction of that, chances are you will need to reprocess old data at some point.\n\nThere can be many reasons for this. Perhaps a bug fix in the realtime code needs to be retroactively applied (aka backfill), or there is a need to train realtime machine learning models on last few months of data before bringing the models online. Kafka's data retention is limited in practice and generally insufficient for such needs. So data must be processed from archives. Aside from addressing such situations, enabling efficient stream processing on archived as well as realtime data also broadens the applicability of stream processing.\n\nThis talk introduces the Kappa+ architecture which enables the reuse of streaming realtime logic (stateful and stateless) to efficiently process any amounts of historic data without requiring it to be in Kafka. We shall discuss the complexities involved in such kind of processing and the specific techniques employed in Kappa+ to tackle them.\n\nFlink Forward San Francisco 2019\n#flinkforward"

@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Scaling a real-time streaming warehouse with Apache Flink, Parquet and Kubernetes - Aditi Verma &  R'
+recordingDate: 1562364302
+description: "Scaling a real-time streaming warehouse with Apache Flink, Parquet and Kubernetes\n\nAt Branch, we process more than 12 billions events per day, and store and aggregate terabytes of data daily. We use Apache Flink for processing, transforming and aggregating events, and parquet as the data storage format. This talk covers our challenges with scaling our warehouse, namely:\n\nHow did we scale our Flink-Parquet warehouse to handle 3x increase in traffic?\nHow do we ensure exactly once, event-time based, fault tolerant processing of events?\nIn this talk, we also provide an overview on deploying and scaling our streaming warehouse. We give an overview on:\n\nHow we scaled our Parquet warehouse by tuning memory\nRunning on Kubernetes cluster for resource management\nHow we migrated our streaming jobs with no disruption from Mesos to Kubernetes\nOur challenges and learnings along the way\n\nFlink Forward San Francisco 2019\n#flinkforward"

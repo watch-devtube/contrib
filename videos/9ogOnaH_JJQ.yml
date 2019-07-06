@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'VMware SIG: Cloud Provider Moving Out of Tree+CSI - What it Mean... Steven Wong & Fabio Rapposelli'
+language: English
+recordingDate: 1562351059
+description: "VMware SIG: Cloud Provider Moving Out of Tree+CSI - What it Means to Users - Steven Wong, VMware & Fabio Rapposelli, VMware \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects. \n\nKubernetes cloud providers and volume plugins used to be \"in-tree\" meaning that their source code is included in the main Kubernetes repo. They were compiled in, and shipped only in a Kubernetes release.    The drawbacks of this monolithic approach were that Kubernetes was larger than needed, and feature + patch activity was locked to Kubernetes release schedules.    Going forward, new features are exclusive to the new replacements: an out-of-tree vSphere cloud provider + a CSI storage plugin. Legacy implementations remain for the short term but destined are for deprecation.    Agenda:    - Deep Dive : Install and configure of out-of-tree cloud provider + CSI storage    - Migration options for current users    This session will be useful to:    - Users running Kubernetes on VMware infrastructure    - Authors of installers and Kubernetes distributions which target the vSphere platform \n\nhttps://sched.co/Nrr2"
