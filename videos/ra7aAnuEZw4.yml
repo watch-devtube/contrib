@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+title: 'Build Serverless with K8s, Kata Containers and Bare Mental Cloud... Yifei Zhang & Huamin Tang'
+language: English
+recordingDate: 1562351009
+description: "Build Serverless with K8s, Kata Containers and Bare Mental Cloud in Alibaba - Yifei Zhang & Huamin Tang, Alibaba \n\nJoin us for KubeCon + CloudNativeCon in San Diego November 18 - 21. Learn more at https://bit.ly/2WdUyQ6. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy and all of the other CNCF-hosted projects.\n\nServerless is hot! Everybody knows that. While not so many people know that in Serverless platform, applications from different tenants have to be co-located on the same node which is the key of why Serverless is far cost saving than VM based cloud.    The problem is: user's code is untrusted.    In Alibaba Cloud, we use ECS Bare Mental Instances + Kubernetes as Serverless infrastructure, with Kata Containers as container runtime. In detail, we will talk about the lessons we learned from achieving hard multi-tenancy and high performance in this bare-metal based cloud with Kubernetes. We will share the design and architecture of multi-tenant Kubernetes, how to use VPC network for isolation, and how we improve performance for Kata Containers with passthru network to achieve native performance like RunC, and qcow2 graphdriver instead of 9pfs for I/O improvement. \n\nhttps://sched.co/Nrox"
