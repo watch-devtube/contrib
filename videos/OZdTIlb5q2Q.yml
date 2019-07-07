@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Managing Flink on Kubernetes - FlinkK8sOperator - Anand Swaminathan & Ketan Umare'
+recordingDate: 1562451390
+description: "Managing Flink on Kubernetes - FlinkK8sOperator\n\nThe goal of Lyft is to “Improve people’s lives with the world’s best transportation”. Our product is fundamentally real-time and building a reliable platform that consumes and processes massive amounts of streaming data empowers us to achieve our mission. The advent of containers and Kubernetes has completely changed how we deploy and manage stateless services. At Lyft we have doubled down on Docker containers and Kubernetes for all the services in production. To achieve a homogenous infrastructure we decided to extend Kubernetes to manage stateful streaming services like Flink. We developed the FlinkK8sOperator which leverages Kubernetes CustomResourceDefinition to enable native management of Flink applications on Kubernetes. FlinkK8sOperator employs a state machine that transitions the application through a series of states, until a stable state is attained. Each Flink application on Kubernetes spins up a separate Flink Cluster, with its own UI, providing clear isolation for monitoring and debugging. This talk provides an overview of running Flink applications on Kubernetes using FlinkK8sOperator, showcasing the entire lifecycle of the application from creation to execution, with focus of transitions during deployments and stateful updates, concluding with a demo.\n\nFlink Forward San Francisco 2019\n#flinkforward"

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - architecture
+    - java
+title: 'Streaming your Lyft Ride Prices - Akshay Balwally & Thomas Weise'
+recordingDate: 1562387593
+description: "Streaming your Lyft Ride Prices\n\nAt Lyft we dynamically price our rides with a combination of various data sources, machine learning models, and streaming infrastructure for low latency, reliability and scalability. Dynamic pricing allows us to quickly adapt to real world changes and be fair to drivers (by say raising rates when there's a lot of demand) and fair to passengers (by let’s say offering to return 10 mins later for a cheaper rate). To accomplish this, our system consumes a massive amount of events from different sources.\n\nThe streaming platform powers pricing by bringing together the best of two worlds using Apache Beam; ML algorithms in Python/Tensorflow and Apache Flink as the streaming engine. Enablement of data science tools for machine learning and a process that allows for faster deployment is of growing importance for the business. Topics covered in this talk include:\n\n* Examples for dynamic pricing based on real-time event streams, including location of driver, ride requests, user session event and based on machines learning models\n\n* Comparison of legacy system and new streaming platform for dynamic pricing\n\n* Processing live events in realtime to generate features for machine learning models\n\n* Overview of streaming platform architecture and technology stack\n\n* Apache Beam portability framework as bridge to distributed execution without code rewrite for JVM based streaming engine\n\n* Lessons learned\n\nFlink Forward San Francisco 2019\n#flinkforward"
