@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+title: 'Building a Streaming Analytics Stack with Open Source Technologies - Fangjin Yang'
+recordingDate: 1562472411
+description: "Building a Streaming Analytics Stack with Open Source Technologies\n\nThe maturation and development of open source technologies has made it easier than ever for companies to derive insights from vast quantities of data. In this talk, we will cover how data analytic stacks have evolved from data warehouses, to data lakes, and to more modern streaming analytics stack. We will also discuss building such a stack using Apache Kafka, Apache Flink, and Apache Druid.\n\nAnalytics pipelines running purely on Hadoop can suffer from hours of data lag. Initial attempts to solve this problem often lead to inflexible solutions, where the queries must be known ahead of time, or fragile solutions where the integrity of the data cannot be assured. Combining Hadoop with Kafka, Flink, and Druid can guarantee system availability, maintain data integrity, and support fast and flexible queries.\n\nIn the described system, Kafka provides a fast message bus and is the delivery point for machine-generated event streams. Flink can be used to manipulate data to load into Druid. Druid provides flexible, highly available, low-latency queries.\n\nThis talk is based on our real-world experiences building out such a stack for many use cases across many industries in the real world.\n\nFlink Forward San Francisco 2019\n#flinkforward"
