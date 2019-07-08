@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'How to Join Two Data Streams? - Piotr Nowojski'
+recordingDate: 1562495845
+description: "How to Join Two Data Streams?\n\nJoins are one of the most common operations in SQL. However it is far from trivial how to express and execute them in Streaming environment with continuously running queries.During this talk we will first look into why Join operations are more difficult on infinite data streams. Next we will check couple of different approaches to tackle this problem like Time Windowed Joins or the recent addition to Flink SQL: Temporal Joins. Temporal Tables and Temporal Joins are new concepts that provide an efficient solution to a common problem of for example data enrichment. Before Flink 1.7 data enrichment in SQL was often impossible to express using Windowed Joins or very inefficient when using Regular Joins. With Temporal Joins Flink provide an interesting and ANSI SQL complaint alternative way how to join two data streams.\n\nFlink Forward San Francisco 2019\n#flinkforward"

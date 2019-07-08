@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - aws
+    - python
+    - java
+title: 'High cardinality data stream processing with large states - Ning Shi'
+recordingDate: 1562505894
+description: "High cardinality data stream processing with large states\n\nAt Klaviyo, we process more than a billion events daily with spikes as high as 75,000/s on peak days. The workload is growing exponentially year over year. We migrated our legacy event processing pipeline from Python to Flink in 2018 and gained a tremendous amount of performance. At the same time, we reduced our AWS EC2 instances from over 100 nodes to 15. Due to the nature of multi-tenancy and diverse dataset for over a billion user profiles, we spent a lot of engineering effort solving performance bottlenecks specific to handling high cardinality data streams in Flink. In this talk, we would like to share the learnings on using keyed operator states, windowing on high cardinality data, and making Flink production ready. We will also share the journey of moving from a 99% Python culture to Java.\n\nFlink Forward San Francisco 2019\n#flinkforward"
