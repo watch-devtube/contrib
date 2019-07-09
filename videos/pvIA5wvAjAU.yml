@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - mobile
+    - containers
+    - kubernetes
+    - architecture
+title: 'Building a bank from scratch in the Cloud - Hans Kristian Flaatten'
+recordingDate: 1562584247
+description: "We are building the next generation mobile bank in the cloud from scratch! This is how we build Bulder Bank from the ground up.\n\nEarly on it was decided that we had to be open for radical new ideas if we was to succeed. Important kriterias was speed, modern and automated processes and future-proofing. In addition we wanted to make something that was cool and motivated everyone on the team to work on.\n\nThe choice landed on Google Kubernetes Engine and Google Firebase and the possibilities this gives us are literally endless! And it gives us the opportunity to move fast while having a more or less fully managed environment that is always up and running!\n\nWe have decided to model payments entirely event based and asynchronously where multiple microservices written in Go each do their part before handing over the transaction to the next service over a message queue.\n\n\n\nCheck out more of our talks in the following links!\n\nNDC Conferences\nhttps://ndcoslo.com\nhttps://ndcconferences.com"

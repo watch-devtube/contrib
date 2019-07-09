@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - performance
+title: 'Database as Filesystem'
+language: English
+recordingDate: 1562623810
+description: "Most network file systems are either a layer over an existing filesystem (NFS, CIFS), or are developed from scratch to have separate, replicated, purpose-designed databases for metadata and object store (GFS, Glusterfs).  At the same time, most database engines provide (or can be coerced into providing) replication and all the ACID properties needed for a high-performance filesystem.\n\nIdea: Use a database engine (Postgres, MariaDB) on raw partitions with a fast separate nVME log file; build POSIX file system semantics on top.  It's pretty obvious that this could work; I'm just starting to implement it so performance and durability can be measured.\n\nEVENT:\n\nlinux.conf.au 2019 — Christchurch, New Zealand\n\nSPEAKER:\n\nPeter Chubb\n\nPUBLICATION PERMISSIONS:\n\nOriginal video was published with the Creative Commons Attribution license (reuse allowed).\n\nATTRIBUTION CREDITS:\n\nOriginal video source: https://www.youtube.com/watch?v=wN6IwNriwHc"

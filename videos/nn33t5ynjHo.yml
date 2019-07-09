@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - performance
+    - architecture
+    - python
+    - scala
+    - java
+    - embedded
+title: 'Deploying ONNX models on Flink - Isaac Mckillen-Godfried'
+recordingDate: 1562613801
+description: "Deploying ONNX models on Flink\n\nThe Open Neural Network exchange format (ONNX) is a popular format to export models to from a variety of frameworks. It can handle the more popular frameworks like PyTorch and MXNet but also lesser known frameworks like Chainer and PaddlePaddle. To this point there have been few attempts to integrate deep learning models into the Flink ecosystem and those that have focused entirely on Tensorflow models. However, the amount of deep learning models written in PyTorch continues to grow and many companies prefer to use the other frameworks. This talk will focus on different strategies to use ONNX models in Flink applications for realtime inference. Specifically, it will compare using an external microservice with AsyncIO, Java Embedded Python, and Lantern (a new backend for deep learning in Scala). The talk will weigh these different approaches and which setups works faster in practice and which are easier to setup. It will also feature a demonstration where we will take a recent PyTorch natural language processing model, convert it to ONNX and integrate it into a Flink application. Finally, it will also look at a set of open-source tools aimed at making it easy to take models to production and monitor performance.\n\nFlink Forward San Francisco 2019\n#flinkforward"
