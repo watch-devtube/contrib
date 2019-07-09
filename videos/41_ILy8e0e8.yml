@@ -7,7 +7,7 @@ speaker:
    - Frankel
 title: Securing the JVM - Neither for fun nor for profit, but do you have a choice?
 language: English
-featured: false
+
 recordingDate: 1527804000
 description: |
   The Java API allows a lot: sending packets over the network, compiling code, etc. If you put an application in an production environment, you need to make sure it doesn’t do more than it’s supposed to do. Consider a Java application in a private banking system. A new network administrator is hired, and while going around, he notices that the app is making network calls to a unknown external endpoint. After some investigation, it’s found that this app has been sending for years confidential data to a competitor (or a state, or hackers, whatever). This is awkward. Especially since it could have been avoided. Code reviews are good to improve the hardening of an application, but what if the malicious code was planted purposely? Some code buried in a commit could extract code from binary content, compile it on the fly, and then execute the code in the same JVM run... By default, the JVM is not secured! Securing the JVM for a non-trivial application is complex and time-consuming but the risks of not securing it could be disastrous. In this talk, I’ll show some of the things you could do in an unsecured JVM. I’ll also explain the basics of securing it, and finally demo a working process on how to do it.
