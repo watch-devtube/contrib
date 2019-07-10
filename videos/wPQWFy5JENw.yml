@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Real-time driving score service using Flink - Dongwon Kim'
+recordingDate: 1562688854
+description: "Flink Forward Berlin, September 2018 #flinkforward\n\nSK telecom presents how to build and operate a session-based streaming application using Flink. A driving score service essentially calculates a driving score of a user's driving session considering speeding, rapid acceleration and rapid deceleration during the session. At SK telecom, this service was originally powered by batch ETL using Hive but has recently been migrated to stream processing using Flink. While batch ETL was only capable of letting users know a driving score 24 hours after a session is finished, Flink enables us to inform drivers of driving scores as soon as they reach their destinations. In this presentation, we talk about the dataflow design, trigger customization for emitting early results, exposing job-level metrics and a service discovery mechanism for integration with Prometheus.\n\nhttps://data-artisans.com/"
