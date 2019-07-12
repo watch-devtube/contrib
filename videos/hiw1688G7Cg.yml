@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - functional
+title: 'Streaming ETL with Flink and Elasticsearch - Jared Stehler'
+recordingDate: 1562839922
+description: "Flink Forward Berlin, September 2018 #flinkforward\n\nAt Intellify we have implemented a system where we can create Flink apps for streaming ETL into normalized datasets in Elasticsearch, with schemas specified in Avro. Our data comes in via a single Kafka topic, but in different shapes depending on the originating source. To that end, we've developed a framework for implementing ETL apps in Flink. This framework supports nested and out-of-order streaming joins using a custom processing function, as well as a seeding source which can source input from our \"data lake\" in S3 and seamlessly transition to the live Kafka topic. Finally, the framework treats stream output as immutable using conceptual namespaces and aliasing in Elasticsearch, allowing us to iteratively develop new ETL features without disrupting existing users of the data set. This talk would give an overview of the streaming join algorithm and the custom seeding source function, as well as show our web UI for managing the streaming apps and data set.\n\nhttps://data-artisans.com/"
