@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+title: 'Containers unplugged: Linux namespaces - Michael Kerrisk'
+recordingDate: 1568898119
+description: "Linux namespaces are a resource isolation technique. Each namespace type wraps some global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of that resource, when in fact there are multiple instances of the resource, with each instance private to a particular group of process. Namespaces are key building blocks for a number of interesting technologies--most notably containers, but also a range of other interesting applications such as Flatpak and Firejail.\n\nIn this presentation we'll look at various Linux namespace types--including UTS, mount, network, and PID namespaces--in order to understand what resources they govern and what use cases they serve. Along the way, we should have time for a live demo or two, so as to make the \"theory\" more concrete.\n\nSave the date for NDC TechTown 2020  (31st of August - 3rd of September)\n\nCheck out more of our talks at: \nhttps://ndctechtown.com/\nhttps://www.ndcconferences.com/"

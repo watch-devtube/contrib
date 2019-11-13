@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - architecture
+    - java
+title: 'Hugh Mckee - Building Stateful Clustered Microservices with Java, Actors, and Kubernetes'
+language: English
+recordingDate: 1573504107
+description: "When building microservices or web apps, we often take the path of least resistance and go with a stateless approach. The justification is that going the stateful route is too hard and too complicated. Based on the state of the tools that we typically use to build apps, going stateless is a wise decision given that the commonly used backend toolsets and frameworks tend to shy away from dealing with distributed, clustered systems.\nHowever, with the spectacular rise of Kubernetes, many developers are diving head first into the clustered world. This mass migration to the clustered, scalable, and resilient Kubernetes playing field opens up new opportunities for how we build systems. One of the new ways of doing things is the actor model. In the pre-Kubernetes world, everything is an object; in the post-Kubernetes world, everything is an actor. Actors are fundamental building blocks, like objects, that are stateful, are inherently concurrent, and with the Akka Toolkit, systems of actors naturally exist and collaborate in clustered environments.\nIn this talk, we will explore some theory and code of a live actor system based microservice running in a clustered Kubernetes environment."

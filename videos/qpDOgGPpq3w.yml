@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - containers
+    - docker
+    - testing
+title: 'Nikolay Kuznetsov - Integration and end-to-end testing with TestContainers and JUnit 5'
+language: English
+recordingDate: 1573504106
+description: "TestContainers library facilitates simple start up of a service dependencies, i.e. Postgres, Redis in throwaway Docker containers.The library works over Docker API and has a list of features which significantly improve a developer experience:\n– Docker environment autodiscovery\n– mapping to random unique host ports\n– easy Docker network configuration and sharing\n– waiting strategies for a ready status – containers cleanup guarantees\n– ready to use specific containers\n– JUnit 5 integration\nIn this talk, the above-mentioned features would be elaborated. Code samples would be discussed. In demo part integration tests for two services would be shown. They use Postgres and Redis under the hood, respectively. In another demo it would be possible to run both of the services in Docker containers at the same time together with their dependencies and to perform a simple end-to-end test."
