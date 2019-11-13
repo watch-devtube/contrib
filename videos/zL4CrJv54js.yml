@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - cloud
+title: 'Pushing Mongo: How You Can Use Eirini, CSI, and k8sbroker to Skate Like a Clown - Julian Hjortshoj'
+language: English
+recordingDate: 1568807491
+description: "Pushing Mongo: How You Can Use Eirini, CSI, and k8sbroker to Skate Like a Clown - Julian Hjortshoj, Dell EMC \n\n\"Pushing Mongo” is skater slang for kicking with the wrong foot. Urban Dictionary defines it as “a stupid way to skateboard.” The cloud native community agrees. Pushing your stateful services to Cloud Foundry is generally accepted to be an anti-pattern, and if you feel like doing it, you’re wrong.  But what if you still feel like doing it?  In the past, we haven’t been able to push databases to Cloud Foundry because the Diego scheduler favors high availability, and doesn’t provide the requisite guarantees needed to offer single-attach or block storage. But Cloud Foundry running with Eirini no longer uses Diego.  In this talk, we will demonstrate how Project Eirini allows us to provision and attach block storage to our containerized workloads and yes, to “cf push” MongoDB. What could possibly go wrong? \n\nFor more info: https://www.cloudfoundry.org/"

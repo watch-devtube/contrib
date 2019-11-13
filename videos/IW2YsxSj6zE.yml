@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - startup
+    - security
+    - embedded
+title: 'Dissecting the AMD Platform Security Processor'
+language: English
+recordingDate: 1566763833
+description: "The AMD Platform Security Processor (PSP) is a security subsystem in AMD CPUs comparable to the Intel ME and was introduced in 2013. It is essential for system startup – in fact, in runs before the main processor is even started – and offers runtime services to the main processor. For this, it has full access to the system memory space (inlcuding MMIO).\n\nThe PSP runs undocumented, proprietary firmware. This talk presents efforts of investigating what the PSP does and if it's secure. For the first time, it documents the PSP firmware's proprietary filesystem and provides insights into reverse-engineering such a deeply embedded system as the PSP. The talk further sheds light on how we might regain trust in AMD CPUs despite the delicate nature of the PSP.\n\nWith the ongoing digitalization, not only the number of IT systems is increasing in many domains, but also the amount of software and hardware that forms the trusted computing base of an application. Applications in industrial systems, infrastructure and consumer electronics rely on the security of these systems. Emerging security technologies try to mitigate the risk of insecure software and hardware by embedding secure components into these untrusted systems. \n\nAMD introduced the AMD Secure Processor to provide a trusted execution environment for critical operations. This talk comprehensively analyzes the undocumented and largely unknown security co-processor and discovers its inner workings. It aims to find out if it is able to keep its promise – or if it opens up another attack vector.\n\nEVENT:\n\nchaos communication camp 2019\n\nSPEAKERS:\n\nChristian Werling, Robert Buhren\n\nPUBLICATION PERMISSIONS:\n\nOriginal video was published with the Creative Commons Attribution license (reuse allowed).\n\nATTRIBUTION CREDITS:\n\nOriginal video source: https://www.youtube.com/watch?v=n9dhHG4tbE0"

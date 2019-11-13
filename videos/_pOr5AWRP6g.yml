@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - mobile
+    - android
+    - ios
+    - security
+title: 'Security Vulnerability Mitigations'
+language: English
+recordingDate: 1569700491
+description: "Security vulnerabilities allow software to be manipulated in such a way that it misbehaves to the benefit of an attacker - security vulnerability mitigations work to thwart attempts to successfully exploit such a vulnerability. This landscape is continually changing in both the types of attacks and the required mitigations. While the last decade saw buffer overflows as a primary source of attacks, Return Oriented Programming (ROP) and Blind Return Oriented Programming (BROP) attacks pose new threats.\n\n\n\nOver the last 20+ years, OpenBSD has essentially been a research and development playground that has designed and implemented such mitigations, in both the kernel and userspace. Many of these mitigations have made their way into other platforms, including Linux, Microsoft Windows, iOS and Android. This talk will look at various long standing mitigations such as W^X and Address Space Layout Randomisation (ASLR), before moving on to more recent developments such as pledge, unveil, KARL, trapsleds, retguard and MAP_STACK.\n\nEVENT:\n\nlinux.conf.au 2019 — Christchurch, New Zealand\n\nSPEAKER:\n\nJoel Sing\n\nPUBLICATION PERMISSIONS:\n\nOriginal video was published with the Creative Commons Attribution license (reuse allowed).\n\nATTRIBUTION CREDITS:\n\nOriginal video source: https://www.youtube.com/watch?v=9-uNC4-RbQM"
