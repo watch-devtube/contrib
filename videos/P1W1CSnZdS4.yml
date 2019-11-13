@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - architecture
+title: 'ReactSphere: Tame Crypto Events With Streaming by Fabio Tiriticco'
+recordingDate: 1571735777
+description: "How do you tame the chaotic world of cryptocurrencies, with all that data that doesn’t seem to make any sense?\n\nThe only possible answer is Reactive Systems and controlled streaming. Our goal is to find reliable patterns between events relative to a cryptocurrency (like a conference or a fork) and its relative price fluctuations. We need an always-on system that gathers this data from different sources, and we can’t afford missing data because of downtimes.\n\nThis talk covers all the steps of a reactive data project. We start with domain modelling with DDD and Event-storming, then touch on the implementation side with a backpressured toolkit like Akka Streams, deploy our services on a managed Kubernetes cluster and finally look at the data we gathered trying to find patterns. Lambos have never been so close."

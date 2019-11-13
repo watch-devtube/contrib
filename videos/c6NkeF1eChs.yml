@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - testing
+title: 'CppCon 2019: Zhihao Yuan “Are We Macro-free Yet?”'
+language: English
+recordingDate: 1571036409
+description: "http://CppCon.org\n—\nDiscussion & Comments: https://www.reddit.com/r/cpp/\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/CppCon/CppCon2019\n—\nWhat do you do when an API or even a toolchain is not available in some of your build configurations? #ifdef? When we are talking about writing modern C++, we may have forgotten that code involving preprocessor is not even in C++. We all learned that macros are bad, but very often, when we rely on them by ourselves, we rationalize it, and they became \"inexpensive,\" \"necessary,\" and sometimes \"maintainable.\" After ripping out the last macro introduced in a proprietary C++17 codebase, I concluded that none of these are true if you were introduced to a design without macros.\n\nThis talk starts from one of the most demanded and least maintainable use cases of macros, conditional compilation, shows how not\_to introduce macros from the build system, and discusses the macro-free practice's impact on design and testing. And then, we expand the topic to other areas where we have macros to eliminate, such as logging and metadata macros, discuss the motivations and solutions given C++20. We will finish the talk with advice about what are the macros you want to avoid when we are moving towards a macro-free future.\n— \nZhihao Yuan\nSoftware Enginner, SimpleRose Inc\nZhihao Yuan is a Parallel Computing Engineer at SimpleRose Inc. He participated in standardizing designated initializers in C++20. When freed from CMake, he enjoys a fair amount of anime and light novels.\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"
