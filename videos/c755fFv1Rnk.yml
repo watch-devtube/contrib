@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - java
+title: 'Memory footprint of a Java process by Andrei Pangin'
+language: English
+recordingDate: 1573294114
+description: "Does JVM option '-Xmx4g' mean that the process will consume up to 4 GB RAM? Certainly not. What else can take virtual memory and how much of it?\n\nThe question becomes especially important when running Java in a shared environment or in a container with limited resources. Excessive memory consumption may occur everywhere: from the application code and the libraries to the Java virtual machine and the operating system. While Java memory leaks are usually easy to discover from a heap dump, native memory leaks can be quite confusing.\n\nDuring this session we will discuss what structures contribute to the JVM footprint. We will study the real cases of native memory leaks and explore the tools useful in memory allocation analysis.\n\nAndrei Pangin leads the development of Odnoklassniki social network, specializing in high performance Java servers. He previously worked on HotSpot JVM, which became his favorite topic and area of expertise. Andrei is also known as top #JVM answerer on Stack Overflow and the author of Async-profiler."
