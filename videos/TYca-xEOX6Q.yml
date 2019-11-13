@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - graphql
+    - storage
+    - web
+    - ruby
+    - python
+title: 'Building a Realtime "Backend in a Box" with PostgreSQL and Vue - Rob Conery'
+recordingDate: 1572950160
+description: "Modern frontend applications are easy to build thanks to their powerful CLI tooling - but what about the backend API? Sure I can use crusty frameworks on the server like Rails or Django, or maybe roll my face in glass building an API using Node... but I want something more. Something that's as drop-dead simple to use as the Vue CLI or Nuxt and that stores data in a system I trust: *PostgreSQL* - so I built it and in this talk I'm going to show you how it works and what I learned building it.\n\nI'll show you how I prototyped a realtime (yes, realtime), document-based (JSONB) backend-in-a-box powered by PostgreSQL (yes, realtime PostgreSQL), GraphQL, Node, socket.io and the Express web framework. It's called Velzy and I'm actively working on it - but I thought it would be fun to share some of the more interesting and horrible things I was able to do with PostgreSQL's functions, executing dynamic SQL within the database itself. I'll show you how I plugged this all into Vue's state manager, VueX, and how I abused GraphQL just enough to make it worth using.\n\n\nCheck out more of our talks, courses, and conferences in the following links:\nhttps://ndcsydney.com/\nhttps://ndcconferences.com"

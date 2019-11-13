@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - javascript
+    - java
+title: '"Makings of a Modern ACID Compliant Distributed Database" by Attila Szegedi'
+language: English
+recordingDate: 1568595313
+description: "There's plenty of distributed databases on the market these days. There's only a few that are both distributed and provide ACID guarantees. In this talk, I'll be shedding light on some of the more interesting aspects of the internal design of FaunaDB, one such database that I also happen to work on. We'll look at Calvin, the protocol that ensures deterministic transaction application in a distributed environment with very little coordination (much less than two- or three-phase commit protocols.) We'll see how we can scale Calvin for throughput. We'll look at how you can make a distributed transaction system independent of clocks. (It's never good to have a distributed system depend on clocks for correctness, yet many databases do. This one does not.) We'll talk about how you can take a correctly operating database and make it fast too with judicious application of control theory: into what points of the system can you plug in either a PID controller or a Kálmán filter to further reduce latencies. We learned (and are still learning) a lot while implementing FaunaDB, and in this talk, we want to share some of what we learned so far with you!\n\nAttila Szegedi\nFauna Inc.\n@asz\n\nAttila Szegedi is most noted as an alumnus of both Twitter and Oracle's Java LangTools group. At Twitter, he worked on Twitter's large-scale infrastructure's JVM performance problems. At Oracle, he was driving the development of the jdk.dynalink package and was part of the team that created the Nashorn JavaScript runtime. Outside of paid work, Attila used to be a major contributor to open source projects such as Apache FreeMarker and Mozilla Rhino. Somehow every project he takes upon ends up being either a distributed system or a language runtime. With him currently working on many aspects of FaunaDB, he might've finally stumbled across a project that is both of these things at the same time. Attila is a Java Champion, a two-time Java One Rock Star, and this will be his third time having the honor of speaking at Strange Loop."

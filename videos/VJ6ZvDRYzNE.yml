@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - embedded
+title: 'C++ Insights: See your source code with the eyes of a compiler - Andreas Fertig'
+recordingDate: 1569840392
+description: "C++ is not an easy language. While its intention, especially with the new Standards since C++11, is to shift more work from the developer to the compiler, this is sometimes perceived as opaque. Knowing what a statement does, is vital not only in embedded software development. It is also important while teaching C++ when questions come up like \"when and where are operators involved\" or \"in which places to we get an implicit type conversion\".\n\nThere are tools which can show us the resulting output, like Matt Godbolt's Compiler Explorer or Clang's AST dump. However, the resulting output is not C++. This makes it hard to understand for a C++ developer. As a C++ programmer, my first language is after all, C++. The Clang based tool C++ Insights (https://cppinsights.io) addresses this. It aims to show the source code with the eyes of a compiler through a source to source transformation where the resulting output is still C++. All the intentionally hidden things becomes visible.\n\nIn this talk, I will present how C++ Insights and how it can assist you with teaching or programming. We will peak into the implementation of C++ Insights to see how it is implemented. Of course, I also will point out the limitations of the program.\n\nSave the date for NDC TechTown 2020  (31st of August - 3rd of September)\n\nCheck out more of our talks at: \nhttps://ndctechtown.com/\nhttps://www.ndcconferences.com/"
