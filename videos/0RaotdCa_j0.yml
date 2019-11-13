@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - python
+title: 'Samuel Colvin - Python''s Parallel Programming Possibilities - 4 levels of concurrency'
+language: English
+recordingDate: 1567527787
+description: "\"Python's Parallel Programming Possibilities - 4 levels of concurrency\n[EuroPython 2019 - Talk - 2019-07-10 - Boston]\n[Basel, CH]\n\nBy Samuel Colvin\n\nI'm going to talk about the 4 main levels of parallelism in modern Computing:\n\n\nmultiple (virtual) machines\nmultiple processes\nmultiple threads\nmultiple green threads, aka asyncio\n\n\nWhy you might use each of them, how to go about doing so with python and some of the pitfalls you might fall into along the way.\n\nTo do so, I'll give short examples in code of achieving each level:\n\n\nleveraging multiple hosts using RQ, and also the possibility of RPC with HTTP\nmultiprocessing and threading using their respective modules from the python standard library\nasyncio demonstrated with AIOHTTP\n\n\nThat sounds great, but there are \"\"gotchas\"\" you should know about before you get started, for example:\n\n\nmultiple machines can actually be multiple virtual machines on the same host\neffectively communicating between processes is hard, how can we go about making it easier?\nthe limitations of threading and the GIL\nrunemin/emexecutor - do we ever really need to use multiprocessing or threading directly again\nuse of asyncio when dealing with both networking between hosts and between processes - you end up using two different kinds of concurrency at the same time. That can be confusing, but also awesome.\n\n\nI'll finish of by showcasing a library I built, arq which is a job queueing and RPC library for python which uses asyncio and Redis.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/\n\n    \""
