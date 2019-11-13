@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+    - testing
+    - java
+title: 'Docker image testing in GitLab CI - Thomas Holene Loekkeborg'
+language: English
+recordingDate: 1567588659
+description: "Byte-sized talks from CERN engineers\nThe IT-DB-DAR section at CERN is moving Java web applications from VMs to containers running in Kubernetes. For this a Docker image is being developed which needs to integrate well with existing CERN services. In this session I want to show you how we test the image using GitLab CI. This includes our usage of Docker-in-Docker, how we isolate ourselves from the central CERN SSO and LDAP services, writing pipelines in a way that allows local execution through GitLab CI's \"exec\" feature, scaling the pipeline to handle multiple built versions, lightweight desired state testing with Goss, as well as an overview of the features used."

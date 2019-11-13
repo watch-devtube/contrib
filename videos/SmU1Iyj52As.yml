@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - cloud
+    - containers
+title: 'Using Shared Volumes From Windows Applications in CF... Julian Hjortshoj & Daniella Corricelli'
+language: English
+recordingDate: 1568879113
+description: "Using Shared Volumes From Windows Applications in Cloud Foundry - Julian Hjortshoj, Dell EMC & Daniella Corricelli, Pivotal \n\nAccess to persistent volumes allows a much broader range of applications to run on Cloud Foundry. Windows applications, in particular, are often written to assume access to a file store, and often won’t work without one. But in past releases, Volume Services have only been available for Unix applications, and Windows workloads needed to be rewritten before they could be successfully cf pushed.  We worked to close this gap and build volume services for Windows, but the operating model was a poor fit, and left us with serious limitations. Then we found a better way forward - support for SMB volume connections from within Windows containers.  In this talk, we will cover options for mounting file shares into your Windows Cloud Foundry applications. We will then demo a couple of best-practices approaches using the Secure Credentials Broker, PowerShell scripts, and Steeltoe. \n\nFor more info: https://www.cloudfoundry.org/"
