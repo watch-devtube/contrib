@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - cloud
+    - java
+title: '[VDT19] How and why I turned my old Java project into a first-class serverless component'
+language: English
+recordingDate: 1570813031
+description: "by Mario Fusco & Maciej Swiderski\n\nThese days rule engines are often overlooked, possibly because people think that they are only useful inside heavyweight enterprise software products. However, this is not necessarily true. Simply put, a rule engine is just a piece of software that allows you to separate domain and business-specific constraint from the main application flow. I am the project lead of Drools, the rule engine of Red Hat, and my target was to modernize my project and make it ready to be used in serverless environments. In this talk I will explore and make sense of technologies like GraalVM and Quarkus. In particular I will show, with very practical use cases taken from my experience with this migration, what is necessary to change in a code base making extensive use of reflection, dynamic class loading and other Java sorceries in order to make it compatible with those technologies and demonstrate how this is allowing us to make Drools part of the cloud and serverless revolution."

@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - testing
+    - architecture
+    - java
+    - spring
+speaker:
+    name: 'Marcin Grzejszczak'
+    twitter: MGrzejszczak
+title: 'Testing Your Message-Driven Application - Marcin Grzejszczak, Jakub Pilimon'
+language: English
+recordingDate: 1564568633
+description: "Video from Devoxx Poland 2019.\n\nSo you end up with messaging and event-driven architecture. You also have heard about event sourcing and applied this principle in a few places in your code. Everything seems to be working perfectly, you are about to perform the first release and you’ve decided to change the structure of one event. The event you have changed was both used for state reconstruction (event sourcing) and integration (event-driven architecture). Due to that change, out of a sudden, your acceptance environment stopped working… “How come?! I have only changed an implementation detail in my cool event-sourced domain!” said the senior developer.\n\nIn this talk, we will chat about how to work with events that are used as integration messages in your system. We will tackle content-negotiation, versioning and acceptance tests.\n\nThere will be a lot of Spring Cloud stack and we will see how we can benefit from Consumer Driven Contracts when NOT using REST APIs."
