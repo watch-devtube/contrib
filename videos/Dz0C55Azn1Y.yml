@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - testing
+title: 'DEF CON 26 - Andrea Marcelli - Looking for the perfect signature an automatic YARA rules'
+language: English
+recordingDate: 1567125647
+description: "Given the high pace at which new malware variants are generated, antivirus programs struggle to keep their signatures up-to-date, and AV scanners suffer from a considerable quantity of false negatives. The generation of effective signatures against new malware variants, while avoiding false positive detections, is a highly desirable but challenging task, typically requiring a substantial portion of human expert’s time. Artificial intelligence techniques can be applied to solve the malware signature generation problem.\n\nThe ultimate goal is to develop an algorithm able to automatically create a generalized family signature, eventually reducing threat exposure and increasing the quality of the detection. The proposed technique automatically generates an optimal signature to identify a malware family with very high precision and good recall using heuristics, evolutionary and linear programming algorithms.\n\nIn this talk I will present YaYaGen (Yet Another YARA Rule Generator), a tool to automatically generate Android malware signatures. Performances have been evaluated on a massive dataset of millions of applications available in the Koodous project, showing that in a few minutes the algorithm can generate precise ruleset able to catch 0-day malware, better than human generated ones."
