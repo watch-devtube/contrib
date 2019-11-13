@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - testing
+    - python
+title: 'How to build Python-C++ libraries - Jørgen Kvalsvik'
+recordingDate: 1568806822
+description: "Python's popularity is at an all-time high, and a big driver for the is the access to high-quality and fast libraries for many domains.\n\nPython serves us as a pretty good interface between developers and domain experts - we write robust, high-quality tooling, often in C++, and it is enjoyed downstream by our reservoir engineers, geophysicists, geologists etc. through a nice Python interface. Often, they even use our libraries as if they were applications. And not just our people - because our libraries segyio and dlisio are free software, users around the world rely on us every day.\n\nHowever, the task of compiling and distributing non-python code for Python users is surprisingly difficult. Python tooling is quite opinionated and not all that pleasant to work with - especially when you want to target multiple compilers on multiple platforms.\n\nThe session will go through some of the challenges we've faced and solution we've come up with building python libraries with lots of native code for Python.\n\n- 1-click deploy automation\n- CI pipeline, every patch is built and tested\n- Python-cmake integration\n- Building extensions for multiple operating systems and compilers\n\nSave the date for NDC TechTown 2020  (31st of August - 3rd of September)\n\nCheck out more of our talks at: \nhttps://ndctechtown.com/\nhttps://www.ndcconferences.com/"

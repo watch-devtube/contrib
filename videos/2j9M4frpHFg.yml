@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - c++
+    - architecture
+    - embedded
+title: 'HiMake - the build tool that builds the Kongsberg missile software - Arne Førlie'
+recordingDate: 1568889601
+description: "HiMake is an enterprise build tool that has been used to build the software for Kongsberg's missile products since 2002.\n\nIt has from the beginning been a build tool with focus on simplicity for the user, native compilations and cross compilations to a number of embedded OSes and CPU architectures, and efficient builds by utilizing parallelism. The build specifications are written in a simple domain specific language, with minimum amount of redundancy. The tool then generates makefiles which are processed by the native make tool.\n\nThe most normal case is to build a SW product, composed from a hierarchical set of SW source components, but it can also integrate precompiled libraries and third party components which come with its own build system. It has plugin architecture for tasks with knowledge on how to handle a number of source languages, C, C++, IDL, Qt Moc and Uic, lex, yacc, in addition to several internal custom code generators.\n\nHiMake has a number of backends that generate different kinds of output. The primary backend generates makefiles, other backends generates Doxygen documentation, list of all files in the product, dependencies between SW components, JSON compilation database, project files for static analysis tools, project files for IDEs and more.\n\nThe talk will describe the philosophy of HiMake and its advanced features that make it an efficient tool for the developer.\n\nSave the date for NDC TechTown 2020  (31st of August - 3rd of September)\n\nCheck out more of our talks at: \nhttps://ndctechtown.com/\nhttps://www.ndcconferences.com/"
