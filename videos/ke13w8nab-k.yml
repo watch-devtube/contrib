@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - security
+    - java
+    - spring
+title: 'Multi-tenancy OAuth with Spring Security 5.2'
+language: English
+recordingDate: 1571235013
+description: "A very typical OAuth deployment includes an Authorization Server and a set of applications and APIs that trust authorities issued by that Authorization Server. \n\nBut what about APIs and applications that serve more than one tenant? Can a single API or application trust multiple Authorization Servers? What about making those decisions programmatically at runtime or via a database? Multi-tenant deployments bring their own set of challenges, especially when you have thousands of tenants of varying shapes and sizes. \n\nThis talk will introduce AuthenticationManagerResolver, a simple interface from Spring Security that packs a lot of punch due to its strategic placement in the filter chain. We’ll also review Spring Security’s ClientRegistrationRepository and where it comes into play. We’ll begin with a very typical OAuth application and then explore a few different deployment models, expanding it throughout the talk into a secure, yet dynamic, database-driven, multi-tenant deployment.\n\nSpeaker: Josh Cummings; Software Engineer, Pivotal\nFilmed at SpringOne Platform 2019\nSlides: https://www.slideshare.net/SpringCentral/multitenancy-oauth-with-spring-security-52"

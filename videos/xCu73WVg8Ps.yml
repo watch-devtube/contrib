@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Avoiding Reactor Meltdown'
+language: English
+recordingDate: 1571240576
+description: "One of the most common ways to fail when using Project Reactor is to block a thread meant to handle only nonblocking tasks. This talk covers practices for detecting and avoiding such a reactor meltdown.\n\nSpecifically, the talk covers architecture-level and service-level practices for isolating blocking calls, coding guidelines to decrease the chance of introducing a blocking bug, code smells and red flags to look for in code reviews, and tools to help detect incorrect blocking at runtime (e.g., BlockHound).\n\nWe'll show code examples of blocking problems and solutions, as well as a live demo with BlockHound.\n\nSpeaker: Phil Clay, Principal Software Engineer, Blizzard Entertainment\nFilmed at SpringOne Platform 2019\nSlideShare: https://www.slideshare.net/SpringCentral/avoiding-reactor-meltdown"
