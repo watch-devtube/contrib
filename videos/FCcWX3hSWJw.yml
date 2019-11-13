@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - devops
+    - containers
+    - architecture
+    - java
+    - spring
+title: 'What’s Your App Pulse? How We Built Metrics Observability in Large Enterprise Hybrid Clouds'
+language: English
+recordingDate: 1571253816
+description: "Enterprise apps are increasingly complex to operate: their numerous microservices run on geographically distributed clouds and depend on many managed services. Operational metrics data is rarely available, and when it is, it has to be normalized and aggregated. \n\nWe solved this problem by creating Pulse, a Cloud Foundry marketplace service that automatically consolidates and contextualizes all of an application's metrics in a single Grafana dashboard. They include metrics from Spring Boot actuators, the underlying containers across foundations, and the services it consumes. \n\nPulse relies on Open Metrics and dynamically created Federated Prometheus instances that are fully managed and secured. Pulse is opinionated out of the box and yet allows deep customization by consumers. \n\nThe full set of relevant metrics for each app enables JPMC DevOps teams to focus on analyzing their app behavior rather than on the undifferentiated work of collecting and aggregating metrics.\n\nSpeakers: Lois Blanc, VP, JPMorgan Chase; Yang Yu, Software Development Lead, JPMorgan\nSlideShare: https://www.slideshare.net/Pivotal/whats-your-app-pulse-how-we-built-metrics-observability-in-large-enterprise-hybrid-clouds\nFilmed at SpringOne Platform 2019"

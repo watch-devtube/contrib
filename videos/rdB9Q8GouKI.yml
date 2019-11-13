@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - security
+    - architecture
+title: 'Event Sourcing - You are doing it wrong - David Schmitz'
+language: English
+recordingDate: 1564567937
+description: "Video from Devoxx Poland 2019.\n\n\"Every microservice gets its own database and then use Kafka\" is a typical and naive advise, when reading about eventsourcing. If you approach this architectural style this way, you will probably have a really awful time ahead.\n\nEventsourcing and CQRS are two very useful and popular patterns when dealing with data and microservices. We often find in our customer's projects, that both have a severe impact on your future options and the maintainability of your architecture. Presentations and articles on both topics are often superficial and do not tackle real world problems like security and compliance requirements.\n\nIn this talk we will look at how we tackled eventsourcing at scale successfully and what we learned along the way, including often overlooked issues like security, GDPR, and maintainability. I will summarize our experience while applying eventsourcing and CQRS across multiple large financial and insurance companies over the last 5 years. We will cover the Good, the Not so Good, and the 'oh my god...all abandon ships!' when doing eventsourcing in the real world...and see how we solved these issues."

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - architecture
+    - java
+    - functional
+title: 'Hystrix is dead, now what? - Tomasz Skowroński'
+language: English
+recordingDate: 1564468457
+description: "Video from Devoxx Poland 2019.\n\nA resilient “system stays responsive in the face of failure. This applies not only to highly-available, mission-critical systems — any system that is not resilient will be unresponsive after a failure. (...) The client of a component is not burdened with handling its failures.” — The Reactive Manifesto.\n\nHystrix, a Java library from Netflix OOS, is aimed at microservices or distributed systems in general. This library implements the circuit breaker pattern but also helps handle latency and concurrency issues in other ways. However, it was created 6 years ago and now the development stage is over...\n\nDuring this talk I will will introduce you to a lightweight Hystrix alternative (or even successor) to be used in fault tolerance assurance. Resilience4j has been designed in the spirit of Java8+ and functional programming. It also provides seamless support for many popular network libraries. By the end of the presentation you will know more about bulkhead, rate limiter, circuit breaker, retry, fallback and other important patterns and tools for developers wary of fallacies of distributed computing."
