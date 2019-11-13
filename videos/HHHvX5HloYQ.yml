@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+    - performance
+    - cloud
+    - mobile
+    - containers
+    - kubernetes
+title: 'CloudSphere: Impedance Matching Legacy Apps to Prometheus Monitoring by Greg Herlein & David Wang'
+recordingDate: 1571345841
+description: 'Even when you are building a cloud-ready, 5G-ready mobile network from the ground up you still have legacy concerns. Even if you adopt modern monitoring stacks like Prometheus and team notification systems like PagerDuty, you still have legacy concerns. If much of your infrastructure still alarms with SNMP traps, or worse, syslogs, then you have legacy concerns. But many modern infrastructure systems expose APIs for fault and performance management, and you certainly want to deploy your monitoring into Kubernetes (k8s). How do you mix the legacy and the new? That’s what we had to do when we build the “Observability Framework” (OF). It’s an opinionated, template driven approach to stitching multiple open source tools together to get a monitoring pipeline that gives true visibility into your on-premise systems and software. Key technologies in use include snmptd, logstash, file beats, elasticsearch, Prometheus and exporters from that ecosystem, along with some custom components written in golang – all with an eye to self-healing and HA. We are moving towards doing more with jsonnet and a strong bias to DRY.'
