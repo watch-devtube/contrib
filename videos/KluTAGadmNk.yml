@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - java
+    - spring
+title: 'Building simple CRUD services with Spring Data REST - Andreas Bräu'
+language: English
+recordingDate: 1564391850
+description: "Video from Devoxx Poland 2019.\n\nImagine you want to build a simple web service, providing an API for CRUD (Create, Read, Update, Delete) operations. You need to\n\nconnect to databases\ncreate database-specific queries\nbuild query statements\ncreate controllers\nanalyse results sets\nYou see, that's a lot of boilerplate. Using Spring Boot and Spring Data helps you reducing this boilerplate. You don't need to care on database connections and queries anymore and use Spring Data repositories instead of query statements. The auditing feature helps to keep consistency.\n\nWith Spring Data REST you can even do more. It uses a Domain-class centric approach to repository interactions. You only need to define what's really important - the domain classes. Domains created with Spring Data REST generate controllers and their dependencies. On top you get HATEOAS links you need to walk through your data.\n\nKey Learnings\ncomparison of a handwritten REST service and a Spring Data REST service\nuse ApplicationListeners, e.g. to do some more specific validations\nhow to use HTTP verbs GET, PUT, POST, PATCH and DELETE"

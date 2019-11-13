@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Resilient service-to-service calls in a post-Hystrix world - Rares Musina'
+language: English
+recordingDate: 1564392183
+description: "Video from Devoxx Poland 2019.\n\nAt N26, we want to make sure that we have resilience and fault tolerance built into our backend service-to-service calls. Most of our services have been using a combination of Hystrix, Retrofit, Retryer, and other tools towards achieving this goal. However, given the latest announcement from Netflix that Hystrix is no longer under active development, we needed to come up with a replacement solution that maintains the same level of functionality. Furthermore, because Hystrix provided a big portion of our http client resilience (including circuit breaking, connection thread pool thresholds, easy to add fallbacks, response caching, etc.), we wanted to treat its deprecation as a good opportunity to revisit our entire http client resilience stack and see if we can propose a solution that consolidates our fragmented tooling into an easy-to-use and consistent approach."

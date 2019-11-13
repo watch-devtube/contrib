@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - cloud
+    - containers
+    - kubernetes
+    - python
+title: 'Video Analytics for Football games by Sven Degroote'
+language: English
+recordingDate: 1573162196
+description: "This use case is about how we used apache beam to analyze and process, in near-real time, football game stream feeds. The goal was to determine events (start of game, team detection, player tracking, ball tracking) and performing analytics on these videos (duration, ball possession, score, ..).\n\nIn particular, Apache Beam Dataflow runner was used with Python SDK to create streaming pipelines. In this pipeline we used sliding windows to chunk the video frames into sets of sequence of frames, which could be used as input for different machine learning models.\n\nOur machine learning models are hosted on GPUs via TF-serving on Kubernetes. The output of the machine learning models were written to Google Cloud Bigtable, which was used by a front-end player to visualize these features on top of the stream feed (with a small delay).\n\nOther components used: Google Cloud Pub/Sub, Google Kubernetes Engine, Google Cloud Bigtable.\n\nSven is a Machine Learning Engineer at ML6. Sven is working at ML6 for more than 1 year now and has been involved in multiple big-scale machine learning projects. Prior to ML6, Sven worked as a Technology consultant at a big consultancy firm for 4 years."

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - java
+    - spring
+title: 'How to break an 18 yo monolith - Andreas Bräu'
+language: English
+recordingDate: 1564467927
+description: "Video from Devoxx Poland 2019.\n\nidealo.de launched in 2000 and started growing constantly: More features, more people, more and more lines of code. More than 50 developers in 6 teams worked on the same code base.\n\nThe Software\nThe software was designed as a Swiss Army knife for our company needs. At the end we've got a big monolith that is hard to maintain. Over the last years we had several approaches to extract some parts to reduce complexity. But very central parts, business functionality and the data model were never touched. The approach is centralized with a single database.\n\nThe tech stack used is up-to-date, we have Java 11 with Spring Boot 2 and daily deployments.\n\nThe Decision\nIn 2018 we made a decision: remove the single, central database and create self-contained systems. Our main goals were:\n\ncreate independent and lightweight services\nhave continuous deployments\none service - one team\nteams are responsible for \"their\" services, from development to operations\nAnswers\nWhat were our steps? How did we achieve our goals?\nWhat technologies did we use?\nWhat kind of cultural changes did we have?"
