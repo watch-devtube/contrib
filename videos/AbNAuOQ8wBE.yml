@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - elixir
+    - phoenix
+    - web
+    - javascript
+title: 'ElixirConf 2019 - Beyond LiveView: Building Real-Time... - Sophie DeBenedetto'
+recordingDate: 1567115499
+description: "ElixirConf 2019 - Beyond LiveView: Building Real-Time Features with Phoenix LiveView, PubSub and Presence - Sophie DeBenedetto\n\nLiveView's reliance on server-rendered HTML and leveraging of bi-directional communication over WebSockets means that we can build resilient and highly scalable real-time features almost entirely in Elixir––without writing any of our own JavaScript. It's no wonder that developers are starting to flock to LiveView to support things like user notifications, form validations, application monitoring, autocomplete, and more.\n\nHowever, as we use LiveView for more and more real-time features, we will naturally reach for the other real-time functionality that Phoenix has promised us: user tracking and message broadcasting. What happens, for example, when our real-time markdown editor needs to support collaborative editing à la Google Docs? Do we eschew LiveView and return to Phoenix Channels and Presence? Do we incorporate LiveView into a page that is already backed by these other technologies?\n\nNope! Thanks to the flexibility of Phoenix's PubSub and Presence libraries and their reliance on OTP principles, we can seamlessly incorporate these technologies directly into our live views. In this talk, we'll learn how to use LiveView together with Phoenix PubSub and Presence to support real-time message broadcasting and user activity tracking across a set of clients."

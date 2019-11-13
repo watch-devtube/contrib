@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - elixir
+    - architecture
+    - embedded
+title: 'ElixConf 2019 - Cockatrice: A Hardware Design Environment with Elixir - Hideki Takase'
+recordingDate: 1567112257
+description: "Can you imagine that your Elixir code will be executed as a hardware circuit on an FPGA?\n\nThe FPGA (Field-Programmable Gate Array) is an integrated circuit designed to be configured after manufacturing as many times as needed. The internal architecture of FPGA is the systolic array, which consists of the logic blocks, the connection blocks, and the interconnects. One of the advantages of FPGA is that it can realize parallel processing to contribute to energy efficiency.\n\nThis talk will introduce the Cockatrice, a novel hardware design environment that treats the Elixir code as an HW design language. We found that the Elixir Zen style (the parallel programming style of Elixir using Flow, Enum, and the pipeline operator) has a strong affinity with the FPGA architecture. Therefore, we implement the Cockatrice to synthesize the Elixir Zen-styled code as the parallel circuit automatically. Our work would contribute to performance enhancement and energy savings of embedded/IoT systems."

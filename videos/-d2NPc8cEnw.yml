@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - elixir
+    - phoenix
+    - architecture
+title: 'ElixirConf 2019  - Elixir + CQRS - Architecting for Availability, Operability, and... - Jon Grieman'
+recordingDate: 1567117453
+description: "ElixirConf 2019  - Elixir + CQRS - Architecting for Availability, Operability, and Maintainability At PagerDuty - Jon Grieman\n\nAt PagerDuty, we run our systems across many geographic regions to ensure we’re always available, even when you might not be. Elixir has been our language of choice for the last several years, and we’ve found a number of patterns for architecting services that mesh very nicely with Elixir, OTP and the BEAM - extending Elixir based applications and clusters beyond just distribution within a data center.\n\nThis talk looks at the service that powers PagerDuty’s timeline entries, a critical component for understanding what happens during an incident. I will cover how the service is architected for Command Query Responsibility Segregation and the benefits of those choices. These benefits and patterns are well tested, since this is one of the more frequently used services at PagerDuty, and has been running in production for three years.\n\nAttendees will learn about how these considerations for application architecture can help them design for a service that will continue to evolve safely. Rather than focusing on low-level mechanics like generating a new Phoenix app, code layout, and structuring folders, or configuring a library, this talk looks at how big-picture considerations fit together and provides practical considerations around how applications change over time."

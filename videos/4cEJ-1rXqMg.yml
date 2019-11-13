@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - graphql
+    - web
+    - testing
+    - architecture
+title: 'Components as Data: A Cross Platform GraphQL Component API - Luke Herrington - JSConf US 2019'
+language: English
+recordingDate: 1569260439
+description: "Discussions about \"when to use decoupled architecture are plentiful and important, but it often assumes or ignores another tricky decision: \"Where\" to decouple. This talk will discuss the \"Decouple Line\" and how moving it around provides some amazing features to your API.\n\nWhen designing a content API, the assumption is often that decoupling must take the form of an API that matches your data model, where tables in your data store are mapped to resources in your API (think, /author and /posts). This is often helpful and necessary for exposing the raw data that our UIs need, however, in a cross platform scenario where teams are all building similar features, this can lead to a lot of duplicated efforts and discrepancies between the apps. All of these platforms will be writing similar queries, denormalization logic, business logic, and A/B tests, and then finally render the UI with their respective component libraries. This can lead to platform specific bugs, inefficient queries, and design inconsistency across platforms.\n\nComponents as Data moves the \"decouple line\" further toward the frontend to absorb queries, denormalization, business logic, and A/B testing into the backend. In practice, the API serves JSON structured in terms of the tree of UI components that will be used to render the respective data. In doing so, it becomes a quasi frontend in its own right, but it renders JSON instead of HTML or native views. This enables some amazing features:\n\n1. Simpler, presentational frontends\n\n2. Centralized business logic\n\n3. Centralized A/B Testing and Feature Flagging\n\n4. Design consistency via a \"Design Schema\"\n\n5. Query optimization\n\nFinally, this pattern opens the door for writing a cross platform UI library that implements the \"design schema\" and can be used as the rendering engine for each platform."
