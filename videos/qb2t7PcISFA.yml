@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - elixir
+    - phoenix
+    - mobile
+    - architecture
+title: 'ElixirConf 2019 - Using Phoenix and Broadway with RabbitMQ to Handle... - Emerson Macedo'
+recordingDate: 1567198090
+description: "ElixirConf 2019 - Using Phoenix and Broadway with RabbitMQ to Handle 10M Monthly Ad insertions on the Biggest Brazillian Used Items Marketplace - Emerson Macedo\n\nOn this talk, you'll see the challenges to replace a 15 years old C TCP Service, with lots of memory leaks, using a large legacy database and also unsuitable for maintenance. The new Elixir Microservice had to come without service interruption, so there were also rollout challenges with all client platforms like mobile, web, and even mass insertion. Also, we created a CQRS approach to deal with Ad lifecycle events and preserve Ad state.\n\nKey Takeaways:\n\nReplacing old TCP C service with Phoenix (HTTP) - Ad Insertion\nUsing Broadway to consume Ad lifecycle events and create a snapshot view - Event Sourcing\nDealing with legacy database, zero downtime, and the new CQRS / Event Sourcing architecture\nChallenges and Next Steps"

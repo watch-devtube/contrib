@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - elixir
+    - phoenix
+    - architecture
+    - ruby
+title: 'ElixirConf 2019 - Re-writing Pseudo Financial Systems in Elixir - Natasha Dowse'
+recordingDate: 1567208599
+description: "At LoyaltyNZ we run a coalition loyalty program - this means running a set of pseudo financial systems to track currencies, balances, cumulative earn towards those balances, purchases, transactional history, and a complicated set of calculations around earning rates for currencies dependant on where you are making your purchases. Initially, we had a base set of micro-services written in Ruby within a custom-built and open-sourced API framework called Hoodoo. As this set of services started growing in size, usage, and complexity, we began having discussions around moving away from our bespoke framework to something else. We ended up deciding to change not just what framework we were using but what language, and after a bit of discussion and some proof of concepts of Go and Elixir, we decided on Elixir.\n\nWe had a series of requirements we needed to tackle when building our new microservices using Phoenix. These mostly came under:\n\nLogging - how to keep this consistent with our existing log formats with Hoodoo.\nAuthentication and authorization - how to use our existing Hoodoo based Session Management\nIntegrating with existing data pipelines\nThis talk discusses some of the challenges we faced when trying to write new services to fit within our existing eco-system and when trying to re-write existing services and how we overcame some of those challenges."

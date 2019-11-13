@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ux
+    - testing
+    - functional
+title: 'Testing presentation components visually by Balázs Korossy-Khayll | JSConf Budapest 2019'
+language: English
+recordingDate: 1572861483
+description: "https://2019.jsconfbp.com/speakers/balazs_korossy-khayll\n\nYou have written all the unit tests, integration and e2e tests imaginable to your project, your code coverage is in the skies, you are sure that everything is in working order, your application is ready to ship. Or is it? Frontend developers often face the challenge that even a plethora of tests don’t cover visual differences, and while the functionality might be working and protected by tests, we don’t know much about the layout’s and visual styles’ correctness. Writing unit tests or manual testing for visual styles is tiresome and error-prone, so at BlackRock we came up with a better solution.\n\nUsing Storybook we have developed a way of comparing visual differences of the rendered images of our presentational components. This solution enabled us to discover unwanted visual changes at once without manual testing the entire application with every release. Presentation, or dumb  components are a function of their inputs, from the components point of view, their state is immutable, which enabled us to individually test the possible variations of the components, simply by providing them different inputs.\n\nIn this talk I’m going through the technicalities of our approach, and discuss how any team could implement a similar solution. I’m also going to discuss how we integrated visual testing the continuous development process and how we involved the UX and UI designers in the testing process.\n\nBalazs is a passionate software engineer and leader, who takes inspiration from his studies in both computer science and industrial design. As a VP of engineering he’s responsible for a user experience and development team at BlackRock that delivers software products in the Aladdin platform."
