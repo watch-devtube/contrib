@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'The dos and don''ts of task queues'
+language: English
+recordingDate: 1568468698
+description: "Petr Stehlík \n\n\n\nLet’s talk about our experience with Celery and intentions to switch to RQ which failed. We’ll show our setup of larger apps than the ones presented in doc examples together with useful tips&tricks on the orchestration of such apps.\n\nAt Kiwi.com we heavily rely on task queues and asynchronous execution of code to process large amounts of requests coming to our back-ends. With the separation of our codebase to microservices, we can quickly try new tools and different approaches to process these large volumes of requests. The microservice we’ll be talking about is making unreliable slow 3rd party services reliable and asynchronous with a bit of business logic sprinkled on top of it. We’ll tell a failure story of ours but resulting in a valuable lesson.\n\nMost of our services use Celery and it’s the go-to tool for new services as well but we wanted to be different with this new microservice. RQ is the next best choice for task queues and it is presented as simpler and more straightforward than Celery. That can definitely be true but after 3 weeks of research, development and struggling we found out the unpleasant truth about being simple and making the right choices. We won’t talk about comparing the frameworks but rather about the approach on how to experiment with new things in your environment. After that, we’ll present our current setup which can take upon any number of tasks*. How we orchestrate the app and continuously integrate and deploy and what fun things await ahead of us in the development."
