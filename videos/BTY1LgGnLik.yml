@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - go
+    - startup
+    - containers
+    - docker
+    - architecture
+title: '"Deterministic Docker Images with Go Microservices" by Jon San Miguel'
+language: English
+recordingDate: 1568481667
+description: "At Samsara, we continuously deploy more than a hundred different microservices, all of which we wanted to do as easily and automatically as possible. We wanted to make this even better by bringing our deploy times to under 20 minutes while minimizing disruption, as this would also mean that we would start to deploy nearly our entire stack about 3 times a hour. Our solution to that: deterministically building our services in our deployed images to minimize time spent building services, network costs with moving images around, but most importantly, being able to automatically figure out which of our services have actually changed and only deploying those.\n\nThis of course, comes with some challenges from the infrastructure layer, to the code patterns and design we use across the organization.\n\nWe'll be talking about these challenges during this talk, namely:\n\n    Building deterministic golang binaries, and the edge cases and flags you have to do to get it right, as well as some history on golang development's efforts to be deterministic and times when it's regressed.\n\n    Building deterministic docker images with bazel, and a dive into how docker works and why it doesn't natively support this.\n\n    Challenges with keeping code decoupled to prevent changes from rebuilding all of our images, as well as the patterns and tools we use to help with this.\n\nJon San Miguel\nSamsara\n\nSenior Software Engineer @ Samsara, previously at HuddleUp, Optimizely, Yahoo, Lexity, & Servio. Been through many lifespans of startups, seeing them both fail & grow tremendously, with extensive experience ranging from building immersive frontends, to robust low-level infrastructure."

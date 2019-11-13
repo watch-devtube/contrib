@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - craftsmanship
+    - architecture
+    - python
+title: 'Typed attrs dataclasses with cattrs converters for JSON REST microservices'
+language: English
+recordingDate: 1568710545
+description: "Damian Swistowski\n\nDo you have confidence in your data without painful explicit checks? Use types in your code - attrs is a smart solution to make life easier.\n\nREST microservices commonly use JSON as inputs and outputs. It's a simple and language-agnostic way of communication. The JSON can be easily translated into simple python structures like dictionaries and arrays.\nAlthough it's possible to use raw input data inside your application, type checking in Python increases confidence in our code with fewer unit tests and simpler refactoring.\n\nTranslating primitive data to typed data structures can be a tedious job, but with the help of attrs and cattrs modules, it's a simple task which does not add a lot of code.\n\nThe talk will present why choosing attrs can be good for your project and how to use it effectively, using cattrs to structure simple data into your data objects, show some pitfalls and how we solved them."

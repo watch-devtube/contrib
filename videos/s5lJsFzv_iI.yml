@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'What does PEP 517 mean for packaging'
+language: English
+recordingDate: 1568617929
+description: "Thomas Kluyver \n\n\n\nPackaging Python code is a thorny area, but it's getting better.\nPEP 517 is a dry, technical specification for an important step:\nallowing packagers to choose alternatives to setuptools.\nI'll talk about how projects can take advantage of this, and the\nfun of writing your own packaging tools.\n\nPackaging has never been an easy topic in Python. PEP 517 was\nhammered out over several hundred emails - sometimes heated - on\nthe distutils-sig mailing list. The goal: to dethrone distutils and\nsetuptools as the single blessed way of making Python packages.\n\nThe precise, formal language of a specification isn't exactly made\nfor bedtime reading. So in this talk, I'll unpack what it means for\npeople who want to put their code on PyPI. I was part of the discussion\nto create the proposal, I've written a PEP 517 backend and a\nlibrary for frontends, so I've seen the gory details.\n\nI'll set the context of what there was before PEP 517, and why\npeople wanted something better. Then I'll describe how the PEP\ncame about, and how it envisages different tools working together.\n\nI'll show practical examples of how you can take advantage of PEP 517\nenabled tools like Flit or enscons for packaging your own project,\nand some of the difficulties existing projects might encounter in the\ntransition. Finally, I'll briefly go into how and why you might write\nyour own tools around PEP 517: either backends to build packages, or\nfrontends to use those packages."

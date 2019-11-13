@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: '"Dive into Streams with Brooklin" by Celia Kung'
+language: English
+recordingDate: 1568480533
+description: "Although LinkedIn data continues to grow rapidly over the years, scaling up to handle the increasing data volume has not been the only challenge in streaming data in near real-time. Supporting the proliferation of new data systems has become yet another huge endeavor for data streaming infrastructure at LinkedIn. Building separate, specialized solutions to move data across heterogeneous systems is not sustainable, as it slows down development and makes the infrastructure unmanageable. This called for a centralized, managed, and extensible solution that can continuously deliver data to nearline applications.\n\nWe built Brooklin as a managed data streaming service that supports multiple pluggable sources and destinations, which can be data stores or messaging systems. Since 2016, Brooklin has been running in production as a critical piece of LinkedIn's streaming infrastructure, supporting a variety of data movement use cases, such as change data capture (CDC) and data propagation between different systems and environments. We have also leveraged Brooklin for mirroring Kafka data, replacing Kafka MirrorMaker at LinkedIn. In this talk, we will dive deeper into Brooklin's architecture and use cases, as well as our future plans.\n\nCelia Kung\nLinkedIn\n\nCelia manages the data pipelines team at LinkedIn. Previously, she was the lead engineer for building Oracle change-data capture support for Brooklin, as well as a new Kafka mirroring solution that has fully replaced Kafka MirrorMaker at LinkedIn."

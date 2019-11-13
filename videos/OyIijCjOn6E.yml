@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - python
+title: 'Concurrent asyncio and sanity'
+language: English
+recordingDate: 1568734937
+description: "Martijn Pieters\n\nDo you find programming with asyncio daunting? Are you wondering how you'd build a real-world network-connected service with this and not die trying? In this talk I want to share some best practices and tips to help you create reliable, maintainable applications using concurrency.\n\nWhen a customer approached me to create a new platform to collect metadata from some 10.000 different 3rd-party sources on the web, using a host of different formats, every 30 seconds, I knew Python would be up to the task. By using asyncio you can build very efficient concurrent applications.\n\nBut how do you keep your application code organised, and not end up passing around a bunch of queues from one function to another?\n\nIn this talk, I'll show you how I built this application, and share my philosophy on structuring a concurrent app, and how to handle:\n\nmodularised concurrent code\nhow to plan for and contain exceptions\nconfiguration\nlogging and monitoring"

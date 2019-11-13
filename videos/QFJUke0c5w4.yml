@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - performance
+    - cloud
+    - aws
+    - security
+title: '"Beyond traces: the insights in trace aggregates" by Daniela Miao'
+language: English
+recordingDate: 1568480434
+description: "The value proposition for distributed tracing is well-understood: assembling and visualizing end-to-end transactions helps to identify latency bottlenecks and provides a head-start on problem diagnosis. However, traditional tracing practices enable data presentation at the granularity of only a single transaction. This data is useful for debugging specific issues, but it is difficult to draw conclusions about the overall system without knowing how representative a lone trace is. Instead, aggregating these traces can reveal much more, and can do so with greater precision and certainty.\n\nThis talk presents the profound insights trace aggregates help unlock, including sources of resource contention, latency anomalies in the context of service infrastructure, and correlations of metrics with high-cardinality characteristics of the distributed system. The talk demonstrates, using concrete examples, how novel applications of aggregated traces reveal new opportunities for performance improvements. However, aggregation is not possible without a standardized tracing output format, as well as a proliferation of traces via cloud-native service mesh integration.\n\nDaniela Miao\nLightStep\n@dymxzvf\n\nDaniela Miao is currently an Engineering Manager at LightStep, where she joined 2 years ago as an engineer. Prior to LightStep, she was an engineer on the DynamoDB team at Amazon Web Services (AWS), where she spoke at many external events including Big Data meetups and the AWS developer conference, re:Invent. Daniela is interested in various topics including NoSQL, privacy & security and distributed tracing. At LightStep, she is currently working on distributed system performance analysis, and she spends a lot of time thinking about how to provide developers with valuable performance signals."

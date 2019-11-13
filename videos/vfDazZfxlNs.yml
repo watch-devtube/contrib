@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - functional
+title: '"Building Haskell Programs with Fused Effects" by Patrick Thomson'
+language: English
+recordingDate: 1568493565
+description: "Haskell is a purely functional programming language: by default, Haskell functions do not cause side effects such as system I/O, nondeterminism, or exception handling. As such, Haskell programs are generally expressed in terms of monad transformers, which provide the facility to compose different side effects into a single interface powerful enough to express the programmer's needs. The monad transformer library, mtl, is mature and powerful, but complicates and in some cases constrains the construction and generalization of user-specified monads.\n\nA class of libraries known as 'effect systems' have emerged in an attempt to solve the problems associated with monad transformers. Effect systems provide a compositional approach to program construction, generally using a single monadic type specialzed with a programmer-provided list of capabilities. Effect systems are more powerful and flexible than monad transformers, but their adoption in industry has been minimal, due both to their incompatiblity with mtl and their historically poor performance.\n\nThe new fused-effects library changes the status quo: it provides an extensible and flexible vocabulary for program construction, yielding a more expressive interface than mtl without sacrificing any performance characteristics. I'll describe the history of effect systems, outline the tradeoffs associated with programming with effects, and demonstrate the use of fused-effects in practice.\n\nPatrick Thomson\nGitHub, Inc.\n@importantshock\n\nPatrick is a senior engineer on GitHub's Semantic Code team, building systems to understand and analyze the corpus of code on GitHub. He enjoys peaceful countryside walks and loud rap shows."

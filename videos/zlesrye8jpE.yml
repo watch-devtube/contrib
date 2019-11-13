@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - performance
+    - testing
+    - architecture
+    - python
+title: 'Writing micro services in Python - Sure But which framework'
+language: English
+recordingDate: 1568552954
+description: "Emma Delescolle\n\nWhen googling \"python micro-service framework\", there are plenty of \"Hello world\" examples out there for many (micro-)frameworks.\n\nBut how do they scale in the \"real\" world? How can I connect framework X to a database or what do you need to do to use OAuth2 with framework Y?\n\nThis talk was inspired by Aaron Bassett's EuroPython 2018 talk \"Hello to the World in 8 Web Frameworks micro, batteries included & async\". It was a great introduction to the array of web (micro-)frameworks available in Python but I was curious at how they scale to \"real\" life use-cases.\n\nIn order to learn about that, I went through several steps:\n- I decided on 4 micro-services I wanted to build and that were somewhat representative of services you might need in a production setting\n- I set some constraints about what I expect from a micro-service as a developer (ie: documentation, testing, etc), as a sysadmin (ie: ease of deployment) and as a product manager (ie: performance)\n- I implemented those micro-services using several frameworks\n- I deployed them with production settings on a Raspberry Pi cluster\n- I tested the performance of each architecture\n\nThis talk is an overview of the process, what guided my decisions, the things I learned and what conclusions I reached. Oh and of course performance graphs and statistics ;)\n\nSpoiler: I will not end the talk with \"choose framework Z\""
