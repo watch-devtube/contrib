@@ -1,0 +1,16 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - c++
+    - cloud
+    - containers
+    - kubernetes
+    - craftsmanship
+    - architecture
+    - java
+    - spring
+title: 'Experiment to Replatform a Large Heterogenous Real-Time System to Pivotal Platform'
+language: English
+recordingDate: 1571867949
+description: "The program is a large satellite ground station. The problem is the long lead time and expense to build, deploy, and maintain it in various integration and operational environments. While previous initiatives in CI/CD automation have greatly accelerated the process, a common observation from both internal and external advisors was: “Why are you building a platform when you can buy one?” A customer goal soon emerged: Maximize virtualization across all of the program to abstract mission applications from a dedicated hardware infrastructure to enable migration to a future, yet-to-be-defined environment. Driven by reluctance to go “all in” based on experiences with previous technologies, an experiment was born: Attempt to migrate the satellite simulator, used to test the ground station, to Pivotal Platform. The simulator itself is a large, real-time software system, using Java, C++, Ada, JNI, Linux, Windows, various COTS frameworks, and messaging infrastructure, so the results would reasonably determine whether the platform is viable—and the customer goal achievable—for the overall ground station. Over a 16-week Pivotal Labs App Modernization engagement, we replatformed “one of everything”—language, OS, and simulation model type—to a combination of containers hosted in Kubernetes/PKS and wherever possible, cloud-friendly apps running in PAS. Spring and Spring Boot were used extensively when refactoring Java software to isolate interfaces to new and existing parts of the system. The experiment demonstrated the combination of containers, Kubernetes and Cloud Foundry support the customer goal as desired. In general, replatforming was fairly straightforward: Spring and Spring Boot simplify the modernization of Java software; C++ is practical but harder because the build technology is lagging the Java norm; Windows is a generation behind Linux in terms of Kubernetes support, leading us to use Wine rather than native containers; COTS software architecture is the wildcard that requires the most tenacity and vendor support.\n\nLearn more: https://pv.tl/2W54esT\n\nSpeakers: Jonathan Newell, Advisory Solutions Architect, Pivotal; Graham Fitter, Senior Principal SW Engineer, Raytheon\nFilmed at SpringOne Platform 2019\nSlideShare: coming soon"

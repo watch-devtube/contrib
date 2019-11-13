@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - performance
+    - containers
+    - kubernetes
+    - architecture
+title: 'Turnkey Multi-Region, Active-Active Session Stores'
+language: English
+recordingDate: 1571255852
+description: "Abstract: Most developers first encounter Redis when they need a reliable, scalable and high-performance cache for a web application. They find that Redis can power high-speed transactions, recommendation engines, data ingest, session management, real-time analytics, and of course caching. It is elegant, handles traffic peaks and is easy to integrate and deploy with Pivotal Platform and Kubernetes. But what about high availability, resiliency and scale for geographically distributed applications?\n\n\nOperating geo-distributed applications that are both accurate and efficiently distributed is extremely challenging due to read and write conflicts. Legacy ways of managing distributed applications focus on HA failover—the wrong approach. Fortunately, Redis Enterprise with active-active with Conflict-free Replicated Data Types (CRDTs) is able to provide full resiliency for distributed applications. CRDTs make building complex geo-distributed apps simple by using the built-in smarts of CRDT for Redis data types such as strings, sets and hashes.\n\n\nThis session will provide insights into the Redis Enterprise architecture and demo active/active Redis clusters across two geo-distributed Pivotal Platform foundations. We will leverage Pivotal’s Steeltoe library to demonstrate how easy it is to expand your session store across multiple foundations with zero code changes.\nSpeakers: Adi Foulger, Principal Solution Architect, Redis Labs\nFilmed at SpringOne Platform 2019\nSlideShare:"
