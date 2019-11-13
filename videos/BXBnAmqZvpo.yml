@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+title: 'CppCon 2019: Rainer Grimm “Concepts in C++20: Revolution or Evolution”'
+language: English
+recordingDate: 1571382001
+description: "http://CppCon.org\n—\nDiscussion & Comments: https://www.reddit.com/r/cpp/\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/CppCon/CppCon2019\n—\nThe key idea of generic programming with templates is it to define functions and classes which\ncan be used with various types. Often it happens that you instantiate a template with the wrong\ntype. The result is typically a few pages of cryptic error messages. This sad story ends with\nconcepts. Concepts empower you to write requirements for your templates which can be\nchecked by the compiler. Concepts revolutionise the way, we think about and write generic\ncode. Here is why:\n\n* Requirements for templates are part of the interface.\n\n* The overloading of functions or specialisation of class templates can be based on concepts.\n\n* We get improved error message because the compiler compares the requirements of the template parameter with the actual template arguments.\n\nHowever, this is not the end of the story.\n\n* You can use predefined concepts or define your own.\n\n* The usage of auto and concepts is unified. Instead of auto, you can use a concept.\n\n* If a function declaration uses a concept, it automatically becomes a function template. Writing function templates is, therefore, as easy as writing a function.\n— \nRainer Grimm\nTrainer, Modernes c++\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"

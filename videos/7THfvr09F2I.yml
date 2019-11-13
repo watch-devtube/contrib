@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - bigdata
+    - devops
+title: 'Serverless Jenkins DevOps pipeline with K8s and Spark - Krzysiek Płachno'
+language: English
+recordingDate: 1563200072
+description: "Video from Devoxx Poland 2019.\n\nBuilding a Spark/BigData application is hard because involves a universe of different technologies and components that, in a large enterprise, are typically centralized.\n\nThe need for centralized services often leads Development Teams to surrender and abandon a DevOps lifecycle.\n\nHowever, this talk is about a different story, where a strong and motivated development Team decided to try harder and leverage the latest advances in Jenkins and its support for K8s to implement a true DevOps lifecycle where nothing is long-running and all resources needed to build, test and integrate the software are created on-demand.\n\nThis talk is a live session of a step-by-step construction of the DevOps pipeline: - creation of the ephemeral Jenkins on demand using the configuration-as-code plugin - allocation of the build agents on the clusters with the K8s plugin - tailoring of the minified version of the Hadoop/HDFS cluster for the tests - execution of the tests and collection of the results\n\nThe entire DevOps lifecycle is built using the declarative style Jenkinsfile pipeline, with some extra additions to integrate seamlessly to different runtime environments."
