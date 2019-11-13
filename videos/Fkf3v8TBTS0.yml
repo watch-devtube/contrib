@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Self-managed and automatically reconfigurable stream processing -Vasiliki Kalavri'
+recordingDate: 1571153993
+description: "With its superior state management and savepoint mechanism, Apache Flink is unique among modern stream processors in supporting minimal-effort job reconfiguration. Savepoints are being extensively used to enable dynamic scaling, bug fixing, upgrades, and numerous other reconfiguration use-cases, all while preserving exactly-once semantics. However, when it comes to dynamic scaling, the burden of reconfiguration decisions -when and how much to scale- is currently placed on the user.\n\nIn this talk, I will share our recent work at ETH Zurich on providing support for self-managed and automatically reconfigurable stream processing. I will present SnailTrail (NSDI’18), an online critical path analysis module that detects bottlenecks and provides insights on streaming application performance, and DS2 (OSDI’18), an automatic scaling controller which identifies optimal backpressure-free configurations and operates reactively online. Both SnailTrail and DS2 are integrated with Apache Flink and publicly available. I will conclude with evaluation results, ongoing work, and and future challenges in this area."

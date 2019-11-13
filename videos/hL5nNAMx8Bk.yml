@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - aws
+    - containers
+    - docker
+    - kubernetes
+    - architecture
+title: 'Kubernetes + Operator + PaaSTA = Flink @ Yelp - Antonio Verardi'
+recordingDate: 1571149978
+description: "At Yelp we run hundreds of Flink jobs to power a wide range of applications: push notifications, data replication, ETL, sessionizing and more. Routine operations like deploys, restart, and savepointing for so many jobs would take quite a bit of developers’ time without the right degree of automation. The latest addition to our toolshed is a Kubernetes operator managing the deployment and the lifetime of Flink clusters on PaaSTA, Yelp’s Platform As A Service.\n\nWe replaced our deployment framework launching Flink clusters on top of AWS EMR with a Kubernetes operator managing fully Docker-ized Flink clusters. Compared to EMR, this architecture allowed us to both drastically reduce the deployment time of our Flink clusters and to share our hardware resources more efficiently. In addition, we now offer to our developers the same interface they are used to for running REST services, batch jobs and many other workloads on PaaSTA.\n\nThis talk will give a brief overview of Yelp’s PaaSTA before diving into the details of how the Kubernetes operator has been implemented and how it has been integrated with Yelp developers’ workflow (deploy, logs, savepoints, upgrades, etc), to end with a glimpse of the future features we are planning for the operator (Flink as a library, autoscaling, etc.)."

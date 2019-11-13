@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cassandra
+    - bigdata
+    - ml
+    - performance
+    - python
+title: 'Real-time Stream Analytics and Scoring Using Apache Flink, Druid & Cassandra - Ciesielczyk & Zontek'
+recordingDate: 1571144551
+description: "One of the hardest challenges we are trying to solve is how to deliver customizable insights based on billions of data points in real-time, that fully scale from a single perspective of an individual up to millions of users.\n\nAt Deep.BI we track user habits, engagement, product and content performance, processing terabytes or billions of events of data daily. Our goal is to provide real-time insights based on custom metrics from a variety of self-created dimensions. The platform allows to perform tasks from various domains such as adjusting websites using real-time analytics, running AI optimized marketing campaigns, providing a dynamic paywall based on user engagement and AI scoring, or detecting frauds based on data anomalies and adaptive patterns.\n\nTo accomplish this, our system collects every user interaction. We use Apache Flink for event enrichment, custom transformations, aggregations and serving machine learning models. The processed data is then indexed by Apache Druid for real-time analytics and Apache Cassandra for delivery of the scores. Historical data is also stored on Apache Hadoop for machine learning model building. Using the low-level DataStream API, custom Process Functions, and Broadcasted State, we have built an abstract feature engineering framework that provides re-usable templates for data transformations. This allowed us to easily define domain specific features for analytics and machine learning, and migrate our batch data preprocessing pipeline from Python jobs deployed on Apache Spark to Flink, resulting in a significant performance boost.\n\nThis talk covers our challenges with building and maintaining our platform and lessons learned along the way, namely how to:\n\n- evolve a continuous application processing an unbounded data stream,\n\n- provide an API for defining, updating and reusing features for machine learning,\n\n- handle late events and state TTL,\n\n- serve machine learning models with the lowest latency possible,\n\n- dynamically update the business logic at runtime without a need of redeploy, and\n\n- automate the data pipeline deployment."

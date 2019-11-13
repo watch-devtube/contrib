@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - ml
+title: 'Flink SQL Powered AutoML Pipeline - Wei Wang & Hao Wu'
+recordingDate: 1571150944
+description: "Machine learning system at scale is a team work requiring the collaboration of data engineers, who develops, constructs, and maintains architectures, and data scientists, who on the other hand, organizes data to build models and grain insights to solve business problem. Either role requires specific skill sets that the other does not necessarily have, which makes it hard to leverage all resources to efficiently extract features, train models and serve in production.\n\nWe are proud to introduce our AutoML pipeline solution, an end-to-end system that builds a bridge over the chasm between data engineering and data science by bringing SQL, Flink and ML together using Flink SQL as the abstraction layer.\n\nSince SQL is the most intuitive and widely used data management language by engineers, analysts and scientists, we come up with the idea of building a SQL-like language interface that exposes Flink SQL and streaming processing abilities to the end users in a typical ML scenario. In this pipeline, features can be extracted, ingested into feature store, accessed and reused for model training and prediction with a unified API. Streaming processing, incremental feature backfill and ML model update are achieved by leveraging the windowing feature in Flink.\n\nTo make it easy to use, we also build an AutoML interface where you can just drag and drop components such as datasets, ETL and built in ML algorithms to visually build the pipeline and see the result of every step."

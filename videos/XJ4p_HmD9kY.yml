@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - react
+    - testing
+    - architecture
+    - embedded
+title: 'Event Streaming Architecture for Industry 4.0 - Abdelkrim Hadjidj & Jan Kunigk'
+recordingDate: 1571155751
+description: "New use cases under the Industry 4.0 umbrella are playing a key role in improving factory operations, process optimization, cost reduction and quality improvement. We propose an event streaming architecture to streamline the information flow all the way from the factory to the main data center. Building such a streaming architecture enables a manufacturer to react faster to critical operational events. However, it presents two main challenges:\n\nData acquisition in real time: data should be collected regardless of its location or access challenges are. It is commonplace to ingest data from hundreds of heterogeneous data sources (ERP, MES, Sensors, maintenance systems, etc).\nEvent processing in real time: events collected from different parts of the organization should be combined into actionable insights in real time. This is extremely challenging in a context where events can be lost or delayed.\nIn this talk, we show how Apache NiFi and MiNiFi can be used to collect a wide range of datasources in real-time, connecting the industrial and information worlds. Then, we show how Apache Flink’s unique features enables us to make sense of this data. For instance, we will explain how Flink’s time management such Event Time mode, late arrival handling and watermark mechanism can be used to address the challenge of processing IoT data originating from geographically distributed plants. Finally, we demonstrate an end to end streaming architecture for Industry 4.0 based on the Cloudera DataFlow platform."

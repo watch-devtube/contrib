@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'FlinkDTW: time-series pattern search at scale using Dynamic Time Warping - Christophe Salperwyck'
+recordingDate: 1571150886
+description: "DTW: Dynamic Time Warping is a well-known method to find patterns within a time-series. It has the possibility to find a pattern even if the data are distorted. It can be used to detect trends in sell, defect in machine signals in the industry, medicine for electro-cardiograms, DNA…\n\nMost of the implementations are usually very slow, but a very efficient open source implementation (best paper SIGKDD 2012) is implemented in C. It can be easily ported in other language, as Java, so that it can be then easily used in Flink.\n\nWe present how we did some slight modifications so that we can use with Flink at even greater scale to return the TopK best matches on past data or streaming data."

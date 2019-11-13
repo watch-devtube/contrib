@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'eBay monitoring platform preprocessing and alerting on Flink - Garrett Li'
+recordingDate: 1563249681
+description: "Flink Forward San Francisco, April 2018 #flinkforward\n\neBay monitoring platform preprocessing and alerting on Flink - Garrett Li\n\neBay monitoring platform collects metrics, events and logs from network devices, kubernetes clusters, applications and other monitoring tools, data will be feeding into preprocessing and alerting engine to enrich, normalize, dedupe, alerting, etc. We start by building the first generation preprocessing and alerting engine on top of Storm. Then, migrated from Storm to Flink to embrace streaming/batch unique interface and exactly-one semantics also rich support of windowing. Our monitoring platform aims to provide self-service alert definition which mean tens of thousands of alert rules on streaming data. So we built metadata-driven processing engine on top of Flink. It provides capabilities APIs which translate capabilities to Flink data stream APIs, and provides policies APIs to submit or update users’ process and alerts requests and deploy these requests to shared Flink job for processing without restarting jobs. Also an alert DSL is designed to enable self-service alert definition.\n\ndata-artisans.com/"

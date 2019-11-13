@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - craftsmanship
+title: 'Towards More Efficient and Adaptive Scheduling for Flink Batch - Bo Wang'
+recordingDate: 1571306680
+description: "As a unified data processing framework, Flink has continuous evolution with current refactoring of scheduling strategies. Based on the redesigned interfaces, we have implemented the new LazyFromSources batch scheduler dedicated to make it more efficient for job execution and adaptive to stragglers such as skew and long tails, which could be caused by many reasons, such as environment factors and data skew.\n\nIn the distributed clusters, It is common to encounter the performance degradation on some nodes due to hardware problems, accidental I/O busy or CPU load burst. This kind of degradation can probably cause the running tasks on the node to be quite slow, that is so called long tail tasks. Although the long tail tasks will not fail, they can severely affect the total job running time. To deal with this problem, we have implemented Speculative Execution, which runs a copy of task on another node when the original task is identified to be long tail. Our production experience shows that it could significantly reduce the performance degradation.\n\nSince Speculative Execution could resolve problems caused by environment factors, we incorporate Adaptive Parallelism to accelerate slow tasks due to data skew. we implement an adaptive strategy to determine the task parallelism considering the input data size and other operation statistics at runtime, i.e., merge partitions for small data size and split partition for large data size."

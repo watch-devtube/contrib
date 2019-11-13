@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+title: 'Flink’s New Batch Architecture - Till Rohrmann & Ma Guowei'
+recordingDate: 1571306958
+description: "Since its inception, Flink supports to execute batch workloads. Using specialized operators for processing bounded streams allows Flink to achieve an already very decent batch performance. However, in particular Flink’s fault recovery, which restarts the whole topology in case of task faults, caused problems for complex and large batch jobs. Moreover, supporting batch and streaming alike led in some components to necessary generalizations which prevented further batch optimizations:\n\n* The scheduler needs to schedule topologies with complex dependencies as well as low latency requirements\n\n* The shuffle service needs to support high-throughput batch as well as fast streaming data exchanges\n\nIn this talk, we will shed some light on the community’s effort to address these limitations and which new components compose Flink’s improved batch architecture. We will demonstrate how the new fine grained recovery feature minimizes the set of computations to restart in case of a failover. Moreover, we will explain how a batch job differs from a streaming job and what this means for the scheduler. We will also discuss why it can be beneficial to separate results from computation and how Flink supports this feature. Last but not least we want to give an outlook on possible future improvements like support for speculative execution, RDMA based data exchanges and how they relate to Flink’s new batch architecture."

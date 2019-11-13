@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+title: 'Multi-tenanted streams @Workday - Enrico Agnoli & Leire Fernandez'
+recordingDate: 1571154196
+description: "At WORKDAY Inc., #1 Future Fortune company 2018 (link: https://fortune.com/future-50/2018/workday/), we process data for our community of more than 39 million workers, including 40 percent of Fortune 500 organizations. Our success is driven by the trust our customer puts on us and we give them confidence with our strict security regulations. This demands that we always encrypt customer data at rest and in transit: each piece of data should always be stored, encrypted with the customer key.\n\nThis is a challenge in a Data Streaming platform like Flink, where data may be persisted in multiple phases:\n\nStorage of States in Checkpoints or Savepoints, Temporary fs storage for time-window aggregation, Common spilling to disk when heap is full.\n\nOn top of that, we need to consider that in a Flink dataflow data might get manipulated and we need to maintain the context needed to correctly encrypt it.\n\nCome join us to see how we solved this challenges to provide a secure platform to support our MachineLearning organization, how we extended AVRO libraries to enable encryption at serialization and how we support data traceability for GDPR."

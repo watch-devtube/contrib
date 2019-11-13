@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+title: 'Not So Big – Flink as a true Application Framework - Oytun Tez, MotaWord'
+recordingDate: 1571144562
+description: "MotaWord is a collaborative translation platform where multiple translators together work on documents in real-time. It uses Flink to empower its intelligent platform manager, which manages all of the reactionary and analytical workflows by using event-based analysis. In this talk, we will steer away from the phrase “stream processor” and look at Flink as an “application framework”. We will take a sample business case and try to reliably construct the business domain, flow the data and define operations optimally/minimally, with three very important constraints: \n\n1) no external data reference during operation except for sources and backfills (forget about redis), \n2) most elements are shared and referenced, \n3) everything just flows in streams."

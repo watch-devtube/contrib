@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Faster checkpointing through unaligned checkpoints - Piotr Nowojski'
+recordingDate: 1571156018
+description: "Flink is a state of the art streaming processing engine with exactly-once semantics. At the core of providing exactly-once guarantees under failures is Flink’s checkpointing feature. Checkpointing is implemented in a way that provides maximal throughput with minimal overheads and no additional IO access.\n\nHowever, the current checkpointing approach comes with some challenges and one particularly tricky challenge on which we focus of this talk is checkpoint barrier alignment.\n\nI will explain what checkpoint barrier alignment is, in what scenarios can cause problems, and what those problems are. Next, we will present a new feature of unaligned checkpoints to tackle those problems. We will compare checkpointing with and without alignment and conclude about the implications for throughput, latency, and resource usage."

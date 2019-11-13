@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - aws
+title: 'A Tale of Dual Sources: Pictures of Grief and The Job Manager’s Clock - Aaron Levin & Mike Mintz'
+recordingDate: 1571306130
+description: "It was the best of times, it was the worst of times. In the year of our Flink 2017, Lyft proclaimed that, indeed, dual sources are hard. But how hard could they be?\n\nMany of Stripe’s Flink jobs need to start at the beginning of time; from the start of Stripe’s Kafka archives which are stored in S3 until they have “caught-up” and can begin reading from Kafka. Thus, we embarked on creating a specialized Flink source that would start with Kafka archives in S3 and transparently handover to Kafka. Sounds straight-forward, right?\n\nIn this experience report, we revel in the many challenges we encountered writing this specialized dual source and the many hacks we endured in its development. We will also highlight how much easier this problem will become in upcoming version of Flink. Attendees will walk away with a deeper understanding of Flink Sources, the challenges of distributed state, and the lifelong lesson of unadulterated hubris."

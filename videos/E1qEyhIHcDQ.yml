@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - storage
+    - cloud
+    - security
+title: 'Keynote: Building an Apache Beam streaming runtime in GCP- Sergei Sokolenko & Reuven Lax'
+recordingDate: 1571304821
+description: "Apache Beam is Flink’s sibling in the Apache family of streaming processing frameworks. The Beam and Flink teams work closely together on advancing what is possible in streaming processing, including Streaming SQL extensions and code interoperability on both platforms.\n\nBeam was originally developed at Google as the amalgamation of its internal batch and streaming frameworks to power the exabyte-scale data processing for Gmail, YouTube and Ads. It now powers a fully-managed, serverless service Google Cloud Dataflow, as well as is available to run in other Public Clouds and on-premises when deployed in portability mode on Apache Flink, Spark, Samza and other runners. Users regularly run distributed data processing jobs on Beam spanning tens of thousands of CPU cores and processing millions of events per second.\n\nIn this session, Sergei Sokolenko, Cloud Dataflow product manager, and Reuven Lax, the founding member of the Dataflow and Beam team, will share Google’s learnings from building and operating a global streaming processing infrastructure shared by thousands of customers, including:\n\nsafe deployment to dozens of geographic locations,\nresource autoscaling to minimize processing costs,\nseparating compute and state storage for better scaling behavior,\ndynamic work rebalancing of work items away from overutilized worker nodes,\noffering a throughput-optimized batch processing capability with the same API as streaming,\ngrouping and joining of 100s of Terabytes in a hybrid in-memory/on-desk file system,\nintegrating with the Google Cloud security ecosystem, and other lessons.\nCustomers benefit from these advances through faster execution of jobs, resource savings, and a fully managed data processing environment that runs in the Cloud and removes the need to manage infrastructure."

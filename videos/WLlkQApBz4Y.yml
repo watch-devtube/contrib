@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Towards Flink 2.0: Unified Batch & Stream Processing - Aljoscha Krettek'
+recordingDate: 1571152606
+description: "Flink currently features different APIs for bounded/batch (DataSet) and streaming (DataStream) programs. And while the DataStream API can handle batch use cases, it is much less efficient in that compared to the DataSet API. The Table API was built as a unified API on top of both, to cover batch and streaming with the same API, and under the hood delegate to either DataSet or DataStream.\n\nIn this talk, we present the latest on the Flink community's efforts to rework the APIs and the stack for better unified batch & streaming experience. We will discuss:\n\n- The future roles and interplay of DataSet, DataStream, and Table API\n\n- The new Flink stack and the abstractions on which these APIs will build\n\n- The new unified batch/streaming sources\n\n- How batch and streaming optimizations differ in the runtime, and what the future interplay of batch and streaming execution could look like"

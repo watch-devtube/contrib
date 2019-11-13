@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - cloud
+title: 'Change data capture in production with Apache Flink -  David Morin & Yann Pauly'
+recordingDate: 1571150184
+description: "Drive the business with your KPIs. That is what we aimed to do at OVH. As a 18 years old company and quite big cloud provider, we encountered several issues during this long journey to setup change data capture and data driven culture.\n\nGetting data from thousands of tables into one place, keep it all up to date was not possible without a strong streaming engine like Apache Flink.\n\nWe will present you our current production pipeline with its pros and cons. From the data collection made directly with binary logs of the databases, to continuous writing into Apache Hive in a Kerberized cloud-based Apache Hadoop cluster. We will describe how we handle schema transcription, events lifecycle, stream partitioning, sort of the events with the use of watermarks and windows aggregation - all of this in a transaction way until the data availability on user side.\n\nFinally we will introduce our production infrastructure based on cloud only, its operation and monitoring."

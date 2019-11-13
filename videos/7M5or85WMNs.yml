@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - scala
+title: 'Extending Flink state serialization for better performance and smaller checkpoint size - Grebennikov'
+recordingDate: 1571154509
+description: "Operations with Flink state are a common source of performance issues for a typical stateful stream processing application. One tiny mistake can easily make your job to spend most of a precious CPU time in serialization and inflate a checkpoint size to the sky. In this talk we’ll focus on a Flink serialization framework and common problems happening around it:\n\n* Is Kryo fallback is really that expensive from the CPU and state size perspective?\n\n* How to plug your own or existing serializers into the Flink (like protobuf).\n\n* Using Scala sealed traits without Kryo fallback.\n\n* Using custom integer variable-length encoding and delta encoding for primitive arrays to further reduce the state size."

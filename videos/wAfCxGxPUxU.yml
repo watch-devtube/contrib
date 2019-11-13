@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Writing an interactive streaming SQL engine and pre-parser using Flink - Kenny Gorman'
+recordingDate: 1571318258
+description: "In this talk I will cover our journey building an interactive SQL interface and engine that leverages Apache Flink and Apache Calcite. I will talk about architectural design of backend components including a interactive SQL parser, how communication from web client to server are done using web sockets, user interface decisions, scalability considerations, schema declaration and evaluation, and providing feedback to the user issuing SQL in an interactive manner.\n\nI will go over some architectural decisions and tradeoffs, example queries and capabilities, utilizing multiple sources and sinks, and how Apache Flink enables unmatched statefulness, availability, and scalability for this use case.\n\nAttendees will leave the talk with concrete examples of what worked and didn't work, why we chose Flink for our product, and how to create an entire streaming stack using just SQL!"

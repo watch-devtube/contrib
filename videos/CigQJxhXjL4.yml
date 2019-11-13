@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - performance
+title: 'Bringing Cypher to Apache Flink, Sören Reichardt'
+recordingDate: 1571144830
+description: "Cypher is a declarative graph query language based on the property graph model and used by database systems such as Neo4j. \nThe strive of insights into growing volumes of data, often in the range of petabytes, creates the need for distributed processing engines to overcome this task. While the world of relational systems can use Flink Table with its SQL capabilities, the graph world is lacking such engines. We at Neo4j implemented a backend agnostic Cypher query engine called OKAPI, that translates Cypher queries to relational operators on top of an abstract table. That table can then be implemented by any relational backend.\n\nDuring my master thesis I implemented such a backend for Flink Table and compared its performance to Neo4j Morpheus, our backend implementation for Apache Spark.\n\nIn this talk I will present the OKAPI query engine and my implementation including lessons learned from working with Flink Table and the Calcite optimizer framework. Furthermore, I will demonstrate benchmarking techniques and results for benchmarking Cypher queries on Apache Flink and Apache Spark."

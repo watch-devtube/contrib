@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - performance
+    - ux
+title: 'Build a Flink AI Ecosystem - Jiangjie Qin'
+recordingDate: 1571305424
+description: "Machine learning, especially deep learning, has become critical in data processing. Frameworks such as TensorFlow, PyTorch or Caffe are widely adopted in the industry to fulfill the deep learning requirements. Meanwhile, traditional machine learning are also preferred in some other areas. Compared to some other processing engines, Flink was not considered as a strong player in ML in the past. However, in the recent year, the community has invested quite some efforts to catch up in AI. This talk summarizes the efforts and progress in Flink to build its own AI ecosystem, including:\n\n1. Refined ML Pipeline. We have redesigend ML pipeline interface on top of Table API. Thanks to the stream / batch unification in Table API, users can enjoy a simple and consistent experience in both online and offline learning scenarios.\n\n2. Deep learning on Flink. Instead of yet create another DL framework, we decided to embrace the existing popular frameworks such as TF and PyTorch. This allows users to run these frameworks in parallel in Flink with fault tolerance and monitoring support.\n\n3. Enhanced native iteration support in Table API. One key feature that distinguish Flink from other processing engine is its support for native iterations, which has better performance. We added the native iteration in Table API to address the needs for iterative processing in AI. Moreover, To improve the user experience, we enhanced the iteration API to support multi-variable and nested iterations.\n\nCombining Flink's data processing capability with these efforts, we would like to establish an ecosystem which provides users with an end-to-end support in all AI stages. The talk will demonstrate how AI practitioners, such as algorithm writers and ML lib users, would benefit in their ML tasks from data cleansing to model training, model validation, model serving and inference."

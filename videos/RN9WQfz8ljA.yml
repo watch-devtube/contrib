@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - ml
+    - tensorflow
+    - architecture
+    - rust
+title: 'Introducing Arc: A common int. lang. for unified batch and stream analytics. - Meldrum & Segeljakt'
+recordingDate: 1571154389
+description: "Today's end-to-end data pipelines need to combine many diverse workloads such as machine learning, relational operations, stream dataflows, tensor transformations, and graphs. For each of these workload types exist several frontends (e.g., DataFrames/SQL, Beam, Keras) based on different programming languages as well as different runtimes (e.g., Spark, Flink, Tensorflow) that target a particular frontend and possibly a hardware architecture (e.g., GPUs). Putting all the pieces of a data pipeline together simply leads to excessive data materialisation, type conversions and hardware utilisation as well as miss-matches of processing guarantees.\n\nOur research group at RISE and KTH in Sweden has founded Arc, an intermediate language that bridges the gap between any frontend and a dataflow runtime (e.g., Flink) through a set of fundamental building blocks for expressing data pipelines. Arc incorporates Flink and Beam-inspired stream semantics such as windows, state and out of order processing as well as concepts found in batch computation models. With Arc, we can cross- compile and optimise diverse tasks written in any programming language into a unified dataflow program. Arc programs can run on various hardware backends efficiently as well as allowing seamless, distributed execution on dataflow runtimes. To that end, we showcase Arcon a concept runtime built in Rust that can execute Arc programs natively as well as presenting a minimal set of extensions to make Flink an Arc-ready runtime."
