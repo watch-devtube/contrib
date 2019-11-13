@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - performance
+title: 'CppCon 2019: Michael Spencer “Building Modules”'
+language: English
+recordingDate: 1570345203
+description: "http://CppCon.org\n—\nDiscussion & Comments: https://www.reddit.com/r/cpp/\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/CppCon/CppCon2019\n—\nC++20 brings us modules, which, for the first time in 40 years, change the fundamental way in which we build code. In this talk we will cover the different ways C++ code using modules can be built, explore some actual build systems supporting modules, and explain the build performance implications of each method. Modules provide isolation between components to a level never before available in C++, and allow us to share the work of parsing interfaces between compile steps. At their core both headers and modules are represented by a dependency graph. Conceptually, headers resolve this graph by duplicating, pruning, and flattening it for each translation unit. Modules can avoid this duplication, but if they do they pay for it with serialization and synchronization overhead. The end result of this trade-off depends on the shape of your build.\n— \nMichael Spencer\nCompiler Engineer, Apple\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"

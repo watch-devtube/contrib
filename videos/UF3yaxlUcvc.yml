@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - bigdata
+    - ml
+    - cloud
+    - aws
+    - tdd
+    - architecture
+    - scala
+title: 'YOW! Data 2019 - Reza Yousefzadeh - Bringing Continuous Delivery to Big Data Applications'
+recordingDate: 1565816405
+description: "In this presentation I will talk about our experience at SEEK implementing Continuous- Integration & Delivery (CI/CD) in two of our Big Data applications.\n\nI will talk about the Data Lake project and its use of micro-services to break down data ingestion and validation tasks, and how it enables us to deploy changes to production more frequently. Data enters SEEK’s data lake through a variety of sources, including AWS S3, Kinesis and SNS. We use a number of loosely coupled serverless microservices and Spark jobs to implement a multi-layer data ingestion and validation pipeline. Using the microservices architecture enables us to develop, test and deploy the components of the pipeline independently and while the pipeline is operating.\n\nWe use Test-Driven Development to define the behaviour of micro-services and verify that they transform the data correctly. Our deployment pipeline is triggered on each code check-in and deploys a component once its tests pass. The data processing pipeline is idempotent so if there is a bug or integration problem in a component we can fix it by replaying the affected data batches through the component.\n\nIn the last part of the talk, I’ll dive deeper into some of the challenges we solved to implement a CI/CD pipeline for our Spark applications written in Scala.\n\nSoftware engineer with more than 15 years of experience in the industry, with roles ranging from developing applications to leading teams. I enjoy speaking and exchanging ideas at local meetups and internal company communities of practice. I am passionate about automation, big data and machine learning.\n\nFor more on YOW! Conference, visit http://www.yowconference.com.au"

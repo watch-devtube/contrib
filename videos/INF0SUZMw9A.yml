@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+    - craftsmanship
+    - functional
+title: 'YOW! Lambda Jam 2019 - Fraser Tweedale - Infinite Scroll: Lazy Lists in the Brick TUI Library'
+recordingDate: 1563397202
+description: "The Brick terminal UI library provides a rich library of widgets for building console applications in Haskell. These include a list widget, which uses a packed vector type under the hood: a major problem when working with lists that are very large or expensive to compute.\n\nIn this case study I will review, step by step, how I generalised Brick's list widget to admit different underlying container types and achieved lazy loading of list items. The presentation will address several topics including:\n\nThe advantages of more general (polymorphic) code, including parametricity\nEnsuring adequate test coverage before refactoring or generalising\nMaintaining backwards compatibility\nAssessing and documenting asymptotic performance\nUsing Brick list widget in a real-world application (purebred MUA) for lazy loading where I/O is involved\nHow to evaluate a lazy structure in the background (and why you might want to)\nCan we really achieve infinite scroll, or is my presentation title just clickbait?\nCode examples will abound, and live demonstrations will both justify the work that was done, and show the pleasing results. The presentation uses Haskell exclusively but principles and advice for generalising code apply to many languages.\n\nFraser works at Red Hat on the FreeIPA identity management system,\nDogtag Certificate System and related projects. He's interested in security,\ncryptography and functional programming.  Jalapeño aficionado.\n\nFor more on YOW! Conference, visit http://www.yowconference.com.au"

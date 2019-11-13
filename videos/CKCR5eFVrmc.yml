@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - functional
+title: 'CppCon 2019: Matthew Fleming “The Smart Pointers I Wish I Had”'
+language: English
+recordingDate: 1569740400
+description: "http://CppCon.org\n—\nDiscussion & Comments: https://www.reddit.com/r/cpp/\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/CppCon/CppCon2019\n—\nC++ offers two owning smart pointers, and a proposed non-owning smart pointer in the C++20 Library Fundamentals v2 Technical Specification. This talk will cover the kinds of semantics I think are important in a non-owning pointer, why I think more than one is desirable, and why the existing C++ owning smart pointers are sub-optimal for some use-cases. I will show how correct use of non-owning smart pointers can reduce memory lifetime issues, clarify code, and nearly eliminate incorrect ownership.\n\nFor asynchronous programming especially, the lifetime of observing pointers can be a source of significant and difficult to debug issues. I'll cover a mental model to use when writing code that helps focus on where lifetime issues might be likely, and where they will be unlikely.\n— \nMatthew Fleming\nSoftware Engineer, Pure Storage\nI've been working in systems software for almost 20 years now, mostly on virtual memory and filesystems, in both C and C++. I tend to find myself gravitating lower and lower in the stack, to code primitives, library helpers, and getting very close to the hardware.\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"
