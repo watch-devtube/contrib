@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - aws
+    - containers
+    - docker
+    - kubernetes
+    - functional
+title: 'DevOpsDays Chicago 2019 - Nick Petrovits, Allen Nelson - Migrating from VMs to K8s'
+language: English
+recordingDate: 1568064085
+description: "Nick Petrovits, Allen Nelson - Migrating from VMs to K8s\n\nJoin us as we describe our migration from a limiting cloud deployment on long-running VMs with shared infrastructure to a streamlined immutable infrastructure built on top of Docker and K8s. We’ll also discuss techniques to support local development during this transition.\n\nMany teams wish they could reap the widely known benefits of Kubernetes (K8s), but most struggle to migrate to a new infrastructure while simultaneously supporting two deployment models and avoiding impacts to the velocity of software development. In this talk, we describe the particular challenges we faced during our incremental migration from multiple long-running singleton EC2 instances to a containerized solution.\n\nWe’ll highlight:\n\nWhat challenges motivated us to transition to K8s?\nApproaching an infrastructure migration incrementally to minimize impacts to local development and production deployments\nDeveloping a solution to provide the same abstraction for local development that exists in production\nConcurrently supporting multiple deployment models to reduce risk and simplify migration\nStrategy variations for synchronous and asynchronous services\nNetworking challenges with Vagrant and Docker\nIntegrating K8s with a CI/CD pipeline\nTuning the environment"

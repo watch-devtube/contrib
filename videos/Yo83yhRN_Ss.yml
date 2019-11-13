@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - performance
+    - web
+    - react
+    - javascript
+    - rust
+    - wasm
+title: 'RustConf 2019 - From Electron, to Wasm, to Rust (Aaand Back to Electron) by Irina Shestak'
+language: English
+recordingDate: 1568910217
+description: "RustConf 2019 - From Electron, to Wasm, to Rust (Aaand Back to Electron) by Irina Shestak\n\nSo you heard you can run WebAssembly in the browser, but what does this look like IRL? Seeking the much talked about performance benefits of running WASM in the browser, Compass (GUI for MongoDB) took the great leap forward and rewrote part of the application – a schema parser responsible for document analysis – in Rust. As it turns out, the rumours are true, I repeat the rumours are true: offloading parts of your application to Rust makes it fast, and in some of our cases, heaps fast.\n\nIn this talk I will cover converting a part of an codebase from JavaScript to Rust, bringing it to Electron, adding WASM to an existing React app, and deploying this whole lot to production. As Compass still talks to MongoDB via Node.js, I will also cover how we used Rust to improve performance without losing data integrity. This talk is about a success story, but also about a bunch of smol mishaps, fun woopses and lil' dead ends we encountered and how we managed to overcome along the way."

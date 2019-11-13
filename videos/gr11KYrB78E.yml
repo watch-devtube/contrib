@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - python
+    - rust
+title: 'RustConf 2019 - Rust for Weld, a High Performance Parallell JIT Compiler by Shoumik Palkar'
+language: English
+recordingDate: 1568910217
+description: "RustConf 2019 - Rust for Weld, a High Performance Parallell JIT Compiler by Shoumik Palkar\n\nWeld is an open source Rust project that accelerates data-intensive libraries and frameworks by as much as 100x. It does so by JIT-compiling a custom parallel intermediate representation and optimizing across functions within a single library as well as across different libraries, so developers can write modular code and still get close to bare metal performance without incurring expensive data movement costs. We first describe our use of Rust to build an extensible, performance sensitive compiler for Weld. In particular, we discuss challenges in writing a native code generator with LLVM in Rust, challenges in reducing JIT compilation times within our compiler, and architecting the compiler for both extensibility using Rust's powerful trait system, but also portability of our library across other languages, such as Python and C. Finally, we discuss our experiences with building a parallel runtime in Rust, and the unique challenges associated with calling unsafe Rust from JIT'd code."
