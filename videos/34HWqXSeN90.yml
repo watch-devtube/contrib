@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - cassandra
+    - performance
+title: 'Move over JDBC: ADBA and R2DBC are coming! - Frank Lyaruu'
+language: English
+recordingDate: 1563194397
+description: "Video from Devoxx Poland 2019.\n\nWe’ve been using JDBC to access our SQL databases for decades, but JDBC is a blocking API. Blocking API’s can be problematic at times, and after years of promises, a ‘non blocking JDBC’ is on the horizon.\n\nWhen your application queries a database using JDBC, the thread used to make that query blocks: It simply waits while your database processes this request. It’s simple. It’s easy to reason about, but ultimately it can be a big waste of threads, and with that memory and CPU. For NoSQL databases like MongoDB and Cassandra non-blocking drivers are well established, but for SQL databases we’re generally stuck with JDBC i.e. blocking threads. There has been talk about some kind of ‘non-blocking’ JDBC for years, and finally it is happening. Oracle announced ADBA, it’s in incubation now, and Pivotal announced R2DBC, also experimental. We’ll talk about how we ended up with two (proposed) standards, and how it affects your performance and code."
