@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+    - testing
+    - java
+title: 'Protecting your organisation against attacks via the build system by Cédric Champeau'
+language: English
+recordingDate: 1573162365
+description: "Everyday, as developers, we build dozens of times. Sometimes without noticing (in the IDE), sometimes explicitly from the CLI (gradle test, mvn clean test), sometimes from CI. However, barely anyone recognizes the security risks of building software. Those attacks are not theoretical anymore.\n\nThis talk will highlight potential attack vectors and explain how we can mitigate them. The build tool is by definition insecure because it's a free execution environment. However, there are ways we can reduce the risks, or even significantly reduce them.\n\nSome topics we will cover:\n\nmaking sure the dependencies you use are the ones you expect\nusing checksums and signatures\nrejecting vulnerable dependencies\nbuild reproducibility\ndisposable build environments and mitigating performance issues related to them\ntesting external contributions\nWe will mostly illustrate those with Gradle but most of the recommendations are also valid with Apache Maven.\n\nCédric Champeau is Principal Software Engineer at Gradle, Inc, working on the open-source Gradle build tool. He contributed performance improvements and is currently mainly focused on dependency management with Gradle. Previously Cédric worked on the Apache Groovy project, where he implemented the static compiler and worked on many compile time meta-programming features (AST xforms, traits, ...)"

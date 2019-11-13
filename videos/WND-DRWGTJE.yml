@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - testing
+    - craftsmanship
+    - tdd
+    - java
+title: '[VDT19] TDD for jenkins pipelines by Mauro Ferratello'
+language: English
+recordingDate: 1570813032
+description: 'We wrote a lot of abstraction (groovy libraries) around Jenkins pipelines in order to avoid reinventing the wheel and make continuous delivery (on kubernetes cluster) pipelines easy for all the developers. How can we provide such kind of tools avoiding to break everything (see regression)? How can we avoid to waste time manually testing our code? But more difficult, how can we test it on our local machine? I''d like to show the various approaches to TDD we adopted, from unit tests to integration test, running locally and on a live Jenkins instance.'

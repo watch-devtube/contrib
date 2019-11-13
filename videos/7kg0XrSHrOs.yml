@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - elixir
+    - phoenix
+title: 'ElixirConf 2019 - Creating an External Racing Steering... - Geoffrey Lessel'
+recordingDate: 1567111779
+description: "I am a sim-racer. I love racing simulated cars online with other people or offline against a good AI. Many of the more complex cars you can race in these simulators have complex steering wheel displays that provide the racer with a lot of information they may need to get the best out of their car during the race. Many of the top simulators can also provide a detailed feed of information to third-party applications. An on-screen display is sometimes not enough or isn't configurable. I wanted an external device that I could mount on my racing rig that would provide the information I wanted when I wanted it.\n\nIn this talk, I will demonstrate the racing steering wheel display I created using Elixir and the Scenic UI library. It provides real-time updates using information gathered from the game F1 2018 to allow me information at my fingertips. Under the hood, there are interesting problems to solve such as subscribing to and decoding the binary stream from the game, using GenServers to handle the constant stream of information, setting up multiple pub/sub mechanisms to ensure that each \"thing\" in the system has the information it needs at all times, and using scenic to provide the final display to the screen.\n\nBio\nGeoffrey Lessel has had an interest in programming ever since his\n\nfamily had a 286 in the family room growing up. He’s developed for fun\n\nand profit for three decades in all sorts of languages. Geoffrey\n\nrecently released Phoenix in Action with Manning Publications."

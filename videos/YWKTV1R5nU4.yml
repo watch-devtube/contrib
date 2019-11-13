@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+    - architecture
+    - functional
+title: '"Empowering people to build a digital bank" by Eric Yoshimura and Riad Vargas'
+language: English
+recordingDate: 1568862655
+description: "We are going to talk about how we built, maintain and scale our microservices architecture. We are a fast-growing digital bank with a lot of challenges regarding scalability, operability and reliability and we would like to present a structured talk about the key components of our ecosystem and also how they interact with each other. Since day-one we architectured our entire infrastructure to run on cloud and to be platform agnostic, that gave us the ability of growing fast and ensuring our high standards reliability. Nowadays we decouple our infrastructure from EC2 Amazon instances to Kubernetes where we gained the desired agnosticism. There's a few characteristics that are not so usual and gives us a lot of leverage when compared to our competitors, things like Sharding and Homogeneous Codebase, using functional programming as our main paradigm. Also, we build and maintain abstractions that help our engineering team to smoothly operate and constantly improve their microservices, and furthermore the products we offer to customers. One of things we use to achieve high levels of resilience and reliability is Kubernetes with our own developed tooling and abstractions, which allows us to provide fast interaction cycle and an even more optimized way to deploy services and other infrastructure parts. For instance, we deploy things like Thanos, Prometheus and Grafana using those abstractions to ensure fast-ish manner to release and control software versioning.\n\nEric Yoshimura\nNubank\n@ericyoshimura_\n\nEric Yoshimura is a Software Enginner at Nubank, currently living in São Paulo, Brazil. Nowadays working on a SRE team helping to build an awesome monitoring platform. In spare time, Eric likes to watch NHL games and learn about economics stuff.\n\nRiad Vargas\nNubank\n@riadvargas\n\nRiad Vargas is a Software Engineer at Nubank, with more than 2 years of experience developing and maintaining microservices in the financial industry, focused in functional programming, transactional databases and SRE stuff."
