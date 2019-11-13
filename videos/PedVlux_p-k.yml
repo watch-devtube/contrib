@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - security
+    - testing
+    - craftsmanship
+    - architecture
+title: 'CppCon 2019: Peter Sommerlad “C++ Class Natures in Their Canonical Form and How to Find Them”'
+language: English
+recordingDate: 1570863605
+description: "http://CppCon.org\n—\nDiscussion & Comments: https://www.reddit.com/r/cpp/\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/CppCon/CppCon2019\n—\nWhile working on guidelines for safety critical systems the author discovered that looking at the required special member functions and kind of member variables one can clearly distinguish several C++ class type natures. For example, there exist empty types, such as traits, or value types, such as std::string. But also types that manage resources, such as scope guards or unique managers, can be distinguished. A last area are object-oriented polymorphic base classes forming a separate nature. This categorization has direct influence on the applicability of the \"Rule of Zero\", \"Rule of Five\", or the author's \"Rule of DesDeMovA\". The nature of member variables influence the nature of the class embedding them.\n\nThis talk maps the landscape of class/type natures and how they influence directly or indirectly the way you specify or the compiler provides copy or move operations and a destructor. With that information you will get concrete guidelines to provide canonical class types more consciously with the least amount of code scaffolding. It also helps you to avoid creating easy to misuse types and gives guidance to encapsulate and hide \"dirty tricks\" that you might still need or want.\n— \nPeter Sommerlad\nIFS Institute for Software\nProfessor\nRapperswil/SG, Switzerland\n\nProf. Peter Sommerlad is director of IFS Institute for Software at FHO/HSR Rapperswil, Switzerland. Peter is co-author of the books POSA Vol.1 and Security Patterns and contributed to \"97 things every programmer should know\". His goal is to make software simpler and safer by Decremental Development: Refactoring software down to 10% its size with better architecture, testability and quality and functionality. To reach that goal his team and students created the C++ IDE Cevelop. Peter is a member of MISRA-C++, Hillside, ACM, IEEE Computer Society, SI, ACCU, and the ISO C++ standardization committee.\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"
