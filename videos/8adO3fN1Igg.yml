@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - c++
+    - startup
+    - testing
+    - agile
+    - python
+title: 'CppCon 2019: Manu Sánchez “Next generation unit testing using static reflection”'
+language: English
+recordingDate: 1570431600
+description: "http://CppCon.org\n—\nDiscussion & Comments: https://www.reddit.com/r/cpp/\n—\nPresentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/CppCon/CppCon2019\n—\nUnit testing is a widely accepted practice in the software engineering industry, which has been demonstrated to help reduce bugs in production and provide faster iteration cycles for development, helping with development trends such as agile development or continuous deployment.\n\nWhile being part of the core of modern development, C++ due to its current language limitations lacks a unit testing framework that's expressive and concise enough to keep developers focused around tests themselves and not around all the code needed to support the tests. Current unit testing solutions for C++ usually require arcane constructions through macros, intrusive changes in the tested codebase in the form of class hierarchies for easy mocking, and in some cases manual test registration.\n\nI present unittest, a proof of concept unit testing framework for C++14 based on Python's standard unittest package. unittest avoids the problems described above by using static reflection to figure out what code describes a unit test, and what library functions should be mocked as part of the test. Current C++14 implementation is based on tinyrefl, a libclang based static reflection tool, but the same concept will be possible to implement through future C++ reflection features like those proposed by the Reflection Technical Specification.\n— \nManu Sánchez\nBy Access Control Systems\nSoftware Engineer\nMadrid, Spain\n\nManuel Sanchez started playing with modern C++ during his first year at the university, evolving into a template metaprogramming nerd and so-called C++ \"expert\". In September 2014 Manuel joined the Spanish startup biicode as a C++ consultant, helping the main developers packaging complex C++ libraries such as Boost. Since September 2015 Manuel is a software developer at By, a Spanish firm specialized in access control systems. Since January 2016 is a member of the Spanish ISO C++ national body.\n—\nVideos Filmed & Edited by Bash Films: http://www.BashFilms.com"
