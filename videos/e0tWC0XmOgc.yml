@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - azure
+    - architecture
+title: 'SQL Database Connectivity Explained | Data Exposed'
+language: English
+recordingDate: 1565870408
+description: "This session explains the basics of how connectivity works for SQL Database and how you can use network access controls to securely access SQL Database. \n\nNote: At 7:33 during the video, it is said that “Allow Access to Azure services” restricts traffic to resources within the subscription - which is incorrect. Setting Allow access to Azure services button on the Portal (Firewall settings page) to ON shall allow traffic to/from resources ( e.g. Azure VM) or PaaS services( e.g. Web App) hosted inside Azure - within same subscription or from another subscription.\nRead more at the following links: Connectivity Architecture: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connectivity-architecture?WT.mc_id=dataexposed-c9-niner.\n\nImpact of removing Allow Access to Azure Services: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#impact-of-removing-allow-azure-services-to-access-server?WT.mc_id=dataexposed-c9-niner.\n\nIP Based Firewall: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure?WT.mc_id=dataexposed-c9-niner, Vnet Firewall Rules: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?WT.mc_id=dataexposed-c9-niner. \n\nFollow Rohit Nayak and Colin Murphy on Twitter at https://twitter.com/sqlrohit and https://twitter.com/colinatwork.\n\nMore Data Exposed: https://www.youtube.com/playlist?list=PLlrxD0HtieHieV7Jls72yFPSKyGqycbZR"
