@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - python
+    - embedded
+title: 'Florian Wahl - Building Industry 4.0 logistics applications with MicroPython and ESP32 MCUs'
+language: English
+recordingDate: 1569262709
+description: "\"Building Industry 4.0 logistics applications with MicroPython and ESP32 MCUs\n[EuroPython 2019 - Talk - 2019-07-11 - Shanghai]\n[Basel, CH]\n\nBy Florian Wahl\n\nIn this session, we will report about a forklift hailing application we built using MicroPython and the ESP32-based prototyping hardware M5Stack. \nIn a production facility, machine operators can hail a forklift using an ESP32 device running MicroPython. The device sends a request to a forklift dispatcher software, written in Python. The request is queued and subsequently, the next available forklift is notified and sent to the machine. Each forklift is also fitted with an ESP32 device. In this project, the prototyping hardware M5Stack was used. It features an ESP32 micro controller with Bluetooth, WIFI, GPIO, three buttons, and a display.\n\nAttendees will learn how MicroPython and prototyping hardware can be used to scale from an idea on the developers desk to a working system in a rough Industry 4.0 production environment. The talk will recap our journey with MicroPython, the lessons learned, and the pitfalls to avoid. Furthermore, the tooling setup will be introduced, including our M5Stack GUI-simulator to mock the M5Stack display. \n\nThe central dispatch server is built using Python and deployed in a Docker container. Messages are exchanged using MQTT, a popular IoT message protocol. The talk will conclude with a live demonstration of the forklift hailing system. Attendees should be comfortable with the Python syntax but are not expected to have any MicroPython, MQTT, Docker or domain knowledge.\n\nMaterials can be found at https://gitlab.com/fwahl/europython2019.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/"

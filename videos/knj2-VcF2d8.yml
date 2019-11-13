@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mongo
+    - python
+    - functional
+title: 'Ronan Lamy - Opening PyPy''s magic black box'
+language: English
+recordingDate: 1569262848
+description: "\"Opening PyPy's magic black box\n[EuroPython 2019 - Talk - 2019-07-11 - MongoDB]\n[Basel, CH]\n\nBy Ronan Lamy\n\nPyPy is a fast and compliant implementation of Python. In other words, it's an interpreter for the Python language that can act as a full replacement for the reference interpreter, CPython. It's optimised to enable efficient just-in-time (JIT) compilation of Python code to machine code, and has releases matching versions 2.7, and 3.6. It now also supports the main pillars of the scientific ecosystem (numpy, Cython, scipy, pandas, ...) thanks to its emulation layer for the C API of CPython.\n\nThe PyPy JIT is often just described as \"\"magically running your code faster\"\", but is actually what is known as a \"\"meta-tracing JIT\"\". \nA tracing JIT optimises loops by recording and optimising a single, hopefully representative, execution of the loop. While crude, that approach is known to be effective for just-in-time compiler. Additionally, PyPy's JIT is \"\"meta\"\" in the sense that it traces the execution of the interpreter while it runs some user-code instead of tracing the user-code directly. This again simplifies the compiler. We will explore how all this works together and is implemented (spoiler: it's Python all the way down!).\n\nThis talk assumes no prior knowledge of compiler theory nor of PyPy internals, and should be of interest to anybody who wishes that their pure-Python code would run faster. The audience will gain a firmer understanding of how PyPy operates and optimises code, and how to how to get the most out of the PyPy JIT.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/"

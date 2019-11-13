@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - mongo
+    - php
+    - python
+    - java
+title: 'Christian Heimes - Introduction to low-level profiling and tracing'
+language: English
+recordingDate: 1569262848
+description: "\"Introduction to low-level profiling and tracing\n[EuroPython 2019 - Talk - 2019-07-11 - MongoDB]\n[Basel, CH]\n\nBy Christian Heimes\n\nPython has built-in tracing and profiling facilities in form of callback hooks in the sys module. The settrace and setprofile callbacks have several drawbacks. They slow down the Python interpreter considerable and only allow tracing of Python code. Modern OS and CPUs come with a variety of APIs for efficient and low-level tracing down to system calls, Kernel space code, and hardware events. Some tools even create code that runs in Kernel space.\n\nThis talks is an introduction and comparison of various low and high level tools for profiling and tracing as well as visualization tools like flame graphs. It covers ptrace, perf, SystemTap, and BCC/eBPF. Ptrace based commands like strace are easy to use but slow. Perf allows lightweight profiling of hardware events and CPU instructions. SystemTap is a powerful toolkit plus DSL to instrument probe points inside the Kernel as well as static SystemTap/DTrace markers in libs and languages like Java, PHP, and Python. CPython comes with a set of instrumentations for SystemTap. BCC is a collection of tools that run as JIT optimized eBPF code in Kernel space.\n\nThe talk is an introduction to basic concepts of low-level tracing and profiling on Linux. The main goal is the show the potential of the tools.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/"

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - performance
+    - python
+title: 'Paolo Galeone - Dissecting tf.function to discover AutoGraph strengths and subtleties'
+language: English
+recordingDate: 1567527787
+description: "\"Dissecting tf.function to discover AutoGraph strengths and subtleties\n[EuroPython 2019 - Talk - 2019-07-10 - Singapore [PyData track]\n[Basel, CH]\n\nBy Paolo Galeone\n\nAutoGraph is one of the most exciting new features of Tensorflow 2.0: it allows transforming a subset of Python syntax into its portable, high-performance and language agnostic graph representation bridging the gap between Tensorflow 1.x and the 2.0 release based on eager execution.\n\nUsing AutoGraph with the code@tf.fuction/code decorator seems easy, but in practice, writing efficient and correctly graph-convertible code requires to know in detail how AutoGraph and tf.function work.\n\nIn particular, knowing how:\n\n\nA graph is created and when it is re-used;\nTo deal with functions that create a state;\nTo correctly use the Tensorflow codetf.Tensor/code object instead of using the Python native types to speed-up the computation;\n\n\ndefines the minimum skill-set required to write correct graph-accelerable code.\n\nThe talk will guide you trough AutoGraph and codetf.function/code highlighting all the peculiarities that are worth knowing to build the right skill-set.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/"

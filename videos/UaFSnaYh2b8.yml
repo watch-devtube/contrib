@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - c++
+    - performance
+    - python
+title: 'Christoph Deil - Understanding Numba - the Python and Numpy compiler'
+language: English
+recordingDate: 1569262848
+description: "\"Understanding Numba - the Python and Numpy compiler\n[EuroPython 2019 - Talk - 2019-07-11 - PyCharm]\n[Basel, CH]\n\nBy Christoph Deil\n\nDo you have numerical code written in Python and Numpy? Do you wish it ran faster, using the full potential of your CPU?\n\nThen you should try Numba, a JIT compiler that translates a subset of Python and Numpy code into fast machine code.\n\nThis talk will explain how Numba works, and when and how to use it for numerical algorithms, focusing on how to get very good performance on the CPU.\n\nTo understand this talk, only a basic knowledge of Python and Numpy is needed.\n\nYou will learn how Python compiles functions to bytecode and how Numba compiles bytecode to machine code. Why algorithms implemented using Numpy sometimes don't yield great performance, and how to do better using Numba. You will learn about the @numba.jit and @numba.vectorize decorators and how to create functions that use the CPU well by using e.g. multi-threading (several CPU cores), vector instructions (single instruction multiple data) and fast math (trade float accuracy for speed).\n\nYou will also learn when it does and doesn't make sense to use Numba, by contrasting it briefly with some other options for high-performance computing from Python: PyPy, C, C++, Cython, Numexpr, Dask, PyTorch, Tensorflow and Google JAX\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2019.europython.eu/events/speaker-release-agreement/"
