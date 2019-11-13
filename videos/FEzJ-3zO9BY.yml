@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'Approximate standing queries on Stream Processing - Tobias Lindener'
+recordingDate: 1562947167
+description: "Flink Forward Berlin, September 2018 #flinkforward\n\nData analytics in its infancy has taken off with the development of SQL. Yet, at web-scale, even simple analytics queries can prove challenging within (Distributed-) Stream Processing environments. Two such examples are Count and Count Distinct. Because of the key-oriented nature of these queries, traditionally such queries would result in ever increasing memory demand. Through approximation techniques with fixed-size memory consumption, said tasks are feasible and potentially more resource efficient within streaming systems. This is demonstrated by integrating Yahoo Data Sketches on Apache Flink. The evaluation highlights the resource efficiency as well as the challenges of approximation techniques (e.g. varying accuracy) and potential for tuning depending on the dataset. Furthermore, challenges in integrating the components within the existing Streaming interfaces(e.g. Table API) and stateful processing are presented.\n\nhttps://data-artisans.com/"

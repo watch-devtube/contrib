@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - web
+    - react
+    - architecture
+    - functional
+title: 'GopherCon UK 2019: Corver Roos - Dr Jekyll and Mr  Hyde, Embracing the Dual Nature of State'
+recordingDate: 1570001202
+description: "You are halfway through processing some business logic in one of your micro services then boom! something fails. This may be due to network issues, or a 3rd party API being down or a deploy of your service. How do you consistently recover from that failure?\n\nThis talk explains Luno’s approach to building application logic that is easy to reason about and robust to failures. The following things will be covered:\n-Why good old mutable sql tables (where rows are inserted and later updated) are still a great way of storing and representing state.\n-How using state machines to control state updates (explicitly defining the life cycle of a row) can help you to understand your business logic.\n-When you couple a mutable table with an immutable event table (by inserting an event row for every update in the other table), you maintain a record of every change to your state.\n-If you then expose these immutable events as gRPC streams, you provide a way for any microservice to react to a change in any other.\n-How ensuring that if your event consumers are idempotent (able to process the same event twice) your business logic becomes robust to most failures.\n-And finally, if you then explicitly introduce regular failures in your application logic, you start becoming confident about recovering when an actual failure occurs."

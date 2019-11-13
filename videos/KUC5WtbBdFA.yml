@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'GopherCon UK 2019: Roberto Clapis - Tackling Contention: The Monsters Inside the ''sync.Locker'''
+recordingDate: 1570001202
+description: "Go is all about parallelism and concurrency, but they don’t come for free. This talk is about measuring their contention price, and being able to reduce it.\n\nSome light will be shed on ways to measure the computational power wasted waiting. The trace/block and pprof tools and libraries will be explained with actionable examples.\n\nAfter showing how to find contention issues, some handy ways to address them will be shown:\n-Splitting work: different ways to change common algorithms to not have a centralized state.\n-From channels to mutexes: where it makes sense to make the switch, and why.\n-From mutexes to atomics: the real price of making this step, and how to make an informed choice about it."

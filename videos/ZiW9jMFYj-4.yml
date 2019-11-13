@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'MERA: Trading precision for performance - Niklas Semmler'
+recordingDate: 1562969753
+description: "Flink Forward Berlin, September 2018 #flinkforward\n\nSudden spikes in load can be a source of disaster for stream processors. These spikes can reveal latent bottlenecks in otherwise well-balanced configurations and through them introduce backpressure, increase latency and reduce overall throughput. This problem is far from being solved. While the prevailing solution of dynamic scaling (i.e. the process of re-deploying the analytic job on an increased set of resources) offers relief in some cases, it has the disadvantage of requiring free resources to be available during the spike and additionally risks violating existing SLAs during the re-deployment phase. As an alternative, we have implemented MERA. MERA prioritizes items based on their value for the result of an analytic job. When a job is in risk of creating backpressure, MERA sheds items of lower priority at selected locations in the job graph, ensuring that the job stays within its SLA. MERA relies on Flink's internal metrics to restrict its overhead during normal operations to a minimum. In this talk we present MERA, a framework for trading in precision for performance. We demonstrate MERA via a custom performance monitor for Apache Flink.\n\nhttps://data-artisans.com/"

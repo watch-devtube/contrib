@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'GopherCon UK 2019: Eran Yanay - Going Infinite: Handling 1 Million Websocket Connections in Go'
+recordingDate: 1570001202
+description: "Go HTTP server provides great scalability, allocating a goroutine per connection, and reusing the efficient multiplexing and scheduling of the Go runtime. While this technique is almost ideal for most scenarios, it comes with limited scale for websockets apps due to high memory consumption.\n\nIn this talk, we will show how we’ve implemented our own event loop mechanism to overcome those limitations and efficiently manage millions of concurrent connections while minimizing resource utilization."

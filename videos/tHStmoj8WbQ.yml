@@ -1,0 +1,5 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Exploiting Apache Flink''s Stateful Operators - Olga Slenders & Gijsbert van Vliet'
+recordingDate: 1563120649
+description: "Flink Forward Berlin, September 2018 #flinkforward\n\nFlink’s stateful processing allows enriching the event data with data acquired from previous events. To achieve this, a KeyedStream is used to distribute state and its processing by key. Sometimes, though, an event contains not a single but multiple keys, requiring the state to be distributed and aggregated in multiple ways. In this talk, will present a common Flink pattern, where an event is enriched with multiple aggregates without shuffling all the data across the network multiple times. You may also need to change the aggregation at runtime. With the help of control streams, the same pattern can allow to dynamically update behavior of the KeyedStream without bringing the Flink job down.\n\nhttps://data-artisans.com/"

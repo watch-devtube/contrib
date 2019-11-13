@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+title: 'Stream Loops on Flink: Reinventing the wheel for the streaming era - Paris Carbone'
+recordingDate: 1562976044
+description: "Flink Forward Berlin, September 2018 #flinkforward\n\nYou have probably heard that stream processing subsumes batch workloads, a valid but not yet fully implemented claim. Our lab research aims to fulfil this dream and delve further into the deep world of iterative processes, a fundamental building block for graph and machine learning algorithms. Yet, a building block that is missing from your stream pipelines today. In this talk, we will investigate why bulk and stale synchronous iterative models are nothing more than a special case of out-of-order stream processing, the paradigm behind your ultra fast watermark-based window aggregations on Flink and Beam. Next, we will examine how watermarks can be extended to incorporate more metrics for tracking iterative progress as well as the necessary structured graph modifications (spoiler alert: loops) that can make our lives easier. Finally, we will demonstrate how on top of these primitives we can execute scalable multi-pass window aggregations with purgeable and persistent managed state as well as robust flow control and several domain specific applications such as Vertex-centric graph aggregations and Stochastic Gradient Descent on stream windows.\n\nhttps://data-artisans.com/"

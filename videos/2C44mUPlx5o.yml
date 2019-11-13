@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - architecture
+title: 'Taming large-state to join datasets for Personalization - Shriya Arora'
+recordingDate: 1563148818
+description: "Flink Forward Berlin, September 2018 #flinkforward\n\nStreaming engines like Apache Flink are redefining ETL and data processing. Data can be extracted, transformed, filtered and written out in real-time with an ease matching that of batch processing. However the real challenge of matching the prowess of batch ETL remains in doing joins, in maintaining state and to have the data be paused or rested dynamically. Netflix has a microservices architecture. Different microservices serve and record different kind of user interactions with the product. Some of these live services generate millions of events per second, all carrying meaningful but often partial information. Things start to get exciting when we want to combine the events coming from one high-traffic microservice to another. Joining these raw events generates rich datasets that are used to train the machine learning models that serve Netflix recommendations. Historically we have done this joining of large volume data-sets in batch. However we asked ourselves if the data is being generated in real-time, why must it not be processed downstream in real time? Why wait a full day to get information from an event that was generated a few mins ago? In this talk, we will share how we solved a complex join of two high-volume event streams using Flink. We will talk about maintaining large state, fault tolerance of a stateful application and strategies for failure recovery.\n\nhttps://data-artisans.com/"

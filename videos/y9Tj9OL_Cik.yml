@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - aws
+    - embedded
+title: 'Our successful journey with Flink - Lasse Nedergaard'
+recordingDate: 1562998080
+description: "Flink Forward Berlin, September 2018 #flinkforward\n\nAt Trackunit we have based our telematic IoT processing pipeline on Flink. We started out on version 1.2 and are now on 1.5. In this session I will share the lessons learned going from one giant Flink job to many smalls and some of the problems we have seen operating Flink on AWS EMR cluster, including topics such as:\_\n\n• Why external enrichment can be challenging with Flink Async operator.\_\n• Pattern to change external enrichment into streaming join.\_\n• Building your own source\_\n• Why Flink restart is great but should be avoided as it will terminate your cluster.\_\n• Why iteration can cause deadlocking when backpressure occurs.\_\n• Kinesis rate exceeded exception\_\n• Why throttling Flink source read during catchup is needed.\_\n• Why we moved from EMR/Kinesis and into DC/OS and kafka.\_\n• And much more.\_\n\nhttps://data-artisans.com/"
