@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+title: 'One SQL to Rule Them All - Fabian Hueske'
+recordingDate: 1571310654
+description: "Apache Calcite is a data management framework that includes a SQL parser and query optimizer. It is used by many projects that implement SQL processing capabilities, including Apache Beam and Apache Flink. Over the last years, members of these three communities had many discussions about the semantics and syntax of “Streaming SQL”. End of last year, we decided to formalize and summarize our views and ideas in paper that we submitted to the Industrial Track of the SIGMOD 2019 conference. The paper got accepted (http://sigmod2019.org/sigmod_industry_list).\n\nIt presents a three-part proposal for integrating robust streaming into SQL, namely: (1) time-varying relations as a foundation for classical tables as well as streaming data, (2) event time semantics, (3) a limited set of optional keyword extensions to control the materialization of time-varying query results.\n\nThe paper shows how with these minimal additions it is possible to utilize the complete suite of standard SQL semantics to perform robust stream processing and motivates and illustrate these concepts using examples and describe lessons learned from implementations in Apache Calcite, Apache Flink, and Apache Beam.\n\nIn this talk, we present our “Syntactically Idiomatic Approach to Manage Streams and Tables”."

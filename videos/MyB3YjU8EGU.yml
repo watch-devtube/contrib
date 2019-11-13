@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - ux
+    - containers
+    - kubernetes
+    - architecture
+title: 'Running Flink in production: The good, the bad and the in-between - Lakshmi Rao'
+recordingDate: 1571395174
+description: 'The streaming platform team at Lyft has been running Flink jobs in production for more than a year now, powering critical use cases like improving pickup ETA accuracy, dynamic pricing, generating machine learning features for fraud detection, real-time analytics among many others. Broadly, the jobs fall into two abstraction layers: applications (Flink jobs that run on the native platform) and analytics (that leverage Dryft, Lyft’s fully managed data processing engine). This talk will give an overview of the platform architecture, deployment model and user experience. The talk will also dive deeper into some of the challenges and the lessons that were learnt, running Flink jobs at scale, specifically around scaling Flink connectors, dealing with event time skew (source synchronization) and highlight common patterns of problems observed across several Flink jobs. Finally, the talk will give insights into how we are re-architecting the streaming platform @ Lyft using a Kubernetes based deployment.'

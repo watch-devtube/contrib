@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - cloud
+    - python
+    - java
+title: 'Beam on Flink: How does it actually work? - Maximilian Michels'
+recordingDate: 1571311229
+description: "Apache Beam is a data processing model built with focus on portability. Beam jobs can be written in the language of your choice: Java, Python, Go, or SQL. Once written, they can be executed using various execution engines including Apache Flink, Apache Spark, Google Cloud Dataflow, and many more.\n\nIn order for Beam to support multiple execution engines, the Beam API needs to be translated to the API of the execution engine (e.g. Flink's). In Beam, this is the responsibility of the \"\"Runner\"\".\n\nThe Flink Runner has come a long way from an early stage Runner to a fully-featured Runner. Its latest addition is the integration of Beam's language portability layer which enabled to run jobs written in other languages than Java.\n\nIn this talk, we will dissect the Flink Runner and show how Beam's components tie together with Flink. If you have ever wondered how the Flink Runner or Beam works, this is your chance to find out."

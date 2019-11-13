@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - security
+    - architecture
+    - java
+    - rust
+title: 'Implementing a Simple JVM in Rust by Ben Evans'
+language: English
+recordingDate: 1573074703
+description: "The JVM is a truly remarkable piece of software, but it is still just a computer program, not magic! In this talk, I will explain how we might start to implement a JVM from scratch, using the Rust programming language. Fundamental concepts such as the bytecode interpreter, classfile parsing and memory management will be explained using an open-source implementation as reference.\n\nWe will build up a working interpreter capable of executing simple methods (initially represented as byte arrays).\n\nFrom there, we add features and build towards a more complete implementation that can actually execute simple Java classes. The talk is largely live coding in the IDE, where I will work with an implementation of the JVM written in Rust.\n\nThe implementation is designed to be easy to understand even for developers who are new to language implementation.\n\nNo real Rust experience is required - as I will provide a primer on the language in the first half of the talk.\n\nBen Evans is an author, speaker, architect and educator. He is currently Principal Engineer and JVM Architect at New Relic. Previously, he was a co-founder at jClarity, a performance tooling company and before that was Chief Architect for Listed Derivatives at Deutsche Bank. Ben served for 6 years on the Java Community Process Executive Committee, helping define standards for the Java ecosystem. He is a Java Champion, 3-time JavaOne Rockstar Speaker and the Java / JVM Track Lead at InfoQ. \n\nBen is author of “The Well-Grounded Java Developer”, “Java: The Legend”, \"Optimizing Java\" and the new editions of “Java in a Nutshell”. Ben is a regular speaker and educator on topics such as the Java platform, systems architecture, security, performance and concurrency at conferences all over the world."

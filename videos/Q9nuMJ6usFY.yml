@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - containers
+    - docker
+    - kubernetes
+    - java
+title: 'Writing a Kubernetes Operator in Java by Fabian Stäber'
+language: English
+recordingDate: 1572935063
+description: "Kubernetes is much more than a runtime platform for Docker containers. Its API can be extended with application-specific custom resource definitions (CRDs), and you can implement your own controllers adapting your applications dynamically to changes in the cluster. Application-specific custom controllers are called \"operators\".\n\nUntil recently, most operators were written in Go, re-using code from the built-in Kubernetes controllers. With Quarkus and the fabric8 Kubernetes Client we now have a great basis for implementing operators in Java, allowing us to integrate our existing code base with the power of Kubernetes API extensions.\n\nAt Instana, we used these new technologies to implement our instana-agent-operator. In this presentation, we will provide an experience report and lessons learned from implementing our own operator in Java.\n\nThe operator is available on https://github.com/instana/instana-agent-operator.\n\nDr. Fabian Stäber is Java developer and monitoring enthusiast at Instana. As part of the infrastructure team at Instana, he started the Instana agent operator project by porting previous work from Go to Java, and helped evolving it into a production-ready open source project. Fabian is excited about Java backend development, distributed systems, operations, and monitoring. His academic research was on decentralized, peer-to-peer-based network architectures."

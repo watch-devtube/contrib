@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - java
+title: 'Solving Memory Leaks in the JVM by Kirk Pepperdine'
+language: English
+recordingDate: 1572989637
+description: "One of the more important aspects of the Java Virtual Machine (JVM) is it’s managed memory subsystem. It’s an amazing piece of technology in that it allows developers to allocate a seemingly infinite amount of memory. The reality is that under the covers, the JVM is working on reclaiming all memory that is no longer in use. If the JVM is unable to recover memory, our application will fail with a dreaded OutOfMemoryError.\n\nThis session will cover several common scenarios that can cause the JVM to fail with an OutOfMemoryError. We’ll explore tooling and methods that can be used to diagnose the cause of an OutOfMemoryError.\n\nFinally, we’ll go toe to toe with apps suffer from an OutOfMemoryError for different reasons.\n\nTopics that will be covered include;\n\nOverview of Java heap\nAllocations in Java heap\nGC basics with Mark and Sweep\nNormal life cycle of a Java object\nCommon causes of OutOfMemoryError\nAnatomy of a memory leak\nTools for detecting memory leaks\n\nKirk has been working in high performance and distributed computing for nearly 20 years. Initially Kirk was architecting, developing, and tuning applications running on Cray and other high performance computing platforms. He now specialises in Java, where he works in all aspects of performance and tuning in each phase of a project life cycle.\n\nKirk was recognised as a Java Champion in 2006 in recognition of his outstanding contributions to the Java community."

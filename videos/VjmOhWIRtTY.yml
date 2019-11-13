@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - architecture
+title: 'Dockerfile: the best practices by Guillaume Lours & Jeremie Drouet'
+language: English
+recordingDate: 1572989637
+description: "From a Dockerfile taken \"randomly\" on Github, like a good old monolith, we will, by applying the best practices, transform this application into a set of reusable and understandable microservices.\n\nWe will start by externalizing the services used by our application using existing images and associating them in a Compose file.\n\nWe will optimize it by emptying the caches and removing unnecessary layers generated during the build of our application.\n\nWe will cut out the different build steps so that we do not have to keep the development dependencies in the final image\n\nWe will improve maintainability by using official images rather than manually installing our dependencies.\n\nWe will see how to avoid running our application as root.\n\nJeremie Drouet: Developer that develops\n\nGuillaume Lours : Software Engineer @docker"
