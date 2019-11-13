@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - python
+    - scala
+    - java
+title: 'GeeCON 2019: Łukasz Gajowy - Apache Beam - what do I gain?'
+recordingDate: 1563984103
+description: 'The Dataflow model known from Google Cloud and Apache Flink offers an “approach shift” when dealing with data. We no longer treat Stream as a special case of Batch and try to fit it in finite chunks - we use a well-designed Unified Model to implement both Batch and Stream scenarios in a consistent manner. “But I want to use Spark so this is not for me...” Try Apache Beam. It also implements the Dataflow model but (and this is new) it abstracts from any data processing backend. What if you could use this Unified Model once and run it on a runner of your choice? “But we only do Python!” Have you tried Beam’s multiple sdks (Java, Python, Go, Scala)? Beam (once it gets there) will be portable on every runner with every sdk that a developer has used. Choose your language, write code once, run on any backend you want. Those are the goals the project aims to achieve. I’ll go through the basics of the Dataflow model. I’ll talk about Beam in more detail and familiarize you with the current state of the project. If there’s time, I’ll also try to briefly show the current most important efforts in the project (such as portability).'

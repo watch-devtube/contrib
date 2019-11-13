@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - android
+    - architecture
+    - kotlin
+    - scala
+    - java
+title: 'GeeCON 2019: Paweł Mikołajczyk - Jazon - test assertions on JSONs have never been easier'
+recordingDate: 1563984102
+description: "Have you ever written a test where you needed to someway assert on JSON payload? With the recent fashion of microservices and real-time data pipelines, most of us faced that challenge. It wasn’t that hard but it often turned into a miserable pile of duplicated code for more complex test suites. I always felt we can do it better, so I decided to create a new open-source library that makes this process a lot easier - Jazon. The presentation will show how to use the tool and its features. Jazon was created during my work with Java microservices in Zendesk (previously Base). It is meant to help you ship your services faster and with more confidence. Regarding the features, it supports: - simple assertions on JSONs \n- assertions for unordered arrays (when order of items do not matter in your JSON response)\n- handy user-defined assertions (most powerful productivity booster) e.g. with Spock you can write: ``` jazon(response).matches( [ id: ANYTHING, elements: { it.size() == 17 } ] ) ``` \n- optimised to minimise code duplication \n- optimised for best human-readable error message allowing for fast error tracing \nAnd - most importantly\n- it is designed to be extensible and can easily support any JVM project - for teams using Java, Groovy, Scala, Kotlin."

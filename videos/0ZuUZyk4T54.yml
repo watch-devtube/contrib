@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - performance
+    - architecture
+title: 'GeeCON 2019: Rafał Kowalski - Reactive message driven service 2 service communication with RSocket'
+recordingDate: 1563984102
+description: 'Highly distributed systems are often composed of multiple microservices built by different teams using a variety of technologies and programming languages. Usually, in order to deliver business value, these services need to exchange tons of data (messages), and ideally, they do so in a reactive way. Combining reactive programming model with message driven approach can be beneficial but also might require bi-directional communication which can not be implemented using HTTP protocol and its request/response model. In such case, one of the possible solutions is RSocket. It is a lightweight binary protocol which can work on top of TCP, WebSockets or Aeron and provides fully message driven interaction model, which cannot be found in HTTP. During this talk, Rafał will present how to build reactive, resilient, message driven system based on multiple microservices linked with RSocket and will show how such design might affects performance and latency of the solution.'

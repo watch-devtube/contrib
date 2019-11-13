@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - testing
+title: 'GeeCON 2019: Valentin Deleplace - MADPIG: Measure and deepen performance in Go'
+recordingDate: 1563984136
+description: 'Do you care about speed? Do your users care about latency? When performance matters, theory and intuition are initially useful guides, but soon the rubber meets the road. Write benchmarks, try several approaches, optimize at different levels of abstraction, find the bottleneck, repeat! The Go tooling makes performance exploration approachable and exciting. Use Pprof to discover where the time is actually spent. It''s often not where you think! Consider writing concurrent code, when the benefits exceed the costs. Use Trace to peek at your CPU cores: Why are they sometimes idle? Where do all these context switches come from? Is the GC responsible for my slowdown? Write good tests, to preserve semantics across incremental refactorings. Learn about the benchmarking idioms of the testing package. Run the Race detector, understand what it does and why it matters. Examine test code coverage to discover dead code and hot paths. What the hell is a Flame Graph? Factor in the trade-offs of memory allocation, regexps, maps, random numbers, I/O, stdlib. Also, consider when it is wise not to optimize!'

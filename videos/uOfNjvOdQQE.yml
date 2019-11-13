@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - architecture
+    - java
+title: 'GeeCON 2019: Dmitry Chuyko - Do not put all eggs in one container'
+recordingDate: 1563984135
+description: 'Microservice architecture and containerization have become the standards of modern application development. The challenges that developers face today are different from the problems that we used to solve earlier. Creators of the Java runtime respond to this with the appropriate functionality in the JDK. For example, an inexpensive cloud instance can be quite powerful. And it runs a bunch of containers. Then JVMs running in different containers compete for instance resources. Starting from Java 10, virtual machines know how to live in peace, this work has continued in Java 11. On the other hand, you now need to choose which base image to use. This includes the choice of operating system and Java runtime. OS images vary greatly in size and have their own characteristics, which must be taken into account. Java runtime is also for every taste now. And even within the OpenJDK framework, assemblies from different companies are available with different functionality and size. And you can create a custom runtime image. We will consider the practical application of Java 11 functionality in a container environment typical for popular frameworks.'
