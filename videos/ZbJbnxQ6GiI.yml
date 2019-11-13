@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - lisp
+    - functional
+title: 'YOW! Lambda Jam 2019 - Sam Roberton - Functional Programming in ... SQL?'
+recordingDate: 1564002006
+description: "Many real-world lots-of-business-value-providing systems use a relational database. (Even more of them should!) Often, that database is used as a dumb data store – nothing more, logically, than an ACID-compliant coordinator of multiple flat files (tables). We send it basic queries – sometimes even joining multiple tables in one query! – inserts, updates and deletes. But nothing that might strain its little brain. Often, this is a mistake: a modern relational database is the most sophisticated data-munging tool in our toolkit!\n\nWe should consider doing more work in the database itself. But that's not easy to code well. How can we make our more complex SQL code easier to reason about, more reliable, and more testable? How can we make the overall system simpler?\n\nThese are questions that in not-the-database contexts, we solve with functional programming techniques. Without expecting SQL to out-lambda Haskell, are there techniques that we can borrow from functional programming and apply to improving our SQL?\n\nSam writes Clojure, Haskell and SQL.  But if he's honest, he tries to write as little of them as possible – building the simplest possible systems is more important to him than building expansive, elegant towers of code.\n\nFor more on YOW! Conference, visit http://www.yowconference.com.au"
