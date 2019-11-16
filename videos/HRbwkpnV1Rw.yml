@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - mobile
+    - ios
+    - security
+    - testing
+title: 'DEF CON 27 Conference - Omer Gull  - SELECT code execution FROM USING SQLite'
+language: English
+recordingDate: 1573862525
+description: "Everyone knows that databases are the crown jewels from a hacker's point of view, but what if you could use a database as the hacking tool itself? We discovered that simply querying a malicious SQLite database - can lead to Remote Code Execution. We used undocumented SQLite3 behavior and memory corruption vulnerabilities to take advantage of the assumption that querying a database is safe.\n\nHow? We created a rogue SQLite database that exploits the software used to open it.Exploring only a few of the possibilities this presents we’ll pwn password stealer backends while they parse credentials files and achieve iOS persistency by replacing its Contacts database…\n\nThe landscape is endless (Hint: Did someone say Windows 10 0-day?). This is extremely terrifying since SQLite3 is now practically built-in to any modern system.\n\nIn our talk we also discuss the SQLite internals and our novel approach for abusing them. We had to invent our own ROP chain technique using nothing but SQL CREATE statements. We used JOIN statements for Heap Spray and SELECT subqueries for x64 pointer unpacking and arithmetics. It's a new world of using the familiar Structured Query Language for exploitation primitives,laying the foundations for a generic leverage of memory corruption issues in database engines.\n\nOmer Gull\nOmer Gull is a vulnerability researcher in the Malware and Vulnerability Research group at Check Point Software Technologies.\n\nOmer has a diverse background in security research, that includes web application penetration testing, RE and exploitation.\n\nHe loves Rum, Old School Hip-Hop and Memory Corruptions.\n\nTwitter: @GullOmer"

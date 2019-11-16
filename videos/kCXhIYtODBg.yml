@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - perl
+    - unix
+    - mobile
+    - android
+    - ios
+    - security
+    - python
+title: 'DEF CON 27 Conference - Andy Grant - Unpacking Pkgs A Look Inside MacOS Installer Packages'
+language: English
+recordingDate: 1573862414
+description: "We are hackers, we won't do as you expect or play by your rules, and we certainly don't trust you. JAR files are really ZIPs...unzip them! So are Microsoft's DOCX, XLSX, PPTX, etc. Let's open them up! macOS applications (.app \"files\") are really directories you can browse?! Sweet, let's do that.\n\nLess well known but similarly prevalent are Flat Package Mac OS X Installer (.pkg) files. These are actually XAR archives that, among other things, contain many plaintext files (including shell, Perl, and Python scripts) as cpio files compressed using gzip.\n\nIn this presentation I'll walk you through extracting the contents of these installer packages, understanding their structure, and seeing how they work while highlighting where security issues can come up. To drive the point home of what can go wrong, I'll include examples of serious security issues I've seen in the wild and show you how they can be exploited to elevate privileges and gain code/command execution.\n\nAfter this talk, .pkg files will no longer be opaque blobs to you. You'll walk away knowing tools and techniques to tear them open, understand how to evaluate what they're really doing on your computer, and a methodology for finding bugs in them. As a final bonus, I'll include a subtle trick or two that can be used on red teams.\n\nAndy Grant\nAndy Grant is a Technical Vice President for NCC Group. While at NCC Group, Andy has worked on a wide-variety of security assessment and advisory projects. He has performed numerous application assessments on mobile (Android, iOS, WP7), desktop (OS X/macOS, Windows, Linux), and web platforms. He has also performed many internal and external network penetration tests and widget/third-party platform reviews. Andy has worked with small tech start-ups, small and large software development groups, and large financial institutions. Andy has a BS in Computer Science and an Advanced Computer Security Certificate from Stanford University.\n\nTwitter: @andywgrant"

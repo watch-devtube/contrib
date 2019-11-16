@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - embedded
+title: 'DEF CON 27 Conference - Damien Cauquil - Defeating Bluetooth Low Energy 5 PRNG for Fun and Jamming'
+language: English
+recordingDate: 1573862414
+description: "Bluetooth Low energy version 5 has been published in late 2016, but we still have no sniffer supporting this specific version (and not that much compatible devices as well). The problem is this new version introduces a new channel hopping algorithm that renders previous sniffing tools useless as devices can no longer be attacked and connections analyzed. This new algorithm is based on a brand new pseudo-random number generator (PRNG) to provide better collision avoidance while kicking out all of our good old sniffing tools.\n\nUnless some random hacker manages to break this not-that-strong PRNG and upgrades his BLE sniffing tool to support this algorithm ;). In this talk, we will explain why this PRNG is vulnerable and how it can be easily defeated to sniff and jam communications between two BLE 5 devices. A new version of BtleJack will be released during this talk, providing an efficient way to sniff BLE 5 connections to our fellow IoT hacker family.\n\nDamien Cauquil (virtualabs)\nDamien is a senior security researcher who joined Digital Security in 2015 as the head of research and development. He discovered how wireless protocols can be fun to hack and quickly developed BtleJuice, one of the first Bluetooth Low Energy MitM framework, and BtleJack, a BLE swiss-army knife released in 2018.\n\nDamien presented at various security conferences including DEF CON, Hack In Paris, Chaos Communication Camp, Chaos Communication Congress, BruCon, Hack.lu, anda dozen times at Nuit du Hack, one of the oldest French hacking conference.\n\nTwitter: @virtualabs"

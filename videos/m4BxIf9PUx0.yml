@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - startup
+    - security
+    - testing
+    - java
+title: 'DEF CON 27 Conference - Joshua Maddux - API Induced SSRF How ApplePay Scattered Vulns Across the Net'
+language: English
+recordingDate: 1573862460
+description: "The 2016 WWDC saw the dawn of Apple Pay Web, an API that lets websites embed an Apple Pay button within their web-facing stores. Supporting it required a complex request flow, complete with client certificates and a custom session server. This proved detrimental, since Apple failed to caution against important side effects of taking in untrusted URLs. As a result, many new SSRF vulnerabilities entered the world. Worse yet, while they were exploitable and discoverable in similar ways, they were spread across distinct codebases in several programming languages, so could not be patched in any generic way.\n\nApple is not alone - in the process of gluing the web together, Twilio, Salesforce, and others have all created similarly broad attack surfaces. When companies fail to take an honest, empathetic look at how clients will use a product, they shove along hidden security burdens. Those who integrate with an API have less context than those who create it, so are in a worse position to recognize these risks.\n\nEngineers have been talking about defensive programming for decades, but top companies still have trouble practicing it. In this talk we explore these mistakes with demos of affected software, and introduce a powerful model for finding broad classes of bugs.\n\nJoshua Maddux\nJoshua Maddux started out as a software engineer. After a few years, having introduced his share of problems to the world, he turned his life around and started hunting for vulnerabilities. Now at PKC Security he does a mix of software development and white-box penetration testing, with a focus on helping startups move fast without breaking too many things.\n\nAside from pentesting for clients, Joshua is also active in the bug bounty world. His past research has led to security updates in Java, Gitlab, United Airlines, Zapier, and others.\n\nTwitter: @joshmdx"

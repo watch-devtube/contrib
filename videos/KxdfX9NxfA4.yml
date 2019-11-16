@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - security
+    - architecture
+title: 'DEF CON 27 Conference - Xiling Gong - Exploiting Qualcomm WLAN and Modem Over The Air'
+language: English
+recordingDate: 1573862525
+description: "In this talk, we will share our research in which we successfully exploit Qualcomm WLAN in FIRMWARE layer, break down the isolation between WLAN and Modem and then fully control the Modem over the air.\n\nSetup the real-time debugger is the key. Without the debugger, it's difficult to inspect the program flow and runtime status. On Qualcomm platform, subsystems are protected by the Secure Boot and unable to be touched externally. We'll introduce the vulnerability we found in Modem to defeat the Secure Boot and elevate privilege into Modem locally so that we can setup the live debugger for baseband.\n\nThe Modem and WLAN firmware is quite complex and reverse engineering is a tough work. Thanks to the debugger, we finally figure out the system architecture, the components, the program flow, the data flow, and the attack surfaces of WLAN firmware. We'll share these techniques in detail, along with the zero-days we found on the attack surfaces.\n\nThere are multiple mitigations on Qualcomm baseband, including DEP, stack protection, heap cookie, system call constraint, etc. All the details of the exploitation and mitigation bypassing techniques will be given during the presentation.\n\nStarting from Snapdragon 835, WLAN firmware is integrated into the Modem subsystem as an isolated userspace process. We'll discuss these constraints, and then leverage the weakness we found to fully exploit into Modem.\n\nXiling Gong\nXiling Gong is a Senior Security Researcher of Tencent Blade Team. He has discovered many vulnerabilities of vendors like Google and Qualcomm. He is the speaker of CanSecWest 2018.\n\nTwitter: @Gxiling\n\nPeter Pi\nPeter Pi is a Senior Security Researcher of Tencent Blade Team. He has discovered many vulnerabilities of vendors like Google, Microsoft, Apple, Qualcomm, Adobe and Tesla. He was the #1 researcher of Google Android VRP in year 2016. He has spoken at many famous security conferences such as BlackHat, CanSecWest, HITB GSEC and Hitcon.\n\nTwitter: @tencent_blade"
