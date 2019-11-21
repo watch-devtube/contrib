@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - web
+    - react
+speaker:
+    name: 'Guillaume Laforge'
+    twitter: glaforge
+title: 'GeeCON Prague 2019: Guillaume Laforge - Implementing Webhook backends, not so trivial'
+recordingDate: 1574262662
+description: 'Webhooks, we know what they are, right? You’ve probably already used some to be notified of Github commits, to react to text messages received via Twilio, or created a fulfillment for a Dialogflow chatbot to answer users. From the Webhook consumer side, it doesn’t seem complicated to code… On the server-side, is it really just a web API to implement? Hmm… maybe not! Actually, we’ll see that it might be not as simple as it first sounds ! After an introduction on the concept of Webhooks, we’ll create our own callbacks to be notified of events. Then, we’ll go on the other side of the mirror, by creating our own Webhook backend. We’ll study how to deal with client subscription queues, manage all kinds of errors, debug the webhook, handle retries to avoid flooding subscribers, or how to secure those hooks. There’s lots to cover!'
