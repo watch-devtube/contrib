@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - devops
+    - containers
+    - kubernetes
+    - testing
+    - java
+    - spring
+title: 'microXchg 2019 - Battle of the Circuit Breakers: Hystrix vs Istio - Nicolas Frankel'
+language: English
+recordingDate: 1574463606
+description: "Titel: Battle of the Circuit Breakers: Hystrix vs Istio\n\nKubernetes in general, and Istio in particular, have changed a lot the way we look at Ops-related constraints: monitoring, load-balancing, health checks, etc. Before those products became available, there were already available solutions to handle those constraints.\n\nAmong them is Hystrix, a Java library provided by Netflix. From the site: \"Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.\" In particular, Hystrix provides an implementation of the Circuit Breaker pattern, which prevents a network or service failure from cascading to other services. But now Istio also provides the same capability.\n\nIn this talk, we will have a look at how Istio and Hystrix implement the Circuit Breaker pattern, and what pros/cons each of them has.\n\nAfter this talk, you'll be able to decide which one is the best fit in your context.\n\nSpeaker: Nicolas Fränkel - Geek through and through\n\nNicolas Fränkel is a Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Currently working for Exoscale. Also double as a teacher in universities and higher education schools, a trainer and triples as a book author."
