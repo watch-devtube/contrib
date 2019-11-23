@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - cloud
+    - aws
+    - lisp
+title: 'Goodbye YAML: Infrastructure as Code in Clojure - Eno Compton & Tyler van Hensbergen'
+language: English
+recordingDate: 1574456735
+description: "When building systems in Clojure, we have a great choice for backend applications (Clojure or ClojureScript), frontend applications (ClojureScript), and the CLI (Clojure or ClojureScript). When it comes to creating infrastructure, though, we must put down our favorite language and turn to CloudFormation and YAML, or as an alternative, we might use tools like AWS Cloud Development Kit (CDK) to write infrastructure as code, but we would be using another language and not Clojure. At Stedi, we found ourselves wanting to spin up new Clojure applications without having to resort to endless lines of YAML or another language.\n\nThis talk introduces a newly opened-source library we created in Clojure, cdk-clj that allows us to write all our infrastructure in Clojure in the familiar REPL-based development environment, without having to give up the power of CloudFormation or CDK while enabling all the patterns of re-use inherent to Clojure, especially given the recent release of tools.deps. This talk will introduce the library within the context of its alternatives, then briefly go over the library’s implementation, and finally end with a short demo of building a serverless GitHub bot using a Clojure lambda that demonstrates the power and simplicity of cdk-clj."
