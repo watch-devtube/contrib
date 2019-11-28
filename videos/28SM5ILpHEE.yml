@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'DEF CON 27 Crypto and Privacy Village - Steve Thomas - Easy PAKE Oven'
+language: English
+recordingDate: 1574893904
+description: "Everything you need to know about PAKEs and then some: what, why, which, blind salt, quantum resistance, APIs, HSMs, password KDFs, secret salts, and recovering a lost secret salt.\n\nPAKEs need to be easy to use and hard to misuse, otherwise adoption rates will be low. Take SRP, almost every implementation has functions like \"calculateA\", \"calculateU\", etc. To use these libraries you need to know exactly how SRP works. Some programmers might choose to send the server verifier first because it saves a trip. If the library doesn't prevent it, then this breaks SRP and let's anyone make password guesses offline. With a good API a programmer only needs to know they want to use a PAKE and the rest is relaying messages to and from the library until it's done.\n\nBIO\nI do stuff... sometimes."
