@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - ruby
+title: 'RubyConf 2019 - Disk is fast, memory is slow. Forget all you think you know by Daniel Magliola'
+language: English
+recordingDate: 1575394866
+description: "RubyConf 2019 - Disk is fast, memory is slow. Forget all you think you know by Daniel Magliola\n\nAdding metrics to your code should effectively have no impact on performance.\n\r\n\nWhen we were recently tasked with doing that in multi-process Ruby servers, we ran into an interesting challenge: could we aggregate our numbers across processes without blowing our target of just one microsecond of overhead?\r\n\n\r\n\nThe months of work that followed had us looking into C extensions, segfault dumps, memory maps, syscall timings, and pretty much everything we could think of to try and achieve our objective.\r\n\n\r\n\nIn the process, we found some very counter-intuitive performance results that I'd like to share with you.\n\n#confreaks #rubyconf2019"

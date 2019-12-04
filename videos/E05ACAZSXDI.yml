@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+title: 'RubyConf 2019 - What''s happening when initializing mruby? by Yurie Yamane and Masayoshi Takahashi'
+language: English
+recordingDate: 1575395755
+description: "RubyConf 2019 - What's happening when initializing mruby? by Yurie Yamane and Masayoshi Takahashi\n\nLike MRI, mruby initializes all classes before execution. This has a negative impact on Ruby's initialization speed and memory. This increase in memory usage is particularly fatal for mruby. We have created a new mrbgem to solve this issue. The key idea is pre-execution; we actually run mruby and do initialization, generate the structures in the form of C source code, and recompile it. In this session, we will look at the initial behavior of the mruby through an introduction to our tools.\n\n#rubyconf2019 #confreaks"
