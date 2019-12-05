@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+speaker:
+    name: 'Philipp Krenn'
+    twitter: xeraa
+title: 'CloudSphere: Reaching Zen in Your Cluster Coordination by Philipp Krenn'
+recordingDate: 1575453385
+description: 'Distributed systems are hard and unfortunately often less perfect than we would hope. This talk shows a concrete example: Elasticsearch’s cluster coordination system, called Zen Discovery, got a rewrite in version 7.0. Starting from a formal model, the coordination layer was rebuilt to address multiple issues discovered over the years. We discuss the main improvements of the new implementation: Master elections are much faster, the infamous minimum_master_nodes setting has been removed, growing and shrinking clusters becomes safer and easier, and leaves less room to misconfigure the system. Let us join the new, more Zen way of cluster coordination.'

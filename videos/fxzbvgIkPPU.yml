@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - android
+    - security
+    - functional
+title: 'Secure Messengers and Man in The Contacts - Laureline David & Jeremy Matos'
+language: English
+recordingDate: 1565457275
+description: "OWASP AppSec EU 2018 Hacker Track - Day 1, talk 3\n\nIn 2016, Man in the Contacts attack was published (MitC, https://www.securingapps.com/blog/ManInTheContacts_CYBSEC16.pdf) which consists in taking control of a smartphone's contacts with a legitimate application, then altering contact data to either\n- impersonate a specific contact\n- attempt to intercept communications by relaying messages through an additional device.\nDespite sandboxing on most mobile platforms, contacts are shared between all applications and can be modified by any of them with sufficient permissions.\n\nBuilding up from what was presented, we built and deployed a fully functional implementation.\n\nPackaged within a game published on Google's Play Store without any validation issues, our MitC implementation allows us to fully control the contacts of the users by listening to our Command and Control server.\n\nSince most modern messaging applications implicitly trust contact data, our implementation becomes a very efficient spear phishing weapon: user receives a message from someone he (thinks he) knows within an end to end encrypted (E2E) channel, so he is really confident. E2E also blinds messaging servers, not able to do anymore content filtering, making it easy to transfer malicious links.\n\nPresentation Outline:\n* Wrap up of Man In The Contacts attack\n* Feedback from WhatsApp, Telegram and Signal: won't fix\n* Implementing Man In The Contacts in practice\n- Android game: social version of Rock, Paper, Scissors\n- Command And Control server\n- Web interface\n* The spear phishing use case\n* Live demonstration with volunteers from the audience\n* Open sourcing the tool\n* Possible mitigations \n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"

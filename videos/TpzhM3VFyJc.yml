@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - devops
+    - security
+title: 'Detecting and Preventing Malicious Domain Registrations in the .eu TLD - Lieven Desmet'
+language: English
+recordingDate: 1565457276
+description: "OWASP AppSec EU 2018 DevOps Track - Day 1, talk 3\n\nIn this talk, we report on an extensive analysis of 14 months of domain registration in the .eu TLD. In particular, we zoom in into domain names that are registered for malicious purposes (such as spam, phishing, botnets C&C, ...). The goal of our research is to understand and identify large-scale malicious campaigns, and to early detect and prevent malicious registrations.\nOverall, the dataset of this study contains 824,121 new domain registrations; 2.53% of which have been flagged as malicious by blacklisting services. We explore the ecosystem and modus operandi of elaborate cybercriminal entities that recurrently register large amounts of domains for one-shot, malicious use. Although these malicious domains are short-lived, we establish that at least 80.04% of them can be framed in to 20 larger campaigns with varying duration and intensity. We further report on insights in the operational aspects of this business and observe, amongst other findings, that their processes are only partially automated.\n In the last past, we report on our most recent results. Based on the insights of the analysis, we have incepted and developed an automatic prediction system, that classifies at registration time wether a domain name will be used malicious or benign. As such, malicious domain registrations can already be detected and prevented before doing any harm. As part of the talk, we will present the first results of this prediction system, which currently runs in production at EURid, the registry of the .eu TLD.\n\n\nManaged by the official OWASP Media Project https://www.owasp.org/index.php/OWASP_Media_Project"
