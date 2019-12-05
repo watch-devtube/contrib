@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - php
+    - mobile
+    - ios
+    - security
+title: '#HITBGSEC D2: Recreating An iOS 0-Day Jailbreak Out Of Apple''s Security Updates - Stefan Esser'
+language: English
+recordingDate: 1569832696
+description: "In February 2019 after the release of iOS 12.1.4 Google disclosed that this update fixes two vulnerabilities in iOS that Google has found being used in the wild as part of a remote 0-day iOS jailbreak. That iOS exploitation chains are caught in the wild is a rare thing, because the locked down nature of iOS makes it nearly impossible for defenders to see what is going on inside their iPhone which makes it hard to impossible to catch these attacks. Unfortunately Google did not share the exploitation samples or any further information about the exploit, the attack or the suspected attackers. This has made many iOS security researchers curious about the exact nature of the attack and started multiple parties to use patch diffing techniques to re-discover the vulnerabilities in Apple’s update.\n\nIn this talk we will discuss the whole process of how we discovered the vulnerabilities within the update and how we developed exploits for each of these vulnerabilities and how we eventually combined these exploits into an iOS jailbreak. The audience will not only take away a detailed process description but also a copy of the jailbreak itself.\n\n=== \n\nStefan Esser is best known in the security community as the PHP security guy. Since he became a PHP core developer in 2002 he devoted a lot of time to PHP and PHP application vulnerability research. However in his early days he released lots of advisories about vulnerabilities in software like CVS, Samba, OpenBSD or Internet Explorer. In 2003 he was the first to boot Linux directly from the hard disk of an unmodified XBOX through a buffer overflow in the XBOX font loader. In 2004 he founded the Hardened-PHP Project to develop a more secure version of PHP, known as Hardened-PHP, which evolved into the Suhosin PHP Security System in 2006. Since 2007 he works as head of research and development for the German security company SektionEins GmbH that he co-founded. In 2010 he did his own ASLR implementation for Apple’s iOS and shifted his focus to the security of the iOS kernel and iPhones in general. Since then he has spoken about the topic of iOS security at various information security conferences around the globe. In 2012 he co-authored the book the iOS Hackers Handbook."

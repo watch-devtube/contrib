@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - mobile
+    - android
+    - security
+title: '#HITBGSEC D2: Launching Feedback-Driven Fuzzing On TrustZone TEE - Andrey Akimov'
+language: English
+recordingDate: 1569832647
+description: "TrustZone is now utilized in all modern ARM-driven smartphones. This technology provides hardware isolation for secure processing of sensitive data. The idea of the technology is to divide digital world into two: Normal World and Secure World. While Normal World is normally a traditional Android or Linux with all its userspace and kernelspace, the Secure World is something mythical, not widely known and often without any public accessible documentation and source code.\n\nEven Android kernel doesn’t have access to the data processed in TrustZone. And besides this sensitive data, a breach to TrustZone can lead to other amazing things like compromising Root Of Trust and achieving rootkit persistence.\n\nWe will focus on getting into TrustZone from Android userspace in smartphones of Samsung Galaxy series and its Trustonic implementation of Trusted Execution Environment (TEE). Trusted applications, or trustlets, executed there, is one of the windows to TEE, and they turned out to expose vast attack surface. While they are custom format binaries, designed to run in a special environment, it is still possible to run AFL on them. We will show you our approach to automatically discover vulnerabilities in Trustonic trustlets with such a cool way as having proved itself feedback-driven fuzzing.\n\n=== \n\nSecurity researcher from Russia. Likes new technologies and cunning tricks that could be done with them. Focusing mostly on security analysis of binaries, dived into different CPU architectures, operating systems and technology stacks. So looking for general ways and universal approaches for exploring and hunting for bugs in them."
