@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - security
+    - lisp
+title: 'USENIX Security ''19 - MOPT: Optimized Mutation Scheduling for Fuzzers'
+language: English
+recordingDate: 1569543009
+description: "MOPT: Optimized Mutation Scheduling for Fuzzers\n\nChenyang Lyu, Zhejiang University; Shouling Ji, Zhejiang University & Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies; Chao Zhang, BNRist & INSC, Tsinghua University; Yuwei Li, Zhejiang University; Wei-Han Lee, IBM Research; Yu Song, Zhejiang University; Raheem Beyah, Georgia Institute of Technology\n\nMutation-based fuzzing is one of the most popular vulnerability discovery solutions. Its performance of generating interesting test cases highly depends on the mutation scheduling strategies. However, existing fuzzers usually follow a specific distribution to select mutation operators, which is inefficient in finding vulnerabilities on general programs. Thus, in this paper, we present a novel mutation scheduling scheme MOPT, which enables mutation-based fuzzers to discover vulnerabilities more efficiently. MOPT utilizes a customized Particle Swarm Optimization (PSO) algorithm to find the optimal selection probability distribution of operators with respect to fuzzing effectiveness, and provides a pacemaker fuzzing mode to accelerate the convergence speed of PSO. We applied MOPT to the state-of-the-art fuzzers AFL, AFLFast and VUzzer, and implemented MOPT-AFL, -AFLFast and -VUzzer respectively, and then evaluated them on 13 real world open-source programs. The results showed that, MOPT-AFL could find 170% more security vulnerabilities and 350% more crashes than AFL. MOPT-AFLFast and MOPT-VUzzer also outperform their counterparts. Furthermore, the extensive evaluation also showed that MOPT provides a good rationality, compatibility and steadiness, while introducing negligible costs.\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"

@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - sap
+title: '#HITBGSEC D1: Scare: Static Code Analysis Recognition Evasion - Andreas Wiegenstein'
+language: English
+recordingDate: 1569831507
+description: "Companies increasingly rely on static code analysis tools in order to scan (their) (custom) code for security risks. But can they really rely on the results?\n\nThe typical SCA tool is designed to detect security issues in code that were created by accident / lack of skill. But how reliable are these tools, if someone intentionally places bugs in code that are not supposed to be found?\n\nThis talk explores several nasty concepts how malicious code could be camouflaged in order to avoid detection by SCA algortihms.\n\nOn a technical level, the followingconcepts are covered\n– covert data flow\n– deep call stacks\n– circular calls\n– source mining\n– data hubs\n– taint laundering\n\nBased on this, I will provide some code snippets as proof of concept for the audience to test at home.\n\nThis talk focuses on general weaknesses of SCA tools. I am not going to point the finger at specific vendors.\n\n=== \n\nAndreas is an experienced SAP security researcher. He discovered a substantial number of zero-days in SAP software and supported development of a market leading ABAP SCA tool. He has spoken at multiple security conferences such as Black Hat, DeepSec, HITB, IT Defense, RSA and Troopers. His current research is focused on malware."
