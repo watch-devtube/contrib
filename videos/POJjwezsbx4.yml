@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'LISA19 - Network Fault Finding System: Packet Loss Triangulation'
+language: English
+recordingDate: 1573767981
+description: "Network Fault Finding System: Packet Loss Triangulation\n\nJose Leitao and Daniel Rodriguez, Facebook\n\nMost network monitoring relies upon the devices providing the signal used to calculate health via syslog messages, SNMP, telemetry, or custom APIs.\n\nIn large scale networks, we can’t trust the devices to accurately report health in all the possible failure cases that may exist. At FB, in addition to standard monitoring tools, we also actively probe our networks with test traffic to ensure the platforms are behaving as we expect. With active monitoring, we can find misbehaving network elements even when they exist several layers deep inside the network.\n\nDuring the presentation, we will show how we built a sample system that achieves similar results using open source tools and perform a live demo with a lab network from start to finish, introducing packet loss and showing how the system can identify where the loss is occurring in real time.\n\nhttps://www.usenix.org/conference/lisa19/conference-program"

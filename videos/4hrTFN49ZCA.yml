@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'LISA19 - Fast, Safe, and Reliable: The Future of Configuration'
+language: English
+recordingDate: 1573767981
+description: "Fast, Safe, and Reliable: The Future of Configuration\n\nQui Nguyen, Yelp\n\nWho wants to have to deploy an application just to change the values of some constants? At Yelp, we didn't, so we built a system that allows our web services to dynamically reload constants without being re-deployed or restarted, significantly increasing developer velocity. This system distributes configuration values using simple files to the thousands of servers we run and is used by hundreds of different services.\n\nOn the other hand, constants can make a big difference in the performance or correctness of your code. As we improved our code deployment processes, we found that more and more outages were being caused by configuration changes, because we weren't giving our configuration the same attention as our code.\n\nThis talk will cover how our configuration system works and how we were able to make it safer, without reducing its reliability or slowing developers down.\n\nhttps://www.usenix.org/conference/lisa19/conference-program"

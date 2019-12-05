@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+title: 'LISA19 - Sub-Region Failure: How to Handle the Partial Loss of a Data Center'
+language: English
+recordingDate: 1573767981
+description: "Sub-Region Failure: How to Handle the Partial Loss of a Data Center\n\nJoe Gasperetti and Yang Xia, Facebook\n\nLarge internet companies like Facebook operate out of multiple geo-distributed data centers (DCs) connected via global backbone networks. At this scale, it is common to experience large scale failures, like submarine network cable disconnection, as well as localized physical failures including flipped power breakers, water intrusion, electrical fires, cooling failure and more. Previous research in Disaster Recovery (DR) focuses on minimizing the impact of losing entire data centers by quickly moving traffic and data away from an affected DC.\n\nBut what if we could endure physical failures while keeping the DC online? Facebook’s Sub-Region DR initiative aims to handle the partial loss of a data center without expanding the failure scope to the entire DC. Our approach is to work with software teams to make systems durable to partial failure. We will describe how we built an “auditor” which understands stateless, stateful and storage systems and can simulate the effects of power outages without pulling the plug. We will also share testing stories about disconnecting machines on purpose, and war stories about power plugs pulled by accident.\n\nhttps://www.usenix.org/conference/lisa19/conference-program"

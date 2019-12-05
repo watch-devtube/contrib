@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - cloud
+    - testing
+    - python
+    - java
+title: 'LISA19 - Pardon the Interposition—Modifying and Improving Software Behavior with Interposers'
+language: English
+recordingDate: 1573767981
+description: "Pardon the Interposition—Modifying and Improving Software Behavior with Interposers\n\nDanny Chen, Bloomberg LP\n\nSometimes we are delivered software that doesn't do exactly what we want and we have to find ways to modify its behavior. Many times we wind up \"wrapping\" the software. But modern language run times provide mechanisms for overriding the behavior of software after it has been built and delivered/deployed (e.g. inversion of control and dynamic wiring in Java, monkey patching in python). Shared library-based software on UNIX systems have long enjoyed similar capabilities via interposers—functionality that is relatively under-utilized by testers, SAs, and SREs.\n\nIn this talk, we present how we used a C library interposer to convert the attachment store of JIRA from being filesystem-based into a two-level store—with the filesystem being merely a cache for a cloud-based store. In a sense, we changed the behavior of the system underneath JIRA to change JIRA's behavior. This implementation gives us local filesystem performance (mostly) for attachment stores with near-infinite capacity for attachments as well as added resiliency (from the use of the cloud-based store).\n\nWe also present some other examples of how we have used interposers to support testing and monitoring.\n\nhttps://www.usenix.org/conference/lisa19/conference-program"

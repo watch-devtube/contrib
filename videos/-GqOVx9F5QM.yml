@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+title: 'SREcon19 Europe/Middle East/Africa - Zero-Downtime Rebalancing and Data Migration of a Mature...'
+language: English
+recordingDate: 1572552133
+description: "Zero-Downtime Rebalancing and Data Migration of a Mature Multi-Shard Platform\n\nJustin Li and Florian Weingarten\n\nApplication-level sharding is a common pattern for scaling multi-tenant architectures. However, once it has been put into production, you inevitably run into follow-up problems that aren't as widely discussed. In this talk, we will share years worth of experience and connect the dots to outline a full sharding solution that goes beyond the initial implementation and deployment. At the core of our toolkit is the \"binlog\", an event stream used by the MySQL replication protocol. The tooling we've built on top of this idea is being used in production at Shopify to balance hundreds of MySQL shards for uniform load distribution, isolate heavy tenants from each other, and has in the past been used to safely transfer the entire dataset of our over 800.000 tenants from physical datacenters to a cloud environment. All of this happens online, without downtime, and is practically invisible to the tenants.\n\nView the full SREcon19 Europe/Middle East/Africa Program at https://www.usenix.org/conference/srecon19emea/program \n\nSign up to find out more about SREcon at https://srecon.usenix.org"

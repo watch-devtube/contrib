@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - architecture
+title: 'LISA19 - Our Journey of Implementing TLS at Scale for Services on Kubernetes'
+language: English
+recordingDate: 1573767981
+description: "Our Journey of Implementing TLS at Scale for Services on Kubernetes\n\nTilottama Gaat and Akshay Chitneni, VMware\n\nTLS is the industry standard for encrypting communication between endpoints, however there are unique challenges to implementing TLS in a microservice environment. For example, you may have hundreds of microservices running on multiple environments, how do you provision and disburse TLS certificates in a scalable way, while causing least disruption to uptime? How do you easily manage day 2 operations of those TLS certificates such as certificate renewal or revocation? In this talk, we present Diploma, our Vault based Certificate generation system and Chancellor, a Kubernetes controller that disburses certificates to workloads using Kubernetes API, providing certificates for 40+ microservices in production and serves 2000+ certificates a day in development and test environments.\n\nhttps://www.usenix.org/conference/lisa19/conference-program"

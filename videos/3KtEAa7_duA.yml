@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'LISA19 - Deep Dive into Kubernetes Internals for Builders and Operators'
+language: English
+recordingDate: 1573767981
+description: "Deep Dive into Kubernetes Internals for Builders and Operators\n\nJérôme Petazzoni, Tiny Shell Script LLC\n\nIf you operate (or plan to operate) Kubernetes, it's helpful to understand its internals: what are the components of the control plane? What are their respective roles? How do they communicate?\n\nTo get the most out of this talk, you should be familiar with basic Kubernetes concepts like deployments, pods, and services.\n\nWe'll start by explaining exactly what happens between the execution of commands like \"kubectl run\" and \"kubectl expose\" and the moment when the containers are actually running and available on the cluster.\n\nThen we'll build a simplified cluster, one component at a time, until it can execute that \"kubectl run\" command, and we'll see that it's not as complicated as it sounds.\n\nWe will show how kube-proxy provides connectivity to services, and how CNI plugins provide connectivity to pods themselves.\n\nFinally, we'll highlight some of the differences between that experiment and a production-grade cluster.\n\nhttps://www.usenix.org/conference/lisa19/conference-program"
