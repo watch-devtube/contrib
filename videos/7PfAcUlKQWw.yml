@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - functional
+title: 'USENIX Security ''19 - RAZOR: A Framework for Post-deployment Software Debloating'
+language: English
+recordingDate: 1569543009
+description: "RAZOR: A Framework for Post-deployment Software Debloating\n\nChenxiong Qian, Georgia Institute of Technology\n\nCommodity software typically includes functionalities for a broad user population. However, each individual user usually only needs a subset of the supported functionalities. The bloated code not only hinders optimal execution, but also leads to a larger attack surface. Recent work explores program debloating as an emerging solution to this problem. Unfortunately, existing works require program source code, limiting their deployability.\n\nIn this paper, we propose a practical debloating framework, RAZOR, that performs code reduction for deployed binaries. Based on users’ specification, our tool customizes the binary to generate a functional program with the minimal code size. Instead of only supporting given test cases, RAZOR takes several control-flow heuristics to infer complementary code that are necessary to support user-expected functionalities. We have evaluated RAZOR on commonly used benchmarks and real-world applications, including the web browser FireFox and the close-sourced PDF reader FoxitReader. The result shows that RAZOR is able to reduce over 70% of the code from the bloated binary. It produces functional programs and does not introduce new security issues. RAZOR is thus a practical framework for debloating real-world programs.\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - performance
+    - security
+    - architecture
+title: 'USENIX Security ''19 - ALOHA: Auxiliary Loss Optimization for Hypothesis Augmentation'
+language: English
+recordingDate: 1569543010
+description: "ALOHA: Auxiliary Loss Optimization for Hypothesis Augmentation\n\nEthan M. Rudd, Sophos\n\nMalware detection is a popular application of Machine Learning for Information Security (ML-Sec), in which an ML classifier is trained to predict whether a given file is malware or benignware. Parameters of this classifier are typically optimized such that outputs from the model over a set of input samples most closely match the samples’ true malicious/benign (1/0) target labels. However, there are often a number of other sources of contextual metadata for each malware sample, beyond an aggregate malicious/benign label, including multiple labeling sources and malware type information (e.g. ransomware, trojan, etc.), which we can feed to the classifier as auxiliary prediction targets. In this work, we fit deep neural networks to multiple additional targets derived from metadata in a threat intelligence feed for Portable Executable (PE) malware and benignware, including a multi-source malicious/benign loss, a count loss on multi-source detections, and a semantic malware attribute tag loss. We find that incorporating multiple auxiliary loss terms yields a marked improvement in performance on the main detection task. We also demonstrate that these gains likely stem from a more informed neural network representation and are not due to a regularization artifact of multi-target learning. Our auxiliary loss architecture yields a significant reduction in detection error rate (false negatives) of 42.6% at a false positive rate (FPR) of 10-3 when compared to a similar model with only one target, and\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"

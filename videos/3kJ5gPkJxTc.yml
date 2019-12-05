@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - mobile
+    - security
+title: 'USENIX Security ''19 - BITE: Bitcoin Lightweight Client Privacy using Trusted Execution'
+language: English
+recordingDate: 1569543009
+description: "BITE: Bitcoin Lightweight Client Privacy using Trusted Execution\n\nSinisa Matetic, ETH Zurich\n\nBlockchains offer attractive advantages over traditional payments such as the ability to operate without a trusted authority and increased user privacy. However, the verification of blockchain payments requires the user to download and process the entire chain which can be infeasible for resource-constrained devices like mobile phones. To address this problem, most major blockchain systems support so called lightweight clients that outsource most of the computational and storage burden to full blockchain nodes. However, such verification leaks critical information about clients’ transactions, thus defeating user privacy that is often considered one of the main goals of decentralized cryptocurrencies.\n\nIn this paper, we propose a new approach to protect the privacy of light clients in Bitcoin. Our main idea is to leverage the trusted execution capabilities of commonly available SGX enclaves. We design and implement a system called BITE where enclaves on full nodes serve privacy-preserving requests from light clients. However, as we will show, naive processing of client requests from within SGX enclaves still leaks client’s addresses and transactions. BITE therefore integrates several private information retrieval and side-channel protection techniques at critical parts of the system. We show that BITE provides significantly improved privacy protection for light clients without compromising the performance of the assisting full nodes.\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"
