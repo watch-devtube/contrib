@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'SREcon19 Europe/Middle East/Africa - Eventually Consistent Service Discovery'
+language: English
+recordingDate: 1572552133
+description: "Eventually Consistent Service Discovery\n\nSuhail Patel, Monzo\n\nTraditionally, service discovery has leaned towards strong consistency. If you are querying an endpoint, ideally you don't have to deal with split brain on the set of active healthy nodes. This talk will demonstrate how systems such as Envoy are shifting away from the strong consistency coordinator model and making a strong separation with not having service discovery in the hot path of the data plane.\n\nWe will be covering systems like Zookeeper and Raft from first principles to discuss how systems like Kafka and Etcd handle their service discovery. We will talk about the practicals of scaling systems like Envoy for tens of thousands of endpoints in a constantly shifting environment.\n\nView the full SREcon19 Europe/Middle East/Africa Program at https://www.usenix.org/conference/srecon19emea/program \n\nSign up to find out more about SREcon at https://srecon.usenix.org"
