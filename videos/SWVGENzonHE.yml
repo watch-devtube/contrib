@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - containers
+    - kubernetes
+title: 'Evolution of Envoy as a Dynamic Redis Proxy - Nicolas Flacco, Henry Yang & Mitch Sulaski'
+language: English
+recordingDate: 1574814338
+description: "Join us for Kubernetes Forums Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nEvolution of Envoy as a Dynamic Redis Proxy - Nicolas Flacco & Henry Yang, Lyft | Mitch Sulaski, Workday\n\nThis session will go over the evolution of Redis support in Envoy.  Initially Envoy redis proxy only supported sharding to clusters of independent Redis nodes. Recent developments have enabled support for the open source Redis Cluster protocol as well as some unique features such as multicluster routing, flexible load balancing options, and traffic shadowing.\n\nAs the usage of Redis expanded different usage patterns emerged, requiring different availability, durability and consistency trade-offs. Henry and Mitch will discuss how the Envoy redis proxy was extended to support these new requirements in large scale environment(10+ Millions rps) at Lyft and Workday.\n\nTraditionally migrating data between Redis clusters has been painful, requiring lots of application code changes and extensive monitoring. Now, it is possible to move traffic between Redis clusters with zero application code changes, using Envoy itself. Nicolas will discuss his experience at Lyft migrating Redis clusters."
