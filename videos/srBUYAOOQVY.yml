@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'How to Debug the Pod Which is Hard to Debug - Eohyung Lee, Kakao Enterprise'
+recordingDate: 1575939958
+description: "Don't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nHow to Debug the Pod Which is Hard to Debug - Eohyung Lee, Kakao Enterprise \n\nWhen using Kubernetes, users face a variety of problems. The most diverse of these problems occurs in pods. So users need to know how to debug pods.\n\nOf course, the start of debugging a pod is taking a look at it's status and logs and events. But, in most case, this is not enough. So the users want to get the shell from a pod and test it by reproducing the same situation as the problem. But there are pods that are impossible to get the shell such as scratch image.\nSo this session will introduce various techniques for debugging pods with minimal or no modification workloads.\nIn particular, the following cases will be explained.\n\n* debugging docker, containerd pod\n* debugging pod using host informations, tools\n* debugging pod in crashloopback status\n* debugging pod based scratch image\n* debugging readonly disk pods"
