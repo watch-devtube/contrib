@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+    - security
+    - architecture
+title: 'Envoy Namespaces - Operating an Envoy-based Service Mesh at a Fraction of the Cost - Thomas Graf'
+language: English
+recordingDate: 1574814361
+description: "Join us for Kubernetes Forums Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nEnvoy Namespaces - Operating an Envoy-based Service Mesh at a Fraction of the Cost - Thomas Graf, Cilium / Isovalent \n\nThe most common architecture currently includes running Envoy as a sidecar proxy inside of application pods. This provides an excellent resource and security isolation but comes at a steep resource consumption cost. Each individual sidecar proxy is running as a separate process and is duplicating all required resources.\n\nThis session will introduce the concept of namespaces to Envoy. Similar to namespacing in the Linux kernel which serves as the foundation for containerization, namespaces for Envoy allow to isolate resources and thus share an Envoy instance among multiple application pods running on a single node without losing any of the isolation properties. We’ll look at how a service mesh can be operated at a fraction of the required resources while still providing virtualized logical Envoy instances which present themselves to Envoy control planes as if they were running as a sidecar."
