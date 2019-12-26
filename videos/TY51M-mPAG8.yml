@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - containers
+    - kubernetes
+title: 'SlackTrace: A New Tracing Tool - Suman Karumuri, Slack'
+language: English
+recordingDate: 1575070095
+description: "Join us for Kubernetes Forums Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nSlackTrace: A New Tracing Tool - Suman Karumuri, Slack \n\nTrace data contains very rich information about a request execution. However, current tracing tools only expose that information as a trace view or a service graph, which severely limits the questions we can ask of trace data and diminishes the utility of tracing. However, from past experience, we found that these limitations arise because unlike logs or metrics, we can’t query raw trace data.\n\nTo query raw trace data easily, we designed a new span format called SpanEvent and built our tracing infrastructure called SlackTrace around it. In addition, to presenting the trace data as a trace view and a service graph, the SpanEvent format allows us to query raw span data using SQL queries which allows us to derive rich insights from trace data that is not possible with existing tracing systems. In this talk, I will present SpanEvent format and an overview of our SlackTrace infrastructure."
