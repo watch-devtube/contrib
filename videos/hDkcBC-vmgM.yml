@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - javascript
+title: 'Codemod-ing away 4MB of JavaScript | Spencer Miskoviak'
+recordingDate: 1572485843
+description: "\"Tree shaking (dead code elimination) can be an invaluable feature in modern build tools to keep bundle sizes slim. Unfortunately, it's can also be easy to \"\"break\"\" and overlook with a single import star (import *). Imagine this slips in and is overlooked for months, only to later realize it adds over 4 megabytes. But now, its implicitly relied upon in hundreds of places.\n\nThis is a story about creating a custom codemod transform to update hundreds of implicit usages to be explicit imports to \"\"fix\"\" tree shaking and remove nearly 97% of the unused code.\""
