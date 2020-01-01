@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - containers
+    - docker
+title: 'Plateforme d’intégration continue élastique avec Gitlab CI — Sébastien Dinot'
+language: French
+recordingDate: 1574687516
+description: "Orfeo Toolbox est un ensemble de bibliothèques et d’outils libres de traitement d’images pour la télédétection. La compilation, l’exécution de sa lourde batterie de tests unitaires et le contrôle qualité de cet outil multiplatefome et supportant diverses configurations, nécessitent d’importantes ressources matérielles. La plateforme d’intégration continue de ce projet doit être dimensionnée en conséquence pour fournir un retour rapide aux développeurs. Mais le cout d’une telle plateforme est important.\n\nPour fournir au projet les moyens dont il avait besoin en optimisant le cout de l’infrastructure, nous avons élaboré une plateforme d’intégration continue élastique (i.e. dimensionnée dynamiquement), dans laquelle les machines virtuelles exécutant les tâches du pipeline sont créées à la demande dans un cloud et détruites ensuite. Sa conception a été largement complexifiée par le fait qu'elle est publique et ouverte, donc très exposée aux abus et autres détournements. Il a fallu les anticiper et leur trouver une parade.\n\nCette conférence vous présentera cette plateforme basée sur Gitlab, Gitlab CI, Gitlab Runner, Docker, Docker Machine, OpenStack, CDash et SonarQube."
