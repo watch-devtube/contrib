@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+speaker:
+    name: 'Philipp Krenn'
+    twitter: xeraa
+title: 'Philipp Krenn - Centralized Logging Patterns'
+language: English
+recordingDate: 1577968202
+description: "Most organizations feel the need to centralize their logs” once you have more than a couple of servers or containers, SSH and tail will not serve you well any more. However, the common question or struggle is how to achieve that.\n\nThis talk presents multiple approaches and patterns with their advantages and disadvantages, so you can pick the one that fits your organization best:\n* Parse: Take the log files of your applications and extract the relevant pieces of information.\n* Send: Add a log appender to send out your events directly without persisting them to a log file.\n* Structure: Write your events in a structured file, which you can then centralize.\n* Containerize: Keep track of short lived containers and configure their logging correctly.\n* Orchestrate: Stay on top of your logs even when services are short lived and dynamically allocated on Kubernetes.\n\nEach pattern has its own demo with the open source Elastic Stack (previously called ELK Stack), so you can easily try out the different approaches in your environment. Though the general patterns are applicable with any centralized logging system."
