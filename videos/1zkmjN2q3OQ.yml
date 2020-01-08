@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - mobile
+    - android
+    - security
+    - java
+title: '#HITBCyberWeek D1T1 - Fuzzing Farm Monoculture Antipatterns - Marc Schoenefeld'
+language: English
+recordingDate: 1578104360
+description: "AFL is a great tool, it allowed researchers to discover a wide range of important bug findings, so the merits of AFL are not out for debate here. Still, AFL also benefitted from importing ideas from formerly standalone fuzzing tools. Exchanging and evolving ideas between different tools is generally a good idea. However AFL invites the researcher to move from using their own machinery towards AFL, potentially abandoning the evolution of their own tools, stopping innovation. We will show how this upcoming monoculture leads to potential blind spots during fuzzing.\n\nTo practically test our hypothesis we applied dumb fuzzing and smart fuzzing concurrently to major command line tools from the Linux and MacOS world (oh git). With well chosen input corpora it was possible to find formerly unknown security relevant bugs in these tools. The race is currently open ended, while the dumb fuzzing tools have currently (six weeks before HITB) found more bugs in these tools than AFL. However this may change until we meet in Abu Dhabi, so stay tuned.\n\nBut we are all researchers, what keeps our minds happy are the primarily the bugs, and not the history and approach how they were found. Therefore to wrap up the talk about a dozen of interesting scenarios will be shown as well as the coding skills that led towards those.\n\n=== \n\n\nMarc Schoenefeld currently works in the Java Group at Oracle, and presented his first Blackhat presentation in 2002 about “Security Aspects with Java Bytecode Engineering” in 2002. Over the years he did give a wide range of presentations and trainings, most of them related to bug hunting or reverse engineering of Java and Android applications. He also found (among others) a blue screen bug in Windows during his font-fuzzing period, and won a few bug bounties. He is also co-author of the current Java Secure Coding Guidelines and wrote a book about Java Security."
