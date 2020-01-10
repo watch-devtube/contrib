@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - cloud
+    - startup
+    - containers
+    - kubernetes
+title: 'Ready to Serve! Speeding-Up Startup Time of Istio-Powered Workloads - Michal Malka & Etai Lev-Ran'
+language: English
+recordingDate: 1574454830
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nReady to Serve! Speeding-Up Startup Time of Istio-Powered Workloads - Michal Malka & Etai Lev-Ran, IBM  \n\nPod startup time has long been a focus area for cloud-native platforms. Optimizing startup time is critical to support use cases such as autoscaling, upgrades, and failure recovery. The recent rise of the serverless model, along with its key value proposition of scale-to-zero of idle workloads, has made pod startup time important than ever: The platform must be able to start the pod fairly quick, such that the latency of request-triggered scale-from-zero is acceptable.   In this talk, we'll analyze the latency contributed by Istio service mesh to pod startup time, right from pod creation and up to the pod becoming ready to service requests. We'll also examine various techniques to reduce it, including using Istio CNI to bootstrap the pod's network, launching the sidecar proxy with an initial routing configuration, and using manual sidecar injection. \n\nhttps://sched.co/UacN"

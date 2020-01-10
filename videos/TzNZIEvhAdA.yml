@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Deep Linking Metrics and Traces with OpenTelemetry, OpenMetrics and M3 - Rob Skillington'
+language: English
+recordingDate: 1574454881
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nDeep Linking Metrics and Traces with OpenTelemetry, OpenMetrics and M3 - Rob Skillington, Chronosphere  \n\nMetrics and traces are two pillars of Observability and are often used in a complementary fashion. Metrics can give you a high level view of application’s responses and performance and tracing can give you a detailed view of requests through applications. Often when using metrics in graphs or alerts you want be able to jump to an example of a request represented by a given metric datapoint which is difficult to do today. In this talk we show an example of this using an OpenTelemetry exporter to publish trace IDs as exemplars using the OpenMetrics exposition format.  We then walk through configuring Jaeger as a tracing backend and M3 as a metrics backend to store the trace ID alongside a datapoint. We show how it is then possible to go from a metrics graph that visualizes the latency of your application to a trace that fell into a latency bucket using the deep link of the trace ID. \n\nhttps://sched.co/UaXX"

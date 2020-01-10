@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - performance
+    - containers
+    - kubernetes
+    - architecture
+title: 'Networking Optimizations for Multi-Node Deep Learning on Kubernetes - Rajat Chopra & Erez Cohen'
+language: English
+recordingDate: 1574454829
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nNetworking Optimizations for Multi-Node Deep Learning on Kubernetes - Rajat Chopra, NVIDIA & Erez Cohen, Mellanox  \n\nTraining a Neural Network may take days or weeks, even on a top of the line GPU. To reduce training time, distributed computation is often employed to spread the work across multiple GPUs and multiple nodes. Horovod is the best example of such a scalable architecture. At NVIDIA, in collaboration with the community, we have configured Kubernetes and multi-node infrastructure to deliver performance that scales as we add more GPUs and nodes. This talk presents the problems and solutions related to networking discovered during this journey.  The inexhaustive list includes solutions like CNI for multiple networks using SRIOV, enabling RDMA over IB and Ethernet (RoCE) to provide low latency, high throughput and direct GPU to NIC connectivity (GPUDirect), enforcing PCI affinity of GPUs with respect to Network Interfaces, using Source-Based routing within pods for L3 networks and much more. \n\nhttps://sched.co/UabV"
