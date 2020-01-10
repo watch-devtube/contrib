@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Liberating Kubernetes From Kube-proxy and Iptables - Martynas Pumputis, Cilium'
+language: English
+recordingDate: 1574454630
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nLiberating Kubernetes From Kube-proxy and Iptables - Martynas Pumputis, Cilium \n\niptables and Netfilter are the two foundational technologies of kube-proxy for implementing a Service abstraction. They carry legacy accumulated over 20 years of development grounded in a more traditional networking environment that is typically far more static than your average Kubernetes cluster. In the age of containers, they are no longer the best tool for the job, especially in terms of performance, reliability, scalability, and operations.  Companies like Google, Facebook and Cloudflare have long realised this and therefore embraced eBPF as technology, which lets one to dynamically reprogram the kernel. Can we replicate the same success story in Kubernetes?  In this talk, the audience will learn about running a fully functioning Kubernetes cluster without iptables, Netfilter and thus without kube-proxy in a scalable and secure way with the help of eBPF and Cilium. \n\nhttps://sched.co/Uaam"
