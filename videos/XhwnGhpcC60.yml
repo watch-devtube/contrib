@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Kishore Gopalakrishna: Scaling the wall of real-time analytics with Pinot'
+recordingDate: 1542843214
+description: 'Most analytical use cases are for internal users within the company. While they require sub-second latency, the number of concurrent requests is low. However, LinkedIn has many site facing applications such as "who viewed my profile" that serve a large user base (500+ million) and demands low latency response time at very large qps. There is another class of application such as anomaly detection that generates bursty workload. Even though the underlying data and the query pattern is the same, we used different systems to power these varied use cases. This resulted in duplication of data and functionality along with operational overhead of maintaining many systems. In order to address these challenges, we built Pinot, a real-time distributed OLAP engine. Pinot is a single system used at Linkedin to power 50+ site facing applications along with dozens of internal applications. In this talk, I will discuss the details of Pinot and also provide performance comparison with Druid. - Captured Live on Ustream at http://www.ustream.tv/channel/JUMjvCF2ucj'
