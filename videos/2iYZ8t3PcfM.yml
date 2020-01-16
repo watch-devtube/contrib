@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - architecture
+    - java
+title: 'GeeCON Prague 2019: Martin Štefanko - A different flavor of the distributed transaction'
+recordingDate: 1579081218
+description: 'Transactions are one of the most complex and yet very important areas of computing. They can get particularly hard when the system moves to the distributed environments as almost every component in the distributed system is liable to failures. Traditional locking protocols, used in transaction solutions today, are then very prone to holding locks on resources for unnecessarily long periods. The saga pattern provides an alternative non-blocking solution with the design that allows individual parts of the transaction to commited immediately and independently. This design is specifically suitable for long running transactions and distributed systems. In this session, we will present a newly created MicroProfile specification called Long Running Actions (LRA) which provides a definition of the transactional protocol and a simple API for the distributed transactions in the Java microservices environment based on the saga pattern. We will show you why the saga pattern is a very suitable transactional solution for many distributed microservices applications and demonstrate the usage o the LRA specification with the live coded demo.'
