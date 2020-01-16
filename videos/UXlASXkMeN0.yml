@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+title: 'GeeCON Prague 2019: Nikita Lipsky - Escaping The Jar Hell With Jigsaw Layers'
+recordingDate: 1579081218
+description: 'Jigsaw modules are often criticized for the lack of versioning that exists in alternative module systems for Java, such as OSGi. One of the main purposes of versioning is to solve the so called Jar Hell problem that arises when your application depends on two different versions of the same library. While Jigsaw is able to detect this conflicting situation, it won’t allow you to load both versions that are placed on the module path. However, it is not always possible to eliminate all version conflicts from your application, because other versions of the same libraries can come to your application indirectly via dependencies that you do not control. Fortunately, there is a native solution for the problem in Jigsaw called Layers. In this session, I will show what problems Jigsaw could have introduced if it had explicit versions for modules, and how Jigsaw Layers in conjunction with Jigsaw Services help to solve the Jar Hell problem safely.'
