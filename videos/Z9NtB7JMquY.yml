@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - architecture
+title: 'Ian Cooper - Event Driven Collaboration'
+language: English
+recordingDate: 1579254522
+description: 'When you move from a monolith to microservices you abandon integrating via a shared database, as each service must own its own data to allow them it to be autonomous. But now you have a new problem, our data is distributed. What happens if Ian needs one service needs to talk to another about a shared concept such as a product, a hotel room, or an order? Does every service need to have a list of all our users? Who knows what users have permissions to the entities within the microservice? What happens if his REST endpoint needs to include data from a graph that includes other services to make it responsive? And he is not breaking the boundary of his service when all of this data leaves his service boundary in response to a request? Naive request-based solutions result in chatty calls as each service engages with multiple other services to fulfill a request, or in large message payloads as services add all the data required to process a message to each message. Neither scale well. In 2005, Pat Helland wrote a paper ‘Data on the Inside vs. Data on the Outside’ which answers the question by distinguishing between data a service owns and reference data that it can use. Martin Fowler named the resulting architectural style; Event Driven Collaboration. This style is significant because it shifts the pattern from request to receiver-driven flow control. In this presentation, Ian will explain how events help us integrate our service architectures.'
