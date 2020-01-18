@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Dina Goldstein. Look Mommy, No GC! .NET Fest 2018'
+language: Russian
+recordingDate: 1565254299
+description: "The talk from .NET Fest conference in Kyiv, Ukraine.\nPresentation: will be added soon\nFb: https://www.facebook.com/dotNETFest/\nWebsite: http://dotnetfest.com/\n\nThe .NET garbage collector can be your best friend or your worst enemy; and it’s not friendly with a lot of people. The GC left more than a few production systems burning in smoke after developers failed to anticipate the effects of real production loads on the memory subsystem. In this talk, we will methodically measure and improve the .NET garbage collector’s performance. We will begin with a quick refresher on dynamic performance tools that can identify GC issues: CLR performance counters, ETW GC events, and ETW object allocation events; as well as static analysis tools, such as the Roslyn-based heap allocations analyzer. Then, we will inspect multiple issues at the source code level: excessive boxing, unintended effects of lambdas closing over local variables, await-generated state machines, intermediate objects in LINQ queries, and many others. We will also discuss higher-level memory problems: how to get rid of large object allocations, how to avoid finalization, and how to convert heap-based designs to local objects. Some of these ideas are now being applied at the language and framework level in C# 7 and .NET Core. At the end of the talk, you will be equipped to reduce memory traffic and GC overhead in your own applications, often by a factor of 10 or more!"
