@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - cloud
+    - architecture
+title: 'Error Handling in a Stateless Environment - Nitzan Shapira'
+recordingDate: 1554301939
+description: "Retry mechanisms are common nowadays in microservices, and particularly in cloud applications. They are an easy choice when it comes to software architectures with many services. Since every service is independent, and you don’t know what is going on inside, retries are a “best effort” approach which can help to recover from errors. Serverless applications present a “nano services” world. Since every service is very small, the amount of services goes up, and retries are chosen more than ever as the “right solution” for handling errors. But is it really the case? In a stateless world, retries can potentially cause unwanted behaviors and unexpected flows in the application, and they need to be dealt with a lot of thought.\n\nWebsite: https://boston.serverlessdays.io"

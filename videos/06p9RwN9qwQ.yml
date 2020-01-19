@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+title: 'Composition of serverless functions - Dr. Olivier Tardieu - Serverless London 2018'
+recordingDate: 1562082183
+description: "There are many approaches to composing serverless functions. Client applications can orchestrate the invocation of several functions. Functions can be fused. Functions can coordinate the execution of other functions. Function invocations can trigger or enqueue other function invocations. But these simple approaches all have flaws: they may either inflate cost, preclude polyglot compositions, break existing protocols, are not serverless, etc. In this talk, we will review these approaches and contrast them with first-class serverless compositions, i.e., when having runtime support for compositions.\n\nCompositions may take many forms: state machines, flow graphs, source code (using domain-specific languages or not). In this talk, we will explore some of the existing offerings, comparing them along several dimensions (expressivity, extensibility, fault-tolerance, etc.) to understand the tradeoffs.\n\nTo build compelling FaaS applications we need to compose functions. In this talk, we compare approaches to function composition both from the point of view of developers and systems. We show how to efficiently support the composition of serverless functions in a FaaS runtime and how to program them.\n\nhttps://2018.london.serverlessdays.io/speaker/olivier-tardieu"
