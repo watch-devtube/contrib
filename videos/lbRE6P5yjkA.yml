@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - java
+    - 'c#'
+    - functional
+title: 'Adam Furmanek - Manual Memory Management in .NET Framework'
+language: English
+recordingDate: 1570527776
+description: "DevConf - The Software Craftsmen Festival for Sharing Knowledge and Inspiration (https://devconf.pl/)\n\nWe are used to having safe references and not bother with memory leaks. CLR or JVM take care of allocating objects and verifying that we do not do illegal instructions. Worst thing we can have is just an exception which usually we can catch and handle. But what if we want to take care of lower mechanisms? Do we need to use C++ or can we stick to our favorite language and trick the platform to execute any code we wish?\n\nSince we can allocate memory and our machines usually don’t differentiate between code and data, we just need to modify few pointers to execute any code we like and allocate objects wherever we want. We can do it in C# or Java, and most likely in different languages as well. At the end it is just a bunch of bytes we run and modify.\n\nAnd when it comes to C# details, during the session I will show how to allocate memory directly by hand using TypedReferences. We will see that it is possible to allocate reference type on a stack, how to hack new keyword provided by the platform to use different allocator, and how to execute any machine code using pure C#. We will examine memory dumps with WinDBG, emit IL code dynamically, and generate machine code for x86 directly in runtime."

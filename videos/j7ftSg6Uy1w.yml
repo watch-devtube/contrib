@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+title: 'Jimmy Bogard - Six Little Lines of Fail'
+language: English
+recordingDate: 1570527775
+description: "DevConf - The Software Craftsmen Festival for Sharing Knowledge and Inspiration (https://devconf.pl/)\n\nIt seemed like an easy feature to implement, a checkout page to place an order. But this payment gateway has a simple API, so we added that. And this email service provider makes it possible to send an email with one line of code! Finally we can notify downstream systems via a message queue. The code looks simple, 6 little lines of distributed systems code.\n\nBut those lines hid a dark secret that we only found after launching. Customers complained they didn’t get their email. The back end system wasn’t getting updated from our messages. And by far the worst of all, customers complained they saw an error page but still got charged!\n\nClearly it wasn’t as easy as calling a few APIs and shipping, we actually need to worry about those other systems. In this session, we’ll look at taking our 6 lines of distributed systems fail, examining the inevitable failures that arise, and possible mitigating scenarios. We’ll also look at the coupling our code contains, and the ways we can address it. Finally, we’ll refactor towards a truly resilient checkout process that embraces, instead of ignoring, the fallacies of distributed computing."
