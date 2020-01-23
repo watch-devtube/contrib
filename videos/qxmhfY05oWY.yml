@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+title: 'Generating seccomp profiles for containers using podman and eBPF'
+recordingDate: 1569084209
+description: "https://media.ccc.de/v/ASG2019-140-generating-seccomp-profiles-for-containers-using-podman-and-ebpf\n\n\n\nCurrently everyone uses the same seccomp rules for running their containers.  This tool allows us to generate seccomp rules based on what the container actually requires and allows us to lock down the container.\n\nWe had a GSOC student this summer  who instrumented podman to allow it to run containers and then genrate the seccomp rules for the container based on the syscalls that the container actually made.  \n\nOnce you have this newly generate seccomp file and are satisfied that you have thoroughly tested the container, you can run the container inproduction using the seccomp.json file.\n\nThis talk will explain how the tool works and demonstrate it in action.\n\nDan Walsh\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/ACEWHG/"

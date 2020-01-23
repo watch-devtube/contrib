@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Traceloop for systemd and Kubernetes + Inspektor Gadget'
+recordingDate: 1569069150
+description: "https://media.ccc.de/v/ASG2019-159-traceloop-for-systemd-and-kubernetes-inspektor-gadget\n\n\n\nPresenting [traceloop](https://github.com/kinvolk/traceloop), a “time travel” tracing tool to trace system calls in cgroups using BPF and overwritable ring buffers.\n\nMany people use the “strace” tool to synchronously trace system calls using ptrace. [Traceloop](https://github.com/kinvolk/traceloop) similarly traces system calls but asynchronously in the background, using BPF and tracing per cgroup. I’ll show how it can be integrated with systemd and with Kubernetes via [Inspektor Gadget](https://github.com/kinvolk/inspektor-gadget).\n\nTraceloop's traces are recorded in a fast, in-memory, overwritable ring buffer like a flight recorder. As opposed to “strace”, the tracing could be permanently enabled on systemd services or Kubernetes pods and inspected in case of a crash. This is like a always-on “strace in the past”.\n\nTraceloop uses BPF through the gobpf library. Several new features have been added in gobpf for the needs of traceloop: support for overwritable ring buffers and swapping buffers when the userspace utility dumps the buffer.\n\nhttps://github.com/kinvolk/traceloop\nhttps://github.com/kinvolk/inspektor-gadget\nhttps://github.com/iovisor/gobpf\n\nSlides: https://docs.google.com/presentation/d/1zIZUrTrD7FkS9pHnWz87ZmoLTrO1g9-J_lDMD7E5kdo/edit\n\nAlban Crequy\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/98A9LW/"
