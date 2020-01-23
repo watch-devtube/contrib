@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - mobile
+    - android
+    - embedded
+title: 'Transactional Updates with Btrfs'
+recordingDate: 1569071900
+description: "https://media.ccc.de/v/ASG2019-128-transactional-updates-with-btrfs\n\n\n\nTransactional updates (also called atomic updates) are a way to update a system without interfering with the currently running system - making this a rock-solid way to update any machine, from embedded systems to cluster nodes.\n\nWhat do openSUSE MicroOS, Fedora CoreOS, Chrome OS, Ubuntu Core and Android have in common? All of them are using a *read-only root file system* and so called *transactional / atomic updates* to update a system safely - without having to worry that a broken update could leave your system in some undefined state.\n\nThis talk will focus on how to use *btrfs*' snapshot feature to implement such a transactional system and explain where the pitfalls of implementing such a system compared to a traditional read-write system are.\n\nIgnaz Forster\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/SXENPK/"

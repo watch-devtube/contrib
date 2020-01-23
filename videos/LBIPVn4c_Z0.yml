@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+    - testing
+title: 'Trust is good, control is better - A (short) story about Network Policies'
+recordingDate: 1569074981
+description: "https://media.ccc.de/v/ASG2019-138-trust-is-good-control-is-better-a-short-story-about-network-policies\n\n\n\nTesting the effectiveness of Kubernetes Network Policies can be done in different approaches. In this talk we will show you the benefits and drawbacks of different approaches and what solution we finally chose.\n\nProbably everybody who uses Kubernetes in a productive environment with multiple users possibly has looked at policies. Often the operators of the cluster(s) just trust the policies but in some cases it might be useful to control if the policies actually have taken action and often there are just to many Policies in the cluster setup to manually test them all (and obviously you don’t want to do this). Testing the effectiveness of the Network Policies can be done in different approaches. In this talk we will show you the benefits and drawbacks of different approaches and what solution we finally chose. Also we will show you some other tools and how they complement our solution. As a takeaway you will get an overview of different testing strategies for policies, as well as understanding challenges in testing policies in general and the Kubernetes ecosystem. We will get a feeling that it’s not always the best idea to just trust other plugins to implement the policies correctly. Our solution is open-sourced under https://github.com/inovex/illuminatio/\n\nMaximilian Bischoff Johannes Scheuermann\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/QXMUUW/"

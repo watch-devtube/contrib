@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+title: 'Building Portable Service Images with Buck'
+recordingDate: 1569074488
+description: "https://media.ccc.de/v/ASG2019-143-building-portable-service-images-with-buck\n\n\n\nBuck is an opensource build system.  At Facebook, we’ve taught it to build container images that work with systemd.\n\nAt Facebook we use an open-source build system called Buck.  Buck is a build system designed to provide more strong guarantees of incremental builds, reproducibility, and dependency management.  Open-source Buck can now be used to construct fully described and fully self-contained container images that work with systemd! I will show how we use this tool internally at Facebook and how it can be used externally (It’s open-source!) to build service containers for use by systemd.  I will dive into the the details of how these builds are performed with systemd-nspawn, how we use the Buck system to define the systemd services and their dependencies, and how these images work at runtime.\n\nLindsay Salisbury\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/K7E7T7/"

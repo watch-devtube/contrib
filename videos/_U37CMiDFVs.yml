@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+title: 'Custom cgroup-bpf programs in systemd'
+recordingDate: 1569073184
+description: "https://media.ccc.de/v/ASG2019-144-custom-cgroup-bpf-programs-in-systemd\n\n\n\nThe primary focus is to gather feedback from systemd community regarding ongoing and future work to introduce custom cgroup-bpf programs to systemd.\nThe motivation is to give a user a capability to attach their own cgroup-bpf programs to systemd containers.\n\nThis is a continuation of  started at ASG2018 and followed by  and .\n\nCurrently systemd utilizes BPF macro-assembly which is poorly extendable and maintainable, so the 1st iteration would be introducing `libbpf` library to systemd. The first attempt was made and it raised valid questions about `libbpf` testability and dependencies it introduces. We’d like to address that.\nAnother topic of focus may be implementation details, such as how to store libbpf programs: either as bytecode or as restricted C which compiles with the rest of systemd.\nFor attendees with no context a brief intro to eBPF will be made including new initiatives which may be of use to systemd, e.g. “Compile once, run everywhere”.\nSince this is ongoing work the agenda may vary depending on activity in PRs.\n\nJulia Kartseva\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/M8DVWG/"

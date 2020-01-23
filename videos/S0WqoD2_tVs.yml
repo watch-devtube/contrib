@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'oomd2 and beyond: a year of improvements'
+recordingDate: 1569074227
+description: "https://media.ccc.de/v/ASG2019-135-oomd2-and-beyond-a-year-of-improvements\n\n\n\noomd is a userspace out-of-memory killer. This talk covers past, present, and future development along with possible plans for systemd integration.\n\nRunning out of memory on a host is a particularly nasty scenario. In the Linux kernel, if memory is being overcommitted, it results in the kernel out-of-memory (OOM) killer kicking in. Perhaps surprisingly, the kernel does not often handle this well. oomd builds on top of recent kernel development to effectively implement OOM killing in userspace. This results in a faster, more predictable, and more accurate handling of OOM scenarios.\n\noomd has gained a number of new features and interesting deployments in the last year. The most notable feature is a complete redesign of the control plane which enables arbitrary but \"gotcha\"-free configurations. In this talk, Daniel Xu will cover past, present, future, and path-not-taken development plans along with experiences gained from overseeing large deployments of oomd. Anita Zhang will close the talk with a discussion of why oomd would be a great addition to systemd.\n\nDaniel Xu Anita Zhang\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/DQX3DH/"

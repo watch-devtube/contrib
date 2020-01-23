@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+title: 'Distributing Freedesktop SDK applications to Flatpak, Snapd and Docker'
+recordingDate: 1569073983
+description: "https://media.ccc.de/v/ASG2019-145-distributing-freedesktop-sdk-applications-to-flatpak-snapd-and-docker\n\n\n\nBuildStream is used to build Freedesktop SDK for different deployment systems allowing applications based on it to be distributed at once to multiple systems.\n\nFlatpak, Snapd and Docker are similar. They are all used for deployment and applications use their own runtime.\n\nEach system has its own tools for development. Flatpak uses Flatpak Builder. Snapd uses Snapcraft. Docker development is based on `Dockerfile`s.\n\nFreedesktop SDK was developed to be the runtime of Flatpak. It used to be partly built with Flatpak Builder. It has since changed to be built with a deployment system agnostic tool: BuildStream. For this reason we can export the Freedesktop SDK to multiple formats.\n\nWe will show how it is possible to build an application for the three systems at once.\n\nValentin David\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/CF7FSX/"

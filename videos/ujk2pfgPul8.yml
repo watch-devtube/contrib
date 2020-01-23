@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+    - containers
+title: 'Senpai - Automatic memory sizing for containers'
+recordingDate: 1569089960
+description: "https://media.ccc.de/v/ASG2019-134-senpai-automatic-memory-sizing-for-containers\n\n\n\nDue to virtual memory and optimistic caching strategies, true memory consumption of an application, and true utilization of a system's RAM, are mostly unknowns on modern operating systems. This has always made memory provisioning a tough and error-prone trial-and-error task, but it's aggravated with containerization, where the stated goal is thinner margins and higher resource efficiency.\n\nSenpai is a userspace tool that harnesses recently developed Linux kernel features to automatically shrink cgroups to their smallest possible memory size without notably affecting the performance of the contained applications.\n\nThis talk goes over the motivation to develop senpai, how it works, and success stories from the Facebook fleet.\n\n\n\nJohannes Weiner\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/TCBLRG/"
