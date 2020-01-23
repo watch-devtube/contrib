@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+title: 'Improving Data Locality for Analytics Jobs on Kubernetes Using Alluxio'
+language: English
+recordingDate: 1579642320
+description: "In the on-prem days, one key performance optimization for Apache Hadoop or Apache Spark workloads is to run tasks on nodes with local HDFS data. However, while adoption of the Cloud & Kubernetes makes scaling compute workloads exceptionally easy, HDFS is often not an option. Effectively accessing data from cloud-native storage services like AWS S3 or even on-premises HDFS becomes harder as data locality is lost.\n\nOriginated from UC Berkeley AMPLab, the open source project Alluxio approaches this problem in a new way by helping to move data closer to compute workloads efficiently and on-demand, and unify data across multiple or remote clouds, and many more. This webinar will describe the concept and internal mechanism using the stack of Spark+Alluxio in Kubernetes to enhance data locality even when the storage service is outside or remote.\n\nParticularly, we will go over:\n\n-Why Spark is able to make a locality-aware schedule when working with Alluxio in K8s environment using the host network\n-Why a pod running Alluxio can share data efficiently with a pod running Spark on the same host using domain socket and host path volume\n-The roadmap of Alluxio to further improve running analytics jobs like Spark and Presto, including the on-going closer integration with Presto"
