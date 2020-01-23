@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Revamping libcontainer''s systemd driver'
+recordingDate: 1569072629
+description: "https://media.ccc.de/v/ASG2019-151-revamping-libcontainer-s-systemd-driver\n\n\n\nIn this talk, I'll go through my efforts to revamp libcontainer's systemd driver, in particular to support the unified cgroup hierarchy.\n\nlibcontainer is part of runc (opencontainers/runc in GitHub) and is used by the Docker and containerd ecosystem to spawn containers. This work is trying to bridge the gap between the Docker/containerd/Kubernetes ecosystem and cgroup2 through the unified hierarchy, using systemd as an authoritative container manager. I'll also touch on alternative approaches (such as crun and systemd-nspawn) and briefly talk about the OCI standard and the need for it to evolve to properly support cgroup2 semantics.\n\nFilipe Brandenburger\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/YPU3HL/"

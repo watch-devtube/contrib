@@ -1,0 +1,7 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'pidfds: Process file descriptors on Linux'
+recordingDate: 1569075437
+description: "https://media.ccc.de/v/ASG2019-172-pidfds-process-file-descriptors-on-linux\n\n\n\nTraditionally processes are identified globally via process identifiers (PIDs). Due to how pid allocation works the kernel is free to recycle PIDs once a process has been reaped. As such, PIDs do not allow another process to maintain a private, stable reference on a process. On systems under pressure it is thus possible that a PID is recycled without other (non-parent) processes being aware of it. This becomes rather problematic when (non-parent) processes are in charge of managing other processes as is the case for system managers or userspace implementations of OOM killers.\n\nOver the last months we have been working on solving these and other problems by introducing pidfds – process file descriptors. Among other nice properties, the allow callers to maintain a private, stable reference on a process.\n\nIn this talk we will look at challenges we faced and the different approaches people pushed for. We will see what already has been implement and pushed upstream, look into various implementation details and outline what we have planned for the future.\n\n\n\nChristian Brauner\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/TPS8TS/"
