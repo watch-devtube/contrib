@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - cloud
+    - aws
+    - containers
+    - architecture
+    - functional
+title: 'Stateful systems on immutable infrastructure'
+recordingDate: 1569088678
+description: "https://media.ccc.de/v/ASG2019-166-stateful-systems-on-immutable-infrastructure\n\n\n\nLessons learned operating thousands of stateful production clusters on top of Fedora and systemd-nspawn.\n\nAiven is a cloud data platform operating thousands of production clusters on top of different cloud infrastructure providers (e.g. AWS, GCP).  We offer the latest open source database & streaming engines to our users around the world, and implement most of our platform using the latest open source software including Fedora and systemd-nspawn.\n\nWe wanted to base our platform on a fast moving Linux distribution like Fedora to gain quick access to new technology and avoid having to backport a lot of things.  Fast moving distributions are typically not supported for a long time, but implementing an immutable infrastructure where deployed machines are not touched afterwards makes it possible to use them in production.\n\nIn this talk we’ll share the details of our architecture and the lessons we’ve learned as well as problems we’ve faced over the years operating hundreds of thousands of virtual machines and containers with it on top of six different public clouds.\n\nHannu Valtonen\n\nhttps://cfp.all-systems-go.io/ASG2019/talk/RLCDFS/"
