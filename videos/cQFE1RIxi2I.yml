@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - serverless
+    - cloud
+    - css
+    - web
+    - react
+    - mobile
+    - aws
+    - javascript
+title: 'Marina Miranovich: Serverless and React (it''s just sleight of hand) | js.la August 2018'
+language: English
+recordingDate: 1541907605
+description: "A few months ago I built a small web page, that supposed to be integrated into the existing mobile app within a webview. Even though that was only one page, it was a checkout page, so there were a lot of things going on there: a lot of API calls to verify the data, need to decrypt the params that were passed there, additionally would need to encrypt the response as well. \nFirst thought was - to build an server app that would return simple HTML/CSS and may have some vanila JS. But that looks too much for hosting one page, and I was really worry about scaling of it, we expected a huge peaks of load. And the final decision was to have AWS lambda render a page for us. \nSo the talk would be about SSR of React app in cloud functions (particularly aws lambda)."
