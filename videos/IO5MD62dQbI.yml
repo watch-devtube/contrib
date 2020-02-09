@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - startup
+    - scala
+    - functional
+title: 'Uniting Church and State: FP and OO Together   by Noel Welsh'
+language: English
+recordingDate: 1499068354
+description: "This video was recorded at Scala Days Copenhagen 2017\nFollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAbstract: \nIn this talk we describe an underappreciated tool, Church encoding, that allows us to combine the best parts of FP and OO.\nBy Church encoding our program we can reatin the simple semantics that characterises FP code, while achieving performance that may seem out of reach in a pure FP system.\n\nLate last year Maana, a Seattle based enterprise knowledge platform startup, contracted us to write a time series analysis engine. \nThey commonly dealt with multi-TB data, but needed to achieve interactive speed.\nWe recognised that providing a streaming API, similar to Monix, Akka Streams, or Reactive Extensions, would make the software accessible to data scientists already used to Spark, but there were issues about semantics and performance.\nClassic FP pull-based systems are simple to use but perform poorly, while OO push-based systems are fast but tricky to reason about.\nBy employing Church encoding, also known as refunctionalisation, we were able to get the best of both worlds."
