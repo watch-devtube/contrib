@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - scala
+title: 'Herding types with Scala macros   by Marina Sigaeva'
+language: English
+recordingDate: 1496835499
+description: "This talk was recorded at Scala Days Chicago, 2017. Follow along on Twitter @scaladays and on the website for more information http://scaladays.org/.\n\nAbstract:\nIn Scala we use the term \"type safety\", but what it really means? In short, most applications model data types in a form suitable for storage, change, transmission, and use. During the life cycle of the data, we expect to always use the declared type. But reality is a bit more complicated. One of the main practical problems with the use of types occurs when our application interacts with outside world - in requests to external services, different databases or simply with getting data from file. In most cases, an attempt to support type safety leads to writing a lot of code that we always try to avoid. Fortunately we have macros to do all routine job for us! In this talk we will discuss how to use compile-time reflection in library for schemaless key-value database and the benefits of use of macros in production systems."
