@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - architecture
+    - scala
+title: 'Reducing Microservice Complexity with Kafka and Reactive Streams - by Jim Riecken'
+recordingDate: 1466147155
+description: "This talk was recorded at Scala Days New York, 2016. Follow along on Twitter @scaladays and on the website for more information http://scaladays.org/.\n\nAbstract:\nTransitioning from a monolithic application to a set of microservices can help increase performance and scalability, but it can also drastically increase complexity. Layers of inter-service network calls for add latency and an increasing risk of failure where previously only local function calls existed. In this talk, I'll speak about how to tame this complexity using Apache Kafka and Reactive Streams to:\n- Extract non-critical processing from the critical path of your application to reduce request latency\n- Provide back-pressure to handle both slow and fast producers/consumers\n- Maintain high availability, high performance, and reliable messaging\n- Evolve message payloads while maintaining backwards and forwards compatibility."
