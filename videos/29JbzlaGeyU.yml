@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - scala
+title: 'DRY compiling!   by Krzysztof Romanowski'
+language: English
+recordingDate: 1498649053
+description: "This video was recorded at Scala Days Copenhagen 2017\nFollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAbstract: \nHow many time do you spent compiling your code after branch change?\nDid you ever setup multiple copy of same repository just not to trigger full compilation?\n\nScala is known for it’s long compilation times. Dotty or Hydra compilers may help us here but we don’t expect order of magnitude speedup (and this is what we really want).\n\nIt’s time to change this! \nLet’s reuse incremental compilations from CIs or your colleagues computers and save lots of time. You are one commit ahead of master? Don't worry - incremental compilation will do all the work for you!\n\nFixing critical problems in old releases? Open source project setup? Cached compilation can save your precious minutes there.\n\nAdd Hoarder plugin (github.com/romanowski/hoarder) to your sbt project and don’t repeat yourself compiling code that was already compiled!"
