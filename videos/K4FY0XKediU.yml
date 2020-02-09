@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - storage
+    - cassandra
+    - bigdata
+    - performance
+    - architecture
+    - scala
+title: 'Data in Motion: Streaming Static Data Efficiently in Akka Persistence - by Martin Zapletal'
+recordingDate: 1466145969
+description: "This talk was recorded at Scala Days New York, 2016. Follow along on Twitter @scaladays and on the website for more information http://scaladays.org/.\n\nAbstract:\nProcessing streaming data is becoming increasingly important in many areas. Scala and the Lightbend Reactive platform offer multiple solutions for processing streaming data, including Akka, Akka Streams and Apache Spark. This talk introduces the advantages and concepts of streaming data processing. It will mention differences between static data and data in motion and their usage as streaming data sources. The main goal of the presentation is detailed discussion of Akka Persistence Query and implementation of the stream production specification in Cassandra plugin for Akka Persistence (akka-persistence-cassandra) that the author participated in. Focus is on architecture and design considerations, implementation details, performance tuning and distributed system specifics such as correctness, efficiency, consistency, order, causality or failure scenario handling that are inherently part of the solution and apply to wide variety of distributed systems. Finally, other improvements to the Cassandra plugin for Akka Persistence project such as reusing the stream generation for non blocking asynchronous Akka Persistence recovery as well as application of the project and the discussed concepts to build modern reactive enterprise stream processing and asynchronous messaging distributed applications are presented."

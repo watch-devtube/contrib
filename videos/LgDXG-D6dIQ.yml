@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - scala
+    - java
+title: 'Flare: Scale Up Spark with Native Compilation and Set Your Data on Fire   by Tiark Rompf'
+language: English
+recordingDate: 1496835511
+description: "This talk was recorded at Scala Days Chicago, 2017. Follow along on Twitter @scaladays and on the website for more information http://scaladays.org/.\n\nAbstract:\nSpark is emerging as the leading Big Data platform, and its performance has made impressive progress. But there is still a significant gap towards best-of-breed query engines or hand-written low-level C code on modern server-class hardware. We present Flare, a new back-end for Spark that yields significant speedups by compiling Spark's Catalyst query plans to native code. Flare's low-level implementation takes full advantage of native execution, using techniques such as NUMA-aware scheduling and data layouts to leverage ‘mechanical sympathy’ and bring execution closer to the metal than current JVM-based techniques on big memory machines. Thus, with available memory increasingly in the TB range, Flare makes scale-up on server-class hardware an interesting alternative to scaling out across a cluster, especially in terms of data center costs. This talk will discuss the design of Flare and will demonstrate experiments on standard benchmarks that exhibit order of magnitude speedups over Spark 2.1."
