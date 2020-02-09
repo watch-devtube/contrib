@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+    - scala
+title: 'Bootstrapping Microservices using Akka, Kafka ans Spark by  Alex Silva'
+language: English
+recordingDate: 1496835531
+description: "This talk was recorded at Scala Days Chicago, 2017. Follow along on Twitter @scaladays and on the website for more information http://scaladays.org/.\n\nAbstract:\nCompared to a traditional analysis-centric data hub, today's data platforms need to fulfill many different use cases. The need for real-time, transport-agnostic data protocols have become a crucial feature shared across many different use cases.\n\nDuring this talk, we will discuss our approach to bootstrapping and bounded context subscription, leveraging a mix of open source technologies and home-grown services aimed at providing a full end-to-end solution.\n\nWe will demonstrate and discuss our use of Kafka, Spark Streaming and Akka to orchestrate a unified data transfer protocol that frees developers from having to listen to and process events within their bounded contexts. More specifically:\n\n- Leveraging Kafka as the source of truth\n- Topic formats, retention rules and derived topics\n- Using Kafka's distributed commit logs to produce durable datasets\n- Log compaction and its role in service bootstrapping\n- Message delivery guarantees using Akka actors\n- Ingestion at scale: consuming data in different formats across different teams at different latencies\n- Using Spark Streaming and Akka to perform real-time analysis and implement transfer protocols"
