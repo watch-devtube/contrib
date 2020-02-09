@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - testing
+    - scala
+    - functional
+title: 'When all abstraction is lost   by Daniel Jentsch'
+language: English
+recordingDate: 1499068572
+description: "This video was recorded at Scala Days Copenhagen 2017\nFollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAbstract: \nDid you ever implement an asynchronous/distributed algorithm or data structure and wondered whether your implementation is correct? Did you ever try to solve this problem by testing thoroughly and a little bit of reasoning with the result being “the system will probably work correctly”? If you answered to any of these question with yes then this talk is definitely for you.\n\nIn this Talk we will look at a novel approach to easily prove the correctness of concurrent/distributed systems with the help of an extension for ScalaTest. The extension offers a DSL for describing behaviors of these systems and employs explicit state model checking for the purpose of proofing those behaviors. Since, model checking isn't widely used in the Scala world we will (briefly) discuss this concept before looking at the DSL and extension itself. In the demo we will see that the extension can be used for proofing the correctness of a real-world system written in Scala.\n\nMonads will not be mentioned during this Talk. However, the audience may be exposed to a non-painful amount of temporal logic."
