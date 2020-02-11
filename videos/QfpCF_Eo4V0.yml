@@ -1,0 +1,13 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - 'distributed systems'
+    - rest
+    - architecture
+speaker:
+    name: 'Tomasz Nurkiewicz'
+    twitter: tnurkiewicz
+title: 'Tomasz Nurkiewicz (Allegro): Asynchronous by default, synchronous when necessary / infoShare 2017'
+recordingDate: 1497950195
+description: "Tomasz Nurkiewicz (Allegro): Asynchronous by default, synchronous when necessary\n\nIn distributed systems, synchronous communication (RPC-style) is tempting but can quickly get out of hand. Suddenly you need to think about retrying, fallbacks, circuit breakers, failover, and latency. Tomasz Nurkiewicz explains how all of this can be avoided by preferring asynchronous communication between services, pub-sub patterns, and event sourcing.\n\nToo often migrations from monolith to microservices architecture are unsuccessful. Simply replacing in-process method calls with RESTful interfaces doesn’t mean we have a distributed system consisting of loosely coupled independent services. Quite the opposite: our architecture is now a tangled web of interconnected, slow, chatty, and unreliable components. Dozens of patterns were introduced to ease the pain like circuit breakers, scaling services horizontally, and load balancing—all of this to prevent cascading failures and increased latencies.\n\nWe can achieve fast, loosely coupled, independent services only if we apply the dependency inversion principle at the architecture level. Moving to asynchronous communication via message passing and pub-sub patterns can prevent temporal coupling. Such coupling requires two systems to exist and work reliably at the same time in order to communicate. This is the biggest challenge in distributed systems that increases complexity, latency, and the possibility of failure.\n\nTomasz demonstrates how pushing changes asynchronously between systems can improve fault tolerance and make systems more reliable, faster, and more independent, focusing on publishing (pushing) changes and rebuilding state on the client side as opposed to pulling data when needed. From this point jumping to event sourcing is quite natural. Along the way, Tomasz covers the drawbacks and challenges of this architectural style.\n\nThe speech was given on 2017-05-18 at infoShare 2017 (Tech Stage) in Gdańsk.\nhttp://infoshare.pl\n\nFollow infoShare:\nhttps://facebook.com/infosharepl\nhttps://twitter.com/infosharepl\nhttps://instagram.com/infoshare/\nhttps://linkedin.com/company-beta/1272775/\nhttps://plus.google.com/+infoshare/"
