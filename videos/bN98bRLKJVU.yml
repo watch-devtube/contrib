@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - javascript
+    - embedded
+title: 'The Cost of Logging - lecture by Matteo Collina - Code Europe Autumn 2017'
+recordingDate: 1516730005
+description: 'Sunday morning and your phone rings: production is down. After two hours, you manage to solve it: you could have fixed it in one minute if you had the right information from the start. First thing in the morning, you add logging everywhere, to avoid this issue and be able to triage and solve problems easily. Now your application requires twice as many servers to cater to the same demand. Matteo Collina talk about building Pino, a JSON logger for Node.js that’s up to 17 times faster than pre-existing loggers, with a growing ecosystem of support libraries, including high performance integration with Express, Hapi, Koa and Restify. How did we make it so fast? After showing what Pino can do, we demonstrate our tooling: 0x for flamegraphs, and autocannon for HTTP/1.1 benchmarking. Then we’ll discuss V8 optimizing compilers, string flattening and other mad-science optimizations that we embedded inside Pino.'
