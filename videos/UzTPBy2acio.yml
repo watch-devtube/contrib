@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - javascript
+    - rust
+title: 'Алексей Орленко. Node.js N-API for Rust. JS Fest 2019 Autumn'
+language: Russian
+recordingDate: 1581326269
+description: "The talk from JS Fest conference 2019 Autumn\nin Kyiv, Ukraine.\nPresentation: http://bit.ly/2rBBk8p\nFb: https://www.facebook.com/JSFestua/\nWebsite: https://jsfest.com.ua\n\n\nThere are plenty of use cases for native modules in Node.js. Most importantly, one might want to interface with third-party libraries or operating system services that provide functionality not available in Node.js core out-of-the-box. Another popular option is to use a compiled language for a computationally-heavy algorithm while still using JavaScript for application business logic (although care must be taken and no premature optimization be made as often the cost of crossing the boundary may be higher than performance increase, unless you are doing some kind of image processing or linear algebra, for example). For a long time C++ was the only option to write native addons for Node.js (technically, there were projects that allowed to use other languages, but they were merely second-level bridges, thus twice FFI overhead). In this talk we will look at the history of native modules in Node.js, what N-API is, which problems does it solve and how it enables to use other systems programming languages. We will also look at the future perspectives and briefly discuss in which cases WebAssembly and upcoming WASI can be used instead of native modules."
