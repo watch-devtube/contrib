@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - tensorflow
+    - cloud
+    - containers
+    - kubernetes
+    - security
+    - architecture
+    - python
+title: 'Operating an Open Source Flink and Beam Runtime on Kubernetes'
+language: English
+recordingDate: 1581545332
+description: "Open source has always been a core pillar of Google Cloud’s data and analytics strategy. Starting with the map reduce paper in 2004, to more recent open source releases of Tensorflow for ML, Apache Beam for data processing and even Kubernetes itself, Google has built communities around its technology in the open source and across company boundaries.\n\nA large number of traditional enterprises are planning their cloud transformation with hybrid and multi-cloud at the core of their strategy. Kubernetes provides a platform to easily port applications from on-prem to across various public clouds. Recently, the Cloud Dataproc team at Google has taken on a challenge of running Apache Beam on the Flink runner for Kubernetes based clusters. This architecture provides a great option for using Python and it’s wealth of machine learning libraries in your data pipelines. However, the Beam-on-Flink-on-K8s stack brings a lot of complexities. These intricacies are why we built a fully open source Flink Operator that not only abstracts Google best practices for running these sophisticated pipelines but provides a set of cohesive APIs that make it easy to run Flink pipelines in your company.\n\nJoin our session for a deep dive into this Flink Operator for Kubernetes. You will gain insight into our best practices for running Flink on Kubernetes, which includes concepts like when to use sidecar containers, how to checkpoint to external storage, and integration with cloud security models. You will leave the session with knowledge of how to apply these techniques to your own cloud applications. In addition, you will learn ways to extend the service on your own and see how easy it is to become a contributor to the project!"
