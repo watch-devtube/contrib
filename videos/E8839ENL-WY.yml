@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - ml
+    - cloud
+    - aws
+    - architecture
+title: 'Overview of Wix’s Machine Learning Platform - Ran Romano'
+recordingDate: 1582015084
+description: "Machine learning powers a variety of products at Wix. With many ML models - from basic regression and classification methods, to sophisticated recommendation and deep learning based models, the ML engineering team faces a significant challenge of supporting the plethora of models in production.\n\nIn this talk, Ran presents the internal ML platform designed to address the end-to-end ML workflow:\n1. Data management\n2. Model training, experimentation and evaluation\n3. Model deployment\n4. Serving and monitoring predictions\n\nRan covers the architecture and main flows of the system, built on top of a mixture of managed services like AWS Sagemaker and open source tools such as Apache Spark, and MLflow. In addition, he dives into two of the main components of the system:\n\n1. Machine Learning CI - an MLflow-based CI system, designed for creating reusable and reproducible experiments.\n2. Feature store - A single, curated, discoverable, source of truth for features. Features are generated declaratively, in a fashion which facilitates feature reuse. And most prominently, solves one of the hardest problems of using ML in production - training / serving skew."
