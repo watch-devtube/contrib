@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ruby
+title: 'Tracking Online Users using Timestamps'
+language: English
+recordingDate: 1580754154
+description: "► Check out https://gorails.com for Pro episodes and more!\n► SaaS business template for Ruby on Rails with built-in features like Payments, Teams, and much more: https://jumpstartrails.com\n► Ruby on Rails hosting with Hatchbox.io: https://hatchbox.io\n► Learn how to add Stripe Payments (with SCA support!) with Ruby on Rails: https://courses.gorails.com/payments-with-rails-master-class\n\nKeeping track of users who are \"online\" in your application can be done in several different ways.\n\nThis episode, we're going to implement a simple version of online user tracking by storing a timestamp of the last request the user has made. We can estimate which users are online by simply querying for any users who are online in the last 5 minutes. Depending on how accurate we want to be, we can adjust this window to be 1 minute or 15 minutes to be more or less accurate.\n\nNo matter what you do, you'll end up with an estimation here. The user could leave a tab open in their browser for 8 hours and they would be considered \"offline\" after 5 minutes.\n\nNext episode, we'll talk about using ActionCable and having a websocket provide realtime updates of user's online status."
