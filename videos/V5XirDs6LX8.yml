@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - swift
+    - mobile
+    - android
+    - ios
+    - java
+title: 'Piranha: An Open Source Tool to Automatically Delete Stale Code'
+language: English
+recordingDate: 1584453616
+description: "At Uber, we use feature flags to customize our mobile app execution, serving different features to different sets of users. However, after a feature has either been 100 percent rolled out to our users or an experimental feature has been deemed unsuccessful, the feature flag in the code becomes obsolete. These nonfunctional feature flags represent technical debt, making it difficult for developers to work on the codebase.\n\nSeeking to automate this process, we developed Piranha, a tool that scans source code to delete code related to stale feature flags, leading to a cleaner, safer, more\_ performant, and more maintainable code base. We run Piranha at Uber in an ongoing pipeline for our Android and iOS codebases, and have used it to remove around two thousand stale feature flags and their related code.\n\nWe believe Piranha offers great utility for organizations that use feature flags in their app deployments, and so have open sourced it. Currently implemented for Objective-C, Swift, and Java programs, open source contributors may want to apply Piranha to other languages or improve on its ability to perform deep code refactorings.\n\nLearn more: eng.uber.com/piranha \n\nCheck out the project for yourself: https://github.com/uber/piranha"
