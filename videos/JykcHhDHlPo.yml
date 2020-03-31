@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'Vault ''20 - Asynchronous Directory Operations in CephFS'
+language: English
+recordingDate: 1585169392
+description: "Asynchronous Directory Operations in CephFS\n\nJeffrey Layton and Patrick Donnelly, Red Hat\n\nMetadata-heavy workloads are often the bane of networked and clustered filesystems. Directory operations (create and unlink, in particular) usually involve making a synchronous request to a server on the network, which can be very slow.\n\nCephFS however has a novel mechanism for delegating the ability for clients to do certain operations locally. While that mechanism has mostly been used to delegate capabilities on normal files in the past, it's possible to extend this to cover certain types of directory operations as well.\n\nThe talk will describe work that is being done to bring asynchronous directory operations to CephFS. It will cover the design and tradeoffs necessary to allow for asynchronous directory operations, discuss the server and client-side infrastructure being added to support it, and what performance gains we expect to gain from this.\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"

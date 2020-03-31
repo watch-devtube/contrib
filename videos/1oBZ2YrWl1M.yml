@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - security
+    - lisp
+title: 'Vault ''20 - Key Per IO Security Subsystem Class for NVM Express Storage Devices'
+language: English
+recordingDate: 1585169387
+description: "Key Per IO Security Subsystem Class for NVM Express Storage Devices\n\nSridhar Balasubramanian and Frederick Knight, NetApp, Inc.\n\nThe Key Per IO (KPIO) proposal is a joint initiative between NVMe and TCG to define a new KPIO Security Subsystem Class (SSC) under TCG Opal SSC.\n\nSelf-Encrypting Drives (SED) perform continuous encryption on user accessible data based on contiguous LBA ranges per namespace. This is done at interface speeds using a small number of keys generated/held in NVM by the storage device.\n\nKPIO will allow large numbers of encryption keys to be managed and securely downloaded into the NVM subsystem. Encryption of user data then occurs on a per command basis (each command may use a different key). This provides a finer granularity of data encryption that enables a granular encryption scheme in order to support the following use cases:\n\nEasier support of European Union’s General Data Protection Regulations’ (GDPR) “Right to be forgotten”\nEasier support of data erasure when data is spread over many disks (e.g., RAID/Erasure Coded)\nEasier support of data erasure of data that is mixed with other data needing to be preserved\nAssigning an encryption key to a single sensitive file or a host object\nThe talk will include a brief introduction to architectural differences between traditional SED and the KPIO SSC, followed by an overview of the proposed KPIO SSC standard, and subtle features of the KPIO SSC.\n\nThe talk will conclude by summarizing current state of the standardization proposal with NVMe and TCG WG's.\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"

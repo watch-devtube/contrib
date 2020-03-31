@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: 'Vault ''20 - xadfs: Inverted DAX'
+language: English
+recordingDate: 1585169386
+description: "xadfs: Inverted DAX\n\nHannes Reinecke, SUSE Linux\n\nThe DAX functionality provides a mechanism to leverage DAX features from within existing filesystems. It is currently geared primarily for the 'mmap()' call, allowing applications to use the benefits for persistent memory while still having a normal filesystem. However, most filesystems are designed to handle efficient large block I/O, as with this traditional storage works best. Unfortunately, this is precisely what NVDIMM is notoriously bad at; NVDIMM really excels at small, even bit-wise, I/O patterns; in fact, some systems even have a performance penalty for large I/O blocks. Also, tests with standard I/O performance tools like 'fio' do not show any noticeable benefit from using DAX.\n\nxadfs inverts this concept; use mmap() as the default I/O path, and map all other calls onto that. The prime goal here is to use NVDIMMs as efficiently as possible to demonstrate which performance benefits could be expected. With these results we will be gaining a better understanding for which use-cases NV-DIMMs should be employed, and which are better left to traditional storage.\n\nIn this talk I will be presenting a proof-of-concept implementation of xadfs, and providing a performance comparison with traditional filesystems implementing DAX functionality.\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"

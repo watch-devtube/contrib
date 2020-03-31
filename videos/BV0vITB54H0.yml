@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - mobile
+    - embedded
+title: 'NSDI ''20 - RFocus: Beamforming Using Thousands of Passive Antennas'
+language: English
+recordingDate: 1585169367
+description: "RFocus: Beamforming Using Thousands of Passive Antennas\n\nVenkat Arun and Hari Balakrishnan, Massachusetts Institute of Technology\n\nTo reduce transmit power, increase throughput, and improve range, radio systems benefit from the ability to direct more of the transmitted power toward the intended receiver. Many modern systems beamform with antenna arrays for this purpose. However, a radio's ability to direct its signal is fundamentally limited by its size. This limitation is acute on IoT and mobile devices, which are small and inexpensive, but even access points and base stations are typically constrained to a modest number of antennas.\n\nTo address this problem, we introduce RFocus, which moves beamforming functions from the radio endpoints to the environment. RFocus includes a two-dimensional surface with a rectangular array of simple RF switch elements. Each switch element either lets the signal through or reflects it. The surface does not emit any power of its own. The state of the elements is set by a software controller to maximize the signal strength at a receiver, with a novel optimization algorithm that uses signal strength measurements from the receiver. The RFocus surface can be manufactured as an inexpensive thin \"wallpaper\". In one floor of an office building (at MIT CSAIL), our prototype improves the median signal strength by 9.5×.and the median channel capacity by 2.0×.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

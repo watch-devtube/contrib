@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - performance
+title: 'Vault ''20 - The Two New I/O Controllers and BFQ'
+language: English
+recordingDate: 1585169382
+description: "The Two New I/O Controllers and BFQ\n\nPaolo Valente, Department of Physics, Computer Science and Mathematics - University of Modena and Reggio Emilia - Italy\n\nTwo new I/O controllers landed in Linux: io.latency and io.cost. They are aimed at controlling latency and bandwidth, respectively. Yet both quantities are guaranteed by the BFQ I/O scheduler as well. So, when should we use BFQ and when these controllers? Unfortunately, there is no comprehensive documentation answering this question.\n\nTo address this issue, in this presentation we compare these new controllers with BFQ, in terms of both interface and performance. Unfortunately, the most important result shown in this presentation is that both controllers apparently exhibit a bad performance, on all systems used in our tests. The root problem seems that they fail to control I/O with common workloads.\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"
