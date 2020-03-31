@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Vault ''20 - Understanding Kubernetes Storage: Getting in Deep by Writing a CSI Driver'
+language: English
+recordingDate: 1585169367
+description: "Understanding Kubernetes Storage: Getting in Deep by Writing a CSI Driver\n\nGerry Seidman, AuriStor\n\nUnderstanding the many Kubernetes storage ‘objects’ along with their not-always-obvious interaction and life-cycles can be daunting (Volumes, Persistent Volumes, Persistent Volume Claims, Volume Attachments, Storage Classes, Volume Snapshots, CSIDriver, CSINode, oh my...)\n\nPerhaps the best ways to gleen a deep understand of these storage objects and how storage-related scheduling works in Kubernetes is to write a Container Storage Initiative (CSI) driver. While most of us will never need to write a CSI driver, in this session we will make storage with Kubernetes more accessible by exploring it from an inside-out approach learned by writing a CSI Driver.\n\nIn this session you will obtain an understanding of:\n\n* How Kubernetes 'Volumes' relate to mounted storage available from within containers\n* The Kubernetes Declarative Model\n* The many Kubernetes Storage Objects\n* Kubernetes Scheduling and how it is influenced by storage object\n* How Kubernetes controllers move the storage objects through their life-cycles\n* What is the role and responsibility of a storage type specific CSI Driver\n* What are the roles and responsibilities of CSI support ‘Side-Cars’\n* Putting it all together and relating this all back to how to write a CSI Driver\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"

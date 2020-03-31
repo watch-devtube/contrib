@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - performance
+    - architecture
+title: 'NSDI ''20 - AccelTCP: Accelerating Network Applications with Stateful TCP Offloading'
+language: English
+recordingDate: 1585169390
+description: "AccelTCP: Accelerating Network Applications with Stateful TCP Offloading\n\nYoungGyoun Moon and SeungEon Lee, KAIST; Muhammad Asim Jamshed, Intel Labs; KyoungSoo Park, KAIST\n\nThe performance of modern key-value servers or layer-7 load balancers often heavily depends on the efficiency of the underlying TCP stack. Despite numerous optimizations such as kernel-bypassing and zero-copying, performance improvement with a TCP stack is fundamentally limited due to the protocol conformance overhead for compatible TCP operations. Unfortunately, the protocol conformance overhead amounts to as large as 60% of the entire CPU cycles for short-lived connections or degrades the performance of L7 proxying by 3.2x to 6.3x.\n\nThis work presents AccelTCP, a hardware-assisted TCP stack architecture that harnesses programmable network interface cards (NICs) as a TCP protocol accelerator. AccelTCP can offload complex TCP operations such as connection setup and teardown completely to NIC, which simplifies the host stack operations and frees a significant amount of CPU cycles for application processing. In addition, it supports running connection splicing on NIC so that the NIC relays all packets of the spliced connections with zero DMA overhead. Our evaluation shows that AccelTCP enables short-lived connections to perform comparably to persistent connections. It also improves the performance of Redis, a popular in-memory key-value store, and HAProxy, a widely-used layer-7 load balancer, by 2.3x and 11.9x, respectively.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

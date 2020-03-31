@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'NSDI ''20 - Enabling Programmable Transport Protocols in High Speed NICs'
+language: English
+recordingDate: 1585169367
+description: "Enabling Programmable Transport Protocols in High Speed NICs\n\nMina Tahmasbi Arashloo and Alexey Lavrov, Princeton University; Manya Ghobadi, MIT; Jennifer Rexford, David Walker, and David Wentzlaff, Princeton University\n\nData-center network stacks are moving into hardware to achieve 100 Gbps data rates and beyond at low latency and low CPU utilization. However, hardwiring the network stack in the NIC would stifle innovation in transport protocols. In this paper, we enable programmable transport protocols in high-speed NICs by designing Tonic, a flexible hardware architecture for transport logic. At 100 Gbps, transport protocols must generate a data segment every few nanoseconds using only a few kilobits of per-flow state on the NIC. By identifying common patterns across transport logic of different transport protocols, we design an efficient hardware \"template\" for transport logic that satisfies these constraints while being programmable with a simple API. Experiments with our FPGA-based prototype show that Tonic can support the transport logic of a wide range of protocols and meet timing for 100 Gbps of back-to-back 128-byte packets. That is, every 10 ns, our prototype generates the address of a data segment for one of more than a thousand active flows for a downstream DMA pipeline to fetch and transmit a packet.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

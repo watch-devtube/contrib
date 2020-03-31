@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+title: 'NSDI ''20 - Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log'
+language: English
+recordingDate: 1585169383
+description: "Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log\n\nCong Ding, David Chu, and Evan Zhao, Cornell University; Xiang Li, Alibaba Group; Lorenzo Alvisi and Robbert van Renesse, Cornell University\n\nThe shared log paradigm is at the heart of modern distributed applications in the growing cloud computing industry. Often, application logs must be stored durably for analytics, regulations, or failure recovery, and their smooth operation depends closely on how the log is implemented. Scalog is a new implementation of the shared log abstraction that offers an unprecedented combination of features for continuous smooth delivery of service: Scalog allows applications to customize data placement, supports reconfiguration with no loss in availability, and recovers quickly from failures. At the same time, Scalog provides high throughput and total order.\n\nThe paper describes the design and implementation of Scalog and presents examples of applications running upon it. To evaluate Scalog at scale, we use a combination of real experiments and emulation. Using 4KB records, a 10 Gbps infrastructure, and SSDs, Scalog can totally order up to 52 million records per second.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

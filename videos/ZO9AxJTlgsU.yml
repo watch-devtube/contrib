@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - storage
+    - performance
+    - cloud
+    - aws
+title: 'NSDI ''20 - Millions of Tiny Databases'
+language: English
+recordingDate: 1585169381
+description: "Millions of Tiny Databases\n\nMarc Brooker, Tao Chen, and Fan Ping, Amazon Web Services\n\nStarting in 2013, we set out to build a new database to act as the configuration master for a high-performance cloud block storage system (Amazon EBS). This database needs to be not only highly available, durable, and scalable but also strongly consistent. We quickly realized that the constraints on availability imposed by the CAP theorem, and the realities of operating distributed systems, meant that we didn't want one database. We wanted millions. Physalia is a transactional key-value store, optimized for use in large-scale cloud control planes, which takes advantage of knowledge of transaction patterns and infrastructure design to offer both high availability and strong consistency to millions of clients. Instead of being highly available for all keys to all clients, Physalia focuses on being extremely available for only the keys it knows each client needs, from the perspective of that client.\n\nThis paper describes Physalia in context of Amazon EBS, and some other uses within Amazon Web Services. We believe that the same patterns, and approach to design, is widely applicable to distributed systems problems like control planes, configuration management, and service discovery.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

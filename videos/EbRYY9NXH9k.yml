@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+title: 'Vault ''20 - Implementing SMB Semantics in a Linux Cluster'
+language: English
+recordingDate: 1585169386
+description: "Implementing SMB Semantics in a Linux Cluster\n\nVolker Lendecke, Samba Team\n\nTo implement the SMB protocol, Samba has to implement semantics that are not covered by the Linux kernel API. The protocol element to mention here are the concept of share modes and leases, similar to NFSv4 share reservations and delegations. To implement those, Samba has to maintain data structures in user space and keep those consistent across cluster nodes. One of those data structures is a central table containing SMB-level information about all file open instances.\n\nThis talk will describe the semantics to be implemented, the challenges for clustered implementations of the SMB protocol and approaches by the Samba Team to make this scale well across nodes.\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"
