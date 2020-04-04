@@ -2,7 +2,14 @@
 
 DevTube is a free and open-source tech video hub, that is getting better every day thanks to **[❤️ amazing contributors](https://dev.tube/contributors).**
 
-
+## Table of content
+- [How to contribute a video](#how-to-contribute-a-video)
+- [How to contribute a channel](#how-to-contribute-a-channel)
+- [How to edit an existing video](#how-to-edit-an-existing-video)
+- [How to remove a video](#how-to-remove-a-video)
+- [How to add tags](#how-to-tag-a-video)
+- [How to add a speaker](#how-to-add-a-speaker)
+- [How to improve dev.tube](#how-to-improve-devtube)
 
 ## How to contribute a video
 
@@ -62,6 +69,6 @@ When a new video is being ingested, DevTube tries to automatically discover the 
 
 > When you add a new speaker, old videos won't be modified. Only newly ingested videos will be assigned that speaker. Old videos must be modified manually (see [How to edit an existing video](#how-to-edit-an-existing-video)).
 
-## How to improve the website
+## How to improve DevTube
 
 If you have any ideas how DevTube can be improved, please create a new GitHub issue [here](https://github.com/watch-devtube/web/issues).
