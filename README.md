@@ -1,31 +1,32 @@
-
 # Dev.Tube Contribution Data
 
-Let's build the best tech video hub together! Check out 🥇[contributors leaderboard](https://dev.tube/contributors).
+Let's build the best tech video hub together. Check out **[contributor leaderboard](https://dev.tube/contributors).**
 
 ## What help is needed?
 
 * please help fixing video metadata
 * please help adding speakers
 * please help [improving the website](https://github.com/watch-devtube/web/issues)
-* please contribute new channels
 
-## Channel or playlist contribution guidelines
+## How to contribute a video
 
-* Conference talks are accepted.
-* Panel discussions are accepted.
-* High quality video tutorials are accepted (only time-proven channels, with no aggressive marketing)
-* No webinars.
-* No commercial videos (product or company advertisement or hiring promotions).
-* We do not add videos shorter than 5 minutes. Short videos are automatically ignored.
-* If your channel contains commercial videos, but you still want to share some of the technical videos, please, create a playlist and share that instead.
+All videos on DevTube are crawled automatically from a list of contributed channels, that live in this GitHub repository. You cannot contribute separate videos; you can only contribute channels or playlists. 
 
-Channels and playlists can be added to [channels.yml](https://github.com/watch-devtube/contrib/edit/master/channels.yml).
+After your contribution is accepted, it takes a few days for videos do get on DevTube.
 
-## How to edit video metadata
+When videos appear online, you will see your karma increase:
 
-* Please use spaces for formatting.
-* Please, only add speaker information if it is a **real single person**. Collective names or organization accounts will not be accepted as a valid speaker metadata. We plan to implement multiple speakers per video at some point (follow up [here](https://github.com/watch-devtube/web/issues/50)). 
+## How to contribute a channel
+
+You can add a channel to **[channels.yml](https://github.com/watch-devtube/contrib/edit/master/channels.yml)**. DevTube automatically discovers playlists, so you don't need to contribute each playlist separately. 
+
+> Warning: we don't accept channels with promotional and commercial videos. If your channel contains commercial videos, but you still want to share some of the technical videos, please, create a playlist and share that instead.
+
+## How to edit an existing video
+
+For each video there is a corresponding `<videoId>.yml` file in GitHub:
+
+`https://github.com/watch-devtube/contrib/edit/master/videos/<videoId>.yml`
 
 The structure of the video metadata looks like this:
 
@@ -40,28 +41,26 @@ title: Title goes here
 language: English
 category: conference # or vlog
 featured: true (you need to have enough karma points, see https://dev.tube/contributors)
-recordingDate: 1444245407 # 
-description: Some text goes here #
+recordingDate: 1444245407 
+description: Some text goes here
 ```
+
+* Please use spaces for formatting.
+* Please, only add speaker information if it is a **real single person**. We plan to implement multiple speakers per video at some point (follow up [here](https://github.com/watch-devtube/web/issues/50)). 
 
 ## How to remove a video
 
-If you want a video to be removed, [create an entry in ignored.yml](https://github.com/watch-devtube/contrib/blob/master/ignored.yml) and explain why you think the video should be removed. In particular, we'd appreciate if you removed marketing videos.
+Just create an entry in **[ignored.yml](https://github.com/watch-devtube/contrib/edit/master/ignored.yml)** and explain why you think the video should be removed. 
 
-## Video auto-tagging
+## How to tag a video
 
-In addition to editing video metadata, auto-tagging is supported. Auto-tagging takes place when video metadata is modified or a new video is ingested.
+When a new video is being ingested, DevTube tries to determine tags automatically by matching the video's description to a list of pre-defined tags. The process is called auto-tagging. You can add new tags to **[tags.yml](https://github.com/watch-devtube/contrib/edit/master/tags.yml).**
 
-Contribute to auto-tagging by modifying [tags.yml](https://github.com/watch-devtube/contrib/edit/master/tags.yml)
+> When you add a new tag, old videos won't be tagged. Only newly ingested videos will be tagged with that tag. Old videos must be modified manually (see [How to edit an existing video](#how-to-edit-an-existing-video)).
 
-## Speaker auto-discovery
+## How to add a speaker
 
-When a new video is ingested, Dev.Tube tries to determine author's twitter account.
+When a new video is being ingested, DevTube tries to automatically discover the speaker using a list of pre-defined speakers. You can add speakers to **[speakers.yml](https://github.com/watch-devtube/contrib/edit/master/speakers.yml).**
 
-Contribute to speaker auto-discovery by modifying [speakers.yml](https://github.com/watch-devtube/contrib/edit/master/speakers.yml).
-
-## FAQ
-
-### I made a contribution, but do no see the change
-Videos are updated few times in a week, but we try to do it more frequently. We're also working on the solution to make changes on the fly.
+> When you add a new speaker, old videos won't be modified. Only newly ingested videos will be assigned that speaker. Old videos must be modified manually (see [How to edit an existing video](#how-to-edit-an-existing-video)).
 
