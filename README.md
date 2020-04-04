@@ -1,12 +1,6 @@
-# Dev.Tube Contribution Data
+# Dev.Tube Contribution
 
-Let's build the best tech video hub together. Check out **[contributor leaderboard](https://dev.tube/contributors).**
-
-## What help is needed?
-
-* please help fixing video metadata
-* please help adding speakers
-* please help [improving the website](https://github.com/watch-devtube/web/issues)
+DevTube is a free and open-source tech video hub, that is getting better every day thanks to **[❤️ amazing contributors](https://dev.tube/contributors).**
 
 ## How to contribute a video
 
@@ -14,7 +8,9 @@ All videos on DevTube are crawled automatically from a list of contributed chann
 
 After your contribution is accepted, it takes a few days for videos do get on DevTube.
 
-When videos appear online, you will see your karma increase:
+When videos appear online, you will see your karma increasing:
+
+![karma up](/karma.png)
 
 ## How to contribute a channel
 
@@ -64,3 +60,6 @@ When a new video is being ingested, DevTube tries to automatically discover the 
 
 > When you add a new speaker, old videos won't be modified. Only newly ingested videos will be assigned that speaker. Old videos must be modified manually (see [How to edit an existing video](#how-to-edit-an-existing-video)).
 
+## How to improve the website
+
+If you have any ideas how DevTube can be improved, please create a new GitHub issue [here](https://github.com/watch-devtube/web/issues).
