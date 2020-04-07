@@ -4,6 +4,9 @@ tags:
     - security
     - java
 title: 'GOTO 2019 • Securing the JVM • Nicolas Frankel'
+speaker:
+    name: Nicolas Frankel
+    twitter: nicolas_frankel
 language: English
 recordingDate: 1571305868
 description: "This presentation was recorded at GOTO Chicago 2019. #GOTOcon #GOTOchgo\nhttp://gotochgo.com\n\nNicolas Frankel - Developer Advocate at Hazelcast\n\nABSTRACT\nConsider a Java application in a private banking system. A new network administrator is hired, and while going around, he notices that the app is making network calls to an unknown external endpoint. After some investigation, it’s found that this app has been sending confidential data to a competitor (or a state, or hackers, whatever) for years.\nThis is awkward. Especially since it could have been avoided.\nCode reviews are good to improve the hardening of an application, but what if the malicious code was planted purposely?\nSome code buried in a commit could extract code from binary content, compile it on the fly, and then execute the code in the same JVM run… By default, the JVM is not secured! Securing the JVM for a non-trivial application is complex and time-consuming but the risks of not securing it could be disastrous.\nIn this talk, I’ll show some of the things you could do in an unsecured JVM. I’ll also explain the basics of securing it, and finally demo [...]\n\nDownload slides and read the full abstract here:\nhttps://gotochgo.com/2019/sessions/801/securing-the-jvm\n\nhttps://twitter.com/GOTOchgo\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConference\n#JVM #Security #Java #SecureSystems\n\nLooking for a unique learning experience?\nAttend the next GOTO Conference near you! Get your ticket at http://gotocon.com\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1"
