@@ -61,13 +61,13 @@ Just create an entry in **[ignored.yml](https://github.com/watch-devtube/contrib
 
 When a new video is being ingested, DevTube tries to determine tags automatically by matching the video's description to a list of pre-defined tags. The process is called auto-tagging. You can add new tags to **[tags.yml](https://github.com/watch-devtube/contrib/edit/master/tags.yml).**
 
-> When you add a new tag, old videos won't be tagged. Only newly ingested videos will be tagged with that tag. Old videos must be modified manually (see [How to edit an existing video](#how-to-edit-an-existing-video)).
+> When you add a new tag, videos will be iterated through and tagged during the next crawling session. It might take up to a week. If you want tag to appear on a videos faster, tag each video manually (see [How to edit an existing video](#how-to-edit-an-existing-video)).
 
 ## How to add a speaker
 
 When a new video is being ingested, DevTube tries to automatically discover the speaker using a list of pre-defined speakers. You can add speakers to **[speakers.yml](https://github.com/watch-devtube/contrib/edit/master/speakers.yml).**
 
-> When you add a new speaker, old videos won't be modified. Only newly ingested videos will be assigned that speaker. Old videos must be modified manually (see [How to edit an existing video](#how-to-edit-an-existing-video)).
+> When you add a new speaker, videos will be iterated through and tagged during the next crawling session. It might take up to a week. If you want to assign a speaker to videos faster, manually set the speaker on each video (see [How to edit an existing video](#how-to-edit-an-existing-video)).
 
 ## How to improve DevTube
 
