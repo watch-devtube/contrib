@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+    - architecture
+title: 'FAST ''20 - POLARDB Meets Computational Storage: Efficiently Support Analytical Workloads in Cloud'
+language: English
+recordingDate: 1585169991
+description: "POLARDB Meets Computational Storage: Efficiently Support Analytical Workloads in Cloud-Native Relational Database\n\nWei Cao, Alibaba; Yang Liu, ScaleFlux; Zhushi Cheng, Alibaba; Ning Zheng, ScaleFlux; Wei Li and Wenjie Wu, Alibaba; Linqiang Ouyang, ScaleFlux; Peng Wang and Yijing Wang, Alibaba; Ray Kuan, ScaleFlux; Zhenjun Liu and Feng Zhu, Alibaba; Tong Zhang, ScaleFlux\n \nThis paper reports the deployment of computational storage drives in Alibaba Cloud, aiming to enable cloud-native relational database cost-effectively support analytical workloads. With its compute-storage decoupled architecture, cloud-native relational database must proactively pushdown certain data-intensive tasks (e.g., table scan) from front-end database nodes to back-end storage nodes in order to effectively support analytical workloads. This however makes it a challenge to maintain the cost effectiveness of storage nodes. The emerging computational storage opens a new opportunity to address this challenge: By replacing commodity SSDs with computational storage drives, storage nodes can leverage the in-storage computing power to much more efficiently serve table scans. Practical implementation of this simple idea is non-trivial and demands cohesive innovations across the software (i.e., database, filesystem and I/O) and hardware (i.e., computational storage drive) layers. This paper reports a holistic implementation for Alibaba cloud-native relational database POLARDB and its deployment in Alibaba Cloud. This paper discusses the major implementation challenges, and presents the design techniques that have been developed to tackle these challenges. To the best of our knowledge, this is the first real-world deployment of cloud-native databases with computational storage drives ever reported in the open literature.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"
