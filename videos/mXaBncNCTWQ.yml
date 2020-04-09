@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+title: 'FAST ''20 - How to Copy Files'
+language: English
+recordingDate: 1585170004
+description: "How to Copy Files\n\nYang Zhan, The University of North Carolina at Chapel Hill and Huawei; Alexander Conway, Rutgers University; Yizheng Jiao and Nirjhar Mukherjee, The University of North Carolina at Chapel Hill; Ian Groombridge, Pace University; Michael A. Bender, Stony Brook University; Martin Farach-Colton, Rutgers University; William Jannen, Williams College; Rob Johnson, VMWare Research; Donald E. Porter, The University of North Carolina at Chapel Hill; Jun Yuan, Pace University\n\nAbstract: \nMaking logical copies, or clones, of files and directories is critical to many real-world applications and workflows, including backups, virtual machines, and containers. An ideal clone implementation meets the following performance goals: (1) creating the clone has low latency; (2) reads are fast in all versions (i.e., spatial locality is always maintained, even after modifications); (3) writes are fast in all versions; (4) the overall system is space efficient. Implementing a clone operation that realizes all four properties, which we call a nimble clone, is a long-standing open problem.\n\nThis paper describes nimble clones in BetrFS, an open-source, full-path-indexed, and write-optimized file system. The key observation behind our work is that standard copy-on-write heuristics can be too coarse to be space efficient, or too fine-grained to preserve locality. On the other hand, a write-optimized key-value store, as used in BetrFS or an LSM-tree, can decouple the logical application of updates from the granularity at which data is physically copied. In our write-optimized clone implementation, data sharing among clones is only broken when a clone has changed enough to warrant making a copy, a policy we call copy-on-abundant-write.\n\nWe demonstrate that the algorithmic work needed to batch and amortize the cost of BetrFS clone operations does not erode the performance advantages of baseline BetrFS; BetrFS performance even improves in a few cases. BetrFS cloning is efficient; for example, when using the clone operation for container creation, BetrFS outperforms a simple recursive copy by up to two orders-of-magnitude and outperforms file systems that have specialized LXC backends by 3-4×\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"
