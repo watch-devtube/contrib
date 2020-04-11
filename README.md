@@ -39,9 +39,11 @@ The structure of the video metadata looks like this:
 tags:
     - tag1
     - tag2
-speaker:
-    name: Speaker full name
-    twitter: SpeakerTwitterHandle (no @)
+speaker: 
+    - name: Donald Trump
+      twitter: realDonaldTrump
+    - name: Elon Musk
+      twitter: elonmusk
 title: Title goes here
 language: English
 category: conference # or vlog
