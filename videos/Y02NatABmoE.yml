@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - ml
+    - cloud
+    - containers
+    - kubernetes
+title: 'Persistent Cloud Native Volumes On NVMe Speed'
+language: English
+recordingDate: 1567019337
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io\n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nLINSTOR is an open-source storage controller for Linux building blocks: NVMe, NVMe-over-Fabric (NVMe-oF), DRBD, LVM, ZFS, VDO, MD-Raid, loop-devices, XFS, ext4 etc. The LINSTOR controller also includes CSI and K8s FlexVolume drivers.\n\nLINSTOR is unique in that it is well-suited for I/O intensive workloads such as Databases, machine learning, and messaging; and it can run in either a Hyper-Converged Infrastructure (HCI), and Disaggregated Storage mode. LINSTOR delivers high IOPs while being composed of smaller, self-contained, extremely stable software; as compared to some of the newer storage options for Kubernetes which have highly developed control planes, but less-than-stellar data-planes. (IE: alternatives are less performant, in comparison).\n\nWith the Piraeus effort (https://github.com/piraeusdatastore, https://piraeus.io) we provide an easily consumable set of container images which includes the DRBD linux kernel driver loader, linstor controller, linstor node software, CSI driver, and K8s-Operator."
