@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - docker
+    - kubernetes
+    - security
+title: 'Redesigning Notary in a Multi-registry World - Justin Cormack, Docker'
+language: English
+recordingDate: 1574400639
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nRedesigning Notary in a Multi-registry World - Justin Cormack, Docker \n\nNotary, used to secure container image updates, is the most widely adopted implementation of the TUF protocol. However, since Notary’s design around Docker Hub in 2015, container registries have proliferated and some of the design decisions don’t support the needs of a multi-registry world. This talk looks at redesigning the model to allow portability of container images between registries with signature data stored alongside the image data allowing it to be pushed and pulled alongside the image. This reworking of Notary will enable easier portability of images, and improve supply chain security by enabling mirrors and users of mirrors to validate image data, allowing users to easily work with cloud and local registries, offline caches and other common architectures. \n\nhttps://sched.co/UacT"
