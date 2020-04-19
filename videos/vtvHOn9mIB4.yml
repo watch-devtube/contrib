@@ -1,11 +1,15 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
-category: conference
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
 tags:
     - c++
     - javascript
     - java
 title: 'David Calhoun: Realtime Satellite Tracking in the Browser [JSConf2014]'
-language: English
 recordingDate: 1402414186
 description: "In 1980 the United States Department of Defense (DoD) released the equations and source code used to predict the positions of satellites around the Earth. These simplified perturbations models (SGP4) were originally written in FORTRAN IV and have since been ported to C++, Java, MATLAB, and Pascal. And now, with a JavaScript port, it's time to bring satellite tracking to the browser!\n\nIn this talk we'll learn how to use existing tools to calculate and plot realtime satellite positions on a map using Leaflet.js and satellite.js. Along the way we'll sneak in some orbital mechanics concepts, minus a lot of the hardcore math.\n\nPerturbations, polar orbits, orbital eccentricity, Kepler's laws, orbital propagation, oh my!\n\nWe will also learn about the pitfalls of 2D map projections, and why a 3D projection is more accurate and intuitive. If there's time, we'll go one step further and build a 3D satellite tracker using WebGL.\n\nhttp://2014.jsconf.us/"
