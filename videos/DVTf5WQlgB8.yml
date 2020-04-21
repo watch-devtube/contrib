@@ -1,0 +1,22 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - serverless
+    - swift
+    - cloud
+    - ios
+    - containers
+    - kubernetes
+    - javascript
+    - scala
+    - java
+title: 'CloudState—Towards Stateful Serverless by Jonas Bonér'
+recordingDate: 1581886453
+description: "The Serverless experience is revolutionary and will grow to dominate the future of Cloud Computing. Function-as-a-Service (FaaS) is, however—with its ephemeral, stateless, and short-lived functions—is only the first step. FaaS is great for processing intensive, parallelizable workloads, moving data from A to B providing enrichment and transformation along the way. But it is quite limited and constrained in what use-cases it addresses well, which makes it very hard/inefficient to implement general-purpose application development and distributed systems protocols.\n\nWhat’s needed is a next-generation Serverless platform and programming model for general-purpose application development in the new world of real-time data and event-driven systems. What is missing is: ways to manage distributed state in a scalable and available fashion, support for long-lived virtual stateful services, ways to physically co-locate data and processing, and options for choosing the right data consistency model for the job.\n\nThis talk will discuss the challenges, requirements, and introduce you to our proposed solution: CloudState—an Open Source project building the next generation Stateful Serverless on Akka, gRPC, Kubernetes, and GraalVM, in a polyglot fashion with support for Go, JavaScript, Java, Swift, Scala, and more.\n\nJonas Bonér\nLightbend Inc.\n\nRecorded at Jfokus 2020 in Stockholm 5th of february\nhttp://www.jfokus.se"
