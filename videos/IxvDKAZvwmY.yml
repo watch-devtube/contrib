@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'NSDI ''20 - Ghostor: Toward a Secure Data Sharing System from Decentralized Trust'
+language: English
+recordingDate: 1585170940
+description: "Ghostor: Toward a Secure Data Sharing System from Decentralized Trust\n\nYuncong Hu, Sam Kumar, and Raluca Ada Popa, University of California, Berkeley\n\nData-sharing systems are often used to store sensitive data. Both academia and industry have proposed numerous solutions to protect the user privacy and data integrity from a compromised server. Practical state-of-the-art solutions, however, use weak threat models based on centralized trust—they assume that part of the server will remain uncompromised, or that the adversary will not perform active attacks. We propose Ghostor, a data-sharing system that, using only decentralized trust, (1) hides user identities from the server, and (2) allows users to detect server-side integrity violations. To achieve (1), Ghostor avoids keeping any per-user state at the server, requiring us to redesign the system to avoid common paradigms like per-user authentication and user-specific mailboxes. To achieve (2), Ghostor develops a technique called verifiable anonymous history. Ghostor leverages a blockchain rarely, publishing only a single hash to the blockchain for the entire system once every epoch. We measured that Ghostor incurs a 4–5x throughput overhead compared to an insecure baseline. Although significant, Ghostor's overhead may be worth it for security- and privacy-sensitive applications.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

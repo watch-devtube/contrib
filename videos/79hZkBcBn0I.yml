@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - security
+title: 'NSDI ''20 - TimeCrypt: Encrypted Data Stream Processing at Scale with Cryptographic Access Control'
+language: English
+recordingDate: 1585170958
+description: "TimeCrypt: Encrypted Data Stream Processing at Scale with Cryptographic Access Control\n\nLukas Burkhalter, ETH Zurich; Anwar Hithnawi, UC Berkeley, ETH Zurich; Alexander Viand and Hossein Shafagh, ETH Zurich; Sylvia Ratnasamy, UC Berkeley\n\nA growing number of devices and services collect detailed time series data that is stored in the cloud. Protecting the confidentiality of this vast and continuously generated data is an acute need for many applications in this space. At the same time, we must preserve the utility of this data by enabling authorized services to securely and selectively access and run analytics. This paper presents TimeCrypt, a system that provides scalable and real-time analytics over large volumes of encrypted time series data. TimeCrypt allows users to define expressive data access and privacy policies and enforces it cryptographically via encryption. In TimeCrypt, data is encrypted end-to-end, and authorized parties can only decrypt and verify queries within their authorized access scope. Our evaluation of TimeCrypt shows that its memory overhead and performance are competitive and close to operating on data in the clear.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

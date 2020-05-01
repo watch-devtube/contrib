@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''20 - Adapting TCP for Reconfigurable Datacenter Networks'
+language: English
+recordingDate: 1585170940
+description: "Adapting TCP for Reconfigurable Datacenter Networks\n\nMatthew K. Mukerjee, Carnegie Mellon University / Nefeli Networks; Christopher Canel, Carnegie Mellon University; Weiyang Wang, UC San Diego; Daehyeok Kim, Carnegie Mellon University / Microsoft Research; Srinivasan Seshan, Carnegie Mellon University; Alex C. Snoeren, UC San Diego\n\nReconfigurable datacenter networks (RDCNs) augment traditional packet switches with high-bandwidth reconfigurable circuits. In these networks, high-bandwidth circuits are assigned to particular source-destination rack pairs based on a schedule. To make efficient use of RDCNs, active TCP flows between such pairs must quickly ramp up their sending rates when high-bandwidth circuits are made available. Past studies have shown that TCP performs well on RDCNs with millisecond-scale reconfiguration delays, during which time the circuit network is offline. However, modern RDCNs can reconfigure in as little as 20 μs, and maintain a particular configuration for fewer than 10 RTTs. We show that existing TCP variants cannot ramp up quickly enough to work well on these modern RDCNs. We identify two methods to address this issue: First, an in-network solution that dynamically resizes top-of-rack switch virtual output queues to prebuffer packets; Second, an endpoint-based solution that increases the congestion window, cwnd, based on explicit circuit state feedback sent via the ECN-echo bit. To evaluate these techniques, we build an open-source RDCN emulator, Etalon, and show that a combination of dynamic queue resizing and explicit circuit state feedback increases circuit utilization by 1.91× with an only 1.20× increase in tail latency.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

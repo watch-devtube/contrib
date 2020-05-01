@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - ml
+    - performance
+title: 'NSDI ''20 - Batchy: Batch scheduling Data Flow Graphs with Service level Objectives'
+language: English
+recordingDate: 1585170940
+description: "Batchy: Batch scheduling Data Flow Graphs with Service level Objectives\n\nTamás Lévai, Budapest University of Technology and Economics & University of Southern California; Felicián Németh, Budapest University of Technology and Economics; Barath Raghavan, University of Southern California; Gábor Rétvári, MTA-BME Information Systems Research Group & Ericsson Research, Hungary\n\nData flow graphs are a popular program representation in machine learning, big data analytics, signal processing, and, increasingly, networking, where graph nodes correspond to processing primitives and graph edges describe control flow. To improve CPU cache locality and exploit data-level parallelism, nodes usually process data in batches. Unfortunately, as batches are split across dozens or hundreds of parallel processing pathways through the graph they tend to fragment into many small chunks, leading to a loss of batch efficiency.\n\nWe present Batchy, a scheduler for run-to-completion packet processing engines, which uses controlled queuing to efficiently reconstruct fragmented batches in accordance with strict service-level objectives (SLOs). Batchy comprises a runtime profiler to quantify batch-processing gain on different processing functions, an analytical model to fine-tune queue backlogs, a new queuing abstraction to realize this model in run-to-completion execution, and a one-step receding horizon controller that adjusts backlogs across the pipeline. We present extensive experiments on five networking use cases taken from an official 5G benchmark suite to show that Batchy provides 2--3x the performance of prior work while accurately satisfying delay SLOs.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"
