@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - performance
+    - cloud
+    - testing
+title: 'NSDI ''20 - Is Big Data Performance Reproducible in Modern Cloud Networks?'
+language: English
+recordingDate: 1585170940
+description: "Is Big Data Performance Reproducible in Modern Cloud Networks?\n\nAlexandru Uta and Alexandru Custura, Vrije Universiteit Amsterdam; Dmitry Duplyakin, University of Utah; Ivo Jimenez, UC Santa Cruz; Jan Rellermeyer, TU Delft; Carlos Maltzahn, UC Santa Cruz; Robert Ricci, University of Utah; Alexandru Iosup, Vrije Universiteit Amsterdam\n\nPerformance variability has been acknowledged as a problem for over a decade by cloud practitioners and performance engineers. Yet, our survey of top systems conferences reveals that the research community regularly disregards variability when running experiments in the cloud. Focusing on networks, we assess the impact of variability on cloud-based big-data workloads by gathering traces from mainstream commercial clouds and private research clouds. Our dataset consists of millions of datapoints gathered while transferring over 9 petabytes on cloud providers' networks. We characterize the network variability present in our data and show that, even though commercial cloud providers implement mechanisms for quality-of-service enforcement, variability still occurs, and is even exacerbated by such mechanisms and service provider policies. We show how big-data workloads suffer from significant slowdowns and lack predictability and replicability, even when state-of-the-art experimentation techniques are used. We provide guidelines to reduce the volatility of big data performance, making experiments more repeatable.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"
