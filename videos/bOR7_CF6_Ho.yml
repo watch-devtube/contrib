@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - bigdata
+    - ux
+    - mobile
+title: 'Flink''s application at Didi - Xue Kang'
+recordingDate: 1588067593
+description: 'As the world’s leading mobile transportation platform that supports over 10 billion trips every year, DiDi Chuxing (“DiDi”) generates massive streaming data at any time that records on-demand mobility options from 550 million users across Asia, Latin America and Australia. To fulfil the promise of data-driven techniques that solve the global mobility challenges, a powerful real-time computing platform, which digests massive streaming data into knowledge, is with an imminent need. At the same time, Didi has possibly the largest trajectory data of the world, which can greatly improve the navigation and user experience. To process these massive streaming data and tackle these challenges, our team has provided a real-time computing platform based on Flink for more than 2 years and served hundreds of users from different departments of Didi. For those users who are not professional in stream processing, we built StreamSQL based on Flink table API to reduce the development cost, including DDL and various connectors to message queues and storage systems in DiDi. Nowadays, we have a large hadoop cluster with 1000+ nodes and 3000+ Flink jobs, including 2000+ SQL jobs, which processes 2 trillion records every day. With the increment of real-time cluster, we also gained a lot of experience on Hadoop cluster management, resource isolation and job configuration. In this talk, I will share Flink''s application in DiDi and our experience on cluster management, and hopefully, our experience can benefit others.'

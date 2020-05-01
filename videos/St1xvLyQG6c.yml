@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - aws
+title: 'Customizing exactly-once processing at scale with Flink - Andrew Torson'
+recordingDate: 1588067882
+description: 'Flink offers several options for exactly-once processing guarantee: all require support from the underlying sink platform and most assume writing some customization code. Two-phase commit sink is the go-to abstraction to implement coordinated exactly-once processing commit: the underlying sink code has to know how to pre-commit, commit, abort and recover. It is also tightly coupled with checkpointing mechanism and so incurs the job manager checkpoint coordination cost. I''ll demonstrate how this abstraction can be extended even further using resilient retrying commit processing threads coupled with distributed persistent locks. On the other hand, there is now a recent implementation of the StreamingFileSink which abstracts-away the recoverable stream implementation for the underlying sink technology. Some of the implementations, in particular, the S3 one, provide a built-in two-phase commit (S3 multi-part upload) which is de-coupled with Flink checkpointing and is optimized to work at a firehose scale. Unfortunately, Flink developers restricted bulk-endcoding formats (like Parquet or OCR) to commit on every checkpoint: I''ll demonstrate how this limitation can be removed by extending the StreamingFileSink code in case of Parquet encoding (so that commits can be triggered on block size or event conditions)'

@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Implement Reliable, Isolated & Unified Job Submission - Zili Chen'
+recordingDate: 1588067617
+description: 'When developing a streaming platform based on Flink, we experienced some problems in job management. First, Flink does not provide flexible programatic interfaces for job submission and result retrieval. Second, the implementation varies a lot in different deploy and execution modes. Third, jobs may be submitted or executed multiple times in case of failures. In this talk, we will introduce our efforts in addressing these problems, including the implementation of reliable job submission via transactional high-availability services and unified cluster deployment.'

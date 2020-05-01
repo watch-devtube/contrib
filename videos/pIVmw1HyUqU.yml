@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - aws
+    - java
+title: 'Lessons learned on Apache Flink application availability in a hosted Flink service - Gattu, Kim'
+recordingDate: 1588067514
+description: "Speakers: Praveen Gattu, Hwanju Kim\n\nAWS provides customers a fully managed service for running Apache Flink applications called Amazon Kinesis Data Analytics. Running a hosted service for Apache Flink applications that accept arbitrary Java code from customers can pose unique challenges. One such challenge is issue attribution. How do you determine whether runtime errors are due to errors in a customer’s code or problems with the underlying infrastructure? In this talk, we will describe how we automatically categorize errors and either programmatically or manually intervene to restore application availability. This is critical for us to ensure availability of application that is expected of an AWS service and also maintain sustainable operations. We will review how we improved the Apache Flink engine to crisply disambiguate issues, design choices we made and how it helped us in ensuring highly available Apache Flink applications."

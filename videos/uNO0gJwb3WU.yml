@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Extend Flink to edge computing with much lower footprint - Youjun Yuan'
+recordingDate: 1588246408
+description: 'Running Flink on resource constrained edge devices is hard. There are two major obstacles: a) It consumes too much memory; b) Deploying a Flink cluster on remote device is not easy. This talk we will present a lightweight runtime implementation of Flink, which lowers down the memory consumption of the framework below 10 MB; Jobs are statically compiled to native binary, and can be run independently without any dependency, easy to deploy.'

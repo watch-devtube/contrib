@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - architecture
+title: 'Data driven matchmaking streaming at HyperConnect - Jaehyeuk Oh & Gihoon Yeom'
+recordingDate: 1588067858
+description: 'HyperConnect''s 1to1 video matchmaking system is consist of various machine learning techniques to maximize user satisfaction. Our matchmaking system manages large user context containing actions a few seconds ago, and reacts in milliseconds to produce meaningful new results in each user session. It''s difficult in traditional way. So, distributed streaming is essential to handle in this cases. Topics include: - Why our team choose Apache Flink in comparison with alternatives - Matchmaking streaming architecture with detail abstraction levels based on Flink operator - Pairwise scoring microservice management with Flink - Stateful matchmaking computation with low latency, fault-tolerance, and scalability - How to manage large-scale events: classifying feature types, collecting with a multi-window stream - Applications: personalization, multi-armed-bandit on stream.'

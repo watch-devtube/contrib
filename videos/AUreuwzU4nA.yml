@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Building metric platform using Flink for massive scale at Netflix - Abhay Amin'
+recordingDate: 1588067566
+description: 'Over 150+ million members worldwide are enjoying TV series, feature films across a wide variety of genres and languages on Netflix. It leads to hundreds of billions of events and petabyte-scale of user behavior data generated per day at a finer grain. Internally, amongst the data and product community, there is a diverse need of sessionization on this data based on different definitions and calculate aggregate metrics on top of it to empower product decisions. The usual way of tackling this problem is to build a new stateful Flink pipeline per definition by investing resources to unblock product innovation velocity. We have developed a generic platform using config driven pattern aided by apache Avro to code once and produce sessionized data with computed metrics based on different custom definitions as per the supplied config. One of the stack using this pattern results in the largest running stateful Flink job at Netflix, crunching 260 billion events per day with more than Terabytes of RocksDB state maintained at peak traffic. Come join us to learn our journey of making decisions to build and operate flink based metric platform and how it was shaped by growing scale.'

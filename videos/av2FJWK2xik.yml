@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Everything is connected: How watermarking, scaling, and exactly once impact one another in Pravega'
+recordingDate: 1588079305
+description: "Speakers: Flavio Paiva Junqueira & Tom Kaitchuck\n\nStream storage enables ingestion and permanent storage of continuously generated data. Implementing such a system correctly is an engineering endeavor. In this presentation, we share our experience designing and implementing core features of our stream store, Pravega, necessary to implement a complete and effective connector for Apache Flink. Pravega is a system for storing unbounded amounts of data per stream, while guaranteeing strong delivery semantics. It supports features including watermarking, transactions, scaling of streams in response to workload changes, and recent and historical data via a common API. While designing and implementing such features of Pravega, we soon realized that they look orthogonal at the surface, but actually interrelate with each other in intricate ways. For example, when using transactions to guarantee exactly-once semantics, time used for watermarks can only advance upon commit. As another example, scaling streams changes the degree of parallelism of streams dynamically, which directly impacts the context of transactions, the coordination of checkpoints and the time bounds exposed to support watermarks. All these mechanisms need to be aware of dynamic changes to streams. The lessons we learned from Pravega and share in this presentation are fundamental, and we expect them to be broadly applicable and of interest to a stream processing audience. Pravega is a fully open-source project and welcomes external contributions."

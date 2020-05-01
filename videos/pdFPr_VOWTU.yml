@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+title: 'Integrate Flink with Kubernetes natively - Yang Wang'
+recordingDate: 1588067254
+description: 'Currently Flink supports the resource management system YARN and Mesos. However, they were not designed for fast moving cloud native architectures, and they could not support mixed workloads (e.g. batch, streaming, deep learning, web services, etc.) relatively well. At the same time, Kubernetes is evolving very fast to fill those gaps and become the de-facto orchestration framework. So running Flink on Kubernetes is a very basic requirement for many users. In this talk, firstly we will quickly go through Kubernetes architecture and the efforts we have been made to run Flink on Kubernetes. Then we deep dive into the technical details about how to make Flink natively run on Kubernetes. Native means Flink KubernetesResourceManager calls directly the Kubernetes APIs to allocate and release TaskManager pods. Next we will share some practices of application lifecycle management and production optimizations (e.g. high-availability, storage, network, etc.). Finally, we will conclude the talk with advantages for Flink on Kubernetes and a simple demo. This talk is aimed at users and companies who are looking to run Flink on Kubernetes cluster. We assume that the listener has some basic knowledge of cluster orchestration and containers.'

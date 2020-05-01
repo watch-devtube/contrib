@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Geospatial Situation Detection through FlinkCEP @Uber - Teng (Niel) Hu'
+recordingDate: 1588067803
+description: 'Uber operates in the complex physical world. One of the challenges of providing a reliable service is detecting highly geolocalized and dynamic scenarios in real-time, such as spatial hotspot, demand/supply imbalanced neighborhoods and etc. The problem is hard because the global scale of Uber is massive, neighborhoods and traffic characteristics are localized and the time to detection needs to be under low latency to be actionable. To solve this problem, Uber engineers have built the situation detection platform powered by Apache Flink and CEP library. In this talk, I will cover i) How we evolve our end-to-end solution to this date by leveraging Apache Flink, Uber’s hexagonal spatial indexing system H3 and large scale clustering algorithms. ii) How we aggregate billions of events across the globe and derive geospatial semantics through CEP pattern matching. iii) Challenges involved in scaling the platform and the various techniques we employed.'
