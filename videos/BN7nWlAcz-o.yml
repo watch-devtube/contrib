@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+    - security
+title: 'Linux Distribution Build Tools for Custom Container Images - Nisha Kumar & Joshua Lock, VMware'
+language: English
+recordingDate: 1574454893
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nLinux Distribution Build Tools for Custom Container Images - Nisha Kumar & Joshua Lock, VMware  \n\nA typical container image builder takes a base OS from somewhere, runs scripts to add and modify all the things needed for an app to run, then deploys to a registry. This leads to large images which developers try to trim down by using multistage builds, removing files and squashing filesystem layers. Building container images in this way makes it difficult if not impossible to ascertain the license and security implications of using these images.    How do we generate app specific build and runtime images without having to maintain our own base OS images and build machinery?     Fortunately, this is a problem that has been solved in the Linux distribution world for some time. This talk will outline some popular tools and compare them against the requirements for a declarative and reproducible container OS builder which is not reliant on any external infrastructure. \n\nhttps://sched.co/Uaas"

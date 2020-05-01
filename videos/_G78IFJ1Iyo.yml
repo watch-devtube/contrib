@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''20 - Gryff: Unifying Consensus and Shared Registers'
+language: English
+recordingDate: 1585170956
+description: "Gryff: Unifying Consensus and Shared Registers\n\nMatthew Burke, Cornell University; Audrey Cheng and Wyatt Lloyd, Princeton University\n\nLinearizability reduces the complexity of building correct applications. However, there is a tradeoff between using linearizability for geo-replicated storage and low tail latency. Traditional approaches use consensus to implement linearizable replicated state machines, but consensus is inefficient for workloads composed mostly of reads and writes.\n\nWe present the design, implementation, and evaluation of Gryff, a system that offers linearizability and low tail latency by unifying consensus with shared registers. Gryff introduces carstamps to correctly order reads and writes without incurring unnecessary constraints that are required when ordering stronger synchronization primitives. Our evaluation shows that Gryff’s combination of an optimized shared register protocol with EPaxos allows it to provide lower service-level latency than EPaxos or MultiPaxos due to its lower tail latency for reads.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

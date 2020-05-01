@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - cloud
+title: 'NSDI ''20 - Telekine: Secure Computing with Cloud GPUs'
+language: English
+recordingDate: 1585170940
+description: "Telekine: Secure Computing with Cloud GPUs\n\nTyler Hunt, Zhipeng Jia, Vance Miller, Ariel Szekely, and Yige Hu, The University of Texas at Austin; Christopher J. Rossbach, The University of Texas at Austin and VMware Research; Emmett Witchel, The University of Texas at Austin\n\nGPUs have become ubiquitous in the cloud due to the dramatic performance gains they enable in domains such as machine learning and computer vision. However, offloading GPU computation to the cloud requires placing enormous trust in providers and administrators. Recent proposals for GPU trusted execution environments (TEEs) are promising but fail to address very real side-channel concerns. To illustrate the severity of the problem, we demonstrate a novel attack that enables an attacker to correctly classify images from ImageNet by observing only the timing of GPU kernel execution, rather than the images themselves.\n\nTelekine enables applications to use GPU acceleration in the cloud securely, based on a novel GPU stream abstraction that ensures execution and interaction through untrusted components are independent of any secret data. Given a GPU with support for a TEE, Telekine employs a novel variant of API remoting to partition application-level software into components to ensure secret-dependent behaviors occur only on trusted components. Telekine can securely train modern image recognition models on MXNet with 10%–22% performance penalty relative to an insecure baseline with a locally attached GPU. It runs graph algorithms using Galois on one and two GPUs with 18%–41% overhead.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"
