@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - testing
+title: 'NSDI ''20 - CableMon: Improving the Reliability of Cable Broadband Networks via Proactive Network'
+language: English
+recordingDate: 1585170956
+description: "CableMon: Improving the Reliability of Cable Broadband Networks via Proactive Network Maintenance\n\nJiyao Hu, Zhenyu Zhou, and Xiaowei Yang, Duke University; Jacob Malone, CableLabs; Jonathan W Williams, The University of North Carolina at Chapel Hill\n\nCable broadband networks are one of the few “last-mile” broadband technologies widely available in the U.S. Unfortunately, they have poor reliability after decades of deployment. Cable industry proposed a framework called Proactive Network Maintenance (PNM) to diagnose the cable networks. However, there is little public knowledge or systematic study on how to use these data to detect and localize cable network problems. Existing tools in the public domain have prohibitive high false-positive rates. In this paper, we propose CableMon, the first public-domain system that applies machine learning techniques to PNM data to improve the reliability of cable broadband networks. CableMon uses statistical models to generate features from time series data and uses customer trouble tickets as hints to infer abnormal thresholds for these generated features. We use eight-month of PNM data and customer trouble tickets from an ISP to evaluate CableMon’s performance. Our results show that 81.9% of the abnormal events detected by CableMon overlap with at least one customer trouble ticket. This ticket prediction accuracy is four times higher than that of the existing public-domain tools used by ISPs. The tickets predicted by CableMon constitute 23.0% of the total network-related trouble tickets, suggesting that if an ISP deploys CableMon and proactively repairs the faults detected by CableMon, it can preempt those customer calls. Our current results, while still not mature, can already tangibly reduce an ISP’s operational expenses and improve customers’ quality of experience. We expect future work can further improve these results.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'Securing Communication Between Meshes and Beyond with SPIFFE Federation - Evan Gilman & Oliver Liu'
+language: English
+recordingDate: 1574454881
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nSecuring Communication Between Meshes and Beyond with SPIFFE Federation - Evan Gilman, Scytale & Oliver Liu, Google  \n\nOne of the hottest features that Istio brings to the table is transparent, mutually-authenticated TLS between all workloads running on it. Under the covers, it relies on SPIFFE to provide the cryptographic identity that is used to perform this mutual authentication.    SPIFFE relies on an authority to issue identity. In an Istio mesh, Istio Citadel (CA) issues certificates to workloads by default... but, what happens when you have more than one Istio mesh, and hence more than one Citadel? Or Istio workloads talking to external services?    Enter SPIFFE federation. It allows SPIFFE identity issuers to peer with each other, enabling workloads in disparate domains to securely authenticate and communicate with each other. In this talk, we will describe the challenges involved here and how SPIFFE addresses them, as well as demonstrate SPIFFE federation between Istio mesh and SPIRE. \n\nhttps://sched.co/Uacx"

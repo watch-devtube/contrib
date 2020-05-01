@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Autoscaling Flink at Netflix - Timothy Farkas'
+recordingDate: 1588067029
+description: 'Keystone Data Pipeline manages several thousand Flink pipelines, with variable workloads. These pipelines are simple routers which consume from Kafka and write to one of three sinks. In order to alleviate our operational overhead, we’ve implemented autoscaling for our routers. Autoscaling has reduced our resource usage by 25% - 45% (varying by region and time), and has reduced our on call burden. This talk will take an in depth look at the mathematics, algorithms, and infrastructure details for implementing autoscaling of simple pipelines at scale. It will also discuss future work for autoscaling complex pipelines.'

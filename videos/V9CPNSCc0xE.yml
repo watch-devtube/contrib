@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - architecture
+title: 'NSDI ''20 - Towards Logically Centralized Interdomain Routing'
+language: English
+recordingDate: 1585170940
+description: "Towards Logically Centralized Interdomain Routing\n\nShahrooz Pouryousef, Lixin Gao, and Arun Venkataramani, University of Massachusetts at Amherst\n\nIn this paper, we present the design and implementation of CIRCA, a logically centralized architecture and system for interdomain routing that enables operators to offload BGP-style route computation to the cloud while preserving the confidentiality of proprietary information. To this end, our work presents the first provably safe, live, and fully distributed convergence detection algorithm for decentralized policy routing and, somewhat surprisingly, shows that long MRAI timers can almost completely be eliminated while significantly improving convergence delays with logical centralization. Our experiments with a Quagga-based CIRCA prototype and the Internet's AS topologies suggest that CIRCA can improve interdomain routing convergence delays and transient route inconsistencies by over an order of magnitude and offers nontrivial incremental deployability benefits with modest changes to widely deployed routing infrastructure.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

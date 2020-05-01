@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Energize Multi-Tenancy Flink on K8s with YuniKorn -  Weiwei Yang & Wilfred Spiegelenburg'
+recordingDate: 1588066912
+description: 'When we attempt to run large scale Flink jobs on K8s, we observed lots of problems causing us to miss SLA expectations under a multi-tenancy environment. Jobs are scheduled slowly in an unpredictable, disorder manner, without fairness between jobs or users, which leads to starved jobs and wasted resources. This motivates us to leverage YuniKorn, a universal resource scheduler, to tackle these challenges. YuniKorn is an open-source, light-weight scheduler for both YARN and K8s, it provides rich scheduling features such as hierarchical queues, resource fairness, preemption, etc and better scheduling performance. It recognizes application as the first-class citizens and provides elastic capacity queues. YuniKorn brings resource fairness at the queue, user and application level and manages the allocation and preemption based on its rich scheduling policies. In this session, we will share some hands-on experiences of running Flink on K8s with YuniKorn, from angles such as performance, multi-tenancy and resource quota, etc.'

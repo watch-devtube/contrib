@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'Writing An Interactive Streaming SQL - Kenny Gorman'
+language: English
+recordingDate: 1588066971
+description: 'In this talk, I will cover our journey building an interactive SQL interface and materialized view engine that leverages Apache Flink and Apache Calcite. I will talk about the architectural design of backend components including an interactive SQL parser, how communication from web client to server is done using web sockets, user interface decisions, scalability considerations, and schema declaration and evaluation. I will also dive deep into how we solved the problem of materializing results on top of streams of data. Including how we alleviate the need for indexing, can query by any key, return ranges, and specify predicates. If you ever have struggled with creating a map or graph from streaming data, this part is for you! I will go over some architectural decisions and tradeoffs, example queries and capabilities, utilizing multiple sources and sinks, and how Apache Flink enables unmatched statefulness, availability, and scalability for this use case. Attendees will leave the talk with concrete examples of what worked and didn''t work, why we chose Flink for our product, and how to create an entire streaming stack using just SQL!'

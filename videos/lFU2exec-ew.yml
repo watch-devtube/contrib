@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - lisp
+title: 'USENIX Security ''16 - Lock It and Still Lose It —on the (In)Security of Automotive Remote Keyless'
+language: English
+recordingDate: 1587768697
+description: "Lock It and Still Lose It —on the (In)Security of Automotive Remote Keyless Entry Systems\n\nFlavio D. Garcia and David Oswald, University of Birmingham; Timo Kasper, Kasper & Oswald GmbH; Pierre Pavlidès, University of Birmingham\n\nWhile most automotive immobilizer systems have been shown to be insecure in the last few years, the security of remote keyless entry systems (to lock and unlock a car) based on rolling codes has received less attention. In this paper, we close this gap and present vulnerabilities in keyless entry schemes used by major manufacturers. In our first case study, we show that the security of the keyless entry systems of most VW Group vehicles manufactured between 1995 and today relies on a few, global master keys. We show that by recovering the cryptographic algorithms and keys from electronic control units, an adversary is able to clone a VW Group remote control and gain unauthorized access to a vehicle by eavesdropping a single signal sent by the original remote. Secondly, we describe the Hitag2 rolling code scheme (used in vehicles made by Alfa Romeo, Chevrolet, Peugeot, Lancia, Opel, Renault, and Ford among others) in full detail. We present a novel correlation-based attack on Hitag2, which allows recovery of the cryptographic key and thus cloning of the remote control with four to eight rolling codes and a few minutes of computation on a laptop. Our findings affect millions of vehicles worldwide and could explain unsolved insurance cases of theft from allegedly locked vehicles.\n\nView the full USENIX Security '16 Program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

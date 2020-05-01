@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - cloud
+title: 'NSDI ''20 - Building An Elastic Query Engine on Disaggregated Storage'
+language: English
+recordingDate: 1585173851
+description: "Building An Elastic Query Engine on Disaggregated Storage\n\nMidhul Vuppalapati, Justin Miron, and Rachit Agarwal, Cornell University; Dan Truong, Ashish Motivala, and Thierry Cruanes, Snowflake Computing\n\nWe present operational experience running Snowflake, a cloud-based data warehousing system with SQL support similar to state-of-the-art databases. Snowflake design is motivated by three goals: (1) compute and storage elasticity; (2) support for multi-tenancy; and, (3) high performance. Over the last few years, Snowflake has grown to serve thousands of customers executing millions of queries on petabytes of data every day.\n\nThis paper presents Snowflake design and implementation, along with a discussion on how recent changes in cloud infrastructure (emerging hardware, fine-grained billing, etc.) have altered the many assumptions that guided the design and optimization of Snowflake system. Using data collected from various components of our system during execution of 70 million queries over a 14 day period, our study both deepens the understanding of existing problems and highlights new research challenges along a multitude of dimensions including design of storage systems and high-performance query execution engines.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"
