@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'USENIX Security ''19 - PeX: A Permission Check Analysis Framework for Linux Kernel'
+language: English
+recordingDate: 1569543526
+description: "PeX: A Permission Check Analysis Framework for Linux Kernel\n\nTong Zhang, Virginia Tech\n\nPermission checks play an essential role in operating system security by providing access control to privileged functionalities. However, it is particularly challenging for kernel developers to correctly apply new permission checks and to scalably verify the soundness of existing checks due to the large codebase and complexity of the kernel. In fact, Linux kernel contains millions of lines of code with hundreds of permission checks, and even worse its complexity is fast-growing.\n\nThis paper presents PeX, a static Permission check error detector for LinuX, which takes as input a kernel source code and reports any missing, inconsistent, and redundant permission checks. PeX uses KIRIN (Kernel InteRface based In-direct call aNalysis), a novel, precise, and scalable indirect call analysis technique, leveraging the common programming paradigm used in kernel abstraction interfaces. Over the inter-procedural control flow graph built by KIRIN, PeX automatically identifies all permission checks and infers the mappings between permission checks and privileged functions. For each privileged function, PeX examines all possible paths to the function to check if necessary permission checks are correctly enforced before it is called.\n\nWe evaluated PeX on the latest stable Linux kernel v4.18.5for three types of permission checks: Discretionary AccessControls (DAC), Capabilities, and Linux Security Modules(LSM). PeX reported 36 new permission check errors, 14 of which have been confirmed by the kernel developers.\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"
