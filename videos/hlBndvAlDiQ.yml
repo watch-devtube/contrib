@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - security
+title: 'USENIX Security ''19 - HideMyApp: Hiding the Presence of Sensitive Apps on Android'
+language: English
+recordingDate: 1569543184
+description: "HideMyApp: Hiding the Presence of Sensitive Apps on Android\n\nAnh Pham, ABB Corporate Research\n\nMillions of users rely on mobile health (mHealth) apps to manage their wellness and medical conditions. Although the popularity of such apps continues to grow, several privacy and security challenges can hinder their potential. In particular, the simple fact that an mHealth app is installed on a user’s phone can reveal sensitive information about the user’s health. Due to Android’s open design, any app, even without permissions, can easily check for the presence of a specific app or collect the entire list of installed apps on the phone. Our analysis shows that Android apps expose a significant amount of metadata, which facilitates fingerprinting them. Many third parties are interested in such information: Our survey of 2917 popular apps in the Google Play Store shows that around 57% of these apps explicitly query for the list of installed apps. Therefore, we designed and implemented HideMyApp (HMA), an effective and practical solution for hiding the presence of sensitive apps from other apps. HMA does not require any changes to the Android operating system or to apps yet still supports their key functionalities. By using a diverse dataset of both free and paid mHealth apps, our experimental evaluation shows that HMA supports the main functionalities in most apps and introduces acceptable overheads at runtime (i.e., several milliseconds); these findings were validated by our user-study (N = 30). In short, we show that the practice of collecting information about installed apps is widespread and that our solution, HMA, provides a robust protection against such a threat.\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"
