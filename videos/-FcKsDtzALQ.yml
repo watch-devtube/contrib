@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'FAST ''20 - FPGA-Accelerated Compactions for LSM based Key-Value Store'
+language: English
+recordingDate: 1585170018
+description: "FPGA-Accelerated Compactions for LSM based Key-Value Store\n\nTeng Zhang, Alibaba Group, Alibaba-Zhejiang University Joint Institute of Frontier Technologies, Zhejiang University; Jianying Wang, Xuntao Cheng, and Hao Xu, Alibaba Group; Nanlong Yu, Alibaba-Zhejiang University Joint Institute of Frontier Technologies, Zhejiang University; Gui Huang, Tieying Zhang, Dengcheng He, Feifei Li, and Wei Cao, Alibaba Group; Zhongdong Huang and Jianling Sun, Alibaba-Zhejiang University Joint Institute of Frontier Technologies, Zhejiang University\n\nLog-Structured Merge Tree (LSM-tree) key-value (KV) stores have been widely deployed in the industry due to its high write efficiency and low costs as a tiered storage. To maintain such advantages, LSM-tree relies on a background compaction operation to merge data records or collect garbages for housekeeping purposes. In this work, we identify that slow compactions jeopardize the system performance due to unchecked oversized levels in the LSM-tree, and resource contentions for the CPU and the I/O. We further find that the rising I/O capabilities of the latest disk storage have pushed compactions to be bounded by CPUs when merging short KVs. This causes both query/transaction processing and background compactions to compete for the bottlenecked CPU resources extensively in an LSM-tree KV store.\n\nIn this paper, we propose to offload compactions to FPGAs aiming at accelerating compactions and reducing the CPU bottleneck for storing short KVs. Evaluations have shown that the proposed FPGA-offloading approach accelerates compactions by 2 to 5 times, improves the system throughput by up to 23%, and increases the energy efficiency (number of transactions per watt) by up to 31.7%, compared with the fine-tuned CPU-only baseline. Without loss of generality, we implement our proposal in X-Engine, a latest LSM-tree storage engine.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - containers
+title: 'FAST ''20 - DC-Store: Eliminating Noisy Neighbor Containers using Deterministic I/O Performance'
+language: English
+recordingDate: 1585169991
+description: "DC-Store: Eliminating Noisy Neighbor Containers using Deterministic I/O Performance and Resource Isolation\n\nMiryeong Kwon, Donghyun Gouk, and Changrim Lee, KAIST; Byounggeun Kim and Jooyoung Hwang, Samsung; Myoungsoo Jung, KAIST\n\nWe propose DC-store, a storage framework that offers deterministic I/O performance for a multi-container execution environment. DC-store’s hardware-level design implements multiple NVM sets on a shared storage pool, each providing a deterministic SSD access time by removing internal resource conflicts. In parallel, software support of DC-Store is aware of the NVM sets and enlightens Linux kernel to isolate noisy neighbor containers, performing page frame reclaiming, from peers. We prototype both hardware and software counterparts of DC-Store and evaluate them in a real system. The evaluation results demonstrate that containerized data-intensive applications on DC-Store exhibit 31% shorter average execution time, on average, compared to those on a baseline system.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"

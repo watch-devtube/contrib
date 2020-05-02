@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+    - testing
+    - functional
+    - embedded
+title: 'USENIX Security ''19 - FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via'
+language: English
+recordingDate: 1569543184
+description: "FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation\n\nAli Davanian, University of California, Riverside\n\nCyber attacks against IoT devices are a severe threat. These attacks exploit software vulnerabilities in IoT firmware. Fuzzing is an effective software testing technique for finding these vulnerabilities so they can be patched. In this work, we present FIRM-AFL, the first high-throughput greybox fuzzer for IoT firmware. FIRM-AFL addresses two fundamental problems in IoT fuzzing. First, it addresses compatibility issues by enabling fuzzing for POSIX-compatible firmware that can be emulated in a system emulator. Second, it addresses the performance bottleneck caused by system-mode emulation with a novel technique called augmented process emulation. By integrating system-mode emulation and usermode emulation, augmented process emulation provides high compatibility as system-mode emulation and high throughput as user-mode emulation. Our evaluation results show that (1)FIRM-AFL is fully functional and capable of finding real world vulnerabilities in IoT programs and (2) the throughput of FIRM-AFL is on average 10 times higher than system-mode emulation based fuzzing; and (3) FIRM-AFL is able to find 1-day vulnerabilities much faster than system-mode emulation based fuzzing, and is able to find 0-day vulnerabilities.\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"
