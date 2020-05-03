@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - security
+    - lisp
+title: 'USENIX Security ''19 - Probability Model Transforming Encoders Against Encoding Attacks'
+language: English
+recordingDate: 1569543525
+description: "Probability Model Transforming Encoders Against Encoding Attacks\n\nHaibo Cheng, Peking University\n\nHoney encryption (HE) is a novel encryption scheme for resisting brute-force attacks even using low-entropy keys (e.g., passwords). HE introduces a distribution transforming encoder (DTE) to yield plausible-looking decoy messages for incorrect keys. Several HE applications were proposed for specific messages with specially designed probability model transforming encoders (PMTEs), DTEs transformed from probability models which are used to characterize the intricate message distributions.\n\nWe propose attacks against three typical PMTE schemes. Using a simple machine learning algorithm, we propose a distribution difference attack against genomic data PMTEs, achieving 76.54%--100.00% accuracy in distinguishing real data from decoy one. We then propose a new type of attack---encoding attacks---against two password vault PMTEs, achieving 98.56%--99.52% accuracy. Different from distribution difference attacks, encoding attacks do not require any knowledge (statistics) about the real message distribution.\n\nWe also introduce a generic conceptual probability model---generative probability model (GPM)---to formalize probability models and design a generic method for transforming an arbitrary GPM to a PMTE. We prove that our PMTEs are information-theoretically indistinguishable from the corresponding GPMs. Accordingly, they can resist encoding attacks. For our PMTEs transformed from existing password vault models, encoding attacks cannot achieve more than 52.56% accuracy, which is slightly better than the randomly guessing attack (50% accuracy).\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"
