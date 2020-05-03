@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'SREcon19 Asia/Pacific - The Definitive Guide to Make Software Fail on ARM64'
+language: English
+recordingDate: 1563562530
+description: "Ignat Korchagin, Cloudflare\n\nCloudflare operates a large distributed network: we have more than 165 data centres across 75 countries. We recently decided to integrate a second CPU architecture into our infrastructure. The obvious choice was ARM64. Apart from doing the basic hardware bring up we also needed to port all our software stack to ARM64, which includes a lot of in-house and third-party open-source components. Turns out, even if the software is written in a cross-platform architecture-agnostic language, there are a lot of potential ways it can fail on a different architecture. This presentation describes the issues we encountered, when porting our software to ARM64 and provides some advice for developers and SRE on how to avoid them, when adopting new code.\n\nView the full SREcon19 Asia/Pacific program at https://www.usenix.org/conference/srecon19asia/program\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
