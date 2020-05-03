@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - architecture
+title: 'Webinar: Pravega: Rethinking Storage for Streams'
+language: English
+recordingDate: 1586295319
+description: "Pravega is storage for data streams. Pravega exposes stream as a core storage primitive, enabling applications continuously generating data (e.g., from sensors, end users, servers, or cameras) to ingest and store such data permanently. Applications that consume stream data from Pravega are able to access the data through the same API, independent of whether the application is tailing the stream or reprocessing historical data. Pravega has some unique features such as the ability of storing an unbounded amount data per stream, while guaranteeing strong delivery semantics with transactions and scaling according to changes to the workload.\n\nIn this presentation, we introduce the main features of Pravega and its architecture. We additionally discuss relevant aspects of the Pravega ecosystem, including connectors that enable stream processors, such as Apache Flink, to use Pravega, and operators that we have developed to make Pravega cloud-native. Pravega is an open-source project under active development, and growing a strong and thriving community is a primary goal of the project.\n\nPresenter:\n\nFlavio Junqueira, Senior Distinguished Engineer @Dell"

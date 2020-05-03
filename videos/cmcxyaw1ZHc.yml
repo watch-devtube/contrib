@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'A Toolkit for Simulating Kubernetes Scheduling at Scale - Yuan Chen, JD.com'
+language: English
+recordingDate: 1574400517
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nA Toolkit for Simulating Kubernetes Scheduling at Scale - Yuan Chen, JD.com \n\nAs Kubernetes becomes the de facto standard for container orchestration, new scheduling algorithms and systems are made for different scenarios and workloads. Unfortunately, it is very time and cost consuming to evaluate new schedulers or features in real K8S clusters at scale. We present a simulation toolkit, which can simulate large-scale K8S clusters and scheduling using a single machine plus a small number of containers. The simulator runs a real K8S master and schedules pods according to event traces generated from real K8S clusters. It provides a complete set of metrics, including resource utilization, detailed scheduling trace and performance metrics, enabling developers to evaluate the scheduling behavior and performance with a reasonable amount of confidence. We have used the toolkit extensively to optimize the scheduler for large scale K8S clusters (~10K nodes) at JD.com. \n\nhttps://sched.co/UaVk"

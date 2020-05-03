@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - cloud
+title: 'Tuning SQL Date Range Queries'
+language: English
+recordingDate: 1574865985
+description: "Tuning SQL queries with date ranges, such as:\n\nand start_date between to_date ( :st_dt, 'YYYY-MM-DD' )\n               and to_date ( :en_dt, 'YYYY-MM-DD' )\n\ncan be tricky.\n\nIn this session we discussed why this is a hard problem. And looked into strategies you can use to get better plans for these queries.\n\nHighlights include:\n\n02:40 - High-level strategies for identifying the number of rows a query will return\n10:00 - Demo of query performance for queries with date ranges showing how the database uses adaptive cursor sharing\n30:00 - Demo of a query combining equality and range predicates\n37:00 - Discussion of indexes you can create to make the previous query faster\n44:00 - Tuning queries that include a join like:\n         col between start_date_col and end_date_col\n51:10 - Using dynamic statistics to improve the optimizer's row estimates\n57:00 - How adaptive plans enable the optimizer to choose the best join method\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"

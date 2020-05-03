@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - containers
+    - kubernetes
+title: 'How Container Networking Affects Database Performance - Tyler Duzan & Vadim Tkachenko, Percona'
+language: English
+recordingDate: 1574454991
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nHow Container Networking Affects Database Performance - Tyler Duzan & Vadim Tkachenko, Percona \n\nThrough benchmarks, Percona Labs explores the effects of different container networking drivers used in Kubernetes when hosting database workloads. For this talk, we will perform benchmarks using Percona's PXC Operator deploying a 3-member PXC MySQL cluster on top of Kubernetes and use our standard database benchmarking stack with TPCC and Sysbench to analyze query throughput and replication performance as affected by our choice of networking driver. Drivers we'll test will be CNI core plugins, Flannel, Cilium, Calico, Kube-Router, and the new Red Hat SR-IOV driver. This Dual Presentation (35 minutes) will address our benchmark methodology and results, as well as recommendations regarding networking and tuning database performance on Kubernetes with a focus on MySQL. Both speakers are experts on this topic, and Vadim co-authored \"High Performance MySQL\", now in its 3rd Edition. \n\nhttps://sched.co/UaZ8"
