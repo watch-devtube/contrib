@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''19 - Darwin: A Genomics Co-processor Provides up to 15,000X Acceleration...'
+recordingDate: 1566254482
+description: "Darwin: A Genomics Co-processor Provides up to 15,000X Acceleration on Long Read Assembly\n\nYatish Turakhia and Gill Bejerano, Stanford University; William J. Dally, Stanford University and NVIDIA Research\n\nBest Paper at ASPLOS '18\n\nGenomics is transforming medicine and our understanding of life in fundamental ways. Genomics data, however, is far outpacing Moore's Law. Third-generation sequencing technologies produce 100X longer reads than second generation technologies and reveal a much broader mutation spectrum of disease and evolution. However, these technologies incur prohibitively high computational costs. Over 1,300 CPU hours are required for reference-guided assembly of the human genome, and over 15,600 CPU hours are required for de novo assembly. This paper describes \"Darwin,\" a co-processor for genomic sequence alignment that, without sacrificing sensitivity, provides up to $15,000X speedup over the state-of-the-art software for reference-guided assembly of third-generation reads. Darwin achieves this speedup through hardware/algorithm co-design, trading more easily accelerated alignment for less memory-intensive filtering, and by optimizing the memory system for filtering. Darwin combines a hardware-accelerated version of D-SOFT, a novel filtering algorithm, alignment at high speed, and with a hardware-accelerated version of GACT, a novel alignment algorithm. GACT generates near-optimal alignments of arbitrarily long genomic sequences using constant memory for the compute-intensive step. Darwin is adaptable, with tunable speed and sensitivity to match emerging sequencing technologies and to meet the requirements of genomic applications beyond read assembly.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"
