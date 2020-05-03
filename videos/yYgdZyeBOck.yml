@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'Blazin’ Fast PromQL - Tom Wilkie, Grafana Labs'
+language: English
+recordingDate: 1574455318
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nBlazin’ Fast PromQL - Tom Wilkie, Grafana Labs \n\nPromQL, the Prometheus Query Language, is a concise, powerful and increasingly popular language for querying time series data. But PromQL queries can take a long time when they have to consider &gt;100k series and months of data. Even with Prometheus’ compression, a 90 day query over 200k series can touch ~100GB of data.  In this talk we will present a series of techniques employed by Cortex (a CNCF project for clustered Prometheus) for accelerating PromQL queries -- namely query results caching, time slice parallelisation, aggregation sharding and automatic recoding rule substitutions.  But there’s more: we will show how you can use this technology to get these improvements with Thanos and Prometheus. Finally, we will cover optimisations to the PromQL engine by the Cortex team, and how these have already been merged upstream to benefit the whole community. \n\nhttps://sched.co/UaWT"
