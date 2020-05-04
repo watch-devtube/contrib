@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'How Spotify Migrated Ingress HTTP Systems to Envoy - Erica Manno & Vladimir Shakhov, Spotify'
+language: English
+recordingDate: 1574400439
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nHow Spotify Migrated Ingress HTTP Systems to Envoy - Erica Manno & Vladimir Shakhov, Spotify \n\nErica and Vladimir are on the team responsible for perimeter systems that sit between Spotify’s clients and its backend services. They started unifying those systems from a range of different technologies and protocols to a solution based on Envoy proxies and a unified control plane.    This talk introduces Spotify’s vision for the next-gen perimeter. However, it will mainly focus on the migration of all HTTP ingress traffic, handled by a brittle, custom Nginx/HAProxy setup to an Envoy-based solution.    The speakers will discuss how they’re migrating multiple high volume web services, serving millions of requests/sec, with minimum disruptions and zero-downtime for the feature teams that maintain Spotify’s backend services.    This talk will also illustrate how Spotify’s engineering culture of loosely coupled but highly aligned teams has informed the decisions taken during the migration. \n\nhttps://sched.co/UaZH"

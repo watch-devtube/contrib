@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - lisp
+title: 'Adapting Kubernetes to Constrained IP Address Environments - Mahesh Narayanan & Satyadeep Musuvathy'
+language: English
+recordingDate: 1574455132
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nAdapting Kubernetes to Constrained IP Address Environments - Mahesh Narayanan & Satyadeep Musuvathy, Google \n\nWhen it comes to IP addresses, Kubernetes has a demand and supply issue. On the Demand side, Kubernetes treats Pods as first class citizens with their own IPs. This makes port mappings and usage from a developer’s point of view much much simpler. But from an infrastructure perspective, this makes the whole cluster use IP addresses liberally.  On the Supply side, Kubernetes deployments generally run alongside incumbent networks. Therefore there are not enough IPs to allocate and have a production grade deployment.  Based on real world experience by our customers so far, we have found that there are a few ways to design your clusters to address these concerns: -- Optimize the per node allocation so that the overall consumption can be optimized -- re-use IP addresses for Infrastructure but have unique Services IPs. -- Leverage a new IP addressing scheme through non-RFC 1918 ranges      \n\nhttps://sched.co/UaVq"
