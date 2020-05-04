@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - architecture
+title: 'USENIX ATC ''19 - Unification of Temporary Storage in the NodeKernel Architecture'
+language: English
+recordingDate: 1566254481
+description: "Patrick Stuedi, IBM Research; Animesh Trivedi, Vrije Universiteit; Jonas Pfefferle, IBM Research; Ana Klimovic, Stanford University; Adrian Schuepbach and Bernard Metzler, IBM Research\n\nEfficiently exchanging temporary data between tasks is critical to the end-to-end performance of many data processing frameworks and applications. Unfortunately, the diverse nature of temporary data creates storage demands that often fall between the sweet spots of traditional storage platforms, such as file systems or key-value stores.\n\nWe present NodeKernel, a novel distributed storage architecture that offers a convenient new point in the design space by fusing file system and key-value semantics in a common storage kernel while leveraging modern networking and storage hardware to achieve high performance and cost-efficiency. NodeKernel provides hierarchical naming, high scalability, and close to bare-metal performance for a wide range of data sizes and access patterns that are characteristic of temporary data. We show that storing temporary data in Crail, our concrete implementation of the NodeKernel architecture which uses RDMA networking with tiered DRAM/NVMe-Flash storage, improves NoSQL workload performance by up to 4.8× and Spark application performance by up to 3.4×. Furthermore, by storing data across NVMe Flash and DRAM storage tiers, Crail reduces storage cost by up to 8× compared to DRAM-only storage systems.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"
