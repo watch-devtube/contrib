@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+    - aws
+title: 'SREcon19 Asia/Pacific - The AWS Billing Machine and Optimizing Cloud Costs'
+language: English
+recordingDate: 1563562531
+description: "Ryan Lopopolo, Stripe\n\nStripe uses our AWS invoice to gain observability into our cloud infrastructure spend: it takes a Redshift cluster and enough SQL queries to power 1000 homes in Portland. We run our infrastructure on AWS because their services enable rapid prototyping and the cloud’s elasticity enables immense scale. Our efficiency engineering and finance teams are tasked with analyzing and optimizing the system that emerges from this flexibility. Optimizing cloud spend requires iterating on our code, infrastructure, observability, and organizational processes.\n\nIn this talk, I will explain how we added observability to our AWS infrastructure using the Cost & Usage report and custom reporting. I will show how our custom reports led to cost optimizations through internal scoreboarding, alerting using SignalFX, and enabling teams to independently assess the cost of deploying infrastructure. I will outline the impact that reserved instances, CI autoscaling, and cross-AZ network traffic minimization had on our costs. I will show that it is feasible to reduce AWS costs up to 50% by operating a reserved instance strategy and discuss how we created incentives in our engineering organization to keep costs optimized.\n\nView the full SREcon19 Asia/Pacific program at https://www.usenix.org/conference/srecon19asia/program.m\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

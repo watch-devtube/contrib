@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+title: 'USENIX ATC ''19 - GAIA: An OS Page Cache for Heterogeneous Systems'
+language: English
+recordingDate: 1566254694
+description: "Tanya Brokhman, Pavel Lifshits, and Mark Silberstein, Technion\n\nWe propose a principled approach to integrating GPU memory with an OS page cache. We design GAIA, a weakly-consistent page cache that spans CPU and GPU memories. GAIA enables the standard mmap system call to map files into the GPU address space, thereby enabling data-dependent GPU accesses to large files and efficient write-sharing between the CPU and GPUs. Under the hood, GAIA (1) integrates lazy release consistency protocol into the OS page cache while maintaining backward compatibility with CPU processes and unmodified GPU kernels; (2) improves CPU I/O performance by using data cached in GPU memory, and (3) optimizes the readahead prefetcher to support accesses to files cached in GPUs. We prototype GAIA in Linux and evaluate it on NVIDIA Pascal GPUs. We show up to 3× speedup in CPU file I/O and up to 8× in unmodified realistic workloads such as Gunrock GPU-accelerated graph processing, image collage, and microscopy image stitching.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

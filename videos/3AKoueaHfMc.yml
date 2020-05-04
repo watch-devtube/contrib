@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - architecture
+title: 'USENIX ATC ''19 - NICA: An Infrastructure for Inline Acceleration of Network Applications'
+language: English
+recordingDate: 1566254693
+description: "Haggai Eran, Technion—Israel Institute of Technology & Mellanox Technologies; Lior Zeno, Maroun Tork, Gabi Malka, and Mark Silberstein, Technion—Israel Institute of Technology\n\nWith rising network rates, cloud vendors increasingly deploy FPGA-based SmartNICs (F-NICs), leveraging their inline processing capabilities to offload hypervisor networking infrastructure. However, the use of F-NICs for accelerating general-purpose server applications in clouds has been limited.\n\nNICA is a hardware-software co-designed framework for inline acceleration of the application data plane on F-NICs in multi-tenant systems. A new ikernel programming abstraction, tightly integrated with the network stack, enables application control of F-NIC computations that process application network traffic, with minimal code changes. In addition, NICA’s virtualization architecture supports fine-grain time-sharing of F-NIC logic and provides I/O path virtualization. Together these features enable cost-effective sharing of F-NICs across virtual machines with strict performance guarantees.\n\nWe prototype NICA on Mellanox F-NICs and integrate ikernels with the high-performance VMA network stack and the KVM hypervisor. We demonstrate significant acceleration of real-world applications in both bare-metal and virtualized environments, while requiring only minor code modifications to accelerate them on F-NICs. For example, a transparent key-value store cache ikernel added to the stock memcached server reaches 40 Gbps server throughput (99% line-rate) at 6 μs 99th-percentile latency for 16-byte key-value pairs, which is 21× the throughput of a 6-core CPU with a kernel-bypass network stack. The throughput scales linearly for up to 6 VMs running independent instances of memcached.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

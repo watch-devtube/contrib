@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - security
+title: 'USENIX ATC ''19 - JumpSwitches: Restoring the Performance of Indirect Branches In the Era of Spectre'
+language: English
+recordingDate: 1566254693
+description: "Nadav Amit, VMware Research; Fred Jacobs, VMware; Michael Wei, VMware Research\n \nThe Spectre family of security vulnerabilities show that speculative execution attacks on modern processors are practical. Spectre variant 2 attacks exploit the speculation of indirect branches, which enable processors to execute code from arbitrary locations in memory. Retpolines serve as the state-of-the-art defense, effectively disabling speculative execution for indirect branches. While retpolines succeed in protecting against Spectre, they come with a significant penalty — 20% on some workloads.\n\nIn this paper, we describe and implement an alternative mechanism: the JumpSwitch, which enables speculative execution of indirect branches on safe targets by leveraging indirect call promotion, transforming indirect calls into direct calls. Unlike traditional inlining techniques which apply call promotion at compile time, JumpSwitches aggressively learn targets at runtime and leverages an optimized patching infrastructure to perform just-in-time promotion without the overhead of binary translation.\n\nWe designed and optimized JumpSwitches for common patterns we have observed. If a JumpSwitch cannot learn safe targets, we fall back to the safety of retpolines. JumpSwitches seamlessly integrate into Linux, and are evaluated in Linux v4.18. In addition, we have submitted patches enabling JumpSwitch upstream to the Linux community. We show that JumpSwitches can improve performance over retpolines by up to 20% for a range of workloads. In some cases,JumpSwitches even show improvement over a system without retpolines by directing speculative execution into direct calls just-in-time and reducing mispredictions.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

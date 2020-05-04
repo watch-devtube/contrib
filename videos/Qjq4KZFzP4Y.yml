@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''19 - Transkernel: Bridging Monolithic Kernels to Peripheral Cores'
+language: English
+recordingDate: 1566254693
+description: "Liwei Guo, Shuang Zhai, Yi Qiao, and Felix Xiaozhu Lin, Purdue ECE\n \nSmart devices see a large number of ephemeral tasks driven by background activities. In order to execute such a task, the OS kernel wakes up the platform beforehand and puts it back to sleep afterwards. In doing so, the kernel operates various IO devices and orchestrates their power state transitions. Such kernel executions are inefficient as they mismatch typical CPU hardware. They are better off running on a low-power, microcontroller-like core, i.e., peripheral core, relieving CPU from the inefficiency.\n\nWe therefore present a new OS structure, in which a lightweight virtual executor called transkernel offloads specific phases from a monolithic kernel. The transkernel translates stateful kernel execution through cross-ISA, dynamic binary translation (DBT); it emulates a small set of stateless kernel services behind a narrow, stable binary interface; it specializes for hot paths; it exploits ISA similarities for lowering DBT cost.\n\nThrough an ARM-based prototype, we demonstrate transkernel’s feasibility and benefit. We show that while cross-ISA DBT is typically used under the assumption of efficiency loss, it can enable efficiency gain, even on off-the-shelf hardware.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

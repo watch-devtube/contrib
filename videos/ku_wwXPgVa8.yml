@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - redis
+    - cassandra
+    - performance
+title: 'USENIX ATC ''19 - SOPHIA: Online Reconfiguration of Clustered NoSQL Databases for Time-Varying...'
+language: English
+recordingDate: 1566254481
+description: "SOPHIA: Online Reconfiguration of Clustered NoSQL Databases for Time-Varying Workloads\n\nAshraf Mahgoub, Purdue University; Paul Wood, Johns Hopkins University; Alexander Medoff, Purdue University; Subrata Mitra, Adobe Research; Folker Meyer, Argonne National Lab; Somali Chaterji and Saurabh Bagchi, Purdue University\n\nReconfiguring NoSQL databases under changing workload patterns is crucial for maximizing database throughput. This is challenging because of the large configuration parameter search space with complex interdependencies among the parameters. While state-of-the-art systems can automatically identify close-to-optimal configurations for static workloads, they suffer for dynamic workloads as they overlook three fundamental challenges: (1) Estimating performance degradation during the reconfiguration process (such as due to database restart). (2) Predicting how transient the new workload pattern will be. (3) Respecting the application’s availability requirements during reconfiguration. Our solution, SOPHIA, addresses all these shortcomings using an optimization technique that combines workload prediction with a cost-benefit analyzer. SOPHIA computes the relative cost and benefit of each reconfiguration step, and determines an optimal reconfiguration for a future time window. This plan specifies when to change configurations and to what, to achieve the best performance without degrading data availability. We demonstrate its effectiveness for three different workloads: a multi-tenant, global-scale metagenomics repository (MG-RAST), a bus-tracking application (Tiramisu), and an HPC data-analytics system, all with varying levels of workload complexity and demonstrating dynamic workload changes. We compare SOPHIA’s performance in throughput and tail-latency over various baselines for two popular NoSQL databases, Cassandra and Redis.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

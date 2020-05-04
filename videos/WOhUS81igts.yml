@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+    - javascript
+title: 'USENIX ATC ''19 - libmpk: Software Abstraction for Intel Memory Protection Keys (Intel MPK)'
+language: English
+recordingDate: 1566254481
+description: "Soyeon Park, Georgia Institute of Technology; Sangho Lee, Microsoft Research; Wen Xu, Georgia Institute of Technology; Hyungon Moon, Ulsan National Institute of Science and Technology; Taesoo Kim, Georgia Institute of Technology\n\nIntel Memory Protection Keys (MPK) is a new hardware primitive to support thread-local permission control on groups of pages without requiring modification of page tables. Unfortunately, its current hardware implementation and software support suffer from security, scalability, and semantic problems: (1) vulnerable to protection-key-use-after-free; (2) providing the limited number of protection keys; and (3) incompatible with mprotect()’s process-based permission model.\n\nIn this paper, we propose libmpk, a software abstraction for MPK. It virtualizes the hardware protection keys to eliminate the protection-key-use-after-free problem while providing accesses to an unlimited number of virtualized keys. To support legacy applications, it also provides a lazy inter-thread key synchronization. To enhance the security of MPK itself, libmpk restricts unauthorized writes to its metadata. We apply libmpk to three real-world applications: OpenSSL, JavaScript JIT compiler, and Memcached for memory protection and isolation. Our evaluation shows that it introduces negligible performance overhead (1%) compared with the original, unprotected versions and improves performance by 8.1× compared with the secure equivalents using mprotect(). The source code of libmpk is publicly available and maintained as an open source project.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

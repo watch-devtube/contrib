@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon19 Asia/Pacific - Extending a Scheduler to Better Support Sharded Services'
+language: English
+recordingDate: 1563562531
+description: "Laurie Clark-Michalek, Facebook\n\nSharded services are incredibly common in modern computing, but schedulers don't usually consider them when making scheduling decisions, preferring to take a task based view of service health. This disparity between models can lead to ugly workarounds, which can in some case jeopardize the reliability of a service. This talk describes a project that extends a task based scheduler to take shards into account when scheduling. This project has sped up updates and reduced downtime for many services across Facebook, and has a surprisingly diverse set of uses.\n\nView the full SREcon19 Asia/Pacific program at https://www.usenix.org/conference/srecon19asia/program\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+title: 'USENIX ATC ''19 - Asynchronous I/O Stack: A Low-latency Kernel I/O Stack for Ultra-Low Latency SSDs'
+language: English
+recordingDate: 1566254693
+description: "Gyusun Lee, Seokha Shin, and Wonsuk Song, Sungkyunkwan University; Tae Jun Ham and Jae W. Lee, Seoul National University; Jinkyu Jeong, Sungkyunkwan University\n\nToday's ultra-low latency SSDs can deliver an I/O latency of sub-ten microseconds. With this dramatically shrunken device time, operations inside the kernel I/O stack, which were traditionally considered lightweight, are no longer a negligible portion. This motivates us to reexamine the storage I/O stack design and propose an asynchronous I/O stack (AIOS), where synchronous operations in the I/O path are replaced by asynchronous ones to overlap I/O-related CPU operations with device I/O. The asynchronous I/O stack leverages a lightweight block layer specialized for NVMe SSDs using the page cache without block I/O scheduling and merging, thereby reducing the sojourn time in the block layer. We prototype the proposed asynchronous I/O stack on the Linux kernel and evaluate it with various workloads. Synthetic FIO benchmarks demonstrate that the application-perceived I/O latency falls into single-digit microseconds for 4 KB random reads on Optane SSD, and the overall I/O latency is reduced by 15-33% across varying block sizes. This I/O latency reduction leads to a significant performance improvement of real-world applications as well: 11-44% IOPS increase on RocksDB and 15-30% throughput improvement on Filebench and OLTP workloads.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'SREcon19 Asia/Pacific - How We Used Kafka to Scale Database Infrastructure'
+language: English
+recordingDate: 1563562531
+description: "Basavaiah Thambara, LinkedIn\n\nThis talk will introduce our home grown NoSQL document store and its initial design based on MySQL replication and the challenges faced, will touch base on some of the major changes incorporated in the product for replacing MySQL replication with Kafka-based replication and cover Kafka based replication implementation in some depth. Followed by an overview of Kafka configuration options to support reliable delivery along with details of the application logic to ensure \"exactly once delivery\" and \"rejection of out-of-band messages.\"\n\nAudience takeaways are\n\nHow our home grown NoSQL datastore works\nChallenges we faced with MySQL based replication\nHow Kafka helped scale the database infrastructure\nOver all how to use kafka for database replication at scale\n\nView the full SREcon19 Asia/Pacific program at https://www.usenix.org/conference/srecon19asia/program\n\nSign up to find out more about SREcon at https://srecon.usenix.org"
