@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - java
+speaker:
+    name: 'Nicolas Frankel'
+    twitter: nicolas_frankel
+    matches: ['Nicolas Fränkel']
+title: 'Battle of the Circuit Breakers: Istio vs. Hystrix/Resilience4J, Nicolas Frankel'
+language: English
+recordingDate: 1576590639
+description: "JFuture 2019, Minsk – November 16, 2019\n\nBattle of the Circuit Breakers: Istio vs. Hystrix/Resilience4J, Nicolas Frankel\n\nThere are two ways to implement the circuit breaker pattern: white-box à la Hystrix/Resilience4J or black-box à la Istio. Both have pros and cons. Come to this talk to hear more about that!\n\nKubernetes in general, and Istio in particular, have changed a lot the way we look at Ops-related constraints: monitoring, load-balancing, health checks, etc. Before those products became available, there were already available solutions to handle those constraints.\n\nAmong them are different libraries e.g. Hystrix and Resilience4J in the Java ecosystem. In particular, they both provide an implementation of the Circuit Breaker pattern, which prevents a network or service failure from cascading to other services. But now Istio also provides the same capability.\n\nIn this talk, we will have a look at how Istio and one among Hystrix/Resilience4J implement the Circuit Breaker pattern, and what pros/cons each of them has. Bonus, you'll be able to choose what library we will focus for the demo.\n\nAfter this talk, you'll be able to decide which one is the best fit in your context."

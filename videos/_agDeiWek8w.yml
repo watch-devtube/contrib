@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - rust
+title: 'Polonius: Either Borrower or Lender Be, but Responsibly - Niko Matsakis'
+language: English
+recordingDate: 1578505231
+description: "Rust 2018 brought with it “non-lexical lifetimes” (NLL), a big overhaul of how the borrow checker worked that allowed it to accept a lot more programs. And yet, we’re still not accepting the full range of programs that was envisioned by the original NLL RFC – this is both for performance reasons and because the formulation didn’t turn out to be as flexible as originally thought.\n\nPolonius is a “reframing” of Rust’s borrow checker. It works quite differently than the original system. Rather than tracking how long each reference is used (its “lifetime”), it tracks where each reference may have come from (its “origin”) – and it does so in a very fine-grained way. As a result, Polonius is able to accept all the programs that the NLL RFC envisioned, and a few more! We also believe it can be made more performant (though that has yet to be fully proven out).\n\nThis talk will explain how Polonius works in a simple and example-driven style. It will help you to gain a deeper understanding of how Rust’s borrow checker works internally.\n\n---\n\nNote from the conference: The slides for this talk were not captured and we've re-recorded them after the fact. Some of the visuals did not work perfectly, and for that we apologize."
