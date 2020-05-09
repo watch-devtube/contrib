@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - azure
+    - devops
+    - containers
+    - docker
+    - kubernetes
+    - security
+title: 'To the moon and back, our PCI DSS journey on Kubernetes by Dmitriy Buzdin at DevOps Unicorns'
+recordingDate: 1571147438
+description: "Kubernetes has become the number one standard of deploying containerized applications. All major cloud providers have made a big step forward supporting Kubernetes in their ecosystem. \n\nThe Payment Card Industry Data Security Standard (PCI DSS) is an information security standard for organizations that handle branded credit cards from the major card schemes. The standard was created to increase controls around cardholder data to reduce credit card fraud.\n\nOur goal is to show how application deployed on Azure AKS and Kubernetes could be made compliant with PCI DSS standards. We will tell how we managed to :\n\nconfigure and use Hub-and-Spoke networking model;\nsecurely deploy container images into PCI DSS cluster with Azure Container Registry and Images scanning in order to reduce risk of vulnerabilities;\nprocess and store cardholder data with HashiCorp Vault;\nset-up preventive logging and monitoring with FileBeat, Logstash, Prometheus, Azure Logs, Falco, Kubewatch;\ndefine Pod and network policies to secure Docker containers.\nThere would be mentioned a lot of shortcuts, high-end security utils, and services which together empowered our solution to fulfill PCI DSS requirements. This presentation should be interesting for Developers / Testers / Architects interested in Kubernetes security best practices and FinTech IT representatives."
