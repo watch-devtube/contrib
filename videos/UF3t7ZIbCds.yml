@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'Giorgio Natili — Mutation Testing at Scale'
+language: Russian
+recordingDate: 1584633687
+description: "Ближайшая конференция — Mobius 2020 Piter\n22-25 июня, Online\nПодробности и билеты: https://bit.ly/mobius2020piter\n\n. На конференциях часто рассказывают, как начать писать тесты, а люди слушают эти советы, и со временем становится сложно понять корректны ли написанные тесты. Мутационное тестирование – это инструмент, который позволяет автоматически контролировать качество тестов даже на больших масштабах. Поэтому доклад будет полезен всем, кто беспокоится не только о проценте code coverage, но и о постоянном поддержании качества написанных тестов.\n\nMutation testing is a technique used to evaluate the quality of existing test suites that implies modifying a program logic in small ways such as negating conditionals, changing a logical connector, and so on to introduce faults. When the application code changes, it should produce different results and cause the unit tests to fail. If a unit test does not fail in this situation, it may indicate that there is an issue in the test suite. Mutation testing typically utilizes a set of language-specific source code transformations, called operators, to introduce faults, but these operators may not be sufficient to generate enough mutations to cover the specific domain of the system under test.\n\nJoin Giorgio in this session to learn more about mutation testing and how to create operators to generate mutations specific to the domain of the Kindle Rendering engine."
