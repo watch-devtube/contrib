@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+title: 'NSDI ''17 - Tux²: Distributed Graph Computation for Machine Learning'
+language: English
+recordingDate: 1588974528
+description: "Tux²: Distributed Graph Computation for Machine Learning\n\nWencong Xiao, Beihang University and Microsoft Research; Jilong Xue, Peking University and Microsoft Research; Youshan Miao, Microsoft Research; Zhen Li, Beihang University and Microsoft Research; Cheng Chen and Ming Wu, Microsoft Research; Wei Li, Beihang University; Lidong Zhou, Microsoft Research\n\nTUX2 is a new distributed graph engine that bridges graph computation and distributed machine learning. TUX2 inherits the benefits of an elegant graph computation model, efficient graph layout, and balanced parallelism to scale to billion-edge graphs; we extend and optimize it for distributed machine learning to support heterogeneity, a Stale Synchronous Parallel model, and a new MEGA (Mini-batch, Exchange, GlobalSync, and Apply) model.\n\nWe have developed a set of representative distributed machine learning algorithms in TUX2, covering both supervised and unsupervised learning. Compared to implementations on distributed machine learning platforms, writing these algorithms in TUX2 takes only about 25% of the code: Our graph computation model hides the detailed management of data layout, partitioning, and parallelism from developers. Our extensive evaluation of TUX2, using large data sets with up to 64 billion edges, shows that TUX2 outperforms state-of-the-art distributed graph engines PowerGraph and PowerLyra by an order of magnitude, while beating two state-of-the-art distributed machine learning systems by at least 48%.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

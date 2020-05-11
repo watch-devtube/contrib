@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''17 - Verifying Reachability in Networks with Mutable Datapaths'
+language: English
+recordingDate: 1588974528
+description: "Verifying Reachability in Networks with Mutable Datapaths\n\nAurojit Panda, University of California, Berkeley; Ori Lahav, Max Planck Institute for Software Systems (MPI-SWS); Katerina Argyraki, École Polytechnique Fédérale de Lausanne (EPFL); Mooly Sagiv, Tel Aviv University; Scott Shenker, University of California, Berkeley, and International Computer Science Institute\n\nRecent work has made great progress in verifying the forwarding correctness of networks [26–28, 35]. However, these approaches cannot be used to verify networks containing middleboxes, such as caches and firewalls, whose forwarding behavior depends on previously observed traffic. We explore how to verify reachability properties for networks that include such “mutable datapath” elements, both for the original network and in the presence of failures. The main challenge lies in handling large and complicated networks. We achieve scaling by developing and leveraging the concept of slices, which allow network-wide verification to only require analyzing small portions of the network. We show that with slices the time required to verify an invariant on many production networks is independent of the size of the network itself.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

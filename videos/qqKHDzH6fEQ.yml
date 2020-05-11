@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'NSDI ''17 - One Key to Sign Them All Considered Vulnerable: Evaluation of DNSSEC in the Internet'
+language: English
+recordingDate: 1588974528
+description: "One Key to Sign Them All Considered Vulnerable: Evaluation of DNSSEC in the Internet\n\nHaya Shulman and Michael Waidner, Fraunhofer Institute for Secure Information Technology SIT\n\nWe perform the first Internet study of the cryptographic security of DNSSEC-signed domains. To that end, we collected 2.1M DNSSEC keys for popular signed domains out of these 1.9M are RSA keys. We analyse the RSA keys and show that a large fraction of signed domains are using vulnerable keys: 35% are signed with RSA keys that share their moduli with some other domain and 66% use keys that are too short (1024 bit or less) or keys which modulus has a GCD more than 1 with the modulus of some other domain. As we show, to a large extent the vulnerabilities are due to poor key generation practices, but also due to potential faulty hardware or software bugs.\n\nThe DNSSEC keys collection and analysis is performed on a daily basis with the DNSSEC Keys Validation Engine which we developed. The statistics as well as the DNSSEC Keys Validation Engine are made available online, as a service for Internet users.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

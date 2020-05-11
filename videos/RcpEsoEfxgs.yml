@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cassandra
+    - cloud
+    - lisp
+title: 'NSDI ''17 - vCorfu: A Cloud-Scale Object Store on a Shared Log'
+language: English
+recordingDate: 1588974552
+description: "vCorfu: A Cloud-Scale Object Store on a Shared Log\n\nMichael Wei, University of California, San Diego, and VMware Research Group; Amy Tai, Princeton University and VMware Research Group; Christopher J. Rossbach, The University of Texas at Austin and VMware Research Group; Ittai Abraham, VMware Research Group; Maithem Munshed, Medhavi Dhawan, and Jim Stabile, VMware; Udi Wieder and Scott Fritchie, VMware Research Group; Steven Swanson, University of California, San Diego; Michael J. Freedman, Princeton University; Dahlia Malkhi, VMware Research Group\n\nThis paper presents vCorfu, a strongly consistent cloudscale object store built over a shared log. vCorfu augments the traditional replication scheme of a shared log to provide fast reads and leverages a new technique, composable state machine replication, to compose large state machines from smaller ones, enabling the use of state machine replication to be used to efficiently in huge data stores. We show that vCorfu outperforms Cassandra, a popular state-of-the art NOSQL stores while providing strong consistency (opacity, read-own-writes), efficient transactions, and global snapshots at cloud scale.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"
