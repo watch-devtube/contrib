@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+    - docker
+    - architecture
+title: 'NSDI ''17 - Stateless Network Functions: Breaking the Tight Coupling of State and Processing'
+language: English
+recordingDate: 1588974528
+description: "Stateless Network Functions: Breaking the Tight Coupling of State and Processing\n\nMurad Kablan, Azzam Alsudais, and Eric Keller, University of Colorado Boulder; Franck Le, IBM Research\n\nIn this paper we present Stateless Network Functions, a new architecture for network functions virtualization, where we decouple the existing design of network functions into a stateless processing component along with a data store layer. In breaking the tight coupling, we enable a more elastic and resilient network function infrastructure. Our StatelessNF processing instances are architected around efficient pipelines utilizing DPDK for high performance network I/O, packaged as Docker containers for easy deployment, and a data store interface optimized based on the expected request patterns to efficiently access a RAMCloud-based data store. A network-wide orchestrator monitors the instances for load and failure, manages instances to scale and provide resilience, and leverages an OpenFlow-based network to direct traffic to instances. We implemented three example network functions (network address translator, firewall, and load balancer). Our evaluation shows (i) we are able to reach a throughput of 10Gbit/sec, with an added latency overhead of between 100μs and 500μs, (ii) we are able to have a failover which does not disrupt ongoing traffic, and (iii) when scaling out and scaling in we are able to match the ideal performance.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

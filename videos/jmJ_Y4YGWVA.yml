@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - tensorflow
+    - architecture
+title: 'NSDI ''17 - Clipper: A Low-Latency Online Prediction Serving System'
+language: English
+recordingDate: 1588974412
+description: "Clipper: A Low-Latency Online Prediction Serving System\n\nDaniel Crankshaw, Xin Wang, and Guilio Zhou, University of California, Berkeley; Michael J. Franklin, University of California, Berkeley, and The University of Chicago; Joseph E. Gonzalez and Ion Stoica, University of California, Berkeley\n\nMachine learning is being deployed in a growing number of applications which demand real-time, accurate, and robust predictions under heavy query load. However, most machine learning frameworks and systems only address model training and not deployment.\n\nIn this paper, we introduce Clipper, a general-purpose low-latency prediction serving system. Interposing between end-user applications and a wide range of machine learning frameworks, Clipper introduces a modular architecture to simplify model deployment across frameworks and applications. Furthermore, by introducing caching, batching, and adaptive model selection techniques, Clipper reduces prediction latency and improves prediction throughput, accuracy, and robustness without modifying the underlying machine learning frameworks. We evaluate Clipper on four common machine learning benchmark datasets and demonstrate its ability to meet the latency, accuracy, and throughput demands of online serving applications. Finally, we compare Clipper to the Tensorflow Serving system and demonstrate that we are able to achieve comparable throughput and latency while enabling model composition and online learning to improve accuracy and render more robust predictions.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

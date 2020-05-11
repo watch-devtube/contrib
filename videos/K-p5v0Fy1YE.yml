@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''17 - Enabling Wide-Spread Communications on Optical Fabric with MegaSwitch'
+language: English
+recordingDate: 1588974444
+description: "Enabling Wide-Spread Communications on Optical Fabric with MegaSwitch\n\nLi Chen and Kai Chen, The Hong Kong University of Science and Technology; Zhonghua Zhu, Omnisensing Photonics; Minlan Yu, Yale University; George Porter, University of California, San Diego; Chunming Qiao, University at Buffalo; Shan Zhong, CoAdna\n\nExisting wired optical interconnects face a challenge of supporting wide-spread communications in production clusters. Initial proposals are constrained, as they only support connections among a small number of racks (e.g., 2 or 4) at a time, with switching time of milliseconds. Recent efforts on reducing optical circuit reconfiguration time to microseconds partially mitigate this problem by rapidly time-sharing optical circuits across more nodes, but are still limited by the total number of parallel circuits available simultaneously.\n\nIn this paper, we seek an optical interconnect that can enable unconstrained communications within a computing cluster of thousands of servers. We present Mega- Switch, a multi-fiber ring optical fabric that exploits space division multiplexing across multiple fibers to deliver rearrangeably non-blocking communications to 30+ racks and 6000+ servers. We have implemented a 5-rack 40-server MegaSwitch prototype with commercial optical devices, and used testbed experiments as well as large-scale simulations to explore MegaSwitch’s architectural benefits and tradeoffs.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

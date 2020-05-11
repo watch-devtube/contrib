@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''17 - AdaptSize: Orchestrating the Hot Object Memory Cache in a Content Delivery Network'
+language: English
+recordingDate: 1588974412
+description: "AdaptSize: Orchestrating the Hot Object Memory Cache in a Content Delivery Network\n\nDaniel S. Berger, University of Kaiserslautern; Ramesh K. Sitaraman, University of Massachusetts Amherst and Akamai Technologies; Mor Harchol-Balter, Carnegie Mellon University\n\nMost major content providers use content delivery networks (CDNs) to serve web and video content to their users. A CDN is a large distributed system of servers that caches and delivers content to users. The first-level cache in a CDN server is the memory-resident Hot Object Cache (HOC). A major goal of a CDN is to maximize the object hit ratio (OHR) of its HOCs. But, the small size of the HOC, the huge variance in the requested object sizes, and the diversity of request patterns make this goal challenging.\n\nWe propose AdaptSize, the first adaptive, size-aware cache admission policy for HOCs that achieves a high OHR, even when object size distributions and request characteristics vary significantly over time. At the core of AdaptSize is a novel Markov cache model that seamlessly adapts the caching parameters to the changing request patterns. Using request traces from one of the largest CDNs in the world, we show that our implementation of AdaptSize achieves significantly higher OHR than widelyused production systems: 30-48% and 47-91% higher OHR than Nginx and Varnish, respectively. AdaptSize also achieves 33-46% higher OHR than state-of-the-art research systems. Further, AdaptSize is more robust to changing request patterns than the traditional tuning approach of hill climbing and shadow queues studied in other contexts.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

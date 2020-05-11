@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''17 - ViewMap: Sharing Private In-Vehicle Dashcam Videos'
+language: English
+recordingDate: 1588974528
+description: "ViewMap: Sharing Private In-Vehicle Dashcam Videos\n\nMinho Kim, Jaemin Lim, Hyunwoo Yu, Kiyeon Kim, Younghoon Kim, and Suk-Bok Lee, Hanyang University\n\nToday, search for dashcam video evidences is conducted manually and its procedure does not guarantee privacy. In this paper, we motivate, design, and implement ViewMap, an automated public service system that enables sharing of private dashcam videos under anonymity. ViewMap takes a profile-based approach where each video is represented in a compact form called a view profile (VP), and the anonymized VPs are treated as entities for search, verification, and reward instead of their owners. ViewMap exploits the line-of-sight (LOS) properties of dedicated short-range communications (DSRC) such that each vehicle makes VP links with nearby ones that share the same sight while driving. ViewMap uses such LOS-based VP links to build a map of visibility around a given incident, and identifies VPs whose videos are worth reviewing. Original videos are never transmitted unless they are verified to be taken near the incident and anonymously solicited. ViewMap offers untraceable rewards for the provision of videos whose owners remain anonymous. We demonstrate the feasibility of ViewMap via field experiments on real roads using our DSRC testbeds and trace-driven simulations.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

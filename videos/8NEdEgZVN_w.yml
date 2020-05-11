@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - functional
+title: 'NSDI ''17 - Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads'
+language: English
+recordingDate: 1588974412
+description: "Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads\n\nSadjad Fouladi, Riad S. Wahby, and Brennan Shacklett, Stanford University; Karthikeyan Vasuki Balasubramaniam, University of California, San Diego; William Zeng, Stanford University; Rahul Bhalerao, University of California, San Diego; Anirudh Sivaraman, Massachusetts Institute of Technology; George Porter, University of California, San Diego; Keith Winstein, Stanford University\n\nWe describe ExCamera, a system that can edit, transform, and encode a video, including 4K and VR material, with low latency. The system makes two major contributions.\n\nFirst, we designed a framework to run general-purpose parallel computations on a commercial “cloud function” service. The system starts up thousands of threads in seconds and manages inter-thread communication.\n\nSecond, we implemented a video encoder intended for fine-grained parallelism, using a functional-programming style that allows computation to be split into thousands of tiny tasks without harming compression efficiency. Our design reflects a key insight: the work of video encoding can be divided into fast and slow parts, with the “slow” work done in parallel, and only “fast” work done serially.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

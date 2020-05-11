@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - lisp
+    - embedded
+title: 'NSDI ''17 - Bringing IoT to Sports Analytics'
+language: English
+recordingDate: 1588974412
+description: "Bringing IoT to Sports Analytics\n\nMahanth Gowda, Ashutosh Dhekne, Sheng Shen, and Romit Roy Choudhury, University of Illinois at Urbana–Champaign; Xue Yang, Lei Yang, Suresh Golwalkar, and Alexander Essanian, Intel\n\nThis paper explores the possibility of bringing IoT to sports analytics, particularly to the game of Cricket. We develop solutions to track a ball’s 3D trajectory and spin with inexpensive sensors and radios embedded in the ball. Unique challenges arise rendering existing localization and motion tracking solutions inadequate. Our system, iBall, mitigates these problems by fusing disparate sources of partial information – wireless, inertial sensing, and motion models – into a non-linear error minimization framework. Measured against a mm-level ground truth, the median ball location error is at 8cm while rotational error remains below 12 even at the end of the flight. The results do not rely on any calibration or training, hence we expect the core techniques to extend to other sports like baseball, with some domain-specific modifications.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"
