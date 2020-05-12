@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - mobile
+    - android
+    - kotlin
+title: 'droidcon Italy webinar - Managing Parallelism Using Coroutines - Fabio Collini'
+recordingDate: 1589230976
+description: "droidcon Italy webinar\n5 May 2020 \nFabio Collini, Android Engineer, New York Times\n\nManaging Parallelism Using Coroutines from Fabio Collini\n\nUsing Kotlin coroutines it’s really easy to execute a task in a background thread and update the UI based on the result. Just enter the coroutine world using the launch method and then change thread using withContext. It’s even simpler if the task is an http call (thanks to coroutines support in retrofit) or a database query (thanks to Room). The final code is the same we’d use to execute synchronous code.\n\nBut coroutines are more than just a tool to switch thread, we can use them to execute tasks in parallel. The code is still really easy to read but sometimes it can be difficult to write: we need to pay attention to many aspects (like nested scopes, exceptions and dispatchers). In this talk we’ll see how to leverage the coroutines library to manage parallelism, from the basic concepts to some advanced example."
