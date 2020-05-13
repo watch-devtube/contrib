@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Extending Kubernetes - Lessons Learned From an L4 Ingress Implementation - Srinivas Brahmaroutu, IBM'
+recordingDate: 1582770395
+description: "Don't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects - Learn more at https://kubecon.io\n\nExtending Kubernetes - Lessons Learned From an L4 Ingress Implementation - Srinivas Brahmaroutu, IBM \n\nThis talk will focus on how to connect your workloads running in Kubernetes using vendor provided Hardware LoadBalancer. When a service is created with type LoadBalancer, Kubernetes Service Controller automates the creation of an instance of LoadBalancer with external IP that can be reached by the clients of your application. The firewall rules are also properly configured by the cloud provider for your service object. The intent of our talk is to provide you with necessary information on how loadbalancers work and how to use them with Kubernetes workloads. Implementation for LB varies in their design, implementation and capabilities they expose. In this session we will firstly share our experiences working with loadbalancers on different cloud providers. We will also discuss how to share LoadBalancers among workloads to be cost effective and user friendly without vendor lock-in. \n\nhttps://sched.co/YVxr"
