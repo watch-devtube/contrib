@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - architecture
+title: 'SREcon17 Americas - BPerf—Bing.com Cloud Profiling on Production'
+language: English
+recordingDate: 1589493000
+description: "BPerf—Bing.com Cloud Profiling on Production\n\nMukul Sabharwal, Microsoft\n\nBPerf is Bing.com's Production Profiler system. It is built on top of Event Tracing for Windows, a low-overhead logging facility that is able to collect events from the operating system and other participating components like Microsoft's Common Language Runtime (.NET).\n\nBPerf is able to visualize this low-level data, associate it with a search query and present this performance analysis investigation with source code right there for the SRE to analyze.\n\nThe talk will cover architecture details of our production profiling system, present the data collection and storage challenges that are need to operate at Bing-scale and conduct an investigation with a demo of the real system in action.\n\nWe'll also touch up on writing high-performance latency sensitive managed code (focusing on .NET) and why a production profiling system in an important tool in the SRE toolkit that is a perfect complement to the the high-level monitoring tools that are a staple in the SRE world.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

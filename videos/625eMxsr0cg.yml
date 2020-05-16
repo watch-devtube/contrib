@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon17 Americas - Anomaly Detection in Infrequently Occurred Patterns'
+language: English
+recordingDate: 1589493000
+description: "Anomaly Detection in Infrequently Occurred Patterns\n\nDong Wang, Baidu Inc.\n\nAnomaly detection is one of the most important works of SREs. The usual way is to find some frequently occurred traffic patterns, and regards them as the normal value scopes. Any values beyond the scope will be regarded as the anomaly. However in some special dates, especially in some holidays, the traffics show the significantly different patterns. The commonly used alerting strategy usually does not work well. In this talk, we will introduce our approaches used to deal with such issues. Our scenarios are actually more complicated in that, in China, the holidays do not have the fixed calendar dates, and different holidays have absolutely different traffic patterns. However the practical deployment of the methods in this talk shows the pretty satisfying results in terms of alarming precision and recall.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"
