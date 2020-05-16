@@ -1,0 +1,21 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - containers
+    - kubernetes
+    - java
+    - spring
+speaker:
+    name: 'Nicolas Frankel'
+    twitter: nicolas_frankel
+    matches: ['Nicolas Fränkel']
+title: 'Zero-downtime deployment with Kubernetes, Spring Boot and Flyway (Nicolas Frankel, Switzerland) [EN]'
+recordingDate: 1577302464
+description: "Kubernetes allows a lot. After discovering its features, it’s easy to think it can magically transform your application deployment process into a painless no-event. For Hello World applications, that is the case. Unfortunately, not many of us do deploy such applications day-to-day.\n\nYou need to think about application backward compatibility, possible rollback, database schema migration, etc. I believe the later is one of the biggest pain point. In this talk, I’ll demo how to update a Spring Boot app deployed on a Kubernetes cluster with a non-trivial database schema migration with the help of Flyway, while keeping the service up during the entire update process."

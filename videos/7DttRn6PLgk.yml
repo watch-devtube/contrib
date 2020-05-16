@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'Fault tolerant event-sourcing With RDBMS (Dmytro Parkhomchuk, Ukraine) [RU]'
+recordingDate: 1577302266
+description: 'Have you ever expirienced the situation, when you’ve already persisted data in some popular RDBMS datastore, tried to send message to a message broker, but it’s unavailable at the moment? Sure, you can try to code your own infrastructure – store messages somewhere, wait for the message broker availability, etc… But in such approach you squander money of the project) In this talk I will show you more cheap and robust, in terms of development, approach for fault tolerant event sourcing with examples in C# – so you could focus on the domain of your app.'
