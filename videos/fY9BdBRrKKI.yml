@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - cloud
+title: 'Calculating SLA Breach Times with SQL'
+language: English
+recordingDate: 1588798059
+description: "Working on support tickets is a task most of us in the IT industry are familiar with. Ensuring these are handled within their SLA is key part of these assignments.\n\nFor high priority tickets that are worked on 24x7, calculating the SLA breach date is simply a matter of adding the working duration to the raised date.\n\nBut how do you calculate the SLA breach times for tickets that are only handled during working hours? \n\nThese need to skip non-working days such as weekends and take into account business opening hours. You can do this with SQL. This session shows you how to use analytic functions to handle non-working days.\n\nWatch this session to learn how to use SQL to calculate \"next working day\" algorithms!\n\nHighlights include:\n\n01:50 - Introduction to the problem\n13:00 - Discussing the data model to solve this problem\n14:30 - Outline of the algorithm to calculate breach dates\n16:55 - Walking through the SQL to do the calculation\n28:45 - Demo of the SQL in action\n38:00 - Discussion of other use cases\n42:50 - A code grinder vs a database programmer\n44:15 - Performance implications for the SQL method\n50:22 - Resources for further reading\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/ \n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"

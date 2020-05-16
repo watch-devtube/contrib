@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+    - architecture
+title: 'SREcon17 Americas - TrafficShift: Avoiding Disasters at Scale'
+language: English
+recordingDate: 1589492999
+description: "TrafficShift: Avoiding Disasters at Scale\n\nMichael Kehoe and Anil Mallapur, LinkedIn\n\nLinkedIn has evolved from serving live traffic out of one data center to four data centers spread geographically. Serving live traffic from four data centers at the same time has taken us from a disaster recovery model to a disaster avoidance model where we can take an unhealthy data center out of rotation and redistribute its traffic to the healthy data centers within minutes, with virtually no visible impact to users\n\nAs we transitioned from big monolithic application to micro-services, we witnessed pain in determining capacity constraints of individual services to handle extra load during disaster scenarios. Stress testing individual services using artificial load in a complex micro-services architecture wasn’t sufficient to provide enough confidence in a data center’s capacity. To solve this problem, we at LinkedIn leverage live traffic to stress services site-wide by shifting traffic to simulate a disaster load.\n\nThis talk provide details on how LinkedIn uses Traffic Shifts to mitigate user impact by migrating live traffic between its data centers and stress test site-wide services for improved capacity handling and member experience.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

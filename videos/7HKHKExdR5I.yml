@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - cloud
+    - leadership
+    - architecture
+title: 'Exadata Database Machine: All about X8M'
+language: English
+recordingDate: 1584034452
+description: "Join Jia Shi and Gavin Parish for an informal chat about all matters related to Exadata X8M. Learn about Persistent Memory (PMEM) and RDMA over Ethernet (RoCE) and how they integrate into Exadata’s architecture.\n\n0:11 Welcome\n1:17 Gavin Parish introduction\n1:29 Jia Shi introduction\n1:55 Why X8M is a leap in technology\n2:15 RDMA over Ethernet (RoCE) in X8M\n2:42 InfiniBand and RoCE compared\n3:10 Why RoCE replaces InfiniBand in Exadata\n3:25 -- Why Exadata adopted InfiniBand\n4:30 -- Now Ethernet / RoCE caught up\n5:06 -- Cloud factors favoring Ethernet\n5:44 -- RoCE advantages summarized\n6:32 Benefits of RoCE for Exadata\n6:58 -- Context: Exadata vision\n7:26 -- RoCE is key to scaling Exadata's shared storage architecture\n8:23 -- How RoCE supports shared storage architecture\n8:41 -- 3 things that make a good network:\n8:46 -- -- (1) low latency (for OLTP)\n9:23 -- -- (2) high bandwidth (for Analytics workloads)\n10:09 -- -- (3) low latency, high bandwidth but at low/no cost\n10:22 -- -- originally only InfiniBand RDMA avoided a lot memory copies, kernel calls, etc.\n12:29 Why use RDMA and internal network to communicate with storage\n12:44 -- Smart Scan's required RDMA, ruling out storage protocols and plain Ethernet\n15:08 RoCE Internal Network Fabric - simple OSI stack, application level uses same RDMA verbs\n15:35 Moving to RoCE preserves code and benefits from InfiniBand - and stability!\n17:56 Exadata delivers leading edge of technology - not the bleeding edge\n21:45 Persistent Memory (PMEM) in Exadata X8M\n22:08 -- What PMEM is and\n22:45 -- How PMEM fits in the storage hierarchy\n24:12 -- PMEM is a new storage tier in Exadata\n24:36 -- PMEM is new silicon, not RAM, not Flash\n24:54 -- PMEM between RAM and Flash in capacity, performance, and price\n25:41 How RoCE and PMEM together lower latency dramatically\n27:20 -- in the context of Exadata's architecture\n35:17 Putting PMEM as a tier in (shared) storage instead of in disk form factor\n36:02 Software is key to Oracle's PMEM technical leadership\n36:40 How PMEM and DRAM are used in Exadata Storage Servers\n39:34 How would others enable PMEM use / benefits?\n41:30 Exadata's architecture adopts and evolves with new technology\n41:57 -- adding PMEM is a significant change in the architecture\n42:11 -- this is possible because Exadata is database-aware at all levels\n42:45 -- for example, storage knows that a write is database log write\n43:26 How are Exadata releases done? Why name this X8M and not X9?\n45:03 InfiniBand and future versions of Exadata -- we maintain continuity\n48:36 -- Same network at the application level\n49:06 -- Oracle's own cloud runs multiple generations of Exadata\n49:50 End and thanks\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"
