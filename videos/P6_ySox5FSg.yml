@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - cloud
+title: 'SQL Horror Queries'
+language: English
+recordingDate: 1584705526
+description: "Dani Schnider will join us for this session to discuss how to avoid SQL \"horror\" queries:\n\nSQL is a powerful and efficient query language when used correctly. But inefficient and inappropriate SQL statements can cause massive performance problems. Instead of solving such issues with additional indexes, optimizer hints, SQL profiles or SQL plan baselines, a much better and more sustainable solution is often to rewrite the SQL statements and to reduce the complexity of the queries.\n\nDuring performance tuning tasks for my customers, I’m often confronted with complex SQL statements. Many of these statements were developed years ago and changed several times by people that either had not enough SQL skills or had not the time to understand the original query in detail. This can lead to queries that are not only very slow, but also hard to understand - for the developers as well as for the query optimizer. By transforming these SQL statements into simpler queries, the optimizer can calculate better estimations and generate faster execution plans.\n\nIn this presentation, some real-life examples of terrible \"horror queries\" will be shown and rewritten into simpler, more elegant and faster SQL statements. The goal of the presentation is to show how to improve the performance of a query by factors with appropriate SQL statements and powerful Oracle SQL.\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"
