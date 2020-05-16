@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+    - architecture
+title: 'Oracle Maximum Availability Architecture and Exadata – a tour de force with Michael Nowak'
+language: English
+recordingDate: 1578066514
+description: "Michael Nowak joins Cris Pedregal for an informal chat about Maximum Availability Architecture in the context of Exadata.\n\n \nHighlights:\n\n0:12 Welcome & Michael Nowak introduction\n\n0:14 Section: Exadata MAA overview\n0:22 Cost of Downtime and the importance of high availability (HA)\n1:18 What is Maximum Availability Architecture (MAA)\n3:07 What is MAA: MAA tiers\n4:43 Exadata built from the ground up for HA\n5:24 10 years of Exadata\n5:51 Exadata’s Exachk origin\n\n7:09 Section: Unplanned outages topics\n7:13 X7 Do-not-service LED on Exadata storage server\n10:27 X7 M.2 Drive Fast Failure Protection\n13:00 Database tier I/O cancellation\n15:56 Smart OLTP Caching\n19:14 Smart Rebalancing for high redundancy diskgroups\n\n22:39 Section: New HA Features and Improvements\n22:45 Fast Node Death detection\n24:06 What is a Disaster? and Data Guard Standby\n26:58 Standby metrics: Redo apply rates, detection and fast-start failover\n\n28:25 Section: Planned maintenance topics\n28:28 video demo: database node update using patch manager tool\n30:57 video demo: Exadata online storage expansion using OEDACLI tool\n34:16 Adding storage: Exadata AWR showing outlier detection and how cells cache data\n37:14 Exadata MAA evolution & direction\n\n38:26 Q&A Section\n38:29 Q: Single Exadata rack HA? A: Rack full of redundancy, we don't see rack failures\n39:46 Q: What are the toughest problems you confront in HA? A: Sick/misbehaving components that don't meet their own service levels (as opposed to fail-stop components) Hard to diagnose, e.g., take disk offline and diagnose via ORION.\n42:18 Q: How do you find out that MAA is working well? A: IDC's 5-nines, customer that reports 5 years of operation without issues\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"
