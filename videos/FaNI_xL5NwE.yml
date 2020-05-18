@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - security
+    - java
+title: 'Demystifying Certificates and TLS For Developers'
+recordingDate: 1587199861
+description: "Speaker: Alan Scherger - is an operations-focused developer. He has experience running and developing with the Netflix stack, starting with Asgard. Now, of course, he studies, manages, and sometimes even contributes to tools such as Mesos, Kubernetes, Nomad, and Spinnaker. When he is not starring into pixels, he can be found picking-up and putting-down heavy things at a strength training gym, or unoriginally exploring\ncoffee shops and boardgames whenever friends are free..\n\n\nTalk: Demystifying Certificates and TLS For Java Developers\n\nWhat exactly is an SSL Certificate? Do rolling out tools with mTLS enabled seem impossible? Can you test that your infrastructure tools properly uphold the security claims they make regarding mTLS? Does the thought of rotating the certificate authority your service mesh rely on scare you?\nIn this talk, we will begin our journey looking at the RFCs behind these technologies. Next, we will use OpenSSL, CFSSL, and mkcert to validate what we have learned about X509 v3 certificates. We will then bootstrap Consul to quickly demonstrate server, client, and browser usages of certificates. After that, we’ll do a deep-dive into how Kafka uses certificates to secure its brokers and clients, and possibly (KIP-515) its connections to Zookeeper."
