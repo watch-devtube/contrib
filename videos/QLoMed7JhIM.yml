@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Accelerate to Warp Speed'
+recordingDate: 1381410571
+description: "This video supplement Game Engine Development video # 32 - 34.\nGED video 32: No new changes.\nGED video 33: Optional change. we can use the glViewport() within paintGL() or leave the our algorithm alone because we're already using resizeGL() which implements glViewport().\nGED video 34: Reimplement our ship's velocity algorithm.\n\nImportant note: I forgot to mention this in the video: \nWhen you run the program and while you're pressing the arrow keys to move the triangle if any white streak mark appear, add this two OpenGL command within the paintGL() method before the glEnableClientState(GL_VERTEX_ARRAY); function call: \n\nglMatrixMode(GL_MODELVIEW);\nglLoadIdentity();"
