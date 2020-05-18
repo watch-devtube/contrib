@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - containers
+    - docker
+speaker:
+    name: 'Philipp Krenn'
+    twitter: xeraa
+title: 'Containers for Real Integration Tests (Philipp Krenn)'
+recordingDate: 1541146009
+description: "How are you doing integration tests with your datastore?\nMocking is not an option since you want to test the actual system.\nThere are some in-memory implementations, like H2 or HSQLDB for relational databases, but there are still subtle differences to your production system and not all datastores have in-memory cousins.\nUsing the actual datastore in your tests is possible, but managing it, running tests in parallel,... is far from ideal.\nSo what is the solution? There are some very neat solutions based on containers, namely the Docker-Maven-Plugin and TestContainers. From your tests you can start a lightweight, throwaway instance of your datastore and this talk will walk you through how to do that."
