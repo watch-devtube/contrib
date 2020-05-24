@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - css
+    - web
+    - react
+    - javascript
+title: 'micro.sphere.it #1: Sidewind - Tailwind but for state by Juho Vepsäläinen'
+language: English
+recordingDate: 1590076324
+description: "micro.sphere.it #1 Frontend Engineering presents:\n\nHistorically we’ve dealt with state in different manners in the frontend. We’ve gone from vanilla JavaScript to jQuery to Backbone to Redux and other modern solutions. The question is, are we there yet still after all this work?\n\nIn this talk, I’ll discuss the new wave of disappearing frameworks that attack the problem from a different angle. The goal is to give similar development ergonomics and power as earlier while minimizing bundle size.\n\nIn particular, I’ll focus on a light solution I’ve developed based on my recent experiences with Tailwind.css. Tailwind is a utility-first approach to styling but it doesn’t specify how to handle state. Usually, you combine it with a framework like React or Vue for this purpose. Due to the constraints set by my client, I wasn’t able to go through my regular route, however.\n\nThe tight constraints led to the birth of Sidewind. It’s a light, disappearing state management approach that fits perfectly with Tailwind while providing just enough API to at least add interactivity to websites. By design, it follows the pattern of progressive enhancement while leveraging recent improvements to browsers in order to take state directly to HTML."
