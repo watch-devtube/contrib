@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - security
+title: '#HITBLockdown D2 - Exploiting The Netlogon Protocol - Tom Tervoort'
+language: English
+recordingDate: 1591141048
+description: "In this talk I would explain an attack I discovered against the Netlogon Remote Protocol (CVE-2019-1424; patched by Microsoft in November 2019), which allows a man-in-the-middle attacker to log in as any (local administrator) user to a domain-joined Windows system. This means that once an attacker can intercept and modify traffic between a Windows system and a domain controller (for example after ARP spoofing, setting up a malicious WiFi access point or stealing a laptop using Bitlocker in TPM Only mode), can use a simple and reliable exploit to gain privileged remote code execution. Before diving into the details of this attack, the talk would first cover the details of Netlogon and its relation to NTLM; prior work that abuses Netlogon to enable NTLM relay attacks (CVE-2015-005, CVE-2019-1019); as well as the obscure custom cryptographic schemed used by the protocol to authenticate users and protect messages.\n\n===\n\nI am a Senior Security Specialist for Secura, a security company based in the Netherlands. I regularly perform network pentests, web/mobile application assessments, as well as code, configuration and design reviews for large Dutch companies and instutions. My primary areas of interest include crytographic protocols and cryptography engineering, advanced web attacks and Windows AD pentesting. Besides doing security assessments, I also develop and give secure programming courses to software developers. Next to my job at Secura, I also work as a PhD student at the Amsterdam UMC hospitals, where I do research on cybersecurity within the medical domain."
