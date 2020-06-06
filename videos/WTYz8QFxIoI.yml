@@ -1,5 +1,10 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
@@ -8,5 +13,6 @@ tags:
     - kubernetes
     - functional
 title: 'Early boot provisioning systems'
+language: English
 recordingDate: 1538241825
 description: "https://media.ccc.de/v/ASG2018-190-early_boot_provisioning_systems\n\n\n\nEarly boot provisioning systems aim to enable automated, declarative, immutable patterns for Linux systems. In this talk, I'll discuss the CoreOS Ignition system and illustrate how it works and addresses real-world use cases on bare-metal, cloud providers, and hypervisors. I'll share experiences using and integrating early provisioning and highlight new challenges for contributors to explore. With Ignition shipping in several Linux distributions soon, early boot provisioning shows promise and potential for the future.\n\n\nEarly boot provisioning systems prepare a Linux host by partitioning disks, creating filesystems, and writing systemd units and configs. They aim to enable automated, declarative, immutable infrastructure patterns and shape the way large-scale Linux systems operate.\n\nIn this talk, I'll discuss the original CoreOS declarative config and Ignition system, share how it works, and how it arose. I'll walk through real-world use cases on bare-metal, cloud providers, and hypervisors to show early boot provisioning concepts and where they shine. I'll review experiences using Ignition and cloud-init and integrating them into Matchbox and the Typhoon Kubernetes distribution. For those designing or integrating early boot provisioners, I'll discuss advanced features, exciting areas for exploration, and my hopes for these systems over time.\n\nNow that Container Linux and Flatcar Linux support Ignition and Red Hat has announced Fedora CoreOS and Red Hat CoreOS will as well, early boot provisioning can evolve to benefit more distributions and users.\n\n\nDalton Hubble\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/190"
