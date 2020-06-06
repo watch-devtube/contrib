@@ -1,5 +1,10 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
@@ -7,5 +12,6 @@ tags:
     - containers
     - kubernetes
 title: 'Efficient Network Analytics with BPF/eBPF using Skydive'
+language: English
 recordingDate: 1538241463
 description: "https://media.ccc.de/v/ASG2018-202-efficient_network_analytics_with_bpf_ebpf_using_skydive\n\n\n\nEfficient monitoring of large-scale networks poses a delicate balance between capture granularity on the one hand and the imposed overheads and performance penalties on the other. Skydive is an open source real-time network topology and protocol analyzer, featuring smart network collection which is both granular and efficient. Skydive allows for efficient network monitoring at scale through Linux networking features such as BPF and eBPF. \n\nIn the talk we will present Skydive and will give an update of the features that introduced since one year. We will show how Skydive leverages eBPF to produce useful insights on top of network topology information. We will share some performance results showing the efficiency of Skydive BPF/eBPF capturing in the context of a Kubernetes deployment.\n\n\n\n\nSylvain Afchain\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/202"
