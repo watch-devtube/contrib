@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+title: 'Webinar: Things to consider to operate a Multi-Tenant Kubernetes Cluster'
+language: English
+recordingDate: 1591814702
+description: "Using Kubernetes to serve multi tenants is not a trivial task. Kubernetes provides the tools that are necessary(RBAC, Rolebinding, Network Policy, ResourceQuota and etc) to provide isolation between tenants but building/implementing an architecture is solely upon users. In this webinar, we would like to introduce multiple approaches that can be taken to provide multi-tenancy in the kubernetes cluster. We will also talk about how others in the communities are doing to achieve multi-tenancy. We’ll analyze pros and cons of different approaches and share specific use-cases that fit each approach. Finally, we will look in to lessons we’ve learned and we have implemented these factors into our on-premise cloud environment. Kubernetes를 여러 Tenant들이 함께 사용할 수 있도록 제공/운영 하는 것은 쉽지 않은 일입니다. Kubernetes 내부에 Tenant간 분리를 위해 사용할 수 있는 다양한 장치(RBAC, Rolebinding, Network Policy, ResourceQuota 등)들이 있지만, 그것들을 조합하여 multi-tenant형 Kubernetes 아키텍처를 구성하는 것은 사용자의 몫입니다. 본 웨비나에서는, Kubernetes에서 multi-tenancy를 제공하기 위한 방안을 소개하고, 각 방안별 장단점과 적절한 usecase, 그리고 이런 시도들을 on-premise에 적용하면서 알게된 lessoned-learned에 대해 이야기 하고자 합니다. 또한, K8S 커뮤니티에서 multi-tenancy를 제공하기 위해 신규로 시도하고 있는 부분들도 함께 소개할 예정입니다.\n\nPresenters:\nHan Sol Park // 박한솔, Senior Engineer @Samsung SDS\nKyle Choi // 최규황, Principle Engineer @Samsung SDS"
