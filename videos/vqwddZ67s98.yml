@@ -1,10 +1,16 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - containers
     - security
     - functional
 title: 'The State of Your Supply Chain'
+language: English
 recordingDate: 1538219649
 description: "https://media.ccc.de/v/ASG2018-184-the_state_of_your_supply_chain\n\n\n\nContainer security often focuses on runtime best-practices whilst neglecting delivery of the software in the supply chain. Application, library, and OS vulnerabilities are a likely route to data exfiltration, and emerging technologies in the container ecosystem offer a new opportunity to mitigate this risk. \n\n\nTreating containers as immutable artefacts and injecting configuration allows us to \"upgrade\" images by rebuilding and shipping whole software bundles, avoiding configuration drift and state inconsistencies. This makes it possible to constantly patch software, and to easily enforce governance of artefacts both pre- and post-deployment.\n\nIn this talk we detail an ideal, security-hardened container supply chain, describe the current state of the ecosystem, and dig into specific tools. Grafeas, Kritis, in-toto, Clair, Micro Scanner, TUF, and Notary are covered, and we demo how to gate container image pipelines and deployments on cryptographically verified supply chain metadata.\n\nAndrew Martin\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/184"

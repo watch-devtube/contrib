@@ -1,8 +1,14 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
 title: oomd
+language: English
 recordingDate: 1538153269
 description: "https://media.ccc.de/v/ASG2018-175-oomd\n\nA userspace OOM killer\n\nRunning out of memory on a host is a particularly nasty scenario. In the Linux kernel, if memory is being overcommitted, it results in the kernel out-of-memory (OOM) killer kicking in. In this talk, Daniel Xu will cover why the Linux kernel OOM killer is surprisingly ineffective and how oomd, a newly opensourced userspace OOM killer, does a more effective and reliable job. Not only does the switch from kernel space to userspace result a more flexible solution, but it also directly translates to better resource utilization. His talk will also do a deep dive into the Linux kernel changes and improvements necessary for oomd to operate.\n\n\nOut of memory killing has historically happened inside kernel space. On a memory overcommitted linux system, malloc(2) and friends will never fail. However, if an application dereferences the returned pointer and the system has run out of physical memory, the linux kernel is forced to OOM kill one or more processes. This is typically a slow and painful process because the kernel spends an unbounded amount of time swapping in and out pages and evicting the page cache. Furthermore, configuring policy is not very flexible while being somewhat complicated.\n\noomd aims to solve this problem in userspace. oomd leverages cgroupsv2 and newly exposed counters and statistics to monitor a system holistically. oomd takes corrective action in userspace before an OOM occurs in kernel space. Corrective action is configured via a flexible plugin system, in which custom code can be written. By default, this involves killing offending processes. This enables an unparalleled level of flexibility where each workload can have custom protection rules. Furthermore, time spent churning pages in kernelspace is minimized. In practice at Facebook, we've regularly seen 30 minute host lockups go away entirely.\n\nDaniel Xu\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/175"

@@ -1,9 +1,15 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
     - security
 title: 'Configuration Driven Event Tracing with Traceleft and eBPF'
+language: English
 recordingDate: 1538239592
 description: "https://media.ccc.de/v/ASG2018-191-configuration_driven_event_tracing_with_traceleft_and_ebpf\n\nUse cases and implementation challenges\n\nTraceleft is a framework built upon eBPF which allows generation of system events such as file operations and network calls via a configuration driven system. It can act as a foundation for building auditing and incident analysis or monitoring tools that work at the system level and need targeted and filtered information. While traditionally, eBPF based analysis requires writing scripts in a limited C subset, Traceleft aims at providing a configuration based definition system events to be monitored over which filters can be set as required. This talk shares our experiences of developing Traceleft along with some use cases and challenges faced.\n\nThe tiny eBPF VM in the Linux kernel has given us unprecedented flexibility in developing tooling for analyzing systems. In this talk we discuss Traceleft - a new auditing and incident analysis framework that can be used to build monitoring tools for filesystem and network events. Traceleft is a configuration driven framework that latches on to syscalls and other relevant Linux kernel functions identified in Traceleft. The eBPF programs are generated, compiled on the fly and inserted in the kernel, based on a set of JSON based configurations. Traceleft supports tracing network calls, file operations such as opening/closing of a target files, for a given set of processes and the aggregation of these events. Traceleft is built using Go and uses Gobpf library and allows the configurations to be sent over the wire using Protobuf format. Traceleft started as a joint effort between ShiftLeft and Kinvolk to develop an easy, repeatable way to provide a configurable way to audit syscalls and classify security events filtered on processes and files. The tools built over Traceleft can be used for live monitoring and alert generation.\n\nImplementing Traceleft presented many challenges.\n\neBPF tracing programs need to be recompiled for each kernel version and updated for each application profile. It needs to keep track of new processes and match them with new applications in a race-free way. Reading information from different sources bring many race possibilities. Catching syscalls and their parameters bring limitations: matching specific syscalls with specific syscalls or remote hosts for network calls. We will discuss how we overcame some of the challenges.\n\n\nSuchakra Sharma Alban Crequy\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/191"

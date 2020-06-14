@@ -1,10 +1,16 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - containers
     - security
     - architecture
 title: 'Monitoring File System Syscalls in a Distributed Architecture'
+language: English
 recordingDate: 1538152005
 description: "https://media.ccc.de/v/ASG2018-214-monitoring_file_system_syscalls_in_a_distributed_architecture\n\n\n\nIn a distributed world, monitoring system calls with kauditd can present challenges. In this talk we will address some of those challenges and give a use case of how we build an event pipeline for monitoring file system events.\n\nWith the rise of containers and generic container based operating systems we find ourselves with a large quantity of nodes that do general compute tasks. These nodes produce a large volume of audit data that we can leverage for many tasks. In our use case we wanted a way to monitor all file system changes in ways that we could not do with the existing libraries or tools. In this talk we will describe how we chose to use audit log system to monitor file system changes, how we built our system to scale and the pros and cons we have found from our solution. We will also talk about possible future work with respect to security and execution monitoring.\n\nDaniel Feinberg\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/214"

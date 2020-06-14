@@ -1,10 +1,16 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
     - ux
     - security
 title: 'Thunderbolt 3 hardware enablement for GNU/Linux'
+language: English
 recordingDate: 1538154521
 description: "https://media.ccc.de/v/ASG2018-180-thunderbolt_3_hardware_enablement_for_gnu_linux\n\n\n\nThunderbolt 3 is a high-speed IO technology that can be used to connect docks, graphic cards or other peripherals requiring high speed. However, the mechanism that allows these high speeds also poses a security risk because malicious devices could obtain sensitive information from the computer's memory. As a result kernel provides an interface to authorize thunderbolt devices before they can be used. The talk will explain the technology and explain the enablement we did to make thunderbolt 3 work for GNU/Linux.\n\nThunderbolt 3 is a relatively new technology to connect peripherals to a computer. Because it can access the computer's resources directly, it allows for very high speeds: it is fast enough to drive external graphics cards.\nHowever, the mechanism that allows these high speeds also poses a security risk because malicious devices could obtain sensitive information from the computer's memory.\nVersion 3 of the Thunderbolt interface therefore provides security levels in order to mitigate the aforementioned security risk that connected devices pose to the system. As a result, devices need to be authorized manually. The talk aims to provide an overview of the Thunderbolt technology and will try to clarify some of the confusing aspects, e.g. the many modes and features of the USB type C connector that Thunderbolt 3 uses. Finally, the talk will show how some tricky user experience problems were solved,\n\nChristian Kellner\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/180"
