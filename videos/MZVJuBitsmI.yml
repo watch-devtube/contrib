@@ -1,5 +1,10 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
@@ -8,5 +13,6 @@ speaker:
     name: 'Philipp Krenn'
     twitter: xeraa
 title: 'Scale Your Auditing Events'
+language: English
 recordingDate: 1538212421
 description: "https://media.ccc.de/v/ASG2018-216-scale_your_auditing_events\n\n\n\nThe Linux Audit daemon is responsible for writing audit records to the disk, which you can then access with ausearch and aureport. However, it turned out that parsing and centralizing these records is not as easy as you would hope. Elastic's new Auditbeat fixes this by keeping the original configuration, but ships them to a centralized location where you can easily visualize all events.\n\nYou can also use Auditbeat to detect changes to critical files, like binaries and configuration files, and identify potential security policy violations. This talk shows you what can you do to discover changes, events, and potential security breaches as soon as possible on interactive dashboards. Additionally, we are combining Auditd events with logs, which are security relevant.\n\nPhilipp Krenn\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/216"
