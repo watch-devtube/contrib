@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - security
+    - architecture
+    - embedded
+title: '#HITBLockdown D2 - Virtual Lab - Firmware Hacking With Ghidra - Thomas Roth & Dmitry Nedospasov'
+language: English
+recordingDate: 1591487724
+description: "Part 1: Bare-metal reverse engineering with Ghidra\n\nAfter a brief introduction to bare-metal code and the ARM Cortex-M architecture we jump right into reverse-engineering ARM firmware. First, we analyze some simple crackmes, look at some useful scripts and tools and learn some tricks to efficiently navigate firmware. Next, we’ll analyze the actual BootROM of a popular series of microcontroller and identify an attack vector for a low-level hardware attack. Participants are welcome to ask questions and encouraged to follow along. Please join the HITB #virtuallab channel on Slack\n\nPart 2: Glitching for fun and profit\n\nAfter Identifying the potential vulnerability in Ghidra, we will now devise a strategy to exploit this vulnerability in the underlying hardware. This will include, preparing the ARM microcontroller for the attack, wiring up the circuit to induce the fault and programming an FPGA to control the system boot and perform the attack in real time. And, instead of just showing slides on how such an attack could be performed, we will solder it live, running through all the issues together and answering questions as we go along.\n\nSoftware required to follow along:\n\n– Ghidra 9.1.2: https://ghidra-sre.org/\n\n– SVD-Loader: https://github.com/leveldown-security/SVD-Loader-Ghidra\n\n===\n\nThomas is best known for his attacks on embedded devices and processors. His past research focused on mobile and embedded systems with published research on TrustZone, hardware wallets and processor security features.\n\n---\n\nDmitry is a hardware hacker, hardware design engineer, security researcher, speaker, and reverse-engineer. Dmitry did his PhD in the field of IC security."
