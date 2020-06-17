@@ -1,9 +1,15 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
     - containers
 title: '2017 cgroupv2: Linux''s new unified control group hierarchy'
+language: English
 recordingDate: 1508668175
 description: "https://media.ccc.de/c/asg2017/ASG2017-96-cgroupv2_linux_s_new_unified_control_group_hierarchy\n\n\n\ncgroupv1 (or just \"cgroups\") has helped revolutionise the way that we manage and use containers over the past 8 years. A complete overhaul is coming -- cgroupv2. This talk will go into why a new control group system was needed, the changes from cgroupv1, and practical uses that you can apply to improve the level of control you have over the processes on your servers.\n\nWe will go over:\n\n- Design decisions and deviations for cgroupv2 compared to v1\n- Pitfalls and caveats you may encounter when migrating to cgroupv2\n- Discussion of the internals of cgroupv2\n- Practical information about how we are using cgroupv2 inside Facebook\n\n\n\nChris Down"
