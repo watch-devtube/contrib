@@ -1,9 +1,15 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
     - azure
 title: '2017 Azure networking integration challenges'
+language: English
 recordingDate: 1508620255
 description: "https://media.ccc.de/c/asg2017/ASG2017-93-azure_networking_integration_challenges\n\n\n\nThe introduction on Accelerated Networking on Azure created challenges integrating support in Linux distributions. The original method using bonding had issues that were solved by introducing a new mode called \"Transparent VF\". This mode solves issues with udev, cloudinit and distribution specific network initialization. This talk will also cover the process of how Linux support for Azure is integrated with upstreamand distributions.\n\n\n\nStephen Hemminger"

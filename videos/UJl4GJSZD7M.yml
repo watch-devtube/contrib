@@ -1,8 +1,14 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - security
 title: '2017 Creating your own 1password clone'
+language: English
 recordingDate: 1508686989
 description: "https://media.ccc.de/c/asg2017/ASG2017-158-creating_your_own_1password_clone\n\n\n\nAgileBits, the company behind the 1password password manager, published a spec for their “opvault” format to show how confident they are in its design. This eliminates the need to reverse-engineer the encryption when trying to read from such a vault on a system where they\ndon’t provide their tool.\n\nIn this talk we’ll see an overview of the design of the format, such as the key derivation or the decision to split the meta-data from the details such as username and passwords.\n\nAt the same time, the talk will follow the implementation of a library to read this format in Rust, which started as a way to practice the language but now has grown a GUI to display these entries so I can use the vault on my desktop.\n\n\n\nCarlos Martín Nieto"

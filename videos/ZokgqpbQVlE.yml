@@ -1,10 +1,16 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
     - containers
     - security
 title: '2017 Modern deployment for Embedded Linux and IoT'
+language: English
 recordingDate: 1508669833
 description: "https://media.ccc.de/c/asg2017/ASG2017-112-modern_deployment_for_embedded_linux_and_iot\n\n\n\nIn a world of connected devices, IoT and embedded systems, building robust products needs a modern deployment workflow where security and constant updates are as important as the product itself. The abilities of these systems to protect themselves, isolate applications inside sandboxes or containers, and support constant updates will enhance the product's security, its longevity and all the offered services around it. In this regard, Linux containers are one of the mechanisms that may allow to solve some of the Embedded and IoT systems problems, however their adoption is still facing some challenges such how can these mechanisms fit in the final embedded environment ?\n\nIn order to improve container integration in the Embedded Linux world, we will explore in this presentation some upcoming systemd and Linux kernel features, notably a new Security Permission model for systemd, a new lightweight container environment that allows to deploy and sandbox portable applications, some new kernel hardening features that can be used by both containers and the kernel itself to protect the entire system. Additionally we will discuss how to apply constant updates, how we can integrate this with systemd, and how to update the entire system. Some of this or all of it is already or will be available by default in Yocto project. To conclude we will demonstrate some results on how to block real life vulnerabilities in such Embedded Linux systems.\n\n\n\nDjalal Harouni"
