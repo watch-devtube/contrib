@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - java
+    - 'data structures'
+title: 'How much memory do your objects really use? by Martin Devillers, Dashlane EN'
+language: English
+recordingDate: 1592403335
+description: "This session was given at Paris Android Makers 2020 by Martin Devillers, Dashlane.\n\nMore info: https://android-makers-2020.firebaseapp.com/schedule/?sessionId=169303\n\nWith the latest generation of shiny new Android phones having sometimes up to 12Gb of RAM, it might seem like memory usage concerns are thing of the past. Not so fast. Backwards compatibility is still a thing, and memory can definitely still be a deciding factor when making design decisions for your software. \r\n\r\nIf your goal is to store large bitmaps (or other array-based data) in memory, the estimations are easy enough. However, if you're storing complex structures of objects, the actual memory size of the data can be difficult to evaluate. In this talk, I'll go over the memory structure of the JVM and how much memory an instance of a given class uses. I'll then present a way to examine objects at runtime, to assess exactly how much memory they & the objects they reference are using up. Using this method, I'll look at some data structures that were designed to optimize memory usage, and give an estimate of their real impact over more conventional data structures."
