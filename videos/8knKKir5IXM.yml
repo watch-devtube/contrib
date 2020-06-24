@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''20 - A High-Speed Load-Balancer Design with Guaranteed Per-Connection-Consistency'
+language: English
+recordingDate: 1591378621
+description: "A High-Speed Load-Balancer Design with Guaranteed Per-Connection-Consistency\n\nTom Barbette, Chen Tang, Haoran Yao, Dejan Kostić, Gerald Q. Maguire Jr., Panagiotis Papadimitratos, and Marco Chiesa, KTH Royal Institute of Technology\n\nLarge service providers use load balancers to dispatch millions of incoming connections per second towards thousands of servers. There are two basic yet critical requirements for a load balancer: uniform load distribution of the incoming connections across the servers and per-connection-consistency (PCC), i.e., the ability to map packets belonging to the same connection to the same server even in the presence of changes in the number of active servers and load balancers. Yet, meeting both these requirements at the same time has been an elusive goal. Today's load balancers minimize PCC violations at the price of non-uniform load distribution.\n\nThis paper presents Cheetah, a load balancer that supports uniform load distribution and PCC while being scalable, memory efficient, resilient to clogging attacks, and fast at processing packets. The Cheetah LB design guarantees PCC for any realizable server selection load balancing mechanism and can be deployed in both a stateless and stateful manner, depending on the operational needs. We implemented Cheetah on both a software and a Tofino-based hardware switch. Our evaluation shows that a stateless version of Cheetah guarantees PCC, has negligible packet processing overheads, and can support load balancing mechanisms that reduce the flow completion time by a factor of 2–3×.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"
