@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'NSDI ''20 - FileMR: Rethinking RDMA Networking for Scalable Persistent Memory'
+language: English
+recordingDate: 1585170696
+description: "FileMR: Rethinking RDMA Networking for Scalable Persistent Memory\n\nJian Yang, UC San Diego; Joseph Izraelevitz, University of Colorado, Boulder; Steven Swanson, UC San Diego\n\nThe emergence of dense, byte-addressable nonvolatile main memories (NVMMs) allows application developers to combine storage and memory into a single layer. With NVMMs, servers can equip terabytes of memory that survive power outages, and all of this persistent capacity can be managed through a specialized NVMM file system. NVMMs appear to mesh perfectly with another popular technology, remote direct memory access (RDMA). RDMA gives a client direct access to memory on a remote machine and mediates this access through a memory region abstraction that handles the necessary translations and permissions.\n\nNVMM and RDMA seem eminently compatible: by combining them, we should be able to build network-attached, byte-addressable, persistent storage. Unfortunately, however, the systems were not designed to work together. AnNVMM-aware file system manages persistent memory as files, whereas RDMA uses memory regions to organize remotely accessible memory. As a result, in practice, building RDMA-accessible NVMMs requires expensive translation layers resulting from this duplication of effort that spans permissions, naming, and address translation.\n\nThis work introduces two changes to the existing RDMA protocol: the file memory region (FileMR) and range based address translation. These optimizations create an abstraction that combines memory regions and files: a client can directly access a file backed by NVMM file system through RDMA, addressing its contents via file offsets. By eliminating redundant translations, it minimizes the amount of translations done at the NIC, reducing the load on the NIC's translation cache and increasing the hit rate by 3.8X -340X and resulting in application performance improvement by 1.8X - 2.0X.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

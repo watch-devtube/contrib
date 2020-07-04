@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'SREcon17 Americas - How Robust Monitoring Powers High Availability for LinkedIn Feed'
+language: English
+recordingDate: 1589493073
+description: "How Robust Monitoring Powers High Availability for LinkedIn Feed\n\nRushin Barot, LinkedIn\n\nIt is common practice for networking services like LinkedIn to introduce a new feature to a small subset of users before deploying to all its members. Even with rigorous testing and tight processes, bugs are inevitably introduced with a new deploy. Unit and integration tests in development environment cannot completely cover all use cases. This results in an inferior experience for the users subject to this treatment. In addition, these bugs cause service outages, impacting service availability, health metrics and increased on-call burden. \n\nAlthough there exist frameworks for testing new features in development clusters, it is not possible to completely simulate all aspects of a production environment. Read requests for Feed service have enough variation to trigger large classes of unforeseen errors. So, we introduced a production instance of the service, called ‘Dark Canary’, that receives live production traffic that is tee’d from a production source node, but does not return any responses upstream. New experimental code is deployed to the dark canary and compared to the current version in production node for health failures. This helps us in reducing the number of bad sessions to the users and also provides a better understanding of the service capacity requirements.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

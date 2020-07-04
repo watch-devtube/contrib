@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+title: 'Webinar: New Thoughts on Distributed File System in the Cloud Native Era'
+language: English
+recordingDate: 1586459037
+description: "Distributed file system is an area which has been studied for about 20 years since the well-known Google File System. Although there are various of different distributed file systems in the open source market, most of them share the same fundamental ideas. As we step into the cloud native era, and Kubernetes becomes the de facto standard for container orchestration, how to support large amounts of apps in Kubernetes cluster with diverse read/write patterns is a challenge to distributed storage.\n\nAs for distributed file system itself, the recent development focuses mainly on how to leverage the cutting-edge low latency storage hardware. However, hard disks and SSD are still the mainstream for massive storage in many companies. Can we still improve the performance on traditional storage media?\n\nIn this presentation, we would like to share some new thoughts in the design of a distributed file system to better support cloud native applications and common storage media. Additionally, they are implemented in the real product environment in JD.com. The topic covers:\n\n1. How to realize multi-tenancy.\n2. How to scale out for both data and meta data.\n3. How to improve the concurrency of file system meta data operations.\n4. How to improve the performance for small files.\n5. How to trade-off between POSIX compliance and performance.\n\nPresenter:\n\nShuoran Liu, Architect @JD.COM"

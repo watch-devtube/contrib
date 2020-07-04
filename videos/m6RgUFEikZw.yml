@@ -1,10 +1,16 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - cloud
     - containers
     - docker
 title: '2017 Network troubleshooting in heterogeneous cloud environment with Skydive'
+language: English
 recordingDate: 1508619405
 description: "https://media.ccc.de/c/asg2017/ASG2017-113-network_troubleshooting_in_heterogeneous_cloud_environment_with_skydive\n\n\n\nWith the growing number of network cloud services it becomes essential to be able to monitor, troubleshoot and analyze different virtualization or container technologies. Being able to monitor complex heterogeneous federated cloud environments is key.\n\nSkydive is a real-time and post-mortem topology and packet analyzer. To do so, it listens for networking kernel events, monitors network namespaces, watches external components such as OVSDB and Docker. Skydive can make use of AF_PACKET or eBPF programs to capture traffic. Thanks to its classifier Skydive is able to map the network traffic with the topology.\n\n\n\nSylvain Afchain"

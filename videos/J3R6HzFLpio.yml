@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - architecture
+title: 'SREcon19 Europe/Middle East/Africa - Tracing Real-Time Distributed Systems'
+language: English
+recordingDate: 1572552133
+description: "Tracing Real-Time Distributed Systems\n\nEvgeny Yakimov, Bloomberg LP\n\nThe concept of distributed tracing has often been explored in the context of web-based microservices in predominantly request/response style systems. But, what if you're dealing with a real-time data streaming system? How do you even start to model strongly asynchronous message flows, consisting of multi-service pipelines originating from many sources and distributed to even more consumers? These are the general characteristics of trading systems, which make tracing incredibly challenging.\n\nThis talk will explore our approach to applying these concepts to latency-sensitive real-time data streaming in large scale distributed systems. We will discuss the challenges of tracking long-running sessions, handling fan-in/fan-out data flows, and reducing storage costs while still capturing granular in-process tracing data. We will demonstrate how we utilise tracing to diagnose issues and measure service level indicators, as well as share our thoughts on how to further improve observability by applying these concepts on the client-side.\n\n\nView the full SREcon19 Europe/Middle East/Africa Program at https://www.usenix.org/conference/srecon19emea/program \n\nSign up to find out more about SREcon at https://srecon.usenix.org"

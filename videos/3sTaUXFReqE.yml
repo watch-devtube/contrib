@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - containers
+    - kubernetes
+    - architecture
+title: 'Webinar: Resilient and Fast Persistent Container Storage Leveraging Linux’s Storage Functionalities'
+language: English
+recordingDate: 1590615421
+description: "LINSTOR is a software-defined storage system built on top of the software based storage building blocks in the Linux kernel (LVM, ZFS, dm-crypt, dm-cache, DRBD, etc.). With that foundation, it is the leader in its class when it comes to IO performance. It is perfectly suited to be used with NVMe drives. If PMEM (NVDIMMs) is available, it places its replication meta-data on the faster storage tier to further reduce write-latency. If enough PMEM is available, it can also be used as a cache.\n\nLINSTOR is integrated with and packaged for Kubernetes. It comes with a CSI-Driver, Operator, Helm-charts, and installation by YAML-files. It is compatible with STORK, the storage orchestration runtime for Kubernetes.\n\nWe will begin our presentation with a quick overview of the architecture and capabilities of LINSTOR. The remainder of our presentation will be a live demo of the installation of LINSTOR by using the Operator, placing a few Persistent Volumes, running PODs, and demonstrating how to automatically co-locate workloads (PODs) with physical replicas of Persistent Volumes using STORK to achieve the best possible IO performance.\n\nPresenters:\nPhilipp Reisner, CEO\_@LINBIT  \nChristoph Boehm Walder @LINBIT \nJoel Colledge @LINBIT"

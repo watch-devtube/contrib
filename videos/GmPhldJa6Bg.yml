@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - ux
+title: 'NSDI ''17 - Improving User Perceived Page Load Times Using Gaze'
+language: English
+recordingDate: 1588974528
+description: "Improving User Perceived Page Load Times Using Gaze\n\nConor Kelton, Jihoon Ryoo, Aruna Balasubramanian, and Samir R. Das, Stony Brook University\n\nWe take a fresh look at Web page load performance from the point of view of user experience. Our user study shows that perceptual performance, defined as user-perceived page load time (uPLT) poorly correlates with traditional page load time (PLT) metrics. However, most page load optimizations are designed to improve the traditional PLT metrics, rendering their impact on user experience uncertain. Instead, we present WebGaze, a system that specifically optimizes for the uPLT metric. The key insight in WebGaze is that user attention and interest can be captured using a user’s eye gaze and can in-turn be used to improve uPLT. We collect eye gaze data from 50 users across 45 Web pages and find that there is commonality in user attention across users. Specifically, users are drawn to certain regions on the page, that we call regions of high collective fixation. WebGaze prioritizes loading objects that exhibit a high degree of collective fixation to improve user-perceived latencies. We compare WebGaze with three alternate strategies, one of which is the state-of-the-art system that also uses prioritization to improve user experience. Our evaluation based on a user study shows that WebGaze improves median uPLT for 73% of the Web pages compared to all three alternate strategies.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

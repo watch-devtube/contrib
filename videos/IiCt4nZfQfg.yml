@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - scala
+    - functional
+title: 'Quantifying and Explaining Immutability in Scala   by Philipp Haller'
+language: English
+recordingDate: 1498655041
+description: "This video was recorded at Scala Days Copenhagen 2017\nFollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAbstract: \nOne of the main advantages of Scala is that it is a powerful functional programming language. Functional programming typically emphasizes programming with first-class functions and immutable data. Immutable data types enable fault tolerance in systems like Apache Spark, and ensure safe message exchange in Akka, among many other applications. However, beyond the distinction between vals and vars, Scala's type system does not have a built-in notion of immutability for type definitions. As a result, it is not possible to require, say, the generic type of a method parameter to be immutable (e.g., using a marker trait or a context bound). Instead, immutability is \"by-convention\" in Scala, and statistics about the use of immutability in real-world Scala code are non-existant.\n\nThis talk reports on the results of an empirical study on the use of immutability in medium to large open-source Scala projects, including but not limited to Scala's standard library. The study investigates both shallow and deep immutability, two widely-used forms of immutability in Scala. Perhaps most interestingly, for type definitions determined to be mutable, explanations are provided for why neither the shallow nor the deep immutability property holds; in turn, these explanations are aggregated into statistics in order to determine the most common reasons for why type definitions are mutable rather than immutable. Last but not least, this talk presents a plug-in for the Scala compiler, scala-immutability-plugin, which you can use to gather statistics on immutability in your own Scala projects."

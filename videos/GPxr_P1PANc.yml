@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - testing
+title: 'Testing and Infrastructure'
+recordingDate: 1586856919
+description: 'Nowadays software don''t run in isolation, but interacts with other systems. Apps communicate with each other using different infrastructure components. When testing, developers often face the question of how they can write tests in such a way that they are independent of a certain setup. In most cases this part of the software is tested rather late, often during some final end-to-end tests. However, it is very helpful to follow the paradigm "If something goes wrong, then as fast as possible". Developers should know as early as possible, if there are problems with infrastructure. Furthermore, infrastructure is also developed and created with the help of code. This also deserves to be tested. My talk will show how to effectively write integration tests that verify code interacting with infrastructure without requiring the same infrastructure. We will then discuss how to assure the quality of code that generates infrastructure - both for classical provisioning tool and for containers.'

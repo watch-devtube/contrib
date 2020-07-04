@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - aws
+title: 'Building Stateful Streaming Pipelines - Ankit Jhalaria'
+recordingDate: 1588067540
+description: 'Walk attendees through our journey of building a streaming data platform at godaddy using apache beam and flink. Historically at Godaddy, all of our pipelines were batch and it would take 24-48 hours to make the data available to our down stream consumers. Having such a high latency makes the data not suitable for marketing uses-cases. With a goal of having a low latency pipeline to make data available to our marketing team in a real time fashion, we started writing our streaming data platform from scratch about 2 years ago using beam and have been successfully able to run it in aws using flink on EKS. Having made data available to our care teams [call center] and marketing teams in a low latency fashion has made our customers very happy. We would love to share our journey and learnings during this process of building an end to end stateful pipeline using beam and deploying on flink.'

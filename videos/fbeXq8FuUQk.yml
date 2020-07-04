@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''17 - SCL: Simplifying Distributed SDN Control Planes'
+language: English
+recordingDate: 1588974532
+description: "SCL: Simplifying Distributed SDN Control Planes\n\nAurojit Panda and Wenting Zheng, University of California, Berkeley; Xiaohe Hu, Tsinghua University; Arvind Krishnamurthy, University of Washington; Scott Shenker, University of California, Berkeley, and International Computer Science Institute\n\nWe consider the following question: what consistency model is appropriate for coordinating the actions of a replicated set of SDN controllers? We first argue that the conventional requirement of strong consistency, typically achieved through the use of Paxos or other consensus algorithms, is conceptually unnecessary to handle unplanned network updates. We present an alternate approach, based on the weaker notion of eventual correctness, and describe the design of a simple coordination layer (SCL) that can seamlessly turn a set of single-image SDN controllers (that obey certain properties) into a distributed SDN system that achieves this goal (whereas traditional consensus mechanisms do not). We then show through analysis and simulation that our approach provides faster responses to network events. While our primary focus is on handling unplanned network updates, our coordination layer also handles policy updates and other situations where consistency is warranted. Thus, contrary to the prevailing wisdom, we argue that distributed SDN control planes need only be slightly more complicated than single-image controllers.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - storage
+    - mongo
+    - cassandra
+title: 'Антон Молдован. Scaling CAP theorem for modern distributed systems. .NET Fest 2018'
+language: Russian
+recordingDate: 1565254280
+description: "The talk from .NET Fest conference in Kyiv, Ukraine.\nPresentation: https://bit.ly/2AAjK73\nFb: https://www.facebook.com/dotNETFest/\nWebsite: http://dotnetfest.com/\n\nВ данном докладе я попытаюсь раскрыть текущее положение вещей относительно CAP теоремы в разрезе консистентности данных, а также баз данных в целом. Вы получите понимание о том, почему SQL Server - это не всегда лучший выбор, и даже техники тюнинга запросов вам могут не помочь. Постараюсь ответить на вопросы о том, какие базы данных стоит выбирать при проектировании систем заточенных на: intensive read/write, elastic scalability, fault tolerance. Также мы пройдемся по паттернам моделирования консистентности данных в распределенных системах, вы увидите то, как с этим справляются такие базы как Cassandra, Aerospike, MongoDb. В конце доклада у вас появится лучшее понимание о возможных компромиссах при моделировании распределенных систем, микросервисов.\nAgenda:\n- Problems with using CAP for real distributed systems: what you should use instead when you design or picking a new technology\n- Consistency revolution: End of SQL Architectural Era (\"One size fits all\", ACID, scaling RDBMS)\n- Popular patterns for dealing with data distribution at massive scale: Auto Partitioning, Handling temporary failures, Conflict resolution (how to handle concurrent updates which happening on different nodes for the same entity without locks)"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'SREcon17 Americas - Deployment Automation: Releasing Quickly and Reliably'
+language: English
+recordingDate: 1589492999
+description: "Deployment Automation: Releasing Quickly and Reliably\n\nSebastian Yates, Uber SRE\n\nWe’ve always encouraged engineers to push code quickly to production. Developers at Uber have had full control over how they deploy (which instances, datacenters, etc. they deploy to) and a full production upgrade could complete in minutes. This helped our business achieve incredible growth but has impacted reliability. As a business we need to remain fast but take smarter risks and reduce the potential impact of changes.\n\nWe set out building automated deployment workflows that all services could use to make deploying code safer. As we on-boarded services, the biggest battle wasn’t the technical challenges but convincing teams that for our most critical services we needed to trade some deployment velocity for availability. Uber emphasizes moving fast, so slowing down deployments was controversial.\n\nCollecting TTD and TTM statistics for our most significant outages allowed us to make principled decisions about ideal deploy lengths and enabled principled discussions. We added features to the workflows to improve deployment experience; automated canary, deployment batch metrics, automated rollbacks, continuous deployment and load testing.\n\nChanging the way we deploy has improved reliability at Uber. It’s required a culture change, and we hope the lessons we learned about ourselves and our systems will benefit your work.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

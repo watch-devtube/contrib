@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+title: 'NSDI ''20 - Learning Relaxed Belady for Content Distribution Network Caching'
+language: English
+recordingDate: 1585170958
+description: "Learning Relaxed Belady for Content Distribution Network Caching\n\nZhenyu Song, Princeton University; Daniel S. Berger, Microsoft Research & Carnegie Mellon University; Kai Li and Wyatt Lloyd, Princeton University\n\nThis paper presents a new approach for caching in CDNs that uses machine learning to approximate the Belady MIN algorithm. To accomplish this complex task, we introduce the Relaxed Belady algorithm, the Belady boundary, and the good decision ratio that inform the design of Learning Relaxed Belady (LRB). LRB addresses the necessary system challenges to build an end-to-end machine learning caching prototype, including how to gather training data, limit memory overhead, and have lightweight training and inference paths.\n\nWe implement an LRB simulator and a prototype within Apache Traffic Server. Our simulation using 6 production CDN traces show LRB reduces WAN traffic compared to a typical production CDN cache design by 5–24%, and consistently outperform other state-of-the-art methods. Our evaluation of the LRB prototype shows its overhead is modest and it can be deployed on today’s CDN servers.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

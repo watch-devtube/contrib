@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - architecture
+    - scala
+    - java
+title: 'Taming Distribution: Formal Protocols for Akka Typed   by Roland Kuhn'
+language: English
+recordingDate: 1498806836
+description: "This video was recorded at Scala Days Copenhagen 2017\nFollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAbstract: \nCloud computing, reactive systems, microservices: distributed programming has become the norm. But while the shift to loosely coupled message-based systems has manifest benefits in terms of resilience and elasticity, our tools for ensuring correct behavior has not grown at the same pace. Statically typed languages like Java and Scala allow us to exclude large classes of programming errors before the first test is run. Unfortunately, these guarantees are limited to the local behavior within a single process, the compiler cannot tell us that we are sending the wrong JSON structure to a given web service. Therefore distribution comes at the cost of having to write large test suites, with timing-dependent non-determinism.\n\nIn this presentation we take a first peek at ways out of this dilemma. The principles are demonstrated on the simplest distributed system: Actors. We show how parameterized ActorRefs à la Akka Typed together with effect tracking similar to HLists can help us define what an Actor can and cannot do during its lifetime—and have the compiler yell at us when we do it wrong."

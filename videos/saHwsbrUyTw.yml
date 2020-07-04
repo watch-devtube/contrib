@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+title: 'FAST ''20 - Read as Needed: Building WiSER, a Flash-Optimized Search Engine'
+language: English
+recordingDate: 1585169367
+description: "Read as Needed: Building WiSER, a Flash-Optimized Search Engine\n\nJun He and Kan Wu, University of Wisconsin—Madison; Sudarsun Kannan, Rutgers University; Andrea Arpaci-Dusseau and Remzi Arpaci-Dusseau, University of Wisconsin—Madison\n\nWe describe WiSER, a clean-slate search engine designed to exploit high-performance SSDs with the philosophy \"read as needed\". WiSER utilizes many techniques to deliver high throughput and low latency with a relatively small amount of main memory; the techniques include an optimized data layout, a novel two-way cost-aware Bloom filter, adaptive prefetching, and space-time trade-offs. In a system with memory that is significantly smaller than the working set, these techniques increase storage space usage (up to 50%), but reduce read amplification by up to 3x, increase query throughput by up to 2.7x, and reduce latency by 16x when compared to the state-of-the-art Elasticsearch. We believe that the philosophy of \"read as needed\" can be applied to more applications as the read performance of storage devices keeps improving.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"

@@ -1,0 +1,21 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - ml
+    - mobile
+    - aws
+    - containers
+    - kubernetes
+    - architecture
+    - python
+    - embedded
+title: 'How Lyft built a streaming data platform with Flink on Kubernetes - Micah Wylde'
+recordingDate: 1588067679
+description: 'Access to real-time data is increasingly important for many organizations. This is particularly true for Lyft, which needs to respond immediately to changes of supply and demand in its marketplace, weather and traffic updates, fraud attempts, and dangerous driving situations. This requires processing millions of events per second produced by our microservices, mobile apps, and IoT devices. Lyft runs dozens of Apache Flink and Apache Beam pipelines. Flink provides a powerful framework that makes it easy for non-experts to write correct, high-scale streaming jobs, while Beam extends that power to Lyft’s large base of Python programmers. Lyft also built a real-time SQL engine called Dryft, primarily used by data scientists to power real-time machine learning models, and a near-real-time ad hoc querying system with Presto. Historically, Lyft ran its Flink clusters on bare, custom-managed EC2 instances. In order to achieve greater elasticity and reliability, we rebuilt it on top of Kubernetes. This talk will cover how we designed and built an open source Kubernetes operator for Flink and Beam, some of the unique challenges of running a complex, stateful application on Kubernetes, and the lessons learned along the way.'

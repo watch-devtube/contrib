@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - security
+    - architecture
+title: 'Vault ''20 - Speeding Up Linux Disk Encryption'
+language: English
+recordingDate: 1585169392
+description: "Speeding Up Linux Disk Encryption\n\nIgnat Korchagin\n\nEncrypting data at rest is a must-have for any modern SaaS company. And if you run your software stack on Linux, LUKS/dm-crypt is the usual go-to solution. However, as the storage becomes faster, the IO latency, introduced by dm-crypt becomes rather noticeable, especially on IO intensive workloads.\n\nAt first glance it may seem natural, because data encryption is considered an expensive operation. But most modern hardware (specifically x86 and arm64) platforms have hardware optimisations to make encryption fast and less CPU intensive. Nevertheless, even on such hardware transparent disk encryption performs quite poorly.\n\nWhen looking into dm-crypt source code, we noticed that it has a lot of indirection and offloading: instead of encrypting/decrypting IO requests synchronously dm-crypt offloads every operation to a dedicated thread. By making a simple PoC patch and removing all the offloading code we were able to speed up the overall read speed from an encrypted block device by 200%-300% depending on the block size.\n\nThis talk aims to revisit the architecture and design choices of the dm-crypt module and research ideas on how to make Linux transparent disk encryption faster.\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"

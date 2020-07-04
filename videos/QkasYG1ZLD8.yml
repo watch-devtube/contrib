@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - startup
+    - containers
+    - kubernetes
+title: 'Reliable, Real-Time AI with the Ververica Platform + a Kubernetes Operator in a Growing Startup'
+recordingDate: 1588067102
+description: "Speaker: Austin Cawley Edwards\n\nFinTech Studios uses the Ververica Platform to drive our Kubernetes-native Continuous Delivery pipeline for our Flink applications, which power real-time ingestion of millions of research, news, and regulatory sources, which are analyzed by FinTech Studios' cutting edge AI and NLP systems. On top of the Ververica Platform, we have built an open-source Kubernetes Operator [1][2] to tightly integrate with K8s tooling for monitoring and deployments. In this talk, we will describe our approach to Flink which has allowed us to run Flink in a startup environment. We will briefly talk about our first failure with Flink on other hosted solutions, leading us to Kubernetes and the Ververica Platform. We'll also briefly put our technology choices and implementations in a broader business context. Automation is at the heart of making an engineering team as productive as possible, and while the Ververica Platform alleviated the pain of managing Flink jobs, we needed a more Kubernetes-Native approach to complete the develop-merge-deploy-monitor lifecycle. GitLab was a natural fit for CD as, with their K8s integration, we can describe our Flink jobs as Helm charts and kick off deployments as soon as they are merged. We'll do a small demo of deploying a Flink Job as a Helm chart, monitoring the progress with both the Ververica Platform and `kubectl`, and then upgrading/canceling the job with the same tools. Our success with the Ververica Platform exemplifies the promise of Flink at startups and how happy + productive developers can be when given the power and tools to truly own their products. [1]: https://github.com/fintechstudios/ververica-platform-k8s-controller [2]: https://flink-packages.org/packages/ververica-platform-k8s-operator"

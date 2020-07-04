@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+title: 'Ne vous perdez plus avec le framework de localisation Android by Antoine Gerard, Syntony FR'
+language: English
+recordingDate: 1592403345
+description: "This session was given at Paris Android Makers 2020 by Antoine Gerard, Syntony.\n\nMore info: https://android-makers-2020.firebaseapp.com/schedule/?sessionId=174151\n\nFrançais:\r\nAujourd’hui, on compte plus de 2,3 milliards d’appareils tournant sous Android dans le monde. Cela représente tout autant de récepteurs GPS - ou plutôt GNSS – et beaucoup d’applications nécessitent ou utilisent une position. Cela parait simple d’utiliser les Google Play Services pour récupérer une lastLocation ou directement la couche android.location avec un joli onLocationChanged ; et c’est parfois bien suffisant dans bien des cas, mais pas toujours...\r\n\r\nAlors, comment cette position est-elle construite ? Par quelles entrées ? De plus, qu’est-ce qu’une position exactement ? Et c’est quoi la FusedLocation ? On peut très vite se perdre lorsque l’on cherche à se positionner correctement et avec précision. \r\n\r\nLe framework de localisation Android est complexe et relativement lourd… Il reste cela dit très performant et cache pas mal de secrets ! Par exemple, saviez-vous que vous pouvez lire directement le contenu d’un message envoyé par les satellites ? Ou encore qu’on peut utiliser d’autres sources de données pour calculer une position, notamment grâce à la fusion ?\r\nDurant cette présentation, nous allons décortiquer la couche android.location et comprendre comment une position est calculée, comment bien utiliser les différentes callbacks ou méthodes qui doivent nous retourner cette position. Mais aussi les différentes capacités cachées du framework, et pourquoi pas une introduction au monde merveilleux du GNSS… \r\n\r\nEnglish:\r\nToday, we count more than 2.3 billion Android devices in the world. This is as much GPS receivers; or GNSS receivers, and a\r\nlot of application require or use a location. Using Google Play Services looks easy for gathering a lastLocation, or directly through the android.location layer with a nice onLocationChanged; this is often enough. But how this location is computed? Using which inputs? What is truly a location? And what is this FusedLocation everybody talks about ? We can be quickly lost when we search for a precise position.\r\nThe Android’s framework is complexe, quite heavy, yet, it performs well et hides some secrets. For instance, did you know that you can read the whole content of a satellite message? But also, we can use several sources for positioning using fusion! \r\nDuring this talk, we will be dissecting the android.location layer and understand how a position is calculated. How to use correctly the multiple callbacks or methods available which returns a location. But also, the different hidden ability of the framework, and why an introduction to the wonderful world of GNSS…"

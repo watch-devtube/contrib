@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - mobile
+    - android
+    - security
+    - testing
+title: 'USENIX Security ''19 - TESSERACT: Eliminating Experimental Bias in Malware Classification'
+language: English
+recordingDate: 1569543184
+description: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time\n\nFabio Pierazzi, King's College London & Royal Holloway, University of London\n\nIs Android malware classification a solved problem? Published F1 scores of up to 0.99 appear to leave very little room for improvement. In this paper, we argue that results are commonly inflated due to two pervasive sources of experimental bias: \"spatial bias\" caused by distributions of training and testing data that are not representative of a real-world deployment; and \"temporal bias\" caused by incorrect time splits of training and testing sets, leading to impossible configurations. We propose a set of space and time constraints for experiment design that eliminate both sources of bias. We introduce a new metric that summarizes the expected robustness of a classifier in a real-world setting, and we present an algorithm to tune its performance. Finally, we demonstrate how this allows us to evaluate mitigation strategies for time decay such as active learning. We have implemented our solutions in TESSERACT, an open source evaluation framework that allows for the comparison of malware classifiers in a realistic setting. We used TESSERACT to evaluate three Android malware classifiers from the literature on a dataset of 129K applications spanning over three years. Our evaluation confirms that earlier results were biased, but also reveals counterintuitive performance and shows that appropriate tuning can lead to significant improvements.\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"

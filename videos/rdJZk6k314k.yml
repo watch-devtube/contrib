@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Envoy’s Using 10GB of Memory and It’s All My Fault! - Steve Sloka, VMware'
+language: English
+recordingDate: 1574814366
+description: "Join us for Kubernetes Forums Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nEnvoy’s Using 10GB of Memory and It’s All My Fault! - Steve Sloka, VMware \n\nImplementing your own management xDS API server to configure and drive Envoy is a natural step when implementing any Envoy-based infrastructure. Examples exist in various languages that demonstrate how to set up an xDS API server for LDS, EDS, RDS, and CDS. However, most implementers probably wouldn’t realize that it's possible to write an xDS server that appears to work--Envoy serves traffic--but causes Envoy to leak gigabytes of memory.\n\nThis talk will discuss how we built an xDS server which ended up with a memory leak in Envoy all because we implemented the API incorrectly. We’ll look at ways we identified the issues through metrics & monitoring, how our users were affected, and also provide an overview of how we caused the issue, then describe some takeaways that should be kept in mind for your implementation. Come learn from our failures so you don’t experience the same!"

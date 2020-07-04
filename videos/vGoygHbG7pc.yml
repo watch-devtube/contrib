@@ -1,8 +1,14 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - containers
 title: 'Container Run-times and Fun-times'
+language: English
 recordingDate: 1538154414
 description: "https://media.ccc.de/v/ASG2018-179-container_run-times_and_fun-times\n\nUsing systemd inside a container @FB\n\nA dive into the world of running systemd as an *in container* process manager at Facebook.\n\nAt @FB we heavily utilize systemd on our servers.  But, there's more!  We also heavily utilize systemd inside our containers as well!  Combined with our btrfs based image deployment mechanism we leverage all the good parts of systemd within our containers.   I'll show how we utilize all the various components of systemd within a container, including how we use Portable Services! I'll talk about the philosophy of this design, our approach to building container images with systemd in mind, and our our approach to Runtime Composition of services.  Come listen and enjoy a deep dive into how we use btrfs, systemd, and portable services, and what benefit it provides for us across our large container infrastructure.\n\nLindsay Salisbury\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/179"

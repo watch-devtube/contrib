@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - ml
+    - ux
+    - architecture
+    - python
+title: 'It’s finally here: Python on Flink & Flink on Zeppelin - Jincheng Sun & Jeff Zhang'
+recordingDate: 1588067146
+description: "Flink has made tremendous progress in its core engine to unify batch processing and streaming processing, however, it is still not easy for users to get started with it, especially for the data analysts and data scientists who are familiar with Python and SQL. For many years, users asked for first-class Python support in Apache Flink in order to be able to leverage Flink’s unique features with the language of their choice. The 1.9 release of Apache Flink added the Python Table API (also called PyFlink). Support for native Python UDF (based on Apache Beam’s portability framework) was added in 1.10. However, we won’t stop there. On the roadmap for the next release is an ML pipeline API, which will enable users to implement sophisticated machine learning applications completely in PyFlink. Besides that, we also integrate Flink with Zeppelin notebook. We redesign the outdated Flink interpreter of Zeppelin to make it fit for the following 3 main scenarios of Flink:\n\n- Batch ETL & Exploratory Data Analysis via Flink Batch SQL + UDF + Zeppelin's builtin visualization capability\n- Streaming ETL & Streaming Data Analytics Flink Streaming SQL + UDF + Zeppelin's builtin visualization capability\n- Machine Learning via PyFlink + Alink\n\nIn Zeppelin there’s no hassle of setting up a complex environment for Flink and package Flink uber jar every time, all of these complexities are done by Zeppelin intelligently for you. In this talk, we will introduce PyFlink's past, present, and future, and discuss PyFlink's technical architecture and core operators in depth. And also demonstrate what kind of revolutionary Flink user experience in Zeppelin."

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'NSDI ''20 - Automated Verification of Customizable Middlebox Properties with Gravel'
+language: English
+recordingDate: 1585170695
+description: "Automated Verification of Customizable Middlebox Properties with Gravel\n\nKaiyuan Zhang, University of Washington; Danyang Zhuo, Duke University; Aditya Akella, University of Wisconsin–Madison; Arvind Krishnamurthy and Xi Wang, University of Washington\n\nBuilding a formally-verified software middlebox is attractive for network reliability. In this paper, we explore the feasibility of verifying \"almost unmodified\" software middleboxes. Our key observation is that software middleboxes are already designed and implemented in a modular way (e.g., Click). Further, to achieve high performance, the number of operations each element or module performs is finite and small. These two characteristics place them within reach of automated verification through symbolic execution.\n\nWe perform a systematic study to test how many existing Click elements can be automatically verified using symbolic execution. We show that 45% of the elements can be automatically verified and an additional 33% of Click elements can be automatically verified with slight code modifications. To allow automated verification, we build Gravel, a software middlebox verification framework. Gravel allows developers to specify high-level middlebox properties and checks correctness in the implementation without requiring manual proofs. We then use Gravel to specify and verify middlebox-specific properties for several Click-based middleboxes. Our evaluation shows that Gravel avoids bugs that are found in today's middleboxes with minimal code changes and that the code modifications needed for proof automation do not affect middlebox performance.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

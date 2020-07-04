@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - containers
+    - functional
+title: 'USENIX ATC ''19 - From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of...'
+language: English
+recordingDate: 1566254483
+description: "From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers\n\nSadjad Fouladi, Francisco Romero, Dan Iter, and Qian Li, Stanford University; Shuvo Chatterjee, unaffiliated; Christos Kozyrakis, Matei Zaharia, and Keith Winstein, Stanford University\n\nWe present gg, a framework and a set of command-line tools that helps people execute everyday applications—e.g., software compilation, unit tests, video encoding, or object recognition—using thousands of parallel threads on a cloud-functions service to achieve near-interactive completion time. In the future, instead of running these tasks on a laptop, or keeping a warm cluster running in the cloud, users might push a button that spawns 10,000 parallel cloud functions to execute a large job in a few seconds from start. gg is designed to make this practical and easy.\n\nWith gg, applications express a job as a composition of lightweight OS containers that are individually transient (lifetimes of 1–60 seconds) and functional (each container is hermetically sealed and deterministic). gg takes care of instantiating these containers on cloud functions, loading dependencies, minimizing data movement, moving data between containers, and dealing with failure and stragglers.\n\nWe ported several latency-sensitive applications to run on gg and evaluated its performance. In the best case, a distributed compiler built on gg outperformed a conventional tool (icecc) by 2–5×, without requiring a warm cluster running continuously. In the worst case, gg was within 20% of the hand-tuned performance of an existing tool for video encoding (ExCamera).\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - android
+    - kotlin
+    - java
+    - spring
+    - hibernate
+    - functional
+title: 'Introducing Neo4j SDN/RX - Michael Simons @ Spring I/O Bridge'
+language: English
+recordingDate: 1591006114
+description: "Spring I/O Bridge (online conference) - 15 May 2020\n\nWhat do you get when you bring two people together having a lot of experience as consultants and developers working with object mapping frameworks?\n\nBoth of them having enjoyed the simplicity and advanced features that an object mapper brings in regards of\n* Mapping\n* CRUD operations\n* Caching\nand both have also suffered from\n\n* Mapping\n* Caching\n* Bad queries\n\nThe Neo4j-Object-Graph-Mapper (Neo4j-OGM) was heavily influence by Hibernate-ORM (Object relational mapping) and that's not a bad thing. Hibernate-ORM addresses a lot of things that make a developers life hard. It originates from a time where databases have been seen as second-class-citizens in a Java applications.\n\nBoth me, Michael Simons, and also my colleague Gerrit Meier see the value of working directly with a database, regardless whether it's a graph or a relational database.\n\nAt Neo4j, we started a big cross team effort to provide reactive database access to Neo4j, the world's leading graph database, in 2019: We wanted to have an reactive stack, right from the query execution engine, to transport layer, the driver and then at least having one premier data abstraction layer.\n\nThe later gave us the opportunity to codify our experience and also our preferences in working with databases in the form of SDN/RX, a new Spring Data Module for Neo4j.\n\nWe wanted:\n* to attribute the fact that there's no silver bullet in terms of working with databases\n* to have composable modules for the Spring eco system, like direct access to Neo4j through the official driver but also integration with Spring's application level transactions\n* to have Spring Data powered mapping with all the benefits it brings: Support for immutable classes (Kotlin data classes, Java with a bit of boilerplate or JDK 14 records)\n* to cater for larger domains with tons of domain objects without having repositories for each of them\n* to have support for reactive infrastructure\nIn this short introduction I'll show you the building blocks about what the Spring Data Team at Neo4j created based on the experience of working with different database technologies from within Spring Boot.\n\nWe will cover starters, auto configuration and of course, all the aspects described above."

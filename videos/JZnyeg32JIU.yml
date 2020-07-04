@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Intelligent Workload Re-shuffling to Minimize Idle Resources Acro... - Yash Bhatnagar, Hemani Katyal'
+recordingDate: 1582770420
+description: "Don't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects - Learn more at https://kubecon.io\n\nIntelligent Workload Re-shuffling to Minimize Idle Resources Across Cluster - Yash Bhatnagar & Hemani Katyal, VMware \n\nA common problem in kubernetes is the fragmentation of available resources across nodes. Inadvertently, pods eventually end up getting scheduled across nodes in such a way that for any new pod, ALL the resources requested by it are collectively unavailable at any single node, making the pod un-schedulable. Even though your overall cluster might have much more capacity available across the nodes, a scale-up is still needed. It creates a \"pseudo\" resource crunch that could be simply avoided by carefully re-scheduling the pods across the nodes. In this session, we will present an efficient, smart but yet simple solution that, whenever possible: 1) Provides a feasible migration plan to any fit new pods stuck waiting for resources, within the existing infrastructure 2) Avoids such a fragmented scenario by periodically balancing the resources on the k8s nodes. \n\nhttps://sched.co/YVxl"

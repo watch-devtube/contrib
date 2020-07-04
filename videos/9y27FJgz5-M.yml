@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - aws
+title: 'Needle in the Haystack - Monitoring health of a huge Kafka fleet with Flink - Chatterjee & Nienhuis'
+recordingDate: 1588246534
+description: 'Amazon Managed Streaming for Apache Kafka (MSK) is a fully managed, highly available, and secure service for Apache Kafka. Apache Kafka can be difficult to run at scale due to the number of failure scenarios and operational tasks associated with managing the underlying hardware. Amazon MSK runs thousands of Apache Kafka clusters worldwide, which means these challenges are not a probability, they are a reality, and for the service to scale they need to be continually addressed with automation. Amazon MSK relies on Apache Flink to address these challenges at scale. Amazon MSK ingests Apache Kafka application logs and metrics into data streams and processes these logs in real-time using Apache Flink. The Apache Flink applications running within the Amazon Kinesis Data Analytics service detect failures and anomalies in real-time, then take appropriate action, including kicking off automated remediation workflows and alarms. In this talk, we will discuss why we chose Apache Flink and Kinesis Data Analytics for this use case, the logic we use within our applications, and the challenges we overcame to run Apache Flink at scale. We will cover how we use Apache Flink concepts like windowing and in-memory state to detect unhealthy clusters.'

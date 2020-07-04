@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'SREcon17 Americas - Reducing MTTR and False Escalations: Event Correlation at LinkedIn'
+language: English
+recordingDate: 1589492999
+description: "Reducing MTTR and False Escalations: Event Correlation at LinkedIn\n\nMichael Kehoe, LinkedIn\n\nLinkedIn’s production stack is made up of over 900 applications and over 2200 internal API’s. With any given application having many interconnected pieces, it is difficult to escalate to the right person in a timely manner.\n\nIn order to combat this, LinkedIn built an Event Correlation Engine that monitors service health and maps dependencies between services to correctly escalate to the SRE’s who own the unhealthy service. \n\nWe’ll discuss the approach we used in building a correlation engine and how it has been used at LinkedIn to reduce incident impact and provide better quality of life to LinkedIn’s oncall engineers.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

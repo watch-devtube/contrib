@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - azure
+title: 'USENIX ATC ''19 - Your Coflow has Many Flows: Sampling them for Fun and Speed'
+language: English
+recordingDate: 1566254694
+description: "Akshay Jajoo, Y. Charlie Hu, and Xiaojun Lin, Purdue University\n\nCoflow scheduling improves data-intensive application performance by improving their networking performance. State-of-the-art online coflow schedulers in essence approximate the classic Shortest-Job-First (SJF) scheduling by learning the coflow size online. In particular, they use multiple priority queues to simultaneously accomplish two goals: to sieve long coflows from short coflows, and to schedule short coflows with high priorities. Such a mechanism pays high overhead in learning the coflow size: moving a large coflow across the queues delays small and other large coflows, and moving similar-sized coflows across the queues results in inadvertent round-robin scheduling.\n\nWe propose Philae, a new online coflow scheduler that exploits the spatial dimension of coflows, i.e., a coflow has many flows, to drastically reduce the overhead of coflow size learning. Philae pre-schedules sampled flows of each coflow and uses their sizes to estimate the average flow size of the coflow. It then resorts to Shortest Coflow First, where the notion of shortest is determined using the learned coflow sizes and coflow contention. We show that the sampling-based learning is robust to flow size skew and has the added benefit of much improved scalability from reduced coordinator-local agent interactions. Our evaluation using an Azure testbed, a publicly available production cluster trace from Facebook shows that compared to the prior art Aalo, Philae reduces the coflow completion time (CCT) in average (P90) cases by 1.50x (8.00x) on a 150-node testbed and 2.72x (9.78x) on a 900-node testbed. Evaluation using additional traces further demonstrates Philae's robustness to flow size skew.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

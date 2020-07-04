@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - ios
+    - security
+title: 'USENIX Security ''16 - zxcvbn: Low-Budget Password Strength Estimation'
+language: English
+recordingDate: 1587768681
+description: "zxcvbn: Low-Budget Password Strength Estimation\n\nDaniel Lowe Wheeler, Dropbox Inc.\n\nFor over 30 years, password requirements and feedback have largely remained a product of LUDS: counts of lower- and uppercase letters, digits and symbols. LUDS remains ubiquitous despite being a conclusively burdensome and ineffective security practice.\n\nzxcvbn is an alternative password strength estimator that is small, fast, and crucially no harder than LUDS to adopt. Using leaked passwords, we compare its estimations to the best of four modern guessing attacks and show it to be accurate and conservative at low magnitudes, suitable for mitigating online attacks. We find 1.5 MB of compressed storage is sufficient to accurately estimate the best-known guessing attacks up to 105 guesses, or 104 and 103 guesses, respectively, given 245 kB and 29 kB. zxcvbn can be adopted with 4 lines of code and downloaded in seconds. It runs in milliseconds and works as-is on web, iOS and Android.\n\nView the full USENIX Security '16 Program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

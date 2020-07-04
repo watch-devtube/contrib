@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+title: 'Real time identity graph - Fakrudeen Ali Ahmed'
+recordingDate: 1588246640
+description: 'Identity services team at Adobe builds identity graph that links multiple identities for a user across multiple devices into a single unified identity. As an use case, this graph can be used to transfer a "build your own vehicle" session at car website from desktop to mobile, "personalization without a login". This graph building was a batch process and was being updated once a week. This talk describes the design for Real time identity graph on Flink which builds and updates this identity graph in near real time with 50000+ events/second, 2B+ devices and serving 400 Million users. It also covers how we arrived at Flink itself after evaluating multiple systems for our use case. See: https://medium.com/adobetech/evaluating-streaming-frameworks-for-large-scale-event-streaming-7209938373c8'

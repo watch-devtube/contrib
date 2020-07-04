@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'NSDI ''20 - Frequency Configuration for Low Power Wide Area Networks in a Heartbeat'
+language: English
+recordingDate: 1585170723
+description: "Frequency Configuration for Low Power Wide Area Networks in a Heartbeat\n\nAkshay Gadre, Carnegie Mellon University; Revathy Narayanan, Carnegie Mellon University and IIT Madras; Anh Luong, Anthony Rowe, Bob Iannucci, and Swarun Kumar, Carnegie Mellon University\n\nLow-power Wide-Area Networks (LP-WANs) are seen as a leading candidate to network the Internet-of-Things at city-scale. Yet, the battery life and performance of LP-WAN devices varies greatly based on their operating frequency. In multipath-rich urban environments, received signal power varies rapidly with a low-power transmitter's frequency, impacting its transmission time, data rate and battery life. However, the low bandwidth of LP-WANs means that there are hundreds of operating frequencies to choose from. Among them, we show how choosing a select few of these frequencies(3.55%) effectively triples the battery life when compared to the rest for LP-WAN devices.\n\nThis paper presents Chime, a system enabling LP-WAN base stations to identify an optimal frequency of operation after the client sends one packet at one frequency. Chime achieves this by analyzing the wireless channels of this packet across many base stations to disentangle multipath and ascertain an optimal frequency that maximizes client battery life and minimizes interference. We implement Chime on a campus-scale test-bed and achieve a median gain of 3.4 dB in SINR leading to a median increase in battery life of 230% (~1.4-5.7 years), data rate by 3.3X and reduction in interference of 2.8X over commodity LP-WANs.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

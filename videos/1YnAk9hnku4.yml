@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''20 - Diamond Miner: Comprehensive Discovery of the Internet''s Topology Diamonds'
+language: English
+recordingDate: 1585170942
+description: "Diamond Miner: Comprehensive Discovery of the Internet's Topology Diamonds\n\nKevin Vermeulen, Sorbonne Université; Justin P. Rohrer and Robert Beverly, Naval Postgraduate School; Olivier Fourmaux and Timur Friedman, Sorbonne Université\n\nDespite the well-known existence of load-balanced forwarding paths in the Internet, current active topology Internet-wide mapping efforts are multipath agnostic — largely because of the probing volume and time required for existing multipath discovery techniques. This paper introduces D-Miner, a system that marries previous work on high-speed probing with multipath discovery to make Internet-wide topology mapping, inclusive of load-balanced paths, feasible. We deploy D-Miner and collect multiple IPv4 interface-level topology snapshots, where we find 64% more edges, and significantly more complex topologies relative to existing systems. We further scrutinize topological changes between snapshots and attribute forwarding differences not to routing or policy changes, but to load balancer \"remapping\" events. We precisely categorize remapping events and find that they are a much more frequent contributor of path changes than previously recognized. By making D-Miner and our collected Internet-wide topologies publicly available, we hope to help facilitate better understanding of the Internet's true structure and resilience.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

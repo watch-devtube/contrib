@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - bigdata
+    - ml
+    - performance
+    - python
+    - scala
+    - java
+    - functional
+title: 'Scala and the JVM as a Big Data Platform   Lessons from Apache Spark   by Dean Wampler'
+recordingDate: 1469195225
+description: "This video was recorded at Scala Days Berlin 2016\nfollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAbstract:\nSpark is implemented in Scala and its user-facing Scala API is very similar to Scala's own Collections API. The power and concision of this API are bringing many developers to Scala. The core abstractions in Spark have created a flexible, extensible platform for applications like streaming, SQL queries, machine learning, and more.\n \nScala's uptake reflects the following advantages over Java:\nA pragmatic balance of object-oriented and functional programming.\nAn interpreter mode, which allows the same sort of exploratory programming that Data Scientists have enjoyed with Python and other languages. Scala-centric \"Notebooks\" are also now available.\nA rich Collections library that enables composition of operations for concise, powerful code.\nTuples are naturally expressed in Scala and very convenient for working with data.\nPattern Matching makes data \"deconstruction\" fast and intuitive.\nType inference provides safety, feedback to the developer, yet minimal, manual typing of actual type signatures.\nScala idioms lend themselves to the construction of small domain specific languages, which are useful for building libraries that are concise and intuitive for domain experts.\nThere are disadvantages, too, which we'll discuss.\n\nSpark, like almost all open-source, Big Data tools, leverages the JVM, which is an excellent, general-purpose platform for scalable computing. However, its management of objects is suboptimal for high-performance data crunching. The way objects are organized in memory and the subsequent impact that has on garbage collection can be improved for the special case of Big Data. Hence, the Spark project has recently started a project called \"Tungsten\" to build internal optimizations using the following techniques:\n* Custom data layouts that use memory very efficiently with cache-awareness.\n* Manual memory management, both on-heap and off-heap, to minimize garbage and GC pressure.\n* Code generation to create optimal implementations of certain, heavily-used expressions from user code.\nThis talk discusses the strengths and weaknesses of Scala and the JVM for Big Data, Spark in particular, and how we might improve both to make them better tools for our needs."

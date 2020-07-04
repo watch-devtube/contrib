@@ -1,8 +1,14 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - functional
 title: 'Resource Control @FB'
+language: English
 recordingDate: 1538151683
 description: "https://media.ccc.de/v/ASG2018-167-resource_control_fb\n\nFunctional resource control using cgroup2\n\nAfter years of development and experimentation, we finally have comprehensive OS-level work-conserving resource isolation working and are now in the process of deploying for various applications including workload protection and container stacking. This talk examines the project and the resulting resource control methods.\n\nFB has been actively experimenting with cgroup2 resource control for years. In the process, we developed several kernel and userland mechanisms, fixed numerous isolation issues, and discovered a number of surprising interactions.\n\nWe finally have comprehensive OS-level work-conserving resource isolation working and are now in the process of refining and deploying the developed comprehensive resource isolation mechanism for various applications such as workload protection and container stacking.\n\nLet's take a look at the mistakes, the lessons, the result, and discuss how best this can be integrated into the whole operating system.\n\nTejun Heo Johannes Weiner\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/167"

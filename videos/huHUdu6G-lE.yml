@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - architecture
+title: 'SREcon19 Asia/Pacific - High Availability Solution for Large Scale Database Systems'
+language: English
+recordingDate: 1563562530
+description: "Guowei Zeng, Baidu Inc\n\nAt Baidu, over 95% of the OLTP requests go to the MySQL database system, which processes over 100 billion queries each day, and supports important applications such as search engine, advertisements, finance, and so on. Its availability is therefore of paramount importance. As the master/slave architecture of MySQL, the database HA solution includes two key points: accurate failure detection and remediation maintaining data consistency. The accuracy of failure detection should be as high as possible because a false positive will activate the lossy slave promotion and a false negative could lead to disasters when the failure persists. The remediation procedure should fill the data gap to ensure data consistency.\n\nThis talk will introduce a complete solution for database HA. Specifically, we will share our successful experience at Baidu to fulfill different needs from applications, such as large scale clusters, or high consistency for financial systems.\n\nView the full SREcon19 Asia/Pacific program at https://www.usenix.org/conference/srecon19asia/program\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

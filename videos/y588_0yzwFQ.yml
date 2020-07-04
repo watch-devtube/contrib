@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - architecture
+    - java
+title: 'Don''t put all your eggs in one container by Dmitry Chuyko'
+recordingDate: 1581886422
+description: "Containers are so good to run microservices. Nowadays, even an inexpensive cloud instance can run a large number of them. But why your services don't start, work slow and die in silence? Proper diagnostic tools and newer Java clarify and vanquish that.\n\nMicroservice architecture and containerization have become the standards of modern application development. The challenges that developers face today are different from the problems that we used to solve earlier. Creators of the Java runtime respond to this with the appropriate functionality in the JDK. JVMs running in different containers compete for instance resources. Starting from Java 10, virtual machines know how to live in peace, this work has continued in Java 11 and onwards.\n\nOn the other hand, you now need to choose which base image to use. This includes the choice of operating system and Java runtime. OS images vary greatly in size and have their own characteristics, which must be taken into account. There are JVMs for every taste. And even within the OpenJDK framework, assemblies from different companies are available with different functionality and size. And you can create a custom runtime image.\n\nDmitry Chuyko\nBellSoft\n\nRecorded at Jfokus 2020 in Stockholm 4th of february\nhttp://www.jfokus.se"

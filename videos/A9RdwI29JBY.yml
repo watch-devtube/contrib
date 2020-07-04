@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - aws
+title: 'NSDI ''17 - Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds'
+language: English
+recordingDate: 1588974528
+description: "Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds\n\nKevin Hsieh, Aaron Harlap, Nandita Vijaykumar, Dimitris Konomis, Gregory R. Ganger, and Phillip B. Gibbons, Carnegie Mellon University; Onur Mutlu, ETH Zurich and Carnegie Mellon University\n\nMachine learning (ML) is widely used to derive useful information from large-scale data (such as user activities, pictures, and videos) generated at increasingly rapid rates, all over the world. Unfortunately, it is infeasible to move all this globally-generated data to a centralized data center before running an ML algorithm over it—moving large amounts of raw data over wide-area networks (WANs) can be extremely slow, and is also subject to the constraints of privacy and data sovereignty laws. This motivates the need for a geo-distributed ML system spanning multiple data centers. Unfortunately, communicating over WANs can significantly degrade ML system performance (by as much as 53.7x in our study) because the communication overwhelms the limited WAN bandwidth.\n\nOur goal in this work is to develop a geo-distributed ML system that (1) employs an intelligent communication mechanism over WANs to efficiently utilize the scarce WAN bandwidth, while retaining the accuracy and correctness guarantees of an ML algorithm; and (2) is generic and flexible enough to run a wide range of ML algorithms, without requiring any changes to the algorithms.\n\nTo this end, we introduce a new, general geo-distributed ML system, Gaia, that decouples the communication within a data center from the communication between data centers, enabling different communication and consistency models for each. We present a new ML synchronization model, Approximate Synchronous Parallel (ASP), whose key idea is to dynamically eliminate insignificant communication between data centers while still guaranteeing the correctness of ML algorithms. Our experiments on our prototypes of Gaia running across 11 Amazon EC2 global regions and on a cluster that emulates EC2 WAN bandwidth show that Gaia provides 1.8–53.5x speedup over two state-of-the-art distributed ML systems, and is within 0.94–1.40x of the speed of running the same ML algorithm on machines on a local area network (LAN).\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

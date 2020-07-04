@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - bigdata
+    - performance
+    - architecture
+title: 'Vault ''20 - Scaling HDFS with Consistent Reads from Standby Replicas'
+language: English
+recordingDate: 1585169397
+description: "Scaling HDFS with Consistent Reads from Standby Replicas\n\nKonstantin Shvachko, LinkedIn\n\nWe introduce a novel technique of serving read requests from Standby replicas of a metadata services in active-standby architecture. The technique is implemented in Hadoop Distributed File System (HDFS). It substantially improves performance of the metadata service and overall scalability of the entire system. We introduce a strong consistency model and show how HDFS addresses both read-your-own-writes and third-party-communication consistency challenges. The talk will outline HDFS architecture, its scalability and performance constraints, describe the architecture of consistent reads from standby, and provide performance results based on real-life exponentially growing Hadoop cluster at LinkedIn.\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"

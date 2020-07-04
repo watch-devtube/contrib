@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'Collaboration is Important for Admission Webhooks in Service Meshes - Alejandro Pedraza, Buoyant'
+recordingDate: 1576620904
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io\n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nCollaboration is Important for Admission Webhooks in Service Meshes - Alejandro Pedraza, Buoyant \n\nAdmission controllers provide a way to tap into Kubernetes’ object persistence workflow by modifying manifests. The Kubernetes API server provides a set of default admission controllers, but users can also provide their own through webhooks. This is a common pattern used in service meshes to inject a sidecar proxy. Ideally, in-tree admission controllers and webhooks should be able to cooperate, in the sense that mutations made by some controller should be able to be taken into account by other controllers regardless of the invocation sequence. Up until 1.15 this cooperation has had its problems. Now, through a clever reinvocation mechanism this has been addressed. Alejandro Pedraza, software engineer at Buoyant, will give an overview of admission webhooks reinvocation policy and what it looks like now to operate in the particular case of the sidecar proxy provided by Linkerd."

@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - javascript
+    - java
+    - spring
+title: 'Тимур Шемсединов. Разделяемая память в многопоточном Node.js. JS Fest 2019 Spring'
+language: Russian
+recordingDate: 1565680587
+description: "Upcoming JS Conference:\nJS Fest 2020 - 3-4th of April, Kiev, Ukraine\nDetails and tickets: http://bit.ly/364jtpv\n\nThe talk from JS Fest conference in Kyiv, Ukraine.\nPresentation: https://bit.ly/2VvcukX\nFb: https://www.facebook.com/JSFestua/\nWebsite: http://jsfest.com.ua/\n\nСовсем недавно worker_threads появился в Node.js, а вместе с SharedArrayBuffer и Atomics стало возможным создавать многопоточные приложения с разделяемой памятью, а значит в Node.js теперь возможно не только асинхронное, но и параллельное программирование с его абстракциями: критические секции, состояние гонки, дедлоки и лайвлоки, блокировки и синхронизация, семафоры и счетчики, мьютексы, мониторы и прочие проблемы и решения, накопленные в многопоточных языках. Я дам обзор с примерами кода, а так же кейсы применения worker_threads в Node.js и практическая польза от этого. Так же, краткий перечень еще не решенных проблем с воркерами, возможно, кого-то это заинтересует начать контрибьютить в Node.js."

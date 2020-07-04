@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Rethinking of fault tolerance in Flink: what lies ahead? -  Yuan Mei & Piotr Nowojski'
+recordingDate: 1588067065
+description: 'Flink is state of the art streaming processing framework providing exactly-once guarantees, even in case of failures, with low latency and high performance. In this talk, we want to share some of the thoughts and plans to further improve Flink''s fault tolerance framework, including: 1). unaligned checkpointing to help produce checkpoint fast under back pressure; 2). more frequent checkpointing to reduce the amount of data reprocessing when rolling back; 3). single node failure recovery to accelerate the process of failover by preventing restarting the whole graph, and 4). sub second failover to support stateful functions We believe you will have a clear understanding of Flink''s long term goals on fault tolerance after the talk. If you are interested in big incoming changes under the hood of Flink''s high availability story, this is the talk for you!'

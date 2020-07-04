@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - testing
+    - architecture
+title: 'USENIX ATC ''19 - Dayu: Fast and Low-interference Data Recovery in Very-large Storage Systems'
+language: English
+recordingDate: 1566254481
+description: "Zhufan Wang and Guangyan Zhang, Tsinghua University; Yang Wang, The Ohio State University; Qinglin Yang, Tsinghua University; Jiaji Zhu, Alibaba Cloud\n\nThis paper investigates I/O and failure traces from a realworld large-scale storage system: it finds that because of the scale of the system and because of the imbalanced and dynamic foreground traffic, no existing recovery protocol can compute a high-quality re-replicating strategy in a short time. To address this problem, this paper proposes Dayu, a timeslot based recovery architecture. For each timeslot, Dayu only schedules a subset of tasks which are expected to be finished in this timeslot: this approach reduces the computation overhead and naturally can cope with the dynamic foreground traffic. In each timeslot, Dayu incorporates a greedy algorithm with convex hull optimization to achieve both high speed and high quality. Our evaluation in a 1,000-node cluster and in a 3,500-node simulation both confirm that Dayu can outperform existing recovery protocols, achieving high speed and high quality.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'PodOverhead: Accounting for Greater Cluster Stability - Eric Ernst, Intel'
+language: English
+recordingDate: 1574455242
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nPodOverhead: Accounting for Greater Cluster Stability - Eric Ernst, Intel \n\nAccounting is very important in Kubernetes. Better accounting leads to improved node stability, density, and more accurate charging users based on their actual resource utilization. Unfortunately, there are gaps in resource accounting in Kubernetes today, mostly based on the fact that running a pod is not actually free.    In Kubernetes 1.16, the PodOverhead feature is introduced to fix these issues.     We’ll dive into the details of a pod’s journey from client CLI to running on a node, touching on kubectl, API server, admission controllers, etcd, scheduler, kubelet, containerd/cri-o, and runtimes like Kata Containers and gVisor. Through this we will highlight the current gaps and how the PodOverhead feature addresses them.    Attend to get a basic understanding of the Pod creation process, and learn what the new PodOverhead feature is and how it can be used to improve cluster stability. \n\nhttps://sched.co/Uac2"

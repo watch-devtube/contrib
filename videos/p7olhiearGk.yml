@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - ruby
+title: 'How to use Dependency Injection in Ruby'
+language: English
+recordingDate: 1578487660
+description: "► Check out https://gorails.com for Pro episodes and more!\n► SaaS business template for Ruby on Rails with built-in features like Payments, Teams, and much more: https://jumpstartrails.com\n► Ruby on Rails hosting with Hatchbox.io: https://hatchbox.io\n► Learn how to add Stripe Payments (with SCA support!) with Ruby on Rails: https://courses.gorails.com/payments-with-rails-master-class\n\nDependency Injection is an approach you can use to design your code in a way that makes it more flexible.\n\nIf you have a method that depends upon another class or module, you have a strict dependency on that class or module. This makes it impossible to replace that class or module with another one if you needed to for some reason. Plus, you have to explicitly stub out the methods on the class or module for testing.\n\nWith Dependency Injection, you can extract the dependency to become an argument to your method. This allows anyone to override the dependency with their own. They might want to do this to implement a different backend. \n\nFor example, you might have the default export format as CSV, but someone wants a one-off export to Excel, or yaml, or json. By using dependency injection, none of the original code needs to change. The caller simply passes in a new dependency to be used instead.\n\nThis also has huge benefits when it comes to testing. You can use a custom test class to fake a dependency or you can use Mocks which we will talk about more in the next episode."

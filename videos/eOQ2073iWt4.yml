@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - aws
+    - testing
+title: 'Large-scale near-real-time (NRT) data analytics platform empowered by Apache Flink - Xu, HD'
+recordingDate: 1588067458
+description: "Speakers: Ying Xu, Kailash HD\n\nIn this talk, we present Lyft's streaming data analytics platform, which powers near real-time processing of hundreds of billions of events per day. In our design, Flink serves as a bridge between online streaming and offline batch processing. Flink clusters are in charge of pulling events from pubsub systems, bulk-encoding and uploading them to persistent storage such as AWS s3. We will discuss how ingested data serves interactive queries via Presto engine, how Flink event-time is employed to drive partition sensing and downstream ETL. We will also share our strategies to curtail downtime and maintain data quality during migration, strategies to recover from unpredicted system outages, as well as lessons learned from scaling up the data pipeline."

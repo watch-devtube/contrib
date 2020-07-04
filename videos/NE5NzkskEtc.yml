@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - ux
+    - testing
+title: 'High-Quality Performant and Cost Efficient Schema-Aware Data Streams on Flink at Netflix Scale'
+recordingDate: 1588067760
+description: "Speakers: Jagannathrao Mudda & Ramayan Tiwari\n\nOver 4 million events per second with hundreds of event types and a petabyte of data per day received from a variety of client devices of 150+ million members lead to an enormous scale of user behavior data and application performance data. This data is being used to power machine learning, recommendations, personalization, and many other services to enhance user experience. The data quality of billions of events and performance/cost efficiency in processing such large data set is very critical as it drives every decision that we make during the process of creating and showing the appropriate content to our users. We, at Netflix, developed multiple services and tools on Flink infrastructure that enable us to schematize the event data consisting of a growing set of event types and produce schema-compliant data streams. Schema definitions, updates, registrations, update-notifications, backward-compatibility and schema-compliance validations in real-time at Netflix scale have been a super challenging task. We have used various techniques and open source technologies to overcome these challenges. With this solution, we are able to deliver high-quality data streams, improve efficiency and achieve up to 40% cost savings. Come, join us to learn how we are able to schematize data streams, rollout schema upgrades, seamlessly migrate producer and consumers with schema enforcement, and handle non-conforming events to deliver high-quality Flink data streams that enable us to delight users."

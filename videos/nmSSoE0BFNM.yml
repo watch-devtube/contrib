@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''20 - XRD: Scalable Messaging System with Cryptographic Privacy'
+language: English
+recordingDate: 1585170968
+description: "XRD: Scalable Messaging System with Cryptographic Privacy\n\nAlbert Kwon, MIT; David Lu, MIT PRIMES; Srinivas Devadas, MIT\n\nEven as end-to-end encrypted communication becomes more popular, private messaging remains a challenging problem due to metadata leakages, such as who is communicating with whom. Most existing systems that hide communication metadata either (1) do not scale easily, (2) incur significant overheads, or (3) provide weaker guarantees than cryptographic privacy, such as differential privacy or heuristic privacy. This paper presents XRD (short for Crossroads), a metadata private messaging system that provides cryptographic privacy, while scaling easily to support more users by adding more servers. At a high level, XRD uses multiple mix networks in parallel with several techniques, including a novel technique we call aggregate hybrid shuffle. As a result, XRD can support 2 million users with 228 seconds of latency with 100 servers. This is 13.3× and 4.1× faster than Atom and Pung, respectively, which are prior scalable messaging systems with cryptographic privacy.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

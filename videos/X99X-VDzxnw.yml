@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'How to Include Latency in SLO-based Alerting - Björn Rabenstein, Grafana Labs'
+language: English
+recordingDate: 1574400639
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nHow to Include Latency in SLO-based Alerting - Björn Rabenstein, Grafana Labs \n\nChapter 5 of “The Site Reliability Workbook” is an excellent study of how to create meaningful alerts based on SLOs by measuring the rate at which the error budget is burned over different time windows. This rather complex approach is blissfully straight-forward to implement in Prometheus, as demonstrated in the chapter itself. However, all of it is based on error rates, leaving latency concerns out of scope. Björn “Beorn” Rabenstein will explore various options of applying the same ideas to latency-based SLOs. The foundation is a precise and meaningful definition of the SLO. From there, Beorn will explore various techniques to translate the SLO into an error budget and how to measure its burn rate with Prometheus. Once that is done, creating error-budget-based alerts is relatively simple. There are, however, pitfalls and trade-offs along the way, which Beorn will help cope with. \n\nhttps://sched.co/UaZQ"

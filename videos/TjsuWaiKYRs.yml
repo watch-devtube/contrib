@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - testing
+title: 'NSDI ''20 - Check before You Change: Preventing Correlated Failures in Service Updates'
+language: English
+recordingDate: 1585170940
+description: "Check before You Change: Preventing Correlated Failures in Service Updates\n\nEnnan Zhai, Alibaba Group; Ang Chen, Rice University; Ruzica Piskac, Yale University; Mahesh Balakrishnan, Facebook; Bingchuan Tian, Nanjing University; Bo Song and Haoliang Zhang, Google\n\nThe reliability of cloud services can be significantly undermined by correlated failures due to shared service dependencies, even when the services are already replicated across machines. State-of-the-art failure prevention systems can proactively audit a service before its deployment to detect risks for correlated failures, but their auditing speeds are too slow for frequent service updates. This paper presents CloudCanary, a system that can perform real-time audits on service updates to identify the root causes of correlated failure risks, and generate improvement plans with increased reliability.\n\nCloudCanary achieves this with two primitives, SnapAudit and DepBooster. SnapAudit leverages two insights to achieve high accuracy and efficiency: a) service updates typically affect only a small part of the service stack, allowing the majority of previous auditing results to be reused; and b) structural reliability auditing tasks can be reduced to a Boolean satisfiability problem, which can then be solved efficiently using modern SAT solvers. DepBooster, on the other hand, can generate improvement plans efficiently by reducing the required reasoning load, using novel techniques such as model counting. We demonstrate in our experiments that CloudCanary can perform audits over large deployments 200x faster than state-of-the-art systems, and that it consistently generates high-quality improvement plans within minutes. Moreover, CloudCanary can yield valuable insights over real-world traces collected from production environments.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

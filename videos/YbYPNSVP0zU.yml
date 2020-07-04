@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - devops
+    - containers
+    - docker
+    - java
+title: 'Docker & Java: What I wish I had been told by Aboullaite Mohammed at DevOps Unicorns'
+recordingDate: 1571146632
+description: "Containers are nowadays more than a cool new tool to play with. They simply revolutionized the way we develop, architect and ship our softwares and become part of our day to day operations. On the other hand, Java has been around for more than 2 decades now, dominating the enterprise world. Both advocate the “RUN anywhere” principal! But, is it that easy ? No! Your perfect working local container will, most probably, fail on production because of MEMORY &/or CPU issues, since jvm apps assume they OWN the server they are running on.\n\nIn this session, you’re going to look at the gotchas of running JVM apps in containers & how to avoid costly pitfalls. What updates Java 10 brought to the table to improve container awareness. What are the issues related to prior versions and how to address each one of them to avoid the mess. Aboullaite will also highlight some tricks to obtain smaller images & best practices while writing your DockerFiles, showcase some plugins to help none containers expert to integrate docker in their development process. He’ll also introduce the concept of “Distroless” Docker Images and how to benefit from it.\n\nYou can find demos: https://github.com/aboullaite/java-docker"

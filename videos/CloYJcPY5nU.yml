@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'Hardware-based KMS Plug-in to Protect Secrets in Kubernetes - Raghu Yeluri & Haidong Xia, Intel'
+language: English
+recordingDate: 1574455318
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nHardware-based KMS Plug-in to Protect Secrets in Kubernetes - Raghu Yeluri & Haidong Xia, Intel \n\nSecrets are a key pillar of K8S security, and K8S 1.10+ enhanced the protection of secrets at-rest in the etcd, with support for an external KMS (via KMS plug-ins), and supporting envelope encryption. However, the secret encryption keys (DEKs/KEK) are in the clear in memory of the K8S Master in the KMS plug-ins (during execution). An attacker with privilege access to k8S master node/host, can read the keys from memory, access secrets, compromising data & k8s cluster. This session proposes a solution (with a quick demo) to add a new KMS plug-in that leverages hardware based TEE (Trusted execution environment – like Intel SGX) to ensure that the keys, and the encryption of the secrets, are protected by the CPU on the master, addressing the threat vector mentioned. It enumerates multiple options for the integration with KMS, articulating the the trade-offs of the approaches. \n\nhttps://sched.co/UaZ2"

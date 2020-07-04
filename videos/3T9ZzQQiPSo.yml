@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon19 Asia/Pacific - Anomaly Detection on Golden Signals'
+language: English
+recordingDate: 1563562530
+description: "Yu Chen, Baidu\n\nAnomaly detection on golden signals, including latency, traffic, errors, and saturation, can detect system failures and provide important clues for failure diagnosis. In this talk, we will introduce our algorithm toolbox for anomaly detection on the golden signals.\n\nThe toolbox leverages historic data from the signals to build appropriate probability models. The alerts are hence generated based on the probability calculated from the observation and the probability model. The probability directly relates to the false positive rate of classification and is able to represent the SRE engineers' feeling. Furthermore, the probability values are comparable across different signals. So, it becomes a good feature for failure diagnosis. From our production system, the alerting precision ranges from 70% to 90%, and the recall is around 90%.\n\nView the full SREcon19 Asia/Pacific program at https://www.usenix.org/conference/srecon19asia/program\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

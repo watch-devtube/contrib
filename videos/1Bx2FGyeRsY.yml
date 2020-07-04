@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - azure
+    - aws
+    - devops
+    - testing
+title: 'SREcon17 Americas - DNSControl: A DSL for DNS as Code from StackOverflow.com'
+language: English
+recordingDate: 1589493015
+description: "DNSControl: A DSL for DNS as Code from StackOverflow.com\n\nCraig Peterson and Tom Limoncelli, Stack Overflow\n\nIntroducing dnscontrol: the DNS DSL and compiler that lets StackOverflow.com treat DNS as code, with all the DevOps-y benefits of CI/CD, unit testing, and more. StackOverflow.com has a large and complex DNS configuration including many domains, complex CDN interactions, unavoidably repeated data, and more. The dnscontrol language permits us to specify our domains at a high level and leave the actual manipulations and updates to our automation. Massive changes, such as failovers between datacenters, are now a matter of changing a variable and recompiling. We've been able to address new problems with smart macros rather than manual updates. Dnscontrol is extendable and has plug-ins for BIND, CloudFlare, Route53/AWS, Azure, Google Cloud DNS, Name.Com, and more.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

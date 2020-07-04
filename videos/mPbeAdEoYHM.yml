@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'SREcon17 Americas - A Million Containers Isn''t Cool'
+language: English
+recordingDate: 1589492999
+description: "A Million Containers Isn't Cool\n\nChris Sinjakli, SRE at GoCardless\n\nYou know what's cool? A hundred containers.\n\nA lot of us ship software multiple times a day—but what goes into that, and how do we make it happen reliably? \n\nIn this talk, we'll look at the deployment of a typical web app/API. We'll focus on build artifacts - the things we actually ship to production - and why it's helpful to make their build and deployment processes consistent. \n\nFrom there, we'll move on to containers—Docker in particular—with with a focus on container images and how they can get us to that goal. \n\nWe'll deliberately sidestep the world of distributed schedulers—Mesos, Kubernetes, and friends. They're great tools when you need to manage a growing fleet of computers, but running them doesn't come without an operational cost. \n\nBy following the example of a production system that's built this way—containerised apps without a distributed scheduler—we'll explore what it takes to move apps into containers, and how doing so might shape your infrastructure. \n\nTo wrap up, we'll look at some alternatives that could serve you well if Docker isn't the right fit for your organisation.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

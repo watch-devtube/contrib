@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - scala
+title: 'Reactors   Road to Composable Distributed Computing   by Aleksandar Prokopec'
+recordingDate: 1469195859
+description: "This video was recorded at Scala Days Berlin 2016\nfollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAbstract:\nThe actor model is one of the de-facto standards when it comes to building reliable distributed systems. There are many reasons why actors are so attractive. On one hand, actors ensure that message-processing is serialized within each actor, preserving the familiar sequential programming model. On the other hand, programs written in the actor model are location-transparent, which is one of the prerequisites for scaling systems. Importantly, the actor model is sufficiently low-level to express arbitrary message protocols. However, composing these message protocols is the key to high-level abstractions, and it is difficult to reuse or compose message protocols with actors. Lack of simple composition is an obstacle to building complex systems.\nThe reactor model is the new answer to the challenges of distributed computing. This model simplifies protocol composition with first-class typed channels and event streams. In this talk, I will present the Reactors.IO framework which is based on the reactor programming model. I will compare the reactor and the actor models on concrete Scala programs. I will show specific obstacles for composition in the classic actor model, and how to overcome them. I will then show how to build reusable, composable distributed computing components in the new model."

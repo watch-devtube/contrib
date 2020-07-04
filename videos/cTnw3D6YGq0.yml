@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - azure
+    - testing
+title: 'NSDI ''20 - Rex: Preventing Bugs and Misconfiguration in Large Services Using Correlated'
+language: English
+recordingDate: 1585170697
+description: "Rex: Preventing Bugs and Misconfiguration in Large Services Using Correlated Change Analysis\n\nSonu Mehta, Ranjita Bhagwan, and Rahul Kumar, Microsoft Research India; Chetan Bansal, Microsoft Research; Chandra Maddila and B. Ashok, Microsoft Research India; Sumit Asthana, University of Michigan; Christian Bird, Microsoft Research; Aditya Kumar\n\nLarge services experience extremely frequent changes to code and configuration. In many cases, these changes are correlated across files. For example, an engineer introduces a new feature following which they also change a configuration file to enable the feature only on a small number of experimental machines. This example captures only one of numerous types of correlations that emerge organically in large services. Unfortunately, in almost all such cases, no documentation or specification guides engineers on how to make correlated changes and they often miss making them. Such misses can be vastly disruptive to the service.\n\nWe have designed and deployed Rex, a tool that, using a combination of machine learning and program analysis, learns change-rules that capture such correlations. When an engineer changes only a subset of files in a change-rule, Rex suggests additional changes to the engineer based on the change-rule. Rex has been deployed for 14 months on 360 repositories within Microsoft that hold code and configuration for services such as Office 365 and Azure. Rex has so far positively affected 4926 changes without which, at the very least, code-quality would have degraded and, in some cases, the service would have been severely disrupted.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

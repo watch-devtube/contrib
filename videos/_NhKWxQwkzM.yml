@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - ruby
+title: 'Testing Times and Dates in Ruby on Rails'
+language: English
+recordingDate: 1574268945
+description: "► Check out https://gorails.com for Pro episodes and more!\n► SaaS business template for Ruby on Rails with built-in features like Payments, Teams, and much more: https://jumpstartrails.com\n► Ruby on Rails hosting with Hatchbox.io: https://hatchbox.io\n► Learn how to add Stripe Payments (with SCA support!) with Ruby on Rails: https://courses.gorails.com/payments-with-rails-master-class\n\nTesting times and dates can be particularly tricky. Time always keeps ticking forward and dealing with timezones and other things can be a huge pain.\n\nRails provides some tools for helping test times and dates. Timecop is a popular gem you might have heard of or used in the past, but Rails actually comes with some built-in helpers.\n\nThe easiest place to start is to use the \"freeze_time\" method. It simply stubs out the Time.now, DateTime.now, and Date.today methods with the current time. It will continue to return the exact same time until you call \"unfreeze_time\".\n\nThe \"travel\" and \"travel_to\" helpers can freeze time to a specific time in the past or future. They can also accept a block to have time frozen only within the block.\n\nAfter your tests, the stubs will be cleared out automatically so you don't have to worry about time changes affecting other tests.\n\nIf you're testing things like trials, calendar events, or other date and time calculations, these tools are invaluable for making sure your code works as expected."

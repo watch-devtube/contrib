@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - scala
+    - functional
+title: 'Polymorphic record types in a lifted enbedding - by Stefan Zeiger'
+recordingDate: 1466147525
+description: "This talk was recorded at Scala Days New York, 2016. Follow along on Twitter @scaladays and on the website for more information http://scaladays.org/.\n\nAbstract:\nThis talk gives an overview of the \"lifted embedding\" at the core of the Scala DSL in Slick, Lightbend's relational database library. With standard Scala language features we can provide a DSL that allows you to work with database tables using a syntax similar to Scala collections. Of particular interest are abstractions for record types, such as tuples. While earlier versions of Slick had to get by with custom types for all tuple sizes to represent flat tuples of individual columns, the \"Shape\" abstraction paved the way for using standard Scala tuples in the DSL, with arbitrary nesting. The same abstraction is used to support Slick's own HList implementation, and with only a few lines of code, your own custom record types or other HList implementations. The core language feature behind this design is called \"functional dependencies\". It was added to Scala in release 2.8 to be able to implement the \"CanBuildFrom\" abstraction in the new collections framework."

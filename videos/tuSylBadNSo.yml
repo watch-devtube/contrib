@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - storage
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+title: 'Stateful Functions: Polyglot Event-Driven Functions for Stateful Distributed Applications - Tai'
+recordingDate: 1588067655
+description: "Speaker: Tzu-Li (Gordon) Tai\n\nModern frameworks like Kubernetes and FaaS solutions, such as AWS Lambda and GCP Cloud Functions, have solved most of the challenges of dealing with stateless applications by providing management and operational benefits of serverless deployments. But for stateful applications, we are still struggling with the same issues of data consistency and complex failure semantics since a decade ago. This is rooted in the fact that we are still clinging to the ancient wisdom that state shall be someone else’s problem: just put it in a database! For complex stateful applications, we are still far away from the hassle-free experience of stateless applications.Stateful Functions 2.0, Apache Flink’s newest API and runtime, attempts to bridge that gap by supporting standalone deployments of functions on serverless solutions, external to the Flink cluster. In this setup, Flink takes the role of an “event-driven database” that handles dynamic and arbitrary messaging between functions and state consistency in a fault tolerant way, while the functions that build up the application logic exist as separate stateless (micro-)services invoked by Flink. These functions simply implement a well-defined request/reply invocation protocol using any language that can set up an HTTP server."

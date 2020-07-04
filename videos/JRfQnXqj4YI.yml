@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - testing
+    - javascript
+    - scala
+    - java
+title: 'Async Testing on the JVM and Scala.js by Bill Venners'
+recordingDate: 1469194508
+description: "This video was recorded at Scala Days Berlin 2016\nFollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAnstract:\nIn ScalaTest 3.0's new async testing styles, tests have a result type of Future[Assertion]. Instead of blocking until a future completes, then performing assertions on the result, you map assertions onto the future and return the resulting Future[Assertion] to ScalaTest. The test will complete asynchronously when the Future[Assertion] completes. This non-blocking way of testing requires a very different mindset and different API. In this talk Bill Venners will show you how async testing was integrated into ScalaTest, and explain what motivated the design decisions. He'll show you how to use the new features, and suggest best practices for async testing on both the JVM and Scala.js."

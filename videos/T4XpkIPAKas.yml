@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - architecture
+    - lisp
+    - embedded
+title: 'USENIX Security ''19 - VRASED: A Verified Hardware/Software Co-Design for Remote Attestation'
+language: English
+recordingDate: 1569543525
+description: "VRASED: A Verified Hardware/Software Co-Design for Remote Attestation\n\nIvan De Oliveira Nunes, University of California, Irvine\n\nRemote Attestation (RA) is a distinct security service that allows a trusted verifier ( Vrf) to measure the software state of an untrusted remote prover ( Prv). If correctly implemented, RA allows Vrf to remotely detect if Prv is in an illegal or compromised state. Although several RA approaches have been explored (including hardware-based, software-based, and hybrid) and many concrete methods have been proposed, comparatively little attention has been devoted to formal verification. In particular, thus far, no RA designs and no implementations have been formally verified with respect to claimed security properties.\n\nIn this work, we take the first step towards formal verification of RA by designing and verifying an architecture called VRASED: Verifiable Remote Attestation for Simple Embedded Devices. VRASED instantiates a hybrid (HW/SW) RA co-design aimed at low-end embedded systems, e.g., simple IoT devices. VRASED provides a level of security comparable to HW-based approaches, while relying on SW to minimize additional HW costs. Since security properties must be jointly guaranteed by HW and SW, verification is a challenging task, which has never been attempted before in the context of RA. We believe that VRASED is the first formally verified RA scheme. To the best of our knowledge, it is also the first formal verification of a HW/SW implementation of any security service. To demonstrate VRASED’s practicality and low overhead, we instantiate and evaluate it on a commodity platform (TI MSP430). VRASED was deployed using the Basys3 Artix-7 FPGA and its implementation is publicly available.\n\nView the full USENIX Security '19 program at https://www.usenix.org/conference/usenixsecurity19/technical-sessions"

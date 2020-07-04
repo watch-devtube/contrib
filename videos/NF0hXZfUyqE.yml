@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+    - architecture
+title: 'Keynote: Introducing Stateful Functions 2.0: Stream Processing meets Serverless Applications - Ewen'
+recordingDate: 1588067339
+description: "Speaker: Stephan Ewen\n\nWe are presenting the new version of Stateful Functions (2.0), the first version released as part of the Apache Flink project.\n\nStateful Functions was designed to apply the ideas of stream processing to event-driven applications. Version 2.0 brings big changes, most prominently a new architecture that allows you to pull the computation out of the Flink processes and run them efficiently as separate services. It means you can run your application's logic on FaaS platforms (like AWS lambda, AliCloud Function Compute, etc.) or as Kubernetes deployments. You can operate the application like a stateless service (rapid scaling, rolling upgrades) while maintaining the consistency guarantees from Apache Flink's stream processing APIs. And, as a nice extra, it is language-agnostic, so it opens the ecosystem up to many other programming languages. We believe it forms a great foundation for combining the strengths of stream processing and serverless technology, making way for a Stateful Serverless platform."

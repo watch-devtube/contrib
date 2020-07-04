@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - security
+title: 'Securing Container Image Root File System on the Kubernetes Wor... Harshal Patil & Pradipta Banerjee'
+recordingDate: 1582770395
+description: "Don't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects - Learn more at https://kubecon.io\n\nSecuring Container Image Root File System on the Kubernetes Worker Nodes\_ - Harshal Patil & Pradipta Banerjee, IBM \n\nThe upcoming Memory Protection & Encryption capabilities in the hardware conceal the workload running in the cloud system such that, even the root of the system won't be able to read the memory pages used by the workload. This is a continuation of our efforts to bring the advancements in Memory Protection and Encryption to the container workloads. In KubeCon Barcelona 2019 (https://sched.co/MPdQ) we spoke about protecting ephemeral volumes while in KubeCon China 2019 (https://sched.co/NrpO) we introduced encryption in container images. Taking this forward, in this presentation along with the demo, we will talk about the ideas around protecting container rootfs from malicious host administrators. Container images are extracted on the host by the containerd, but in order to take full advantage of the Memory Encryption, we need to change the way container images are pulled on the host. \n\nhttps://sched.co/YVxK"

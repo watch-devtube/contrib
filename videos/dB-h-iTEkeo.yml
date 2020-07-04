@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ux
+    - architecture
+    - java
+title: 'Things that pause and why they hurt by Charlie Gracie'
+recordingDate: 1581886469
+description: "How often is your application affected by pauses? What can cause these pauses in your application? What is the likelihood that a user will experience these pauses?\n\nWith the current move to microservices most applications are being divided up into 10s, 100s or 1000s of services. In this new world a single user action may require communicating with a significant number of these microservices amplifying the chance of being affected . You can longer quickly measure the likelihood that a user will be impacted by an application pause by looking at a single JVM.\n\nIn this talk I will discuss different types of application pauses, how these pauses impact a user's view of your application, how microservice chaining can increase the likelihood of a user encountering an unacceptable pause and provide numbers based on data we have collected to show how likely the user experience will be impacted. Hopefully, developers can use this information to modify their microservices to improve user experience.\n\nCharlie Gracie\nMicrosoft\n\nRecorded at Jfokus 2020 in Stockholm 5th of february\nhttp://www.jfokus.se"

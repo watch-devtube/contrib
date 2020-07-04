@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - kubernetes
+title: 'OCI, CRI, ??: Making Sense of the Container Runtime Landscape in Kubernetes - Phil Estes, IBM'
+recordingDate: 1576278642
+description: "Join us for Kubernetes Forums Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nOCI, CRI, ??: Making Sense of the Container Runtime Landscape in Kubernetes - Phil Estes, IBM \n\nYou've probably heard about the OCI—a standardization effort to share a common definition for container runtime, image, and image distribution. Add to that the CRI (container runtime interface) in Kubernetes—designed to abstract the container runtime from the kubelet—and you may start to wonder what all these standards and interfaces mean for you in a Kubernetes world.\n\nAs of this year, a long list of runtimes, including CNCF projects containerd and cri-o, all implement the CRI. But did you know there are quite a few others? The unique number of CRI combinations is growing, all of which use the common OCI definitions for runtime and image interoperability.\n\nBut how would you decide which container runtime is right for you? Clearly each one has tradeoffs. This talk will help describe the current landscape and give you details on the why and how of each CRI implementation available today."

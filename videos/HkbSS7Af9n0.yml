@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - elixir
+    - containers
+    - kubernetes
+    - architecture
+title: 'Control Plane for Large Mesh in a Heterogeneous Environment - Fuyuan Bie & Zhimeng Shi, Pinterest'
+recordingDate: 1576620904
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io\n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nControl Plane for Large Mesh in a Heterogeneous Environment - Fuyuan Bie & Zhimeng Shi, Pinterest \n\nService mesh is great. However, building service mesh in a heterogeneous environment of a large number of clusters is challenging. At Pinterest, we have a complicated mixture of thousands of clusters ranging from IaaS to dockerized services to kubernetes; They are developed with C++/Java/Python/Node/Go/Elixir.\n\nUsing open source go control plane as the interface to Envoy, we meshed Pinterest services with a control plane namely tower we developed. From edge to backends, 100% services are managed by Tower. We use actor model and event sourcing to make it performant, reliable, scalable and extensible.\n\nTechnology aside, migration is the determining yet very challenging factor of the success of a service mesh. We will share how we prioritize our adoption; how we design for our goal; how we migrate our existing investments to a fully meshed services network step by step."

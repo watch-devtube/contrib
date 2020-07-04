@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+speaker:
+    name: 'Guillaume Laforge'
+    twitter: glaforge
+title: '[DevFest du Bout du Monde 2020] Implémenter un Webhook, pas si simple !'
+language: French
+recordingDate: 1592831490
+description: "Les Webhooks, vous connaissez ? Vous en avez sans doute déjà utilisé, par exemple pour être notifié d’un commit sur Github, pour réagir à l’arrivée d’un SMS avec Twilio, ou pour que votre chatbot Dialogflow réponde à ses interlocuteurs.\n\nCôté consommateur de Webhook, cela semble plutôt facile à développer… Côté serveur, c’est “juste” une API à implémenter, non ? Hmm… En fait, nous allons voir que ce n’est peut-être pas si simple que cela !\n\nAprès une introduction au concept de Webhook, nous créerons notre callback pour être notifié d’un événement. Puis nous passerons de l’autre côté du miroir, en créant notre propre Webhook. Nous étudierons comment gérer la queue des abonnements des clients, traiter les erreurs, debugger son Webhook, faire des retry sans submerger le client s’il échoue, et sécuriser le Webhook.\n\nGuillaume Laforge"

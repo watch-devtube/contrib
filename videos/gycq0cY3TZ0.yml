@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - aws
+    - java
+title: 'Tuning Flink Filesystem Plugins for State Persistence - Scott Kidder'
+recordingDate: 1588067304
+description: 'Flink can persist checkpoint and savepoint state on numerous fault-tolerant filesystems, including HDFS, S3, and GCS. However, there are pitfalls when using these filesystems to store Flink state that can lead to slow checkpoint write performance, filesystem resource contention, and high JVM heap churn on the Flink Job and Task Managers. In this talk, I’ll share my experiences with Flink checkpoint filesystems, production problems I’ve faced, and tuning improvements made along the way.'

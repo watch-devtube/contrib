@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - containers
+    - docker
+    - architecture
+title: 'Elton Stoneman - Let me handle that for you... Why you need a reverse proxy in your architecture'
+language: English
+recordingDate: 1583923500
+description: 'Containers are the runtime for distributed apps - that''s old monoliths being broken down into multiple components, as well as new microservices projects. Your orchestrator can connect containers together without making any of them publicly accessible, so you can make your entire app private with just a single, secure entrypoint to your application. That''s a reverse proxy, a piece of software which receives all external network traffic and fetches the response from a private container, before sending it back to the client. You can offload a lot of concerns to your reverse proxy and keep your application code clean - the proxy handles SSL, compression, load-balancing, routing and healthchecks. In this session you''ll see the popular open-source reverse proxy Traefik in action. I''ll use Traefik as the front-end to distributed .NET applications running in a Docker cluster, and show you to add the features of a reverse proxy without any changes to application code.'

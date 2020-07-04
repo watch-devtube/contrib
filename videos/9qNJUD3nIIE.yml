@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - css
+    - web
+    - scala
+    - embedded
+title: 'Easy Static Checking for Embedded DSLs in Scala with Contextual   by Jon Pretty'
+language: English
+recordingDate: 1497441646
+description: "This video was recorded at Scala Days Copenhagen 2017\nFollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAbstract: \nInterpolated strings, like the familiar `s\"\"`, provide a convenient way to embed external DSLs in Scala source, allowing you to construct a new value at runtime from a string literal, with Scala expressions substituted within it.\n\nBut unless you are prepared to implement the interpolator using a macro, the compiler provides no checks on the correctness or well-formedness of the embedded DSL.\n\nContextual is a small open-source library which does the heavy lifting work to make it trivial to write interpolators which run at compile time, without requiring any macro code. A string interpolator which parses and checks a DSL at compile-time -- with its own custom error-messages -- can be written using contextual in just a few lines of ordinary \"userspace\" code, calling upon parsers, regular expressions or any other means to check the interpolated string.\n\nThis opens up a smorgasbord of possibilities for adding more compile-time safety to Scala code, not least the ability to introduce your own literal-like types, ranging from checked email addresses or URLs to compile-time-checked YAML, CSS or Haskell!"

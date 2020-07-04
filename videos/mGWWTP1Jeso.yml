@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - ux
+    - containers
+    - kubernetes
+title: 'Life of a Container - Indradhanush Gupta, Loodse'
+recordingDate: 1582770175
+description: "Don't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects - Learn more at https://kubecon.io\n\nLife of a Container - Indradhanush Gupta, Loodse \n\nWhat if I told you that there's no such thing as a container? Surprised? The first time I heard this I was taken aback as well. And when I started digging into the internals I found out that containers are nothing but a nicer UX for Linux namespaces and cgroups. If I wanted to run three instances of a web server serving traffic on port 80, do I need three separate machines? If you’re thinking yes, as no two processes can listen on the same port simultaneously, then the correct answer is no. Network namespaces make it possible to run them all under the same machine. And each of them can listen on the machine’s public network interface. In this talk you will find out what constitutes a container. The system calls invoked when a container is started, the resources used and their relation to the host OS and finally the teardown process when a container is deleted.  \n\nhttps://sched.co/YWJH"

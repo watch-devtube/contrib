@@ -1,0 +1,6 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+title: 'Kipras Mancevicius - Open heart surgery on Nginx - changing configuration without reloading'
+language: English
+recordingDate: 1579338005
+description: 'Nginx is the swiss army knife of both web servers and proxies. It''s fast, flexible, handles high loads and scales very well. But if you run a lot of configurations that have frequent changes for each Nginx instance - one of the issues you eventually run in is the time it takes for configuration updates to take effect becomes unacceptably high, because of how the Nginx reload works (apart other problems with it). In this talk we''ll explore one of the ways to tackle this problem, something akin to doing open heart surgery - modifying Nginx so it is able to update a single configuration on-the-fly (without reloading Nginx), the difficulties of it, why that goes against the design principles of Nginx and how it is still possible to make that work with a little engineering magic.'

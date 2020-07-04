@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - architecture
+title: 'Vault ''20 - Programming Emerging Storage Interfaces'
+language: English
+recordingDate: 1585169383
+description: "Programming Emerging Storage Interfaces\n\nSimon Lund, Samsung\n\nThe popularity of NVMe has gone beyond the limits of the block device. Currently, NVMe is standardizing Key-Value (KV) and Zoned (ZNS) namespaces, and discussions on the standardization of computational storage namespaces have already started.\n\nWhile modern I/O submission APIs are designed to support non-block submission (e.g., io_uring), these new interfaces incur an extra burden into applications, who now need to deal with memory constraints (e.g., barriers, DMA-able memory).\n\nTo address this problem, we have created xNVMe (pronounced cross-NVMe): a user-space library that provides a generic layer for memory allocations and I/O submission, and abstracts the underlying I/O engine (e.g., libaio, io_uring, SPDK).\n\nIn this talk, we (i) present the design and architecture of xNVMe, (ii) give examples of how applications can easily integrate with it and (iii) provide an evaluation of the overhead that it adds to the I/O path.\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"

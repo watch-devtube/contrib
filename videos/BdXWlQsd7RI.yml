@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - agile
+    - rust
+title: 'Type Theory for the Working Rustacean - Dan Pittman'
+language: English
+recordingDate: 1578505268
+description: "Rust really hits a sweet spot with respect to programming languages on account of a) its usefulness when working at a low level, coupled with b) its style of type system. Because of a), Rust can be — and is — used in places which tend to safety-critical: cyber-physical systems, autonomous vehicle infrastructure, robotics, etc. When building systems for these safety-critical environments, one also often formally proves properties about their software. That’s where b) comes in.\n\nRust’s type system is borne from the same ilk as those used in proof assistants like Agda, Coq, or Lean. Because of this, we can use Rust’s type system in similar ways we’d use a proof assistant to produce safer and more correct programs. This is envisioned by reducing the language of these disparate systems into the lingua franca of type theory.\n\nThis talk will explore using (and abusing) Rust’s type system to mimic the proofs one writes about their Rust programs while also enumerating how this mimicry is derived from common ground in the worlds of types or categories."

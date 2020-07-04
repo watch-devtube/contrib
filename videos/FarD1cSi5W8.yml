@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''17 - I Can’t Believe It’s Not Causal! Scalable Causal Consistency with No Slowdown Cascades'
+language: English
+recordingDate: 1588974528
+description: "I Can’t Believe It’s Not Causal! Scalable Causal Consistency with No Slowdown Cascades\n\nSyed Akbar Mehdi, Cody Littley, and Natacha Crooks, The University of Texas at Austin; Lorenzo Alvisi, The University of Texas at Austin and Cornell University; Nathan Bronson, Facebook; Wyatt Lloyd, University of Southern California\n\nWe describe the design, implementation, and evaluation of Occult (Observable Causal Consistency Using Lossy Timestamps), the first scalable, geo-replicated data store that provides causal consistency to its clients without exposing the system to the possibility of slowdown cascades, a key obstacle to the deployment of causal consistency at scale. Occult supports read/write transactions under PC-PSI, a variant of Parallel Snapshot Isolation that contributes to Occult’s immunity to slowdown cascades by weakening how PSI replicates transactions committed at the same replica. While PSI insists that they all be totally ordered, PC-PSI simply requires total order Per Client session. Nonetheless, Occult guarantees that all transactions read from a causally consistent snapshot of the datastore without requiring any coordination in how transactions are asynchronously replicated.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

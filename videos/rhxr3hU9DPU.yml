@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - testing
+title: 'NSDI ''17 - Automated Bug Removal for Software-Defined Networks'
+language: English
+recordingDate: 1588974528
+description: "Automated Bug Removal for Software-Defined Networks\n\nYang Wu, Ang Chen, and Andreas Haeberlen, University of Pennsylvania; Wenchao Zhou, Georgetown University; Boon Thau Loo, University of Pennsylvania\n\nWhen debugging an SDN application, diagnosing the problem is merely the first step: the operator must still find a fix that solves the problem, without causing new problems elsewhere. However, most existing debuggers focus exclusively on diagnosis and offer the network operator little or no help with finding an effective fix. Finding a suitable fix is difficult because the number of candidates can be enormous.\n\nIn this paper, we propose a step towards automated repair for SDN applications. Our approach consists of two elements. The first is a data structure that we call meta provenance, which can be used to efficiently find good candidate repairs. Meta provenance is inspired by the provenance concept from the database community; however, whereas standard provenance can only reason about changes to data, meta provenance can also reason about changes to programs. The second element is a system that can efficiently backtest a set of candidate repairs using historical data from the network. This is used to eliminate candidate repairs that do not work well, or that cause other problems.\n\nWe have implemented a system that maintains meta provenance for SDNs, as well as a prototype debugger that uses the meta provenance to automatically suggest repairs. Results from several case studies show that, for problems of moderate complexity, our debugger can find high-quality repairs within one minute.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

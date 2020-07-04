@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - security
+    - java
+title: 'Virtual Private Database in the "Wild"'
+language: English
+recordingDate: 1583344938
+description: "Virtual Private Database (VPD), also referred to as row-level security or RLS, is a feature built into the Oracle Database that allows you to set up security policies on tables that restrict which rows a user can see or change based on the policy logic.\n\nOne of the nicest things about VPD is that this logic (and the fact that a filter is being applied) is completely invisible to the user. They just see the data relevant to them and none the wiser about all that other data in the data.\n\nWe are pleased to have Parveen Kumar, a Java and Oracle Developer with Wipro, who will show how Virtual Private Database functionality can be applied across an entire application to control what end users can see based on their role/access level. The business driver for this use of VPD is to ensure appropriate access to the sensitive/financial data in the application."

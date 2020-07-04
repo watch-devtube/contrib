@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - bigdata
+    - ml
+    - aws
+    - architecture
+title: 'NSDI ''20 - Sol: Fast Distributed Computation Over Slow Networks'
+language: English
+recordingDate: 1585170697
+description: "Sol: Fast Distributed Computation Over Slow Networks\n\nFan Lai, Jie You, Xiangfeng Zhu, Harsha V. Madhyastha, and Mosharaf Chowdhury, University of Michigan\n\nThe popularity of big data and AI has led to many optimizations at different layers of distributed computation stacks. Despite – or perhaps, because of – its role as the narrow waist of such software stacks, the design of the execution engine, which is in charge of executing every single task of a job, has mostly remained unchanged. As a result, the execution engines available today are ones primarily designed for low latency and high bandwidth datacenter networks. When either or both of the network assumptions do not hold, CPUs are significantly underutilized.\n\nIn this paper, we take a first-principles approach toward developing an execution engine that can adapt to diverse network conditions. Sol, our federated execution engine architecture, flips the status quo in two respects. First, to mitigate the impact of high latency, Sol proactively assigns tasks, but does so judiciously to be resilient to uncertainties. Second, to improve the overall resource utilization, Sol decouples communication from computation internally instead of committing resources to both aspects of a task simultaneously. Our evaluations on EC2 show that, compared to Apache Spark in resource-constrained networks, Sol improves SQL and machine learning jobs by 16.4× and 4.2× on average.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

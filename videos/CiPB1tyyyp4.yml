@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - architecture
+title: 'Bernd Rücker - 3 common pitfalls in microservice integration and how to avoid them'
+recordingDate: 1557878316
+description: "Integrating microservices and taming distributed systems is hard. In this talk I will present three challenges I've observed in real-life projects and discuss how to avoid them.\n\n1. Communication is complex. With everything being distributed failures are normal so you need sophisticated failure handling strategies (e.g. stateful retry).\n\n2. Asynchronicity requires you to handle timeouts. This is not only about milliseconds, systems get much more resilient when you can wait for minutes, hours or even longer.\n\n3. Distributed transactions cannot simply be delegated to protocols like XA. So you need to solve the requirement to retain consistency in case of failures.\n\nI will not only use slides but also demonstrate concrete source code examples available on GitHub. - Captured Live on Ustream at http://www.ustream.tv/craft"

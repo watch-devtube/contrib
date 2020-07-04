@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+title: 'USENIX ATC ''19 - SmartDedup: Optimizing Deduplication for Resource-constrained Devices'
+language: English
+recordingDate: 1566254482
+description: "Qirui Yang, Runyu Jin, and Ming Zhao, Arizona State University\n\nStorage on smart devices such as smartphones and the Internet of Things has limited performance, capacity, and endurance. Deduplication has the potential to address these limitations by eliminating redundant I/Os and data, but it must be considered under the various resource constraints of the devices. This paper presents SmartDedup, a deduplication solution optimized for resource-constrained devices. It proposes a novel architecture that supports symbiotic in-line and out-of-line deduplication to take advantage of their complementary strengths and allow them to be adapted according to a device's current resource availability. It also cohesively combines in-memory and on-disk fingerprint stores to minimize the memory overhead while achieving a good level of deduplication. SmartDedup is prototyped on EXT4 and F2FS and evaluated using benchmarks, workloads generated from real-world device images, and traces collected from real-world devices. The results show that SmartDedup substantially improves I/O performance (e.g., increases write and read throughput by 31.1% and 32%, respectively for an FIO experiment with 25% deduplication ratio), reduces flash writes (e.g., by 70.9% in a trace replay experiment with 72.4% deduplication ratio) and saves space usage (e.g., by 45% in a DEDISbench experiment with 46.1% deduplication ratio) with low memory, storage, and battery overhead, compared to both native file systems and related deduplication solutions.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

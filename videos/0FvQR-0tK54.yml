@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - containers
+    - kubernetes
+    - testing
+title: 'How Scheduling in Kubernetes Works - Himani Agrawal & Mahendra Kariya, GoJek'
+recordingDate: 1582770175
+description: "Don't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects - Learn more at https://kubecon.io\n\nHow Scheduling in Kubernetes Works - Himani Agrawal & Mahendra Kariya, GoJek \n\nA Kubernetes cluster runs pods on multiple machines. These pods may run a variety of workloads. The kind of apps run on these pods are also quite varied. It could be as simple as a webapp, or a complex machine learning model. It is super important that the pods for such workloads run on the worker nodes best suited for it. This job is taken care of by the scheduler. The scheduler takes into account individual and collective resource requirements, quality of service requirements, hardware/software/policy constraints, affinity and anti-affinity specifications, data locality, inter-workload interference, deadlines, and so on. A scheduler significantly impacts availability, performance, and capacity of the cluster. In this talk we see into the internals of a typical Kubernetes scheduler and features of kube-scheduler. \n\nhttps://sched.co/YWJQ"

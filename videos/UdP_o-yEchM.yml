@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - aws
+title: 'NSDI ''17 - Correct by Construction Networks Using Stepwise Refinement'
+language: English
+recordingDate: 1588974528
+description: "Correct by Construction Networks Using Stepwise Refinement\n\nLeonid Ryzhyk, VMware Research; Nikolaj Bjørner, Microsoft Research; Marco Canini, King Abdullah University of Science and Technology (KAUST ); Jean-Baptiste Jeannin, Samsung Research America; Cole Schlesinger, Barefoot Networks; Douglas B. Terry, Amazon; George Varghese, University of California, Los Angeles\n\nBuilding software-defined network controllers is an exercise in software development and, as such, likely to introduce bugs. We present Cocoon, a framework for SDN development that facilitates both the design and verification of complex networks using stepwise refinement to move from a high-level specification to the final network implementation.\n\nA Cocoon user specifies intermediate design levels in a hierarchical design process that delineates the modularity in complicated network forwarding and makes verification extremely efficient. For example, an enterprise network, equipped with VLANs, ACLs, and Level 2 and Level 3 Routing, can be decomposed cleanly into abstractions for each mechanism, and the resulting stepwise verification is over 200x faster than verifying the final implementation. Cocoon further separates static network design from its dynamically changing configuration. The former is verified at design time, while the latter is checked at run time using statically defined invariants. We present six different SDN use cases including B4 and F10. Our performance evaluation demonstrates that Cocoon is not only faster than existing verification tools but can also find many bugs statically before the network design has been fully specified.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

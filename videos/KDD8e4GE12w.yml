@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - architecture
+title: 'A deep dive into Flink SQL - Jark Wu, Kurt Young'
+recordingDate: 1588066795
+description: "During last two major versions (1.9 & 1.10), Apache Flink community spent lots of effort to improve the architecture for further unified batch & streaming processing. One example for that is Flink SQL added the ability to support multiple SQL planners under the same API. This talk will first discuss the motivation behind these movements, but more importantly will have a deep dive into Flink SQL. The presentation shows the unified architecture to handle streaming and batch queries and explain how Flink translates queries into the relational expressions, leverages Apache Calcite to optimize them, and generates efficient runtime code for execution. Besides, this talk will also describe the lifetime of a query in detail, how optimizer improve the plan based on relational node patterns, how Flink leverages binary data format for its basic data structure, and how does certain operator works. This would give audience better understanding of Flink SQL internals.\n\nSpeakers: Jark Wu, Kurt Young from Alibaba"

@@ -1,0 +1,15 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - unix
+    - storage
+    - mongo
+    - redis
+    - containers
+    - docker
+    - testing
+    - ruby
+title: 'Ruby on Rails Continuous Integration with Github Actions'
+language: English
+recordingDate: 1571315411
+description: "► Check out https://gorails.com for Pro episodes and more!\n► SaaS business template for Ruby on Rails: https://jumpstartrails.com\n► Ruby on Rails hosting with Hatchbox.io: https://hatchbox.io\n\nContinuous Integration is the process of testing code every time changes are pushed to version control, such as git. The CI process makes sure that new code doesn't break other features when it gets merged. You can setup GitHub to require that tests have passed on a Pull Request before\n\nGitHub Actions is a new feature from GitHub that allows you to define custom workflows to run against your code. In this video, we're going to use GitHub Actions to continuously integrate our Ruby on Rails code every git push to make sure our tests pass.\n\nSetting up GitHub Actions can seem a little daunting, but we've made a solid guide that you can follow and make changes to. Behind the scenes, it's using Docker to spin up an environment that you can use. It builds an Ubuntu, MacOS, or Windows environment and spins up other services like PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch, or any other service you need. Then it checks out your code, installs dependencies, compiles your code, and runs tests.\n\nThe results of these tests are stored by GitHub against your commit so you know exactly which commit(s) broke the tests."

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'CAP_NET_RAW And ARP Spoofing in Your Cluster: It''s Going Downhill From Here - Liz Rice'
+language: English
+recordingDate: 1574455331
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nCAP_NET_RAW And ARP Spoofing in Your Cluster: It's Going Downhill From Here - Liz Rice, Aqua Security \n\nDid you know that by default, your applications running in Kubernetes can open raw network sockets? This talk demonstrates how, in the right circumstances, the CAP_NET_RAW capability that allows this can be abused by a compromised application.  * ARP spoofing: pretending to represent the wrong IP address * If the app can ARP spoof the IP address of the DNS service, this potentially lets it spoof DNS addresses: pretending to represent the wrong domain name  Sounds bad, doesn't it?  These attacks, and their consequences, will be demonstrated live, along with preventative measures that you can take to ensure they aren't happening on your cluster.  This talk explains CAP_NET_RAW and spoofing, but the audience is expected to be comfortable with Kubernetes concepts like pod specs and admission controllers. \n\nhttps://sched.co/UaX0"

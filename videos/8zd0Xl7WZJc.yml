@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Tackling contention: the monsters inside the `sync.Locker`, Roberto Clapis'
+language: English
+recordingDate: 1566229235
+description: "GoWayFest 3.0, Minsk – July 5, 2019\nGeneral Partner - SoftSwiss (https://www.softswiss.com/)\nVideo Partner - SEMrush (https://www.semrush.com/company/)\n\nTackling contention: the monsters inside the `sync.Locker`, Roberto Clapis\n\nGo is all about parallelism and concurrency, but they don't come for free. This talk is about measuring their contention price, and being able to reduce it.\nA deep dive on contention: what is it, when is it expensive, and how to tackle it. \nSome light will be shed on ways to measure the computational power wasted waiting. The trace/blockand prof tools and libraries will be explained with actionable examples. \nAfter showing how to find contention issues, some handy ways to address them will be shown: \n- Splitting work: different ways to change common algorithms to not have a centralized state.\n- From channels to mutexes: where it makes sense to make the switch, and why.\n- From mutexes to atomics: the real price of making this step, and how to make an informed choice about it.\n\nSlides: clap.page.link/contention"

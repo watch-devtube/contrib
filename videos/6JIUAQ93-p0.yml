@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+    - testing
+title: 'Flink acceptance testing and state compatibility checking - Catlyn Kong'
+recordingDate: 1588067907
+description: 'Since the introduction of Flink at Yelp in 2017, tens of real-time Flink applications have been developed to drive a wide range of business values: search ingestion, push notification, sessionized metrics and more. Given the importance of such use cases, correctness and reliability are extremely critical. Acceptance testing is a very effective way to catch issues before hitting production. Acceptance testing for a streaming Flink application is challenging. An end-to-end test involves Kafka topic creation, schema discovery, reading and writing to the topics, as well as running the Flink job itself on a cluster. In order to provide an isolated and sanitized testing environment that’s reusable across different applications, we created a specialized framework at Yelp that automates test setup and execution. In addition to testing the application core functionality, it is also important to verify state compatibility across releases for stateful Flink applications. Changes in code or dependencies may in some cases break state backward compatibility, which is normally only detected once they reach production. To minimize such unpleasant surprises, an additional step is added to our CI/CD pipeline to prevent unintentional state breakage from making its way to production. Thanks to the existing framework, this is as easy as adding another acceptance test. In this talk, I’ll go over the motivation of acceptance testing for Flink streaming applications, how the testing environment is setup by using docker-compose, how to tailor input for different test cases and how state breaking changes are caught in our CI/CD pipeline by reusing the acceptance testing framework.'

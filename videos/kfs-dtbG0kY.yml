@@ -1,0 +1,8 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - scala
+    - java
+title: 'Finagle Under the Hood - by Vladimir Kostyukov'
+recordingDate: 1466145887
+description: "This talk was recorded at Scala Days New York, 2016. Follow along on Twitter @scaladays and on the website for more information http://scaladays.org/.\n\nAbstract:\nFinagle is an extensible RPC system for JVM written in Scala that is used and developed at Twitter. It promotes a programming model where servers and clients might be viewed as functions, which are both easy to compose and reason about. Although, there is quite a complex logic (connection pooling, load balancing, circuit breaking and so on) hidden behind those functions. In this talk, we'll dig into Finagle internals and carefully walk through each of its modules to see what happens when we a) send a request to a Finagle client b) receive a request by a Finagle server."

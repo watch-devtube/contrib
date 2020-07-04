@@ -1,10 +1,16 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
     - mobile
     - android
 title: 'Running Android on the Mainline Graphics Stack'
+language: English
 recordingDate: 1538215192
 description: "https://media.ccc.de/v/ASG2018-164-running_android_on_the_mainline_graphics_stack\n\n\n\nIt is now possible to run Android ontop of an entirely Open Source Linux Graphics stack, this talk will dig into how you can do it too!\n\nFinally, it is possible to run Android on top of mainline Graphics! The recent addition of DRM Atomic Modesetting and Explicit Synchronization to the kernel paved the way, albeit some changes to the Android userspace were necessary.\n\nThe Android graphics stack is built on a abstraction layer, thus drm_hwcomposer - a component to connect this abstraction layer to the mainline DRM API - was created. Moreover, changes to MESA and the abstraction layer itself were also needed for a full conversion to mainline.\n\nThis talk will cover recent developments in the area which enabled Qualcomm, i.MX and Intel based platforms to run Android using the mainline graphics stack. \n\nRobert Foss\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/164"

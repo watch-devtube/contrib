@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'NSDI ''20 - ABC: A Simple Explicit Congestion Controller for Wireless Networks'
+language: English
+recordingDate: 1585170696
+description: "ABC: A Simple Explicit Congestion Controller for Wireless Networks\n\nPrateesh Goyal, MIT CSAIL; Anup Agarwal, CMU; Ravi Netravali, UCLA; Mohammad Alizadeh and Hari Balakrishnan, MIT CSAIL\n\nWe propose Accel-Brake Control (ABC), a simple and deployable explicit congestion control protocol for network paths with time-varying wireless links. ABC routers mark each packet with an “accelerate” or “brake”, which causes senders to slightly increase or decrease their congestion windows. Routers use this feedback to quickly guide senders towards a desired target rate. ABC requires no changes to header formats or user devices, but achieves better performance than XCP. ABC is also incrementally deployable; it operates correctly when the bottleneck is a non-ABC router, and can coexist with non-ABC traffic sharing the same bottleneck link. We evaluate ABC using a Wi-Fi implementation and trace-driven emulation of cellular links. ABC achieves 30-40% higher throughput than Cubic+Codel for similar delays, and 2.2× lower delays than BBR on a Wi-Fi path. On cellular network paths, ABC achieves 50% higher throughput than Cubic+Codel.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

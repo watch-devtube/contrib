@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - azure
+title: 'Daniel Marbach - DIY Async Message Pump: Lessons from the trenches'
+language: English
+recordingDate: 1577179802
+description: 'Building a message pump that consumes and produces messages from queues is simple in theory. In practice, the picture looks a bit different. Over the years, as a contributor for queue adapters for RabbitMQ, Azure Service Bus, Azure Storage Queues, MSMQ, AmazonSQS, Kafka and SQL Server, I''ve made plenty of mistakes. Now I can teach you how to make those same mistakes! In this talk, we''ll see what a robust and reliable message pump with TPL and async looks like so we can avoid it. We''ll examine asynchronous synchronization primitives which smarter people than I use to throttle requests, then compare and contrast different queuing technology message pumps to make sure we aren''t building to each one''s strengths. With this knowledge, if your message pump keeps on pumping for ages in a highly performant way, don''t blame me!'

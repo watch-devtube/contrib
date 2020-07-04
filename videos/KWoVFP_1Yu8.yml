@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''20 - GoSeed: Generating an Optimal Seeding Plan for Deduplicated Storage'
+language: English
+recordingDate: 1585170012
+description: "GoSeed: Generating an Optimal Seeding Plan for Deduplicated Storage\n\nAviv Nachman and Gala Yadgar, Technion - Israel Institute of Technology; Sarai Sheinvald, Braude College of Engineering\n \nDeduplication decreases the physical occupancy of files in a storage volume by removing duplicate copies of data chunks, but creates data-sharing dependencies that complicate standard storage management tasks. Specifically, data migration plans must consider the dependencies between files that are remapped to new volumes and files that are not. Thus far, only greedy approaches have been suggested for constructing such plans, and it is unclear how they compare to one another and how much they can be improved.\n\nWe set to bridge this gap for seeding—migration in which the target volume is initially empty. We present GoSeed, a formulation of seeding as an integer linear programming (ILP) problem, and three acceleration methods for applying it to real-sized storage volumes. Our experimental evaluation shows that, while the greedy approaches perform well on \"easy\" problem instances, the cost of their solution can be significantly higher than that of GoSeed's solution on “hard” instances, for which they are sometimes unable to find a solution at all.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"

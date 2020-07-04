@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+title: 'Globally Distributed SQL Databases FTW by Henrik Engström'
+recordingDate: 1581886331
+description: "When Google published the paper “F1: A Distributed SQL Database That Scales” in 2013 it set off a new type of databases referred to as “Distributed SQL Databases”. The premise was to be able use ACID transactions in a truly distributed database - something that was considered a pipedream before then. The main driver for F1, which has served as a model for several on-prem and cloud based offsprings, was that Google realized that their engineers built systems to were error-prone and overly complex when using eventual consistency.\n\nIn this talk we will take a look at CockroachDB - inspired by F1/Spanner and used at Kindred - to see how one can implement systems using a globally distributed database that simultaneously provides developers with the ACID properties. We will cover the benefits of using a database with these characteristics, how to design systems based on it as well as provide go through of some of the CockroachDB’s key aspects; RAFT for consensus, challenges of data distribution, and distributed transaction handling. After attending you will have a good understanding of the pros- and cons about strong/eventual consistency and how you can (stay) transactional in a distributed world.\n\nHenrik Engström\nKindred\n\nRecorded at Jfokus 2020 in Stockholm 5th of february\nhttp://www.jfokus.se"

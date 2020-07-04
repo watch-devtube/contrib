@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: '#HITBLockdown D1 - Pwning Adobe Reader Multiple Times With Malformed Strings - Ke Liu'
+language: English
+recordingDate: 1590013039
+description: "It’s hard to see vulnerabilities caused by malformed strings nowadays, not to mention the exploitable vulnerabilities. It’s not surprising because all the unsafe functions are banned by SDL in modern software development. However, it may lead to critical security vulnerabilities if the developers did not use the security enhanced functions correctly. In the case of Adobe Reader, it implemented some security enhanced string handling functions itself. But the developers used those functions incorrectly. It’s not a big deal in general cases. However, a type confusion condition can also be triggered easily when handling a malformed string. We can leverage those two conditions to achieve code execution under some circumstances. This presentation will discuss an interesting kind of vulnerabilities which was caused by malformed strings in Adobe Reader. More precisely, four exploitable vulnerabilities will be discussed in detail. Two of them could achieve information disclosure. The other two could achieve code execution directly.\n\n=== \n\nKe Liu is a senior security researcher from Tencent Security Xuanwu Lab. He has found and reported nearly 400 vulnerabilities which affect Adobe, Apple, Google, Microsoft, etc. He’s one of the nominees of the Pwnie Awards in 2017. He’s in MSRC Top 100 list from 2016 to 2018. He once spoke at Black Hat Asia 2017, Google ESCAL8 2019, and ZeroNights 2019. He successfully pwned Adobe Reader at Tianfu Cup in both 2018 and 2019."

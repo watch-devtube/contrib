@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+title: 'NSDI ''17 - Enhancing Security and Privacy of Tor''s Ecosystem by Using Trusted Execution Environments'
+language: English
+recordingDate: 1588974528
+description: "Enhancing Security and Privacy of Tor's Ecosystem by Using Trusted Execution Environments\n\nSeongmin Kim, Juhyeng Han, and Jaehyeong Ha, Korea Advanced Institute of Science and Technology (KAIST); Taesoo Kim, Georgia Institute of Technology; Dongsu Han, Korea Advanced Institute of Science and Technology (KAIST)\n\nWith Tor being a popular anonymity network, many attacks have been proposed to break its anonymity or leak information of a private communication on Tor. However, guaranteeing complete privacy in the face of an adversary on Tor is especially difficult because Tor relays are under complete control of world-wide volunteers. Currently, one can gain private information, such as circuit identifiers and hidden service identifiers, by running Tor relays and can even modify their behaviors with malicious intent.\n\nThis paper presents a practical approach to effectively enhancing the security and privacy of Tor by utilizing Intel SGX, a commodity trusted execution environment. We present a design and implementation of Tor, called SGX-Tor, that prevents code modification and limits the information exposed to untrusted parties. We demonstrate that our approach is practical and effectively reduces the power of an adversary to a traditional network-level adversary. Finally, SGX-Tor incurs moderate performance overhead; the end-to-end latency and throughput overheads for HTTP connections are 3.9% and 11.9%, respectively.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

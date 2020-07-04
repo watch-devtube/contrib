@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'SREcon17 Americas - Tracking Service Infrastructure at Scale'
+language: English
+recordingDate: 1589493085
+description: "Tracking Service Infrastructure at Scale\n\nJohn Arthorne, Shopify\n\nOver the past two years Shopify built up a strong SRE team focused on the critical systems at the core of the company’s business. However at the same time the company was steadily growing a list of secondary production services, to the point where we had several hundred running applications, most of which had poorly defined ownership and ad-hoc infrastructure. These applications had a patchwork of tools such as build and deployment automation, monitoring, alerting, and load testing, but with very little consistency and lots of gaps. \n\nShopify avoided this looming disaster through automation. We built an application that tracked every production service, and linked it to associated owners, source code, and supporting infrastructure. This application, called Services DB, provides a central place where developers can discover and manage their services across various runtime environments. Services DB also provides a platform for measuring progress on infrastructure quality and building out additional tooling to automate manual steps in infrastructure management. Today, Shopify SREs aren’t worried about being woken up in the middle of the night because of failures in poorly maintained applications. Instead, SREs can focus on building automation, and use Services DB to apply it across large groups of services.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

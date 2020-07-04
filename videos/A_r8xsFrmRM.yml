@@ -1,8 +1,14 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - c++
 title: '2017 Streamlining systemd''s code and safety'
+language: English
 recordingDate: 1508619944
 description: "https://media.ccc.de/c/asg2017/ASG2017-124-streamlining_systemd_s_code_and_safety\n\n\n\nToday, the systemd project uses a non-standard superset of C to get destructor-like functionality. But, we pay a heavy price for doing it this way: we lose compiler portability, use hundreds of boilerplate macros, and confuse static analysis tools (which don't always realize why we're not leaking memory). At compilation, the cleanup functionality gets mapped to the same facilities that handle C++ destructors. So, essentially, we're already using a non-standard version of C++ as well as a non-standard version of C. We can end this charade by following in GCC's footsteps and explicitly using a subset of C++. By doing so, we can shed thousands of lines of C-trying-to-be-C++. We can also improve memory safety and code readability -- all while keeping the feel of C.\n\n\n\nDavid Strauss"

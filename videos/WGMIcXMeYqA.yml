@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - 'distributed systems'
+    - architecture
+title: 'Ordering the chaos - cleaning logs and ordering events in microservices - Adam Furmanek'
+language: English
+recordingDate: 1582105039
+description: "No more monoliths! Let's use microservices and asynchronous invocations everywhere! But how to track logs when multiple calls are in place, clocks are skewed, network is faulty and something goes wrong? How to figure out what happened first? And how to debug this single request which caused so many troubles?\n\nIn this talk I explain problems with synchronizing clocks and why relying on timestamps doesn't work in the world of microservices. We will see happened-before relation, vector clocks, correlation ids and other patterns used to introduce some meaningful order. We will understand why common understanding of \"time\" is misleading in distributed systems and what to use to mitigate that.\n\nExamples will be in .NET. Level 200, moderately intense session.\n\n\nCheck out more of our talks, courses, and conferences in the following links:\nhttps://ndcconferences.com/\nhttps://ndc-london.com/"

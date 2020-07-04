@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'NSDI ''20 - SP-PIFO: Approximating Push-In First-Out Behaviors using Strict-Priority Queues'
+language: English
+recordingDate: 1585170696
+description: "SP-PIFO: Approximating Push-In First-Out Behaviors using Strict-Priority Queues\n\nAlbert Gran Alcoz, Alexander Dietmüller, and Laurent Vanbever, ETH Zürich\n\nPush-In First-Out (PIFO) queues are hardware primitives which enable programmable packet scheduling by allowing to perfectly reorder packets at line rate. While promising, implementing PIFO queues in hardware and at scale is not easy: only hardware designs (not implementations) exist and they can only support about 1000 flows.\n\nIn this paper, we introduce SP-PIFO, a programmable packet scheduler which closely approximates the behavior of PIFO queues using strict-priority queues—at line rate, at scale, and on existing devices. The key insight behind SP-PIFO is to dynamically adapt the mapping between packet ranks and available queues to minimize the scheduling errors. We present a mathematical formulation of the problem and derive an adaptation technique which closely approximates the optimal queue mapping without any traffic knowledge.\n\nWe fully implement SP-PIFO in P4 and evaluate it on real workloads. We show that SP-PIFO: (i) closely matches ideal PIFO performance, with as little as 8 priority queues; (ii) arbitrarily scales to large amount of flows and ranks; and (iii) quickly adapts to traffic variations. We also show that SP-PIFO runs at line rate on existing programmable data planes.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

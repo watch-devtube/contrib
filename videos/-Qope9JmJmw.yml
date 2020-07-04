@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+title: 'FAST ''20 - BCW: Buffer-Controlled Writes to HDDs for SSD-HDD Hybrid Storage Server'
+language: English
+recordingDate: 1585170016
+description: "BCW: Buffer-Controlled Writes to HDDs for SSD-HDD Hybrid Storage Server\n\nShucheng Wang, Ziyi Lu, and Qiang Cao, Wuhan National Laboratory for Optoelectronics, Key Laboratory of Information Storage System; Hong Jiang, Department of Computer Science and Engineering, University of Texas at Arlington; Jie Yao, School of Computer Science and Technology, Huazhong University of Science and Technology; Yuanyuan Dong and Puyuan Yang, Alibaba Group\n\nHybrid Storage servers combining high-speed SSDs and high-capacity HDDs are designed for high cost-effectiveness and provide μs-level responsiveness for applications. Observations from the production hybrid cloud storage system Pangu suggest that HDDs are often severely underutilized while SSDs are overused, especially for writes that dominate the hybrid storage. This lopsided utilization between HDDs and SSDs leads to not only fast wear-out in the latter but also very high tail latency due to frequent garbage collections induced by intensive writes to the latter. On the other hand, our extensive experimental study reveals that a series of sequential and continuous writes to HDDs exhibit a periodic, staircase shaped pattern of write latency, i.e., low (e.g., 35μs), middle (e.g., 55μs), and high latency (e.g., 12ms), resulting from buffered writes in HDD’s controller. This suggests that HDDs can potentially provide μs-level write IO delay (for appropriately scheduled writes), which is close to SSDs’ write performance. These observations inspire us to effectively exploit this performance potential of HDDs to absorb as many writes as possible to avoid SSD overuse without performance degradation.\n\nTo achieve this goal, we first characterize performance behaviors of hybrid storage in general and its HDDs in particular. Based on the findings on sequential and continuous writes, we propose a prediction model to accurately determine next write latency state (i.e., fast, middle and slow). With this model, a Buffer-Controlled Write approach, BCW, is proposed to proactively and effectively control buffered writes so that low- and mid-latency periods in HDDs are scheduled with application write data and high-latency periods are filled with padded data. Based on BCW, we design a mixed IO scheduler (MIOS) to adaptively steer incoming data to SSDs and HDDs according to write patterns, runtime queue lengths, and disk status. We perform extensive evaluations under production workloads and benchmarks. The results show that MIOS removes up to 93% amount of data written to SSDs, reduces average and 99th-percentile latencies of the hybrid server by 65% and 85% respectively.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"

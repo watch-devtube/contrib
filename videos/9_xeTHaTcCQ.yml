@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - testing
+    - architecture
+title: 'Software Engineering for ML-Enabled Systems'
+recordingDate: 1588122241
+description: "In this talk, Christian Kaestner will give an overview of the challenges of building software systems with ML components and challenges of how data scientists and software engineers need to work together. Data scientists often focus on producing a model and measuring accuracy, but when the end goal is to build production systems, the model is often only one component in a larger software system. In production systems, quality is measured usually not in terms of model accuracy but in terms of the overall experience among the system's users. Many new challenges arise often ignored when just focusing on building ML models in a notebook, such as resource consumption and scalability, gathering data at scale, deploying models, regularly retraining models, and detecting feedback loops. While machine learning raises new challenges, software engineers have significant expertise to offer with regard to requirements, design, architecture, deployment, and quality assurance, drawing on decades of experience and methods for building systems that scale and are responsive and robust, even when built on unreliable components. Christian will make a case for a software engineering mindset, and dive a little deeper into the quality assurance of ML-enabled systems (testing the pipeline, testing in production, telemetry design) as one example.\n\nChristian Kaestner is an associate professor at Carnegie Mellon University in the area of software engineering. His research has traditionally focused on quality assurance for highly-configurable systems, but more recently his interests include sustainability and stress in open source communities and software engineering for AI-enabled systems. He has recently designed a class on latter topic in which he looks at building intelligent systems from a software engineering lense (requirements, design, quality assurance, deployment, process, ...): https://ckaestne.github.io/seai/"

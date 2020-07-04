@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon17 Americas - Automated Debugging of Bad Deployments'
+language: English
+recordingDate: 1589493073
+description: "Automated Debugging of Bad Deployments\n\nJoe Gordon, Pinterest\n\nDebugging a bad deployment can be tedious, from identifying new stack traces to figuring out who introduced them. At Pinterest we have automated most of these processes using using ElasticSearch to identify new stack traces and git-stacktrace to figure out who caused them. Git-stacktrace parses the stack trace and looks for related git changes. This has reduced the time needed to figure out who broke the build from minutes to just a few seconds.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

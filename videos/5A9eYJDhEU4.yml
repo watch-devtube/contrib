@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - aws
+    - security
+title: '#HITBLockdown D2 - Breaking And Securing Cloud Platforms - Fyodor Yarochkin'
+language: English
+recordingDate: 1591143204
+description: "In early 2019 we conducted an in-depth survey of cloud services and identified a large number exposed or badly configured cloud services. Many think of exposed S3 buckets when talking about exposed cloud services, but we have identified a much larger variety of issues. Some lead to sensitive data disclosure, others could lead to access control/authentication bypass or authentication credentials disclosure. Exposed container services pose significant risks, when reachable from the Internet. We identified some in-the wild cases where attackers exploited some of these vulnerabilities and used them in variety of attacks – from attacks against online shopping platforms and inserting credit card harvesting code to plain deployments of botnets and crypto-mining software. We discuss these cases and explain how attackers were able to take advantage of the exposures. Many attackers consider cloud deployments as a weaker link and often target this link to target organizations. We present a defender view on cloud services and explain how to improve security of cloud deployments by hardening cloud services and ensuring that certain aspects of cloud configurations are done right. We conclude the presentation with best practices we have been using and would recommend organizations to use in their cloud deployments.\n\n=== \n\nFyodor Yarochkin is a Senior Researcher, Forward-Looking Threat Research Senior at Trend Micro with a Ph.D. from EE, National Taiwan University. An early Snort Developer and Open Source Evangelist as well as a Programmer, his professional experience includes several years as a threat investigator, and over eight years as an Information Security Analyst, performing penetration tests in Asia-Pacific region."

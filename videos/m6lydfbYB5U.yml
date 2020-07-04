@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'C# List - Tuning Up InsertRange() - Part 2'
+recordingDate: 1389363333
+description: 'Inserting into a C# List using InsertRange() may require the C# List to enlarge itself (thus copying elements from the old underlying array to a new underlying array) and then copy again to shuffle items down the array to make room for the new items. In our C# List InsertRange() method, we dodge the extra copy by placing the copied items where they should be in the first place. We trade memory and some time overhead for a huge speed gain.'

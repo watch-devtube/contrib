@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+title: 'NSDI ''20 - PrivateEye: Scalable and Privacy Preserving Compromise Detection in the Cloud'
+language: English
+recordingDate: 1585170965
+description: "PrivateEye: Scalable and Privacy Preserving Compromise Detection in the Cloud\n\nBehnaz Arzani, Microsoft Research; Selim Ciraci, Microsoft; Stefan Saroiu, Alec Wolman, and Jack Stokes, Microsoft Research; Geoff Outhred and Lechao Diwu, Microsoft\n\nToday, it is difficult for operators to detect compromised VMs in their data centers (DCs). Despite their benefits, the compromise detection systems operators offer are mostly unused. Operators are faced with a dilemma: allow VMs to remain unprotected, or mandate all customers use the compromise detection systems they provide. Neither is appealing: unprotected VMs can be used to attack other VMs. Many customers would view a mandate to use these detection systems as unacceptable due to privacy and performance concerns. Data from a production cloud show their compromise detection systems protect less than 5% of VMs.\n\nPrivateEye is a scalable and privacy-preserving solution. It uses sanitized summaries of network traffic patterns obtained from the vSwitch, rather than installing binaries in customer VMs, introspection at the hypervisor, or packet captures. The challenge it addresses is protecting all VMs at DC-scale while preserving customer privacy using low-signal data. We developed PrivateEye to meet the needs of production DCs, and our data collection agent is deployed across all DCs of a large cloud. Evaluation on VMs of both internal and customer VM's shows it has an area under the ROC curve -- the curve showing the model's true positive rate vs its false-positive rate -- of 0.96.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

@@ -1,0 +1,14 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - ml
+    - performance
+    - cloud
+    - mobile
+    - aws
+    - security
+    - architecture
+title: 'Transferability of Adversarial Examples to Attack Cloud Image Classifier - Liu Yan - DEF CON China 1'
+language: English
+recordingDate: 1579730636
+description: "In recent years, Deep Learning(DL) techniques have been extensively deployed for computer vision tasks, particularly visual classification problems, where new algorithms reported to achieve or even surpass the human performance . While many recent works demonstrated that DL models are vulnerable to adversarial examples.Fortunately, generating adversarial examples usually requires white-box access to the victim model, and real-world cloud-based image classifier services are more complex than white-box classification and the architecture and parameters of DL models on cloud platforms cannot be obtained by the attacker. The attacker can only access the APIs opened by cloud platforms. Thus, keeping models in the cloud can usually give a (false) sense of security.In this paper, we mainly focus on studying the security of real-world cloud-based image classifier services. Specifically, (1) We propose a novel attack methods, Fast Featuremap Loss PGD (FFL-PGD) attack based on Substitution model ,which achieve a high bypass rate with a very limited number of queries. Instead of millions of queries in previous studies, our methods find the adversarial examples using only two queries per image ; and (2) we make the first attempt to conduct an extensive empirical study of black-box attacks against real-world cloud-based classifier services. Through evaluations on four popular cloud platforms including Amazon, Google, Microsoft, Clarifai, we demonstrate that Spatial Transformation (ST) attack has a success rate of approximately 100% except Amazon approximately 50%, FFL-PGD attack have a success rate over 90% among different classifier services.\n\nLiu Yan (Dou Goodman), Head of AI security team of Baidu X-Lab, is a technology writer of AI Safety Trilogy. His research interests include AI and network security. He starts the open source project Advbox.\n\nWang Yang is a senior security researcher of Baidu X-Lab. His interests lie in face recognition, adversarial learning, and data mining. He maintains and actively contributes to Advbox project that is an open source toolbox for AI safety.\n\nHao Xin has been engaged in security product development for many years in Baidu. His main research directions include object detection and image classification.\n\nDr. Tao (Lenx) Wei is the head of Baidu X-Lab. Prior to joining Baidu, he was an associate professor at Peking University. His research interests include software analysis and system protection, web trust and privacy, programming languages, and mobile security."

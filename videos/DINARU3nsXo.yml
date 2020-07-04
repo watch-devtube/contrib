@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - performance
+    - cloud
+    - aws
+title: 'NSDI ''17 - CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics'
+language: English
+recordingDate: 1588974412
+description: "CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics\n\nOmid Alipourfard, Yale University; Hongqiang Harry Liu and Jianshu Chen, Microsoft Research; Shivaram Venkataraman, University of California, Berkeley; Minlan Yu, Yale University; Ming Zhang, Alibaba Group\n\nPicking the right cloud configuration for recurring big data analytics jobs running in clouds is hard, because there can be tens of possible VM instance types and even more cluster sizes to pick from. Choosing poorly can significantly degrade performance and increase the cost to run a job by 2-3x on average, and as much as 12x in the worst-case. However, it is challenging to automatically identify the best configuration for a broad spectrum of applications and cloud configurations with low search cost. CherryPick is a system that leverages Bayesian Optimization to build performance models for various applications, and the models are just accurate enough to distinguish the best or close-to-the-best configuration from the rest with only a few test runs. Our experiments on five analytic applications in AWS EC2 show that CherryPick has a 45-90% chance to find optimal configurations, otherwise near-optimal, saving up to 75% search cost compared to existing solutions.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

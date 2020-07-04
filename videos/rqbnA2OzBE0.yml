@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'NSDI ''17 - RAIL: A Case for Redundant Arrays of Inexpensive Links in Data Center Networks'
+language: English
+recordingDate: 1588974557
+description: "RAIL: A Case for Redundant Arrays of Inexpensive Links in Data Center Networks\n\nDanyang Zhuo, University of Washington; Monia Ghobadi, Ratul Mahajan, Amar Phanishayee, and Xuan Kelvin Zou, Microsoft Research; Hang Guan, Columbia University; Arvind Krishnamurthy and Thomas Anderson, University of Washington\n\nWhile there are many proposals to reduce the cost of data center networks (DCN), little attention has been paid to the role played by the physical links that carry packets. By studying over 300K optical links across many production DCNs, we show that these links are operating quite conservatively relative to the requirements in the IEEE standards. Motivated by this observation, to reduce DCN costs, we propose using transceivers—a key contributor to DCN cost—beyond their currently specified limit. Our experiments with multiple commodity transceivers show that their reach can be “stretched” 1.6 to 4 times their specification. However, with stretching, the performance of 1–5% of the DCN paths can fall below the IEEE standard. We develop RAIL, a system to ensure that in such a network, applications only use paths that meet their performance needs. Our proposal can reduce the network cost by up to 10% for 10Gbps networks and 44% for 40Gbps networks, without affecting the applications’ performance.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

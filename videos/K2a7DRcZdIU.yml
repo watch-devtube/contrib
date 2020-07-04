@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - architecture
+title: 'NSDI ''20 - Themis: Fair and Efficient GPU Cluster Scheduling'
+language: English
+recordingDate: 1585170696
+description: "Themis: Fair and Efficient GPU Cluster Scheduling\n\nKshiteej Mahajan, Arjun Balasubramanian, Arjun Singhvi, Shivaram Venkataraman, and Aditya Akella, University of Wisconsin-Madison; Amar Phanishayee, Microsoft Research; Shuchi Chawla, University of Wisconsin-Madison\n\nModern distributed machine learning (ML) training workloads benefit significantly from leveraging GPUs. However, significant contention ensues when multiple such workloads are run atop a shared cluster of GPUs. A key question is how to fairly apportion GPUs across workloads. We find that established cluster scheduling disciplines are a poor fit because of ML workloads' unique attributes: ML jobs have long-running tasks that need to be gang-scheduled, and their performance is sensitive to tasks' relative placement.\n\nWe propose Themis, a new scheduling framework for ML training workloads. It's GPU allocation policy enforces that ML workloads complete in a finish-time fair manner, a new notion we introduce. To capture placement sensitivity and ensure efficiency, Themis uses a two-level scheduling architecture where ML workloads bid on available resources that are offered in an auction run by a central arbiter. Our auction design allocates GPUs to winning bids by trading off fairness for efficiency in the short term, but ensuring finish-time fairness in the long term. Our evaluation on a production trace shows that Themis can improve fairness by more than 2.25X and is ~5% to 250% more cluster efficient in comparison to state-of-the-art schedulers.\n\nView the full NSDI '20 program at https://www.usenix.org/conference/nsdi20/technical-sessions"

@@ -1,0 +1,12 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - cloud
+    - aws
+    - architecture
+    - scala
+    - functional
+title: 'Immutable data stores and CORS for safety, flexibility and profit by Sidney Shek'
+recordingDate: 1469194937
+description: "This video was recorded at Scala Days Berlin 2016\nFollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAnstract:\nAt Atlassian, we are in the midst of an architectural shift towards microservices to provide a scalable and flexible platform for our cloud services. In order to achieve this safely with no risk of losing customer data, we are investigating ‘event sourcing’ for representing our domain models i.e. capturing streams of immutable events to represent data instead of the traditional update-in-place paradigm. With event sourcing, old versions of data can be easily restored and audit trails are available by default to help with debugging. In combination with the command-query responsibility separation (CQRS) pattern, we can seamlessly bring online new functionality requiring schema changes or new query patterns, and re-architect later for more scale simply by replaying and reinterpreting events into new microservices and ephemeral data stores.\n\nIn this talk, we will describe in detail what event sourcing and CQRS are, why we are using this approach, and a walk through of our implementation in Scala (leveraging scalaz-streams) in an AWS environment using DynamoDB, Kinesis and Lambdas.\n\nGoals:\nBy the end of the presentation, the audience should:\n* have an understanding of the benefits of event sourcing\n* have an understanding of how event sourcing works\n* be able to identify how event sourcing can be applied to their environment\n\nDraft content outline:\n* Why event sourcing and CQRS, and why for everyone\n* safety - being able to revert changes, audit trails for free\n* flexibility - support any future queries, simple handling of schema changes\n* simple DB requirement - simply a key-value store with some kind of CAS (atomic counter, transaction)\n* Easy to implement on distributed databases e.g. Dynamo\n\nWalkthrough of Event sourcing principles by example (user account management) using our open source eventsrc library \n\nWalkthrough of architecture of event sourcing/CQRS system being developed in Atlassian running on AWS."

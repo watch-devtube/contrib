@@ -1,10 +1,16 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
     - security
     - javascript
 title: 'Is Cockpit Secure?'
+language: English
 recordingDate: 1538241238
 description: "https://media.ccc.de/v/ASG2018-231-is_cockpit_secure\n\n\n\nCockpit makes Linux discoverable. But it's really a Linux session in a\nweb browser, accessing the native system APIs and tools directly from\njavascript.\n\nDoes that sound scary? How can we be sure that accessing Linux from a\nweb browser is secure? What about the web server stack? What about\nauthentication and privilege escalation?\n\nWe'll talk about how Cockpit deals with security, authentication,\nprivilege escalation, and browser lock down. I'll show you various\ntechniques to tailor Cockpit's security options to your situation, like\nusing bastion hosts.\n\n\n\n\nStef Walter\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/231"

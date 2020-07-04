@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''19 - DistCache: Provable Load Balancing for Large-Scale Storage Systems...'
+language: English
+recordingDate: 1566254482
+description: "DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching\n\nZaoxing Liu and Zhihao Bai, Johns Hopkins University; Zhenming Liu, College of William and Mary; Xiaozhou Li, Celer Network; Changhoon Kim, Barefoot Networks; Vladimir Braverman and Xin Jin, Johns Hopkins University; Ion Stoica, UC Berkeley\n\nBest Paper at FAST '19: https://www.usenix.org/conference/fast19/presentation/liu\n\nLoad balancing is critical for distributed storage to meet strict service-level objectives (SLOs). It has been shown that a fast cache can guarantee load balancing for a clustered storage system. However, when the system scales out to multiple clusters, the fast cache itself would become the bottleneck. Traditional mechanisms like cache partition and cache replication either result in load imbalance between cache nodes or have high overhead for cache coherence.\n\nWe present DistCache, a new distributed caching mechanism that provides provable load balancing for large-scale storage systems. DistCache co-designs cache allocation with cache topology and query routing. The key idea is to partition the hot objects with independent hash functions between cache nodes in different layers, and to adaptively route queries with the power-of-two-choices. We prove that DistCache enables the cache throughput to increase linearly with the number of cache nodes, by unifying techniques from expander graphs, network flows, and queuing theory. DistCache is a general solution that can be applied to many storage systems. We demonstrate the benefits of DistCache by providing the design, implementation, and evaluation of the use case for emerging switch-based caching.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

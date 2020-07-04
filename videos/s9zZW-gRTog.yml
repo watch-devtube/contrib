@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+title: 'FAST ''20 - Quiver: An Informed Storage Cache for Deep Learning'
+language: English
+recordingDate: 1585169991
+description: "Quiver: An Informed Storage Cache for Deep Learning\n\nAbhishek Vijaya Kumar and Muthian Sivathanu, Microsoft Research India\n \nWe introduce Quiver, an informed storage cache for deep learning training (DLT) jobs in a cluster of GPUs. Quiver employs domain-specific intelligence within the caching layer, to achieve much higher efficiency compared to a generic storage cache. First, Quiver uses a secure hash-based addressing to transparently reuse cached data across multiple jobs and even multiple users operating on the same dataset. Second, by co-designing with the deep learning framework (\\eg, PyTorch), Quiver employs a technique of {\\em substitutable cache hits} to get more value from the existing contents of the cache, thus avoiding cache thrashing when cache capacity is much smaller than the working set. Third, Quiver dynamically prioritizes cache allocation to jobs that benefit the most from the caching. With a prototype implementation in PyTorch, we show that Quiver can significantly improve throughput of deep learning workloads.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"

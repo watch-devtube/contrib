@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - storage
+    - redis
+    - cloud
+title: 'SREcon19 Europe/Middle East/Africa -  Network Monitor: A Tale of ACKnowledging an Observability Gap'
+language: English
+recordingDate: 1572552133
+description: "Network Monitor: A Tale of ACKnowledging an Observability Gap\n\nJason Gedge, Shopify\n\nIn the Fall of 2018 we spent nearly 6 weeks debugging Redis connection issues from our core app, pulling in many engineers along the way. The smoking gun to get our cloud provider involved was a high number of TCP retransmits. After bringing this evidence to them, their network engineers were able to fix the issue.\n\nThis incident showed us that we had an observability gap, due to lack of access and monitoring in our cloud environment. To this end, we built network monitor, a daemon running on all of our nodes to collect relevant network data. This daemon has evolved into a generic eBPF (extended Berkeley Packet Filter) orchestrator. In this talk, you'll learn about what we've built, and should walk away understanding why monitoring your network is a valuable endeavour, as well as how your teams can use eBPF to improve your observability stack.\n\n\nView the full SREcon19 Europe/Middle East/Africa Program at https://www.usenix.org/conference/srecon19emea/program \n\nSign up to find out more about SREcon at https://srecon.usenix.org"

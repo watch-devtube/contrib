@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - cloud
+    - security
+    - testing
+title: 'SREcon17 Americas - I''m Putting Sloths on the Map'
+language: English
+recordingDate: 1589493073
+description: "I'm Putting Sloths on the Map\n\nPreetha Appan, Indeed.com\n\nAt Indeed, we strive to build systems that can withstand problems with an unreliable network. We want to anticipate and prevent failures, rather than just reacting to them. Our applications run on the private cloud, sharing infrastructure with other services on the same host. The interconnectedness of our system and resource infrastructure introduces challenges when inducing failures that simulate a slow or lossy network. We need the ability to slow down the network for one service or data source and test how this impacts other applications that use it—without causing side effects on applications in the same host. \n\nIn this talk, we’ll describe Sloth, a Go tool for inducing network failures. Sloth is a daemon that runs on every host in our infrastructure, including database and index servers. Sloth works by adding and removing complex traffic shaping rules via unix’s tc and iptables. Sloth is implemented with access control and audit logging to ensure its usability without compromising security. It provides a web UI for manual testing and offers an API to embed destructive testing into integration tests. We will discuss specific examples of how using Sloth, we discovered and fixed problems in monitoring, graceful degradation, and usability.\n\nView the full SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"

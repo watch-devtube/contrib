@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - cloud
+    - aws
+title: 'Иван Крутов 2. Bulletproof Selenium Cluster. QA Fest 2019'
+language: Russian
+recordingDate: 1576684578
+description: "The talk from QA Fest 2019 conference in Kyiv, Ukraine.\nPresentation: http://bit.ly/2nJdaHC\nFb: https://www.facebook.com/QAFest/\nWebsite: http://qafest.com/\n\n\nBrowser tests are known to be the flakiest ones. This is partly because browser infrastructure is complicated to maintain. But the second reason is – main stream browser automation tools such as Selenium server are far from being efficient.\nA year ago I have shown Selenoid - a truly efficient replacement of the standard Selenium server. This year I would like to demostrate how to organize a fault-tolerant and easily scalable Selenium cluster using virtual machines in the cloud. I will start by setting up several Selenoid nodes and configure them to send logs and recorded videos to S3-compatible storage. Then I will run multiple Ggr load balancer instances allowing to use all running Selenoid nodes and organize a single entry point to the cluster. Finally we'll discuss how to work with VNC and video recording in such cluster."

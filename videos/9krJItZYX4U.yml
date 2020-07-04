@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Mitigating Noisy Neighbours: Advanced Container Resource Management - Alexander Kanevskiy, Intel'
+language: English
+recordingDate: 1574400487
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\nMitigating Noisy Neighbours: Advanced Container Resource Management - Alexander Kanevskiy, Intel \n\nIn large clusters, some applications attempt to consume a majority of shared resources. These \"noisy neighbours\" cause performance degradation for other workloads in the cluster. At this time, Kubernetes has mechanisms to mitigate this behaviour for CPU and memory only. This talk discusses methods for extending fine-grained resource control on other shared resources, such as block and PCIe I/O, shared CPU caches, and others. It demonstrates how to utilize extensibility points of CRI-O and containerd runtimes to achieve fine-grained resource control. The talk also presents an approach for evolving this method into an extensive and fully dynamic resource management solution for Kubernetes.  Agenda - Problem Statement: different types of \"noisy neighbours\" - Resource management on kernel, OCI, and Kubernetes levels - Stitching the pieces together: dynamic container resource management \n\nhttps://sched.co/UabM"

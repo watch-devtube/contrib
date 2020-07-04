@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+title: 'Vault ''20 - Lustre in Kubernetes'
+language: English
+recordingDate: 1585169380
+description: "Lustre in Kubernetes\n\nDan Lambright, Facebook; Nakul Vankadari Ramesh, Akriti Bhat, Xing Du, and Anand Kumar, Northeastern University\n\nLustre is a distributed file system popular with high performance computing (HPC) workloads. In this talk, we will describe how we run Lustre within Kubernetes. This makes Lustre portable across different cloud platforms and helps automate deployment, elasticity and management. We’ll show how we used Kubevirt to get Lustre’s kernel modules into containers and show our performance measurements using that infrastructure. Our objective has been to integrate Lustre as closely as possible within Kubernetes, and we will demonstrate how we provision Lustre infrastructure using standard YAML configuration files.\n\nThe second part of our talk will discuss our work-in-progress to leverage the Rook framework. We wish to use it to help implement features such as autoscaling and node failure recovery. We are developing a Kubernetes operator that interacts with the KubeVirt operator for VM provisioning and other tasks. We hope to collaborate with the Rook community on this.\n\nView the full Vault '20 program at https://www.usenix.org/conference/vault20/program"

@@ -1,9 +1,15 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
     - containers
 title: 'Monitoring Linux Capabilities in the Container using BPF'
+language: English
 recordingDate: 1538152660
 description: "https://media.ccc.de/v/ASG2018-178-monitoring_linux_capabilities_in_the_container_using_bpf\n\n\n\nModern container engines such as systemd.nspawn and rkt provide a means of restricting privilege by limiting Linux capabilities. At Facebook, however, the heterogeneity of services and complexity of libraries running inside the container, along with our full init system model, make determining the set of capabilities that a task uses non-trivial. In this talk, we will discuss how we tackled this problem in a performant manner by building Capmond, a host-level daemon that leverages BPF to monitor capability usage by a process, and map it reliably to the associated container. Learn about the challenges we faced in making this work on our unique infrastructure, how this compares to known solutions such as auditd, and how we are leveraging Capmond to build sandboxes around capability usage, ssh sessions, system calls, and more. Capmond is in the process of being open sourced, so we'll also talk about how you can use it in your organization to help monitor your production systemd (nspawn) containers.\n\n\n\nWilliam Smith\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/178"

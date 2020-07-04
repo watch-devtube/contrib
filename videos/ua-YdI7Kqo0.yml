@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Build your next-generation stream platform based on Apache Pulsar - Neng Lu'
+recordingDate: 1588078887
+description: 'As organizations are getting better at capturing streaming data and the data velocity and volume are ever-increasing, the traditional messaging queues or log storage systems are suffering from scalability or operational and maintenance problems. Apache Pulsar is a multi-tenant, high-performance distributed pub-sub messaging system. Pulsar includes multiple features, such as native support for multiple clusters in a Pulsar instance, seamless geo-replication of messages across clusters, very low publishing and end-to-end latency, seamless scalability to over a million topics, and guaranteed message delivery with persistent message storage provided by Apache BookKeeper. In this talk, I will use one of the most popular stream processing engines, Apache Flink, as an example, to share our experience in building a stream processing and storage stack. Some of the traits are: * How to ensure end-to-end exactly-once semantics based on Pulsar''s durable and replayable storage as well as Pulsar transaction. * How to implement Pulsar topics as infinite tables based on Pulsar''s schema. * How to efficiently store stream states in Pulsar based on Pulsar''s layered storage API. * A usage scenario that chaining all functionalities in the streaming platform.'

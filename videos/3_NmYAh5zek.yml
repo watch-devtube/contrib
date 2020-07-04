@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - performance
+    - cloud
+    - aws
+title: 'FAST ''20 - InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory'
+language: English
+recordingDate: 1585169991
+description: "InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache\n\nAo Wang and Jingyuan Zhang, George Mason University; Xiaolong Ma, University of Nevada, Reno; Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, and Vasily Tarasov, IBM Research--Almaden; Feng Yan, University of Nevada, Reno; Yue Cheng, George Mason University\n\nInternet-scale web applications are becoming increasingly storage-intensive and rely heavily on in-memory object caching to attain required I/O performance. We argue that the emerging serverless computing paradigm provides a well-suited, cost-effective platform for object caching. We present InfiniCache, a first-of-its-kind in-memory object caching system that is completely built and deployed atop ephemeral serverless functions. InfiniCache exploits and orchestrates serverless functions' memory resources to enable elastic pay-per-use caching. InfiniCache's design combines erasure coding, intelligent billed duration control, and an efficient data backup mechanism to maximize data availability and cost-effectiveness while balancing the risk of losing cached state and performance. We implement InfiniCache on AWS Lambda and show that it: (1) achieves 31 – 96× tenant-side cost savings compared to AWS ElastiCache for a large-object-only production workload, (2) can effectively provide 95.4% data availability for each one hour window, and (3) enables comparative performance seen in a typical in-memory cache.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"

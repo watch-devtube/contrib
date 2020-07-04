@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - performance
+    - cloud
+    - aws
+title: 'USENIX ATC ''19 - Protocol-Aware Recovery for Consensus-Based Storage'
+language: English
+recordingDate: 1566254694
+description: "Ramnatthan Alagappan and Aishwarya Ganesan, University of Wisconsin—Madison; Eric Lee, University of Texas at Austin; Aws Albarghouthi, University of Wisconsin—Madison; Vijay Chidambaram, University of Texas at Austin; Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau, University of Wisconsin—Madison\n\nBest Paper at FAST '18: https://www.usenix.org/conference/fast18/presentation/alagappan\n\nWe introduce protocol-aware recovery (PAR), a new approach that exploits protocol-specific knowledge to correctly recover from storage faults in distributed systems. We demonstrate the efficacy of PAR through the design and implementation of corruption-tolerant replication (CTRL), a PAR mechanism specific to replicated state machine (RSM) systems. We experimentally show that the CTRL versions of two systems, LogCabin and ZooKeeper, safely recover from storage faults and provide high availability, while the unmodified versions can lose data or become unavailable. We also show that the CTRL versions have little performance overhead.\n\nView the full USENIX ATC '19 program at https://www.usenix.org/conference/atc19/technical-sessions"

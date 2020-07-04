@@ -1,0 +1,10 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - swift
+    - ios
+title: 'FAST ''20 - Scalable Parallel Flash Firmware for Many-core Architectures'
+language: English
+recordingDate: 1585169391
+description: "Scalable Parallel Flash Firmware for Many-core Architectures\n\nJie Zhang and Miryeong Kwon, KAIST; Michael Swift, University of Wisconsin–Madison; Myoungsoo Jung, KAIST\n\nNVMe is designed to unshackle flash from a traditional storage bus by allowing hosts to employ many threads to achieve higher bandwidth. While NVMe enables users to fully exploit all levels of parallelism offered by modern SSDs, current firmware designs are not scalable and have difficulty in handling a large number of I/O requests in parallel due to its limited computation power and many hardware contentions.\n\nWe propose DeepFlash, a novel manycore-based storage platform that can process more than a million I/O requests in a second (1MIOPS) while hiding long latencies imposed by its internal flash media. Inspired by a parallel data analysis system, we design the firmware based on many-to-many threading model that can be scaled horizontally. The proposed DeepFlash can extract the maximum performance of the underlying flash memory complex by concurrently executing multiple firmware components across many cores within the device. To show its extreme parallel scalability, we implement DeepFlash on a many-core prototype processor that employs dozens of lightweight cores, analyze new challenges from parallel I/O processing and address the challenges by applying concurrency-aware optimizations. Our comprehensive evaluation reveals that DeepFlash can serve around 4.5 GB/s, while minimizing the CPU demand on microbenchmarks and real server workloads.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"

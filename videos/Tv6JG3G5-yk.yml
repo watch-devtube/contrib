@@ -1,0 +1,11 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - api
+    - rest
+    - containers
+    - kubernetes
+    - architecture
+title: 'Running gRPC Services for Serving Legacy RESTful API on Kubernetes - Sungwon Lee & Hoseong Hwang'
+recordingDate: 1575939945
+description: "Don't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nRunning gRPC Services for Serving Legacy RESTful API on Kubernetes - Sungwon Lee & Hoseong Hwang, Buzzvil \n\ngRPC is best suited for microservice communication. gRPC is fast, clear and powerful. It is an excellent alternative to address the verbose client problem when architecting a microservice infrastructure.\n\nBut the legacy environment is always a big hurdle for changes. You must support existing clients that only understand RESTful HTTP API. In other cases, you need to provide RESTful APIs to the outside world. This session suggests solutions to resolve these problems.\n\nThe session covers:\n- Why the team chose gRPC as the inter-service communication protocol while moving from a monolith to microservices and the challenges they faced.\n- How they leveraged Istio to support RESTful APIs using gRPC servers without additional development.\n- How they set up CI/CD to deliver API changes (including legacy API) using Helm and Spinnaker.\n- What they have learned through it and future improvements."

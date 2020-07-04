@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'FAST ''20 - MAPX: Controlled Data Migration in the Expansion of Decentralized Object Based Storage'
+language: English
+recordingDate: 1585170013
+description: "MAPX: Controlled Data Migration in the Expansion of Decentralized Object-Based Storage Systems\n\nLi Wang, Didi Chuxing; Yiming Zhang, NiceX Lab, NUDT; Jiawei Xu and Guangtao Xue, SJTU\n\nData placement is critical for the scalability of decentralized object-based storage systems. The state-of-the-art CRUSH placement method is a decentralized algorithm that deterministically places object replicas onto storage devices without relying on a central directory. While enjoying the benefits of decentralization such as high scalability, robustness, and performance, CRUSH-based storage systems suffer from uncontrolled data migration when expanding the clusters, which will cause significant performance degradation when the expansion is nontrivial.\n\nThis paper presents MAPX, a novel extension to CRUSH that uses an extra time-dimension mapping (from object creation times to cluster expansion times) for controlled data migration in cluster expansions. Each expansion is viewed as a new layer of the CRUSH map represented by a virtual node beneath the CRUSH root. MAPX controls the mapping from objects onto layers by manipulating the timestamps of the intermediate placement groups (PGs). MAPX is applicable to a large variety of object-based storage scenarios where object timestamps can be maintained as higher-level metadata. For example, we apply MAPX to Ceph-RBD by extending the RBD metadata structure to maintain and retrieve approximate object creation times at the granularity of expansions layers. Experimental results show that the MAPX-based migration-free system outperforms the CRUSH-based system (which is busy in migrating objects after expansions) by up to 4.25× in the tail latency.\n\nView the full FAST '20 program at https://www.usenix.org/conference/fast20/technical-sessions"

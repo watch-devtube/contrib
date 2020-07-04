@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - azure
+    - security
+    - testing
+title: 'NSDI ''17 - Live Video Analytics at Scale with Approximation and Delay-Tolerance'
+language: English
+recordingDate: 1588974542
+description: "Live Video Analytics at Scale with Approximation and Delay-Tolerance\n\nHaoyu Zhang, Microsoft and Princeton University; Ganesh Ananthanarayanan, Peter Bodik, Matthai Philipose, and Paramvir Bahl, Microsoft; Michael J. Freedman, Princeton University\n\nVideo cameras are pervasively deployed for security and smart city scenarios, with millions of them in large cities worldwide. Achieving the potential of these cameras requires efficiently analyzing the live videos in realtime. We describe VideoStorm, a video analytics system that processes thousands of video analytics queries on live video streams over large clusters. Given the high costs of vision processing, resource management is crucial. We consider two key characteristics of video analytics: resource-quality tradeoff with multi-dimensional configurations, and variety in quality and lag goals. VideoStorm’s offline profiler generates query resource quality profile, while its online scheduler allocates resources to queries to maximize performance on quality and lag, in contrast to the commonly used fair sharing of resources in clusters. Deployment on an Azure cluster of 101 machines shows improvement by as much as 80% in quality of real-world queries and 7x better lag, processing video from operational traffic cameras.\n\nView the full NSDI '17 Program at https://www.usenix.org/conference/nsdi17/technical-sessions"

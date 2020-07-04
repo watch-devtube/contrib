@@ -1,8 +1,14 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - unix
 title: 'BPF and the future of the kernel extensibility'
+language: English
 recordingDate: 1538171703
 description: "https://media.ccc.de/v/ASG2018-229-bpf_and_the_future_of_the_kernel_extensibility\n\n\n\n\n\nTo bring cool ideas to life, the Linux kernel and user space need to work together. The core kernel is a stable ABI base, a common denominator for everything that builds on top. In contrast, BPF is a specific know-how, a secret sauce of the cool idea. The Linux kernel needs BPF to stay relevant, and BPF has to become friendlier to programmers. This talk explores the steps taken towards this long-term goal, from recently introduced BPF-to-BPF functions and type information to bounded loops, memory allocation, and beyond.\n\nAlexei Starovoitov\n\nhttps://cfp.all-systems-go.io/en/ASG2018/public/events/229"

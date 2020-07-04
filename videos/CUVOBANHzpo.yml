@@ -1,0 +1,9 @@
+# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+
+tags:
+    - performance
+    - scala
+title: 'Akka streams for high throughput data processing   by Zack Loebel-Begelman'
+language: English
+recordingDate: 1499160600
+description: "This video was recorded at Scala Days Copenhagen 2017\nFollow us on Twitter @ScalaDays or visit our website for more information http://scaladays.org \n\nAbstract: \nWith over 60 million members, Credit Karma is one of the most trusted personal finance tools in the U.S. This scale of information demands a data transfer process designed to handle high throughput. We built an initial Akka Actor implementation but didn’t ask ourselves the key question: What happens when you have actors with vastly different performance characteristics? \n\nWe will look at how we built two distinct services using Akka Actors, how Akka helped us parallelize, parse and send data to our data ingestion service, and why we hit the limits of this system. You will walk away with a greater understanding of backpressure and Akka Streams, warning signs to look for when your actor system may be near it’s capacity, and when Akka Streams is a good choice for your data transfer system.\n\nIf you and or your company have or are building Akka Actor Systems, designed for high throughput this talk may be for you. We will provide guidance on best practices and whether optimizations can improve throughput or whether switching to Akka Streams may be necessary."

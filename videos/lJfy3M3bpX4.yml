@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - java
+    - functional
+title: 'SREcon19 Asia/Pacific - Tuning Java''s G1 Garbage Collector for Realtime Services'
+language: English
+recordingDate: 1563562531
+description: "Andi Chalfant, Facebook, Inc\n\nJava's G1 Garbage Collector is here, and will be replacing Concurrent Mark and Sweep as the new default for JDK10 and later. The G1 collector is a pure stop-the-world collector, and for services with hard and fast latency constraints the premise of a pure stop the world collector can seem daunting. Understanding how the collector works and being able to measure your service workload are crucial to effectively tuning the G1 collector. With the right settings, the G1 collector can work effectively for realtime applications, even on very large heaps. This talk discusses how the G1 collector works, measuring G1's performance, and tuning ergonomics with a focus on latency sensitive services.\n\nView the full SREcon19 Asia/Pacific program at https://www.usenix.org/conference/srecon19asia/program\n\nSign up to find out more about SREcon at https://srecon.usenix.org"

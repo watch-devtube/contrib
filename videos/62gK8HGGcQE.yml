@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - cloud
+    - containers
+    - docker
+    - kubernetes
+    - javascript
+title: 'How To Connect your NodeJS app in Docker to your Oracle Database'
+language: English
+recordingDate: 1567698019
+description: "In this session we’ll cover how to make a connection from a Node.js application in a Docker container to your Oracle Database in three different scenarios.\n\n* Typical Database connection.\n* Database inside a different Docker container.\n* Oracle Autonomous Transaction Processing Cloud Database.\n\nHighlights:\n\n02:55 - Overview\n04:02 - Why use a simple app to test new concepts\n04:43 - What is Docker\n08:16 - Walk through the Dockerfile\n10:17 - Build the Docker image\n13:09 - Connect using a typical database connection\n14:28 - Connect to OracleXE in a different Docker container on the same Docker network\n16:16 - Blaine answered the question incorrectly. You do need to include the network option when you run the OracleXE container\n18:35 - Connect to an Oracle Autonomous Transactin Processing instance\n22:51 - Why you should not add your wallet files to your Docker image\n23:52 - (Bonus) how to connect with a typical database connection using a tnsnames entry\n26:02 - Recap\n26:30 - How this could work in Kubernetes\n28:08 - Chris' blog post on using the Node.js Docker image instead of Oracle Linux\n30:04 - OOW19 program guide\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/\n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://cloud.oracle.com/en_US/tryit"

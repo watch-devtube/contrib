@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'gRPC Deep Dive: Prevent Your Service From Overtaking Itself - Lidi Zheng, Google'
+language: English
+recordingDate: 1574400517
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io \n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects \n\ngRPC Deep Dive: Prevent Your Service From Overtaking Itself - Lidi Zheng, Google \n\nIn any distributed system, it is very common to have mismatched processing power on sending (client) and receiving (server) side. This can result in failures or excessive buffering of messages on either side leading to out-of-memory situation. Fortunately, gRPC has a flow control mechanism that transparently throttles the traffic to protect both services. In this presentation, we will dive into how does networking protocols (like TCP, HTTP, gRPC) control traffic, and how gRPC flow control facilitate your usage of the bandwidth between your services. \n\nhttps://sched.co/Uafi"
