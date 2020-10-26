@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - containers
+    - kubernetes
+title: 'Capacity-aware Dynamic Volume Provisioning For LVM Local Storage- Kazuhito Matsuda & Satoru Takeuchi'
+language: English
+recordingDate: 1599237583
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nCapacity-aware Dynamic Volume Provisioning For LVM Local Storage - Kazuhito Matsuda & Satoru Takeuchi, Cybozu \n\nThis session presents a summary of the existing Kubernetes features to use local storage devices (e.g. hostPath and local persistent volumes) in first, then introduces a novel CSI plugin named TopoLVM.  Applications that can replicate data themselves (e.g. Elasticsearch, MySQL, Ceph) are promising users of local storage because of their needs for lower prices and higher I/O performance storage. Although existing ways enable to use of local storage, the following desired features are not provided yet:  - Raw block volume - Capacity-aware dynamic provision - Online volume resizing  To satisfy these features, the authors created a novel CSI plugin named TopoLVM. It dynamically creates logical volumes of LVM and extends the standard Pod scheduler to consider volume group capacity of each node. Besides, it intends to support more features including online resizing.\n\nhttps://sched.co/ZerD"

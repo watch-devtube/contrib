@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - rust
+title: 'The Hidden Generics in Kubernetes'' API - Eirik Albrigtsen, Babylon Health'
+language: English
+recordingDate: 1599237582
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nThe Hidden Generics in Kubernetes' API - Eirik Albrigtsen, Babylon Health \n\nA look into how apimachinery enforces strong conventions on kubernetes' api, how that impacts client-go, and how we can take advantage of these hidden generic properties to build an actually generic client in rust.  We will go through a kubernetes Object, its generic parts as modelled via a rust Trait, and how this enables the rust compiler to automatically populate all kubernetes objects' api calls and serialization code from a single generic impl.  We will also show examples on how to write single file, performant, async/await rust controllers that follow operator best practices.\n\nhttps://sched.co/Zeit"
