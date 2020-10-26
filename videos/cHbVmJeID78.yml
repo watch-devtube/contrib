@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - storage
+    - containers
+    - kubernetes
+title: 'Intro: Back-Up and Restore in TiKV - Jay Lee, PingCAP'
+language: English
+recordingDate: 1599862873
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io\_The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nIntro: Back-Up and Restore in TiKV - Jay Lee, PingCAP \n\nBacking up and restoring a distributed transactional Key-Value database is always a challenging job. When it takes a lot of time to backup or restore a database, Garbage Collection might break the snapshot used in the backup or restore process. Thus, some changes might be missing. This threatens data safety. TiKV is a distributed Key-Value database that features geo-replication, horizontal scalability, consistent and distributed transactions, and coprocessor support. In this talk, Jay Lee will show how backup and restore work in TiKV, and what has been done to make backup and restore fast and safe. \n\nhttps://sched.co/cpAn"

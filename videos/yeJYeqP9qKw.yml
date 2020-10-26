@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - testing
+title: 'Validating Spark ML Jobs Stopping Failures Before Production on Apache SparkHolden Karau Google'
+language: English
+recordingDate: 1557179339
+description: "As big data jobs move from the proof-of-concept phase into powering real production services, we have to start consider what will happen when everything eventually goes wrong (such as recommending inappropriate products or other decisions taken on bad data). This talk will attempt to convince you that we will all eventually get aboard the failboat (especially with ~40% of respondents automatically deploying their Spark jobs results to production), and its important to automatically recognize when things have gone wrong so we can stop deployment before we have to update our resumes. Figuring out when things have gone terribly wrong is trickier than it first appears, since we want to catch the errors before our users notice them (or failing that before CNN notices them). We will explore general techniques for validation, look at responses from people validating big data jobs in production environments, and libraries that can assist us in writing relative validation rules based on historical data. For folks working in streaming, we will talk about the unique challenges of attempting to validate in a real-time system, and what we can do besides keeping an up-to-date resume on file for when things go wrong. To keep the talk interesting real-world examples (with company names removed) will be presented, as well as several creative-common licensed cat pictures and an adorable panda GIF. If you've seen Holden's previous testing Spark talks this can be viewed as a deep dive on the second half focused around what else we need to do besides good testing practices to create production quality pipelines. If you watched Holden's previous validation talk, come to see the update sample jobs to use as part of your pipeline. If you haven't seen the testing talks watch those on YouTube after you come see this one ????\n\nAbout: Databricks provides a unified data analytics platform, powered by Apache Spark™, that accelerates innovation by unifying data science, engineering and business.\nRead more here:\_https://databricks.com/product/unified-data-analytics-platform\n\nConnect with us:\nWebsite:\_https://databricks.com\nFacebook:\_https://www.facebook.com/databricksinc\nTwitter:\_https://twitter.com/databricks\nLinkedIn:\_https://www.linkedin.com/company/databricks\nInstagram:\_https://www.instagram.com/databricksinc/"

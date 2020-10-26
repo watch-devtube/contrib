@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - mobile
+    - containers
+    - kubernetes
+title: 'High Performance Storage Solution for Large-scale ML Systems - Hongjian Yu & Pengfei Zheng'
+language: English
+recordingDate: 1599862622
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io\_The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nHigh Performance Storage Solution for Large-scale ML Systems - Hongjian Yu, Cheetah Mobile & Pengfei Zheng, Baidu \n\nFor training models that focus on a single pass of the data and for training models where the computation can be easily and efficiently parallelized or offloaded to hardware computational units, moving the data becomes a bigger problem than the computation itself. In particular, moving data from a global filesystem for such processing can be a major bottleneck in the overall computation. Our study shows that even with a small amount of parallelism in such deep learning systems, I/O accounts for a majority of the training time, thus degrading the overall system scalability.  So, We propose a new solution to solve these problems. This solution adopts high-speed hardwares, Several software improvements, such as thread model, load balance sdk, read / write splitting, read path optimization, are also introduced to achieve lower latency and higher throughput. \n\nhttps://sched.co/cp8o"

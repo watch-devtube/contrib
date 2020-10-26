@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - startup
+    - containers
+    - kubernetes
+    - security
+    - rust
+title: 'Implement Kubernetes Runtime Based on Rust-vmm - Yingzhe Ru & Liangyu Zhou, Tencent'
+language: English
+recordingDate: 1599862873
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io\_The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nImplement Kubernetes Runtime Based on Rust-vmm - Yingzhe Ru & Liangyu Zhou, Tencent \n\nFor enhance the isolation of containers, there are many OCI approaches based on hypervisor, such as Qemu, Firecracker, gVisor. Besides these chooses, the user could implement an OCI runtime through rust-vmm. The rust-vmm is an open-source project for building custom Virtual Machine Monitors (VMMs) and hypervisors, developers can create light, security, and efficiency VMM to implement a customized OCI for different scenarios, that will improves security, decreases the startup time, and increases hardware utilization for k8s. In this session, the speaker discusses various approaches and their tradeoffs, introduces the rust-vmm, explores the container security runtime implemented base rust-vmm. Finally, the lecturer demo leveraging the Cloud Hypervisor(which based on the rust-vmm) to generate an OCI, and create a security container based on such OCI runtime in k8s to summarize the above. \n\nhttps://sched.co/cp9R"
