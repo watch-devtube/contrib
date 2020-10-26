@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - web
+    - react
+    - architecture
+    - javascript
+title: 'Andre Staltz - Composable Native APIs'
+recordingDate: 1536920854
+description: "The declarative nature of React components is what makes it composable and attractive for UI development. React Native provides a way of using React for native development, but also introduces a couple of APIs for interacting with native modules, and these are not declarative. It is not always clear where to call these APIs from, and usually they end up in lifecycle hooks or redux middlewares in an unstructured style. In this talk we will see how Cycle.js (or in general, a hexagonal architecture) can help manage both React components and Native APIs in a declarative fashion, to organize code and make it more testable.\n\nThis talk was presented at React Native EU 2017, September 6-7, Wroclaw, Poland."

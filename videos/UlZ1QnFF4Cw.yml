@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - web
+    - react
+    - mobile
+    - android
+    - ios
+title: 'Radosław Pietruszewski - Next-generation React databases'
+recordingDate: 1536932489
+description: "How do you manage user data in your React Native app? A popular approach is to use Redux or MobX with a persistence adapter. This works great for small, simple apps, but it has a serious flaw: it doesn't scale very well. Introducing WatermelonDB — a next generation database for React and React Native. Here's why you should care: \n- Highly scalable. Works as well for 20,000 database records as it does for 100. Instant launch. No matter how much data you have, the app still launches with near-zero performance penalty \n- Lazy loaded everything. Don't load all data at launch, query only the exact records you need. That's why it's fast! \n- Fully reactive. All records and queries are observable using RxJS. A change in one place propagates to all other places automatically \n- Made for React. Comes with a HOC so you can declaratively tie together data and components \n- Relational. Document stores are simple, but relational databases are powerful. Want to find, say, all posts that have a comment by user X? Sure, that'll be about a millisecond. \n- Cross-platform. Works on iOS and Android (using SQLite), on the web (using LokiJS), and it's easy to add more \n- Performant. Uses asynchronous processing, multi-threading (also on the web), resource sharing, and caching to squeeze extra performance \n- Built for sync. Comes with syncing primitives so you can supply your own synchronization code"
