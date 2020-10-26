@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'Webinar: Advancing image security and compliance through Container Image Encryption!'
+language: English
+recordingDate: 1594836549
+description: "When it comes to container image security, you may have heard about image signing, which helps ensure the integrity and provenance of a container image. However, security gaps remain for protecting the confidentiality of the images and ensuring untrusted hosts cannot run them. For example, if a registry is compromised, we don’t want our top secret algorithms to be stolen!\n\nIn this webinar, we will introduce Container Image Encryption, a recently introduced capability to provide developers a way to protect sensitive contents of their container images. This is a cross project effort spanning multiple projects including containerd, crio, skopeo, buildah, and OCI. We will perform a deep dive into the image encryption technology, and show a demo on the end-to-end developer flow, from building and encrypting the image, pushing it to a registry, and decrypting and running it on a kubernetes cluster.\n\nFinally, we will show an example of how the technology can help meet compliance requirements through geofencing execution of container workloads. i.e. being able to say “a container workload should only be runnable by clusters in the EU region.\"\n\nPresenter:\n\nBrandon Lum, Senior Software Engineer\_@IBM"
