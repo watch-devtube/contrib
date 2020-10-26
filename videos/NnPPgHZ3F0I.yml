@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - performance
+    - security
+    - architecture
+title: 'USENIX Security ''20 - NetWarden: Mitigating Network Covert Channels while Preserving Performance'
+language: English
+recordingDate: 1600121434
+description: "NetWarden: Mitigating Network Covert Channels while Preserving Performance\n\nJiarong Xing, Qiao Kang, and Ang Chen, Rice University\n\nNetwork covert channels are an advanced threat to the security of distributed systems. Existing defenses all come at the cost of performance, so they present significant barriers to a practical deployment in high-speed networks. We propose NetWarden, a novel defense whose key design goal is to preserve TCP performance while mitigating covert channels. The use of programmable data planes makes it possible for NetWarden to adapt defenses that were only demonstrated before as proof of concept, and apply them at linespeed. Moreover, NetWarden uses a set of performance boosting techniques to temporarily increase the performance of connections that have been affected by covert channel mitigation, with the ultimate goal of neutralizing the overall performance impact. NetWarden also uses a fastpath/slowpath architecture to combine the generality of software and the efficiency of hardware for effective defense. Our evaluation shows that NetWarden works smoothly with complex applications and workloads, and that it can mitigate covert timing and storage channels with little performance disturbance.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

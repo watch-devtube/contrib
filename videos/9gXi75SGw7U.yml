@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - career
+    - security
+title: '#HITBLockdown002 D1T2 - HTTP Statuses as C2 Commands and Compromised TLS - Denis Legezo'
+language: English
+recordingDate: 1597204829
+description: "From the researcher’s point of view it’s always a plus when in analyzed malware some really new and unusual techniques are implemented. During 2019 one of actors which let us to solve interesting puzzles was the authors of COMPFun. The COMpfun malware was initially documented by G-DATA in 2014, although G-DATA didn’t identify which actor was using this malware, we tentatively linked it to the Turla APT, based on the victimology.\n\n\n\nIn the Autumn we already described one of the cases of custom malware designed to compromise TLS-encrypted communications used in the HTTPS protocol (https://securelist.com/compfun-successor-reductor/93633/). Via a combination of installing digital certificates on the target’s browsers and manipulating the TLS handshake to their own schema, the malware operators are able to distinguish the target’s traffic, even after NAT routing, and decrypt it. To mark and distinguish the target’s traffic the developers come up with their own technically ingenious mechanisms – by patching the system’s PRNG functions.\n\n\nLater on we found another sample with very strong code similarities. These files show us that with the same code base developers solve very different problems. This time code doesn’t manipulate TLS traffic at all. These newer samples use non-existent or rare HTTP statuses (422-429) as commands. Targets beacon C2s with specific ETag and awaits for C2 response to proceed the commands. To the submission date this is ongoing research, but it’s already obvious that some developers’ efforts here goes to the spreading further to the plugged USB devices. We assume this functionality has to serve for air-gaps.\n\n\nWay of injection into system processes’ memory also worth to mention. Needed API functions addressed in this case transmitted as parameter and as a result injected code by itself (i.e. dumped from memory) could barely be analyzed without this additional data. COMPFun developers were creative and potent (i.e. in terms on persistence) back in 2014, they are still the same now in 2019.\n\n\n=== \n\n\nIn Kaspersky Lab Denis Legezo is working as Senior Security Researcher with Global Research and Analysis Team (GReAT) and specialized on targeted attacks research. He got his degree at cybernetics and applied mathematics facility of Moscow State University in 2002. His diploma topic was directly related to information security. Then he started his career as a programmer in different public and commercial companies. Before joining Kaspersky Lab in the beginning of 2014, he worked as a technical expert for one of the Russian IT companies. He presented his targeted malware researches at RSA Conference, SAS, VirusBulletin, MBLT Dev"

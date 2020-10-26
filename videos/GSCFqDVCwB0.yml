@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+    - functional
+    - embedded
+title: 'USENIX Security ''20 - Analysis of DTLS Implementations Using Protocol State Fuzzing'
+language: English
+recordingDate: 1600121423
+description: "Analysis of DTLS Implementations Using Protocol State Fuzzing\n\nPaul Fiterau-Brostean and Bengt Jonsson, Uppsala University; Robert Merget, Ruhr-University Bochum; Joeri de Ruiter, SIDN Labs; Konstantinos Sagonas, Uppsala University; Juraj Somorovsky, Paderborn University\n\nRecent years have witnessed an increasing number of protocols relying on UDP. Compared to TCP, UDP offers performance advantages such as simplicity and lower latency. This has motivated its adoption in Voice over IP, tunneling technologies, IoT, and novel Web protocols. To protect sensitive data exchange in these scenarios, the DTLS protocol has been developed as a cryptographic variation of TLS. DTLS’s main challenge is to support the stateless and unreliable transport of UDP. This has forced protocol designers to make choices that affect the complexity of DTLS, and to incorporate features that need not be addressed in the numerous TLS analyses.\n\nWe present the first comprehensive analysis of DTLS implementations using protocol state fuzzing. To that end, we extend TLS-Attacker, an open source framework for analyzing TLS implementations, with support for DTLS tailored to the stateless and unreliable nature of the underlying UDP layer. We build a framework for applying protocol state fuzzing on DTLS servers, and use it to learn state machine models for thirteen DTLS implementations. Analysis of the learned state models reveals four serious security vulnerabilities, including a full client authentication bypass in the latest JSSE version, as well as several functional bugs and non-conformance issues. It also uncovers considerable differences between the models, confirming the complexity of DTLS state machines.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

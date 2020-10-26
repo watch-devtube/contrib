@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - lisp
+    - 'data structures'
+title: '#HITBLockdown002 D1T2 - MemoryRanger Comes to the Rescue Again - Igor Korkin'
+language: English
+recordingDate: 1597143328
+description: "The presented research is focused on three attacks on kernel data in Windows and the way to stop them using MemoryRanger.\n\n\n\nThe attacks on exclusively opened files give hackers illegal read and write access and can be implemented by patching data structures of NTFS driver (Hijacking NTFS structures) and ObjectManager (Handle Hijacking). During file operations, several internal structures are allocated dynamically and used by the OS kernel.\n\n\nHijacking NTFS structures.\nNTFS driver dispatches one group of them, e.g. Stream Control Block. Hijacking NTFS structures is based on overwriting such structures without modifying file objects. Such attacks provide unauthorized access to the files opened without shared access.\n\n\nHandle Hijacking.\nObjectManager controls another group of internal structures. This group comprises handle table entries, which play the role of intermediaries between file handles and file objects. Patching handle table entries leads to reading and overwriting files illegally.\n\n\nToken Hijacking attack is focused on escalating process privileges. Updated Windows Defender Antivirus detects such escalations by monitoring token-swapping attempts. Tampering with the target process token structure results in elevated process privileges, without swapping the token field.\n\n\nThese attacks on data have been successfully tested on the newest Windows 10 1903. They occur transparently for the OS security features, e.g. PatchGuard and Device Guard.\n\n\nMemoryRanger is a hypervisor, which protects OS kernel memory using VT-x and EPT technologies. MemoryRanger prevents Hijacking NTFS structures and Handle Hijacking by locating these structures and restricting access to them. MemoryRanger grants various access rights to different parts of these structures. To block Token Hijacking a special kernel enclave is allocated to host sensitive data. This new scheme isolates token structures from all drivers without restricting OS kernel. Various cybersecurity solutions will benefit from applying MemoryRanger.\n\n\nThe source and demos are here https://github.com/IgorKorkin/MemoryRanger\n\n\n=== \n\n\nIgor Korkin, Ph.D. is a security researcher from Moscow, Russia. He has been in cybersecurity for about 10 years working on various areas related to the rootkit detection, memory forensics, and Windows OS kernel security.\n\n\nHe enjoys applying both academic knowledge and practical expertise to make computer systems secure and reliable. In his thesis, he carried out cross-disciplinary research to detect hidden hardware-based hypervisors. He is keen on responding to real-world challenges. His research results were presented at Black Hat 2018 (UK), REcon 2016 (Canada), six ADFSL conferences 2014-2019 (USA), and RusCrypto 2011 (Russia)."

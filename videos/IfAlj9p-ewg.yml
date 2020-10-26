@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - lisp
+title: 'WOOT ''20 - Automatic Generation of Compact Printable Shellcodes for x86'
+language: English
+recordingDate: 1600121167
+description: "Automatic Generation of Compact Printable Shellcodes for x86\n\nDhrumil Patel, Description Dhirubhai Ambani Institute of Information and Communication Technology; Aditya Basu, Pennsylvania State University; Anish Mathuria, Description Dhirubhai Ambani Institute of Information and Communication Technology\n\nShellcode is a sequence of executable instruction(s) that can be used to exploit vulnerable processes by injecting it into a processes address space. A typical shellcode comprises of printable (ex. 'a', '{', '/', etc) and non-printable bytes (ex. DEL, INS, etc). A way to inject these shellcodes into a processes address space is by leveraging a buffer overflow exploit. However defensive filters will drop non-printable bytes from program inputs, thereby rendering the shellcode exploit useless. In order to bypass these defensive filters, shellcodes with only printable characters can be used. However it is a non-trivial task to write printable shellcodes. For this reason researchers have come up with tools to convert arbitrary shellcodes into functionally equivalent printable shellcodes. One of the popular tools is based on the Riley Eller algorithm. One drawback of this algorithm is that the resultant shellcode is much larger than the original shellcode. In this paper we present a new encoding scheme which produces a much more compact (about ~40% smaller) printable shellcode as compared to the Riley Eller algorithm.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"

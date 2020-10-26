@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - security
+title: 'USENIX Security ''20 - Stolen Memories: Leveraging Model Memorization for Calibrated White-Box'
+language: English
+recordingDate: 1600121512
+description: "USENIX Security '20 - Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference\n\nKlas Leino and Matt Fredrikson, Carnegie Mellon University\n\nMembership inference (MI) attacks exploit the fact that machine learning algorithms sometimes leak information about their training data through the learned model. In this work, we study membership inference in the white-box setting in order to exploit the internals of a model, which have not been effectively utilized by previous work. Leveraging new insights about how overfitting occurs in deep neural networks, we show how a model's idiosyncratic use of features can provide evidence for membership to white-box attackers---even when the model's black-box behavior appears to generalize well---and demonstrate that this attack outperforms prior black-box methods. Taking the position that an effective attack should have the ability to provide confident positive inferences, we find that previous attacks do not often provide a meaningful basis for confidently inferring membership, whereas our attack can be effectively calibrated for high precision. Finally, we examine popular defenses against MI attacks, finding that (1) smaller generalization error is not sufficient to prevent attacks on real models, and (2) while small-ϵ-differential privacy reduces the attack's effectiveness, this often comes at a significant cost to the model's accuracy; and for larger ϵ that are sometimes used in practice (e.g., ϵ=16), the attack can achieve nearly the same accuracy as on the unprotected model.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

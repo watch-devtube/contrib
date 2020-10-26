@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - security
+title: '#HITBLockdown002 D1T1 - Zen: A Complex Campaign of Harmful Android Apps - Łukasz Siewierski'
+language: English
+recordingDate: 1596495306
+description: "Android malware authors go to great lengths to come up with increasingly clever ways to monetise their apps. The author (or a group) presented during my talk shows quite the range, from simply repacking apps with a bespoke advertising SDK to writing a sophisticated rooting trojan with new techniques never seen in other harmful apps.\n\n\n\nTheir most complex creation is called “Zen”. Zen bundles exploits to gain privileged root access. It then uses this access to create fake Google accounts on devices. These accounts are created by abusing accessibility service with additional help from code injection.\n\n\nApart from that, authors also wrote click fraud and spammy apps, mostly because of the increasing difficulty of obtaining a reliable Android exploit and security improvements in newer Android versions.\n\n\nI will present all the different kinds and variations of malware coming from this group, highlighting the most interesting, complex and unusual technical details. This includes circumventing CAPTCHA images and a number of persistence mechanisms, including the modification of Android framework files.\n\n\n=== \n\n\nŁukasz Siewierski is a Reverse Engineer on the Android Security team at Google, where he takes apart malware and figures out how to stop it from working. Previously he was taking apart security incidents at the .pl domain registry, figuring out how to prevent them from happening in the future. Siewierski likes sharing his knowledge by presenting at conferences, such as Kaspersky SAS, Virus Bulletin or RSA Conference."

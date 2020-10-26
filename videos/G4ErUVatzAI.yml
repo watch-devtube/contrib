@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - ux
+    - mobile
+    - android
+    - security
+title: 'USENIX Security ''20 - FIRMSCOPE: Automatic Uncovering of Privilege-Escalation Vulnerabilities'
+language: English
+recordingDate: 1600121423
+description: "FIRMSCOPE: Automatic Uncovering of Privilege-Escalation Vulnerabilities in Pre-Installed Apps in Android Firmware\n\nMohamed Elsabagh, Ryan Johnson, and Angelos Stavrou, Kryptowire; Chaoshun Zuo, Qingchuan Zhao, and Zhiqiang Lin, The Ohio State University\n\nAndroid devices ship with pre-installed privileged apps in their firmware — some of which are essential system components, others deliver a unique user experience — that users cannot disable. These pre-installed apps are assumed to be secure as they are handpicked or developed by the device vendors themselves rather than third parties. Unfortunately, we have identified an alarming number of Android firmware that contain privilege-escalation vulnerabilities in pre-installed apps, allowing attackers to perform unauthorized actions such as executing arbitrary commands, recording the device audio and screen, and accessing personal data to name a few. To uncover these vulnerabilities, we built FIRMSCOPE, a novel static analysis system that analyzes Android firmware to expose unwanted functionality in pre-installed apps using an efficient and practical context-sensitive, flow-sensitive, field-sensitive, and partially object-sensitive taint analysis. Our experimental results demonstrate that FIRMSCOPE significantly outperforms the state-of-the-art Android taint analysis solutions both in terms of detection power and runtime performance. We used FIRMSCOPE to scan 331,342 pre-installed apps in 2,017 Android firmware images from v4.0 to v9.0 from more than 100 Android vendors. Among them, FIRMSCOPE uncovered 850 unique privilege-escalation vulnerabilities, many of which are exploitable and 0-day.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

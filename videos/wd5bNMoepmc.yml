@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - python
+title: '#HITBLockdown002 D1T1 - FIDLing with Decompilers - Carlos Garcia Prado & Ryan Warns'
+language: English
+recordingDate: 1596495656
+description: "Let’s face it, reversing binaries is hard. Even professional Reverse Engineers who specialize in a couple of architectures (i.e. x86, x86_64, ARM…) struggle when confronted with lesser common machine code (PPC, MIPS…).\n\n\n\nDecompilers assist reverse engineers by presenting a unified view across architectures; a representation that may be very similar to the original source code. Popularized immensely by free tools like Ghidra, we are entering the “Era of the Decompiler”. Decompilers are reaching maturity and currently belong in the toolset of any Reverse Engineer.\n\n\nIn the first part of this talk, we will introduce the audience to the basics of decompilation and discuss the most popular options available today. After this overview, we will pivot to the specifics of the Hex-Rays Decompiler, which is popularly viewed as the industry de facto standard. Finally, we will present our newly released tool, FIDL, a library abstracting away the lower level details of the default decompiler API.\n\n\nWe will be showing many FIDL usage examples and short demos during the talk.\n\n\nFIDL Github: https://github.com/fireeye/FIDL\nFIDL examples, tutorial and documentation: https://fidl.readthedocs.io/en/latest/\n\n\n=== \n\n\nI studied particle physics back then when computers were not cool yet. After realizing I was missing out, I started teaching myself and have been in security for about 10 years now. I have worked mostly in offensive (security) roles in several companies, from small consulting firms to large ones, lately involved in corporate security at Siemens and [redacted] at the Huawei European Research Center. Currently I am a Staff Vulnerability Engineer in the FLARE team (FireEye) where I do vulnerability research, tool development and malware analysis. I like IDA, Windows, Python and Windbg popping up after a fuzzing campaign.\n\n\n\n--- \n\n\nRyan Warns is a Staff Reverse Engineer working for FLARE’s Offensive Task Force (OTF). In his current role he acts as a reverse engineer performing malware analysis, and a security researcher specializing in vulnerability analysis and payload development in support of FireEye’s Red Team. Prior to joining FLARE he worked for the DoD specializing in Windows Internals, capability development, vulnerability research, and low-level software engineering."

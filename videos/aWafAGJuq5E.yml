@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - security
+title: 'USENIX Security ''20 - Visor: Privacy-Preserving Video Analytics as a Cloud Service'
+language: English
+recordingDate: 1600121512
+description: "Visor: Privacy-Preserving Video Analytics as a Cloud Service\n\nRishabh Poddar, UC Berkeley and Microsoft Research; Ganesh Ananthanarayanan, Srinath Setty, and Stavros Volos, Microsoft Research; Raluca Ada Popa, UC Berkeley\n\nVideo-analytics-as-a-service is becoming an important offering for cloud providers. A key concern in such services is privacy of the videos being analyzed. While trusted execution environments (TEEs) are promising options for preventing the direct leakage of private video content, they remain vulnerable to side-channel attacks.\n\nWe present Visor, a system that provides confidentiality for the user’s video stream as well as the ML models in the presence of a compromised cloud platform and untrusted co-tenants. Visor executes video pipelines in a hybrid TEE that spans both the CPU and GPU. It protects the pipeline against side-channel attacks induced by data-dependent access patterns of video modules, and also addresses leakage in the CPU-GPU communication channel. Visor is up to 1000× faster than naïve oblivious solutions, and its overheads relative to a non-oblivious baseline are limited to 2×–6×.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

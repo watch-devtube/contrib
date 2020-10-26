@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - A Spectral Analysis of Noise: A Comprehensive, Automated, Formal Analysis'
+language: English
+recordingDate: 1600121441
+description: "A Spectral Analysis of Noise: A Comprehensive, Automated, Formal Analysis of Diffie-Hellman Protocols\n\nGuillaume Girol, CEA, List, Université Paris-Saclay, France; Lucca Hirschi, Inria & LORIA, France; Ralf Sasse, Department of Computer Science, ETH Zurich; Dennis Jackson, University of Oxford, United Kingdom; Cas Cremers, CISPA Helmholtz Center for Information Security; David Basin, Department of Computer Science, ETH Zurich\n\nThe Noise specification describes how to systematically construct a large family of Diffie-Hellman based key exchange protocols, including the secure transports used by WhatsApp, Lightning, and WireGuard. As the specification only makes informal security claims, earlier work has explored which formal security properties may be enjoyed by protocols in the Noise framework, yet many important questions remain open.\n\nIn this work we provide the most comprehensive, systematic analysis of the Noise framework to date. We start from first principles and, using an automated analysis tool, compute the strongest threat model under which a protocol is secure, thus enabling formal comparison between protocols. Our results allow us to objectively and automatically associate each informal security level presented in the Noise specification with a formal security claim.\n\nWe also provide a fine-grained separation of Noise protocols that were previously described as offering similar security properties, revealing a subclass for which alternative Noise protocols exist that offer strictly better security guarantees. Our analysis also uncovers missing assumptions in the Noise specification and some surprising consequences, e.g., in some situations higher security levels yield strictly worse security.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Remote Side-Channel Attacks on Anonymous Transactions'
+language: English
+recordingDate: 1600121423
+description: "Remote Side-Channel Attacks on Anonymous Transactions\n\nFlorian Tramer and Dan Boneh, Stanford University; Kenny Paterson, ETH Zurich\n\nPrivacy-focused crypto-currencies, such as Zcash or Monero, aim to provide strong cryptographic guarantees for transaction confidentiality and unlinkability. In this paper, we describe side-channel attacks that let remote adversaries bypass these protections.\n\nWe present a general class of timing side-channel and traffic-analysis attacks on receiver privacy. These attacks enable an active remote adversary to identify the (secret) payee of any transaction in Zcash or Monero. The attacks violate the privacy goals of these crypto-currencies by exploiting side-channel information leaked by the implementation of different system components. Specifically, we show that a remote party who measures the response time of a user's P2P node to certain requests can link all transactions that send funds to that user. The timing differences are large enough that the attacks can be mounted remotely over a WAN. We responsibly disclosed the issues to the affected projects, and they have patched the vulnerabilities.\n\nWe further study the impact of timing side-channels on the zero-knowledge proof systems used in these crypto-currencies. We observe that in Zcash's implementation, the time to generate a zero-knowledge proof depends on secret transaction data, and in particular on the amount of transacted funds. Hence, an adversary capable of measuring proof generation time can break transaction confidentiality, despite the proof system's zero-knowledge property.\n\nOur attacks highlight the dangers of side-channel leakage in anonymous crypto-currencies, and the need to systematically protect them against such attacks.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

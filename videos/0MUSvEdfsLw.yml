@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+title: 'WOOT ''20 - Bankrupt Covert Channel: Turning Network Predictability into Vulnerability'
+language: English
+recordingDate: 1600121152
+description: "Bankrupt Covert Channel: Turning Network Predictability into Vulnerability\n\nDmitrii Ustiugov, Plamen Petrov, M. R. Siavash Katebzadeh, and Boris Grot, University of Edinburgh\n\nRecent years have seen a surge in the number of data leaks despite aggressive information-containment measures deployed by cloud providers. When attackers acquire sensitive data in a secure cloud environment, covert communication channels are a key tool to exfiltrate the data to the outside world. While the bulk of prior work focused on covert channels within a single CPU, they require the spy (transmitter) and the receiver to share the CPU, which might be difficult to achieve in a cloud environment with hundreds or thousands of machines.\n\nThis work presents Bankrupt, a high-rate highly clandestine channel that enables covert communication between the spy and the receiver running on different nodes in an RDMA network. In Bankrupt, the spy communicates with the receiver by issuing RDMA network packets to a private memory region allocated to it on a different machine (an intermediary). The receiver similarly allocates a separate memory region on the same intermediary, also accessed via RDMA. By steering RDMA packets to a specific set of remote memory addresses, the spy causes deep queuing at one memory bank, which is the finest addressable internal unit of main memory. This exposes a timing channel that the receiver can listen on by issuing probe packets to addresses mapped to the same bank but in its own private memory region. Bankrupt channel delivers 74Kb/s throughput in CloudLab's public cloud while remaining undetectable to the existing monitoring capabilities, such as CPU and NIC performance counters.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"

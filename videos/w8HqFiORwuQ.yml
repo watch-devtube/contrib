@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - devops
+    - containers
+    - security
+title: '#HITBLockdown002 D2T2 - Hacking the DevOps Butler: From Nothing to Admin - Nimrod Stoler'
+language: English
+recordingDate: 1598310148
+description: "Jenkins, also referred to as the DevOps Butler, is an open source automation server used to accelerate the software delivery process. It is now widely considered the de-facto standard in open source continuous integration tools. For many organizations, Jenkins effectively acts as the DevOps engine, addressing everything from source code management to delivering code to production. Jenkins is an indispensable part of technology stacks around the world. Facebook, Netflix, Lyft, ebay and LinkedIn are examples of very large organizations that utilize Jenkins in their software DevOps stacks.\n\n\n\nDuring our research of the Jenkins software we discovered several interesting vulnerabilities, 6 of them got CVEs. In this talk we mainly speak of two of them. The two combine together to create a security hole, allowing anonymous (completely unauthenticated) attackers to take over, and gain full privileges on Jenkins to become admins by sending specially crafted HTTP packets to the Jenkins master.\n\n\nThis allows anyone to login to Jenkins as admins and gain complete control of the entire Jenkins infrastructure, including access to credentials and code, and although these issues were fixed, thousands of Jenkins servers are still vulnerable.\n\n\nIn this talk we will describe in detail the code reverse-engineering process that led us to discover these vulnerabilities and how we managed to exploit them to trip the Jenkins security switch OFF and gain control over the entire Jenkins infrastructure.\n\n\n=== \n\n\nNimrod Stoler is a cyber security researcher at CyberArk Labs where he focuses on researching the latest attack techniques and applying lessons learned to improve cyber defenses. Nimrod’s primary research areas are network defense, DevOps analysis and security and Linux containers. Prior to CyberArk, Nimrod served in several high-technology roles doing research and development of software and hardware. Nimrod holds an LLB in law and BA in economics."

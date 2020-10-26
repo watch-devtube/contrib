@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - aws
+    - security
+    - embedded
+title: '#HITBLockdown002 D1T2 - Exploring and Exploiting the SQLite - Wenxiang Qian'
+language: English
+recordingDate: 1597143002
+description: "SQLite is one of the most widely deployed database engines. Because of its huge number of users, it also attracted many vendors and researchers to find the vulnerabilities. For example, Google has run many structure-aware fuzzers and targeted fuzzers on its ClusterFuzz, but there are still many vulnerabilities left undiscovered.\n\n\n\nBack in November 2018, we discovered 5 vulnerabilities in SQLite, called Magellan. After we used Magellan vulnerability to attack Google Home and Chrome, many new protective measures have been introduced into SQLite, especially WebSQL.\n\n\nThis year, we have found another 7 vulnerabilities and 3 bugs that some of them can chain together, bypass the Defense-In-Depth, and cause RCE in Chrome through WebSQL, or any SQLite binary with FTS3 and queries available. These (Eg. CVE-2019-13734, CVE-2019-13750, CVE-2019-13751, CVE-2019-13752, CVE-2019-13753) vulnerabilities are discovered through both manual audit and fuzzing.\n\n\nAfter we reported all the vulnerabilities to Google & SQLite, we also committed our fuzzer to Google, named sqlite3_shadow_table_fuzzer. It is now running by ClusterFuzz, and what is exhilarating is that it has found 6 more new vulnerabilities or bugs in the first week and 3 more in the next week since it started fuzzing (chromium issue ID: 1028722, 1029002, 1029027, 1029210, 1029506, 1030709, 1035663, 1035710, 1037786). At present, the fuzzer is running on Clusterfuzzer, and multiple vulnerabilities have been continuously discovered.\n\n\nIn this talk, I’ll show you how I manually audit the code to find the weakest part and then explain why Google’s fuzzer didn’t find the vulnerabilities I found. I will also introduce my research on the effectiveness of fuzzing focused targets, through a series of manual audits to find out the inadequacies in the existing fuzzer and how we can optimize them to achieve wonderful results. Also, how to use every byte wisely so that researchers can find security problems with fewer attempts when they don’t have as many machines as ClusterFuzz.\n\n\n=== \n\n\nWenxiang Qian is a senior security researcher at Tencent Blade Team. He focuses on the security research of IoT devices and web browsers. He has found and reported multiple vulnerabilities of Chrome, Edge, and smart speakers such as Amazon Echo and Google Home. He was on the top 100 of the annual MSRC list (2016 & 2017 ) and speaker of Defcon 26 / Defcon 27 / BlackHat 2019 USA and published a book called “Whitehat Talks about Web Browser Security”."

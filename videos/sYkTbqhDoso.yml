@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - GREYONE: Data Flow Sensitive Fuzzing'
+language: English
+recordingDate: 1600121423
+description: "GREYONE: Data Flow Sensitive Fuzzing\n\nShuitao Gan, State Key Laboratory of Mathematical Engineering and Advanced Computing; Chao Zhang, Institute for Network Sciences and Cyberspace of Tsinghua University; Beijing National Research Center for Information Science and Technology; Peng Chen, ByteDance Inc.; Bodong Zhao, Institute for Network Science and Cyberspace, Tsinghua University; Xiaojun Qin and Dong Wu, State Key Laboratory of Mathematical Engineering and Advanced Computing; Zuoning Chen, National Research Center of Parallel Computer Engineering and Technology\n\nData flow analysis (e.g., dynamic taint analysis) has proven to be useful for guiding fuzzers to explore hard-to-reach code and find vulnerabilities. However, traditional taint analysis is labor-intensive, inaccurate and slow, affecting the fuzzing efficiency. Apart from taint, few data flow features are utilized.\n\nIn this paper, we proposed a data flow sensitive fuzzing solution GREYONE. We first utilize the classic feature taint to guide fuzzing. A lightweight and sound fuzzing-driven taint inference (FTI) is adopted to infer taint of variables, by monitoring their value changes while mutating input bytes during fuzzing. With the taint, we propose a novel input prioritization model to determine which branch to explore, which bytes to mutate and how to mutate. Further, we use another data flow feature constraint conformance, i.e., distance of tainted variables to values expected in untouched branches, to tune the evolution direction of fuzzing.\n\nWe implemented a prototype of GREYONE and evaluated it on the LAVA data set and 19 real world programs. The results showed that it outperforms various state-of-the-art fuzzers in terms of both code coverage and vulnerability discovery. In the LAVA data set, GREYONE found all listed bugs and 336 more unlisted. In real world programs, GREYONE on average found 2.12X unique program paths and 3.09X unique bugs than state-of-the-art evolutionary fuzzers, including AFL, VUzzer, CollAFL, Angora and Honggfuzz, Moreover, GREYONE on average found 1.2X unique program paths and 1.52X unique bugs than a state-of-the-art symbolic exeuction assisted fuzzer QSYM. In total, it found 105 new security bugs, of which 41 are confirmed by CVE.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

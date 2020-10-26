@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - testing
+    - embedded
+title: 'WOOT ''20 - One Exploit to Rule them All? On the Security of Drop-in Replacement and Counterfeit...'
+language: English
+recordingDate: 1600121174
+description: "WOOT '20 - One Exploit to Rule them All? On the Security of Drop-in Replacement and Counterfeit Microcontrollers\n\nJohannes Obermaier, Marc Schink, and Kosma Moczek\n\nWith the increasing complexity of embedded systems, the firmware has become a valuable asset. At the same time, pressure for cost reductions in hardware is imminent. These two aspects are united at the heart of the system, i.e., the microcontroller. It runs and protects its firmware, but simultaneously has to prevail against cheaper alternatives. For the very popular STM32F1 microcontroller series, this has caused the emergence of many competitors in the last few years who offer drop-in replacements or even sell counterfeit devices at a fraction of the original price. Thus, the question emerges whether the replacements are silicon-level clones and, if not, whether they provide better, equal, or less security. In this paper, we analyze a total of six devices by four manufacturers, including the original device, in depth. Via a low-level analysis, we identify all of them as being individually developed devices. We further put the focus on debug and hardware security, discovering several novel vulnerabilities in all devices, causing the exposure of the entire firmware. All of the presented vulnerabilities, including invasive ones, are on a Do it Yourself (DiY) level without the demand for a sophisticated lab -- thereby underlining the urgency for hardware fixes. To facilitate further research, reproduction, and testing of other devices, we provide a comprehensive description of all vulnerabilities in this paper and code for proofs-of-concepts online.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"

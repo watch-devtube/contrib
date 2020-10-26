@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+    - security
+title: 'USENIX Security ''20 - SANNS: Scaling Up Secure Approximate k-Nearest Neighbors Search'
+language: English
+recordingDate: 1600121453
+description: "SANNS: Scaling Up Secure Approximate k-Nearest Neighbors Search\n\nHao Chen, Microsoft Research; Ilaria Chillotti, imec-COSIC KU Leuven & Zama; Yihe Dong, Microsoft; Oxana Poburinnaya, Simons Institute; Ilya Razenshteyn, Microsoft Research; M. Sadegh Riazi, UC San Diego\n\nThe k-Nearest Neighbor Search (k-NNS) is the backbone of several cloud-based services such as recommender systems, face recognition, and database search on text and images. In these services, the client sends the query to the cloud server and receives the response in which case the query and response are revealed to the service provider. Such data disclosures are unacceptable in several scenarios due to the sensitivity of data and/or privacy laws.\n\nIn this paper, we introduce SANNS, a system for secure k-NNS that keeps client's query and the search result confidential. SANNS comprises two protocols: an optimized linear scan and a protocol based on a novel sublinear time clustering-based algorithm. We prove the security of both protocols in the standard semi-honest model. The protocols are built upon several state-of-the-art cryptographic primitives such as lattice-based additively homomorphic encryption, distributed oblivious RAM, and garbled circuits. We provide several contributions to each of these primitives which are applicable to other secure computing tasks. Both of our protocols rely on a new circuit for the approximate top-k selection from n numbers that is built from O(n + k2) comparators.\n\nWe have implemented our proposed system and performed extensive experimental results on four datasets in two different computation environments, demonstrating more than 18 — 31 × faster response time compared to optimally implemented protocols from the prior work. Moreover, SANNS is the first work that scales to the database of 10 million entries, pushing the limit by more than two orders of magnitude.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

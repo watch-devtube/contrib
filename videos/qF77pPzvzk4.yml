@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - lisp
+title: 'USENIX Security ''20 - Automating the Development of Chosen Ciphertext Attacks'
+language: English
+recordingDate: 1600121423
+description: "USENIX Security '20 - Automating the Development of Chosen Ciphertext Attacks\n\nGabrielle Beck, Maximilian Zinkus, and Matthew Green, Johns Hopkins University\n\nIn this work we investigate the problem of automating the development of adaptive chosen ciphertext attacks on systems that contain vulnerable format oracles. Unlike previous attempts,which simply automate the execution of known attacks, we consider a more challenging problem: to programmatically derive a novel attack strategy, given only a machine-readable description of the plaintext verification function and the malleability characteristics of the encryption scheme.We present a new set of algorithms that use SAT and SMT solvers to reason deeply over the design of the system, producing an automated attack strategy that can entirely decrypt protected messages. Developing our algorithms required us to adapt techniques from a diverse range of research fields, as well as to explore and develop new ones. We implement our algorithms using existing theory solvers. The result is a practical tool called Delphinium that succeeds against real-world and contrived format oracles. To our knowledge, this is the first work to automatically derive such complex chosen ciphertext attacks.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

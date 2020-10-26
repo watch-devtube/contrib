@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - testing
+title: 'WOOT ''20 - Firmware Insider: Bluetooth Randomness is Mostly Random'
+language: English
+recordingDate: 1600121175
+description: "Firmware Insider: Bluetooth Randomness is Mostly Random\n\nJörn Tillmanns and Jiska Classen, SEEMOO, TU Darmstadt; Felix Rohrbach, Cryptoplexity, TU Darmstadt; Matthias Hollick, SEEMOO, TU Darmstadt\n\nBluetooth chips must include a Random Number Generator (RNG). This RNG is used internally within cryptographic primitives but also exposed to the operating system for chip-external applications. In general, it is a black box with security-critical authentication and encryption mechanisms depending on it. In this paper, we evaluate the quality of RNGs in various Broadcom and Cypress Bluetooth chips. We find that the RNG implementation significantly changed over the last decade. Moreover, most devices implement an insecure Pseudo-Random Number Generator (PRNG) fallback. Multiple popular devices, such as the Samsung Galaxy S8 and its variants as well as an iPhone, rely on the weak fallback due to missing a Hardware Random Number Generator (HRNG). We statistically evaluate the output of various HRNGs in chips used by hundreds of millions of devices. While the Broadcom and Cypress HRNGs pass advanced tests, it remains indistinguishable for users if a Bluetooth chip implements a secure RNG without an extensive analysis as in this paper. We describe our measurement methods and publish our tools to enable further public testing.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"

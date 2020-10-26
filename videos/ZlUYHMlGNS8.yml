@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Pancake: Frequency Smoothing for Encrypted Data Stores'
+language: English
+recordingDate: 1600121450
+description: "Pancake: Frequency Smoothing for Encrypted Data Stores\n\nPaul Grubbs, Cornell Tech; Anurag Khandelwal, Yale University; Marie-Sarah Lacharité, Royal Holloway, University of London; Lloyd Brown, University of California, Berkeley; Lucy Li, Cornell Tech; Rachit Agarwal, Cornell University; Thomas Ristenpart, Cornell Tech\n\nDistinguished Paper Award Winner\n\nWe present PANCAKE, the first system to protect key-value stores from access pattern leakage attacks with small constant factor bandwidth overhead. PANCAKE uses a new approach, that we call frequency smoothing, to transform plaintext accesses into uniformly distributed encrypted accesses to an encrypted data store. We show that frequency smoothing prevents access pattern leakage attacks by passive persistent adversaries in a new formal security model. We integrate PANCAKE into three key-value stores used in production clusters, and demonstrate its practicality: on standard benchmarks, PANCAKE achieves 229× better throughput than non-recursive Path ORAM — within 3–6× of insecure baselines for these key-value stores.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

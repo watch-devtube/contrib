@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Secure parallel computation on national scale volumes of data'
+language: English
+recordingDate: 1600121434
+description: "Secure parallel computation on national scale volumes of data\n\nSahar Mazloom and Phi Hung Le, George Mason University; Samuel Ranellucci, Unbound Tech; S. Dov Gordon, George Mason University\n\nWe revisit the problem of performing secure computation of graph-parallel algorithms, focusing on the applications of securely outsourcing matrix factorization, and histograms. Leveraging recent results in low-communication secure multi-party computation, and a security relaxation that allows the computation servers to learn some differentially private leakage about user inputs, we construct a new protocol that reduces overall runtime by 320X, reduces the number of AES calls by 750X , and reduces the total communication by 200X . Our system can securely compute histograms over 300 million items in about 4 minutes, and it can perform sparse matrix factorization, which is commonly used in recommendation systems, on 20 million records in about 6 minutes. Furthermore, in contrast to prior work, our system is secure against a malicious adversary that corrupts one of the computing servers.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

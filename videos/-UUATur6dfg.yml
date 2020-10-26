@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - security
+    - java
+    - sap
+title: '#HITBLockdown002 D2T2 - Jackpotting Fortune-500 Treasuries - Martin Doyhenard & Gaston Traberg'
+language: English
+recordingDate: 1598309839
+description: "What do all Fortune-500 companies share in common? If you answered “they all have a lot of money”... you are right, they do. But there is more. Every medium to large organization across the world uses some type of critical application to process their most sensitive business information. These systems, known as ERPs, handle invoices and payments involving billions of dollars.\n\nWhat would happen if attackers gain access to one of those systems?\n\nWe would probably hear in the news about another company that was hit by ransomware. But, in fact, it could be much worse. By understanding the post-exploitation vectors that apply to ERP’s, it would be possible to control one of the most important assets of an organization... their moneyYes, it's money.\n\nIn this talk, we will present two critical vulnerabilities recently found during our assessment performed over Oracle’s ERP, using them to introduce the audience to the ERP’s post-exploitation world.\n\nFirst, we will go over an unsafe Java deserialization vulnerability (CVE-2020-2586), that could allow an unauthenticated attacker to gain full control of the ERP’s database. With a live demo, we will show how this can be exploited in a meaningful way, altering the payment process and obtaining substantial profits out of it. All, without being detected and leaving no traces.\n\nNext, using Java reflection and dynamic method invocation, we found it was possible to upload arbitrary files remotely, without any authentication, to the ERP system (CVE-2019-2775). Leveraging this vulnerability we will demonstrate how an attacker could trick the target system to print real cashable checks, and with a live demo! Again: all without raising any suspicion, and showing why getting a shell is the first step for an attacker that knows what ERPs are capable of.\n\n===\n\nMartin is a security researcher at the Onapsis Research Labs. His work includes performing security assessment on SAP and Oracle products and detecting vulnerabilities in ERP systems. His research is focused on Web security and reverse engineering. Over the past 3 years, Martin has reported critical vulnerabilities for SAP and Oracle, and presented his researches at different conferences, such as RSA, Troopers and EkoParty.\n\n--- \n\nGaston Traberg is Security Researcher at Onapsis. After many years working as a Researcher and Pentester, Gaston became part of Onapsis focusing his work on ERPs security. As result of his research, he has reported and published several vulnerabilities in SAP and Oracle products. He also contributes to the development of cutting-edge technologies to boost Onapsis products."

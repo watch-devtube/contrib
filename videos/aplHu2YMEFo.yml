@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - security
+title: '#HITBLockdown002 D2T2 - PEsidious – Create Mutated Evasive Malware Using AI - C. Vaya & B. Sen'
+language: English
+recordingDate: 1598498463
+description: "Over the past two decades, research has been conducted on using AI to detect malware by extracting features and then classifying them using machine learning algorithms. This has led to several malware authors to focus their time and effort to attacking such malware detection techniques. Our team aims to accomplish the same.\n\nPEsidious is our research developed to showcase how Artificial Intelligence can be used to create mutated evasive malware samples. After working on malware detection using machine learning for over 8 months, we wanted to research and design a model that can defeat the ML models by generating evasive malware by mutating already existing samples. Our objective is to demonstrate that this technique is not restricted to offensive strategies by black hats, but can be used by numerous security researchers and other security professionals to enhance their defenses.\n\nOur approach uses a Generative Adversarial Network to first generate an adversarial feature vector that can make malware look benign and fool machine learning models which is then fed into a deep reinforcement learning agent. We used deep reinforcement learning to teach a model the sequence of additional mutations can reduce the detection rate for malware. The various mutations include changes to imports, exports, headers, signature, sections, and size.\n\nApproaches using Generative Adversarial Networks and Reinforcement Learning has been taken before but separately and with its own limitations. Our research does not only overcomes these limitations but also brings the models together to get better results.\n\nPesidious bagged the first place prize and a whopping $40000 in the HITB CyberWeek AI challenge 2019, and we are back again with some additional features to improve its efficiency and chaos it brings with it!\n\n=== \n\nA cybersecurity graduate and X-Force IRIS intern at IBM, I am passionate about using artificial intelligence to solve security problems. As a result, I have previously worked on creating machine learning models to detect malware and currently working on using AI to create mutated and evasive malware samples. In my free time, I am either solving 1000+ pieces jigsaw puzzles or sleeping.\n\n--- \n\nBedang Sen is a junior incident response consultant at IBM. Bedang is passionate about the intricacies of malware, malware detection and now malware evasion. His goal is to solve some of the most pressing challenges in the cyber world with artificial intelligence. In his free time, Bedang loves to research more about automotive security and taking on challenges in the form of Hackathons."

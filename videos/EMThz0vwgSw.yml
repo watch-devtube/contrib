@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Composition Kills: A Case Study of Email Sender Authentication'
+language: English
+recordingDate: 1600121443
+description: "Composition Kills: A Case Study of Email Sender Authentication\n\nJianjun Chen, International Computer Science Institute; Vern Paxson, University of California Berkeley and International Computer Science Institute; Jian Jiang, Shape Security\n\nDistinguished Paper Award Winner\n\nComponent-based software design is a primary engineering approach for building modern software systems. This programming paradigm, however, creates security concerns due to the potential for inconsistent interpretations of messages between different components. In this paper, we leverage such inconsistencies to identify vulnerabilities in email systems. We identify a range of techniques to induce inconsistencies among different components across email servers and clients. We show that these inconsistencies can enable attackers to bypass email authentication to impersonate arbitrary senders, and forge DKIM-signed emails with a legitimate site's signature. Using a combination of manual analysis and black-box fuzzing, we discovered 18 types of evasion exploits and tested them against 10 popular email providers and 19 email clients—all of which proved vulnerable to various attacks. Absent knowledge of our attacks, for many of them even a conscientious security professional using a state-of-the-art email provider service like Gmail cannot with confidence readily determine, when receiving an email, whether it is forged.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

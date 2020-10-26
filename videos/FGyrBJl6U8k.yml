@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - mobile
+    - ios
+    - security
+    - testing
+    - embedded
+title: 'WOOT ''20 - OS Security Is Hard: Why All the Fuzzers in the World Won''t Change the Way...'
+language: English
+recordingDate: 1600121180
+description: "OS Security Is Hard: Why All the Fuzzers in the World Won't Change the Way Platform Security Is Failing Us\n\nAlex Ionescu, CrowdStrike, Inc.\n\nThe last couple of years have brought exciting hardware and software security features in the top operating systems—Windows, macOS, and Linux, which have all moved toward greater integration with hypervisor, TPM, and chipset/CPU security mitigations and capabilities, while taking advantage of the compiler as well. Additionally, security teams embedded in various companies are now involved (or claim to be) in the design, implementation, and testing of such features.\n\nOver a year ago, I presented a number of vulnerabilities in recent Windows code at a keynote in France and later in Israel, vulnerabilities which were of such simplicity that it became unclear why they had not been found through code review, fuzzing, or other tooling (because all developers write bugs). I posited that such tooling is insufficient to build truly secure systems, and that the added complexity, and reduction on the quality of training & education of developers, is leading us toward a world with more bugs, not less.\n\nAt the time, arguments were made that these were one-offs, and not all processes meant to find these types of bugs had activated yet. Multiple presentations were made on how new processes were added to fix and address future similar issues, especially when related to system calls. In this keynote, I'll review the state since last year, and show how not only were additional similar bugs added in both Dxgkrnl and Ntoskrnl, as well as how entire new security features continued to have fatal design flaws (leading to over 100K in bug bounty money due to their discovery). While these examples are Windows centric, equivalents exist in the Linux and macOS space, as this is not some sort of unique Microsoft problem.\n\nProgrammers are human, and humans make mistakes. Is automation truly the solution, or are there more fundamental changes that are needed for how we address security engineering? This keynote will make one last plea to propose changes to the engineering processes and educational priorities of future software practitioners.\n\nAlex Ionescu is VP of Endpoint Engineering at CrowdStrike, Inc., where he started as the Founding Chief Architect in 2011. Alex is a world-class security architect and consultant expert in low-level system software, kernel development, security training, and reverse engineering. He is co-author of the last 3 editions of the Windows Internals series. During the last two decades, his work led to the fixing of dozens of critical kernel vulnerabilities in Windows. Previously, Alex was the lead kernel developer for ReactOS, an open source Windows clone written from scratch, for which he wrote most of the Windows NT-based subsystems. During his studies in Computer Science, Alex worked at Apple on the iOS kernel, boot loader, and drivers on the original core platform team behind the iPhone, iPad, and AppleTV. Alex is also the founder of Winsider Seminars & Solutions Inc., a company that specializes in low-level system software, reverse engineering and security training for various institutions.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"

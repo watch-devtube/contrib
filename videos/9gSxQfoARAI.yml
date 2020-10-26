@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: '#HITBLockdown002 - D1T1 - Secret Flaws of In-DRAM RowHammer Mitigations - E. Vannacci & P. Frigo'
+language: English
+recordingDate: 1596494952
+description: "In 2012 researchers disclosed a vulnerability affecting most DDR3 memory chips: RowHammer.\n\n\n\nSince then, RowHammer was seen in a whole range of exploits demonstrating its security implications. Memory vendors, haunted by this issue for the whole DDR3 era, decided to tackle it in the newer DDR4 generation with a mitigation widely referred to as Target Row Refresh (TRR).\n\n\nThis talk is about how we spent the better part of our last two years trying to reverse engineer the inner workings of this unknown mitigation concealed deep inside the DRAM chips. We will discuss how we leveraged a FPGA-based memory controller to uncover –– by means of bit flips –– its implementation details and we will show its evolution disclosing different flavors of the “TRR” mitigation.\n\n\nSo does it actually work? Well… what emerged from our analysis is everything but reassuring. RowHammer is alive and well, you just need a creative attitude when designing new hammering patterns. Don’t worry, we will explain to you how to build such patterns and, for the lazy ones, we will teach you how our RowHammer fuzzer (TRRespass) can do it for you.\n\n\n=== \n\n\nEmanuele Vannacci is a PhD student in the Systems and Network Security Group (VUSec) at the Vrije Universiteit Amsterdam. He previously received his MEng from the University of Rome “Tor Vergata”. His research focuses on hardware and software security, microarchitectural attacks and side-channels exploitation.\n\n\n\n--- \n\n\nPietro is a PhD student at VUSec (Vrije Universiteit Amsterdam). His research focuses on hardware security, investigating attack vectors such as RowHammer and side channels. He was behind the first WebGL-based RowHammer attack and recently involved in the discovery of Intel’s MDS vulnerabilities."

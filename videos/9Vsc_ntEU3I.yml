@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Detecting Stuffing of a User’s Credentials at Her Own Accounts'
+language: English
+recordingDate: 1600121454
+description: "Detecting Stuffing of a User’s Credentials at Her Own Accounts\n\nKe Coby Wang and Michael K. Reiter, University of North Carolina at Chapel Hill\n\nWe propose a framework by which websites can coordinate to detect credential stuffing on individual user accounts. Our detection algorithm teases apart normal login behavior (involving password reuse, entering correct passwords into the wrong sites, etc.) from credential stuffing, by leveraging modern anomaly detection and carefully tracking suspicious logins. Websites coordinate using a novel private membership-test protocol, thereby ensuring that information about passwords is not leaked; this protocol is highly scalable, partly due to its use of cuckoo filters, and is more secure than similarly scalable alternatives in an important measure that we define. We use probabilistic model checking to estimate our credential-stuffing detection accuracy across a range of operating points. These methods might be of independent interest for their novel application of formal methods to estimate the usability impacts of our design. We show that even a minimal-infrastructure deployment of our framework should already support the combined login load experienced by the airline, hotel, retail, and consumer banking industries in the U.S.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

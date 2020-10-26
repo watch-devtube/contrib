@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - testing
+    - embedded
+title: '#HITBLockdown002 D2T1 - Common Flaws in ICS Network Protocols - Mars Cheng & Selmon Yang'
+language: English
+recordingDate: 1597617829
+description: "Industrial Control Systems / Supervisory Control and Data Acquisition (ICS/SCADA) are both the lifeblood of any critical infrastructure, and play an important role in any operation’s ability to communicate between various ICS components, relay sensitive data, or manage critical sensors and equipment. Due to the specific and unique needs within the industrial control industry, more and more ICS vendors are making the decision to use either public network protocols, or creating private proprietary protocols based on the different needs of programmable logic controller (PLC) vendors. Despite the need to balance both security concerns and operational requirements with the decision to use public and private ICS protocols, each protocol has their own potential risk profile, and we will review them one by one.\n\nIn our research, we analyze six ICS protocols (three public and three private) which are widely used in the critical infrastructure sectors of power, water, transportation, petroleum, manufacturing or kinds of. In each of the public and private ICS protocols, we found some common flaws which allow attacker can easy sniff ICS protocols traffic without communication encryption and perform ICS protocol attacks which like command injection or response injection on PLC without authentication and authorization. Also, we provide 4 attack demos in one public and one private protocol, prove those common flaws will cause huge impacts to ICS.\n\n=== \n\nMars Cheng is a Cyber Threat Researcher at IoT/ICS Security Research Labs of TXOne Networks and Trend Micro. Since 2018, he delivered more than 10+ CVE-IDs, and 3 SCI top journals about applied cryptography. His research interests include ICS/SCADA security, threat hunting for IoT and ICS/SCADA, cryptography, and penetration testing across all platforms (Web/IoT/Mobile/ICS/SCADA ). Before joining TXOne, Mars was a security engineer at the Taiwan National Center for Cyber Security Technology (NCCST). Mars spoke at many conferences like ICS Cyber Security Conference USA 2019, HITB Abu Dhabi 2019, HITCON Community 2019 and TWISC@NCHU. In addition, Mars conducted ICS and cyber security training classes at the Hacks in Taiwan (HITCON) Training 2019, Ministry of Education (Information Security Incubation Program, ISIP), and Ministry of National Defense in Taiwan.\n\n--- \n\nSelmon Yang is a senior DPI software engineer at TXOne Networks. He is responsible for development/maintenance of ICS Protocol decoders."

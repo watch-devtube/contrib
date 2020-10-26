@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - mobile
+    - android
+    - security
+title: 'USENIX Security ''20 - Automatic Hot Patch Generation for Android Kernels'
+language: English
+recordingDate: 1600121427
+description: "Automatic Hot Patch Generation for Android Kernels\n\nZhengzi Xu, Nanyang Technological University; Yulong Zhang, Longri Zheng, Liangzhao Xia, and Chenfu Bao, Baidu X-Lab; Zhi Wang, Florida State University; Yang Liu, Nanyang Technological University\n\nThe rapid growth of the Android ecosystem has led to the fragmentation problem where a wide range of (customized) versions of Android OS exist in the market. This poses a severe security issue as it is very costly for Android vendors to fix vulnerabilities in their customized Android kernels in time. The recent development of the hot patching technique provides an ideal solution to solve this problem since it can be applied to a wide range of Android kernels without interrupting their normal functionalities. However, the current hot patches are written by human experts, which can be time-consuming and error-prone.\n\nTo this end, we first study the feasibility of automatic patch generation from 373 Android kernel CVEs ranging from 2012 to 2016. Then, we develop an automatic hot patch generation tool, named VULMET, which produces semantic preserving hot patches by learning from the official patches. The key idea of VULMET is to use the weakest precondition reasoning to transform the changes made by the official patches into the hot patch constraints. The experiments have shown that VULMET can generate correct hot patches for 55 real-world Android kernel CVEs. The hot patches do not affect the robustness of the kernels and have low performance overhead.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

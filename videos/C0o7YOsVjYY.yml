@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - testing
+title: 'USENIX Security ''20 - MUZZ: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded'
+language: English
+recordingDate: 1600121445
+description: "MUZZ: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs\n\nHongxu Chen, University of Science and Technology of China and Nayang Technological University; Shengjian Guo, Baidu Security; Yinxing Xue, University of Science and Technology of China; Yulei Sui, University of Technology Sydney; Cen Zhang and Yuekang Li, Nanyang Technological University; Haijun Wang, Ant Financial Services Group; Yang Liu, Nanyang Technological University\n\nGrey-box fuzz testing has revealed thousands of vulnerabilities in real-world software owing to its lightweight instrumentation, fast coverage feedback, and dynamic adjusting strategies. However, directly applying grey-box fuzzing to input-dependent multithreaded programs can be extremely inefficient. In practice, multithreading-relevant bugs are usually buried in the sophisticated program flows. Meanwhile, existing grey-box fuzzing techniques do not stress thread-interleavings that affect execution states in multithreaded programs. Therefore, mainstream grey-box fuzzers cannot adequately test problematic segments in multithreaded software, although they might obtain high code coverage statistics.\n\nTo this end, we propose Muzz, a new grey-box fuzzing technique that hunts for bugs in multithreaded programs. Muzz owns three novel thread-aware instrumentations, namely coverage-oriented instrumentation, thread-context instrumentation, and schedule-intervention instrumentation. During fuzzing, these instrumentations engender runtime feedback to accentuate execution states caused by thread interleavings. By leveraging such feedback in the dynamic seed selection and execution strategies, Muzz preserves more valuable seeds that expose bugs under a multithreading context.\n\nWe evaluate Muzz on twelve real-world multithreaded programs. Experiments show that Muzz outperforms AFL in both multithreading-relevant seed generation and concurrency-vulnerability detection. Further, by replaying the target programs against the generated seeds, Muzz also reveals more concurrency-bugs (e.g., data-races, thread-leaks) than AFL. In total, Muzz detected eight new concurrency-vulnerabilities and nineteen new concurrency-bugs. At the time of writing, four reported issues have received CVE IDs.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

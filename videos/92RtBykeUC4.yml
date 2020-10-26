@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - security
+    - architecture
+title: 'WOOT ''20 - Unearthing the TrustedCore: A Critical Review on Huawei’s Trusted Execution Environment'
+language: English
+recordingDate: 1600121152
+description: "Unearthing the TrustedCore: A Critical Review on Huawei’s Trusted Execution Environment\n\nMarcel Busch, Johannes Westphal, and Tilo Mueller, Friedrich-Alexander-University Erlangen-Nürnberg\n\nAwarded Best Student Paper!\n\nTrusted Execution Environments (TEEs) are an essential building block in the security architecture of modern mobile devices. In this paper, we review a TEE implementation, called TrustedCore (TC), that has been used on Huawei phones for several years. We unveil multiple severe design and implementation flaws in the software stack of this TEE which affect devices including the popular Huawei P9 Lite, released in 2016, and partially the more recent Huawei P20 Lite, released in 2018. First, we reverse-engineer TC’s components, their interconnections, and their integration with the Android system, focusing on security aspects. Second, we examine the Trusted Application (TA) loader of the TC platform and reveal multiple design flaws. These flaws allow us to decrypt any TA found on our target devices and, thus, break code confidentiality. Third, we describe the design of Huawei’s keystore system, the heart of all services using hardware-backed cryptography. We found severe vulnerabilities in this keystore system and demonstrate the leakage of export-protected keys from the TEE, which considerably weakens full-disk encryption. Fourth, along with these findings, we additionally discovered an exploitable memory corruption within Huawei’s keymaster TA, enabling us to execute arbitrary code within the ARM TrustZone at the highest privilege level. The exploit requires us to bypass several mitigation techniques such as stack canaries and Address Space Layout Randomization (ASLR), which are all flawed in this TEE’s design. We reported our findings to Huawei in a responsible disclosure procedure and publicly discuss our analyses for the first time in this paper.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"

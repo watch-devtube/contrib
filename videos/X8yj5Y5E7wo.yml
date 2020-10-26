@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - cloud
+    - security
+    - architecture
+title: 'USENIX Security ''20 - Cache Telepathy: Leveraging Shared Resource Attacks to Learn DNN Architectures'
+language: English
+recordingDate: 1600121423
+description: "Cache Telepathy: Leveraging Shared Resource Attacks to Learn DNN Architectures\n\nMengjia Yan, Christopher W. Fletcher, and Josep Torrellas, University of Illinois at Urbana-Champaign\n\nDeep Neural Networks (DNNs) are fast becoming ubiquitous for their ability to attain good accuracy in various machine learning tasks. A DNN’s architecture (i.e., its hyperparameters) broadly determines the DNN’s accuracy and performance, and is often confidential. Attacking a DNN in the cloud to obtain its architecture can potentially provide major commercial value. Further, attaining a DNN’s architecture facilitates other existing DNN attacks.\n\nThis paper presents Cache Telepathy: an efficient mechanism to help obtain a DNN’s architecture using the cache side channel. The attack is based on the insight that DNN inference relies heavily on tiled GEMM (Generalized Matrix Multiply), and that DNN architecture parameters determine the number of GEMM calls and the dimensions of the matrices used in the GEMM functions. Such information can be leaked through the cache side channel.\n\nThis paper uses Prime+Probe and Flush+Reload to attack the VGG and ResNet DNNs running OpenBLAS and Intel MKL libraries. Our attack is effective in helping obtain the DNN architectures by very substantially reducing the search space of target DNN architectures. For example, when attacking the OpenBLAS library, for the different layers in VGG-16, it reduces the search space from more than 5.4×1012 architectures to just 16; for the different modules in ResNet-50, it reduces the search space from more than 6×1046 architectures to only 512.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

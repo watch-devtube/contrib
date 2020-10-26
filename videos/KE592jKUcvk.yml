@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: '#HITBLockdown002 - D1T1 - Breakout Script of the Westworld - Tianwen Tang & Wei Xiao'
+language: English
+recordingDate: 1596491706
+description: "Virtualization technology brings greater security, availability and scalability to the system. It can prevent viruses and malware from attacking the host system.\n\n\n\nOur presentation is mainly about modern exploitation techniques for VMware’s virtualization products. We will give some modern primitives to achieve a mature and stable exploitation for a vulnerability in Workstation and ESXi. We will use the Workstation Escape in the Tianfu Cup in 2018 and the ESXi Escape in GeekPwn in 2018 as examples to vividly describe the practical use of these techniques. With these examples, you can easily understand Virtualization Escape and use our primitives in your instance.\n\n\nWe will introduce the details of the vulnerabilities of virtual network cards, the primitives we discussed includes a reliable way to spray the host’s heap, a reliable way to arrange heap layout, a way to read and write everywhere, a way to bypass the CFG security mechanism of the workstation. Then we will detail how to convert a hard-to-use vulnerability into a stable arbitrary address read and write, and bypass CFG to implement arbitrary code execution.\n\n\nFinally, we will demonstrate an example of ESXi Escape, then discuss the impact of the latest changes in the Workstation.\n\n\n=== \n\n\nI’m a cybersecurity researcher working at Vulcan team of Qihoo 360. Focus on virtualization security includes QEMU, VMWare, Hyper-V. Have found many bugs in VM products. Won the challenge of Workstation Escape in TianfuCup 2018 in public. Get acknowledgement for Hyper-V from Microsoft this year.\n\n\n\n--- \n\n\nA cybersecurity researcher in Vulcan Team of Qihoo 360. Won the VMware Workstation Escape challenge in 2017 pwn2own. Won the VirtualBox Escape challenge in TianfuCup 2018. Won the ESXi Escape and QEMU Escape challenges in TianfuCup 2019."

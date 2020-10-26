@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Measuring and Modeling the Label Dynamics of Online Anti-Malware Engines'
+language: English
+recordingDate: 1600121440
+description: "Measuring and Modeling the Label Dynamics of Online Anti-Malware Engines\n\nShuofei Zhu, The Pennsylvania State University; Jianjun Shi, BIT, The Pennsylvania State University; Limin Yang, University of Illinois at Urbana-Champaign; Boqin Qin, BUPT, The Pennsylvania State University; Ziyi Zhang, USTC, The Pennsylvania State University; Linhai Song, Pennsylvania State University; Gang Wang, University of Illinois at Urbana-Champaign\n\nVirusTotal provides malware labels from a large set of anti-malware engines, and is heavily used by researchers for malware annotation and system evaluation. Since different engines often disagree with each other, researchers have used various methods to aggregate their labels. In this paper, we take a data-driven approach to categorize, reason, and validate common labeling methods used by researchers. We first survey 115 academic papers that use VirusTotal, and identify common methodologies. Then we collect the daily snapshots of VirusTotal labels for more than 14,000 files (including a subset of manually verified ground-truth) from 65 VirusTotal engines over a year. Our analysis validates the benefits of threshold-based label aggregation in stabilizing files’ labels, and also points out the impact of poorly-chosen thresholds. We show that hand-picked “trusted” engines do not always perform well, and certain groups of engines are strongly correlated and should not be treated independently. Finally, we empirically show certain engines fail to perform in-depth analysis on submitted files and can easily produce false positives. Based on our findings, we offer suggestions for future usage of VirusTotal for data annotation.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"
