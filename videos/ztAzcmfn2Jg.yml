@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+title: 'HotStorage ''20 - Prefetching in Hybrid Main Memory Systems'
+language: English
+recordingDate: 1598654588
+description: "Prefetching in Hybrid Main Memory Systems\n\nSubisha V, Varun Gohil, and Nisarg Ujjainkar, Indian Institute of Technology Gandhinagar; Manu Awasthi, Ashoka University\n\nThe architecture of main memory has seen a paradigm shift in the recent years, with non volatile memory technologies (NVM) like Phase Change Memory (PCM) being incorporated into the hierarchy at the same level as DRAM. This is being done by either splitting the memory address across two or more memory technologies, or using the faster technology with higher lifetimes, typically the DRAM, as a cache for the higher capacity, albeit slower main memory made up of an NVM.\n\nDesign of such hybrid architectures remains an active area of research from the perspective of DRAM cache design, which could quickly become the bottleneck, since cache lookups require multiple DRAM accesses for reading tag and data. In this paper, we argue for a hybrid memory hierarchy where DRAM serves as a cache for some NVM. In this paper, we present a novel DRAM cache prefetcher that builds on state of the art Alloy Cache architectures, allowing for caching data at both cacheline and page granularities, and as a result, providing upto a maximum of 2× performance improvement over a state of the art baseline.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

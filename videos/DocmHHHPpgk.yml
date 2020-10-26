@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'HotStorage ''20 - Designing a Storage Software Stack for Accelerators'
+language: English
+recordingDate: 1598654577
+description: "Designing a Storage Software Stack for Accelerators\n\nShinichi Awamoto, NEC Labs Europe; Erich Focht, NEC Deutschland; Michio Honda, University of Edinburgh\n\nAlthough modern accelerator devices, such as vector engines and SmartNICs, are equipped with general purpose CPUs, access to the storage needs the mediation of the host kernel and CPUs, resulting in latency and throughput penalties. In this paper, we explore the case for direct storage access inside the accelerator applications, and discuss the problem, design options and benefits of this architecture. We demonstrate that our architecture can improve throughputs of LevelDB by 12–89%, and reduce the execution time by 33–46 % in a bioinformatics application in comparison to the baseline where the host system mediates the storage accesses.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

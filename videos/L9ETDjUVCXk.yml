@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+    - scala
+title: 'micro.sphere.it #2: Typesafe, transactional, indexed database queries in the cloud by Jon Pretty'
+language: English
+recordingDate: 1593165578
+description: "Our data is moving into the cloud, and all the major cloud service providers now offer simple abstractions for dynamically-structured object databases.\n\nHowever, having a network layer between application server and database, and the potential for mismatched code and data schemas poses the risk of runtime failures which may compromise the reliability of the software we write. Queries are typically invoked as strings, whose syntax, and the indexes they require, may not be checked until runtime.\n\nMutatus provides a mapping between Scala case classes and Google Cloud Datastore rows, which is as simple to use as calling .save() on an object. But then it goes further to ensure that queries may be specified using typesafe collection-like constructs and lambda predicates, and may only be run in an environment known to have the necessary indexes, determined on initialization. What this means for developers is that runtime errors when working with Cloud Datastore may become a thing of the past!"

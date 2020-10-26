@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotStorage ''20 - In support of workload-aware streaming state management'
+language: English
+recordingDate: 1598654659
+description: "In support of workload-aware streaming state management\n\nVasiliki Kalavri, Boston University; John Liagouris, Boston University & Hariri Institute for Computing\n\nModern distributed stream processors predominantly rely on LSM-based key-value stores to manage the state of long-running computations. We question the suitability of such general-purpose stores for streaming workloads and argue that they incur unnecessary overheads in exchange for state management capabilities. Since streaming operators are instantiated once and are long-running, state types, sizes, and access patterns, can either be inferred at compile time or learned during execution. This paper surfaces the limitations of established practices for streaming state management and advocates for configurable streaming backends, tailored to the state requirements of each operator. Using workload-aware state management, we achieve an order of magnitude improvement in p99 latency and 2x higher throughput.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

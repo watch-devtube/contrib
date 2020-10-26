@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - mobile
+    - android
+title: 'HotStorage ''20 - Differentiating Cache Files for Fine-grain Management to Improve Mobile Performance'
+language: English
+recordingDate: 1598654640
+description: "Differentiating Cache Files for Fine-grain Management to Improve Mobile Performance and Lifetime\n\nYu Liang and Jinheng Li, City University of Hong Kong; Xianzhang Chen, Chongqing University; Rachata Ausavarungnirun, King Mongkut's University of Technology North Bangkok; Riwei Pan, City University of Hong Kong; Tei-Wei Kuo, City University of Hong Kong and National Taiwan University; Chun Jason Xue, City University of Hong Kong\n\nMost mobile applications need to download data from the network. The Android system temporarily stores these data as cache files in the local flash storage to improve their re-access performance. For example, using Facebook for two hours in one case generated 1.2GB cache files. Writing all cache files to the flash storage has a negative impact on the overall I/O performance and deteriorates the lifetime of mobile flash storage. In this paper, we analyze the access characteristics of cache files of typical mobile applications. Our observations reveal that the access patterns of caches files are different from application-level to file-level. While existing solutions treat all cache files equally, this paper differentiates cache files into three categories, burn-after-reading, transient, and long-living. A Fine-grain Cache File Management (FCFM) framework is proposed to manage different cache files differently to improve the performance and lifetime of the mobile system. Evaluations using YouTube show that FCFM can significantly improve the performance and lifetime of mobile devices.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

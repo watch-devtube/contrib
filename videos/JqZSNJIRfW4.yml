@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#bbuzz: Jon Bratseth - Fast scalable evaluation of ML models over large data sets using open source'
+recordingDate: 1593000282
+description: "More: https://berlinbuzzwords.de/session/fast-and-scalable-evaluation-machine-learned-models-over-large-data-sets-using-open-source\n\nModern solutions to search and recommendation require evaluating machine-learned models over large data sets with low latency. Producing the best results typically require combining fast (approximate) nearest neighbour search in vector spaces to limit candidates, filtering to surface only the appropriate subset of results in each case, and evaluation of more complex ML models such as deep neural nets computing over both vectors and semantic features. Combining these needs into a working and scalable solution is a large challenge as separate components solving for each requirement cannot be composed into a scalable whole for fundamental reasons.\n\nThis talk will explain the architectural challenges of this problem, show the advantages of solving it on concrete cases and introduce an open source engine - Vespa.ai - that provides a scalable solution by implementing all the elements in a single distributed execution."

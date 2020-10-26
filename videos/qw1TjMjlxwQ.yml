@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - testing
+title: 'HotStorage ''20 - Understanding and Finding Crash-Consistency Bugs in Parallel File Systems'
+language: English
+recordingDate: 1598654566
+description: "Understanding and Finding Crash-Consistency Bugs in Parallel File Systems\n\nJinghan Sun, Chen Wang, Jian Huang, and Marc Snir, University of Illinois at Urbana-Champaign\n\nParallel file systems (PFSes) and parallel I/O libraries have been the backbone of high-performance computing (HPC)infrastructures for decades. However, their crash consistency bugs have not been extensively studied, and the corresponding bug-finding or testing tools are lacking. In this paper, we first conduct a thorough bug study on the popular PFSes, such as BeeGFS and OrangeFS, with a cross-stack approach that covers HPC I/O library, PFS, and interactions with local file systems. The study results drive our design of a scalable testing framework, named PFSCheck. PFSCheck is easy to use with low-performance overhead, as it can automatically generate test cases for triggering potential crash-consistency bugs, and trace essential file operations with low overhead. PFSCheck is scalable for supporting large-scale HPC clusters, as it can exploit the parallelism to facilitate the verification of persistent storage states.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

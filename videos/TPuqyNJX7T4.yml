@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - python
+title: '#bbuzz: Jim Dowling - The Feature Store: where Data Engineering meets Data Science'
+recordingDate: 1593006945
+description: "More: https://berlinbuzzwords.de/session/feature-store-where-data-engineering-meets-data-science\n\nEngineering features for machine learning is hard. Before you start, you need to know: are you developing the features for training the model (Python?) or for serving the model (Java/javascript/etc), and if both - how do you ensure consistency of your features between training and inferencing? Could anybody else in your organization find the feature useful in their model(s)? If you are using a traditional data warehouse, how do you retrieve the value of a feature from last year (that has now been overwritten with more recent data) to test my model on data from last year?  How do you efficiently join features originating from different backend systems.\n\nIn this talk, we will answer these questions in the context of the Feature Store. We will show how a Feature Store can provide a natural interface between Data Engineers, who create reusable features from diverse data sources, and Data Scientists, who experiment with predictive models, built from the same features. We will dive into the only fully open-source Feature Store for machine learning, Hopsworks, to better understand the potential of Feature Stores."
