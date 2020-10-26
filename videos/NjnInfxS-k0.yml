@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - .net
+title: 'Leveraging Open Source Designs Creating a component search engine for reference designs used in pra…'
+language: English
+recordingDate: 1594236756
+description: "Leveraging Open Source Designs Creating a component search engine for reference designs used in practice\nby Lasse Mönch\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2213/kicadsearch.webm\n\nIncorporating new components into PCBs is a difficult task that often requires reading multiple datasheets and creating prototypes to get it right. The funny thing is: every engineer needs to re-read reference designs! Even though there are tens of thousands of designs with new components documented and available on Github. The reason: it is almost impossible to find a relevant project. The solution? Instead of using Github search, which only retrieves files by filename, our approach creates a local database that takes the search results from Github, and then parses the used components inside the PCB designs to index them. That way, you can easily search a component and get the most relevant designs as a reference.\n\n\nThis talk will give an overview of the software that was created, discusses the difficulties that were overcome and the potential for improvement in future work.\n\n\nWe have currently indexed 8,000 KiCad-projects on GitHub containing 37,000 electronic components as a proof-of-concept. The project was kindly supported by AISLER with a server instance for a prototype of the search engine, which can be accessed at https://search-dev.aisler.net\n\nRoom: H.2213\nScheduled start: 2020-02-01 13:10:00"
