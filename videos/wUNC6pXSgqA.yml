@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - web
+    - react
+    - mobile
+    - architecture
+    - javascript
+    - functional
+title: 'Tal Kol - Going Over The Speed Limit  Synchronous Rendering in React Native'
+recordingDate: 1536920832
+description: "Asynchronous rendering is one of the core principles of React. On the web, the ability to batch updates and work on a virtual DOM proved to be key factors in improving rendering performance. The same architecture seems to do miracles in React Native and gives JavaScript the performance boost needed to render native views effectively. This benefit of React Native is also its greatest drawback. For certain types of problems in native mobile, asynchronous rendering introduces an overhead that is almost impossible to bridge. List views are a good example, as even the best implementation to date, FlatList, struggles to keep up with the fill rate of the most naive list implementation in pure native. Is it possible to introduce synchronous rendering to React Native and tackle this category of problems from a different direction?\n\nThis talk was presented at React Native EU 2017, September 6-7, Wroclaw, Poland."
