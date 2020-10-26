@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - web
+    - react
+    - javascript
+title: 'Stanisław Chmiela - Chopping Expo up into universal modules to take over the world'
+recordingDate: 1536932506
+description: 'Expo SDK (part of Expo toolchain) is an open-source library built around React Native, allowing developers to access native components and APIs without too much fuss. Until recently it has been a big monolith, it was hard for developers to either remove unused APIs from their bundle or to use some Expo code in vanilla React Native applications. We’ve decided it is time for Expo to be redesigned and split into multiple, separate native + JS (+ more 🤭) libraries which developers will be able to opt-out of using in Expo standalone apps and also to use in their plain RN projects. This talk will describe the process of making this transition, design of the solution we’ve settled on and difficulties we had to overcome along the way (and how we’ve done it).'
