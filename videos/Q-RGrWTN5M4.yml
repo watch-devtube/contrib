@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - architecture
+    - scala
+title: 'Event Sourcing: Traceability, Consistency, Correctness - Thomas Bøgh Fangel - DDD Europe 2020'
+language: English
+recordingDate: 1601627018
+description: "Domain-Driven Design Europe 2020\nhttp://dddeurope.com - https://twitter.com/ddd_eu\n\nWith a fresh banking license received from the Danish FSA in August 2019, Lunar is currently building a core banking platform from scratch. Which technologies and designs would you choose if faced with this challenge?\n\nBefore answering these questions, we asked ourselves what vision we had for the system we were going to build. We ended up with the number one characteristic being Traceability - with Consistency and Correctness next in line. We don’t believe that we can build a software system where errors never occur. However, in the face of the inevitable error, we always want to be able to trace the events which led to the state of the system. Furthermore, we believe that with traceability comes the power to achieve consistency and, eventually, correctness.\n\nTo achieve this traceability, we have chosen Event Sourcing as the foundational design for our new core banking platform. In this talk, I will explain the reasoning behind this choice - why we think it’s the perfect choice for achieving traceability and how we may also build upon it to achieve consistency. I will present the challenges we have encountered along the way and describe a number of patterns we have seen emerge.\n\nThomas Bøgh Fangel is a backend architect and developer at Lunar - one of the new players in the Nordic banking sector. His time is equally divided between thinking about how to improve and design the Lunar banking backend of the future and actually implementing it. Currently, most of this implementation is done in Go, but before joining Lunar, Thomas has implemented complex distributed systems using FP in Scala and the Akka actor framework."
