@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - azure
+    - devops
+    - security
+    - testing
+    - python
+title: 'Prashant Chaubey - Writing Good Python'
+language: English
+recordingDate: 1601815431
+description: "\"Writing Good Python\nEuroPython 2020 - Talk - 2020-07-24 - Brian\nOnline\n\nBy Prashant Chaubey\n\nLike other programming languages, it is easy to write cryptic, unmaintainable, and rigid Python code. Moreover, in teams, this problem escalates due to varied coding styles of developers. How to ensure code quality and consistency? My goal with this talk is to educate my audience about some tools and libraries that can help us in making our code more consistent. \nI was a Software Engineer who wrote Automation systems in Python for some of the fortune 500s. I intend to cover the following major ideas:\n•   What is a high-quality code? How consistency is an important aspect of maintainability?\n•   Ways to achieve consistency in Python\n    o   What is PEP8?\n    o   “pylint” - a source code, bug, and quality checker for python       and follows the style recommended by PEP 8\n    o   What is PEP257? \n    o   “pydocstyle” checks compliance with Python docstring conventions.\n    o   What is PEP484? \n    o   “mypy” provides optional static type checking.\n    o   “bandit” which can find common security issues in Python code.\n    o   “black” which is a Python source code formatter.\n•   Ways to integrate mentioned tools in development life cycle \n    o   While writing (IDE extensions)\n    o   During commit (pre-commit hooks)\n    o   After push (Build pipelines)\n•   “pre-commit” is a framework for managing and maintaining multi-language pre-commit hooks\n•   Example of an Azure DevOps pipeline integrating all mentioned tools.\npylint, pydocstyle, mypy, bandit, black and pre-commit are available on PyPI. My audience should know how to install Python libraries from PyPi using pip.\n\n\n\nLicense: This video is licensed under the CC BY-NC-SA 3.0 license: https://creativecommons.org/licenses/by-nc-sa/3.0/\nPlease see our speaker release agreement for details: https://ep2020.europython.eu/events/speaker-release-agreement/\n\n    \""
