@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+title: 'Introduction to G-Expressions Introduction to G-Expressions'
+language: English
+recordingDate: 1603609493
+description: "by Christopher Marusich\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.125/gexpressionsguile.webm\n\nThis talk will present an overview of G-Expressions and how the GNU Guix project uses them.\nThe GNU Guix project invented G-Expressions to make it easier to \"stage\" data or code, in the form of S-Expressions, for later manipulation or evaluation.  They are similar to S-Expressions, hence the name, but they provide useful code staging features beyond what can be easily accomplished with just \"quasiquote\" and \"unquote\".  A high-level object (such as a Guix package) can be included in a G-Expression; the transitive dependencies of that high-level object will then be automatically carried along with the G-Expression.  When the G-Expression is converted to an S-Expression and stored on disk for later manipulation or evaluation, the high-level object will be automatically \"lowered\" to an appropriate representation (such as the package's output path) via a \"compiler\".  Compared to direct manipulation of S-Expressions, G-Expressions can provide a simpler and more intuitive way to stage data or code.\n\n\nThe Guix project uses G-Expressions to accomplish a wide variety of tasks, including:\n\n\n❮ul❯\n❮li❯Building the latest version of Guix via \"guix pull\"❮/li❯\n❮li❯Executing the \"liberation\" procedure to convert Mozilla Firefox's source code into GNU IceCat's source code❮/li❯\n❮li❯Building Docker containers from scratch❮/li❯\n❮li❯Executing activation actions during system boot❮/li❯\n❮li❯...and more!❮/li❯\n❮/ul❯\n\n\nRoom: AW1.125\nScheduled start: 2020-02-02 12:10:00"

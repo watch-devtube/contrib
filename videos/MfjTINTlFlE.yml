@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'On-hardware debugging of IP cores with free tools'
+language: English
+recordingDate: 1603436778
+description: "by Anton Kuzmin\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.401/fpga_hw_dbg.webm\n\nAn approach to challenges of an on-FPGA debugging of IP cores based on\nfree software tools is demonstrated. Various aspects and related problems\nof an on-hardware debugging are presented along with the tools to\naddress them, such as OpenOCD, sigrok/PulseView, GHDL, etc.  Real-life\nworking configuration and missing bits of software are accompanied by\nthe live debug session demo running on Open-source Hardware.\nDebugging of hardware blocks on an FPGA is always challenging and may\nbe frustrating, especially with no reliable tools at hands. Way too\noften the process turns into developing and debugging of the tools,\ninstead of a target design.\n\n\nCommercial solutions are available (SignalTap, ChipScope, Synopsys\nIdentify RTL Debugger, MicroSemi Smart Debug), at the same time there\nare a lot of well known problems associated with them: vendor lock,\nsingle target, closed source and not always flexible enough, license\nterms and costs.\n\n\nOwing to free software developers essential tools for\non-hardware debugging of IP cores are available today.  However there\nare problems associated with these tools too.  Among the most notable\nones are a weak integration between separate tools and small bits of\ncode and config files missing here and there. A working combination of\ntools along with explanations of how they may be used together to\ndebug IP cores is provided.  A presentation covers such free\nsoftware as GHDL, sigrok/PulseView, and OpenOCD.  Source code of free\nIP cores, all configuration and script files and presentation slides\nwill be available in a dedicated repository on github.\n\n\nA live demonstration of the PulseView connected to an in-FPGA\nlogic analyzer via JTAG interface and working in parallel with a gdb\ndebug session on a RISC-V soft-core CPU in the same FPGA with an\nopen and low-cost hardware will be presented.\n\n\nAn outline of the open tasks and possible future development\ndirections concludes the presentation.\n\nRoom: K.4.401\nScheduled start: 2020-02-02 08:30:00"

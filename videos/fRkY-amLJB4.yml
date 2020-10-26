@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+    - functional
+title: 'seL4 Microkernel Status Update'
+language: English
+recordingDate: 1603609680
+description: "by Gernot Heiser\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/uk_sel4.webm\n\nI will give an overview of where seL4 stands today in terms of functionality, verification, ecosystem, deployment and community. The focus will be on what has happened in seL4 land over the past 12 months, which is a lot: seL4 Foundation, RISC-V support and introducing time protection.\nThe biggest news of the year is that we are in the process of setting up the seL4 Foundation, as an open, transparent and neutral organisation tasked with growing the seL4 ecosystem. It will bring together developers of the seL4 kernel, developers of seL4-based components and frameworks, and those deploying seL4-based systems. Its focus will be on coordinating, directing and standardising development of the seL4 ecosystem in order to reduce barriers to adoption, raising funds for accelerating development, and ensuring clarity of verification claims. I will report on the state of this.\n\n\nThe other big development is that we are closing in on completing verified seL4 on the open RISC-V architecture. This includes the functional correctness proof (that guarantees that the kernel is free of implementation bugs), the binary correctness proof (which guarantees that the compiler did not introduce bugs) and the tranition to the new mixed-criticality scheduling model, which supports the safe co-location of critical real-time software with untrusted components, even if the latter can preempt the former.\n\n\nFinally, on the research side we have introduced the new concept of ❮em❯time protection❮/em❯ (the temporal equivalent of the established memory protection) that allows us to systematically prevent information leakage through timing channels.\n\nRoom: K.4.601\nScheduled start: 2020-02-02 08:00:00"

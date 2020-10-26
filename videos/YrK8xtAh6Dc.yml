@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - javascript
+title: 'Accessibility in MuseScore Our experience with Qt and QML'
+language: English
+recordingDate: 1603091077
+description: "by Peter Jonas and Marc Sabatella\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2213/accessibility_in_musescore.webm\n\nMuseScore is the world's most popular sheet music program. It is used by millions of musicians around the world, including many who are blind, partially sighted, or who struggle to use a traditional mouse-based interface. In this presentation, we share our experience in making a popular open source program accessible to keyboard and screen reader control.\nA screen reader is a \"robot voice\" that describes what happens on the screen, which enables people who are blind to use a computer. Screen readers cannot \"see pixels\", so it is up to the programmer to tell the screen reader what is going on. We give tips on how to do this in Qt’s traditional C++ framework as well as it’s JavaScript-based QML language.\n\n\nScreen readers know how to deal with buttons, menus and text, but they have no idea what a treble clef is! As a music notation program, many parts of MuseScore's interface are custom widgets that do not have a counterpart in traditional UI design. This poses additional challenges when it comes to implementing accessibility. We share the thinking behind our design decisions in MuseScore, and how these may be applied to other programs.\n\n\nKeyboard navigation is a key aspect of accessibility, not only for people who are blind, but also for people who are motor-impaired, or ordinary users who find it quicker to use the keyboard than the mouse. There is more to keyboard navigation than shortcuts and getting around with the Tab key! We talk about how we have introduced groupings and hierarchy into MuseScore’s design to improve the experience for keyboard users.\n\n\nOur accessibility work is undertaken in partnership with ❮a href=\"https://www.ukaaf.org/\"❯UKAAF❮/a❯ and ❮a href=\"https://www.rnib.org.uk/\"❯RNIB❮/a❯, two leading accessibility organisations based in the UK.\n\n\nMuseScore is written in C++ / Qt, with some Javascript / QML. It is available for Windows, macOS and Linux under GPL version 2.\n\nRoom: H.2213\nScheduled start: 2020-02-02 11:00:00"

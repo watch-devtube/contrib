@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'The elfutils debuginfod server'
+language: English
+recordingDate: 1603382788
+description: "by Mark Wielaard and Frank Ch. Eigler\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_debuginfod.webm\n\nDebugging data is a necessary evil. It is necessary for running debuggers in situ, some tracing tools, or for coredump analysis. It is evil because it is big - potentially many times the size of the binaries. Therefore, software distributions have conflicting needs to generate &amp; keep this data but not burden everyone with its storage.\n\n\nWe will review some degrees of freedom for debugging data distribution, across compiled languages and OS distributions, identifying some of the best practices. We will identify the remaining shortcomings that necessitate exploring yet another way of making debuginfo data available needed.\n\n\nWe will present the elfutils debuginfo-server, where a web service offers a lightweight, build-id-indexed lookup of debuginfo-related data on demand. This service is designed to run on a nearby host, private or shared within teams, or even by OS distributions. Clients built into various debugging type tools will be demonstrated.\n\nRoom: K.4.201\nScheduled start: 2020-02-02 14:20:00"

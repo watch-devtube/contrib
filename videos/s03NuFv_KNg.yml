@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - embedded
+title: 'Integrating Julius Speech Recognition Engine'
+language: English
+recordingDate: 1603263909
+description: "by Thierry Bultel\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.218A/ema_integrating_julius.webm\n\nThis presentation deals with the integration of Julius Speech Recognition Engine.\n\n\nThe aim of this Proof of Concept is to have a connectionless speech engine, working on an embedded device,\nintegrated as a binding of the AGL Application Framework.\nThe recognition uses Deep Neural Network realtime decoding, and for safer results and performances purpose,\nuses a grammar.\n\n\nJulius does not support wakewords out of the box, some hacking has been done to enable it in an efficient way.\nTests have been done on Renesas' H3, and UPSquare boards.\n\nRoom: UD2.218A\nScheduled start: 2020-02-01 09:30:00"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'An ultimate guide to upgrading your PostgreSQL installation'
+language: English
+recordingDate: 1603350484
+description: "by Ilya Kosmodemiansky\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2214/postgresql_an_ultimate_guide_to_upgrading_your_postgresql_installation.webm\n\nEven an experienced PostgreSQL DBA can not always say that upgrading between major versions of Postgres is an easy task, especially if there are some special requirements, such as downtime limitations or if something goes wrong. For less experienced DBAs anything more complex than dump/restore can be frustrating.\n\n\nIn this talk I will describe why we need a special procedure to upgrade between major versions, how that can be achieved and what sort of problems can occur. I will review all possible ways to upgrade your cluster from classical pg_upgrade to old-school slony or modern methods like logical replication. For all approaches, I will give a brief explanation how it works (limited by the scope of this talk of course), examples how to perform upgrade and some advice on potentially problematic steps. Besides I will touch upon such topics as integration of upgrade tools and procedures with other software — connection brokers, operating system package managers, automation tools, etc. This talk would not be complete if I do not cover cases when something goes wrong and how to deal with such cases.\n\nRoom: H.2214\nScheduled start: 2020-02-02 13:00:00"
