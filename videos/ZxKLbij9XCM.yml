@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'DEF CON Safe Mode Red Team Village - Alvaro Ruedo -  Total E(A)gression'
+language: English
+recordingDate: 1598260271
+description: "Defensive techniques and tools keep getting better and therefore the creation of implants that are not detected is a harder and time consuming task every Red Team operator has to go through. Focusing on the network detection field; recent Intrusion Detection Systems (IDS) that uses new network analysis techniques can detect easily some of our handcrafted implants by analyzing connection fingerprints from both client and server side. In some environments , techniques like Deep Packet Inspection can map our implants to possible threats to be addressed.\n\nIn this talk, I provide solutions that can be used on implants; a modified TLS Go package that allows circumventing tools like JA3 by providing desired fingerprints that will help to mimic rightful client software, egression to Gmail servers and techniques like steganography/encryption to hide obvious payloads. All these ideas are tailored into a new network modules for the Siesta Time Framework, to help to automate the creation of desired Implants. As a finale, possible new defensive techniques to improve tools like JA3 will be explained."
