@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - containers
+    - kubernetes
+title: 'Look Ma, No Pause! - Mrunal Patel & Peter Hunt, Red Hat'
+language: English
+recordingDate: 1599237329
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nLook Ma, No Pause! - Mrunal Patel & Peter Hunt, Red Hat \n\nThe pause container is a quinnessential hack for Kubernetes pods. A pause container is the first container in a pod, pauses until it is terminated, and is used to hold Linux namespaces open for the lifespan of the pod. Even though the pause container is as minimal as possible, it still has overhead, and we can do better.  CRI-O now supports running the pause container only when absolutely necessary. Join Peter Hunt and Mrunal Patel for a deep dive into the implementation details of dropping the pause container, as well as a performance comparison and discussion of other benefits. Attendees will participate in a conversation about the removal of this hack from Kubernetes.\n\nhttps://sched.co/Zenv"

@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+title: 'Panel: Are Cloud Native 5G Core Network Functions (NFs) Truly Manageable & Secure?'
+language: English
+recordingDate: 1599237324
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nPanel: Are Cloud Native 5G Core Network Functions (NFs) Truly Manageable & Secure? - Ramki Krishnan, VMware; Srini Addepalli, Intel; Heather Kirksey, The Linux Foundation; Tom Kivlin, Vodafone; & Balaji Ethirajulu, Ericsson \n\nIn the transition towards Cloud Native, 5G Core NFs has an interesting architectural mix of HTTP 2.0 and other network I/Fs.  In this panel, we first examine the various manageability/security/visibility challenges of the 5G Core NFs in K8S with 1) Multiple network I/Fs for high performance data plane NFs and for isolation for all NFs 2) Chaining of NFs that are distributed across K8S clusters.  While multi-cluster L7 Service Mesh (Istio, Linkerd etc.) seems to be a reasonable solution choice especially for HTTP-based functions, there are unique challenges posed by other NFs operation with other protocols and at lower layers. We will explore options such as an integrated Layer 2-7 service mesh approach leveraging open source efforts such as Open Virtual Network (OVN) to address these challenges - e.g. inter node/cluster secure communication using for Layer 7 TLS or Layer 2-4 IPSEC.\n\nhttps://sched.co/Zeq9"

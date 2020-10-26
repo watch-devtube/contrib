@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+    - testing
+title: 'KinD-ly Validating Your K8s Apps Automatically Per PR - Sarah Khalife & Grant Griffiths'
+language: English
+recordingDate: 1599237200
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nKinD-ly Validating Your K8s Apps Automatically Per PR - Sarah Khalife, GitHub & Grant Griffiths, Portworx \n\nKubernetes application developers working on successful projects thrive on collaboration that is transparent, consistent, and rigorous. This is one of the reasons many open source projects excel. However, a common pitfall that app developers face is manually testing against inconsistent environments. Testing k8s application correctness can differ per developer environment. It is also very time consuming to spin up and down k8s clusters. In this talk, we will demonstrate a simple set of steps to create and automate a homogenous testing environment for your application. We will be using KinD, a tool for running Kubernetes in Docker, and CI to automatically run e2e tests across a common environment for a k8s application. To maintain consistency, we will automate the creation of this environment per pull request and run the test suite before deploying to production.\n\nhttps://sched.co/Zele"

@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+    - functional
+title: 'K8s in the Datacenter: Integrating with Preexisting Bare Metal Environments - Max Stritzinger'
+language: English
+recordingDate: 1599237299
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nK8s in the Datacenter: Integrating with Preexisting Bare Metal Environments - Max Stritzinger, Bloomberg \n\nAs Kubernetes adoption grows, it will need to support the ability to run in a variety of host networking configurations to conform to the wide variety of datacenter architectures that exist in bare metal environments. This talk discusses our path of adapting Kubernetes components such as kube-proxy and the Calico networking project to operate in the pure L3 ECMP fabric our hosts live in. We will discuss our network configuration, how Calico (and other commonly used CNI providers) provide overlay networks to clusters, the steps we took and tools we used (ebpf, ftrace, tcpdump, conntrack) to diagnose some uncommon Linux networking issues, and how we can provide network connectivity to our clusters both with and without an overlay.\n\nhttps://sched.co/ZeqL"
