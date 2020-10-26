@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - api
+    - graphql
+    - web
+title: 'Павел Черторогов — Оборачиваем существующее REST API в GraphQL (методология за 1000000 рублей)'
+language: Russian
+recordingDate: 1597649698
+description: "Ближайшая конференция — HolyJS 2020 Moscow\n25-28 ноября, Online\nПодробности и билеты: https://holyjs-moscow.ru/\n\n. А реально обернуть REST API в GraphQL? И как сделать R&D для этой технологии? Обычно обкатку технологии принято делать на TodoMVC. Так и поступим.\n\nА коль Павел человек непростой, то придется брать и непростое Todo-приложение, к примеру, систему управления проектами Wrike.\n\nВозьмем REST API от Wrike:\n\n22 entity;\n87 методов.\nИ потратим 160 часов на:\n\n134 GraphQL-типа;\n1002 поля и аргумента;\n51 явную прямую связь между entity по id;\n26 неявных обратных связей через фильтры.\nВесь полученный опыт Павел сожмет в часовой доклад. Он поделится наработками, набитыми шишками, идеями и мыслями о том, как хорошо и качественно обернуть REST API в GraphQL. Приходите посмотреть, будет интересно!\n\nА перед докладом можно посмотреть на то, что получилось, и о чем спикер будет рассказывать:\n\nЖивой GraphQL-прокси – https://graphql-wrike.herokuapp.com/\nДиаграмма связей настоящего «волосатого» GraphQL – https://graphql-wrike.herokuapp.com/voyager\nРепозитарий с кодом – https://github.com/nodkz/wrike-graphql\nСсылка на слайды – https://nodkz.github.io/conf-talks/talks/2020.06.24-holyjs-online/index.html"
