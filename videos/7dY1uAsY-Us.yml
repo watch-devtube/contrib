@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - cloud
+    - security
+title: 'Fast QUIC sockets for cloud networking Using vector packet processing for QUIC acceleration and off…'
+language: English
+recordingDate: 1596524736
+description: "Fast QUIC sockets for cloud networking Using vector packet processing for QUIC acceleration and offload\nby Nathan Skrzypczak and Aloys Augustin\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/fast_quic_sockets_for_cloud_networking.webm\n\nQUIC was introduced by Google to move the transport protocol implementation out of the kernel, and is now being standardized in the IETF. It provides both encryption and multiplexing, and will be the default transport for HTTP/3. In this talk we'll present the work we've done investigating whether QUIC would benefit from vectorized packet processing, the impact it has on performance and how it can be consumed by external applications.\n\n\nVPP (vector packet processing) is a fast network data plane, part of the Linux Foundation FD.io project providing fast network functions on top of DPDK. It provides an optimized support of TCP &amp; UDP allowing significant performance improvements. In this presentation, we'll discuss:\n\n\n❮ul❯\n❮li❯How we took advantage of the open source protocol implementation quicly and vpp's hoststack, to implement fast QUIC sockets.❮/li❯\n❮li❯How this can be consumed by external applications and to what ends.❮/li❯\n❮li❯What this enables regarding hardware and software offloads.❮/li❯\n❮/ul❯\n\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-01 14:40:00"

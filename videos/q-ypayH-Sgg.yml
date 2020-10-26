@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - testing
+title: 'LLVM meets Code Property Graphs'
+language: English
+recordingDate: 1596179089
+description: "by Alex Denisov and Fabian Yamaguchi\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/llvm_cpg.webm\n\nThe security of computer systems fundamentally depends on the quality of its underlying software. Despite a long series of research in academia and industry, security vulnerabilities regularly manifest in program code. Consequently, they remain one of the primary causes of security breaches today.\nThe discovery of software vulnerabilities is a classic yet challenging problem of the security domain. In the last decade, there appeared several production-graded solutions with a favorable outcome.\n\n\nCode Property Graph[1] (or CPG) is one such solution. CPG is a representation of a program that combines properties of abstract syntax trees, control flow graphs, and program dependence graphs in a joint data structure.\nThere exist two counterparts[2][3] that allow traversals over code property graphs in order to find vulnerabilities and to extract any other interesting properties.\n\n\nIn this talk, we want to cover the following topics:\n\n\n❮ul❯\n❮li❯an intro to the code property graphs❮/li❯\n❮li❯how we built llvm2cpg, a tool that converts LLVM Bitcode to the CPG representation❮/li❯\n❮li❯how we teach the tool to reason about properties of high-level languages (C/C++/ObjC) based on the low-level representation only❮/li❯\n❮li❯interesting findings and some results❮/li❯\n❮/ul❯\n\n\n[1] https://ieeexplore.ieee.org/document/6956589\n[2] https://github.com/ShiftLeftSecurity/codepropertygraph\n[3] https://ocular.shiftleft.io\n\nRoom: K.4.201\nScheduled start: 2020-02-01 12:50:00"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'Hash Join in MySQL 8'
+language: English
+recordingDate: 1596006224
+description: "by Erik Frøseth\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2214/mysql8_hash_join.webm\n\nJOIN is one of the most common operation in a database system, and for a long time, the only algorithm for executing a join in MySQL has been variations of the nested loop algorithm. But starting from MySQL 8.0.18, it is now possible to execute joins using hash join. This presentation will walk you through how we were able to implement hash join using our new iterator executor, how hash join in MySQL works, when it is used, and everything else that is worth knowing about hash join in MySQL.\n\nRoom: H.2214\nScheduled start: 2020-02-01 15:40:00"

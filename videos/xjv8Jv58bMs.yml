@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+    - containers
+    - security
+title: 'Address Space Isolation in the Linux Kernel'
+language: English
+recordingDate: 1596092690
+description: "by James Bottomley and Mike Rapoport\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.1.105/kernel_address_space_isolation.webm\n\nSecurity is a big problem especially in the cloud of container workloads. This presentation investigates improving security in the Linux kernel itself. The first target is securing sensitive application data, for instance, private keys.\nAddress space isolation has been used to protect the kernel and userspace programs from each other since the invention of the virtual memory.\n\n\nAssuming that kernel bugs and therefore exploits are inevitable it might be worth isolating parts of the kernel to minimize damage that these exploits can cause. Moreover, restricted mappings in the kernel mode may improve mitigation of hardware speculation vulnerabilities.\n\n\nThere are several ongoing efforts to use restricted address spaces in Linux kernel for various use cases:\n* speculation vulnerabilities mitigation in KVM\n* support for memory areas visible only in a single owning context\n* hardening of the Linux containers\n\n\nWe are going to present the approach for the implementation of restricted mappings in the Linux kernel and how this implementation would be used with various use-cases.\n\n\nWe are also going to take a closer look at possibility to assign an address space to the Linux namespaces, so that tasks running in namespace A have different view of kernel memory mappings than the tasks running in namespace B. For instance, by keeping all the objects in a network namespace private, we can achieve levels of isolation equivalent to running a separated network stack.\n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2020-02-01 15:00:00"

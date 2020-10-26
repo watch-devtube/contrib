@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Introducing AUTOREV An automatic reverse-engineering framework for firmware BLOBs'
+language: English
+recordingDate: 1596265385
+description: "by Patrick Rudolph\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/firmware_ia.webm\n\nModern Open Source boot firmware ships with an increasing amount of BLOBs. While it's often claimed that it eases the integration,\nit makes life of Open Source developers harder, as it's not documented what is done inside BLOBs and what should be done outside of\nthe same.\n\n\nWe will show how to trace the MMIO access of BLOBs in firmware by using Open Source tools. As analysing the traces for possible\nbranches and loops is hard and stressful work, we created our own framework for automatic reverse engineering.\nOur framework allows to capture and analyse MMIO traces, fuzz the BLOB under test and finally generates readable code in a high level language,\nlike C, for easy analysing.\n\n\nDuring this talk, we will discuss the legal side, the motivation behind reverse engineering, and the benefit for the Open Source community.\nWe will explain the problems we faced, and explain the basic concept used, with examples from the real world.\n\nRoom: K.4.601\nScheduled start: 2020-02-01 16:00:00"

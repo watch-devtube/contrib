@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - web
+    - security
+    - architecture
+    - python
+title: 'Extending sudo in Python Best of both worlds'
+language: English
+recordingDate: 1595833431
+description: "by Peter Czanik\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.252A/python2020_sudo.webm\n\nFrom my talk you will learn about some lesser-known features of sudo, and how you can make your security more flexible by extending sudo using Python.\nEverybody knows sudo, right? Sudo allows a system administrator to give certain users the ability to run some commands as root, while logging the executed commands and their arguments. It is installed by default on almost all Linux systems, and is available for most commercial UNIX systems. Sudo allows you to fine-tune access policies, record sessions, and do extensive logging. Still, even system administrators often only know it is the “prefix” to use before entering a command requiring root privileges, and don’t realize its true powers.\n\n\nDid you know that with version 1.8 sudo changed to a plugin-based architecture? You can extend or even replace basic functionality through plugins. While plugins provide the ultimate flexibility – and there are both open source and commercial plugins for sudo available – it is not easy to extend sudo. This is why the Python plugin is under way to sudo (and will be released before FOSDEM).\n\n\nSudo has a number of well defined APIs for plugins (https://www.sudo.ws/man/sudo_plugin.man.html). The Python plugin builds on these APIs. For example, you can set your own policies using the policy API, or access what is happening on the screen using the I/O API (used by session recording).\n\n\nUsing Python for extending sudo makes development not just easier (no development environment necessary), but opens up many new possibilities. For example, you can develop a plugin which analyzes on-screen activity in real-time, and breaks the session if the infamous “rm -fr /” command appears on screen. As multiple I/O plugins can work in parallel, you do not have to give up session recording to analyze sessions in real-time from Python.\n\n\nFrom my talk you will learn about some lesser-known features of sudo, and how you can make your security more flexible by extending sudo using Python.\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2020-02-01 09:30:00"

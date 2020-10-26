@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - security
+title: 'SELinux fun with MySQL and friends'
+language: English
+recordingDate: 1595919844
+description: "by Matthias C and Ivan Groenewold\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2214/selinux_mysql.webm\n\nSELinux (Security Enhanced Linux) provides enhanced security mechanism for more advanced access control and auditing. It allows your application software and your system users to only access the resources it's been preconfigured to allow. Of course when you want to move your data- or log files to a non-standard location these policies will stop MySQL from starting.\n\n\nThe easy way out is obviously to set SELinux to disabled or permissive. But someone once said: \"Every time you disable SELinux a kitten dies\". We'll show you a few ways how you can find out if it actually is SELinux that is blocking you and how to update the policies to properly keep you system secured.\n\nRoom: H.2214\nScheduled start: 2020-02-01 12:40:00"

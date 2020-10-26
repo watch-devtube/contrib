@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - devops
+    - containers
+    - docker
+    - lisp
+title: 'Guix: Unifying provisioning, deployment, and package management in the age of containers'
+language: English
+recordingDate: 1596611229
+description: "by Ludovic Courtès\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.1.105/guix.webm\n\nThis talk will reflect on what GNU\_Guix has to offer to users and how it compares to other approaches—from CONDA and pip to Flatpak and Docker.  Guix is not only a transactional package manager and declarative GNU/Linux distribution: it’s also an environment manager, a container provisioning tool, and more.  We will describe these tools and our journey to 1.0, emphasizing key properties that set Guix apart:\nreproducibility, transparency, and hackability.\nWhen it comes to software deployment, we are getting used to a new distribution of roles among many actors: traditional distros take care\nof core software pieces, “application bundles” à la Docker/Flatpak provide complex applications, Cabal, Gem, npm, pip, and friends take care of language-specific software, and Puppet/Ansible orchestrate the whole thing.  Each of these tools has its justification, but the end result is a maze that’s hard to deal with.\n\n\nIn this talk I will present GNU\_Guix, a software deployment toolbox and its associated distro that feature transactional upgrades and rollbacks, declarative OS deployment inspired by Nix, and reproducible builds.  I will show how Guix approaches a variety of use cases: “package management” à la apt-get, environment management à la VirtualEnv, Ansible-style declarative OS deployment, and container provisioning à la Docker.\n\n\nGuix emphasizes programmability and one of its salient features is that it provides a unified Scheme programming environment to deal with with all the aspects of configuration, deployment, and system management—including service management by PID\_1.  I will illustrate how\nthis works out on standalone Guix systems, and show the benefits of the approach by discussing applications that take advantage of Guix as a library to support reproducible software deployment.\n\n\nLast, I will reflect on the road that led to Guix\_1.0 six months ago and present some of the challenges ahead.\n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2020-02-01 16:00:00"

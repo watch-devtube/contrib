@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - embedded
+title: 'Spunky: a Genode Kernel in Ada/SPARK'
+language: English
+recordingDate: 1596524694
+description: "by Martin Stein\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.125/ada_spunky.webm\n\nThe Genode OS framework is an open-source tool kit for building highly\nsecure component-based operating systems scaling from embedded devices\nto dynamic desktop systems.  It runs on a variety of microkernels\nlike SeL4, NOVA, and Fiasco OC as well as on Linux and the Muen SK.\nBut the project also features its own microkernel named \"base-hw\"\nwritten in C++ like most of the Genode framework.\n\n\nSpunky is a pet project of mine.  Simply put it's an approach to\nre-implement the design of the \"base-hw\" kernel first in Ada and\nlater in SPARK with the ultimate goal to prove its correctness.\nIt is also an opportunity to learn how Genode can benefit from Ada\nand SPARK in general and promote the use of safety-oriented languages\nin the project.\n\nRoom: AW1.125\nScheduled start: 2020-02-01 14:30:00"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - mobile
+    - android
+title: 'Debugging with LLVM A quick introduction to LLDB and LLVM sanitizers'
+language: English
+recordingDate: 1596092697
+description: "by Andrzej Warzynski and Graham Hunter\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_with_llvm.webm\n\nThe aim of this presentation is to showcase the technologies available in LLVM that aid debugging. We will focus on LLDB, the debugger, and sanitisers (e.g. AddressSanitizer and LeakSanitizer). No prior knowledge is required, but if you're familiar with GDB or Valgrind then this talk will introduce you to alternatives available within LLVM.\n\n\nLLDB is a very powerful and extensible command line debugger available on Linux, Mac OS, FreeBSD, Windows and Android. It is used internally in XCode and Android Studio and available on various hardware platforms (e.g. X86, ARM, AArch64, PowerPC, Mips). LLDB is built as a set of reusable components which highly leverage existing libraries in LLVM. It has a very powerful expression evaluation engine, intuitive CL interface (with tab-completion), easy to navigate help pages and a \"graphical\" user interface. In this presentation we will explore basic usage as well as some lesser known features. LLDB has come a long way and we want to present how intuitive, helpful and powerful it can be when used pragmatically.\n\n\nWhile LLDB will let you easily examine and debug a program at the point of failure, it can be harder to diagnose the underlying problem if it occurred before the program crashed or printed an incorrect result. LLVM provides some extra features in the form of 'sanitizers' to help find the root cause of some extra problems, like accessing a wrong-but-still-valid memory address or unintentionally wrapping a signed integer value. This presentation will explore how to use the sanitizers to debug programs and some examples of bugs they can catch.\n\nRoom: K.4.201\nScheduled start: 2020-02-01 09:30:00"

@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - elixir
+    - javascript
+    - rust
+    - wasm
+title: 'Lumen Elixir in the browser'
+language: English
+recordingDate: 1596438202
+description: "by Luke Imhoff\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.121/beam_lumen_elixir_browser.webm\n\nLumen is an alternative compiler, interpreter and runtime to the BEAM designed for WebAssembly.  Lumen allows Erlang and Elixir to run in the browser. The Lumen project is a reimplementation of the BEAM in Rust.  Using Rust, Lumen is able to leverage the cutting edge tools of the Rust WASM ecosystem.  Compiling Elixir and Erlang from source to LLVM IR, the Lumen compiler is able to do whole program optimizations allowing for dead-code elimination of parts of the user application, OTP, and the runtime itself.  Eliminating the dead code makes shipping OTP size-competitive with JavaScript frameworks, while retaining the benefits of thousands of concurrent processes and supervision trees.\n\nRoom: AW1.121\nScheduled start: 2020-02-01 11:30:00"

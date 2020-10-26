@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'Reverse engineering a VIC-20 expansion cartridge'
+language: English
+recordingDate: 1596006225
+description: "by Ben Dooks\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.401/retro_reverse_engineering_vic_20_cartridge.webm\n\nGoing from seeing an image of a cartridge that I would have loved to have had for my VIC-20 to working out how it was built and then making my own.\nStarting with a brief overview of the VIC-20 and the capabilities, to then looking at the \"vixen\" 16KiB RAM expansion, the initial view of the internals made available on the internet to going to a full implementation.\n\n\nThe initial overview will go through some of the identification of the components, the technologies involved (such as SRAM and DRAM) and the VIC-20 expansion bus. It will show what sort of technologies could go into implementing this sort of expansion and then how these can be discounted either by the age of the technology or the component complexity.\n\n\nTechniques for further reversing a circuit from the physical device and how the actual device circuit was then discovered, followed by the implementation and testing will be shown.\n\nRoom: K.3.401\nScheduled start: 2020-02-01 16:20:00"

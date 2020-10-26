@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+title: 'Running full Linux systems in containers, at scale A look at LXD and its clustering capabilities'
+language: English
+recordingDate: 1596006198
+description: "by Stéphane Graber\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.208/containers_lxd.webm\n\nLXD is a system container manager, its goal is to safely run full Linux systems at very high density and low overhead.\nContainers may be created from pre-made images, covering most Linux distributions, or by importing an existing virtual machine or physical system.\n\n\nAdvanced resource control and device passthrough is available to expose as much or as little system resources to those containers.\nSnapshot and backup tooling is available to safeguard those containers and data.\nStorage pools and networks can be used to offer a variety of storage and network options to the containers.\n\n\nManagement happens through a REST API with a default CLI client.\nLXD has built-in support for clustering which makes it trivial to scale a deployment to dozens of servers, all acting as one virtual LXD server.\n\n\nIn this presentation, we'll go over LXD's main features through a demonstration including usage of LXD's clustering abilities, running a variety of Linux distributions and converting existing systems to containers.\n\nRoom: UD2.208 (Decroly)\nScheduled start: 2020-02-01 13:45:00"

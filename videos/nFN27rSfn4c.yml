@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'ALTER TABLE improvements in MariaDB Server Optimized or instantaneous schema changes, including ADD…'
+language: English
+recordingDate: 1596265467
+description: "ALTER TABLE improvements in MariaDB Server Optimized or instantaneous schema changes, including ADD/DROP COLUMN\nby Marko Mäkelä\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2214/alter_mariadb.webm\n\n❮code❯ALTER TABLE❮/code❯ in MySQL used to copy the table contents row by row. We can do much better; in the best case, allow instantaneous schema changes, even for nontrivial changes, such as ❮code❯ADD COLUMN…AFTER❮/code❯ and ❮code❯DROP COLUMN❮/code❯. This talk describes how ❮code❯ALTER TABLE❮/code❯ has been improved over the years for the InnoDB storage engine in MySQL 5.1, 5.5, 5.6, 5.7, and MariaDB Server 10.2, 10.3, 10.4, 10.5, mostly by the presenter.\nThe talk enumerates different classes of ❮code❯ALTER TABLE❮/code❯ operations:\n\n\n❮ol❯\n❮li❯operations not involving other than metadata❮/li❯\n❮li❯operations that can be performed instantly by introducing a backward-compatible data file format change and 'faking' the operation (❮code❯ADD❮/code❯ or ❮code❯DROP COLUMN❮/code❯)❮/li❯\n❮li❯operations that can avoid rebuilding a table❮/li❯\n❮li❯operations that must rebuild the table❮/li❯\n❮li❯variations of the previous 2 classes that allow concurrent modifications to the table❮/li❯\n❮/ol❯\n\n\nWe also show how ❮code❯ALTER TABLE❮/code❯ can be executed concurrently on multiple nodes in statement-based replication.\nFinally, we cover some theoretical limits of what kind of ❮code❯ALTER TABLE❮/code❯ operations can be supported without rebuilding the table, by introducing an optional validation step and on-demand conversion of records in previous schema versions of the table.\n\nRoom: H.2214\nScheduled start: 2020-02-01 13:40:00"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'Falco Internals 101 : Syscalls processing for security analysis What happens when you have: syscall…'
+language: English
+recordingDate: 1596265433
+description: "Falco Internals 101 : Syscalls processing for security analysis What happens when you have: syscalls, a kernel module, an eBPF probe and a Ring Buffer?\nby Lorenzo Fontana\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/security_falco_internals_101.webm\n\nLinux Syscalls can be used as an entrypoint to do security analysis on Linux. However reading and processing every system call in userspace creates a very unique set of challenges.\nIn this talk we are going to see exactly what those challenges are and how we solved them in the Falco project.\nOne of the ways to have broad visibility into our systems, when doing security analysis is to go and ask our questions directly to the Linux kernel.\nFor this purpose, at a very foundational level, in every Linux system we find the syscalls interface. It’s certain that every user space process goes through this part of the kernel.\n\n\nStarting with this assumption, the immediate conclusion is that we can just go and ask the syscalls “Yo syscalls! What’s happening in my system?”. While this reasoning might seem very simple, reading and processing every single syscall in userspace can result in a set of very unique challenges to this domain.\n\n\nIn this talk we are going to see exactly what those challenges are and how we solved them in the Falco project.\n\n\nPart of the solution for Falco is to have two alternative drivers, a Kernel module and an eBPF driver talking to userspace using a Ring buffer but you have to come to this talk to hear the rest!\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-01 11:30:00"

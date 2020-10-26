@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - ux
+title: 'Edge Clouds with OpenNebula'
+language: English
+recordingDate: 1596006257
+description: "by Vlastimil Holer\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/vai_edge_clouds_with_opennebula.webm\n\nEdge computing is currently getting a lot of traction thanks to the growing availability of rented computing resources around the world. The idea is based on moving the core computational logic and storage to distant locations that are closer to the entities they interact with (e.g. users or sensors). The benefits come from improving network latencies, increasing user experience with the provided service, and lowering the transfers to the central locations. Edge clouds bring the flexibility and proven workflows of cloud computing to the edge.\n\n\nOpenNebula is an open source framework to build private and hybrid clouds based on KVM, LXD, and/or VMware vCenter. While the main domain is the corporate private on-premises cloud, it comes with simple and extensible tooling (\"oneprovision\") for automated deployment of edge clouds. When provided with a deployment descriptor, it allocates the physical hosts on the public bare-metal cloud provider, configures all necessary services (e.g. install libvirt/KVM or LXD), and enables them for use in OpenNebula. The process is as simple as running a command-line tool and the cloud administrator gets a fully usable configured edge cluster in a few  minutes.\n\n\nAs part of a usability validation exercise, we successfully deployed public gaming servers from scratch to running services on 17 different locations worldwide in just 25 minutes: https://opennebula.org/opennebula-a-lightning-fast-video-gaming-edge-use-case-2 .\n\n\nThis talk introduces the OpenNebula \"edge\" concept and shows the current state, capabilities, and limitations of edge cloud deployment tooling. It explores the difficulties of running the IaaS-in-IaaS cloud and demonstrates with practical examples the use of tooling and management of edge deployments.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-02 12:30:00"

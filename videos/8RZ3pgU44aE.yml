@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - java
+    - sap
+title: 'Helpful NullPointerExceptions - The little thing that became a JEP'
+language: English
+recordingDate: 1596179007
+description: "by Christoph Langer\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1302/npes.webm\n\nOne of the most prevalent - if not the most prevalent - exception type in Java is the NullPointerException. While Java set out to overcome the possibilities\nto do the mistakes one can do when programming in languages like C/C++ by not exposing pointers in the Java language, the misleading term 'pointer' sneaked\ninto this exception. To this day, NullPointerExceptions thrown by the runtime system didn't contain messages. All you had was a callstack and a line number.\nBut in typical expressions and statements there are several dereferences where an NPE can occur in one line.\n\n\nWe - some engineers in the SAP team - thought this could be helped by a little enhancement. The new NPE message gives precise information about the location\nand tries to explain what was going on when a null reference was encountered. However, due to its prominent nature, it eventually became a JEP.\n\n\nIn my talk I'll demonstrate the improvements that come with this enhancement. I will lift the hood a little and provide a glance at its implementation details.\nAnd finally I'll say some words about the current status and share some ideas for further improvements in the area of exception messages.\n\nRoom: H.1302 (Depage)\nScheduled start: 2020-02-01 15:50:00"

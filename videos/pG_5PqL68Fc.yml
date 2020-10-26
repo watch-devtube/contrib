@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Gunrock: High-Performance Graph Analytics for the GPU'
+language: English
+recordingDate: 1596524602
+description: "by Muhammad Osama\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.121/graph_gunrock.webm\n\nGunrock is a CUDA library for graph-processing designed specifically for the GPU. It uses a high-level, bulk-synchronous, data-centric abstraction focused on operations on vertex or edge frontiers. Gunrock achieves a balance between performance and expressiveness by coupling high-performance GPU computing primitives and optimization strategies, particularly in the area of fine-grained load balancing, with a high-level programming model that allows programmers to quickly develop new graph primitives that scale from one to many GPUs on a node with small code size and minimal GPU programming knowledge.\n\n\nFeatures of Gunrock include:\n- Best of class performance among GPU graph analytics frameworks\n- A large number of graph applications (28 at last count)\n- A data-centric programming model targeted at GPUs that offers advantages over other programming models\n- A programming model that scales to multiple GPUs with high performance while still using the same code as a single-GPU primitive\n\n\nGunrock began in 2013 as a project under DARPA's XDATA program and is currently the performance reference in DARPA's HIVE program. Gunrock is also in development as a component in NVIDIA's RAPIDS platform for data analytics. The Gunrock team actively develops and improves Gunrock under an Apache 2.0 license.\n\n\nhttps://gunrock.github.io/\n\nRoom: AW1.121\nScheduled start: 2020-02-01 15:15:00"
