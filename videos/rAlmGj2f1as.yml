@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - mobile
+title: 'OpML ''20 - RIANN: Real-time Incremental Learning with Approximate Nearest Neighbor on Mobile Devices'
+language: English
+recordingDate: 1595017433
+description: "RIANN: Real-time Incremental Learning with Approximate Nearest Neighbor on Mobile Devices\n\nJiawen Liu and Zhen Xie, University of California, Merced; Dimitrios Nikolopoulos, Virginia Tech; Dong Li, University of California, Merced\n\nApproximate nearest neighbor (ANN) algorithms are the foundation for many applications on mobile devices. Real-time incremental learning with ANN on mobile devices is emerging. However, incremental learning with current ANN algorithms on mobile devices is difficult, because data is dynamically and incrementally generated on mobile devices and as a result, it is difficult to reach high timing and recall requirements on indexing and search. Meeting the high timing requirements is critical on mobile devices because of short user response time and low battery lifetime.\n\nWe introduce an indexing and search system for graph-based ANN on mobile devices called RIANN. By constructing ANN with dynamic ANN construction properties, RIANN enables high flexibility for ANN construction to meet the high timing and recall requirements in incremental learning. To select an optimal ANN construction property, RIANN incorporates a statistical prediction model. RIANN further offers a novel analytical performance model to avoid runtime overhead and interaction with mobile devices. In our experiments, RIANN significantly outperforms the state-of-the-art ANN (2.42x speedup) on Samsung S9 mobile phone without compromising search time or recall. Also, for incrementally indexing 100 batches of data, the state-of-the-art ANN satisfies 55.33% batches on average while RIANN can satisfy 96.67% with minimum impact on recall.\n\nView the full OpML '20 program at https://www.usenix.org/conference/opml20/program"

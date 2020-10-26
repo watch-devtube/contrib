@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+title: 'OpML ''20 - Addressing Some of Challenges When Optimizing Long-to-Train-Models'
+language: English
+recordingDate: 1595017405
+description: "Addressing Some of Challenges When Optimizing Long-to-Train-Models\n\nTobias Andreasen, SigOpt\n\nAs machine learning models become more complex and require longer training cycles, optimizing and maximizing performance can sometimes be seen as an intractable problem - this tends to leave a lot of performance unrealized.\n\nThe challenge oftentime becomes that most common methods for hyperparameter optimization are either sample efficient or they are able to efficiently parallelize. This either leads to a choice between a very long optimization process with good performance, or a very short but efficient optimization process with suboptimal performance.\n\nFurther, another challenge becomes justifying the cost of optimizing these oftentime long-to-train-models, because in most situations this has to be done on a per model basis with non of information gained being leverage in the future.\n\nThis talk outlines ways in which these challenges can be addressed, when thinking about bringing optimal performing models into production.\n\nView the full OpML '20 program at https://www.usenix.org/conference/opml20/program"

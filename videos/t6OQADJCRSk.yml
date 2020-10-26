@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - azure
+    - containers
+    - docker
+    - kubernetes
+    - architecture
+title: 'Event-driven computing with Kubernetes - Jakob Ehn'
+language: English
+recordingDate: 1593517559
+description: "Don't forget to check out our links below!\nhttps://ndcporto.com/\nhttps://ndcconferences.com/\n\nEvent-driven architectures is very common in a microservices world, enabling flexible and decoupled designs for the applications that we build.\n\nBut eventing is also very useful when it comes to our infrastructure and CI/CD platforms. Being able to chain together containers in simple or complex workflows, triggered by different events coming from inside or outside the cluster, opens up a world of possibilites.\n\nIn this session we will look at two event-based platforms for Kubernetes:\n\n* Brigade brings event-based scripting to Kubernetes, making it easy to chain together containers and run them serially or in parallell, triggered by events such as GitHub events, Docker pushes or any other trigger. We'll look at how we can automate deployments to Kubernetes when a Pull Request is created, and removes it once the PR is completed\n\n* KEDA (Kubernetes-based Event Driven Autoscaling) enables autoscaling for event driven Kubernetes workloads. KEDA supports multiple event sources, such as Kafka, RabbitMQ and Azure Service Bus, and natively integrates with Azure Function tooling. Scaling out the number of pods based on the number of messages in our message queue is a perfect example of the powre that KEDA brings, which will be show during this session"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+title: 'OpML ''20 - Time Travel and Provenance for Machine Learning Pipelines'
+language: English
+recordingDate: 1595017405
+description: "Time Travel and Provenance for Machine Learning Pipelines\n\nAlexandru A. Ormenisan, KTH - Royal Institute of Technology; Moritz Meister, Fabio Buso, and Robin Andersson, Logical Clocks AB; Seif Haridi and Jim Dowling, KTH - Royal Institute of Technology\n\nMachine learning pipelines have become the defacto paradigm for productionizing machine learning applications as they clearly abstract the processing steps involved in transforming raw data into engineered features that are then used to train models. In this paper, we use a bottom-up method for capturing provenance information regarding the processing steps and artifacts produced in ML pipelines. Our approach is based on replacing traditional intrusive hooks in application code (to capture ML pipeline events) with standardized change-data-capture support in the systems involved in ML pipelines: the distributed file system, feature store, resource manager, and applications themselves. In particular, we leverage data versioning and time-travel capabilities in our feature store to show how provenance can enable model reproducibility and debugging.\n\nView the full OpML '20 program at https://www.usenix.org/conference/opml20/program"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - containers
+title: 'HotEdge ''20 - Toward Lighter Containers for the Edge'
+language: English
+recordingDate: 1595547262
+description: "Toward Lighter Containers for the Edge\n\nMisun Park, Ketan Bhardwaj, and Ada Gavrilovska, Georgia Institute of Technology\n\nEdge computing environments, being resource-limited, cannot tolerate the bloat in size of edge applications due to use of thick, complex software runtimes and hardware acceleration support. But such capabilities are critical to support rich, diverse and high performance applications. Performance includes deployment time, responsiveness and scalability, and is impacted by the bloat if using cloud-native container-based systems at the edge. If not addressed, this will limit the ability of the edge to scale to increasing number of workloads.\n\nThis paper makes a case for a new featherweight system—Pocket—to support edge computing. Pocket addresses the limitations in current container-based systems while retaining their benefits. Pocket achieves this by splitting containerized applications into two parts: application container and a bloat-causing execution environment container. Experimental evaluations of an early prototype show that by sharing the execution environment containers across multiple application containers, Pocket is able to achieve significant reductions of the resource pressure at the edge, thus presenting a path toward greater efficiency and scalability for edge computing.\n\nView the full HotEdge '20 program at https://www.usenix.org/conference/hotedge20/workshop-program"

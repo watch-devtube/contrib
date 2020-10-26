@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+title: 'HotEdge ''20 - FERRET: Fall-back to LTE Microservices for Low Latency Data Access'
+language: English
+recordingDate: 1595547272
+description: "FERRET: Fall-back to LTE Microservices for Low Latency Data Access\n\nMuhammad Taqi Raza, University of Arizona; Fatima Muhammad Anwar, UMASS Amherst; Dongho Kim, AT&T Research Lab; Kyu-Han Kim, HP Enterprise Research Lab\n\nMotivated from Software Defined Networking (SDN), LTE standard body (3GPP) has recently proposed splitting monolithic LTE Network Functions (NFs) into their control-plane and data-plane modules for better performance, flexibility, and agility. The data-plane logic is pushed at the edge of the network while retaining control-plane functionality at the core. However, both network edge and the core modules involve in executing LTE control-plane procedures (e.g. device registration/deregistration, and mobility etc.) as well as LTE data-plane services (e.g. voice over LTE, and video streaming, etc.). We discover that these decoupled modules, being part of the same LTE network function, interact frequently and cause deadlocks and races. In this paper, we argue that SDN style approach may not work for LTE NFs due to their monolithic design. We reason to retain LTE legacy design by not splitting its NFs. Our idea is to keep all types of LTE control-plane procedures handling at the core; while moving the execution of LTE data-plane services to the edge as microservices. We propose FERRET that is inspired from the success of the Circuit Switch Fall Back (CSFB) procedure, and falls-back to specific LTE microservice for the user requesting a particular LTE service. It first records signaling messages exchange as part of LTE service establishment phase at the core and then replays these messages at dedicated microservice to enable that service handling. FERRET lets microservice to facilitate LTE service execution that provides data forwarding at the edge.\n\nView the full HotEdge '20 program at https://www.usenix.org/conference/hotedge20/workshop-program"

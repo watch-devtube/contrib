@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+title: 'HotEdge ''20 - Understanding and Tackling the Hidden Memory Latency for Edge-based Heterogeneous'
+language: English
+recordingDate: 1595547249
+description: "Understanding and Tackling the Hidden Memory Latency for Edge-based Heterogeneous Platform\n\nZhendong Wang, Zhen Wang, Cong Liu, and Yang Hu, The University of Texas at Dallas\n\nWith the burgeoning of autonomous driving, the edge-deployed integrated CPU/GPU (iGPU) platform gains significant attention from both academia and industries. NVIDIA issues a series of Jetson iGPU platforms that perform well in terms of computation capability, power consumption, and mobile size. However, these iGPU platforms typically contain very limited physical memory, which could be the bottleneck of these autonomous driving and edge computing applications. Although the introduction of the Unified Memory (UM) model in GPU programming can reduce the memory footprint, the programming legacy of the UM model initializes data on the CPU side by default as the conventional copy-and-execute model does, which causes significant latency of application execution. In this paper, we propose an enhanced unified memory management model (eUMM), which delivers a prefetch-enhanced data initialization method on the GPU side of the iGPU platform. We evaluate eUMM on the representative Jetson TX2 and Xavier AGX platforms and demonstrate that eUMM not only reduces the initialization latency significantly but also benefits the following kernel computation and the entire application execution latency.\n\nView the full HotEdge '20 program at https://www.usenix.org/conference/hotedge20/workshop-program"

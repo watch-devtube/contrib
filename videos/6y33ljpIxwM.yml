@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - embedded
+title: 'HotEdge ''20 - Adaptively Compressing IoT Data on the Resource-constrained Edge'
+language: English
+recordingDate: 1595547275
+description: "Adaptively Compressing IoT Data on the Resource-constrained Edge\n\nTao Lu, Marvell Technology Group; Wen Xia and Xiangyu Zou, Harbin Institute of Technology, Shenzhen, China; Qianbin Xia, Marvell Technology Group\n\nBig IoT data needs to be frequently moved between edge and cloud for efficient analysis and storage. Data movement is costly in low-bandwidth wide area network environments. Data compression can dramatically reduce data size to mitigate the bandwidth bottleneck. However, compression is compute-intensive and compression throughput can be limited by available CPU resources. The impact of available computation capability of the resource-constrained edge on the edge-to-cloud data transfer rate is apparent. Our study reveals compressors, including gzip, bzip2, lzma, and zstd, perform very differently under various resource-constrained conditions. This motivates us to propose models for the best compressor selection under CPU, network, and storage resource limitation conditions on the edge. We implement ZipMate, a middleware that enables resource-aware and adaptive compression policy based on the model. Our evaluation shows that adaptive policies consistently outperform unitary or random compressor selection policies.\n\nView the full HotEdge '20 program at https://www.usenix.org/conference/hotedge20/workshop-program"

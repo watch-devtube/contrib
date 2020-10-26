@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - ml
+    - tensorflow
+    - 'code design'
+    - architecture
+    - python
+    - 'design patterns'
+title: 'OpML ''20 - Cluster Serving: Distributed Model Inference using Big Data Streaming in Analytics Zoo'
+language: English
+recordingDate: 1595017405
+description: "Cluster Serving: Distributed Model Inference using Big Data Streaming in Analytics Zoo\n\nJiaming Song, Dongjie Shi, Qiyuan Gong, Lei Xia, and Jinquan Dai, Intel\n\nAs deep learning projects evolve from experimentation to production, there is increasing demand to deploy deep learning models for large-scale, real-time distributed inference. While there are many tools available for relevant tasks (such as model optimization, serving, cluster scheduling, workflow management, etc.), it is still a challenging process for many deep learning engineers and scientists to develop and deploy distributed inference workflow that can scale out to large clusters in a transparent fashion.\n\nTo address this challenge, we have developed Cluster Serving, an automated and distributed serving solution that supports a wide range of deep learning models (such as TensorFlow, PyTorch, Caffe, BigDL, and OpenVINO). It provides simple publish-subscribe (pub/sub) and REST APIs, through which users can easily send their inference requests to the input queue using simple Python or HTTP APIs. Cluster Serving will then automatically manage the scale-out and real-time model inference across a large cluster, using distributed Big Data streaming frameworks (such as Apache Spark Streaming and Apache Flink).\n\nIn this talk, we will present the architecture design for Cluster Serving, and discuss the underlying design patterns and tradeoffs to deploy deep learning models on distributed Big Data streaming frameworks in production. In addition, we will also share real-world experience and \"war stories\" of users who have adopted Cluster Serving to develop and deploy distributed inference workflow.\n\nView the full OpML '20 program at https://www.usenix.org/conference/opml20/program"
