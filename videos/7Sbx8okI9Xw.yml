@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON Safe Mode Crypto and Privacy Village - Hanno Böck - STARTTLS is Dangerous'
+language: English
+recordingDate: 1598069296
+description: "The STARTTLS mechanism allows upgrading insecure protocols to a TLS encrypted connection. This mechanism is incredibly fragile and almost by default leads to vulnerable implementations. In 2011 Wietse Venema discovered a flaw in Postfix that allowed a man in the middle attacker to inject commands into an encrypted connection [1].\n\nWe discovered that the flaw is still widely present in E-Mail servers and also, previously unknown, the same flaw exists in many mail clients. In some cases these flaws allow stealing E-Mail credentials. Furthermore the STARTTLS mechanism is weakly specified and in part contradictory, which allows other attacks.\n\nThe talk will give an overview on why STARTTLS is dangerous and should be avoided."

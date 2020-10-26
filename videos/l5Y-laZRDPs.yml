@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - security
+title: 'DEF CON Safe Mode Red Team Village  - Eduardo Arriols - Catch Me if You Can'
+language: English
+recordingDate: 1597890500
+description: "The presentation will show, from a technical point of view, how to deploy backdoors to guarantee access to an organization. Initially, a brief review about types of persistance, locations where it can be deploy and common aspects to be taken into account will be carried out, to then go on to describe all the details that allow a Red Team to guarantee access to the entity without the organization being able to detect it or being able to expel the attacker before the attacker re-enters using another alternative persistence.\nThe presentation will feature the following highlights:\n- General introduction to the concepts necessary to understand the details regarding the scenarios where it is necessary to deploy persistence in an organization (in real intrusion).\n- Reverse connection typology such as situations where there is direct access to the Internet, connection via proxy, proxy with authentication, DNS, …\n- Infrastructure and techniques for persistence deployment, indicating the type of servers and advanced techniques such as Domain fronting, IP laundry, ...\n- Traditional deployment of persistence on an organization both in existing systems in DMZ, internal servers, workstations, Cloud servers, Active Directory, …\n- Alternative persistence to guarantee unknown access through users with predictable credentials based on password history, Wireless backdoor on workstations (in both directions), extracting internal WiFi passwords, pivoting through resource reconstruction, periodic tasks to modify AD setting, monthly Outlook rules configured and upload interna GAL table of users, visual information extraction using screen and others.\n- Anti-forensic techniques for the deployment of persistence, to avoid the identification of these by the Security team.\n- Types of behavior to act and techniques when the security team detects a persistence, allowing access to the entity to be recovered before having lost access to company.\nThe combined use of the exposed techniques and actions, as will be shown in the presentation, means that the security team does not have the ability to expel the Red Team in any case, allowing the intrusion to be carried out with greater freedom.\nThe presentation is the result of experience in developing deep Red Team exercises on the main organizations in Spain (IBEX35), as well as large banking and industrial entities in Europe and America for more than 6 years.\nAfter the presentation, an Open Source tool will be published to help in the development of the persistence deployment."
