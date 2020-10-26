@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - ux
+title: 'DEF CON Safe Mode Wireless Village - wytshadow - Wicked Wardriving with gps and glonass'
+language: English
+recordingDate: 1597440036
+description: "I'll begin the talk giving my experience working in Air Force Space Command and how they fly GPS satellites. GPS is only one constellation of “GPS” satellites in space. Several other countries have their own version of GPS. Russia has GLONASS, China has Beidou, Europe has Galileo, Japan and India also have their own satellite constellations. All these satellites speak a common language known as GNSS. With the correct dongle, NOT THE BU-353, you can receive location data from more than the US controlled GPS satellites in space, this gives you more reliable location data for war driving.\n\nI’ll then go into a description of war driving with kismet and all the things kismet can collect on. I’ll then show off a dongle box I slapped together that is similar to El Kentaro’s kismet box. It is a pelican case with a 7 port, USB hub hot glued inside with holes drilled in it so antennas can be mounted externally.\n\nAfter talking about wardriving, I’ll talk about uploading results to WiGLE or uploading a kismet pcapppi file to google earth to keep wardrive data private. This is how you can review actively collected war drive data, but what if you want to review the work that others have done? Enter wigleQuery (https://github.com/wytshadow/wigleQuery). Querying WiGLE through their web interface provides a weak user experience, the access points are hard to see, even when you zoom in, and getting additional details on each access point is not very intuitive. WigleQuery provides an easier way to query WiGLE for WiFi Access Points based on BSSID(s), ESSID(s), Lat/Long and plots the result on google maps using easy to see colors and also outputs the results in CSV format for further processing. This output data can also be used when asking WiGLE admins to have your access points removed from the WiGLE database.\n\nI’ll conclude talking about future improvements to be made to wigleQuery."

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - python
+title: 'DEF CON Safe Mode Car Hacking Village - Dan Salloum, Thomas Hayes -  Before J1939'
+language: English
+recordingDate: 1597621961
+description: "Medium and heavy duty equipment communicate over vehicle networks using a number of protocols and busses. While researching the interaction between tractors and semi-trailers, we identified the presence of two legacy protocols, J1708 (physical layer), and J1587 (transport layer). The current mechanisms to capture and decode this data do not promote cost efficient data DISCOVERY, but as a team, we have developed techniques that will allow us to use existing diagnostic hardware to capture and decode J1587, and J1708, messages from the vehicle bus.\n\npretty_1587, our software application, has been designed to process input streams and convert SAE J1708 and J1587 messages to a convenient format that a user can read or pass to another software application. Our open source python code has been designed to be versatile and to work with the output of existing diagnostic tools and can consume data over network sockets, from files, or from stdin, allowing most hardware solutions that interface directly with the serial bus will be able to pass data to pretty_1587 to decode the data contained in the J1587 messages."
