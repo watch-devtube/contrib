@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+title: 'Relax-and-Recover (ReaR) Basics with Demo on Real Hardware'
+language: English
+recordingDate: 1600509864
+description: "by Gratien D'haese and Johannes Meixner\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.119/basicrear.webm\n\nIntroducing Relax-and-Recover (ReaR) for the novice users. What is it and what can it mean for you? Is Disaster Recovery useful to consider it or not? How can ReaR assist you with DR?\nReaR can store the details about your systems on disks (NAS, USB, SAN,...) or network (PXE, NFS, CIFS,...) including the complete backup. It also creates a bootable image which you need to recreate your system from scratch.\nFurthermore, thanks to the modular concept, ReaR integrates perfectly with external backup solutions (be commercial and/or open source ones) to do the backup and restore part which makes ReaR very scalable in big enterprises. ReaR scales even with Cloud solutions and is the heart of another great project (DRLM or Disaster Recovery Linux Manager).\nRelax-and-Recover (ReaR) is the de facto standard generic (bare metal) disaster recovery framework for all kind of Linux systems.\nReaR is in common use by admins for disaster recovery on thousands and thousands of Linux server systems.\nThe first part of the \"ReaR Basics\" talk will be presented by Gratien D'haese (one of the co-founders of ReaR).\n\n\nIn the second part of the talk Johannes Meixner (one of the main developers of ReaR) will use his own laptop to demonstrate the ReaR disaster recovery framework.\nTherefore, Johannes will show a real live demo without safety net how ReaR is used to recover his own laptop from soft errors like deleted essential files\n(rm -r /lib...) and/or destroyed partitioning/bootloader (dd if=/dev/zero of=/dev/sdX). Come and see for yourself how ReaR can save your day!\n\nRoom: UD2.119\nScheduled start: 2020-02-01 10:05:00"

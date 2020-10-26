@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - security
+title: 'SECCOMP your PostgreSQL'
+language: English
+recordingDate: 1601708812
+description: "by Joe Conway\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.1.105/seccomp.webm\n\nSECCOMP (\"SECure COMPuting with filters\") is a Linux kernel syscall filtering mechanism which allows reduction of the kernel attack surface by preventing (or at least audit logging) normally unused syscalls. Recent security best-practices recommend, and certain highly security-conscious organizations are beginning to require, that SECCOMP be used to the extent possible. The major web browsers, container runtime engines, and systemd are all examples of software that already support SECCOMP.\n\n\nThis talk covers SECCOMP applied to PostgreSQL via 2 different methods -- namely top-down using systemd, and at the session level using a PostgreSQL extension called pgseccomp. The two methods will be explained and compared. We will also discuss how and why the two methods might be used in conjunction. Finally, a process to determine the list of expected/legitimate PostgreSQL kernel syscalls is described.\n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2020-02-02 08:00:00"

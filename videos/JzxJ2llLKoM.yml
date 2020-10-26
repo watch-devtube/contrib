@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'Designing for Failure Fault Injection, Circuit Breakers and Fast Recovery'
+language: English
+recordingDate: 1600596242
+description: "by Walter Heck\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.120/designing_failure.webm\n\nDesigning for Failure\n\n\nWhile we all work very hard to build high-available, fault-tolerant and\nresillient applications and infrastructures the end-goal is currently often\nsomething along the lines of loosly-coupled/microservices with zero-downtime in\nmind.\nUpgrades are tied to CI/CD pipelines and we should be sipping pina coladas\non the beach. Time to unleash the Chaos Monkey, because that is what Netflix\ndoes, so we should try it as well.\n\n\nNow, the backend DB failed. The middleware application is returning errors, and\nyour frontend is showing a fancy 5xx.\n\n\nWhile each layer is able to scale independently or fail-over to another region,\neven a simple timeout @ the DB can cause a cascading failure.\n\n\nThe application is ❮em❯designed to work❮/em❯, not designed to ❮em❯recover from failure❮/em❯.\n\n\nDesigning for failure applies to both software development and infrastructure\narchitecture, and I'd like to talk about a couple of points to highlight this\nparadigm.\n\n\nPlease note that this talk replaces one entitled \"Introduction to Metal³\" that was due to have been given by Stephen Benjamin, who has sent his apologies but is now unable to attend.\n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2020-02-01 12:00:00"

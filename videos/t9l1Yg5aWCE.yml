@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - An Off-Chip Attack on Hardware Enclaves via the Memory Bus'
+language: English
+recordingDate: 1600121977
+description: "An Off-Chip Attack on Hardware Enclaves via the Memory Bus\n\nDayeol Lee, UC Berkeley; Dongha Jung, SK Hynix; Ian T. Fang, UC Berkeley; Chia-Che Tsai, Texas A&M University; Raluca Ada Popa, UC Berkeley\n\nThis paper shows how an attacker can break the confidentiality of a hardware enclave with Membuster, an off-chip attack based on snooping the memory bus. An attacker with physical access can observe an unencrypted address bus and extract fine-grained memory access patterns of the victim. Membuster is qualitatively different from prior on-chip attacks to enclaves and is more difficult to thwart.\n\nWe highlight several challenges for Membuster. First, DRAM requests are only visible on the memory bus at last-level cache misses. Second, the attack needs to incur minimal interference or overhead to the victim to prevent the detection of the attack. Lastly, the attacker needs to reverse-engineer the translation between virtual, physical, and DRAM addresses to perform a robust attack. We introduce three techniques, critical page whitelisting, cache squeezing, and oracle-based fuzzy matching algorithm to increase cache misses for memory accesses that are useful for the attack, with no detectable interference to the victim, and to convert memory accesses to sensitive data. We demonstrate Membuster on an Intel SGX CPU to leak confidential data from two applications: Hunspell and Memcached. We show that a single uninterrupted run of the victim can leak most of the sensitive data with high accuracy.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

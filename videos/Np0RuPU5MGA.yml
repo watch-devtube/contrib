@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'libliftoff status update Taking advantage of KMS planes'
+language: English
+recordingDate: 1601535968
+description: "by Simon Ser\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.401/kms_planes.webm\n\nThis talk will explain some basics about KMS, introduce libliftoff, describe the library's current status and outline the next steps.\nMany DRM drivers have been exposing overlay planes for quite some time. Overlay planes can improve battery consumption by scanning out directly client buffers, skipping composition. While Wayland compositors and the X server usually take advantage of the cursor plane (and sometimes are able to use the primary plane to directly scan out a client's buffer), overlay planes are under-used. The exception is Weston, which tries to use overlay planes. Other compositors ignore them.\n\n\nThe main challenge is to figure out how to assign buffers coming from clients to hardware planes. The only API exposed by KMS is atomic test commits, so user-space needs to try different combinations. It would be nice to have a common library shared between compositors to de-duplicate the work.\n\n\nDuring the XDC 2019 conference we discussed about ❮a href=\"https://github.com/emersion/libliftoff\"❯libliftoff❮/a❯, an attempt at designing such a library. Feedback was positive from both compositor writers and driver developers. We discussed about the API, the potential pitfalls and future goals. The scope of the library has been expanded: libliftoff could also provide some feedback to clients so that they allocate buffers suitable for hardware planes. Additionally, because the KMS API makes it tricky to find the best way to make use of hardware planes, libliftoff could grow some vendor-specific plugins.\n\nRoom: K.4.401\nScheduled start: 2020-02-01 10:00:00"

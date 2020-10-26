@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - web
+title: 'Back to the Linux Framebuffer! Linux Framebuffer support in free software'
+language: English
+recordingDate: 1600873693
+description: "by Nicolas Caramelli\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.401/fbdev.webm\n\nAlthough KMS/DRM can replace the Linux Framebuffer, there are a number of programs and libraries that can be built on top of the Linux Framebuffer (without X11 or Wayland dependencies) and that might still be worth considering. The Linux Framebuffer allows direct access to pixels: we will illustrate it with various rendering tools (Fbpad, Fbi, NetSurf, MPlayer, ...), but also with drawing libraries such as Cairo or Evas, and multimedia frameworks like FFmpeg or GStreamer.\nThe Mesa 3D project makes OpenGL rendering possible using only the Linux Framebuffer with GLFBDev or EGL: mesa-demos and yagears programs will be shown.\nWe will then cover graphics libraries (GLUT, SDL, EFL, GTK, Qt) that allow to integrate high level applications running directly on top of the Linux Framebuffer with no compositor. An example will be described using either WebKitGTK or QtWebKit for the rendering of a HTML5 media player and a WebGL sample, using the Linux Framebuffer port of those libraries and toolkits.\nThis talk is inspired by the HiGFXback project which aims at preserving historical backends used for graphics on GNU/Linux systems.\n\nRoom: K.4.401\nScheduled start: 2020-02-01 14:00:00"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'Inspektor Gadget and traceloop Tracing containers syscalls using BPF'
+language: English
+recordingDate: 1601103849
+description: "by Alban Crequy\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.208/containers_bpf_tracing.webm\n\nI will present Inspektor Gadget and traceloop, a tracing tool to trace system calls in cgroups or in containers using BPF and overwritable ring buffers.\nMany people use the “strace” tool to synchronously trace system calls using ptrace. Traceloop similarly traces system calls but asynchronously in the background, using BPF and tracing per cgroup. I’ll show how it can be integrated with systemd and with Kubernetes via Inspektor Gadget.\n\n\nTraceloop's traces are recorded in a fast, in-memory, overwritable ring buffer like a flight recorder. As opposed to “strace”, the tracing could be permanently enabled on systemd services or Kubernetes pods and inspected in case of a crash. This is like a always-on “strace in the past”.\n\n\nTraceloop uses BPF through the gobpf library. Several new features have been added in gobpf for the needs of traceloop: support for overwritable ring buffers and swapping buffers when the userspace utility dumps the buffer.\n\nRoom: UD2.208 (Decroly)\nScheduled start: 2020-02-01 16:45:00"

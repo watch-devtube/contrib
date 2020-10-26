@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Modernizing Distribution of SDR Tools and Libraries with Conan What does cmake have to do with SNR?'
+language: English
+recordingDate: 1600844650
+description: "by Brennan Ashton\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.120/fsr_modernizing_distribution_of_sdr_tools.webm\n\nThere are so many great open source libraries and tools that people have written that make up the software defined radio ecosystem, but we have unfortunately created a high bar for consumption of this software, and an even higher bar for using modern versions. In this presentation we look at how we can use modern C/C++ package management with Conan to simplify the lives of our users who want to use the latest versions without living in dependency hell.\nUsers of SDR software have spent far too much time staring at cmake builds and wondering what how to get the missing build time dependency.  The package feeds from major distributions contain a lot of the popular software, but they tend to lag development significantly and lock users into specific versions.  If you want to run the latest code you are back to compiling it.  It does not have to be this way.  Using Conan these applications and their dependencies can be managed in a modern way where users can pull binary packages when available and easily rebuild packages when needed all in a sandboxed environment.\n\n\nThis talk cover the following points:\n* What is Modern C++ Package Management\n* How this can simplify consumption from a SDR user perspective (I just want to play with my hardware...)\n* Demo of using this workflow with some packaged SDR applications\n* Example of how this packaging works for a library\n* What we can do better as developers to simplify this task\n\nRoom: AW1.120\nScheduled start: 2020-02-02 08:30:00"

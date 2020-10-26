@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+    - security
+    - architecture
+title: 'Kata Containers on openSUSE'
+language: English
+recordingDate: 1601017416
+description: "by Ralf Haferkamp\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.208/containers_kata.webm\n\nKata Containers provide a secure container runtime offering an experience close to that of native containers, while providing stronger workload isolation and host infrastructure security by using hardware virtualization technology. This is particularly useful when containers are used to host and run third-party applications. In this presentation, after a short intro to Kata, we will demonstrate how easy it is to install and use on openSUSE. We will show it in action both as part of a podman setup as well as within a full-featured Kubernetes environment.\nWith containers becoming not only the preferred way of deploying applications, but also the building blocks of microservice architectures, infrastructure security and workload isolation concerns are being raised. The Kata Containers Open Source project addresses these concerns by using virtualization technology, in compliance with the \"defense in depth\" design principles. It is also a very flexible, dynamic and fast-moving project, with many components that need to be integrated among each others.\n\n\nThis presentation will illustrate how easy it can already be to use Kata as a container runtime on top of the openSUSE distribution. In fact, after giving a short introduction of Kata Containers and its architecture, we will provide a DEMO of how we have integrated Kata into openSUSE and how it can be used with podman to run containers in a secure and isolated fashion. As Kata is compatible with the OCI (Open Container Initiative) runtime specification, it can be used to seamlessly replace or coexist with other runtimes (e.g. runc) in existing Container Engines (podman, CRI-O, docker, ...), even inside a Kubernetes cluster. We will therefore be able to show how native containers and strongly isolated Kata containers can run together on the same platform. Finally, we will also demonstrate how to set Kata Containers up as an alternative runtime inside of a Kubernetes Cluster.\n\nRoom: UD2.208 (Decroly)\nScheduled start: 2020-02-01 10:55:00"

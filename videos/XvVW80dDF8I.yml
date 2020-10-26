@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - lisp
+title: 'GNU Mes  Scheme-only bootstrap and beyond'
+language: English
+recordingDate: 1601103797
+description: "by Jan Nieuwenhuizen (janneke)\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.125/gnumes.webm\n\nLast year GNU Mes brought the Reduced Binary Seed bootstrap to GNU Guix: gcc, glibc and binutils were removed and the size of the bootstrap binaries went down from 250MB to 130MB.  This year we introduce the Scheme-only bootstrap: Awk, Bash, Core Utilities, Grep, Gzip, Make, Sed, Tar are replaced by Gash and Gash Core Utils, halving the size of the Guix bootstrap seed again, to 60MB.  Next up, the Full Source bootstrap! \n\nRoom: AW1.125\nScheduled start: 2020-02-02 10:50:00"

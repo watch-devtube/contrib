@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - api
+    - graphql
+    - unix
+    - storage
+    - craftsmanship
+    - architecture
+    - python
+title: 'When Python meets GraphQL: Managing contributors identities in your open source project'
+language: English
+recordingDate: 1601967887
+description: "by Miguel-Ángel Fernández\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.252A/python2020_graphql.webm\n\nSortingHat is an open source Python tool that helps to manage the different contributor identities within an open source project. Under the hood SortingHat relies on a relational database, which can be queried via SQL, command line or directly via its Python interface. However, these ways of interacting with SortingHat hinder its integration with external tools, web interfaces and new web technologies (e.g., Django, REST services). To overcome these obstacles, we have evolved SortingHat's architecture using a GraphQL model based on the Graphene-Django implementation.\n\n\nThis talk describes our experience in migrating to GraphQL, from adapting the SortingHat functionalities to refactoring the unit tests. Furthermore, we comment also on lesson learned, advantages and drawbacks of using this new approach\n\n\nSortingHat is one of the core tools of GrimoireLab, an open-source software analytics platform part of CHAOSS project (Community Health Analytics Open Source Software) under the umbrella of the Linux Foundation.\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2020-02-01 12:30:00"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - storage
+    - embedded
+title: 'dqlite: High-availability SQLite An embeddable, distributed and fault tolerant SQL engine'
+language: English
+recordingDate: 1601708774
+description: "by Free Ekanayaka\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.1.105/dqlite.webm\n\nSQLite has proven extremely successful at providing applications with a powerful, portable and embeddable SQL engine that can handle most of their data storage needs.\n\n\nUnfortunately, SQLite is neither replicating nor fault tolerant. These two features are however very important for the rising Edge/IoT market: dqlite delivers both of them.\n\n\ndqlite is a C library which exposes a SQLite database over the network and replicates it using the Raft algorithm, with built-in automatic failover.\n\n\nIt allows to build and operate a fault-tolerant cluster of nodes each running an instance of the user application.\n\n\ndqlite was created to support clustering in the LXD container management project, where it has been used for over a year. In this talk we will look at its design, implementation and various use cases.\nDistributed systems are ubiquitous these days: we need to commoditize the underlying technologies and algorithms, making them easy to consume. The dqlite project offers application developers the opportunity to build on top of a storage engine which is as easy and convenient as a plain SQLite database, but also meets higher durability and fault tolerance requirements.\n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2020-02-02 09:00:00"

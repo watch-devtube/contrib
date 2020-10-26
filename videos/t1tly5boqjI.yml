@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'How to write a scikit-learn compatible estimator/transformer Tips and tricks, testing your estimato…'
+language: English
+recordingDate: 1602054248
+description: "How to write a scikit-learn compatible estimator/transformer Tips and tricks, testing your estimator, and must-watch related current developments\nby Adrin Jalali\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.252A/python2020_scikit_learn_estimator.webm\n\nThis is a hands-on short tutorial on how to write your own estimator or transformer\nwhich can be used in a scikit-learn pipeline, and works seamlessly with the other\nmeta-estimators of the library.\n\n\nIt also includes how they can be conveniently tested with a simple set of tests.\nIn many data science related tasks, the use-case specific requirements require us to\nslightly manipulate the behavior of some of the estimators or transformers present\nin scikit-learn. Some of the tips and requirements are not necessarily well documented\nby the library, and it can be cumbersome to find those details.\n\n\nIn this short tutorial, we go through an example of writing our own estimator,\ntest it against the scikit-learn's common tests, and see how it behaves inside\na pipeline and a grid search.\n\n\nThere has also been recent developments related to the general API of the estimators\nwhich require slight modifications by the third party developers. I will cover these\nchanges and point you to the activities to watch as well as some of the private utilities\nwhich you can use to improve your experience of developing an estimator.\n\n\nThe materials of the talk will be available on github as a jupyter notebook.\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2020-02-01 10:30:00"

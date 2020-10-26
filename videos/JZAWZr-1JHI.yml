@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+title: 'io_uring in QEMU: high-performance disk I/O for Linux'
+language: English
+recordingDate: 1601276641
+description: "by Julia Suvorova\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/vai_io_uring_in_qemu.webm\n\nio❮em❯uring is a new kernel asynchronous I/O processing mechanism proposed as a much faster alternative for conventional Linux AIO. Patches were merged in Linux 5.1 and gave a promised performance boost. We decided to integrate it into QEMU to make virtualized storage devices work more efficiently. Let's take a look at how io❮/em❯uring works in QEMU.\nio❮em❯uring enhances the existing Linux AIO API, and provides QEMU a flexible interface, allowing you to use the desired set of features: submission polling, completion polling, fd and memory buffer registration. By explaining these features we will come to examples of how and when you need to use them to get the most out of io❮/em❯uring. Expect many benchmarks with different QEMU I/O engines and userspace storage solutions (SPDK).\n\n\nYou will get a brief overview of the new kernel feature, how we used it in QEMU, combined its capabilities to speed up storage in VMs and what performance we achieved. Should io_uring be the new default AIO engine in QEMU? Come and find out!\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-02 10:30:00"
