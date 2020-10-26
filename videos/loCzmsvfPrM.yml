@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - cloud
+title: 'Count and Sum Millions of Rows Fast with Materialized Views'
+language: English
+recordingDate: 1600703089
+description: "Queries summarizing data by day, week, or year can often process millions of rows leading to long execution times.\n\nYet the number of rows they return is small with a fixed upper limit. So you can answer these questions much faster by pre-calculating the result and storing it in a table. \n\nDoing this manually is time-consuming and error-prone. Oracle Database offers an automated solution: materialized views (MVs). These store the results of the query. When you run the query in the MV, the database can redirect it to the results in the MV, leading to huge performance gains with no code changes.\n\nHighlights include:\n\n04:15 - Using indexes to speed up aggregation queries\n06:45 - Creating materialized views to store the results of queries\n09:50 - Enabling query rewrite, so the optimizer can redirect matching queries from the base table to materialized views\n15:20 - Limitations of query rewrite\n16:45 - Using dbms_mview.explain_rewrite to understand why a query didn't use an MV\n18:00 - The impact of data changes on query rewrite \n23:00 - Refreshing the data in MVs\n29:00 - Creating materialized view logs to enable fast refresh\n38:00 - Real-time materialized views\n43:40 - Limitations to fast refresh; using dbms_mview.explain_mview to understand these\n45:00 - Bitmap-based count distinct for MVs (19c)\n53:00 - Using Database In-Memory to speed up aggregation queries\n58:15 - MVs and In-Memory comparisons\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/  \n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://www.oracle.com/cloud/free/"
