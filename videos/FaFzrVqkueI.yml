@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+    - architecture
+title: 'Webinar: Transactional microservices with Vitess - coordination without state'
+language: English
+recordingDate: 1601669466
+description: "As services move to the cloud many organizations are looking to microservices to streamline development, improve reliability, and accelerate feature delivery. Developing and deploying microservices can have a hidden complexity - data. If you are migrating away from a monolithic service that uses transactions to keep data safe and consistent how do you translate that to a distributed micro-service world? In this tutorial, we will show how to use the Cloud Native Database Vitess to create safe ACID distributed transactions that behave exactly like transactions on a monolithic system, with no additional complexity. Using Vitess's gRPC API we will create an application that pushes transaction state into a client-side object that can live across multiple microservices without any modification to business logic.\n\nPresenter:\nDaniel Kozlowski, Minister of Engineering @PlanetScale"
