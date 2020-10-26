@@ -1,0 +1,21 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - mobile
+    - android
+    - ios
+    - testing
+    - architecture
+    - embedded
+title: 'LumoSQL - Experiments with SQLite, LMDB and more SQLite is justly famous, but also has well-known l…'
+language: English
+recordingDate: 1599645936
+description: "LumoSQL - Experiments with SQLite, LMDB and more SQLite is justly famous, but also has well-known limitations\nby Dan Shearer\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.1.105/lumosql.webm\n\nLumoSQL is an experimental fork of SQLite, the embeddable database library founding everything from Android to iOS to Firefox. As a replacement for fopen(), SQLite is a good choice for singer-writer applications and disconnected, slow and small devices. Modern IoT and application use cases are increasingly multi-writer, fast, high-capacity and internet-connected, and LumoSQL aims to address these very different modern needs. LumoSQL initially aims to improving speed and reliability, by replacing the internal key-value store with LMDB, by updating and fixing a prototype from 2013, and allowing multiple storage backends. Next up we are designing the architecture for replacing the write-ahead log system (as used by all other open and closed source databases) with a single-level store, drawing on LMDB as an example of a single-level store in production at scale. Challenges so far involve code archeology, understanding and updating benchmarking, designing a system for keeping parity with upstream code changes, file format migration and identifying bugs in both SQLite and LMDB.\n\n\nPlease do join us in testing and improving at https://github.com/LumoSQL/LumoSQL .\n\n\nIn this talk we welcome questions and contributions. This conference has many SQLite users and developers. What do you want to see?\nLumoSQL is a combination of two embedded data storage C language libraries: SQLite and LMDB. LumoSQL is an updated version of Howard Chu's 2013 proof of concept combining the codebases. Howard's LMDB library has become ubiquitous on the basis of performance and reliability, so the 2013 claims of it greatly increasing the performance of SQLite seem credible. D Richard Hipp's SQLite is relied on by many millions of people on a daily basis (every Android and Firefox user, as just two projects of the thousands that use SQLite) so an improved version of SQLite would benefit billions of people.\n\n\nThe original code changes btree.c in SQLite 3.7.17 to use LMDB 0.9.9 . It takes some work to replicate the original results because not only has much changed since, but as a proof of concept there was no project established to package code or make it accessible. LumoSQL revives the original code and shows how it is still relevant in 2019. The premise seems sound. Some bugs have been fixed in LMDB and the prototype SQLightning work.\n\n\nThere needs to be multiple backends, initially the original SQLite on-disk format and LMDB and initially for compatibilit and conversion purposes. However the ability to have more backends is very attractive and already there are draft designs for where that could lead.\n\n\nThe design taking shape for tracking SQLite upstream may be useful to other projects, where an automated process and can handle most changes that do not change some of the basic APIs.\n\n\nWrite-Ahead Logs are in every single widely-used database today, a concurrency model developed in the 1990s and now the only option in both closed and open source SQL databases. There are pros and cons for WALs, but the merge-back model of WALs is a lack of atomicity that becomes obvious in corruption and reliability issues at speed and scale. Databases go to very expensive efforts to avoid this, but combined with a lack of real-time integrity checking in almost all databases, this is a fundamental problem and especially for modern SQLite-type use cases.\n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2020-02-01 17:00:00"

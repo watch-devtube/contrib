@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'How Safe is Asynchronous Master-Master Setup?'
+language: English
+recordingDate: 1599807789
+description: "by Sveta Smirnova\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2214/mysql_master_master.webm\n\nIt is common knowledge that built-in asynchronous master-master (active-active) replication is not safe. I remember times when the official MySQL User Reference Manual stated that such an installation is not recommended for production use. Some experts repeat this claim even now.\n\n\nWhile this statement is generally true, I worked with thousands of shops that successfully avoided asynchronous replication limitations in active-active setups.\n\n\nIn this talk, I will show how they did it, demonstrate situations when asynchronous master-master replication is the best possible high availability option and beats such solutions as Galera or InnoDB Clusters. I will also cover common mistakes, leading to disasters.\n\nRoom: H.2214\nScheduled start: 2020-02-01 10:40:00"

@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - ios
+    - javascript
+    - java
+title: 'Collabora Office Android app gory details How we tweaked LibreOffice & the Online to get an Android…'
+language: English
+recordingDate: 1600326231
+description: "Collabora Office Android app gory details How we tweaked LibreOffice & the Online to get an Android app\nby Jan Holesovsky\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB4.136/collabora_office_android_app_gory_details.webm\n\nThe LibreOffice Android app consists of the LibreOffice core as the native code and Java part that takes care of compositing of the tiles, input handling, etc.  It is hard to maintain, because everything that has been implemented in LibreOfficeKit for the Online has to be ported to Java - which is a huge amount of work.\n\n\nFor the Collabora Office Android app, we have tried a new approach - to build on top of work pioneered by Tor Lillqvist for iOS: Using the native code for the rendering, the Online JavaScript for the composition of tiles, input handling, etc. and only a thin Java layer to instantiate a WebView where the JS lives.\n\n\nCome and see the current state!  And don't worry, all the work is contributed back to the LibreOffice code too :-)\n\nRoom: UB4.136\nScheduled start: 2020-02-01 16:30:00"

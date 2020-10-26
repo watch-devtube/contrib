@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Lazy distribution of container images Current implementation status of containerd remote snapshotter'
+language: English
+recordingDate: 1600430607
+description: "by Akihiro Suda\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.208/containers_lazy_image_distribution.webm\n\nThe biggest problem of the OCI Image Spec is that a container cannot be started until all the tarball layers are downloaded, even though more than 90% of the tarball contents are often unneeded for the actual workload.\n\n\nThis session will show state-of-the-art alternative image formats, which allow runtime implementations to start a container without waiting for all its image contents to be locally available.\n\n\nEspecially, this session will put focus on CRFS/stargz and its implementation status in containerd (https://github.com/containerd/containerd/issues/3731).\nThe plan for BuildKit integration will be shown as well.\n\nRoom: UD2.208 (Decroly)\nScheduled start: 2020-02-01 09:55:00"

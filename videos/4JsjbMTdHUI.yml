@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'EUgen: a European Project Proposal Generator'
+language: English
+recordingDate: 1599991404
+description: "by Riccardo\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.125/ada_eugen.webm\n\nWhoever wrote a research project proposal knows how much unnerving it\ncan be.  The actual project description (made of work packages, tasks,\ndeliverable items, ...) has lots of redundancies and cross-references\nthat makes its coherency as frail as a house of cards.  For example,\nif the duration of a task is changed most probably you'll need to\nupdate the effort in person-months of the task and of the including\nwork package; you must update the start date of depending tasks and\nthe deliver date of any deliverable items; most probably also the\nWP efforts and length need update too; not to mention the need of\nupdating all the summary tables (summary of efforts, deliverable,\n..) and the GANTT too.  Any small changes is likely to start a ripple\nof updates and the probability of forgetting something and getting an\nincoherent project description is large.  Given the harsh competition\nin project funding, if your project is incoherent the probability of\ngetting funded is nil.\n\n\nOne day I got sick of this state of affair and I wrote my own project\ngenerator: 10k lines of Ada code that reads a non-redundant project\ndescription from a simple-format text file and produces a set of files\nready to be imported in the proposal, GANNT chart included.  The user\ncan specify dependences between different items (e.g., this deliverable\nis produced at the end of this task, this milestone is reached when\nthis deliverable is available, this task must begin after this other\ntask...) and the program automatically computes all the dates.\nBoth input parser and output processors are implemented using a plugin\nstructure that makes it easy to write new parsers to read different\nformats or new output processors to produce output in different\nformats.  Currently a parser for a simple ad-hoc format and an output\nprocessor that produces LaTeX files are provided; a new processor based\non the template expander ❮em❯protypo❮/em❯ is currently being implemented.\n\n\nDid I eat my own dog food?  Well, yes, I did.  I used it to write a\nproposal (still under evaluation) and it served me well.\n\nRoom: AW1.125\nScheduled start: 2020-02-01 16:30:00"

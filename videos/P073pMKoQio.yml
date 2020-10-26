@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - testing
+    - functional
+title: 'Automated Performance Testing for Virtualization with MMTests The Tools, the Challenges and also so…'
+language: English
+recordingDate: 1599721517
+description: "Automated Performance Testing for Virtualization with MMTests The Tools, the Challenges and also some War-Stories about Performance Testing Hypervisors and VMs\nby Dario Faggioli\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.147/testing_automated_performance_testing_virtualization.webm\n\nWhat benchmark? How many VMs? How big each VM is? Are they all equal or are they different? What's the host OS? What are the guest OSes? I.e., when wanting to do virtualization performance testing, the matrix of test cases tends to explode pretty quickly. This talk will show how we enhanced an existing benchmarking suite, MMTests, in order to be able to deal a little bit better with such complexity. And what our further activities and plans are, for even more and better automation.\nFunctional testing is already hard enough, in virtualization. For instance, because we need to make sure that things work with different combinations of versions of the OSes in hosts and guests. Doing performance testing, even more so. In fact, there are much more things to consider, such as how many VMs we use, how big they are, whether or not they are equally big or different, what to run in them, how to partition the host resources for them... And this is true either in case you have a specific (virtualized) workload and some KPI to meet, in which case you need testing and benchmarking to figure out whether or not the tuning you have done has brought you there, or in case you wonder how good (or how bad) a certain configuration of both your host and your guests works, for a number of workloads,\n\n\nThis talk will introduce the problem, showing how the size and the complexity of a typical 'virtualization performance testing matrix' really tend to explode. We will, as an example, show how some specific characteristics of a virtualized system were, despite tuning, causing us to not be able to achieve the desired performance levels. Then we illustrate how, at SUSE, we do automated performance benchmarking, how we enhanced the tool that was in use the most for baremetal benchmarks (the MMTests suite) in order for it to be much more useful in virtualized systems and how we are integrating it with other tools to bring the level of automation even further and achieve something that really resembles a Virtualization Performance CI system.\n\nRoom: UB2.147\nScheduled start: 2020-02-01 12:20:00"

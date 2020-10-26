@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: 'Discover UEFI with U-Boot'
+language: English
+recordingDate: 1599980627
+description: "by Heinrich Schuchardt\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/firmware_duwu.webm\n\nThe Unified Extensible Firmware Interface (UEFI) is the default for booting most Linux and BSD distributions. But the complexity of the UEFI standard does not offer an easy entry point for new developers. The U-Boot firmware provides a lightweight UEFI implementation. Using booting from iSCSI with U-Boot and iPXE as an example let's delve into the UEFI API.\n\n\nThe UEFI sub-system in U-Boot has developed from barely starting GRUB to supporting complex UEFI applications like iPXE and the EFI shell and passing most of the UEFI compliance tests for the implemented protocols and services.\n\n\nThe session gives an overview of the boottime and runtime services of UEFI with a focus on driver binding. The challenges of integrating the UEFI subsystem with U-Boot's infrastructure are described and an outlook is provided.\n\n\nQuestions this talk should answer:\n- How does the UEFI driver model work?\n- How does this integrate with U-Boot?\n- What to expect next in U-Boot's UEFI implementation?\n\nRoom: K.4.601\nScheduled start: 2020-02-01 14:30:00"

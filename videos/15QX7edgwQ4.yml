@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+    - security
+title: 'Public clouds and vulnerable CPUs: are we secure?'
+language: English
+recordingDate: 1599897826
+description: "by Vitaly Kuznetsov\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/vai_pubic_clouds_and_vulnerable_cpus.webm\n\nA whole bunch of CPU vulnerabilities were revealed in the past few years:\nMeltdown and Spectre, SSB, L1TF and MDS -- and there's little hope that we've\nseen them all. Every time there is a new vulnerability released, big cloud\nprovides on day 1 claim that their hosts were updated and that their users\nare secure. Is this so or do we also need to do something inside our Linux\nguests to mitigate these vulnerabilities? And, do we have the required tools\nto actually do the mitigations? Are all of them enabled by default or not? And,\nif not, why? In the talk I'll try to answer these questions.\nThe talk will cover recently discovered CPU vulnerabilities starting with\nMeltdown and Spectre. I will go through them and try to highlight 'public\ncloud specifics': what has/can to be done in the infrastructure of the\ncloud and what has/can be done inside Linux guests depending on the desired\nlevel of security and usage patterns.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-02 09:30:00"

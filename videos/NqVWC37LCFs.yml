@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - testing
+title: 'Auto-healing cluster through negative testing'
+language: English
+recordingDate: 1599815011
+description: "by Rajat Singh\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.147/testing_autohealing_negative_testing.webm\n\nOCS stands for Openshift Container storage. It provides container-based storage for OCP(Openshift container platform). It’s easily scalable to bare metal, VMs and cloud platforms.\nAuto healing is a property of OCS cluster that auto heals a cluster component automatically when passes through an unexpected condition. A component can be a node, a network interface, a service, etc. To make sure auto heals just fine, we introduced negative testing.\nNegative Testing is defined as, a testing type that checks a system for unexpected conditions. In this presentation, We’re going to talk, what role negative testing plays, how to negative test components like node by shutting it down, deploying a heavy workload, etc. Similarly, for the network component, we are going to see what happens when the public network is disconnected along with many more scenarios.\n\nRoom: UB2.147\nScheduled start: 2020-02-01 12:55:00"

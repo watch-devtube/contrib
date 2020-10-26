@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - python
+title: 'Why is Django 3.0 a revolution for building websites with Python? From WSGI to ASGI and why it matt…'
+language: English
+recordingDate: 1600077805
+description: "Why is Django 3.0 a revolution for building websites with Python? From WSGI to ASGI and why it matters\nby Rémy Hubscher\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.252A/python2020_django_3.webm\n\nFor almost 20 years, we relied on a CGI based protocol called WSGI to use Python to handle HTTP requests and responses software.\nBecause Python is singled threaded we relied on a couple of hacks such as Gunicorn or uWSGI to share a socket through multiple processes.\nHowever the cost of all these multiple processes was a bit heavy and error prone.\n\n\nThrough Django Channels Andrew Godwin paved the way for a better way of creating web services with Python. This work landed in Django 3.0.\nLet's explore how it works and why it worth it!\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2020-02-01 11:00:00"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - python
+title: 'Production-time Profiling for Python'
+language: English
+recordingDate: 1599901409
+description: "by Julien Danjou\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.252A/python2020_profiling.webm\n\nLearn how to scrutinize your Python application in order to optimize them and make them run faster.\nGetting inside knowledge of how your Python application runs is critical in order to achieve the best performance. Profiling is a mean to achieve this: by gathering all the runtime information available about the execution of your program, you might be able to understand how to optimize it. However, profiling running code in production might be a real challenge as it requires the profiler to be noninvasive and having low overhead.\n\n\nTherefore, to profile production services, statistical profiling is the favorite analysis method. By regularly checking your program activity, you’ll be able to find production code bottlenecks down to the line of code. Profiling services that are running with real workload makes sure that you are collecting valuable data and that you are not guessing what the performance barrier might be.\n\n\nThis talk explains how it’s possible to build a statistical profiler that collects information about CPU time usage, memory allocation, and other information — all that while respecting the need for low overhead, data export format, and granularity. We’ll dig into some of the operating systems and CPython internals to understand how to build the best profiler possible.\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2020-02-01 14:00:00"

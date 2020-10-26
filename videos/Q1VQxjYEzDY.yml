@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - testing
+title: 'oVirt 4k - teaching an old dog new tricks'
+language: English
+recordingDate: 1599721498
+description: "by Nir Soffer\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/vai_ovirt_4k.webm\n\nTeaching oVirt to work with 4k storage.\nHow can we have compression and deduplication using VDO, the new Linux\ncompression layer? How can we use the latest and greatest disks drives?\nWe need to support disks with 4k block size.\n\n\noVirt is your best friend when you need to manage your virtualized data\ncenter, but when it was created 10 years ago, support for 4k storage was\nnot considered. Can you teach an old dog new tricks? Sure you can!\n\n\nIn this talk we will share what we learned implementing 4k storage\nsupport in oVirt. We will present the challenges teaching old and\nstubborn code base to work with disks using 4k storage, and how we\naddressed them; introducing storage format v5, moving from sectors to\nbytes, detection of block size on file storage, improving testing in\nstorage area, adding new 4k APis to sanlock and improving qemu block\nsize detection.\n\n\nAudience:\noVirt administrator interested in utilizing the latest and greatest\nfeatures and hardware. Developers looking for new ways to deal with old\ncode.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-02 12:00:00"

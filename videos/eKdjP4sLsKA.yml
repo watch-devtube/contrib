@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - ux
+    - containers
+title: 'LXD for mixed system containers and VM workloads Introducing LXD''s new virtual machine feature'
+language: English
+recordingDate: 1600250688
+description: "by Stéphane Graber\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/vai_lxd_for_mixed_workloads.webm\n\nLXD is most known as a system container manager, offering a simple user experience and images for most Linux distributions.\nIt also offers a simple REST API, network and storage management, project views and easy clustering to dozen of hosts.\n\n\nOver the past few months, LXD has now grown the ability to run virtual machines alongside containers, using the exact same REST API and configuration.\nThis presentation will cover that new feature, why it was done, where it's at now and where we're going with it, as well as provide a quick demo of setting up a small LXD cluster and running both containers and virtual machines on it.\nLXD is an open source system container manager, developed by the team behind LXC, written in Go and that's been around for over 5 years now.\nIt's widely used both on servers, running the backend of services such as Travis-CI and on everyday devices like Chromebooks.\nContainers are created from images with prebuilt images available for most Linux distributions.\n\n\nMultiple hosts can easily be clustered together to form one large virtual host, exposing the exact same API as a single host would.\nStorage pools and networks can also be created and managed through LXD and resources can be segmented into projects.\n\n\nWith the addition of virtual machine support (through qemu), it is now possible to manage a mixed deployment of virtual machines and containers, sharing the same configuration, storage and networks. With the use of our built-in agent, the exact same operations that are normally possible against a container also become possible against virtual machines, including executing commands, transferring files, ...\n\n\nExisting API clients for LXD can also now drive both containers and virtual machines without any API changes required.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-02 11:30:00"
