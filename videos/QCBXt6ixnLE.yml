@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - javascript
+title: 'Asynchronous JavaScript at Netflix by Matthew Podwysowski at JSConf Budapest 2015'
+language: English
+recordingDate: 1600769965
+description: "Slides: https://github.com/mattpodwysocki/jsconfbp-2015\n\nhttp://2015.jsconfbp.com/#mattpodwysocki\n\nWhat’s does a mouse drag event have in common with an Array of numbers? \n\nThe answer to this question may surprise you: they are both collections. \n\nThis key insight holds the key to dramatically simplifying asynchronous programming in JavaScript. In this talk you will learn how you can use the familiar JavaScript Array methods to create surprisingly expressive asynchronous programs. \n\nUsing just a few functions, you will learn how to do the following:\n\n- Declaratively build complex events out of simple events (ex. drag n’ drop)\n- Coordinate and sequence multiple Ajax requests\n- Reactively update UI’s in response to data changes\n- Eliminate memory leaks caused by neglecting to unsubscribe from events\n- Gracefully propagate and handle asynchronous exception\n\nIn this talk we’ll be exploring the Reactive Extensions (RxJS) library (http://github.com/reactive-extensions/RxJS), which allows us to treat events as collections. You’ll learn about how Netflix uses Rx on the client and the server, allowing us to build end-to-end reactive systems. We’ll also contrast Rx with Promises, another popular approach to building asynchronous programs in JavaScript."
