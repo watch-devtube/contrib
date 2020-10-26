@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - mongo
+    - performance
+    - azure
+    - 'c#'
+title: 'Vagif Abilov, Event journal in Azure (no Cosmos inside) [EN]'
+language: English
+recordingDate: 1601918879
+description: ".NET Summit 2020 Online Edition https://dotnetsummit.by - the 4th community driven .NET conference dedicated to practical experience of solving business challenges with .NET and technical challenges in .NET application\n\nVagif Abilov, Event journal in Azure (no Cosmos inside) [EN]\n\nThis talk presents how to efficiently implement event journals using Azure table and blob storage to minimize costs without compromising performance. \n\nWe no longer wanted to keep in-house terabytes of event journals from various applications. We have already been using Azure services, so moving our data from rusty MongoDB collections to Azure storage was a natural step. But should we keep using MongoDB API offered by CosmosDB? Or go over to its SQL API? Or maybe Table/Blob storage would be sufficient for our needs? \n\nIn this talk we will share our decision factors, what choice we made, how much it cost and how it performs. You will also see the implementation details in C#. \n\nGeneral Partner - ISsoft - https://issoft.by"
