@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+title: 'What''s New for Services on the CF API V3? - Felisia Martini & Derik Evangelista, VMware'
+language: English
+recordingDate: 1593436717
+description: "What's New for Services on the CF API V3? - Felisia Martini & Derik Evangelista, VMware \n\nFor more info: https://www.cloudfoundry.org/ \n\nThe services endpoints on the Cloud Controller API have been a general source of pain for consumers. Some of the problems with the V2 implementation include: needing several requests to get basic information about a service or service instance, multiple endpoints to manage the same resource, leaking abstractions between the API and the Service Broker, and lack of features like blocking during service instance creation. This contributes to frustrate not only API consumers but also CLI/GUI users.\n\nThe SAPI team is working on improving many aspects of the services API with V3 of the cloud controller API. The new services endpoints provide much more flexibility and control over the workflows available for service offerings and service instance management. Many of these features and improvements are already available as experimental APIs on recent versions of Cloud Foundry."
