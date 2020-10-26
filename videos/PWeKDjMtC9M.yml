@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - .net
+title: 'DEF CON Safe Mode   Recon Village - Ladislav Baco - Hunting for Blue Mockingbird Coinminers'
+language: English
+recordingDate: 1597807901
+description: "During March-May 2020 the Blue Mockingbird group infected thousands of computer systems, mainly in the enterprise environments. There are known incidents in which they exploited the CVE-2019-18935 vulnerability in Telerik Web UI for ASP.NET, then they used various backdoors and finally, they deployed XMRig-based CoinMiners for mining Monero cryptocurrency. Interesting about these cases is the persistence which they used for CoinMiners - lot of techniques including scheduled tasks, services, but also WMI Event Subscription and COR Profilers.\n\nDuring forensic analysis and incident response process it was possible to find these persistences and many coinminers artifacts, but malware samples responsible for their installation and persistence creation have been missing. However, when we enriched results of the standard malware analysis with the Threat Intelligence data and OSInt, we were able to find the missed pieces of puzzle and reconstruct the original attack chain including the initial exploitation, local privilege exploit, two backdoors, main payload and multiple persistence techniques. Moreover, this research reveal many about the tools, techniques and procedures (TTP) of Blue Mockingbird Threat Actor.\n\nFinally, with more knowledge about the attackers it is possible to collect more samples of coinminers used by them. After next step of reconnaissance we can get insight into profit of their attacks and compare them with the damages caused by these attacks."
