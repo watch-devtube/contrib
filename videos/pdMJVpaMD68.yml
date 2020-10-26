@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - swift
+    - mobile
+    - android
+    - ios
+    - kotlin
+    - java
+title: 'KotlinConf 2019: Going Native by Ana Redmond'
+language: English
+recordingDate: 1576663723
+description: "Recording brought to you by American Express. https://americanexpress.io/kotlin-jobs\nWe often hear that Kotlin-Native is best for shared business logic and data handling. It is just as good for sharing 2D game code. With examples from a real world application, now in production, this talk will detail two key techniques we used to adapt platform-specific APIs for shared use on multiple platforms:\n\n1. Using ‘expect’ and ‘actual’ to invoke platform-specific APIs in Kotlin.\n2. Using an ‘interface’ in Kotlin Native and implementing in platform-specific language: #Swift or Kotlin.\n\nThese techniques can be used to adapt any platform specific APIs for use by shared Kotlin Native code. We used this approach to adapt platform-specific APIs for drawing images and text, playing audio, handling touch events and the game loop, for use by 60+ 2D educational games. The games were originally written for native #Android in #Java using SurfaceView. They were recently converted to Kotlin-Native and published on both platforms: Android and #iOS. The code for the games is shared across platforms.\n\nAs we converted and tested the games, we came across unexpected platform-specific differences. I will talk about some examples of those and the lessons we learnt, for e.g.\n\n1. Why you shouldn’t use mutable Kotlin ‘object’ in Kotlin-Native apps.\n2. Why you should use Lists in Kotlin-Native APIs, and not Arrays.\n3. Be careful initializing subclass variables in overrides invoked in init.\n\nCode that we had built for educational games over the previous 6 years in Java on Android took me only 6 months to convert to Kotlin Native and publish to iOS. The code is maintainable because 80% of it is shared across multiple platforms. That would not have been possible without Kotlin-Native.\n\nResources:\nKotlinConf website: https://jb.gg/fyaze5\nKotlinConf on Twitter: https://twitter.com/kotlinconf\n\nKotlin website: https://jb.gg/pxrsn6\nKotlin blog: https://jb.gg/7uc7ow\nKotlin on Twitter: https://twitter.com/kotlin\n\n#KotlinConf19 #Kotlin #JetBrains\n\nAbout the Presenter:\nAna Redmond is the Founder and Chief Technology Officer of infinut, where she designs and develops touch-screen games to teach math concepts to elementary-school children. She builds the cross-platform infrastructure for game screens, architects the data solution, and provides creative direction. She previously taught Android and Java Server programming at the University of Washington, Professional and Continuing Education, and worked professionally as a Software Developer for 15 years."
