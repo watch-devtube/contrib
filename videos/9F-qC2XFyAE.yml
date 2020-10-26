@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+    - devops
+    - containers
+    - docker
+    - java
+    - spring
+title: 'Running & Scaling Spring Boot Apps on Docker Windows Containers with Vagrant Ansible'
+language: German
+recordingDate: 1516957201
+description: "At the Cloud Native Java Day @ codecentric Solingen Jonas Hecht gives a talk on how to run Spring Boot Apps inside native Docker Windows Containers using a completely comprehensible setup of DevOps tools like Vagrant, Packer and Ansible. From the basics about how to build a fully working Windows Server 2016 Vagrant box with the help of Packer, the talk introduces Ansible and especially Docker on Windows with some pitfalls you might come across. It also shows how to setup a Spring Boot base image with nanoserver and run a single Spring Boot App inside a native Docker Windows Container (https://blog.codecentric.de/en/2017/04/ansible-docker-windows-containers-spring-boot/).\n\nGoing some steps further, the talk introduces Spring Cloud and Docker Compose as a way to scale Spring Boot Apps on native Docker Windows Containers (https://blog.codecentric.de/en/2017/05/ansible-docker-windows-containers-scaling-spring-cloud-netflix-docker-compose/). It therefore demos a complete Spring Cloud example application and provisions everything needed onto the Windows Vagrant Box with the help of Ansible. Also showing the usage of Docker Compose and Spring Cloud Eureka service registry, the power of both tools will be discussed.\n\nAs the real world happens to have even more complex infrastructure scenarios, the talk finally introduces a setup with Docker Swarm, that is initialized in a hybrid mixed-OS Vagrant Cluster comprised of Windows and Linux Vagrant boxes - both manager and worker nodes (https://blog.codecentric.de/en/2017/09/taming-hybrid-swarm-init-mixed-os-docker-swarm-vagrant-ansible/). With the help of Portainer and a local Docker Swarm Registry, everything is prepared live for the later application deployment. The final deployment is again presented in the demo - all together with Traefik proxy and a fully working Spring Cloud example application inside the hybrid Docker Swarm."
