@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - security
+    - architecture
+title: 'Securing Container Delivery with TUF - Lukas Puehringer, NYU'
+language: English
+recordingDate: 1599237807
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nSecuring Container Delivery with TUF - Lukas Puehringer, NYU \n\nOne of the most pressing security problems in cloud native is the secure delivery of container images. Common solutions addressing this problem live under the assumption that a signing key, used to protect an artifact or its distribution, is kept safe. But time has shown again and again that this assumption is faulty, and that a single key loss or compromise can cause enormous damage. That is why The Update Framework (TUF) was designed not only to prevent and detect attacks, but also with risk mitigation (reducing the damage from a successful attack) as a core principle. Being the first security-focused project to graduate in the CNCF, TUF is widely used both in and outside of the cloud ecosystem. In this talk we will describe the basic architecture of TUF including how TUF protects against a variety of real-world attacks on any software distribution infrastructure. We will show how even if an organization makes a security error (a server is hacked, a private key is checked into github, etc.), TUF can bring a repository back into a secure state.\n\nhttps://sched.co/ZexA"

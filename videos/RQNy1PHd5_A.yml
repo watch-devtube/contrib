@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - devops
+    - containers
+    - kubernetes
+title: 'Deep-Dive: Packet-level Debugging of Bridged and Non-bridged CNI Plugins - Jay Vyas & Sedef Savas'
+language: English
+recordingDate: 1599237797
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nDeep-Dive: Packet-level Debugging of Bridged and Non-bridged CNI Plugins - Jay Vyas & Sedef Savas, VMware \n\nFinding the fault for k8s connectivity issues can be a daunting task and require several teams (DevOps, networking) to do their own due diligence. The best way to track down a connectivity error from the perspective of  a DevOps team is to deep-dive into packets’ journey through the Linux Network Stack.  In this session, we will walk through the following challenges for various open-source CNI providers, in real-time with the audience: If packets from your pods aren’t reaching their destination - how would you use tcpdump to determine where in the packet’s trajectory? Do you know what destination NAT’ing is, and at which step and how it happens (via iptables or IPVS)  for bridged and non-bridged CNI plugins? What about existing network policies and routes on your hardware - are there iptables rules conflicting with the rules added by kube-proxy?\n\nhttps://sched.co/Zeob"

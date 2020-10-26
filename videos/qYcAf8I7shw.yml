@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Deep Dive: Unified Runtime Service Infrastructure for Containers and VMs - Yunwen Bai & Peng Du'
+language: English
+recordingDate: 1599862479
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io\_The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nDeep Dive: Unified Runtime Service Infrastructure for Containers and VMs - Yunwen Bai & Peng Du, Futurewei \n\nNowadays cloud providers offer services orchestrating both containers and VMs with different runtime services. Kubernetes, being a container orchestration platform, uses CRI interfaces which is specifically designed for containers. Extending Kubernetes to support both container and VM types carries sizable challenges in terms of managing multiple runtimes, handling OP differences with container and VM workloads, etc.  In this talk, Peng and Yunwen present a new runtime infrastructure which is designed to address those challenges. They will dive deep into modification in Kubelet for managing multiple runtime services, workload-runtime late binding, partial runtime readiness handling, and the unified runtime interfaces that support both containe and VM workloads and operations such as reboot, snapshot, migration, etc. They will conclude the talk with lessons learned and future works. \n\nhttps://sched.co/cp9O"

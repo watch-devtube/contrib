@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - containers
+    - kubernetes
+title: 'Finding Managed Services in a Serverless World with Crossplane and OpenFaaS - Daniel Mangum, Upbound'
+language: English
+recordingDate: 1599607389
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nFinding Managed Services in a Serverless World with Crossplane and OpenFaaS - Daniel Mangum, Upbound \n\nWhile deploying serverless functions on Kubernetes has become painless through projects like OpenFaaS, provisioning managed services to be consumed by those functions remains a disparate process. However, other OSS projects like Crossplane allow developers to start consuming managed services interchangeably without lock-in.  Crossplane allows you to provision managed services as Kubernetes-native objects, then propagates connection information for the service in the form of a Secret. OpenFaaS exposes the ability to inject connection information into a function using a Secret. When used together, your entire stack can be deployed in a single, consistent workflow using automated pipelines and GitOps best practices.  This presentation will demonstrate setting up a Kubernetes cluster with OpenFaaS and Crossplane installed, then provisioning portable functions and managed services, all from a GitHub repository. \n\nhttps://sched.co/aYq0"

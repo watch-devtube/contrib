@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+    - security
+title: 'Seccomp Security Profiles and You: A Practical Guide - Duffie Cooley, VMware'
+language: English
+recordingDate: 1599237801
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nSeccomp Security Profiles and You: A Practical Guide - Duffie Cooley, VMware \n\nHave you wondered what a seccomp security profile is, and how it relates to Linux Capabilities?  Folks often dismiss seccomp profiles and Capabilities as a way of hardening applications as it is too difficult to determine what syscalls are in use by a given application.  In this session we will explore a couple of tools designed to make this more approachable.  Dockersl.im is an opensource project that can take a Dockerfile and an image and produce a smaller image containing only the necessary bits, a seccomp security profile derived from the system calls the application made while under test.  Inspektor Gadget is an opensource project by the folks at kinvolk that enables to make use of BPF to inspect a number of things about pods that are deployed. Providing better visibility into what pods are accessing from a syscall and filesystem perspective.  Come learn about these super powers!\n\nhttps://sched.co/ZetL"
