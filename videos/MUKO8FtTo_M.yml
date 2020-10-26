@@ -1,0 +1,22 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - containers
+    - docker
+    - kubernetes
+    - testing
+    - java
+    - spring
+    - functional
+title: 'Automated Virtualized Testing (AVT) with Docker, Kubernetes, WireMock and Gatling'
+language: English
+recordingDate: 1601026336
+description: "\"Modern applications have many dependencies: databases, message queues, web services, you name it. Testing your application while managing all these dependencies can make your testing environment very complex and testing results unreliable. In this talk, we’ll demonstrate how to isolate your application under test by virtualizing dependencies and creating a full-blown runtime environment on the fly for end-to-end functional and performance testing:\n\n-Run your Spring Boot application (or any applications) in a Docker container.\n-Spin up databases with preload data for repeatable testing.\n-Virtualize web service dependencies using WireMock.\n-Run performance test at scale using Gatling.\n-Orchestrate everything with Kubernetes.\n-Integrate AVT into your CI/CD pipeline by creating test environments on the fly and tearing them down when you’re done.\n  \nAt the end of the session, you’ll have a solid recipe to make your testing cheaper, more scalable, and repeatable!\"\n\nWei Li, Solutions Engineer at Liberty Mutual Insurance; Tongyu Wang, Architect at Liberty Mutual Insurance\n\nSlides: https://www.slideshare.net/Pivotal/automated-virtualized-testing-avt-with-docker-kubernetes-wiremock-and-gatling"

@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#Haystack: Tim Allison - Evolving Relevance'
+recordingDate: 1593694147
+description: "More: https://berlinbuzzwords.de/session/evolving-relevance\n\nThis talk builds on work by Simon Hughes and others to apply genetic algorithms (GA) and random search for finding optimal parameters for relevance ranking. While manual tuning can be useful, the parameter space is too vast to be confident that one has found optimal parameters without overfitting.We'll present Quaerite (https://github.com/tballison/quaerite), an open source toolkit that allows users to specify experiment parameters and then run a random search and/or a GA to identify the best settings given ground truth.We'll offer an overview of mapping parameter space to a GA problem in both Solr and Elasticsearch, the importance of the baked-in n-fold cross-validation, and the surprises and successes found with deployed search systems."

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - containers
+    - kubernetes
+title: 'Preserve kubernetes state using heptio velero'
+language: English
+recordingDate: 1597129463
+description: "by Harshita Sharma\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.119/velero.webm\n\nStateful applications like databases needs to preserve their state as they need to save client data of one session for use in next session in persistent storage. Managing state in Kubernetes is difficult because the system’s dynamism is too chaotic for most databases to handle. So backup of data is very important especially in case of node failures, disk failures etc.\nVelero is an open source tool to safely backup and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes.\nIn this talk, I will elaborate on why, how and when to use velero for your Kubernetes cluster and volumes.\n\nRoom: UD2.119\nScheduled start: 2020-02-01 12:00:00"

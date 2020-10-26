@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: '#bbuzz: Flavio Junqueira – Delivering stream data reliably with Pravega'
+language: English
+recordingDate: 1594206065
+description: "More: https://berlinbuzzwords.de/session/delivering-stream-data-reliably-pravega\n\nPravega is storage for streams. Pravega exposes stream as a core storage primitive, which enables applications continuously generating data (e.g., from sensors, end users, servers, or cameras) to ingest and store such data permanently. Applications that consume stream data from Pravega are able to access the data through the same API, independent of whether it is tailing the stream or reprocessing historical data. Pravega has some unique features such as the ability of storing an unbounded amount data per stream, while guaranteeing strong delivery semantics with transactions and scaling according to changes to the workload.\n\nPravega streams build on segments: append-only sequences of bytes that can be open or sealed. Segments are indivisible units that form streams and that enable important features. Segments enable Pravega to spread the load of streams across servers, to scale streams, to implement transactions efficiently, and to implement state replication.\n\nIn this presentation, we overview the architecture of Pravega and its core features. To enable reliable ingestion of events, we discuss how to use transactions along with state synchronization to guarantee that events from memoryful sources are ingested exactly once. Such a property is important to guarantee correctness when processing the data.\n\nPravega is an open-source project hosted on GitHub, and aims to be a community-driven project. It is under active development and encourages interested contributors to check it out and interact with the developers."

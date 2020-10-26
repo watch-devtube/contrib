@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'Kapow! A Web Framework for the Shell'
+language: English
+recordingDate: 1597215810
+description: "by Roberto Abdelkader Martínez Pérez\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2215/kapow_web_framework.webm\n\nThis talk is about \"Kapow!\" an open source webframework for the shell developed by BBVA Innovation Labs. We will talk about the current development of the project including an overview of Kapow!'s technology stack and the recent release of the first stable version.\nThe motivation behind the project was to create an adapter between the shell and the web. Allowing users to expose command line programs as HTTP services with a high degree of freedom and flexibility, not imposing any predefined behavior.\nThe project is based on an open specification.\n\n\nKapow! supports an increasing list of HTTP features; including forms, websockets and streaming. The architecture is based on exposing a private REST API through which the shell can interact with the incoming user HTTP requests.\n\n\nLeveraging this architecture an ecosystem of specialized tools is planned, to help with common high level tasks in Kapow! services.\nFor example:\n- Shell commands that can interact with incoming web browser requests and render specialized web pages.\n- Automatic mapping of shell command parameters to REST API through bash completion scripts.\n\n\nRoberto will do some demos about creating Kapow! services from scratch (expose nmap as a service, tcpdump and pandoc).\n\nRoom: H.2215 (Ferrer)\nScheduled start: 2020-02-01 13:00:00"

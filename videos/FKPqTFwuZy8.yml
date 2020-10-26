@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - devops
+    - security
+    - python
+title: 'Self-hosted server backups for the paranoid Using Borg, SSH, Python and FreeNAS to securely backup …'
+language: English
+recordingDate: 1597215874
+description: "Self-hosted server backups for the paranoid Using Borg, SSH, Python and FreeNAS to securely backup Linux servers\nby Axel Tripier\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.119/borg.webm\n\n❮a href=\"https://quarkslab.com/en/\"❯Quarkslab❮/a❯ is a French company specializing in information security R&amp;D, consulting and software development.\n\n\nDue to strong data security constraints imposing self-hosted solutions coupled with limited resources in a fast-growth environment, data safety has been a pain point in our infrastructure.\n\n\nAfter our backup server failed, we decided to recreate a new backup system from scratch, adapted to our needs and using technologies we were familiar with, to backup 30+ Linux servers.\n\n\n❮hr /❯\n\nIn this talk, we will present how our old backup system failed, the key requirements we learned from this failure, and how we designed and implemented a new backup system based on ❮a href=\"https://borgbackup.readthedocs.io/en/stable/\"❯Borg Backup❮/a❯, ❮a href=\"https://github.com/witten/borgmatic\"❯borgmatic❮/a❯, SSH, Python and ❮a href=\"https://www.freenas.org/\"❯FreeNAS❮/a❯ to solve those requirements.\n\n\nWe will conclude by listing the shortcomings and improvement points of our approach, as well as comparing our solution to seven important properties every backup system should have.\n\n\n❮hr /❯\n\nSome interesting features of our new backup solution are strong data safety and security, fully self-hosted, using only open-source tools, simple to set up and easy to understand.\n\n\nOne specific requirement we solved was for the sysadmin team to be blind to the data they backup, managing only the process itself.\n\n\nThis lets people working on confidential project on dedicated and access-restricted servers to still use a centralized and resilient backup system without compromising data and server security.\n\n\n❮hr /❯\n\nWe will open-source our Ansible roles and Python scripts on ❮a href=\"https://github.com/quarkslab\"❯Github❮/a❯ before FOSDEM.\n\nRoom: UD2.119\nScheduled start: 2020-02-01 13:00:00"

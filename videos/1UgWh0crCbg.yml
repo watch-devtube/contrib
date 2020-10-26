@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - python
+title: 'Protecting plaintext secrets in configuration files'
+language: English
+recordingDate: 1596783764
+description: "by Moisés Guimarães\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/security_protecting_plaintext_secrets_in_configuration_files.webm\n\nApplications and services rely on configuration data in order to be customized and we will talk about how to keep them in a safer place other than plaintext configuration files.\nThe configparser module is Python's standard configuration file parser and many projects rely on it to achieve easy configuration with plaintext files. OpenStack Common Libraries (Oslo) has an alternative called oslo.config with additional sources of input like command line arguments or environment variables. With the addition of a feature called source drivers last year, we are now able to increase the security of configuration values storing them in a safer place.\n\n\nThis talk focuses on the new source driver that integrates Oslo.Config and Castellan, another Olso module specialized in talking to secret managers, and how we can store our sensitive configuration data using HashiCorp Vault.\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-01 14:00:00"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+    - java
+    - sap
+title: 'Taming Metaspace: a look at the machinery, and a proposal for a better one'
+language: English
+recordingDate: 1596870176
+description: "by Thomas Stüfe\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1302/metaspace.webm\n\nWhen examining memory footprint of a JVM process, the delta between Java\nheap usage and actual working set size can be surprisingly large. The JVM\nuses off-heap memory for a lot of things: thread stacks, compiler arenas,\ncode heap, byte buffers, GC control... however, one of the largest\nconsumers of off-heap memory can be class metadata. Class metadata are\nstored in Metaspace, which includes the Compressed Class Space.\n\n\nThe talk will explore what Metaspace actually is and what is stored there;\ndescribe the architecture of the Metaspace allocator and the Compressed\nClass Space; how it interacts with the GC; how it is sized. We will\nhighlight waste areas and demonstrate how to use jcmd to examine Metaspace\ninternals.\n\n\nThe current implementation of the Metaspace allocator suffers from a number\nof shortcomings. They can manifest in excessive waste and a certain\n\"clinginess\" - an unwillingness to let go of unused memory.\n\n\nAt SAP, we developed an improved version which is more frugal with memory\nand provides a much improved elasticity. So the second part of this talk\nwill concentrate on our new implementation. We will highlight the\ndifferences to the old architecture, demonstrate advantages and examine how\nit works.\n\nRoom: H.1302 (Depage)\nScheduled start: 2020-02-01 16:20:00"

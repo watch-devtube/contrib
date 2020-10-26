@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - architecture
+title: 'Improving protections against speculative execution side channel'
+language: English
+recordingDate: 1596956776
+description: "by David Stewart\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.1.105/speculative_execution.webm\n\nSpeculative execution side channel methods pose new challenges to not only system administrators, users and security experts but also to developers. Developers can use different techniques to harden their code and reduce the feasibility of a possible malicious actor using these methods to leak secrets. But what is a secret? How can someone leak any of my data using these methods? This presentation introduces some architectural concepts that these methods use. It will also present how these methods work and how malicious actors might try to infer data from other users and codes. We will introduce some of the techniques that developers can use for mitigation, together with details about specific challenges that developers of different programming languages might face when implementing these mitigation techniques. Finally, we will present some of the mitigations that we are introducing in software to help ensure that these techniques can not be exploited in production environments.\nNo security or computer architecture background is required. Basic to intermediate programming skills are recommended.\n\n\nAttendees will come away with a better understanding of what speculative execution side channel issues are, how they work, and what they really mean for developers.\n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2020-02-02 12:00:00"

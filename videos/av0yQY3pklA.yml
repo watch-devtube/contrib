@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+    - java
+title: '#bbuzz: Bruno Roustant – A Journey to Write a New Lucene PostingsFormat'
+language: German
+recordingDate: 1594129957
+description: "More: https://berlinbuzzwords.de/session/journey-write-new-lucene-postingsformat\n\nSome hard technical challenges are better solved by changing the foundations. We had a use case of searching many fields with strong constraints on memory and performance. We needed a massive number of fields to support field level security at scale and open the path to machine learned ranking models.\n\nA custom PostingsFormat allowed for a solution with greater efficiencies than our prior solution. We developed a new Lucene PostingsFormat called UniformSplit, we deployed it at a very large scale, and we open-sourced it. We learned a lot during the journey, especially about micro-benchmarking, java memory consumption, compact data representation and high performance Lucene indices.\n\nThis presentation is a good medium to share what we learned with step backwards, the learnings on the Lucene mechanisms, the tips and the pitfalls we encountered. And as we continued the development, we will share the latest works and production measures."

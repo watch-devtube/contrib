@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - agile
+    - embedded
+title: 'Building Loosely-coupled RISC-V Accelerators Using Chisel/FIRRTL to build accelerator templates and…'
+language: English
+recordingDate: 1597043003
+description: "Building Loosely-coupled RISC-V Accelerators Using Chisel/FIRRTL to build accelerator templates and collateral for the ESP SoC platform\nby Schuyler Eldridge\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.401/riscv_chisel.webm\n\nThe burgeoning RISC-V ❮em❯hardware❮/em❯ ecosystem includes a number of microprocessor implementations [1, 3] and SoC generation frameworks [1, 2, 7]. However, while accelerator “sockets” have been defined and used (e.g., Rocket Chip’s custom coprocessor/RoCC), accelerators require ❮em❯additional❮/em❯ collateral to be generated like structured metadata descriptions, hardware wrappers, and device drivers. Requiring manual effort to generate this collateral proves both time consuming and error prone and is at odds with an agile approach to hardware design. However, the existence and use of hardware construction languages and hardware compilers provides a means to automate this process. Through the use of the Chisel hardware description language [4] and the FIRRTL hardware compiler [5], we provide a definition of an abstract accelerator template which users then implement to integrate an accelerator with the Embedded Scalable Platform (ESP) System-on-Chip platform [2, 8]. Through the use of this template, we are able to automatically generate XML metadata necessary to integrate accelerators with the ESP platform and work on generating all collateral is in progress. Our accelerator template is open source software provided under an Apache 2.0 license [6].\n\n\n[1] CHIPS alliance Rocket-chip. ❮em❯GitHub Repository❮/em❯. Online: https://github.com/chipsalliance/rocket-chpi.\n\n\n[2] Columbia University Embedded scalable platform. ❮em❯git repository❮/em❯. Online: https://github.com/sld-columbia/esp.\n\n\n[3] ETH Zurich Ariane. ❮em❯GitHub Repository❮/em❯. Online: https://github.com/pulp-platform/ariane.\n\n\n[4] Freechips\_Project Chisel3. ❮em❯GitHub Repository❮/em❯. Online: https://github.com/freechipsproject/chisel3.\n\n\n[5] Freechips\_Project FIRRTL. ❮em❯GitHub Repository❮/em❯. Online: https://github.com/freechipsproject/firrtl.\n\n\n[6] IBM ESP chisel acclerators. ❮em❯GitHub Repository❮/em❯. Online: https://github.com/ibm/esp-chisel-accelerators.\n\n\n[7] Princeton University OpenPiton. ❮em❯GitHub Repository❮/em❯. Online: https://github.com/PrincetonUniversity/openpiton.\n\n\n[8] ESP: The open-source heterogeneous system-on-chip platform. Online: https://www.esp.cs.columbia.edu/.\n\nRoom: K.3.401\nScheduled start: 2020-02-01 10:50:00"

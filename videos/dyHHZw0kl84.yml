@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'The hairy issue of e2e encryption in instant messaging'
+language: English
+recordingDate: 1596870237
+description: "by Winfried Tilanus\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/security_the_hairy_issue_of_e2e_encryption_in_instant_messaging.webm\n\nEnd-to-end encryption is often regarded as the holy grail of security. But when you start implementing it soon becomes a security hell. Does it really protect against the threats it should protect against? And watch out for the pitfalls when implementing it: almost everybody fails there!\nLets start with the conclusion of this talk: after twenty years of designing and analyzing high security instant messaging systems, I came to the conclusion that end-to-end encryption (e2ee) in instant messaging is snake-oil. It creates a false sense of security.\n\n\nFirst of all the threat model underneath e2ee has fundamental flaws, it doesn’t deliver protection against the threats commonly named to justify it. And if that isn’t enough, there a lot of issues that make a proper implementation very hard to get right. To name a few: key verification, one-to-many messages, store and forward and archiving.\n\n\nBut lets not end this talk all in black. Though we aren’t there yet, there are some developments that may solve these issues. I will name those too.\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-01 16:30:00"

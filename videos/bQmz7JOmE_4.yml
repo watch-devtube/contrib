@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - testing
+title: '#bbuzz: Niels Basjes - When your stream doesn’t stream very well'
+recordingDate: 1593446926
+description: "More: https://berlinbuzzwords.de/session/when-your-stream-doesnt-stream-very-well\n\nSo you got the job of creating this great new streaming analysis on top of an existing data stream. To avoid overloading your laptop you start the project by listening to the data from the test environment which gives you a manageable volume. You get the data into Apache Flink or Beam and you see raw data coming in. Yet your first attempts at doing a very simple analysis on this data results in … nothing coming out. Then you simply take the raw data and use the advised way to write it to something like HBase ... and it takes 30 minutes for the records to appear in the database.\n\nWhat is going wrong?\n\nThe reality of streaming analytics is that the analytics works great on a continuous and big enough stream. Testing streams are very often “too dry” causing all kinds of basic systems in stream processing frameworks to behave differently from what you want. But not only the streams in the test environment are a problem, also streams that are used to process incoming files (i.e. batches on a stream) can be quite a problem to handle correctly.\n\nIn this talk I will go into some of the practical problems we ran into while building streaming applications with Apache Kafka, Apache Flink and similar tools over the last years. And I will show the solutions we use that allow people to successfully build analytics/processing solutions on these \"not so streaming\" streams."

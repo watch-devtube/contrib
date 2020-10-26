@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - javascript
+    - java
+title: 'TornadoVM: A Virtual Machine for Exploiting ​High-Performance Heterogeneous ​Execution of Java Prog…'
+language: English
+recordingDate: 1596956652
+description: "TornadoVM: A Virtual Machine for Exploiting ​High-Performance Heterogeneous ​Execution of Java Programs​\nby Thanos Stratikopoulos\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1302/tornadovm.webm\n\nThe proliferation of heterogeneous hardware in recent years has driven us to consider that every system we program, most likely includes a mix of computing elements; each of which with different hardware characteristics enabling programmers to improve performance while reducing energy consumption. These new heterogeneous devices include multi-core CPUs, GPUs and FPGAs. This trend has been accompanied by changes in software development norms that do not necessarily favor programmers. A prime example is the two most popular heterogeneous programming languages, CUDA and OpenCL, which expose several low-level features to the API making them difficult to use by non-expert users.\n\n\nInstead of using low-level programming languages, developers in industry and academia tend to use higher-level, object-oriented programming languages, typically executed on managed runtime environments, such as Java, R, and Javascript. Although many programmers might expect that such programming languages would have already been adapted for transparent execution on heterogeneous hardware, the reality is that their support is either very limited or absent.\n\n\nIn this talk, we present TornadoVM (https://github.com/beehive-lab/TornadoVM), a heterogeneous programming framework for Java programs. TornadoVM co-exists with standard JVMs (e.g., OpenJDK) that implement the JVMCI. TornadoVM consists of three components: 1) a simple API for composing pipelines of existing Java methods, 2) an optimizing JIT compiler that extends the Graal compiler with hardware-aware optimizations that generate OpenCL C code, and 3) a runtime system that executes TornadoVM specific bytecodes, performs memory management, and schedules the code for execution on GPUs, multicore CPUs, and FPGAs. Essentially, TornadoVM is a “VM-in-a-VM” that can adapt execution completely dynamically and transparently to the user, always finding the highest-performing combination of hardware accelerators through dynamic reconfiguration.\n\nRoom: H.1302 (Depage)\nScheduled start: 2020-02-01 10:50:00"

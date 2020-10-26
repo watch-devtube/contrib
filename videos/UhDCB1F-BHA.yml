@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+    - architecture
+title: 'Skydive A real time network topology and protocols analyzer'
+language: English
+recordingDate: 1596870200
+description: "by Sylvain Baubeau and Sylvain Afchain\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/real_time_network_topology_and_protocols_analyzer.webm\n\nSkydive is an open source real-time network topology and protocols analyzer providing a comprehensive way of understanding what is happening in your network infrastructure.\nSkydive is a toolbox to monitor, visualize and troubleshoot an infrastructure.\n\n\nIt first collects all the information about the physical and logical infrastructure : network interfaces, Linux and Openvswitch bridges, network namespaces, Docker/runc containers, Kubernetes objects, virtual machines and more. All these objects are stored into a graph to allow the operator to visualize and query the whole topology. On top of this, Skydive is able to inject, capture and analyze traffic at any point of this infrastructure - using various technics such as AFpacket, eBPF, DPDK or SFlow samples. This make possible use cases like :\n\n\n❮pre❯❮code❯• troobleshoot dropped packets\n\n• get metrics and bandwidth about some specific traffic\n\n• trigger alert on some abnormal traffic detection\n\n• get latency on the whole path of a flow\n\n• and a lot more...\n❮/code❯❮/pre❯\n\nSkydive is agnostic to any SDN, container orchestration engine or virtualization platform. That being said, Skydive has plugins for specific technologies such as Kubernetes/Istio, OpenStack, Openvswitch, Network Service Mesh, OpenContrail, VPP and more.\n\n\nThis presentation will present the architecture of Skydive and demonstrate some use cases through a demo.\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-01 10:10:00"
