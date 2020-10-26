@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - startup
+    - containers
+    - kubernetes
+title: 'HotEdge ''20 - Fast and Efficient Container Startup at the Edge via Dependency Scheduling'
+language: English
+recordingDate: 1595547264
+description: "Fast and Efficient Container Startup at the Edge via Dependency Scheduling\n\nSilvery Fu, UC Berkeley; Radhika Mittal, UIUC; Lei Zhang, Alibaba Group; Sylvia Ratnasamy, UC Berkeley\n\nContainer is becoming the canonical way of deploying compute tasks at the edge. Unfortunately, container startup latency and overhead remain high, limiting responsiveness and of edge deployment. This latency comes mostly from fetching container dependencies including system libraries, tools, configuration files, and data files.\n\nTo address this, we propose that schedulers in container orchestrators take into account a task's dependencies. Hence, in dependency scheduling, the scheduler tries to place a task at a node that has the maximum number of the task's dependencies stored locally. We implement dependency scheduling within Kubernetes and evaluate it through extensive experiments and measurement-driven simulations. We show that dependency scheduling improves task startup latency by 1.4-2.3x relative to current dependency-agnostic scheduling for typical scenarios. Our implementation of dependency scheduling has been adopted into the mainline Kubernetes codebase.\n\nView the full HotEdge '20 program at https://www.usenix.org/conference/hotedge20/workshop-program"

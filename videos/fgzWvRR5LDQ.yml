@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotStorage ''20 - SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems'
+language: English
+recordingDate: 1598654531
+description: "SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems\n\nLiangliang Xu, Min Lyu, Qiliang Li, Lingjiang Xie, and Yinlong Xu, University of Science and Technology of China\n\nErasure coding has been a commonly used approach to provide high reliability with low storage cost. But the skewed load in a recovery batch severely slows down the failure recovery process in storage systems. To this end, we propose a balanced scheduling module, SelectiveEC, which schedules reconstruction tasks out of order by dynamically selecting some stripes to be reconstructed into a batch and selecting source nodes and replacement nodes for each reconstruction task. So it achieves balanced network recovery traffic, computing resources and disk I/Os against single node failure in erasure-coded storage systems. Compared with conventional random reconstruction, SelectiveEC increases the parallelism of recovery process up to 106% and averagely bigger than 97% in our simulation. Therefore, SelectiveEC not only speeds up recovery process, but also reduces the interference of failure recovery with the front-end applications.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

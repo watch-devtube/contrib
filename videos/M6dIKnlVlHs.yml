@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - performance
+title: 'HotStorage ''20 - Need for a Deeper Cross-Layer Optimization for Dense NAND SSD to Improve Read'
+language: English
+recordingDate: 1598654543
+description: "Need for a Deeper Cross-Layer Optimization for Dense NAND SSD to Improve Read Performance of Big Data Applications: A Case for Melded Pages\n\nArpith K and K. Gopinath, Indian Institute of Science, Bangalore\n\nIn the case of dense NAND flash such as TLC, the LSB, CSB and MSB pages in a wordline can be combined to form a larger logical page called melded-page. In this paper, we propose melding TLC/QLC pages to improve the performance of SSD by mitigating the overheads involved in the read operation. Melded-pages are read in their entirety. The controller schedules the write requests in such a way that, during reads later, requests for data present in LSB, CSB and MSB pages are guaranteed to be present in the request queue. This method works reliably when the workload performs its read operations in large chunks or has a predictable I/O pattern. We obtain performance improvements of up to 45% on workloads that use large block sizes such as the Hadoop Distributed File System (HDFS). Big data solutions that exhibit such read patterns can vastly benefit from melding pages.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

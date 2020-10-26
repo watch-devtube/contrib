@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotStorage ''20 - StripeFinder: Erasure Coding of Small Objects Over Key-Value Storage Devices'
+language: English
+recordingDate: 1598654650
+description: "StripeFinder: Erasure Coding of Small Objects Over Key-Value Storage Devices (An Uphill Battle)\n\nUmesh Maheshwari, Chiku Research\n\nEmerging key-value storage devices are promising because they rid the storage stack of the intervening block namespace and reduce IO amplification. However, pushing the key-value interface down to the device level creates a challenge: erasure coding must be performed over key-value namespaces.\n\nWe expose a fundamental problem in employing parity-based erasure coding over key-value namespaces. Namely, the system must store a lot of per-stripe metadata that includes the keys of all objects in the stripe. Furthermore, this metadata must be find-able using the key of each object in the stripe.\n\nA state-of-the-art design, KVMD, does not quantify this metadata overhead. We clarify that, when storing D data and P parity objects, KVMD stores DxP metadata objects, each of which stores D+P object keys. This nullifies the benefit of parity coding over replication in object count. For small objects, it might also nullify the benefit in byte count; e.g., to protect 256~byte objects with 16~byte keys against two failures (P=2), KVMD would cause byte amplification of 2.8x (D=4) and 3.3x (D=8) vs. 3x with plain replication.\n\nWe present an optimized version, StripeFinder, that reduces the metadata byte count by a factor of D and the metadata object count by a configurable factor; e.g., to protect 256~byte objects against two failures (P=2), StripeFinder reduces byte amplification to 2.2x (D=4) and 1.9x (D=8). However, StripeFinder does not provide enough savings for 128~byte objects to justify its complexity over replication. Ultimately, parity coding of small objects over key-value devices is an uphill battle, and tiny objects are best replicated.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

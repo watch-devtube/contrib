@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'HotStorage ''20 - Reinforcement Learning-Based SLC Cache Technique for Enhancing SSD Write'
+language: English
+recordingDate: 1598654118
+description: "Reinforcement Learning-Based SLC Cache Technique for Enhancing SSD Write Performance\n\nSangjin Yoo, Sungkyunkwan University, Samsung Electronics; Dongkun Shin, Sungkyunkwan University\n\nAlthough quad-level-cell (QLC) NAND flash memory can provide high density, its lower write performance and endurance compared to triple-level-cell (TLC) flash memory are critical obstacles to the proliferation of QLC flash memory. To resolve such problems of QLC flash, hybrid architectures, which program a part of QLC blocks in the single-level-cell (SLC) mode and utilizes the blocks as a cache of remaining QLC blocks, are widely adopted in the commercial solid-state disks (SSDs). However, it is challenging to optimize various parameters of hybrid SSDs such as the SLC cache size and the hot/cold separation threshold. In particular, the parameters must be adjusted dynamically by monitoring the change on I/O workloads. However, current techniques use heuristically determined fixed parameters. This paper proposes a reinforcement learning (RL)-based SLC cache management technique, which observes workload patterns and internal status of hybrid SSD and decides the optimal SLC cache parameters maximizing the efficiency of hybrid SSD. Experimental results show that the proposed technique improves write throughput and write amplification factor by 77.6% and 20.3% on average, respectively, over the previous techniques.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

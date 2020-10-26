@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+title: 'HotCloud ''20 - A Cloud Gaming Framework for Dynamic Graphical Rendering Towards Achieving'
+language: English
+recordingDate: 1598654644
+description: "A Cloud Gaming Framework for Dynamic Graphical Rendering Towards Achieving Distributed Game Engines\n\nJames Bulman and Peter Garraghan, Lancaster University\n\nCloud gaming in recent years has gained growing success in delivering games-as-a-service by leveraging cloud resources. Existing cloud gaming frameworks deploy the entire game engine within Virtual Machines (VMs) due to the tight-coupling of game engine subsystems (graphics, physics, AI). The effectiveness of such an approach is heavily dependant on the cloud VM providing consistently high levels of performance, availability, and reliability. However this assumption is difficult to guarantee due to QoS degradation within, and outside of, the cloud - from system failure, network connectivity, to consumer datacaps - all of which may result in game service outage. We present a cloud gaming framework that creates a distributed game engine via loose-coupling the graphical renderer from the game engine, allowing for its execution across cloud VMs and client devices dynamically. Our framework allows games to operate during performance degradation and cloud service failure, enabling game developers to exploit heterogeneous graphical APIs unrestricted from Operating System and hardware constraints. Our initial experiments show that our framework improves game frame rates by up to 33% via frame interlacing between cloud and client systems.\n\nView the full HotCloud '20 program at https://www.usenix.org/conference/hotcloud20/workshop-program"
