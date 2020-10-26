@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - architecture
+title: 'Ephemeral Environments For Developers In Kubernetes'
+language: English
+recordingDate: 1601535841
+description: "by Jeff Knurek\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.120/ephemeral.webm\n\nA key aspect of a microservice architecture is to make sure individual services work in isolation. But as a developer its also important to make sure the service works in the full system. Providing developers a way to run pre-production code in a multi-service environment is challenging.\n\n\nMaking use of existing Helm charts and defaulting to production configuration does part of the work. Also important is being able to extend upon tools like Telepresence/Ksync for debugging in k8s. But while these great tools are available, what has been lacking is the \"easy to use\", single command that gives a developer a place to work with their own full, self-contained system. There are now a few open source solutions to do just that (like Garden, Acyl, &amp; Armador). In this talk, Jeff will break down how these tools work, and what makes them different.\n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2020-02-01 12:30:00"

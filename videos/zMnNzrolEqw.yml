@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - security
+    - testing
+    - java
+title: 'USENIX Security ''20 - BScout: Direct Whole Patch Presence Test for Java Executables'
+language: English
+recordingDate: 1600121977
+description: "BScout: Direct Whole Patch Presence Test for Java Executables\n\nJiarun Dai, Yuan Zhang, Zheyue Jiang, Yingtian Zhou, and Junyan Chen, Fudan University; Xinyu Xing, Pennsylvania State University; Xiaohan Zhang, Xin Tan, Min Yang, and Zhemin Yang, Fudan University\n\nTo protect end-users and software from known vulnerabilities, it is crucial to apply security patches to affected executables timely. To this end, patch presence tests are proposed with the capability of independently investigating patch application status on a target without source code. Existing work on patch presence testing adopts a signature-based approach. To make a trade-off between the uniqueness and the stability of the signature, existing work is limited to use a small and localized patch snippet (instead of the whole patch) for signature generation, so they are inherently unreliable.\n\nIn light of this, we present BScout, which directly checks the presence of a whole patch in Java executables without generating signatures. BScout features several new techniques to bridge the semantic gap between source code and bytecode instructions during the testing, and accurately checks the fine-grained patch semantics in the whole target executable. We evaluate BScout with 194 CVEs from the Android framework and third-party libraries. The results show that it achieves remarkable accuracy with and without line number information (i.e., debug information) presented in a target executable. We further apply BScout to perform a large-scale patch application practice study with 2,506 Android system images from 7 vendors. Our study reveals many findings that have not yet been reported.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+title: 'PostgreSQL on K8S at Zalando: Two years in production'
+language: English
+recordingDate: 1600765568
+description: "by Alexander Kukushkin\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2214/postgresql_postgresql_on_k8s_at_zalando_two_years_in_production.webm\n\nMany DBAs avoid any kind of cloud offering and prefer to run their databases on dedicated hardware. At the same time companies demand to run Postgres at scale, efficiently, automated and well integrated into the infrastructure landscape. The arrival of Kubernetes provided good building blocks and an API to interact with and with it solve many problems at the infrastructure level.\n\n\nThe database team at Zalando started running highly-available PostgreSQL clusters on Kubernetes more than two years ago. In this talk I am going to share how we automate all routine operations, providing developers with easy-to-use tools to create, manage and monitor their databases, avoiding commercial solutions lock-in and saving costs, show open-source tools we have built to deploy and manage PostgreSQL cluster on Kubernetes by writing short manifests describing a few essential properties of the result.\n\n\nOperating a few hundred PostgreSQL clusters in a containerized environment has also generated observations and learnings which we want to share: infrastructure problems (AWS), how engineers use our Postgres setup and what happens when the load becomes critical.\n\nRoom: H.2214\nScheduled start: 2020-02-02 12:00:00"

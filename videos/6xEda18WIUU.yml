@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - tensorflow
+    - security
+title: 'USENIX Security ''20 - Adversarial Preprocessing: Understanding and Preventing Image-Scaling Attacks'
+language: English
+recordingDate: 1600121979
+description: "Adversarial Preprocessing: Understanding and Preventing Image-Scaling Attacks in Machine Learning\n\nErwin Quiring, David Klein, Daniel Arp, Martin Johns, and Konrad Rieck, TU Braunschweig\n\nMachine learning has made remarkable progress in the last years, yet its success has been overshadowed by different attacks that can thwart its correct operation. While a large body of research has studied attacks against learning algorithms, vulnerabilities in the preprocessing for machine learning have received little attention so far. An exception is the recent work of Xiao et al. that proposes attacks against image scaling. In contrast to prior work, these attacks are agnostic to the learning algorithm and thus impact the majority of learning-based approaches in computer vision. The mechanisms underlying the attacks, however, are not understood yet, and hence their root cause remains unknown.\n\nIn this paper, we provide the first in-depth analysis of image-scaling attacks. We theoretically analyze the attacks from the perspective of signal processing and identify their root cause as the interplay of downsampling and convolution. Based on this finding, we investigate three popular imaging libraries for machine learning (OpenCV, TensorFlow, and Pillow) and confirm the presence of this interplay in different scaling algorithms. As a remedy, we develop a novel defense against image-scaling attacks that prevents all possible attack variants. We empirically demonstrate the efficacy of this defense against non-adaptive and adaptive adversaries.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

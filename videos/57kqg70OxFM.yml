@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis'
+language: English
+recordingDate: 1600121978
+description: "Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis\n\nDaniel Moghimi, Worcester Polytechnic Institute; Moritz Lipp, Graz University of Technology; Berk Sunar, Worcester Polytechnic Institute; Michael Schwarz, Graz University of Technology\n\nIn May 2019, a new class of transient execution attack based on Meltdown called microarchitectural data sampling (MDS), was disclosed. MDS enables adversaries to leak secrets across security domains by collecting data from shared CPU resources such as data cache, fill buffers, and store buffers. These resources may temporarily hold data that belongs to other processes and privileged contexts, which could falsely be forwarded to memory accesses of an adversary.\n\nWe perform an in-depth analysis of these Meltdown-style attacks using our novel fuzzing-based approach. We introduce an analysis tool, named Transynther, which mutates the basic block of existing Meltdown variants to generate and evaluate new Meltdown subvariants. We apply Transynther to analyze modern CPUs and better understand the root cause of these attacks. As a result, we find new variants of MDS that only target specific memory operations, e.g., fast string copies.\n\nBased on our findings, we propose a new attack, named Medusa, which can leak data from implicit write-combining memory operations. Since Medusa only applies to specific operations, it can be used to pinpoint vulnerable targets. In a case study, we apply Medusa to recover the key during the RSA signing operation. We show that Medusa can leak various parts of an RSA key during the base64 decoding stage. Then we build leakage templates and recover full RSA keys by employing lattice-based cryptanalysis techniques.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

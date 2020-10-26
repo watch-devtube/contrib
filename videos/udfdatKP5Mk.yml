@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Striving for Performance Portability of Software Radio Software in the Era of Heterogeneous SoCs'
+language: English
+recordingDate: 1600934661
+description: "by Jeffrey Vetter\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.120/fsr_striving_for_performance_portability.webm\n\nFuture heterogeneous DSSoCs will be extraordinarily complex in terms of processors, memory hierarchies, and interconnection networks. To manage this complexity, architects, system software designers, and application developers need design and programming technologies to be flexible, accurate, efficient, and productive. Recently, our team has started to explore the mapping of GnuRadio to various heterogeneous SoCs in order to understand how programming technologies can support this goal of making this SDR framework performance portable. Using our software stack, we are porting several SDR applications to GPUs from NVIDIA, AMD, and ARM, and to NVIDIA Xavier SoCs, Qualcomm Snapdragon, and Xilinx Zynq devices. Our current approach uses a directive-based programming model and a new intelligent runtime scheduler to port and execute the workflows. We are evaluating several open programming models to enable performance portability; initially, they include directive-based compilers, OpenCL, and SYCL. All of these approaches will generate tasks that are then queued and scheduled by our open-source intelligent runtime scheduler, which is a critical component of our approach. Initial performance results appear promising; however, more automation will further broad deployment. Also, we have developed a host of tools to examine and profile SDR workflows and modules. Specifically, these analysis tools enable automated characterization of the behavioral and computational features of GNU Radio blocks and workflows. The static tools in GR-tools help developers to create ontologies and queries to classify GR modules based on custom scenarios. The dynamic toolset provides automated profiling capabilities of GR workflows and presents detailed statistics on how components in a given software defined radio application perform. GR-tools also produces a graph-based representation of the analyzed data and provides powerful visualization options to filter and display the information obtained from the static and dynamic tools. Our software is available as open-source software and will be made available to the community.\n\nRoom: AW1.120\nScheduled start: 2020-02-02 12:00:00"

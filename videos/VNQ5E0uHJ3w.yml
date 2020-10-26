@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - EPIC: Every Packet Is Checked in the Data Plane of a Path-Aware Internet'
+language: English
+recordingDate: 1600121974
+description: "EPIC: Every Packet Is Checked in the Data Plane of a Path-Aware Internet\n\nMarkus Legner, Tobias Klenze, Marc Wyss, Christoph Sprenger, and Adrian Perrig, ETH Zurich\n\nAn exciting insight of recent networking research has been that path-aware networking architectures are able to fundamentally solve many of the security issues of today’s Internet, while increasing overall efficiency and giving control over path selection to end hosts. In this paper, we consider three important issues related to this new networking paradigm: First, network operators still need to be able to impose their own policies to rule out uneconomical paths and to enforce these decisions on the data plane. Second, end hosts should be able to verify that their forwarding decisions are actually followed by the network. Finally, both intermediate routers and recipients should be able to authenticate the source of packets. These properties have been considered by previous work, but there is no existing system that achieves both strong security guarantees and high efficiency.\n\nWe propose EPIC, a family of data-plane protocols that provide increasingly strong security properties, addressing all three described requirements. The EPIC protocols have significantly lower communication overhead than comparable systems: for realistic path lengths, the overhead is 3–5 times smaller compared to the state-of-the-art systems OPT and ICING. Our prototype implementation is able to saturate a 40 Gbps link even on commodity hardware due to the use of only few highly efficient symmetric cryptographic operations in the forwarding process. Thus, by ensuring that every packet is checked at every hop, we make an important step towards an efficient and secure future Internet.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

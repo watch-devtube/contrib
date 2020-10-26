@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'A Vulkan driver for the RPI4 A lesson in futility'
+language: English
+recordingDate: 1600877074
+description: "by Andreas Bergmeier\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.401/rpi4_vulkan.webm\n\nFor the Raspberry PI 4 I started implementing a Vulkan driver. This talk will give a guide of how to approach such a task, what my expectations are and what I learned so far.\nWith the release of Raspberry PI 4 it becomes theoretically more viable to use it in GPU heavy scenarios. Even ordinary software like Gnome Shell, Chromium and games fall into that category.\nSadly, neither Broadcom nor Raspberry PI Foundation currently provide a Vulkan driver. Since I want as much performance (and little overheating) as possible, I started writing a Vulkan driver.\nThis entails learning kernel and mesa internals as well as trying to understand Gallium. All that I have learned so far, I will try to share in this talk.\n\nRoom: K.4.401\nScheduled start: 2020-02-01 17:00:00"

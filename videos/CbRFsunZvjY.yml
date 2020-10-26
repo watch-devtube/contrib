@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'How lowRISC made its Ibex RISC-V CPU core faster Using open source tools to improve an open source …'
+language: English
+recordingDate: 1600499016
+description: "How lowRISC made its Ibex RISC-V CPU core faster Using open source tools to improve an open source core\nby Greg Chadwick\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.401/riscv_lowrisc.webm\n\nIbex implements RISC-V 32-bit I/E MC M-Mode, U-Mode and PMP. It uses an in order 2 stage pipe and is best suited for area and power sensitive rather than high performance applications. However there is scope for meaningful performance gains without major impact to power or area. This talk describes work done at lowRISC to analyse and improve the performance of Ibex. The RTL of an Ibex system is simulated using Verilator to run CoreMark and Embench and the traces analysed to identify the major sources of stalls within them. This informs where improvements should be targeted. The open source implementation tools Yosys and openSTA are used to assess potential timing and area impacts of these improvements. In this talk you’ll learn about the pipeline of Ibex, methods to analyse the performance of CPU microarchitecture and how to use Yosys and openSTA to analyse what limits clock frequency in a design.\n\nRoom: K.3.401\nScheduled start: 2020-02-01 09:30:00"

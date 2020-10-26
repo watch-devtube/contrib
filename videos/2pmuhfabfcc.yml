@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+    - architecture
+    - functional
+    - embedded
+title: 'Building an embedded VoIP network for video intercom systems How to leverage open standards to brin…'
+language: English
+recordingDate: 1600761835
+description: "Building an embedded VoIP network for video intercom systems How to leverage open standards to bring voice and video capabilities to IP hardware intercom solutions\nby Elisa Nectoux\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.218A/ema_embedded_voip.webm\n\nIP video intercom systems combined with smartphones can leverage regular RTP/SIP VoIP technology to offer a new set of services to end-users: getting a notification when visitors press the door bell, seeing them on video before answering the call, interacting with them via voice and video and deciding to open the door, at home or anywhere else via wifi or 3G coverage.\n\n\nLinphone (a SIP user-agent) and Flexisip (a SIP proxy server) can be integrated into IP video door phones, in-house panels and video surveillance devices to build a complete VoIP network.\n\n\nLinphone and Flexisip use open standards to reliably send the audio and video streams captured from IP video intercoms to in-house devices, including smartphones and tablets, connected either to a local network or to the public internet.\nThese open source SIP-based software solutions can run perfectly on small hardware devices with reduced footprint, and can easily be integrated into GNU/Linux embedded systems, thanks to their Yocto packages.\n\n\nThis lecture will describe how Linphone and Flexisip can be used together to build an embedded SIP network dedicated to home automation or video surveillance.\nThe network architecture used in these contexts can also be deployed in other areas, such as the emergency services or the Internet of Things.\nLinphone and Flexisip can be integrated into IP video intercom systems to make the audio and video capabilities of a door entry panel accessible by in-house control screens and smartphones, connected either to a local network or to the public internet.\n\n\nIndeed, the linphone software fits well in embedded systems, which makes it a good candidate for being used in home automation devices, such as outdoor panels or indoor monitors, where video is to be capture or displayed.\nHowever a SIP user-agent itself is not sufficient for setting up a fully functional SIP network: we propose the use of Flexisip, which is also able to run with reduced footprint on embedded devices as well as on a large scale cloud deployment, to fork incoming calls to in-house monitoring panels, smartphones or tablets.\n\n\nWhen used together, Linphone and Flexisip offer advanced features for IP door phones and video monitoring systems, such as :\n-   HD video and HD voice (with support for H.264 and H.265 hardware accelerated codecs, and Opus codec)\n-   Call forking with early media video\n-   ICE, STUN and TURN support for optimised NAT traversal allowing peer-to-peer audio and video connections whenever possible\n-   secure user authentication with TLS client certificates\n-   Interconnection with push notifications systems, for reliably notifying of people ringing the door\n\nRoom: UD2.218A\nScheduled start: 2020-02-01 10:30:00"

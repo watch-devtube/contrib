@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+title: 'The consequences of sync_binlog != 1'
+language: English
+recordingDate: 1601535914
+description: "by Jean-François Gagné\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2214/sync_binlog.webm\n\nHave you ever needed to get some additional write throughput from MySQL ?  If yes, you probably found that setting sync_binlog to 0 (and trx_commit to 2) gives you an extra performance boost.  As all such easy optimisation, it comes at a cost.  This talk explains how this tuning works, presents its consequences and makes recommendations to avoid them.  This will bring us to the details of how MySQL commits transactions and how those are replicated to slaves.  Come to this talk to learn how to get the benefit of this tuning the right way and to learn some replication internals.\n\nRoom: H.2214\nScheduled start: 2020-02-01 11:10:00"

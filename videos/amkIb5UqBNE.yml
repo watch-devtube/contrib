@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - A Longitudinal and Comprehensive Study of the DANE Ecosystem in Email'
+language: English
+recordingDate: 1600121976
+description: "A Longitudinal and Comprehensive Study of the DANE Ecosystem in Email\n\nHyeonmin Lee, Seoul National University; Aniketh Gireesh, Amrita Vishwa Vidyapeetham; Roland van Rijswijk-Deij, University of Twente & NLnet Labs; Taekyoung \"Ted\" Kwon, Seoul National University; Taejoong Chung, Rochester Institute of Technology\n  \nThe DNS-based Authentication of Named Entities (DANE) standard allows clients and servers to establish a TLS connection without relying on trusted third parties like CAs by publishing TLSA records. DANE uses the Domain Name System Security Extensions (DNSSEC) PKI to achieve integrity and authenticity. However, DANE can only work correctly if each principal in its PKI properly performs its duty: through their DNSSEC-aware DNS servers, DANE servers (e.g., SMTP servers) must publish their TLSA records, which are consistent with their certificates. Similarly, DANE clients (e.g., SMTP clients) must verify the DANE servers’ TLSA records, which are also used to validate the fetched certificates.\n\nDANE is rapidly gaining popularity in the email ecosystem, to help improve transport security between mail servers. Yet its security benefits hinge on deploying DANE correctly. In this paper we perform a large-scale, longitudinal, and comprehensive measurement study on how well the DANE standard and its relevant protocols are deployed and managed. We collect data for all second-level domains under the .com, .net, .org, .nl, and .se TLDs over a period of 24 months to analyze server-side deployment and management. To analyse the client-side deployment and management, we investigate 29 popular email service providers, and four popular MTA and ten DNS software programs.\n\nOur study reveals pervasive mismanagement in the DANE ecosystem. For instance, we found that 36% of TLSA records cannot be validated due to missing or incorrect DNSSEC records, and 14.17% of them are inconsistent with their certificates. We also found that only four email service providers support DANE for both outgoing and incoming emails, but two of them have drawbacks of not checking the Certificate Usage in TLSA records. On the bright side, the administrators of email servers can leverage open source MTA and DNS programs to support DANE correctly.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

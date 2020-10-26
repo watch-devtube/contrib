@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - lisp
+    - functional
+title: 'SREcon Conversations Asia/Pacific with Koon Seng Lim, DBS'
+language: English
+recordingDate: 1600376995
+description: "Banking on Batch: An SRE Take on an Old-School Problem\n\nKoon Seng Lim, DBS\n\nSRE usually focuses on improving site availability and up time, but why stop there? The majority of financial institutions rely heavily on end-of-day batch runs, which when not executed properly, could result in SLA breaches, losses (both financial and reputation), and even regulatory penalties.\n\nTo provide the right data to the right systems, batches go through an intricate scheme of upstream-downstream systems as well as countless jobs executing in the backend. These make it a challenge for engineers to ensure that batch systems are reliable. In addition to the numerous dependencies between jobs that specify ordering of job execution, there are timing constraints as well as other internal dependencies not visible externally. This makes the daily operation of executing hundreds of thousands of such runs a challenge in its own right. In our organisation, running this requires a small army of operators monitoring, verifying, and intervening if necessary to get runs completed correctly and on time.\n\nIn this talk, we’ll share with you how we are doing a fresh take on this old-school problem, applying SRE principles of monitoring, automation, and machine learning to improve reliability and observability.\n\nKoon Seng Lim received his Honours in Information Systems & Computer Science from the National University of Singapore and his Masters in Electrical Engineering from Columbia University in New York. He joined his first start up, Xbind, Inc., in New York in 1998 and subsequently founded and worked for 3 other start ups in the US before returning to Singapore in 2011. He currently heads the Site Reliability Engineering team for the middle office function in DBS and oversees all non-functional aspects of development and operations. Koon Seng is an active coder and enjoys espousing the virtues of reliability engineering and the quantitative approach to problem solving."

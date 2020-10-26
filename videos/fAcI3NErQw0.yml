@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - web
+title: 'strace --seccomp-bpf: a look under the hood'
+language: English
+recordingDate: 1600869857
+description: "by Paul Chaignon\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_strace_bpf.webm\n\nstrace is known to add significant overhead to any application it traces.\nEven when users are interested in a handful of syscalls, strace will by\ndefault intercept all syscalls made by the observed processes, involving\nseveral context switches per syscall.  Since strace v5.3, the\n❮code❯--seccomp-bpf❮/code❯ option allows reducing this overhead, by stopping observed\nprocesses only at syscalls of interest.  This option relies on seccomp-bpf\nand inherits a few of its limitations.\n\n\nIn this talk, we will describe the default behavior of ptrace and strace,\nto understand the problem ❮code❯--seccomp-bpf❮/code❯ addresses.  We will then detail\nthe inner workings of the new option, as seen from ptrace (seccomp-stops)\nand bpf (syscall matching algorithms).  Finally, we'll discuss limitations\nof the new option and avenues for improvement.\n❮ul❯\n❮li❯Problem addressed and ptrace default behavior❮/li❯\n❮li❯seccomp-bpf, ❮code❯SECCOMP_RET_TRACE❮/code❯, and the new behavior❮/li❯\n❮li❯cBPF syscall matching algorithms❮/li❯\n❮li❯Main limitations: working together with ❮code❯-p❮/code❯ and ❮code❯-f❮/code❯❮/li❯\n❮li❯Avenues for improvements❮/li❯\n❮/ul❯\n\n\nPart of this talk is covered in the following blog post:\n❮a href=\"https://pchaigno.github.io/strace/2019/10/02/introducing-strace-seccomp-bpf.html\"❯https://pchaigno.github.io/strace/2019/10/02/introducing-strace-seccomp-bpf.html❮/a❯.\n\nRoom: K.4.201\nScheduled start: 2020-02-02 12:40:00"
