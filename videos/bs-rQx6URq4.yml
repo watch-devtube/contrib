@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - performance
+    - security
+    - 'data structures'
+title: 'Securing Existing Software using Formally Verified Libraries'
+language: English
+recordingDate: 1598771038
+description: "by Tobias Reiher\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/security_securing_existing_software_using_formally_verified_libraries.webm\n\nSecurity vulnerabilities are still very common in todays software. Formal methods could improve the situation, but program verification remains a complex and time-consuming task. Often, the verification of existing software is infeasible and a complete rewrite can be prohibitively expensive. Both, however, is not necessarily required to improve on the current state. By replacing critical parts of an existing software by verified code, security can be strengthened significantly with moderate effort.\n\n\nWe show the feasibility of this approach by the example of a FLOSS TLS implementation. The basis of our PoC is the TLS 1.3 library ❮a href=\"https://github.com/facebookincubator/fizz\"❯Fizz❮/a❯ which is written in C++. The existing message parser was replaced by a verified version implemented in the ❮a href=\"https://www.adacore.com/about-spark\"❯SPARK❮/a❯ language. Our ❮a href=\"https://github.com/Componolit/RecordFlux\"❯RecordFlux❮/a❯ toolset was used to automatically generate the parser based on a formal message specification. With the SPARK tools we can prove automatically that an attacker cannot cause any overflows, runtime errors or undefined state by sending malformed messages to the modified library. Because of mismatches in the data structures used in C++ and SPARK, some glue code had to be written manually to integrate the verified parser into Fizz. Still, the modified TLS implementation shows only a slight performance loss while providing higher security.\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-01 10:30:00"

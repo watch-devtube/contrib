@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'Kernel Runtime Security Instrumentation LSM+BPF=KRSI'
+language: English
+recordingDate: 1598601795
+description: "by Florent Revest\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/security_kernel_runtime_security_instrumentation.webm\n\nKRSI (Kernel Runtime Security Instrumentation) is an ongoing effort at Google to upstream an LSM (Linux Security Module) instrumentable using eBPF (extended Berkeley Packet Filter) to the Linux kernel.\n\n\nKRSI allows system owners to dynamically attach eBPF programs to security hooks and write MAC and audit policies without having to reboot or patch the kernel thereby enabling a new class of system security and auditing software.\n\n\nThis talk presents the main concepts behind KRSI: it introduces the technologies leveraged and presents the API exposed to users.\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-01 15:30:00"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Spack''s new Concretizer Dependency solving is more than just SAT!'
+language: English
+recordingDate: 1598598255
+description: "by Todd Gamblin\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.119/dependency_solving_not_just_sat.webm\n\nDependency resolution is deceptively complex; simply selecting a set of compatible versions for an arbitrary network of dependencies is NP-hard.  Much effort has been spent on this problem for modern single-language ecosystems, but many of these ecosystems rely on natively compiled libraries, and dependency mangers often fail at managing the additional complexities that native libraries entail.  Further, dependency resolution has traditionally been modeled as a SAT problem, where the package manager should find ❮em❯any❮/em❯ workable solution to satisfy package constraints.  However, ❮em❯any❮/em❯ solution may not be good enough.  Users want the most tested, most optimized, or most secure configuration, and this is a SAT problem coupled with complex optimization.\n\n\nSpack is a package/dependency manager rapidly gaining popularity in High Performance Computing (HPC) that aims to address many of the complexities of native, multi-language, cross-platform dependency management.  Spack has recently been reworked to use Answer Set Programming (ASP), a declarative logic programming paradigm that also provides sophisticated facilities for optimization.  This talk will cover how we’ve been able to model the compiler toolchain, ISA, build options, ABI, and other constraints on native libraries. We’ll also talk about how ASP has been a useful tool for finding ❮em❯optimized❮/em❯ dependency configurations.  This work can be used to improve dependency resolvers in general — so that they can prefer more secure or tested configurations instead of simply selecting the most recent workable versions.\nExpected prior knowledge / intended audience:\nAudience should have basic knowledge of build systems and compiled languages, but we'll explain this up front with some brief background. The talk is aimed broadly -- for users, developers, packagers, researchers, package manager implementors, and HPC administrators.\n\nRoom: UD2.119\nScheduled start: 2020-02-01 16:30:00"

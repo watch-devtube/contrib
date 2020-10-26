@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'Using crio-lxc with Kubernetes'
+language: English
+recordingDate: 1599289486
+description: "by Tycho Andersen and Mike McCracken\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.208/containers_k8s_crio_lxc.webm\n\nRunning application containers within Kubernetes presents a challenge to the operator for quickly handling security updates - every container must be patched, rebuilt and re-tested, and then updated separately. The slowest dev turnaround of all your containers is the fastest you can fully update your cluster.\n\n\nHowever, for many fixes, the application likely will not care which compatible version of a system library it is using.\nUsing AtomFS, operators can update individual libraries inside app containers without a rebuild. Containers using an AtomFS storage backend can simply be restarted after a fix is applied, and they will see it reflected in their filesystems.\n\n\nThe AtomFS storage backend requires minor changes to your container runtime, and we demonstrate it with the LXC runtime and crio-lxc, an adapter to enable using LXC-based containers in Kubernetes using CRI-O.\n\n\nIn this talk Tycho will cover how AtomFS works, what changes are needed to make application container builds work with AtomFS, and fix an exploit live without a rebuild.\n\nRoom: UD2.208 (Decroly)\nScheduled start: 2020-02-01 14:45:00"

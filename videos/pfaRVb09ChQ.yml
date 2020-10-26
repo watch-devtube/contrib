@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Fedora rawhide packages gating, for real! How we have implemented gating rawhide packages in Fedora'
+language: English
+recordingDate: 1599203292
+description: "by Pierre-Yves Chibon\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.201/frpgfr.webm\n\nRawhide, the, rolling, development version of Fedora has often been considered has too broken and too unstable. Sometime to the detriment of the development of stable releases as well.\nIn a near future, this should no longer be happening as now every change made to every package landing in Fedora rawhide can be gated based on test results.\n\n\nThis talk will walk you through the processes and changes that Fedora landed to make of this idea a reality.\nRawhide is the development version of Fedora. It is the version from which stable Fedora releases branch from and thus every change made to it will trickle down to the next stable release. This also means that there are time in the development of Fedora where changes landing in rawhide can (and do!) have a detrimental effect on the next stable release.\n\n\nWith the rawhide package gating initiative, Fedora has gained mechanisms to test and gate packages based on the results of these tests.\n\n\nIn this talk we will go through the mechanisms built to allow this gating, how it works, how to debug if there are issues with it.\nWe will also gladly receive feedback from Fedora contributors who have interacted with it.\n\nRoom: K.3.201\nScheduled start: 2020-02-02 15:00:00"

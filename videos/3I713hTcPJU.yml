@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+    - python
+    - java
+    - embedded
+title: 'Do Linux Distributions Still Matter with Containers?'
+language: English
+recordingDate: 1598857574
+description: "by Scott Mccarty\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.201/dldsmwc.webm\n\nIn the beginning there was compiling and static linking. My first programs when I was 10 years old worked like that. Then, we discovered dynamic linking. This was great because we could now patch one library and all of the programs would pick up the change on restart. But we created another problem - dependencies. Throughout the history of computing we have solved one problem and created another. Containers are no different. This talk will walk through why we invented Linux distros and why we should continue to appreciate them in a world full of container images...\nIn the beginning there was compiling and static linking. My first programs when I was 10 years old worked like that. Then, we discovered dynamic linking. This was great because we could now patch one library and all of the programs would pick up the change on restart. But we created another problem - dependencies. Throughout the history of computing we have solved one problem and created another. Containers are no different. This talk will walk through why we invented Linux distros and why we should continue to appreciate them in a world full of container images.\n\n\nThe short answer is yes. Yes, they still matter because of several reasons:\n\n\n❮ol❯\n❮li❯A linux distribution is a bunch of human beings that work together to create a dependency tree of software packages. This dependency tree is still convenient in container images\n❮/li❯\n❮li❯There is a TON of knowledge embedded in systemd unit files on how to properly start/stop commonly used daemons\n❮/li❯\n❮li❯Mapping CVEs to packages with meta data is still useful in a container\n❮/li❯\n❮li❯Standardized C libraries like glibc are used by binaries, interpreters like Python, and even virtual machines managers like the JVM\n❮/li❯\n❮li❯Critical libraries like libssl, openssl, and hardware accelerated bridges, are useful to everyone\n❮/li❯\n❮li❯Linux distros are a connection point with gravity which builds community. Community is what solves problems\n❮/li❯\n❮li❯Host and container image portability (glibc actually can take different code paths depending on what hardware is made available by the kernel. Also, glibc has a min/max kernel version that it supports well when compiled)\n❮/li❯\n❮/ol❯\n\n\nRoom: K.3.201\nScheduled start: 2020-02-02 08:00:00"

@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - containers
+    - kubernetes
+title: 'BPF as a revolutionary technology for the container landscape'
+language: English
+recordingDate: 1598771744
+description: "by Daniel Borkmann\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.208/containers_bpf.webm\n\nBPF as a foundational technology in the Linux kernel provides a powerful tool for systems developers and users to dynamically reprogram and customize the kernel to meet their needs in order to solve real-world problems and without having to be a kernel expert. Thanks to BPF we have come to the point to overcome having to carry legacy accumulated over decades of development grounded in a more traditional networking environment that is typically far more static than your average Kubernetes cluster. In the age of containers, they are no longer the best tool for the job, especially in terms of performance, reliability, scalability, and operations. This talk provides a few examples on how BPF allows to rethink container networking based on recent work we did in Cilium. Among others, the audience will learn about running a fully functioning Kubernetes cluster without iptables, Netfilter and thus without kube-proxy in a scalable and secure way with the help of BPF and Cilium.\n\nRoom: UD2.208 (Decroly)\nScheduled start: 2020-02-01 10:20:00"

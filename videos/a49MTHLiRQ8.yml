@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - testing
+title: 'One test output format to unite them all'
+language: English
+recordingDate: 1599548644
+description: "by Boris Feld\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.147/testing_one_test_output_format.webm\n\nSince several years, software quality tools have evolved, CI systems are more and more scalable, there are more testing libraries than ever and they are more mature than ever and we have seen the rise of new tools to improve the quality of code we craft.\n\n\nUnfortunately, most of our CI system still launch a script and check the return code, most of the testing libraries don't allow to select finely which tests to launch and most of CI advanced innovations, parallel running, and remote execution, are not available to developers on their workstation.\n\n\nEach language community has its own set of tools, libraries, and command-line and visual interfaces increasing the effort for developers to learn or learn again how to write, run and debug tests in each language.\n\n\nHow to improve the situation? In this talk, I will present one of my project LITF (https://github.com/Lothiraldan/litf) a new protocol for test running and test output as well as BALTO (https://github.com/lothiraldan/balto), a test orchestrator using this new format. Thanks to this new format, BALTO can execute several test suites in different languages, remotely on a Kubernetes cluster and all in parallel. In any case, this is the goal of the stable version.\n\nRoom: UB2.147\nScheduled start: 2020-02-01 14:00:00"

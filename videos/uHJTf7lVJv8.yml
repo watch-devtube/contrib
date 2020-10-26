@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+title: 'Userspace networking: beyond the kernel bypass with RDMA! Using the RDMA infrastructure for perform…'
+language: English
+recordingDate: 1599375830
+description: "Userspace networking: beyond the kernel bypass with RDMA! Using the RDMA infrastructure for performance while retaining kernel integration\nby Benoît Ganne\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/userspace_networking_how_to_have_your_cake_and_eat_it_too_thanks_to_rdma.webm\n\nWhile userspace networking has demonstrated great performance benefits, it does come with greater complexity than kernel networking.\n\n\nIn parallel, Remote Direct Memory Access (RDMA) was developed as an efficient way to move data in HPC and storage clusters with great success.\n\n\nKey properties of this technology are also highly desirable for userspace networking: native integration with the operating system (OS), OS bypass and a very efficient software interface.\nRDMA-capable network adapters are now enabling standard Ethernet networking functions through the RDMA interface, allowing userspace networking software such as ❮a href=\"https://fd.io\"❯VPP❮/a❯ to achieve extreme performance while integrating transparently with the OS.\n\n\nWe'll present:\n\n\n❮ul❯\n❮li❯the RDMA Ethernet concepts, architecture and interfaces❮/li❯\n❮li❯how VPP leverages it❮/li❯\n❮li❯the problems solved by this architecture and the usecase it enables❮/li❯\n❮/ul❯\n\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-01 16:20:00"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - testing
+title: 'Abusing GitLab CI to Test Kernel Patches'
+language: English
+recordingDate: 1599555931
+description: "by Nikolai Kondrashov\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.147/testing_abusing_gitlabci_test_kernel.webm\n\nSee how Red Hat’s CKI project uses GitLab CI to test kernel patches as soon as they're posted to maillists.\nRed Hat's CKI project uses GitLab CI to organize and track its pipelines, lint, patch, and build Linux kernels, and oversee testing. It also uses a number of supporting systems to discover kernel patches and commits, maintain hardware inventory, provision hardware and VMs, run tests, and finally record and report results.\n\n\nSee which tricks the project is pulling to tie all these parts together, and test patches posted to several maillists, commits to 15+ git repos, builds done by other build systems, as well as weird things like stable kernel patch queue, and parts of its own software stack.\n\n\nMaking such extensive use of a CI system inevitably uncovers its limitations, and a list of these will also be presented along with some possible solutions.\n\nRoom: UB2.147\nScheduled start: 2020-02-01 10:40:00"

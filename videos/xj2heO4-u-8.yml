@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - mobile
+    - security
+    - architecture
+title: 'SCION Future internet that you can use today'
+language: English
+recordingDate: 1598771175
+description: "by Mateusz Kowalski and Kamila Součková\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/Janson/scion.webm\n\nDo you know where your internet traffic flows? Does it go through China even if you don't want it to? SCION is a new internet architecture aimed at solving this problem. We will show how you can easily join the already existing worldwide network.\nThe current Internet was not designed with control and security considerations in mind: incidents such as the hijacking of all traffic for YouTube by a Pakistani ISP in February 2008, the Cloudflare DNS service hijacked by AnchNet in May 2018, or a large chunk of European mobile traffic being rerouted through China in June 2019 show that we cannot quite trust the current Internet. SCION is a proposed future Internet architecture aiming to offer high availability and security, even in the presence of actively malicious network operators and devices.\n\n\nDesigning a new Internet from scratch gives us the opportunity to make it work a lot better: we are aiming to notably improve security, availability, and performance. At the same time, just replacing the Internet would not be feasible, and thus we also emphasise practical concerns, such as incremental deployment and backwards compatibility. Thanks to that, SCION is currently the only clean-slate Internet architecture with a world-wide research network and production deployments in several large institutions in Switzerland; and you can start using it today.\n\n\nIn the first part of this talk, we will drive you through the current state of SCION design and implementation, showing how it provides its important features:\n\n\n❮ul❯\n❮li❯path awareness and path control by end hosts❮/li❯\n❮li❯geofencing and isolation from untrusted actors❮/li❯\n❮li❯scalability❮/li❯\n❮li❯backward compatibility with existing infrastructure and protocols❮/li❯\n❮li❯increased performance by active usage of multiple links❮/li❯\n❮li❯fast rerouting in case of outages in any segment of the network❮/li❯\n❮/ul❯\n\n\nThe world-wide test deployment, SCIONLab, consists of around 50 different points-of-presence around the globe, many of them connected via direct, BGP-free, links. Having many independent organizations belonging to a continually evolving network introduces some non-trivial challenges of managing what you don’t own, which we will also talk about.\n\n\nWe will show a live demo presenting how easy it is today for the end user to join the network and start using the available services. We will also present how taking down a part of the network can look and how SCION prevents a scenario of traffic passing by China or Pakistan.\n\n\nTo close the talk, we will very briefly present the future plans and the direction in which we want the project to evolve.\n\nRoom: Janson\nScheduled start: 2020-02-01 17:00:00"

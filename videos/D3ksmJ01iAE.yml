@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+    - embedded
+title: 'Benchmarking LLVM using Embench'
+language: English
+recordingDate: 1599210274
+description: "by Jeremy Bennett\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/llvm_benchmarking_embench.webm\n\nDhrystone and Coremark have been the defacto standard microcontroller benchmark suites for the last thirty years, but these benchmarks no longer reflect the needs of modern embedded systems. Embench™ was explicitly designed to meet the requirements of modern connected embedded systems. The benchmarks are free, relevant, portable, and well implemented.\n\n\nIn this talk we will present the results of benchmarking Clang/LLVM for various IoT class architectures using Embench. We shall look at\n- how code size and speed varies across architectures when compiling with Clang/LLVM.\n- how Clang/LLVM performance has evolved over time\n- how Clang/LLVM compares against other compilers, notably GCC\n- the effectiveness of various compilation techniques (LTO, Combined Elimination, Profile Guided Optimization)\n\n\nThe aim is not to show which architecture or compiler is best, but to gain insight into the detail of the compilation process, so that all compilers and architectures can learn from each other.\n\nRoom: K.4.201\nScheduled start: 2020-02-01 10:15:00"

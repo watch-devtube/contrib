@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - web
+    - security
+title: 'Incrementality and deck functions Simple protocols and efficient constructions in symmetric cryptog…'
+language: English
+recordingDate: 1599383020
+description: "Incrementality and deck functions Simple protocols and efficient constructions in symmetric cryptography\nby Gilles Van Assche\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/security_incrementality_and_deck_functions.webm\n\nProtocols in symmetric cryptography are often built from block ciphers, with a fixed input and output size, while variable sizes are handled through their modes of use. Incrementality, namely, the ability to efficiently compute the output for increasing inputs, or to request longer outputs, is often a property of the implementation rather than an explicit feature of a mode.\n\n\nA doubly-extendable cryptographic keyed (or deck) function is a new kind of object that makes incrementality an integral part of its definition. Writing modes for various applications, such as authenticated encryption of a network channel or disk encryption with a wide block cipher, on top of a deck function turns out to be a simple exercise and leads to less error-prone implementations than on top of a block cipher. We illustrate this with the session-supporting authenticated encryption modes SANE and SANSE. (Sessions naturally protect a continuous flow of messages or a client-server dialog.)\n\n\nWhile a deck function can be constructed from existing primitives, like a block cipher, we show two more natural ways of making a deck function in practice.\n\n\n❮ul❯\n❮li❯The first one is based on the well-known permutation-based duplex construction, of which a nice instantiation is the ❮a href=\"https://strobe.sourceforge.io/\"❯Strobe protocol framework❮/a❯. Strobe was showcased in ❮a href=\"https://www.discocrypto.com/\"❯Noise+Strobe=Disco❮/a❯ as an advantageous replacement to all kinds of primitives in the ❮a href=\"https://noiseprotocol.org/\"❯Noise protocol framework❮/a❯, resulting in ❮a href=\"https://permutationbasedcrypto.org/2018/slides/David_Wong.pdf\"❯much simpler specifications and a lighter implementation❮/a❯. Xoodyak, our candidate to the NIST Lightweight Cryptography competition, is another example.\n❮/li❯\n❮li❯The second one is based on the recent Farfalle construction, which relies on the parallel application of a permutation. Farfalle's inherent parallelism yields deck functions that are at the same time simple and efficient on a wide range of platforms. In particular, we point out the nice performance of Kravatte and Xoofff, two deck functions based on the Keccak-p and the Xoodoo permutation, respectively. It is worth noting that Kravatte and Xoofff are much faster than AES-128 in software, and at least competitive with and often faster than AES-128 using dedicated AES instructions ❮a href=\"https://keccak.team/sw_performance.html\"❯on the more recent Intel and AMD processors❮/a❯!\n❮/li❯\n❮/ul❯\n\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-01 12:30:00"

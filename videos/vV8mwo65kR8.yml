@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+    - rust
+title: 'Building WebGPU with Rust The new foundation for graphics and compute'
+language: English
+recordingDate: 1599375954
+description: "by Dzmitry Malyshau\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.401/rust_webgpu.webm\n\nWebGPU is a new graphics and compute API designed from the ground up by a W3C community group. It's a successor to WebGL, which also has a chance to become a standard on native platforms. We are going to talk about the API itself as well as our Rust-based implementation \"wgpu\".\nExpected prior knowledge / intended audience: basic familiarity with one of the graphics APIs is good but not required.\nWe'll explain in details how this is different from existing APIs.\n\n\n\"wgpu\" is the native implementation of this API in Rust, running on top of Vulkan, Metal, D3D12, D3D11, and potentially OpenGL.\nThis is a talk about the API architecture being designed as well as our implementation of it.\nWe want to share the experience of leveraging the power of Rust ecosystem and language in order to build this level of abstraction.\nWe'll show a few demos and spread excitement about the new API.\n\n\nThe talk is related to the Fosdem 2018 talk about gfx-rs: the old talk mentioned WebGPU as one of the clients for the low-level abstraction.\n\nRoom: K.3.401\nScheduled start: 2020-02-02 13:20:00"

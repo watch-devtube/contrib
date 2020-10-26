@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - functional
+title: 'Ephemeral Pinning: A Dynamic Metadata Management Strategy for CephFS'
+language: English
+recordingDate: 1599462199
+description: "by Sidharth Anupkrishnan\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/ephemeral_pinning_a_dynamic_metadata_management_strategy_for_cephfs.webm\n\nHaving a separate cluster of Metadata Servers (MDS) is a well known design strategy among distributed file-system architectures.  One challenge faced by this approach is how to distribute metadata among the MDSs. Unlike data storage and it's associated I/O throughput, which can be scaled linearly with the number of storage devices, file-system metadata is a fairly complex entity to scale due to it's hierarchical nature. In hindsight, a pure hashing based metadata distribution strategy seems like a perfect fit. But, this is not exactly the case. What are the pitfalls then? Too many inter-MDS hops (due to POSIX traversal semantics), loss of hierarchical locality degrades file-system performance, and as a result, this is not beneficial for a workload whose directory hierarchy tree grows in depth rather than breadth. CephFS's metadata balancer takes a different approach by partitioning metadata sub-trees across MDSs thereby preserving good locality benefits. Although efficient, this involves a lot of back and forth migrations of sub-trees and the locality benefits are sometimes trumped by sub-optimal distributions.\n\n\nIn this talk, we present a new metadata distribution strategy employed in CephFS - Ephemeral Pinning. This strategy combines the benefits of hashing and naive sub-tree partitioning by intelligently pinning sub-trees to MDSs so as to obtain a balanced distribution as the workload metadata grows by depth and breadth. A consistent hashing based load balancer helps in maintaining an optimal distribution during addition or failure of MDSs.\nThis talk will cover the following key ideas:\n\n\n❮ul❯\n❮li❯How metadata is handled in distributed file systems.❮/li❯\n❮li❯Why it is so important to have an optimal distribution of metadata among Metadata Servers.❮/li❯\n❮li❯The drawbacks and advantages of commonly used and popular metadata distribution strategies.❮/li❯\n❮li❯Ephemeral Pinning - The new metadata distribution strategy employed by CephFS. We will explain the design and implementation of the distribution strategy and delineate it's strong suits.❮/li❯\n❮/ul❯\n\n\nThis talk would be beneficial for every distributed file-system project that handles file metadata separately. They would get an overview on existing metadata distribution strategies - it's pitfall's and benefits and the reason why we at CephFS came up with this approach. The benefit's of using consistent hashing for distributing metadata are also discussed.\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-02 15:25:00"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ux
+    - ruby
+    - java
+title: 'Journalists are researchers like any others'
+language: English
+recordingDate: 1598857483
+description: "by Anne L'Hôte and Bruno Thomas\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.126/open_research_journalists_are_researchers.webm\n\nWe are not journalists. But we are developers working for journalists. When we receive leaks, we are flooded by the huge amount of documents and the huge amount of questions that journalists have, trying to dig into this leak. Among others :\n\n\n❮pre❯❮code❯* Where to begin ?\n* How many documents mention \"tax avoidance\" ?\n* How many languages are in this leaks ?\n* How many documents are in CSV ?\n❮/code❯❮/pre❯\n\nJournalists have more or less the same questions as researchers ! So to help them answer all these questions, we developed Datashare. In a nutshell, Datashare is a tool to answer all your questions about a corpus of documents : just like Google but without Google and without sending information to Google. That means that it extracts content and metadata from all types of documents and index it. Then, it detects any people, locations, organizations and email addresses. The web interface expose all of that to let you have a complete overview of your corpus and search through it. Plus Datashare lets you star and tag documents.\n\n\nWe didn't want to reinvent the wheel, and use assets that has been proved to work well. How did we end up with Datashare from an heterogeneous environment ? Initially we had :\n\n\n❮pre❯❮code❯- a command line tool to extract text from huge document corpus\n- a proof of concept of NLP pipelines in java\n- a shared index based on blacklight / RoR and SolR\n- opensource tools and frameworks\n❮/code❯❮/pre❯\n\nIssues we had to fix :\n\n\n❮pre❯❮code❯- UX\n- scalability of SolR with millions of documents\n- integration of all the tools in one\n- maintainability and robustness while increasing code base\n❮/code❯❮/pre❯\n\nRoom: AW1.126\nScheduled start: 2020-02-01 15:00:00"
