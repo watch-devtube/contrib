@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'HotStorage ''20 - CompoundFS: Compounding I/O Operations in Firmware File Systems'
+language: English
+recordingDate: 1598654783
+description: "CompoundFS: Compounding I/O Operations in Firmware File Systems\n\nYujie Ren, Rutgers University; Jian Zhang, ShanghaiTech University; Sudarsun Kannan, Rutgers University\n\nWe introduce CompoundFS, a firmware-level file system that combines multiple filesystem I/O operations into a single compound operation to reduce software overheads. The overheads include frequent interaction (e.g., system calls), data copy, and the VFS overheads between user-level application and the storage stack. Further, to exploit the compute capability of modern storage, CompoundFS also provides a capability to offload simple I/O data processing operations to the device-level CPUs, which further provides an opportunity to reduce interaction with the filesystem, move data, and free-up host CPU for other operations. Preliminary evaluation of CompoundFS against the state-of-the-art user-level, kernel-level, and firmware-level file systems using microbenchmarks and a real-world application shows up to 178% and 75% performance gains, respectively.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

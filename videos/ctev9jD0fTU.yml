@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'USENIX ATC ''20 - SplinterDB: Closing the Bandwidth Gap for NVMe Key-Value Stores'
+language: English
+recordingDate: 1598655090
+description: "SplinterDB: Closing the Bandwidth Gap for NVMe Key-Value Stores\n\nAlexander Conway, Rutgers University and Vmware Research; Abhishek Gupta, DropBox; Vijay Chidambaram, University of Texas at Austin and VMware Research; Martin Farach-Colton, Rutgers University; Richard Spillane, VMware; Amy Tai and Rob Johnson, VMware Research\n\nModern NVMe solid state drives offer significantly higher bandwidth and low latency than prior storage devices. Current key-value stores struggle to fully utilize the bandwidth of such devices. This paper presents SplinterDB, a new key-value store explicitly designed for NVMe solid state drives.\n\nSplinterDB is designed around a novel data structure (the STBε-tree), that exposes I/O and CPU concurrency and reduces write amplification without sacrificing query performance. STBε-tree combines ideas from log-structured merge trees and Bε-trees to reduce write amplification and CPU costs of compaction. The SplinterDB memtable and cache are designed to be highly concurrent and to reduce cache misses.\n\nWe evaluate SplinterDB on a number of micro- and macro-benchmarks, and show that SplinterDB outperforms RocksDB, a state-of-the-art key-value store, by a factor of 6–10x on insertions and 2–2.6x on point queries, while matching RocksDB on small range queries. Furthermore, SplinterDB reduces write amplification by 2x compared to RocksDB.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

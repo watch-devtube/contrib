@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - redis
+    - cassandra
+    - performance
+    - cloud
+title: 'USENIX ATC ''20 - OPTIMUSCLOUD: Heterogeneous Configuration Optimization for Distributed Databases'
+language: English
+recordingDate: 1598655483
+description: "OPTIMUSCLOUD: Heterogeneous Configuration Optimization for Distributed Databases in the Cloud\n\nAshraf Mahgoub and Alexander Michaelson Medoff, Purdue University; Rakesh Kumar, Microsoft; Subrata Mitra, Adobe Research; Ana Klimovic, Google Research; Somali Chaterji and Saurabh Bagchi, Purdue University\n\nAchieving cost and performance efficiency for cloud-hosted databases requires exploring a large configuration space, including the parameters exposed by the database along with the variety of VM configurations available in the cloud. Even small deviations from an optimal configuration have significant consequences on performance and cost. Existing systems that automate cloud deployment configuration can select near-optimal instance types for homogeneous clusters of virtual machines and for stateless, recurrent data analytics workloads. We show that to find optimal performance-per-$ cloud deployments for NoSQL database applications, it is important to (1) consider heterogeneous cluster configurations, (2) jointly optimize database and VM configurations, and (3) dynamically adjust configuration as workload behavior changes. We present OPTIMUSCLOUD, an online reconfiguration system that can efficiently perform such joint and heterogeneous configuration for dynamic workloads. We evaluate our system with two clustered NoSQL systems: Cassandra and Redis, using three representative workloads and show that OPTIMUSCLOUD provides 40% higher throughput/$ and 4.5× lower 99-percentile latency on average compared to state-of-the-art prior systems, CherryPick, Selecta, and SOPHIA.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

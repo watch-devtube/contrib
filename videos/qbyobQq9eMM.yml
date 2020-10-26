@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'USENIX ATC ''20 - Efficient Miss Ratio Curve Computation for Heterogeneous Content Popularity'
+language: English
+recordingDate: 1598655193
+description: "Efficient Miss Ratio Curve Computation for Heterogeneous Content Popularity\n\nDamiano Carra, University of Verona, Italy; Giovanni Neglia, Inria, Université Côte d’Azur, France\n\nThe Miss Ratio Curve (MRC) represents a fundamental tool for cache performance profiling. Approximate methods based on sampling provide a low-complexity solution for MRC construction. Nevertheless, in this paper we show that, in case of content with a large variance in popularity, the approximate MRC may be highly sensitive to the set of sampled content. We study in detail the impact of content popularity heterogeneity on the accuracy of the approximate MRC. We observe that few, highly popular, items may cause large error at the head of the reconstructed MRC. From these observations, we design a new approach for building an approximate MRC, where we combine an exact portion of the MRC with an approximate one built from samples. Results for different real-world traces show that our algorithm computes MRC with an error up to 10 times smaller than state-of-the-art methods based on sampling, with similar computational and space overhead.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

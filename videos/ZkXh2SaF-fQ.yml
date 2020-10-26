@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'HotCloud ''20 - Rethinking Isolation Mechanisms for Datacenter Multitenancy'
+language: English
+recordingDate: 1598654786
+description: "Rethinking Isolation Mechanisms for Datacenter Multitenancy\n\nVarun Gandhi and James Mickens, Harvard University\n\nIn theory, trusted execution environments like SGX are promising approaches for isolating datacenter tenants. In practice, the associated hardware primitives suffer from three major problems: side channels induced by microarchitectural co-tenancy; weak guarantees for post-load software integrity; and opaque hardware implementations which prevent third-party security auditing. We explain why these limitations are so problematic for datacenters, and then propose a new approach for trusted execution. This approach, called IME (Isolated Monitor Execution) provides SGX-style memory encryption, but strictly prevents microarchitectural co-tenancy of secure and insecure code. IME also uses a separate, microarchitecturally-isolated pipeline to run dynamic security checks on monitored code, enabling post-load monitoring for security invariants like CFI or type safety. Finally, an IME processor exports a machine-readable description of its microarchitectural implementation, allowing tenants to reason about the security properties of a particular IME instance.\n\nView the full HotCloud '20 program at https://www.usenix.org/conference/hotcloud20/workshop-program"

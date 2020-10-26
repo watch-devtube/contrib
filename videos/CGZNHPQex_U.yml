@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'HotStorage ''20 - SplitKV: Splitting IO Paths for Different Sized Key-Value Items with Advanced'
+language: English
+recordingDate: 1598654708
+description: "SplitKV: Splitting IO Paths for Different Sized Key-Value Items with Advanced Storage Devices\n\nShukai Han, Dejun Jiang, and Jin Xiong, SKL Computer Architecture, ICT, CAS, University of Chinese Academy of Science\n\nModern advanced storage devices, such as modern NVMe SSD and non-volatile memory based persistent memory (PM), provide different access features when data size varies. Existing key-value stores adopt unified IO path for all key-value items, which cannot fully exploit the advantages of different advanced storage devices. In this paper, we propose to split IO paths for different sized key-value items. We let small key-value items be written directly to PM and then migrated to SSD. Meanwhile, large key-value items are directly written to SSD. We present and discuss design choices towards challenging issues of splitting IO paths. We build SplitKV, a key-value store prototype to show the benefits of splitting IO paths. The preliminary results show SplitKV outperforms RocksDB, KVell, and NoveLSM under small large KV mixed workloads.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

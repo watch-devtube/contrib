@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'USENIX ATC ''20 - PinK: High-speed In-storage Key-value Store with Bounded Tails'
+language: English
+recordingDate: 1598655296
+description: "PinK: High-speed In-storage Key-value Store with Bounded Tails\n\nJunsu Im and Jinwook Bae, DGIST; Chanwoo Chung and Arvind, Massachusetts Institute of Technology; Sungjin Lee, DGIST\nAwarded Best Paper!\n\nKey-value store based on a log-structured merge-tree (LSM-tree) is preferable to hash-based KV store because an LSM-tree can support a wider variety of operations and show better performance, especially for writes. However, LSM-tree is difficult to implement in the resource constrained environment of a key-value SSD (KV-SSD) and consequently, KV-SSDs typically use hash-based schemes. We present PinK, a design and implementation of an LSM-tree-based KV-SSD, which compared to a hash-based KV-SSD, reduces 99th percentile tail latency by 73%, improves average read latency by 42% and shows 37% higher throughput. The key idea in improving the performance of an LSM-tree in a resource constrained environment is to avoid the use of Bloom filters and instead, use a small amount of DRAM to keep/pin the top levels of the LSM-tree.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

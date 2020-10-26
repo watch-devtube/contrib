@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+title: 'USENIX ATC ''20 - Fewer Cores, More Hertz: Leveraging High-Frequency Cores in the OS Scheduler for'
+language: English
+recordingDate: 1598655141
+description: "Fewer Cores, More Hertz: Leveraging High-Frequency Cores in the OS Scheduler for Improved Application Performance\n\nRedha Gouicem and Damien Carver, Sorbonne University, LIP6, Inria; Jean-Pierre Lozi, Oracle Labs; Julien Sopena, Sorbonne University, LIP6, Inria; Baptiste Lepers and Willy Zwaenepoel, University of Sydney; Nicolas Palix, Université Grenoble Alpes; Julia Lawall and Gilles Muller, Inria, Sorbonne University, LIP6\n\nIn modern server CPUs, individual cores can run at different frequencies, which allows for fine-grained control of the performance/energy tradeoff. Adjusting the frequency, however, incurs a high latency. We find that this can lead to a problem of frequency inversion, whereby the Linux scheduler places a newly active thread on an idle core that takes dozens to hundreds of milliseconds to reach a high frequency, just before another core already running at a high frequency becomes idle.\n\nIn this paper, we first illustrate the significant performance overhead of repeated frequency inversion through a case study of scheduler behavior during the compilation of the Linux kernel on an 80-core Intel Xeon-based machine. Following this, we propose two strategies to reduce the likelihood of frequency inversion in the Linux scheduler. When benchmarked over 60 diverse applications on the Intel Xeon, the better performing strategy, Smove, improves performance by more than 5% (at most 56% with no energy overhead) for 23 applications, and worsens performance by more than 5% (at most 8%) for only 3 applications. On a 4-core AMD Ryzen we obtain performance improvements up to 56%.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'USENIX ATC ''20 - Scaph: Scalable GPU-Accelerated Graph Processing with Value-Driven Differential...'
+language: English
+recordingDate: 1598655349
+description: "Scaph: Scalable GPU-Accelerated Graph Processing with Value-Driven Differential Scheduling\n\nLong Zheng, Xianliang Li, Yaohui Zheng, Yu Huang, Xiaofei Liao, and Hai Jin, Huazhong University of Science and Technology; Jingling Xue, UNSW Sydney; Zhiyuan Shao and Qiang-Sheng Hua, Huazhong University of Science and Technology\n\nWe introduce Scaph, a GPU-accelerated graph system that achieves scale-up graph processing on large-scale graphs that are initially partitioned into subgraphs at the host to enable iterative graph computations on the sub-graphs on the GPU. For active subgraphs to be processed on GPU at an iteration, the prior work always streams each in its entirety to GPU, even though only the neighboring information for its active vertices will ever be used. In contrast, Scaph boosts performance significantly by reducing the amount of such redundant data transferred, thereby improving drastically the effective utilization of the host-GPU bandwidth. The key novelty of Scaph is to classify adaptively at each iteration whether a subgraph is a high-value subgraph (if it is likely to be traversed extensively in the current and future iterations) or a low-value subgraph (otherwise). Scaph then schedules a sub-graph for graph processing on GPU using two graph processing engines, one for high-value subgraphs, which will be streamed to GPU entirely and iterated over repeatedly, one for low-value subgraphs, for which only the neighboring information needed for its active vertices is transferred. Evaluation on real-world and synthesized large-scale graphs shows that Scaph outperforms the state-of-the-art, Totem (4.12×), Graphie (8.93×) and Garaph (3.71×), on average.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

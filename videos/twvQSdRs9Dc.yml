@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - cloud
+title: 'HotCloud ''20 - Spotnik: Designing Distributed Machine Learning for Transient Cloud Resources'
+language: English
+recordingDate: 1598654800
+description: "Spotnik: Designing Distributed Machine Learning for Transient Cloud Resources\n\nMarcel Wagenländer, Luo Mai, Guo Li, and Peter Pietzuch, Imperial College London\n\nTo achieve higher utilisation, cloud providers offer VMs with GPUs as lower-cost transient cloud resources. Transient VMs can be revoked at short notice and vary in their availability. This poses challenges to distributed machine learning (ML) jobs, which perform long-running stateful computation in which many workers maintain and synchronise model replicas. With transient VMs, existing systems either require a fixed number of reserved VMs or degrade performance when recovering from revoked transient VMs.\n\nWe believe that future distributed ML systems must be designed from the ground up for transient cloud resources. This paper describes SPOTNIK, a system for training ML models that features a more adaptive design to accommodate transient VMs: (i) SPOTNIK uses an adaptive implementation of the all-reduce collective communication operation. As workers on transient VMs are revoked, SPOTNIK updates its membership and uses the all-reduce ring to recover; and (ii) SPOTNIK supports the adaptation of the synchronisation strategy between workers. This allows a training job to switch between different strategies in response to the revocation of transient VMs. Our experiments show that, after VM revocation, SPOTNIK recovers training within 300 ms for ResNet/ImageNet.\n\nView the full HotCloud '20 program at https://www.usenix.org/conference/hotcloud20/workshop-program"

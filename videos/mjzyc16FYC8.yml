@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - embedded
+title: 'HotCloud ''20 - Resource Efficient Stream Processing Platform with Latency-Aware Scheduling'
+language: English
+recordingDate: 1598655080
+description: "Resource Efficient Stream Processing Platform with Latency-Aware Scheduling Algorithms\n\nYuta Morisawa, Masaki Suzuki, and Takeshi Kitahara, KDDI Research, Inc.\n\nWe presented a novel platform dedicated to stream processing that improved resource efficiency by sharing resources among applications. The platform utilized latency-aware schedulers to handle stream applications with heterogeneous SLAs and workloads. We implemented the prototype in Spark Structured Streaming and evaluated the platform with pseudo IoT services. The result showed that our platform outperformed default Spark Structured Streaming while reducing the necessary CPU cores by 36%. We further compared the adaptability of the schedulers and found that one of the schedulers reduced the SLA violations by 90% compared to the default FAIR when the platform was overloaded.\n\nView the full HotCloud '20 program at https://www.usenix.org/conference/hotcloud20/workshop-program"

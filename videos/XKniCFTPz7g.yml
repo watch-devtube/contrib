@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - lisp
+title: 'HotStorage ''20 - Neural Trees: Using Neural Networks as an Alternative to Binary Comparison in'
+language: English
+recordingDate: 1598654749
+description: "Neural Trees: Using Neural Networks as an Alternative to Binary Comparison in Classical Search Trees\n\nDouglas Santry, NetApp\n\nBinary comparison, the basis of the venerable B Tree, is per-haps the most successful operator for indexing data on sec-ondary storage. We introduce a different technique, called Neural Trees, that is based on neural networks. Neural Trees increase the fan-out per byte of a search tree by up to 40% compared to B Trees. Increasing fan-out reduces memory demands and leads to increased cacheability while decreasing height and media accesses. A Neural Tree also permits search path layout policies that divorce a key’s value from its physi-cal location in a data structure. This is an advantage over the total ordering required by binary comparison, which totally determines the physical location of keys in a tree. Previous attempts to apply machine learning to indices are based on learning the data directly, which renders insertion too expen-sive to be supported. The Neural Tree is a hybrid scheme using a hierarchy (tree) of small neural networks to learn search paths instead of the data directly. Neural Trees can efficiently handle a general read/write workload. We evaluate Neural Trees with weeks of traces from production storage traces and SPC1 workloads to demonstrate their viability.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

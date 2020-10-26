@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+title: 'USENIX ATC ''20 -  NetKernel: Making Network Stack Part of the Virtualized Infrastructure'
+language: English
+recordingDate: 1598655396
+description: "NetKernel: Making Network Stack Part of the Virtualized Infrastructure\n\nZhixiong Niu, Microsoft Research; Hong Xu, City University of Hong Kong; Peng Cheng, Microsoft Research; Qiang Su, City University of Hong Kong; Yongqiang Xiong, Microsoft Research; Tao Wang, New York University; Dongsu Han, KAIST; Keith Winstein, Stanford University\n\nThis paper presents a system called NetKernel that decouples the network stack from the guest virtual machine and offers it as an independent module. NetKernel represents a new paradigm where network stack can be managed as part of the virtualized infrastructure. It provides important efficiency benefits: By gaining control and visibility of the network stack, operator can perform network management more directly and flexibly, such as multiplexing VMs running different applications to the same network stack module to save CPU. Users also benefit from the simplified stack deployment and better performance. For example mTCP can be deployed without API change to support nginx natively, and shared memory networking can be readily enabled to improve performance of colocated VMs. Testbed evaluation using 100G NICs shows that NetKernel preserves the performance and scalability of both kernel and userspace network stacks, and provides the same isolation as the current architecture.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

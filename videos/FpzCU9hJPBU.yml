@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - performance
+    - security
+title: 'HotCloud ''20 - Securing RDMA for High-Performance Datacenter Storage Systems'
+language: English
+recordingDate: 1598655265
+description: "Securing RDMA for High-Performance Datacenter Storage Systems\n\nAnna Kornfeld Simpson and Adriana Szekeres, University of Washington; Jacob Nelson and Irene Zhang, Microsoft Research\n\nRDMA is increasingly popular for low-latency communication in datacenters, marking a major change in how we build distributed systems. Unfortunately, as we pursue significant system re-designs inspired by new technology, we have not given equal thought to the consequences for system security.This paper investigates security issues introduced to datacenter systems by switching to RDMA and challenges in building secure RDMA systems. These challenges include changes in RPC reliability guarantees and unauditable data-accesses. We show how RDMA’s design makes it challenging to build secure storage systems by analyzing recent research systems; then we outline several directions for solutions and future research, with the goal of securing RDMA datacenter systems while they are still in the research and prototype stages.\n\nView the full HotCloud '20 program at https://www.usenix.org/conference/hotcloud20/workshop-program"

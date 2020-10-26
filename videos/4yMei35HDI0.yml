@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'HotStorage ''20 - A file system for safely interacting with untrusted USB flash drives'
+language: English
+recordingDate: 1598654729
+description: "A file system for safely interacting with untrusted USB flash drives\n\nKe Zhong, University of Pennsylvania; Zhihao Jiang and Ke Ma, Shanghai Jiao Tong University; Sebastian Angel, University of Pennsylvania\n\nThis paper introduces RBFuse, a system for interacting with USB flash drives safely in commodity OSes while bypassing the complex and bug-prone USB stack on the host. RBFuse prevents attacks in which malicious USB flash drives exploit low-level USB driver vulnerabilities to compromise the host machine. The simple idea behind RBFuse is to remap the USB stack to a virtual machine and export the flash drive’s file system as a mountable virtual file system. The result of this decomposition is that the host can access all the files in the flash drive without speaking USB. This is beneficial from a security standpoint, since the VFS interface is small, has well-defined semantics, and can be formally verified. RBFuse requires no hardware modifications and introduces low overhead.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

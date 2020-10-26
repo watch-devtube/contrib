@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - cloud
+title: 'HotCloud ''20 - On the Impact of Isolation Costs on Locality-aware Cloud Scheduling'
+language: English
+recordingDate: 1598655009
+description: "On the Impact of Isolation Costs on Locality-aware Cloud Scheduling\n\nAnkit Bhardwaj, Meghana Gupta, and Ryan Stutsman, University of Utah\n\nServerless applications create an opportunity for more granular scheduling across machines in cloud platforms that can improve efficiency, especially if functions can be run within storage services to eliminate data movement. However, embedding code within storage services creates code isolation overheads that offset some of those savings. We argue for a new approach to serverless function scheduling that can look within serverless applications' functions, profile their data movement and networking costs, and model the impact of different code placement and isolation schemes for those costs. Beyond improvements in efficiency, such an approach would fuel innovation in cloud isolation schemes and programming abstractions, since a scheduler with a modular cost modeling approach could incorporate new schemes and automatically use them to improve efficiency for pre-existing applications.\n\nView the full HotCloud '20 program at https://www.usenix.org/conference/hotcloud20/workshop-program"

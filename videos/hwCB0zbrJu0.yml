@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - containers
+    - docker
+    - architecture
+title: 'USENIX ATC ''20 - DupHunter: Flexible High-Performance Deduplication for Docker Registries'
+language: English
+recordingDate: 1598655279
+description: "DupHunter: Flexible High-Performance Deduplication for Docker Registries\n\nNannan Zhao, Hadeel Albahar, Subil Abraham, and Keren Chen, Virginia Tech; Vasily Tarasov, Dimitrios Skourtis, Lukas Rupprecht, and Ali Anwar, IBM Research—Almaden; Ali R. Butt, Virginia Tech\n\nContainers are increasingly used in a broad spectrum of applications from cloud services to storage to supporting emerging edge computing paradigm. This has led to an explosive proliferation of container images. The associated storage performance and capacity requirements place high pressure on the infrastructure of registries, which store and serve images. Exploiting the high file redundancy in real-world images is a promising approach to drastically reduce the severe storage requirements of the growing registries. However, existing deduplication techniques largely degrade the performance of registry because of layer restore overhead. In this paper, we propose DupHunter, a new Docker registry architecture, which not only natively deduplicates layer for space savings but also reduces layer restore overhead. DupHunter supports several configurable deduplication modes , which provide different levels of storage efficiency, durability, and performance, to support a range of uses. To mitigate the negative impact of deduplication on the image download times, DupHunter introduces a two-tier storage hierarchy with a novel layer prefetch/preconstruct cache algorithm based on user access patterns. Under real workloads, in the highest data reduction mode, DupHunter reduces storage space by up to 6.9x compared to the current implementations. In the highest performance mode, DupHunter can reduce the GET layer latency up to 2.8x compared to the state-of-the-art.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

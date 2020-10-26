@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+title: 'USENIX ATC ''20 - Optimizing Memory-mapped I/O for Fast Storage Devices'
+language: English
+recordingDate: 1598655269
+description: "Optimizing Memory-mapped I/O for Fast Storage Devices\n\nAnastasios Papagiannis, Giorgos Xanthakis, Giorgos Saloustros, Manolis Marazakis, and Angelos Bilas, FORTH-ICS\n\nMemory-mapped I/O provides several potential advantages over explicit read/write I/O, especially for low latency devices: (1) It does not require a system call, (2) it incurs almost zero overhead for data in memory (I/O cache hits), and (3) it removes copies between kernel and user space. However, the Linux memory-mapped I/O path suffers from several scalability limitations. We show that the performance of Linux memory-mapped I/O does not scale beyond 8 threads on a 32-core server. To overcome these limitations, we propose FastMap, an alternative design for the memory-mapped I/O path in Linux that provides scalable access to fast storage devices in multi-core servers, by reducing synchronization overhead in the common path. FastMap also increases device queue depth, an important factor to achieve peak device throughput. Our experimental analysis shows that FastMap scales up to 80 cores and provides up to 11.8× more IOPS compared to mmap using null_blk. Additionally, it provides up to 5.27× higher throughput using an Optane SSD. We also show that FastMap is able to saturate state-of-the-art fast storage devices when used by a large number of cores, where Linux mmap fails to scale.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

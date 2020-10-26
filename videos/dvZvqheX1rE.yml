@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'USENIX ATC ''20 - GraphWalker: An I/O-Efficient and Resource-Friendly Graph Analytic System...'
+language: English
+recordingDate: 1598655055
+description: "GraphWalker: An I/O-Efficient and Resource-Friendly Graph Analytic System for Fast and Scalable Random Walks\n\nRui Wang and Yongkun Li, University of Science and Technology of China; Hong Xie, Chongqing University; Yinlong Xu, University of Science and Technology of China; John C. S. Lui, The Chinese University of Hong Kong\n\nTraditional graph systems mainly use the iteration-based model which iteratively loads graph blocks into memory for analysis so as to reduce random I/Os. However, this iterationbased model limits the efficiency and scalability of running random walk, which is a fundamental technique to analyze large graphs. In this paper, we propose GraphWalker, an I/O-efficient graph system for random walks by deploying a novel state-aware I/O model with asynchronous walk updating. GraphWalker is efficient to handle very large diskresident graphs consisting of hundreds of billions of edges with only a single commodity machine, and it is also scalable to run tens of billions of random walks with thousands of steps long. Experiments on our prototype system show that GraphWalker can achieve more than an order of magnitude speedup when running a large amount of long random walks when compared with DrunkardMob, which is tailored for random walk based on the classical system GraphChi, as well as two state-of-the-art single-machine graph systems, Graphene and GraFSoft. Furthermore, comparing with the most recent distributed system KnightKing, which optimizes for random walks and runs on cluster machines, GraphWalker achieves comparable performance with only a single machine, thereby making it a more cost-effective alternative.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - testing
+title: 'HotStorage ''20 - It''s Time to Revisit LRU vs. FIFO'
+language: English
+recordingDate: 1598654720
+description: "It's Time to Revisit LRU vs. FIFO\n\nOhad Eytan, Danny Harnik, and Effi Ofer, IBM Research; Roy Friedman, Technion; Ronen Kat, IBM Research\n\nWe revisit the question of the effectiveness of the popular LRU cache eviction policy versus the FIFO heuristic which attempts to give an LRU like behavior. Several past works have considered this question and commonly stipulated that while FIFO is much easier to implement, the improved hit ratio of LRU outweighs this. We claim that two main trends call for a reevaluation: new caches such as front-ends to cloud storage have very large scales and this makes managing cache metadata in RAM no longer feasible; and new workloads have emerged that possess different characteristics.\n\nWe model the overall cost of running LRU and FIFO in a very large scale cache and evaluate this cost using a number of publicly available traces. Our main evaluation workload is a new set of traces that we collected from a large public cloud object storage service and on this new trace FIFO exhibits better overall cost than LRU. We hope that these observations reignite the evaluation of cache eviction policies under new circumstances and that the new traces, that we intend to make public, serve as a testing ground for such work.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - containers
+title: 'HotCloud ''20 - AI4DL: Mining Behaviors of Deep Learning Workloads for Resource Management'
+language: English
+recordingDate: 1598655209
+description: "AI4DL: Mining Behaviors of Deep Learning Workloads for Resource Management\n\nJosep L. Berral, Barcelona Supercomputing Center, Universitat Politecnica de Catalunya; Chen Wang and Alaa Youssef, IBM Research\n\nThe more we know about the resource usage patterns of workloads, the better we can allocate resources. Here we present a methodology to discover resource usage behaviors for the training workloads of Deep Learning (DL) models. From monitoring, we can observe repeating patterns and similitude of resource usage among containers running the training workloads of different DL models. The repeating patterns observed can be leveraged by the scheduler or the resource autoscaler to reduce resource fragmentation and overall resource utilization in a dedicated DL cluster. Specifically, our approach combines Conditional Restricted Boltzmann Machines (CRBMs) and clustering techniques to discover common sequences of behaviors (phases) of containers running the model training workloads in clusters providing IBM Deep Learning Services. By studying the resource usage pattern at each phase and the typical sequences of phases among different containers, we can discover a reduced set of prototypical executions representing most executions. We use statistical information from each phase to refine resource provisioning by dynamically tuning the amount of resource each container requires at each phase of its execution. Evaluation of our method shows that container resource usage displays typical patterns that can help reduce CPU and Memory consumption by 30% relative to reactive policies, which is close to having \\emph{a-priori} knowledge of resource usage while fulfilling resource demand over 95% of the time.\n\nView the full HotCloud '20 program at https://www.usenix.org/conference/hotcloud20/workshop-program"

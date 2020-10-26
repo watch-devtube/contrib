@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - functional
+title: 'USENIX ATC ''20 - Adaptive Placement for In-memory Storage Functions'
+language: English
+recordingDate: 1598655261
+description: "Adaptive Placement for In-memory Storage Functions\n\nAnkit Bhardwaj, Chinmay Kulkarni, and Ryan Stutsman, University of Utah\n\nFast networks and the desire for high resource utilization in data centers and the cloud have driven disaggregation. Application compute is separated from storage, but this leads to high overheads when data must move over the network for simple operations on it. Alternatively, systems could allow applications to run application logic within storage via user-defined functions. Unfortunately, this ties provisioning and utilization of storage and compute resources together again.\n\nWe present a new approach to executing storage-level functions in an in-memory key-value store that avoids this problem by dynamically deciding where to execute functions over data. Users write storage functions that are logically decoupled from storage, but storage servers choose where to run invocations of these functions physically. By using a server-internal cost model and observing function execution, servers choose to directly run inexpensive functions, while preferring to execute functions with high CPU-cost at client machines.\n\nWe show that with this approach storage servers can reduce network request processing costs, avoid server compute bottlenecks, and improve aggregate storage system throughput. We realize our approach on an in-memory key-value store that executes 3.2 million strict serializable user-defined storage functions per second with 100 us response times. When running a mix of logic from different applications, it provides throughput better than running that logic purely at storage servers (85% more) or purely at clients (10% more). For our workloads, it also reduces latency (up to 2x) and transactional aborts (up to 33%) over pure client-side execution.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

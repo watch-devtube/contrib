@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+    - aws
+title: 'USENIX ATC ''20 - Peregreen – modular database for efficient storage of historical time series...'
+language: English
+recordingDate: 1598655150
+description: "Peregreen – modular database for efficient storage of historical time series in cloud environments\n\nAlexander Visheratin, Alexey Struckov, Semen Yufa, Alexey Muratov, Denis Nasonov, and Nikolay Butakov, ITMO University; Yury Kuznetsov and Michael May, Siemens\n\nThe rapid development of scientific and industrial areas, which rely on time series data processing, raises the demand for storage that would be able to process tens and hundreds of terabytes of data efficiently. And by efficiency, one should understand not only the speed of data processing operations execution but also the volume of the data stored and operational costs when deploying the storage in a production environment such as the cloud. In this paper, we propose a concept for storing and indexing numerical time series that allows creating compact data representations optimized for cloud storages and perform typical operations - uploading, extracting, sampling, statistical aggregations, and – at high speed. Our modular database that implements the proposed approach – Peregreen – can achieve a throughput of 3 million entries per second for uploading and 48 million entries per second for extraction in Amazon EC2 while having only Amazon S3 as backend storage for all the data.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - embedded
+title: 'USENIX ATC ''20 - PERCIVAL: Making In-Browser Perceptual Ad Blocking Practical with Deep Learning'
+language: English
+recordingDate: 1598655035
+description: "PERCIVAL: Making In-Browser Perceptual Ad Blocking Practical with Deep Learning\n\nZainul Abi Din, UC Davis; Panagiotis Tigas, University of Oxford; Samuel T. King, UC Davis, Bouncer Technologies; Benjamin Livshits, Brave Software, Imperial College London\n\nIn this paper we present PERCIVAL, a browser-embedded, lightweight, deep learning-powered ad blocker. PERCIVAL embeds itself within the browser’s image rendering pipeline, which makes it possible to intercept every image obtained during page execution and to perform image classification based blocking to flag potential ads. Our implementation inside both Chromium and Brave browsers shows only a minor rendering performance overhead of 4.55%, for Chromium, and 19.07%, for Brave browser, demonstrating the feasibility of deploying traditionally heavy models (i.e. deep neural networks) inside the critical path of the rendering engine of a browser. We show that our image-based ad blocker can replicate EasyList rules with an accuracy of 96.76%. Additionally, PERCIVAL does surprisingly well on ads in languages other than English and also performs well on blocking first-party Facebook ads, which have presented issues for rule-based ad blockers. PERCIVAL proves that image-based perceptual ad blocking is an attractive complement to today’s dominant approach of block lists.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

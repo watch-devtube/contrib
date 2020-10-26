@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - cloud
+title: 'HotCloud ''20 - Towards GPU Utilization Prediction for Cloud Deep Learning'
+language: English
+recordingDate: 1598655111
+description: "Towards GPU Utilization Prediction for Cloud Deep Learning\n\nGingfung Yeung, Damian Borowiec, Adrian Friday, Richard Harper, and Peter Garraghan, Lancaster University\n\nUnderstanding the GPU utilization of Deep Learning (DL) workloads is important for enhancing resource-efficiency and cost-benefit decision making for DL frameworks in the cloud. Current approaches to determine DL workload GPU utilization rely on online profiling within isolated GPU devices, and must be performed for every unique DL workload submission resulting in resource under-utilization and reduced service availability. In this paper, we propose a prediction engine to proactively determine the GPU utilization of heterogeneous DL workloads without the need for in-depth or isolated online profiling. We demonstrate that it is possible to predict DL workload GPU utilization via extracting information from its model computation graph. Our experiments show that the prediction engine achieves an RMSLE of 0.154, and can be exploited by DL schedulers to achieve up to 61.5% improvement to GPU cluster utilization.\n\nView the full HotCloud '20 program at https://www.usenix.org/conference/hotcloud20/workshop-program"

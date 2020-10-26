@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - redis
+title: 'USENIX ATC ''20 - go-pmem: Native Support for Programming Persistent Memory in Go'
+language: English
+recordingDate: 1598655016
+description: "go-pmem: Native Support for Programming Persistent Memory in Go\n\nJerrin Shaji George, Mohit Verma, Rajesh Venkatasubramanian, and Pratap Subrahmanyam, VMware\n\nPersistent memory offers persistence and byte-level addressability at DRAM-like speed. Operating system support and some user-level library support for persistent memory programming has emerged. But we think lack of native programming language support is an impediment to a programmer’s productivity.\n\nThis paper contributes go-pmem, an open-source extension to the Go language compiler and runtime that natively supports programming persistent memory. go-pmem extends Go to introduce a runtime garbage collected persistent heap. Often persistent data needs to be updated in a transactional (i.e., crash consistent) manner. To express transaction boundaries, go-pmem introduces a new txn block which can include most Go statements and function calls. go-pmem compiler uses static type analysis to log persistent updates and avoid logging volatile variable updates whenever possible.\n\nTo guide our design and validate our work, we developed a feature-poor Redis server go-redis-pmem using go-pmem. We show that go-redis-pmem offers more than 5x throughput than unmodified Redis using a high-end NVMe SSD on memtier benchmark and can restart up to 20x faster than unmodified Redis after a crash. In addition, using compiler microbenchmarks, we show go-pmem’s persistent memory allocator performs up to 40x better and transactions up to 4x faster than commercial libraries like PMDK and previous work like Mnemosyne.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"
