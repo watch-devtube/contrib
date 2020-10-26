@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - testing
+title: 'USENIX Security ''20 - AURORA: Statistical Crash Analysis for Automated Root Cause Explanation'
+language: English
+recordingDate: 1600121633
+description: "AURORA: Statistical Crash Analysis for Automated Root Cause Explanation\n\nTim Blazytko, Moritz Schlögel, Cornelius Aschermann, Ali Abbasi, Joel Frank, Simon Wörner, and Thorsten Holz, Ruhr-Universität Bochum\n \nGiven the huge success of automated software testing techniques, a large amount of crashes is found in practice. Identifying the root cause of a crash is a time-intensive endeavor, causing a disproportion between finding a crash and fixing the underlying software fault. To address this problem, various approaches have been proposed that rely on techniques such as reverse execution and backward taint analysis. Still, these techniques are either limited to certain fault types or provide an analyst with assembly instructions, but no context information or explanation of the underlying fault.\n\nIn this paper, we propose an automated analysis approach that does not only identify the root cause of a given crashing input for a binary executable, but also provides the analyst with context information on the erroneous behavior that characterizes crashing inputs. Starting with a single crashing input, we generate a diverse set of similar inputs that either also crash the program or induce benign behavior. We then trace the program's states while executing each found input and generate predicates, i.e., simple Boolean expressions that capture behavioral differences between crashing and non-crashing inputs. A statistical analysis of all predicates allows us to identify the predicate pinpointing the root cause, thereby not only revealing the location of the root cause, but also providing an analyst with an explanation of the misbehavior a crash exhibits at this location. We implement our approach in a tool called AURORA and evaluate it on 25 diverse software faults. Our evaluation shows that AURORA is able to uncover root causes even for complex bugs. For example, it succeeded in cases where many millions of instructions were executed between developer fix and crashing location. In contrast to existing approaches, AURORA is also able to handle bugs with no data dependency between root cause and crash, such as type confusion bugs.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

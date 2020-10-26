@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - security
+    - functional
+title: 'USENIX Security ''20 - Fawkes: Protecting Privacy against Unauthorized Deep Learning Models'
+language: English
+recordingDate: 1600121542
+description: "USENIX Security '20 - Fawkes: Protecting Privacy against Unauthorized Deep Learning Models\n\nShawn Shan, Emily Wenger, Jiayun Zhang, Huiying Li, Haitao Zheng, and Ben Y. Zhao, University of Chicago\n\nToday's proliferation of powerful facial recognition systems poses a real threat to personal privacy. As Clearview.ai demonstrated, anyone can canvas the Internet for data and train highly accurate facial recognition models of individuals without their knowledge. We need tools to protect ourselves from potential misuses of unauthorized facial recognition systems. Unfortunately, no practical or effective solutions exist.\n\nIn this paper, we propose Fawkes, a system that helps individuals inoculate their images against unauthorized facial recognition models. Fawkes achieves this by helping users add imperceptible pixel-level changes (we call them \"\"cloaks\"\") to their own photos before releasing them. When used to train facial recognition models, these \"\"cloaked\"\" images produce functional models that consistently cause normal images of the user to be misidentified. We experimentally demonstrate that Fawkes provides 95+% protection against user recognition regardless of how trackers train their models. Even when clean, uncloaked images are \"\"leaked\"\" to the tracker and used for training, Fawkes can still maintain an 80+% protection success rate. We achieve 100% success in experiments against today's state-of-the-art facial recognition services. Finally, we show that Fawkes is robust against a variety of countermeasures that try to detect or disrupt image cloaks.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

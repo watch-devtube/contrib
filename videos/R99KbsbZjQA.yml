@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - From Control Model to Program: Investigating Robotic Aerial Vehicle Accidents'
+language: English
+recordingDate: 1600121949
+description: "From Control Model to Program: Investigating Robotic Aerial Vehicle Accidents with MAYDAY\n\nTaegyu Kim, Purdue University; Chung Hwan Kim, University of Texas at Dallas; Altay Ozen, Fan Fei, Zhan Tu, Xiangyu Zhang, Xinyan Deng, Dave (Jing) Tian, and Dongyan Xu, Purdue University\n\nWith wide adoption of robotic aerial vehicles (RAVs), their accidents increasingly occur, calling for in-depth investigation of such accidents. Unfortunately, an inquiry to “why did my drone crash” often ends up with nowhere, if the root cause lies in the RAV’s control program, due to the key challenges in evidence and methodology: (1) Current RAVs’ flight log only records high-level vehicle control states and events, without recording control program execution; (2) The capability of “connecting the dots” – from controller anomaly to program variable corruption to program bug location – is lacking. To address these challenges, we develop MAYDAY, a cross-domain post-accident investigation framework by mapping control model to control program, enabling (1) in-flight logging of control program execution, and (2) traceback to the control-semantic bug that led to an accident, based on control- and program-level logs. We have applied MAYDAY to ArduPilot, a popular open-source RAV control program that runs on a wide range of commodity RAVs. Our investigation of 10 RAV accidents caused by real ArduPilot bugs demonstrates that MAYDAY is able to pinpoint the root causes of these accidents within the program with high accuracy and minimum runtime and storage overhead. We also found 4 recently patched bugs still vulnerable and alerted the ArduPilot team.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

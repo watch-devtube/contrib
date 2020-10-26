@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - security
+title: 'USENIX Security ''20 - ShadowMove: A Stealthy Lateral Movement Strategy'
+language: English
+recordingDate: 1600121965
+description: "ShadowMove: A Stealthy Lateral Movement Strategy\n\nAmirreza Niakanlahiji, University of Illinois Springfield; Jinpeng Wei and Md Rabbi Alam, UNC Charlotte; Qingyang Wang, Louisiana State University; Bei-Tseng Chu, UNC Charlotte\n\nAdvanced Persistence Threat (APT) attacks use various strategies and techniques to move laterally within an enterprise environment; however, the existing strategies and techniques have limitations such as requiring elevated permissions, creating new connections, performing new authentications, or requiring process injections. Based on these characteristics, many host and network-based solutions have been proposed to prevent or detect such lateral movement attempts. In this paper, we present a novel stealthy lateral movement strategy, ShadowMove, in which only established connections between systems in an enterprise network are misused for lateral movements. It has a set of unique features such as requiring no elevated privilege, no new connection, no extra authentication, and no process injection, which makes it stealthy against state-of-the-art detection mechanisms. ShadowMove is enabled by a novel socket duplication approach that allows a malicious process to silently abuse TCP connections established by benign processes. We design and implement ShadowMove for current Windows and Linux operating systems. To validate the feasibility of ShadowMove, we build several prototypes that successfully hijack three kinds of enterprise protocols, FTP, Microsoft SQL, and Window Remote Management, to perform lateral movement actions such as copying malware to the next target machine and launching malware on the target machine. We also confirm that our prototypes cannot be detected by existing host and network-based solutions, such as five top-notch anti-virus products (McAfee, Norton, Webroot, Bitdefender, and Windows Defender), four IDSes (Snort, OSSEC, Osquery, and Wazuh), and two Endpoint Detection and Response systems (CrowdStrike Falcon Prevent and Cisco AMP).\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

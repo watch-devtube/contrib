@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - V0LTpwn: Attacking x86 Processor Integrity from Software'
+language: English
+recordingDate: 1600121949
+description: "V0LTpwn: Attacking x86 Processor Integrity from Software\n\nZijo Kenjar and Tommaso Frassetto, Technische Universität Darmstadt; David Gens and Michael Franz, University of California, Irvine; Ahmad-Reza Sadeghi, Technische Universität Darmstadt\n\nFault-injection attacks have been proven in the past to be a reliable way of bypassing hardware-based security measures, such as cryptographic hashes, privilege and access permission enforcement, and trusted execution environments. However, traditional fault-injection at-tacks require physical presence, and hence, were often considered out of scope in many real-world adversary settings.\n\nIn this paper we show this assumption may no longer be justified on x86. We present V0LTpwn, a novel hardware-oriented but software-controlled attack that affects the integrity of computation in virtually any execution mode on modern x86 processors. To the best of our knowledge, this represents the first attack on the integrity of the x86 platform from software. The key idea behind our attack is to undervolt a physical core to force non-recoverable hardware faults. Under a V0LTpwn attack, CPU instructions will continue to execute with erroneous results and without crashes, allowing for exploitation. In contrast to recently presented side-channel attacks that leverage vulnerable speculative execution, V0LTpwn is not limited to information disclosure, but allows adversaries to affect execution, and hence, effectively breaks the integrity goals of modern x86 platforms. In our detailed evaluation we successfully launch software-based attacks against Intel SGX enclaves from a privileged process to demonstrate that a V0LTpwn attack can successfully change the results of computations within enclave execution across multiple CPU revisions.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

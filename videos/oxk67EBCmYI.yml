@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - cloud
+    - security
+title: 'USENIX Security ''20 - Exploring Connections Between Active Learning and Model Extraction'
+language: English
+recordingDate: 1600121529
+description: "Exploring Connections Between Active Learning and Model Extraction\n\nVarun Chandrasekaran, University of Wisconsin-Madison; Kamalika Chaudhuri, University of California San Diego; Irene Giacomelli, Protocol Labs; Somesh Jha, University of Wisconsin-Madison; Songbai Yan, University of California San Diego\n\nMachine learning is being increasingly used by individuals, research institutions, and corporations. This has resulted in the surge of Machine Learning-as-a-Service (MLaaS) - cloud services that provide (a) tools and resources to learn the model, and (b) a user-friendly query interface to access the model. However, such MLaaS systems raise privacy concerns such as model extraction. In model extraction attacks, adversaries maliciously exploit the query interface to steal the model. More precisely, in a model extraction attack, a good approximation of a sensitive or proprietary model held by the server is extracted (i.e. learned) by a dishonest user who interacts with the server only via the query interface. This attack was introduced by Tramèr et. al. at the 2016 USENIX Security Symposium, where practical attacks for various models were shown. We believe that better understanding the efficacy of model extraction attacks is paramount to designing secure MLaaS systems. To that end, we take the first step by (a) formalizing model extraction and discussing possible defense strategies, and (b) drawing parallels between model extraction and established area of active learning. In particular, we show that recent advancements in the active learning domain can be used to implement powerful model extraction attacks and investigate possible defense strategies.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

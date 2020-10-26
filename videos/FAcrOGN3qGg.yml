@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Big Numbers - Big Troubles: Systematically Analyzing Nonce Leakage in (EC)DSA'
+language: English
+recordingDate: 1600121530
+description: "Big Numbers - Big Troubles: Systematically Analyzing Nonce Leakage in (EC)DSA Implementations\n\nSamuel Weiser, David Schrammel, and Lukas Bodner, Graz University of Technology; Raphael Spreitzer, SGS Digital Trust Services\n\nSide-channel attacks exploiting (EC)DSA nonce leakage easily lead to full key recovery. Although (EC)DSA implementations have already been hardened against side-channel leakage using the constant-time paradigm, the long-standing cat-and-mouse-game of attacks and patches continues. In particular, current code review is prone to miss less obvious side channels hidden deeply in the call stack. To solve this problem, a systematic study of nonce leakage is necessary. We present a systematic analysis of nonce leakage in cryptographic implementations. In particular, we expand DATA, an open-source side-channel analysis framework, to detect nonce leakage. Our analysis identified multiple unknown nonce leakage vulnerabilities across all essential computation steps involving nonces. Among others, we uncover inherent problems in Bignumber implementations that break claimed constant-time guarantees of (EC)DSA implementations if secrets are close to a word boundary. We found that lazy resizing of Bignumbers in OpenSSL and LibreSSL yields a highly accurate and easily exploitable side channel, which has been acknowledged with two CVEs. Surprisingly, we also found a tiny but expressive leakage in the constant-time scalar multiplication of OpenSSL and BoringSSL. Moreover, in the process of reporting and patching, we identified newly introduced leakage with the support of our tool, thus preventing another attack-patch cycle. We open-source our tool, together with an intuitive graphical user interface we developed.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

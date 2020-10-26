@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - security
+    - testing
+title: 'USENIX Security ''20 - Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation...'
+language: English
+recordingDate: 1600121633
+description: "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets\n\nJan Ruge and Jiska Classen, Secure Mobile Networking Lab, TU Darmstadt; Francesco Gringoli, Dept. of Information Engineering, University of Brescia; Matthias Hollick, Secure Mobile Networking Lab, TU Darmstadt\n\nWireless communication standards and implementations have a troubled history regarding security. Since most implementations and firmwares are closed-source, fuzzing remains one of the main methods to uncover Remote Code Execution (RCE) vulnerabilities in deployed systems. Generic over-the-air fuzzing suffers from several shortcomings, such as constrained speed, limited repeatability, and restricted ability to debug. In this paper, we present Frankenstein, a fuzzing framework based on advanced firmware emulation, which addresses these shortcomings. Frankenstein brings firmware dumps \"back to life\", and provides fuzzed input to the chip's virtual modem. The speed-up of our new fuzzing method is sufficient to maintain interoperability with the attached operating system, hence triggering realistic full-stack behavior. We demonstrate the potential of Frankenstein by finding three zero-click vulnerabilities in the Broadcom and Cypress Bluetooth stack, which is used in most Apple devices, many Samsung smartphones, the Raspberry Pis, and many others.\n\nGiven RCE on a Bluetooth chip, attackers may escalate their privileges beyond the chip's boundary. We uncover a Wi-Fi/Bluetooth coexistence issue that crashes multiple operating system kernels and a design flaw in the Bluetooth 5.2 specification that allows link key extraction from the host. Turning off Bluetooth will not fully disable the chip, making it hard to defend against RCE attacks. Moreover, when testing our chip-based vulnerabilities on those devices, we find BlueFrag, a chip-independent Android RCE.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

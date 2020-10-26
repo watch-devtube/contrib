@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - mobile
+    - android
+    - security
+title: 'USENIX Security ''20 - BigMAC: Fine-Grained Policy Analysis of Android Firmware'
+language: English
+recordingDate: 1600121633
+description: "BigMAC: Fine-Grained Policy Analysis of Android Firmware\n\nGrant Hernandez, University of Florida; Dave (Jing) Tian, Purdue University; Anurag Swarnim Yadav, Byron J. Williams, and Kevin R.B. Butler, University of Florida\n\nThe Android operating system is the world's dominant mobile computing platform. To defend against malicious applications and external attack, Android relies upon a complex combination of discretionary and mandatory access control mechanisms, including Linux capabilities, to maintain least privilege. To understand the impact and interaction between these layers, we created a framework called BigMAC that combines and instantiates all layers of the policy together in a fine grained graph supporting millions of edges. Our model filters out paths and types not in use on actual systems that policy analysis alone would consider. Unlike previous work which requires a rooted device, using only static firmware and Android domain knowledge, we are able to extract and recreate the security state of a running system, achieving a process credential recovery at best 74.7% and a filesystem DAC and MAC accuracy of over 98%. Using BigMAC, we develop attack queries to discover sets of objects that can be influenced by untrusted applications and external peripherals. Our evaluation against Samsung S8+ and LG G7 firmwares reveals multiple policy concerns, including untrusted apps on LG being able to communicate with a kernel monitoring service, Samsung S8+ allowing IPC from untrusted apps to some root processes, at least 24 processes with the CAP_SYS_ADMIN capability, and system_server with the capability to load kernel modules. We have reported our findings to the corresponding vendors and release BigMAC for the community.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

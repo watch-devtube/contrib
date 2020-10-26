@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - DELF: Safeguarding deletion correctness in Online Social Networks'
+language: English
+recordingDate: 1600121539
+description: "DELF: Safeguarding deletion correctness in Online Social Networks\n\nKatriel Cohn-Gordon, Facebook; Georgios Damaskinos, Facebook, EPFL; Divino Neto, Joshi Cordova, Benoît Reitz, Benjamin Strahs, and Daniel Obenshain, Facebook; Paul Pearce, Facebook, Georgia Tech; Ioannis Papagiannis, Facebook\n\nDeletion is a core facet of Online Social Networks (OSNs). For users, deletion is a tool to remove what they have shared and control their data. For OSNs, robust deletion is both an obligation to their users and a risk when developer mistakes inevitably occur. While developers are effective at identifying high-level deletion requirements in products (e.g., users should be able to delete posted photos), they are less effective at mapping high-level requirements into concrete operations (e.g., deleting all relevant items in data stores). Without framework support, developer mistakes lead to violations of users’ privacy, such as retaining data that should be deleted, deleting the wrong data, and exploitable vulnerabilities.\n\nWe propose DELF, a deletion framework for modern OSNs. In DELF, developers specify deletion annotations on data type definitions, which the framework maps into asynchronous, reliable and temporarily reversible operations on backing data stores. DELF validates annotations both statically and dynamically, proactively flagging errors and suggesting fixes.\n\nWe deployed DELF in three distinct OSNs, showing the feasibility of our approach. DELF detected, surfaced, and helped developers correct thousands of omissions and dozens of mistakes, while also enabling timely recovery in tens of incidents where user data was inadvertently deleted.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

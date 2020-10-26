@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - phoenix
+    - containers
+    - security
+title: 'USENIX Security ''20 - Achieving Keyless CDNs with Conclaves'
+language: English
+recordingDate: 1600121970
+description: "Achieving Keyless CDNs with Conclaves\n\nStephen Herwig, University of Maryland; Christina Garman, Purdue University; Dave Levin, University of Maryland\n \nContent Delivery Networks (CDNs) serve a large and increasing portion of today’s web content. Beyond caching, CDNs provide their customers with a variety of services, including protection against DDoS and targeted attacks. As the web shifts from HTTP to HTTPS, CDNs continue to provide such services by also assuming control of their customers’ private keys, thereby breaking a fundamental security principle: private keys must only be known by their owner.\n\nWe present the design and implementation of Phoenix, the first truly “keyless CDN”. Phoenix uses secure enclaves (in particular Intel SGX) to host web content, store sensitive key material, apply web application firewalls, and more on otherwise untrusted machines. To support scalability and multitenancy, Phoenix is built around a new architectural primitive which we call conclaves: containers of enclaves. Conclaves make it straightforward to deploy multi-process, scalable, legacy applications. We also develop a filesystem to extend the enclave’s security guarantees to untrusted storage. In its strongest configuration, Phoenix reduces the knowledge of the edge server to that of a traditional on-path HTTPS adversary. We evaluate the performance of Phoenix with a series of micro- and macro-benchmarks.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

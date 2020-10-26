@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited'
+language: English
+recordingDate: 1600121967
+description: "Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries\n\nFnu Suya, Jianfeng Chi, David Evans, and Yuan Tian, University of Virginia\n\nWe study adversarial examples in a black-box setting where the adversary only has API access to the target model and each query is expensive. Prior work on black-box adversarial examples follows one of two main strategies: (1) transfer attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model, and (2) optimization-based attacks use queries to the target model and apply optimization techniques to search for adversarial examples. We propose hybrid attacks that combine both strategies, using candidate adversarial examples from local models as starting points for optimization-based attacks and using labels learned in optimization-based attacks to tune local models for finding transfer candidates. We empirically demonstrate on the MNIST, CIFAR10, and ImageNet datasets that our hybrid attack strategy reduces cost and improves success rates. We also introduce a seed prioritization strategy which enables attackers to focus their resources on the most promising seeds. Combining hybrid attacks with our seed prioritization strategy enables batch attacks that can reliably find adversarial examples with only a handful of queries.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

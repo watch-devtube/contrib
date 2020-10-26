@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+    - architecture
+    - lisp
+    - embedded
+title: 'USENIX Security ''20 - Silhouette: Efficient Protected Shadow Stacks for Embedded Systems'
+language: English
+recordingDate: 1600121537
+description: "Silhouette: Efficient Protected Shadow Stacks for Embedded Systems\n\nJie Zhou, Yufei Du, and Zhuojia Shen, University of Rochester; Lele Ma, University of Rochester and College of William and Mary; John Criswell, University of Rochester; Robert J. Walls, Worcester Polytechnic Institute\n  \nMicrocontroller-based embedded systems are increasingly used for applications that can have serious and immediate consequences if compromised—including automobile control systems, smart locks, drones, and implantable medical devices. Due to resource and execution-time constraints, C is the primary language used for programming these devices. Unfortunately, C is neither type-safe nor memory-safe, and control-flow hijacking remains a prevalent threat.\n\nThis paper presents Silhouette: a compiler-based defense that efficiently guarantees the integrity of return addresses, significantly reducing the attack surface for control-flow hijacking. Silhouette combines an incorruptible shadow stack for return addresses with checks on forward control flow and memory protection to ensure that all functions return to the correct dynamic caller. To protect its shadow stack, Silhouette uses store hardening, an efficient intra-address space isolation technique targeting various ARM architectures that leverages special store instructions found on ARM processors.\n\nWe implemented Silhouette for the ARMv7-M architecture, but our techniques are applicable to other common embedded ARM architectures. Our evaluation shows that Silhouette incurs a geometric mean of 1.3% and 3.4% performance overhead on two benchmark suites. Furthermore, we prototyped Silhouette-Invert, an alternative implementation of Silhouette, which incurs just 0.3% and 1.9% performance overhead, at the cost of a minor hardware change.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

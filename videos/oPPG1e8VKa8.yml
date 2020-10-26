@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'USENIX Security ''20 - Temporal System Call Specialization for Attack Surface Reduction'
+language: English
+recordingDate: 1600121536
+description: "USENIX Security '20 - Temporal System Call Specialization for Attack Surface Reduction\n\nSeyedhamed Ghavamnia, Tapti Palit, Shachee Mishra, and Michalis Polychronakis, Stony Brook University\n\nAttack surface reduction through the removal of unnecessary application features and code is a promising technique for improving security without incurring any additional overhead. Recent software debloating techniques consider an application's entire lifetime when extracting its code requirements, and reduce the attack surface accordingly.\n\nIn this paper, we present temporal specialization, a novel approach for limiting the set of system calls available to a process depending on its phase of execution. Our approach is tailored to server applications, which exhibit distinct initialization and serving phases with different system call requirements. We present novel static analysis techniques for improving the precision of extracting the application's call graph for each execution phase, which is then used to pinpoint the system calls used in each phase. We show that requirements change throughout the lifetime of servers, and many dangerous system calls (such as execve) can be disabled after the completion of the initialization phase. We have implemented a prototype of temporal specialization on top of the LLVM compiler, and evaluated its effectiveness with six popular server applications. Our results show that it disables 51% more security-critical system calls compared to existing library specialization approaches, while offering the additional benefit of neutralizing 13 more Linux kernel vulnerabilities that could lead to privilege escalation.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

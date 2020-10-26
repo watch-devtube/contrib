@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - security
+    - java
+title: 'USENIX Security ''20 - Civet: An Efficient Java Partitioning Framework for Hardware Enclaves'
+language: English
+recordingDate: 1600121949
+description: "Civet: An Efficient Java Partitioning Framework for Hardware Enclaves\n\nChia-Che Tsai, Texas A&M University; Jeongseok Son, UC Berkeley; Bhushan Jain, The University of North Carolina at Chapel Hill; John McAvey, Hendrix College; Raluca Ada Popa, UC Berkeley; Donald E. Porter, The University of North Carolina at Chapel Hill\n \nHardware enclaves are designed to execute small pieces of sensitive code or to operate on sensitive data, in isolation from larger, less trusted systems. Partitioning a large, legacy application requires significant effort. Partitioning an application written in a managed language, such as Java, is more challenging because of mutable language characteristics, extensive code reachability in class libraries, and the inevitability of using a heavyweight runtime.\n\nCivet is a framework for partitioning Java applications into enclaves. Civet reduces the number of lines of code in the enclave and uses language-level defenses, including deep type checks and dynamic taint-tracking, to harden the enclave interface. Civet also contributes a partitioned Java runtime design, including a garbage collection design optimized for the peculiarities of enclaves. Civet is efficient for data-intensive workloads; partitioning a Hadoop mapper reduces the enclave overhead from 10× to 16–22% without taint-tracking or 70–80% with taint-tracking.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

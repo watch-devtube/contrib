@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - testing
+    - embedded
+title: 'USENIX Security ''20 - P2IM: Scalable and Hardware-independent Firmware Testing via Automatic'
+language: English
+recordingDate: 1600121539
+description: "P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling\n\nBo Feng, Alejandro Mera, and Long Lu, Northeastern University\n\nDynamic testing or fuzzing of embedded firmware is severely limited by hardware-dependence and poor scalability, partly contributing to the widespread vulnerable IoT devices. We propose a software framework that continuously executes a given firmware binary while channeling inputs from an off-the-shelf fuzzer, enabling hardware-independent and scalable firmware testing. Our framework, using a novel technique called P2IM, abstracts diverse peripherals and handles firmware I/O on the fly based on automatically generated models. P2IM is oblivious to peripheral designs and generic to firmware implementations, and therefore, applicable to a wide range of embedded devices. We evaluated our framework using 70 sample firmware and 10 firmware from real devices, including a drone, a robot, and a PLC. It successfully executed 79% of the sample firmware without any manual assistance. We also performed a limited fuzzing test on the real firmware, which unveiled 7 unique unknown bugs.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

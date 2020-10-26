@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - security
+title: 'USENIX Security ''20 - DeepHammer: Depleting the Intelligence of Deep Neural Networks through Target'
+language: English
+recordingDate: 1600121949
+description: "DeepHammer: Depleting the Intelligence of Deep Neural Networks through Targeted Chain of Bit Flips\n\nFan Yao, University of Central Florida; Adnan Siraj Rakin and Deliang Fan, Arizona State University\n\nSecurity of machine learning is increasingly becoming a major concern due to the ubiquitous deployment of deep learning in many security-sensitive domains. Many prior studies have shown external attacks such as adversarial examples that tamper the integrity of DNNs using maliciously crafted inputs. However, the security implication of internal threats (i.e., hardware vulnerabilities) to DNN models has not yet been well understood. In this paper, we demonstrate the first hardware-based attack on quantized deep neural networks–DeepHammer–that deterministically induces bit flips in model weights to compromise DNN inference by exploiting the rowhammer vulnerability. DeepHammer performs an aggressive bit search in the DNN model to identify the most vulnerable weight bits that are flippable under system constraints. To trigger deterministic bit flips across multiple pages within a reasonable amount of time, we develop novel system-level techniques that enable fast deployment of victim pages, memory-efficient rowhammering and precise flipping of targeted bits. DeepHammer can deliberately degrade the inference accuracy of the victim DNN system to a level that is only as good as random guess, thus completely depleting the intelligence of targeted DNN systems. We systematically demonstrate our attacks on real systems against 11 DNN architectures with 4 datasets corresponding to different application domains. Our evaluation shows that DeepHammer is able to successfully tamper DNN inference behavior at run-time within a few minutes. We further discuss several mitigation techniques from both algorithm and system levels to protect DNNs against such attacks. Our work highlights the need to incorporate security mechanisms in future deep learning systems to enhance the robustness against hardware-based deterministic fault injections.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

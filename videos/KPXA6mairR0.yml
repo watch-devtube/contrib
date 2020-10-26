@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - A Tale of Two Headers: A Formal Analysis of Inconsistent Click-Jacking...'
+language: English
+recordingDate: 1600121970
+description: "A Tale of Two Headers: A Formal Analysis of Inconsistent Click-Jacking Protection on the Web\n\nStefano Calzavara, Università Ca' Foscari Venezia; Sebastian Roth, CISPA Helmholtz Center for Information Security and Saarbrücken Graduate School of Computer Science; Alvise Rabitti, Università Ca' Foscari Venezia; Michael Backes and Ben Stock, CISPA Helmholtz Center for Information Security\n \nClick-jacking protection on the modern Web is commonly enforced via client-side security mechanisms for framing control, like the X-Frame-Options header (XFO) and Content Security Policy (CSP). Though these client-side security mechanisms are certainly useful and successful, delegating protection to web browsers opens room for inconsistencies in the security guarantees offered to users of different browsers. In particular, inconsistencies might arise due to the lack of support for CSP and the different implementations of the underspecified XFO header. In this paper, we formally study the problem of inconsistencies in framing control policies across different browsers and we implement an automated policy analyzer based on our theory, which we use to assess the state of click-jacking protection on the Web. Our analysis shows that 10% of the (distinct) framing control policies in the wild are inconsistent and most often do not provide any level of protection to at least one browser. We thus propose recommendations for web developers and browser vendors to mitigate this issue. Finally, we design and implement a server-side proxy to retrofit security in web applications.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

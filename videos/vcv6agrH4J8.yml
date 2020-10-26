@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - mobile
+    - android
+    - ios
+    - security
+title: 'USENIX Security ''20 - Breaking Secure Pairing of Bluetooth Low Energy Using Downgrade Attacks'
+language: English
+recordingDate: 1600121633
+description: "Breaking Secure Pairing of Bluetooth Low Energy Using Downgrade Attacks\n\nYue Zhang, College of Information Science and Technology, Jinan University (Department of Computer Science, University of Central Florida); Jian Weng, College of Information Science and Technology, Jinan University; Rajib Dey, Department of Computer Science, University of Central Florida; Yier Jin, Department of Electrical and Computer Engineering, University of Florida; Zhiqiang Lin, Computer Science and Engineering, The Ohio State University; Xinwen Fu, Department of Computer Science, University of Central Florida\n\nTo defeat security threats such as man-in-the-middle (MITM) attacks, Bluetooth Low Energy (BLE) 4.2 and 5.x introduced a Secure Connections Only (SCO) mode, under which a BLE device can only accept secure pairing such as Passkey Entry and Numeric Comparison from an initiator, e.g., an Android mobile. However, the BLE specification does not require the SCO mode for the initiator, and does not specify how the BLE programming framework should implement this mode. In this paper we show that the BLE programming framework of the initiator must properly handle SCO initiation, status management, error handling, and bond management; otherwise severe flaws can be exploited to perform downgrade attacks, forcing the BLE pairing protocols to run in an insecure mode without user's awareness. To validate our findings, we have tested 18 popular BLE commercial products with 5 Android phones. Our experimental results proved that MITM attacks (caused by downgrading) are possible to all these products. More importantly, due to such system flaws from the BLE programming framework, all BLE apps in Android are subject to our downgrade attacks. To defend against our attacks, we have built a prototype for the SCO mode on Android 8 atop Android Open Source Project (AOSP). Finally, in addition to Android, we also find all major OSes including iOS, macOS, Windows, and Linux do not support the SCO mode properly. We have reported the identified BLE pairing vulnerabilities to Bluetooth Special Interest Group, Google, Apple, Texas Instruments, and Microsoft.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Cached and Confused: Web Cache Deception in the Wild'
+language: English
+recordingDate: 1600121968
+description: "Cached and Confused: Web Cache Deception in the Wild\n\nSeyed Ali Mirheidari, University of Trento; Sajjad Arshad, Northeastern University; Kaan Onarlioglu, Akamai Technologies; Bruno Crispo, University of Trento, KU Leuven; Engin Kirda and William Robertson, Northeastern University\n\nWeb cache deception (WCD) is an attack proposed in 2017, where an attacker tricks a caching proxy into erroneously storing private information transmitted over the Internet and subsequently gains unauthorized access to that cached data. Due to the widespread use of web caches and, in particular, the use of massive networks of caching proxies deployed by content distribution network (CDN) providers as a critical component of the Internet, WCD puts a substantial population of Internet users at risk.\n\nWe present the first large-scale study that quantifies the prevalence of WCD in 340 high-profile sites among the Alexa Top 5K. Our analysis reveals WCD vulnerabilities that leak private user data as well as secret authentication and authorization tokens that can be leveraged by an attacker to mount damaging web application attacks. Furthermore, we explore WCD in a scientific framework as an instance of the path confusion class of attacks, and demonstrate that variations on the path confusion technique used make it possible to exploit sites that are otherwise not impacted by the original attack. Our findings show that many popular sites remain vulnerable two years after the public disclosure of WCD.\n\nOur empirical experiments with popular CDN providers underline the fact that web caches are not plug & play technologies. In order to mitigate WCD, site operators must adopt a holistic view of their web infrastructure and carefully configure cache settings appropriate for their applications.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

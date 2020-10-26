@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Horizontal Privilege Escalation in Trusted Applications'
+language: English
+recordingDate: 1600121966
+description: "Horizontal Privilege Escalation in Trusted Applications\n\nDarius Suciu, Stony Brook University; Stephen McLaughlin and Laurent Simon, Samsung Research America; Radu Sion, Stony Brook University\n\nTrusted Execution Environments (TEEs) use hardware-based isolation to guard sensitive data from conventional monolithic OSes. While such isolation strengthens security guarantees, it also introduces a semantic gap between the TEE on the one side and the conventional OS and applications on the other. In this work, we studied the impact of this semantic gap on the handling of sensitive data by Trusted Applications (TAs) running in popular TEEs. We found that the combination of two properties, (i) multi-tenancy and (ii) statefulness in TAs leads to vulnerabilities of Horizontal Privilege Escalation (HPE). These vulnerabilities leaked sensitive session data or provided cryptographic oracles without requiring code execution vulnerabilities in TEE logic. We identified 19 HPE vulnerabilities present across 95 TAs running on three major ARM TrustZone-based trusted OSes. Our results showed that HPE attacks can be used to decrypt DRM protected content, to forge attestations, and to obtain cryptographic keys under all three evaluated OSes. Here, we present HOOPER an automatic symbolic execution based scanner for HPE vulnerabilities, in order to aid manual analysis and to dramatically reduce overall time. In particular, in the Teegris Trusted OS HOOPER is able to identify 19 out of 24 HPE-based attack flows in 24-hours contrasted with our original manual analysis time of approximately four weeks.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

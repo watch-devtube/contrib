@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+title: 'USENIX Security ''20 - McTiny: Fast High-Confidence Post-Quantum Key Erasure for Tiny Network Servers'
+language: English
+recordingDate: 1600121537
+description: "USENIX Security '20 - McTiny: Fast High-Confidence Post-Quantum Key Erasure for Tiny Network Servers\n\nDaniel J. Bernstein, University of Illinois at Chicago, Ruhr University Bochum; Tanja Lange, Eindhoven University of Technology\n\nRecent results have shown that some post-quantum cryptographic systems have encryption and decryption performance comparable to fast elliptic-curve cryptography (ECC) or even better. However, this performance metric is considering only CPU time and ignoring bandwidth and storage. High-confidence post-quantum encryption systems have much larger keys than ECC. For example, the code-based cryptosystem recommended by the PQCRYPTO project uses public keys of 1MB.\n\nFast key erasure (to provide \"\"forward secrecy\"\") requires new public keys to be constantly transmitted. Either the server needs to constantly generate, store, and transmit large keys, or it needs to receive, store, and use large keys from the clients. This is not necessarily a problem for overall bandwidth, but it is a problem for storage and computation time on tiny network servers. All straightforward approaches allow easy denial-of-service attacks.\n\nThis paper describes a protocol, suitable for today's networks and tiny servers, in which clients transmit their code-based one-time public keys to servers. Servers never store full client public keys but work on parts provided by the clients, without having to maintain any per-client state. Intermediate results are stored on the client side in the form of encrypted cookies and are eventually combined by the server to obtain the ciphertext. Requirements on the server side are very small: storage of one long-term private key, which is much smaller than a public key, and a few small symmetric cookie keys, which are updated regularly and erased after use. The protocol is highly parallel, requiring only a few round trips, and involves total bandwidth not much larger than a single public key. The total number of packets sent by each side is 971, each fitting into one IPv6 packet of less than 1280 bytes.\n\nThe protocol makes use of the structure of encryption in code-based cryptography and benefits from small ciphertexts in code-based cryptography.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

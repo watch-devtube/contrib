@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Programmable In-Network Security for Context-aware BYOD Policies'
+language: English
+recordingDate: 1600121965
+description: "Programmable In-Network Security for Context-aware BYOD Policies\n\nQiao Kang, Rice University; Lei Xue, The Hong Kong Polytechnic University; Adam Morrison, Yuxin Tang, and Ang Chen, Rice University; Xiapu Luo, The Hong Kong Polytechnic University\n\nBring Your Own Device (BYOD) has become the new norm for enterprise networks, but BYOD security remains a top concern. Context-aware security, which enforces access control based on dynamic runtime context, is a promising approach. Recent work has developed SDN solutions to collect device contexts and enforce access control at a central controller. However, the central controller could become a bottleneck and attack target. Processing context signals at the remote controller is also too slow for real-time decision change.\n\nWe present a new paradigm, programmable in-network security (Poise), which is enabled by the emergence of programmable switches. At the heart of Poise is a novel security primitive, which can be programmed to support a wide range of context-aware policies in hardware. Users of Poise specify concise policies, and Poise compiles them into different configurations of the primitive in P4. Compared with traditional SDN defenses, Poise is resilient to control plane saturation attacks, and it dramatically increases defense agility.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

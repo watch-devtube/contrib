@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+    - architecture
+title: 'USENIX Security ''20 - Retrofitting Fine Grain Isolation in the Firefox Renderer'
+language: English
+recordingDate: 1600121964
+description: "Retrofitting Fine Grain Isolation in the Firefox Renderer\n\nShravan Narayan and Craig Disselkoen, UC San Diego; Tal Garfinkel, Stanford University; Nathan Froyd and Eric Rahm, Mozilla; Sorin Lerner, UC San Diego; Hovav Shacham, UT Austin; Deian Stefan, UC San Diego\n\nDistinguished Paper Award Winner\n\nFirefox and other major browsers rely on dozens of third-party libraries to render audio, video, images, and other content. These libraries are a frequent source of vulnerabilities. To mitigate this threat, we are migrating Firefox to an architecture that isolates these libraries in lightweight sandboxes, dramatically reducing the impact of a compromise.\n\nRetrofitting isolation can be labor-intensive, very prone to security bugs, and requires critical attention to performance. To help, we developed RLBox, a framework that minimizes the burden of converting Firefox to securely and efficiently use untrusted code. To enable this, RLBox employs static information flow enforcement, and lightweight dynamic checks, expressed directly in the C++ type system.\n\nRLBox supports efficient sandboxing through either software-based-fault isolation or multi-core process isolation. Performance overheads are modest and transient, and have only minor impact on page latency. We demonstrate this by sandboxing performance-sensitive image decoding libraries (libjpeg and libpng), video decoding libraries (libtheora and libvpx), the libvorbis audio decoding library, and the zlib decompression library.\n\nRLBox, using a WebAssembly sandbox, has been integrated into production Firefox to sandbox the libGraphite font shaping library.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

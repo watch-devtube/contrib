@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - mobile
+    - android
+    - security
+    - testing
+title: 'USENIX Security ''20 - Chaperone: Real-time Locking and Loss Prevention for Smartphones'
+language: English
+recordingDate: 1600121633
+description: "Chaperone: Real-time Locking and Loss Prevention for Smartphones\n\nJiayi Chen and Urs Hengartner, Cheriton School of Computer Science, University of Waterloo; Hassan Khan, School of Computer Science, University of Guelph; Mohammad Mannan, Concordia Institute for Information Systems Engineering, Concordia University\n\nSmartphone loss affects millions of users each year and causes significant monetary and data losses. Device tracking services (e.g., Google's \"Find My Device\") enable the device owner to secure or recover a lost device, but they can be easily circumvented with physical access (e.g., turn on airplane mode). An effective loss prevention solution should immediately lock the phone and alert the owner before they leave without the phone. We present such an opensource, real-time system called Chaperone that does not require additional hardware. Chaperone adopts active acoustic sensing to detect a phone's unattended status by tracking the owner's departure via the built-in speaker and microphone. It is designed to robustly operate in real-world scenarios characterized by bursting high-frequency noise, bustling crowds, and diverse environmental layouts. We evaluate Chaperone by conducting over 1,300 experiments at a variety of locations including coffee shops, restaurants, transit stations, and cars, under different testing conditions. Chaperone provides an overall precision rate of 93% and an overall recall rate of 96% for smartphone loss events. Chaperone detects these events in under 0.5 seconds for 95% of the successful detection cases. We conduct a user study (n = 17) to investigate participants' smartphone loss experiences, collect feedback on using Chaperone, and study different alert methods. Most participants were satisfied with Chaperone's performance for its detection ability, detection accuracy, and power consumption. Finally, we provide an implementation of Chaperone as a standalone Android app.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

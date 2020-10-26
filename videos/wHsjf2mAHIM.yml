@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+    - embedded
+title: 'DEF CON Safe Mode - Shlomi Oberman, Moshe Kol, Ariel Schön - Hacking the Supply Chain'
+language: English
+recordingDate: 1596654229
+description: "This is the story of how we found and exploited a series of critical vulnerabilities (later named Ripple20) affecting tens or hundreds of millions of IoT devices across all IoT sector conceivable - industrial controllers, power grids, medical, home, networking, transportation, enterprise, retail, defense, and a myriad of other types of IoT devices, manufactured and deployed by the largest American and international vendors in these fields.\n\nThese vulnerabilities were found in a TCP/IP software library located at the very beginning of a complex supply chain and have lurked undetected for at least 10 years, likely much more. Over the past two decades this library has spread around the world by means of direct use as well as indirectly, through \"\"second hand\"\" use, rebranding, collaborations, acquisitions and repackaging, having been embedded and configurated in a range of different ways. Many of the vendors indirectly selling and using this library were not aware of their using it. Now that they know, the patch propagation dynamics are very complex and may not be possible in some cases.\n\nThis library is a little known, but widely used, embedded library developed by Treck Inc.known for its high reliability, performance, and configurability. Its features make it suitable for real-time operating system usage and low-power devices.\n\nDespite being used by many large, security-aware vendors, these vulnerabilities lay dormant and undiscovered - while actors of all types could have discovered these vulnerabilities by finding one of several bugs in any of the components, exposing hundreds of others immediately. This would provide a field day of affected devices for the picking.\n\nIn this presentation, we will discuss one of the vulnerabilities in technical depth, demonstrating an RCE exploit on a vulnerable device. We will explain how the vulnerabilities became so widespread, and what we still don’t know. We will speculate as to why these vulnerabilities survived for so long and show why some vendors are worse affected than others."

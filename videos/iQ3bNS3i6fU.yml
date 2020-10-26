@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - BesFS: A POSIX Filesystem for Enclaves with a Mechanized Safety Proof'
+language: English
+recordingDate: 1600121967
+description: "BesFS: A POSIX Filesystem for Enclaves with a Mechanized Safety Proof\n\nShweta Shinde, University of California, Berkeley; Shengyi Wang and Pinghai Yuan, National University of Singapore; Aquinas Hobor, National University of Singapore & Yale-NUS College; Abhik Roychoudhury and Prateek Saxena, National University of Singapore\n\nNew trusted computing primitives such as Intel SGX have shown the feasibility of running user-level applications in enclaves on a commodity trusted processor without trusting a large OS. However, the OS can still compromise the integrity of an enclave by tampering with the system call return values. In fact, it has been shown that a subclass of these attacks, called Iago attacks, enables arbitrary logic execution in enclave programs. Existing enclave systems have very large TCB and they implement ad-hoc checks at the system call interface which are hard to verify for completeness. To this end, we present BesFS—the first filesystem interface which provably protects the enclave integrity against a completely malicious OS. We prove 167 lemmas and 2 key theorems in 4625 lines of Coq proof scripts, which directly proves the safety properties of the BesFS specification. BesFS comprises of 15 APIs with compositional safety and is expressive enough to support 31 real applications we test. BesFS integrates into existing SGX-enabled applications with minimal impact to TCB. BesFS can serve as a reference implementation for hand-coded API checks.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON Safe Mode - Zhipeng Huo, Chuanda Ding - Hack Windows Machines with Printer Protocol'
+language: English
+recordingDate: 1596654229
+description: "Printer Spooler service, one of the important services in Microsoft Windows, has existed for more than 25 years. It runs at highest privilege level, unsandboxed, does networking, and dynamically loads third-party binaries. What could possibly go wrong?\n\nIn this talk, we will walk you through an incredibly fun bug we have discovered in printer spooler service. It can be exploited both locally and remotely, escapes sandbox, executes arbitrary code, and also elevates to SYSTEM. While Microsoft managed to develop the most restrictive sandbox for Microsoft Edge, this bug easily goes through it like it's a sieve.\n\nWe will talk in detail the implementation of this ancient service, the method we used to discover and exploit the bug, and also throw in some tips and tricks for logic bugs in between."

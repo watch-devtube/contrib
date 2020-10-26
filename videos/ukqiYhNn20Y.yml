@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - security
+    - java
+title: 'USENIX Security ''20 - FANS: Fuzzing Android Native System Services via Automated Interface Analysis'
+language: English
+recordingDate: 1600121656
+description: "FANS: Fuzzing Android Native System Services via Automated Interface Analysis\n\nBaozheng Liu and Chao Zhang, Institute of Network Science and Cyberspace, Tsinghua University; Beijing National Research Center for Information Science and Technology; Guang Gong, Alpha Lab, 360 Internet Security Center; Yishun Zeng, Institute of Network Science and Cyberspace, Tsinghua University; Beijing National Research Center for Information Science and Technology; Haifeng Ruan, Department of Computer Science and Technology, Tsinghua University; Jianwei Zhuge, Institute of Network Science and Cyberspace, Tsinghua University; Beijing National Research Center for Information Science and Technology\n\nAndroid native system services provide essential supports and fundamental functionalities for user apps. Finding vulnerabilities in them is crucial for Android security. Fuzzing is one of the most popular vulnerability discovery solutions, yet faces several challenges when applied to Android native system services. First, such services are invoked via a special interprocess communication (IPC) mechanism, namely binder, via service-specific interfaces. Thus, the fuzzer has to recognize all interfaces and generate interface-specific test cases automatically. Second, effective test cases should satisfy the interface model of each interface. Third, the test cases should also satisfy the semantic requirements, including variable dependencies and interface dependencies.\n\nIn this paper, we propose an automated generation-based fuzzing solution FANS to find vulnerabilities in Android native system services. It first collects all interfaces in target services and uncovers deep nested multi-level interfaces to test. Then, it automatically extracts interface models, including feasible transaction code, variable names and types in the transaction data, from the abstract syntax tree (AST) of target interfaces. Further, it infers variable dependencies in transactions via the variable name and type knowledge, and infers interface dependencies via the generation and use relationship. Finally, it employs the interface models and dependency knowledge to generate sequences of transactions, which have valid formats and semantics, to test interfaces of target services. We implemented a prototype of FANS from scratch and evaluated it on six smartphones equipped with a recent version of Android, i.e., android-9.0.0_r46 , and found 30 unique vulnerabilities deduplicated from thousands of crashes, of which 20 have been confirmed by Google. Surprisingly, we also discovered 138 unique Java exceptions during fuzzing.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

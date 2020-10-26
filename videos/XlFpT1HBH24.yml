@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - SmartVerif: Push the Limit of Automation Capability of Verifying Security...'
+language: English
+recordingDate: 1600121633
+description: "SmartVerif: Push the Limit of Automation Capability of Verifying Security Protocols by Dynamic Strategies\n\nYan Xiong, Cheng Su, Wenchao Huang, Fuyou Miao, Wansen Wang, and Hengyi Ouyang, University of Science and Technology of China\n\nCurrent formal approaches have been successfully used to find design flaws in many security protocols. However, it is still challenging to automatically analyze protocols due to their large or infinite state spaces. In this paper, we propose SmartVerif, a novel and general framework that pushes the limit of automation capability of state-of-the-art verification approaches. The primary technical contribution is the dynamic strategy inside SmartVerif, which can be used to smartly search proof paths. Different from the non-trivial and error-prone design of existing static strategies, the design of our dynamic strategy is simple and flexible: it can automatically optimize itself according to the security protocols without any human intervention. With the optimized strategy, SmartVerif can localize and prove supporting lemmata, which leads to higher probability of success in verification. The insight of designing the strategy is that the node representing a supporting lemma is on an incorrect proof path with lower probability, when a random strategy is given. Hence, we implement the strategy around the insight by introducing a reinforcement learning algorithm. We also propose several methods to deal with other technical problems in implementing SmartVerif. Experimental results show that SmartVerif can automatically verify all security protocols studied in this paper. The case studies also validate the efficiency of our dynamic strategy.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

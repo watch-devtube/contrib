@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Stealthy Tracking of Autonomous Vehicles with Cache Side Channels'
+language: English
+recordingDate: 1600121949
+description: "Stealthy Tracking of Autonomous Vehicles with Cache Side Channels\n\nMulong Luo, Andrew C. Myers, and G. Edward Suh, Cornell University\n\nAutonomous vehicles are becoming increasingly popular, but their reliance on computer systems to sense and operate in the physical world introduces new security risks. In this paper, we show that the location privacy of an autonomous vehicle may be compromised by software side-channel attacks if localization software shares a hardware platform with an attack program. In particular, we demonstrate that a cache side-channel attack can be used to infer the route or the location of a vehicle that runs the adaptive Monte-Carlo localization (AMCL) algorithm. The main contributions of the paper are as follows. First, we show that adaptive behaviors of perception and control algorithms may introduce new side-channel vulnerabilities that reveal the physical properties of a vehicle or its environment. Second, we introduce statistical learning models that infer the AMCL algorithm's state from cache access patterns and predict the route or the location of a vehicle from the trace of the AMCL state. Third, we implement and demonstrate the attack on a realistic software stack using real-world sensor data recorded on city roads. Our findings suggest that autonomous driving software needs strong timing-channel protection for location privacy.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Automatic Techniques to Systematically Discover New Heap Exploitation'
+language: English
+recordingDate: 1600121970
+description: "Automatic Techniques to Systematically Discover New Heap Exploitation Primitives\n\nInsu Yun, Georgia Institute of Technology; Dhaval Kapil, Facebook; Taesoo Kim, Georgia Institute of Technology\n\nExploitation techniques to abuse metadata of heap allocators have been widely studied because of their generality (i.e., application independence) and powerfulness (i.e., bypassing modern mitigation). However, such techniques are commonly considered arts, and thus the ways to discover them remain ad-hoc, manual, and allocator-specific.\n\nIn this paper, we present an automatic tool, ArcHeap, to systematically discover the unexplored heap exploitation primitives, regardless of their underlying implementations. The key idea of ArcHeap is to let the computer autonomously explore the spaces, similar in concept to fuzzing, by specifying a set of common designs of modern heap allocators and root causes of vulnerabilities as models, and by providing heap operations and attack capabilities as actions. During the exploration, ArcHeap checks whether the combinations of these actions can be potentially used to construct exploitation primitives, such as arbitrary write or overlapped chunks. As a proof, ArcHeap generates working PoC that demonstrates the discovered exploitation technique.\n\nWe evaluated ArcHeap with ptmalloc2 and 10 other allocators, and discovered five previously unknown exploitation techniques in ptmalloc2 as well as several techniques against seven out of 10 allocators including the security-focused allocator, DieHarder. To show the effectiveness of ArcHeap's approach in other domains, we also studied how security features and exploit primitives evolve across different versions of ptmalloc2.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

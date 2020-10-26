@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - aws
+    - security
+title: 'USENIX Security ''20 - See No Evil: Phishing for Permissions with False Transparency'
+language: English
+recordingDate: 1600121964
+description: "See No Evil: Phishing for Permissions with False Transparency\n\nGüliz Seray Tuncay, Google, University of Illinois at Urbana-Champaign; Jingyu Qian and Carl A. Gunter, University of Illinois at Urbana-Champaign\n\nAndroid introduced runtime permissions in order to provide users with more contextual information to make informed decisions as well as with finer granularity when dealing with permissions. In this work, we identified that the correct operation of the runtime permission model relies on certain implicit assumptions which can conveniently be broken by adversaries to illegitimately obtain permissions from the background while impersonating foreground apps. We call this detrimental scenario false transparency attacks. These attacks constitute a serious security threat to the Android platform as they invalidate the security guarantees of 1) runtime permissions by enabling background apps to spoof the context and identity of foreground apps when requesting permissions and of 2) Android permissions altogether by allowing adversaries to exploit users' trust in other apps to obtain permissions.\n\nWe demonstrated via a user study we conducted on Amazon Mechanical Turk that mobile users' comprehension of runtime permissions renders them susceptible to this attack vector. We carefully designed our attacks to launch strategically in order to appear persuasive and verified the validity of our design strategies through our user study. To demonstrate the feasibility of our attacks, we conducted an in-lab user study in a realistic setting and showed that none of the subjects noticed our attacks. Finally, we discuss why the existing defenses against mobile phishing fail in the context of false transparency attacks. In particular, we disclose the security vulnerabilities we identified in a key security mechanism added in Android 10. We then propose a list of countermeasures to be implemented on the Android platform and on app stores to practically tackle false transparency attacks.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"
