@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - python
+title: '"Why the float did it NaN?" - Jakub Nabaglo (PyConline AU 2020)'
+recordingDate: 1599406995
+description: "Jakub Nabaglo\n\nhttps://2020.pycon.org.au/program/RTT87N\n\nFloating point numbers are designed to be magic. For most mundane tasks, your calculations ‘just work’, and you are not supposed to think too much about it.\r\n\r\nFrom time to time though, the magic stops working. The maths that’s correct on a sheet of paper no longer gives the right results when done on a computer. Results of NaN or Inf, division by zero errors, and inaccurate answers have caused great frustration to many.\r\n\r\nTo see why this happens, we will look under the hood of floating point numbers. Their structure in memory, and how it affects the accuracy of different operations. This is particularly relevant to data science, which entails lots of number crunching.\r\n\r\nWe will see why subtraction is sometimes dangerous, why you should avoid multiplying probabilities, and why you should never invert a matrix. We will explore the tools Python, NumPy, and SciPy give us to avoid these pitfalls, such as LU decomposition and the LogAddExp trick.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nFri Sep  4 12:45:00 2020 at Curlyboi"

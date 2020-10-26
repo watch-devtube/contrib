@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - aws
+    - containers
+    - kubernetes
+    - python
+title: 'Piping Rain in Python - Adventures in a minute latency Radar Pipeline'
+recordingDate: 1599524175
+description: "Tishampati Dhar\n\nhttps://2020.pycon.org.au/program/ZKKE98\n\nIn Australia we are used to live radar images provided by Bureau on Meterology (BoM). This agency provides forecasting and myriads of other services and has around 500 million in Annual budget. This is not the case in developing countries like Kenya where the last operational weather radar instrument was seen some 30 years ago. \r\n\r\nFrustrated with the lack of live radar while in Nairobi a couple of engineers put together a passive radar system with an SDR and an Intel NUC. The data from this system travels via S3 and DynamoDB from screen capture tools on the endpoint device. Eventually gets exposed via API's to web and mobile apps running on some EC2 boxes ( no fancy kubernetes cluster to see here) . There are also a couple of Cron Jobs acting as Twitter and WhatsApp bots for followers. All this scratching your own itch infrastructure has slowly improved in uptime to 70% and supports around 5000 regular users. The entire data pipeline and web applications are written as set of small Python Services using Flask, OpenCV and ImageMagick.\r\n\r\nThis talk will describe how the pipeline was put together incrementally with intermediate outputs and rapidly deployed using a basic `git pull` based workflow. Along the way we will enumerate the numerous gotchas including the excessive S3 List usage, power failures on sensor site and dogpiling Twitter bots.  The budget for the operations remains 100's of dollars per month.\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nFri Sep  4 10:25:00 2020 at Obvious"

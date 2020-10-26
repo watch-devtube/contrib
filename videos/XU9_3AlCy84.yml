@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - python
+title: 'Practicality Beats Purity: The Zen of Python’s Escape Hatch?'
+recordingDate: 1599483243
+description: "Christopher Neugebauer\n\nhttps://2020.pycon.org.au/program/VVNEZR\n\nWhen you type “import this” into a Python interpreter, you get PEP-20, 20* aphorisms that describe what “Good” Python code looks like. Most of these are prescriptive, and have been used to settle countless arguments about how Python should grow, or how new ideas should be implemented.\r\n\r\nBut in these 20 aphorisms (which you may know as the “Zen of Python”), there are some inherent contradictions. \r\n\r\nWhen “explicit is better than implicit” and “simple is better than complex”, what does it mean when being explicit means you must introduce complexity? \r\n\r\nWhen “readability counts” and “special cases aren’t special enough to break the rules”, what does it mean when making code more readable presents a special case in your codebase?\r\n\r\nThe answer lies in one often-forgotten aphorism: “practicality beats purity”. When you can weigh practicality as a factor, you can decide that other factors are restrictive, and discard them as “impractical”. This idea shows up in many places in Python:\r\n\r\nType hints can help you to be explicit, but they introduce complexity. Focusing on practicality means you can adopt type hints only when you need them. Decorators are simple, but can be used to introduce ambiguity. In many cases, the practical benefits of decorators outweigh their potential for misuse.\r\n\r\nBut how far can the pursuit of practicality let you go? Does practicality let you treat the other 19 aphorisms as optional? Does practicality give you an escape hatch from the rest of the Zen of Python? \r\n\r\nIn this talk, we’ll look at how practicality has been a guiding principle in the evolution of Python. We’ll look at how to weigh practicality in the face of the other 19 aphorisms of PEP-20, and we’ll look at how focusing on practicality can guide you towards these other attributes of good Python.\r\n\r\n--- \r\n(* per PEP-20, the Zen of Python contains “20 aphorisms, only 19 of which have been written down.”)\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\nPython, PyCon, PyConAU, PyConline\n\nSat Sep  5 10:25:00 2020 at Curlyboi"
