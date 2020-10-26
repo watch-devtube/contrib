@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - java
+title: 'Reducing OpenJDK Java Garbage Collection times with stack allocation'
+language: English
+recordingDate: 1594537427
+description: "by Nikola Grcevski\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1302/reducing_gc_times.webm\n\nIn this talk we'll explore ways that the JVM can reduce the object allocation rate of Java programs automatically by performing stack allocation of objects that are known to be local to a method, or in compiler terms non-escaping. The discussion is focused on employing the escape analysis optimization in the OpenJDK Hotspot C2 compiler to determine which Java objects can be stack allocated, and how this optimization can reduce pressure on the Java JVM garbage collectors.\n\n\nWe'll show some results on how various real world applications can benefit from such optimizations and describe the methodology of how we prototyped this in OpenJDK. Our work is only in prototype state at this moment and we are looking for more data to understand how broadly applicable this optimizations is. This work wouldn't be possible without free open source access to Java.\n\nRoom: H.1302 (Depage)\nScheduled start: 2020-02-01 14:20:00"

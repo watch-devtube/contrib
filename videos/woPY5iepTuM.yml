@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+title: 'The unsupervised free CAT for low resource languages Building a pipeline for the communities'
+language: English
+recordingDate: 1594796789
+description: "by Alberto Massidda\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.120/clc_the_unsupervised_free_cat_for_low_resource_languages.webm\n\nWe present: 1) a full pipeline for unsupervised machine translation training (making use of monolingual corpora) for languages with low available resources; 2) a translation server making use of that unsupervised MT with an HTTP API compatible with Moses toolkit, a once prominent MT system; 3) a Docker packaged version of the EU funded free Computer Aided Translation (CAT) tool MateCAT for ease of deployment.\nThis full translation pipeline enables a non technical user, speaking a non-FIGS language for which there is scarcity of parallel corpora, to start translating documents and software following translation industry standards.\nLocalization within community suffers from the fragmentation of technologies (too wide wedge between commercial Computer Aided Translation tools and free ones), available language resources (making difficult to train a Machine Translation) and lack of clear and robust pipelines to get started.\nLow resource language communities suffer the most, since MT systems require training corpora of millions of words and industry has settled to expecting the massive corpora available to FIGS (French, Italian, German, Spanish) languages.\nMoreover, the community suffers from a lack of adoption of established technologies and workflows, leading to reinventing the wheel and suboptimal efforts’ outcomes.\nToday we would like to present a connector for the implementation of an unsupervised MT (made by Artetxe et al.), that claims a BLEU of 26 on limited language resources (which is enough as a support system) integrated with MateCAT, an industry level, free, web based tool funded by EU, in order to provide a more viable alternative to resorting to Google Translate and commercial LSPs.\n\nRoom: AW1.120\nScheduled start: 2020-02-01 14:00:00"

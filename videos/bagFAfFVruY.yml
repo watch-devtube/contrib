@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - testing
+    - javascript
+title: 'Check Yourself Before You Wreck Yourself Auditing and Improving the Performance of Boomerang'
+language: English
+recordingDate: 1594236828
+description: "by Nic Jansma\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/webperf_boomerang_optimisation.webm\n\nBoomerang is an open-source Real User Monitoring (RUM) JavaScript library used by thousands of websites to measure their visitor's experiences. The developers behind Boomerang take pride in building a reliable and performant third-party library that everyone can use without being concerned about its measurements affecting their site.  We recently performed and shared an audit of Boomerang's performance, to help communicate its \"cost of doing business\", and in doing so we found several areas of code that we wanted to improve. We'll discuss how we performed the audit, some of the improvements we've made, how we're testing and validating our changes, and the real-time telemetry we capture for our library to ensure we're having as little of an impact as possible on the sites we're included on.\nBoomerang is an open-source Real User Monitoring (RUM) JavaScript library used by thousands of websites to measure their visitor's experiences.\n\n\nBoomerang runs on billions of page loads a day, either via the open-source library or as part of Akamai's mPulse RUM service.  The developers behind Boomerang take pride in building a reliable and performant third-party library that everyone can use without being concerned about its measurements affecting their site.\n\n\nRecently, we performed and shared an audit of Boomerang's performance, to help communicate the \"cost of doing business\" of including Boomerang on a page while it takes its measurements.  In doing the audit, we found several areas of code that we wanted to improve and have been making continuous improvements ever since.  We've taken ideas and contributions from the OSS community, and have built a Performance Lab that helps \"lock in\" our improvements by continuously measuring the metrics that are important to us.\n\n\nWe'll discuss how we performed the audit, some of the improvements we've made, how we're testing and validating our changes, and the real-time telemetry we capture on our library to ensure we're having as little of an impact as possible on the sites we're included on.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-01 14:00:00"

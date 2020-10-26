@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Indexing Encrypted Data Using Bloom Filters'
+language: English
+recordingDate: 1595574166
+description: "by Claude Warren\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2215/bloom_filters.webm\n\nBloom filters are a probabilistic data structure that tell us where things are not.  They also utilize one way hash functions to build a probabilistic representation of an object.  This talk will address how this structure can be used to provide an index into encrypted data that can be made publicly available with minimal risk.\nTalk will cover how bloom filters are constructed, the Flat Bloofi indexing implementation and how to take the properties to be indexed and create Bloom filters, and then how to associate the bloom filter with the encrypted object in the index.\n\n\nThe result is an extremely fast index that can retrieve data items containing partial keys.\n\n\nAfter this talk participants will be able to provide search capabilities across a collection of encrypted objects.\n\n\nCode examples will be provided.\n\nRoom: H.2215 (Ferrer)\nScheduled start: 2020-02-01 14:40:00"

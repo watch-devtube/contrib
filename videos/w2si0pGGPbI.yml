@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HashDNS and FQDNDHCP IPv6 DNS configuration made easy'
+language: English
+recordingDate: 1594278221
+description: "by Renzo Davoli\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/dns_hashdns.webm\n\nWould you like a DNS server for IPv6 where adding a new node is as simple as typing in its name?\nIf the answer is yes, try HashDNS.\nIPv6 autoconfiguration methods can give addresses to interfaces but do not provide any means of configuring the DNS. So autoconfiguration is suitable for clients. If a host has to act as a server, it must have a fully qualified domain name and the DNS service has to map its name to its IP address.\n\n\nIn the Internet of Thread scenario, the number of network nodes can be orders of magnitude higher than before, as each process or thread can be a node. This idea of hash based IPv6 addresses is a viable solution to the problem to manage the DNS resolution in IoTh environments.\n\n\nThe host part of an IPv6 address can be computed as the result of a hash function computer on the fully qualified domain name.\n\n\nIn this way it is possible to write a DNS server able to resolve the addresses of any hostname in a sub-domain provided the network prefix of that sub-domain.\n\n\nThe installation of a new node of the network (computer, namespace, IoTh process) is as simple as providing it with its IPv6 address (the one obtained by concatenating the network prefix and the host address computed by the hash function).\n\n\nThere is no need to change the configuration of the DNS.\n\n\nActually the installation of a new node (or its renaming) is even simpler than that. The host can use a DHCP service designed to get the right address from the DNS server given its fully qualified domain name.\n\n\nSo a system administrator has nothing to do more than assigning the new node its name. (They have just to baptize the new node)\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-01 10:10:00"

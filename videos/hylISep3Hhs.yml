@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Dial your Networking Code up to 11 Vectorizing your network app to break the performance barrier'
+language: English
+recordingDate: 1594451089
+description: "by Bruce Richardson and Harry van Haaren\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/dial_your_networking_code_up_to_11.webm\n\nModern CPUs provide a wide variety of Single-instruction-multiple-data (SIMD) instructions, or vector instuctions, for operating on larger blocks of data than with regular instructions. Though thought of by many programmers primarily as instructions for doing calculations in parallel on arrays of data, these vector instructions can actually be used in other ways to accelerate packet processing applications. This talk goes through a number of examples in open-source projects, such as DPDK and OVS, where vector instructions have been used to boost performance significantly, and explains the general techniques used that can be applied to other applications. The talk focuses on the work done on DPDK and OVS to leverage the SSE and AVX instruction sets for packet acceleration. It shows how the different tasks to be performed in those applications can be mapped to SIMD instructions, and presents general guidelines on how to think about packet processing work from a vectorization viewpoint. It also discusses some considerations in application design so as to allow the app to run with best performance on a variety of platforms, each of which may have different instruction sets available.\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-01 15:40:00"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'SWIM - Protocol to Build a Cluster SWIM gossip protocol, its implementation, and improvements'
+language: English
+recordingDate: 1595055914
+description: "by Vladislav Shpilevoy\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.1.105/swim.webm\n\nSWIM - is a relatively new protocol to discover and monitor cluster nodes, to disseminate events and data between them. The protocol is extremely lightweight, decentralised, and its speed and load per node do not depend on cluster size.\n\n\nThe protocol solves several tasks at once. First - build and keep up to date topology of a cluster without explicit configuration. The task is quite intricate because:\n\n\n❮ul❯\n❮li❯new just started nodes know nothing about others, and they should somehow discover them;❮/li❯\n❮li❯already working nodes can fail, and it should be detected so as to change a master, or evict an unrecoverable node from the cluster, or restart it.❮/li❯\n❮/ul❯\n\n\nAccording to the protocol, cluster nodes broadcast packets and send p2p ping requests. Broadcast helps to discover new nodes, p2p pings help to detect failure of a known node.\n\n\nA second task - events dissemination in a cluster. Event is a node failure; UUID change; IP address update; new node appearance - anything that affects cluster state. Sometimes users define their own event types. When a node learns about an event, it needs to disseminate the event to other nodes. SWIM protocol describes an algorithm how to detect and disseminate events, and gives the following guarantees:\n\n\n❮ul❯\n❮li❯it takes a constant time to learn about an event on at least one node in the cluster;❮/li❯\n❮li❯it takes logarithmic from cluster size time to disseminate that event to each node of the cluster.❮/li❯\n❮/ul❯\n\n\nIn the talk I tell about how SWIM works, how and with which essential improvements it was implemented, how to use SWIM, and what are the practical performance results.\n\n\nImplementation is a part of Tarantool DBMS. Tarantool is the biggest Russian Open-Source DBMS. Tarantool currently goes toward better scalability, improvements in horizontal scaling, in cluster-wide calculations, and better cluster management. In scope of that roadmap SWIM protocol implementation was recently released.\n\nRoom: K.1.105 (La Fontaine)\nScheduled start: 2020-02-02 11:00:00"

@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - web
+    - architecture
+    - functional
+    - embedded
+title: 'WPE, The WebKit port for Embedded platforms'
+language: English
+recordingDate: 1594796625
+description: "by Philippe Normand\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.218A/ema_wpe.webm\n\nWPEWebKit is a WebKit flavour (also known as port) specially crafted for embedded platforms and use-cases. During this talk I would present WPEWebKit's architecture with a special emphasis on its multimedia backend based on GStreamer. I would also demonstrate various use-cases for WPE, spanning from Kiosk apps and Set-top-box user-interfaces to advanced scenarios such as Web overlays for live TV broadcasting.\nWPEWebKit is designed for simplicity and performance. It allows application developers to easily deploy hardware-accelerated fullscreen (or not) browsers with multimedia support, small (both in memory usage and disk space) and light as possible, and implementing the most relevant HTML specifications.\n\n\nTraditionally WebKit ports are associated with a specific widget toolkit library (GTK, Qt, Cocoa,...) but WPEWebKit breaks with this monolithic design and thus enables a new range of use-cases. By delegating the final web page rendering to dedicated view-backends, WPEWebKit allows flexible and tight integration in a wide range of hardware platforms. We also provide a Qt5 QML plugin that can easily replace the deprecated QtWebKit-based module.\n\n\nWPEWebKit leverages GStreamer for its multiple multimedia backends, ensuring your WPEWebKit-based browser supports zero-copy hardware video decoding on the most common embedded platforms such as the Raspberry Pi, i.MX6 and i.MX8M SoCS.\n\n\nWPEWebKit can also be used in pure GStreamer applications! Thanks to the GstWPE plugin, web-pages can be \"injected\" in GStreamer pipelines as audio and video streams. This new plugin thus enables use-cases such has HTML overlays.\n\n\nWPEWebKit is an open source project with a growing community, and it is developed within the ecosystem of the WebKit project, which powers many open source and proprietary web browsers.\n\nRoom: UD2.218A\nScheduled start: 2020-02-01 15:00:00"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+title: 'Knocking down the barriers of ORDER BY LIMIT queries with MariaDB 10.5'
+language: English
+recordingDate: 1594710171
+description: "by Varun Gupta\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2214/mariadb_order_by_limit.webm\n\nThe talk will start with a recap of how MariaDB(or MySQL) handles the\nORDER BY LIMIT optimization and examples demonstrating why the current\noptimizer is not good enough.\n\n\nFurther, the talk will describe how the optimizer in MariaDB 10.5 mostly\nsolves the issue, the remaining unresolved issues and how DBAs can tackle them.\nFULL DESCRIPTION:\n\n\nFor the first part of the talk, I will discuss the possible strategies by\nwhich ORDER BY LIMIT optimization is handled in MariaDB (or MySQL)\n\n\nThe strategies are:\n1) Using an ordered index (ref, range or index scan)\n2) Using filesort on the first non-const table\n3) Using filesort on the temporary table, that stores the output of the join\n\n\nThen I will discuss how the current MariaDB/MySQL optimizer makes the choice between the strategies and show\nthe situations where it will never get a good query plan\n\n\nFor the second part of the talk, I will describe how a new cost-based\noptimization in MariaDB 10.5 solves the above issue.\nThe talk will contain details about how the costs were taken into account\nduring the optimization phase. Further, with the help of examples\nI would demonstrate how the execution differs for this new optimization\nand how this leads to improved performance for ORDER BY LIMIT queries.\n\nRoom: H.2214\nScheduled start: 2020-02-01 14:40:00"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+    - kubernetes
+title: 'Weave Net, an Open Source Container Network Five years with no central point of control'
+language: English
+recordingDate: 1595574316
+description: "by Bryan Boreham\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/weave_net_an_open_source_container_network.webm\n\nA tour of the internals of Weave Net, one of the most popular container networks:\ndesign challenges and lessons learned from five years in the wild. Including\nKubernetes integration and how CNI was born.\n\n\nWeave Net is written in Go, using many Linux kernel features such as veths, bridges and iptables.\nAimed at developers rather than network engineers, Weave Net tries to be self-configuring and\nfind the best available transport between nodes. The control plane operates via gossip,\nwith no central point of control.\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-01 12:30:00"

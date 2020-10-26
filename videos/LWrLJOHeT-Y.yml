@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'ngspice open source circuit simulator dev update and electrothermal simulation'
+language: English
+recordingDate: 1594236790
+description: "by Holger Vogt\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2213/ngspice.webm\n\nAn update of the development activities will be presented leading to ngspice-32. Its interface to KiCad has been extended, PSPICE device model compatibility and OpAmp convergence are improved, several bugs have been fixed.\n\n\nThe VBIC bipolar model and the VDMOS power MOS model now incorporate the self heating effect.\n\n\nThis will lead to the second part of the talk: ngspice may be very well used to simulate thermal device behavior. Heat generation, transport and temperatures are translated into electrical signals. Thus we simulate two circuits: The electrical circuit with its power losses, and the thermal circuit withany resulting device heating, its feedback on the electrical behavior, and the external cooling measures that need to be provided. Some ciruit examples will be given.\n\nRoom: H.2213\nScheduled start: 2020-02-01 10:55:00"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+    - architecture
+title: 'Fundamental Technologies We Need to Work on for Cloud-Native Networking'
+language: English
+recordingDate: 1595660646
+description: "by Magnus Karlsson\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/fundamental_technologies_we_need_to_work_on_for_cloud_native_networking.webm\n\nMany people and companies are betting that cloud-native networking\nwill be the preferred way of implementing network functions in an easy\nand scalable way. It is based around the tenants of modularity, high\navailability, scalability, low-overhead networking, and ease of\ndeployment. And a number of companies such as Google has shown that it\nis really possible to achieve these properties with it. But the\narchitectural basis of cloud-native is quite different from the ones\nof virtualization-based NFV, but nevertheless, in many cases we\ncontinue to use the software packages that were designed for that\ndrastically different architecture. The question is, how well does\nthe current set of open source projects used in NFV work in a\ncloud-native environment and what needs to change in them in order to\nrealize the cloud-native vision?\n\n\nIn this presentation, I will define what I mean with cloud-native\nnetworking and from that derive the system requirements needed to realize\nthat vision. Based on these requirements, we can deduce a number of\nbasic architectural properties, features and services that are needed\nin the system to be able to satisfy these requirements. Then I will go\nthrough the most popular open source projects such as Linux, DPDK and\nOVS and see how they satisfy these architectural properties and\nfeatures. The main contribution of this presentation will be to show\nwhat we need to work on within these SW packages in order to realize\ncloud-native networking. Or maybe we need completely new SW projects\nto be able to achieve this.\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-01 09:30:00"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'DNS Management in OpenStack What is the OpenStack DNS API?'
+language: English
+recordingDate: 1595055778
+description: "by Graham Hayes\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/dns_openstack.webm\n\nAll major clouds have integrated DNS management these days, and OpenStack is one of them. We will run through the OpenStack DNS (Designate) project - how it works, why we laid it out the way we did, how you can use it, and how other OpenStack components can leverage it.\nWe will run through the general architecture of the project, and show how we can remain a simple control layer over multiple DNS servers and service providers.\n\n\nWe will show how you can run Designate stand alone, as a multi tenant API for managing DNS inside your company, and how you can use the ability to have multiple pools of servers available for multiple purposes.\n\n\nFinally we will show the myriad of both OpenStack and other Open Source software integrations for DNS management, and DNS-01 ACME validation.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-01 09:35:00"

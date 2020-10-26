@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - startup
+    - java
+title: 'Hacking on GraalVM: A (very) Rough Guide'
+language: English
+recordingDate: 1595055822
+description: "by Andrew Dinn and Josh Matsuoka\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1302/hacking_graalvm.webm\n\nThe GraalVM project provides, among other options, a means to deliver\nJava programs as compact, self-contained, fast-startup native images.\nGraalVM has been moving from research to development for quite a few\nyears now. However, it is only just beginning to be properly integrated\nwith the latest OpenJDK releases and there is still much to be done to\nget it fully productized and to improve usability and performance.\n\n\nThis talk will recount our joint experiences of trying to add new and/or\nimproved capabilities to the the GraalVM code base. Our story will\nstumble gracelessly from one pitfall to the next cock-up in the hope\nthat by exposing and explaining our own history of lamentable error and\noccasional failure you will be able to avoid being doomed to repeat it.\n\n\nWe will provide a guide to getting started and building GraalVM, an\noverview of the how the compiler, native image generator and other\nelements of the GraalVM toolkit operate plus a map of what code sits\nwhere in the source tree and how it fits together and offer tips for\ndebugging the Graal compiler and native image generator -- all the tasks\nyou will need to perform in order to attain a vantage point from which\nto change or add to the current functionality.\n\nRoom: H.1302 (Depage)\nScheduled start: 2020-02-01 13:50:00"

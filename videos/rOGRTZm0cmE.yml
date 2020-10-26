@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+title: 'Using SELinux with container runtimes'
+language: English
+recordingDate: 1594364604
+description: "by Lukas Vrabec\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/security_using_selinux_with_container_runtimes.webm\n\nLukas Vrabec built a new standalone tool, udica, for generating SELinux policy profiles for containers based on automatic inspecting these containers. We will focus on why udica is needed in the container world and how it can make SELinux and containers work better together.  We will show real examples where SELinux separation for containers had to be turned off because the generic SELinux type container_t was too tight. With a tool like “udica”, users and developers can easily customize the policy with limited SELnux policy writing skills. Come to see how easy also you can create custom SELinux policy for your containers!\nThis talk will explain how SELinux works with containers.  We will show how to enable/disable SElinux using multiple different container runtimes and define the default types.  One issue with these types is that they are tough to customize.  The two default types for running containers are container❮em❯t which is a fully confined domain, which eliminates any use of the host files unless they are relabeled.  Or spc❮/em❯t, which is the type containers run with when SELinux is disabled for container separation, --privileged mode.  As an example, If you had a container that you wanted to be able to gather the logs from /var/log on the host and send them to a centralized server, you have to disable SELinux separation.\n\n\nWriting custom policy for each container that needed additional access would be very difficult and require a container policy writer.\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-01 16:00:00"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: 'Custom Crypto Policies by Examples Management of crypto algorithm restrictions'
+language: English
+recordingDate: 1594451007
+description: "by Tomáš Mráz\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/security_custom_crypto_policies.webm\n\nManagement of allowed cryptographical algorithms to disallow algorithms not allowed due to weaknesses or restrictions by certification standards is complicated task. The talk will introduce system-wide crypto-policies concept and implementation as an attempt to help system administrators with this task.\n\n\nThis talk replaces \"OSINT\" talk which was schedulled initially, but David Busby could not attend on the short notice.\nThe system-wide crypto-policies were introduced in Fedora 21 in 2014. Since that time the tool evolved a lot especially with the recent introduction of run-time generation of configuration from a policy definition file and introduction of sub-policy concept. The feature is called Custom crypto policies. The crypto-policies nowadays help management of crypto algorithms not only in Fedora but also in Red Hat Enterprise Linux 8. It will be shown how the policy definition file looks like and how it is converted to the actual crypto library configuration.\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-01 10:00:00"

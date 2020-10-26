@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - containers
+title: 'Graffiti A historical, distributed graph engine'
+language: English
+recordingDate: 1595487753
+description: "by Sylvain Baubeau\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.121/graph_graffiti.webm\n\nGraffiti is the graph engine of Skydive - an open source networking analysis tool. Graffiti was created from scratch to provide the features required by Skydive : distributed, replicated, store the whole history of the graph, allow subcribing to events on the graph using WebSocket and visualization.\nSkydive (https://skydive.network) is an open source analysis tool. It collects information about an infrastructure topology - such as network interfaces, Linux bridges, network namespaces, containers, virtual machines, ... and store them into a graph database called Graffiti (https://github.com/skydive-project/skydive/tree/master/graffiti)\n\n\nThe graph is :\n\n\n❮pre❯❮code❯- distributed : some agents only have a portion of the graph\n- replicated : for high availability and load distribution\n- historical : every change on the graph is archived, allowing retrieval of the graph at any point in time or getting all the revisions of a set of nodes and edges during a period of time\n❮/code❯❮/pre❯\n\nA custom implementation of the Gremlin language is used to query the graph, with some additional steps to specify the time context of the query for instance.\n\n\nIn addition to the core engine, a WebSocket based user interface - based on D3JS - is available to visualize and interact with the graph.\n\n\nThis presentation will showcase a demo of Graffiti and try to advocate its use in your own project.\n\nRoom: AW1.121\nScheduled start: 2020-02-01 14:25:00"

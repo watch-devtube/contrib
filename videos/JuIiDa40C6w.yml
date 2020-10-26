@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - api
+    - graphql
+    - rest
+    - ml
+title: 'Weaviate OSS Smart Graph feature updates, demo and use cases'
+language: English
+recordingDate: 1595401428
+description: "by Bob van Luijt\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.121/graph_weaviate.webm\n\nWeaviate is an open-source smart graph that aims to allow anyone, anywhere, any time to create their own semantic search engines, knowledge graphs or knowledge networks. Weaviate is RESTful and GraphQL API based and built on top of a semantic vector storage mechanism called the contextionary. Because all data is stored in the vector space, Weaviate is ideal for;\n- Semantically search through the knowledge graph.\n- Automatically classify entities in the graph.\n- Create easy to use knowledge mappings.\n\n\nBecause the use of formal ontologies are optional, Weaviate can be used to create a P2P knowledge network which we want to present during this conference.\n\n\nThis is a follow up after the initial design was shared during last year's FOSDEM.\n❮h1❯Problem❮/h1❯\n\nCreating a knowledge graph can be a complex endeavor, let alone the integration of semantic search models. Bain &amp; Company research under US enterprise CTO's shows that 59% of them believe they lack the capabilities to generate meaningful business insights from their data, and 85% said it would require substantial investments to improve their data platforms.\n\n\n❮h1❯Solution❮/h1❯\n\nWeaviate aims anyone to create large, enterprise-scale knowledge graphs as straight forward as possible. Weaviate's feature set allows anyone to;\n- Semantically search through the knowledge graph.\n- Automatically classify entities in the knowledge graph.\n- Create easy to use knowledge mappings.\n\n\n❮h1❯Weaviate's Contextionary❮/h1❯\n\nWeavite's Contextionary is the semantic vector storage mechanism that stores data -unlike traditional storage mechanisms- based on its semantic meaning. For example, if someone stores information about a company with the name Apple, this data object would be found closely related to concepts like the iPhone.\n\n\nBecause of the algorithmic use (as opposed to retraining) of the pre-trained machine learning model, Weaviate is able to learn new concepts fast and near-realtime. This allows the user to update and manipulate the knowledge graph directly.\n\n\n❮h1❯Demo &amp; Use cases❮/h1❯\n\nDuring the session, we want to show a few -recent- use cases to demo how Weaviate can be used. The demo will include;\nquerying;\nsemantic querying;\nadding concepts;\ngoing from an ontology to a schema;\nand more.\n\n\n❮h1❯Knowledge network❮/h1❯\n\nBecause of Weaviate's contextionary, a formal ontology is optional (e.g., \"a company with the name Netflix\" is semantically similar to \"a business with the identifier Netflix Inc.\") this allows multiple Weaviate to connect and communicate over a peer to peer (P2P) network to exchange knowledge. Aka, the knowledge network. During the session, we want to demonstrate the first prototype of this network.\n\n\n❮h1❯more information❮/h1❯\n\nmore information can be found on our website: https://www.semi.technology/documentation/weaviate/current/\n\nRoom: AW1.121\nScheduled start: 2020-02-01 17:40:00"

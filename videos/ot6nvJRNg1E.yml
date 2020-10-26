@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - cloud
+    - security
+    - architecture
+title: 'Lightweight virtualization in the Cloud and at the Edge hypervisors gone rogue'
+language: English
+recordingDate: 1595401388
+description: "by Anastassios Nanos and Babis Chalios\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/vai_lightweight_virt_at_the_edge.webm\n\nRunning applications in the Cloud has changed the way users develop and ship\ntheir code. Quite recently, the community has given rise to microservices-based\napproaches, towards solutions that follow the paradigm of Platform-, Software-,\nand Function-as-a-Service (PaaS, SaaS, and FaaS respectively).\n\n\nTo accommodate user demands, while maintaining security and isolation, Cloud\nvendors have adopted a hybrid approach where user workloads are being executed\nin lightweight sandboxed environments, where micro-hypervisors provide the\nisolation and container-based images facilitate application deployment. As a\nresult, lighter virtualization stacks remains a key aspect to maximize\nperformance in a multi-tenant but isolated environment.\n\n\nTo this end, we started experimenting with various Virtual Machine Monitors\n(VMMs) that could provide the ideal trade-off between performance, flexibility\nand application portability. In this talk, we present the design of a minimal\nVMM, based on KVM, residing entirely in the Linux Kernel and showcase the\nmerits and shortcomings (minimal footprint, security concerns), for each\nuse-case (Cloud FaaS, edge multi-tenancy). Additionally, we present our\nexperience from porting Firecracker to a low-power device (RPi4) demonstrating\nthe merits of lightweight hypervisor stacks for flexible application execution\nat the edge.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-02 11:00:00"

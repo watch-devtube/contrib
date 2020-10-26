@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'The Different Ways of Minimizing ANY'
+language: English
+recordingDate: 1594969464
+description: "by Edward Lewis\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/dns_minimizing_any.webm\n\nThe DNS Protocol has features that have grown to become liabilities.  The query type \"ANY\" is one.  Earlier this year a published RFC document describes how a DNS server may respond to such queries while reducing the liability.  But the document does not define a definitive means for a server to signal that it is differing from the original protocol.  This presentation measures of the impact of having no definitive means specified and examines the \"fear, uncertainty, and doubt\" of lacking explicit signals.\nThe \"minimal ANY responses\" RFC (Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY, a.k.a. RFC 8482) results in about 1% of the TLD nameservers indicating they are minimizing ANY responses.\n That's (only) about 250 cases.\n What is troubling is that there are about 9 different responses observed to indicate the response is \"minimized\"\n 9 different ways in just 250 samples, \"fuzzing\" the protocol\n The morale of this tale is that \"fuzzying\" the protocol is worrisome. \_(Not that minimizing ANY is a bad thing.)\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-01 13:05:00"

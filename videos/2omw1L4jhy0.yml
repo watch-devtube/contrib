@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - architecture
+    - java
+title: 'The Neo4j Graph Algorithms Library: An Overview'
+language: English
+recordingDate: 1595228588
+description: "by Max Kießling\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.121/graph_neo4j_algos.webm\n\nGraph algorithms play an increasingly important role in real-world applications. The Neo4j Graph Algorithms library contains a set of ~50 graph algorithms covering a lot of different problem domains. In our talk, we’ll present the architecture of the library and demonstrate the different execution phases using a real world example.\nGraph algorithms play an increasingly important role in real-world applications. Use-cases that we see in the wild are related to fraud detection, fraud detection, retail recommendation and identifying influencers for marketing campaigns. The Neo4j Graph Algorithms library contains a set of ~50 graph algorithms covering the above-mentioned problem domains.\n\n\nRunning a graph algorithm in Neo4j involves three essential steps: loading the graph from the database in an optimized in-memory format, executing the algorithm, and streaming or writing of results. For the user, these steps are hidden behind single procedure calls, integrated in the Cypher query language.\n\n\nIn our talk, we will explain and demonstrate what happens in the system when a user calls an algorithm procedure. This involves scanning Neo4j store files, constructing our in-memory graph representation and executing an algorithm via our Java Graph API.\n\n\nAttendees will learn how to setup and use the Neo4j Graph Algorithms Library. Furthermore, they will get a good understanding of how the library works internally and how to tune it for specific use-cases.\n\nRoom: AW1.121\nScheduled start: 2020-02-01 14:50:00"

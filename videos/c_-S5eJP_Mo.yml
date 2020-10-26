@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - architecture
+title: 'Rethinking kubernetes networking with SRv6 and Contiv-VPP'
+language: English
+recordingDate: 1594883105
+description: "by Ahmed Abdelsalam, Miroslaw Walukiewicz, Filip Gschwandtner and Daniel Bernier\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/rethinking_kubernetes_networking_with_srv6.webm\n\nKubernetes (k8s) is currently the de-facto standard for containers orchestration. However, K8s does not provide any solution for handling containers networking. Instead, it offloads the networking to third-party certified plugins called CNI plugins. Contiv-VPP is a k8s CNI plugin that offers fast I/O by leveraging the carrier-grade capabilities of VPP and DPDK in the dataplane.\n\n\nThe adoption of containers and microservices calls for IPv6 to provide addressing and reachability for such massive number of endpoints. SRv6 leverages the IPv6 dataplane to provide overlay networking, traffic engineering, load balancing, network policy and service chaining.\n\n\nIn this talk, we present an SRv6-based solution for k8s networking. We will show how SRv6 is used for pod-to-pod communication, k8s services and service function chaining (SFC), and how SRv6 solves several k8s networking challenges. We will also show the integration of our solution in Contiv-VPP. This solution is the result of combined effort between Bell Canada, Cisco and Pantheon.tech.\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-01 13:10:00"

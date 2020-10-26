@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ux
+    - testing
+title: 'unwind(8) A privilege-separated, validating DNS recursive nameserver for every laptop'
+language: English
+recordingDate: 1595228693
+description: "by Florian Obser\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/dns_unwind.webm\n\nDNS is easy. You type fosdem.org in your browser's address bar, hit enter and you will be greeted by your favorite open-source event's start page. Actually...\nWe will introduce unwind(8) - an always-running, validating DNS recursive nameserver, answering queries on localhost (127.0.0.1). We will explain its privilege-separated design and show that it is secure to run this daemon by default. We will then show how its novel approach of observing changes in network location and actively probing the quality of the local network improve the user experience in DNS resolution. The focus will be on laptops that move through many networks, some good, some bad, some outright hostile.\n\n\nWe will compare unwind(8) to prior solutions and show how its design enables it to run without user intervention.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-01 12:10:00"
