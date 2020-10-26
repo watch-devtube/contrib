@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - performance
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+    - security
+title: 'Container Isolation via Virtualization: Don''t Forget to Shr... Dan Williams & Hsuan-Chi (Austin) Kuo'
+language: English
+recordingDate: 1599237046
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nContainer Isolation via Virtualization: Don't Forget to Shrink the Guest - Dan Williams, IBM & Hsuan-Chi (Austin) Kuo, UIUC \n\nVirtualization must be lightweight to be useful for improving the isolation of container runtimes (e.g., Kata containers): adding traditional (heavyweight) virtualization layers to container primitives would, for example, result in unacceptable boot time and performance for important use cases like serverless computing. Fortunately, the community has made great strides towards lightweight virtualization with new VM monitors (e.g., AWS Firecracker) and associated tooling (e.g., Weaveworks Ignite). However, there has been relatively little attention paid to the guest kernel itself, which remains unnecessarily bloated, affecting both performance and security. We will make the case for guest kernel specialization via kernel configuration and highlight key challenges in applying these techniques in a sandboxed container context.\n\nhttps://sched.co/ZelG"

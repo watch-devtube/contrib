@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - containers
+    - kubernetes
+title: 'Nondestructive Forensics: Debugging K8s Services Without Disturbing State - Alex Leong, Buoyant'
+language: English
+recordingDate: 1599237046
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nNondestructive Forensics: Debugging K8s Services Without Disturbing State - Alex Leong, Buoyant \n\nIf debugging distributed systems is like solving a murder mystery, then we need a way to gather clues without disturbing the scene of the crime. Some application errors (resource leaks and race conditions in particular) can take a long time to reproduce; other errors might occur unexpectedly in production. When this happens, we want to gather as much information as possible without restarting the pod. Tools like detailed logging, debug sidecars, and Linkerd's \"tap\" are only usable if we had the foresight to include them before the error occurred. Ephemeral containers promise to be a useful tool, but are currently in alpha. We will compare these techniques and then see how we can use direct access to the node to enter a pod's network namespace and do detailed network debugging without needing to restart any running containers.\n\nhttps://sched.co/Zeqs"
