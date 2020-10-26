@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - storage
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+title: '#bbuzz: Stephan Ewen – From Stream Processor to Event-driven Database with Stateful Functions'
+recordingDate: 1593705643
+description: "More: https://berlinbuzzwords.de/session/stream-processor-event-driven-database-stateful-functions\n\nOrchestration frameworks like Kubernetes have made dealing with stateless applications very easy. But for stateful applications, we are still clinging to the ancient wisdom that state shall be someone else's problem: just put it in a database! Because of that, we are still struggling with the same issues of data consistency and complex failure semantics as decades ago. Developing stateful applications in a scalable and resilient way is still hard, especially when they span multiple (mirco)services.\n\nStream Processors, like Apache Flink, have solved similar problems in the area of event-processing. By rethinking the relationship between state, messaging, and computation, stream processing applications are out-of-the-box scalable and consistent.\n \nIs it possible to bring some of these ideas to the space of general-purpose applications and (micro) services?\n\nThe Apache Flink project has recently added a new subproject called \"Stateful Functions\" (https://statefun.io/) that tries to achieve exactly that. In Stateful Functions, the Flink effectively becomes an event-driven database that works together with containerized event-driven functions to form a new building block for scalable and consistent applications. In this talk, we present the Stateful Functions project. We show how its small change in responsibilities between database and applications goes surprisingly far in solving the problem of consistency and failure semantics for applications, and additionally makes it blend in very with current serverless technologies, like AWS Lambda, knative, etc."

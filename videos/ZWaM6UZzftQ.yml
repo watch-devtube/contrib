@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - startup
+    - security
+title: 'How Transparent Data Encryption is built in MySQL and Percona Server ?'
+language: English
+recordingDate: 1598339014
+description: "by Robert Golebiowski\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/security_how_transparent_data_encryption_is_built_in_mysql_and_percona_server.webm\n\nHow Transparent Data Encryption is built in MySQL and Percona Server ?\n- keyrings – what are they used for ? What is the difference between using a server back-end (keyring❮em❯vault) versus file back-end (keyring❮/em❯file). How it affects server startup and why? Why per server separation is needed in Vault Server?\n- How Master Key encryption works ? How it is build on page level ? How do we know which key we should fetch to decrypt a table ? How do we know that used key is the correct one ? How do we make sure that we can decrypt a table when we need it ?\n- What crypto algorithms are used ?\n- How Master Key rotation works ? Why is it needed ?\n- What is KEYRING encryption and what are encryption threads?\n- How binlog encryption works in 5.7 and how it works in 8.0 ?\n- How undo log/redo log encryption works ?\nHow Transparent Data Encryption is Built in MySQL and Percona Server ?\n\n\nIn this presentation, we'll take a deep dive into the world of transparent data encryption for open source databases. We'll be looking at how transparent data encryption is implemented in MySQL and Percona Server for MySQL:\n- keyrings – what are they used for ? What is the difference between using a server back-end (keyring❮em❯vault) versus file back-end (keyring❮/em❯file). How it affects server startup and why? Why per server separation is needed in Vault Server?\n- How Master Key encryption works ? How it is build on page level ? How do we know which key we should fetch to decrypt a table ? How do we know that used key is the correct one ? How do we make sure that we can decrypt a table when we need it ?\n- How Master Key rotation works ? Why is it needed ?\nBy the end of the talk, you'll have a better understanding of the transparent data encryption and will be aware of things to take into account when interacting with encrypted databases in your applications.\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-01 13:00:00"

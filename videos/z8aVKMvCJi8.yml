@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+title: 'Supervising and emulating syscalls'
+language: English
+recordingDate: 1597910781
+description: "by Christian Brauner\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.208/containers_syscall_emulation.webm\n\nRecently the kernel landed seccomp support for SECCOMP❮em❯RET❮/em❯USER_NOTIF which enables a process (supervisee) to retrieve a fd for its seccomp filter. This fd can then be handed to another (usually more privileged) process (supervisor). The supervisor will then be able to receive seccomp messages about the syscalls having been performed by the supervisee.\n\n\nWe have integrated this feature into userspace and currently make heavy use of this to intercept mknod(), mount(), and other syscalls in user namespaces aka in containers.\nFor example, if the mknod() syscall matches a device in a pre-determined whitelist the privileged supervisor will perform the mknod syscall in lieu of the unprivileged supervisee and report back to the supervisee on the success or failure of its attempt. If the syscall does not match a device in a whitelist we simply report an error.\n\n\nThis talk is going to show how this works and what limitations we run into and what future improvements we plan on doing in the kernel.\n\nRoom: UD2.208 (Decroly)\nScheduled start: 2020-02-01 12:20:00"

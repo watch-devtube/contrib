@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+title: 'Deploying Cloud Foundry for Kubernetes on a Tanzu Mission Control managed Kubernetes cluster.'
+language: English
+recordingDate: 1603309220
+description: "Cloud Foundry for Kubernetes has reached GA!   Watch Paul Czarkowski create a Tanzu Kubernetes Grid Kubernetes cluster using Tanzu Mission Control ( don't worry CF4K8s works great on any Kubernetes cluster, even KIND ).  Once the cluster is up Paul installs some infrastructure including the Harbor registry and then deploys Cloud Foundry for Kubernetes on the cluster using Harbor as its container registry. \n\nWith clever usage of cert-manager and external-dns, Paul also gets automatic creating of DNS records and trusted letsencrypt TLS certificates.\n\nThe demo gods were on Paul's side and everything deployed perfectly and Paul was able to then deploy an example application using everyone's favorite `cf push` command."

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - rust
+title: 'A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes'
+language: English
+recordingDate: 1598425525
+description: "by Jo Van Bulck\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/tale.webm\n\nThis talk analyzes the vulnerability space arising in Trusted\nExecution Environments (TEEs) when interfacing a trusted enclave\napplication with untrusted, potentially malicious code. Considerable\nresearch and industry effort has gone into developing TEE runtime\nlibraries with the purpose of transparently shielding enclave\napplication code from an adversarial environment. However, our analysis\nreveals that shielding requirements are generally not well-understood in\nreal-world TEE runtime implementations. We expose several sanitization\nvulnerabilities at the level of the Application Binary Interface (ABI)\nand the Application Programming Interface (API) that can lead to\nexploitable memory safety and side-channel vulnerabilities in the\ncompiled enclave. Mitigation of these vulnerabilities is not as simple\nas ensuring that pointers are outside enclave memory. In fact, we\ndemonstrate that state-of-the-art mitigation techniques such as Intel’s\nedger8r, Microsoft’s “deep copy marshalling”, or even memory-safe\nlanguages like Rust fail to fully eliminate this attack surface. Our\nanalysis reveals 35 enclave interface sanitization vulnerabilities in 8\nmajor open-source shielding frameworks for Intel SGX, RISC-V, and Sancus\nTEEs. We practically exploit these vulnerabilities in several attack\nscenarios to leak secret keys from the enclave or enable remote code\nreuse. We have responsibly disclosed our findings, leading to 5\ndesignated CVE records and numerous security patches in the vulnerable\nopen-source projects, including the Intel SGX-SDK, Microsoft Open\nEnclave, Google Asylo, and the Rust compiler.\n\n\nPlease note that this talk was originally scheduled to begin at the later time of 13:00\n\nRoom: K.4.601\nScheduled start: 2020-02-01 11:40:00"

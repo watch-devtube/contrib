@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Port luajit to RISC-V Motivation, first steps and perspectives'
+language: English
+recordingDate: 1598079797
+description: "by Anton Kuzmin\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.401/riscv_luajit.webm\n\nThere is a need for a lightweight tools for experiments with RISC-V\ncustom extensions. Adding support for custom instructions in\nbinutils/gcc/llvm is out of range for many hardware architects. LuaJIT\nincludes a small and powerful assembler: dynasm, accessible from\nwithin Lua interpreter. Currently dynasm supports following 32 and 64-bit\ninstruction sets: x86, x64, ARM, PowerPC, and MIPS, and it is just\nreasonable to extend this support to RISC-V.\n\n\nLua itself is a very compact and simple yet powerful dynamic language,\nits JIT compiler (luajit) makes it one of the fastest, if not the\nfastest, interpreted language, and it is used in many projects, so\nhaving it running on RISC-V would have use besides the mere internal\nneed for experimental platform.\n❮h1❯Outline❮/h1❯\n\n❮h2❯Project scope❮/h2❯\n\n❮ul❯\n❮li❯Lua 5.1, luajit 2.1 overview❮/li❯\n❮li❯rv32/rv64❮/li❯\n❮li❯dynasm❮/li❯\n❮li❯interpreter/virtual machine❮/li❯\n❮li❯jit❮/li❯\n❮li❯gc❮/li❯\n❮li❯bit manipulation ('B' extention and bitop in Lua 5.3)❮/li❯\n❮/ul❯\n\n\n❮h2❯Develpment platforms❮/h2❯\n\n❮ul❯\n❮li❯spike (ISA simulator, 32 and 64-bit)❮/li❯\n❮li❯rv64: SiFive Unleashed❮/li❯\n❮li❯rv32: softcore CPU on FPGA❮/li❯\n❮/ul❯\n\n\n❮h2❯Benchmarks and baseline❮/h2❯\n\n❮h2❯Deviation (side project)❮/h2❯\n\nYet another Forth and yet another assembler\n\nRoom: K.3.401\nScheduled start: 2020-02-01 13:10:00"

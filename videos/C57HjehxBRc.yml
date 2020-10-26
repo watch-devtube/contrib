@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - python
+title: 'LLVM and Python Past, Present, Future'
+language: English
+recordingDate: 1598342667
+description: "by Batuhan Taşkaya\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/llvm_python.webm\n\nPython with LLVM has at least one decade of history. This session will be going to cover-up how python implementations tried to use LLVM such as CPython's Unladen Swallow branch (PEP 3146) or attempts from PyPy and why they failed. After that it will show what are the current python projects that use LLVM for speed, such as numba and python libraries for working with LLVM IR. In the end, it will mention about new ideas that would unite the powers of both LLVM and Python. This talk is about LLVM's influence over Python's ecosystem. It is targeted an audience of language developers who want to integrate LLVM and developers who are curious about why dont dynamic languages can unite their power with LLVM to speed-up. It will start with python's implementations and the approaches they take. The Unladen Swallow branch which basically tries to integrate LLVM to CPython (under google sponsored) is a good example of these approaches. There are attempts from the PyPy side but they are also failed because of the dynamic nature of Python. After this fails, we'll swap back to our current time and show projects that are benefiting from LLVM to speed up python especially on the scientific side such as numba (which offers JITting via LLVM). Besides these projects, there are also a few projects that offer an interface to LLVM. Such as llvmpy and llvmlite. I've been using llvmlite about 1 year in my side projects and toy languages so these projects has the potential to inspire developers to work with LLVM and build languages a-top on it. In the end, it will show what is the future of these two big projects (LLVM &amp; Python) and how we can participate.\n\nRoom: K.4.201\nScheduled start: 2020-02-01 13:35:00"

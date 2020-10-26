@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - embedded
+title: 'Bootstrapping minimal reflective language kernels Bootstrapping minimal reflective language kernels'
+language: English
+recordingDate: 1598079811
+description: "by Pablo Tesone\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.125/pharominimalrefllangkernels.webm\n\nIn this talk, we present a series of tools to bootstrapping smaller crafted kernel languages.\nSmaller kernels allow us to run applications in resources limited environments (IoT).\nAlso, it allows us to modify and study language modifications and extensions easing the evolution of new and existing languages.\nThese experiments are performed in a fully debuggable simulated environment, allowing us to overcome common mistakes and problems.\nThis is not only an experimental environment as it allows us to generate production-ready language kernels.\n\n\nWe use Pharo to generate language kernels that are intended to run on top of the Pharo VM.\nThese tools are also used to bootstrap bigger systems as Pharo itself.\nThe current explosion of embedded systems (i.e., IoT, Edge Computing) implies the need for generating tailored and customized software for them. Different approaches have been taken for building, deploying, updating and debugging these systems, although there is still no standard way to do this.\nThe goal of this talk is to present the tools and techniques necessary for building, debugging, and deploying custom small language kernels.\n\n\nKernel languages are generated from a combination of language definition and the description of the elements and processes to generate the runtime.\nKernel languages must be consistent internally and in relation with the environment where they run (e.g. the VM, the OS)\nLanguages that are bootstrapped from their source code are not new.\nHowever, correctly defining a working consistent language kernel is a complex manual task without support from tools to debug or test before the generation of the language and its deployment.\nThis complexity limits the study of new languages, the creation of prototypes and the evolution of existing ones.\n\n\nWe present a set of tools to overcome the different difficulties that bootstrapping a reflective language kernel presents. Allowing us to simulate the kernel, debug it, validate it and generate it.\nMoreover, our proposed approach offers tools to detect many common mistakes and causes of error.\n\n\nWe center our solution in reflective object-oriented languages that run on top of a VM.\nOur tool uses Pharo and generates languages to run on top of its VM.\n\nRoom: AW1.125\nScheduled start: 2020-02-02 10:10:00"

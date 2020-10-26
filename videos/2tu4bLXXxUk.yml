@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - rust
+title: 'Optimizing sandbox creation with a FUSE file system Using sandboxfs to speed up Bazel builds'
+language: English
+recordingDate: 1597734211
+description: "by Julio Merino\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2215/sandboxfs_bazel_speedup.webm\n\nThe Bazel build system sandboxes each action (e.g. each compiler invocation) to ensure the action only has access to declared inputs and that the action only generates the promised outputs. This ensures that the execution of each build tool is deterministic and not subject to system-wide state. Unfortunately, creating these sandboxes is costly, and every millisecond added to the runtime of each action has a large impact on total build time. Just consider that Bazel focuses on large-ish builds with thousands of actions in them: each little inefficiency quickly multiplies and can result in significant slowdowns, and developers always want faster build times. In this talk, I'll explain how Bazel implements sandboxing and I will cover a FUSE file system I've been developing, sandboxfs, to optimize this process. I'll go into the details of the file system, explain how it started as a Go project and was then rewritten in Rust, and then show some performance metrics.\nOutline:\n\n\n❮ul❯\n❮li❯Brief introduction to Bazel: what are actions.❮/li❯\n❮li❯Why is sandboxing of actions important and what it intends to achieve.❮/li❯\n❮li❯How does sandboxing work in the default case and what problems it carries performance- and correctness-wise.❮/li❯\n❮li❯The solution: how we can use FUSE to eliminate the major source of slowdowns.❮/li❯\n❮li❯Brief explanation of what sandboxfs is and how Bazel takes advantage of it.❮/li❯\n❮li❯Present performance metrics.❮/li❯\n❮li❯Delve a little bit into why the project started in Go and was then rewritten in Rust.❮/li❯\n❮li❯Ideas for other possible uses for sandboxfs (NixOS and reproducible package builds).❮/li❯\n❮/ul❯\n\n\nRoom: H.2215 (Ferrer)\nScheduled start: 2020-02-01 14:20:00"

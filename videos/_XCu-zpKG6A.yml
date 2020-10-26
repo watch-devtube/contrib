@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - testing
+title: '#bbuzz: Nishith Agarwal - Building large scale, transactional data lakes using Apache Hudi'
+recordingDate: 1593445168
+description: "More: https://berlinbuzzwords.de/session/building-large-scale-transactional-data-lakes-using-apache-hudi\n\nWith the proliferation of data in the past years, most business critical decisions are heavily influenced by deep data analysis. As companies rely more on data for their functioning; storing, managing and accessing data intelligently and efficiently is more important than ever before. \n\nAs more business decisions are driven by data in real time, we require strong guarantees such as acceptable latencies, high data quality and system reliability. Moving from a full-reload to a delta model of ingesting quickly became the primary way to ingest large amounts of data at scale. A number of such ingest patterns showcased how a transaction support on such datasets could benefit use-cases immensely. \n\nHudi, an apache project is attempting to introduce uniform data lake standards. Hudi is a storage abstraction library that uses Spark as an execution framework. In this talk, we will discuss how Hudi can provide ACID semantics to a data lake. We will discuss some of the basic primitives such as upsert & delete required to achieve acceptable latencies in ingestion while at the same time providing high quality data by enforcing schematization on datasets. Additionally, we will also discuss more advanced primitives such as restore, delta-pull, compaction & file sizing required for reliability, efficient storage management and to build incremental ETL pipelines. We will dig deeper into Hudi’s metadata model that allows for O(1) query planning as well as how it helps support Time-Travel queries to facilitate building feature stores for machine learning use-cases. Apache Hudi builds on open-source file formats; we will discuss how to easily onboard your existing dataset to Hudi format while keeping the same open-source formats so you can start utilizing all the features provided by Hudi without needing to make any drastic changes to your data lake. We will talk about the challenges faced in productionizing large Spark based Hudi jobs @scale at Uber and discuss how we addressed them. \n\nFinally, we will make the case for the future, discussing various other primitives that will facilitate in building rich and portable data applications."

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - web
+    - architecture
+title: 'Flang : The Fortran frontend of LLVM This technical talk introduces the new Fortran fronted of LLVM.'
+language: English
+recordingDate: 1598252751
+description: "by Kiran Chandramohan\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/llvm_flang.webm\n\nThis talk introduces Flang (F18), the new Fortran frontend of LLVM being written in modern C++. The talk will provide a brief introduction to Flang, motivation for writing this new compiler, design principles, architecture, status, and an invitation to contribute.\nF18 project started at PGI/Nvidia as a new Fortran frontend designed to work with LLVM. The aim of the project is to create a modern Fortran frontend (Fortran 2018 standard) in modern C++. In April of this year, it was accepted as an LLVM project (https://lists.llvm.org/pipermail/llvm-dev/2019-April/131703.html).\n\n\nThe parser and semantic analysis are implemented in a way that provides a strong correspondence to the standards document. It is hoped that this correspondence will help in the development of new features and will become the testbed for deciding future Fortran standard features. The frontend also embraces the newly open-source MLIR framework for language-specific optimisations. This will be through a new dialect call FIR (https://www.youtube.com/watch?v=ff3ngdvUang). MLIR will also be used for creating an OpenMP dialect. The project also hopes to share code with the Clang frontend. While the parser/AST will not be shared, code will be shared in the Driver, OpenMP codegen etc.\n\n\nIn this presentation, we hope to cover the technical details mentioned in the paragraph above, the status of implementation and also give an invitation to contribute.\n\nRoom: K.4.201\nScheduled start: 2020-02-01 14:20:00"

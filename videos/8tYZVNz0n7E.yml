@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+    - embedded
+title: 'Improving the Security of Edge Computing Services Update status of the support for AMD and Intel pr…'
+language: English
+recordingDate: 1598425433
+description: "Improving the Security of Edge Computing Services Update status of the support for AMD and Intel processors\nby Daniel Kiper and Piotr Król\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/firmware_itsoecs.webm\n\nFor the last several years, hypervisors have played a key role in platform\nsecurity by reducing the possible attack surface. At the same time, the hype\nsurrounding computing and Internet of Things Gateways has led to an increase in\nnetwork appliance devices. Our target was to create a less-insecure virtual\nnetwork appliance using TrenchBoot, Trusted Platform Module 2.0 and AMD SKINIT\nDynamic Root of Trust for Measurement to establish a Xen hypervisor with a\nmeta-virtualized pfSense firewall. We are going to present it with an update\nof the status of support of TrenchBoot for AMD processors.\nThis appliance is supported by are supported by apu2, a reliable low-SWaP x86\ndevice from Swiss OEM PC Engines. It can be used as a Single Office / Home\nOffice firewall or an industrial edge device and has mostly open-source\nhardware, coreboot firmware, mPCIe extensibility and an extended support\nlifecycle for the embedded Central Processing Unit and motherboard.\nIn this talk, we will show how to create a system, which enables a significant\nportion of computations to the edge devices while maintaining security. Using\na simple, well-known platform, we will conduct a secure boot using the Static\nRoot of Trust for Measurement with coreboot, move to the Dynamic Root of Trust\nfor Measurement by SKINIT in TrenchBoot and use all of this to provide a\ncomplete chain of trust for the Xen hypervisor, a virtual firewall appliance\nisolated by an input–output memory management unit (IOMMU) from the physical\nnetwork interface controller (NIC) devices. We will present benchmark data\non virtualization overhead, explain how this complexity can still be practical\nand outline the value of this stack. In the second part of presentation we will\ndiscuss current status of Intel TXT development in the GRUB and Linux kernel.\n\nRoom: K.4.601\nScheduled start: 2020-02-01 15:30:00"
