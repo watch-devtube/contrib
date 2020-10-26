@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - css
+    - web
+    - containers
+title: '[Online Meetup] NPM Flattening for Zero Cold Start Serverless - Schachar Levin'
+language: English
+recordingDate: 1596778200
+description: "Wix is a website building platform that enables users to build beautiful sites easily, while taking care of everything from HTML and CSS to domains and SSL.\n\nIn the last few years, we developed Corvid, a serverless solution on top of Wix sites. It enables developers to build full-fledged web applications. Besides frontend and backend code and data, we feature all the perks a modern developer wants: scheduled tasks, secret manager, distributed logging, and even choosing to develop with your IDE of choice.\n\nHave you ever waited five or more minutes for 1Gb of NPM packages to download just to write three lines of code?\n\nWe have. It doesn’t scale.\n\nWe built a freemium serverless platform and we wanted to let our users use NPM. We wanted to allow them to use any NPM package, with zero cold start while keeping sane download and deployment times while minding our storage.\n\nNow here’s the engineering challenge: The naive ‘npm install’ approach has several disadvantages. It’s slow, which prolongs deployment time. It keeps the same package over and over again for different users which increases storage usage. It would force us to either have a long cold start if we choose to copy the node_modules when the container starts, or keep dedicated user containers online, which costs a lot.\n\nIn this talk, Schachar Levin will unveil the solution we implemented to face this challenge and support complex NPM dependencies trees allowing multiple versions support, deduplicating packages, minimizing storage and download time, while making node able to import packages in a new and efficient way."
