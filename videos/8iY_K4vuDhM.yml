@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - startup
+    - containers
+    - docker
+title: 'Memory Footprint: TomEE vs. Tomcat on Docker'
+language: English
+recordingDate: 1461576367
+description: "How much memory you can save by running Tomcat comparing it to TomEE Plus (the largest possible configuration)? I ran Tomcat, TomEE WebProfile and TomEE Full Profile on Docker and measured the overhead.\n\nThe Tomcat startup was surprisingly slow (I used stock Tomcat without any changes), but it could be easily optimized: https://wiki.apache.org/tomcat/HowTo/FasterStartUp or search for \"org.apache.jasper.servlet.TldScanner.scanJars\" (http://www.gpickin.com/index.cfm/blog/how-to-get-your-tomcat-to-pounce-on-startup-not-crawl)\n\nI used the https://github.com/AdamBien/docklands images for the evaluation.\n\nThank you for watching and see you in MUC: http://airhacks.com or in your home: http://airhacks.io"
