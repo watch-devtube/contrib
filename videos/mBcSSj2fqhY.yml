@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'FOCI ''20 - MIMIQ: Masking IPs with Migration in QUIC'
+language: English
+recordingDate: 1600120891
+description: "MIMIQ: Masking IPs with Migration in QUIC\n\nYashodhar Govil, Liang Wang, and Jennifer Rexford, Princeton University\n\nThe emerging QUIC transport protocol offers new opportunities to protect user privacy. We present MIMIQ, a privacy-enhancing system that leverages QUIC to protect user identity and thwart traffic-analysis attacks. MIMIQ leverages QUIC's connection migration capability to change a client's IP address frequently---even \\emph{within} individual connections---without disrupting ongoing transfers or changing the client's physical location. MIMIQ is readily deployable, requiring no cooperation from networks other than the trusted network where it runs. The trusted network facilitates routing of return traffic by running an address allocation server that assigns IP addresses to clients and forwarding rules to switches. By strategically choosing migration times, MIMIQ can defeat certain traffic-analysis attacks while incurring low performance overhead.\n\nView the full FOCI '20 program at https://www.usenix.org/conference/foci20/workshop-program"

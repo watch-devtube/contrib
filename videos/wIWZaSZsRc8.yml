@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - mobile
+    - android
+    - ios
+    - security
+title: 'WOOT ''20 - BLESA: Spoofing Attacks against Reconnections in Bluetooth Low Energy'
+language: English
+recordingDate: 1600121152
+description: "BLESA: Spoofing Attacks against Reconnections in Bluetooth Low Energy\n\nJianliang Wu, Yuhong Nan, Vireshwar Kumar, Dave (Jing) Tian, and Antonio Bianchi, Purdue University; Mathias Payer, EPFL; Dongyan Xu, Purdue University\n\nAwarded Best Paper!\n\nThe Bluetooth Low Energy (BLE) protocol ubiquitously enables energy-efficient wireless communication among resource-constrained devices. To ease its adoption, BLE requires limited or no user interaction to establish a connection between two devices. Unfortunately, this simplicity is the root cause of several security issues.\n\nIn this paper, we analyze the security of the BLE link-layer, focusing on the scenario in which two previously-connected devices reconnect. Based on a formal analysis of the reconnection procedure defined by the BLE specification, we highlight two critical security weaknesses in the specification. As a result, even a device implementing the BLE protocol correctly may be vulnerable to spoofing attacks.\n\nTo demonstrate these design weaknesses, and further study their security implications, we develop BLE Spoofing Attacks (BLESA). These attacks enable an attacker to impersonate a BLE device and to provide spoofed data to another previously-paired device. BLESA can be easily carried out against some implementations of the BLE protocol, such as the one used in Linux. Additionally, for the BLE stack implementations used by Android and iOS, we found a logic bug enabling BLESA. We reported this security issue to the affected parties (Google and Apple), and they acknowledged our findings.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - security
+title: 'USENIX Security ''20- Shim Shimmeny: Evaluating the Security & Privacy Contributions of Link Shimming'
+language: English
+recordingDate: 1599289165
+description: "Shim Shimmeny: Evaluating the Security and Privacy Contributions of Link Shimming in the Modern Web\n\nFrank Li, Georgia Institute of Technology / Facebook\n\nLink shimming (also known as URL wrapping) is a technique widely used by websites, where URLs on a site are rewritten to direct link navigations to an intermediary endpoint before redirecting to the original destination. This \"shimming\" of URL clicks can serve navigation security, privacy, and analytics purposes, and has been deployed by prominent websites (e.g., Facebook, Twitter, Microsoft, Google) for over a decade. Yet, we lack a deep understanding of its purported security and privacy contributions, particularly in today's web ecosystem, where modern browsers provide potential alternative mechanisms for protecting link navigations without link shimming's costs.\n\nIn this paper, we provide a large-scale empirical evaluation of link shimming's security and privacy contributions, using Facebook's real-world deployment as a case study. Our results indicate that even in the modern web, link shimming can provide meaningful security and privacy benefits to users broadly. These benefits are most notable for the sizable populations that we observed with a high prevalence of legacy browser clients, such as in mobile-centric developing countries. We discuss the tradeoff of these gains against potential costs. Beyond link shimming, our findings also provide insights for advancing user online protection, such as on the web ecosystem's distribution of responsibility, legacy software scenarios, and user responses to website security warnings.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

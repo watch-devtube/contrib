@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'FOCI ''20 - Turbo Tunnel, a good way to design censorship circumvention protocols'
+language: English
+recordingDate: 1600120891
+description: "Turbo Tunnel, a good way to design censorship circumvention protocols\n\nDavid Fifield\n\nThis paper advocates for the use of an interior session and reliability layer in censorship circumvention systems—some protocol that provides a reliable stream interface over a possibly unreliable or transient carrier protocol, with sequence numbers, acknowledgements, and retransmission of lost data. The inner session layer enables persistent end-to-end session state that is largely independent of, and survives disruptions in, the outer obfuscation layer by which it is transported.\n\nThe idea—which I call Turbo Tunnel—is simple, but has many benefits. Decoupling an abstract session from the specific means of censorship circumvention provides more design flexibility, and in some cases may increase blocking resistance and performance. This work motivates the concept by exploring specific problems that a Turbo Tunnel design can solve, describes the essential components of such a design, and reflects on the experience of implementation in the obfs4, meek, and Snowflake circumvention systems, as well as a new DNS over HTTPS tunnel.\n\nView the full FOCI '20 program at https://www.usenix.org/conference/foci20/workshop-program"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'WOOT ''20 - When Oblivious is Not: Attacks against OPAM'
+language: English
+recordingDate: 1600121152
+description: "When Oblivious is Not: Attacks against OPAM\n\nNirjhar Roy, Nikhil Bansal, and Gourav Takhar, Indian Institute of Technology - Kanpur; Nikhil Mittal, Fortanix; Pramod Subramanyan, Indian Institute of Technology - Kanpur\n\nEnclave platforms like Intel SGX, Sanctum and Keystone promise attractive security guarantees but have not always lived up to their billing, mostly due to side-channel leaks in platform implementations. A particularly important side-channel in these platforms has been the page fault side-channel. This side channel has proven to be particularly problematic because it is deterministic and controllable by a malicious operating system. This paper presents a new attack on the page fault channel that works on the state-of-art proposal for secure demand paging in enclaves (InvisiPage, ISCA'19). The insight behind the attack is that even if the exact page fault addresses are hidden, the adversary may be able to infer the interval between when a page is evicted from an enclave and when it is fetched back into the enclave. Our evaluation shows this leak is sufficient to: (i) identify which application is being executed in an enclave, (ii) infer confidential details about the inputs to the application, and (iii) function as a covert channel between an untrusted enclave application and a malicious operating system.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"

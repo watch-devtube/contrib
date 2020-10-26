@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'CSET ''20 -  APTGen: An Approach towards Generating Practical Dataset Labelled with Targeted...'
+language: English
+recordingDate: 1600121026
+description: "APTGen: An Approach towards Generating Practical Dataset Labelled with Targeted Attack Sequences\n\nYusuke Takahashi and Shigeyoshi Shima, NEC Corporation; Rui Tanabe, Institute of Advanced Sciences, Yokohama National University; Katsunari Yoshioka, Graduate School of Environment and Information Sciences, Yokohama National University\n\nIn incident response for targeted cyber attacks, the responders investigate the sequence of attacks (attack sequence) that intruders have followed by analyzing the remaining logs. Their goal is to grasp and understand the whole picture of the incident. For accelerating incident response, it is important to develop technologies to automate the investigation of the attack sequences. However, we see lack of open dataset that contains logs and corresponding attack sequence information in order to evaluate these technologies.\n\nIn this paper, we propose APTGen, an approach for generating targeted attack dataset. APTGen is top-down, that is, it first generates artificial attack sequence from existing security reports based on the attack model defined in MITRE’s ATT&CK. Then, in order to obtain logs from execution environments, it executes corresponding attack tools to realize the attack sequences. Thanks to the top-down approach, we can obtain the attack sequence information corresponding to the attack trace left in the logs. We generate 800 different attack sequences and logs based on reports of eight actual security incidents. We publish generated sequences and logs as a dataset for R&D of incident responses.\n\nView the full CSET '20 program at https://www.usenix.org/conference/cset20/workshop-program"

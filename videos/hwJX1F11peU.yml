@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - ios
+    - security
+title: 'WOOT ''20 - ToothPicker: Apple Picking in the iOS Bluetooth Stack'
+language: English
+recordingDate: 1600121152
+description: "ToothPicker: Apple Picking in the iOS Bluetooth Stack\n\nDennis Heinze, TU Darmstadt, Secure Mobile Networking Lab and ERNW GmbH; Jiska Classen and Matthias Hollick, TU Darmstadt, Secure Mobile Networking Lab\n\nBluetooth enables basic communication prior to pairing as well as low-energy information exchange with multiple devices. The Apple ecosystem is extensively using Bluetooth for coordination tasks that run in the background and enable seamless device handover. To this end, Apple established proprietary protocols. Since their implementation is closed-source and over-the-air fuzzers are very limited, these protocols are largely unexplored and not publicly tested for security. In this paper, we summarize the current state of Apple's Bluetooth protocols. Based on this, we build the iOS in-process fuzzer ToothPicker and evaluate the implementation security of these protocols. We find a zero-click Remote Code Execution (RCE) that was fixed in iOS 13.5 and simple crashes.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"

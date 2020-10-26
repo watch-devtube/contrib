@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+    - 'data structures'
+title: 'WOOT ''20 - Exploiting Uses of Uninitialized Stack Variables in Linux Kernels to Leak Kernel Pointers'
+language: English
+recordingDate: 1600121152
+description: "Exploiting Uses of Uninitialized Stack Variables in Linux Kernels to Leak Kernel Pointers\n\nHaehyun Cho, Arizona Sate University; Jinbum Park and Joonwon Kang, Samsung Research; Tiffany Bao, Ruoyu Wang, Yan Shoshitaishvili, and Adam Doupé, Arizona State University; Gail-Joon Ahn, Arizona State University and Samsung Research\n\nInformation leaks are the most prevalent type of vulnerabilities among all known vulnerabilities in Linux kernel. Many of them are caused by the use of uninitialized variables or data structures. It is generally believed that the majority of information leaks in Linux kernel are low-risk and do not have severe impact due to the difficulty (or even the impossibility) of exploitation. As a result, developers and security analysts do not pay enough attention to mitigating these vulnerabilities. Because of this, these vulnerabilities are usually assigned low CVSS scores or without any CVEs assigned. Moreover, many patches that address uninitialized data use bugs in Linux kernel are not accepted, leaving billions of Linux systems vulnerable.\n\nNonetheless, information leak vulnerabilities in Linux kernel are not as low-risk as people believe. In this paper, we present a generic approach that converts stack-based information leaks in Linux kernel into kernel pointer leak vulnerabilities, which can be used to defeat modern security defenses such as KASLR. Taking an exploit that triggers an information leak in Linux kernel, our approach automatically converts it into a highly impactful exploit that leaks pointers to either kernel functions or the kernel stack.We evaluate our approach on four known CVEs and one security patch in Linux kernel and demonstrate its effectiveness. Our findings provide solid evidence for Linux kernel developers and security analysts to treat information leaks in Linux kernel more seriously.\n\nView the full WOOT '20 program at https://www.usenix.org/conference/woot20/workshop-program"
