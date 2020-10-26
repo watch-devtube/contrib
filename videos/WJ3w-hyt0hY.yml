@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - security
+title: 'Webinar: K8s Audit Logging Deep Dive'
+language: English
+recordingDate: 1603394001
+description: "Many people know that Kubernetes can report API activity to logging back ends and that auditing is a powerful security tool, but what happens in the real world when you have:\n\n- Multiple API servers\n- Mutating Admission Controller Webhooks\n- Aggregated APIs\n- Webhook audit log backends\n- Massive API throughput requirements\n\nThe short answer is, things get tricky. In this short seminar, we’ll take a brief look at the more complex and deeper issues faced by Kubernetes operators when seeking to implement comprehensive, efficient, and secure Kubernetes auditing.\n\nPresenter:\nRandy Abernethy, Managing Partner @RX-M"
