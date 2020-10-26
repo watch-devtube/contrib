@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'DEF CON Safe Mode - Joshua Maddux - When TLS Hacks You'
+language: English
+recordingDate: 1596654293
+description: "Lots of people try to attack the security of TLS. But what if we use TLS to attack other things? It's a huge standard, and it turns out that features intended to make TLS fast have also made it useful as an attack vector.\n\nAmong other things, these features provide a lot of flexibility for Server-Side Request Forgery (SSRF). While past work using HTTPS URLs in SSRF has relied upon platform-specific bugs such as SNI injection, we can go further. In this talk, I present a novel, cross-platform way of leveraging TLS to target internal services.\n\nUniquely, these attacks are more effective the more comprehensively a platform supports modern TLS, so won't go away with library upgrades. It is also unlikely that the TLS spec will change overnight at the whim of a random security researcher. Instead, we need to walk through scenarios and dispel common assumptions so the audience can know what to look out for. Of course, the best way to do so is with demos!"

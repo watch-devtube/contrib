@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - aws
+    - security
+title: 'DEF CON Safe Mode - Dylan Ayrey and Allison Donovan - Lateral Movement & Privilege Escalation in GCP'
+language: English
+recordingDate: 1596654280
+description: "Google Cloud’s security model in many ways is quite different from AWS. Spark jobs, Cloud Functions, Jupyter Notebooks, and more default to having administrative capabilities over cloud API's. Instead of defaulting to no capabilities, permissions are granted to default identities. One default permission these identities have is called actAs, which allows a service by default to assume the identity of every service account in its project; many of which typically have role bindings into other projects and across an organization's resources.\n\nThis means by default many API's and identities can compromise large swaths of an organization by moving laterally by impersonating or gaining access to other identities. This can all be done without dropping a single implant on a machine.\n\nIn this talk we'll demonstrate several techniques to perform identity compromise via the ActAs permission, privilege escalation, lateral movement, and widespread project compromise in Google Cloud. As well as release tools for exploitation.\n\nNext we'll show what detection capabilities are possible in the Google Cloud ecosystem, by showing Stackdriver logs that correspond with our exploitation techniques, and showing limitations in what's available. We'll also release tools and queries that can be used for detection . As well as insight to how we have attempted to tackle this problem at scale.\n\nLastly we'll go over remediation efforts you can take as a Google Cloud customer, and show how difficult it can be to secure yourself against these attacks. We will release tools that can be used to harden your organization, and walk through user stories and anecdotes of what this process looks at scale within our organization."

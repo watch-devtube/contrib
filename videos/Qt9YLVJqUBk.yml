@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+    - architecture
+title: 'USENIX Security ''20 - HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution...'
+language: English
+recordingDate: 1600121970
+description: "HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution Environments\n\nGhada Dessouky, Tommaso Frassetto, and Ahmad-Reza Sadeghi, Technische Universität Darmstadt\n\nModern multi-core processors share cache resources for maximum cache utilization and performance gains. However, this leaves the cache vulnerable to side-channel attacks, where inherent timing differences in shared cache behavior are exploited to infer information on the victim’s execution patterns, ultimately leaking private information such as a secret key. The root cause for these attacks is mutually distrusting processes sharing the cache entries and accessing them in a deterministic and consistent manner. Various defenses against cache side-channel attacks have been proposed. However, they suffer from serious shortcomings: they either degrade performance significantly, impose impractical restrictions, or can only defeat certain classes of these attacks. More importantly, they assume that side-channel-resilient caches are required for the entire execution workload and do not allow the possibility to selectively enable the mitigation only for the security-critical portion of the workload.\n\nWe present a generic mechanism for a flexible and soft partitioning of set-associative caches and propose a hybrid cache architecture, called HybCache. HybCache can be configured to selectively apply side-channel-resilient cache behavior only for isolated execution domains, while providing the non-isolated execution with conventional cache behavior, capacity and performance. An isolation domain can include one or more processes, specific portions of code, or a Trusted Execution Environment (e.g., SGX or TrustZone). We show that, with minimal hardware modifications and kernel support, HybCache can provide side-channel-resilient cache only for isolated execution with a performance overhead of 3.5–5%, while incurring no performance overhead for the remaining execution workload. We provide a simulator-based and hardware implementation of HybCache to evaluate the performance and area overheads, and show how HybCache mitigates typical access-based and contention-based cache attacks\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

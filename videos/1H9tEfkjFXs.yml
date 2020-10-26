@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON Safe Mode - Bill Demirkapi - Demystifying Modern Windows Rootkits'
+language: English
+recordingDate: 1596654280
+description: "This talk will demystify the process of writing a rootkit, moving past theory and instead walking the audience through the process of going from a driver that says \"Hello World\" to a driver that abuses never-before-seen hooking methods to control the user-mode network stack. Analysis includes common patterns seen in malware and the drawbacks that come with malware in kernel-mode rather than user-mode.\n\nWe'll walk through writing a rootkit from scratch, discussing how to load a rootkit, how to communicate with a rootkit, and how to hide a rootkit. With every method, we'll look into the drawbacks ranging from usability to detection vectors. The best part? We'll do this all under the radar, evading PatchGuard and anti-virus."

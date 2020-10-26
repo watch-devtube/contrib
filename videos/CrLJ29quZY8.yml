@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - mobile
+    - android
+    - security
+    - embedded
+title: 'DEF CON Safe Mode - Slava Makkaveev - Pwn2Own Qualcomm Compute DSP for Fun and Profit'
+language: English
+recordingDate: 1596654290
+description: "Qualcomm Snapdragon SoC integrates multiple subsystems, each one is customized for a particular application domain. Compute digital-signal processor (cDSP) is a subsystem which allows a mobile device to process simple sets of data with high performance on low power. In the talk we will show that this little studied proprietary subsystem has many security problems that open the door to malicious Android applications for PE and DoS attacks of the device.\n\nFor security reasons, the cDSP is licensed for programming by OEMs and by a limited number of third-party software vendors. The code running on DSP is signed by Qualcomm. However, we will demonstrate how an Android application can bypass Qualcomm’s signature and execute privileged code on DSP, and what further security issues this can lead to.\n\nHexagon SDK is the official way for the vendors to prepare DSP related code. We discovered serious bugs in the SDK that have led to the hundreds of hidden vulnerabilities in the Qualcomm-owned and vendors’ code. The truth is that almost all DSP executable libraries embedded in Qualcomm-based smartphones are vulnerable to attacks due to issues in the Hexagon SDK. We are going to highlight the auto generated security holes in the DSP software and then exploit them."

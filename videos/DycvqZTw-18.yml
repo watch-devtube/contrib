@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - python
+title: 'DEF CON Safe Mode - Patrick Kiley - Reverse Engineering a Tesla Battery Mgmt. System for Moar Power'
+language: English
+recordingDate: 1596654289
+description: 'Tesla released the P85D in 2014. At that time the vehicle came with "insane mode" acceleration with a 0-60 time of 3.2 seconds. Later in July of 2015, Tesla announced "Ludicrous mode" that cut the 0-60 time down to 2.8 seconds. This upgrade was offered both new and as a hardware and firmware change to the existing fleet of P85D vehicles. Since then, Tesla has released newer ludicrous vehicles. What makes the P85D upgrade unique was how the process required changes to the vehicle''s Battery Management System(BMS). The ''BMS'' handles power requests from the drive units of the car. I was able to reverse engineer this upgrade process by examining the CAN bus messages, CAN bus UDS routines and various firmware files that I extracted from a car. I also decrypted and decompiled Python source code used for diagnostics to determine that the process involved replacing the contactors and fuse with higher current versions as well as modifying the current sensing high voltage "shunt" inside the battery pack. I then performed this process on an actual donor P85D. I bricked the car in the process, forcing me to pay to have it towed to another state so I could troubleshoot. I came to understand that the BMS is the deciding module that allows the drive units to have only as much power as the BMS allows. The car is fixed and is faster.'

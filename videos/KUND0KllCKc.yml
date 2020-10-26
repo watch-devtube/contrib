@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - python
+title: 'DEF CON Safe Mode - Jake Labelle - Getting Shells on zOS with Surrogat Chains'
+language: English
+recordingDate: 1596654269
+description: "z/OS allows a user to submit a job as another user without a password with the surrogat class. However, z/OS systems often have hundreds of thousands of users and have been running for decades. This means that it is very likely that from a low priv user there is a surrogat chain that will give you special (z/OS' root).\n\nRACF (z/OS' Security), does not allow users to view the security of resources to which they do not have access. This means that manually enumerating a chain required you to submit a reverse shell each time you wanted to move up the chain. This will take a long time with 200k users.\n\nGator (my tool), submits a batch job that will call a REXX program which will output the user's privs and the current surrogat chain of that user. It will then list all of that user’s surrogat privs, and call the same batch job as before, but running as those users.\n\nGator also provides a macro that will generate a CATSO (similar to a meterpreter shell), for any of the users in the surrogat chain.\n\nGator can also be exported to a GraphVis python program, which will display the users information and chain as a network of nodes."

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - security
+title: 'USENIX Security ''20 - Poison Over Troubled Forwarders: A Cache Poisoning Attack Targeting DNS...'
+language: English
+recordingDate: 1600121972
+description: "Poison Over Troubled Forwarders: A Cache Poisoning Attack Targeting DNS Forwarding Devices\n\nXiaofeng Zheng, Tsinghua University; Qi An Xin Technology Research Institute; Chaoyi Lu and Jian Peng, Tsinghua University; Qiushi Yang, Qi An Xin Technology Research Institute; Dongjie Zhou, State Key Laboratory of Mathematical Engineering and Advanced Computing; Baojun Liu, Tsinghua University; Keyu Man, University of California, Riverside; Shuang Hao, University of Texas at Dallas; Haixin Duan, Tsinghua University; Qi An Xin Technology Research Institute; Zhiyun Qian, University of California, Riverside\n  \nIn today's DNS infrastructure, DNS forwarders are devices standing in between DNS clients and recursive resolvers. The devices often serve as ingress servers for DNS clients, and instead of resolving queries, they pass the DNS requests to other servers. Because of the advantages and several use cases, DNS forwarders are widely deployed and queried by Internet users. However, studies have shown that DNS forwarders can be more vulnerable devices in the DNS infrastructure.\n\nIn this paper, we present a cache poisoning attack targeting DNS forwarders. Through this attack, attackers can inject rogue records of arbitrary victim domain names using a controlled domain, and circumvent widely-deployed cache poisoning defences. By performing tests on popular home router models and DNS software, we find several vulnerable implementations, including those of large vendors (e.g., D-Link, Linksys, dnsmasq and MS DNS). Further, through a nationwide measurement, we estimate the population of Chinese mobile clients which are using vulnerable DNS forwarders. We have been reporting the issue to the affected vendors, and so far have received positive feedback from three of them. Our work further demonstrates that DNS forwarders can be a soft spot in the DNS infrastructure, and calls for attention as well as implementation guidelines from the community.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

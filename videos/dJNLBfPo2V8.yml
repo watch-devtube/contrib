@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'DEF CON Safe Mode - Trey Keown and Brenda So - Applied Cash Eviction through ATM Exploitation'
+language: English
+recordingDate: 1596668773
+description: "ATMs are networked computers that dispense cash, so naturally they’re uniquely interesting devices to examine. We all remember ATM jackpotting from a decade ago. Unfortunately, it doesn’t look like ATM security has improved for some common models since then.\n\nWe present our reverse engineering process for working with an ATM and modifying its firmware. For this, we became our own \"bank\" by creating software that's able to speak the obscure protocols used by ATMs. For working with the device software at a low level, we restored JTAG access, defeated code signing, and developed custom debugging tools. We then leveraged this research to discover two 0-day network-based attacks, which we will demonstrate live. The first vulnerability takes advantage of the ATM’s remote administration interface, which can lead to arbitrary code execution and total device compromise. The second vulnerability is in the OEM’s implementation of a common middleware for ATM peripherals. This allows for command injection and jackpotting of ATMs over the network.\n\nThe high barrier to entry for even legally opening up one of these devices has left a lot of attack surface area unchecked. Through this talk, we want to shed light on the state of ATM security and encourage the security community to continue to challenge ATM vendors to do better."

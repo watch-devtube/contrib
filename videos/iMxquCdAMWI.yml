@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - embedded
+title: 'DEF CON Safe Mode - Eyal Itkin - Dont Be Silly It''s Only a Lightbulb'
+language: English
+recordingDate: 1596654292
+description: "A few years ago, a team of academic researchers showed how they can take over and control smart lightbulbs, and how this in turn allows them to create a chain reaction that can spread throughout a modern city. Their research brought up an interesting question: aside from triggering a blackout (and maybe a few epilepsy seizures), could these lightbulbs pose a serious risk to our network security? Could attackers somehow bridge the gap between the physical IoT network (the lightbulbs) and even more appealing targets, such as the computer network in our homes, offices or even our smart cities?\n\nWe’re here to tell you the answer is: Yes.\n\nJoin us as we take a deep dive into the world of ZigBee IoT devices. Continuing from where the previous research left off, we go right to the core: the smart hub that acts as a bridge between the IP network and the ZigBee network. And let me tell you this, this harsh embedded environment is surely not on our side. With a maximal message size of less than 128 bytes, complex state machines and various strict timing constraints, this challenge is going to be tough.\n\nAfter a long journey, we finally made it. By masquerading as a legitimate ZigBee lightbulb, we were able to exploit vulnerabilities we found in the bridge, which enabled us to infiltrate the lucrative IP network using a remote over-the-air ZigBee exploit."

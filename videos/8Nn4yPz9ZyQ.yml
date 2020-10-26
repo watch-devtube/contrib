@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - PCKV: Locally Differentially Private Correlated Key-Value Data Collection'
+language: English
+recordingDate: 1600121972
+description: "USENIX Security '20 - PCKV: Locally Differentially Private Correlated Key-Value Data Collection with Optimized Utility\n\nXiaolan Gu and Ming Li, University of Arizona; Yueqiang Cheng, Baidu X-Lab; Li Xiong, Emory University; Yang Cao, Kyoto University\n\nData collection under local differential privacy (LDP) has been mostly studied for homogeneous data. Real-world applications often involve a mixture of different data types such as key-value pairs, where the frequency of keys and mean of values under each key must be estimated simultaneously. For key-value data collection with LDP, it is challenging to achieve a good utility-privacy tradeoff since the data contains two dimensions and a user may possess multiple key-value pairs. There is also an inherent correlation between key and values which if not harnessed, will lead to poor utility. In this paper, we propose a locally differentially private key-value data collection framework that utilizes correlated perturbations to enhance utility. We instantiate our framework by two protocols PCKV-UE (based on Unary Encoding) and PCKV-GRR (based on Generalized Randomized Response), where we design an advanced Padding-and-Sampling mechanism and an improved mean estimator which is non-interactive. Due to our correlated key and value perturbation mechanisms, the composed privacy budget is shown to be less than that of independent perturbation of key and value, which enables us to further optimize the perturbation parameters via budget allocation. Experimental results on both synthetic and real-world datasets show that our proposed protocols achieve better utility for both frequency and mean estimations under the same LDP guarantees than state-of-the-art mechanisms.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

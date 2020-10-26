@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'DEF CON Safe Mode - Patrick Wardle - Office Drama on macOS'
+language: English
+recordingDate: 1596654268
+description: "On the Windows platform, macro-based Office attacks are well understood (and frankly are rather old news). However on macOS, though such attacks are growing in popularity and are quite en vogue, they have received far less attention from the research and security community.\n\nIn this talk, we will begin by analyzing recent documents that contain macro-based attacks targeting Apple's desktop OS, highlighting the macOS-specific exploit code and payloads. Though sophisticated APT groups are behind several of these attacks, (luckily) these malicious documents and their payloads are constrained by recent application and OS-level security mechanisms.\n\nHowever, things could be far worse! To illustrate this claim, we'll detail the creation of a powerful exploit chain, that begins with CVE-2019-1457, leveraged a new sandbox escape and ended with a full bypass of Apple's stringent notarization requirements. Triggered by simply opening a malicious (macro-laced) Office document, no other user interaction was required in order to persistently infect even a fully-patched macOS Catalina system!\n\nTo end the talk, we'll discuss various prevention and detection mechanisms that could thwart each stage of the exploit chain, as well as that aim to generically provide protection against future attacks!"

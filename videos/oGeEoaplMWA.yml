@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - security
+    - javascript
+title: 'DEF CON Safe Mode - Feng Xiao - Discovering Hidden Properties to Attack Node js Ecosystem'
+language: English
+recordingDate: 1596654287
+description: "Node.js is widely used for developing both server-side and desktop applications. It provides a cross-platform execution environment for JavaScript programs. Due to the increasing popularity, the security of Node.js is critical to web servers and desktop clients.\n\nWe present a novel attack method against the Node.js platform, called hidden property abusing (HPA). The new attack leverages the widely-used data exchanging feature of JavaScript to tamper critical program states of Node.js programs, like server-side applications. HPA entitles remote attackers to launch serious attacks, such as stealing confidential data, bypassing security checks, and launching denial of service attacks. To help developers detect the HPA issues of their Node.js applications, we develop a tool, named LYNX, that utilizes hybrid program analysis to automatically reveal HPA vulnerabilities and even synthesize exploits. We apply LYNX on a set of widely-used Node.js programs and identify 13 previously unknown vulnerabilities. LYNX successfully generates 10 severe exploits. We have reported all of our findings to the Node.js community. At the time of paper writing, we have received the confirmation of 12 vulnerabilities and got 12 CVEs assigned. Moreover, we collaborated with an authoritative public vulnerability database to help them use a new vulnerability notion and description in related security issues.\n\nThe talk consists of four parts. First, we will introduce recent offensive research on Node.js. Second, we will introduce HPA by demonstrating an exploit on a widely-used web framework. Third, we will explain how to leverage program analysis techniques to automatically detect and exploit HPA. In the end, we will have a comprehensive evaluation which discusses how we identified 13 HPA 0days with the help of our detection method."
