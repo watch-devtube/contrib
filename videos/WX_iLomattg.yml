@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - containers
+    - architecture
+title: 'Keynote: Apache Beam Making Big Data Portable With gRPC - Ismaël Mejía, Software Engineer, Talend'
+language: English
+recordingDate: 1596610804
+description: "Keynote: Apache Beam Making Big Data Portable With gRPC - Ismaël Mejía, Software Engineer, Talend \n\nApache Beam is a unified programming model designed to create efficient and portable data processing pipelines. Portability in Apache Beam has two meanings: Users of Apache Beam can run their programs in different execution systems e.g. Apache Spark, Apache Flink, etc and they can choose their favorite (supported) language and be able to execute pipelines even if the targeted execution system does not support the language natively. In this talk we introduce Beam, its architecture based on translators (runners) and its portability framework: a set of gRPC services to coordinate the execution of functions isolated in language specific environments. The use of gRPC on Beam provides not only clear and easy to evolve contracts to coordinate the execution of functions but it offers nice isolation properties if combined with containers."

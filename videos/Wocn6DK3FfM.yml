@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+    - architecture
+title: 'Webinar: Comparing eBPF and Istio/Envoy for Monitoring Microservice Interactions'
+language: English
+recordingDate: 1596569095
+description: "Kubernetes has made it incredibly easy to build distributed applications out of large numbers of microservices. Monitoring, or even accurately tracking, the interaction between each of these services can be a significant operational challenge. Service meshes, built around proxies like Envoy, can certainly help here but also introduce operational complexity themselves as well.\n\nPassive traffic monitoring via eBPF (extended Berkeley Packet Filter) offers another path to improving observability. Using eBPF, detailed information about the interactions between every pair of services can be captured without any modifications to the services or deploying an additional proxy.\n\nIn this webinar, we will compare and contrast using a service mesh like Istio/Envoy and eBPF to monitor the traffic between microservices. We will examine the type of visibility that can be offered by each approach, compare their performance impact, and discuss ways they can be deployed in a complementary manner.\n\nPresenters:\n\nRoko Kruze, Solutions Engineer\_@Flowmill\nJonathan Perry, CEO @Flowmill"

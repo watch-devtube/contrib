@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - architecture
+title: 'Webinar: How We Doubled System Read Throughput with Only 26 Lines of Code'
+language: English
+recordingDate: 1596218629
+description: "TiKV is a strongly consistent key-value database built upon the Raft algorithm. It stores data in basic units called Regions. Multiple replicas of a Region form a Raft group. When a read hotspot appears in a Region, the Region leader can become a read bottleneck for the entire system. In this situation, enabling the Follower Read feature can significantly reduce the load on the leader and improve the read throughput of the whole system by balancing the load among multiple followers. In this talk, we will walk you through the TiKV architecture, why we introduced Follower Read, and how we implemented it.\n\n \n\nPresenter:\n\nMinghua Tang, Infrastructure Engineer @PingCAP"
