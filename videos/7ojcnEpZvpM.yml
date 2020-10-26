@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'Cancel, Retry and Timeouts: Keep Your Sanity Thanks to Reactive Programming'
+language: English
+recordingDate: 1601027454
+description: "Have you ever had to orchestrate multiple tasks (some of which are asynchronous) and compose them together?\nAs soon as latency comes into play—a database or HTTP request for instance—composing rhymes with complexity.\n\nWorse: One cannot trust the network, and so you generally need to think about timeouts.\nUnder some conditions, you might also want to cancel part or all of the processing, perform calls in parallel, or introduce retries in case of transient errors (preferably without overloading the remote server in a retry storm)...\n\nHow to manage all this at various levels of granularity in a callback-based or future-based system? It’s a recipe for going insane.\n\nOne of the added values of Reactive Programming is how timeout, retry and cancel concepts are first-class citizens.\nIt naturally takes their propagation to all of the asynchronous processing pipeline into account.\n\nWe will present solutions to these themes based on Reactor, and you’ll see it is possible to keep your sanity!\n\nSimon Baslé: Reactor Project Lead, VMware \nSlides: https://www.slideshare.net/Pivotal/cancel-retry-and-timeouts-keep-your-sanity-thanks-to-reactive-programming"

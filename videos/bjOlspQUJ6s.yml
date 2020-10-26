@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - 'code design'
+    - architecture
+    - 'design patterns'
+title: '[Online Meetup] Event Sourcing at Wix: Problems and Solutions - Maxim Kolotilkin'
+recordingDate: 1594651494
+description: "In traditional architectures, the same data model is used to query and update a database. And as a result, it ends up with very complex models that have a lot of logic inside, such as validations, conversions, and so on.\n\nHave you ever thought of implementing CQRS and Event Sourcing design patterns in your next big project? Do you know all pros and cons of these approaches?\n\nFor the last 10 years, Event Sourcing had ups and downs with multiple implementations in a huge variety of projects. In Wix, we have several projects such as Invoices, Stores, and some others, that successfully integrated Event Sourcing in their architecture.\n\nIn this meetup, Maxim shares the engineering challenges we faced and solved, implementing and using Event Sourcing in a product that is heavily used daily by data developers creating, updating, and running thousands of data jobs, from daily jobs to jobs that are running every 5 minutes."

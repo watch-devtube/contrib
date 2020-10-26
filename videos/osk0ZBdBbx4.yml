@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - android
+    - architecture
+    - kotlin
+title: 'Mistakes made adopting event sourcing (and how we recovered) - Nat Pryce - DDD Europe 2020'
+language: English
+recordingDate: 1601626867
+description: "Domain-Driven Design Europe 2020\nhttp://dddeurope.com - https://twitter.com/ddd_eu\n\nOver the last year or so we have been building a new system that has an event-sourced architecture. Event-sourcing is a good fit for our needs because the organisation wants to preserve an accurate history of information managed by the system and analyse it for (among other things) fraud detection. When we started, however, none of us had built a system with an event-sourced architecture before. Despite reading plenty of advice on what to do and what to avoid, and experience reports from other projects, we made some significant mistakes in our design. This talk describes where we went wrong, in the hope that others can learn from our failures.\n\nBut it’s not all bad news. We were able to recover from our mistakes with an ease that surprised us. I’ll also describe the factors that allowed us to easily change our architecture, in the hope that others can learn from our successes too.\n\nNat has been programming for *coughty-cough* years, and programming in Kotlin since it was in beta. He introduced Kotlin into his current client and his team used it to deliver business-critical, customer-facing web applications. Now many teams in the company are happy users of Kotlin, and it powers many of their core services."

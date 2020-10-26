@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - architecture
+    - java
+    - spring
+title: 'Introducing Saga Pattern in Microservices with Spring Statemachine'
+language: English
+recordingDate: 1601027623
+description: "There are several well-known challenges with managing data in microservice architectures, including transaction management. The list is long: \n\n-How can database operations ensure validity despite executing across multiple, isolated contexts? \n-How can they still provide reliability and durability guarantees?\n-How will issues like failures, partial executions, and race conditions be remediated?\n\nIn this talk, I’ll introduce the Saga pattern as an approach for handling database transactions that span multiple requests. I’ll demonstrate how this may be implemented using an event-driven tech stack, with a specific focus on Spring Statemachine.\n\nOmotola Awofolu: Senior Platform Architect/Solution Engineer at VMware\n\nSlides: https://www.slideshare.net/Pivotal/introducing-saga-pattern-in-microservices-with-spring-statemachine"

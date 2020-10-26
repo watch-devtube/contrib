@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - java
+    - spring
+    - 'live coding'
+title: 'Crossing the Streams! Rollout Strategies to Keep Your Users Happy!'
+language: English
+recordingDate: 1601027511
+description: "In the past, rolling out a new version of your application typically required specific maintenance windows or downtime for users. As our industry shifts towards containerized applications running in Kubernetes, deploying as well as scaling applications has gotten easier. Despite these improvements, however, user-perceived downtime is still a reality when rolling out a new version of an application.\n\nWe’ll walk through the basic needs of how applications can be rolled out inside your Kubernetes cluster to minimize the impact on users. From there, we’ll do a live coding session demonstrating how Spring Boot’s liveness/readiness probes and graceful shutdown support can enable Kubernetes to intelligently manage traffic to your application without dropping users’ requests.\n\nBill Koch: Software Engineer at University of Pittsburgh Medical Center\nSteve Sloka: Sr. Member of Technical Staff at VMware\n\nSlides: https://www.slideshare.net/Pivotal/crossing-the-streams-rollout-strategies-to-keep-your-users-happy"

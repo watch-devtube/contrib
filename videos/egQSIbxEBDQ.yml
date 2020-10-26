@@ -1,0 +1,22 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - devops
+    - testing
+    - architecture
+    - java
+    - spring
+speaker:
+    name: 'Nicolas Frankel'
+    twitter: nicolas_frankel
+    matches: ['Nicolas Fränkel']
+title: '[Online Meetup] A Change-Data-Capture use-case: designing an evergreen cache - Nicolas Frankel'
+recordingDate: 1594704602
+description: "When one’s app is challenged with poor performances, it’s easy to set up a cache in front of one’s SQL database. It doesn’t fix the root cause (e.g. bad schema design, bad SQL query, etc.) but it gets the job done. If the app is the only component that writes to the underlying database, it’s a no-brainer to update the cache accordingly, so the cache is always up-to-date with the data in the database.\n\nThings start to go sour when the app is not the only component writing to the DB. Among other sources of writes, there are batches, other apps (shared databases exist unfortunately), etc. One might think about a couple of ways to keep data in sync i.e. polling the DB every now and then, DB triggers, etc. Unfortunately, they all have issues that make them unreliable and/or fragile.\n\nYou might have read about Change-Data-Capture before. It’s been described by Martin Kleppmann as turning the database inside out: it means the DB can send change events (SELECT, DELETE and UPDATE) that one can register to. Just opposite to Event Sourcing that aggregates events to produce state, CDC is about getting events out of states. Once CDC is implemented, one can subscribe to its events and update the cache accordingly. However, CDC is quite in its early stage, and implementations are quite specific.\n\nIn this talk, Nicolas describes an easy-to-setup architecture that leverages CDC to have an evergreen cache.\n\nBio:\nDeveloper Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector).\n\nUsually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Currently working for Hazelcast. Also double as a teacher in universities and higher education schools, a trainer and triples as a book author.\n\nhttps://blog.frankel.ch/"

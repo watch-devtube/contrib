@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'Evolving architecture with DDD and hypermedia - Einar Høst - DDD Europe 2020'
+language: English
+recordingDate: 1602678142
+description: "Domain-Driven Design Europe 2020\nhttp://dddeurope.com - https://twitter.com/ddd_eu\n\nAt NRK TV we are gradually introducing hypermedia in the API that serves the clients our viewers use to stream our TV content. Why? Not out of idealism, but because it provides concrete benefits for our service. We use hyperlinks to provide affordances for clients: instead of just exposing individual endpoints that serve data, we offer navigation options that form user stories that adapt dynamically based on different scenarios and application states. Hyperlinks also allow us to tie together bounded domain contexts that we keep separate to contain complexity. Clients can seamlessly navigate between e.g. editorial content, catalog, playback and personalized recommendations, without noticing or caring that different contexts could be supported by separate applications with varying degrees of criticality and separate failure modes. Since hyperlinks enable us to support multiple paths through the API and more than one way to reach a goal, they also help us evolve our applications without having to coordinate updates for all our clients at the same time. Rather, clients can opt-in to new or improved functionality when it suits them. That sounds all sweet and dandy, but I'll back these pretty words up with practical examples taken from our API, and share some experiences and lessons learned.\n\nEinar W. Høst is not a software craftsman; he is a genuine, PhD-certified ivory tower zealot. His heretic views include thinking away from the keyboard and making drawings to understand things better. He does domain modelling, API design and computer programming at NRK, the Norwegian public broadcaster."
