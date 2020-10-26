@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'NOVA Microhypervisor on ARMv8-A'
+language: English
+recordingDate: 1603523196
+description: "by Udo Steinberg\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/uk_nova.webm\n\nNOVA is a modern open-source microhypervisor that can host unmodified guest operating systems next to critical host applications. Although originally developed for the x86 virtualization extensions of Intel and AMD, the internals of the microhypervisor and its external API were designed with flexibility in mind, such that the code could also be ported to other architectures.\n\n\nIn this talk we present the first ever version of NOVA on ARMv8-A.  We will show how the NOVA abstractions map onto the ARM architecture, how modern virtualization features such as GIC and SMMU are being used, discuss the ongoing evolution of the NOVA API and how the ARM port differs from the earlier x86 version.\n\n\nThe talk will conclude with a short demo, an outlook into the NOVA roadmap and the formal verification efforts around the code base, as well as opportunities for collaboration with the NOVA community.\n\nRoom: K.4.601\nScheduled start: 2020-02-02 13:30:00"

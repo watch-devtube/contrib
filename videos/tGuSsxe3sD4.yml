@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: 'Introducing libeconf Bringing systemd-like configuration layering to everything else'
+language: English
+recordingDate: 1603004652
+description: "by Richard Brown\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.201/ilbsclte.webm\n\nsystemD has a very distribution-friendly way of providing it's configuration, with distributions providing defaults in /usr and users being able to override things either selectively or entirely with their own files in /etc.\nThis is especially nice for distributions wishing to be in some way stateless, support a read-only root filesystem, or provide some kind of factory-reset.\nlibeconf is a newly written C library to ease the adoption of similar configuration layering in other programs across the Linux ecosystem.\nThis talk will give a brief introduction to libeconf, how to use it in your existing programs and demonstrate some examples that have already adopted libeconf (eg. PAM, util-linux, rebootmgr, etc).\n\n\nThe session will also share some future plans and welcome suggestions for future contributions, especially for additional features, language bindings, etc.\n\n\nThe target audience is primarily developers of 'low level' distribution plumbing (eg. core daemons &amp; services, package managers, etc) that are most likely to benefit from libeconf, but might be of interest to anyone developing any service for linux distributions.\n\nRoom: K.3.201\nScheduled start: 2020-02-02 13:00:00"

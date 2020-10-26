@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - performance
+    - 'code design'
+    - 'design patterns'
+title: 'Design Patterns for Handling/Reporting Errors in C++ - Parallel Algorithms & Executors -Mark Hoemmen'
+language: English
+recordingDate: 1601672410
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nC++17 already has parallel algorithms.  Executors (P0443, hopefully in C++23) will add asynchronous execution to parallelism.  The usual C++ error handling approach, exceptions, will not work \"out of the box.\"  We need to build up new patterns for error handling.\n\nC++ parallel algorithms and executors have several challenges handling errors.  First, errors can happen nonlocally -- in parallel tasks other than my own -- yet they can affect correctness of an entire parallel algorithm.  Second, notification of errors may be deferred: I may not find out about an error right away.  Third, I may need to take explicit action to find out about an error.  Fourth, checking whether an error has occurred somewhere might have a performance cost.  Finally, letting exceptions propagate across certain boundaries may have unfortunate consequences: the program might crash without respecting destructors and stack unwinding, or it might even \"hang\" (become unresponsive).\n\nI'm not offering canned solutions to these issues.  However, we don't have to start from scratch: this situation shares much in common with others that have been around for decades.  Examples include non-C++ interfaces to C++ libraries, boundaries between graphical user interface and back-end code, and distributed-memory parallel code.  My experience is mainly with distributed-memory parallel code that uses MPI, the Message Passing Interface that has seen nearly 30 years of continuous use and evolution.  In this talk, I'll show how design patterns already exist for parallel error handling, and I'll apply these design patterns to C++17 parallel algorithms, executors (P0443r13), and parallel algorithms for executors (P1897r3).\n\n---\nMark Hoemmen has a B.S. in mathematics and computer science from the University of Illinois, and a PhD in computer science from the University of California Berkeley. His background is in numerical linear algebra and parallel computing. Mark has 20 years' professional experience as a C++ developer, and has been contributing to C++ Standard Committee proposals for about three years.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

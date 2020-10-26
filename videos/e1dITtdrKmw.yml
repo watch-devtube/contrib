@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - containers
+title: 'Cooperative Perception in Future Cars using GNU Radio'
+language: English
+recordingDate: 1603382749
+description: "by Augusto Vega\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.120/fsr_cooperative_perception_in_future_cars_using_gnu_radio.webm\n\nTitle: Cooperative Perception in Future Cars using GNU Radio\n\n\nSpeaker: Augusto Vega, IBM Research (NY, USA)\n\n\nAbstract:\nThe phenomenon of self-driving (autonomous) vehicles is a symbol of the grand re-emergence of artificial intelligence and robotics as a promising technology. The most general model of future vehicular transportation is that of artificially intelligent, connected, autonomous vehicles (CAVs) [1].\n\n\nIn this talk, we present a representative open-source application for CAVs operating as a collaborative swarm and communicating via GNU Radio. The application, called ERA [2], incorporates local sensing, creation of occupancy grid maps, vehicle-to-vehicle (V2V) communication of grid maps between neighboring vehicles using GNU Radio-based dedicated short-range communication (DSRC), and map fusion to create a joint higher-accuracy grid map [3]. Specifically, each vehicle in ERA uses its onboard sensors to generate local occupancy grid maps, which it communicates to other nearby vehicles using DSRC. When a vehicle receives occupancy maps from nearby cars, it merges the received ones with the locally-generated occupancy maps, expanding the scope and increasing the accuracy of this vehicle's perception. The DSRC transceiver adopted in ERA is an open-source GNU Radio implementation of the IEEE 802.11p standard by Bastian Bloessl [4]; while perception and map creation is implemented using ROS (Robot Operating System) [5]. We created an appropriate software interface between GNU Radio and ROS which enables proper execution and interaction of both frameworks.\n\n\nIn addition to presenting a deep dive into ERA's code, we will also show performance analysis results of ERA (including its GNU Radio components) and discuss potential acceleration opportunities for performance and efficiency improvement -- including optimizations of Viterbi decoding and complex exponential through hardware acceleration. We believe that ERA can help to fill the gap between the fast-growing CAV R&amp;D domain and GNU Radio, specifically when it comes to the wireless communication aspect of future vehicles.\n\n\n[1] A. Vega, A. Buyuktosunoglu, P. Bose, “Towards \"Smarter\" Vehicles Through Cloud-Backed Swarm Cognition,” Intelligent Vehicles Symposium 2018: 1079-1086.\n\n\n[2] ERA. URL: https://github.com/IBM/era\n\n\n[3] E. Sisbot, A. Vega, A. Paidimarri, J. Wellman, A. Buyuktosunoglu, P. Bose, D. Trilla, “Multi-Vehicle Map Fusion using GNU Radio,” Proceedings of The GNU Radio Conference 2019, 4(1).\n\n\n[4] B. Bloessl, “IEEE 802.11 a/g/p transceiver for GNU radio,” URL: https://github.com/bastibl/gr-ieee802-11\n\n\n[5] ROS. URL: https://www.ros.org\n\n\nDesired slot time: 30 mins\n\nRoom: AW1.120\nScheduled start: 2020-02-02 12:30:00"

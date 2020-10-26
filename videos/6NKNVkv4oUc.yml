@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Run ZFS in userspace How we used ZFS in userspace for storage engine cStor'
+language: English
+recordingDate: 1602486225
+description: "by Harshita Sharma\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/run_zfs_in_userspace.webm\n\nWhile running in user space ZFS utilizes a user space binary called ztest.\nIn cStor, we followed a similar approach to create a binary called ‘zrepl’ that is part of cStor. It has been built using the libraries similar to what is used for ztest and contains transactional, pooled storage layers.\ncStor uses ZFS behind the scenes by running it in the user space. This talk we will discuss in detail how we used ZFS in userspace for storage engine cStor and highlight a few challenges that our team faced while building this data engine.\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-02 09:35:00"

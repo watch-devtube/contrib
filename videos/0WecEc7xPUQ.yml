@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'Running virtual machines out of thin air'
+language: English
+recordingDate: 1602745481
+description: "by Nir Soffer and Daniel Erez\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/vai_running_vms_out_of_thin_air.webm\n\nHow to run virtual machines in oVirt without copying their disks.\nHave you ever wanted to run your virtual machine in oVirt without copying its hugh disks?\nTired of checking the slow transfer progress? We did, and we have a good plan to avoid the wait!\n\n\nIn this talk we show how oVirt can start virtual machine without copying the disks,\nusing external disk via NBD or other protocols supported by qemu.\nOnce the virtual machine is running, copy the disks in the background to oVirt storage.\nThis minimizes downtime to seconds instead of minutes, and can be used in many scenarios\nsuch as importing virtual machines from other systems (even from foreign systems via virt-v2v),\npreviewing backups before restore, and provisioning a virtual machines.\n\n\nAudience:\nVirtualization administrators or developers interested in oVirt architecture and would like a peek into future development.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-02 14:30:00"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - web
+    - javascript
+    - rust
+title: 'rustdoc: beyond documentation All the goodies packed in rustdoc, and more'
+language: English
+recordingDate: 1603004676
+description: "by Guillaume Gomez\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.401/rust_rustdoc.webm\n\nRust compiler comes with a few tools, rustdoc is one of them. It is THE standard rust tool to generate documentation for your crates.\nRust compiler comes with a few tools, rustdoc is one of them. It is THE standard rust tool to generate documentation for your crates.\n\n\nYou can write documentation using \"///\" or \"//!\" patterns (which are syntaxic sugar over ❮code❯#[doc = \"...\"]❮/code❯).\n\n\nIt generates HTML which can used locally without a need for internet connection. The documentation search is running in JS directly in your browser. You have a source code viewer integrated. You can pick different themes (and even add one yourself). It works with javascript disabled. It provides settings to make your docs browsing more comfortable. You can generate docs with extra content (take a look at https://docs.rs/pwnies for a good example!).\n\n\nBut not only it generates documentation, it also adds things for each type that you didn't know was available thanks to the \"Auto-traits implementation\" and \"Blanket implementation\" sections.\n\n\nIn addition to generate documentation, it provides functionalities such as an integrated documentation's test runner (which themselves can be quite customized!). It also provides lints that can you deny (missing❮em❯docs, missing❮/em❯doc_example).\n\n\nWith just all this, rustdoc is already a quite complete tool. But more will come in the future:\n\n\n❮ul❯\n❮li❯more interactive source code viewer❮/li❯\n❮li❯automatic link generation based on the item name❮/li❯\n❮li❯more output formats supported (json would be the first)❮/li❯\n❮li❯cfgs (doctest and doc)❮/li❯\n❮li❯doc aliases for search (for instance, \"*\" proposes pointer in the std lib)❮/li❯\n❮/ul❯\n\n\nRoom: K.3.401\nScheduled start: 2020-02-02 09:30:00"

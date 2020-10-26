@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - performance
+    - containers
+title: 'Pipes: How Plumbing Can Make Your C++ Code More Expressive - Jonathan Boccara - CppCon 2020'
+language: English
+recordingDate: 1601823611
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nIn code we work with collections of objects all the time, yet it's not always easy to operate on them with concise and expressive code.\n\nTraversing collections with for loops gets ugly and brittle as soon as they have more than a few lines.\nSTL algorithms are a big step further, but they don't compose well (ever had the need for a \"transform_if\" algorithm?)\nRanges are another big step further, but like every library they don't cover all cases (Did you know about the transform-filter performance problem? Or that you're not allowed to use rvalues as inputs? Or that you have to use tuples when working on several collections?)\n\nIn this talk you will discover pipes, another way to write expressive code to operate with collections: write your code as plumbing through which your data flows.\n\nLike every library pipes also have their limitations, which we will present, but using them as a complement of ranges and STL algorithms will bring you the following benefits:\n- An efficient transform-filter\n- zip two collections without using tuples\n- send data to several outputs\n- use rvalues as inputs and as intermediate results\n- pick up the data coming out of STL algorithms\n- integrate results in destination containers\n- pipes are very easy to implement, so you can add new ones\n\nCome see how pipes can improve your code!\n\n---\nJonathan Boccara is a Principal Engineering Lead at Murex where he works on large codebases in C++.\nHis primary focus is searching how to make code more expressive. He has dedicated his blog, Fluent C++, to writing expressive code in C++.\nHe also gives internal trainings on C++ every day, in the short format called \"Dailies\".\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

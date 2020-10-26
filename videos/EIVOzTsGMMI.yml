@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+title: 'virtio-fs A shared file system for virtual machines'
+language: English
+recordingDate: 1602572737
+description: "by Stefan Hajnoczi\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/vai_virtio_fs.webm\n\nThis talk covers the new virtio-fs shared file system that allows a host directory tree to be shared with guests.  Sharing files with the guest is required by several use cases including container VMs, File-System-as-a-Service, and traditional virtualization.  virtio-fs goes further than previous attempts by taking advantage of the co-location of the guest and host using DAX to share the host page cache.  This presentation explains how to use virtio-fs, a bit about how it works internally, and the current status.\nvirtio-fs is a new shared file system giving access to a directory that both the host and guests can access.  Traditionally shared file systems have been used to make data available to the guest during installation, boot a guest from a directory tree on the host, or to develop code on the host and test it in-place without copying files into the guest.  New use cases including container VMs and File-System-as-a-Service have introduced new requirements that virtio-fs is designed to meet.\n\n\nPrevious attempts at shared file systems have included virtio-9p or simply used network file systems.  virtio-fs is unique because it is possible to access files directly from the host page cache.  This eliminates data copies and communication, resulting in lower memory footprint and higher performance for many workloads.\n\n\nThis presentation explains how to use virtio-fs and covers its architecture.  It includes performance benchmarks showing how various features perform and a comparison with virtio-9p.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-02 10:00:00"

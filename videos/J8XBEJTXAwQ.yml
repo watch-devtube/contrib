@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Phantom OS Orthogonal Persistence-based OS Intro and Design Concepts'
+language: English
+recordingDate: 1603609486
+description: "by Dmitry Zavalishin\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/uk_phantom.webm\n\nPhantom OS is an Operating system based on the orthogonal persistence. Application does not feel OS shutdown and restart. Even abrupt restart. It is guaranteed that application will be restarted in consistent state.\n❮ul❯\n❮li❯As long as you have reference to any variable, it’s state is the same between OS reboots. You don’t have (though you can) save program state to files.\n❮/li❯\n❮li❯Managed code. Native Phantom applications are running in a bytecode machine. (But it is worth to mention that Phantom has simple Posix compatibility subsystem too.)\n❮/li❯\n❮li❯Global address space. Phantom OS is an application server. All applications can communicate directly, by sharing objects.\n❮/li❯\n❮li❯Phantom OS persistence is achieved not by serializing data to files, but by running all applications in a persistent RAM. You can (and it will be true) think of Phantom memory subsystem as of a persistent paging engine\n❮/li❯\n❮/ul❯\n\n\nRoom: K.4.601\nScheduled start: 2020-02-02 10:30:00"

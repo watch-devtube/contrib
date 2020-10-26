@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - ux
+    - security
+    - testing
+    - architecture
+title: 'Reaching "EPYC" Virtualization Performance Case Study: Tuning VMs for Best Performance on AMD EPYC …'
+language: English
+recordingDate: 1602659090
+description: "Reaching \"EPYC\" Virtualization Performance Case Study: Tuning VMs for Best Performance on AMD EPYC 7002 Series Based Servers\nby Dario Faggioli\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1309/vai_reaching_epyc.webm\n\nVirtualization brings many advantages, but what about the overhead it introduces? What about performance? This talk will show how great virtualization performance can be achieved, if proper tuning is applied to all the components of the system: hypervisor, host and guests, for both Xen and KVM. As a case study, we will describe how we tuned our OS in order to be able to reach, inside VMs, close to baremetal performance, on a server powered by a CPU from the AMD EPYC 7002 (codename \"Rome\") series. We will, of course, show the benchmarks proving that (run on KVM), even when memory encryption is used.\nVirtualization is great because it decouples the software from the hardware on top of which it runs, and this brings benefits in terms of flexibility, security, reliability and cost savings. But what about the overhead that this, unavoidably, introduces?\n\n\nWell, often enough, a virtualized system is really able to fulfill its goals with an acceptable quality of service, efficient exploitation of HW resources, satisfactory user experience, etc., only if all the components are configured properly. This is not entirely new, as baremetal systems need tuning too, but in a virtualized environment one has to take care of tuning both the the host and the guests. And beware that the interactions between all the different components may not always be straightforward, especially on a large server with complex CPU architecture, such anything based on the AMD EPYC 7002 (codename \"Rome\") series of processors.\n\n\nThis talk will go over some of the typical virtualization “tuning tricks” (for both Xen and KVM). Then, as a case study, we will illustrate how we managed to reach, inside Virtual Machines, a performance level that almost matches the one of the host, on a server powered by a CPU from the AMD EPYC 7002 series. In fact, we will show the results of running CPU and memory intensive benchmarks (on KVM) with and without the suggested tuning. Last (but not least :-D), we will show the impact that the Secure Encrypted Virtualization (SEV) technology has on performance.\n\nRoom: H.1309 (Van Rijn)\nScheduled start: 2020-02-02 15:00:00"

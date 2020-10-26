@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Asynchronous Directory Operations in CephFS'
+language: English
+recordingDate: 1602313552
+description: "by Patrick Donnelly and Jeff Layton\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/sds_ceph_async_directory_ops.webm\n\nMetadata-heavy workloads are often the bane of networked and clustered filesystems. Directory operations (create and unlink, in particular) usually involve making a synchronous request to a server on the network, which can be very slow.\n\n\nCephFS however has a novel mechanism for delegating the ability for clients to do certain operations locally. While that mechanism has mostly been used to delegate capabilities on normal files in the past, it's possible to extend this to cover certain types of directory operations as well.\n\n\nThe talk will describe work that is being done to bring asynchronous directory operations to CephFS. It will cover the design and tradeoffs necessary to allow for asynchronous directory operations, discuss the server and client-side infrastructure being added to support it, and what performance gains we expect to gain from this.\n❮ul❯\n❮li❯overview of problem (why metadata operations are so slow on network filesystems) and proposed solution❮/li❯\n❮li❯CephFS caps❮/li❯\n❮li❯DIR❮em❯UNLINK and DIR❮/em❯CREATE caps❮/li❯\n❮li❯directory completeness and dentry revalidation❮/li❯\n❮li❯asynchronous unlink❮/li❯\n❮li❯Inode number delegation❮/li❯\n❮li❯asynchronous creates❮/li❯\n❮li❯benchmarks❮/li❯\n❮li❯what about error handling?❮/li❯\n❮/ul❯\n\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-02 10:35:00"

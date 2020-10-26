@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - kubernetes
+    - testing
+    - architecture
+title: 'Are You Testing Your Observability? Patterns for Instrumenting Your Services'
+language: English
+recordingDate: 1602572745
+description: "by Bartek Plotka and Kemal Akkoyun\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.120/testing_observability.webm\n\nObservability is the key to understand how your application runs and behaves in action. This is especially true for distributed environments like Kubernetes, where users run Cloud-Native microservices.\n\n\nAmong many other observability signals like logs and traces, the metrics signal has a substantial role. Sampled measurements observed throughout the system are crucial for monitoring the health of the applications and, they enable real-time, actionable alerting. While there are many open-source robust libraries, in various languages, that allow us to easily instrument services for backends like Prometheus, there are still numerous possibilities to make a mistake or misuse those tools.\n\n\nDuring this talk, two engineers from Red Hat: Kemal and Bartek (Prometheus and Thanos project maintainer) will discuss valuable patterns and best practices for instrumenting your application. The speakers will go through common pitfalls and failure cases while sharing valuable insights and methods to avoid those mistakes. In addition, this talk will demonstrate, how to leverage unit testing to verify the correctness of your observability signals. How it helps and why it is important. Last but not least, the talk will cover a demo of the example instrumented application based on the experience and projects we maintain.\n\n\nThe audience will leave knowing how to answer the following important questions:\n\n\nWhat are the essential metrics that services should have?\nShould you test your observability? What are the ways to test it on a unit-test level?\nWhat are the common mistakes while instrumenting services and how to avoid them?\n\n\nAnd more!\nThe end goal of this talk is to demonstrate to the audience, how to harvest the powers of metric-based instrumentation in their applications. We would like to share some pragmatic, best practices and common patterns that we learned while maintaining several open-source projects.\n\n\nDuring this talk:\n\n\nWe will discuss valuable patterns and best practices for instrumenting libraries and applications.\nWe will go through a set of common pitfalls failure cases, and methods to avoid those mistakes. Some of the topics we plan to mention: common cardinality issues, summaries vs histograms, choosing histogram bucket, testing, instrumenting libraries vs applications, common middlewares etc\nWe will demonstrate, why, when and how to leverage unit testing to verify your observability signals.\nWe plan to present a demo of the example instrumented application. We plan to use Go as an example language of such application but the talk should be mostly language agnostic.\n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2020-02-02 12:50:00"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - python
+    - embedded
+title: 'Task Scheduling of Software-Defined Radio Kernels in Heterogeneous Chips: Opportunities and Challen…'
+language: English
+recordingDate: 1602918299
+description: "Task Scheduling of Software-Defined Radio Kernels in Heterogeneous Chips: Opportunities and Challenges\nby Augusto Vega\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.120/fsr_task_scheduling_of_software_defined_radio_kernels.webm\n\nTitle: Task Scheduling of Software-Defined Radio Kernels in Heterogeneous Chips: Opportunities and Challenges\n\n\nSpeaker: Augusto Vega, IBM Research (NY, USA)\n\n\nAbstract:\nThe proliferation of 'heterogeneous' chip multiprocessors in recent years has reached unprecedented levels, especially in the context of IoT and distributed edge computing (e.g. connected and autonomous vehicles). By combining the right set of hardware resources (cores, accelerators, chip interconnects and memory technology) along with an adequate software stack (operating system and programming interface), heterogeneous chips have become an effective high-performance and low-power computing alternative.\n\n\nHowever, heterogeneous architectures come with new challenges. Fundamentally, the complexity derived from the design's heterogeneous nature challenges the effective scheduling of tasks (processes), a scenario that becomes even more critical when real-time execution deadlines must be met. This is particularly important in the context of GNU Radio, given that its underlying scheduler is completely unaware of chip heterogeneity today. Early stage prototyping and evaluation of GNU Radio scheduling policies in heterogeneous platforms becomes a valuable asset in the design process of a future GNU Radio scheduler.\n\n\nIn this talk, we present a new open-source simulator for fast prototyping of task scheduling policies, called STOMP (Scheduling Techniques Optimization in heterogeneous Multi-Processors) [1]. It is written in Python and implemented as a queue-based discrete-event simulator with a convenient interface that allows users and researchers to \"plug in\" new scheduling policies in a simple manner. We also present a systematic approach to task scheduling in heterogeneous platforms through the evaluation of a set of progressively more \"intelligent\" scheduling policies using STOMP. We rely on synthetic kernels representative of a GNU Radio application [2], including functions like Viterbi decoding and fast Fourier transform (FFT) that have to be scheduled across general-purpose cores, GPUs or hardware accelerators to meet the application's real-time deadlines. We will show results indicating that relatively simple scheduling policies can satisfy real-time requirements when they are properly designed to take advantage of the heterogeneous nature of the underlying chip multiprocessor.\n\n\n[1] STOMP. URL: https://github.com/IBM/stomp\n[2] ERA. URL: https://github.com/IBM/era\n\n\nDesired slot time: 30 mins\n\nRoom: AW1.120\nScheduled start: 2020-02-02 14:00:00"
