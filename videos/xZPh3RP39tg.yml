@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - startup
+    - ruby
+    - java
+title: 'JRuby Startup and AOT'
+language: English
+recordingDate: 1599116778
+description: "by Charles Nutter and Thomas Enebo\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1302/ruby.webm\n\nRubyists work from a command line, which makes JRuby startup time a critical concern. Traditionally, the JVM has not been optimized for startup, but that's changing. This talk will explore all available options for making a heavy runtime like JRuby start up quickly, from using class data caching services like Hotspot's CDS and OpenJ9's Quickstart to ahead-of-time compilation of JRuby using GraalVM's Native Image. We'll compare approaches and trade-offs.\n\nRoom: H.1302 (Depage)\nScheduled start: 2020-02-01 17:20:00"

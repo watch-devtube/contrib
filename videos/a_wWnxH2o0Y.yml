@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - python
+    - javascript
+    - 'data structures'
+title: 'Asyncio: understanding async and await in Python'
+language: English
+recordingDate: 1599905011
+description: "by Jonathan Slenders\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.252A/python2020_asyncio.webm\n\nOften when asyncio is discussed, people think of it as a high performance concurrency programming paradigm for Python. In this talk however, we approach asyncio from a different angle, one that will possibly help some of you to finally get what asyncio is about. it's not only about performance, but at least as much about correctness and readability of concurrent applications.\nConcurrency is hard to get right.\n\n\nOften when asyncio is discussed, people think of it as a high performance concurrency programming paradigm for Python. In this talk however, we approach asyncio from a different angle, one that will possibly help some of you to finally get what asyncio is about. it's not only about performance, but at least as much about correctness and readability of concurrent applications.\n\n\nIt is known that for multithreaded applications, synchronization is hard to get right. Doing it wrong can either lead to deadlocks or broken data structures.\n\n\nWe will have a look at how using asyncio is different from using threads, when it's better and what pitfalls we have.\n\n\nThis talk should be a good introduction for anyone just starting with asyncio, but can also clarify things for people that are using asyncio already. I expect people to have at least used some form of concurrency, either threads or an event loop like we have in JavaScript.\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2020-02-01 13:30:00"
