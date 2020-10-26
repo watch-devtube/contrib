@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - mongo
+    - devops
+title: 'Consistent backups of multi-shard MongoDB. Николай Маржан. DevOps Fest 2020 Online'
+language: Russian
+recordingDate: 1601036174
+description: "The talk from DevOps Fest 2020 Online conference. \nPresentation: https://bit.ly/2YnmP66\nFb: https://www.facebook.com/DevOpsFest/\nWebsite: https://www.devopsfest.com.ua/\n\nIt only sounds like a simple thing to make a consistent backup of the database which builds around eventual consistency ideas.\nLet's review the current types of backups and their limitations when it comes to sharding. From there we will move into why you can't be consistent with a single node, and how you can take sharded or unsharded consistent backups."

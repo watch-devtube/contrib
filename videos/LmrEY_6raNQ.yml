@@ -1,0 +1,21 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - cloud
+    - web
+    - react
+    - azure
+    - devops
+    - containers
+    - kubernetes
+title: 'Event-driven autoscaling on Kubernetes with KEDA and Azure Functions. Erwin Staal. DevOps Fest 2020'
+language: Russian
+recordingDate: 1601036234
+description: "The talk from DevOps Fest 2020 Online conference. \nPresentation: https://bit.ly/2CyBuTH\nFb: https://www.facebook.com/DevOpsFest/\nWebsite: https://www.devopsfest.com.ua/\n\nEvent-driven, serverless architectures are a hot topic in today’s cloud-native application development. To take full advantage of the serverless benefits of event driven, your application needs to scale and react to those events instantly. It needs to be able to scale from zero to potentially thousands of instances. KEDA is an open sourced component that provides event driven autoscaling for your Kubernetes workloads. KEDA works with any container, but to enable additional serverless capabilities within Kubernetes you can pair KEDA with the Azure Functions runtime. Azure Functions provides a programming model that can run anywhere: in a container running on-premises, fully managed in Azure, or in any Kubernetes cluster. It allows application developers not to worry anymore about writing the code to connect, trigger, and pull from an event source like RabbitMQ, Kafka, or Azure Event Hubs. That’s all handled for you. In this demo-filled session, we will start with a quick introduction on both Kubernetes and Azure Functions. You will then see how you can create your first cluster and install KEDA, deploy a function and scale that to thousands of instances based on events."

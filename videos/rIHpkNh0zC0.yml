@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - devops
+    - security
+speaker:
+    name: 'Philipp Krenn'
+    twitter: xeraa
+title: 'Scale Your Auditing Events. Philipp Krenn. DevOps Fest 2020 Online'
+language: Russian
+recordingDate: 1601036107
+description: "The talk from DevOps Fest 2020 Online conference. \nPresentation: https://bit.ly/3hXnumO\nFb: https://www.facebook.com/DevOpsFest/\nWebsite: https://www.devopsfest.com.ua/\n\nThe Linux Audit daemon is responsible for writing audit records to the disk, which you can then access with ausearch and aureport. However, it turned out that parsing and centralizing these records is not as easy as you would hope. Elastic's new Auditbeat fixes this by keeping the original configuration, but ships them to a centralized location where you can easily visualize all events. You can also use Auditbeat to detect changes to critical files, like binaries and configuration files, and identify potential security policy violations.\nThis talk shows you what can you do to discover changes, events, and potential security breaches as soon as possible on interactive dashboards. Additionally, we are combining Auditd events with logs, which are security relevant, and explore them in Elastic's free SIEM."
