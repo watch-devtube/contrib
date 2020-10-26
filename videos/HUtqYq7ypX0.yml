@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - cloud
+    - startup
+    - architecture
+title: 'USENIX ATC ''20 - Fine-Grained Isolation for Scalable, Dynamic, Multi-tenant Edge Clouds'
+language: English
+recordingDate: 1598655673
+description: "Fine-Grained Isolation for Scalable, Dynamic, Multi-tenant Edge Clouds\n\nYuxin Ren, The George Washington University; Guyue Liu, Carnegie Mellon University; Vlad Nitu, INSA Lyon France; Wenyuan Shao, Riley Kennedy, Gabriel Parmer, and Timothy Wood, The George Washington University; Alain Tchana, ENS Lyon France\n\n5G edge clouds promise a pervasive computational infrastructure a short network hop away, enabling a new breed of smart devices that respond in real-time to their physical surroundings. Unfortunately, today’s operating system designs fail to meet the goals of scalable isolation, dense multi-tenancy, and high performance needed for such applications. In this paper we introduce EdgeOS that emphasizes system-wide isolation as fine-grained as per-client. We propose a novel memory movement accelerator architecture that employs data copying to enforce strong isolation without performance penalties. To support scalable isolation, we introduce a new protection domain implementation that offers lightweight isolation, fast startup and low latency even under high churn. We implement EdgeOS in a microkernel based OS and demonstrate running high scale network middleboxes using the Click software router and endpoint applications such as memcached, a TLS proxy, and neural network inference. We reduce startup latency by 170X compared to Linux processes, and improve latency by three orders of magnitude when running 300 to 1000 edge-cloud memcached instances on one server.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

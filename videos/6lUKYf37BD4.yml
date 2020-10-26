@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+    - security
+title: 'USENIX ATC ''20 - BASTION: A Security Enforcement Network Stack for Container Networks'
+language: English
+recordingDate: 1598655630
+description: "BASTION: A Security Enforcement Network Stack for Container Networks\n\nJaehyun Nam, Seungsoo Lee, and Hyunmin Seo, KAIST; Phil Porras and Vinod Yegneswaran, SRI International; Seungwon Shin, KAIST\n\nIn this work, we conduct a security analysis of container networks, identifying a number of concerns that arise from the exposure of unnecessary network operations by containerized applications and discuss their implications. We then present a new high-performance security enforcement network stack, called BASTION, which extends the container hosting platform with an intelligent container-aware communication sandbox. BASTION introduces (i) a network visibility service that provides fine-grained control over the visible network topology per container application, and (ii) a traffic visibility service, which securely isolates and forwards inter-container traffic in a point-to-point manner, preventing the exposure of this traffic to other peer containers. Our evaluation demonstrates how BASTION can effectively mitigate several adversarial attacks in container networks while improving the overall performance up to 25.4% within single-host containers, and 17.7% for cross-host container communications.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

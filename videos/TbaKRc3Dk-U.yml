@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - architecture
+title: 'NFS Ganesha'
+language: English
+recordingDate: 1602486319
+description: "by Arjun Sharma\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/nfs_ganesha.webm\n\nNFS-Ganesha is an extensible user-space NFS server that supports NFS v3, v4, v4.1, v4.2, pNFS, and 9P protocol. It has an easily pluggable architecture called FSAL (File System Abstraction Layer), which enables seamless integration with many filesystem backends (GlusterFS, Ceph, etc.). There will be a discussion on the components along with an architectural explanation of NFS Ganesha with a detailed look at how a request flows through the various layers of NFS Ganesha and see some critical aspects in using NFS Ganesha. Along with the discussion on \"your first contribution to NFS Ganesha\" the audience will be engaged in a collaborative session and with a live demo, take a detailed look at the Clustered HA implementation using pacemaker/corosync with a specific example of a distributed storage, GlusterFS.\n\n\nFinally, there will be an open dialogue about the inclusion of Transport Layer Security into NFS Ganesha. One major drawback seen with NFS is the lack of transmitting encrypted data packets to and from NFS Server and Client. This lack is widely frowned upon, and it seems like there is enough communication gap within the community about its development, which I hope to shorten and revive the chatter to begin progress in this course.\nThe intentions behind this talk:\n\n\n-❯ Introduce architectural explanation of NFS Ganesha\n-❯ A short code walk-through to explore crucial features of NFS Ganesha\n-❯ Live demo of Clustered High Availability implementation using pacemaker/corosync\n-❯ Talk about the implementation of Transport Layer Security(TLS) into NFS Ganesha\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-02 08:35:00"

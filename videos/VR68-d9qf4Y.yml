@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''20 - Fast Software Cache Design for Network Appliances'
+language: English
+recordingDate: 1598655527
+description: "Fast Software Cache Design for Network Appliances\n\nDong Zhou, Tsinghua University; Huacheng Yu, Princeton University; Michael Kaminsky, BrdgAI; David Andersen, BrdgAI and Carnegie Mellon University\n\nThe high packet rates handled by network appliances and similar software-based packet processing applications place a challenging load on caches such as flow caches. In these environments, both hit rate and cache hit latency are critical to throughput. Much recent work, however, has focused exclusively on one of these two desiderata, missing opportunities to further improve overall system throughput. This paper introduces Bounded Linear Probing (BLP), a new cache design optimized for network appliances that works well across different workloads and cache sizes by balancing between hit rate and lookup latency. To accompany BLP, we also present a new, lightweight cache eviction policy called Probabilistic Bubble LRU that achieves near-optimal cache hit rate without using any extra space. We provide three main contributions: a theoretical analysis of BLP, a comparison with existing and proposed cache designs using microbenchmarks, and an end-to-end evaluation of BLP in the popular Open vSwitch (OvS) system. Our end-to-end experiments show that BLP is effective in practice: replacing the microflow cache OvS with one based upon BLP improves throughput by up to 15%.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

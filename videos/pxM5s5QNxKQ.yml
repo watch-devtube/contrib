@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - performance
+title: 'USENIX ATC ''20 - vSMT-IO: Improving I/O Performance and Efficiency on SMT Processors in Virtualized'
+language: English
+recordingDate: 1598655556
+description: "vSMT-IO: Improving I/O Performance and Efficiency on SMT Processors in Virtualized Clouds\n\nWeiwei Jia, New Jersey Institute of Technology; Jianchen Shan, Hofstra University; Tsz On Li, University of Hong Kong; Xiaowei Shang, New Jersey Institute of Technology; Heming Cui, University of Hong Kong; Xiaoning Ding, New Jersey Institute of Technology\n\nThe paper focuses on an under-studied yet fundamental issue on Simultaneous Multi-Threading (SMT) processors — how to schedule I/O workloads, so as to improve I/O performance and efficiency. The paper shows that existing techniques used by CPU schedulers to improve I/O performance are inefficient on SMT processors, because they incur excessive context switches and spinning when workloads are waiting for I/O events. Such inefficiency makes it difficult to achieve high CPU throughput and high I/O throughput, which are required by typical workloads in the clouds with both intensive I/O operations and heavy computation.\n\nThe paper proposes to use context retention as a key technique to improve I/O performance and efficiency on SMT processors. Context retention uses a hardware thread to hold the context of an I/O workload waiting for I/O events, such that overhead of context switches and spinning can be eliminated, and the workload can quickly respond to I/O events. Targeting virtualized clouds and x86 systems, the paper identifies the technical issues in implementing context retention in real systems, and explores effective techniques to address these issues, including long term context retention and retention-aware symbiotic scheduling.\n\nThe paper designs vSMT-IO to implement the idea and the techniques. Extensive evaluation based on the prototype implementation in KVM and diverse real-world applications, such as DBMS, web servers, AI workload, and Hadoop jobs, shows that vSMT-IO can improve I/O throughput by up to 88.3% and CPU throughput by up to 123.1%.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

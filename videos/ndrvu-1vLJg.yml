@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - aws
+    - security
+title: 'USENIX ATC ''20 - BatchCrypt: Efficient Homomorphic Encryption for Cross-Silo Federated Learning'
+language: English
+recordingDate: 1598655648
+description: "BatchCrypt: Efficient Homomorphic Encryption for Cross-Silo Federated Learning\n\nChengliang Zhang, Suyi Li, Junzhe Xia, and Wei Wang, Hong Kong University of Science and Technology; Feng Yan, University of Nevada, Reno; Yang Liu, WeBank\n\nCross-silo federated learning (FL) enables organizations (e.g., financial, or medical) to collaboratively train a machine learning model by aggregating local gradient updates from each client without sharing privacy-sensitive data. To ensure no update is revealed during aggregation, industrial FL frameworks allow clients to mask local gradient updates using additively homomorphic encryption (HE). However, this results in significant cost in computation and communication. In our characterization, HE operations dominate the training time, while inflating the data transfer amount by two orders of magnitude. In this paper, we present BatchCrypt, a system solution for cross-silo FL that substantially reduces the encryption and communication overhead caused by HE. Instead of encrypting individual gradients with full precision, we encode a batch of quantized gradients into a long integer and encrypt it in one go. To allow gradient-wise aggregation to be performed on ciphertexts of the encoded batches, we develop new quantization and encoding schemes along with a novel gradient clipping technique. We implemented BatchCrypt as a plug-in module in FATE, an industrial cross-silo FL framework. Evaluations with EC2 clients in geo-distributed datacenters show that BatchCrypt achieves 23X-93X training speedup while reducing the communication overhead by 66X-101X. The accuracy loss due to quantization errors is less than 1%.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

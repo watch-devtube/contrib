@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+title: 'USENIX ATC ''20 - Daydream: Accurately Estimating the Efficacy of Optimizations for DNN Training'
+language: English
+recordingDate: 1598655537
+description: "Daydream: Accurately Estimating the Efficacy of Optimizations for DNN Training\n\nHongyu Zhu, University of Toronto & Vector Institute; Amar Phanishayee, Microsoft Research; Gennady Pekhimenko, University of Toronto & Vector Institute\n\nModern deep neural network (DNN) training uses a complex software/hardware stack used by machine learning (ML) practitioners are often heterogeneous. The efficacy of software-level optimizations can vary significantly when applied to different configurations. It is onerous and error-prone for ML practitioners and system developers to implement each optimization separately, and determine which ones will improve performance in their own configurations. Unfortunately, existing profiling tools do not aim to answer predictive questions such as \"How will optimization X affect the performance of my model?\". This paper addresses this critical limitation, and proposes a new profiling tool, Daydream, to help programmers efficiently explore the efficacy of DNN optimizations. Daydream models DNN execution with a fine-grained dependency graph based on low-level traces collected by CUPTI, and predicts runtime by simulating execution based on the dependency graph. Daydream maps the low-level traces using DNN domain-specific knowledge, and introduces a set of graph-transformation primitives that can easily model a wide variety of optimizations. We show that Daydream is able to model most mainstream DNN optimization techniques, and accurately predict the efficacy of optimizations that will result in significant performance improvements.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

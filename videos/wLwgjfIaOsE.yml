@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+    - rust
+title: 'Optimizing rav1e Effective profiling techniques and optimization strategies'
+language: English
+recordingDate: 1603004864
+description: "by Luca Barbato\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.401/rust_optimizing_rav1e.webm\n\nrav1e is a fast AV1 encoder written in rust (and plenty of assembly), released monthly.\n\n\nSince the 0.1.0 release we try to make sure we provide an adequate speed or quality boost compared to the previous.\n\n\nThis talk is about what tools are available in the rust ecosystem and what are the practices that worked best for us.\nThe presentation will touch the following topics:\n- Exploring a codebase and profiling it effectively, both for cpu usage and memory usage.\n- Which are the optimization strategies that worked for us better (critical path analysis vs peak consumer)\n- Benchmarking and tracing\n\n\nI'll provide examples on what tools worked well or not so well and what currently I consider the best and most promising tools for each tasks.\n\nRoom: K.3.401\nScheduled start: 2020-02-02 10:40:00"

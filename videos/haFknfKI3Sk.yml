@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'USENIX ATC ''20 - Lightweight Preemptible Functions'
+language: English
+recordingDate: 1598655556
+description: "Lightweight Preemptible Functions\n\nSol Boucher, Carnegie Mellon University; Anuj Kalia, Microsoft Research; David G. Andersen, Carnegie Mellon University; Michael Kaminsky, BrdgAI / Carnegie Mellon University\n\nLamenting the lack of a natural userland abstraction for preemptive interruption and asynchronous cancellation, we propose lightweight preemptible functions, a mechanism for synchronously performing a function call with a precise timeout that is lightweight, efficient, and composable, all while being portable between programming languages. We present the design of libinger, a library that provides this abstraction, on top of which we build libturquoise, arguably the first general-purpose and backwards-compatible preemptive thread library implemented entirely in userland. Finally, we demonstrate this software stack’s applicability to and performance on the problems of combatting head-of-line blocking and time-based DoS attacks.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

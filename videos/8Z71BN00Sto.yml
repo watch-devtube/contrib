@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+title: 'Automating Programming and Development of Heterogeneous SoCs with LLVM Tools'
+language: English
+recordingDate: 1602227230
+description: "by Joshua Mack and Nirmal Kumbhare\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/llvm_aut_prog_het_soc.webm\n\nHistorically, programming heterogeneous systems has been quite a challenge. While programming support for basic general-purpose accelerators such as GPUs has become quite mature in many ways, general heterogeneous SoCs in particular can feature a much broader range of accelerators in their efforts to minimize power consumption while maximizing performance. Many SoCs, though, are designed with accelerators tailored for the domain -- such as signal processing --  in which they’ll be used: Domain-Specific SoCs. As SoC platforms become ever-more heterogeneous, we think that application developers shouldn’t need to waste time reading datasheets or APIs for SoC-specific kernel extensions just to take full advantage of their hardware. With this in mind, in this talk we will discuss strategies we are using to automate mapping of LLVM-compatible languages to heterogeneous platforms with no intervention (not even #pragmas) from the programmer.\n\n\nTo this end, we present our prototype of a software stack that seeks to address both of these needs. To meet the first need, we developed an LLVM-based hybrid compile/run-time toolchain to extract the semantic operations being performed in a given application. With these semantic operations extracted, we can link in additional libraries that enable dispatch of certain kernels (such as a Fast Fourier Transform) to accelerators on the SoC without user intervention. To evaluate the functionality of this toolchain, we developed a runtime system built on top of QEMU+Linux that includes scheduling and task dispatch capabilities targeting hypothetical SoC configurations. This enables behavioral modeling of these accelerators before silicon (or even FPGA) implementations are available.  The focus here will be on the LLVM-mapping aspects, but a brief overview of our SoC simulation environment will be presented as well.\n\nRoom: K.4.201\nScheduled start: 2020-02-01 16:00:00"

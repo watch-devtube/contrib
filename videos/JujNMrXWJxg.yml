@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - lisp
+title: 'USENIX ATC ''20 - OSCA: An Online-Model Based Cache Allocation Scheme in Cloud Block Storage Systems'
+language: English
+recordingDate: 1598655676
+description: "OSCA: An Online-Model Based Cache Allocation Scheme in Cloud Block Storage Systems\n\nYu Zhang, Huazhong University of Science and Technology; Ping Huang, Huazhong University of Science and Technology and Temple University; Ke Zhou and Hua Wang, Huazhong University of Science and Technology; Jianying Hu, Yongguang Ji, and Bin Cheng, Tencent Inc.\n\nWe propose an Online-Model based Scheme for Cache Allocation for shared cache servers among cloud block storage devices. OSCA can find a near-optimal configuration scheme at very low complexity improving the overall efficiency of the cache server. OSCA employs three techniques. First, it deploys a novel cache model to obtain a miss ratio curve (MRC) for each storage node in the cloud infrastructure block storage system. Our model uses a low overhead method to obtain data reuse distances from the ratio of re-access traffic to the total traffic within a time window. It then translates the obtained reuse distance distribution into miss ratio curves. Second, knowing the cache requirements of storage nodes, it defines the total hit traffic metric as the optimization target. Third, it searches for a near optimal configuration using a dynamic programming method and performs cache reassignment based on the solution. Experimental results with real-world workloads show that our model achieves a Mean Absolute Error (MAE) comparable to existing state-of-the-art techniques, but we can do without the overheads of trace collection and processing. Due to the improvement of hit ratio, OSCA reduces IO traffic to the back-end storage server by 13.2% relative to an equal-allocation-to-all-instances policy with the same amount of cache memory.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

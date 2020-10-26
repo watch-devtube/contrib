@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - security
+title: 'USENIX Security ''20 - PHMon: A Programmable Hardware Monitor and Its Security Use Cases'
+language: English
+recordingDate: 1600121974
+description: "PHMon: A Programmable Hardware Monitor and Its Security Use Cases\n\nLeila Delshadtehrani, Sadullah Canakci, Boyou Zhou, Schuyler Eldridge, Ajay Joshi, and Manuel Egele, Boston University\n\nThere has been a resurgent trend in the industry to enforce a variety of security policies in hardware. The current trend for developing dedicated hardware security extensions is an imperfect, lengthy, and costly process. In contrast to this trend, a flexible hardware monitor can efficiently enforce and enhance a variety of security policies as security threats evolve. Existing hardware monitors typically suffer from one (or more) of the following drawbacks: a restricted set of monitoring actions, considerable performance and power overheads, or an invasive design. In this paper, we propose a minimally-invasive and efficient implementation of a Programmable Hardware Monitor (PHMon) with expressive monitoring rules and flexible fine-grained actions. PHMon can enforce a variety of security policies and can also assist with detecting software bugs and security vulnerabilities. Our prototype of PHMon on an FPGA includes the hardware monitor and its interface with a RISC-V Rocket processor as well as a complete Linux software stack. We demonstrate the versatility of PHMon and its ease of adoption through four different use cases: a shadow stack, a hardware-accelerated fuzzing engine, an information leak prevention mechanism, and a hardware-accelerated debugger. Our prototype implementation of PHMon incurs 0.9% performance overhead on average, while the hardware-accelerated fuzzing engine improves fuzzing performance on average by 16× over the state-of-the art software-based implementation. Our ASIC implementation of PHMon only incurs a 5% power overhead and a 13.5% area overhead.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

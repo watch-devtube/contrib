@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - lisp
+    - embedded
+title: 'GNU Guix as an alternative to the Yocto Project'
+language: English
+recordingDate: 1602659044
+description: "by Mathieu Othacehe\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.3.201/ggaaattyp.webm\n\nThis talk demonstrates how to use GNU Guix to build a root filesystem for an\nembedded device (Pine A64 LTS).  I will also try to answer the question:\ncould GNU Guix be a viable alternative to the Yocto project and what would be\nthe benefits of using GNU Guix?\nWorking as an embedded software engineer, I've been using Yocto and Buildroot\nprojects to create root filesystems for embedded devices. While Buildroot is\nonly suitable for small embedded systems, Yocto does scale well, but is a\nreally complex tool.\n\n\nPlus, both tools are difficult to handle for developers without a strong\nunderstanding of Linux system integration, and on the other hand, do not\nprovide APIs and introspection tools for integrators.\n\n\nIn this talk, I want to explore the possibility of using GNU Guix as an\nalternative to the Yocto project to generate embedded root filesystems.\n\n\nWith 7 years of existence, more than 10000 packages and 4 supported\narchitectures, GNU Guix can be used as a transactional package manager and an\nadvanced distribution of the GNU operating system running on the Linux kernel.\n\n\nWhat would be missing to cover all Yocto features? How could the embedded\ndeveloper benefit from GNU Guix features such as its high level Scheme API,\npackage substitution mechanism, strong reliability and reproducibility?\n\n\nTo provide some real world application, I'll compare the process of adding\nsupport for a new board (Pine A64 LTS) on Yocto and GNU Guix. Then I'll\ncompare how to configure, build and flash a small root filesystem for\nthat same board, on the two tools.\n\nRoom: K.3.201\nScheduled start: 2020-02-02 10:00:00"

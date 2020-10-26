@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - aws
+title: 'USENIX ATC ''20 - A Decentralized Blockchain with High Throughput and Fast Confirmation'
+language: English
+recordingDate: 1598655667
+description: "A Decentralized Blockchain with High Throughput and Fast Confirmation\n\nChenxing Li, Peilun Li, and Dong Zhou, Tsinghua University; Zhe Yang, Ming Wu, and Guang Yang, Conflux Foundation; Wei Xu, Tsinghua University; Fan Long, University of Toronto and Conflux Foundation; Andrew Chi-Chih Yao, Tsinghua University\n\nThis paper presents Conflux, a scalable and decentralized blockchain system with high throughput and fast confirmation. Conflux operates with a novel consensus protocol which optimistically processes concurrent blocks without discarding any as forks and adaptively assigns weights to blocks based on their topologies in the Conflux ledger structure (called Tree-Graph). The adaptive weight mechanism enables Conflux to detect and thwart liveness attack by automatically switching between an optimistic strategy for fast confirmation in normal scenarios and a conservative strategy to ensure consensus progress during liveness attacks. We evaluated Conflux on Amazon EC2 clusters with up to 12k full nodes. The consensus protocol of Conflux achieves a block throughput of 9.6Mbps with 20Mbps network bandwidth limit per node. On a combined workload of payment transactions and Ethereum history transactions, the end-to-end system of Conflux achieves the throughput of up to 3480 transactions per second while confirming transactions under one minute.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"
