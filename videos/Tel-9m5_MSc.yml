@@ -1,0 +1,23 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - android
+    - azure
+    - aws
+    - containers
+    - docker
+    - kubernetes
+    - python
+    - kotlin
+    - java
+title: 'gotf – Umgebungen mit Terraform einfacher managen | Reinhard von codecentric auf der #SoftwerkerKonf'
+language: German
+recordingDate: 1594025686
+description: "Multi environment deployment mit Terraform! Wenn man mit Terraform mehrere Umgebungen (z. B. dev, staging, prod) hochziehen will, möchte man in der Regel denselben Code dafür verwenden, allerdings mit unterschiedlichen Konfigurationen. Zudem muss man unterschiedliche Backends für den Terraform-State konfigurieren. Für Letzteres kann man jedoch nicht auf Variablen zugreifen. Man baut sich also meist ein Wrapper-Skript, das es erlaubt, Werte, die sowohl in den Terraform-Modulen als auch für das Backend gebraucht werden, an einer Stelle zu setzen, um Redundanzen zu vermeiden. Die Parameter für das Backend werden dann per Kommandozeile übergeben. Mit „gotf“ steht nun ein Tool zur Verfügung, das diese Aufgabenstellung elegant zu lösen versucht. Reinhard hat es entwickelt und setzt es auch in seinem aktuellen Projekt erfolgreich ein. Diese Session stellt das Tool vor und demonstriert dessen Verwendung\n\n• GitHub-Repository: https://github.com/craftypath/gotf\n\nDer Vortrag war Teil der SoftwerkerKonf 2020.\n• Alle Vorträge: https://www.youtube.com/playlist?list=PLD9VybHH2wnYtuaiEcjMH5n2gTgNSDYAV\n• Homepage der Konferenz: https://info.codecentric.de/softwerkerkonf-2020 \n• Das kostenlose Softwerker Magazin: https://www.codecentric.de/wissen/softwerker/\n\nReinhard ist Senior IT Consultant am Münchner Standort der codecentric. Er blickt auf rund 20 Jahre Erfahrung in der Java-Entwicklung zurück, ist auch in Go, Python oder Kotlin unterwegs und terraformt sich durch AWS, Azure und GCP. In seinen Projekten setzt er sich sehr dafür ein, die Automatisierung voranzutreiben und hat in den letzten Jahren umfangreiches Wissen in Infrastrukturfragen rund um Docker und Kubernetes aufgebaut und dieses auch in Schulungen weitergegeben. Reinhard trägt gerne zu Open-Source-Projekten bei. Er engagiert sich in der Community rund um Kubernetes und ist Helm Maintainer."
