@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - security
+title: 'DEF CON Safe Mode Voting Village - Michael A  Specter - The Ballot is Busted before the Blockchain'
+language: English
+recordingDate: 1597440011
+description: "In the 2018 midterm elections, West Virginia became the first state in the U.S. to allow select voters to cast their ballot on a mobile phone via a proprietary app called “Voatz.” Although there was no public formal description of Voatz's security model, the company claimed that election security and integrity were maintained through the use of a permissioned blockchain, biometrics, a mixnet, and hardware-backed key storage modules on the user's device. In this work, we present the first public security analysis of Voatz, based on a reverse engineering of their Android application and the minimal available documentation. We performed a cleanroom reimplementation of Voatz's server and present an analysis of the election process as visible from the app itself.\n\nWe find that Voatz has vulnerabilities that allow different kinds of adversaries to alter, stop, or expose a user's vote, including a sidechannel attack in which a completely passive network adversary can recover a user's secret ballot. We additionally find that Voatz has a number of privacy issues stemming from their use of third party services for crucial app functionality. Our findings serve as a concrete illustration of the common wisdom against Internet voting, and of the importance of transparency to the legitimacy of elections."
