@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - lisp
+title: 'USENIX Security ''20 - VoteAgain: A scalable coercion-resistant voting system'
+language: English
+recordingDate: 1600121512
+description: "VoteAgain: A scalable coercion-resistant voting system\n\nWouter Lueks, EPFL; Iñigo Querejeta-Azurmendi, Universidad Carlos III Madrid/ITEFI, CSIC; Carmela Troncoso, EPFL\n\nThe strongest threat model for voting systems considers coercion resistance: protection against coercers that force voters to modify their votes, or to abstain. Existing remote voting systems either do not provide this property; require expensive operations for tallying; or burden users with the need to store cryptographic key material and with the responsibility to deceive their coercers. We propose VoteAgain, a scalable voting scheme that relies on the revoting paradigm to provide coercion resistance. VoteAgain uses a novel deterministic ballot padding mechanism to ensure that coercers cannot see whether a vote has been replaced. This mechanism ensures tallying takes quasilinear time, making VoteAgain the first revoting scheme that can handle elections with millions of voters. We prove that VoteAgain provides ballot privacy, coercion resistance, and verifiability; and we demonstrate its scalability using a prototype implementation of its core cryptographic primitives.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

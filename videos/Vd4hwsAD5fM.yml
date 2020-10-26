@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Justinian''s GAAvernor: Robust Distributed Learning with Gradient Aggregation'
+language: English
+recordingDate: 1600121512
+description: "Justinian's GAAvernor: Robust Distributed Learning with Gradient Aggregation Agent\n\nXudong Pan, Mi Zhang, Duocai Wu, and Qifan Xiao, Fudan University; Shouling Ji, Zhejiang University/Ant Financial; Min Yang, Fudan University\n\nThe hidden vulnerability of distributed learning systems against Byzantine attacks has been investigated by recent researches and, fortunately, some known defenses showed the ability to mitigate Byzantine attacks when a minority of workers are under adversarial control. Yet, our community still has very little knowledge on how to handle the situations when the proportion of malicious workers is 50% or more. Based on our preliminary study of this open challenge, we find there is more that can be done to restore Byzantine robustness in these more threatening situations, if we better utilize the auxiliary information inside the learning process.\n\nIn this paper, we propose Justinian's GAAvernor (GAA), a Gradient Aggregation Agent which learns to be robust against Byzantine attacks via reinforcement learning techniques. Basically, GAA relies on utilizing the historical interactions with the workers as experience and a quasi-validation set, a small dataset that consists of less than $10$ data samples from similar data domains, to generate reward signals for policy learning. As a complement to existing defenses, our proposed approach does not bound the expected number of malicious workers and is proved to be robust in more challenging scenarios.\n\nThrough extensive evaluations on four benchmark systems and against various adversarial settings, our proposed defense shows desirable robustness as if the systems were under no attacks, even in some case when 90% Byzantine workers are controlled by the adversary. Meanwhile, our approach shows a similar level of time efficiency compared with the state-of-the-art defenses. Moreover, GAA provides highly interpretable traces of worker behavior as by-products for further mitigation usages like Byzantine worker detection and behavior pattern analysis.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

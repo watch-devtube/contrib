@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'USENIX Security ''20 - Walking Onions: Scaling Anonymity Networks while Protecting Users'
+language: English
+recordingDate: 1600121512
+description: "Walking Onions: Scaling Anonymity Networks while Protecting Users\n\nChelsea H. Komlo, University of Waterloo; Nick Mathewson, The Tor Project; Ian Goldberg, University of Waterloo\n\nScaling anonymity networks offers unique security challenges, as attackers can exploit differing views of the network's topology to perform epistemic and route capture attacks. Anonymity networks in practice, such as Tor, have opted for security over scalability by requiring participants to share a globally consistent view of all relays to prevent these kinds of attacks. Such an approach requires each user to maintain up-to-date information about every relay, causing the total amount of data each user must download every epoch to scale linearly with the number of relays. As the number of clients increases, more relays must be added to provide bandwidth, further exacerbating the total load on the network.\n\nIn this work, we present Walking Onions, a set of protocols improving scalability for anonymity networks. Walking Onions enables constant-size scaling of the information each user must download in every epoch, even as the number of relays in the network grows. Furthermore, we show how relaxing the clients' bandwidth growth from constant to logarithmic can enable an outsized improvement to relays' bandwidth costs. Notably, Walking Onions offers the same security properties as current designs that require a globally consistent network view. We present two protocol variants. The first requires minimal changes from current onion-routing systems. The second presents a more significant design change, thereby reducing the latency required to establish a path through the network while providing better forward secrecy than previous such constructions. We implement and evaluate Walking Onions in a simulated onion-routing anonymity network modelled after Tor, and validate that Walking Onions indeed offers significant scalability improvements for networks at or above the size of the current Tor network.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

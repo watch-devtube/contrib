@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - security
+title: 'USENIX Security ''20 - Boxer: Preventing fraud by scanning credit cards'
+language: English
+recordingDate: 1600121512
+description: "Boxer: Preventing fraud by scanning credit cards\n\nZainul Abi Din and Hari Venugopalan, UC Davis; Jaime Park, Bouncer Technologies; Andy Li, Segment; Weisu Yin, UC Davis; Haohui Mai, Hengmuxing Technologies; Yong Jae Lee, UC Davis; Steven Liu, Bouncer Technologies; Samuel T. King, UC Davis and Bouncer Technologies\n\nCard-not-present credit card fraud costs businesses billions of dollars a year. In this paper, we present Boxer, a mobile SDK and server that enables apps to combat card-not-present fraud by scanning cards and verifying that they are genuine. Boxer analyzes the images from these scans, looking for tell-tale signs of attacks, and introduces a novel abstraction on top of modern security hardware for complementary protection.\n\nCurrently, 323 apps have integrated Boxer, and tens of them have deployed it to production, including some large, popular, and international apps, resulting in Boxer scanning over 10 million real cards already. Our evaluation of Boxer from one of these deployments shows ten cases of real attacks that our novel hardware-based abstraction detects. Additionally, from the same deployment, without letting in any fraud, Boxer’s card scanning recovers 89% of the good users whom the app would have blocked. In another evaluation of Boxer, we run our image analysis models against images from real users and show an accuracy of 96% and 100% on the two models that we use.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

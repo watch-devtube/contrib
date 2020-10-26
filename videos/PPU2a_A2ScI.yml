@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - security
+title: 'USENIX Security ''20 - High Accuracy and High Fidelity Extraction of Neural Networks'
+language: English
+recordingDate: 1600121512
+description: "High Accuracy and High Fidelity Extraction of Neural Networks\n\nMatthew Jagielski, Northeastern University, Google Brain; Nicholas Carlini, David Berthelot, Alex Kurakin, and Nicolas Papernot, Google Brain\n\nIn a model extraction attack, an adversary steals a copy of a remotely deployed machine learning model, given oracle prediction access. We taxonomize model extraction attacks around two objectives: accuracy, i.e., performing well on the underlying learning task, and fidelity, i.e., matching the predictions of the remote victim classifier on any input.\n\nTo extract a high-accuracy model, we develop a learning-based attack exploiting the victim to supervise the training of an extracted model. Through analytical and empirical arguments, we then explain the inherent limitations that prevent any learning-based strategy from extracting a truly high-fidelity model—i.e., extracting a functionally-equivalent model whose predictions are identical to those of the victim model on all possible inputs. Addressing these limitations, we expand on prior work to develop the first practical functionally-equivalent extraction attack for direct extraction (i.e., without training) of a model's weights.\n\nWe perform experiments both on academic datasets and a state-of-the-art image classifier trained with 1 billion proprietary images. In addition to broadening the scope of model extraction research, our work demonstrates the practicality of model extraction attacks against production-grade systems.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

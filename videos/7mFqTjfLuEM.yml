@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - embedded
+title: 'USENIX Security ''20 - HALucinator: Firmware Re-hosting Through Abstraction Layer Emulation'
+language: English
+recordingDate: 1600121526
+description: "HALucinator: Firmware Re-hosting Through Abstraction Layer Emulation\n\nAbraham A Clements, Sandia National Laboratories; Eric Gustafson, UC Santa Barbara and Sandia National Laboratories; Tobias Scharnowski, Ruhr-Universität Bochum; Paul Grosen, UC Santa Barbara; David Fritz, Sandia National Laboratories; Christopher Kruegel and Giovanni Vigna, UC Santa Barbara; Saurabh Bagchi, Purdue University; Mathias Payer, EPFL\n\nGiven the increasing ubiquity of online embedded devices, analyzing their firmware is important to security, privacy, and safety. The tight coupling between hardware and firmware and the diversity found in embedded systems makes it hard to perform dynamic analysis on firmware. However, firmware developers regularly develop code using abstractions, such as Hardware Abstraction Layers (HALs), to simplify their job. We leverage such abstractions as the basis for the re-hosting and analysis of firmware. By providing high-level replacements for HAL functions (a process termed High-Level Emulation – HLE), we decouple the hardware from the firmware. This approach works by first locating the library functions in a firmware sample, through binary analysis, and then providing generic implementations of these functions in a full-system emulator.\n\nWe present these ideas in a prototype system, HALucinator, able to re-host firmware, and allow the virtual device to be used normally. First, we introduce extensions to existing library matching techniques that are needed to identify library functions in binary firmware, to reduce collisions, and for inferring additional function names. Next, we demonstrate the re-hosting process, through the use of simplified handlers and peripheral models, which make the process fast, flexible, and portable between firmware samples and chip vendors. Finally, we demonstrate the practicality of HLE for security analysis, by supplementing HALucinator with the American Fuzzy Lop fuzzer, to locate multiple previously-unknown vulnerabilities in firmware middleware libraries.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"

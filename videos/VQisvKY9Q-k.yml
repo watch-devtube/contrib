@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - security
+title: 'USENIX Security ''20 - DECAF: Automatic, Adaptive De-bloating and Hardening of COTS Firmware'
+language: English
+recordingDate: 1600121526
+description: "DECAF: Automatic, Adaptive De-bloating and Hardening of COTS Firmware\n\nJake Christensen, Private Machines; Ionut Mugurel Anghel, Univ. Politehnica Bucharest; Rob Taglang, Private Machines; Mihai Chiroiu, Univ. Politehnica Bucharest; Radu Sion, Private Machines\n\nOnce compromised, server firmware can surreptitiously and permanently take over a machine and any stack running thereon, with no hope for recovery, short of hardware-level intervention. To make things worse, modern firmware contains millions of lines of unnecessary code and hundreds of unnecessary modules as a result of a long firmware supply chain designed to optimize time-to-market and cost, but not security. As a result, off-the-shelf motherboards contain large, unnecessarily complex, closed-source vulnerability surfaces that can completely and irreversibly compromise systems.\n\nIn this work, we address this problem by dramatically and automatically reducing the vulnerability surface. DECAF is an extensible platform for automatically pruning a wide class of commercial UEFI firmware. DECAF intelligently runs dynamic iterative surgery on UEFI firmware to remove a maximal amount of code with no regressive effects on the functionality and performance of higher layers in the stack (OS, applications).\n\nDECAF has successfully pruned over 70% of unnecessary, redundant, reachable firmware in leading server-grade motherboards with no effect on the upper layers, and increased resulting system performance and boot times.\n\nView the full USENIX Security '20 program at https://www.usenix.org/conference/usenixsecurity20/technical-sessions"
