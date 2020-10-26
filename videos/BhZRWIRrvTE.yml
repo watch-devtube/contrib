@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'Bypassing conntrack: Optimizing K8s Service By Enhancing IPVS with... - Jianming Fan & Hong Zhiguo'
+language: English
+recordingDate: 1599862873
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io\_The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nBypassing conntrack: Optimizing K8s Service By Enhancing IPVS with eBPF - Jianming Fan & Hong Zhiguo, Tencent \n\nIPVS mode is a commonly used load balancing strategy for Kubernetes Service. However, its performance is not ideal. It uses conntrack and iptables, both are too heavy for SNAT. To address this issue, a novel load balancer IPVS-eBPF is developed in Tencent.  * IPVS is modified to bypass Netfilter, so it is more lightweight without conntrack and iptables * An eBPF program is attached to qdisc, performing SNAT as instructed by IPVS * IPVS updates the eBPF map upon connection creation and expiry  Benchmark shows that, comparing to IPVS, IPVS-eBPF achieves 22% throughput gain in servicing TCP persistent connections and 64% throughput gain in servicing TCP short connections.  This talk will first introduce a few existing load balancers for Kubernetes. Then the detailed design of IPVS-eBPF will be discussed, together with the technical challenges and some eBPF programming experiences. \n\nhttps://sched.co/dZHk"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'Best Practice for Building Lightweight VM Cluster With Kubevirt - Yin Chengfeng, Baidu'
+language: English
+recordingDate: 1599862480
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io\_The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nBest Practice for Building Lightweight VM Cluster With Kubevirt - Yin Chengfeng, Baidu \n\nKubevirt, as a plugin to K8S, uses CRD extensions to provide K8S with the ability to manage virtual machines like containers.    However, VM cluster in Baidu not only manages the VM, but also manages VM related resources, such as network, custom images and image repositories, and user configuration. And thus, Kubevirt's support for those resources is not sufficient.    This talk will introduce how to use macvtap to implement a dual network adapters, connect to a centralized image service to manage VM images, and inject user configuration and password during the initialization process in a Kubevirt-based lightweight VM cluster. This talk will also cover how to deploy K8S and kubevirt in the edge environment to realize the virtual machine cluster management capabilities at the edge in Baidu. \n\nhttps://sched.co/cp8W"

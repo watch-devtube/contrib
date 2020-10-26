@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ux
+    - containers
+    - kubernetes
+title: 'Piraeus: Local Persistent Volume Dynamic Provisioning... - Philipp Reisner & Hongchao Zheng'
+language: English
+recordingDate: 1599862894
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io\_The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nPiraeus: Local Persistent Volume Dynamic Provisioning, Management and HA - Philipp Reisner, LINBIT & Hongchao Zheng, DaoCloud \n\nPiraeus is an opensource project that aims to further empower Local Persistent Volumes with Dynamic Provisioning, Resource Management, and High Availability. The project is co-founded by LINBIT and Daocloud. Piraeus pods, deployed as a daemonset, organize various local storage resources such as hostPaths, disks and VGs into pools, and dynamically provision them according to user-controlled policies. Data on Local Persistent Volume has a single point of failure, therefore Piraeus integrates DRBD to synchronously replicate the data so that it can failover to another Local Persistent Volume when pod is rescheduled. Piraeus CLIs are aggregated into kubectl by CRDs, which provides a seamless user experience for Kubernetes admins. Piraeus resource management reports capacity and usage stats on each node, and sends out alerts when space is about to run out. \n\nhttps://sched.co/cp9s"

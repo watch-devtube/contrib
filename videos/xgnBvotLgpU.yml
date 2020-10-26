@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - performance
+    - cloud
+    - containers
+    - kubernetes
+    - architecture
+    - wasm
+title: 'Kubernetes + WebAssembly: A New Architecture for Serverless - Yifei Zhang & Wenjun Gao, Alibaba'
+language: English
+recordingDate: 1599862634
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io\_The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nKubernetes + WebAssembly: A New Architecture for Serverless - Yifei Zhang & Wenjun Gao, Alibaba \n\nMost serverless services are implemented on top of Kubernetes, however, the way of focusing on scheduling encountered great challenges in terms of costs, efficiency and reliability.  WebAssembly is a new technology with advantages of high performance, secure sandboxing and fast growth trends.  We will share our latest practices inside Alibaba Cloud, propose a more competitive solution with the combination of Kubernetes and WebAssembly. With the sinking of Kubernetes infrastructure and best practice of cloud native, we ensured the stability of our control path. We manage wasm runtime as Pod to form a wasm runtime cluster. WebAssembly's sandbox capability provides users with a secure multi-tenancy environment. Application are delivered as wasm files, and can be quickly loaded to process requests. As there is no need to initialize runtime environment, the cold start time is reduced greatly. \n\nhttps://sched.co/cp9d"
