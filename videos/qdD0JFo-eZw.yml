@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - bigdata
+    - performance
+    - ux
+    - azure
+    - security
+    - embedded
+title: 'Billions of records: the real success story using Microsoft Power BI Embedded - Irina Dragunova'
+recordingDate: 1602456503
+description: "Having billions of rows in the database and several slow data sources, requires special considerations when processing and presenting the data. So how do you solve the performance challenge? Do you build a solid caching strategy and design a complex web solution? Alternatively, you can bring the data as close to the end user as possible and keep the web application simple.\n\nIn this session, I will go through our architectural approach to processing and presenting large data sets in a web application to the end customers. I will present to you the whole data flow: how we process the data using Azure Databricks, build in-memory model in Azure Analysis Services, and visualize the data in web application using Microsoft Power BI Embedded. This approach makes it possible to filter and aggregate the data very efficiently, thus helping to provide a rich user experience to the customers.\nWe will also go through authentication flow and security of our application, discuss our challenges and lessons learned.\n\nAfter this session, you will get a clear understanding of one possible approach to process and visualize big data. It can help you to develop your own application, and also to avoid some pitfalls."
