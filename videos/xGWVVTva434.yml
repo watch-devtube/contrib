@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - azure
+title: 'High performance HTAP with Postgres & Hyperscale (Citus) | Interview with Marco Slot'
+language: English
+recordingDate: 1593216420
+description: "With Hyperscale (Citus) you can now scale out Postgres horizontally, transforming Postgres into a distributed database that can do almost anything—including meeting the needs of data-intensive HTAP applications. HTAP stands for “hybrid transactional analytical processing.” This interview, with demo, explores the promise of HTAP—that there is finally a database that can do transactions and analytics at scale—and shows how you can use Postgres with Hyperscale (Citus) on Azure to serve both the transactional & analytical needs of HTAP applications.  \n\nJoin Marco Slot, principal engineer and lead for the Citus open source project at Microsoft, and Citus open source advocate Claire Giordano—for an interview and demo, with a side-by-side performance comparison of Hyperscale (Citus) on Azure Database for PostgreSQL compared to a single Postgres server. The demo uses HammerDB to simulate a transactional workload and also features rollups that combined with the parallelism of Citus deliver low-latency analytical query results. \n\nThis interview was originally aired at the Microsoft European Virtual Open Source Summit. \n\nVideo bookmarks:\n► 2:11 The Postgres team at Microsoft\n► 3:24 About Marco Slot, lead of Citus open source \n► 6:52 Importance of Postgres extensions\n► 8:41 The Citus open source extension to Postgres\n► 10:27 Interview Q&A with Marco Slot \n► 17:15 HTAP demo with Postgres & Hyperscale (Citus)\n► 31:01 How Windows telemetry team uses Postgres & Citus\n\nCitus is an open source extension to Postgres that changes the game for HTAP workloads. Because Citus is an extension to Postgres, Citus gives you all the transactional and indexing capabilities of Postgres. And because Citus distributes both your data and your queries across multiple servers, Citus gives you low-latency analytics even in the face of high concurrency and billions of rows of data.\n\n📌 Let’s connect:\nTwitter – Marco Slot, https://twitter.com/marcoslot \nTwitter – Citus Data, https://twitter.com/citusdata \nTwitter – AzureDBPostgres, https://twitter.com/AzureDBPostgres \nTwitter – Claire Giordano, https://twitter.com/clairegiordano \n\n🔔  Subscribe to our Citus technical newsletter:\nhttps://aka.ms/citus-newsletter \n\n✅  Learn more:\nAzure Postgres Blog: https://aka.ms/azure-postgres-blog \nAzure Database for PostgreSQL managed service: https://aka.ms/azure-postgres\nCitus open source repo: https://github.com/citusdata/citus \n\n#PostgreSQL #Azure #AzureDBPostgres"
