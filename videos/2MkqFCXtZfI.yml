@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Booting 5 K8s Clusters on Every Git Push: How Linkerd Leveled Up Its CI - Andrew Seigner, Buoyant'
+language: English
+recordingDate: 1599237226
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nBooting 5 K8s Clusters on Every Git Push: How Linkerd Leveled Up Its CI - Andrew Seigner, Buoyant \n\nIn mid-2019, the Linkerd project's CI took 45 minutes, all tests were serialized on a single Kubernetes cluster, and multi-hour backups were common. A migration onto one-off Kubernetes in Docker (kind) clusters got CI below 10 minutes, and made it parallelizable.  This talk will detail Linkerd's CI journey from a single, persistent Kubernetes cluster to theoretically unlimited one-off kind clusters. This journey includes a few detours on what patterns and tools worked well (and not-so-well) for Linkerd's use case.  Attendees can expect a live demonstration of Linkerd's CI workflow, including automated cluster setup, test, and teardown. Folks should walk away from this talk with a grounded, end-user story of how to efficiently test their Kubernetes applications in CI.\n\nhttps://sched.co/Zeng"

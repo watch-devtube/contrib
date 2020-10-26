@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'Stateless Fluentd with Kafka - Steven McDonald, Usabilla'
+language: English
+recordingDate: 1599237315
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nStateless Fluentd with Kafka - Steven McDonald, Usabilla \n\nFluentd is typically deployed as a central aggregator to which everything sends its logs for processing and routing. This superficially simple approach was found to be inadequate at Usabilla. Errors in one part of the processing chain often had knock-on effects elsewhere, leading Usabilla's SREs to search for a more failure tolerant design.  Steven will introduce the new stateless fluentd deployment at Usabilla, built around Kafka as a centralised, highly available log buffer. He will also introduce the new components that have been developed to adapt fluentd to be completely stateless, as well as how logs are reliably fed into Kafka from hosts all over the world. Finally, there will be a brief overview of the challenges still remaining.\n\nhttps://sched.co/Zeik"

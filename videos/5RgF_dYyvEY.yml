@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'Virtual Cluster - A Practical Kubernetes Hard Multi-tenancy Solution - Fei Guo, Alibaba'
+language: English
+recordingDate: 1599237317
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nVirtual Cluster - A Practical Kubernetes Hard Multi-tenancy Solution - Fei Guo, Alibaba \n\nConventional, the concept of Kubernetes multi-tenancy is realized by namespaces. Tenants access controls are limited within tenant namespaces using RBAC rules. The Pod level isolation is primarily done using network policy.  This model faces various problems when applied in production since Kubernetes is far from tenancy-ready. For example: 1) APIServer is lack of tenant-aware flow control. A single tenant may generate large amount of concurrent traffic making APIServer unresponsive to other tenants; 2) Tenants cannot install customized CRDs which requires cluster scope permission;  We proposed Virtual Cluster solution to resolve the multi-tenancy problem from a different angle. Basically, every tenant will be assigned a dedicated K8s control plane. All tenant K8s shares a big super master. Virtual cluster is built based on CRDs. The entire solution is open sourced in Github.\n\nhttps://sched.co/Zek6"

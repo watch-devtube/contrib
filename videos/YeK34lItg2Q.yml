@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - architecture
+    - wasm
+title: 'Building a Distributed API Gateway with a Service Mesh - Rei Shimizu & Cynthia Coan'
+language: English
+recordingDate: 1599237223
+description: "Don’t miss out! Join us at our upcoming events: EnvoyCon Virtual on October 15 and KubeCon + CloudNativeCon North America 2020 Virtual from November 17-20. Learn more at\_https://kubecon.io. The conferences feature presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.  \n\nBuilding a Distributed API Gateway with a Service Mesh - Rei Shimizu, Waseda University & Cynthia Coan, Tetrate \n\nAPI Gateways are going through an identity crisis. As microservice architectures proliferate we're learning that really, we need API Gateway functionality between all of our services, and not just at ingress where API Gateways have been deployed traditionally. The ability to dynamically extend Envoy at runtime via WASM opens the door for many new capabilities, including moving API Gateway functionality into the service mesh layer.  In this talk, we'll explore how we helped extend Envoy to support executing WASM as a safe, sandboxed way to run arbitrary code in the proxy. We'll then go further by showing how we used WASM to move functionality typically reserved for the edge of our deployments - API Gateway functions like token validation, rate limiting, and payload transformation - into the service mesh in a real user's deployment.\n\nhttps://sched.co/ZelP"
