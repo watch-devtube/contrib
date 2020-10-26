@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+title: 'The Future of C++ Parallel and Concurrency Safety Guidelines - Michael Wong & Ilya Burylov CppCon 20'
+language: English
+recordingDate: 1600957811
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nAs we move into a world of multicore, manycore, and heterogeneous cores, we foresee a need for safety guidelines and standards for these domains. Yet most safety guidelines only cover sequential programming.\n\nThere has never really been any guidelines for safe parallel/concurrency C++. This is not an oversight. The challenge of creating safety standards and guidelines has been so involved that just focusing on the rules for sequential programming has consumed most group's time, especially as they track a rapidly changing C++ Standard. There have been only a few concurrency related-rules in HIC++, SEI CERT C++, C++CG, WG23, Khronos Safety forum(SCAF), as well as several European H2020 projects, though none of them are specifically for static analyzers, with a mixture of meta-guidelines and specific guidance. However, they have formed a useful starting point Over the last 2 years, I have been working with experts from various Safety Groups including WG23, SG1, and MISRA to develop a set of guidelines for safe concurrency and have developed nearly 100 rules which I plan to put into C++CG, and MISRA C++. We have needed this collaboration among all the groups because not everyone who is a concurrency expert is a safety experts, and vice versa. Many more people are experts in neither domain, and need to still understand how to program parallelism and concurrency safely.\n\nIn this talk, I will show some of the developing rules, none of it will be in its final form obviously, but it will develop the argument on the rationale on these rules. Some are uncheckable and are more meta-rules that are appropriate for C++ CG, such as don't use Mutex. But if you do, there are a bunch of more specific rules that you need to be aware of (i.e.e do not destroy a locked mutex while some are very specific). Others are checkable and are appropriate for a safety standard like MISRA C++ or a future Safe version of SYCL or any other heterogeneous framework. As none of these rules are in any guideline or standard as yet, there will be an opportunity for you to participate and help shape the future of safety in parallelism and concurrency.\n\n---\nMichael Wong\nCodeplay\n\nIlya Burylov\nIntel Corporation\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"
