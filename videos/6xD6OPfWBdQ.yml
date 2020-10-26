@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'FOCI ''20 - Padding Ain''t Enough: Assessing the Privacy Guarantees of Encrypted DNS'
+language: English
+recordingDate: 1600120891
+description: "Padding Ain't Enough: Assessing the Privacy Guarantees of Encrypted DNS\n\nJonas Bushart and Christian Rossow, CISPA Helmholtz Center for Information Security\n\nDNS over TLS (DoT) and DNS over HTTPS (DoH) encrypt DNS to guard user privacy by hiding DNS resolutions from passive adversaries. Yet, past attacks have shown that encrypted DNS is still sensitive to traffic analysis. As a consequence, RFC 8467 proposes to pad messages prior to encryption, which heavily reduces the characteristics of encrypted traffic. In this paper, we show that padding alone is insufficient to counter DNS traffic analysis. We propose a novel traffic analysis method that combines size and timing information to infer the websites a user visits purely based on encrypted and padded DNS traces. To this end, we model DNS Sequences that capture the complexity of websites that usually trigger dozens of DNS resolutions instead of just a single DNS transaction. A closed world evaluation based on the Tranco top-10k websites reveals that attackers can deanonymize test traces for 86.1 % of all websites, and even correctly label all traces for 65.9 % of the websites. Our findings undermine the privacy goals of state-of-the-art message padding strategies in DoT/DoH. We conclude by showing that successful mitigations to such attacks have to remove the entropy of inter-arrival timings between query responses.\n\nView the full FOCI '20 program at https://www.usenix.org/conference/foci20/workshop-program"

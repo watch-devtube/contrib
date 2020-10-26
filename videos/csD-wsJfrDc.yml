@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - lisp
+title: 'HotStorage ''20 - A New LSM-style Garbage Collection Scheme for ZNS SSDs'
+language: English
+recordingDate: 1598654812
+description: "A New LSM-style Garbage Collection Scheme for ZNS SSDs\n\nGunhee Choi, Kwanghee Lee, Myunghoon Oh, and Jongmoo Choi, Dankook University; Jhuyeong Jhin and Yongseok Oh, SK Hynix\n\nThis paper explores how to design a garbage collection scheme for ZNS (Zoned NameSpace) SSDs (Solid State Drives). We first show that a naive garbage collection based on a zone unit incurs a long latency due to the huge size of a zone. To overcome this problem, we devise a new scheme, we refer to it as LSM_ZGC (Log-Structured Merge style Zone Garbage Collection), that makes use of the following three features: segment based fine-grained garbage collection, reading both valid and invalid data in a group manner, and merging different data into separate zones. Our proposal can exploit the internal parallelism of a zone and reduce the utilization of a candidate zone by segregating hot and cold data. Real implementation based experimental results show that our scheme can enhance performance by 1.9 times on average.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - functional
+title: 'USENIX ATC ''20 - Twizzler: a Data-Centric OS for Non-Volatile Memory'
+language: English
+recordingDate: 1598655524
+description: "Twizzler: a Data-Centric OS for Non-Volatile Memory\n\nDaniel Bittman and Peter Alvaro, UC Santa Cruz; Pankaj Mehra, IEEE Member; Darrell D. E. Long, UC Santa Cruz; Ethan L. Miller, UC Santa Cruz / Pure Storage\nBest Presentation Award Winner!\n\nByte-addressable, non-volatile memory (NVM) presents an opportunity to rethink the entire system stack. We present Twizzler, an operating system redesign for this near-future. Twizzler removes the kernel from the I/O path, provides programs with memory-style access to persistent data using small (64 bit), object-relative cross-object pointers, and enables simple and efficient long-term sharing of data both between applications and between runs of an application. Twizzler provides a clean-slate programming model for persistent data, realizing the vision of Unix in a world of persistent RAM.\n\nWe show that Twizzler is simpler, more extensible, and more secure than existing I/O models and implementations by building software for Twizzler and evaluating it on NVM DIMMs. Most persistent pointer operations in Twizzler impose less than 0.5 ns added latency. Twizzler operations are up to 13× faster than Unix, and SQLite queries are up to 4.2× faster than on PMDK. YCSB workloads ran 1.1–2.9× faster on Twizzler than on native and NVM-optimized SQLite backends.\n\nView the full USENIX ATC '20 program at https://www.usenix.org/conference/atc20/technical-sessions"

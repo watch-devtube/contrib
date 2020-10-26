@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FOCI ''20 - Detecting and Evading Censorship-in-Depth: A Case Study of Iran’s Protocol Whitelister'
+language: English
+recordingDate: 1600120891
+description: "Detecting and Evading Censorship-in-Depth: A Case Study of Iran’s Protocol Whitelister\n\nKevin Bock, Yair Fax, Kyle Reese, Jasraj Singh, and Dave Levin, University of Maryland\n\nAs the censorship arms race advances, some nation-states are deploying “censorship-in depth,” composing multiple orthogonal censorship mechanisms. This can make it more difficult to both measure and evade censorship. Earlier this year, Iran deployed their protocol filter that permits only a small set of protocols (DNS, HTTP, and HTTPS) and censors connections using any other protocol. Iran composes their protocol filter with their standard censorship, threatening the success of existing evasion tools and measurement efforts. In this paper, we present the first detailed analysis of Iran’s protocol filter: how it works, its limitations, and how it can be defeated. We reverse engineer the fingerprints used by the protocol filter, enabling tool developers to bypass the filter, and report on multiple packet-manipulation strategies that defeat the filter. Despite acting concurrently with and on the same traffic as Iran’s standard DPI-based censorship, we demonstrate that it is possible to engage with (and defeat) each censorship system in isolation. Our code is publicly available at https://geneva.cs.umd.edu.\n\nView the full FOCI '20 program at https://www.usenix.org/conference/foci20/workshop-program"

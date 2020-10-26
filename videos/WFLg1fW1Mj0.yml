@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FOCI ''20 - A Comprehensive Study of DNS-over-HTTPS Downgrade Attack'
+language: English
+recordingDate: 1600120891
+description: "A Comprehensive Study of DNS-over-HTTPS Downgrade Attack\n\nQing Huang, University of California, Irvine; Deliang Chang, Tsinghua University; Zhou Li, University of California, Irvine\n\nDNS-over-HTTPS (DoH) is one major effort to protect DNS confidentiality and integrity, which has been deployed by most of the popular browsers. However, we found this effort could be tainted by the downgrade attack, which exposes the content of DNS communications to attackers like censors. Specifically, we examined 6 browsers with 4 attack vectors that are relevant to our attack model and found all combinations that lead to successful attacks. The fundamental reason is that all browsers enable Opportunistic Privacy profile by default, which allows DoH fall backs to DNS when DoH is not usable. However, it is still concerning that none of the browsers attempt to notify users when such a change happens and some browsers take a long time to recover to DoH. At the end of the paper, we propose some countermeasures and we call for discussions from the Internet community to revisit the standards and implementations about DoH and usage profiles.\n\nView the full FOCI '20 program at https://www.usenix.org/conference/foci20/workshop-program"

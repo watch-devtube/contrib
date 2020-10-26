@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - java
+title: 'HotStorage ''20 - Say Goodbye to Off-heap Caches! On-heap Caches Using Memory-Mapped I/O'
+language: English
+recordingDate: 1598654762
+description: "Say Goodbye to Off-heap Caches! On-heap Caches Using Memory-Mapped I/O\n\nIacovos G. Kolokasis, Anastasios Papagiannis, Polyvios Pratikakis, and Angelos Bilas, Institute of Computer Science (ICS), Foundation for Research and Technology – Hellas (FORTH), Greece; Foivos Zakkak, Red Hat, Inc.\n\nMany analytics computations are dominated by iterative processing stages, executed until a convergence condition is met. To accelerate such workloads while keeping up with the exponential growth of data and the slow scaling of DRAM capacity, Spark employs off-memory caching of intermediate results. However, off-heap caching requires the serialization and deserialization (serdes) of data, which add significant overhead especially with growing datasets.\n\nThis paper proposes TeraCache, an extension of the Spark data cache that avoids the need of serdes by keeping all cached data on-heap but off-memory, using memory-mapped I/O (mmio). To achieve this, TeraCache extends the original JVM heap with a managed heap that resides on a memory-mapped fast storage device and is exclusively used for cached data. Preliminary results show that the TeraCache prototype can speed up Machine Learning (ML) workloads that cache intermediate results by up to 37% compared to the state-of-the-art serdes approach.\n\nView the full HotStorage '20 program at https://www.usenix.org/conference/hotstorage20/workshop-program"
