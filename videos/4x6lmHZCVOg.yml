@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'Living without pre-production environments | Nicky Wrightson | #LeadDevLive'
+language: English
+recordingDate: 1597851289
+description: "Speaker:\nNicky Wrightson (Principal Engineer, Skyscanner)\n\nHistorically when we developed large monolithic applications we had several ‘lower’ environments such as dev, test, staging, pre-prod for verifying different stages of our development life cycle. These were particularly used for manual testing – integration testing, gatekeeping, acceptance testing.\n\nHowever as we are moving to increasingly more distributed, complex and larger systems we have sought tools and processes to enable us to move quicker. We have more automation in our testing, we have more automation in our deployment and we are creating services that are loosely coupled and independently deployable. With all the tooling and approaches now available to us, should we still be spending our time and money on running all these lower environments?\n\nWe thought not – At Skyscanner we don’t have lower environments only production. Well actually it is slightly more complicated than that but we will get to that.\n\nSo in this talk Nicky will talk about:\n- Why Skyscanner has chosen to ditch non-production environments\n- How Skyscanner do this – What we have done to make this working practice possible and how do we maintain quality and confidence\n- When does this approach not work – There are definitely some unsuitable use cases for this approach"
