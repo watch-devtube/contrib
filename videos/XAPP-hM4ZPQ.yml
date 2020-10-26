@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'Reducing Third-Party Security Risk in .NET Core Applications - Niels Tanis - NDC Oslo 2020'
+recordingDate: 1597408431
+description: "When developing a .NET Core application a large portion of the application itself consists of external 3rd party dependencies which can be fetched from a package repository like Microsoft's NuGet.\nHow do those opensource projects/dependencies deal with security problems? We do need to keep an eye on security updates done in order to not introduce any unnecessary security risks into our application but will that be sufficient?\n\nFinding and resolving security issues can take a lot of time and what about a compromised package in which a contributor has added functionality which has got malicious intent?\nThere is definitely a away we can improve the above and do a better job! In this session we'll take a look at e.g. compartmentalization and API review/reduction of those dependencies in order to reduce the risk profile of our developed .NET Core Applications."
