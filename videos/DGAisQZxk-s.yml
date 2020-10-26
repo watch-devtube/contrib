@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+title: 'Why Is the Optimizer Estimating the Wrong Number of Rows?'
+language: English
+recordingDate: 1598443875
+description: "The optimizer uses statistics to estimate how many rows it'll fetch from each table. This drives its decisions to on how to access the tables and join them. So the key to a good plan is good row estimates.\n\nSo why - even with fully up-to-date stats - does the optimizer sometimes get its estimates so badly wrong?\n\nIn this session we investigate two common causes: data skew and correlation. We look at why these lead to inaccurate estimates and what you can do to improve them.\n\nHighlights include:\n\n01:20 - Demo of SQL statements where the optimizer's row estimates are (badly) incorrect\n05:40 - Value skew: some values appearing more often than others\n06:20 - Frequency histograms\n09:25 - Top-frequency histograms\n14:25 - Height-balanced histograms\n18:00 - Hybrid histograms\n23:15 - Range skew: gaps between values\n29:45 - Correlation between columns\n32:15 - Demo: histogram creation during stats gathering based on column usage\n42:40 - Demo: stats for correlated columns\n46:00 - Demo: stats on expressions\n51:55 - Demo: stats for subqueries\n57:10 - Demo: disabling histograms\n58:00 - Using table preferences to set non-standard stats gathering options\n\nAskTOM Office Hours offers free, monthly training and tips on how to make the most of Oracle Database, from Oracle product managers, developers and evangelists.\n\nhttps://asktom.oracle.com/  \n\nOracle Developers portal: https://developer.oracle.com/\nSign up for an Oracle Cloud trial: https://www.oracle.com/cloud/free/"
