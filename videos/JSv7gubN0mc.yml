@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'Tanzu Talk: Large scale application modernization with Rohit Kelapure, part two'
+language: English
+recordingDate: 1601553516
+description: "You can't do everything at once, very quickly, large scale application modernizing, part two, with Rohit Kelapure\n\n----\n\nIn part one, Rohit Kelapure showed how to analyze and sort an application portfolio to find apps that should be modernized first. In part two, we discuss the process of breaking down a monolith. It starts by making sure that everyone agrees on goals and objects. As Rohit says, you also want to establish what the key results are: this allows you to know when you're done, otherwise you'll just keep working and working.\n\nNext, it's key to understand the domain the application is using. This means, the components, the nouns and things like invoices, mortgage applications, and actions like \"approval\" and \"purchase.\" These processes are called \"thin slices.\" Rohit explains how using event storming (mapping the business process) is used to do this. Once done, you build up a language that both the business side and the developers understand.\n\nAfter this, you map out the dependencies between all of this - what services and domain objects rely on others. With this, you can start finding the APIs between the services. With all of these, you've created a target architecture for modernization, mapped to what the software does, the business domain.\n\nWith this in hand, you're ready to start using some tactical patterns to modernize your apps. Rohit mentions three, strangler, facade, and anti-corruption layer. I ask him to explain what the anti-corruption layer is in-depth.\n\nNext, you're able to create user stories from all these flows, and then start grouping those stories into MVPs to create a backlog of work. This helps you plan and stage out your modernization program. This also allows management to track and monitor progress.\n\nThen, you do the actual work of migrating code, working through those stories, and so forth. Each cycle - release - generally last 4 to 6 weeks. Rohit explains that he likes 6 weeks and 3.25 people. Six weeks is the right amount of time to get momentum and show value, Rohit says. At the same time, it's small enough that you can change course if you need to change plans."

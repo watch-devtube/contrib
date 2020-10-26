@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'Break your BSD kernel Fuzzing BSD kernel'
+language: English
+recordingDate: 1597302339
+description: "by Maciej Grochowski\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.121/fuzzing_bsd_kernel.webm\n\nFuzzing is an efficient technique to find bugs and vulnerabilities in the software.\nTodays BSD based operating systems allows using such techniques to test the kernel code easily.\nThis talk is designated to be a starting point for everyone who would like to start his journey with fuzzing his BSD kernel as well provide all necessary information needed.\nThe kernel is a central part of most of the modern operating systems. This place where hardware meets software controls main subsystems like Networking Stack (and other communication stacks), File Systems, Security and many other.\nDue to this fact security of overall system relay on the safety of the kernel.\nOne of the well-proven techniques to test software security is fuzzing.\nFor the last couple of years, researchers found a long list of vulnerabilities in many popular Open Source projects thanks to the efficiency of this technique.\nKernel fuzzing was always more complicated than userspace programs. Nevertheless, that is constantly improving and today's entry barrier is much lower than it used to be, thanks to the improvement made in recent years.\nFor the last couple of years, NetBSD became strong with new security features in the BSD world, as Sanitizers or Fuzzers.\nDue to the work of the community, it grew to an attractive target for people interested in operating systems and security.\nFuzzing can be also a very beneficial technique for kernel and drivers developers who want to improve or test the security of their code.\n\nRoom: AW1.121\nScheduled start: 2020-02-02 12:10:00"
