@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - testing
+title: 'Continuous Database Migrations with PL/SQL'
+language: English
+recordingDate: 1602789214
+description: "Database migrations need to happen frequently to apply changes in database applications. Those migrations can be small, like adding new objects or changing some procedures or functions. Migrations can also be more extensive, like migrating large tables. In both cases, the database migrations need to be robust and repeatable if something goes wrong. In this PL/SQL Office Hours, we will explore practices to ensure high quality in your PL/SQL database migrations. We will have a look which elements make your database migrations repeatable and give an introduction on how to get started with automated database migrations if you have never done any before.\n\nHighlights\n\n00:00 Introduction from Steven\n02:10 Overview of database migrations\n06:24 challenges with deployments\n10:18 Team performance and delivery \n12:37 Characteristics of good migrations\n17:49 Maximizing automation of deployments\n21:50 Q&A deployment vs migration, release every day?, ebr\n25:03 Code for repeatable and non-repeatable database objects\n27:26 Migrating tables\n36:05 Requirements for migration scripts\n38:50 Use an existing logging framework!\n40:13 Q&A: Recompile invalid objects after migration; 24x7 shop should use EBR; rely on flashback for undo; CI/D tools"
