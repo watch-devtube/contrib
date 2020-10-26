@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - ux
+    - security
+title: 'Capsule Update & LVFS: Improving system firmware updates Improving reliability and security by simp…'
+language: English
+recordingDate: 1598511830
+description: "Capsule Update & LVFS: Improving system firmware updates Improving reliability and security by simplifying distribution of firmware updates\nby Brian Richardson\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/firmware_culisfu.webm\n\nAs the rich capabilities of platforms increase, so does their complexity. As hypervisors and operating systems harden their attack surfaces, malware has been moving deeper into the platform. For example, a modern laptop may have over 15 updatable firmware elements, each with low-level access to a specific hardware domain. From the early days of proprietary BIOS in the 1980’s and 1990’s, to the world of standards in the 2000’s, to the post-PC world of the last few years, the nature of firmware has changed. In order to provide security guarantees for platform firmware, the servicing model of the platform takes center stage.\n\n\nThis session discusses the evolution of platform servicing using examples based on device firmware, non-host/system on a chip (SOC) firmware, and implementation of the Unified Extensible Firmware Interface (UEFI). A modern servicing model features elements for component-based update, resiliency in case unexpected conditions, a more seamless user experience, lowering the friction of update integration, and telemetry for a view into platform health and firmware inventory.\n\n\nThis talk will discuss current trends in standards such as UEFI and associated EDK II firmware, and how the Linux Vendor Firmware System (LVFS) used these components as part of a holistic, open source approach to seamless firmware updates.\n\nRoom: K.4.601\nScheduled start: 2020-02-01 17:00:00"

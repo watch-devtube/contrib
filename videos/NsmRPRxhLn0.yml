@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - career
+    - cloud
+    - azure
+    - security
+    - testing
+title: 'Introducing Microsoft’s New Open Source Fuzzing Platform - Michael Walker & Justin Campbell - CppCon'
+language: English
+recordingDate: 1602270011
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nThis native code security talk is a joint presentation by Principals from Windows Security (COSINE) and Microsoft Research. The work by Google and other contributors to the llvm ecosystem on libfuzzer, ASan, and sancov have “shifted left” the field of fuzz testing from the hands of hackers and security auditors directly to CI/CD developers. Rather than waiting for an auditing gate, developers should be able to receive fuzz testing results directly from their build system: quickly, cheaply, and reliably without false positives. To this end, Microsoft is adopting this testing paradigm via continuous cloud-based fuzzing of dedicated test binaries.\n\nMicrosoft is currently fuzzing Windows continuously in Azure using libfuzzer and a fuzzing platform developed at Microsoft Research that we are releasing as Open Source at CppCon. Developers continuously building libfuzzer-based test binaries utilizing sanitizers and coverage instrumentation can now launch fuzzing jobs in the cloud with a single command line. This talk will introduce the framework and its capabilities including a live demo. Features include:\n\n• Composable fuzzing workflows: Open Source allows users to onboard their own fuzzers, swap instrumentation, introduce corpora,\n• Built-in ensemble fuzzing: By default, fuzzers work as a team that shares strengths, swapping inputs of interest between fuzzing technologies\n• Programmatic triage & result deduplication: Get unique flaw cases that always reproduce\n• On-demand live-debugging of found crashes: Summon a live debugging session on-demand or from your build system\n• Observable & Debug-able: Transparent design allows introspection into every stage\n• Detailed telemetry: Easily monitor all your fuzzing from ‘fuzztop’\n• Fuzz on Windows & Linux OSes: Multi-platform by design\n• Crash reporting notification callbacks: Currently supporting Microsoft Teams\n• Code Coverage KPIs: Monitor your progress and motivate testing using code coverage as key metric\n\n---\nJustin Campbell is a Principal at Microsoft COSINE whose group is focused on Windows OS security: vulnerability testing at scale, sandboxing and mitigations. Justin was previously VP of Cyber Operations at Novetta and served as CTO at Ocean’s Edge.\n\nMike Walker is a Senior Director at MSR Special Projects. Prior to joining Microsoft, Mike led DARPA’s Cyber Grand Challenge, a two-year $58M contest to construct & compete the first prototypes of reasoning cyberdefense systems. Mike has worked in a policy advisory role, testifying to the President’s Commission on Cybersecurity, and has played in “the world series of hacking”: DEF CON CTF finals. Mike has coached CTF teams and built CTFs throughout his career.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

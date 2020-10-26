@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - performance
+    - embedded
+title: 'Embedded: Customizing Dynamic Memory Management in C++ - Ben Saks - CppCon 2020'
+language: English
+recordingDate: 1601233222
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nDynamic memory allocation is a natural solution for many common programming problems. In C++, new-expressions allocate dynamic memory through a function called operator new. Unfortunately, the compiler-provided implementation of operator new is often expensive to run, non-deterministic, and risks fragmenting memory over time. As a result, too many resource-constrained systems (e.g., embedded, real-time, or high-performance applications) avoid using new-expressions altogether. This is unfortunate because C++ new-expressions were designed to be highly customizable for such purposes.\n\nThis session shows how to implement customized dynamic memory managers for use in resource-constrained systems. It presents multiple forms of operator new and operator delete and explains the language mechanisms behind them. It shows how you can replace the compiler-provided operator new and operator delete with your own implementation, either globally or for individual classes. You’ll leave with a clearer understanding of how new and delete work and how you can tailor them to meet the demands of many resource-constrained applications.\n\n---\nBen Saks\nChief Engineer, Saks & Associates\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

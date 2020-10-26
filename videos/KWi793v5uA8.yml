@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+title: 'Building a Coroutine based Job System without Standard Library - Tanki Zhang - CppCon 2020'
+language: English
+recordingDate: 1601388011
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nA job system is a common game engine component to improve total CPU throughput. In this talk, I will walk through building a coroutine-based job system and explain the advantages of using coroutines over the typical ways to build a job system.\n\nWe shipped coroutines in C++20, but why does it matter for users, especially since there’s no standard library support? The answer is the coroutine semantics. Developers can customize the behavior of `co_return`, `co_yield`, `co_await` to build their own systems without any dependency of the standard library. For game developers, this is important because many game studios forbid the use of the standard library. The coroutine language feature itself is flexible enough to build a system with 100% control, which is exactly what engine developers want—no black box, no magic.\n\nI will discuss the design decision I made, trade-offs, and current limitations. This talk is a crash course for system developers who want to build systems independently from the standard library and will also discuss possible future directions for this language feature.\n\nThis is an advanced coroutine talk and I expect attendees to have basic understanding about how (c++)coroutine works. Here is a useful link for some related materials if you want more information before attending this talk: https://gist.github.com/MattPD/9b55db49537a90545a90447392ad3aeb\n\n---\nTanki Zhang\nReal-time Rendering Engineer, NVIDIA\n\nTanki is a real-time rendering engineer at NVIDIA. He has been an active member of both the C++ community and the graphics community. As a game developer focused on game engine technics, he is passionate about different new knowledge and is excited to try things out.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

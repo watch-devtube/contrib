@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - python
+title: 'The Many Shades of reference_wrapper - Zhihao Yuan - CppCon 2020'
+language: English
+recordingDate: 1601371810
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nYou may have heard of std::reference_wrapper's role in make_tuple, but this is not today's topic. The role that reference_wrapper plays is larger than unwrapping references in C++ standard library API. It is the language's response to the need for references with rebinding semantics, which may explain why such a small utility is still receiving love and polishes in C++20.\nTo put it in the other way, every reference in Python is rebindable -- with garbage collection, of course. But the semantics in common implies that reference_wrapper may be very useful. This talk will go through these use cases, see how reference_wrapper's design carefully enables them through details. The talk will also compare reference_wrapper with other facilities in the language and the standard library to give you hints about how to choose from the reference-like types.\n\n---\nZhihao Yuan is an HPC Engineer at SimpleRose Inc. He participated in standardizing designated initializers and improved narrowing conversions in C++20. After giving a talk on CppCon to advocate NOT to program any macros, he dived into a project where the number of identifiers that are macros exceeds the number of identifiers that are not. His favorite game series on PS4 is Utawarerumono.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

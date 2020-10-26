@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+    - embedded
+title: 'boot/loader — How to boot Linux and nothing else'
+language: English
+recordingDate: 1598511854
+description: "by Łukasz Stelmach\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.218A/ema_boot_linux_only.webm\n\nTo boot Linux on a new ARM/ARM64 platform we have to port Linux to that platform and a bootloader. Aside from the platform setup code, we need to add and maintain some device drivers to both Linux and the bootloader. We decided to avoid the extra effort and get rid of the dedicated bootloader. With a few dozen lines of assembly code, Linux Kernel and a pinch of userland tools the \"boot\" kernel was running with all the cool features we wanted! Then we used kexec(2) to start a \"full\" Linux kernel.\n❮h1❯How to boot Linux and nothing else❮/h1❯\n\nTo boot Linux on a new ARM/ARM64 platform we have to port Linux to that platform and a bootloader. Aside from the platform setup code, we need to add at least some platform specific device drivers both Linux and the bootloader and maintain the drivers in both trees. We decided to avoid the extra effort and get rid of the dedicated bootloader.\n\n\nWe took a widely available Odroid XU4 board and replaced bootloader (U-Boot) with a few dozen lines of assembly code, Linux Kernel and a pinch of userland tools. The \"boot\" kernel was running with all the cool features we wanted! Then we used kexec(2) to start a \"full\" Linux kernel.\n\n\nDedicated bootloaders perform two types of tasks: platform specific setup and management (starting an OS, managing OS updates). We show that Linux is a better environment to implement management proccedures.\n\n\nWe want to share our experience and encourage others to join our effort to use Linux Kernel as a bootloader on ARM/ARM64 platforms.\n\n\n❮h1❯Target audience❮/h1❯\n\nThe presentation is meant for everyone interested in how the Linux Kernel handles the boot process and especially developers who commit to arch/* directories, and bootloader developers. We present our experience with ARM Odroid XU4 board, but we expect people working on other platforms will benefit too.\n\n\n❮h1❯How we want to improve the ecosystem❮/h1❯\n\nDevelopment of new bootloading code for ARM and other embedded platforms. We believe using Linux kernel for this task is beneficial in three different ways. Less platform specific code needs to be created and maintained in different repositories.  General purpose code like filesystem drivers or network stack are maintained better in Linux than in U-Boot. This, as well as wide verity of libraries makes Linux better environment to develop advanced management functions (e.g OS updates, security checks etc.) in contemporary bootloader.\n\nRoom: UD2.218A\nScheduled start: 2020-02-01 14:00:00"

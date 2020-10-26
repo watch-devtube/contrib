@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - c++
+    - performance
+    - web
+title: 'Plenary: The Beauty and Power of "Primitive" C++ - Bjarne Stroustrup - CppCon 2020'
+language: English
+recordingDate: 1600997411
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nOften, we focus on novel, clever, and advanced features of C++. To contrast, here I look at addressing relatively simple problems in relatively simple ways under severe constraints of performance, ease of use, and reliability. My main example is to read and write typed objects from and to a byte buffer. This is of course something we do a lot and in a bewildering variety of ways. Any object that needs to be stored or transmitted to another computer must go through such a process. However, the constrains on such reading and writing varies immensely based on the kind of data to be moved around, the performance and reliability requirements, the hardware available, and history. Many trade-offs are possible, and many different interfaces. That makes this an interesting design exercise.\n\nThis is an exploration of a design space close to the hardware and of the use of C++ in that space, rather than a standards proposal or the presentation of a mature tool chain. And, no, by “primitive”, I don’t mean “old-fashioned, C-like” code; some of the general techniques are old, but some of the code requires C++17 and much could be done better given features we are unlikely to get even in C++23.\n\n---\nBjarne Stroustrup\nTechnical fellow, morgan stanley\nC++: history, design, use, standardization, future; performance, reliability; software developer education; distributed systems\nBio: www.stroustrup.com/bio.html\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

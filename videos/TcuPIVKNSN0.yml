@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - startup
+    - java
+    - spring
+title: 'Making Games Start Fast: A Story About Concurrency - Mathieu Ropert - CppCon 2020'
+language: English
+recordingDate: 1601766009
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nA common complaint in game development is that games take to long to start up. Players hate it and developers waste a long time watching loading screens.\nLast spring I dived into my game's startup code and figured out ways to shave tens of seconds out of the time to reach main menu, and was able to introduce similar benefits to most of our other titles by looking into threading efficiency.\n\nIn this port-mortem analysis, I will present the various steps I took to analyze concurrency, improve threading performance and reduce lock contention.\nAttendees will be shown how Intel vTune can be used to profile threading issues, how \"thread safe\" APIs can be misleading and how re-architecturing code in a lock-free fashion can drastically improve throughput.\nWe will also briefly touch how user-facing application can cheat and achieve perceived speedups by knowing the users' workflow. \n\n---\nMathieu Ropert is a French C++ expert working on (somewhat) historical video games. Mathieu decided to upgrade his compiler once and has been blogging about build systems ever since. Mathieu is a past speaker at CppCon, Meeting C++ and ACCU. Used to run the Paris C++ User Group. Currently lives in Sweden. \n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

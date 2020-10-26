@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+title: 'Halide: A Language for Fast, Portable Computation on Images and Tensors - Alex Reinking - CppCon 20'
+language: English
+recordingDate: 1601402410
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\n\nHalide is an open-source, domain-specific language for optimizing image processing, machine learning, and general array processing. It is used by major companies like Google, Adobe, and Qualcomm to optimize performance-critical software. It processes every photo taken with a Pixel phone, composites layers in every Photoshop document, and handles video processing at scale at YouTube. \n\nWe will explore how Halide achieves top-tier performance in a fraction of the development time by separating the algorithm (what to compute) from the schedule (how to optimize it). Halide's schedules determine trade-offs between parallelism, vectorization, cache locality, and memory management in a simple, modular way. Programmers can easily target different CPUs and GPUs by writing multiple schedules. Halide integrates tightly with C++ and provides both a JIT and a C++ compatible ahead-of-time compiler.\n\n---\nAlex is a Ph.D. student at UC Berkeley working with Jonathan Ragan-Kelley on designing domain-specific languages for high-performance computing. He has previously worked at Microsoft Research and Facebook AI+R. He holds an MS in Computer Science from UC Berkeley and a BS in Computer Science and Mathematics from Yale.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

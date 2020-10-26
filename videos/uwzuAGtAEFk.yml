@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - embedded
+title: 'Memory-Mapped Devices as Objects - Dan Saks - CppCon 2020'
+language: English
+recordingDate: 1602126012
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nMost, if not all, modern CPUs communicate with external devices via memory-mapped device registers. A memory-mapped register is circuitry that connects to a CPU’s bus structure and responds to bus signals almost as if it were ordinary memory. Almost, but not quite.\n\nC++ programs can use C features such as pointers and casts to access memory-mapped registers. This is still widespread practice. However, traditional C techniques tend to treat memory-mapped registers more as raw storage than as objects with constrained behaviors. C idioms for accessing memory-mapped devices leave too many opportunities for programming errors and late nights with a debugger.\n\nThis session explains various C++ techniques for placing objects into memory-mapped locations and for guaranteeing proper initialization and destruction. It shows how you can use base classes and templates to capture commonalities among different devices that use similar register layouts. By applying these techniques, you’ll be able to package memory-mapped devices as lightweight class objects that are easy to use correctly and hard to use incorrectly.\n\n---\nDan Saks is the president of Saks & Associates, which offers training and consulting in C and C++ and their use in developing embedded systems. Dan used to write the “Programming Pointers” column for embedded.com online. He has also written columns for numerous print publications including The C/C++ Users Journal, The C++ Report, Software Development, and Embedded Systems Design. With Thomas Plum, he wrote C++ Programming Guidelines, which won a 1992 Computer Language Magazine Productivity Award. Dan has taught C and C++ to thousands of programmers around the world. He has presented at conferences such as Software Development, Embedded Systems, and C++ World. He has served on the advisory boards of the Embedded Systems and Software Development conferences. Dan served as secretary of the ANSI and ISO C++ Standards committees and as a member of the ANSI C Standards committee. More recently, he contributed to the CERT Secure C Coding Standard and the CERT Secure C++ Coding Standard.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

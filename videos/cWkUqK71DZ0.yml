@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - mobile
+    - android
+title: 'A Relaxed Guide to memory_order_relaxed - Paul E. McKenney & Hans Boehm - CppCon 2020'
+language: English
+recordingDate: 1601607624
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nThe out-of-thin-air (OOTA) and read-from-untaken-branch (RFUB) properties of the specification of memory_order_relaxed have resulted in considerable consternation over the years. Although there are no known instances of full-blown OOTA behavior, and no known RFUB-induced failures of production code, the theoretical possibility of these properties severely complicates automated analysis of large C and C++ code bases. Thus far, attempts to eliminate OOTA and RFUB properties from the memory model have resulted in otherwise needless added overheads on weakly ordered systems on the one hand or excessive implementation complexity on the other. However, memory_order_relaxed never was intended to be used in arbitrary code, but rather as a part of deliberate application of specific concurrency designs. This talk provides an initial catalog of patterns underlying such designs.\n\n---\nPaul E. McKenney has been coding for almost four decades, more than half of that on parallel hardware, where his work has earned him a reputation among some as a flaming heretic. Paul maintains the RCU implementation within the Linux kernel, where the variety of workloads present highly entertaining performance, scalability, real-time response, and energy-efficiency challenges. Paul was previously an IBM Distinguished Engineer at the IBM Linux Technology Center. Prior to that, he worked on the DYNIX/ptx kernel at Sequent, and prior to that on packet-radio and Internet protocols (but long before it was polite to mention Internet at cocktail parties), system administration, business applications, and real-time systems. His hobbies include what passes for running at his age along with the usual house-wife-and-kids habit.\n\nHans is a software engineer at Google, where he has been since March 2014. He now works mostly on concurrent programming issues, both generally, and focussed on Android. Hans is an ACM Fellow, and a past Chair of ACM SIGPLAN (2001-2003). Until late 2017 he chaired the ISO C++ Concurrency Study Group (WG21/SG1), where he continues to actively participate.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

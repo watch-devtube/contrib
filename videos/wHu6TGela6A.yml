@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - c++
+    - performance
+    - embedded
+    - 'data structures'
+title: 'The Shapes of Multi-Dimensional Arrays - Vincent Reverdy - CppCon 2020'
+language: English
+recordingDate: 1601803812
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nIn 2020, linear algebra is still not a part of standard C++. Worse than that, beyond the good old C-style multidimensional arrays, the standard library still does not provide modern tools to handle such objects. In the era of machine learning and artificial intelligence, this is starting to get embarrassing. But why is that? Why does everything is always so much more complicated in C++ than in other higher level language?\n\nIn this talk we will focus on one of the many problems involved: how to handle the shapes and dimensions of high-performance multidimensional arrays? To prevent template metaprogramming wizards from providing a completely unusable answer, we will add one requirement: it has to be concise, expressive, and understandable by humans.\n\nTo answer this question, we will see how C++20's Non-Type Template Parameters can be leveraged to build a mini-embedded compile-time language to specify the size of matrices while combining expressiveness and conciseness. We will see how this technique can allow to mix static and dynamic dimensions while ensuring the highest level of performance. We will also discuss how it could be exploited to express parallelization and vectorization, as well as sparse storage patterns. At the big picture level, this talk will also explore why bringing generic Non-Type Template Parameters may have opened a very nice Pandora's box in C++.\n\n---\nVincent has been working as a post-doctoral researcher at the University of Illinois at Urbana-Champaign (USA) since he obtained his PhD at the Paris observatory (France) in november 2014. His main scientific interests are related to cosmology and general relativity. He his particularly interested in the study of relativistic effects at cosmological scales using high performance simulations run on supercomputers. Because these simulations rely on tree data structures, he started investigating ways to optimize them. He now leads a research team working on tree data structures with main applications in simulations, machine learning, and data science. He also participates into the C++ standardization process and regularly submits proposals to improve the C++ language.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

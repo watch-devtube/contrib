@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Get Off My Thread: Techniques for Moving Work to Background Threads - Anthony Williams - CppCon 2020'
+language: English
+recordingDate: 1601593212
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nIf you're writing a GUI application and you want the interface to feel \"responsive\" to the user then you need the code that response to UI events to be short and fast. Similarly, if you are handling network I/O you may not want the processing of one request to prevent the system receiving further input.\n\nIf the work to be done in response to an event is complex and time consuming then you can maintain the \"responsiveness\" of the system by passing the work off to a background thread.\n\nThis talk will look at the ways of doing this, including managing ongoing work, providing progress updates, and cancelling work if it is no longer needed.\n\n---\nAnthony Williams\nJust Software Solutions Ltd\nAnthony Williams is the author of C++ Concurrency in Action.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

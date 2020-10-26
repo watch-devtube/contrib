@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - c++
+    - performance
+    - 'data structures'
+title: 'Managarm: A Fully Asynchronous OS Based on Modern C++ - Alexander van der Grinten - CppCon 2020'
+language: English
+recordingDate: 1601910011
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nC++20 and future C++ standards are expected to massively improve the ergonomics of asynchronous I/O within the C++ ecosystem. Yet, the vast majority of current operating systems (OSes) were designed without considering asynchronous I/O to be a first-class citizen. For example, Linux is only able to perform general-purpose asynchronous I/O since the recent addition of io_uring. Even with this new asynchronous mechanism in place, many I/O operations still have to fall back to a thread-based emulation within the kernel.\n\nIn this talk, we present Managarm, an OS designed around C++20 coroutines and the upcoming C++ sender/receiver model. Its main goal is to fully support asynchronous I/O through the entire system. All I/O operations are asynchronous in Managarm, with a single blocking system call to wait for their completion. The OS implements primitive asynchronous operations using (a variant of) the C++ sender/receiver model. These primitives comprise the system call layer and basic asynchronous data structures. We discuss how this low-level functionality can be integrated into high-level C++ code that is based on coroutines. High-level coroutine code constitutes the majority of the system and enables fully asynchronous drivers and servers. This approach enables high programmer productivity and excellent performance at the same time. At the end of the talk, we discuss open challenges for system programming that C++20 does not solve yet and give a perspective on vital future work in this area.\n\n---\nAlexander van der Grinten is a postdoctoral researcher at Humboldt-University of Berlin. He is also a founder of Managarm, a fully asynchronous operating system that is written in modern C++.\n\nAlexander obtained his PhD in computer science from University of Cologne in 2018. He is professionally interested in the engineering of scalable algorithms that are often implemented in C++. His main research focus is on parallel graph algorithms, shared-memory parallelism, high-performance computing and hard combinatorial problems.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

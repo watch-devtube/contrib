@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+title: 'C++20 STL Features: One Year of Development on GitHub - Stephan T. Lavavej - CppCon 2020'
+language: English
+recordingDate: 1601218811
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\n\nAt CppCon 2019, Microsoft open-sourced its implementation of the C++ Standard Library. In the year since then, we've worked with many contributors on GitHub, adding dozens of C++20 features. In this talk, we'll explore some of these C++20 features and how you can use them in your code (even if you don't use our implementation). We'll also take a tour of microsoft/STL development on GitHub and our intensive code review process.\n\nExamples of C++20 features we'll explore: span which makes working with contiguous sequences easier, constexpr algorithms which make it possible to verify that lookup tables are sorted at compile time (or just sort them at compile time!), erase_if() which finally supersedes the \"erase-remove idiom\", integer comparison functions which make it easier to write correct code without worrying about the Usual Arithmetic Conversions, and make_shared() for arrays which extends the classic \"single allocation\" optimization.\n\nWe're using GitHub issues and pull requests for all development, and we're recording a detailed Changelog in a GitHub wiki page. If you want to follow our progress, this talk will explain how to find what we're working on and what remains to be done. This talk will also show how we use a GitHub project to track PRs as they go through multiple stages of review. (The span PR accumulated almost 700 comments before being merged!) If you're interested in contributing, whether it's a small improvement or an entire feature, seeing this process should help.\n\n---\nStephan T. Lavavej\nMicrosoft\nPrincipal Software Engineer\nRedmond, WA\nStephan T. Lavavej is a Principal Software Engineer at Microsoft, maintaining Visual C++'s implementation of the C++ Standard Library since 2007. He also designed a couple of C++14 features: make_unique and the transparent operator functors. He likes his initials (which people can actually spell) and cats (although he doesn't own any).\n---\n\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

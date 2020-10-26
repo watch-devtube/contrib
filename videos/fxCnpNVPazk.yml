@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - c++
+    - performance
+    - ux
+    - mobile
+    - architecture
+    - embedded
+title: 'Heterogeneous Programming in C++ with SYCL 2020 - Michael Wong & Gordon Brown - CppCon 2020'
+language: English
+recordingDate: 1601506822
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nComputer system architecture trends are constantly evolving to provide higher performance and computing power, to support an increasing demand for high-performance computing domains including AI, machine learning, image processing and automotive driving aids. The most recent being the move towards heterogeneity, where a system has one or more co-processors, often a GPU, working with it in parallel. These kinds of systems are everywhere, from desktop machines and high-performance computing supercomputers to mobile and embedded devices.\n\nIn 2018 we presented SYCL; an open-standard, single-source standard C++ programming model for heterogeneous platforms, looking specifically at programming GPUs. Since then, as the momentum behind SYCL continues to grow, the SYCL working group within Khronos has been working hard with various hardware vendors, applications developers and universities across the industry to release an update to the standard.\n\nThe latest revision of the SYCL specification is SYCL 2020, and it brings a number of significant new features that will dramatically improve how you can program heterogeneous systems in C++.\n\nFirstly, SYCL 2020 will introduce support for unified shared memory (USM) a new option for managing memory in SYCL alongside the existing buffer/accessor abstract which allows pointers and pointer-based structures to be passed directly to device functions. USM also provides a new explicit data management API which provides more fine-grained control over how data is allocated and moved between devices.\n\nSYCL 2020 will also introduce a generalization of the SYCL specification which, while not altering the API in any significant way, allows SYCL implementations to target additional backends to OpenCL such as CUDA, HIP, OpenMP, etc. The most notable example of this is in the recent addition to the open-source SYCL implementation Data-Parallel C++ (DPC++) to support a CUDA backend, allowing SYCL applications to target Nvidia GPUs using the native CUDA driver.\n\nSYCL 2020 will bump the minimum required C++ version to C++17 and will introduce a number of new features that will improve the user experience of writing SYCL applications, as well as further, align SYCL with ISO C++. This includes using class template argument deduction (CTAD) to reduce the verbosity of the SYCL AP and alignment with atomic_ref and the parallel algorithms.\n\nFinally, SYCL 2020 will introduce a number of features which will allow applications to gain better performance by better utilising the hardware including sub-groups, group-based algorithms and optimized reductions.\n\nThis talk will present the current state of the SYCL ecosystem, including the supported implementations of which now there are four; ComputeCpp, DPC++, hipSYCL and triSYCL, as well as the range of platforms that are now supported by SYCL via these implementations. It will take a close look specifically at supporting Nvidia GPUs via DPC++’s CUDA backend, as this was a widely requested feature by SYCL developers in the C++ community.\n\nThis talk will then take a deep dive into the new features that SYCL 2020 is introducing and how these will improve SYCL application development for C++ developers.\n\nFinally, this talk will end with a look at the SYCL standard, and where we hope to see it going in the future.\n\n---\nMichael Wong\nDE, Codeplay\n\nGordon Brown\nPrincipal Software Engineer, Codeplay Software Ltd.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

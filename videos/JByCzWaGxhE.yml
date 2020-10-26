@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - containers
+title: 'Making Iterators, Views and Containers Easier to Write with Boost.STLInterfaces - Zach Laine CppCon'
+language: English
+recordingDate: 1600983011
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nWriting standard-compliant iterators is surprisingly easy to get wrong. Standard containers are tedious to write, because they have such large interfaces, involving lots of similar operations. For many years, Boost.Iterator's iterator_facade and iterator_adaptor were the state of the art for automating the creation of iterators with minimal effort. However, that library has not kept up with the evolution of C++, particularly with regard to constexpr and noexcept.\n\nBoost.STLInterfaces is a newly-accepted Boost library that solves these problems for authors of iterators and sequence containers. It does this using the same approach as C++20's std::ranges::view_interface. The view_interface template is a CRTP base that implements all the possible view member functions when inherited by a derived type containing just begin() and end(). This pattern allows the user to use Boost.STLInterfaces to write correct iterators, views, and/or sequence containers, requiring surprisingly little code.\n---\nZach Laine\nSr. Principal Software Engineer, Cadence Design Systems\nZach Laine has been using C++ in industry for 15 years, focusing on data visualization, numeric computing, games, generic programming, and good library design. He finds the process of writing bio blurbs to be a little uncomfortable.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"
