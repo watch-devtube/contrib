@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+title: 'Retiring the Singleton Pattern: Concrete Suggestions for What to use Instead - Peter Muldoon'
+language: English
+recordingDate: 1602183610
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\n“The worst part of this whole topic is that the people who hate singletons rarely give concrete suggestions for what to use instead.” - stackoverflow\n\nIn this talk, we will explore just such an approach that will transform currently untestable code containing underlying singletons with a fully testable solution. These code changes are transparent to the original callers of that function so no calling code changes are required.\n\nThis approach will be further expanded to handle multiple interdependent singletons. The replacement of error prone specific order of initialization calls to the singletons will be exchanged for \"hard to misuse\" automatic initialization using features of the language.\n\nA host of other potential real world problems with replacing singletons are shown with solutions presented for both legacy and modern C++.\n\nThis alternative approach has been successfully employed in multiple areas in Bloomberg where developers believed there was no other feasible choice.\n\n---\nPeter Muldoon\nBloomberg\nSenior developer\nNYC\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

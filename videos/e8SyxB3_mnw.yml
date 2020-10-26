@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - performance
+    - mobile
+    - android
+    - ios
+    - architecture
+title: 'Not Leaving Performance On The Jump Table - Eduardo Madrid - CppCon 2020'
+language: English
+recordingDate: 1601996410
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nIn this laptop I will use to talk to you, std::function is measured to have, for normal use cases, a latency overhead of over 79% for dispatching compared to just using function pointers. Our colleagues at Facebook improve in folly::Function by over 14%, however the open source Zoo libraries’ implementations I will talk to you about improves upon folly’s at least another 24% (35% over libc++) while at the same time dramatically reducing the object code size and allowing lots of practical features being proposed for what Arthur O’Dwyer calls “the design space of std::function“, all with top performance. When I report these findings colleagues have a hard time believing them, the presumption is by this time we should know well how to implement this with nearly theoretical maximum performance; then I must be wrong, my implementation has got to be severely flawed in some way... yet this library is used extensively in a mobile app that has over 200 million daily active users, in Android, iOS, and Windows, Mac OS X apps.\n\nThe improvements come from performance oversights that indeed have lasted for decades, once I tell you what they are, together with simple yet rigorous benchmarks and compiler explorer links, you will have no trouble to understand the improvements and realizing there are general principles we could learn from. That’s what this presentation is about.\n\nImproving std::function is just the tip of the iceberg, when it comes to dispatching to behavior specified at runtime, there are many performance mistakes concerning the design of callbacks, event subscription/publishing mechanisms, and even the very language supports runtime polymorphism in a way that is very hostile to performance, among other problems. I hope to tell you all about the solutions we have found for these problems in the presentation “Type Erasing The Pains Of Runtime Polymorphism”, here we will focus exclusively on attaining nearly maximal performance while dispatching to runtime specified user code.\n\nThe techniques to be discussed are not processor architecture specific but general, directly applicable to components such as std::function, std::variant, their hybrids, throwing exceptions, error handling, the visitor design pattern, and the whole of runtime polymorphism. Furthermore, the examples are from real life improvements.\n\n---\nhttps://github.com/thecppzoo/thecppzoo.github.io\n\nEduardo has been working for many years on financial technologies, automated trading in particular, and other areas where performance challenges can be solved in C++. He contributes to open source projects and teaches advanced courses on Software Engineering with emphasis in Generic Programming\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

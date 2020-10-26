@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - c++
+    - performance
+    - python
+title: 'Build all the things with Spack: a package manager for more than C++ - Todd Gamblin - CppCon 2020'
+language: English
+recordingDate: 1603191611
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nYou've heard of vcpkg and Conan, but have you heard of Spack? Spack is a package manager rapidly gaining popularity in High Performance Computing (HPC) that aims to address the complexities of multi-language, cross-platform dependency management. Spack isn’t just for supercomputers, though, you can use it for any C++ project.\n\nUnlike vcpkg and Conan, Spack is designed to build combinatorial versions of software. You can write one parameterized package file and generate tens or hundreds of builds. No need to rewrite your package every time a new version comes out. You can:\n\n- Build the same package with many versions of boost to test compatibility.\n- Build a whole graph of packages with different compiler flags\n- Build with different combinations of compilers, MPI, BLAS, LAPACK, etc. to run on a supercomputer\n\nFinally, Spack isn't just for C/C++. C++ doesn't exist in isolation, and developers routinely interact with Fortran, Python, R, Go, Perl, and many other package ecosystems. Why limit yourself?\n\nWith 4,300 packages and over 600 contributors, Spack's worth a look. This talk will introduce Spack and (quickly) go over the build model and some of the features above.\n\n---\nTodd Gamblin is a computer scientist in the Center for Applied Scientific Computing at Lawrence Livermore National Laboratory. His research focuses on scalable tools for measuring, analyzing, and visualizing parallel performance data. In addition to his research, Todd leads LLNL's DevRAMP (Reproducibility, Analysis, Monitoring, and Performance) team. He is the creator of Spack, a popular HPC package management tool, and he leads the Software Packaging Technologies area in the U.S. Exascale Computing Project. Todd has been at LLNL since 2008.\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

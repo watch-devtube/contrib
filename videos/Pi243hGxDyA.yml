@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - performance
+    - containers
+title: 'A Multi-threaded, Transaction-Based Locking Strategy for Containers - Bob Steagall - CppCon 2020'
+language: English
+recordingDate: 1601953213
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nWith the concurrency tools available in the modern C++ standard library, it is easier than ever to create multi-threaded programs. When we write such applications, there are sometimes cases in which a container simply must be shared among multiple threads. Of course, sharing is trivial if the only operations on the container are reads. In the case where reads greatly outnumber writes, acceptable performance is often attainable with a reader/writer mutex type, like std::shared_mutex. But suppose that the number of writes is similar to, or even greater than, the number of reads -- how does one then perform simultaneous reads and writes on a single container?\n\nOne common usage pattern is that, for a given operation, sets of related records are read and updated together. In order to prevent data races and inconsistent views of the data, such sets must be locked together as a unit before any of them can actually be read or updated. Further, it is very easy to accidentally create deadlocks by choosing a seemingly correct locking order. In order to avoid these problems, we would like a locking algorithm that provides three important properties: atomicity, consistency, and isolation.\n\nThis talk will describe an algorithm, implemented in C++, that performs such locking based on the concept of strict timestamp ordering. Using only facilities from the C++17 standard library, it employs a straightforward approach to multi-threaded, transactional record locking that requires minimal spatial overhead and yet fulfils the requirements of atomicity, consistency, and isolation. We'll discuss the pros, cons, and limitations of the algorithm, and provide some performance measurements. \n\n---\nBob Steagall\nChief Cook and Bottle Washer, KEWB Computing\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+title: 'Adventures in SIMD-Thinking (part 1 of 2) - Bob Steagall - CppCon 2020'
+language: English
+recordingDate: 1602198010
+description: "https://cppcon.org/\nhttps://github.com/CppCon/CppCon2020\n---\nSIMD capabilities are virtually ubiquitous in modern computing hardware, and yet much of that computing capacity often goes unused. This talk will provide a high-level overview of the SSE, AVX, and AVX-512 instruction set architecture provided by Intel microprocessors, and provide some specific examples of real-world problems where additional performance can be gained by thinking \"vertically\".\n\nWe'll begin with a quick, high-level description of the features provided by the SSE, AVX, and AVX-512 instruction sets. We'll then use C++ to compose a simple API employing various compiler intrinsics implementing those instruction sets. At the lowest level, the API will wrap some primitive operations, and then build some very useful basic operations (like multi-register shift) upon those primitives. We'll then build some facilities for comparison and arithmetic, and finally round out the API with functions for load and store. During all of this, we'll use C++ to provide type safety, reduce complexity, and maximize performance.\n\nNext, we'll take a look at how this simple API can be used to improve performance for a handful of interesting problems, like sorting the values stored in a register to create a very fast 1-D median filter, or high-speed convolution and correlation with kernels that fit within a single register. Finally, we'll revisit the UTF-8 to UTF-32 conversion techniques presented at CppCon two years ago to see whether using AVX can make an already fast conversion algorithm even faster.\n\n---\nBob Steagall\nKEWB Computing\nChief Cook and Bottle Washer\nMaryland\n\n---\nStreamed & Edited by Digital Medium Ltd - events.digital-medium.co.uk\nevents@digital-medium.co.uk"
