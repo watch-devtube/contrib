@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - sap
+title: 'A Journey Through BOSH and BOSH DNS Monitoring - Beyhan Veli, SAP'
+language: English
+recordingDate: 1603748257
+description: "A Journey Through BOSH and BOSH DNS Monitoring - Beyhan Veli, SAP\n\nThe BOSH team at SAP operates BOSH as a service for the cloud platform operators and the Cloud Foundry on-demand service brokers. We are also responsible for BOSH DNS, which is used for DNS and service discovery in our Cloud Foundry environments. Like every production service, the performance and availability expectations are very high, because any failed DNS resolution or BOSH operation can have direct customer impact.\n\nMotivated by concrete issues in our production environments, we have continuously worked on identifying the useful metrics and making them available to monitoring tools. No one likes to be paged and that is why it was a crucial task for us to improve the BOSH and BOSH DNS monitoring and define meaningful alerts.\n\nIn this talk we share the story of our monitoring journey and the evolution of the metrics which we identified over the time to prevent critical situations on productive environments. Moreover, we will give an update on all the improvements implemented for BOSH and BOSH DNS to make a more sophisticated monitoring possible and the available options to expose those metrics to monitoring tools."
