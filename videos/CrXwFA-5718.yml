@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - aws
+title: 'Flink @WORKDAY: scaling of ingestion data pipelines to S3'
+recordingDate: 1603796403
+description: "At WORKDAY Inc., #1 Future Fortune company 2018/2019 (link: https://fortune.com/future-50/2019/workday), we process data for our community of 40million+ workers, including half of Fortune 500 organizations. Our success is driven by the trust our customers put in us on how we handle their data.\n\nTwo and a half years ago we started our journey to implement a new platform based on Flink. The goal was to support pipelines for Machine Learning data aggregation, streaming inference systems, and low-latency system scaling services\n\nOne of our biggest struggles has been to scale an ingestion data pipeline to S3 to handle a very different data distribution. From one extreme of streaming topics producing data every minute on 2k+ buckets (with only dozens of messages per second each) to the other extreme where we have some batch extractions that produce 150M+ messages for a single bucket.\n\nJoin us to learn what have been the main challenges for us to scale our job to handle all this data. We will discuss the limitations of the standard Flink sinks and then review the new operators / S3-bulkSink we had to introduce. We will focus on how these cope with performance, exactly-once semantics and observability over the job executions via reports and metrics."

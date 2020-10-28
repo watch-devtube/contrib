@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - embedded
+title: 'Alert detection in IoT using broadcast state.'
+recordingDate: 1603796404
+description: "At Trackunit we collect and monitor sensor data from construction machinery around the globe to bring valuable machine insights to our customers.\n\nWe take pride in using the latest tools and cutting-edge technologies and we have based our telematics IoT processing pipeline on Apache Flink.\n\nIn this talk, I will present how we are handling alert detection to improve utilization and prevent theft using geo-fencing on 500K+ devices with 50K+ rules.\n\nIn our case, an alert rule can span from a single machine to an entire customer fleet. The rule can vary from single attribute validation to geo-fences with scheduling into advanced models.\n\nAt the end of my talk, the audience will have an understanding of the overall design, why we use broadcast state and the challenges we had with broadcast state. I will also cover how we do geo-fencing at scale with advance scheduling on top. Debugging distributed stream processing can be hard, so I will also explain how we can enable/disable alert rule tracing at runtime, so we can get detailed information about the execution."

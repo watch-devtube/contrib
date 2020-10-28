@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - aws
+    - containers
+    - kubernetes
+    - architecture
+title: 'Zero-downtime upgrades of Flink applications'
+recordingDate: 1603796403
+description: "The streaming platform team at Lyft has been running Flink in production for more than a couple of years now. In the last year, we embarked on a journey to migrate our Flink deployment infrastructure from baremetal EC2 to Kubernetes.\n\nRunning Flink on Kubernetes, opened up opportunities for more flexible deployments. In this session, one such deployment strategy is presented, namely, zero-downtime upgrades. Performing stateful upgrades for Flink applications requires creating a consistent and complete snapshot (savepoint) of the application state. This implies that zero-downtime deploy mechanisms (for example, rolling restarts) that work well for stateless microservices cannot be trivially applied here.\n\nThis video covers:\n\n- An overview of Flink Kubernetes deployments\n- Requirements and use cases for zero-downtime upgrades\n- Deployment infrastructure for zero-downtime upgrades\n- Challenges, constraints, and lessons learned\n- Demo!"

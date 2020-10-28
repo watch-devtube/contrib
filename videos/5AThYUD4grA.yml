@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - functional
+title: 'Change Data Capture and Processing with Flink SQL'
+recordingDate: 1603796401
+description: "Change Data Capture (CDC) has become a popular pattern to capture committed changes from a database and propagate those changes to downstream consumers, for example, to keep multiple datastores in sync and avoid common pitfalls such as dual writes. Being able to easily ingest and interpret these changelogs into the Table API/SQL has been a highly demanded feature in the Flink community — and it’s now possible with Flink SQL 1.11.\n\nIn this session, we will introduce the new table source interface (FLIP-95) which makes use cases like CDC possible and how it works. You'll learn how the CDC integration unlocks the power of Flink SQL, such as maintaining audit logs, automatically updating caches and full-text index in sync, materializing real-time aggregate views on databases, and much more. \n\nIn a live demo, we show how to use Flink SQL to capture change data from upstream MySQL and PostgreSQL databases, join the change data together and stream out to ElasticSearch for indexing. The entire demo only uses pure SQL statements. \n\nAt last, we'll close the session with an outlook of upcoming features based on the Flink SQL + CDC and more ecosystem connectors around this."

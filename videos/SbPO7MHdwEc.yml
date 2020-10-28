@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Powering OLAP at Uber using Apache Flink'
+recordingDate: 1603796404
+description: 'In this talk, we present how Apache Flink powers the world of OnLine Analytical Processing (OLAP) at Uber. OLAP systems such as Apache Pinot and AresDB are good at consuming structured data and making it available for slicing and dicing. However, most of the incoming data (such as logs and business events) is either unstructured or not in the right format. Such pre-processing requires writing non trivial transformations which are difficult to do for data scientists and operations personnel. We present how we tackled this problem using Apache Flink to enable 1 click ingestion into OLAP systems.'
