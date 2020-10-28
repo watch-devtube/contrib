@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Tale of Stateful Stream to Stream Processing'
+recordingDate: 1603820405
+description: "Streaming engines like Apache Flink are redefining how we process data. Flink provides the opportunity to extract, transform and write data with an ease matching that of batch data processing frameworks. There are plenty of known and proven use cases of how to convert a single batch job into a streaming job. However, there are quite many challenges when we want to convert a stateful end-to-end batch workflow to multiple stateful stream jobs.\nNetflix processes payment for 180M+ members across 190 countries. Payment processing and transaction data is very critical for measuring operational health and performance of our payments platform. We decided to move the existing batch workflow completely to stream. Things started to get exciting when we wanted to introduce multiple streaming jobs with zero data loss and high accuracy.\nIn this talk we describe how we converted a conventional complex stateful batch workflow to a multi-step stateful streaming workflow at Netflix using Flink."

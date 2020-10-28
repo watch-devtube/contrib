@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - embedded
+title: 'CEP platform handling millions of users - lessons from 3 years in production'
+recordingDate: 1603810348
+description: '3 years ago together with the leading telco in Kazakhstan - Kcell, we started a project of building Flink-based Complex Event Processing (CEP) platform for their business. The system built handles now over 10 millions of users, 500 K of interactions per second and billions per day. On these massive streams of interactions it applies in real-time over a hundred of complex pattern searches, analytics and business rules e.g. to offer new products, next best actions, communicate to users, detect frauds or automate various business actions. We with Kcell jointly run and improve this platform for 3 years till today while the use cases, their complexity and data sizes are only expanding. In our presentation, we show how we architected and built the platform, what advanced and innovative Flink patterns we applied like dynamic updates of application logic or running tens of rules in one application. We also share how we evolve the system, operate it and make sure it runs 24/7. We won’t skimp on the lessons we learned from running, sometimes failing, but also optimizing our applications for high load and performance. We also show what value the project brings to the client and how it enabled thinking about new products and revenue streams. Whether you''re in a telecom, banking, e-commerce, IoT or other data intensive industry, you will learn a ton with us.'

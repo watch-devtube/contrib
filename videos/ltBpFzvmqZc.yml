@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'Webinar: The truth about the service mesh data plane'
+language: English
+recordingDate: 1603823010
+description: "The exploration of service mesh for any organization comes with some serious questions, including:\n* What data plane should I use?\n* How does this tie in with my existing API infrastructure?\n* What kind of overhead do sidecar proxies demand?\n\nAs I’ve seen in my work with various organizations over the years “if you have a successful microservices deployment, then you have a service mesh whether it’s explicitly optimized as one or not.”\n\nIn this talk, we seek to understand the role of the data plane and how to pick the right component for the problem context. We start off by establishing the spectrum of data-plane components from shared gateways to in-code libraries with service proxies being along that spectrum. We clearly identify which scenarios would benefit from which part of the data-plane spectrum, show how modern service meshes including Istio, Linkerd, and Consul enable these optimizations and open source tools that extend them.\n\nPresenter:\nDenis Jannot, Director of Field Engineering @Solo.io"

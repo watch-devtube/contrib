@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - embedded
+title: 'Disco: Efficient Distributed Window Aggregation'
+recordingDate: 1603821109
+description: "Modern stream processing engines (SPEs) provide complex window types and user-defined aggregation functions to analyze streams. While SPEs run in central data centers, wireless sensors networks (WSNs) perform distributed aggregations close to the data sources, which is beneficial especially in modern IoT setups. However, WSNs support only basic aggregations and windows. To bridge the gap between complex central aggregations and simple distributed analysis, we present Disco, a distributed complex window aggregation approach.\n\nDisco is an outlook into a core challenge that future SPEs face and a solution for how to tackle it. Disco processes complex window types on multiple independent nodes while efficiently aggregating incoming data streams. Our evaluation shows that Disco’s throughput scales linearly with the number of nodes and that Disco already outperforms a centralized solution in a two-node setup. Furthermore, Disco reduces the network cost significantly compared to the centralized approach.\n\nThe talk is based on our research paper Disco: Efficient Distributed Window Aggregation, which was published at EDBT 2020 (https://openproceedings.org/2020/conf/edbt/paper_300.pdf).\n\nThe code for Disco is open source and available on Github: https://github.com/hpides/disco."

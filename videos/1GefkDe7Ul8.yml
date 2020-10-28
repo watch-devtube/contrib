@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'Realtime bot detection with Flink'
+recordingDate: 1603796401
+description: "Yelp processes billions of events daily to power information to consumers and business owners. Bots can be a problem at several levels for a company from resource consumption to accuracy of its generated metrics. As consumer and business owner trust is critical to Yelp’s mission, the company’s Trust and Safety team is responsible for removing non-user traffic defending its downstream consumers. In the past, Yelp relied heavily on batch jobs to process information. Moving to real time gives us the ability to get insights immediately and take actions prudently at the right time, enhancing our consumer experience.\n\nWe share Bot Signal Platform, a Flink backed application that provides bot signals in near real time. While designing and implementing this solution, we have experienced several unique challenges with bot classifications that require creative solutions within Flink. For example, ever growing state and inconsistent classifications across windows. This talk goes over the fundamental architecture of Bot Signal Platform, lessons we learned and the solutions we adopted to resolve these problems."

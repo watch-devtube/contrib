@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cassandra
+    - ml
+title: 'Feature Stores: Powering Machine Learning Infrastructure with Apache Flink'
+recordingDate: 1603807164
+description: "Input features are the building blocks for machine learning models. You cannot have a great model without great features. By building on top of Apache Flink's powerful streaming and batch processing APIs, we built infrastructure to serve features in production and to generate training datasets. It allowed our machine learning teams to change, test, and deploy personalization features at an extraordinary rate to 10s of millions of end-users.\n\nThis talk will discuss:\n- How Flink features, such as temporal tables, can be leveraged to simplify generating model features.\n- How we built the StreamSQL feature store on top of Flink, Pulsar, and Cassandra.\n- How a feature store accelerates ML development and why Flink is the perfect processing engine to power one."

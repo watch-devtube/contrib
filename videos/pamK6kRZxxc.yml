@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - aws
+    - containers
+    - kubernetes
+title: 'How We''re Democratizing Stream Processing at Zillow'
+recordingDate: 1603796431
+description: "At Zillow, stream processing is driving some of our most innovative features as we help people discover their next home and unlock life's next chapter. As hundreds of engineers across our company have raced to embrace technologies like Flink and Kafka, the daily complexities of building and running distributed, stateful stream processing systems began to take a huge toll on developer productivity. Zillow’s streaming platform team was formed with one goal: simplify all aspects of developing and running highly-available, event-driven services in production so Zillow engineers can focus on delighting their customers.\n\nThis talk will provide organizations with a comprehensive playbook for unlocking the power of stream processing within their engineering teams by optimizing for developer productivity and economies of scale. In particular, this talk will cover:\n\n- How we’re supercharging both developer productivity and cost efficiency by democratizing and decentralizing the ownership of stream processing resources on top of shared, centrally managed infrastructure.\n\n- How we’ve extended Kubernetes with custom operators to deliver a seamless infrastructure provisioning experience for both Flink and Kafka.\n\n- How we’ve implemented a custom Terraform provider to enable easy composition of complex streaming architectures that seamlessly combine our in-house resources with existing cloud provider resources (AWS, Datadog).\n\n- How we’re driving down onboarding and operational costs by automating the Flink and Kafka ownership experience including out-of-box monitoring dashboards and CICD pipelines."

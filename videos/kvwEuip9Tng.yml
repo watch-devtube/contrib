@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - devops
+    - containers
+    - kubernetes
+    - testing
+title: 'Flink powers Houzz near-realtime pipeline & Kubernetes logging observability'
+recordingDate: 1603808758
+description: "Within one year, Apache Flink has been transitioned from experiments to the foundation of the realtime streaming engine at Houzz, which powers many mission-critical applications such as home feed personalization, Email&Push lifecycle tracking, etc. It also helped on the DevOps front by powering Kubernetes logging observability&monitoring during the 100% k8s production traffic migration. By adopting Flink, the realtime applications can share the same source of truth of our data warehouse with the same quality, with the streaming fashion. Flink becomes the missing piece to unify our online processing. Flink is deployed on our Kubernetes cluster.\n\nIn this talk, we are going to talk about the journey of leveraging Flink at Houzz, lessons we learn, and how it helps solve both business and k8s infra DevOps needs."

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - testing
+title: 'On-demand low-latency feature generation at Hyperconnect'
+recordingDate: 1603821708
+description: "Hyperconnect has developed and applied various models to improve the promotion performance and content quality.\n\nAnd in the process to run models, there are many points to make latency, such as feature creation delay and model application delay, these cause the deteriorating model performance. To improve the performance of applications and to minimize the latencies, our team developed Hyper Realtime Feature Store (HRFS) based on Flink framework. HRFS is based on a real-time stream. With HRFS, we can supply features to models and generate events using models with low latency.\n\nHRFS consists of 3 layers (User Event Store, Feature Generator, Feature Consumer).\n\nAs the first layer, User Event Store loads all actions of the user in real-time and provides data in a queryable form. Unlike the generalized query engine, we focus on optimizing the data loading strategy to minimize query latency according to our use case.\n\nAnd the second layer, Feature Generator creates the features on demand.\nTo create and supply features, we define the format of feature description.\nAnd to respond to changing demands in real time, this layer supports add, update, delete operations for each feature description.\n\nAs the final layer, Feature Consumer is the application's supplied features by generator.\n\nThere are two types of Feature Consumer.\n. Event Generator can trigger the events (such as to promotional messaging) by thresholding the query results.\n. State Aggregator aggregates the user events history to a vector and supplies it to the models."

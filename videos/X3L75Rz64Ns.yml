@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - aws
+title: 'Streaming, Fast and Slow: Mitigating Watermark Skew in Large, Stateful Jobs'
+recordingDate: 1603796407
+description: "Can we go faster by making things slower? When watermarks are your bottleneck, the answer may be yes!\n\nAt Stripe we built a custom source that could start a backfill from data in S3 and transparently handover to Kafka. It worked, but did it scale? Stripe's custom source was excruciatingly slow at backfilling large, stateful jobs and progress would eventually grind to a halt. After many failed experiments and dead-ends, we arrived at a counterintuitive solution by asking ourselves: \"can we go faster by making things slower?\" By taking advantage of some exciting new features in Flink, we slowly unlocked horizontal scalability and completed backfills in considerably less time than before.\n\nThis video centers around the idea of going fast and making things slow and will lead viewers through the key insights about watermarks that led us to our solution. We will cover topics like coordinating between subtasks, inducing event-time backpressure, and practical strategies for debugging performance and watermark issues."

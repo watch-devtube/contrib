@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - cloud
+    - containers
+    - kubernetes
+title: 'Getting Started with Flink for Small Teams w/ RabbitMQ and Kubernetes'
+recordingDate: 1603796401
+description: "Small teams can easily see the promise of Apache Flink, especially as more and more small companies set data at the forefront of their businesses. For groups of just a few engineers, faced with the challenge of handling streaming data or looking to incorporate new datasets into their own, simplicity is critical. This constraint often leads them to choose the technologies they know without the time to explore better solutions to their problems, and often the better solutions.\n\nThis talk centers around getting a project up-and-running quickly, highlighting all things needed by small teams: observability, operations, and integrations. RabbitMQ provides a performant and flexible messaging queue that is ideal for small teams -- no external system dependencies ala Bookeeper or Zookeeper, stable features, and a polyglot client ecosystem. RMQ is not without its drawbacks ... and we'll show how a Flink system can grow gracefully with companies and their needs. We'll also use Kubernetes as our deployment infrastructure; with Flink's native integration and support from many cloud providers, we'll show how K8s can be accessible and flexible for teams without existing big data infra of their own.\n\nWhile setting up our project and discussing the pros/ cons, we will explore how FinTech Studios has reacted to them and how we have grown with Flink and RabbitMQ and the recent steps we've taken to move away from RMQ."

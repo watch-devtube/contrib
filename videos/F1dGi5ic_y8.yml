@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'End-to-end Flink SQL with Schema Registry, Kafka & Kudu'
+recordingDate: 1603792805
+description: "In this talk, we walk you through an end-to-end streaming SQL pipeline that consumes data from multiple Kafka sources, applies enrichment information from Kudu and executes a simple alerting logic.\n\nAlong the way, we introduce some of the Flink SQL connectors and integrations that we have built at Cloudera, including the Schema Registry and Kudu connectors and catalogs.\n\nWe will also cover the caveats of building such a pipeline in SQL compared to the DataStream API and the best-practices we have found while working on similar applications."

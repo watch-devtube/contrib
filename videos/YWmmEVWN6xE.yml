@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - tensorflow
+    - testing
+    - python
+    - javascript
+title: 'Using Flink for Versatile Feature Engineering Pipelines'
+recordingDate: 1603807890
+description: "Deep.BI is a platform enabling AI-driven automation that scores billions of events, in real-time, daily. It is used to perform tasks from various verticals, such as running marketing campaigns, personalizing on-site user experiences, predicting user churn, or detecting frauds based on data anomalies and adaptive patterns. One of the biggest challenges we had to solve is how to effectively transform raw event real-time data streams into samples on which a machine learning algorithm can learn and make predictions. We needed a pipeline producing consistent results with low latency for high volume data streams that in edge cases have nothing in common.\n\nTo achieve this, we decided to build a solution using Apache Flink. It allowed us to seemingly integrate with both streaming and batch sources. Using additional control streams and Broadcasted State enabled us to dynamically define any event filter or data transformation in multiple languages (such as Python or JavaScript) and serve ML models in multiple formats (including TensorFlow, PFA, or CatBoost). We implemented our feature engineering framework, providing reusable feature templates, on top of the low-level DataStream API. This allowed us to maintain both short lived session features and profile features with longer TTL.\n\nAs a result, we share the same feature engineering codebase between completely different ML projects, and make use of it in both real time production pipelines and batch experiments run by data scientists. More complex features, such as distinct value aggregators with minimal state or embeddings extractors, may be reused without any coding. Deploying a customized pipeline that collects data, enriches the stream with useful features and provides predictions from pre-trained ML models can take minutes. In extreme cases, it enabled us to deliver AI-based MVPs as early as one day after integrating the event stream.\n\nIn this talk, we will be discussing the design choices we’ve made and what obstacles we faced in the process of building our data pipeline. We will share how specific functionalities, such as evolving feature definitions in a continuous application, managing dependencies between the features, or unit testing, have been implemented. Finally, we will show how the solution has been used in specific cases such as fraud detection, A/B test control, content scoring and user engagement modeling."
