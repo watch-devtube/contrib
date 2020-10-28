@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - android
+    - kotlin
+    - java
+    - functional
+title: 'How Kotlin can change developer experience with modern graphics APIs'
+language: English
+recordingDate: 1603782340
+description: "by Giuseppe Barbieri\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.118/kotlin_how_can_change_developer_exp_graphics_api.webm\n\nCreating modern games in Kotlin forces you to use non-object oriented graphic languages and getting your hand dirty with native resource managemente. With wrappers around OpenGL and Vulkan, we make powerful graphics familiar to jvm devs and type-safe.\nVulkan and OpenGL are the cross-platform standard for creating modern games and graphics. However, their respectively stateless and state-based systems have no relation to an object-oriented language like Kotlin and you have to be careful to handle native resources interacting with the API.\n\n\nWrappers that we have built at Kotlin Graphics allow for them to become object oriented. This talk will teach the attendees how to use our wrappers VKK and GLN for Vulkan and OpenGL respectively in order to create performant, modern graphics.\n\n\nGraphic power meets Kotlin expressiveness\n\n\nVKK and GLN bring features such as type safety through inline classes and enums, DSL constructs, extension functions, typealias, less verbosity, pure jvm allocation strategy and an easy to pick up system. Because of the type-safety guarantee, we can directly call the native methods without performing potentially expensive checks.\n\n\nThis allows users of Kotlin to create performant, modern games like those you could build on C or C++.\n\nRoom: UA2.118 (Henriot)\nScheduled start: 2020-02-02 11:30:00"

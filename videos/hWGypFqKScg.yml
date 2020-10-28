@@ -1,0 +1,24 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - android
+    - craftsmanship
+    - tdd
+    - architecture
+    - kotlin
+    - java
+    - spring
+    - hibernate
+    - functional
+    - 'live coding'
+title: 'Idiomatic Kotlin Microservices A live coding session on how to go pure Kotlin with microservices'
+language: English
+recordingDate: 1603782287
+description: "by Christoph Pickl\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.118/kotlin_idiomatic_microservices.webm\n\nAlthough Kotlin is, from a language perspective, 100% interoperable with Java, due to the slight paradigm shift (nullability) there might be some pain when using Java frameworks, e.g.: the need of ❮code❯private var lateinit❮/code❯ when using JUnit, having to use compiler plugins to open up Spring annotated beans or a generated zero-arg constructor for Hibernate.\nThis talk goes through a full fledged alternative to the common Java stack when writing microservices, using: Ktor (Web framework), Kodein (DI container), Exposed (SQL library), Spek (test framework), Gradle Kotlin DSL, ...\nThis live coding session aims to share my experiences on how to combine (and how not to combine!) several open source libraries into a maintainable, scalable, sustainable, and all the other xxx-ables you can think of... based on several years of experience using Kotlin in production in different companies. Using libraries written from scratch for Kotlin enables us to fully make use of this beautiful language. Its functional nature, extension function types, null type safety, delegated properties; its preference for immutability and simply the feeling of writing proper, idiomatic Kotlin. The demo itself will cover a basic CRUD web service, following a TDD approach resulting in a production ready artifact.\n\n\nThe target audience are primarily developers/architects and requires basic knowledge of the language (intermediate level) and preferably some experience with the existing Java ecosystem.\n\nRoom: UA2.118 (Henriot)\nScheduled start: 2020-02-02 09:30:00"
