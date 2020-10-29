@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Growing a managed Flink streaming platform from scratch'
+recordingDate: 1603905715
+description: "Facing quick adoption of Flink, onboarding and proactively managing many jobs has become one of the biggest challenges to the Flink platform team at Pinterest. In the past several months, we’ve gone from having no users to having more than 25 projects building out Flink jobs on our platform in H1 and we have productionized more than 27 of their jobs by the end of H1 2020. Needless to say, we are working hard to keep up with the demand for better job tracking, validation automation, and resource management.\n\nIn this video, we discuss some of the processes and tools we have been building to ensure the scalability and efficiency of our Flink platform. First, we will talk about JobService, our Flink job lifecycle manager. Then, will discuss our configuration-driven unification of FileSource(sink) and KafkaSource(sink) along with CI/CD pipeline. and how we use this unified source(sink) to backfill and validate a job’s ability to run at higher QPS with expected outcome as well as ensure it not wasting resources."

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - redis
+    - aws
+title: 'Enriching your Data Stream Asynchronously with Apache Flink'
+recordingDate: 1603909750
+description: 'When data comes into a streaming workload, it may be necessary to enrich it with external data sources like an external API, query to a database, or lookup from a key/value store like Redis. It is critical that this enrichment does not stall data flowing through the system and not impact upstream operators in the Directed Acyclic Graph. Asynchronous I/O for External Data Access solves this requirement by enabling the use of a data client that supports asynchronous requests, handles requests and responses concurrently, and maintains fault tolerance and exactly-once guarantees. In this session, we explain the RichAsyncFunction and how to enrich a data stream using Amazon Kinesis Data Analytics for Apache Flink.'

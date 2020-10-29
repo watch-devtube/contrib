@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+title: 'Metamodelization and Automatic Generation of ML Pipelines'
+recordingDate: 1603901565
+description: "Adaptability is a key feature of a fraud detection system given that fraudsters' creativity is legendary. They constantly come up with innovative ways of defrauding people and stealing their money. Therefore, the efficiency of payment antifraud systems largely depends on their capacity to quickly respond to new threats.\n\nFraud detection logics usually consist of a mix of machine learning models and detection rules. The models are regularly retrained, tested, and deployed to adapt to new trends and compensate model drift while the detection rules permit for quick reaction to the emergence of new fraudulent modus operandi. However, the rapidity of the response to new threats depends not only on the capability to quickly adapt the detection logic to these threats but also on the capability to quickly deploy the updated logic.\n\nOur Fraud Detection System is based on Apache Flink and Apache Kafka. Flink serves the detection logic (i.e., models and rules) while Kafka transports the payments to monitor the models and the rules (expressed as PMML), and additional data (e.g., user profiles) required by the detection logic.\n\nWhen a new detection logic is ready, the corresponding PMML files are published on dedicated Kafka topics so that Flink can instantly use them without any downtime. This mechanism works fine if the new detection logic does not require additional enrichment data.\n\nThis presentation discusses the pros and cons of different architectures and strategies that we have put in place overtime to dynamically adapt the enrichment data as required by new detection logics."
