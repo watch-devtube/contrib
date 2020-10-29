@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - embedded
+title: 'FlinkNDB : Skyrocketing Stateful Capabilities of Apache Flink'
+recordingDate: 1603896176
+description: "Can Flink's managed state scale to hundreds of terabytes? Can rescaling and reconfiguration at extreme scale possibly take less than a blink of an eye? Surprisingly, all you need to answer \"yes\" is to try a different type of state backend.\n\nOne of the biggest highlights of Flink is it's unified state management mechanism which, at its core, treats stream processing as a sequence of distributed transactions. Flink handles failures, rescaling and reconfiguration seamlessly via a form of a two-phase commit protocol that periodically commits all past side effects consistently. For regular state backends such as the RocksDB embedded database, this involves invoking and combining checkpoints and, in time of need, re-distributing and booting them back to the backends to resume your pipelines. However, recovery time is proportional to the state needed to be reconfigured and that can take from a few seconds to hours.\n\nFlinkNDB is not your regular state backend. We have developed it from the ground up to save you from the trouble of waiting for your pipelines to recover. State in FlinkNDB is not embedded but external to your compute nodes, similar to those of managed services such as Google Dataflow. Yet, at the same time, it still maintains the same processing guarantees provided by Flink's underlying, snapshotting mechanism. We have developed FlinkNDB on top of Mysql Cluster Engine, one of the world's fastest in-memory open source databases that provides less than 1ms reads and less than 0.01ms writes as well as 99.9999% availability. FlinkNDB complies with Flink's core design choices: dedicated task assignment based on key groups and fast guaranteed processing. On top of that, it adds fast reconfiguration and unbounded historical rollback capabilities via strict multi-version control orchestrated by Flink’s snapshots. Our talk will cover all major internals of FlinkNDB and showcase its performance using NEXMark benchmarks and failure-recovery scenarios. Oh yes. FlinkNDB state can also support external queries."

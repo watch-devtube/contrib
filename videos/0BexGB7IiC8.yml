@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - scala
+title: 'Handling frequent changes in state structure'
+recordingDate: 1603912724
+description: "When you have a fast development cycle, you are frequently going to change the structure of operator states. If you're fine with losing the state of that operator, you can just change the UUID. However, it's pretty easy to forget, especially if you're changing a generic class that is used in several places! \n\nIn this video, we show how we made the state of an operator automatically reset whenever the structure of the state has been modified.\n\nWarning: this video contaisn Scala code! (Nothing more complicated than implicits)"

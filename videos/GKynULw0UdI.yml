@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+title: 'Explicitly Supporting Stretch Clusters in Ceph'
+language: English
+recordingDate: 1603868739
+description: "by Gregory Farnum\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.1308/sds_ceph_stretch_clusters.webm\n\nCeph is an open source distributed object store, network block device, and file system designed for reliability, performance, and scalability. While Ceph is designed for use in a single data center, users have deployed “stretch” clusters across multiple data centers for many years, and deploying Ceph to back Red Hat’s OpenShift Container Storage product required us to support that workload explicitly and well —\_in particular, in the face of netsplits.\nThis requires improvements to our “monitor” leader elections and to the “OSD” peering process to keep data available without breaking our data integrity guarantees. This talk presents the whole cycle of that work from an algorithm and programmer perspective: the dangers we identified, the changes we needed, the architecture changes to support faster test iteration and coding, and the results.\n\nRoom: H.1308 (Rolin)\nScheduled start: 2020-02-02 12:50:00"
