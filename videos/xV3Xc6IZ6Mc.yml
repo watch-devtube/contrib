@@ -1,0 +1,21 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - bigdata
+    - performance
+    - testing
+    - architecture
+    - python
+    - java
+    - 'data structures'
+title: 'Apache DataSketches A Production Quality Sketching Library for the Analysis of Big Data'
+language: English
+recordingDate: 1603955013
+description: "by Claude Warren\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/H.2215/apache_datasketches.webm\n\nIn​ the analysis of b​ig data there are often problem queries that don’t scale because they require huge compute resources to generate exact results, or don’t parallelize well. Examples include c​ount-distinct, ​quantiles, most frequent items, joins, matrix computations, and graph analysis. Algorithms that can produce accuracy guaranteed approximate answers for these problem queries are a required toolkit for modern analysis systems that need to process massive amounts of data​ quickly. For interactive queries there may not be other viable alternatives, and in the case of real­-time streams, these specialized algorithms, called stochastic, s​treaming, sublinear algorithms,​ or 's​ketches',​ are the only known solution. This technology has helped Yahoo successfully reduce data processing times from days to hours or minutes on a number of its internal platforms and has enabled subsecond queries on real-time platforms that would have been infeasible without sketches. This talk provides a short introduction to sketching and to Apache DataSketches, an open source library of these algorithms designed for large production analysis systems.\nFast:\nSketches are fast. The sketch algorithms in this library process data in a single pass and are suitable for both real-time and batch. Sketches enable streaming computation of set expression cardinalities, quantiles, frequency estimation and more. This allows simplification of system's architecture and fast queries of heretofore difficult computational tasks.\n\n\nBig Data Platforms:\nThis library has been specifically designed for big data platforms. Included are adaptors for Hadoop Pig, Hive, Spark, Druid, and Postgresql, which also can be used as examples for other systems, and many other capabilities typically required in big data analysis systems. For example, a Memory package for managing large off-heap memory data structures.  Our sketch library is implemented in Java, C++ and Python and provides binary compatibility across languages and platforms.  Some of our sketches provide off-Java-heap capability which dramatically improves performance in large systems.   Our APIs provide a rich set of options to enable fine tuning performance parameters that are particularly important for large systems.\n\n\nAnalysis:\nBuilt-in Theta Sketch set operators (Union, Intersection, Difference) produce sketches as a result (and not just a number) enabling full set expressions of cardinality, such as ((A ∪ B) ∩ (C ∪ D)) \\ (E ∪ F). This capability along with predictable and superior accuracy (compared with Include/Exclude approaches) enable unprecedented analysis capabilities for fast queries.\n\nRoom: H.2215 (Ferrer)\nScheduled start: 2020-02-02 12:00:00"

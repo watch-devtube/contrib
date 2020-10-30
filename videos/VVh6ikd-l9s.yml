@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+title: 'Flink''s New Dockerfile: One File to Rule Them All'
+recordingDate: 1603994603
+description: "In this video, we present Flink’s official Docker image and how to use it.\n\nPreviously, Flink offered multiple Dockerfiles and scripts for integration with Docker containers scattered around the source code and the user documentation. Recently, the community developed a single Dockerfile of Flink’s official image and a holistic approach about how to use it.\n\nThe video explains how to customize the image to deploy Flink jobs and clusters in dockerized environments (local docker, compose, Swarm, Kubernetes, etc). When deploying Flink, there is often a need to change cluster configuration, logging, dependencies or distribute job artifacts. We will show examples of how to achieve this by parameterizing the image before starting the container, mounting volumes or extending the official image. The video concludes with a roadmap for future improvements of the Flink integration with dockerized environments."

@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Towards a Flink Autopilot in Ververica Platform'
+recordingDate: 1603983937
+description: "Stream processing applications are almost always long-running, continuous applications. As such, their workload can vary significantly over their lifetime.\n\nWhen your application can not keep up anymore, records will start to pile up in your stream storage system (e.g., Apache Kafka) and the records your application is processing become more and more stale. Consequently, you might break your latency objectives, drop end-user requests, or lose data due to its retention time. At the same time, you do not want to over-provision your application in order to not waste any resources.\n\nVerverica Platform aims to mitigate these problems with the help of its Autopilot for Apache Flink. Autopilot reconfigures your Flink application based on collected metrics to maintain a backpressure-free configuration while minimizing the resource footprint.\n\nIn this talk, we will provide an overview of how we developed the Autopilot and the challenges we faced. In the end, we will outline our plans for extending the Autopilot to adjust Flink applications to changing different environments in ways beyond auto-scaling."

@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'Unified APIs for Batch and Stream Processing on Flink'
+recordingDate: 1603982114
+description: "For most of its existence, Flink has had three major APIs for writing programs: the DataSet API for processing bounded data, the DataStream API for processing unbounded data, and the Table API/SQL for relational queries on both bounded and unbounded data. For a while now, the Flink community has had the desire to unify those APIs and eventually deprecate and remove the DataSet API.\n\nIn this video I discuss why there are separate APIs in the first place and then share my thoughts on what kinds of APIs we should have going forward and how we can get there:\n- What does it mean to have a unified API for batch/stream processing?\n- When should you use the Table API and when the DataStream API?\n- How will those APIs need to be extended to ensure that users can migrate\ntheir programs from the DataSet API?"
