@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+title: 'C++ Parallel Programming Models - Eran Gilad'
+language: English
+recordingDate: 1603986067
+description: "Modern C++ offers a wealth of parallel programming facilities. Those facilities belong to 3 different programming models: unstructured, task-based and data parallel. The unstructured model (or rather, non-model) contains the basic building blocks – threads, atomics, mutex etc. The task-based model contains async, future and related classes. The data parallel model, recently introduced in C++17, contains the various parallel algorithms. The 3 models aren’t just different abstraction levels – each is appropriate for a different program structure.\n\nThis talk will review the 3 models, describe the central facilities used by each model, and discuss the expected use case for each one. Since many of the parallelism facilities have been added to the language in C++11, the talk will not focus on the facilities themselves but rather put them in the context of a programming model. The talk will, however, include new C++17 and expected C++20 features, where appropriate.\n\n\nCheck out more of our talks at: \nhttps://ndctechtown.com/\nhttps://www.ndcconferences.com/"
