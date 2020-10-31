@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - 'data structures'
+title: 'What do you mean by "Cache Friendly"? - Björn Fahller'
+language: English
+recordingDate: 1604064709
+description: "Data structures, and sometimes the algorithms that operate on them, can be described as \"cache friendly\" or \"cache hostile\", but what is meant by that, and does it really matter?\nCache memory in modern CPUs can be a hundred times faster than main memory, but caches are very small and have some interesting properties, that some times can be counter-intuitive. Getting good performance requires thinking about how your data structures are laid out in memory, and how they are accessed.\n\nThis presentation will explain why some constructions are problematic and show better alternatives. I will show tools for analyzing cache efficiency, and things to think about when making changes to gain performance. You will develop an intuition for writing fast software by default, and learn techniques to improve it.\n\n\nCheck out more of our talks at: \nhttps://ndctechtown.com/\nhttps://www.ndcconferences.com/"

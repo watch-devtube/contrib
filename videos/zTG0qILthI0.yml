@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cassandra
+    - ml
+    - performance
+    - cloud
+    - architecture
+title: 'Keynote | Data Warehouse, Data Lakes, What''s Next? - Xiaowei Jiang'
+recordingDate: 1604052769
+description: "The Problem\nFlink is used for real-time computing extensively at Alibaba. There is growing need for storing the realtime data for both the inputs (dimension tables) and outputs from Flink jobs. In addition, applications need diverse access patterns on such data, ranging from point lookups, multi-dimensional analysis, to complex analytic queries. Existing solutions employ a combination of systems. For example, HBase/Cassandra for point lookups, Druid/ClickHouse for multi-dimensional analysis, Impala/Presto for analytic queries, etc. It creates data silos. The need for data duplications and synchronizations caused by such complex architecture also increases the development and operation cost.\n\nThe Proposal\nHybrid Serving/Analytical Processing(HSAP) is proposed as a solution. We will have a unified storage system for all such data. The system is efficient at online serving queries as well as complex analytic queries. Flink jobs can leverage such a system for dimension table joins. Flink jobs can store the outputs in such a system. The data will be available for various downstream applications, including your favorite BI tools such as Tableau.\n\nThe Solution\nHologres is a cloud-native HSAP service we built at Alibaba. It supports storing data in both row and columnar format. In addition, its C++ native storage and query engine provides ultimate performance. With the combination of Flink and Hologres, we supported many different use cases such as realtime data warehouse, realtime machine learning, etc. This new architecture has been deployed extensively at Alibaba. It's also used by many of our customers on AliCloud."

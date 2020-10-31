@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - ml
+    - architecture
+title: 'Keynote | Stream Processing at LinkedIn: Then and Now - Renu Tewari'
+recordingDate: 1604051466
+description: 'At Linkedin, stateful stream processing started in earnest almost 7 years ago with use cases like standardizing profile data that relied on both processing real-time data and re-processing historical data and clickstream data analysis that relied on both stream and batch processing in a traditional Lambda architecture. Today, while these use cases still exist, the scale has grown in orders of magnitude with stream processing jobs processing over 4 trillion messages per day with Kafka handling over 11 trillion incoming messages per day. Along with scale, stream processing jobs have become more complex with machine learning applications performing feature extraction, training and re-learning across multiple processing engines and data stores. This video covers how we are handling extremely large stateful jobs, simplifying the APIs with SQL, and exploring new directions of unifying batch and stream processing.'

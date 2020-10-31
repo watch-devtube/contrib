@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - scala
+    - java
+    - functional
+title: 'Keynote | Real-Time Metrics at Fortnite Scale - Ricky Saltzer'
+recordingDate: 1604054531
+description: "The Problem\n\nLast April we hosted the Astronomical in-game concert, featuring Travis Scott. We had more than 12 million concurrent players show up for opening night. During this concert, we extracted in real-time over 200 million metrics a second. These metrics were used to power an elaborate\nmission-control-esque dashboard, showcasing the overall health and stability of the show.\n\nScaling Fortnite is undoubtedly a testament to the services our engineers build. Every service must be built at “Fortnite Scale”, and so, even the most rudimentary applications quickly turn into a distributed system exercise.\n\nThe data engineering team at Epic was tasked with solving one of the first problems an online video game encounters. From the moment a game client (console, PC) emits an event, it should be observable and actionable as soon as possible. Keep in mind that data in events could span many different contexts, such as a client (player data) or server (service data). The heterogeneous nature, and sheer volume of data required a novel and modern solution.\n\nThe Proposal\n\nEvents contain a vast amount of actionable information (e.g. client performance, matchmaking durations, item usage). With millions of events firing every second, we knew it was paramount to provide meaningful real-time insights. Furthermore, the system should be self-serviceable to the extent that an engineer can inject a new workload that becomes available within seconds.\n\nEnter Metrics Royale, a real-time Flink application that extracts, aggregates and persists arbitrary values from JSON payloads. Aggregations may be grouped on arbitrary keys to allow fine-grained reporting (e.g. per-platform, per-region, etc). Data is immediately available for monitoring and alerting through a custom Grafana plugin.\n\nThe Solution\n\nIt was clear that we wanted to use Apache Flink due to how strong its streaming capabilities were without the headache of micro batching. Secondly, being a JVM based system, we could leverage the massive ecosystem of libraries, such as Jayway for JSON processing or Scala for a purely functional data interface.\n\nWe wanted to run many of these Flink clusters in unison, and so a transactional persistence layer was key to achieving this. Although a tough decision in itself, we ultimately chose FoundationDB for many reasons, namely the excellent support for 3-AZ deployments and its strong consistency guarantees."

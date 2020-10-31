@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'News from Flink’s engine room: “Full steam ahead”'
+recordingDate: 1604048555
+description: "With every release Flink is getting closer to become a truly unified batch and stream processor. This unification is not only a big effort for the API layer but it poses also great challenges for its runtime. Not only does the runtime have to handle streaming and batch workloads alike but it also needs to do it efficiently. In the past 2 years, the community has therefore spent a lot of effort on preparing Flink’s engine for these challenges. At the same time, the community started addressing one of Flink’s biggest operational limitations which is making it fully resource elastic.\n\nIn this video, I want to explain the big changes which happened in Flink’s runtime, how they help our users and in which direction the runtime will evolve from here. We will start by recapping how the community improved Flink’s batch capabilities and made the system more extensible. Next, we will take a look at Flink’s new unified pipelined region scheduler and see how it improves resource utilization. Last but not least, I want to explain how the reactive execution mode will enable auto-scaling and make Flink fully resource elastic."

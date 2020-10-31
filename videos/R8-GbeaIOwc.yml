@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: 'Tools and mechanisms to debug BPF programs'
+language: English
+recordingDate: 1604041613
+description: "by Quentin Monnet\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_bpf.webm\n\nBy allowing to safely load programs from user space and to execute them in the kernel, eBPF (extended Berkeley Packet Filter) has brought new possibilities to the Linux kernel, in particular in terms of tracing and network processing.\n\n\nBut when a program fails to load, or when it does not return the expected values, what tools do we have to examine, inspect and debug eBPF objects? This talk focuses on the different tools and mechanisms available to help eBPF developers debug their programs, at the different stages of the workflow. From bpftool to test runs, let's find the best way to track bugs!\n\nRoom: K.4.201\nScheduled start: 2020-02-02 13:15:00"
