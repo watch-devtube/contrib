@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - 'data structures'
+title: 'GDB pipelines -- convenience iteration over inferior data structures Bringing MDB''s "walkers" to GDB'
+language: English
+recordingDate: 1604041519
+description: "by Matthew Malcomson\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_gdb_pipelines.webm\n\nWe introduce a GDB plugin for working with large data structures in the inferior.\n\n\nThis plugin brings some of the flexibility of Unix pipelines to the GDB command prompt, providing the ability to ❮em❯conveniently❮/em❯ run some action on every element in a data structure that matches certain criteria.\n\n\nOne big aim of this plugin is to make it easy and convenient for a user to write their own sub-commands to iterate over the data structures used in their own program.\n\n\nThis is intended for anyone who has found difficulty inspecting large data structures from inside GDB.\nMDB -- the debugger on Solaris -- has a feature called \"walkers\" that is used to great effect when inspecting the contents of large data structures in the Solaris Kernel.\n\n\nWe introduce a GDB plugin to provide the same type of functionality.\n\n\nSimilar to Unix pipelines, one can now flexibly write a surprisingly powerful command by combining several \"walkers\".\n\n\nSome examples are:\n- Search an inferior data structure for nodes that are malformed.\n\n\n❮pre❯❮code❯ gdb-pipe &lt;mywalker&gt; &lt;startnode&gt; | if ! &lt;some verification test&gt;\n❮/code❯❮/pre❯\n\n❮ul❯\n❮li❯Put breakpoints on member functions of those nodes in a data structure matching some criteria.\n   gdb-pipe &lt;mywalker❯ &lt;startnode❯ | if &lt;interesting-check❯ | show break {}-❯function-member\n❮/li❯\n❮li❯Put breakpoints on a given function when passed a node that matches some criteria.\n   gdb-pipe &lt;mywalker❯ &lt;startnode❯ | if &lt;interesting-check❯ | show break somefunc if &lt;arg❯ == {}\n❮/li❯\n❮/ul❯\n\n\nThis plugin has a strong aim to make it easy for users to write \"walkers\" over their own data structures, and already has \"walkers\" for the open source projects \"neovim\" and \"GCC\".\n\n\nWe would like to discuss possible future directions for this plugin with regards to speed improvements to work on extremely large data structures, and how there could be a tie-in with pretty-printers.\n\nRoom: K.4.201\nScheduled start: 2020-02-02 09:35:00"
