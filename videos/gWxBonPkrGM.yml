@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+title: 'The Pipes Library: How Plumbing Can Make Your Code More Expressive - Jonathan Boccara'
+language: English
+recordingDate: 1604070742
+description: "In code we work with collections of objects all the time, yet it's not always easy to operate on them with concise and expressive code.\n\nTraversing collections with for loops gets ugly and brittle as soon as they have more than a few lines. STL algorithms are a big step further, but they don't compose well (ever had the need for a \"transform_if\" algorithm?) Ranges are another big step further, but like every library they don't cover all cases (Did you know about the transform-filter performance problem? Or that you're not allowed to use rvalues as inputs? Or that you have to use tuples when working on several collections?)\n\nIn this talk you will discover pipes, another way to write expressive code to operate with collections: write your code as plumbing through which your data flows Like every library pipes also have their limitations, which we will present, but using them as a complement of ranges and STL algorithms will bring you the following benefits:\n\nAn efficient transform-filter\nzip two collections without using tuples\nsend data to several outputs\nuse rvalues as inputs and as intermediate results\npick up the data coming out of STL algorithms\nintegrate results in destination containers\npipes are very easy to implement, so you can add new ones\nCome see how pipes can improve your code!\n\n\nCheck out more of our talks at: \nhttps://ndctechtown.com/\nhttps://www.ndcconferences.com/"
