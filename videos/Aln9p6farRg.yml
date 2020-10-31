@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - python
+title: 'Predicting Meteor Showers Using Python and Visual Studio Code'
+language: English
+recordingDate: 1604076300
+description: "*This was originally recorded live*\n\nIn the new Netflix Original Over the Moon (https://www.netflix.com/title/80214236), Fei Fei builds a rocket to fly to the Moon to meet the Moon Goddess Chang’e. It is said that when Chang’e cries, her tears are the shooting starts we see in our night sky. This inspired Dr G to deep dive into what meteor showers actually are and how they are predicted. Join this live stream as Dr G explores how data science plays a role in predicting celestial events, and even brings in a little magic from the film to predict when we could have seen the meteor shower caused by Chang’e from Fei Fei’s visit. No coding experience required, and you can follow along with the free Microsoft Learn lessons at https://aka.ms/LearnWithDrG/OverTheMoon.\n\nAdditional Links\nhttps://aka.ms/InCulture/OverTheMoon\nhttps://aka.ms/LearnWithDrG/UpcomingStream\nhttps://aka.ms/LearnOnVSCode\n\n00:00 - Introduction and agenda\n07:05 - Local environment setup\n09:40 - Import libraries and data\n11:05 - Explore and understand data\n15:20 - Define goal of the data exploration\n16:10 - Convert months from strings to ints\n18:33 - Convert month and day to datetime\n20:00 - Question: Why might you manipulate one column at a time?\n21:30 - Continue converting month and day to datetime\n22:00 - Question: How does Pandas datetime conversion handle cyclical data?\n24:27 - Convert hemisphere strings to ints\n25:10 - Convert moon phase strings to decimals\n25:56 - Cleanse data by dropping unneeded columns\n25:34 - Fill NaN values in moon phase column \n27:27 - Cleanse data by dropping unneeded columns\n27:57 - Review cleansed data\n29:00 - Begin creating the prediction function\n30:45 - Check to see if city is in list\n32:12 - Get the latitude of the city\n35:00 - List of constellations that are viewable\n36:15 - Return if no constellations are viewable\n37:00 - Determine which meteor showers are viewable\n38:38 - Gather moon phases for desired dates\n39:40 - Question: Why use an \"&\" operator and not \"|\"\n43:15 - Determine best date based on moon phases\n44:25 - Test the new code\n44:50 - Add in Chang'e's meteor shower data\n47:50 - Recap"
