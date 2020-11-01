@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: 'FOSDEM Video Box A bespoke HDMI capture device for conferences.'
+language: English
+recordingDate: 1604128136
+description: "by Mark Van den Borre, Luc Verhaegen and Gerry Demaret\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.401/videobox.webm\n\nA bespoke OSHW HDMI video capture solution is being developed for use at FOSDEM and other open source conferences. This talk will explain the what, why, how and hopefully when.\nFOSDEM is unique in that it has 750+ talks on two days, with more than 28 parallel tracks. All are captured and streamed out live, and a sanitised version of each talk is re-encoded for separate viewing after the event. For each track, there are (at least) two capture boxes, one for the speakers' laptop (which also feeds the projector), and at least one for a camera. This means FOSDEM has close to 60 video capture boxes deployed.\n\n\nThe FOSDEM video boxes are also used at several other conferences, and we are in active contact with several more, as each conference basically has the same problem to solve, albeit at a smaller scale than FOSDEM.\n\n\nToday, our capture boxes are an amalgamation of many different devices tied together, and while the whole is working surprisingly well, it is far from ideal. Some bits are non-free, some bits are hard or even impossible to control, and the result is bulky and, relatively speaking, expensive. Sourcing the exact same components again to expand the current array of boxes is nigh impossible, and the bulk of these boxes means that deployment is more of a hassle than it could be.\n\n\nTo solve almost all of our issues, we are creating a bespoke HDMI capture solution by tying a HDMI-to-parallel-RGB decoder chip to the camera input of the venerable Allwinner A20 SoC. The Allwinner A20 was chosen due to its feature set, large community (linux-sunxi), its advanced upstream support and the availability of OSHW board designs. We were lucky to find a suitable board in the Olimex Lime2 (which is OSHW), which exposes all the necessary IO pins on pinheaders.\n\n\nCapturing 1280x720@50Hz, encoding it to h.264 for local storage and streaming over the network, while displaying the captured frames directly to HDMI or VGA (projector) and a status LCD, while also capturing (and passing through) audio is a challenge on this cheap, low power but open hardware. It forces us to make use of a wide array of SoC HW blocks, not all of which previously had driver support, and we are close to saturate the available memory and bus bandwidth.\n\n\nSo while a good part of this talk is about describing the bigger problem we are trying to solve, this project very much is an issue of hardware enablement.\n\nRoom: K.4.401\nScheduled start: 2020-02-02 13:00:00"
