@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'VUOS: Give Your Processes a New VU'
+language: English
+recordingDate: 1604214374
+description: "by Renzo Davoli\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/uk_vuos.webm\n\nVUOS is a different perspective on namespaces, anykernels and related concepts. The main idea behind VUOS is that it is possible to give processes their own \"view\" using partial virtual machines.\n\n\nA partial virtual machine intercepts the system call requests and operates like a filter: system calls can be forwarded to the kernel of the hosting system or processed by the partial virtual machine hypervisor.\nIn this way processes can see a mix of resources provided by the kernel (on which they have the same view of the other processes) and virtual resource. It is possible to mount filesystems, load networking stacks, change the structure of the file system tree, create virtual devices.\n\n\nThe hypervisor is just a user process so while it gives new perspective for processes, it does not widen the attack surface of the kernel.\n\nRoom: K.4.601\nScheduled start: 2020-02-02 15:30:00"
