@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'Demonstration of the Sculpt Operating System'
+language: English
+recordingDate: 1604304436
+description: "by Norman Feske\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.601/uk_sculpt.webm\n\nSculpt OS is a novel general-purpose operating system designed from the ground up and implemented using the building blocks of the Genode OS framework. It started with the vision of a truly trustworthy OS that combines a completely new system structure with microkernels, capability-based security, sandboxed device drivers, and virtual machines. The talk is a live demonstration of the current incarnation of Sculpt.\nThe Genode OS framework is an operating-system technology created from scratch. Over the past decade, it steadily evolved from a fairly obscure research prototype to a practical day-to-day operating system.\n\n\nBeing a component-based system designed after the principle of least privilege from the very beginning, it breaks with many concepts that we take for granted in traditional operating systems, e.g., the central role of files. Instead, Genode introduces a novel way of composing system scenarios out of building blocks where the building blocks are able to cooperate without ultimately trusting each other. Those building blocks include not only applications but also all classical OS functionalities including kernels, device drivers, file systems, and protocol stacks.\n\n\nIn 2018 - after more than 10 years of developing Genode in a shadowy corner of the open-source community - the project created Sculpt OS, which is a Genode-based general-purpose OS for commodity PC hardware. Since it is not derived from any existing OS, Sculpt re-approaches established concepts like the installation, configuration, and spawning of programs from a new angle. This is reflected by its custom user interface.\n\n\nBesides presenting the motivation and the fundamental ideas behind Genode, the talk will introduce and demonstrate the current state of Sculpt OS, draw connections to related open-source projects, and give a glimpse on the project's future plans.\n\nRoom: K.4.601\nScheduled start: 2020-02-02 12:00:00"

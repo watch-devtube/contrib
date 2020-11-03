@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Rendering QML to make videos in Kdenlive How QML, a language prominently used for designing UI, is …'
+language: English
+recordingDate: 1604304246
+description: "Rendering QML to make videos in Kdenlive How QML, a language prominently used for designing UI, is being used to create videos.\nby Akhil Gangadharan Kurungadathil\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.147/om_qml.webm\n\nHow QML, a language prominently used for designing UI, could be used to create title video clips containing text and/or images which can then be rendered and composited over videos in the video editing process. Kdenlive's Google Summer of Code 2019 project tried to achieve this and is still under active development. QML is used primarily for UI development in Qt Applications providing an easy way of designing and creating interactive, clean and a modern UI. Kdenlive is a popular non-linear open-source video editor and it currently makes use of XML to describe a title clip (which are clips which contain text or images used to composite over videos). XML requires more processing in the backend as one needs to explicitly write code for, say an animation of the text. Using QML eases this restriction, making the backend more robust and maintainable as rendering in QML makes use of a dedicated Qt Scene Graph. Kdenlive's Google Summer of Code 2019 Student tried to achieve this by creating a new rendering backend library and a new MLT QML producer which is still under active development. Owing to the dedicated scene graph while rendering, this could also possibly lead to greater overall performance.\n\nRoom: UB2.147\nScheduled start: 2020-02-02 09:30:00"
