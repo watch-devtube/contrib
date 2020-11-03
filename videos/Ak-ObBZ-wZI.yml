@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - security
+title: 'Load Imbalance'
+recordingDate: 1604322980
+description: "Resolving data spikes imbalance with additional Sub-Keys and Sharded MapState\n\nMotivation:\n\nProblem 1:\nMCAS team uses Flink Streaming Framework for Real-Time Anomaly Detection.\nMCAS provides a suite of security services for organizations that use cloud apps, both Microsoft and non-Microsoft cloud apps and for monitoring cloud activity.\nMCAS processes thousands of events per second via the Flink pipeline.\nThe event’s aggregation info is stored in Flink’s state.\nIt requires stateful keyBy operators.\nThe key’s distribution is not always even, and it causes heavy spikes of data on some sub-tasks.\nParallelism increase is not a solution to this problem since all of the events from the same key are still being processed by the same subtask.\n\nProblem 2:\nAt the same spiked subtask, the state size became dramatically huge. When it’s necessary to iterate all keys from the state it may take several hours and it totally blocks the processing of incoming events.\nCheckpoint barrier event is also not able to pass pipeline till the end of the iteration.\n\nSolution:\n\nSolution of problem 1:\nWe divided the problematic operator into 2 operators “Aggregator operator” and “Writer operator”.\nWe also added additional configuration per specific key to have N subkeys.\nSo problematic keys are now distributed between N aggregators, each of them sending aggregated data to writer (MapReduce Combiner pattern).\nThis rebalance process can be configured dynamically.\nIt means that the same key can be moved to another subtask after reconfiguring.\nTherefore we need to replicate state for all aggregators of the same key since the state of the key contains 180 days data.\nWe have to sync the states among all N aggregators of the same Key. This requires the overall state iteration and it brings us to Problem 2.\n\nSolution of problem 2: Sharded Map State.\n\nWe wrapped original Flink’s MapState with our data structure called the “SharedMapState”\nThis data type contains list of the MapState objects and ValueState.\nThus we are able to make state iteration by chunks and not to block pipeline with the chunks of the same state."
