@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - java
+    - wasm
+title: 'Facilitating distributed deterministic computation with WASI'
+language: English
+recordingDate: 1604304386
+description: "by Jakub Konka\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.114/facilitating_distributed_deterministic_computation_with_wasi.webm\n\nWebAssembly System Interface (WASI) is the new brilliant community effort at standardising the use of WebAssembly (Wasm) outside the browser environment. Initiated by Mozilla, now under the umbrella of Bytecode Alliance, WASI has the potential to revolutionise the way we think about the \"build once, run anywhere\" in a truly secure manner. But could WASI also lend itself to a task of running any code within a network of distributed, untrusted nodes such as BOINC or Golem Network, and ensuring that the results received are indeed correct? The short answer is yes, if determinism of computations could be enforced which opens many ways at verifying the results. Enforcing determinism is a rather difficult thing to achieve in other platforms such as JVM etc., now possible thanks to Wasm and WASI. This talk will delve deep into the inner workings of the WASI spec, and its goto implementation, the wasi-common library, and explore how and if determinism can be enforced at the WASI syscall level.\n\nRoom: UA2.114 (Baudoux)\nScheduled start: 2020-02-02 12:15:00"
