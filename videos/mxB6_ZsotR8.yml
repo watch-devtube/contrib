@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - mobile
+    - android
+    - architecture
+title: 'OpenPush  Introducing a Free, Decentralized Push Messaging Framework for Android'
+language: English
+recordingDate: 1604390689
+description: "by Marcus Hoffmann\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.220/dip_openpush.webm\n\nPush messages are an essential part of connected mobile devices. They are also one of the critical missing pieces in the open source Android ecosystem.\nUntil now, free Android apps would either need to implement their own push notification system, do without any push messaging or use the proprietary Google Cloud Messaging service.\nIn this talk I will introduce OpenPush, a free and open source, self-hosted and decentralized replacement for Google Cloud Messaging.\nWe expect both a long battery life and instant notifications from our mobile devices.\nWhen implementing your own mobile push functionality you can usually optimize for either of these goals.\nThis is especially true if the user is running multiple applications which each come with their own persistent on-going connection for push notifications.\nWanting to combat the battery drain associated with maintaining multiple connections Google introduced the Google Cloud Messaging (GCM) framework which recently has become Firebase Cloud Messaging (FCM). Firebase Cloud Messaging relies on the availability of the proprietary Google Play Services Framework on an Android device. Using FCM also requires the inclusion of the proprietary FCM client library into open source Android apps like Signal, Wire or even Firefox, which makes them effectively non-free software which cannot be distributed via the fully free F-Droid software repository.\nAdditionally all push notifications delivered via FCM need to pass through Google's servers leaving a metadata trace, even if it's an empty wakeup event or if the content of the message is encrypted.\n\n\nDecentralized, self-hosted systems like Matrix, Nextcloud or RocketChat currently still have a dependency on Google's infrastructure and Terms of Service for delivering push Notifications.\n\n\nIn this talk I'll present a self-hosted, free alternative push messaging implementation which can either run alongside or as a replacement to FCM.\nThe talk will give a general architecture overview as well as walk through the design and implementation challenges of a push messaging service.\n\n\nFurther I'll present how OpenPush can be used by different projects and discuss some additional ideas on how the wider ecosystem could look like in the future.\n\nRoom: UA2.220 (Guillissen)\nScheduled start: 2020-02-02 13:00:00"

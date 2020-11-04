@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Streaming With Structure'
+language: English
+recordingDate: 1604369169
+description: "Using a publish-subscribe messaging system like Apache Kafka is a great way to minimize coupling between your applications. The stream history that Kafka provides allow consumers to come and go, without the producers ever being aware. This works fine until an application changes the shape of the events it is producing - how do consumers understand and handle the change? This is where schemas and a schema registry comes in. This session will introduce the common schema formats that are used in the Kafka community and an open source schema registry that supports these. It will also cover how to use schemas in different types of Kafka applications. Learn how to effectively manage and evolve the structure of your events.\n\nAdditional Resources:\nApicurio Registry: https://github.com/Apicurio/apicurio-registry?WT.mc_id=events_jdconf\nGitHub Apicurio Registry: https://github.com/Apicurio/apicurio-registry\nGitHub Schemas Overview: https://ibm.github.io/event-streams/schemas/overview/"
