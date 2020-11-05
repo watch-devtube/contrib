@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - docker
+    - kubernetes
+    - security
+    - javascript
+title: 'How secure is your build/server? a story of packages and trust'
+language: English
+recordingDate: 1604477165
+description: "by Patrick Debois\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB4.136/kubernetes_gitops.webm\n\nWe have learned that we need to trust others, but as our parents used to say - don’t trust strangers. So we secure our production server more than ever.\n\n\nYet, there is this no-man's land: “the build server”. We think it’s time to take a closer look at some of the good practices around securing builds &amp; artifacts to improve our day to day level of trust.\n\n\nPlease note that this talk replaces one entitled \"Safe, gated and integrated GitOps for Kubernetes\" that was due to have been given by Mohammed Naser, who unfortunately is now unable to present. We wish him a speedy recovery.\nDevelopment has changed over the years, from doing everything yourself to a 3rd party package for every function. Operations has changed too, running your own servers is now considered an exception. To the cloud!\nWe have learned that we need to trust others, but as our parents used to say - don’t trust strangers. So we secure our production server more than ever.\n\n\nYet, in the middle sits this no-man's land: “the CI server”. We think it’s time to take a closer look at some of the good practices around securing builds &amp; artifacts to improve our day to day level of trust.\n\n\nWith Marked Sherman statement “Development is now assembly” in mind, the talk will focus more on the package/artifact/repository aspect. Less on the app security inside the code itself or at the OS/Machine level.\n\n\n❮ul❯\n❮li❯This talk I will go into detail on:❮/li❯\n❮li❯How to verify trust of your dependencies: from metadata, binaries, and repositories❮/li❯\n❮li❯How to provide trust to others that build upon your software❮/li❯\n❮li❯How this ties into the concept of “reproducible builds”❮/li❯\n❮li❯How a practical “Software Bill of Material” looks❮/li❯\n❮li❯How the concepts of the “The Update Framework” (TUF) relate❮/li❯\n❮li❯How you can implement secure packaging policies❮/li❯\n❮/ul❯\n\n\nIt will explain these topics using practical/code examples from the Node.js and Docker ecosystems.\nAll this will be presented from the different viewpoints from “dev” , “sec” and “ops”.\n\n\nLet’s take ownership of your trust , we are already responsible when things go wrong anyway.\n\nRoom: UB4.136\nScheduled start: 2020-02-02 15:25:00"
