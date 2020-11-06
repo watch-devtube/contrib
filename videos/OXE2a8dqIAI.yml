@@ -1,0 +1,22 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - mongo
+    - cloud
+    - devops
+    - containers
+    - docker
+    - security
+    - testing
+    - architecture
+title: 'DevOps Crash Course (Docker, Terraform, and Github Actions)'
+language: English
+recordingDate: 1604592030
+description: "In this DevOps and Cloud Infrastructure tutorial, you will learn what DevOps is and how to apply some of the most important concepts including:\n\n- Docker containers\n- Infrastructure as Code\n- Continuous Integration and Continuous Deployment \n\nDevOps Directive YouTube Channel: \nhttps://www.youtube.com/c/DevOpsDirective\n\nLink to application: storybooks.devopsdirective.com\n\nGitHub Repos:\n- https://github.com/bradtraversy/storybooks (Original)\n- https://github.com/sidpalas/storybooks (Version from video)\n\nNOTE: \nAfter filming I discovered that the set-env command that I used within the Github Action was deprecated due to a security vulnerability (https://github.blog/changelog/2020-10-01-github-actions-deprecating-set-env-and-add-path-commands/). I replaced the usage with the updated method described here (https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions#environment-files)\n\nTimeStamps:\n0:00 - Intro\n1:18 - Project Overview\n2:21 - Application Architecture\n4:14 - Part 1: Getting the initial project running\n7:51 - Part 2: Dockerize the application\n9:55 - Docker-compose\n11:51 - Aside: Makefiles!\n12:31 - Part 3: Terraform (Infrastructure as Code)\n17:16 - Setting up Terraform providers\n22:21 - GCP Resources\n25:55 - Terraform variables\n28:23 - Atlas MongoDB Resources\n31:42 - Cloudflare Resources\n34:33 - Aside: Secrets/credential management\n37:21 - Part 4: Deploying Manually \n44:25 - Part 5: CI/CD with Github Actions\n50:14 - Testing the Github action\n51:25 - Separate staging and production\n57:22 - Outro"
