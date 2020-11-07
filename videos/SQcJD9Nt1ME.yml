@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - web
+    - security
+title: 'openwifi Opensource "Wi-Fi chip design" and Linux driver'
+language: English
+recordingDate: 1604650004
+description: "by Xianjun Jiao\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.120/fsr_openwifi.webm\n\nAn open source \"Wi-Fi chip design\"(Will be AGPLv3) will be presented and a live demo will be shown in the room! The design is based on SDR (Software Defined Radio) and offers full-stack 802.11a/g/n capabilities on FPGA and ARM Linux (Xilinx Zynq SoC + AD9361 RF front-end).It conforms with Linux mac80211 framework and behaves just like COTS Wi-Fi chip under Linux. The main components of the design are: RF front-end control; PHY; low-MAC; interfacing (DMA, register) with ARM; mac80211 compliant Linux driver; high-MAC (mac80211 framework); Linux user space tools (ifconfig, iwconfig, dedicated tools via netlink).​ Since it is a SDR based \"white box\" design instead of commercial “black box” chip, you can do Wi-Fi research and customization without any reverse engineering efforts.\n\n\nWhy does it fit FOSDEM?\n\n\nIt will be the 1st open source project for full-stack Wi-Fi SDR implementation. Lots of people, especially wireless network/security researchers, SDR researchers and hackers, will be interested in. We are eager to show the demo in the room and hear feedback from people/community. Potential contributors are also very welcomed, and we will be glad to offer help.\nFeatures:\n\n\n❮ul❯\n❮li❯802.11a/g❮/li❯\n❮li❯802.11n MCS 0~7 (Only PHY rx for now. Full system support of 802.11n will come soon)❮/li❯\n❮li❯20MHz bandwidth; 70 MHz to 6 GHz frequency range❮/li❯\n❮li❯Mode tested: Ad-hoc; Station; AP, Monitor❮/li❯\n❮li❯DCF (CSMA/CA) low MAC layer in FPGA (10us SIFS is achieved)❮/li❯\n❮li❯Configurable channel access priority parameters:❮/li❯\n❮li❯duration of RTS/CTS, CTS-to-self\n\n❮ul❯\n❮li❯SIFS/DIFS/xIFS/slot-time/CW/etc❮/li❯\n❮li❯Time slicing based on MAC address❮/li❯\n❮/ul❯\n❮/li❯\n❮li❯Easy to change bandwidth and frequency:\n\n❮ul❯\n❮li❯2MHz for 802.11ah in sub-GHz❮/li❯\n❮li❯10MHz for 802.11p/vehicle in 5.9GHz❮/li❯\n❮/ul❯\n❮/li❯\n❮li❯On roadmap: 802.11ax❮/li❯\n❮/ul❯\n\n\nPerformance (AP: openwifi at channel 44, client: TL-WDN4200 N900 Wireless Dual Band USB Adapter. iperf test):\n\n\n❮ul❯\n❮li❯AP --❯ client: 30.6Mbps(TCP), 38.8Mbps(UDP)❮/li❯\n❮li❯client --❯ AP: 17.0Mbps(TCP), 21.5Mbps(UDP)❮/li❯\n❮/ul❯\n\n\nSupported SDR platforms:\n\n\n❮ul❯\n❮li❯zc706 (Xilinx) + fmcomms2/fmcomms4 (Analog Devices)❮/li❯\n❮li❯On roadmap: ADRV9361-Z7035/ADRV9364-Z7020 + ADRV1CRR-BOB (Analog Devices)❮/li❯\n❮li❯On roadmap: zcu102 (Xilinx) + fmcomms2/fmcomms4/ADRV9371 (Analog Devices)❮/li❯\n❮li❯Don't have any boards? Or you like JTAG boot instead of SD card? Check our ❮a href=\"https://doc.ilabt.imec.be/ilabt/wilab/tutorials/openwifi.html\"❯test bed w-iLab.t tutorial❮/a❯.❮/li❯\n❮/ul❯\n\n\nRoom: AW1.120\nScheduled start: 2020-02-02 15:00:00"

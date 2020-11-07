@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Software Defined Radio based scientific instrumentation using SDR frontends and oscilloscopes for f…'
+language: English
+recordingDate: 1604650080
+description: "Software Defined Radio based scientific instrumentation using SDR frontends and oscilloscopes for fast measurements\nby Jean-Michel Friedt\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.120/fsr_software_defined_radio_based_scientific_instrumentation.webm\n\nSoftware Defined Radio is best known for receiving and processing radiofrequency signals transmitted over the ether. However, many scientific experiments benefit from the flexibility, stability and reconfigurability of digital signal processing even when handling radiofrequency signals. In this presentation, we address two demonstrations of this concept. First, readily available SDR hardware is used to replace general purpose laboratory instruments (spectrum analyzer, lock in amplifier)\nfor characterizing radiofrequency processing acoustic transducers (filters, resonators). The benefit of SDR lies in communication bandwidth: while general purpose\ninstrument communication protocols (GPIB, VXI11 over Ethernet) require hundreds of milliseconds or seconds to transfer data, SDR platforms stream at high bandwidth I/Q coefficients collected on the fly on a ZeroMQ socket by the (GNU/Octave) processing software. We demonstrate a 10000 fold bandwidth gain when converting a general purpose instrument experiment to a SDR approach. Another approach is to address high bandwidth radiofrequency oscilloscopes as radiofrequency source for time of flight measurement. The gr-oscilloscope GNU Radio source demonstrates how to communicate between GNU Radio and laboratory grade equipment, here oscilloscopes, for processing discontinuous data streams using GNU Radio.\n\nRoom: AW1.120\nScheduled start: 2020-02-02 15:30:00"
