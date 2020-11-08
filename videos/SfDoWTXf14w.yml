@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - docker
+    - security
+    - javascript
+title: 'How Secure Is Your Build Server? A Story of Packages and Trust'
+language: English
+recordingDate: 1604786549
+description: "We have learned that we need to trust others, but as our parents used to say - don’t trust strangers. So we secure our production server more than ever.\n\nYet, there is this no-man's land: “the build server”. We think it’s time to take a closer look at some of the good practices around securing builds &amp; artifacts to improve our day to day level of trust.\n\nDevelopment has changed over the years, from doing everything yourself to a 3rd party package for every function. Operations has changed too, running your own servers is now considered an exception. To the cloud!\nWe have learned that we need to trust others, but as our parents used to say - don’t trust strangers. So we secure our production server more than ever.\n\nYet, in the middle sits this no-man's land: “the CI server”. We think it’s time to take a closer look at some of the good practices around securing builds &amp; artifacts to improve our day to day level of trust.\n\nWith Marked Sherman statement “Development is now assembly” in mind, the talk will focus more on the package/artifact/repository aspect. Less on the app security inside the code itself or at the OS/Machine level.\n\n❮ul❯\n❮li❯This talk I will go into detail on:❮/li❯\n❮li❯How to verify trust of your dependencies: from metadata, binaries, and repositories❮/li❯\n❮li❯How to provide trust to others that build upon your software❮/li❯\n❮li❯How this ties into the concept of “reproducible builds”❮/li❯\n❮li❯How a practical “Software Bill of Material” looks❮/li❯\n❮li❯How the concepts of the “The Update Framework” (TUF) relate❮/li❯\n❮li❯How you can implement secure packaging policies❮/li❯\n❮/ul❯\n\nIt will explain these topics using practical/code examples from the Node.js and Docker ecosystems.\nAll this will be presented from the different viewpoints from “dev” , “sec” and “ops”.\n\nLet’s take ownership of your trust , we are already responsible when things go wrong anyway.\n\nEVENT / SPEAKER:\nFOSDEM 2020  /  Patrick Debois\n\nPUBLICATION PERMISSIONS / ATTRIBUTION CREDITS:\nOriginal video was published with the Creative Commons Attribution license (reuse allowed). Original video source: https://www.youtube.com/watch?v=QYe94_gvMfk\n\n****\n\nInterested in the stock market? Love trading? I developed my own Market Model which provides BUY and SELL signals on S&P500. Check it out here: https://yuriymatso.com/my-market-model/"
