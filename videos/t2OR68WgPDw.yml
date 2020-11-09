@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'How to evolve the GNU Radio scheduler Embracing and breaking legacy'
+language: English
+recordingDate: 1604822733
+description: "by Marcus Müller\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.120/fsr_how_to_evolve_the_gnu_radio_scheduler.webm\n\nGNU Radio is the widest used software radio stack for research and development on PC-style hardware, having enabled hundreds of high-rate applications. I'll discuss where its limits are, where we need to stick to GNU Radio's recipe for SDR success, and where to disruptively address its architectural shortcomings\nToday's GNU Radio hits hard limits when it comes to a few things that\nare absolutely crucial for modern communication stacks: It doesn't make any\nguarantees on latency, and its architecture doesn't allow for tight integration\nwith hardware accelerators. And whilst most communications are packet-based,\npacketed data is a second-class citizen in the kingdom of sample streams that is\nGNU Radio.\n\n\nIn this talk, we'll discuss why that is the case, and what can be remedied\nwithin the current framework, and what not. We'll try to assess what usage\nparadigms are worth keeping for the future of GNU Radio, and what needs to\nchange.\n\nRoom: AW1.120\nScheduled start: 2020-02-02 09:30:00"
