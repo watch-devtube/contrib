@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - azure
+    - aws
+title: 'Getting Your Virtual Hands On RIST'
+language: English
+recordingDate: 1604909163
+description: "by Sergio Ammirata\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.147/om_rist.webm\n\nThere are a number of error correction protocols that provide backwards error correction. These are commonly used to transport media streams from remotes to the content provider, or the content provider to distribution. They allow, for example, streams from a pro basketball game to be transported over public Internet from stadium to network NOC without error; or as another example, packages of ethnic TV channels, to be moved from continent to continent. Players include DVEO, which uses the proprietary Dozer protocol for which the speaker holds the patent; WOWZA uses a customized SRT which is based on open source, and a few more. They all work on the principle of shooting off a bunch of udp packets from one IP to another, setting up a buffer, and then using an automatic re-request mechanism to request re-sends of lost or corrupted udp packets. RIST was designed with the participation of several vendors to bring some of the features normally found in proprietary error correction protocols into the free and open source world. It may even become a \"lingua franca\" between vendors. VLC, upipe and gstreamer can already reassemble and play back RIST transported streams. We will talk about a new open source project that provides an easy to use lib for rist and we'll discuss two pre-packaged images we've made available for AWS, Azure, VMWare and KVM. With these images, you can send a RIST encoded stream from cloud to end user viewer, or from cloud to cloud.\n\nRoom: UB2.147\nScheduled start: 2020-02-02 15:20:00"
