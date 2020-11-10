@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - android
+    - agile
+    - java
+    - rust
+title: 'GStreamer on the Magic Leap One'
+language: English
+recordingDate: 1604909129
+description: "by Xavier Claessens\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.147/om_gstreamer_mlo.webm\n\nMagic Leap One is an augmented reality glasses. Let's run an Open Source Browser (Mozilla Servo) using GStreamer multimedia framework on it.\nThe Magic Lean One device runs a custom OS called LuminOS, derived from Android with JAVA stripped off. Servo is Mozilla's browser written in Rust that uses GStreamer to render multimedia content.\n\n\nPresentation of the challenges and solutions found to make it happen:\n- GStreamer's Meson build system.\n- Stagefright-ish API in the SDK.\n- Completely new audio API, with 3D space localization.\n- OpenGL rendering, including stereoscopic SBS.\n- It's now all upstream!\n\nRoom: UB2.147\nScheduled start: 2020-02-02 10:00:00"
