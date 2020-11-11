@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - testing
+title: 'X11 and Wayland: A tale of two implementations Implementing the hikari window manager/compositor'
+language: English
+recordingDate: 1604995551
+description: "by raichoo\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.121/porting_wayland.webm\n\nIn this talk I will outline my journey implementing my X11 window manager\n❮code❯hikari❮/code❯ and the corresponding Wayland compositor shortly after. ❮code❯hikari❮/code❯ is a\nstacking window manager/compositor with some tiling capabilities. It is still\nmore or less work in progress and currently targets FreeBSD only but will be\nported to Linux and other operating systems supporting Wayland once it has\nreached some degree of stability and feature completeness.\nThis talk covers:\n\n\n❮ul❯\n❮li❯a brief explanation regarding differences between X and Wayland❮/li❯\n❮li❯some of ❮code❯hikari❮/code❯'s design goals and motivation❮/li❯\n❮li❯choice of programming language❮/li❯\n❮li❯an overview of libraries that were used❮/li❯\n❮li❯tools for ensuring code quality and robustness❮/li❯\n❮li❯obstacles❮/li❯\n❮li❯resources that helped me to implement the whole thing❮/li❯\n❮/ul❯\n\n\nRoom: AW1.121\nScheduled start: 2020-02-02 14:25:00"
