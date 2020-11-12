@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - java
+title: 'GOTO 2020 • Secrets of the Shenandoah Garbage Collector • Stephanie Crater'
+language: English
+recordingDate: 1605099618
+description: "This presentation was recorded at GOTOpia Europe 2020. #GOTOcon #GOTOpia\nhttp://gotopia.eu\n\nStephanie Crater - Java performance expert revolutionizing the garbage collector with Shenandoah\n\nABSTRACT\nThe Shenandoah garbage collector (GC) comes with the promise of pause times of less than 10ms. To achieve this, the collector performs the majority of its work concurrently, consequently impacting the throughput of the application.\nWork-stealing allows us to reduce the amount of time and resources spent on garbage collection by redistributing tasks among GC threads, reducing overall runtime.\nStephanie's work with Shenandoah led her to re-examine the assumptions that inform current work-stealing algorithms [...]\n\nTIMECODES\n00:00 Intro\n00:49 Shenandoah GC overview\n05:31 Goal\n05:43 How does work-stealing work?\n09:03 What else do we need?\n10:14 What we might expect...\n12:33 ...and what we got\n13:18 What's going wrong/on in a GC?\n15:35 How many workers should we use?\n17:35 Work-stealing in JDK 11\n21:01 Biases...not always bad?\n23:39 Can we do even better?\n\nRead the full abstract here:\nhttps://gotopia.eu/2020/sessions/1482/secrets-of-the-shenandoah-garbage-collector\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#Shenandoah #GarbageCollector #Java #JDK #ShenandoahGC #Programming #ShenandoahGarbageCollector\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at http://gotocon.com\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1"
