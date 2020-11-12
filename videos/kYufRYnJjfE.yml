@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - web
+    - react
+    - javascript
+title: 'Tesselle image viewer Ease viewing and sharing High Resolution images on the web'
+language: English
+recordingDate: 1605081890
+description: "by Arnaud Pichon\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.147/om_tesselle.webm\n\nTesselle is an open source image viewer allowing anyone to open, annotate and share big images on the web. It is part of the \"Quinoa\" project family, a suite of digital storytelling tools tailored for the FORCCAST teaching program and the scientific activities of Sciences Po's médialab. (list tools with links ?)\nTesselle is a tool for annotating and publishing large, very large, huge images!\nTo scale with High Res image, it embeds a tiling feature to seamlessly display and navigate them on the web.\nIt allows to comment on specific portions of photographs, maps or visualizations. It gives you the possibility to explore and analyse visual items in detail and precisely.\nFurthermore, Tesselle allows to export your work as a simple folder to publish anywhere on the web.\nThose features have been built to allow scholars to create stories be crafting annotations on cartographic map, artwork analysis, network vizualisations... Using image opens many usecases.\n\n\nIt is built using Typescript, React and Leaflet.\nAs a standalone serverless webapp, Tesselle has met some pitfalls:\n - What is the fastest way to tile an image on the front-end?\n - Are there enough tools in a browser or shall we bring WebAssembly in?\n - How to handle memory management when dealing with hundreds of tiles?\n - Can we beat a \"native\" image viewer?\n - How should we handle sharing and embedding?\n - Is IIIF an appropriate standard?\n - What are our limitations?\nThose are some of the questions we had / have to answer while building Tesselle.\n\n\nhttps://github.com/medialab/tesselle/\n\nRoom: UB2.147\nScheduled start: 2020-02-02 08:30:00"

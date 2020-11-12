@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - unix
+    - storage
+    - embedded
+title: 'Librecast: Privacy and Decentralization with Multicast IPv6 Multicast and the Next Generation Inter…'
+language: English
+recordingDate: 1605081849
+description: "Librecast: Privacy and Decentralization with Multicast IPv6 Multicast and the Next Generation Internet\nby Brett Sheffield\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.220/dip_librecast.webm\n\nWritten in 2001, RFC 3170 states: \"IP Multicast will play a prominent role on the Internet in the coming years.  It is a requirement, not an option, if the Internet is going to scale.  Multicast allows application developers to add more functionality without significantly impacting the network.\"\n\n\nNearly two decades later, multicast is still largely ignored and misunderstood.\n\n\nThis talk explains why multicast is the missing piece in the decentralization puzzle, how multicast can help the Internet continue to scale, better protect our privacy, solve IOT problems and make polar bears happier at the same time.\nNB: This is a shortened lightning-talk version of the ❮a href=\"https://www.youtube.com/watch?v=IO2_b8EeJws\"❯full talk❮/a❯ given at Linux.conf.au in January.\n\n\nThere are many common misconceptions about multicast, including that it is only useful for streaming video and audio.  It does so much more than that.\n\n\nMulticast is really about group communication.  It is, by definition, the most efficient way to distribute data to groups of nodes.\n\n\nMulticast brings with it a very different way of thinking about distributed systems, and what is possible on the Internet.  From database replication to chatops, server federation, configuration management and monitoring.\n\n\nEven applications, such as chat, which are fundamentally multicast in nature are being built on top of unicast protocols.  There is a Better Way.\n\n\nUnicast networking leads to centralised and inefficient systems that are more open to attack and censorship.  This talk will show how multicast allows for more efficient, decentralized designs, leading to increased efficiency and much-reduced energy consumption.  This is better for our democracy, human rights and our planet.\n\n\nMulticast lets us do things that would be impossible with unicast.  Imagine sending software updates to a billion IoT nodes simultaeneously, using just one tiny virtual server.\n\n\nAt a time when even the web is moving to UDP with HTTP/3 and WebRTC, it is time we took a serious look at what we're missing by not using multicast at the network layer to underpin our Internet protocols.\n\n\nWe'll discuss how you can start using multicast in your project today, and how multicast design and thinking differs from unicast.  We'll cover some of the different types of IP multicast, the basics of multicast routing, how to build in TCP-like reliability and take a look forward to how improvements in multicast can make a better Internet for the future.\n\nRoom: UA2.220 (Guillissen)\nScheduled start: 2020-02-02 08:40:00"
