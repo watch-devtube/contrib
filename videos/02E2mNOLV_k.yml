@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+title: 'Community & Extensibility: Building Envoy''s Flexible Compression Subsystem - Mikko Ylinen, Jose Nino'
+language: English
+recordingDate: 1605206176
+description: "Community and Extensibility: Building Envoy's Flexible Compression Subsystem - Mikko Ylinen, Jose Nino\n\nHTTP compression is used by web proxies to compress data before sending it out over the wire. This saves network bandwidth and speeds up transfers. Until its v1.15 release, Envoy implemented limited unidirectional Gzip compression. Through a cross-company (also cross-continent!) collaboration, compression was generalized to its own extension subsystem to make it possible to add new compression schemes, custom implementations of existing formats, and have fully bidirectional (de)decompression. This talk will walk the audience through the evolution of compression in Envoy, highlighting the flexibility of the extension system, and dive into two use cases now possible with compression subsystem: 0-touch bidirectional (de)compression between mobile clients and edge; and new compression implementations now possible, e.g., a compressor utilizing HW accelerators to optimize server compute."

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+title: 'The Quest for the Fastest Deployment Time, Ellen Körbes'
+language: English
+recordingDate: 1605180094
+description: "GoWayFest 4.0, Online – July 11-12, 2020\n\nThe Quest for the Fastest Deployment Time, Ellen Körbes\n\nWhen a developer changes a line of code, how long does it take for that code to run in their development cluster? I have seen the answers to that question vary between 1 second and… infinity. So how do you get your team’s code to stay on the 1 second side? In this talk, I will explore every avenue to make our “from code change to process running” benchmark faster for Go applications, and show you whether to:\n• …cache your deps with Docker layers or go mod\n• remove debugging data to make Go binaries smaller\n• pre-populate your container with the compiler cache\n• keep a container running, sync code diffs to it, and recompile in place\n• re-compile in place when you have a lot of memory and CPU\n• re-compile when a lack of memory and CPU make the Go compiler sad\n• use trickery to make binaries even smaller,\n• and one last trick!\nYou’ll also see how each item differs when using a local cluster versus a remote one.\nExpect an in-depth exploration with strategies and techniques you can put in practice to speed up your workflow for good!\n\nSlides – https://drive.google.com/file/d/1w0AsHwjIFBq21kGhqRCayPbZM87B-Cf4/view?usp=sharing"

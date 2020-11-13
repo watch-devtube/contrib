@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Tales of Go Runtime Scheduler, Ankur Anand'
+language: English
+recordingDate: 1605180120
+description: "GoWayFest 4.0, Online – July 11-12, 2020\n\nTales of Go Runtime Scheduler, Ankur Anand\n\nConcurrency in Go is technical wizardry hidden beneath abstractions & seems like magic. In this talk, I will dive inside those abstraction layers through visual diagrams to help the audience, understand how Go concurrency magic is implemented, which helps to interpret the scheduler trace information.\n\nGo gives users a very convenient means for writing modern concurrent software in forms of Goroutines and channels and often looks like the solution to improve our application as we do more concurrency. But how do our Go programs run these goroutines efficiently? that almost looks like magic because a bad usage of the goroutines could decrease the performance as we do more concurrency, which means more concurrency problems.\n\nIn this talk, I will take a look inside of the Go scheduler to uncover those magic pieces one by one incrementally. I will look into what goroutine aka user-level thread is, and what is the possible ways of multiplexing N goroutines on M system threads, How it affects the Go runtime scheduler and how does Go runtime scheduler solves those problems efficiently. I will also take a closer look at some specific aspects like blocking channels and blocking system call handling. By the end of this, everyone will have an overview of the main components of the Go runtime scheduler and its overall operation. which lay’s the foundation that can help to interpret the scheduler trace information from a Go program.\n\nSlides - https://drive.google.com/file/d/1xca4yYjpyZaIBKUFFNj6N8YSI8r66e3j/view?usp=sharing"
