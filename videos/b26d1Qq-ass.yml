@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Designing an ultra low-overhead multithreading runtime for Nim Exposing fine-grained parallelism fo…'
+language: English
+recordingDate: 1605168261
+description: "Designing an ultra low-overhead multithreading runtime for Nim Exposing fine-grained parallelism for 32+ cores hardware via message passing\nby Mamy Ratsimbazafy \n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/AW1.125/nimultralowoverheadruntime.webm\n\nWhile multithreading abstractions are consolidating over a couple of basic primitives around the notion of tasks and futures, under the hood implementations are vastly differing.\nThe abstraction \"details\" are significant in the current era as developers now have to find parallelism opportunities for 16+ cores on consumer CPUs.\n\n\nWe go over the design space of task-parallel and data-parallel multithreading runtime library and present an unique, scalable approach\nbased on message passing.\n\nRoom: AW1.125\nScheduled start: 2020-02-02 15:20:00"
