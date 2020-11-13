@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - php
+    - performance
+    - containers
+    - kubernetes
+title: 'Improving performance of RPCs with envoy at Wikimedia - Giuseppe Lavagetto'
+language: English
+recordingDate: 1605206178
+description: "Improving performance of RPCs with envoy at Wikimedia - Giuseppe Lavagetto\n\nPerformance of remote procedure calls between services depend on a lot of factors, but when you start doing RPCs over a high latency network and/or using TLS (so when you have to perform RPCs across different datacenters, for example), the cost of establishing a connection is very steep. This is particularly problematic for environment which don't support persistent connection pools - one notable example being the PHP language, that we use to run MediaWiki. This talk will go through how Wikimedia introduced envoy in its mixed on-prem/kubernetes environment, and how that allowed to improve the performance, reliability and observability of its stack. Particular focus will be put on: the performance effects for our PHP applications running at scale, the operational problems adopting envoy allowed solving, and the challenges introduced by moving to use it."

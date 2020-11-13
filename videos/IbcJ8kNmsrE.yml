@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'xDS Support in gRPC - Mark D. Roth'
+language: English
+recordingDate: 1605206176
+description: "xDS Support in gRPC - Mark D. Roth\n\nThe xDS APIs originated as Envoy’s control plane APIs, but they are evolving toward a Universal Data Plane API (UDPA) that can be used to configure any data plane client. gRPC is the first non-Envoy client to support obtaining its configuration via xDS. This talk will cover how gRPC fits into the xDS ecosystem. It will explain the advantages of supporting xDS in gRPC, particularly for service mesh deployments, and identify the set of xDS features that gRPC currently supports and the additional features that are on the roadmap. It will also discuss changes that were made to the xDS data model to support non-proxy clients like gRPC and various edge cases in the xDS transport protocol that were addressed along the way. The talk will also discuss how control plane operators and vendors can support gRPC xDS clients alongside Envoy."

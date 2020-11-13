@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'How Tinder implemented Envoy global rate limiting at scaleVirtual - Yuki Sawa'
+language: English
+recordingDate: 1605206178
+description: "How Tinder implemented Envoy global rate limiting at scale\nVirtual - Yuki Sawa\n\nTinder recently completed a migration to Envoy based service mesh in their Kubernetes based infrastructure. A big win was moving rate limiting logic out of the application and into the network layer by leveraging Envoy's powerful global rate limiting capabilities. Previously implementations relied on home-grown code inside the application or features built into proxies like Nginx — which were difficult to maintain and did not offer the configurability and observability of Envoy. This talk covers how Envoy global rate limiting works at Tinder, how we migrated to it, and what steps were taken to ensure it performs at scale. We'll also discuss the unique rate limiting features available in Envoy, how to configure it and how we extended upon it."

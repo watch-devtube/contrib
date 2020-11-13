@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'PostgreSQL Network Filter for EnvoyProxy - Fabrízio de Royes Mello, Christoph Pakulski'
+language: English
+recordingDate: 1605206078
+description: "PostgreSQL Network Filter for EnvoyProxy - Fabrízio de Royes Mello, Christoph Pakulski\n\nHow do you monitor Postgres? What information can you get out of it, and to what degree does this information help to troubleshoot operational issues? What if you want/need to log all the queries? That may bring heavy trafficked databases down. At OnGres we’re obsessed with improving PostgreSQL’s observability. So we worked together with Tetrate folks on an Envoy’s Network Filter extension for PostgreSQL, to provide and extend observability of the traffic inout a cluster infrastructure. This extension is public and open source. You can use it anywhere you use Envoy. It allows you to capture automated metrics and to debug network traffic. This talk will be a technical deep-dive into PostgreSQL’s protocol decoding, Envoy proxy filters and will cover all the capabilities of the tool and its usage and deployment in any environment."

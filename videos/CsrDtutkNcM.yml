@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - wasm
+title: 'Using Wasm to develop Envoy Filters for supporting Yahoo Headers - Mrunmayi Dhume, Michael Cieplak'
+language: English
+recordingDate: 1605206176
+description: "Using Web Assembly to develop Envoy Filters for supporting Yahoo Headers - Mrunmayi Dhume, Michael Cieplak\n\nToday at Verizon Media (formerly Yahoo), the on-prem Kubernetes platform spans 35 clusters across multiple data centers serving ~2500 apps. There are 2 ingress layers - Apache Traffic Server (ATS) serving 2M peak RPS and Istio Ingress based Envoy Proxy with a peak of 220K RPS. One of the key plugins of ATS is the verification/generation of Yahoo Headers, used by apps to obtain downstream client information such as the remote address/port, and a signature generated using a combination of base64, MD5, and a private key to ensure header integrity. To migrate all ATS traffic to Envoy, it is necessary to port all plugins from ATS with minimal changes. To achieve this, an Envoy Web Assembly (Wasm) filter was implemented using the Proxy Wasm standard, which is able to process these headers. This talk will provide an overview of the filter implementation and the learnings achieved along the way."

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'Safely deploying a 100K line Envoy YAML configuration to production - Jyoti Mahapatra, Lisa Lu'
+language: English
+recordingDate: 1605206176
+description: "Safely deploying a 100K line Envoy YAML configuration to production - Jyoti Mahapatra, Lisa Lu\n\nHave you ever caused a production incident due to an Envoy misconfiguration? You’re not alone! This talk is about how Lyft has built guardrails to prevent such failures. The presenters will share their experience operating Envoy configurations at scale. They will explore the challenges around handling constantly changing cluster and routing configurations and the tools used to guarantee accuracy and consistency in those changes. These tools empower service owners less familiar with Envoy to make configuration changes independently and quickly without approval barriers. This talk will introduce the audience to various Envoy configuration testing strategies:\n\n    Validating behavior for thousands of routes to avoid blackholing traffic \n    Auditing and safely removing unused routes and clusters \n    Safely deprecating fields between Envoy versions \n    Validating Envoy’s static and realtime configurations"

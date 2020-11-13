@@ -1,0 +1,21 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - performance
+    - containers
+    - docker
+    - testing
+    - architecture
+    - rust
+    - wasm
+title: 'Hands-on WASM filters and singletons - Emmanuel Mayssat'
+language: English
+recordingDate: 1605206079
+description: "Hands-on WASM filters and singletons - Emmanuel Mayssat\n\nIn this presentation, Emmanuel will start by introducing the basics of WASM extensions, but will quickly move on to his project of developing a custom authz/authn with WASM. He will talk about his decision making process and introduce his development environments on k8s and docker-compose. He will be covering his software architecture, such as the use of a singleton stack and chained WASM filters. Covered topics also includes WASM bytecode download (LDS), policy download, prometheus metrics, library integration, data sharing, hidden headers, code testing, debugging technics, performance measurements for a real project! This presentation will also touch on practical issues such as programming languages choice (C++, rust, assembly script, tinyGo), learning curves, build pipelines, and development velocity (carvel/ytt)"

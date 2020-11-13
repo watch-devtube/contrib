@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - testing
+title: 'How Niantic switched Pokémon GO to use Envoy - Renana Yacobi'
+language: English
+recordingDate: 1605206176
+description: "How Niantic switched Pokémon GO to use Envoy - Renana Yacobi\n\nNiantic are the creators of Pokemon GO. As one of the world's most popular mobile games, Niantic needs to serve ##'s of players all across the world, concurrently, necessitating the need of a truly planet-scale solution. In this presentation, Rennana Yacobi, Server Core Infrastructure Lead, explains why Niantic made the transition from NGINX to Envoy, starting with the most important question of ‘Why Envoy?’, then reviewing Niantic’s journey with extending Envoy to support our proprietary protocol which includes websockets and player leasing, using xDS to minimize disruptions when scaling, load testing to ensure Envoy can handle millions of QPS at Pokemon GO's scale, where things fall apart, all the way until consolidating everything to the final launch."

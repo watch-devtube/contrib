@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+title: 'xds-relay: Performance initiatives for control plane management - Jessica Yuen, Jyoti Mahapatra'
+language: English
+recordingDate: 1605206176
+description: "xds-relay: Performance initiatives for control plane management - Jessica Yuen, Jyoti Mahapatra\n\nIn this talk, presenters will share their experience running Envoy and Lyft’s control plane at scale. They will explore the challenges of operating Lyft’s service mesh to be reactive to Kubernetes’ dynamic infrastructure and evolving xDS versions. This talk is a deep dive into a new open source project, xds-relay, that the Lyft team has developed to bring their solutions to the greater community. xds-relay is a lightweight caching, aggregation, and low latency distribution layer for xDS compliant clients and servers. At scale, xds-relay reliably distributes xDS protos to thousands of xDS clients over gRPC. Join Lyft’s journey as the presenters share how Lyft envisions the future of control planes. The presenters will cover a range of topics including pluggable xDS transformations, automatic endpoint subsetting, API driven configurations, and State-of-the-world to Delta xDS conversion."
