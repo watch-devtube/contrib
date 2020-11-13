@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Creating request buffering filters for edge devices - Seiichi Koizumi, Tomoya Amachi'
+language: English
+recordingDate: 1605206176
+description: "Creating request buffering filters for edge devices - Seiichi Koizumi, Tomoya Amachi\n\nWe are developing a proxy for edge devices that work on an unstable network. Using custom envoy-filters.This session will speak how to manage request data when changed network interfaces and network statuses.\n\nOur proxy use cases on the following lines:\n\n1: Run applications that do not suppose in an unstable network onto vehicles. Even if the network is unstable, misaki-proxy buffers the request in a queue. So that the application does not need to add retransmission processing.\n\n2: Upload large files only when vehicles are connected to a WiFi network. 3G/4G network is more expensive than WiFi. Therefore, only with WiFi can you be able to request large amounts of data. You can set the type of network you want to use for each destination domain."
