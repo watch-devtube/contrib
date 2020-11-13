@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - 'data structures'
+title: 'It''s all about reconciliation - anatomy of a kubernetes controller, Federico Paolinelli'
+language: English
+recordingDate: 1605180073
+description: "GoWayFest 4.0, Online – July 11-12, 2020\nIt's all about reconciliation - anatomy of a kubernetes controller, Federico Paolinelli\n\nIn this talk I’ll demystify the concepts behind writing a Kubernetes controller, explaining what the key components are and how to leverage them to write a Kubernetes native application.\n\nDeveloping a native kubernetes app goes around two simple concepts: defining new data structures (custom resources) and delivering a kubernetes component that handles those structures.\nDespite that, doing the first steps can be intimidating: how do we define (and consume) new resources? How about interacting with existing resources defined by somebody else? How do I even find their Go definition?\n\nIn this talk, I’ll introduce:\nhow to interact with kubernetes custom resource using non type safe clients\nhow to leverage the code generation to avoid casting errors and reduce the proliferation of boilerplate code\nhow informers, workqueues and other powerful tools make it possible to implement a bullet proof event loop\n\nFinally, I’ll describe the operator-sdk, a framework that makes the implementation of a controller even simpler and more automated.\nThe audience will walk away with a solid understanding on how the codebase of a kubernetes controller looks like, how to read it and how to leverage the tools required to be able to write a kubernetes controller.\n\nSlides – https://drive.google.com/file/d/1F-311RzYD4caW-_3sOxrNzcgF8XBB5sq/view?usp=sharing"
