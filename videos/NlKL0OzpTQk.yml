@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'Close lid to encrypt Hard disk encryption in Linux suspend mode'
+language: English
+recordingDate: 1605254675
+description: "by Tim Dittler\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UA2.220/dip_close_lid_encrypt.webm\n\nToday, hard disk encryption only protects user's data when their machine is shut down.\n\"Close lid to encrypt\" aims to enhance this protection also to suspend mode.\nHard disk encryption is a necessity for everyone, who fears the physical theft or seizure of their device. However, your data is still only protected while the machine is shut down. But most people rarely shutdown their devices anymore. Usually, you just close the lid of your notebook and you're on your way.\n\n\n\"Close lid to encrypt\" aims to improve the privacy of your data. When you close the lid of your notebook, it goes into sleep/suspend mode. All  processes are frozen and don't need to access your hard disk anymore. We use this opportunity to clean the keys of your encrypted devices and suspend them as well. Therefore, the data on your hard drive is protected.\nWhen resuming your computer, you must re-enter the password of your encrypted volumes. But then you're just where you've been working before.\n\n\nTo make all this work, we rely on a small kernel patch, the cryptsetup project, initramfs and cgroups2. \"Close lid to encrypt\" right now focuses on Debian and it derivatives and we plan to bring all code upstream. This effort is funded by the German Prototypefund.\n\nRoom: UA2.220 (Guillissen)\nScheduled start: 2020-02-02 08:00:00"
