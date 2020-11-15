@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - bigdata
+    - cloud
+    - aws
+    - containers
+    - docker
+    - kubernetes
+title: 'Building an open source data lake at scale in the cloud'
+language: English
+recordingDate: 1605341201
+description: "by Adrian Woodhead\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB5.132/data_lake_cloud.webm\n\nThis presentation will give an overview of the various tools, software, patterns and approaches that Expedia Group uses to operate a number of large scale data lakes in the cloud and on premise. The data journey undertaken by the\nExpedia Group is probably similar to many others who have been operating in this space over the past two decades - scaling out from relational databases to on premise Hadoop clusters to a much wider ecosystem in the cloud. This talk\nwill give an overview of that journey and then describe the various open source components that Expedia Group have used and built to create multi-petabyte data lakes. These include existing open source projects like Hive, Hadoop, Terraform,\nDocker, Kubernetes as well as open source tools that we built to overcome some of the unexpected challenges we faced. The first of these is Circus Train — a dataset replication tool that copies Hive tables between clusters and clouds. We will also discuss various other options for dataset replication and what unique features Circus Train has. The second tool is Waggle Dance — a federated Hive metadata service that enables querying of data stored across multiple Hive metastores. We will then look at Apiary - a means to simplify the deployment of the various components of an open source data lake at scale including the Hive metastore, Waggle Dance, S3 bucket access, metadata change notifications and much more. We focus on actual problems and solutions that have arisen in a huge, organically grown corporation, rather than idealised architectures.\n\nRoom: UB5.132\nScheduled start: 2020-02-02 08:30:00"
