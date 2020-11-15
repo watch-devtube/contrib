@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - containers
+    - kubernetes
+    - security
+title: 'CNCF Webinar: What''s New in Linkerd 2.9: mTLS for all TCP connections, ARM support, and more'
+language: English
+recordingDate: 1605208347
+description: "The Linkerd 2.9 release is a huge milestone for fans of zero-trust security: it extends Linkerd's zero-config mutual TLS (mTLS) support to all TCP connections. This means Linkerd can encrypt and authenticate all TCP connections in the cluster the moment it's installed, including automatic certification rotation and strong guarantees of pod identity. The 2.9 release also adds ARM support, introduces a new multi-core proxy runtime for higher throughput, adds support for Kubernetes service topologies, and lots, lots more.\n\n\nJoin this webinar to hear from Linkerd creator Oliver Gould directly about what this means for the CNCF's most popular service mesh project. You'll learn how:\n\n\n- Linkerd performs encryption and authentication to the pod boundary, providing \"encryption in transit\" in a modern, zero-trust form.\n- The new multi-core proxy runtime further improves performance over Linkerd's already lightning-fast latency profile \n- Linkerd's new service topology support can provide significant performance improvements and cost savings for Kubernetes applications\n- What the future of Linkerd holds!"
