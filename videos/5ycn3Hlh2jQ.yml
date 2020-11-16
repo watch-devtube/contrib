@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - containers
+    - kubernetes
+    - testing
+    - architecture
+title: 'Choosing The Right Deployment Strategy'
+language: English
+recordingDate: 1605427580
+description: "by Viktor Farcic\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB4.136/choosing_the_right_deployment_strategy.webm\n\nDeployment strategies affect everyone, no matter whether we are focused only on a single aspect of the application lifecycle or we are in full control. The way we deploy affects the architecture, testing, monitoring, and many other aspects. And not only that, but we can say that architecture, testing, and monitoring affect the way we deploy. All those things are closely related and affect each other.\n\n\nWe'll discuss different deployment strategies and answer a couple of questions. Is your application stateful or stateless? Does its architecture permit scaling? How do you roll back? How do you scale up and down? Do you need your application to run always? Should you use Kubernetes Deployments instead of, let's say, StatefulSets? Answers to those questions will not serve much unless we are familiar with some of the most commonly used deployment strategies. Not only that knowledge will help us choose which one to pick, but they might even influence the architecture of our applications.\nFor many people, deploying applications is transparent or even irrelevant. If you are a developer, you might be focused on writing code and allowing magic to happen. By magic, I mean letting other people and departments figure out how to deploy your code. Similarly, you might be oblivious to deployments. You might be a tester, or you might have some other role not directly related to system administration, operations, or infrastructure. Now, I doubt that you are one of the oblivious. The chances are that you would not be even reading this if that's the case. If, against all bets, you do belong to the deployment-is-not-my-thing group, the only thing I can say is that you are wrong.\n\n\nDeployment strategies affect everyone, no matter whether we are focused only on a single aspect of the application lifecycle or we are in full control. The way we deploy affects the architecture, testing, monitoring, and many other aspects. And not only that, but we can say that architecture, testing, and monitoring affect the way we deploy. All those things are closely related and affect each other in ways that might not be obvious on the first look.\n\n\nWe'll discuss different deployment strategies and answer a couple of questions. Is your application stateful or stateless? Does its architecture permit scaling? How do you roll back? How do you scale up and down? Do you need your application to run always? Should you use Kubernetes Deployments instead of, let's say, StatefulSets? Those are only a few of the questions you need to answer to choose the right deployment mechanism. But, answers to those questions will not serve much unless we are familiar with some of the most commonly used deployment strategies. Not only that knowledge will help us choose which one to pick, but they might even influence the architecture of our applications.\n\n\nWe'll explore ❮strong❯serverless, recreate, rolling update, and canary deployment strategies❮/strong❯ and we'll automate them all using ❮strong❯Jenkins X❮/strong❯.\n\nRoom: UB4.136\nScheduled start: 2020-02-02 11:20:00"

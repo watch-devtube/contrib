@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - azure
+    - containers
+    - kubernetes
+    - ruby
+title: 'Speed up the monolith building a smart reverse proxy in Go'
+language: English
+recordingDate: 1605427572
+description: "by Alessio Caiazza\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.252A/speedupmonolith.webm\n\nGitLab is a ruby on rails application, but this didn’t prevent us from having fun with Go.\nLearn how we decomposed our monolith by writing a smart reverse proxy in Go that handles I/O intensive operations.\nA technique that every web app can use, regardless of the company stack.\nWe set a deadline for releasing a cloud-native version of GitLab and put a team of engineers to work planning the helm charts, splitting several components into independently scalable PODs. The team faced a few challenges.\n\n\nGitLab’s main codebase is written in Ruby, which has a global interpreter lock. We relied on NFS to asynchronously upload files from our workers fleet. Removing shared file system by uploading directly from the controller was not an option. We wanted to move to an object storage based solution, but that was a paid feature and we had to port it to the open-source codebase. Oh, we also needed to make sure the rest of our engineers could keep shipping new features at our regular monthly cadence.\n\n\nAt the same time, we were planning our infrastructure migration from Azure to Google Cloud. Removing this intermediate state, where a file is on GitLab server NFS but not yet uploaded to the object storage, would have made the migration a lot easier.\n\n\nWe had to remove the NFS dependency to make GitLab easily deployable on Kubernetes and we needed a performant multi-cloud object storage uploader viable also for on-prem installations, a solution that would work for a single server setup up to Ggitlab.com scale.\n\n\nLuckily we already had written workhorse, a smart reverse proxy written in Go for handling git operations. It was time to extend workhorse capabilities leveraging the full power of goroutines.\n\n\nWe had a plan, but the devil is in the detail. Allow me to guide you through this journey. During the talk I’ll tell you how a ruby-on-rails company began to write Go code, how we implemented an object storage uploader inside our proxy, the problems we faced, and tradeoffs we took to deliver this in time.\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2020-02-02 14:30:00"
