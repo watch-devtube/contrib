@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - devops
+    - containers
+    - docker
+    - testing
+    - architecture
+    - embedded
+title: 'Monitoring strawberries Building observability for indoor farming'
+language: English
+recordingDate: 1605513888
+description: "by Jean-Marc Davril\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UD2.120/strawberries.webm\n\nAccording to the United Nations, 2.5 billion more people will be living in cities by 2050. This trend has caused indoor farming to draw a lot of attention and effort in recent years, in an attempt to scale the production of highly nutritious, healthy food inside cities.\n\n\nOver the past 3 years, Agricool has recycled 20 industrial containers into farms that grow strawberries, herbs and salads, in the very heart of cities, and without any pesticide. These urban farms are currently operated in Paris and Dubaï.\n\n\nOperating a fleet of indoor farms presents a diverse set of observability challenges. At the most traditional end of the observability spectrum, engineers rely on devops tools to operate computers, microservices, and an IoT infrastructure embedded inside the farms. On the other hand, living organisms like strawberry plants draw their own observability requirements, such as disease detection, physiological measurements, nutrient absorption, water analysis, or exposition rate to pollinating bumblebees.\n\n\nThe purpose of this talk is to highlight observability challenges and best practices that are specific to indoor farming, and to illustrate them through the learnings that were made at Agricool when building observability pipelines.\n❮ul❯\n❮li❯Deployment of microservices to automate indoor farming environments.\n❮/li❯\n❮li❯How to build an operational model for indoor farming based on telemetry, alerting and event stores, by using widely adopted devops/observability tools like Docker, Prometheus, InfluxDB, Grafana and Redash.\n❮/li❯\n❮li❯Discover agronomic SLAs to drive design decisions for observability. eg. outages in irrigation systems that last too long can cause irreparable damage to strawberry plants, or a too great exposure to pollinating bumblebees can damage flowers and reduce yield.\n❮/li❯\n❮li❯Understand that indoor farming requires to apply observability to a wide-ranging set of technical aspects such as microservices, hardware, sensors, actuators, hydraulic circuits, lighting systems, electrical cabinets, climate regulations, plant health or water quality.\n❮/li❯\n❮li❯Build observability within an R&amp;D context in which scientists are continuously figuring out how to use time series to make breakthroughs about plant physiology.\n❮/li❯\n❮li❯Align employees with different technical backgrounds (agronomists, engineers, technical operators) around a shared set of observability best practices.\n❮/li❯\n❮li❯Enable domain experts to craft their own visualizations and alert rules.\n❮/li❯\n❮/ul❯\n\n\nRoom: UD2.120 (Chavanne)\nScheduled start: 2020-02-02 10:50:00"
