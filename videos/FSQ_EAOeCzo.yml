@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - ml
+    - tensorflow
+    - architecture
+title: 'Efficient Model Selection for Deep Neural Networks on Massively Parallel Processing Databases'
+language: English
+recordingDate: 1605600332
+description: "by Frank McQuillan\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB5.132/mppdb.webm\n\nIn this session we will present an efficient way to train many deep learning model configurations at the same time with Greenplum, a free and open source massively parallel database based on PostgreSQL.  The implementation involves distributing data to the workers that have GPUs available and hopping model state between those workers, without sacrificing reproducibility or accuracy.   Then we apply optimization algorithms to generate and prune the set of model configurations to try.\nDeep neural networks are revolutionizing many machine learning applications, but hundreds of trials may be needed to generate a good model architecture and associated hyperparameters.  This is the challenge of model selection.  It is time consuming and expensive, especially if you are only training one model at a time.\n\n\nMassively parallel processing databases can have hundreds of workers, so can you use this parallel compute architecture to address the challenge of model selection for deep nets, in order to make it faster and cheaper?\n\n\nIt’s possible!\n\n\nWe will demonstrate results from this project using a version of Hyperband, which is a well known hyperparameter optimization algorithm, and the deep learning frameworks Keras and TensorFlow, all running on Greenplum database using Apache MADlib.  Other topics will include architecture, scalability results and bright opportunities for the future.\n\n\nWe look forward to presenting this topic at FOSDEM’20!\n\nRoom: UB5.132\nScheduled start: 2020-02-02 10:30:00"
