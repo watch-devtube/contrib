@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - swift
+    - cloud
+    - ios
+title: 'OSDI ''20 - Sundial: Fault-tolerant Clock-synchronization for Datacenters'
+language: English
+recordingDate: 1605711810
+description: "Sundial: Fault-tolerant Clock-synchronization for Datacenters\n\nYuliang Li, Google Inc. and Harvard University; Gautam Kumar, Hema Hariharan, Hassan Wassel, Peter Hochschild, and Dave Platt, Google Inc.; Simon Sabato, Lilac Cloud; Minlan Yu, Harvard University; Nandita Dukkipati, Prashant Chandra, and Amin Vahdat, Google Inc.\n\nClock synchronization is critical for many datacenter applications such as distributed transactional databases, consistent snapshots, and network telemetry. As applications have increasing performance requirements and datacenter networks get into ultra-low latency, we need submicrosecond-level bound on time-uncertainty to reduce transaction delay and enable new network management applications (e.g., measuring one-way delay for congestion control). The state-of-the-art clock synchronization solutions focus on improving clock precision but may incur significant time-uncertainty bound due to the presence of failures. This significantly affects applications because in large-scale datacenters, temperature-related, link, device, and domain failures are common. We present Sundial, a fault-tolerant clock-synchronization system for datacenters that achieves ~100ns time-uncertainty bound under various types of failures. Sundial provides fast failure detection based on frequent synchronization messages in hardware. Sundial enables fast failure recovery using a novel graph-based algorithm to precompute a backup plan that is generic to failures. Through experiments in a 500-machine testbed and large-scale simulations, we show that Sundial can achieve ~100ns time-uncertainty bound under different types of failures, which is more than two orders of magnitude lower than the state-of-the-art solutions. We also demonstrate the benefit of Sundial on applications such as Spanner and Swift congestion control.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

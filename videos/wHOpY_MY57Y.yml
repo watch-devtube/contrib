@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+title: 'OSDI ''20 - Serving DNNs like Clockwork: Performance Predictability from the Bottom Up'
+language: English
+recordingDate: 1605711908
+description: "Serving DNNs like Clockwork: Performance Predictability from the Bottom Up\n\nArpan Gujarati, Max Planck Institute for Software Systems; Reza Karimi, Emory University; Safya Alzayat, Wei Hao, and Antoine Kaufmann, Max Planck Institute for Software Systems; Ymir Vigfusson, Emory University; Jonathan Mace, Max Planck Institute for Software Systems\n\nMachine learning inference is becoming a core building block for interactive web applications. As a result, the underlying model serving systems on which these applications depend must consistently meet low latency targets. Existing model serving architectures use well-known reactive techniques to alleviate common-case sources of latency, but cannot effectively curtail tail latency caused by unpredictable execution times. Yet the underlying execution times are not fundamentally unpredictable—on the contrary we observe that inference using Deep Neural Network (DNN) models has deterministic performance. Here, starting with the predictable execution times of individual DNN inferences, we adopt a principled design methodology to successively build a fully distributed model serving system that achieves predictable end-to-end performance. We evaluate our implementation, Clockwork, using production trace workloads, and show that Clockwork can support thousands of models while simultaneously meeting 100 ms latency targets for 99.997% of requests. We further demonstrate that Clockwork exploits predictable execution times to achieve tight request-level service-level objectives (SLOs) as well as a high degree of request-level performance isolation.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

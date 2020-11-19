@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - testing
+    - javascript
+title: 'OSDI ''20 - From Global to Local Quiescence: Wait-Free Code Patching of Multi-Threaded Processes'
+language: English
+recordingDate: 1605711810
+description: "From Global to Local Quiescence: Wait-Free Code Patching of Multi-Threaded Processes\n\nFlorian Rommel and Christian Dietrich, Leibniz Universität Hannover; Daniel Friesel, Marcel Köppen, Christoph Borchert, Michael Müller, and Olaf Spinczyk, Universität Osnabrück; Daniel Lohmann, Leibniz Universität Hannover\n\nLive patching has become a common technique to keep long-running system services secure and up-to-date without causing downtimes during patch application. However, to safely apply a patch, existing live-update methods require the entire process to enter a state of quiescence, which can be highly disruptive for multi-threaded programs: Having to halt all threads (e.g., at a global barrier) for patching not only hampers quality of service, but can also be tremendously difficult to implement correctly without causing deadlocks or other synchronization issues.\n\nIn this paper, we present WfPatch, a wait-free approach to inject code changes into running multi-threaded programs. Instead of having to stop the world before applying a patch, WfPatch can gradually apply it to each thread individually at a local point of quiescence, while all other threads can make uninterrupted progress.\n\nWe have implemented WfPatch as a kernel service and user-space library for Linux 5.1 and evaluated it with OpenLDAP, Apache, Memcached, Samba, Node.js, and MariaDB on Debian 10 (“buster”). In total, we successfully applied 33 different binary patches into running programs while they were actively servicing requests; 15 patches had a CVE number or were other critical updates. Applying a patch with WfPatch did not lead to any noticeable increase in request latencies — even under high load — while applying the same patch after reaching global quiescence increases tail latencies by a factor of up to 41x for MariaDB.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"
