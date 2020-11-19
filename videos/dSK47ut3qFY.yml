@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+title: 'OSDI ''20 - A Tensor Compiler Approach for One-size-fits-all ML Prediction Serving'
+language: English
+recordingDate: 1605711831
+description: "A Tensor Compiler Approach for One-size-fits-all ML Prediction Serving\n\nSupun Nakandala, UC San Diego; Karla Saur, Microsoft; Gyeong-In Yu, Seoul National University; Konstantinos Karanasos, Carlo Curino, Markus Weimer, and Matteo Interlandi, Microsoft\n\nMachine Learning (ML) adoption in the enterprise requires simpler and more efficient software infrastructure—the bespoke solutions typical in large web companies are simply untenable. Model scoring, the process of obtaining predictions from a trained model over new data, is a primary contributor to infrastructure complexity and cost as models are trained once but used many times. In this paper we propose Hummingbird, a novel approach to model scoring, which compiles featurization operators and traditional ML models (e.g., decision trees) into a small set of tensor operations. This approach inherently reduces infrastructure complexity and directly leverages existing investments in Neural Network compilers and runtimes to generate efficient computations for both CPU and hardware accelerators. Our performance results are intriguing: despite replacing imperative computations (e.g., tree traversals) with tensor computation abstractions, Hummingbird is competitive and often outperforms hand-crafted kernels on micro-benchmarks on both CPU and GPU, while enabling seamless end-to-end acceleration of ML pipelines. We have released Hummingbird as open source.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

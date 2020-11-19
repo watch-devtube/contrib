@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+title: 'OSDI ''20 - HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees'
+language: English
+recordingDate: 1605711925
+description: "HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees\n\nHanyu Zhao, Peking University and Microsoft; Zhenhua Han, The University of Hong Kong and Microsoft; Zhi Yang, Peking University; Quanlu Zhang, Fan Yang, Lidong Zhou, and Mao Yang, Microsoft; Francis C.M. Lau, The University of Hong Kong; Yuqi Wang, Yifan Xiong, and Bin Wang, Microsoft\n\nDeep learning training on a shared GPU cluster is becoming a common practice. However, we observe severe sharing anomaly in production multi-tenant clusters where jobs in some tenants experience worse queuing delay than they would have in a private cluster with their allocated shares of GPUs. This is because tenants use quota, the number of GPUs, to reserve resources, whereas deep learning jobs often use GPUs with a desirable GPU affinity, which quota cannot guarantee.\n\nHiveD is the first framework to share a GPU cluster safely, so that such anomaly would never happen by design. In HiveD, each tenant reserves resources through a Virtual Private Cluster (VC), defined in terms of multi-level cell structures corresponding to different levels of GPU affinity in a cluster. This design allows HiveD to incorporate any existing schedulers within each VC to achieve their respective design goals while sharing the cluster safely.\n\nHiveD develops an elegant buddy cell allocation algorithm to ensure sharing safety by efficiently managing the dynamic binding of cells from VCs to those in a physical cluster. A straightforward extension of buddy cell allocation can further support low-priority jobs to scavenge the unused GPU resources to improve cluster utilization.\n\nWith a combination of real deployment and trace-driven simulation, we show that: (i) sharing anomaly exists in three state-of-the-art deep learning schedulers, incurring extra queuing delay of up to 1,000 minutes; (ii) HiveD can incorporate these schedulers and eliminate the sharing anomaly in all of them, achieving separation of concerns that allows the schedulers to focus on their own scheduling goals without violating sharing safety.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'OSDI ''20 - RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers'
+language: English
+recordingDate: 1605711831
+description: "RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers\n\nHang Zhu, Johns Hopkins University; Kostis Kaffes, Stanford University; Zixu Chen, Johns Hopkins University; Zhenming Liu, College of William and Mary; Christos Kozyrakis, Stanford University; Ion Stoica, UC Berkeley; Xin Jin, Johns Hopkins University\n\nLow-latency online services have strict Service Level Objectives (SLOs) that require datacenter systems to support high throughput at microsecond-scale tail latency. Dataplane operating systems have been designed to scale up multi-core servers with minimal overhead for such SLOs. However, as application demands continue to increase, scaling up is not enough, and serving larger demands requires these systems to scale out to multiple servers in a rack. We present RackSched, the first rack-level microsecond-scale scheduler that provides the abstraction of a rack-scale computer (i.e., a huge server with hundreds to thousands of cores) to an external service with network-system co-design. The core of RackSched is a two-layer scheduling framework that integrates inter-server scheduling in the top-of-rack (ToR) switch with intra-server scheduling in each server. We use a combination of analytical results and simulations to show that it provides near-optimal performance as centralized scheduling policies, and is robust for both low-dispersion and high-dispersion workloads. We design a custom switch data plane for the inter-server scheduler, which realizes power-of-k- choices, ensures request affinity, and tracks server loads accurately and efficiently. We implement a RackSched prototype on a cluster of commodity servers connected by a Barefoot Tofino switch. End-to-end experiments on a twelve-server testbed show that RackSched improves the throughput by up to 1.44x, and scales out the throughput near linearly, while maintaining the same tail latency as one server until the system is saturated.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

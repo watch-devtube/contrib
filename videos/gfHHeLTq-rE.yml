@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - azure
+title: 'OSDI ''20 - Predictive and Adaptive Failure Mitigation to Avert Production Cloud VM Interruptions'
+language: English
+recordingDate: 1605711810
+description: "Predictive and Adaptive Failure Mitigation to Avert Production Cloud VM Interruptions\n\nSebastien Levy, Randolph Yao, Youjiang Wu, and Yingnong Dang, Microsoft Azure; Peng Huang, Johns Hopkins University; Zheng Mu, Microsoft Azure; Pu Zhao, Microsoft Research; Tarun Ramani, Naga Govindaraju, and Xukun Li, Microsoft Azure; Qingwei Lin, Microsoft Research; Gil Lapid Shafriri and Murali Chintalapati, Microsoft Azure\n\nWhen a failure occurs in production systems, the highest priority is to quickly mitigate it. Despite its importance, failure mitigation is done in a reactive and ad-hoc way: taking some fixed actions only after a severe symptom is observed. For cloud systems, such a strategy is inadequate. In this paper, we propose a preventive and adaptive failure mitigation service, Narya, that is integrated in a production cloud, Microsoft Azure's compute platform. Narya predicts imminent host failures based on multi-layer system signals and then decides smart mitigation actions. The goal is to avert VM failures. Narya's decision engine takes a novel online experimentation approach to continually explore the best mitigation action. Narya further enhances the adaptive decision capability through reinforcement learning. Narya has been running in production for 15 months. It on average reduces VM interruptions by 26% compared to the previous static strategy.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

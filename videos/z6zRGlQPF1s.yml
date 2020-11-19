@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''20 - Gauntlet: Finding Bugs in Compilers for Programmable Packet Processing'
+language: English
+recordingDate: 1605711908
+description: "Gauntlet: Finding Bugs in Compilers for Programmable Packet Processing\n\nFabian Ruffy, Tao Wang, and Anirudh Sivaraman, New York University\n\nProgrammable packet-processing devices such as programmable switches and network interface cards are becoming mainstream. These devices are configured in a domain-specific language such as P4, using a compiler to translate packet-processing programs into instructions for different targets. As networks with programmable devices become widespread, it is critical that these compilers be dependable.\n\nThis paper considers the problem of finding bugs in compilers for packet processing in the context of P4-16. We introduce domain-specific techniques to induce both abnormal termination of the compiler (crash bugs) and miscompilation (semantic bugs). We apply these techniques to (1) the opensource P4 compiler (P4C) infrastructure, which serves as a common base for different P4 back ends; (2) the P4 back end for the P4 reference software switch; and (3) the P4 back end for the Barefoot Tofino switch.\n\nAcross the 3 platforms, over 8 months of bug finding, our tool Gauntlet detected 96 new and distinct bugs (62 crash and 34 semantic), which we confirmed with the respective compiler developers. 54 have been fixed (31 crash and 23 semantic); the remaining have been assigned to a developer. Our bug-finding efforts also led to 6 P4 specification changes. We have open sourced Gauntlet at p4gauntlet.github.io and it now runs within P4C’s continuous integration pipeline.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

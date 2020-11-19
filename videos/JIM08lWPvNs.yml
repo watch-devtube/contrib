@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'OSDI ''20 - The CacheLib Caching Engine: Design and Experiences at Scale'
+language: English
+recordingDate: 1605711831
+description: "The CacheLib Caching Engine: Design and Experiences at Scale\n\nBenjamin Berg, Carnegie Mellon University; Daniel S. Berger, Carnegie Mellon University and Microsoft Research; Sara McAllister and Isaac Grosof, Carnegie Mellon University; Sathya Gunasekar, Jimmy Lu, Michael Uhlar, and Jim Carrig, Facebook; Nathan Beckmann, Mor Harchol-Balter, and Gregory R. Ganger, Carnegie Mellon University\n\nWeb services rely on caching at nearly every layer of the system architecture. Commonly, each cache is implemented and maintained independently by a distinct team and is highly specialized to its function. For example, an application-data cache would be independent from a CDN cache. However, this approach ignores the difficult challenges that different caching systems have in common, greatly increasing the overall effort required to deploy, maintain, and scale each cache.\n\nThis paper presents a different approach to cache development, successfully employed at Facebook, which extracts a core set of common requirements and functionality from otherwise disjoint caching systems. CacheLib is a general-purpose caching engine, designed based on experiences with a range of caching use cases at Facebook, that facilitates the easy development and maintenance of caches. CacheLib was first deployed at Facebook in 2017 and today powers over 70 services including CDN, storage, and application-data caches.\n\nThis paper describes our experiences during the transition from independent, specialized caches to the widespread adoption of CacheLib. We explain how the characteristics of production workloads and use cases at Facebook drove important design decisions. We describe how caches at Facebook have evolved over time, including the significant benefits seen from deploying CacheLib. We also discuss the implications our experiences have for future caching design and research.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

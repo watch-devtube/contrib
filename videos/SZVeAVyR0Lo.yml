@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - cloud
+    - aws
+    - 'data structures'
+title: 'OSDI ''20 - Fault-tolerant and transactional stateful serverless workflows'
+language: English
+recordingDate: 1605711831
+description: "Fault-tolerant and transactional stateful serverless workflows\n\nHaoran Zhang, University of Pennsylvania; Adney Cardoza, Rutgers University–Camden; Peter Baile Chen, Sebastian Angel, and Vincent Liu, University of Pennsylvania\n\nThis paper introduces Beldi, a library and runtime system for writing and composing fault-tolerant and transactional stateful serverless functions. Beldi runs on existing providers and lets developers write complex stateful applications that require fault tolerance and transactional semantics without the need to deal with tasks such as load balancing or maintaining virtual machines. Beldi’s contributions include extending the log-based fault-tolerant approach in Olive (OSDI 2016) with new data structures, transaction protocols, function invocations, and garbage collection. They also include adapting the resulting framework to work over a federated environment where each serverless function has sovereignty over its own data. We implement three applications on Beldi, including a movie review service, a travel reservation system, and a social media site. Our evaluation on 1,000 AWS Lambdas shows that Beldi’s approach is effective and affordable.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

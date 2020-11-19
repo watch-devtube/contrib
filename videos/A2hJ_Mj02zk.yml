@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - aws
+title: 'OSDI ''20 - Ansor: Generating High-Performance Tensor Programs for Deep Learning'
+language: English
+recordingDate: 1605711831
+description: "Ansor: Generating High-Performance Tensor Programs for Deep Learning\n\nLianmin Zheng, UC Berkeley; Chengfan Jia, Minmin Sun, and Zhao Wu, Alibaba Group; Cody Hao Yu, Amazon Web Services; Ameer Haj-Ali, UC Berkeley; Yida Wang, Amazon Web Services; Jun Yang, Alibaba Group; Danyang Zhuo, UC Berkeley and Duke University; Koushik Sen, Joseph E. Gonzalez, and Ion Stoica, UC Berkeley\n\nHigh-performance tensor programs are crucial to guarantee efficient execution of deep neural networks. However, obtaining performant tensor programs for different operators on various hardware platforms is notoriously challenging. Currently, deep learning systems rely on vendor-provided kernel libraries or various search strategies to get performant tensor programs. These approaches either require significant engineering effort to develop platform-specific optimization code or fall short of finding high-performance programs due to restricted search space and ineffective exploration strategy.\n\nWe present Ansor, a tensor program generation framework for deep learning applications. Compared with existing search strategies, Ansor explores many more optimization combinations by sampling programs from a hierarchical representation of the search space. Ansor then fine-tunes the sampled programs with evolutionary search and a learned cost model to identify the best programs. Ansor can find high-performance programs that are outside the search space of existing state-of-the-art approaches. In addition, Ansor utilizes a task scheduler to simultaneously optimize multiple subgraphs in deep neural networks. We show that Ansor improves the execution performance of deep neural networks relative to the state-of-the-art on the Intel CPU, ARM CPU, and NVIDIA GPU by up to 3.8x, 2.6x, and 1.7x, respectively.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

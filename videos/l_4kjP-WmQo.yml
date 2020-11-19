@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - performance
+    - cloud
+    - azure
+    - architecture
+title: 'OSDI ''20 - Aragog: Scalable Runtime Verification of Distributed Middleboxes'
+language: English
+recordingDate: 1605711928
+description: "Aragog: Scalable Runtime Verification of Distributed Middleboxes\n\nNofel Yaseen, University of Pennsylvania; Behnaz Arzani and Ryan Beckett, Microsoft Research; Selim Ciraci, Microsoft; Vincent Liu, University of Pennsylvania\n\nNetwork functions like firewalls, proxies, and NATs are instances of distributed systems that lie on the critical path for a substantial fraction of today's cloud applications. Unfortunately, validating these systems remains difficult due to their complex stateful, timed, and distributed behaviors.\n\nIn this paper, we present the design and implementation of Aragog, a runtime verification system for distributed network functions that achieves high expressiveness, fidelity, and scalability. Given a property of interest, Aragogefficiently checks running systems for violations of the property with a scale-out architecture consisting of a collection of global verifiers and local monitors. To improve performance and reduce communication overhead, Aragog includes an array of optimizations that leverage properties of networked systems to suppress provably unnecessary system events and to shard verification over every available local and global component. We evaluate Aragog over several network functions including a NAT Gateway that powers Azure, identifying both design and implementation bugs in the process.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

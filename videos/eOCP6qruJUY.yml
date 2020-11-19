@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'OSDI ''20 - CrossFS: A Cross-layered Direct-Access File System'
+language: English
+recordingDate: 1605712013
+description: "CrossFS: A Cross-layered Direct-Access File System\n\nYujie Ren, Rutgers University; Changwoo Min, Virginia Tech; Sudarsun Kannan, Rutgers University\n\nWe design CrossFS, a cross-layered direct-access file system disaggregated across user-level, firmware, and kernel layers for scaling I/O performance and improving concurrency. CrossFS is designed to exploit host- and device-level compute capabilities. For concurrency with or without data sharing across threads and processes, CrossFS introduces a file descriptor-based concurrency control that maps each file descriptor to one hardware-level I/O queue. This design allows CrossFS’s firmware component to process disjoint access across file descriptors concurrently. CrossFS delegates concurrency control to powerful host-CPUs, which convert the file descriptor synchronization problem into an I/O queue request ordering problem. To guarantee crash consistency in the cross-layered design, CrossFS exploits byte-addressable nonvolatile memory for I/O queue persistence and designs a lightweight firmware-level journaling mechanism. Finally, CrossFS designs a firmware-level I/O scheduler for efficient dispatch of file descriptor requests. Evaluation of emulated CrossFS on storage-class memory shows up to 4.87X concurrent access gains for benchmarks and 2.32X gains for real-world applications over the state-of-the-art kernel, user-level, and firmware file systems.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

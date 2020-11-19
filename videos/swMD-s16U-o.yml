@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - cloud
+title: 'OSDI ''20 - Cobra: Making Transactional Key-Value Stores Verifiably Serializable'
+language: English
+recordingDate: 1605712013
+description: "Cobra: Making Transactional Key-Value Stores Verifiably Serializable\n\nCheng Tan and Changgeng Zhao, NYU; Shuai Mu, Stony Brook University; Michael Walfish, NYU\n\nToday’s cloud databases offer strong properties, including serializability, sometimes called the gold standard database correctness property. But cloud databases are complicated black boxes, running in a different administrative domain from their clients. Thus, clients might like to know whether the databases are meeting their contract. To that end, we introduce cobra; cobra applies to transactional key-value stores. It is the first system that combines (a) black-box checking, of (b) serializability, while (c) scaling to real-world online transactional processing workloads. The core technical challenge is that the underlying search problem is computationally expensive. Cobra tames that problem by starting with a suitable SMT solver. Cobra then introduces several new techniques, including a new encoding of the validity condition; hardware acceleration to prune inputs to the solver; and a transaction segmentation mechanism that enables scaling and garbage collection. Cobra imposes modest overhead on clients, improves over baselines by 10x in verification cost, and (unlike the baselines) supports continuous verification. Our artifact can handle 2000 transactions/sec, equivalent to 170M/day.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

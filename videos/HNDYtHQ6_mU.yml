@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - tensorflow
+    - performance
+    - embedded
+title: 'OSDI ''20 - KungFu: Making Training in Distributed Machine Learning Adaptive'
+language: English
+recordingDate: 1605711831
+description: "KungFu: Making Training in Distributed Machine Learning Adaptive\n\nLuo Mai, Guo Li, Marcel Wagenländer, Konstantinos Fertakis, Andrei-Octavian Brabete, and Peter Pietzuch, Imperial College London\n\nWhen using distributed machine learning (ML) systems to train models on a cluster of worker machines, users must configure a large number of parameters: hyper-parameters (e.g. the batch size and the learning rate) affect model convergence; system parameters (e.g. the number of workers and their communication topology) impact training performance. In current systems, adapting such parameters during training is ill-supported. Users must set system parameters at deployment time, and provide fixed adaptation schedules for hyper-parameters in the training program.\n\nWe describe KungFu, a distributed ML library for TensorFlow that is designed to enable adaptive training. KungFu allows users to express high-level Adaptation Policies (APs) that describe how to change hyper- and system parameters during training. APs take real-time monitored metrics (e.g. signal-to-noise ratios and noise scale) as input and trigger control actions (e.g. cluster rescaling or synchronisation strategy updates). For execution, APs are translated into monitoring and control operators, which are embedded in the dataflow graph. APs exploit an efficient asynchronous collective communication layer, which ensures concurrency and consistency of monitoring and adaptation operations.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

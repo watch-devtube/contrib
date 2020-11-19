@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+title: 'OSDI ''20 - Assise: Performance and Availability via NVM Colocation in a Distributed File System'
+language: English
+recordingDate: 1605711810
+description: "Assise: Performance and Availability via NVM Colocation in a Distributed File System\n\nThomas E. Anderson, University of Washington; Marco Canini, KAUST; Jongyul Kim, KAIST; Dejan Kostić, KTH Royal Institute of Technology; Youngjin Kwon, KAIST; Simon Peter, The University of Texas at Austin; Waleed Reda, KTH Royal Institute of Technology and Université catholique de Louvain; Henry N. Schuh, University of Washington; Emmett Witchel, The University of Texas at Austin\n\nThe adoption of low latency persistent memory modules (PMMs) upends the long-established model of remote storage for distributed file systems. Instead, by colocating computation with PMM storage, we can provide applications with much higher IO performance, sub-second application failover, and strong consistency. To demonstrate this, we built the Assise distributed file system, based on a persistent, replicated coherence protocol that manages client-local PMM as a linearizable and crash-recoverable cache between applications and slower (and possibly remote) storage. Assise maximizes locality for all file IO by carrying out IO on process-local, socket-local, and client-local PMM whenever possible. Assise minimizes coherence overhead by maintaining consistency at IO operation granularity, rather than at fixed block sizes.\n\nWe compare Assise to Ceph/BlueStore, NFS, and Octopus on a cluster with Intel Optane DC PMMs and SSDs for common cloud applications and benchmarks, such as LevelDB, Postfix, and FileBench. We find that Assise improves write latency up to 22x, throughput up to 56x, fail-over time up to 103x, and scales up to 6x better than its counterparts, while providing stronger consistency semantics.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

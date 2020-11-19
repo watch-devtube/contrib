@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''20 - Persistent State Machines for Recoverable In-memory Storage Systems with NVRam'
+language: English
+recordingDate: 1605711811
+description: "Persistent State Machines for Recoverable In-memory Storage Systems with NVRam\n\nWen Zhang, UC Berkeley; Scott Shenker, UC Berkeley/ICSI; Irene Zhang, Microsoft Research/University of Washington\n\nDistributed in-memory storage systems are crucial for meeting the low latency requirements of modern datacenter services. However, they lose all state on failure, so recovery is expensive and data loss is always a risk. Persistent memory (PM) offers the possibility of building fast, persistent in-memory storage; however, existing PM systems are built from scratch or require heavy modification of existing systems. To rectify these problems, this paper presents Persimmon, a PM-based system that converts existing distributed in-memory storage systems into persistent, crash-consistent versions with low overhead and minimal code changes.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'OSDI ''20 - Automated Reasoning and Detection of Specious Configuration in Large Systems with...'
+language: English
+recordingDate: 1605711908
+description: "Automated Reasoning and Detection of Specious Configuration in Large Systems with Symbolic Execution\n\nYigong Hu, Gongqi Huang, and Peng Huang, Johns Hopkins University\n\nMisconfiguration is a major cause of system failures. Prior solutions focus on detecting invalid settings that are introduced by user mistakes. But another type of misconfiguration that continues to haunt production services is specious configuration---settings that are valid but lead to unexpectedly poor performance in production. Such misconfigurations are subtle, so even careful administrators may fail to foresee them.\n\nWe propose a tool called Violet to detect specious configuration. We realize the crux of specious configuration is that it causes some slow code path to be executed, but the bad performance effect cannot always be triggered. Violet thus takes a novel approach that uses selective symbolic execution to systematically reason about the performance effect of configuration parameters, their combination effect, and the relationship with input. Violet outputs a performance impact model for the automatic detection of poor configuration settings. We applied Violet on four large systems. To evaluate the effectiveness of Violet, we collect 17 real-world specious configuration cases. Violet detects 15 of them. Violet also identifies 11 unknown specious configurations.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

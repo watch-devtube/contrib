@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'OSDI ''20 - Generalized Sub-Query Fusion for Eliminating Redundant I/O from Big-Data Queries'
+language: English
+recordingDate: 1605711929
+description: "Generalized Sub-Query Fusion for Eliminating Redundant I/O from Big-Data Queries\n\nPartho Sarthi, Kaushik Rajan, and Akash Lal, Microsoft Research India; Abhishek Modi, Prakhar Jain, Mo Liu, and Ashit Gosalia, Microsoft; Saurabh Kalikar, Intel\n\nSQL is the de-facto language for big-data analytics. Despite the cost of distributed SQL execution being dominated by disk and network I/O, we find that state-of-the-art optimizers produce plans that are not I/O optimal. For a significant fraction of queries (25% of popular benchmarks like TPCDS), a large amount of data is shuffled redundantly between different pairs of stages. The fundamental reason for this limitation is that optimizers do not have the right set of primitives to perform reasoning at the map-reduce level that can potentially identify and eliminate the redundant I/O.\n\nThis paper proposes RESIN an optimizer extension that adds first-class support for map-reduce reasoning. RESIN uses a novel technique called Generalized Sub-Query Fusion that identifies sub-queries computing on overlapping data, and fuses them into the same map-reduce stages. The analysis is general; it does not require that the sub-queries be syntactically the same, nor are they required to produce the same output. Sub-query fusion allows RESIN to sometimes also eliminate expensive binary operations like Joins and Unions altogether for further gains.\n\nWe have integrated RESIN into sparkSQL and evaluated it on TPCDS, a standard analytics benchmark suite. Our results demonstrate that the proposed optimizations apply to 40% of the queries and speed up a large fraction of them by 1.1−6x, reducing the overall execution time of the benchmark suite by 12%.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

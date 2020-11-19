@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+title: 'OSDI ''20 - From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees'
+language: English
+recordingDate: 1605712013
+description: "From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees\n\nYifan Dai, Yien Xu, Aishwarya Ganesan, and Ramnatthan Alagappan, University of Wisconsin - Madison; Brian Kroth, Microsoft Gray Systems Lab; Andrea Arpaci-Dusseau and Remzi Arpaci-Dusseau, University of Wisconsin - Madison\n\nWe introduce BOURBON, a log-structured merge (LSM) tree that utilizes machine learning to provide fast lookups. We base the design and implementation of BOURBON on empirically-grounded principles that we derive through careful analysis of LSM design. BOURBON employs greedy piecewise linear regression to learn key distributions, enabling fast lookup with minimal computation, and applies a cost-benefit strategy to decide when learning will be worthwhile. Through a series of experiments on both synthetic and real-world datasets, we show that BOURBON improves lookup performance by 1.23x-1.78x as compared to state-of-the-art production LSMs.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

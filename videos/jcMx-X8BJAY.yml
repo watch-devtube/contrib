@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'OSDI ''20 - Efficiently Mitigating Transient Execution Attacks using the Unmapped Speculation...'
+language: English
+recordingDate: 1605711810
+description: "Efficiently Mitigating Transient Execution Attacks using the Unmapped Speculation Contract\n\nJonathan Behrens, Anton Cao, Cel Skeggs, Adam Belay, M. Frans Kaashoek, and Nickolai Zeldovich, MIT CSAIL\n\nToday’s kernels pay a performance penalty for mitigations—such as KPTI, retpoline, return stack stuffing, speculation barriers—to protect against transient execution side-channel attacks such as Meltdown and Spectre.\n\nTo address this performance penalty, this paper articulates the unmapped speculation contract, an observation that memory that isn’t mapped in a page table cannot be leaked through transient execution. To demonstrate the value of this contract, the paper presents Ward, a new kernel design that maintains a separate kernel page table for every process. This page table contains mappings for kernel memory that is safe to expose to that process. Because a process doesn’t map data of other processes, this design allows for many system calls to execute without any mitigation overhead. When a process needs access to sensitive data, Ward switches to a kernel page table that provides access to all of memory and executes with all mitigations.\n\nAn evaluation of the Ward design implemented in the sv6 research kernel shows that can execute many system calls without mitigations. For some hardware generations, this results in performance improvement ranging from a few percent (huge page fault) to several factors (getpid), compared to a standard design with mitigations.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - startup
+title: 'OSDI ''20 - PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications'
+language: English
+recordingDate: 1605711908
+description: "PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications\n\nZhihao Bai and Zhen Zhang, Johns Hopkins University; Yibo Zhu, ByteDance Inc.; Xin Jin, Johns Hopkins University\n\nDeep learning (DL) workloads include throughput-intensive training tasks and latency-sensitive inference tasks. The dominant practice today is to provision dedicated GPU clusters for training and inference separately. Due to the need to meet strict Service-Level Objectives (SLOs), GPU clusters are often over-provisioned based on the peak load with limited sharing between applications and task types.\n\nWe present PipeSwitch, a system that enables unused cycles of an inference application to be filled by training or other inference applications. It allows multiple DL applications to time-share the same GPU with the entire GPU memory and millisecond-scale switching overhead. With PipeSwitch, GPU utilization can be significantly improved without sacrificing SLOs. We achieve so by introducing pipelined context switching. The key idea is to leverage the layered structure of neural network models and their layer-by-layer computation pattern to pipeline model transmission over the PCIe and task execution in the GPU with model-aware grouping. We also design unified memory management and active-standby worker switching mechanisms to accompany the pipelining and ensure process-level isolation.We have built a PipeSwitch prototype and integrated it with PyTorch. Experiments on a variety of DL models and GPU cards show that PipeSwitch only incurs a task startup overhead of 3.6–6.6 ms and a total overhead of 5.4–34.6 ms (10–50× better than NVIDIA MPS), and achieves near 100% GPU utilization.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - storage
+    - performance
+title: 'OSDI ''20 - Storage Systems are Distributed Systems (So Verify Them That Way!)'
+language: English
+recordingDate: 1605712014
+description: "Storage Systems are Distributed Systems (So Verify Them That Way!)\n\nTravis Hance, Carnegie Mellon University; Andrea Lattuada, ETH Zurich; Chris Hawblitzel, Microsoft Research; Jon Howell and Rob Johnson, VMware Research; Bryan Parno, Carnegie Mellon University\n\nTo verify distributed systems, prior work introduced a methodology for verifying both the code running on individual machines and the correctness of the overall system when those machines interact via an asynchronous distributed environment. The methodology requires neither domain-specific logic nor tooling. However, distributed systems are only one instance of the more general phenomenon of systems code that interacts with an asynchronous environment. We argue that the software of a storage system can (and should!) be viewed similarly.\n\nWe evaluate this approach in VeriSafeKV, a key-value store based on a state-of-the-art B^ε-tree. In building VeriSafeKV, we introduce new techniques to scale automated verification to larger code bases, still without introducing domain-specific logic or tooling. In particular, we show a discipline that keeps the automated verification development cycle responsive. We also combine linear types with dynamic frames to relieve the programmer from most heap-reasoning obligations while enabling them to break out of the linear type system when needed. VeriSafeKV exhibits similar query performance to unverified databases. Its insertion performance is 15× faster than unverified BerkeleyDB and 6× slower than RocksDB.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

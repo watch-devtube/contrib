@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - architecture
+title: 'OSDI ''20 - hXDP: Efficient Software Packet Processing on FPGA NICs'
+language: English
+recordingDate: 1605711810
+description: "hXDP: Efficient Software Packet Processing on FPGA NICs\n\nMarco Spaziani Brunella and Giacomo Belocchi, Axbryd/University of Rome Tor Vergata; Marco Bonola, Axbryd/CNIT; Salvatore Pontarelli, Axbryd; Giuseppe Siracusano, NEC Laboratories Europe; Giuseppe Bianchi, University of Rome Tor Vergata; Aniello Cammarano, Alessandro Palumbo, and Luca Petrucci, CNIT/University of Rome Tor Vergata; Roberto Bifulco, NEC Laboratories Europe\n\nAwarded Best Paper!\n\nFPGA accelerators on the NIC enable the offloading of expensive packet processing tasks from the CPU. However, FPGAs have limited resources that may need to be shared among diverse applications, and programming them is difficult.\n\nWe present a solution to run Linux's eXpress Data Path programs written in eBPF on FPGAs, using only a fraction of the available hardware resources while matching the performance of high-end CPUs. The iterative execution model of eBPF is not a good fit for FPGA accelerators. Nonetheless, we show that many of the instructions of an eBPF program can be compressed, parallelized or completely removed, when targeting a purpose-built FPGA executor, thereby significantly improving performance. We leverage that to design hXDP, which includes (i) an optimizing-compiler that parallelizes and translates eBPF bytecode to an extended eBPF Instruction-set Architecture defined by us; a (ii) soft-processor to execute such instructions on FPGA; and (iii) an FPGA-based infrastructure to provide XDP's maps and helper functions as defined within the Linux kernel.\n\nWe implement hXDP on an FPGA NIC and evaluate it running real-world unmodified eBPF programs. Our implementation is clocked at 156.25MHz, uses about 15% of the FPGA resources, and can run dynamically loaded programs. Despite these modest requirements, it achieves the packet processing throughput of a high-end CPU core and provides a 10x lower packet forwarding latency.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

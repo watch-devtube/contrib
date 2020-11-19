@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+title: 'OSDI ''20 - Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads'
+language: English
+recordingDate: 1605711908
+description: "Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads\n\nDeepak Narayanan and Keshav Santhanam, Stanford University and Microsoft Research; Fiodar Kazhamiaka, Stanford University; Amar Phanishayee, Microsoft Research; Matei Zaharia, Stanford University\n\nSpecialized accelerators such as GPUs, TPUs, FPGAs, and custom ASICs have been increasingly deployed to train deep learning models. These accelerators exhibit heterogeneous performance behavior across model architectures. Existing schedulers for clusters of accelerators, which are used to arbitrate these expensive training resources across many users, have shown how to optimize for various multi-job, multi-user objectives, like fairness and makespan. Unfortunately, existing schedulers largely do not consider performance heterogeneity. In this paper, we propose Gavel, a heterogeneity-aware scheduler that systematically generalizes a wide range of existing scheduling policies. Gavel expresses these policies as optimization problems and then systematically transforms these problems into heterogeneity-aware versions using an abstraction we call effective throughput. Gavel then uses a round-based scheduling mechanism to ensure jobs receive their ideal allocation given the target scheduling policy. Gavel's heterogeneity-aware policies allow a heterogeneous cluster to sustain higher input load, and improve end objectives such as makespan and average job completion time by 1.4x and 3.5x compared to heterogeneity-agnostic policies.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

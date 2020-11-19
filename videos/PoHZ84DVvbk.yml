@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - performance
+title: 'OSDI ''20 - Write Dependency Disentanglement with HORAE'
+language: English
+recordingDate: 1605711908
+description: "Write Dependency Disentanglement with HORAE\n\nXiaojian Liao, Youyou Lu, Erci Xu, and Jiwu Shu, Tsinghua University\n\nStorage systems rely on write dependency to achieve atomicity and consistency. However, enforcing write dependency comes at the expense of performance; it concatenates multiple hardware queues into a single logical queue, disables the concurrency of flash storage and serializes the access to isolated devices. Such serialization prevents the storage system from taking full advantage of high-performance drives (e.g., NVMe SSD) and storage arrays.\n\nIn this paper, we propose a new IO stack called Horae to alleviate the write dependency overhead for high-performance drives. Horae separates the dependency control from the data flow, and uses a dedicated interface to maintain the write dependency. Further, Horae introduces the joint flush to enable parallel FLUSH commands on individual devices, and write redirection to handle dependency loops and parallelize in-place updates. We implement Horae in Linux kernel and demonstrate its effectiveness through a wide variety of workloads. Evaluations show Horae brings up to 1.8× and 2.1× performance gain in MySQL and BlueStore, respectively.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

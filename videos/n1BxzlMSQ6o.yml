@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - tensorflow
+title: 'OSDI ''20 - Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks'
+language: English
+recordingDate: 1605711810
+description: "Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks\n\nLingxiao Ma, Peking University and Microsoft Research; Zhiqiang Xie, ShanghaiTech University and Microsoft Research; Zhi Yang, Peking University; Jilong Xue, Youshan Miao, Wei Cui, Wenxiang Hu, Fan Yang, Lintao Zhang, and Lidong Zhou, Microsoft Research\n\nPerforming Deep Neural Network (DNN) computation on hardware accelerators efficiently is challenging. Existing DNN frameworks and compilers often treat the DNN operators in a data flow graph (DFG) as opaque library functions and schedule them onto accelerators to be executed individually. They rely on another layer of scheduler, often implemented in hardware, to exploit the parallelism available in the operators. Such a two-layered approach incurs significant scheduling overhead and often cannot fully utilize the available hardware resources. In this paper, we propose Rammer, a DNN compiler design that optimizes the execution of DNN workloads on massively parallel accelerators. Rammer generates an efficient static spatio-temporal schedule for a DNN at compile time to minimize scheduling overhead. It maximizes hardware utilization by holistically exploiting parallelism through inter- and intra- operator co-scheduling. Rammer achieves this by proposing several novel, hardware neutral, and clean abstractions for the computation tasks and the hardware accelerators. These abstractions expose a much richer scheduling space to Rammer, which employs several heuristics to explore this space and finds efficient schedules. We implement Rammer for multiple hardware backends such as NVIDIA GPUs, AMD GPUs, and Graphcore IPU. Experiments show Rammer significantly outperforms state-of-the-art compilers such as TensorFlow XLA and TVM by up to 20.1X. It also outperforms TensorRT, a vendor optimized proprietary DNN inference library from NVIDIA, by up to 3.1X.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

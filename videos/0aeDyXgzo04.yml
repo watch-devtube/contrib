@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - testing
+title: 'OSDI ''20 - Testing Database Engines via Pivoted Query Synthesis'
+language: English
+recordingDate: 1605711908
+description: "Testing Database Engines via Pivoted Query Synthesis\n\nManuel Rigger and Zhendong Su, ETH Zurich\n\nDatabase Management Systems (DBMSs) are used widely, and have been extensively tested by fuzzers, which are successful in finding crash bugs. However, approaches to finding logic bugs, such as when a DBMS computes an incorrect result set, have remained mostly untackled. To this end, we devised a novel and general approach that we have termed Pivoted Query Synthesis. The core idea of this approach is to automatically generate queries for which we ensure that they fetch a specific, randomly selected row, called the pivot row. If the DBMS fails to fetch the pivot row, the likely cause is a bug in the DBMS. We tested our approach on three widely-used and mature DBMSs, namely SQLite, MySQL, and PostgreSQL. In total, we found 121 unique bugs in these DBMSs, 96 of which have been fixed or verified, demonstrating that the approach is highly effective and general. We expect that the wide applicability and simplicity of our approach will enable improving the robustness of many DBMSs.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

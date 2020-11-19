@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - containers
+    - docker
+    - testing
+title: 'OSDI ''20 - Testing Configuration Changes in Context to Prevent Production Failures'
+language: English
+recordingDate: 1605711831
+description: "Testing Configuration Changes in Context to Prevent Production Failures\n\nXudong Sun, Runxiang Cheng, Jianyan Chen, and Elaine Ang, University of Illinois at Urbana-Champaign; Owolabi Legunsen, Cornell University; Tianyin Xu, University of Illinois at Urbana-Champaign\n\nLarge-scale cloud services deploy hundreds of configuration changes to production systems daily. At such velocity, configuration changes have inevitably become prevalent causes of production failures. Existing misconfiguration detection and configuration validation techniques only check configuration values. These techniques cannot detect common types of failure-inducing configuration changes, such as those that cause code to fail or those that violate hidden constraints.\n\nWe present ctests, a new type of tests for detecting failure-inducing configuration changes to prevent production failures. The idea behind ctests is simple---connecting production system configurations to software tests so that configuration changes can be tested in the context of code affected by the changes. So, ctests can detect configuration changes that expose dormant software bugs and diverse misconfigurations.\n\nWe show how to generate ctests by transforming the many existing tests in mature systems. The key challenge that we address is the automated identification of test logic and oracles that can be reused in ctests. We generated thousands of ctests from the existing tests in five cloud systems.\n\nOur results show that ctests are effective in detecting failure-inducing configuration changes before deployment. We evaluate ctests on real-world failure-inducing configuration changes, injected misconfigurations, and deployed configuration files from public Docker images. Ctests effectively detect real-world failure-inducing configuration changes and misconfigurations in the deployed files.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

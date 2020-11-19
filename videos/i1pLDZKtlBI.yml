@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - rust
+title: 'OSDI ''20 - Theseus: an experiment in operating system structure and state management'
+language: English
+recordingDate: 1605712014
+description: "Theseus: an experiment in operating system structure and state management\n\nKevin Boos, Rice University; Namitha Liyanage, Yale University; Ramla Ijaz, Rice University; Lin Zhong, Yale University\n\nThis paper describes an operating system (OS) called Theseus. Theseus is the result of multi-year experimentation to redesign and improve OS modularity by reducing the states one component holds for another, and to leverage a safe programming language, namely Rust, to shift as many OS responsibilities as possible to the compiler.\n\nTheseus embodies two primary contributions. First, an OS structure in which many tiny components with clearly-defined, runtime-persistent bounds interact without holding states for each other. Second, an intralingual approach that realizes the OS itself using language-level mechanisms such that the compiler can enforce invariants about OS semantics.\n\nTheseus’s structure, intralingual design, and state management realize live evolution and fault recovery for core OS components in ways beyond that of existing works.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

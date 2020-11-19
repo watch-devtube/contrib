@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: 'OSDI ''20 - Specification, implementation, and verification of just-in-time compilers for...'
+language: English
+recordingDate: 1605712013
+description: "Specification, implementation, and verification of just-in-time compilers for an in-kernel virtual machine\n\nLuke Nelson, Jacob Van Geffen, Emina Torlak, and Xi Wang, University of Washington\n\nThis paper describes our experience applying formal methods to a critical component in the Linux kernel, the just-in-time compilers (\"JITs\") for the Berkeley Packet Filter (BPF) virtual machine. We verify these JITs using Jitterbug, the first framework to provide a precise specification of JIT correctness that is capable of ruling out real-world bugs, and an automated proof strategy that scales to practical implementations. Using Jitterbug, we have designed, implemented, and verified a new BPF JIT for 32-bit RISC-V, found and fixed 16 previously unknown bugs in five other deployed JITs, and developed new JIT optimizations; all of these changes have been upstreamed to the Linux kernel. The results show that it is possible to build a verified component within a large, unverified system with careful design of specification and proof strategy.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

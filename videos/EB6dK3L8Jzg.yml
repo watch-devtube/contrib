@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - embedded
+title: 'OSDI ''20 - PANIC: A High-Performance Programmable NIC for Multi-tenant Networks'
+language: English
+recordingDate: 1605711909
+description: "PANIC: A High-Performance Programmable NIC for Multi-tenant Networks\n\nJiaxin Lin, University of Wisconsin-Madison; Kiran Patel and Brent E. Stephens, University of Illinois at Chicago; Anirudh Sivaraman, New York University (NYU); Aditya Akella, University of Wisconsin-Madison\n\nProgrammable NICs have diverse uses, and there is need for a NIC platform that can offload computation from multiple co-resident applications to many different types of substrates, including hardware accelerators, embedded FPGAs, and embedded processor cores. Unfortunately, there is no existing NIC design that can simultaneously support a large number of diverse offloads while ensuring high throughput/low latency, multi-tenant isolation, flexible offload chaining, and support for offloads with variable performance. This paper presents Frenzy, a new programmable NIC. There are two new key components of the Frenzy design that enable it to overcome the limitations of existing NICs: 1) A high-performance switching interconnect that scalably connects independent engines into offload chains, and 2) A new hybrid push/pull packet scheduler that provides cross-tenant performance isolation and low-latency load-balancing across parallel offload engines. From both experiments performed on an 100Gbps FPGA-based prototype and experiments that use a combination of techniques including simulation and cost/area analysis, we find that this design overcomes the limitations of state-of-the-art programmable NICs.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

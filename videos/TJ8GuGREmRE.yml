@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - containers
+    - kubernetes
+    - testing
+    - architecture
+title: 'OSDI ''20 - Building Scalable and Flexible Cluster Managers Using Declarative Programming'
+language: English
+recordingDate: 1605711811
+description: "Building Scalable and Flexible Cluster Managers Using Declarative Programming\n\nLalith Suresh, VMware; João Loff, IST (ULisboa) / INESC-ID; Faria Kalim, UIUC; Sangeetha Abdu Jyothi, UC Irvine and VMware; Nina Narodytska, Leonid Ryzhyk, Sahan Gamage, Brian Oki, Pranshu Jain, and Michael Gasch, VMware\n\nCluster managers like Kubernetes and OpenStack are notoriously hard to develop, given that they routinely grapple with hard combinatorial optimization problems like load balancing, placement, scheduling, and configuration. Today, cluster manager developers tackle these problems by developing system-specific best effort heuristics, which achieve scalability by significantly sacrificing the cluster manager's decision quality, feature set, and extensibility over time. This is proving untenable, as solutions for cluster management problems are routinely developed from scratch in the industry to solve largely similar problems across different settings.\n\nWe propose DCM, a radically different architecture where developers specify the cluster manager's behavior declaratively, using SQL queries over cluster state stored in a relational database. From the SQL specification, the DCM compiler synthesizes a program that, at runtime, can be invoked to compute policy-compliant cluster management decisions given the latest cluster state. Under the covers, the generated program efficiently encodes the cluster state as an optimization problem that can be solved using off-the-shelf solvers, freeing developers from having to design ad-hoc heuristics.\n\nWe show that DCM significantly lowers the barrier to building scalable and extensible cluster managers. We validate our claim by powering three production-grade systems with it: a Kubernetes scheduler, a virtual machine management solution, and a distributed transactional datastore.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

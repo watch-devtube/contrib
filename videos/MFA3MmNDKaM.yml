@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - cloud
+    - java
+title: 'OSDI ''20 - Semeru: A Memory-Disaggregated Managed Runtime'
+language: English
+recordingDate: 1605711908
+description: "Semeru: A Memory-Disaggregated Managed Runtime\n\nChenxi Wang, Haoran Ma, Shi Liu, and Yuanqi Li, UCLA; Zhenyuan Ruan, MIT; Khanh Nguyen, Texas A&M University; Michael D. Bond, Ohio State University; Ravi Netravali, Miryung Kim, and Guoqing Harry Xu, UCLA\n\nResource-disaggregated architectures have risen in popularity for large datacenters. However, prior disaggregation systems are designed for native applications; in addition, all of them require applications to possess excellent locality to be efficiently executed. In contrast, programs written in managed languages are subject to periodic garbage collection (GC), which is a typical graph workload with poor locality. Although most datacenter applications are written in managed languages, current systems are far from delivering acceptable performance for these applications.\n\nThis paper presents Semeru, a distributed JVM that can dramatically improve the performance of managed cloud applications in a memory-disaggregated environment. Its design possesses three major innovations: (1) a universal Java heap, which provides a unified abstraction of virtual memory across CPU and memory servers and allows any legacy program to run without modifications; (2) a distributed GC, which offloads object tracing to memory servers so that tracing is performed closer to data; and (3) a swap system in the OS kernel that works with the runtime to swap page data efficiently. An evaluation of Semeru on a set of widely-deployed systems shows very promising results.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - 'data structures'
+title: 'OSDI ''20 - AIFM: High-Performance, Application-Integrated Far Memory'
+language: English
+recordingDate: 1605711908
+description: "AIFM: High-Performance, Application-Integrated Far Memory\n\nZhenyuan Ruan, MIT CSAIL; Malte Schwarzkopf, Brown University; Marcos K. Aguilera, VMware Research; Adam Belay, MIT CSAIL\n\nMemory is the most contended and least elastic resource in datacenter servers today. Applications can use only local memory—which may be scarce—even though memory might be readily available on another server. This leads to unnecessary killings of workloads under memory pressure and reduces effective server utilization.\n\nWe present application-integrated far memory (AIFM), which makes remote, “far” memory available to applications through a simple API and with high performance. AIFM achieves the same common-case access latency for far memory as for local RAM; it avoids read and write amplification that paging-based approaches suffer; it allows data structure engineers to build remoteable, hybrid near/far memory data structures; and it makes far memory transparent and easy to use for application developers.\n\nOur key insight is that exposing application-level semantics to a high-performance runtime makes efficient remoteable memory possible. Developers use AIFM’s APIs to make allocations remoteable, and AIFM’s runtime handles swapping objects in and out, prefetching, and memory evacuation.\n\nWe evaluate AIFM with a prototypical web application frontend, a NYC taxi data analytics workload, a memcached-like key-value cache, and Snappy compression. Adding AIFM remoteable memory to these applications increases their available memory without performance penalty. AIFM outperforms Fastswap, a state-of-the-art kernel-integrated, paging-based far memory system by up to 61×.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

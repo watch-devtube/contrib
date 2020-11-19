@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+title: 'OSDI ''20 - LinnOS: Predictability on Unpredictable Flash Storage with a Light Neural Network'
+language: English
+recordingDate: 1605711908
+description: "LinnOS: Predictability on Unpredictable Flash Storage with a Light Neural Network\n\nMingzhe Hao, Levent Toksoz, and Nanqinqin Li, University of Chicago; Edward Edberg Halim, Surya University; Henry Hoffmann and Haryadi S. Gunawi, University of Chicago\n\nThis paper presents LinnOS, an operating system that leverages a light neural network for inferring SSD performance at a very fine — per-IO — granularity and helps parallel storage applications achieve performance predictability. LinnOS supports black-box devices and real production traces without requiring any extra input from users, while outperforming industrial mechanisms and other approaches. Our evaluation shows that, compared to hedging and heuristic-based methods, LinnOS improves the average I/O latencies by 9.6-79.6% with 87-97% inference accuracy and 4-6μs inference overhead for each I/O, demonstrating that it is possible to incorporate machine learning inside operating systems for real-time decision-making.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

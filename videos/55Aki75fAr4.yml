@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'OSDI ''20 - Pegasus: Tolerating Skewed Workloads in Distributed Storage with In-Network Coherence...'
+language: English
+recordingDate: 1605711908
+description: "Pegasus: Tolerating Skewed Workloads in Distributed Storage with In-Network Coherence Directories\n\nJialin Li, National University of Singapore; Jacob Nelson, Microsoft Research; Ellis Michael, University of Washington; Xin Jin, Johns Hopkins University; Dan R. K. Ports, Microsoft Research\n\nHigh performance distributed storage systems face the challenge of load imbalance caused by skewed and dynamic workloads. This paper introduces Pegasus, a new storage system that leverages new-generation programmable switch ASICs to balance load across storage servers. Pegasus uses selective replication of the most popular objects in the data store to distribute load. Using a novel in-network coherence directory, the Pegasus switch tracks and manages the location of replicated objects. This allows it to achieve load-aware forwarding and dynamic rebalancing for replicated keys, while still guaranteeing data coherence and consistency. The Pegasus design is practical to implement as it stores only forwarding metadata in the switch data plane. The resulting system improves the throughput of a distributed in-memory key-value store by more than 10x under a latency SLO -- results which hold across a large set of workloads with varying degrees of skew, read/write ratio, object sizes, and dynamism.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

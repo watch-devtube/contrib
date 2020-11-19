@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - web
+    - react
+    - testing
+title: 'OSDI ''20 - Caladan: Mitigating Interference at Microsecond Timescales'
+language: English
+recordingDate: 1605711908
+description: "Caladan: Mitigating Interference at Microsecond Timescales\n\nJoshua Fried and Zhenyuan Ruan, MIT CSAIL; Amy Ousterhout, UC Berkeley; Adam Belay, MIT CSAIL\n\nThe conventional wisdom is that CPU resources such as cores, caches, and memory bandwidth must be partitioned to achieve performance isolation between tasks. Both the widespread availability of cache partitioning in modern CPUs and the recommended practice of pinning latency-sensitive applications to dedicated cores attest to this belief.\n\nIn this paper, we show that resource partitioning is neither necessary nor sufficient. Many applications experience bursty request patterns or phased behavior, drastically changing the amount and type of resources they need. Unfortunately, partitioning-based systems fail to react quickly enough to keep up with these changes, resulting in extreme spikes in latency and lost opportunities to increase CPU utilization.\n\nCaladan is a new CPU scheduler that can achieve significantly better quality of service (tail latency, throughput, etc.) through a collection of control signals and policies that rely on fast core allocation instead of resource partitioning. Caladan consists of a centralized scheduler core that actively manages resource contention in the memory hierarchy and between hyperthreads, and a kernel module that bypasses the standard Linux Kernel scheduler to support microsecond-scale monitoring and placement of tasks. When colocating memcached with a best-effort, garbage-collected workload, Caladan outperforms Parties, a state-of-the-art resource partitioning system, by 11,000x, reducing tail latency from 580 ms to 52 μs during shifts in resource usage while maintaining high CPU utilization.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"
