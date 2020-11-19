@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - bigdata
+    - ml
+title: 'Maggy: Asynchronous distributed hyperparameter optimization based on Apache Spark Asynchronous algo…'
+language: English
+recordingDate: 1605686718
+description: "Maggy: Asynchronous distributed hyperparameter optimization based on Apache Spark Asynchronous algorithms on a bulk-synchronous system\nby Moritz Meister\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB5.132/maggy.webm\n\nMaggy is an open-source framework built on Apache Spark, for asynchronous parallel execution of trials for machine learning experiments. In this talk, we will present our work to tackle search as a general purpose method efficiently with Maggy, focusing on hyperparameter optimization. We show that an asynchronous system enables state-of-the-art optimization algorithms and allows extensive early stopping in order to increase the number of trials that can be performed in a given period of time on a fixed amount of resources.\nIn \"The Bitter Lesson of AI\", Rich Sutton (father of reinforcement learning) claimed that general purpose methods (like search and learning) that scale with increased computation are the future of AI. Apache Spark is a general purpose framework for scaling out data processing with available compute, but there are challenges in making Sparks' bulk-synchronous execution mechanism work efficiently with search and (deep) learning.\nIn this talk, we will present our work on Maggy, an open-source framework to tackle search as a general purpose method efficiently on Spark. Spark can be used to deploy basic optimizers (grid search, random search, differential evolution) proposing combinations of hyperparameters (trials) that are run synchronously in parallel on executors. However, many such trials perform poorly, and a lot of CPU and hardware accelerator cycles are wasted on trials that could be stopped early, freeing up resources for other trials. What is needed is support for asynchronous mechanisms.\nMaggy is an asynchronous hyperparameter optimization framework built on Spark that is able to transparently schedule and manage hyperparameter trials, by allowing limited communication, thereby increasing resource utilization, and massively increasing the number of trials that can be performed in a given period of time on a fixed amount of resources. Maggy is also built to support parallel ablation studies and applies to black box optimization/search problems in general. We will report on the gains we have seen in reduced time to find good hyperparameters and improved utilization of GPU hardware. Finally, we will perform a live demo on a Jupyter notebook, showing how to integrate Maggy in existing PySpark applications.\n\nRoom: UB5.132\nScheduled start: 2020-02-02 09:30:00"

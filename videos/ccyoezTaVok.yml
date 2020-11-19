@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - azure
+title: 'OSDI ''20 - Providing SLOs for Resource-Harvesting VMs in Cloud Platforms'
+language: English
+recordingDate: 1605711858
+description: "Providing SLOs for Resource-Harvesting VMs in Cloud Platforms\n\nPradeep Ambati, Íñigo Goiri, and Felipe Frujeri, Microsoft Research; Alper Gun, Ke Wang, Brian Dolan, Brian Corell, Sekhar Pasupuleti, and Thomas Moscibroda, Microsoft Azure; Sameh Elnikety, Microsoft Research; Marcus Fontoura, Microsoft Azure; Ricardo Bianchini, Microsoft Research\n\nCloud providers rent the resources they do not allocate as evictable virtual machines (VMs), like spot instances. In this paper, we first characterize the unallocated resources in Microsoft Azure, and show that they are plenty but may vary widely over time and across servers. Based on the characterization, we propose a new class of VM, called Harvest VM, to harvest and monetize the unallocated resources. A Harvest VM is more flexible and efficient than a spot instance, because it grows and shrinks according to the amount of unallocated resources at its underlying server; it is only evicted/killed when the provider needs its minimum set of resources. Next, we create models that predict the availability of the unallocated resources for Harvest VM deployments. Based on these predictions, we provide Service Level Objectives (SLOs) for the survival rate (e.g., 65% of the Harvest VMs will survive more than a week) and the average number of cores that can be harvested. Our short-term predictions have an average error under 2% and less than 6% for longer terms. We also extend a popular cluster scheduling framework to leverage the harvested resources. Using our SLOs and framework, we can offset the rare evictions with extra harvested cores and achieve the same computational power as regular-priority VMs, but at 91% lower cost. Finally, we outline lessons and results from running Harvest VMs and our framework in production.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"

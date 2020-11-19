@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''20 - Toward a Generic Fault Tolerance Technique for Partial Network Partitioning'
+language: English
+recordingDate: 1605711908
+description: "Toward a Generic Fault Tolerance Technique for Partial Network Partitioning\n\nMohammed Alfatafta, Basil Alkhatib, Ahmed Alquraan, and Samer Al-Kiswany, University of Waterloo, Canada\n\nWe present an extensive study focused on partial network partitioning. Partial network partitions disrupt the communication between some but not all nodes in a cluster.\n\nFirst, we conduct a comprehensive study of system failures caused by this fault in 12 popular systems. Our study reveals that the studied failures are catastrophic (e.g., lead to data loss), easily manifest, and can manifest by partially partitioning a single node.\n\nSecond, we dissect the design of eight popular systems and identify four principled approaches for tolerating partial partitions. Unfortunately, our analysis shows that implemented fault tolerance techniques are inadequate for modern systems; they either patch a particular mechanism or lead to a complete cluster shutdown, even when alternative network paths exist.\n\nFinally, our findings motivate us to build Nifty, a trans-parent communication layer that masks partial network partitions. Nifty builds an overlay between nodes to detour packets around partial partitions. Our prototype evaluation with six popular systems shows that Nifty overcomes the short comings of current fault tolerance approaches and effectively masks partial partitions while imposing negligible overhead.\n\nView the full OSDI '20 program at https://www.usenix.org/conference/osdi20/technical-sessions"
