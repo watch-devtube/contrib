@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Support for mini-debuginfo in LLDB How to read the .gnu_debugdata section.'
+language: English
+recordingDate: 1605791016
+description: "by Konrad Kleine\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_mini.webm\n\nThe \"official\" mini-debuginfo man-page describes the topic best:\n\n\n❮blockquote❯Some systems ship pre-built executables and libraries that have a\nspecial ❮code❯.gnu_debugdata❮/code❯ section. This feature is called MiniDebugInfo.\nThis section holds an LZMA-compressed object and is used to supply extra\nsymbols for backtraces.\n\n\nThe intent of this section is to provide extra minimal debugging information\nfor use in simple backtraces. It is not intended to be a replacement for\nfull separate debugging information (see Separate Debug Files).\n❮/blockquote❯\n\nIn this talk I'll explain what it took to interpret support for mini-debuginfo\nin LLDB, how we've tested it, and what to think about when implementing this\nsupport (e.g. merging ❮code❯.symtab❮/code❯ and ❮code❯.gnu_debugdata❮/code❯ sections).\n\nRoom: K.4.201\nScheduled start: 2020-02-02 14:00:00"
