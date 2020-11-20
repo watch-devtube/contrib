@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - aws
+    - architecture
+    - python
+    - javascript
+    - rust
+    - embedded
+title: 'Low-end platform profiling with HawkTracer profiler'
+language: English
+recordingDate: 1605773081
+description: "by Marcin Kolny\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_hawktrace.webm\n\nHawkTracer is low-overhead instrumentation-based profiler built at Amazon Video for platforms with limited capabilities. It's written in C but can be used almost with any other language (we've successfully used it with JavaScript, LUA, Python and Rust). It's highly extensible (at compile time) and portable so it can be run on almost any embedded device. In this talk I'll introduce the architecture of the profiler, present it's advantages and limitations, show how can you instrument the code and demonstrate the profiler in action by running it with an example cross-language (Rust, C++ and Python) project.\n\nRoom: K.4.201\nScheduled start: 2020-02-02 09:05:00"
