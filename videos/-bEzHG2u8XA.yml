@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - redis
+    - go
+title: 'Uplift your Linux systems programming skills with systemd and D-Bus Practical examples and best pra…'
+language: English
+recordingDate: 1605773145
+description: "Uplift your Linux systems programming skills with systemd and D-Bus Practical examples and best practices on how to leverage systemd and D-Bus in Go\nby Leonid Vasilyev\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB2.252A/golinux.webm\n\nSystemd is a de-facto standard process manager in all mainstream Linux distributions for almost a decade.\nD-Bus is most widely used inter-process communication on a local host. It's used in many core apps on Linux Desktop.\n\n\nYet both systemd and D-Bus are undervalued.\nVery often, programs that are only intended to run on Linux attempt to re-implement (with bugs) what systemd and D-Bus already provide\n(for example: watchdog function, reliable process termination, notifying another program about some event, coordination between multiple processes).\n\n\nThe goal of this talk is to shift perspective on systemd and D-Bus (using concrete practical examples in Go),\nand show how basic building block these systems provide can be re-used in software you write for modern Linux system.\nThis is an exploratory talk. Then intent is to look at systemd and D-Bus from a different angle.\n\n\nMost of current tutorials about systemd focused on operating a service like apache, nginx or redis.\nD-Bus tutorials are very abstract, basic and lack any concrete useful use-cases.\n\n\nI plan to present few recent additions to systemd, such as portable services and resource control.\nAs well as re-introduce few existing concepts, like sd-notify, watchdogs and transient units.\n\n\nOn D-Bus I plan to show how to use bus abstraction and few neat features,\nlike passing file descriptors and receiving notifications.\n\n\nThe focus is on how to not re-invent things that systemd and D-Bus do much better.\n\n\nExamples are given as a few simple Golang programs, with full source available on ❮a href=\"https://github.com/lvsl/fosdem-2020-go-dbus-systemd\"❯github❮/a❯.\n\n\nThe indented audience is anyone who write and operate Go code on Linux.\nPreferred experience of the audience: basic knowledge of Linux and Golang, familiarity with systemd and D-Bus concepts would be useful as well.\n\nRoom: UB2.252A (Lameere)\nScheduled start: 2020-02-02 13:30:00"

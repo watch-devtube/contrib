@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - architecture
+title: 'Postmodern strace'
+language: English
+recordingDate: 1605773314
+description: "by Dmitry Levin\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_strace_modern.webm\n\nstrace is a diagnostic, debugging and instructional utility for Linux. It is used to monitor and tamper with interactions between processes and the Linux kernel, which include system calls, signal deliveries, and changes of process state. In this talk the maintainer of strace will describe new features implemented since FOSDEM 2018.\nSeveral interesting features were implemented within strace project since FOSDEM 2018, including:\n\n\n❮ul❯\n❮li❯seccomp-assisted system call filtering❮/li❯\n❮li❯system call return status filtering❮/li❯\n❮li❯PTRACE_GET_SYSCALL_INFO API support❮/li❯\n❮li❯new options: -DD, -DDD, -X, -z, -Z❮/li❯\n❮/ul❯\n\n\nIn this talk the maintainer of strace will describe these new features and demonstrate what kinds of problems they help to solve.\n\nRoom: K.4.201\nScheduled start: 2020-02-02 11:30:00"
