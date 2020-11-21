@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - css
+    - web
+    - javascript
+title: 'Rajat Kumar — Conditional modules & dynamic bundling, a Netflix original'
+language: Russian
+recordingDate: 1605876277
+description: "Ближайшая конференция — HolyJS 2020 Moscow\n25-28 ноября, Online\nПодробности и билеты: https://holyjs-moscow.ru/\n\n. Netflix runs hundreds of A/B tests a year and we have seen exponential growth in variations of user experiences we serve to our Netflix users. Pre-publishing these millions of variations of the UI bundles to allow for these unique experiences, was not possible at Netflix's scale.\n\nSo what did we do?\n\nWe built our own \"Conditional Module Bundler\" on top of Webpack. This talk gives a sneak peek at how Netflix uses \"conditional dependency graph\" and \"runtime dynamic bundling\" to generate and deliver unique UI bundles directly at runtime. The audience will also get to know about the challenges involved and the lessons learned while building such a system.\n\nLearn about how we hacked Webpack for our needs, leveraged Abstract Syntax Tree (AST) to identify conditional dependencies in our dependency graph and glued them all together to build a highly scalable, server-side JS and CSS bundler, that serves these unique user experiences to millions of Netflix customers across the globe."
