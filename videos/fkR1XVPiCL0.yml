@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Creating efficient VM with JIT in Go, Iskander Sharipov'
+language: English
+recordingDate: 1606240235
+description: "GoWayFest 4.0, Online – July 11-12, 2020\n\nCreating efficient VM with JIT in Go, Iskander Sharipov\n\nI’ll reveal a few secrets on how to build an efficient JIT-capable VM in Go as well as how to make it compatible with Go runtime that doesn’t like dynamically generated code (especially in the recent releases).\n\nThis talk will cover several topics that are important for anyone who wants to implement an efficient VM in Go:\n* Instruction dispatch techniques\n* Register-based vs stack-based virtual machines\n* Generation and execution of the machine code during the run time (JIT)\n* Calling Go functions from the JIT’ed code\n* How to use Go GC in your VM properly\n* Object allocation tricks in Go."

@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - go
+    - mobile
+    - ios
+title: 'Reverse Engineering iOS Screen Mirroring with Golang, Daniel Paulus'
+language: English
+recordingDate: 1606240229
+description: "GoWayFest 4.0, Online – July 11-12, 2020\n\nReverse Engineering iOS Screen Mirroring with Golang, Daniel Paulus\n\nHave you ever wondered how closed source features are reverse engineered? I find few things as challenging and fun as creating meaning from a bunch of hex dumps only by using analytical and engineering skills, to open up a proprietary protocol and build working software on top of it. \n\nThe QuickTime application gives you the possibility to stream and record live audio and video from iOS devices connected to a MacOSX host. I was interested in seeing how this feature works and how it can be implemented in Go to enable all operating systems to support it.\n\nAs usual, Apple did not publish any documentation on how this feature works. Therefore, the only way to get there was to reverse engineer it from scratch. I managed to get a working implementation for Linux and would like to share and discuss my approach to reverse engineering this protocol. I find reverse engineering these features very rewarding because as you Go, you get the chance to really understand how things like h264, pcm audio, synchronization or USB data transfers work on a low level.\n\nIn my talk I will show you:\n- how to debug and analyze USB traffic on a Mac with Wireshark;\n- easy ways of how to make sense of network/usb protocols just by looking at hex dump representations;\n- how to implement a USB device codec with golang and libusb;\n- and how to stream h264 video data over the network or save it to a file.\n\nThe whole project is MIT licensed and well documented, so that anyone can go ahead and implement it in their favorite language."

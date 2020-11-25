@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - containers
+    - kubernetes
+    - architecture
+title: 'Designing for failure, Italo Vietro'
+language: English
+recordingDate: 1606240243
+description: "GoWayFest 4.0, Online – July 11-12, 2020\n\nDesigning for failure, Italo Vietro\n\nWe have neglected failure for quite some time in our industry, but how can we design for failure? And especially, how Go can help us to be prepared for the unexpected?\n\nIn this talk, I would like to present a few of the resilient patterns that we can apply in distributed systems. In recent years, we’ve been talking more and more about failure and resilience in a distributed system architecture. Unfortunately, failure has been neglected for quite some time in our industry. Systems have grown to be much more complex and challenging to deal with, especially in the Kubernetes era.\n\nWith all this new complexity it comes the question: how can we design systems to be resilient and ready to fail?\n\nThis is something that mission-critical systems always had to think of first, but many of our services (until today) neglect the importance of this. \n\nThere are many concepts we can learn and use from other fields like electronics, aviation or naval industries that will help us be prepared for the unexpected.\n\nIn this talk, I would like to talk about:\nHow to design a system for failure?\nWhat are the pitfalls and gotchas that we have to be prepared in a microservice environment?\nHow can SRE principles help us get there?\nAnd most importantly, how do we put this into practice?"
