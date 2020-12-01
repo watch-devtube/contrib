@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - python
+title: 'Benoit Chesneau - gen_persistence: persist the state of your processes | Code BEAM STO 19'
+language: English
+recordingDate: 1567764796
+description: "This video was recorded at Code BEAM STO 19 http://bit.ly/2W2vgDC\n\nGet involved in Code Sync's next conference http://bit.ly/2Mcm4aS\n\n---\n\nGEN_PERSISTENCE: PERSIST THE STATE OF YOUR PROCESSES\nby Benoit Chesneau\n\nTHIS TALK IN THREE WORDS:\nStateful \nPersistence\nActor\n\nTALK LEVEL: Intermediate\n\nABSTRACT\nOften we want to persist the state of our Erlang processes so that it can be recovered after a crash, started/restarted on demand (via a supervisor or manually) or migrated in the cluster via a storage provider. To solve it I have created a  new small opensource library.\n\nWith gen_perstistence  all events coming to your modules are stored to the disk and replayed on the restart but it’s also possible to store a snapshot of the state to reduce the recovery time. An implementation of gen_statem and gen_server with persistence is also provided.\n\nRead the full abstract: https://codesync.global/speaker/benoit-chesneau/\n\n---\n\nTHE SPEAKER - BENOIT CHESNEAU\nP2P solutions and database craftsman\n\nBenoît Chesneau is an IT craftsman, living near Paris. He has years of experience in building small and big-scale database backend websites. He is the founder of a company building innovative web services and open-source applications. Benoît Chesneau is also the founder of the Barrel projects, the author of Gunicorn and multiple other opensource projects in Python and Erlang.\n\n\nMore on Benoit Chesneau: https://codesync.global/speaker/benoit-chesneau/\n\n---\n\nCODE SYNC & CODE BEAM STO 19\nCode BEAM STO is powered by Code Sync. Code BEAM STO 19 was sponsored by Klarna, The RealReal, Erlang Solutions, dek technologies, Derivco Sports, and aeternity. \n\nCODE SYNC \nWebsite: www.codesync.global\nTwitter: www.twitter.com/CodeBEAMIO\nFacebook: https://www.facebook.com/CodeSyncGlobal\nLinkedIn: https://www.linkedin.com/company/code-sync/\nMail: info at codesync.global\n\n#Erlang #GenPersistence #P2P"
