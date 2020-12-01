@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - elixir
+    - java
+    - rust
+    - embedded
+title: 'Paul Schoenfelder - Lumen - Bringing the BEAM to WebAssembly and Beyond | Code Mesh LDN 19'
+language: English
+recordingDate: 1576152012
+description: "This video was recorded at Code Mesh LDN 19 - http://bit.ly/37xc3Nr\n\nGet involved in Code Sync's next conference - http://bit.ly/2Mcm4aS\n\n---\n\nLUMEN - BRINGING THE BEAM TO WEBASSEMBLY AND BEYOND\nby Paul Schoenfelder\n\nTHIS TALK IN THREE WORDS:\nBEAM\nWebAssembly\nCompilers\n\nTALK LEVEL: Beginner\n\nABSTRACT\nLumen is a new compiler and runtime for BEAM languages (currently Erlang and Elixir) that supports targeting environments that were previously unsupported or infeasible for the BEAM virtual machine, e.g. WebAssembly, bare metal embedded hardware and more. To best support these new targets, Lumen takes an alternative implementation approach compared to the BEAM - rather than being constructed as a compiler that produces bytecode which is then executed by a virtual machine, Lumen is instead an ahead-of-time compiler that produces native code in the form of a standalone executable. It builds on the capabilities and ecosystem provided by the Rust and LLVM toolchains, and makes it possible to apply BEAM languages to domains that were previously inaccessible.\n\nThe beta release of Lumen in late August provided an early preview of the new compiler, with primary support for WebAssembly, as well as secondary support for x86_64. This talk will share more about Lumen, where it is currently, and what we have planned for it in the near future and beyond.\n\nSlides & full abstract: https://codesync.global/speaker/paul-schoenfelder/\n\n---\n\nTHE SPEAKER - PAUL SCHOENFELDER\nProlific open source contributor, borderline workaholic. Speaker at multiple ElixirConfs, as well as CodeBEAM SF ’18, LoneStar Elixir ’18/’19.\n\nPaul is currently an Architectural Engineer at DockYard, he came to Erlang and Elixir after about 10 years of working with .NET and JVM languages, and has spent the past 4 years working with the BEAM professionally.\n\nPaul is the author of a variety of tools and libraries for Elixir, most notably Distillery and Timex.\n\nMore on Paul Schoenfelder: https://codesync.global/speaker/paul-schoenfelder/\n\n---\n\nCODE SYNC & CODE MESH LDN 19\nCode Mesh LDN is powered by Code Sync. Code Mesh LDN 19 was sponsored by WhatsApp, Microsoft, Erlang Solutions, Juxt, aeternity, Duffel, and IOHK. \n\nCODE SYNC \nWebsite: www.codesync.global\nTwitter: www.twitter.com/CodeMeshIO\nFacebook: https://www.facebook.com/CodeSyncGlobal\nLinkedIn: https://www.linkedin.com/company/code-sync/\nMail: info at codesync.global\n\n#WebAssembly #Compilers"
