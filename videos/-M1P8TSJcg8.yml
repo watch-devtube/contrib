@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - functional
+title: 'Jean Rouge - The Magic Behind Immutable Maps - Code BEAM SF 2018'
+language: English
+recordingDate: 1521251621
+description: "Erlang variables are immutable. But what happens when we do `Map2 = maps:put(Key, Value, Map1)`? Surely the VM doesn't copy all of Map1 to a new Map2 in memory just to add that new Key-Value pair? But then how does it give us the illusion that Map1 still exists, without the new pair? How does it keep track of which erlang map contains which pairs? And which performance costs do our applications pay for that magic?\n\nMore details here: https://codesync.global/speaker/jean-rouge/"

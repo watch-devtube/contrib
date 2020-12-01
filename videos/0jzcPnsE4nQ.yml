@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - elixir
+    - phoenix
+    - security
+title: 'Bram Verburg - Learn you some ''ssl'' for much security! - ElixirConfEU 2019'
+language: English
+recordingDate: 1558090503
+description: "Bram Verburg - Security advocate, BEAM enthusiast\n\nLearn you some 'ssl' for much security!\n\nTalk in three words: TLS, security, troubleshooting\n\nAbstract\nErlang/OTP's built-in 'ssl' application forms the basis of many client and server packages. Unfortunately it has quite a few quirks, potentially leading to weak security. This talk highlights the most important client and server settings for 'ssl' sockets, how the defaults have evolved across OTP versions, and how popular libraries build on them. Topics include cipher suite selection, server hostname verification, known certificate issues (wildcard SAN, cross-signed CA), revocation checks, ECDSA servers, and more.\n\nObjectives\nLearn to apply secure TLS configurations to clients and servers, either directly with the OTP 'ssl' application or through the many libraries that rely on it: Ranch, Cowboy, Plug, Phoenix, httpc, Hackney, HTTPoison, etc.\n\nAudience\nAnyone building applications that include TLS client or server functionality, directly or through packages, which means just about anyone developing on the BEAM.\n\nThe speaker \nBram is an architect and security advocate with more than 20 years experience delivering complex software platforms to tier-1 telcos around the world, meeting their stringent security and reliability requirements. He has been using Erlang, and later Elixir, since 2010.\n \nAs a security advocate, he has taken an interest in the security aspects of the Erlang/OTP ecosystem. This focus he has also continued as a blogger, trainer, speaker, and open source contributor. His latest project is the X509 package, available on Hex.\nGithub: voltone\nTwitter: @voltonez\n\nElixirConf EU\nWebsite: www.elixirconf.eu\nTwitter: www.twitter.com/elixirconfeu\nMail: info at elixirconfeu"

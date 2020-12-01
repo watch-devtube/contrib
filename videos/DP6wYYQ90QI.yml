@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - elixir
+    - mobile
+    - ios
+    - security
+title: 'Paul Rogers - Is Security on Your Nerves  - Code BEAM SF 2018'
+language: English
+recordingDate: 1521256838
+description: "Help me HTTPS, you’re my only hope! Then again, maybe not.\n\nIn this presentation I’ll show an iPad app that communicates with three Raspberry Pi 3 devices, each controlling a stop light via Elixir and Nerves. So how do we secure the communication such that only the iOS app controls the lights?\n\nWe'll look at three RPi3 setups, each identical save one very important, security related difference:\n\n    no security (http),\n    TLS based security (https),\n    and application layer security (srpc).\n\nWe'll discuss why systems based on RSA, initially designed to solve an open system problem, should not be applied in a rote manner to closed system problems. And we'll look at how the Secure Remote Password (SRP) protocol can offer mutually authenticated application layer security that leaves no room for Man-in-the-Middle issues and attacks.\n\nMore details here: https://codesync.global/speaker/paul-rogers/"
