@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - embedded
+title: 'Devon Estes - Inside memory management on the BEAM - Code BEAM Lite Munich 2018'
+language: English
+recordingDate: 1545733800
+description: "This video was recorded at Code BEAM Lite Munich 18: https://codesync.global/conferences/cbl-munich-2018/\n\nGet involved in Code BEAM Lite conference: https://codesync.global/conferences/code-beam-lite-italy/\n---\nTALK TITLE\nInside memory management on the BEAM\nby Devon  Estes\n\nThe BEAM was designed to run on 1980's hardware and never crash. How does it manage to run for so long on machines with such little memory and still have such good soft-real time performance? This talk will explore the answer by looking at the basics of how the BEAM handles memory in processes and a bit about its very special garbage collection algorithm.\n---\nTALK OBJECTIVES\nFor developers who aren't very experienced with low level programming or with VM internals, I would like for them to learn a few new concepts, like what a generational garbage collector is, what a heap is, and what a stack is. For more advanced developers, we're going to use those basics to show things like how you can monitor your application's memory usage through hooking into the garbage collection events emitted by the BEAM tracing module, how this might affect optimizing your application if you're in a low-memory environment (like IOT devices), and some more resources for further learning.\n---\nTHEMES\ngarbage-collection \ninternals \noptimizations\n---\nCode BEAM Lite LDN was brought to you by Code Sync. \n\nCODE SYNC Website: www.codesync.global \nTwitter: www.twitter.com/CodeMeshIO Facebook: https://www.facebook.com/CodeSyncGlobal \nLinkedIn: https://www.linkedin.com/company/code-sync/ Mail: info at codesync.global"

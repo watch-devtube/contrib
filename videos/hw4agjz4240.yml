@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - mobile
+title: 'Carlos Baquero - CRDTs: From sequential to concurrent executions | Code Mesh LDN 18'
+language: English
+recordingDate: 1545824701
+description: "This video was recorded at Code Mesh LDN 18 http://bit.ly/2P7SPII\n\nGet involved in Code Sync's next conference http://bit.ly/2Mcm4aS\n\n---\n\nCRDTS: FROM SEQUENTIAL TO CONCURRENT EXECUTIONS\nby Carlos Baquero\n\nTHIS TALK IN THREE WORDS:\nCRDTs\nGeo-replication\nHigh availability\n\nTALK LEVEL: Intermediate\n\nABSTRACT\nWhen nodes are spread across large geographic distances, being available for local users, and providing short response times, is often at odds with keeping strong consistency across the whole system. Several systems, that target large scale geo-replication, support multi-master operation and transient data divergence, allowing each site to update replicas with no immediate coordination.  From the user application perspective, the system cannot be seen anymore as a single sequential copy, since now operations can be processed concurrently at different locations. Conflict-free Replicated Data Types (CRDTs) can take away a lot of the complexity when migrating from a sequential to a concurrent setting. \n\nIn this talk we will explore a bit of the path in this transition, cover what can be expected, and present a few guiding principles. Concurrent behaviour will be explored for common data types, such as counters, registers, sets and sequences. \n\nRead the full abstract: http://codesync.global/speaker/carlos-baquero-moreno/\n\n---\n\nTHE SPEAKER - CARLOS BAQUERO\nDistributed Systems Professor, Co-creator of CRDTs\n\nCarlos Baquero is an Assistant Professor and teaches Distributed Systems at Universidade do Minho, Portugal. He is a Senior Researcher at the High Assurance Software Laboratory within INESC TEC. In the 90s, motivated by mobile computing and offline operation for file systems, he studied data types with merge operations over semi-lattices, a precursor to state-based CRDTs.\n\nAs an academic, he believes on pursuing research that can have a practical impact. His work on causality tracking, scalable bloom filters, and CRDTs made its way into several products and systems, running in production worldwide. Away from computers he enjoys mountain climbing, and scavenging for old mechanical calculators.\n\nMore on Carlos Baquero: http://codesync.global/speaker/carlos-baquero-moreno/\n\n---\n\nCODE SYNC & CODE MESH LDN 18\nCode Mesh LDN is powered by Code Sync. Code Mesh LDN 18 was sponsored by WhatsApp, Toyota Connected, Erlang Solutions, TEAMango, and aeternity. \n\nCODE SYNC \nWebsite: www.codesync.global\nTwitter: www.twitter.com/CodeMeshIO\nFacebook: https://www.facebook.com/CodeSyncGlobal\nLinkedIn: https://www.linkedin.com/company/code-sync/\nMail: info at codesync.global\n\n#CodeMesh #CRDTs #GeoReplication #HighAvailability"

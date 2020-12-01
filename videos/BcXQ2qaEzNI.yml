@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - elixir
+title: 'Kofi Gumbs - Getting to the BEAM, without going through Erlang - Code Beam STO'
+language: English
+recordingDate: 1530181302
+description: "Using Erlang to create a language for the BEAM is well-modeled, with projects like Elixir, LFE, and Alpaca growing in popularity and maturity. There are several benefits to leveraging the Erlang toolchain; however, one restriction screams out: your compiler has to be written in Erlang! (*Yes, technically your compiler could also be self-hosted).\n\nBut what if, despite conventional models, the BEAM itself is a friendly, open compilation target? Are there benefits to sidestepping the Erlang toolchain altogether?\n\nIn this talk, we'll discuss the making of a compile-to-BEAM language, from scratch. You will have a guided tour through codec-beam, a BEAM assembler written in Haskell, which provides an explicit model for the BEAM's semantics. Finally we'll compare that project to the Erlang compiler's assembler, and see if we can beat OTP at it's own game!\n\nOBJECTIVES\n\nIntroduce the audience to the BEAM file format and some of the decisions encoded into the Erlang compiler. Audience members should leave knowing why BEAM may or may not be a great candidate platform for their next language project.\n\nMore details: https://codesync.global/speaker/kofi-gumbs/"

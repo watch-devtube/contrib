@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - startup
+    - craftsmanship
+    - agile
+    - architecture
+title: 'Arnaud Bailly & Yann Schwartz - One Log | Code Mesh LDN 18'
+language: English
+recordingDate: 1545480008
+description: "This video was recorded at Code Mesh LDN 18 http://bit.ly/2P7SPII\n\nGet involved in Code Sync's next conference http://bit.ly/2Mcm4aS\n\n---\n\nONE LOG\nby Arnaud Bailly\n\nTHIS TALK IN THREE WORDS:\nLog\nEmerging grammar\nEvents\n\nTALK LEVEL: Intermediate\n\nABSTRACT\nEvery application has a narrator commenting its execution, be it a humble println or a more structured log. But this narrator is unreliable: It decides what's important and what's not, forgets to mention the juiciest parts of the plot, and usually rambles for gigabytes.\n\nThere's more narration coming out of your application: metrics, tracing, all the system chatter that surrounds a running process - databases, message queues, git dags, etc., which deep down are logs. On the other side of the spectrum, Event Sourcing  means to exhaustively describe all event affecting the state of the application and focusing on its dynamics. Logs - all the way down.\n\nBut what if there was One Log? What if we used well structured messages, integrating in a single stream dtrace application logs, iostat metrics, prometheus signals, and domain events. What if we relinquished up-front filtering and throttling and let serendipity do its job? What if the separate realms of information (business events, kibana views, grafana boards) we work with were just views of a big stream of log events?\n\nThis session will be a live-running experiment exploring what information we can harvest from this hoard of data. Building upon a simple event source application, we'll aggregate more events, implement traffic replay as a reverse event log, embrace system logs, treat log streams as a language with its semantics and model, and see what that emerging narrative tells us.\n\n\nRead the full abstract: http://codesync.global/speaker/arnaud-bailly/\n\n---\n\nTHE SPEAKER - ARNAUD BAILLY\nCrafting software since 1994\n\nArnaud Bailly has been a researcher, consultant, agile and XP coach, architect, developer, trainer and teacher, CTO for startups\n\nMore on Arnaud Bailly: http://codesync.global/speaker/arnaud-bailly/\n\n---\n\nCODE SYNC & CODE MESH LDN 18\nCode Mesh LDN is powered by Code Sync. Code Mesh LDN 18 was sponsored by WhatsApp, Toyota Connected, Erlang Solutions, TEAMango, and aeternity. \n\nCODE SYNC \nWebsite: www.codesync.global\nTwitter: www.twitter.com/CodeMeshIO\nFacebook: https://www.facebook.com/CodeSyncGlobal\nLinkedIn: https://www.linkedin.com/company/code-sync/\nMail: info at codesync.global\n\n#CodeMesh #Logs\_#EmergingGrammar #Events"

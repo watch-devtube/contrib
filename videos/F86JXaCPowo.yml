@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'distributed systems'
+    - elixir
+    - rust
+title: 'Sonny Scroggin - Taking Erlang Elixir to the Metal - Code BEAM SF 2018'
+language: English
+recordingDate: 1521275573
+description: "Elixir is a great choice for most applications. It's powered by the battle-tested Erlang VM know as the BEAM. It allows programmers to build incredibly fast, efficient, scalable, and fault-tolerant distributed systems.\n\nWhat more could you ask for?\n\nAs it turns out, Elixir isn't the fastest kid on the block. And while raw CPU speed matters little for most applications, there does exist a couple reasons you might want want to reach for tools that give you access to native power.\n\nIn this talk we're going to discuss Native Implemented Functions (NIFs) - Erlang's Foreign Function Interface (FFI).\n\nNIFs are normally implemented in C and are considered dangerous. But we're going explore writing safer NIFs in Rust - a new systems programming language developed by Mozilla, that focuses on memory safety.\n\nWe'll talk about the pitfalls with writing NIFs and how Rust can make this process easier and safer.\n\nMore details here: https://codesync.global/speaker/sonny-scroggin/"

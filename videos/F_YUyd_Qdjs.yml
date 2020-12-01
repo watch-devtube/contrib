@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+title: 'Timmo Verlaan - No(de) discovery without DNS & EPMD - Code BEAM STO'
+language: English
+recordingDate: 1531413222
+description: "Distributed Erlang makes writing distributed applications a breeze. However, setting up distributed Erlang is not always as easy in local (Nerves) or containered (Docker) environments. We explore how Erlang distribution is started by a node. After starting Erlang distribution usually nothing happens until the user requests to connect to another node. The other node has then to be discovered in order to be able to connect to it. Currently only DNS is supported to find other nodes and EPMD to discover the correct port. Alternative discovery mechanisms exist but are not (yet) natively supported by Erlang distribution.\n\nThis talk will cover a new feature that will add native support and the road to merging it into Erlang/OTP.\n\nOBJECTIVES\n\nSpread knowledge about a new feature coming to Erlang and how you can add new features yourself. It is not hard!\n\nMore details here: https://codesync.global/speaker/timmo-verlaan/"
