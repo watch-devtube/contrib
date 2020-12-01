@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Peer Stritzinger and Adam Lindberg - Prototyping with new OTP 21 API - Code Beam STO'
+language: English
+recordingDate: 1529314833
+description: "Distribution has always been a strong side of Erlang, but it has its own limitations. Projects with specific requirements often resort to external or application-level workarounds to circumvent them. As we want to keep using Erlang distribution even in extreme use-cases, we are focusing on fixing these issues.\n\nWe explain how the new API for custom distribution in Erlang 21 lets you build your own distribution protocol.  This helps us especially to prototype our extensions to Erlang distribution to scale it better and make it more universally usable.\n\nA well-known limitation is Head-of-Line blocking. It makes the latency of messages unpredictable and it gets even worse with mesh networks.  We show the results of our prototype to fix this problem.\n\nThis prototype also is the first step to more scalability by enabling message routing between nodes.  We explain how link state routing protocols work and show how one of them which is very extensibe and which we plan to use for solve routing, discovery and maybe even global process registry.\n\nMore details here: http://codesync.global/speaker/peer-stritzinger/"
