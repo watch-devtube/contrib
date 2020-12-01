@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'Mikhail Vorontsov -  ForgETS: a globally distributed database - Code Beam STO'
+language: English
+recordingDate: 1529315006
+description: "ForgETS is a globally distributed, replicated in-memory, database collocated with business logic. It allows WhatsApp to have globally replicated datasets with optional disk persistence collocated with our business logic, which provides zero latency data access allowing WhatsApp to sustain temporary network and server outages. ForgETS' design is based on Mnesia with additional support for:\n\n1) network blips and subsequent auto reconciliation\n\n2) explicit support for globally replicated datasets which enforces different replication/reconciliation rules across different regions\n\n3) easier schema management allowing to user to add more servers into the cluster by means of configuration files updates\n\nMore details on website here: http://codesync.global/speaker/mikhail-vorontsov/"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - elixir
+title: 'Scott Lystig Fritchie - Wide World of Actors  - Code BEAM SF 2018'
+language: English
+recordingDate: 1521271887
+description: "As Erlang & Elixir/OTP programmers, the actor model of computation sits comfortably in our minds. Processes that communicate only by message passing makes building concurrent applications easy. It feels natural. We take it for granted. The Pony language started with the same foundation as Erlang: the actor model of message passing and independent, concurrent computing units.\n\nBut Pony is a very different beast. Pony uses a strong static type system to create crash-free, concurrency-safe access to sharable, garbage-collected memory without running in a virtual machine.\n\nTo begin, Scott will review the actor model's definition and history. He will then discuss the design trade-offs that took Erlang/OTP's and Pony's implementations down very different paths. As an example, Erlang/Elixir's \"selective receive\" feature allows message handling in any order. Pony's message receiving is strictly first-in first-out (FIFO) order only. What good comes from that difference?"

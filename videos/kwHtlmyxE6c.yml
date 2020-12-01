@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - elixir
+    - devops
+title: 'Tian Chen - Release, Deploy, Monitor and Upgrade Elixir Services in Real World  - Code BEAM SF 2018'
+language: English
+recordingDate: 1521274942
+description: "Although Elixir has been rapidly adopted in the past few years, it still lacks a general guide and practices on releasing, deploying and upgrading (maintaining) the elixir services in a production environment.\n\nIssues around this subject include:\n\n    How can Elixir release be integrated with github release?\n    How can Elixir service deployment and upgrade be integrated with devOps tools (like ansible)?\n    How can we quickly respond to failures and anomaly behavior of running Elixir services?\n\nThis talk shares the discoveries we have made at Tubi TV for the whole process.\n\nIncluding:\n\n    Using distillery to generate the release and hot upgrade release.\n    Building our own tool to make the artifacts once a github release is created.\n    Building ansible script to do rolling upgrade or hot upgrade, enabling engineers to run one command to deploy a release without disrupting the production service.\n    Using sentry logger for error logging and integrating datadog for monitoring and alerting.\n\nOBJECTIVES\n\nShare our experience and discoveries on how to release, deploy and upgrade Elixir services.\n\nMore details here: https://codesync.global/speaker/tian-chen/"

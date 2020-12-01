@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+title: 'Jörgen Brandt - Beyond state machines: services as petri nets - Code BEAM STO'
+language: English
+recordingDate: 1531412884
+description: "An important design principle in Erlang is the integration of domain models as OTP behaviours. Services managing session state, resource allocation, or service start order are often modeled as state machines. And several OTP behaviours around state machines have been conceived for Erlang. However, plain state machines often suffer from the explosion of the state space as soon as multiple state variables appear in combination. Also some applications have only an infinite representation, if modeled as a state machine.\n\nWe address these challenges by introducing gen_pnet, a new OTP behaviour based on Petri nets. Petri nets are a class of transition systems generalising service state by representing state as tokens produced and consumed by transitions. We consider several examples for Petri nets in gen_pnet such as a worker pool, a scheduler, as well as a distributed programming language. We also discuss how Erlang error handling facilities play with gen_pnet and how unit testing works.\n\nMore details here: https://codesync.global/speaker/joergen-brandt/"

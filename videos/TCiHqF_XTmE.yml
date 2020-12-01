@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+title: 'Martin Sumner -  Riak 3.0 and efficient anti-entropy - Code BEAM STO'
+language: English
+recordingDate: 1531414496
+description: "In distributed databases, data will be stored in multiple machines across multiple locations - but when changes could be passed to any of those machines how should one confirm that not only has all data reached all locations, but that the data is still there later?\n\nWork is underway for Riak KV 3.0, the first major release of Riak KV since the project went fully open-source, to try and improve the efficiency of how the entropy problem is addressed. The talk should explain why and how this issue is to be handled, and what feature enhancements this will allow going forward.\n\nThe improvements are focused on re-designing Riak’s use of Merkle Trees, a data structure recently popularised though its use in Blockchain systems. The redesign changes how Merkle Trees are stored and calculated, and includes a mechanism for aligning the querying of data in Log-Structured Merge Trees with the Merkle Trees that represent the data.\n\nMore details on website here: https://codesync.global/speaker/martin-sumner/"

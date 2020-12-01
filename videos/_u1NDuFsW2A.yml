@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - javascript
+title: 'Josef Svenningsson - A gradual type system - Code BEAM STO'
+language: English
+recordingDate: 1530889778
+description: "This talk introduces a new type system for Erlang based on Gradual Typing. The principles of Gradual Typing has emerged in the type system research community over the last decade and has, amongst other things, resulted in TypeScript, a typed dialect of JavaScript. Gradual Typing is tailored to mix static and dynamic code. The type system provides pay-as-you-go static checking: the more type annotation in the program, the more static checking will be performed.\n\nThe tool we've developed uses Erlang's current syntax for specs, and it works on existing code bases without change.\n\nDialyzer is currently the most popular tool for the static checking of Erlang. Our gradual type system turns out to be somewhat complementary to Dialyzer. While Dialyzer aims to give no false positives, our type system always reports an error whenever a type spec doesn't match the code. We'll provide an in-depth comparison of the two tools.\n\nOBJECTIVES\n\nPresent our new type checking tool for Erlang.\n\nMore details here: https://codesync.global/speaker/josef-svenningsson/"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - elixir
+title: 'Aish Dahal - Simple is beautiful: building an SLA monitoring tool at PagerDuty - Code BEAM STO'
+language: English
+recordingDate: 1531413069
+description: "Starting in 2016, PagerDuty started replacing a lot of its in-house custom monitoring tools and SLA calculators with off-the-shelf software. However, one critical piece of monitoring involving detailed business logic could not be replaced with anything off-the-shelf. As a result, PagerDuty built its own highly available Elixir powered monitoring tool that used Kafka not only as a communication layer but also as a storage layer. This talk is a story of how PagerDuty replaced a complex in-house monitoring tool with a simpler and more reliable/scalable one all by using Elixir/OTP.\n\nOBJECTIVES\n\nThis talk demonstrates how the message based paradigm championed by Erlang and adopted in Elixir helped address PagerDuty's scalibility woes, all while keeping the codebase minimal and maintainable.\n\nMore details on website here: https://codesync.global/speaker/aish-dahal/"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Kenneth Lundin - Logger a new API for logging - Code BEAM STO'
+language: English
+recordingDate: 1531482506
+description: "The main goal with \"logger\" is to standardise an API for logging, allowing the application implementer to use this API without making any assumptions about the logging backend that will be used in the final system. That is, we want to remove the dependency, between applications and logging facility. The main goal is not to remove the need for good logging applications like Lager, but to lift the decision about logging from the low level application implementer to the high level system architect. This will also make it easier to combine applications from different providers - since the same API is always used. Thus, individual applications don't need a dependency to a logging backend such as Lager. That dependency is decided on system level instead.\n\nWe want a built-in logging feature which is \"good\" by default, but which can be customized and extended if needed.\n\nThe talk will tell you how it works and explain the design decisions.\n\nMore details on website: https://codesync.global/speaker/kenneth-lundin/"
