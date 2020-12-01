@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - testing
+title: 'How to Use SQL Plan Baselines and SQL Profiles'
+language: English
+recordingDate: 1606758365
+description: "The Oracle optimizer has many tools and tricks for finding the best plan for each query. But in some cases, it may struggle to find a fast plan. Luckily Oracle Database has many tools to help the optimizer pick a good plan for each query.\n\nThis session gives an overview of plan baselines and profiles to assist the optimizer. It shows you how they work, explains the differences between them and why you would use one over the other.\n\nHighlights of this session include:\n\n01:20 - SQL Profiles, how to create them, why, and what they are\n05:00 - SQL Plan Management and baselines, how to create them, why, and what they are\n07:30 - SQL Profiles alternative usage - tricks to constraint SQL plans\n11:00 - Licensing for SQL Plan Management\n12:25 - Using SQL baselines when migrating databases\n14:00 - Why should you avoid hints in SQL?\n19:15 - Evolving plans with SQL plan management\n22:30 - Demo showing how to create SQL Profiles and SQL Baselines and how they're different\n29:08 - Using SPM with Real Application Testing\n31:00 - Dealing with large data changes\n34:10 - Using SQL Profiles and SQL Plan Baselines together\n38:20 - Dealing with variable numbers of bind variables for an IN list (e.g. IN (:b1, :b2), IN (:b1, :b2, :b3)\n40:30 - How many SQL plan baselines can you have?\n42:35 - Managing profiles when changing the columns in a table\n45:25 - Using SPM on a few SQL statements\n47:05 - Using SPM with Database In-Memory\n48:50 - Using SPM on overloaded databases\n50:40 - How to get in touch with Nigel with your SPM questions\n52:00 - Final recap and comparison"
