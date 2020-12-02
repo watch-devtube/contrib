@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - testing
+    - craftsmanship
+    - 'code design'
+    - tdd
+    - agile
+    - java
+title: 'Thomas Sundberg -- Tell, don''t ask'
+recordingDate: 1394181108
+description: "Bio:\n\nThomas Sundberg is a consultant based in Stockholm, Sweden. He has a Masters degree in Computer Science from the Royal Institute of Technology, KTH, in Stockholm. Thomas has been working as a developer for more than 20 years. He has taught programming at The Royal Institute of Technology, KTH, one the leading technical universities in Sweden. Thomas has developed an obsession for technical excellence. This translates to Software Craftsmanship, Clean Code, Testing and Automation.\n\nThomas is also a speaker at different conferences and developer venues, including eXtreme Programming XP, Agila Sverige, Öredev, Turku Agile Day, Agile Central Europe, GeeCON, Java Developer Day, Agile By Example, Scandinavian Developer Conference and Agile Testing Days.\n\nThomas runs a blog where he writes about programming, Software craftsmanship and whatever problem he wants to share a solution about. It can be found at http://thomassundberg.wordpress.com/\n\n\nPresentation I:\nTell, don't ask\nLanguage: EN\n\nTest driven development follow this pattern\n\n    Setup\n    Execute\n    Verify the new state\n\nAsking the system under test for its new state has traditionally been done to check the new state.\n\nThis can create problems with the Law of Demeter. The system under test knows unnecessary much about the objects it is collaborating with. This may not seem like a big deal, but when you try to break things apart and replace an object you may end up with refactoring a lot more than you actually wanted. It is like pulling up a tree with the roots. You will damage the ground a lot and have tons of soil among the roots afterwards.\n\nAnother approach would be to tell the system under test what to do and verify that it has been told properly. This will reduce coupling between objects, not break encapsulation, allocate functionality in the proper place, name functionality better according to the problem domain and prevent classes from being feature envy.\n\nI will show some examples where I ask for the state and then compare them when I apply Tell -- don't ask and discuss the differences."
