@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+    - java
+title: 'Jakub Kubryński "Microbenchmarks performance in the smaller scale"'
+recordingDate: 1358527023
+description: "A lot of us encounter the dilemma of choosing one of many possible solutions to the specific programming task. The first method to compare their performance that comes to mind is to use System.currentTimeMillis() before and after execution. But how can we be sure that the simplest answer is also the best one? We should note that ignoring the constraints of the Java Virtual Machine architecture often give us false conclusions which leads to wrong design decisions.\n\nSo how to properly measure the execution time of the loop processing or method call to get meaningful results which can then result in increased performance on production environment? During the presentation I will outline potential pitfalls in the benchmark implementations and show the methods and tools that can be used to solve this issue properly."

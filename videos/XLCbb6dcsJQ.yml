@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - craftsmanship
+    - 'data structures'
+title: 'Patrycja Wegrzynowicz "Automated Refactoring of Performance and Concurrency AntiPatterns"'
+recordingDate: 1358537997
+description: "What is the difference between O(n^2), O(log n), and O(1)? What happens if we design too long critical section? What about fine-grained communication in a distributed environment? These are not only academic questions, these are real-world problems. Even though enterprise applications usually do not require fancy algorithms, they often operate on relatively large data-sets in highly concurrent and distributed environments.\n\nThis talk presents several performance and concurrency anti-patterns along with a tool demo to automatically refactor them. We discuss performance anti-patterns related to slow data structures, inefficient data- and call-flows, and suboptimal critical sections. Then, we explain how such anti-patterns can be refactored to more appropriate structures applying the best strategy based on their usage patterns, yet guaranteeing the same semantic. During the demo we show how Yonita Optimizer improves an exemplary application. We also present the results of optimization for an open-source projects, including the before and after execution times along with the refactored code available to download.\n\nYonita Optimizer is a source-to-source pre-compile refactoring tool with a focus on performance optimization. It performs in-depth data- and call-flow analyses to infer about the behavior of a program (including usage patterns of its data structures) and further applies the optimal strategy to inefficient cases."

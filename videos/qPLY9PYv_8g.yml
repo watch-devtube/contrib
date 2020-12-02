@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - java
+    - hibernate
+title: 'Hardy Ferentschik "Hibernate Search talk"'
+recordingDate: 1358525103
+description: 'In this talk we will cover a lot of ground, so buckle up. We will start with an introduction into freetext search and its concepts. Then we talk about the popular Open Source freetext engine Lucene and how Hibernate Search uses Lucene to bridge the gap between O/R model and fulltext search allowing for a easy integration of both technologies. This is followed by an introduction to the data grid platform Infinispan and how it fits into the picture. One the one side Hibernate Search can use Infinispan to store the Lucene index in the data grid, on the other side Infinispan uses Hibernate Search to implement a search functionality across the clustered data. We will finish of talking about Hibernate OGM (Object Grid Mapper) which is the latest Hibernate project combining Hibernate Core, Search and Infinispan in yet another way.'

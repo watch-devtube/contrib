@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - craftsmanship
+    - 'code design'
+    - tdd
+    - architecture
+    - functional
+title: 'Wiktor Żołnowski "Reversed Tests Pyramid -- dealing with legacy code"'
+recordingDate: 1358534316
+description: "Almost every experienced test engineer and programmer heard about tests pyramid which tells us that our automated tests should be about 80-90% -- unit tests, 5-15% -- some functional, integration or acceptance tests and 1-5% -- end to end, GUI tests. It sounds great and of course is possible. That structure of tests has some implications like modularand separated architecture, good abstractions model, data model separation from functionality and logic, etc. Everything works and is quite easy to implement when we starting new, \"greenfield\" project, or dealing with code written in a good, simple way with \"is it testable?\" question always behind every line of code.\n\nSome Clean Code and TDD practitioners says that you shouldn't write end-to-end or even functional tests at all and database or user interface are (un)necessary evil. Can you imagine application like this? I can! Writing applications that way would be great, and likelihood ofbugs is pretty low. Maintainability would be wonderful -- new changes in modular, almost independent architecture are extremely easy to implement. We can enumerate the advantages of such approach without endlessly... But...\n\nUnfortunately, the reality is completely different. Most of us -- developers, are dealing with already written code (written few years or even decades ago), which is not understandable by no-one, and no-one knows which particular lines or functions are really doing. Code which is unpredictable -- every change could introduce bugs in other parts of the system which we would never expect that is somehow connected with the changed one. This code is sometimes measured in KLOC's -- Kilo Lines Of Code and this numbers maybe really high.Code like this was implemented sometimes by few hundreds or even thousands programmers, or even by few generations of programmers. Sometimes people who could know something about it are far away in another job, or they even died.\n\nBut don't worry -- there are some practices which would help you (us) with \"Legacy Code\" (because this is the proper name for code described above). One of this practice which I would like to share with you is reversed tests pyramid."
