@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'Владимир Кочетков — Подводные камни System.Security.Cryptography'
+language: Russian
+recordingDate: 1461101929
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Ближайшая конференция — DotNext\_2020 Piter\n15-18 июня, Online\nПодробности и билеты: https://bit.ly/dotnext2020piter\n\n. Владимир Кочетков, Positive Technologies — Подводные камни System.Security.Cryptography\nКонференция DotNext 2015 Moscow\nМосква, 11.12.2015\n\nКриптография является одной из немногих предметных областей, с которой рано или поздно сталкивается подавляющее большинство разработчиков. Вам уже доводилось использовать генераторы случайных чисел, работать с цифровыми подписями, хранить пользовательские пароли или, на худой конец, шифровать данные? А вы уверены, что не допустили при этом ошибок, повлиявших на защищенность приложения? Проверьте себя: сколько уязвимостей вы видите в следующем фрагменте кода?\nprivate static bool IsValidSignature(string data, string signature) {\n  var bytes = Encoding.ASCII.GetBytes(\"eCTR4rhYQVNwn78j\" + data);\n  var hash = MD5.Create().ComputeHash(bytes);\n  return BitConverter.ToString(hash) == signature;\n}\n...\nif (IsValidSignature(Request[\"data\"], Request[\"signature\"])) {\n  var decryptor = Aes.Create() { \n    BlockSize = 128;\n    Key = Encoding.ASCII.GetBytes(\"YtGDn6mvAHbp5X7C\");\n    IV = Encoding.ASCII.GetBytes(\"mHMUYSjiVxo4wp9R\");\n  }.CreateDecryptor();\n}\nЕсли меньше 5, то вам определенно стоит посетить этот доклад. На нем, без лишнего математического хардкора, мы поговорим о типичных сценариях использования средств криптографии в .NET-приложениях, рассмотрим лучшие практики решения наиболее часто встречающихся задач, разберем типовые уязвимости и посмотрим демки нескольких реальных атак на наиболее интересные из них."
