@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+title: 'Dan Shechter — Beating CoreCLR''s own C++ code with CoreCLR 3.0 intrinsics'
+language: Russian
+recordingDate: 1583854061
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. We will explore how developers can substantially improve performance of computationally intensive code by using CPU intrinsics, and go over the new support introduced in the recently released .NET Core 3.0.\n\nWe'll be taking a non-trivial algorithm that is already a part of the CoreCLR code-base that should be familiar for most devs, and (re)build an efficient intrinsics based version of it with AVX+AVX2 instructions about 7 vectorized CPU instruction that can be combined in a challenging way.\n\nWe'll discuss common hurdles/befits encountered while building/optimizing intrinsics based code such as:\n\nreplacing scalar code with branch-less vectorized code;\ndealing with CPU branch mis-prediction;\nunrolling code to improve performance / complexity trade-off of doing so.\nBy the end of the talk we'll show how we can beat the CoreCLR's own C++ code with C# Intrinsics utilizing AVX2 instructions."

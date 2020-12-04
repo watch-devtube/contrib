@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - javascript
+    - 'c#'
+title: 'Stephen Cleary — Asynchronous streams'
+language: Russian
+recordingDate: 1583854477
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Asynchronous iteration landed in JavaScript last year, and C# is following up with its async streams. This presentation looks at why these new asynchronous streams are useful, how they are different from existing libraries like System.Reactive and RxJS, and how to use them in your projects.\n\nWe'll start with a conceptual overview of why asynchrony is important, and the impact that async/await has had on modern languages. Then we'll address one of the common shortcomings of async/await: the fact that it only deals with single values.\n\nWe'll briefly review library-based approaches for dealing with streams of asynchronous data, including the classic producer/consumer queues as well as the more modern reactive approaches. Finally, we'll address how true pull-based asynchronous streams require language constructs and examine consuming and producing asynchronous streams in C#.\n\nBy the end of this session, you'll be equipped to handle asynchronous streams in your projects."

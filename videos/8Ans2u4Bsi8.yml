@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Kevin Gosse, Christophe Nasarre — Debugging asynchronous scenarios in .NET'
+language: Russian
+recordingDate: 1565948311
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Нет ничего проще, чем отладить асинхронный код — когда про это рассказывают два профессионала WinDbg и других инструментов.\n\nTimes have changed. Multi-core CPUs have become the norm and multi-threading has been replaced by asynchronous programming. You think you know everything about async/await... until something goes wrong. While debugging synchronous code can be straightforward, investigating an asynchronous deadlock or race condition proves to be surprisingly tricky.\n\nIn this talk, follow us through real-life examples and investigations to cover the main asynchronous code patterns that can go wrong. You will tumble on deadlock and understand the reasons behind ThreadPool thread starvation.\n\nIn addition to WinDbg magic to follow async/await chains, Visual Studio goodies won't be forgotten to quickly analyze hundreds of call stacks or tasks status."

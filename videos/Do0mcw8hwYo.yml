@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - embedded
+title: 'Raffaele Rialdi — Boosting memory management in interoperability scenarios'
+recordingDate: 1553608984
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Ближайшая конференция — DotNext\_2020 Piter\n15-18 июня, Online\nПодробности и билеты: https://bit.ly/dotnext2020piter\n\n. Рафаэль — активный участник .NET user groups в Италии, а также один из успешных спикеров на DotNext.\n\nHistorically, the ability of .NET to operate on managed and native memory was quite limited, either leading to performance problems or forcing the use of unsafe code.\n\nFor example, in order to interoperate with native code, the need to marshal the native memory into managed structures and vice versa has been a source of performance hits.\n\nThe new Span 'T' and Memory  'T' provide the solution by voiding the need to copy memory while still keeping the ability to access raw memory blocks safely and \"casted\" to the desired type.\n\nDuring the session we will dig into the new APIs, language features and runtime implementations in IoT and communication scenarios.\n\nThe goal is showing how these tools give us the opportunity to manage memory efficiently with low complexity in code to improve performance, code maintenance and safety."

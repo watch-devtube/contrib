@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+speaker:
+    name: 'Dylan Beattie'
+    twitter: dylanbeattie
+title: 'Dylan Beattie — How I built Rockstar: Parsing esoteric languages with .NET'
+language: Russian
+recordingDate: 1565948497
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Как стать рок-звездой программирования за один час.\n\nIn 2018, Dylan Beattie created an esoteric programming language called Rockstar, designed for creating computer programs that are also rock song lyrics. The language was initially created as a joke... then people started to submit ideas, and pull requests. Then somebody created an implementation... and another one. The Rockstar language is now a full open source project, with a test suite and a formal reference implementation — and it is also a great example of an esoteric programming language.\n\nIn this talk, Dylan shows you how to build a parser and interpreter for an esoteric programming language using C# and .NET. We'll explain the concepts behind parsing expression grammars, and the libraries that exist in .NET such as IronMeta and Pegasus for creating and parsing these kinds of grammars. We'll look at the idea of an abstract syntax tree, and how to use the .NET type system to represent the syntax of your programs. We'll create a meta-circular evaluator that can interpret these syntax trees and turn your Rockstar code into actual running programs. Finally, we'll show how you can use the same tools and ideas in your own projects, to build parsers, transpilers or domain-specific languages."
