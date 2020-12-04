@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - c++
+    - performance
+    - mobile
+title: 'Alexandre Mutel — Behind the burst compiler, converting .NET IL to highly optimized native code'
+recordingDate: 1569230536
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Автор многих крутых проектов (например, SharpDX и Markdig) и умных низкоуровневых постов, MVP, один из самых хардкорных девелоперов из Unity Technologies.\n\nFrom mobile to console, games are often trying to push the limit of our hardware to provide a better gaming experience, in a very constrained time, the famous 60 FPS or even at a higher framerate, while still saving power consumption. With a budget of 16.6ms per frame, a game has to perform lots of complex calculations in different programming domains including physics, rendering, audio, machine learning.\n\nWe believe that .NET and specially C# for games can provide a fantastic balance between productivity, safety and performance. But for certain critical code, we know also that C# is currently not able to deliver the performance that some games are looking for.\n\nIn order to lower the gap between the performance of C# games versus a more optimized language like C++, and even to go beyond what we can achieve with C++, we have been developing for the past year at Unity Technologies the \"burst\" compiler: a solution to compile a subset of the C# language to highly optimized native code using the LLVM compiler infrastructure.\n\nIn this talk, we will go through the details behind this challenge and how we were able to unlock it:\n\nThe challenges of generating better native code from IL/.NET than existing solutions like RyuJIT\nThe subset of the C# language used to maximize the performance\nHow to allow auto-vectorizing IL code?\nUsing data-oriented programming in C# without a GC\nIntegrate dedicated optimizations for mathematic functions\nDeveloping an automatic Structure-Of-Array (SOA) approach into the compiler\nHow much difference between JIT and AOT in this solution?\nAttendees will learn about Unity Technologies' approach to deliver a new JIT/AOT compiler for a subset of the C# language to unlock performance in games.\n\nThe target audience consists of people interested in low-level optimizations, native code generation, compilers, IL bytecode, .NET JIT and AOT, and LLVM."

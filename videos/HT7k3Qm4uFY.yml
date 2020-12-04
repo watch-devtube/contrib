@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+title: 'Raffaele Rialdi — Write your own C# static code analysis tool to drive business rules'
+language: Russian
+recordingDate: 1534842730
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Ближайшая конференция — DotNext\_2020 Piter\n15-18 июня, Online\nПодробности и билеты: https://bit.ly/dotnext2020piter\n\n. Уже 15 лет MVP, у Риалди есть крутой доклад с предыдущего DotNext: ссылка.\n\nWe wrote a lot of code and just after 6 months we spend a lot of time in studying, understanding and refining it again and again. Code is alive and there is no documentation that can be as exhaustive as the code itself. So, we start using a bunch of tools to manually inspect the code and fully understand what happens to instances of a given type, which parts of the code really need certain dependencies, or which APIs are used in a part of the codebase. This job is even tougher when the codebase comes from a third-party that is extending our app.\n\nThe .NET Compiler Platform (Roslyn) gives us the opportunity to write tools to understand the sources from a business rule perspective and extract the information required to identify usage patterns and enforcing security prescriptions.\n\nThe idea is to raise the bar of the classic code analysis, writing custom tools and Visual Studio analyzers targeting the specificities of the application being developed."

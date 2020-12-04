@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+    - 'c#'
+    - rust
+    - wasm
+title: 'Eric Sink — Transpiling WebAssembly modules into .NET assemblies'
+language: Russian
+recordingDate: 1605878050
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Wasm2cil can convert a WebAssembly module into a .NET assembly on disk. The resulting DLL is not interpreted — it contains the same functions as the WebAssembly module, translated from Wasm instructions to CIL instructions. The dependency on the WASI \"system calls\" is provided with a C# implementation of those calls in a supporting assembly. This talk would include: - an overview of WebAssembly and WASI; - deep dive into some contrasts between the Wasm instruction set and CIL; - discussion of implementing WASI with .NET; - wasm2cil architecture and how it works. Technologies covered or mentioned will include WebAssembly (Wasm), WASI, Wasmtime, Mono.Cecil, CIL, .NET Core, Rust. In addition, wasm2cil itself is implemented with a mixture of F# and C#, but I do not plan to speak about F# issues. The subject matter of this talk is rather advanced, so the target audience is experienced .NET developers, ideally with some previous understanding of CIL and the CLR."

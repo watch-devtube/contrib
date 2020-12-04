@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - 'c#'
+title: 'Christophe Nasarre — Building your own debugging toolbox with ClrMD'
+recordingDate: 1552902299
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Ближайшая конференция — DotNext\_2020 Piter\n15-18 июня, Online\nПодробности и билеты: https://bit.ly/dotnext2020piter\n\n. You have to investigate problems live or post-mortem on tens of GB of application memory by browsing complex structures, such as the threadpool or the timer queue and… you start to spend your life typing and typing tons of SOS commands in WinDbg. You think about scripting WinDbg and… you abandon it. Here comes ClrMD to the rescue!\n\nImagine. You're investigating an issue on a 20GB memory dump. You navigate around memory structures with WinDbg and SOS, trying to figure out what's going on. You start to get a grasp of the overall problem, but to validate the hypothesis you need to figure out the number of scheduled timers and their respective intervals.\n\nWhat are your options? You could spend hours browsing them one by one with !dumpheap and !do. You also could try to use the WinDbg scripting API to automate the process, given that you're one of the lucky few who were ever able to use it efficiently. Or you could write a simple C# program in a few minutes and get the result. What would you do?\n\nThis talk is aimed at those who, like us, have a strong preference for the last option. ClrMD is a .NET library from Microsoft to introspect live processes and memory dumps. It allows you to do everything you could do with SOS in WinDbg: list threads, navigate into the managed heaps and dig into the instances of .NET types. It also allows you to go the extra mile: writing your own debugging tools, adding new commands to WinDbg, and all this in plain C#.\n\nThis session will show you how to achieve real world debugging goals:\n\nload a dump or attach a live process with symbols, sos and mscordac tricks and tips;\niterate on object instances in the managed heap;\nget static and instance field values;\nleverage C# dynamic to make coding even easier;\ncreate a WinDbg extension and transform your code into ninja-friendly commands.\nAfter the session, you will know how to write code to list duplicated strings, list running timers, whatever you would need in your next investigation."

@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - storage
+    - performance
+    - architecture
+    - .net
+    - embedded
+title: 'Stan Drapkin — Pitfalls of relational DB access in .NET: rethinking micro-ORMs'
+language: Russian
+recordingDate: 1565948443
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. NET ecosystem has a void in the data-access-layer space: on one side there is 17-year-old ADO.NET — a powerful but archaic and inconvenient API; on the other side there are various flavors of Microsoft's Entity Framework (EF) which appeals to beginners and those scared of SQL, but breaks down for anything non-trivial or complicated, and is also painfully slow.\n\nThis void between ADO.NET and EF has been ignored by Microsoft, which has led to proliferation of third-party libraries which all try to come up with the best mix of simple APIs and data-access-patterns delivering the power and speed of ADO.NET. One example of such micro-ORM library is Dapper. When neither ADO.NET nor EF are fit for the task at hand, how does one decide what micro-ORM to choose? \"For every complex problem there is an answer that is clear, simple, and wrong.\"\n\nWe'll rethink what makes a good micro-ORM library, and compare ADO.NET, EF, and most existing state-of-the-art micro-ORM libraries, considering not only performance benchmarks but also architecture, design, APIs, and advanced features.\n\nYou will come away with a deep understanding of tradeoffs and optimizations involved in building a good micro-ORM library, which will help you not only make the right micro-ORM decision for your tasks and teams, but perhaps even write your own micro-ORM, or contribute to existing OSS libraries.\n\nThis is an advanced-level talk which covers low-level ADO.NET, various micro-optimizations & tricks, connection, transaction, and query patterns, etc. as well as high-level architectural concepts and advanced micro-ORM features. While you're dreaming about a Raspberry Pi IoT with a custom-GC running Apache Kafka, come to learn about what you actually do at work."

@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - .net
+title: 'Sasha Goldshtein — Debugging and Profiling .NET Core Apps on Linux'
+language: Russian
+recordingDate: 1530714997
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. Ближайшая конференция — DotNext\_2020 Piter\n15-18 июня, Online\nПодробности и билеты: https://bit.ly/dotnext2020piter\n\n. OK, great, you can now run your favorite ASP.NET app or console application on Linux using .NET Core. What happens next? In fact, what happens straight after deployment, when you discover memory leaks, surprising crashes, performance problems, and other woes – in the production environment? The tools and profilers you're used to from Windows don't work on Linux, and a lot of them don't have easy-to-use alternatives. In this talk, we will review the current landscape of profiling and debugging .NET Core apps on Linux. We will talk about performance investigations using perf, the Linux performance multi-tool, which can collect stack traces of CPU samples and other interesting events from .NET Core applications. We will review LTTNG and how it's used by .NET Core as a replacement for Windows ETW events, and see how to collect LTTNG traces efficiently and extract useful insights from them. We will also talk about core dumps, how to generate them on Linux, and how to get .NET-specific information out of a core dump using lldb and SOS. Prepare for a bumpy ride of half-baked tools and command-line magic, with – hopefully – a rewarding end!"
