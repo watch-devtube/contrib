@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Stephen Cleary — Raw TCP/IP socket communication'
+language: Russian
+recordingDate: 1605878251
+description: "Ближайшая конференция — DotNext 2020 Moscow\n2-5 декабря, Online\nПодробности и билеты: https://dotnext-moscow.ru/\n\n. With the rise of the Internet of Things, custom TCP/IP communications are becoming more and more common. Unfortunately, many developers lack experience in protocol design and make common mistakes. This talk is a crash course in designing TCP/IP protocols, with a focus on always-on, low-latency device communication. TCP/IP communication mistakes are common because of how the TCP/IP protocol is presented: most developers learn about TCP/IP along with the rest of the OSI networking stack, but the concepts of the lower network stack layers do not carry through to the TCP/IP level. In fact, many early internet protocols including HTTP and FTP were designed with some common mistakes; newer protocols such as HTTP/2, WebSockets, and Passive FTP fix those mistakes. This talk covers what TCP/IP actually provides to your application, and how to communicate over raw sockets. The three pillars of protocol design are covered: connections, message framing, and keepalives. Various protocol styles are examined, with the pillars evaluated for each, including command/response, polling, and streaming. You will leave this talk with enough knowledge to use TCP/IP sockets to communicate with any custom device in a fully reliable manner. You will also be empowered to evaluate custom protocols used by devices, identify their defects, and provide workarounds if necessary."
