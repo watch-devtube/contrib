@@ -1,0 +1,22 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - cloud
+    - web
+    - react
+    - azure
+    - containers
+    - kubernetes
+    - architecture
+    - embedded
+title: '[GDG Cloud Nantes] Soirée K8S with KEDA & Cache with Hazelcast'
+language: French
+recordingDate: 1607064619
+description: "1st talk: Event-driven autoscaling on Kubernetes with KEDA and Azure Functions by Erwin Staal\nSpeaker: Erwin Staal\n\nEvent-driven, serverless architectures are a hot topic in today’s cloud-native application development. To take full advantage of the serverless benefits of event driven, your application needs to scale and react to those events instantly. It needs to be able to scale from zero to potentially thousands of instances.\n\nKEDA is an open sourced component that provides event driven autoscaling for your Kubernetes workloads. KEDA works with any container, but to enable additional serverless capabilities within Kubernetes you can pair KEDA with the Azure Functions runtime. Don't get fooled by 'Azure' in the name. Azure Functions provides a programming model that can run anywhere: in a container running on-premises, fully managed in Azure, or in any Kubernetes cluster. \n\nIt allows application developers not to worry anymore about writing the code to connect, trigger, and pull from an event source like RabbitMQ, Kafka, or Azure Event Hubs. That’s all handled for you. In this demo-filled session, we will start with a quick introduction on both Kubernetes and Azure Functions. \n\nYou will then see how you can create your first cluster and install KEDA, deploy a function and scale that to thousands of instances based on events.\n\n2nd talk: Where is my cache? Architectural patterns for caching microservices by Rafał Leszko\nSpeaker: Rafał Leszko\n\nEverybody knows that we need a cache, but where exactly to place it? Inside your application or as a layer in front of it? In the container or outside the container? In the era of Cloud Native and Microservices these questions get even more complicated. In this session I'll present different architectural patterns for distributed caching: Embedded, Client-Server, (Kubernetes) Sidecar, and Reverse HTTP Proxy Caching.\n\nIn this session you'll learn:\n\n- What are the design options for including the caching layer\n\n- How to apply caching layer in Istio (and Service Mesh in general)\n\n- How to use distributed HTTP caching without updating your microservices\n\n- Common pitfalls when setting up caching for your system"
