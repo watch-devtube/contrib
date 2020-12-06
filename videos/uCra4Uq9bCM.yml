@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - go
+    - performance
+    - containers
+    - kubernetes
+    - security
+title: 'Customizing OPA for a "Perfect Fit" Authorization Sidecar - Patrick East, Styra'
+language: English
+recordingDate: 1607103974
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2021 Virtual from May 4–7, 2021. Learn more at https://kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nCustomizing OPA for a \"Perfect Fit\" Authorization Sidecar - Patrick East, Styra \n\nThe Open Policy Agent (OPA) has become widely used in the CNCF ecosystem and is a go-to option for application developers as the standardized decision engine for authorization. Many users rely on the existing integrations with Envoy/Istio, or the OPA REST API Server, but this doesn't always fit in an application cleanly. Common performance questions arise related to using the OPA HTTP API, plus management concerns around collecting decision logs, and requirements for integration with existing security infrastructure. Join Patrick East, an active OPA maintainer, to see how easy it is to use OPA's public Golang API's to create a tailored OPA binary with the following extensions: * Custom High Performance gRPC font-end API * Custom Kafka decision log plugin * Custom OAuth2 Rego builtin functions \n\nhttps://sched.co/ekEV"

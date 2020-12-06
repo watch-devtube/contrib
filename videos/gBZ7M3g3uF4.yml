@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'In Search Of A `kubectl blame` Command - Nick Santos, Tilt'
+language: English
+recordingDate: 1607103953
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2021 Virtual from May 4–7, 2021. Learn more at https://kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nIn Search Of A `kubectl blame` Command - Nick Santos, Tilt \n\nDevelopers want understandable tools. Their tools should tell them, “This change here broke that pod there.” But control loops drive the Kubernetes worldview. In a control loop, Kubernetes updates the cluster to make the actual state match desired state. Control loops do not track why the state changed. Nick Santos and the Tilt team tried to build a tool that traced the effects of each apply. He’ll tell stories about several attempts to propagate and assign blame across state changes. Most of them failed! Or broke Kubernetes updates in frustrating ways! Along the way, they learned about labels, informers, UIDs, owner refs, events, and how kubectl apply works internally. If you plan to write a tool that interprets Kubernetes API objects for humans, this talk is for you. \n\nhttps://sched.co/ekAv"

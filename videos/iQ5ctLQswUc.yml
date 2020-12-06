@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+    - security
+    - architecture
+title: 'Fortifying Microservice Security with SPIRE and OPA - Ash Nakar'
+language: English
+recordingDate: 1607103725
+description: "Fortifying Microservice Security with SPIRE and OPA - Ash Nakar\n\nMicroservice architecture although beneficial brings with it unique security challenges around authentication and authorization which become more acute due to the diverse nature of microservice environments.\nHow do we reliably authenticate and authorize interactions between 10s, 100s, or even 1000s of services at scale while handling 1000 API calls per second?\n\nSPIRE solves authentication by creating an identity plane across varied infrastructure over which cryptographically verifiable identities such as JWTs are delivered securely to workloads. OPA provides a policy engine that can be used to enforce fine-grained authorization policies across the stack.\nWe will show how SPIRE issued JWT SVID claims created using SPIRE’s OIDC Federation can be used by OPA to enforce service-to-service and end-user access control in microservice environments without compromising on speed and availability.\n\nDon’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2021 Virtual from May 4–7, 2021. Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects."

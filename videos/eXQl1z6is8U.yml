@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - docker
+    - kubernetes
+    - testing
+title: 'Contain Your Enthusiasm for Go Dev: Fast, Simple Go+Docker Development - Ed Warnicke, Cisco'
+language: English
+recordingDate: 1607103573
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2021 Virtual from May 4–7, 2021. Learn more at https://kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nContain Your Enthusiasm for Go Dev: Fast, Simple Go+Docker Development - Ed Warnicke, Cisco \n\nGo modules are awesome! Docker based development is awesome! Bring them together and there are... problems: Go does a brilliant job of caching both source module dependencies and binary artifacts. When building Go in docker containers, while there are hacks to get source dependencies into the Docker cache, all the binary artifacts still have to be rebuilt, greatly increasing build times. And what happens when you need to work on some of the dependencies of the repo you are docker building? There's no good answer. What about debugging and testing? Go has fantastic debugging and testing tools, but there's no clear simple pattern for using them when doing Docker based development. This talk provides clear, simple, battle tested patterns for solving these problems in ways that are both Go-like and Docker-like. Examples will be drawn from Network Service Mesh and its usage of Spire. \n\nhttps://sched.co/ekAU"
