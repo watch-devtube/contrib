@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: '#HITBCyberWeek D1T2 - Kernel Exploitation with a File System Fuzzer'
+language: English
+recordingDate: 1607139188
+description: "Using a filesystem fuzzer called JANUS (developed by ‘Georgia Tech Systems Software & Security Lab’(SSLab)), we found 16 unique vulnerabilities.\n\n\n\nAs a result of exploitation with file system vulnerabilities, we were able to succeed in the R/W primitive attack and Kernel control flow hijacking attack. (All vulnerabilities we found are reported, and some are still in the process of being patched). \n\nFilesystems have several limitations, which are quite large because they have at least 50,000 lines of code. Looking for vulnerabilities requires a deep understanding of the filesystem’s codebase – real deep. Like understanding every single line of code. As complex as the filesystem is, there is a big gap between finding a crash and using arbitrary code execution for that crash. Arbitrary code execution requires various kernel exploit techniques. We describe the Linux kernel exploit technique required for this part, and succeeded in R/W primitive attack exploiting the existing 1-day vulnerability and successfully control kernel flow by using the 0-day vulnerability we found.\n\nIn this presentation, we will explain the structure and feature of the filesystem and discuss some of the limits of using the filesystem as an attack surface We will explain how to get a crash on the filesystem, introduce the Janus fuzzer we used and explain the process of porting Janus to the latest kernel version. We have also created a new crash-proof triage program and a filesystem fuzzing monitor program that we will introduce together in this presentation.\n\n=== \n\nSeungPyo Hong is an graduate of Kongju National University. He is interested in offensive security research, especially the Linux kernel Exploit and Router Bughunting. He participated in filesystem security research as exploit development part.\n\n--- \n\nHeoungJin Jo received his Bachelor’s degree in Computer & Communications Engineering and Accounting, Kangwon National University, Korea, in 2018. Since 2020, he has worked with Diffense Korea and currently focused on Linux/Browser vulnerability hunting and exploitation. He is Security Consulting Track in Best of The Best. He participated in project “Kernel Exploit with File System Fuzzer”.\n\n---\n\nDonghee Kim is a student of Kookmin University. He is Security Consulting Track in Best of The Best. He participated in project “Kernel Exploit with File System Fuzzer” as PM. Interested in System and hardware Security.\n\n--- \n\nWonYoung Jung is an undergraduate of Korea National University of transportation. He is interested in offensive security research, notably the Linux kernel, Browser security. He participated in filesystem security research as exploit development part."

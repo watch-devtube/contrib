@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+    - containers
+    - kubernetes
+title: 'Attestation and identity provisioning to Intel SGX workloads - Andrey Brito'
+language: English
+recordingDate: 1607103725
+description: "Attestation and identity provisioning to Intel SGX workloads - Andrey Brito\n\nUsing workload attestation mechanisms to provision identity to workloads adds a huge value to this identity, especially in multi-cloud environments. Strong identities simplify policy management and help integration between services. However, attesting workloads based on properties collected from the Linux Kernel or the orchestrator is just the beginning. With confidential computing mechanisms reaching public cloud providers, there is an opportunity to raise the bar on the supported threat model and the strength of the application identities using technologies such as Intel SGX.\n \nIn this talk, I will explain how having an SGX Attestor could lead to identities that reflect not only where code is running, but also reflect the code of application that was actually loaded and the configuration of the filesystem that supports it. Next, I will discuss the benefits of such an attestor, which include enabling the seamless integration between sensitive workloads in untrusted environments with workloads on trusted environments with almost no additional burden on the developer.\n\nDon’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2021 Virtual from May 4–7, 2021. Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects."

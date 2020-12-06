@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - architecture
+title: 'Service Mesh - The New Single Point of Failure - Mitch Connors, Sabeen Syed & Thomas Rampelberg'
+language: English
+recordingDate: 1607103218
+description: "Service Mesh - The New Single Point of Failure - Mitch Connors, Google, Sabeen Syed, HashiCorp & Thomas Rampelberg, Buoyant\n\nInterested in knowing why your favorite service mesh was implemented that way? Architecture decisions have real user impact. When building a service mesh, it is possible to fall into a trap of choosing implementation that is easier to build but makes it difficult to operate in the real world. While service meshes enable new levels of resiliency for users’ applications, they suffer from a chicken and egg problem: How do you build a resilient and scalable service mesh without having a service mesh to rely on?\nMaintainers of Istio, Linkerd2 and Consul will walk through tradeoffs the projects have made during implementation and the impact on users. Topics will include:\n\n    - Why it is important to verify environments before installation.\n    - How to build a service mesh which can be safely upgraded.\n    - What regular security updates mean for upgrades.\n    - How to give users the same stability for config changes as they require for code changes\n    - What to do when the mesh breaks.\n    - Why the division of responsibility is important."
