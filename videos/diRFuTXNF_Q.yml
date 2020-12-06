@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'Practice of Fine-grained Cgroups Resources Scheduling in Kubernetes - Xianlu Chen & Qingcan Wang'
+language: English
+recordingDate: 1607104103
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2021 Virtual from May 4–7, 2021. Learn more at https://kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nPractice of Fine-grained Cgroups Resources Scheduling in Kubernetes - Xianlu Chen & Qingcan Wang, Alibaba \n\nAlibaba supports resource scheduling for hundreds of thousands of nodes, millions of containers, and tens of thousands of applications. Many online services need to dynamically increase the resource limit during operation, and cannot accept the impact of restart.Other applications may require NUMA awareness, CPU Core binding, reduce data copy between CPU caches, and speed up data processing tasks.  We have developed a combined scheduling system based on Kubernetes Scheduler framework and Cgroups controller. The scheduler perceives cgroups level resources, such as numa, cpu core, memory limit, etc., and applies scheduler dynamic scheduling to specified nodes, while allowing certain Pod is bound to the specified cpu core. The cgroups controller can also dynamically adjust the pod resources limit without causing the Pod to restart. \n\nhttps://sched.co/f3cp"

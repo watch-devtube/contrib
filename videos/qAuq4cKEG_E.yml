@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - containers
+    - kubernetes
+title: 'Build Your Own Envoy Control Plane - Steve Sloka, VMware'
+language: English
+recordingDate: 1607104466
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2021 Virtual from May 4–7, 2021. Learn more at https://kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects. \n\nBuild Your Own Envoy Control Plane - Steve Sloka, VMware \n\nEnvoy is a building block of many different solutions from Ingress controllers, Service mesh implementations, as well as functions as a service application frameworks. Any solution utilizing Envoy as its data path component most likely implements Envoy’s xDS API in some way. It is possible to only use a fully static configuration, but typically more complicated deployments incrementally add more complex dynamic configuration via xDS over gRCP. This talk will walk through how the xDS API is defined and what each component does. We’ll discuss lessons learned from Contour, an ingress controller for Kubernetes on how the team implemented xDS (and also struggled with it). Come take a look at how you can build a full Envoy control plane for yourself! \n\nhttps://sched.co/ek9x"
