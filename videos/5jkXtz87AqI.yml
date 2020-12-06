@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - ux
+    - startup
+    - testing
+title: 'Confident Canary Deployment to Production With Istio - Raju Dawadi, Oyster'
+language: English
+recordingDate: 1607103218
+description: "Confident Canary Deployment to Production With Istio - Raju Dawadi, Oyster\n\nThe session covers covers the production use case of Oyster Financial on using Istio service mesh for handling traffic. The testing in non-production environment and rolling out to live users was not effective for fintech product where the usage is critical. Also, due to the inconsistent in third party, there was need to test traffic in live environment for internal user and that has to be for selective or all services.  The usage of Istio feature on routing traffic based on header as well as percentage rollout was used effectively which has made deployment to Prod0 seamless. Also measuring the performance as well as real use case test of newer version helped in providing a good end user experience for evolving fintech startup in Mexico.  But the management complexity rises when number of services increases and there are too may configs to be managed. Combination of helm helped a lot throughout the process."
