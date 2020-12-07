@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - c++
+    - performance
+title: 'Reducing Memory Allocations in a Large C++ Application - Arnaud Desitter [ C++ on Sea 2020 ]'
+language: English
+recordingDate: 1595491211
+description: "Reducing memory allocations to improve performance has been a recurrent theme for a long time. Use of abstractions comes with increased use of heap allocations. This results in a widespread low level performance overhead. Sadly, memory profilers tend to scale poorly with the size of the application and number of allocations. Heaptrack, a low overhead Linux memory profiler written by Milian Wolff, makes routine analysis of memory allocations finally practical.\n\nIn this talk, I will demonstrate how heaptrack allows us to track all memory allocations with little overhead in a large C++ application. I will classify the memory patterns observed and detail the techniques used to address them. In practice, reducing the number of allocations by several order of magnitudes can be achieved. We will make full use of modern C++ up to C++17 with a glimpse of C++20.\n\n-------\n\nArnaud Desitter is a senior software engineer based in Oxford with more than 20 years experience in scientific programming. He has worked on reservoir simulators for the last 14 years. He cycles to work, currently going through his third virtual trip round the world.\n\n-------\n\nC++ on Sea is an annual c++ and coding conference, usually held in Folkestone, Kent in the UK. The 2020 conference was moved to a virtual event due to social distancing requirements.\n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - embedded
+title: 'Deep C Diving - Fast and Scalable Text Interfaces at the Bottom - JeanHeyd Meneide [ C++ on Sea ]'
+language: English
+recordingDate: 1595617211
+description: "Text handling in the C and C++ Standards is a tale of legacy encodings and a demonstration of decisions made that work at the moment don't scale up to the needs of tomorrow. With Unicode on the horizon, C++20 prepared fundamental changes such as char8_t and polishing a things to make it easier to catch bad conversions and logical program errors when working with encoded text. Still, the landscape has poor support for transcoding from one encoding to the other, let alone talking about higher level algorithms without pulling in heavyweight dependencies whose age shows in terms of design and usability.\n\nAnd so, we need to go deeper than C++.\n\nThis talk - part 4.5 of a a 5 part series - explains a way to achieve validation, counting, encode, decode, and transcode in a flexible C API. We will mirror our API off of iconv, and display a way to extend that API to allow for its usage on embedded devices by allowing the end-user to control allocation. This talk will also demonstrate how to turn the iconv model into an open, extensible model.\n\n-------\nhttps://thephd.github.io/\n\nJeanHeyd \"ThePhD\" is a student at Columbia University in New York. Most of his programming is for fun and as a hobby, even if his largest open-source contribution -- sol2 -- is used across many industries. He is currently working towards earning his own nickname, climbing the academic ladder while spending as much time as possible contributing to C++ standardization and development.\n\nHe very much loves dogs and hopes to have his own in a year or so. He also likes Vulf's \"Tee Time\" from the album Mr. Finish Line.\n-------\n\nC++ on Sea is an annual c++ and coding conference, usually held in Folkestone, Kent in the UK. The 2020 conference was moved to a virtual event due to social distancing requirements.\n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

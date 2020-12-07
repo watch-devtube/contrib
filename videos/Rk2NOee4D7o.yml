@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - web
+    - embedded
+title: 'Teaching Old Compilers New Tricks: Transpiling C++17 to C++11 - Tony Wasserka [C++ on Sea 2019]'
+recordingDate: 1550443524
+description: "With all the new features C++14 and C++17 offer, it can be frustrating to be stuck with an old compiler that doesn't support them yet. Instead of forgoing structured bindings, fold expressions, and other additions, what if we could use them even on pre-2014 compilers?\n\nEnter clang-from-the-future, a transpiler that reads C++17 programs and outputs standard C++11 source code. When used as a preprocessing step, it allows any compiler with C++11 support to compile a subset of C++14/17 programs. To enable this, CTFT rewrites new language features based on the program's abstract syntax tree and provides drop-in implementations for standard library additions.\n\nIn this talk, I will show how specifically this is achieved, how well it works in practice, and what's left to be done in the future.With all the new features C++14 and C++17 offer, it can be frustrating to be stuck with an old compiler that doesn't support them yet. Instead of forgoing structured bindings, fold expressions, and other additions, what if we could use them even on pre-2014 compilers?\n\nEnter clang-from-the-future, a transpiler that reads C++17 programs and outputs standard C++11 source code. When used as a preprocessing step, it allows any compiler with C++11 support to compile a subset of C++14/17 programs. To enable this, CTFT rewrites new language features based on the program's abstract syntax tree and provides drop-in implementations for standard library additions.\n\nIn this talk, I will show how specifically this is achieved, how well it works in practice, and what's left to be done in the future.\n---\nLow-level anything: Tony is a long-term C++ enthusiast who has worked on the console emulator projects Dolphin (GameCube/Wii), PPSSPP (PSP), and Citra (3DS) since 2010. More recently, he has worked on Vulkan graphics drivers for PowerVR graphics processors. His main interest is exploring C++'s zero-cost abstraction capabilities and applying them to create better software for resource-constrained environments.\n\nCurrently, Tony is a contractor working on embedded systems in Berlin, Germany.\n\nhttps://cpponsea.uk/sessions/teaching-old-compilers-new-tricks-transpiling-cpp17-to-cpp11.html\n\nFilmed and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

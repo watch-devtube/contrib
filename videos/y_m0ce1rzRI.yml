@@ -1,0 +1,21 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - web
+    - architecture
+    - javascript
+    - lisp
+    - scala
+    - functional
+    - 'data structures'
+title: 'Postmodern immutable data structures - Juan Pedro Bolivar Puente [C++ on Sea 2019]'
+language: English
+recordingDate: 1550429218
+description: "The C++ elites have been talking for years about value semantics, immutability, and sharing by communicating. A better world without mutexes, races, observers, command patterns and so more lies ahead! When it comes to doing it in practice, it is not so easy. One of the main problem lies in our data structures...\n\nImmutable data structures don't change their values. They are manipulated by producing new values. The old values remain there, and can be read safely from multiple threads without locks. They provide structural sharing, because new and old values can share common data — they are fast to compare and can keep a compact undo-history. As such, they are great for concurrent and interactive systems: they simplify the architecture of desktop software and allow servers to scale better. They are the secret sauce behind the success of Clojure and Scala, and even the JavaScript crowd is loving it via Facebook's Immutable.js.\n\nWe are presenting Immer, a C++ library implementing modern and efficient data immutable data structures.\n\nIn this session, we will talk about the architectural benefits of immutability and show how a very efficient yet powerful persistent vector type can be built using state of the art structures (Relaxed Radix Balanced Trees). We will also show an example application (a text-editor) built using the architectural style here proposed. Not only is its code extremely simple, it outperforms most similar programs. Don't believe it? Come and see!\n---\nJuanpe is a Berlin based freelance consultant and engineer, with a focus on interactive software, modern C++, functional programming and open source strategy. Before he worked for Ableton and he has been involved in various music technology projects. He has also developed for the GNU project and cofounded a Hacklab in Granada.\n\nhttps://cpponsea.uk/sessions/postmodern-immutable-data-structures.html\n\nFilmed and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"
