@@ -1,0 +1,21 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - c++
+    - performance
+    - mobile
+    - android
+    - architecture
+    - embedded
+    - 'live coding'
+title: 'Combining Modern C++ and Lua - James Pascoe [ C++ on Sea 2020 ]'
+language: English
+recordingDate: 1595674810
+description: "This talk describes an approach for combining C++17 with Lua. A key benefit of this combination is its flexibility i.e. performance critical features can be implemented in C++, whereas, behavioural aspects can be expressed in Lua. As Lua is interpreted, the program's behaviour can be changed on-the-fly or in the field without a compiler. Thus, hypotheses can be tested, workarounds can be explored and previously unknown requirements can be accommodated without requiring a full 'implement-test-release' cycle.\n\nThis session describes how to implement a software architecture that combines C++17 and Lua. The aim of the session is to provide enough technical detail so that the audience is able to integrate these ideas into their own projects. In particular, this talk will show how to use SWIG to map types between modern C++ and Lua, how to combine C++17 concurrency abstractions with Lua coroutines and how to integrate SWIG, Lua and C++17 into a CMake build flow. The talk also describes how these ideas apply to certain C++20 features, for example, how C++20 coroutines complement coroutines in Lua.\n\nA further benefit is that these ideas have been tested in a large commercial deployment. As a running example, the talk will describe how Blu Wireless (the author's employer) is migrating a mission-critical embedded application from a monolithic C++98 code-base to the C++17 / Lua architecture described here. In addition to the talk, there will be a live coding demonstration (with code available on GitHub) to consolidate the concepts and to provide a basis for further experimentation.\n\n-------\nJames Pascoe is a Principal Software Team Leader at Blu Wireless in Bristol. Blu Wireless builds mmWave mobile wireless IP links for high-speed transport and fixed wireless applications. At Blu Wireless, James is responsible for the software that exists above the MAC, primarily, the Blu Wireless Linux driver and the mobility software agent that makes decisions about which access point to connect to and when. Prior to Blu Wireless, James was a Senior Engineer at Intel where he worked on the Android graphics stack. Prior to Intel, James held various hardware and software positions at STMicroelectronics and prior to ST, James was a Post Doctoral Research Fellow at the Department of Math and Computer Science at Emory University in Atlanta, GA. James hold a first class degree and a PhD from the University of Reading (both in Computer Science) and an MBA (with distinction) from Warwick University.\n-------\n\nC++ on Sea is an annual c++ and coding conference, usually held in Folkestone, Kent in the UK. The 2020 conference was moved to a virtual event due to social distancing requirements.\n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

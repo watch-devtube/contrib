@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - security
+    - embedded
+title: '#HITBCyberWeek D2T2 - Industrial Protocol Gateways: A Deep-Dive of Moxa MGate 5105-MB-EIP'
+language: English
+recordingDate: 1607246622
+description: "In this talk, we are going to have a deep dive into Moxa MGate 5105-MB-EIP protocol gateway.\n\n\n\nProtocol gateways are embedded devices used in industrial facilities to integrate legacy equipment such as serial PLCs with modern control networks. Given the importance of the devices in the field network, we conducted an analysis of 5 chosen vendors in perspective of protocol translation. We have discovered translation problems that enable potential adversaries to conduct stealthy attacks.\n\n\nTraditionally, Operational Technology (OT) networks in industrial facilities have been isolated. These OT networks have had their own set of protocols passing through serial cables installed in the facility. But with the advent of Industry 4.0, OT networks have slowly been integrated with the IT network. In order to continue utilizing older industrial equipment that only talks serial OT protocols, Protocol Gateways are used. These small devices translate the serial OT protocol to their TCP/IP equivalent so older equipment can be integrated into the Industry 4.0 network.\n\n\nWe are going to walk through important vulnerabilities we have found and reported in previous talks (RSA APJ 2020, Blackhat US 20 and CRITIS 2020), followed by a deep dive into Moxa MGate 5105-MB-EIP, dissecting how we found the vulnerabilities, how to customize Boofuzzer framework, how to run customized encryption libraries with Crosstool-NG, and how to use Scapy to intercept the configuration on the fly. The talk is not repeating what we have talked, but is meant to be a full hands-on to get your feet wet.\n\n\nNote: This talk is a team work of Marco Balduzzi, Ryan Flores, Philippe Lin, Charles Perine, Rainer Vosseler and Luca Bongiorni.\n\n\n=== \n\n\nPhilippe Lin is a senior threat researcher in Trend Micro. He is mainly working on data analysis, embedded system and software defined radio. He was a BIOS engineer, a maker, and an enthusiast of open source software."

@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - react
+    - architecture
+    - functional
+    - elm
+    - embedded
+title: 'Value-oriented design in an object-oriented system - Juan Pedro Bolivar Puente [ C++ on Sea 2020 ]'
+language: English
+recordingDate: 1595656813
+description: "In this talk, we will present a new open-source library of cursors. Cursors are inspired by functional lenses and reactive streams to provide composable and modular facades to \"single atom\" value storages. We will see how this can be used to navigate the tension between object-oriented and value-oriented design, and build an example interactive application using Qt and QML against a value-based data-model.\n\nValue-oriented design reconciles functional and procedural programming by focusing on value semantics. Like functional programming, it promotes local reasoning and composition — it is, however, pragmatic and can be implemented in idiomatic C++. In previous talks, the speaker has discussed how immutable data-structures help use value semantics at scale, and how the Unidirectional Data-flow Architecture (Redux, Elm) provide a solid foundation for designing interactive software based on values and functions.\n\nHowever, we rarely have the luxury of starting from scratch. We are often embedded in legacy codebases with Frankensteinian designs crystalized over decades of multi-paradigm evolution. Also, it's hard to build serious interactive software without frameworks like Qt or Juce that, with all its power, also impose a Javaish object-oriented approach at the boundaries of our system. In this talk we will learn how novel abstractions and design methodologies can help modernize real world code-bases, incrementally migrating them to a value-oriented design.\n\n-------\nJuanpe is a Berlin-based freelance consultant and engineer, with a focus on value oriented design, interactive software, modern C++, functional programming and open source strategy. Before he worked for Ableton and has been involved in various music technology projects. He has also participated in the GNU project and cofounded a Hacklab in Granada.\n-------\n\nC++ on Sea is an annual c++ and coding conference, usually held in Folkestone, Kent in the UK. The 2020 conference was moved to a virtual event due to social distancing requirements.\n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

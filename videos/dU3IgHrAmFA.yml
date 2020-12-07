@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - ml
+    - performance
+    - cloud
+    - mobile
+    - testing
+    - craftsmanship
+    - architecture
+title: 'What I Talk about When I Talk about Cross Platform Development - Adi Shavit [C++ on Sea 2019]'
+language: English
+recordingDate: 1550307294
+description: "Designing, writing and maintaining systems targeting multiple platforms is hard! The same system might simultaneously target desktops, browsers, cloud services and multiple different mobile devices. Each target with it's own requirements, tool-chains, APIs, SDKs and limitations. Mixing platform specific code with core functionality often leads to spaghetti code resulting in a refactoring and maintenance nightmare that is non-portable, un-testable with ample nooks and crannies for bugs to hide in.\n\nIn this talk I'll present a system architecture that I call The Salami Method. The Salami Method finely distinguishes between the different aspects and layers required for exposing platform-independent C++ on different “specific” platforms. At its extreme it strives to create a single, thin, transparent layer for each such aspect so that each layer is more easily built, tested, debugged, managed and maintained.\n\nI will introduce the Salami Method and show a practical example of using it build a single C++ OpenCV app targeting both the desktop and the web with the same codebase.\n---\nAdi Shavit is an entrepreneur, speaker, independent consultant, experienced software architect and a computer vision, image processing, and machine learning expert with an emphasis on real-time applications. He specializes in building cross-platform, high-performance software combined with high production quality and maintainable code-bases. Adi is the founder of the Core C++ users group in Israel.\n\nFilmed and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

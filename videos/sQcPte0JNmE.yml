@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - web
+title: 'How to Write Well-Behaved Value Wrappers - Simon Brand [C++ on Sea 2019]'
+language: English
+recordingDate: 1550257210
+description: "There are many useful generic types which wrap a number of values up into one object, e.g. std::optional or std::tuple. These types are conceptually very simple, but designing and implementing them to be as optimal and consistent as possible is deceptively difficult. This talk will outline key considerations, show why they matter by examining the assembly generated from compilers, and describe a number of solutions for problems which arise. Finally, a number of C++ standards papers which could ease the implementation burden for these types will be discussed.\n\nTopics covered will include implicit/explicit constructors, conditional deletion of special member functions, propagation of special member triviality, noexcept correctness, private inheritance, ref-qualified member functions, and comparison operators.\n---\nSimon is Microsoft's C++ Developer Advocate, working on bettering our communities and making the lives of developers easier. They have an unhealthy love of template metaprogramming and the dark corners of the language.\n\nhttps://cpponsea.uk/sessions/how-to-write-well-behaved-value-wrappers.html\n\nFilmed and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"
