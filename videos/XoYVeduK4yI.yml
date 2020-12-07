@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - performance
+    - web
+title: 'Building a C++ Reflection System in One Weekend Using Clang and LLVM - Arvid Gerstmann'
+language: English
+recordingDate: 1550488621
+description: "Designing and building the runtime reflection system from tomorrow, today!\n\nWith the introduction of libraries like LLVM and libclang, building custom tools for C++ is more approachable than it has ever been before. With Clang we have a fantastic tool to analyze and augment the C++ AST without writing our own compiler or parser.\n\nIn this talk we'll go over the design and implementation of a compile time & runtime reflection system, demonstrating the use of Clang and the LLVM framework to craft custom C++ tools for your own needs. We'll be able to query the members of a class, inspect their types and size, as well as qualifiers and user-definable flags. To show-case a real-world usage of the solution, we'll add a way to easily serialize any class to or from a byte stream, by making use of the reflection information. The implementation is available under a permissive open-source license on Github.\n---\nArvid is a passionate programmer and computer enthusiast, with a focus on writing high-performance C++ systems. His area of expertise includes writing compilers, standard libraries and game engines.\n\nhttps://cpponsea.uk/sessions/building-a-cpp-reflection-system-in-one-weekend-using-clang-and-llvm.html\n\nFilmed and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

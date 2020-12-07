@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - c++
+    - performance
+    - ux
+    - security
+title: 'Rethinking the Way We Do Templates in C++ even more - Mateusz Pusz [ C++ on Sea 2020 ]'
+language: English
+recordingDate: 1595775627
+description: "Template metaprogramming is hard. In case it is hard only for the library implementer then it is not that bad. The problem arises when it also affects the users of this library.\n\nThis talk is summarizing my experience and thoughts gathered during the implementation of the Physical Units Library for C++. The way we do template metaprogramming now results with inscrutable compile-time errors and really long type names observed while debugging our code. This is mostly caused by aliases of a primary class template instantiation of complex metaprogramming interfaces. I will present a new technique that can highly improve our user experience here.\n\nNext, the lecture scopes on new tools we get with C++20 that highly influence and improve compile-time code. Among others, we will talk about C++ concepts and class types as non-type template parameters. Also, we will discuss some additional extensions to the C++ language that could allow us to write even more generic code in the future.\n\nCompilation times of such code also leave a lot of room for improvement, and the practices we chose to use in the Standard Library are often suboptimal. Taking into account the Rule of Chiel while designing a templated code makes a huge difference in compile times. This talk presents a few simple examples (including the practices from the C++ Standard Library) of achieving the same goal in different ways and provides benchmark results of the time needed to compile such source code.\n\n-------\n\nA software architect, chief engineer, and security champion with more than 15 years of experience in designing, writing and maintaining C++ code for fun and living. C++ consultant, trainer, conference speaker, and evangelist focused on Modern C++. His main areas of interest and expertise are code performance, low latency, stability, and security.\n\nMateusz worked at Intel for 13 years, and now he is the head of the C++ Competency Center at EPAM Systems. He is also a founder of Train IT that provides dedicated C++ trainings and consultant services to corporations.\n\nMateusz is a contributor and an active voting member of the ISO C++ Committee (WG21) where, together with the best C++ experts in the world, he shapes the future of the C++ language. He is also a co-chair of WG21 Study Group 14 (SG14) responsible for driving performance and low latency subjects in the Committee. In 2013 Mateusz won “Bench Games 2013” – worldwide competition in the C++ language knowledge.\n\n-------\n\nC++ on Sea is an annual c++ and coding conference, usually held in Folkestone, Kent in the UK. The 2020 conference was moved to a virtual event due to social distancing requirements.\n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

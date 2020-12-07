@@ -1,7 +1,16 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - java
+speaker:
+    name: 'Michael Feathers'
+    twitter: mfeathers
 title: 'Improving Your Organization With Legacy Code Retreats [part 2] (Howard Deiner, USA)'
 recordingDate: 1515769704
 description: "In his book “Understanding the Four Rules of Simple Design”, Corey Haines is talking about good design principles and teaching us how to practice them using Code Retreats. Unhappily, many of us have to do with legacy code in our daily lives, and find ourselves frustrated when we try to make legacy code better. JB Rainsberger has started a variation on Corey Haines’ code retreats, making them more practical for legacy code practitioners. I’d like to be able to use this legacy code in Java often.\n\nFor the duration of the master-class, we want to learn the classic Michael Feathers dance of:\n\n1. Identify change points\n2. Find an inflection point\n3. Cover the inflection point (break external dependencies, break internal dependencies, write tests)\n4. Make changes\n5. Refactor the covered code.\n\nWe also would lay out the practicalities of having a legacy code retreat: Who comes? How should they pair? When do the pairs switch?"
