@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - architecture
+title: 'Andrew Hewus Fresh - HealthCheck - Diagnostics Results for your code'
+language: English
+recordingDate: 1593195273
+description: "We’ve been moving towards separating our monoliths into microservices, being able to monitor those in a way that’s simple enough to do, but powerful enough to actually be useful is a difficult problem. We are solving it by having each service be able to tell us how it’s feeling by writing diagnostic that tells us whether a part is working correctly. Having a standard for the HealthCheck Diagostic Result format means that we can even implement it in our Go services or those written in any other language.\n\nYou’ll learn about the idea behind HealthChecks, plus some of the Diagnostic’s we’ve open sourced and how we’re not only using it to make sure individual instances are healthy enough to be serving requests, but also how we’re finding other ways to use it to increase visibility into how the service is performing."

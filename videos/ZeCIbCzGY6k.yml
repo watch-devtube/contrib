@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: '"How internet congestion control actually works in the bufferbloat age" - Dave Taht (LCA 2020)'
+recordingDate: 1579132584
+description: "Dave Taht\n\nhttps://lca2020.linux.org.au/schedule/presentation/83/\n\nYou start a big upoad or download, and your ssh connection goes to heck, web pages get delayed, your videoconference glitches, or you start missing your opponents in your game.  Bufferbloat is one cause. While the bufferbloat problem is largely fixed in Linux, it's rarely configured properly on the gateways, and thus remains at epidemic proportions across the Internet - and this talk touches upon how to configure that stuff properly - but... why does the network get slow? *How* is the network supposed to deal with overload? This talk is a deep dive into how TCP is supposed to work, and goes into concepts like Slow Start, Congestion Avoidance, windowing, fair queuing and active queue management, the roles of packet drop and ECN, and alternate tcp's and transports such as BBR and QUIC, in the hope that deeper knowledge of how our most basic network transports work will lead to the design and implementation of better systems on top of them.\r\n\r\nThere will be a couple live demos using humans as packets, and there will be a quiz !\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nWed Jan 15 14:25:00 2020 at Room 7"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: '"Clevis and Tang: securing your secrets at rest" - Fraser Tweedale (LCA 2020)'
+recordingDate: 1579135699
+description: "Fraser Tweedale\n\nhttps://lca2020.linux.org.au/schedule/presentation/29/\n\nFull disk encryption and, more generally, encryption of secrets at\r\nrest are essential tools in the security toolbox.  But deploying\r\nencryption at rest can have costs: latency (downtime), repetition\r\n(productivity loss), proneness to error (typos; \"was that '1' or\r\n'l'?\"), challenges in supplying a passphrase when needed (e.g.\r\nheadless systems).  Automated decryption often relies on delivery of\r\nescrowed keys (a third party knows your secret).\r\n\r\nWe can do better.\r\n\r\n_Tang_ [1] is a protocol and (along with the client-side program\r\n_Clevis_ [2]) software implementation of *network bound encryption*;\r\nthat is, automatic decryption of secrets when a client has access to\r\na particular server on a secure network.  It uses McCallum-Relyea\r\nexchange, a two-party key computation protocol based on Diffie-Hellman\r\nwhere only the client can compute the key!  _Clevis_ [2] uses the\r\namazing *Shamir's Secret Sharing* algorithm to implement unlock\r\npolicies with thresholds that can include passphrases, Tang servers\r\nand TPM-sealed secrets.\r\n\r\nIn this talk I will outline the use cases, explain the algorithms\r\nand demonstrate these tools.  The live demo will set up a machine to\r\nautomatically decrypt a LUKS volume when a required number of Tang\r\nservers are available.  I will conclude with a discussion of\r\nlimitations, assumptions and threats.\r\n\r\n[1] https://github.com/latchset/tang\r\n[2] https://github.com/latchset/clevis\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nWed Jan 15 14:25:00 2020 at Room 8"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - storage
+title: 'E. Choroba - Schema Updates and How to Make Them Zero Downtime'
+recordingDate: 1593104220
+description: "Your fantastic application is online and it started attracting users. Suddenly, you realise you need to change the schema of the data. How to do it properly for both the running system and possible future deployments? How to do it without crashing the running application?\n\nIf we imagine a database powering our application, each schema change comes in two forms: one is the actual ALTER TABLE, the other one is the updated CREATE TABLE that will be used in future deployments. Blindly applying the former might break the application for users that are using it at the moment of the change. If your application is more complex, it might have several components with their own schemas. How can we change the user without breaking the whole application? Perl will be used in the examples, but the findings are valid in general.\n\nSlides: https://e-choroba.eu/20-updates"

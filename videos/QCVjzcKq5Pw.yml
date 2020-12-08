@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+    - security
+title: 'Bugs in your server'
+recordingDate: 1548289812
+description: "Joel Stanley\n\nhttps://2019.linux.conf.au/schedule/presentation/265/\n\n￼Service processor privilege isolation and getting caught with your pants down\r\n\r\nModern servers contain a service processor - a Baseboard Management Controller (BMC) System On a Chip running a software stack that enables out-of-band monitoring and management of the server. Management and monitoring are necessary in cloud and dedicated server environments where machines are leased out, and a fundamental property of such a system is the separation of the management and workload security domains.\r\n\r\nBMC hardware designs and firmware have traditionally been hiding in the shadows, though recent research has begun to shine a light into the ecosystem. The bulk of the research has relied on exploiting software flaws in existing BMC firmware implementations. By contrast, this talk will demonstrate methods of gaining complete persistent control of the BMC using a variety of useful hardware features.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

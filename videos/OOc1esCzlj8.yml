@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - security
+    - javascript
+title: 'The Linux network stack extension for DDoS mitigation and web security'
+recordingDate: 1579135691
+description: "Alexander Krizhanovsky\n\nhttps://lca2020.linux.org.au/schedule/presentation/22/\n\nBack in 2013 we started development of a Web Application Firewall (WAF) on top of one of the widespread HTTP accelerators. That time we realized that modern HTTP accelerators were designed to service normal HTTP requests and don't suite well for filtering massive HTTP traffic from malicious clients such as DDoS bots. A WAF protecting huge web resources or thousands of small web sites also experiences overloading due to deep analyzing of HTTP and web content.\r\n\r\nSo we started to develop our own hybrid of HTTP accelerator and a firewall, Tempesta FW, to address the problem of servicing and filtering massive HTTPS traffic. It can be used as standalone web acceleration and protection system as well as a WAF accelerator performing pre-filtering for more advanced WAF. Tempesta FW is an open source Linux kernel module integrated into the Linux TCP/IP stack and implementing rich set of HTTP security features.\r\n\r\nTempesta FW implements HTTPtables, HTTP requests filtering tool which can be used together with nftables to define filtering rules on all network layers on the same time. Strict and flexible HTTP fields verification, HTTP cookies and JavaScript challenges, as well as various rate limits, are also implemented to efficiently block HTTP(S) DDoS and Web attacks.\r\n\r\nThis talk describes common issues with filtering malicious HTTPS traffic on modern HTTP accelerators, how Tempesta FW solves them, and several low-level topics such as  SIMD HTTP strings processing algorithms, but mostly I'll concentrate on TempestaTLS - a fork of mbedTLS to implement TLS handshakes in the Linux kernel. TempestaTLS cooperates with the TCP/IP stack to send records of optimal size and avoid copying. The handshakes state machine is carefully optimized to provide highest performance. I'll show performance benchmarks comparing TempestaTLS with OpenSSL in workloads close to real life DDoS attack against TLS handshakes.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nWed Jan 15 13:30:00 2020 at Arena"

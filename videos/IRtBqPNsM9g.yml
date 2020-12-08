@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - testing
+title: 'Patching through the snow: decentralised kernel CI on every patch'
+recordingDate: 1548207487
+description: "Russell Currey\n\nhttps://2019.linux.conf.au/schedule/presentation/234/\n\nJust like the development of the kernel itself, its testing is all over the\r\nplace.  There are countless public kernel testing projects and probably even\r\nmore private ones, with hardware vendors testing what works on their own\r\nmachines and maintainers automating checks for what should go into their trees.\r\nIf you're a developer, you probably don't know about any of this unless someone\r\ndirectly tells you.\r\n\r\nThe granularity of running these tests is similarly all over the place:\r\nmany test environments just look at mainline, many look at linux-next or\r\ntrees of specific maintainers, and some run on every patch, like the Intel\r\n0-day bot.  If you're a developer, unless your patch doesn't compile, you're\r\nprobably not going to hear about it.\r\n\r\nProjects that use pull requests on GitHub as a code submission method have it\r\neasy: a developer sends a PR, some CI system magically tests it, and\r\ndevelopers and maintainers alike can quickly see if the code has issues.\r\nThe value in continuous integration is about quick feedback to the developer,\r\nand saving precious time of reviewers and maintainers.\r\n\r\nThis is where snowpatch comes in, using Patchwork as the publicly visible\r\nplatform for test results on patches.  Tests can come in from anywhere,\r\neven an internal lab of a hardware vendor, and have their results published\r\nfor the world to see within minutes of a patch being sent.  It's the closest\r\nthing we have in the world of mailing lists to the simplicity of the GitHub\r\nworkflow, it's easy to get going, and it can function as decentralised as\r\nthe rest of kernel development.\r\n\r\nWe're going to cover how snowpatch works, why it's useful, what we're doing\r\nwith it currently, and look to the future to determine just how much we could\r\ntell the world about a patch, only minutes after it's been sent.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"
