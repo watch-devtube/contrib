@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+title: 'Uri Guttman - "Perl Begat Perl"'
+language: English
+recordingDate: 1560867530
+description: 'Have you ever wondered why some CPAN modules actually generate Perl code to be eval''ed? Some of the reasons are simplicity but most often it is for getting faster running code. The key Perl feature used is eval on strings (the dangerous eval, not the safe eval of blocks). Newbies are always warned not to use string eval but this talk will show you why and how to use it for your benefit. Simple and common examples will be shown that anyone can use. Then more complex examples from existing CPAN modules (two of which are by the speaker) will be covered. They use Perl code generation for major speed gains (including 4x in one case).'

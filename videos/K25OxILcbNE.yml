@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+title: 'Kenta Kobayashi - "Interfaces in Perl"'
+language: English
+recordingDate: 1560866987
+description: "Have you ever experienced the software becoming bigger and less maintenance?\nIn such a case, I think it is important to divide the code, make it easy to change, and make code easier to read.\nFor that reason, I thought the Interface was useful, and I made a module called Function::Interface.\nFunction::Interface checks the arguments and return type of the function at compile time.\nFor example, you can write like this:\npackage IFoo {\n    use Function::Interface;\n    use Types::Standard -types;\n    fun hello(Str $msg) :Return(Str);\n}\npackage Foo {\n    use Function::Interface::Impl qw(IFoo);\n    use Types::Standard -types;\n    fun hello(Str $msg) :Return(Str) {\n        return \"Hello! Pittsburgh! $msg\"\n   }\n}\nIt's strange but interesting!\nTalk Topics\nWhat is Interface, its importance\nHow can I create Interface in Perl?\nRole is not Interface\nDEMO Function::Interface\nInside Function::Interface\nFunction::Parameters, Function::Return\nKeyword::Simple, PPR"
