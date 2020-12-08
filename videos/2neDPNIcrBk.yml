@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - testing
+title: 'Automated firewall testing'
+recordingDate: 1548146954
+description: "Kristof Provost\n\nhttps://2019.linux.conf.au/schedule/presentation/257/\n\nWe're all convinced that automated tests are a good idea. For some applications (e.g. grep, awk, cc, ...) this is very straightforward. Others are a lot harder to test, for example firewalls. \r\nTypically testing firewalls takes two to three hosts. One to send traffic, the firewall test host and one to receive traffic. This makes automated test orchestration complex and brittle. This in turn means that tests either don't get written, are difficult to write and/or suffer random failures unrelated to issues in the firewall itself. Virtualisation has made this all somewhat easier, but it's still fiddly and difficult to make robust. It's also slow.\r\n\r\nThe new FreeBSD network stack virtualisation lets us build on the existing jails system to build test setups, execute tests and clean up in mere seconds, without any requirement for additional hardware, or even hardware virtualisation support.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"
