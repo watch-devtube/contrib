@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - performance
+title: 'Database as Filesystem'
+recordingDate: 1549860764
+description: "Peter Chubb\n\nhttps://2019.linux.conf.au/schedule/presentation/212/\n\nMost network file systems are either a layer over an existing filesystem (NFS, CIFS), or are develped from scratch to have separate, replicated, purpose-designed databases for metadata and object store (GFS, Glusterfs).  At the same time, most database engines provide (or can be coerced into providing) replication and all the ACID properties needed for a high-performance filesystem.\r\n\r\nIdea: Use a database engine (Postgres, MariaDB) on raw partitions with a fast separate nVME log file; build POSIX file system semantics on top.  It's pretty obvious that this could work; I'm just starting to implement it so performance and durability can be measured.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"
