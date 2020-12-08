@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - containers
+    - docker
+    - testing
+title: 'Steven Lembark - "Dockerizing CPAN Testers: Running an Isolated Test Site"'
+language: English
+recordingDate: 1498107680
+description: "The CPAN testers network is an amazing outgrowth of Perl's \"tesing culture\". Authors get their modules tested on hundreds of O/S and Perl platform combinations. Setting up and managing a machine dedicated to testing can be difficult, however, even a virtual machine requires a lot of extra work to keep running. Docker (containers in general) provide an alternative: all it requires is the shared libraries for Perl and a way to import CPAN modules for tesing. The ability to manage resources and suspend/restart the containers also makes this nice for background work on larger systems.\n\nThis talk discusses the basics of setting up the CPAN testers code in a docker container and running the test cycle for in-house testing or as part of the general tester's network.\n\nSteve Lembark has been playing with Perl for a while."
