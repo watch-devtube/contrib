@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - performance
+    - testing
+title: 'Dimitrios Kechagias - "Speeding Up Perl Test Suites"'
+language: English
+recordingDate: 1560914870
+description: "At SpareRoom, a roommate website/app with over 9 million users, we have a reasonably extensive test suite, which is part of the release cycle and \"traditionally\" took quite a long time to complete. During the last year or so, our Perl team dramatically improved the performance of the test suite, transforming it into a much more valuable tool that provides quick feedback during all development phases through continuous testing.\n\nI will discuss various strategies for optimizing large Perl test suites (with an emphasis on web apps) and share several tips based on the experiences of our team, as well as some ideas on how a fast test suite can be more effective in the development workflow.\n\nTo conclude, I will demo our Test2::Aggregator, which helped get more performance out of our test suite and was just releaced to CPAN."

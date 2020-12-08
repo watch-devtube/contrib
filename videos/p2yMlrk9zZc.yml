@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: '"How to make kernel and user space CI for input devices?" - Benjamin Tissoires (LCA 2020)'
+recordingDate: 1579268698
+description: "Benjamin Tissoires\n\nhttps://lca2020.linux.org.au/schedule/presentation/78/\n\nMaking sure that a commit in the kernel doesn't break a mouse, a touchpad or a space bar is hard. Ideally, we need to run this commit, and all versions of it against every possible device. Rinse wash repeat for the user-space commits, because there is this one guy that uses the CPU overheating when long pressing the space bar as an indication to emacs to send a control key event (xkcd 1172).\r\n\r\nBut the universe hasn't provided us an army of people to test the devices, an infinite amount of resources and a lot of time to spare. So making true CI on actual physical devices is hard. That's a pity, really. Luckily, we have computers, and that's a start.\r\n\r\nIn this talk we will show how we moved from basically no regression tests 10 years ago to a state where now every commit gets tested against a good amount of various devices. We will show how we can do CI on the kernel side, and how we can do CI on the user space side.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nFri Jan 17 14:25:00 2020 at Room 8"

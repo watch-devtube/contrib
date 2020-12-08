@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - cloud
+title: 'In-depth technical story: Fixing I/O performance for Windows guests in OpenStack Ceph clouds'
+recordingDate: 1579160338
+description: "Trent Lloyd\n\nhttps://lca2020.linux.org.au/schedule/presentation/98/\n\nA rapidly scaling private OpenStack + Hybrid HDD/SSD Ceph cloud began to experience very slow I/O performance for their Windows guests - making them practically un-usable.\r\n\r\nThis is the in-depth technical story of how the issue was found and fixed including the surprising outcome that this I/O was always going to be slow on an OpenStack Ceph cloud with a large Windows guest footprint - until the fixes that were since developed are deployed at both the storage, host and guest image layer.\r\n\r\nSpoiler Alert: The underlying reason is related to Windows guests by default aligning I/O to 512-byte boundaries but Linux and Ceph generally work best with (and usually only submit, this is key) I/O aligned to 4096-byte boundaries. The story doesn't end there though. I will go in-depth on the fixes and changes needed to Ceph, Nova, Cinder and the Windows VirtIO drivers to get everything working smoothly.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nThu Jan 16 11:40:00 2020 at Room 7"

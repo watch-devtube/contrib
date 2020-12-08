@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+title: 'Ingy döt Net - "CompleteShell: Tab Completion for Every Program and Every Shell"'
+language: English
+recordingDate: 1561043518
+description: "ab completion is one of those programming things that gets added after the fact. You write a cool tool, it gains popularity and then someone wants tab completion. If you take the time to learn how to do it, you write a mediocre completion setup for Bash. Then people want you to support Zsh and Fish and maybe others. Each shell has its own way of doing things.\n\nWouldn't it be cool if you could easily define how your commands complete, and then all the tab completion code was generated for you? Wouldn't it be cool if Bash completion did some of the more modern things that Zsh and Fish do?\n\n**CompleteShell** is your new friend. It's a simple DSL for defining command completion that will compile to any shell. The DSL allows you to access a Standard Library of common useful shell code to create completions. It also allows you to write your own function plugins that (in any language including Perl).\n\nCompleteShell takes Bash completion to places you never been before. For example, with Zsh or Fish, every completion has a description. Now Bash can do that too.\n\nIngy will show you this cool new tool, how to use it, how to author completions, and how to create a completely completable world!"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - testing
+title: 'Todd Rinaldo - "Mocking the Filesystem in Perl"'
+language: English
+recordingDate: 1560914785
+description: "Often when testing, you need to mock files that might not be easily manipulated directly during the test. There are ways to mock the file name or even change your code to not directly invoke open, opendir, -e, etc. so you can mock some alternative wrapper.\n\nThe problem is that you can end up with a problem testing the mocks. Sometimes your code also becomes more complex for the sole purpose of enabling testing. Additionally, you an mock your own code but it's harder to mock CPAN code you use but don't necessarily control.\n\nI set out to make it easier to mock file access without making your production code have to do contortions for testing. Along the way, I learned about many of the warts and bruises in various versions of Perl and various distros. I'll talk about my journey to make this tool."

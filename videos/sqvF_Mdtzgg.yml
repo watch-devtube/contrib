@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+title: 'Forwarding syscalls to userspace'
+recordingDate: 1548274933
+description: "Tycho Andersen\n\nhttps://2019.linux.conf.au/schedule/presentation/236/\n\nContainers are ever popular, and are increasingly presented as an alternative to virtual machines. However, there are some obvious gaps in the API available to containers vs. what's available to root on the host. For example, containers cannot safely load kernel modules, or mount arbitrary filesystems.\r\nIn this talk, Tycho will present a kernel patchset in development for passing syscalls off to a userspace handler, which can perform actions on behalf of the task that performed the syscall. For example, if a container tries to load a kernel module, the userspace daemon might check that the module is in a whitelist, and load the host's version of the module instead. The container is safely allowed to load kernel modules, whereas before it was not.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

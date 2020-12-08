@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - testing
+title: 'James E. Keenan - "Multisection: When Bisection Isn''t Enough to Debug a Problem"'
+language: English
+recordingDate: 1561043044
+description: "Bisection is a developer's tool customarily used to identify the single point in a series of change sets for a given codebase where the code's behavior changed on a given platform. Typically, we perform bisection when a test has begun to fail and we want to identify the change set where that failure first appeared.\n\nThere are, however, circumstances in which, over the course of many change sets, a given test might fail in multiple, different ways. In that case, *how* something failed becomes more important than simply *that* something failed. We may need to capture the output of the testing process at multiple transition points for later human examination. In that case we need a tool for \"multiple bisection\" -- or, for short, \"multisection.\"\n\nI developed CPAN distribution Devel-Git-MultiBisect to provide such a tool and have used it in debugging both build failures and test failures in the Perl 5 core distribution. In this presentation, however, I will not focus on the details of that library but will rather try to have attendees develop an understanding of the kind of problems for which multisectioning is appropriate."

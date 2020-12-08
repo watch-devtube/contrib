@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+title: 'Jeffrey Goff - "Procrastinate with DBIx::LazyCache"'
+language: English
+recordingDate: 1561043701
+description: "DBIx::LazyCache is a caching and lazy evaluation engine sitting on top of DBIx::Class. It supplies a framework which lets you add DBIx::Class relationships like:\n- Make Product.retail_price \"read-only\"\n- Evaluate Product.retail_price only when you're ready to display it.\n- Change Product.retail_price when Product.wholesale_price or Market.rate changes.\n\nSo instead of checking every update() and view to see where you forgot to update the retail_price, you just have to read MyApp::Model::Result::Product to see what should change and when. And instead of implementing business logic all over your Dancer2 app, you just set Market.rate to NULL and let the model take care of the rest. Should you be new to the system, do the calculation yourself and go to update Product.retail_price, the model itself informs you of your mistake and suggests that you update Product.wholesale_price or Market.price.\n\nCaching, lazy evaluation and business logic, all in one easy-to-use module suite. DBIx::LazyCache. Coming to a CPAN mirror near you."

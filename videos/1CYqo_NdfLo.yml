@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - php
+    - ruby
+    - javascript
+title: 'What the dep is going on with Go dependency management?'
+recordingDate: 1548116274
+description: "Adam Harvey\n\nhttps://2019.linux.conf.au/schedule/presentation/260/\n\nRobust dependency management in Go has been a long time coming. The zeroth generation were third party tools like Glide and Godep that attempted to provide some level of order to your $GOPATH, but had no inclination towards being standard tools. These were then followed by dep, which aimed to be a standard tool in the same way that NPM is/was the standard for JavaScript, Composer is for PHP, and Gem is for Ruby.\r\n\r\nIn 2019, though, there's a new kid in town, and it's now integrated into the standard toolchain: go mod, formerly known as vgo. In this talk I'll introduce go mod using examples of how it can be used with both greenfield projects and old projects that used those earlier tools, both in terms of projects that are simple downstream users of third party modules and those that are intended to be used by others.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - raku
+    - performance
+    - web
+    - react
+title: 'Vadim Belman - Threaded Text Console UI in Raku'
+language: English
+recordingDate: 1593187153
+description: "By the time this description is being written the new project named Vikna is still in deep development status. Though most of the critical components are already in place and more to come in the next months. The project is an experiment in creating a UI toolkit written in Raku from ground up. If succeed it will be the first complete terminal UI toolkit for Raku providing easy way for developers to equip their applications with interactive communication to a user.\n\nInternally, Vikna designed to utilize the most advanced Raku language features with focus on being as much parallelized as possible. Yet, life teaches us the importance of the balance and that too much of parallelization might fight back and harm in many possible ways. But when used properly it pays with performance and extra freedom for user code. Say, some code prints diagnostics info while working. Usually one uses print, or say to send it to the console. But what if the code is multithreaded or otherwise asynchronous? How to sort out the mess of interleaving lines coming from different threads? With Vikna one could have one widget per each thread and use it like:\n\n$widget.say: \"Hello world!\";\nAnd that’s all!\n\n… Ok, ok! Yes, there should be some boilerplate for starting the application. But basically it winds down to something like:\n\nclass MyApp is Vikna::App {\nhas Channel:D $.connection-queue .= new;\nmethod main {\n...; # Your application preparation code\nstart react {\nwhenever $.connection-queue - $new-connection { self.start-processing: $new-connection }\n}\n}\nmethod start_processing($conn) {\nmy $out = $.desktop.create-child: Vikna::TextScroll, ...;\n$out.say: \"Let's go!\";\nstart { ...; } # do you work here\n}\n}\n\nDoes it look scary? :)"

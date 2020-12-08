@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - storage
+title: 'Augustina Ragwitz (‎auggy‎) - ‎Perl Out Of Order: Why Timeout Today What You Can Return Tomorrow‎'
+language: English
+recordingDate: 1403623661
+description: 'So you''ve built a fancy web application with a fancy database back end, but now that people are using it you''ve got a few features timing out... and making for angry end users. In a normal procedural program, each task is done when the other finishes. Another option is to hand off the hard work to something else and give your user a status rather than a timeout! This talk will introduce asynchronous programming and the worker queue pattern. I will also provide a simple, reusable example for passing a long running SQL query off to a worker queue using RabbitMQ and AnyEvent::RabbitMQ.'
