@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+    - docker
+    - kubernetes
+    - python
+title: '"Piku: git push deployments to your own servers" - Chris McCormick (LCA 2020)'
+recordingDate: 1579222659
+description: "Chris McCormick\n\nhttps://lca2020.linux.org.au/schedule/presentation/46/\n\nWeary traveler, you have come a long way and fought a brave battle against the ensnarement of that proprietary platform-as-a-service of which we shall not speak it's name. You know the one. The one where you can `git push` with a couple of config files and your full stack magically rolls out like a red carpet at the oscars. No more staying up until 2am apt-get installing, and breaking your brain on nginx configs. It is just so deliciously easy, with just one teensy little catch. You don't own the server. It is deployed into a locked down proprietary fortress where any old Bezos can gaze like the beady Eye of Sauron upon your users' data. Whats more the deployment process is completely opaque. You don't have access to any of the source. Horrifying!\r\n\r\nWell I'm here with a glorious Free Software salve. After leaving the dark side of the PaaS which we shan't mention, I was lucky enough to find Piku. It was a dream. No Kubernetes clusters or Docker swarms needed here. Just a thousand lines of Python and some shell scripts. You can grok the source in one night. Point the bootstrap script at a fresh VPS (or Raspberry Pi!) and a couple of minutes later you have your own multi-tenant app server for less than the price of a single one of those dance-with-the-devil PaaS accounts. Configure a git remote, write a couple of lines in your Procfile, `git push` and you're away! Your app unfolds upon your own server like an origami space station solar panel in all its shining glory. Dependencies installed, SSL cert obtained, Nginx configured, all done for you.\r\n\r\nThis talk will go in depth into the history, minimalist philosophy, and usage of Piku. By the end of it you will be able to do zero-fiddling `git push` deploys to your own servers.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nWed Jan 15 11:40:00 2020 at Room 8"

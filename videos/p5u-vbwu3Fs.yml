@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - performance
+title: '"Large Pages in Linux" - Matthew Wilcox (LCA 2020)'
+recordingDate: 1579213110
+description: "Matthew Wilcox\n\nhttps://lca2020.linux.org.au/schedule/presentation/45/\n\nSince 2002, Linux has used huge pages to improve CPU performance.  Originally, huge pages supported 2MB pages on x86.  They evolved to support other architectures and, eventually, 1GB pages on x86.  Despite this relative success, the huge page mechanism is not flexible enough to support related hardware features.  One desirable feature is a \"medium\" large page size (e.g., ARM CPUs support a 64kB page size).  Another is a larger page size (e.g., some network devices support pages as large as 2GB).\r\n\r\nIn this talk, I will argue that using larger pages to reduce software overhead is as important as enabling hardware optimisations.  I'll talk about the recent patches to improve the performance of larger pages in the page cache.  I'll also talk about patches to bring support for larger pages to normal filesystems.  And I'll talk about some of the downsides of using larger pages, and some of the future limitations of using larger pages.\r\n\r\nThis talk is for kernel developers and those who are interested in learning more about how some hardware works.  Since these optimisations are supposed to be transparent to user space, no changes should be needed to userspace code to take advantage of them.  End users should only notice their web browsers running faster, their database queries completing faster and their birds being slightly less angry.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nThu Jan 16 16:40:00 2020 at Arena"

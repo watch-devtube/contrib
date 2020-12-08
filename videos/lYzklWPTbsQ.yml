@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+    - aws
+title: '"Zero Trust SSH" - Jeremy Stott (LCA 2020)'
+recordingDate: 1579235510
+description: "Jeremy Stott\n\nhttps://lca2020.linux.org.au/schedule/presentation/54/\n\nSSH certificates are an under-utilised feature of OpenSSH, but they offer a fantastic method to solve some pain points of growing teams and growing infrastructure. You don't need to manage complicated directories to live on this greener side of the fence.\r\n\r\nHosts only trust a single public key of a trusted certificate authority instead of keys from every developer (and let's be honest, several who are no longer working at your company :uhoh:). SSH certificates expire (this is good), and can also tell SSH what you can or can't do with your session. The can even help mint a new user on a brand new trusting host. And if you need to use sudo, don't worry your certificate's got your back too.\r\n\r\nHow do you get short lived SSH certificates from a self service certificate authority? Grab your identity on the cli using some nifty OAuth2 in your browser, swap this identity to get temporary AWS credentials, invoke a lambda function, sign a public key, and you're on your merry way.\r\n\r\nOpen source tools are all over this problem. Let's combine some that have been around forever, and some brand new ones into an awesome solution.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nFri Jan 17 10:45:00 2020 at Room 5"

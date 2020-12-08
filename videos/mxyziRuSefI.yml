@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+    - python
+    - embedded
+title: '"OpenWRT for Energy Monitoring" - Tishampati Dhar (LCA 2020)'
+recordingDate: 1579224050
+description: "Tishampati Dhar\n\nhttps://lca2020.linux.org.au/schedule/presentation/195/\n\nThis talk discusses the design of a DIN Rail Energy Monitor with a Linux host processor. IoT systems are becoming a part of everyday life and some are built with little regard for security or privacy. As an electronics engineer I set out to design an IoT energy monitoring system that would be open-source and have openly reviewed firmware enabling users to audit the security and privacy features and possibly send data to their own IoT Storage platforms hosted within their private network. This talk also contains a deep dive in the linux kernel module for SPI drivers.\r\n\r\nThe initial iterations of the design used ESP8266 and then ESP32 as the host processor. The firmware has evolved from Arduino Wiring/C++ to Micropython. My recent efforts have been focused on transitioning a to full-linux capable host processor while delegating the real-time processing and energy computations to ASIC's and FPGA's with ADC extensions. The energy monitor specific code running on the Linux CPU is envisaged to be written in Python for ease of portability and iteration.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nTue Jan 14 15:45:00 2020 at Room 8"

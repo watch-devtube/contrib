@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: '"Write a single library to handle all input devices, it''ll be easy" they said...'
+recordingDate: 1579268613
+description: "Peter Hutterer\n\nhttps://lca2020.linux.org.au/schedule/presentation/79/\n\nSix or so years ago, input devices in userspace were handled by a set of different modules, all with their own properties and behaviours. Where a device didn't work as expected, it was largely up to the users to find the right forum with examples that actually work. This had worked \"well\" for about a decade or two.\r\n\r\nThen, largely driven by the promise of the differently-shaded pastures of Wayland, a new library was born: libinput. The prime motivation behind this library was to have a  unified input stack that works well out of the box for any device, regardless of the display server. libinput is now the input backend for all major Wayland compositors and the default X.org input driver.\r\n\r\nThis talk goes through the motivations behind libinput and its design choices. Why and how is it different to what we had before? Why can we handle mice, touchpads, tablets, touchscreens but not joysticks? Or the weird but common question: Why are there no configuration options? (Spoiler alert: there are quite a few.) The talk will explain how some of the devices work, how we handle them and  why certain behaviours are required and/or at last need to be worked around. I will explain the various current and future features and our plans to improve them. And where we went wrong. Because if it wasn't for the error part of \"trial and error\", everyone would think that we know what we're doing.\r\n\r\nThis talk is about technical details, but intended to be accessible to everyone. You won't need to know programming to understand it, but you'll probably leave knowing more about devices than you want to know.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nFri Jan 17 13:30:00 2020 at Room 5"

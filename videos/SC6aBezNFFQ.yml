@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - architecture
+    - embedded
+title: '"picolibc: a C library for small 32-bit systems" - Keith Packard (LCA 2020)'
+recordingDate: 1579267481
+description: "Keith Packard\n\nhttps://lca2020.linux.org.au/schedule/presentation/148/\n\n8- and 16- bit micro-controller development environments generally\r\ncome with a standard C library implementation offering math, string\r\nand \"OS\" functionality.\r\n\r\nThe same is not universally true for 32-bit or larger systems, such as\r\nRisc-V and ARM. When building embedded systems for these targets, the\r\ndeveloper often has to find (and build) a suitable C library as a part\r\nof the project. Building a common C library for these systems will\r\nreduce the development costs for systems based on these more capable\r\nprocessors.\r\n\r\nThis talk will start by presenting a library built by combining newlib\r\nand a heavily modified avr-libc. This library blends the robust\r\nfunctionality of newlib's math and string functions with the\r\nlightweight stdio design from avr-libc. Next, some proposals on\r\nchanges in this library going forward so that it can be usable by many\r\ndevelopers working on both ARM and Risc-V projects. Finally, I'll\r\npresent some proposed changes in GCC's handling of multilib paths to\r\nautomate selection of libraries based on target architecture.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nMon Jan 13 15:45:00 2020 at Room 7"

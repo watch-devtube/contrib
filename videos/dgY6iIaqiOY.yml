@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - testing
+title: '"VM block error injection, a novel approach for testing Linux storage" - Tony Asleson (LCA 2020)'
+recordingDate: 1579212983
+description: "Tony Asleson\n\nhttps://lca2020.linux.org.au/schedule/presentation/69/\n\nOne of the most important characteristics of any operating system is the ability to safely store and retrieve end user data.  However, this area can be one of the most difficult things to test completely.  Hardware manufacturers strive to make their hardware as reliable as possible, so testing error paths for uncommon conditions is problematic.  For developers having a simple easy to use way to create these types of errors is vital for ensuring correctness.  Developers have tools like scsi_debug, dm-flakey, and others to exercise these error paths, but they all have limitations.\r\n\r\nVirtual machines are ubiquitous, but people may not think of using them for purposely and deliberately creating errors for testing.  We have a opportunity to provide a test environment that allows easy testing of these infrequent error paths.  To force the kernel down read error paths, write error paths, silent data corruption detection/correction, timeouts, etc., during all times of kernel operation and even before the kernel gets loaded by the boot loader.  It's the only way to present an error that is just like actual hardware.\r\n\r\nAttend this talk to learn about:\r\n* Importance of testing the storage stack\r\n* Difficulties in testing\r\n* Different approaches in generating storage errors\r\n* Benefits of adding testing capabilities to virtual machine vs. other approaches\r\n* Other possibilities (block histograms, access patterns, playback)\r\n* A preview proof of concept written for scsi-disk device in QEMU\r\n  https://github.com/tasleson/qemu/tree/block_error_inject\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nThu Jan 16 11:40:00 2020 at Room 8"

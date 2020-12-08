@@ -1,0 +1,20 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - ml
+    - cloud
+    - mobile
+    - android
+    - containers
+    - python
+    - functional
+title: '"Using WhatsApp as a Command Line ( Breaking out of the walled Garden)" - Tishampati Dhar (LCA 2020)'
+recordingDate: 1579213090
+description: "Tishampati Dhar\n\nhttps://lca2020.linux.org.au/schedule/presentation/58/\n\nThis talk describes the WhatsApp chat protocol and various endpoints where data can be unlocked from this classically end-to-end encrypted channel. Unlocking and automating the WhatsApp channel is a pre-requisite for scaling businesses in the 3rd world where this is a dominant communication medium. In the third-world and from my personal experience in Kenya a lot of businesses run on the command-line, the command-line being the WhatsApp message text entry box. This talk describes means of putting shell processor behind that command line to parse natural language, emoji and semi-structured data to capture issues from the field (stderr), information from the field (stdout) and to forward parsed data to order management, tickets and other systems (pipe,redirect).\r\n\r\nWe will cover initial unofficial attempts including:\r\n-  Direct HTTP protocol unlocking \r\n-  Using Headless browsers such as PhantomJS/Puppeteer with WhatsApp for Web\r\n-  Using Android Notifications API to forward messages to another app\r\n-  Using rooted Android phones to uncrack the encrypted db and forward content\r\n-  You can't stop the screenshot\r\n\r\nRecently there are more official channels for general purpose automation and CRM / Support Chat integrations via\r\n- Twilio\r\n- FreshChat\r\n- Zendesk\r\n- Others as WhatsApp graciously grants access\r\n\r\nWe have firsthand experience with the Twilio Whatsapp API / Python SDK which should be familiar to anyone having using Twilio API before. This is layered with text comprehension advances from modern Neural Network based approaches to create effective automated customer service , order creation and field data capture solutions.\r\n\r\nA lot of Python web development has focused on building API's  ( stateless), User-interfaces targeting the browser etc. however Chat as UI requires a stateful backend which has memory and uses context effectively to craft responses. These bots are often domain specific and little attempt is made to be Turing-passing as opposed to being functional with semi-structured input.\r\n\r\nSemi-structured input can be flexibly parsed using mostly rule based NLP, deep learning based NLP is the flavour of the day and only becomes necessary for processing client input (from users outside the organization who cannot be effectively change managed). Tools in the classic python NLTK library for processing WhatsApp data include:\r\n- Stemmers\r\n- Tokenizers\r\n- Fuzzy Matchers\r\n- Regular expressions ( for deterministically named entities such as truck registration, containers numbers, vessel names etc.)\r\n\r\nWhen push comes to shove, the data can be piped via one of the cloud NLP platforms as well. Overall the humans in the WhatsApp treadmill can be assisted by machines to systematize the flood of words.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nThu Jan 16 15:45:00 2020 at Room 5"

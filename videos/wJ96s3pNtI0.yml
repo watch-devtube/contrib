@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+    - architecture
+title: '"Verified seL4 on secure RISC-V processors" - Gernot Heiser (LCA 2020)'
+recordingDate: 1579212965
+description: "Gernot Heiser\n\nhttps://lca2020.linux.org.au/schedule/presentation/40/\n\nRISC-V has many attractions, ranging from the openness of the architecture, its clean-slate design based on simplicity and scalability, as well as the RISC-V Foundation's strong commitment to security from the ground up.\r\n\r\nAs such, RISC-V is an extremely attractive platform for the open-source seL4 microkernel with its unrivalled verification and security story. This has led industry players, especially Germany-based HENSOLDT Cyber, making a major bet on the combination of RISC-V and seL4, resulting in them funding the formal verification (implementation correctness proof) of seL4 on RISC-V.\r\n\r\nI will discuss our experience with implementing and verifying seL4 on the RISC-V architecture, and related open-source technologies we are employing to allow us to build secure systems. This includes the CAmkES component framework that supports a security-by-architecture approach, and the Cogent systems language that is designed to reduce the cost of verified system components such as file systems and device drivers. \r\n\r\nOne interesting aspect are timing channels. We have been working for a number of years on *time protection*, the temporal equivalent of memory protection, as a systematic timing-channel prevention. Our experience on x86 and ARM processors is that they lack the mechanisms to do this completely. RISC-V presents an opportunity to get this right, and I will report on my experience working with the RISC-V Foundation's Security Standing Committee to get the required mechanisms into the processor specification.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nWed Jan 15 11:40:00 2020 at Room 6"

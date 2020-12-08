@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'Betrusted: Better Security Through Physical Partitioning'
+recordingDate: 1579263909
+description: "bunnie, Sean \"xobs\" Cross, Tom Marble\n\nhttps://lca2020.linux.org.au/schedule/presentation/37/\n\nThe condensation of virtually everything into a single device -- the smartphone -- has normalized deviant behaviors that create security risks. For example, many smartphone users conduct secure transactions while juggling several other apps, thus creating opportunities for adversaries to exploit human error. Furthermore, running both secure and insecure code on a common CPU increases the risk of exposing user secrets thanks to microarchitectural side channels --  a large, complex, and opaque attack surface.\r\n\r\nSystem architects have introduced \"secure enclaves\" as a technique to minimize the attack surface between sensitive secrets and an untrusted CPU. In theory, secret key material never leaves the perimeter of the enclave – keys are generated and stored permanently within the enclave. Regardless of the implementation details, secure enclaves inevitably rely on an untrusted CPU to relay messages to the user. This is because there is typically just one screen and keyboard presented to the user, and these elements are directly connected to the untrusted CPU. Thus, secure enclaves can only protect keys from being compromised; they cannot protect the data itself from compromise. \r\n\r\nThis talk introduces Betrusted, a device designed to partition a set of secure applications into a physically separate device that is designed using security-first principles: the hardware is simple, open source, and is user-verifiable from the keyboard to the LCD. Putting secure apps on a separate screen also helps users focus on their secure transactions, while minimizing attack surfaces and eliminating microarchitectural sidechannels. The Betrusted project’s scope will eventually range from secure silicon all the way to application layer code, and we are looking for developers of all stripes who are interested in contributing to the project.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nFri Jan 17 13:30:00 2020 at Arena"

@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - mobile
+    - android
+title: '"Control Flow Integrity in the Linux Kernel" - Kees Cook (LCA 2020)'
+recordingDate: 1579160409
+description: "Kees Cook\n\nhttps://lca2020.linux.org.au/schedule/presentation/84/\n\nLike all C/C++ programs, the Linux Kernel regularly suffers from memory corruption flaws. A common way for attackers to gain execution control is to target function pointers that were saved to memory. Control Flow Integrity (CFI) seeks to sanity-check these pointers and eliminate a huge portion of attack surface. It's possible to do this today with the Linux kernel (or any program) with Clang/LLVM's CFI implementation.\r\n\r\nThis presentation will discuss how Android is using Clang's CFI in the Linux kernel for recent phones, how it is being upstreamed, and what you can do to use CFI yourself. We will explore what Clang actually inserts for code, data, and symbols to protect indirect calls, what needed fixing in the kernel to support it, and what's still missing. We'll wrap up with a short demo of CFI foiling a kernel attack.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nWed Jan 15 15:45:00 2020 at Arena"

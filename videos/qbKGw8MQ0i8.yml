@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - rust
+title: '"NTFS really isn''t that bad" - Robert Collins (LCA 2020)'
+recordingDate: 1579212975
+description: "Robert Collins\n\nhttps://lca2020.linux.org.au/schedule/presentation/38/\n\nWhy was rustup slow (3m30s to install (not including download time)) in early 2019 on Windows, and why isn't it slow (14s to install) now?\r\n\r\nEarly in 2019 I was developing some things in Rustlang on Windows, got frustrated at the performance of rustup (the installer for rust) and looked for bug. I found one which blamed a combination of NTFS, small files and anti-virus software for the problem. This wasn't an entirely satisfactory answer to my mind. Fast forward a bit, and with a combination of changes to rustup and to Windows itself and rustup is now pleasantly usable.... which also improved performance for rustup on NFS mounted home directories.\r\n\r\nI'd like to share with you the story of this experience as well as the technical constraints that drove both the poor performance and the solution we put in place, which has also helped rust-doc performance.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nThu Jan 16 11:40:00 2020 at Room 5"

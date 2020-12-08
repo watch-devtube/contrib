@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - storage
+    - mobile
+    - android
+    - ios
+    - architecture
+    - embedded
+title: '"LumoSQL - updating SQLite for the modern age" - Dan Shearer (LCA 2020)'
+recordingDate: 1579268330
+description: "Dan Shearer\n\nhttps://lca2020.linux.org.au/schedule/presentation/235/\n\nLumoSQL is a fork of SQLite, the embeddable database library founding everything from Android to iOS to Firefox.  As a replacement for fopen(), SQLite is a good choice for singer-writer applications and disconnected, slow and small devices. Modern IoT and application use cases are increasingly multi-writer, fast, high-capacity and internet-connected, and LumoSQL aims to address these very different modern needs. LumoSQL initially aims to improving speed and reliability, by replacing the internal key-value store with LMDB, by updating and fixing a prototype from 2013. Next up we are designing the architecture for replacing the write-ahead log system (as used by all other open and closed source databases) with a single-level store, drawing on LMDB as an example of a single-level store in production at scale. Challenges so far involve code archeology, understanding and updating benchmarking,  designing a system for keeping parity with upstream code changes, file format migration and identifying bugs in both SQLite and LMDB. \r\n\r\nIn this talk we welcome questions and contributions. This conference has many SQLite users and developers. What do you want to see?\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nFri Jan 17 11:40:00 2020 at Room 6"

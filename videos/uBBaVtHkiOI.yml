@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+title: '"How to capture 100G Ethernet traffic at wire speed to local disk" - Christoph Lameter (LCA 2020)'
+recordingDate: 1579223841
+description: "Christoph Lameter\n\nhttps://lca2020.linux.org.au/schedule/presentation/18/\n\nCapturing Ethernet data sounds simple. Who has not run tcpdump? But things are not that simple at 100G anymore due to restrictions on performance of the disk subsystems and the Linux operating system overhead. And why would one want to capture 100G traffic? One reason is that most of the fiber optic wide area links are being converted from 10Gbps to 100Gbps circuits and another is that it is mandatory to capture all traffic going through links in some industries due to government regulation (well governments may want to capture traffic too for other reasons). And one does not want to build a large distributed file system or a large RAID array for that. What we want is a simple 1U Pizza box that can be deployed anywhere without too much fuss where 100G lines are deployed.\r\n\r\nThis talk is going on a journey through the various hardware and software considerations to get a box like that configured and talks about numerous hard lessons learned as to what works and what did not. On the way we encounter numerous hardware and software limitations that seem to be blocking the way and that required creative solutions.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nThu Jan 16 13:30:00 2020 at Room 6"
