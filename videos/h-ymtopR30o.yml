@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - raku
+    - storage
+    - cloud
+title: 'Konstantin Narkhov - Creating a secure decentralized CMS on Ethereum blockchain with Raku'
+language: English
+recordingDate: 1593197358
+description: "Classic content management systems are centralized. Even if we speak about the cloud services or the systems with replicated databases — does not matter, data and its processing applications/services are hosted on particular server or pool of servers (providers). If you want to make such system decentralized, you will face the technically complex, time-consuming and expensive task with no any guarantees. But on other hand, in centralized system your provider can falsify data: modify it a little, grant open access (compromise data), spoof or delete. Of course, we do not talk about purposeful falsification: emergency (fire at data centre), hacker attack, mass virus or smth. Nevertheless, you can identify full data loss (or a half, 1/10, etc…), but what’s about small tweak or tamper?! Most likely you will operate falsified data as a trusted one.\n\nIf you use decentralized content management systems you avoid collisions considered above: data is stored on definitely interpreted, encrypted ledger within distributed network. Blocks can be decrypted with private keys. Each network member has own private key. As at example above, if hacker get private key on one host and falsify data, corrupted data will store in chain and you can (simply or not) identify what data is trusted/corrupted with comparisons or deep data analysis. Chain contains all data changes with timestamps, so if you identify abnormal activity in your server logs — just mark chain segment as potentially falsified. Moreover, if there is no trust in the provider, then nodes with read-only data access can be launched on its servers, i.e. servers will be used as data backup storage.\n\nThe Ethereum blockchain platform performs the necessary and sufficient set of utilities and tools for creating decentralized applications that can be used to store and manage tamper-proof data. Ethereum supports private (Proof-of-Authority) networks, features a smart contract functionality, has a mature ecosystem and well-structured documentation, propagates a quick start and, of course, is FOSS.\n\nWithin this talk we will discuss the methods and features of implementation secure decentralized content management systems on Ethereum blockchain with Raku Raku language (formerly known as Perl 6).\n\nThe practical part of this talk contains a short research in Raku tools for general programming of decentralized web applications. We will consider hybrid data storage model, the ways to reduce application response latency, implementation of both decentralized top-level applications and smart contracts providing low-level access to the blockchain. At the end we will demonstrate the prototype of CMS Pheix — an open decentralized Raku driven system in a public beta version.\n\nThis talk primarily aimed at software architects and developers of tamper-proof data systems, as well as Raku enthusiasts who are involved in blockchain technology and decentralization issues."

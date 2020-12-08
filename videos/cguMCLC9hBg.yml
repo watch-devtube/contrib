@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - containers
+    - docker
+    - architecture
+title: 'David Oswald - Setting up an internal Darkpan'
+language: English
+recordingDate: 1593114062
+description: "As the world moves toward lightweight microservices we are often faced with the dilemma of pulling a large shared-code repository into our containers (rendering them anything but lightweight), or copying in shared libraries (losing the benefits of upstream progress), or …. setting up a Darkpan. With a Darkpan it is easy to convert a repository of shared modules into independent distributions that can be pulled down by containers as they build using typical CPAN tooling such as cpanm and Carton in conjunction with Docker.\n\nI’ve had to do just this, recently, and implemented my work both using a Jenkins pipeline, and with a Stash/Bitbucket to Docker to OpenShift process. In this discussion we will explore the why and how of setting up a Darkpan."

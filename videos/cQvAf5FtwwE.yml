@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - performance
+    - architecture
+title: 'Theo van Hoesel - System Observability and Distributed Tracing'
+language: English
+recordingDate: 1593187876
+description: "OpenTracing\nKnowing\nIs your system slow, or only under certain circumstances or with specific request? OpenTracing and ‘Distributed Tracing’ may be helpful to understand what is going on.\n\nJoin this presentation for 50 minutes and quickly gain back zillions of nanoseconds!\n\nIntroduction to OpenTracing\nFrom the OpenTracing.IO website:\n\nDistributed tracing, also called distributed request tracing, is a method used to profile and monitor applications, especially those built using a microservices architecture. Distributed tracing helps pinpoint where failures occur and what causes poor performance.\n\nOpenTracing is comprised of an API specification, frameworks and libraries that have implemented the specification, and documentation for the project. OpenTracing allows developers to add instrumentation to their application code using APIs that do not lock them into any one particular product or vendor.\n\nPerl5 and OpenTracing\nWith an increasing number of Framework Plugins and Integrations, it becomes more and more easy for Application Developers to add instrumentation to an existing (web) application.\n\nThese Plugins only have a limited responsibility: to bootstrap a OpenTracing compliant Implementation.\n\nIntegrations, on the one hand, need to be capable to extract (implementation specific) tracer information from in incoming request, or, on the other hand, inject that information into an outgoing request to a (micro) service and other sub-systems.\n\nBeing ‘open’ or agnostic about third party tracing software services, also means that for each of those there needs to be a specific Implementation.\n\nSome Integration solutions are readily available, others will require more development.\n\nThe OpenTracing Perl5 SDK\nTo make your task as a developer more easy, there are various tools available, most important the OpenTracing Interface POD. And as long as you keep your development stick to those API specifications, life is good. But there are Types and Test to help building compliant Integrations and Implementations.\n\nPR’s are welcome!"

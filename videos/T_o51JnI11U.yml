@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - performance
+    - python
+    - javascript
+    - rust
+    - wasm
+title: 'Graham Ollis - Perl + WebAssembly'
+language: English
+recordingDate: 1593029044
+description: "Let’s write Perl bindings in WebAssembly (Wasm)! You’ve heard of WebAssembly: a portable bytecode that facilitates the implementation of high-performance applications inside web pages, but it is also useful for writing fast sandboxed extensions in a number of programming languages, including Perl.\n\nWebAssembly (Wasm) was developed as a fast, safe, portable bytecode that could be used by web browsers in situations where plain JavaScript is not appropriate. It can also be useful in server applications, where the sandboxed nature of the technology allows running code that might be untrusted or might misbehave in subtle ways. As the applications for this technology are growing, a number of languages are getting their own WebAssebly interfaces that allow them to write fast, safe and portable extensions in any of the growing list of languages that can target WebAssembly, including Rust, Go and C.\n\nIn this talk I will discuss the basics of using WebAssembly using Wasmtime, an open source WebAssembly run-time. I’ll be focusing on using it from Perl using Wasm::Wasmtime, but will also touch briefly on how easily you can use a WebAssembly extension compiled just once, in a number of different languages, like Python or Node.js. We will spend some time comparing and contrasting using WebAssembly with related technologies that cross the language barrier like XS and FFI. I’ll also discuss WebAssebly techniques and technologies that I hope will be useful in Perl in the near future. Future specifications like WebAssebly Interface Types that should make it easier for different languages to talk to each other using higher level types. There should also be time to talk about future technologies like Lucet, the WebAssebly native compiler, for even faster execution."

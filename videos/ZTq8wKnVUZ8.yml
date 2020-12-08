@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - ml
+    - tensorflow
+title: 'But Mummy I don''t want to use CUDA - Open source GPU compute'
+recordingDate: 1548413407
+description: "Dave Airlie\n\nhttps://2019.linux.conf.au/schedule/presentation/182/\n\nCUDA has become the defacto standard for GPU compute in most fields. AI and Machine Learning via projects like tensorflow are all targeting CUDA as their runtime. CUDA however as one major flaw, it's closed source and requires closed source drivers.\r\n\r\nThis talk will explore the current state of non-CUDA compute stacks, concentrating on the OpenCL, SPIR-V and SYCL projects from Khronos, but also touching on Vulkan compute and other possibilities.\r\n\r\nIt will discuss the some possible problems with AMD ROCm and Intel OpenCL drivers from a Linux platform point of view and try to scope out what a vendor-neutral Linux focused compute stack might look like that has maximal code sharing across vendors and doesn't require shipping various vendor forks of LLVM.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

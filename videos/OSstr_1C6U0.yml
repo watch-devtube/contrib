@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - unix
+    - azure
+    - containers
+    - docker
+title: 'Dave Rolsky - Continuous Integration for Perl with Azure Pipelines'
+language: English
+recordingDate: 1593193683
+description: "Continuous Integration (CI) is the thing all the cool kids are doing. If you do some CI you will be cool too. You know you wanna! CI lets you ensure that every commit that goes to production was tested against your test suite (you do have a test suite, right?). There are a lot of products for CI, both on premise and SaaS.\n\nAzure Pipelines is one of those SaaS products. The free offering for open source projects allows you to run ten jobs (that’s a lot!) in parallel on Linux, macOS, and Windows. It also lets you run on bare metal or in Docker containers. It supports all sorts of powerful features like multi-stage builds, dependencies, output caching, and more.\n\nWe’ll talk about many of those features, using my ci-perl-helpers project for context. I may even do a live demo if I’m feeling foolish. (Spoiler: I often feel foolish.)\n\nYou’ll come away with a general understanding of how you might bring CI back to your own projects, whether they’re open source or for your day job (or both), as well as learn how to use my helpers project to test your Perl distributions.\n\nSlides: https://www.houseabsolute.com/presentations/github/azure-ci/#/"

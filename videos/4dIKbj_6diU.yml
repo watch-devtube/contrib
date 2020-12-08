@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'Maintaining the Unmaintainable: Picking up the Baton of a Secure Kernel Patchset'
+recordingDate: 1548450004
+description: "Matthew Ruffell\n\nhttps://2019.linux.conf.au/schedule/presentation/180/\n\nThe world of kernel security forever changed on April 26th 2017, when Open Source Security Inc published a press release announcing that they are no longer making their grsecurity kernel patchset available to the public, and that they are \"handing over future maintenance of grsecurity test patches to the community\". Citing their wishes for newcomers to experiment with new ideas, and that the future will be shaped by the next generation, they challenged the world to continue maintenance on grsecurity themselves. Left with little more than the previous patch to 4.9.24, and the knowledge that 4.9 will receive back ported fixes from upstream for two years, it was clear that there were large shoes to fill.\r\n\r\nAt the time, I was building my distro, Dapper Linux, and one of its key value propositions is running a grsec kernel out of the box. Feeling left high and dry, and unwilling to give up on the technological advancements that the patchset provides, I decided to learn kernel development, and attempt to maintain the patchset as a complete kernel newbie.\r\n\r\nIn this talk, we will have a look at the internals of the patchset, and what features are provided, slightly touch on the politics surrounding the patchset (and epic flamewars on the kernel-hardening list). We will also see what I have done to keep the patchset alive, and my attempts to forward port the patchset to newer major kernel versions, as well as the typical maintenance for 4.9 LTS.\r\n\r\nWe will also see how a kernel newbie became the sole maintainer of the patchset in its entirety, and the roadblocks that have arisen that have caused far more experienced developers to give up. Finally, we will talk about what the future holds, once support for 4.9 LTS ends in Jan 2020.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

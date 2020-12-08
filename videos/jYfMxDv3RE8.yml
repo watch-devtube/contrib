@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - raku
+title: 'Juan Julián Merelo Guervós - Doccing Raku'
+language: English
+recordingDate: 1593108153
+description: "Unlike many (maybe most) free software projects where the same people write the code and the documentation for it, it was a design decision from the beginning that documentation of Raku, its classes and more meta stuff, would be clearly separated from the interpreter (and the rest of the parts of Raku) itself. A documentation repository was created by Moritz Lenz, who started to hammer away at writing down what every piece of Raku did, and how to put together programs and modules that use it. This documentation repository eventually became host to three different things: the source of the documentation itself, written in Pod6, a SLANG within Raku for documentation, but also the command that indexes and shows that documentation, a series of modules that process and extract metadata and source from that documentation to generate a static website.\n\nThe management of the site became a do-ocracy, with anyone with a commit bit deciding on where to go next, which issues to address, which PRs to accept, in a model that is actually not so different from the rest of the Raku ecosystem, but which makes sustainable and, over all, long term development, a challenge. In this talk we will first analyze the model of Raku documentation and what kind of lessons can be learned from it for software development at large, and Perl and Raku development in particular. Then we will analyze data on contributions to the Raku documentation repository and see how this software development model has worked out, what it lacks and what can be done to improve it just a tiny bit.\n\nIn 2019, everything (kind of) changed. A student, Antonio Gámiz, worked on a new system to parse, index and generate the documentation called Documentable. This was intended as a plug-in replacement for the former doc-site generation script, but it’s eventually something that’s a bit more than that. It creates a stack of modules that are not monolithic, have many endpoints for use, and can become a new ecosystem for document processing. This is still very much a work in progress, but it’s reduced by 75% the time needed to generate the whole documentation, and almost by 90% the time needed to regenerate it.\n\nThis talk is, at the same time, an presentation of the documentation as an entryway for the community, a overview of Raku design, and a technical talk on how to create a good (maybe not excellent) documentation processing and rendering system."
