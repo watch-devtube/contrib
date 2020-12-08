@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'The dark side of the ForSSHe'
+recordingDate: 1548374109
+description: "Hugo Porcher, romain dumont\n\nhttps://2019.linux.conf.au/schedule/presentation/157/\n\nIn February 2014, ESET researchers from Montreal published a report on a group who compromised more than 40,000 Linux servers worldwide since 2011. This research was presented at the LCA 2015 as Operation Windigo. The modus operandi of this campaign consisted mainly in stealing login credentials through an OpenSSH backdoor called Ebury, allowing them to extend their network of compromised servers. Prior to the installation of the backdoor, operators used a recon script to collect a handful of information, including the presence of other OpenSSH backdoors on the system.\r\nIn 3 years, we collected hundreds of undocumented samples matching the rules based on the signatures we extracted from the script. This talk will present the analysis we made of these samples, from the most basic ones to advanced ones involving exotic encryption algorithms, anti-logging and diverse methods of exfiltration.\r\nIn order to pivot on these findings, we have setup a custom honeypot infrastructure and let the operators behind the backdoors play with it. We will present the checks they make before deploying their malware, how they install it and the lateral movements we observed so far. We will also talk about the new samples we were able to obtain thanks to this poker strike. \r\nFinally, we will give some pointers on preventing this kind of threats and how one can ensure the legitimacy of OpenSSH daemons and clients.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

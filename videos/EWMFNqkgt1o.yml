@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - c++
+    - python
+    - embedded
+title: '"Snek: A Python-Inspired Language for Tiny Embedded Computers" - Keith Packard (LCA 2020)'
+recordingDate: 1579160274
+description: "Keith Packard\n\nhttps://lca2020.linux.org.au/schedule/presentation/20/\n\nTiny embedded computers, like the original Arduino, are great for\r\nautomating simple tasks. What they are not great at is providing an\r\neasy-to-learn environment for new programmers.\r\n\r\nAs a part of a middle school robotics course based on Lego, I've\r\ndeveloped a new language, Snek, which runs on these machines. Snek can\r\nrun in as little as 32kB of ROM and 2kB of RAM. It provides a simpler,\r\nsafer, easier to explore environment than C++. Snek is a subset of the\r\nPython language and comes with a host-based IDE written in Python that\r\nruns on Linux, Mac OS X and Windows.\r\n\r\nThis presentation will describe the Snek language along with a few of\r\nthe interesting implementation details including:\r\n\r\n * A new parser generator, lola, that generates\r\n   a parser 1/10 the size of bison\r\n\r\n * An in-place compacting garbage collector\r\n\r\n * A fine hack for representing values in 32 bits that includes 32-bit\r\n   floats\r\n\r\n * Some challenges with Python syntax and\r\n   semantics which make it difficult to fit into a small\r\n   environment.\r\n\r\nThere will also be a demonstration of a few Snek-based Lego robots\r\nalong with a description of how Snek has been integrated into the\r\nclassroom environment. Comparisons with other embedded Python\r\nimplementations will also be provided, including Micro Python, Circuit\r\nPython and full Python running on systems like the Raspberry PI.\r\n\r\nAttendees will learn something about how interpreted Python\r\nimplementations operate, how Python can be used in embedded systems\r\nand what teaching programming to middle school students (10-14 years\r\nold) is like.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nWed Jan 15 10:45:00 2020 at Arena"

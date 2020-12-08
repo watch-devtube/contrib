@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - storage
+title: 'Michael McClennen - ‎Designing and Implementing Web Data Services in Perl‎'
+language: English
+recordingDate: 1403708740
+description: "Perl is a language almost perfectly designed for implementing Web data services. But even with this marvelous language and the plethora of useful CPAN modules that we have available, designing and implementing a useful, efficient and well-documented data service is no easy task.\n\nThis talk will address the major points that need to be considered in designing and implementing a Perl-based data service. The primary example will be the speaker's recent implementation of a data service for The Paleobiology Database (http://paleobiodb.org/data1.1/); other examples will be presented for contrast and to highlight different implementation choices and their consequences.\n\nThe talk is aimed at attendees who are either in the process of implementing a web data service or are planning to do so in the future. It will provide concrete guidance about what questions need to be asked, what decisions need to be made, and the pros and cons of various implementation choices. The following points will be discussed:\n\n- Choice of frameworks\n- HTTP server\n- Web application framework\n- Data framework\n- Cacheing framework\n- Important protocols\n- HTTP\n- CORS\n- JSON\n- Parameter validation\n- Error reporting\n- The principle of Integral Documentation\n- Handling multiple output formats and vocabularies\n- Cacheing and cache gotchas\n- Character sets\n- Basic principles of REST\n\nAll of these considerations and more have been addressed in the modules HTTP::Validate and Web::DataService, coming soon to CPAN. The talk will include a brief overview of these modules, but will not focus exclusively on them."

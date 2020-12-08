@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: 'Improving Graphics Interactivity - It''s All in the Timing.'
+recordingDate: 1548381693
+description: "Keith Packard\n\nhttps://2019.linux.conf.au/schedule/presentation/134/\n\nInteractive applications, which includes everything from real time\r\ngames through flight simulators and virtual reality environments,\r\nplace strong real-time requirements on the whole computing environment\r\nto ensure that the correct data are presented to the user at the\r\ncorrect time. This requires two things; the first is that the time\r\nwhen the information will be displayed be known to the application so\r\nthat the correct contents can be computed, and second that the frame\r\nactually be displayed at that time.\r\n\r\nThese two pieces of information are managed inconsistently through the\r\ngraphics stack, making it difficult for applications to provide a\r\nsmooth animation experience to users. And because of the many APIs\r\nwhich lie between the application rendering using OpenGL or Vulkan and\r\nthe underlying hardware, a failure to correctly handle things at\r\nany point along the chain will result in stuttering results.\r\n\r\nFixing this requires changes throughout the system, from making the\r\nkernel provide better control and information about the queuing and\r\npresentation of images through changes in composited window systems to\r\nensure that images are displayed at the target time, and that\r\nthe actual time of presentation is reported back to applications and\r\nfinally additions to rendering APIs like Vulkan to expose control\r\nover image presentation times and feedback about when images ended up\r\nbeing visible to the user.\r\n\r\nThis presentation will first demonstrate the effects of poor display\r\ntiming support inherent in the current graphics stack, talk about the\r\ndifferent solutions required at each level of the system and finally\r\nshow the working system.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"
