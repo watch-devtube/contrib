@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+    - javascript
+title: 'FileSender: Sharing large files across research facilities'
+recordingDate: 1548368117
+description: "Ben Martin\n\nhttps://2019.linux.conf.au/schedule/presentation/104/\n\nThe FileSender project allows large files (100gb+) to easily be shared with people at other companies and research facilities. Uploads and downloads occur in the browser and files can be uploaded to a FileSender hosted at your organization or you can be invited as a guest to another research facility installation. Optional end to end encryption keeps the data secure from users on the server, all crypto is done in the browser keeping it simple and secure for users.\r\n\r\nWhile a raw http and ftp server can be used to share files, many non technical users will not have access to upload and administer one of these servers. Access control to only selected users and automatic expiration of hosted files might be difficult for users more interested in research which is outside the IT field.\r\n\r\nFileSender supports push and pull models. To push, if you have access to a FileSender installation you can upload the file to it and inform those who you want to access the data to allow them to obtain it. To pull a file, you can create a guest on your FileSender install and invite a user to upload the data there. Guests can be subjected to specific access control, for example, only uploading a single file, and only to you.\r\n\r\nI would love to talk about the challenges the FileSender project tries to address, the php/js code that comprise it, the history, and development of FileSender. I think it is a useful project to know and use in research and commercial environments and would love to hear feedback on where the project might want to move in the future.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

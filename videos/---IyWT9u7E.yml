@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: 'Optimising ID Allocation for low-memory devices'
+recordingDate: 1548365666
+description: "Matthew Wilcox\n\nhttps://2019.linux.conf.au/schedule/presentation/126/\n\nThe Linux kernel needs to allocate small identifying numbers for many things (e.g. file descriptors, process IDs, SCSI devices, USB ports, network devices).  The implementation of this crucial functionality was surprisingly memory-hungry and so it needed to be rewritten.\r\n\r\nThis case study shows\r\n - How implementing functionality in the Linux kernel (or any project of sufficient\r\n   complexity) requires being aware of implementation details of other parts of the\r\n   project.\r\n - The perils of half-complete migrations.\r\n - How easy it is to overlook hundreds of kilobytes of memory leaking when you have\r\n   gigabytes of memory in your system.\r\n - The importance of API design.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

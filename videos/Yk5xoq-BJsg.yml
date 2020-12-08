@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'Authentication Afterlife: the dark side of making lost password recovery harder'
+recordingDate: 1579050421
+description: "Ewen McNeill\n\nhttps://lca2020.linux.org.au/schedule/presentation/118/\n\nHistorically authentication was by username and password, perhaps with email as a password reset flow.   Users often wrote down their passwords (particularly older users), and possibly they only had a few passwords and it was pretty easy to try all of them.\r\n\r\nModern times have proven that passwords, particularly reused passwords, are insufficient security for any slightly valuable account.  So lots of people are using password managers, randomised passwords, and 2FA (hardware tokens, TOTP, etc).  Some accounts also require an additional authentication flow (email, SMS) for \"new device\" logins.  \"Security Aware\" users are using randomised answers to security challenge questions, perhaps also stored in their password managers.\r\n\r\nThis \"security improvement\" has a flip side: it's gone from being unlikely users will forget their passwords or get locked out, to being more likely users will lose access to their accounts through loss of 2FA or additional authentication paths (eg, phone number, or email), and more likely that users will struggle with lost password recovery.   And there's a darker side still: if the user is incapacitated, or has passed away, often someone else close to them will need to act \"on their behalf\" with those accounts (for legitimate transactions, send out notifications, or just to archive the account), and will likely struggle to gain access to them without the original users full set of password manager / 2FA / etc.\r\n\r\nHow do we balance the need to improve authentication security, and reduce the simplicity of malicious account takeover, with the need for there to be a way for legimate account use by bereaved family members, or other trusted associates?   There are no easy answers here, but considering the questions is important.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nTue Jan 14 14:05:00 2020 at Room 6"

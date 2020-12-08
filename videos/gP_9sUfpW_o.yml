@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'Firmware security, why it matters and how you can have it'
+recordingDate: 1548366773
+description: "Matthew Garrett\n\nhttps://2019.linux.conf.au/schedule/presentation/110/\n\nA system is only as secure as the least secure component it depends on. Hardening the kernel is a vital part of developing a secure operating system, but if the firmware underneath the kernel is insecure then attackers have an opportunity to sidestep your security and compromise you anyway.\r\n\r\nFirmware security research is a rapidly growing field, but the wider world is unaware of a lot of the output. Over recent users we've seen vulnerabilities involving exploitation of code running in system management mode, taking advantage of firmware-level hardware initialisation scripts run on resume from suspend, and even compromise of the management engine - an entirely separate computer that lives inside your chipset.\r\n\r\nThere's a huge amount of work being done to improve this, but you probably haven't heard about it. This presentation will cover how the state of the art is shifting, along with a discussion of how much of this applies to projects such as Coreboot and Libreboot and whether it's possible to obtain the same level of security without compromising the freedom to run whatever you want on your system.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

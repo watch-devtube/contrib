@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - mobile
+    - android
+    - ios
+    - java
+title: 'Desktop to Mobile - Developing for Multiple Platforms without Losing Your Mind'
+recordingDate: 1548365792
+description: "Dirk Hohndel\n\nhttps://2019.linux.conf.au/schedule/presentation/108/\n\nThis is a no-brainer, right? Everyone is just doing mobile apps these days, anyway. So why is this even a talk? Well, imagine you have a desktop application. And that there are good reasons why this should be a desktop application (screen size and ability to talk to random hardware devices, for example). But your users really want a mobile app. And now you need both. And you don't want to throw away all that code. So what do you do?\r\n\r\nThe Subsurface developers decided to build their desktop and mobile apps from the same code base, using QML and Kirigami to develop the mobile flavor of their Qt app. This solved many problems and opened many doors for us, but it also taught us some harsh lessons about being earlier adopters (this was the first Kirigami app outside their own example apps) and niche users of a technology: to this day I believe we are the only Kirigami app that's both in the Apple App Store and the Google Play Store, and the total number of Qt/QML based applications in both stores is miniscule. Android and iOS packaging are definitely not first class citizens and random other things for those two platforms will randomly not quite work the way you expect.\r\n\r\nThe presentation will briefly touch on the why (as in: why the heck did you do that instead of writing native Java / objC apps?) and then focus on the how: How can you share most of your code between desktop and mobile, make reasonable trade-offs between functionality, and deal with the challenges of supporting Android and iOS (let alone Linux, Mac, and Windows) from the same code base.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

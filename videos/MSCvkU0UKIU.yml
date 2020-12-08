@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - architecture
+title: 'Gen-Z on Linux: Supporting a New System Interconnect in Free Software'
+recordingDate: 1548372268
+description: "Keith Packard\n\nhttps://2019.linux.conf.au/schedule/presentation/232/\n\nSystem interconnects is a term which spans a wide range of wiring\r\ntechniques within computer systems. The term encompasses everything\r\nfrom memory connections like DDR, processor-to-processor links like\r\nUPI or Infinity Fabric, device connection links like USB or PCIe to\r\nmachine-to-machine connections like Infiniband or Ethernet.\r\n\r\nGen-Z is an interconnect which can span this whole range. Gen-Z is\r\nbeing developed by a broad industry consortium as an open standard and\r\nhas reached version 1.0, making it ready for implementation in\r\nhardware and software.\r\n\r\nWithin Linux, system interconnects support requires infrastructure\r\nthat provides device drivers access to low-level interconnect\r\ninterface hardware. This infrastructure offers discovery, addressing\r\nand communication abstraction so that device drivers need not\r\nimplement direct support for the low-level interconnect hardware\r\nitself. Linux offers as many interconnect abstractions as there are\r\nsupported interconnects, from packets for networking through blocks\r\nfor storage and URBs for USB. Gen-Z will also require new abstractions\r\nand management methods\r\n\r\nGen-Z provides broad capabilities and uses ideas from a broad range of\r\nexisting hardware. Adding Gen-Z support to Linux will require a\r\nsimilarly broad range of techniques, some adapted from existing\r\nsubsystems and some purpose-built.\r\n\r\nThis presentation will first describe what Gen-Z is and how it works,\r\ndescribe a freely available Gen-Z emulator and then discuss the\r\ncurrent architecture for Linux support of Gen-Z. Finally, the\r\nsimulator will be used to show the current state of the Linux Gen-Z\r\nsubsystem development.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"
