@@ -1,0 +1,13 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+title: 'Booting faster'
+recordingDate: 1548377387
+description: "Stewart Smith\n\nhttps://2019.linux.conf.au/schedule/presentation/105/\n\nDoing kernel and firmware development leaves you rebooting computers a *lot*. Modern computers (especially servers) take too long to boot.\r\n\r\nSince OpenPOWER systems have a fully open firmware stack (some even with an open BMC stack), we can now attack the problem from *all* angles. This talk covers efforts over the past several years into making POWER based systems boot faster. Is it Linux itself that takes the most time? Firmware? What part of firmware and why? Are the problems for a single socket desktop system different to those from an 8 socket enterprise one? Where have we gotten *worse* and why?\r\n\r\nCan we go from close to 10 minutes to less than 30 seconds? 10 seconds? At what point are we purely limited by peoples unreasonable expectations of having PCI, RAM, and output on a display?\r\n\r\nWe go on a full stack deep dive into what it takes to cold (and warm) boot (and reboot) a system - or at least any part of that which takes time, as well as how we've measured it. We'll touch on code before the power button works, code from before the first instruction is executed, and code all the way up to being able to load a kernel off disk and beyond.\r\n\r\nWhen talking about future improvements, anyone stating \"but you're already faster than a bunch of our other servers\" will be subtly ssshhed.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

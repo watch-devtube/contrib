@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'Making C Less Dangerous in the Linux kernel'
+recordingDate: 1548434463
+description: "Kees Cook\n\nhttps://2019.linux.conf.au/schedule/presentation/178/\n\nWith the Linux kernel written in C, it comes with some worrisome baggage, \"undefined\" behaviors, and other weaknesses that lead to security flaws and vulnerable infrastructure. Some of these weaknesses related to the design of chipsets and how close C is to machine code, but others are less specific.\r\n\r\nThis presentation will explore the areas where the kernel is changing the C standard, defining undefined behaviors, or otherwise reorganizing things to make C itself less of a hazard.\r\n\r\nSpecifically this will cover removing (and enforcing the lack of) Variable Length Arrays in kernel code, forcing all stack variables to be initialized with a GCC plugin, performing implicit bounds checking with overloaded builtins, handling arithmetic overflows safely, and protecting forward (call) and reverse (return) indirect function calls with CFI under Clang.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"
