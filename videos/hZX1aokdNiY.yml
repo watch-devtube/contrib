@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: 'RCU''s First-Ever CVE, and How I Lived to Tell the Tale'
+recordingDate: 1548288660
+description: "Paul E. McKenney\n\nhttps://2019.linux.conf.au/schedule/presentation/107/\n\nThere was a time when I thought that Linux-kernel RCU was so low level that it was immune to security exploits. However, the 2014 advent of Rowhammer (https://en.wikipedia.org/wiki/Row_hammer) put paid to that naive thought.  After all, if the black hats can hit the DRAM, they can surely hit RCU!  And in early 2018, an RCU-related CVE duly appeared.  Now, RCU was operating as advertised, but it had a usability bug which lured a developer into mixing RCU flavors, which has about the same effect on your kernel's actuarial statistics as would acquiring the wrong lock.  So yes, usability bugs are real, so much so that they can result in security exploits!  Who knew?  Linus therefore asked if I could prevent future such exploits by consolidating the three RCU flavors (RCU-bh, RCU-preempt, and RCU-sched) into one flavor to rule them all.     This talk will briefly cover this consolidation, highlighting a few war stories and lessons (re)learned along the way.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"
