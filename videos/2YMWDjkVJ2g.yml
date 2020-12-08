@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - functional
+title: 'Nicolas R. - "Overriding Perl OPs With XS"'
+language: English
+recordingDate: 1561043895
+description: "This talk will show how it's possible to mock PerlOps using XS and provide a convenient Pure Perl hook for each of the file check -X.\n\nOverload::FileCheck provides a way to mock one or more file checks. It is also possible to mock stat/lstat functions using \"mock_all_from_stat\" and let Overload::FileCheck mock for you for any other -X checks.\n\nSlides:\nhttps://www.slideshare.net/NicolasRochelemagne/overloading-perl-ops-using-xs"
