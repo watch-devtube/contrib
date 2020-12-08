@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: '"You Shall Not Pass" - Peter Burnett (LCA 2020)'
+recordingDate: 1579047144
+description: "Peter Burnett\n\nhttps://lca2020.linux.org.au/schedule/presentation/121/\n\nMoodle is an open source learning management system, popular with universities. As Moodle has aged, some aspects of its security have fallen well behind industry standards for security. This talk will discuss the measures that have been taken to bring it up to scratch, and the ways that this can be applied to any application. The first priority in improving the security of the platform was targeting its password policy, which suffers from the older model of 'You must have atleast 2 uppercase characters'. To address this, a new plugin was developed for the platform, which acts much more in line with current NIST guidelines, including checks for compromised passwords using the HaveIBeenPwned API, and a user's personal information. This talk will show the guidelines we worked against, and how it can be applied to any applications password flow.\r\n\r\nThe next challenge to tackle was the lack of ways to augment an authentication flow. There are a huge amount of ways to authenticate to a Moodle, with support for all major SSO services, however, no potential to augment this process with additional tools such as MFA. To this end, work was done with Moodle HQ to implement a platform for this functionality on all pages that require higher security, such as changing and resetting a user's password. This talk will discuss what we learned along the way, and how to avoid common problems when implementing an MFA system such as security questions.\r\n\r\nFinally, this talk will discuss the work that we are doing to implement MFA in a way that works alongside other authentication methods, such as SSO, with discussion on alternative factors, such as trusted IP networks.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nTue Jan 14 14:40:00 2020 at Room 6"

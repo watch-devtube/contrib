@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - cloud
+    - ux
+    - aws
+title: '"Bash-my-AWS: CLI commands for managing AWS resources" - Mike Bailey (LCA 2020)'
+recordingDate: 1578987095
+description: "Mike Bailey\n\nhttps://lca2020.linux.org.au/schedule/presentation/144/\n\nIf you use Amazon AWS and prefer the command line over ClickOps(TM), this talk might just make your week.\r\n\r\nFor decades, the command line and shell scripts have been a core part of unix culture and preferred tools for many sysadmins. The existing unix commands that come with any linux/bsd distro, along with streams/pipelining, plain text and a lack of mouseclicks are just a few of the attractions.\r\n\r\nIn recent years, ClickOps seems to be on the rise - largely due to enterprise web applications with suboptimal (or absent) CLI tools.  Many of us have been spending more time in the AWS Web Console than we would like for this very reason.\r\n\r\nBash-my-AWS is a simple but extremely powerful set of CLI commands for managing resources on Amazon Web Services. They harness the power of Amazon's AWSCLI, while abstracting away the verbosity. The project implements some innovative patterns but (arguably) remains simple, beautiful, readable and easily extensible.\r\n\r\nBy emitting line oriented output instead of JSON, Bash-my-AWS commands work well  in pipelines with other standard unix commands. Additionally, the commands take a novel approach to handing STDIN that  greatly improves the user experience.\r\n\r\nThe talk will introduce the project and describe it's novel use of pipelining to improve the user experience.\r\n\r\nWebsite: https://bash-my-aws.org\r\nGit: https://github.com/bash-my-aws/bash-my-aws\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nMon Jan 13 16:05:00 2020 at Arena"

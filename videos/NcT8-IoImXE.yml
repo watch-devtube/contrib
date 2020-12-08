@@ -1,0 +1,19 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - serverless
+    - unix
+    - c++
+    - cloud
+    - devops
+    - testing
+    - ruby
+title: '"Configuration Is (riskier than?) Code" - Jamie Wilkinson (LCA 2020)'
+recordingDate: 1578986949
+description: "Jamie Wilkinson\n\nhttps://lca2020.linux.org.au/schedule/presentation/141/\n\nTL;DR: Configuration is code, and config changes should be treated with at least as much care, skepticism, and rigour as code changes are.  Config presents special challenges though as it's usually not a fully operational Turing equivalent language, but has a high \"force multiplier\" per character relative to code itself.  let's explore those challenges and how we can address them to reduce the risk of configuration-change-related outages. \r\n\r\nOver ten years ago Puppet Labs and others espoused the idea of \"configuration as code,\" setting a course that crossed DevOps, the APIfication of systems, the Cloud, and Serverless.  Today, you can write a few lines of config and invoke thousands of CPUs, doing hundreds of operations, deploying entire clusters of systems, a huge force multiplier for IT operations.\r\n         \r\nThis force multiplier comes at a cost, and that cost is risk and impact.  Never before has it been so easy to destroy an entire CDN in a single command. While numbers vary, studies show that a significant number of incidents in IT operations are caused by configuration changes. \r\n\r\nConfiguration *is* code (and I'll prove it), but it sure lacks the same rigour that code receives. Configuration formats like YAML and JSON do not have the same quality of syntax checkers and debuggers that languages like C++, Go, and Ruby have.  Often the first time you know that a configuration is semantically correct is when it is running in production.\r\n                                                                               \r\nSo what can we do about it?  Why does this presenter think that a comparison between configuration format and a debugger is even possible?\r\n\r\nIn this presentation we'll start by looking at this problem from a theoretical point, which will let us look to other areas that solve a similar problem, and then see how we can apply that perspective back to configuration to make future production changes safer than today.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nMon Jan 13 13:30:00 2020 at Arena"

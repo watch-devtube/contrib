@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+title: '"OCIv2: Container Images Considered Harmful" - Aleksa Sarai (LCA 2020)'
+recordingDate: 1579047125
+description: "Aleksa Sarai\n\nhttps://lca2020.linux.org.au/schedule/presentation/125/\n\nMost modern container image formats use tar-based linear archives to represent root filesystems, which results in many issues when using modern container images. In this talk, we will demonstrate a solution to this problem that we plan to propose for standardisation within the Open Container Initiative (code-named \"OCIv2 images\").\r\n\r\nThis talk is specific to the Open Container Initiative's image specification, but the same techniques could be applied to other systems (though we'd obviously recommend using OCI). \r\n\r\nIn order to avoid the [numerous issues with tar archives](https://www.cyphar.com/blog/post/20190121-ociv2-images-i-tar) it is necessary to come up with a different format. In addition, layer representations result in needless wasted space for storage of files which are no longer relevant to running containers. Massive amounts of duplication are also rampant within OCI images because tar archives are completely opaque to OCI's content-addressable store.\r\n\r\nLuckily the problem of representing a container root filesystem for distribution is very similar to existing problems within backup systems, and we can take advantage of prior art such as [restic](https://restic.net/) to show us how we can get significant space-savings and possibly efficiency savings.\r\n\r\nHowever, we also must ensure that the runtime cost of using this new system is equivalent to existing container images. Container images are efficient at runtime because they map directly to how overlay filesystems represent change-sets as layers, but with some tricks it is possible for us to obtain most of the improvements we also gained in distribution with de-duplication.\r\n\r\nOur proposed solution to all of these problems will be laid out, with opportunities for feedback and discussion.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by NDV: https://youtube.com/channel/UCQ7dFBzZGlBvtU2hCecsBBg?sub_confirmation=1\n\n#linux.conf.au #linux #foss #opensource\n\nTue Jan 14 13:30:00 2020 at Room 7"

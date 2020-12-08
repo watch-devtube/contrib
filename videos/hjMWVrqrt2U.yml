@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - mobile
+title: 'De-mystifying interrupt balancing: irqbalance'
+recordingDate: 1548299077
+description: "PJ (Peter) Waskiewicz\n\nhttps://2019.linux.conf.au/schedule/presentation/102/\n\nirqbalance is a userspace daemon that has been available for a number of years.  Its main purpose is to make decisions on how to best balance interrupts within a system.  Getting this \"right\" can be a challenge, since it needs to run on enterprise-level systems all the way to a mobile device.  Taking things like NUMA locality, bus hierarchy, shared interrupts, cache locality, all into consideration, irqbalance is often misunderstood with how it works, what it can do, and what it cannot do.\r\n\r\nAs co-maintainer of irqbalance, this talk is intended to pull the curtain back on how this whole framework operates.  What pieces of the Linux kernel are involved in balancing interrupts, where policies are enforced, current best-known configurations, and future ideas to try and improve operation, are all things targeted with this talk.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

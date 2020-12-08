@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - perl
+    - ruby
+    - python
+    - java
+title: 'Graham Ollis (‎plicease‎) - Foreign Function Interface (FFI): Never Need to Write XS Again'
+language: English
+recordingDate: 1403553605
+description: 'Foreign Function Interface (FFI) is a popular method of implementing extensions that rely on C libraries in languages such as Ruby, Python and Java. FFI has not hit the big time in Perl, but it has some advantages over Perl''s historical extension language XS. Migrating parts of CPAN from XS to FFI may ease the transition to alternative Perl implementations or Perl 6. In this talk I will compare and contrast the two techniques in the context of Perl today, using as an example the work that I did implementing FFI bindings for libarchive with FFI::Raw (Archive::Libarchive::FFI). I will focus on work I did creating and using infrastructure that should be applicable to many FFI projects. I will also discuss the development of the Alien::Libarchive module to make available libarchive to the FFI bindings that I wrote. I will make suggestions as to how Alien infrastructure could be improved to better work with FFI projects.'
