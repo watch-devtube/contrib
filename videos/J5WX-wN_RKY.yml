@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - embedded
+title: 'Executable Code Golf: Making Tiny Binaries for Constrained Systems'
+recordingDate: 1548392214
+description: "Nathan Egge\n\nhttps://2019.linux.conf.au/schedule/presentation/160/\n\nEver had to rewrite an algorithm or data structure to keep your binary within a certain size?  Then you've played executable code golf!\r\n\r\nFor whole programs, a common practice is to use an executable packer like UPX.  However as your binary size gets smaller, the overhead of the decoding stub becomes significant and the compression efficiency of the LZ-based algorithms go down.  Better compression can be had using a compressing linker like Crinkler, but this closed source project only supports 32-bit Windows targets.  For Linux targets or 64-bit / non-x86 / obsolete hardware there is no good alternative.\r\n\r\nThe XLINK project is an open-source compressing linker implementing a PAQ-based compression algorithm similar to that in Crinkler.  It currently targets older DOS embedded platforms where both disk space and memory are limited and the notoriously long decode times of Crinkler are unacceptable.  An experimental 32-bit ELF target is in progress which will bring the same executable compression tools to Linux for use in embedded or IOT applications.\r\n\r\nThis talk will describe the PAQ compression algorithm in detail and give a short overview of the assembly code for decompression.  It will provide an overview of how XLINK works and is able to trade-off start-up time for compression by varying the decoder algorithm, including the use of multiple entropy segments and an alternate lower complexity hashing function.  You will learn why applying compression while linking outperforms even the best post-link-stage executable compressors and what extra size-optimization tricks are available at link-time.  Finally, we will look at the open research problems in executable compression and other future work like individual function compression for patching existing binaries.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

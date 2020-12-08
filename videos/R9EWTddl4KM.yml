@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - containers
+    - docker
+title: 'Using containers to analyse the impact of climate change'
+recordingDate: 1548381839
+description: "Eric Burgueño\n\nhttps://2019.linux.conf.au/schedule/presentation/186/\n\nPredicting crop productivity and environmental outcomes of agricultural systems requires modelling quantitative data around soil characteristics (e.g.: nutrients and soil water dynamics) and climate information. Traditionally, the scientific research community runs these simulations using standard desktops.\r\n\r\nWhen the simulations need to be done at scale (ie: wide-area, or landscape scale), detailed quantitative soil information is not always available. This leads to generalisations and simplifications, which may affect the resulting estimates in ways unknown. However, when there is detailed information, the compute capacity required to analyse that data grows beyond what a standard desktop can handle within the average human lifespan.\r\n\r\nIn this talk, I will share our experiences creating a new data processing pipeline using software containers (Docker and Singularity), that allows processing of vast amounts of high-resolution soil and weather data in a scalable way. This system has already been used in a case study to simulate productivity and environmental aspects of a multi-year crop rotation system across a catchment in the Hawke’s Bay region of New Zealand, at a 5 arc-min grid-cell resolution (~5 km grid size).\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

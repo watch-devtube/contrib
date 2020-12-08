@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - architecture
+title: 'Network Monitoring with AMP'
+recordingDate: 1548398036
+description: "Brendon Jones\n\nhttps://2019.linux.conf.au/schedule/presentation/150/\n\nAMP is a distributed network monitoring platform designed to continuously perform active network measurements, capable of monitoring both network and service performance. Currently available tests include ICMP and TCP latency, UDP DNS latency, TCP throughput, HTTP performance and video streaming performance. Scheduled tests run continuously on the probes and report data to a central collector (or into your favourite storage/graphing tool) to generate graphs. The same tests can also be run as standalone tools from the command line as required.\r\n\r\nThere are AMP probes deployed at most universities in New Zealand, at major sites on the REANNZ network, and at many New Zealand Internet Service Providers, all with publicly available data. AMP is also being used internally by a number of ISPs to monitor customer experience and infrastructure performance.\r\n\r\nThis talk will cover the architecture and design of the AMP platform, as well as how the tests work, how the data gets reported and some of the issues we've encountered while trying to take accurate measurements. In particular it will show some of the challenges involved in creating a test to measure video streaming performance using a headless web browser. It will also explore some of the data that has been collected over the last few years and showcase some of the more impactful network events, misconfigurations, or generally interesting behaviour that has been observed.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

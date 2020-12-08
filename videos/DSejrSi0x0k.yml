@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - architecture
+title: 'Cache Pathology Report of Linux System Calls'
+recordingDate: 1548393182
+description: "Xi Yang\n\nhttps://2019.linux.conf.au/schedule/presentation/167/\n\nLinux system calls have complex and large instruction footprints leading to poor cache utilization on modern CPUs. The poor locality has a strong impact on the performance of both the kernel and applications. However, understanding kernel cache behavior is not easy because system calls are fast and run in the context of the user process.\r\n\r\nThis talk presents a high frequency profiler called SHIM-PT that can help developers to understand the relationship between the code and kernel cache usage by correlating CPU performance counters with instruction flows of system calls on modern CPUs.\r\n\r\nSHIM-PT uses the SHIM profiler to record micro-architecture behavior by sampling performance counters at a high frequency. At the same time, it records instruction traces of system calls with the Simple-PT tracer. Then SHIM-PT correlates the two signals and reports the cache usage.\r\n\r\nWith Kafka as the workload, we show the importance of kernel performance, the cache usage of system calls and root causes of poor cache locality.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

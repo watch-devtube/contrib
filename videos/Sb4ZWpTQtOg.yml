@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - performance
+    - embedded
+title: 'Faucet SDN Tutorial'
+recordingDate: 1548397898
+description: "Brad Cowie\n\nhttps://2019.linux.conf.au/schedule/presentation/162/\n\nIn this hands-on tutorial we will install and configure the Open Source Faucet SDN controller. On your laptop you will be configuring a virtual network topology using Open vSwitch as a switch and network namespaces as hosts. This network will be controlled via the OpenFlow protocol by a faucet controller. We will investigate many different Faucet features such as VLANs, ACLs, Routing, etc. The network we configure will be monitored by Prometheus (over OpenFlow not SNMP) and we will make some dashboards in Grafana to view the performance data stored in Prometheus.\r\n\r\nThere is a lot of flexibility in the tutorial to accommodate both beginners as well as advanced users to the world of SDN. \r\n\r\nWhat is Faucet? It is a compact open source OpenFlow controller, which enables network operators to run their networks the same way they do server clusters. Faucet moves network control functions (like routing protocols, neighbor discovery, and switching algorithms) to vendor independent server-based software, versus traditional router or switch embedded firmware, where those functions are easy to manage, test, and extend with modern systems management best practices and tools. Faucet controls OpenFlow 1.3 hardware which delivers high forwarding performance.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"

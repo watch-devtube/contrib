@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - raku
+    - performance
+title: 'Steven Lembark - Hyper and Gathers and Loops... Oh, my!'
+language: English
+recordingDate: 1593119567
+description: 'Raku provides a variety of mechanisms for graceful threaded processing. Queues are nice, handle all of the bookkeeping, and have a fair bit of overhead. Lazy gathers require a bit more planning but can be quite a bit faster with race() or hyper() to make them happen. This talk looks at examples of each, describing the syntax for using them and showing the performance tradeoffs and some ways to benchmark them in your own environment.'

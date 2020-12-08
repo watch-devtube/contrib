@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - raku
+    - web
+title: 'Jonathan Worthington - RakuAST - Raku Keynote'
+language: English
+recordingDate: 1593216005
+description: "Raku already invites the programmer to participate in compile time, for example by implementing trait handlers, customizing meta-classes, producing meta-objects in an EXPORT, or using BEGIN blocks directly. These are utilized by a range of modules, such as Red (an ORM), Cro (used for building web applications) and ASN::META (parsing an ASN specification and exporting Raku classes based on the specification).\n\nThe key limitation today is that there’s no document object model for Raku code itself. For example, it would be desirable in a web framework to have a Raku regex used for validation on the server side be translated into one usable on the HTML5 pattern attribute - however that would only be achieved today by a program choosing to re-parse the Raku regex syntax itself! Similarly, modules that produce Raku code and EVAL it would be far more robust if they could instead build a tree of objects representing the Raku program. Macros, too, will only reach their potential if the programmer can work with the AST passed in.\n\nTherefore, I’m currently working on RakuAST, a user-facing Abstract Syntax Tree for Raku programs. In this talk, I’ll share the design and implementation progress on that so far, and some of the things it will enable."

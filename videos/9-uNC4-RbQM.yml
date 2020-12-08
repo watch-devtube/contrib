@@ -1,0 +1,17 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - mobile
+    - android
+    - ios
+    - security
+title: 'Security Vulnerability Mitigations'
+recordingDate: 1548398540
+description: "Joel Sing\n\nhttps://2019.linux.conf.au/schedule/presentation/164/\n\nSecurity vulnerabilities allow software to be manipulated in such a way that it misbehaves to the benefit of an attacker - security vulnerability mitigations work to thwart attempts to successfully exploit such a vulnerability. This landscape is continually changing in both the types of attacks and the required mitigations. While the last decade saw buffer overflows as a primary source of attacks, Return Oriented Programming (ROP) and Blind Return Oriented Programming (BROP) attacks pose new threats.\r\n\r\nOver the last 20+ years, OpenBSD has essentially been a research and development playground that has designed and implemented such mitigations, in both the kernel and userspace. Many of these mitigations have made their way into other platforms, including Linux, Microsoft Windows, iOS and Android. This talk will look at various long standing mitigations such as W^X and Address Space Layout Randomisation (ASLR), before moving on to more recent developments such as pledge, unveil, KARL, trapsleds, retguard and MAP_STACK.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"
