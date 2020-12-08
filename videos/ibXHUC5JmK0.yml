@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - embedded
+title: 'Reliable Linux Kernel Crash Dump with Micro-Controller Assistance'
+recordingDate: 1548189561
+description: "Vasant Hegde\n\nhttps://2019.linux.conf.au/schedule/presentation/235/\n\nKdump is the standard mechanism to generate Linux kernel crash dumps. Reliability of kdump has always been a concern as it suffers from many possible failure modes -- rogue DMA, bad device state at the time of crash, dump capture kernel corruption, etc. Kdump, therefore, works on a best effort basis.\r\n\r\nThe IBM POWER9 processor has a number of satellite processors called PowerPC Processing Elements (PPEs) -- micro-controllers based on a scaled down version of embedded PowerPC processor. PPEs perform various boot and run-time activities for the normal working of the system. One of these PPEs is the Self-Boot Engine (SBE) which plays a significant part in the early boot of the Power processor.\r\n\r\nIn this presentation, we detail the concept, design, implementation and learning, from a framework that allows for guaranteed capture of the memory state of both the crashed Linux kernel and the OPAL firmware it runs on. On receipt of an indication that the OS/Firmware has crashed, the SBE triggers a memory preserving boot. It then passes control to the early boot firmware which then captures both the OPAL firmware and Linux kernel crash dumps. OPAL firmware then works in conjunction with Linux to extract this dump. Linux then formats the dumps appropriately so that existing analysis tools (crash/gdb) can be used on them. All the components involved to produce the dumps are Open Source. \r\n\r\nWe present various scenarios of software failure and how this framework is designed to work in all such cases, making this solution more robust than the standard kdump.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\n#linux.conf.au #linux #foss #opensource"
