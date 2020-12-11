@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Graph system as incapsulation of global state, Alexey Demedeckiy'
+language: English
+recordingDate: 1607623560
+description: "Architectures with the global state are often suffering from complexity issues that grow with state size.\nOne of the common solutions for this problem is state normalization and providing a layer of selectors on top of the global normalized state.\n\nCritics of this approach include the lack of a systemic approach, low discoverability of existing selectors, duplication of some operations across the codebase.\n\nFor the last year, I tested the graph system as an alternative solution. I was excited about the clarity and power it brings to my daily routine.\n\nA graph system is a thin layer on top of the normalized state that provides access to data points via graph interface. The graph allows me to travel between entities and visualize connections and relationships between them. The graph is capable to hide the detail of data structuring, access patterns, and mutation implementation."

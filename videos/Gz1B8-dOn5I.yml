@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - mobile
+    - ios
+    - architecture
+title: 'Of Mach ports and XPC: An exploration of how IPC works in iOS, Omer Iqbal'
+language: English
+recordingDate: 1607623607
+description: "MobileOptimized 2020, Online – November 6-7, 2020\n\nOf Mach ports and XPC: An exploration of how IPC works in iOS, Omer Iqbal\n\nHave you ever wondered, when you call an iOS system framework, how does it actually work? What is the underlying magic that transforms your method call, into pixels on the screen? This talk covers Inter Process Communication (IPC) mechanisms that form the glue which make this possible.\n\niOS and its siblings (tvOS, watchOS, and even macOS), have been heavily influenced by microkernel architecture. The kernel which powers these Operating Systems (called XNU), is based on the ancient, open source, Mach micro kernel project of yore. The fundamental message passing mechanisms therefore, are still based on primitives from the Mach world. These days, most systems within iOS tend to use XPC, which provides a higher level API over the same underlying Mach mechanisms.\n\nBut why does all this really matter? For us, as application developers, it is important to understand how our applications really work. When we render pixels on the display hardware, or respond to user gestures, or allow them to control the camera, our applications have no direct control over all these I/O operations. Under the hood, our applications merely send messages to system daemons, which do the actual low level work.\n\nThis talk will go through some primitives in Mach message passing, and discuss the tradeoffs made in comparison to similar mechanisms in other OS’s. It will also cover XPC, and examine how some of our beloved system libraries use XPC to function."
