@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - unix
+    - security
+title: '#HITBCyberWeek #CommSec D1 - Subverting Bit Locker With One Vulnerability'
+language: English
+recordingDate: 1607849654
+description: "Trusted Platform Module (TPM) is a tamper-resistant security module. It has been widely deployed in commercial devices to protect secret data and ensure a system’s trustworthiness. There are two typical TPMs, hardware-based discrete TPM (dTPM) and firmware-based TPM (fTPM). Microsoft Windows has used both types of TPMs to protect the Volume Master Key (VMK) of their disk encryption software, BitLocker.\n\nBitLocker’s TPM feature has not been analyzed in detail. It has hidden behind the TPMs because the TPM protected the VMK of BitLocker with sealing and unsealing functions. Most security researchers concluded the VMK sealed by the TPM was safe. Recent works also showed the only way to extract the VMK from the TPM was physical access like probing the Low Pin Count (LPC) bus or TPM pins. However, we found a novel way that can subvert BitLocker with only the software. So, free lunch for BitLocker is over.\n\nIn this talk, we introduce a sleep mode vulnerability of the dTPM and fTPM that can subvert BitLocker. We also present our new tool, BitLeaker, that can extract the VMK from the TPMs and decrypt a BitLocker-locked partition without physical access. Last year, we already introduced a dTPM vulnerability, CVE-2018-6622. However, we found another new vulnerability, CVE-2020-0526, related to the fTPM this year, especially Intel Platform Trust Technology (PTT). The sleep mode vulnerability can subvert the fTPM and the dTPM with system sleep mode, and it can forge Platform Configuration Registers (PCRs). PCRs are core parts of the sealing and unsealing functions to protect the VMK of BitLocker. By exploiting the vulnerability, we extracted the VMK from TPMs and decrypted a BitLocker-locked partition with our custom tool, BitLeaker. Additionally, we present detailed information on BitLocker’s VMK protection process related to the TPM and countermeasures.\n\n\n=== \n\nSeunghun Han is a senior security researcher at the Affiliated Institute of ETRI. He focuses on the root of trust, firmware, hypervisor, and kernel security, so he has made his own hypervisor and contributed various patches to the Linux kernel and TPM-based security software. Seunghun was a speaker and an author at USENIX Security, Black Hat Asia/Europe, HITBSecConf, BlueHat Shanghai, TyphoonCon, beVX, Becks Japan, and KimchiCon. He also authored two books about building 64bit OS from scratch, “64-bit multi-core OS principles and structure, volume 1 and volume 2”. He is also a member of the Black Hat Asia Review Board and KIMCHICON Review Board."

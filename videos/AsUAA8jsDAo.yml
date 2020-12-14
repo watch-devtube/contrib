@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - aws
+    - testing
+title: '[Online Meetup] How We Parallelized Thousands of Tests to Run in the Cloud? - Tom Peres'
+recordingDate: 1607843024
+description: "Wix production deployment rate has been increasing dramatically in the past few years, with an average of 400 unique deployments per day, all via an automated continuous delivery system. In this ecosystem, production-based E2E testing is fundamental for codebase quality and development velocity.\n\nUp until two years ago, our E2E browser testing coverage was mostly based on the old paradigm of using common testing libraries (e.g. selenium) and running them on our CI machines. Yet we always faced the known challenge of E2E testing being slow and flaky, which resulted in a long and sluggish deployment process.\n\nSo we developed “sled”. An innovative, cloud-based E2E testing platform - using open-source tools such as Chromium, Jest, and Puppeteer to orchestrate an immediate execution of hundreds of concurrent tests with AWS Lambda as the underlying runtime infrastructure. Our immediate parallel tests execution capability over a dedicated optimized runtime for a headless browser allows us to reach a testing scale of over 1.5 Million unique test executions per week(!).\n\nIn this talk, we elaborate on how this solution works, and how you can adapt its core components to make it work for your project.\n\n// Bio\n\nTom Peres is a software engineer and special projects architect at Wix. Prior to sled, he developed “fedops” - Wix’s real-time frontend monitoring infrastructure; and in the past year have been part of the core team which rewrote Wix ultra-fast sites rendering engine (Wix Viewer)."
