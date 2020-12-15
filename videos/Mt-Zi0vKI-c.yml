@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - cloud
+    - security
+    - embedded
+title: '#HITBCyberWeek #CommSec D2 - Optimizing The Protection Of IoT Devices'
+language: English
+recordingDate: 1607986396
+description: "IP address blacklists are an integral part of firewall and security systems for any kind of Internet-connected device. Even modern Threat Intelligence feeds are based on IP addresses, domains and URLs. Therefore, the majority of our protection systems, such as in DNS and Browsers depend on blacklists. However, there has not been yet a good evaluation about how effective these blacklists are, or how they can be optimized for different environments.\n\nMany blacklists in the community are created by adding the IP addresses of attackers into a general feed, with the IP addresses usually coming from the data collected from one or many honeypots.\n\nThis idea is assumed to work well, but it has two main drawbacks. First, although systems with greater storage and large computational resources may afford to store and parse an ever growing blacklist, small Internet of Things (IoT) devices have limited computational resources and may not hold large blacklists in memory. This is even true for home routers. This limitation is not even well explained in some TI feeds, since they delete ‘old’ IP addresses but without explaining why.\n\nSecond, IP addresses attacking today can be associated with normal services in the future, especially in cloud environments. Moreover, the nature of IoT malware shows that attacking IP addresses mostly attack for a short amount of time (a few hours or days), questioning the value of blocking IP addresses for extended periods without verification. During our experiments very few cases of persistent attackers IP were observed.\n\nIn this talk, we propose an algorithm and an evaluation method in order to help understand these issues. First, we present a new algorithm for creating blacklists that is optimized for the protection of IoT devices, called the Attacker IP Prioritizer (AIP). Second, we present a standardized methodology for evaluating the efficacy of blacklists.\n\n=== \n\nI am a bachelor student researcher at StratosphereIPS Lab of the Department of Cybernetics, Faculty of Electrical Engineering, Czech Technical University of Prague. I working on my bachelor thesis on algorithmically optimising blacklists. I have been working for the last year and a half in an IoT lab, studying traffic, implementing honeypots and developing software.\n\nI am part of the Aposemat Project, a IoT honeypot lab, which is a sub-project of StratosphereIPS in conjunction with Avast Antivirus\n\nhttps://www.stratosphereips.org/aposemat/"

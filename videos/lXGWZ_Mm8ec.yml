@@ -1,0 +1,18 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - css
+    - web
+    - javascript
+    - rust
+    - wasm
+title: 'WebAssembly : le navigateur est maintenant une vraie machine virtuelle - @m4dz- Animateur @YoannFleu'
+language: French
+recordingDate: 1607977883
+description: "WebAssembly est une nouvelle machine virtuelle dans le navigateur. Elle ne fait pas de transpilation vers JavaScript comme l'ont tenté ses prédécesseurs ; elle introduit un nouveau format, proche d'un assembleur, exécuté dans une machine virtuelle au sein de votre browser. Le coup de génie ? Offrir un bridge entre les API JavaScript et les exécutables WebAssembly ! Les dernières optimisations des navigateurs permettent maintenant un échange ultra-rapide entre le code JS de votre interface, et votre code métier WASM.\n\nPartons d'un projet nécessitant un long temps de calcul, comme un modèle statistique. Nous développerons le core code en Rust, compilé vers WASM via LLVM, et nous afficherons l'ensemble des résultats dans une UI propulsée par JavaScript. Pas besoin de savoir comment tout ça fonctionne, c'est ce que nous allons découvrir ensemble !\n\nCe talk est un #StartFromNowhere : démarrons des savoirs-faire des développeur·euse·s front (JS / HTML / CSS), et plongeons-nous dans la mise en application d'une nouvelle technologie / framework dont beaucoup parlent sans pour autant y avoir déjà touché. Le temps d'une conf, vous obtiendrez tous les savoirs nécessaires à la poursuite de votre apprentissage. -- Watch live at https://www.twitch.tv/codeursenseine"
