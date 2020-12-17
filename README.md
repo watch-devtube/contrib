@@ -29,7 +29,7 @@ You can add a channel to **[channels.yml](https://github.com/watch-devtube/contr
 
 ## How to edit an existing video
 
-For each video there is a corresponding `<videoId>.yml` file in GitHub:
+For each video there is a corresponding `<videoId>.yml` file automatically created in GitHub:
 
 `https://github.com/watch-devtube/contrib/edit/master/videos/<videoId>.yml`
 
@@ -53,7 +53,7 @@ description: Some text goes here
 ```
 
 * Please use spaces for formatting.
-* Please, only add speaker information if it is a **real single person**. We plan to implement multiple speakers per video at some point (follow up [here](https://github.com/watch-devtube/web/issues/50)). 
+* Please, only add speaker information if it is a **real person**.
 
 ## How to remove a video
 
