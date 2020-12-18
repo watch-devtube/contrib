@@ -1,10 +1,18 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - storage
     - testing
     - architecture
+speaker:
+    name: 'Jimmy Bogard'
+    twitter: jbogard
 title: 'Domain Driven Design: The Good Parts - Jimmy Bogard'
 recordingDate: 1471945759
 description: "The greenfield project started out so promising. Instead of devolving into big ball of mud, the team decided to apply domain-driven design principles. Ubiquitous language, proper boundaries, encapsulation, it all made sense.\nBut along the way, something went completely and utterly wrong. It started with arguments on the proper way of implementing aggregates and entities. Arguments began over project and folder structure. Someone read a blog post that repositories are evil, and ORMs the devil incarnate. Another read that relational databases are last century, we need to store everything as a stream of events. Then came the actor model and frameworks that sounded like someone clearing their throat. Instead of a nice, clean architecture, the team chased the next new approach without ever actually shipping anything.\n\nBeyond the endless technical arguments it causes, domain-driven design can actually produce great software. We have to look past the hype into the true value of DDD, what it can bring to our organizations and how it can enable us to build quality systems. With the advent of microservices, DDD is more important than ever - but only if we can get to the good parts."

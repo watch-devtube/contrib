@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+tags:
+    - wasm
+title: 'Debugging WebAssembly with modern tools'
+language: English
+recordingDate: 1608246003
+description: "WebAssembly is a new binary format that allows developers to bring their experience and applications from a variety of programming languages to the web, and to share those experiences with even more users across all platforms.\n\nHowever, porting code to a new target always comes with its own challenges: providing custom bindings to the host APIs, removing pieces that are not compatible with the chosen target, and, of course, finding hidden assumptions that only worked by chance on the original platform (or, as we like to call them: bugs). To successfully overcome these challenges, you want to be able to debug your source code not just on the platform it was originally built for, but on the target one as well. This talk looks at:\n - How Chrome DevTools and Emscripten close this gap for C++ apps on the web\n - New debugging features built over the last year\n - Future integrations that still lie ahead\n\nResources:\nDebugging with Dwarf → https://goo.gle/wasm-debugging-with-dwarf\nWasm debugging extension → https://goo.gle/wasm-debugging-extension\nDebugging → https://goo.gle/39uu3ew\n\nSpeaker: Ingvar Stepanyan\n\nSubscribe to Google Chrome Developers here → https://goo.gle/ChromeDevs\nWatch all Chrome Developer Summit sessions here → https://goo.gle/cds20-sessions\n\n#chromedevsummit #chrome #webassembly"

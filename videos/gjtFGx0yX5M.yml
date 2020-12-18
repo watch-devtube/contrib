@@ -1,9 +1,17 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - storage
     - architecture
+speaker:
+    name: 'Jimmy Bogard'
+    twitter: jbogard
 title: 'Compositional UIs - the Microservices Last Mile - Jimmy Bogard'
 recordingDate: 1518706628
 description: "A key tenet of microservice architecture is autonomy. This is all well and good when the business users dutifully follow Conway's law and rarely if ever use multiple applications from multiple services. But it can get worse, much worse, where we have a single application needing to expose information and capabilities through a single, consistent window. But those that do not learn history are doomed to repeat it, and we certainly do not want to repeat the same mistakes that felled SOA.\n\nIn this session, we'll look at the common reasons why we need to build composite applications, and some of the ways we can avoid doing so. As we continue, we'll look at integration patterns from a number of tiers, from the database up to the UI, examining patterns, techniques, and frameworks that close the last mile of microservices to build a maintainable, autotonomy-embracing compositional UI."

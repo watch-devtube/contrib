@@ -1,10 +1,18 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - storage
     - cloud
     - azure
+speaker:
+    name: 'Jimmy Bogard'
+    twitter: jbogard
 title: 'From SQL to Azure Cosmos DB - Jimmy Bogard'
 recordingDate: 1533557135
 description: "We've built on relational databases for decades, and even used SQL databases in the cloud. But the relational model, as flexible as it is, cannot model every modern scenario we see in our applications. With Cosmos DB, we finally have many kinds of NoSQL database at our disposal, all under one umbrella. Key-value, columnar, document, and graphs, we have many more options to build on.\nBut with all these options, how do are systems change? How do we model differently? How does our application need to change? And finally, how do our domain models change?\n\nIn this session, we'll look at modeling techniques for the NoSQL document DB models in Cosmos DB, and how we can move from the familiar confines of our SQL world into modeling via documents. We'll also look at the tradeoffs and how we can work with the change in transactional, querying, and usage models of Cosmos DB."

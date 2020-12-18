@@ -1,8 +1,16 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 tags:
     - architecture
+speaker:
+    name: 'Jimmy Bogard'
+    twitter: jbogard
 title: 'Vertical Slice Architecture - Jimmy Bogard'
 recordingDate: 1539335299
 description: "Moving from a layered architecture to a vertical slice architecture can be a bit daunting. We remove abstractions, complex structures, and focus building on the axis of change, then what's next? What new structures, patterns, and policies will need to be introduced in this style of architecture? How will we deal with common business functionality, and where do concepts like CQRS and DDD fit in?\nIn this session, we'll introduce the idea of vertical slice architectures, and dive into the patterns, tools, and techniques used with slices. We'll also cover how you can fit vertical slices into different kinds of systems, from desktop, SPA, and normal MVC applications. Finally, we'll look at some of the new challenges that come with slices and layers, and how a different approach provides a much more maintainable end result.\n\n\n\nNDC Conferences\nhttps://ndcsydney.com\nhttps://ndcconferences.com"
