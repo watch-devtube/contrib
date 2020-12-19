@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'New logic to detect PWA offline support'
+language: English
+recordingDate: 1608321606
+description: "PWA install prompt (e.g. a “plus-in-circle” icon in Chrome's Omnibox) enables users to install a website. Currently, Chrome shows the PWA install prompts whenever a site has a manifest.json with the correct fields filled in, a secure domain and icons, and a service worker with a fetch handler, with the expectation that such a site will work offline. However, some PWAs can show the install prompts although they do not support offline pages by installing an empty fetch event handler in a service worker. This leads to unexpected behavior for users such as showing the dinosaur page which tells no internet connection. Chrome proposes changing the logic to raise the bar to show the prompts. Concretely, Chrome will actually invoke a fetch event handler with a fake request to see if the handler returns a response with 200 status code, which is a strong signal that the site actually supports the offline capability. The PWA install prompts show up only when a site has a fetch event handler which returns a response with 200 status code.\n\nThis new logic is not available yet. Chrome will run experiments to see how many websites are affected and make sure that the new logic will not cause an unacceptable delay to the page loading time. Chrome will ship the feature after sufficient announcements have been made.\n\nResources:\nNew logic to detect offline support in PWAs → https://goo.gle/pwa-offline-feedback\nChromium bugs → https://goo.gle/3pZIAEL\n\nSpeaker: Asami Doi\n\nSubscribe to Google Chrome Developers here → https://goo.gle/ChromeDevs\nWatch all Chrome Developer Summit sessions here → https://goo.gle/cds20-sessions\n\n#chromedevsummit #chrome #pwa"
