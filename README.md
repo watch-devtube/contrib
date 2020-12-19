@@ -7,7 +7,6 @@ DevTube is a free and open-source tech video hub, that is getting better every d
 - [How to contribute a channel](#how-to-contribute-a-channel)
 - [How to edit an existing video](#how-to-edit-an-existing-video)
 - [How to remove a video](#how-to-remove-a-video)
-- [How to add tags](#how-to-tag-a-video)
 - [How to add a speaker](#how-to-add-a-speaker)
 - [How to improve dev.tube](#how-to-improve-devtube)
 
@@ -36,9 +35,6 @@ For each video there is a corresponding `<videoId>.yml` file automatically creat
 The structure of the video metadata looks like this:
 
 ```
-tags:
-    - tag1
-    - tag2
 speaker: 
     - name: Donald Trump
       twitter: realDonaldTrump
@@ -58,12 +54,6 @@ description: Some text goes here
 ## How to remove a video
 
 Just create an entry in **[ignored.yml](https://github.com/watch-devtube/contrib/edit/master/ignored.yml)** and explain why you think the video should be removed. 
-
-## How to tag a video
-
-When a new video is being ingested, DevTube tries to determine tags automatically by matching the video's description to a list of pre-defined tags. The process is called auto-tagging. You can add new tags to **[tags.yml](https://github.com/watch-devtube/contrib/edit/master/tags.yml).**
-
-> When you add a new tag, videos will be iterated through and tagged during the next crawling session. It might take up to a week. If you want tag to appear on a videos faster, tag each video manually (see [How to edit an existing video](#how-to-edit-an-existing-video)).
 
 ## How to add a speaker
 
