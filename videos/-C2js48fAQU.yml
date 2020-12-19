@@ -1,14 +1,11 @@
 # Contribution guide: https://github.com/watch-devtube/contrib
 
-# speaker:
-#   name: _____
-#   twitter: _____ # mandatory twitter handle; must not include @
-
-# tags: [____, _____, _____]
-
 tags:
     - storage
-title: 'Ce que les développeurs doivent savoir sur les index - Nelson DIONISI - Animateur @youen_chene - Ho'
+    - database
+    - index
+title: 'Ce que les développeurs doivent savoir sur les index'
+category: conference
 language: French
 recordingDate: 1607977906
 description: "Les développeurs sont très souvent amenés à écrire des requêtes SQL pour communiquer avec des bases de données relationnelles. Pour les cas simples, connaître la syntaxe et le principe du SQL est amplement suffisant. Par contre, quand la volumétrie augmente et que les performances sont importantes, la question des index se pose rapidement.\n\nBien souvent, on demande aux DBA de nous aider à indexer correctement nos tables car l'on considère que créer les index et comprendre leur fonctionnement est un travail de DBA. C'est faux ! Les développeurs connaissent le métiers des applications sur lesquelles ils travaillent, et ce sont eux les mieux placés pour comprendre quelles données doivent être indexées et comment.\n\nCe talk présente les principes de bases des index, leur fonctionnement, et comment les utiliser de manière efficace en fonction des cas d'utilisations. Il n'a pas pour but de rentrer dans un niveau de détails extrêmements pointus sur les mécanismes internes des SGBD, puisqu'il existe des DBA pour ça ! Par contre, il donne un tour d'horizon sur les notions importantes à avoir en tête en tant que développeur pour écrire des requêtes performantes et scalables.\n\nEn plus de la théorie, le but est de montrer des exemples concrets d'utilisations. Pour ces exemples, nous utiliserons PostgreSQL, mais la grande majorité des concepts s'applique à la plupart des SGBD relationnels. -- Watch live at https://www.twitch.tv/codeursenseine"
