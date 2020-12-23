@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon 2020: Dan Scales - Implementing Faster Defers'
+language: English
+recordingDate: 1608669455
+description: 'In this presentation, Dan will talk about the Go defer statement in general and do a comparison with related features in other programming languages. He will describe the current implementation of defer (including processing during panic calls). Dan will then discuss the recent optimization that was done for Go 1.14 that greatly reduces the overhead of most defer statements during normal execution. This optimization should ensure that defers can be used when desired and should not have to be removed for performance reasons.'

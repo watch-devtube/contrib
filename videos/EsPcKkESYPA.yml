@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon 2020: Justen Walker - Safety Not Guaranteed: Calling Windows APIs using Unsafe & Syscall'
+language: English
+recordingDate: 1608669832
+description: "It would be nice if we could solve all of our problems using pure Go. Unfortunately, sometimes this isn't possible; especially when it comes using Windows APIs.\n\nGo gives us a set of tools to deal with some of the messier parts of reality: CGO and unsafe. However, \"CGO is not Go\", and as a Go developer, it should be your last option when given alternatives. It turns out that, for the most part, the unsafe and syscall packages are all you need to call Windows APIs.\n\nYou'll learn how to:\n\n  •  Load DLLs and call their exported functions.\n  •  Map C-like structs to Go-like structs.\n  •  Convert results of Win32 API functions into Go types.\n  •  Avoid some of the pitfalls of using the unsafe package."

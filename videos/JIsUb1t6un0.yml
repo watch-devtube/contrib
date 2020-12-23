@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon 2020: Brad Peabody - Go is Not Just on Your Server, it''s in Your Browser: Intro to Vugu'
+language: English
+recordingDate: 1608669411
+description: "Go is no longer just server-side, but is moving rapidly into the UI space. Go+WebAssembly opens amazing possibilities, but more tools are needed to achieve good Go UI productivity. Vugu is a modern, reactive web Go programming library. In this talk, Brad will cover:\n\n  •  Hear the origin story of Vugu. Born out of both frustration with existing front-end web solutions, and excitement about all the interesting ways Go is being used, Vugu was/is an experiment to try out the idea of writing reactive Go UI code and to discover and build the tools needed to make that so.\n\n  •  Learn the nuts and bolts of the technology stack. Vugu has several parts, including a code generation which allows you to convert HTML markup into Go code, and a runtime library for use when compiling to web assembly which performs synchronization with your browser.\n\n  •  Take a look at the tooling that makes this simple to use. While Vugu tools are continually evolving, a lot of functionality works today - including a simple build-and-run upon page refresh mechanism (and all without locking you into using this tool if it doesn’t suit your needs).\n\n  •  Recap of “reactive” web programming and how it applies here. Web development has come a long way. And each of the major frameworks support some form of “reactive” programming model - allowing your HTML markup to declaratively describe what you see on the screen, based on a certain input state. Brad will take a look at how this works and how it applies in Go and Vugu."

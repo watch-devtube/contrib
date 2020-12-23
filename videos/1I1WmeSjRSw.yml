@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon 2020: Austin Clements - Pardon the Interruption: Loop Preemption in Go 1.14'
+language: English
+recordingDate: 1608668194
+description: "Go 1.14 significantly changed how goroutines are preempted for scheduling and garbage collection. Since Go 1.2, the Go runtime has preempted goroutines only at function calls. Most of the time, this let Go developers ignore preemption and focus on writing clear parallel code, but it broke down with “tight loops”, which could appear deep in libraries and sometimes didn’t look like tight loops at all, leading to mysterious throughput and latency issues and even scheduler deadlocks.\n\nGo defied standard solutions to this problem: many attempts to fix loop preemption were made and discarded as having unacceptable performance overheads. Go 1.14 finally solved it in a distinctly “Go” way, with zero overhead for regular execution and very little extra metadata in the binary. This “asynchronous preemption” support finally eliminates these difficult-to-diagnose long tail performance and stability issues by enabling goroutines to be interrupted and rescheduled at almost any point."

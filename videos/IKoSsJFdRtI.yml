@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon 2020: Jonathan Amsterdam - Working with Errors'
+language: English
+recordingDate: 1608667653
+description: "Go 1.13 introduced support for working with wrapped errors, in the form of three new functions and a new formatting directive. But those small changes have big ramifications for how you return errors from your code, and how you act on errors from the code you call.\n\nJonathan's talk begins by defining what it means to wrap errors, and when you’d want to do so (and when not!). He'll then explain how the additions to the errors and fmt packages support wrapping. Jonathan will also address some features that didn't make it in, like stack traces and formatting. He will show how you can incorporate those features, and others like error codes, into your own error packages."
