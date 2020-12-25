@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon20 Americas - Testing Encyclopedias in Production'
+language: English
+recordingDate: 1608746548
+description: "Testing Encyclopedias in Production\n\nEffie Mouzeli and Giuseppe Lavagetto, Wikimedia Foundation\n\nAt Wikimedia, we are running one of the top 15 traffic websites on the internet! Our infrastructure is powered by free software, with MediaWiki at its core. To improve performance, in 2014 we happily migrated from mod-php to Facebook's HHVM (Hip Hop virtual machine), and everything was well until September 2017: when Facebook announced that it would be dropping PHP support.\n\nThis is the story of the long project to migrate our application clusters from HHVM to php-fpm, and the application itself from PHP5 to PHP7, while serving billions of page views per month. We want to share the good, the bad, the ugly, and the questionable decisions we made in order to successfully migrate and give the SRE perspective of a complex migration, broken down into small pieces. Moreover, the centerpiece of this talk is how we benefited from testing in production, which played a key role during this project.\n\nView the full SREcon20 Americas program at https://www.usenix.org/conference/srecon20americas/program"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon20 Americas - Heap Optimization for Go Systems'
+language: English
+recordingDate: 1608746548
+description: "Heap Optimization for Go Systems\n\nNishant Roy, Pinterest\n\nDespite its growing popularity as a systems language, Go programs are susceptible to severe performance regressions at large scale. In systems with high memory usage, garbage collection (GC) can cause performance regressions by cannibalizing resources from the main program. Heavy GC cycles can add hundreds of milliseconds of latency to a request, resulting in degraded user experience.\n\nThis talk will provide an overview of how Go GC works and how it may cause performance regressions in your system. It will also provide some ways to profile your system's memory usage and identify which part of the code is the culprit. Finally, we will discuss some methods through which you can optimize your system for better performance.\n\nView the full SREcon20 Americas program at https://www.usenix.org/conference/srecon20americas/program"
