@@ -1,9 +1,14 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
 
-tags:
-    - lisp
+# tags: [____, _____, _____]
+
 title: '"Highly Concurrent Services with Finagle & Clojure" Sam Neubardt'
 language: English
 recordingDate: 1411241029
-description: ""
+description: "Finagle is an open source library developed by Twitter for building highly concurrent RPC systems on the JVM. Essentials such as service discovery and backpressure are provided out of the box, making it easy to safely construct a system composed of smaller services. While APIs for Scala and Java are provided it has not been used widely with Clojure. This session will describe using Finagle idiomatically in Clojure using the finagle-clojure library.\n\nfinagle-clojure makes it easy to write highly concurrent services built on top of Netty (through Finagle) without having to deal with lower level concerns. Finagle uses Futures as a core abstraction to allow asynchronous calls to be chained together. The wrapper in finagle-clojure lets Clojure developers use them without requiring messy Scala interop. Utilities are included to run existing synchronous Clojure libraries in the asynchronous Finagle runtime without blocking and reducing capacity.\n\n\nThis session will describe Finagle basics, an overview of finagle-clojure, and some examples from production systems written with them. Participants will leave empowered to create robust, performant, RPC services with finagle-clojure.\n\n\nSam Neubardt\nTwitter\n@samn\n\nSam is an engineer at Twitter working on Crashlytics, a suite of tools for mobile app developers. He enjoys learning about distributed systems, functional programming, and strategies for engaging with brands."
+tags:
+    - lisp
