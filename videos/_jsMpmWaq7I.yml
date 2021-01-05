@@ -1,7 +1,12 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 title: '"Scaling League of Legends Chat to 70 million Players" by Michal Ptaszek'
 language: English
 recordingDate: 1411222918
-description: ""
+description: "Would you ever play an online game if you were not able to communicate with your teammates? Isn't it fun if you can make new friends, arrange pre-made games and celebrate your victories with people you like to play with?\n\nRiot Games' League of Legends handles millions of online players at any given time. Each chat server is responsible for routing over 1 billion real time events a day. In order to support the overwhelming user base and be prepared future growth, as well as pave the road for the upcoming features, chat infrastructure had to be designed and built with the utmost care, so that it would never fail the players.\n\nIn this talk I would like to present how we achieved linear scalability, improved the overall fault tolerance, created a framework for real time code upgrades and got ready for the new features we want to ship. I will also discuss in detail why we chose to use Erlang as a foundation for the system, and why we migrated our data from MySQL to Riak.\n\n\n\nMichal Ptaszek\nRiot Games\n@michalptaszek\n\nMichal Ptaszek is a software engineer working at Riot Games. Specializes in designing, implementing and supporting highly concurrent, large-scale, fault-tolerant distributed systems. Fell in love with Erlang at first sight. Holds a masters degree in Computer Science. Is obsessed with Instant Messaging. Privately a huge fan of good food, Bordeaux wine, cats, jazz and classic literature."
