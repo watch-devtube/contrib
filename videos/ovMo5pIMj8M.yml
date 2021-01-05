@@ -1,10 +1,15 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
 
-tags:
-    - storage
-    - cassandra
+# tags: [____, _____, _____]
+
 title: '"Time Series Data With Apache Cassandra" by Eric Evans'
 language: English
 recordingDate: 1411349420
-description: ""
+description: "Whether it's statistics, weather, astronomy, finance, or network management, time series data plays a critical role in analytics and forecasting. Unfortunately, while many tools exist for time series storage and analysis, few are able to scale past memory limits, or provide rich query and analytics capabilities outside what is necessary to produce simple plots; For those challenged by large volumes of data, there is much room for improvement.\n\nApache Cassandra is a fully distributed second-generation database. Cassandra stores data in key-sorted order making it ideal for time series, and its high throughput and linear scalability make it well suited to very large data sets.\n\nThis talk will cover some of the requirements and challenges of large scale time series storage and analysis. Cassandra data and query modeling for this use-case will be discussed, and Newts, an open source Cassandra-based time series store under development at The OpenNMS Group will be introduced.\n\nEric Evans\nThe OpenNMS Group\n@jericevans\n\nEric has more than a decade of experience in large-scale distributed systems, having held roles in both operations and engineering. An early employee of Rackspace, he implemented a global DNS infrastructure utilizing IP anycast (possibly the first), and a novel data-center-wide IDS for which a patent was awarded. An avid open source hacker, Eric is a developer with the Debian Project and a member of the Apache Cassandra PMC. He resides in Texas and works on distributed systems for The OpenNMS Group."
+tags:
+    - storage
+    - cassandra

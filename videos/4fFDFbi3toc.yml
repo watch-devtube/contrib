@@ -1,10 +1,15 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
 
-tags:
-    - 'distributed systems'
-    - testing
+# tags: [____, _____, _____]
+
 title: '"Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson'
 language: English
 recordingDate: 1411227287
-description: ""
+description: "Debugging highly concurrent distributed systems in a noisy network environment is an exceptionally challenging endeavor. On the one hand, evaluating all possible orders in which program events can occur is a task ill-suited to human cognition, rendering a pure analytic understanding of the control flow of such a system beyond the reach of any individual programmer. On the other hand, a more “empirical” approach to the task is also fraught with difficulty, as the dependence of severe bugs on precise timings or transient network conditions makes every part of the debugging cycle – from bug replication to verification of a fix – a Sisyphean labor bordering on the impossible.\n\nOne approach which has been developed to ameliorate this situation is that of deterministic simulation, wherein the hardware components of the system – including hard disks, network links, and the machines themselves – are replaced in testing with software which fulfills the contracts of those systems, but whose state is completely transparent to the developer. This enables the simulation of a wide diversity of failure modes including network failures, disk failures or space exhaustion, unexpected machine shutdown or reboot, IP address changes, and even entire datacenter failures. Moreover, once a particular pattern of failures has been identified which uncovers a bug, the determinism property of the simulation means that the exact same series of events can be replayed an indefinite number of times, greatly facilitating the debugging process, and providing confidence when a bug has been fixed.\n\nAttendees of this talk will gain an understanding of the benefits, drawbacks, and tradeoffs involved in implementing a deterministic simulation framework, with frequent reference both to theory and to real-world engineering experience gleaned from applying this method to a complex distributed system. Attendees will also learn about language features which aid in the development of such a framework.\n\nWill Wilson\nFoundationDB\n\nWill Wilson works on the engineering team at FoundationDB (https://foundationdb.com). Will started his career in biotechnology, leading a successful R&D effort in spinal cord injury diagnostics, currently undergoing commercialization by a company he co-founded. Since then, Will has worked in a variety of technical and business roles at data science and data virtualization startups. Will has a degree in math and philosophy from Yale."
+tags:
+    - 'distributed systems'
+    - testing

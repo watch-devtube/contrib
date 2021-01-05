@@ -1,7 +1,12 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 title: '"Consistency without consensus in production systems" by Peter Bourgon'
 language: English
 recordingDate: 1411231884
-description: ""
+description: "When software developers think of distributed systems, they typically think in terms of consistency via consensus. That is, enabling a heterogeneous group of systems to agree on facts, while remaining robust in the face of failure. But, as any distributed systems engineer can attest, it's harder than it sounds. Failure happens in myriad, byzantine ways, and failure modes interact unpredictably. Reliable distributed systems need more than competent engineering: they need a robust theoretical foundation.\n\nThis talk describes the state of the art in consensus-free consistency: the CALM theorem, \"ACID 2.0\" semantics, and CRDTs. Roshi—a production CRDT system built at SoundCloud to serve high-volume time-series data—serves as an example. The goal is to provide engineers in industry with a set of powerful building blocks, which will enable them build and improve their own distributed data systems.\n\nPeter Bourgon\nSoundCloud\n@peterbourgon\n\nPeter Bourgon is a distributed system engineer who has seen things. He works at SoundCloud, building and improving their data systems and infrastructure."

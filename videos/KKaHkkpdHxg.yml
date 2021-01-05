@@ -1,9 +1,14 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
 
-tags:
-    - java
+# tags: [____, _____, _____]
+
 title: '"Nashorn: implementing a dynamic language runtime on JVM in 2014" by Attila Szegedi'
 language: English
 recordingDate: 1411276927
-description: ""
+description: "The main body of work related to supporting dynamic languages on the JVM at Oracle today is done within the Nashorn project. While on the surface it looks like we're busy creating a JavaScript runtime, in reality JavaScript is only the beginning, and not the ultimate goal. Nashorn has served as the proving ground for new approaches for implementing a dynamic language on top of the JVM, and we're eager to – once solidified – crystallize these into a reusable dynamic language implementer's toolkit. We have faced challenges of optimally mapping JavaScript local variables to JVM types (or: \"hey, there's a static type inference algorithm in your dynamic language compiler\"), doing liveness analysis, cutting up methods too large to fit into a single JVM method, efficiently representing large array and object literals in compiled code, creating a system for on-demand compilation of several type-specialized variants of the same function, and maybe the most exciting: a system for generating code with optimistic type assumptions (really, the only thing you can do in a dynamic language where you can't prove most of types statically) and subsequent gradual runtime deoptimizing recompilation, complete with on-stack-replacement of code and continuations needed for it, all without resorting to any tricks (it's all completely JVM bytecode), all with the goal of approaching native runtime performance as much as possible.\n\nAs for future plans: along the way, we have reached the limits of our initial internal representation (fun fact: you can't do liveness analysis on an AST. We learned it the hard way.) and started sketching up an intermediate representation that would be easy to emit from a dynamic language compiler, and that could be taken over by a toolchain to perform the operations described above then on it and finally output standard Java bytecode for JIT to take over. Elevator pitch: like LLVM, but for dynamic languages on the JVM.\n\nAttila Szegedi\nOracle\n@asz\n\nAttila Szegedi is a Principal Member of the Technical Staff at Oracle, working on dynamic language features on the Java platform and the Nashorn JavaScript runtime for the JVM. Before joining Oracle, Attila worked as a Staff Engineer in Twitter’s Runtime Systems group. He is also known for his work on several Open Source projects, most notably he is a contributor to Mozilla Rhino, an earlier JavaScript runtime for the JVM, a contributor to Kiji, Twitter’s server-optimized Ruby runtime, the author of Dynalink, the dynamic linker framework for languages on the JVM, as well as one of the principal developers of the FreeMarker templating language runtime."
+tags:
+    - java

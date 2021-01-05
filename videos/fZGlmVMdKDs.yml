@@ -1,7 +1,12 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
 
 title: '"Building Real-time Systems with Open Source Technologies" by Gian Merlino and Fangjin Yang'
 language: English
 recordingDate: 1411295033
-description: ""
+description: "The maturation and development of open source technologies has made it easier than ever for companies to derive insights from vast quantities of data. In this session, we will cover how to build a real-time analytics stack using Kafka, Storm, and Druid.\n\nAnalytics pipelines running purely on Hadoop can suffer from hours of data lag. Initial attempts to solve this problem often lead to inflexible solutions, where the queries must be known ahead of time, or fragile solutions where the integrity of the data cannot be assured. Combining Hadoop with Kafka, Storm, and Druid can guarantee system availability, maintain data integrity, and support fast and flexible queries.\n\nIn the described system, Kafka provides a fast message bus and is the delivery point for machine-generated event streams. Storm and Hadoop work together to load data into Druid. Storm handles near-real-time data and Hadoop handles historical data and data corrections. Druid provides flexible, highly available, low-latency queries.\n\nThis talk is based on our real-world experiences building out such a stack for online advertising analytics at Metamarkets.\n\nGian Merlino\nMetamarkets\n@gianmerlino\n\nAs a senior software engineer at Metamarkets, Gian is responsible for the infrastructure behind its data ingestion pipelines. He comes to Metamarkets from Yahoo! where he was responsible for its worldwide server deployment and configuration management platform. He holds a BS in Computer Science from California Institute of Technology.\n\nFangjin Yang\n@fangjin\nfjy\n\nFangjin is one of the main committers to the open source Druid project and one first developers at Metamarkets, a San Francisco based data startup. Fangjin previously worked on diagnostic optimization algorithms at Cisco Systems. He holds a BASc in Electrical Engineering and a MASc in Computer Engineering from the University of Waterloo, Canada."

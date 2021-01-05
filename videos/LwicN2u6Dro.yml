@@ -1,8 +1,13 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
 
-tags:
-    - unix
+# tags: [____, _____, _____]
+
 title: '"Liberating the Smalltalk lurking in C and Unix" by Stephen Kell'
 recordingDate: 1411267803
-description: ""
+description: "Most programmers make a clear distinction between dynamic, interpreted languages such as Smalltalk and Ruby, and statically compiled languages such as C and C++. Dynamic languages are seen as being slow, yet easy to use, and with advantages of introspection, integrated tooling, flexibility and rapid prototyping. Compiled languages are seen as fast, yet lacking the aforementioned benefits, and requiring understanding of impenetrable binary files and esoteric tools. Interfacing the two is even worse, involving FFI \"dark magic\", complicated further by the fact that the infrastructures supporting one or other kind of language work quite differently. \"Static\" generate binaries sitting directly on the operating system, while dynamic languages exist inside interpreter-like virtual machines.\n\nDoes it have to be this way, or is there a unifying model? Can we get the best of both worlds: fast compiled binaries that nevertheless support introspection and other dynamism, and dynamic languages that integrate with compiled code without FFI magic? This talk introduces liballocs, an infrastructure which exposes the dynamism hiding in the arcane linking and debugging infrastructure of a Unix process, along with a small extension to C toolchains that enables fast dynamic access to data created by statically compiled code. Together they can be said to unleash a \"hidden Smalltalk\" inside the C and Unix model of programs and processes. Come prepared for a journey that takes your perceptions of the boundaries between dynamic and static languages and turns them on its head.\n\nStephen Kell\nUniversity of Cambridge\n@stephenrkell\n\nStephen Kell is a postdoctoral researcher at the University of Cambridge. He is a practical computer scientist with wide interests, but one central goal: to make it easier and cheaper to develop useful, high-quality software systems. So far, his work has focused on programming languages, other programming tools, and the systems that support them---including language runtimes, operating systems, and the grey area between the two. Since completing his PhD in Cambridge in 2010, he has worked at the University of Oxford, the University of Lugano, Oracle Labs in California, before returning to Cambridge last year."
+tags:
+    - unix

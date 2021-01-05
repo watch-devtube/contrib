@@ -6,8 +6,9 @@
 
 # tags: [____, _____, _____]
 
-tags:
-    - functional
 title: '"The challenges and benefits of a functional reactive frontend" by Ian Davis'
 language: English
 recordingDate: 1411323803
+description: "Functional programming has long been praised for its ability to improve developer productivity by focusing on operations and isolating the mutation of shared state. These benefits are just as important on the frontend as they are on the backend: with conventional architectures, the complex interactions between internal state, asynchronous events and the DOM can easily lead to code that’s intricately coupled and prone to bugs. In this talk, I’ll dive deep into the functional reactive architecture we use at Prismatic, and how it helps us address these issues.\n\nOur architecture is built on two core technologies. The first, ClojureScript (with core.async), provides easy ways to compose behavior, manipulate data, and simplify callback soup into simple, data-driven channels. The second, Om (a ClojureScript interface to Facebook’s React), abstracts away DOM manipulation into transformations on a single app state. This combination reduces the complexity of our codebase significantly, and allows us to fully leverage the power of functional programming on the frontend. I’ll talk about how these choices have allowed us to develop, iterate, and experiment with the product faster, and I’ll discuss some of the performance concerns that arise and how we’ve solved them. But ultimately, the focus will be on why the core principles of isolating state mutation and functional data manipulation underlying these technologies are so powerful, so you can benefit from our experimentation without having to adopt our architecture.\n\nIan Davis\nPrismatic\n@jungziege\n\nIan graduated with a degree in Electrical Engineering and Computer Science from UC Berkeley. Since graduation he's been working as a frontend engineer at Prismatic, building data products to improve quality of life. He loves the elegance and power of functional programming, and is passionate about evangelizing its use for web development. He likes piña coladas, and getting caught in the rain. He frequently dresses in absurdly bright colors."
+tags:
+    - functional
