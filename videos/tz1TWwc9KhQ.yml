@@ -1,14 +1,11 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
 
-tags:
-    - 'distributed systems'
-    - unix
-    - bigdata
-    - cloud
-    - devops
-    - containers
-    - docker
+# tags: [____, _____, _____]
+
 title: 'Erlang on OSv - Zvi Avraham - Erlang User Conference 2015'
 recordingDate: 1436270762
 description: "Slides and more info: http://www.erlang-factory.com/euc2015/zvi-avraham\n\nIn this talk, Zvi will share his experiences of evaluating an Erlang/OTP port to OSv - a unikernel operating systems designed from the ground up for the Cloud. Since OSv is LINUX ABI-compatible, it was possible to port and compile the standard Ericsson Erlang/OTP source, unlike Erlang-on-Xen project, where Ling VM is a completely new implementation of Erlang.\n\nTalk objectives:\n\n* Introduce the concept of Unikernel OS * Discuss pros and cons of Virtualization vs. Containerization (i.e. OSv vs Docker) * How OSv Community ported Erlang/OTP * Compare Erlang on OSv with Erlang-on-Xen project * Benchmarking common Erlang applications on OSv * When OSv is a good fit for Erlang applications * Next Steps and Takeaways\n\nTarget audience:\n\nErlang developers, Devops, Cloud Architects\n\n\nZvi came in touch with Erlang in 1998 and started using it professionally in 2007. He specializes in Distributed Systems, Big Data and Realtime Messaging. In his spare time he writes Ethereum smart contracts, that will prevent robots from taking over the world ;)"
