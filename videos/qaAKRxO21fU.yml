@@ -1,8 +1,11 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
 
-tags:
-    - performance
-title: 'YOW! Lambda Jam 2016 Mark Hopkins - Stop Paying for Free Monads'
+# tags: [____, _____, _____]
+
+title: 'YOW! Lambda Jam 2016 Mark Hopkins - Stop Paying for Free Monads #YOWLambdaJam'
 recordingDate: 1466828484
 description: "Free monads, as used in the “Datatypes à la carte” pattern, are a useful way to structure code, separating of specification from implementation and enabling modularisation.\n\nBut they also come with a runtime performance penalty.\n\nThe complementary “typed tagless final interpreters” approach (popularised in the Haskell and OCaml worlds by Oleg Kiselyov) offers a performance boost over free monads, yet available sample code centers around simple expression langauges, and “real world” examples are hard to come by.\n\nIn this talk, we’ll compare and contrast the TTFI approach with Datatypes à la carte and explore how it can be used in real production code — with configuration, state, side effects and error handling.\n\nMark has a doctorate in algebra and likes cats, categories and good coffee.\n\nFor more on YOW! Lambda Jam, visit http://lambdajam.yowconference.com.au"
