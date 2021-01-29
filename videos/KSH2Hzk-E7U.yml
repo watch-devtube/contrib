@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Tanzu.TV/Shortcuts - How to use Harbor Registry to Eliminate Docker Hub Rate Limits'
+language: English
+recordingDate: 1611847971
+description: "On August 24 2020 Docker announced they would be implementing Rate Limits on the Docker Hub and they were implemented on November 2 2020 thus ending our free ride of unlimited Docker Image pulls.\n\nThankfully the team developing the Harbor Registry have been hard at work to ensure that you can access the images you need without downloading the whole internet to your server.\n\nThere are actually two features in Harbor that will let us work around the rate limits, Registry Replication, and Registry Proxy.\n\nRegistry Replication allows you to replicate images between registries, whereas Proxy lets you keep a local copy of images on an as-requested basis.\n\nIn a production scenario you would probably look to Replication so that you can be very specific about what Images to allow, however in a Development scenario you might use Proxy-ing as you don’t necessarily know ahead of time what Images you might need access to. Further using Proxy-ing can be really useful for a home lab to cut down on internet traffic as you pull images.\n\nJoin Paul Czarkowski, Developer Advocate for VMware, as he explores both options and owns his own availability."
