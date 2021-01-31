@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Mathematics and development of fast TLS handshakes" - Alexander Krizhanovsky (LCA 2021 Online)'
+recordingDate: 1612053209
+description: "Alexander Krizhanovsky\n\nhttps://lca2021.linux.org.au/schedule/presentation/64/\n\nTempesta TLS is an implementation of TLS handshakes for the Linux kernel. Since the kernel already provides symmetric ciphers, we focus on asymmetric cryptography only, elliptic curves in particular.\r\n\r\nUse used the mbed TLS library as the foundation and almost fully rewrote it to make is x40 faster. During our development we also use parts of WolfSSL library. While WolfSSL outperforms OpenSSL, it uses the same algorithms, which are 5-7 years of old. Tempesta TLS uses newer and more efficient algorithms from the modern cryptography research.\r\n\r\nWhile we still improving performance of Tempesta TLS, the implementation already establishes 40-80% more TLS handshakes per second than OpenSSL/Nginx and provides up to x4 lower latency in several tests.\r\n\r\nThis talk covers following topics with plenty of benchmarks:\r\n\r\n* The fundamentals of elliptic curve computations and the most \"hot spots\"\r\n\r\n* Side channel attacks (SCA) and methods to prevent them\r\n\r\n* How the recent CPU vulnerabilities impact TLS handshakes\r\n\r\n* Basics of the new fast algorithms used in the Tempesta TLS\r\n\r\n* The design trade offs in OpenSSL, WolfSSL, mbed TLS, and Tempesta TLS\r\n\r\n* The funny assembly code with is more straightforward than C\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by Next Day Video Australia: https://nextdayvideo.com.au\n\n#linux.conf.au #linux #foss #opensource\n\nSun Jan 24 11:40:00 2021 at Blemings Labs"

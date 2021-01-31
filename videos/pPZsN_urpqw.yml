@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Containers are hideously undebuggable black boxes and we never should have invented them'
+recordingDate: 1612055754
+description: "Tim Serong\n\nhttps://lca2021.linux.org.au/schedule/presentation/71/\n\nThe Ceph project switched from installing regular software packages, to deployment as application containers (Podman/Docker/Kubernetes) in the most recent release.  Suddenly, we have storage clusters where the admin isn't dealing with a bunch of normal daemons anymore; instead there's a whole lot of containers running, and if you're used to the old way of doing things, the container mode can be inscrutable, and difficult to debug when things go wrong.\r\n\r\nThis isn't just a story for Ceph people - this is a story of unexpected failures, of learning where to look when things break, of trying to fix those broken things, and then discovering someone's hidden half your trusty old tools, and the other half don't work properly anymore.\r\n\r\nCeph users will come away from this talk with a good understanding of how everything is deployed now, and why.  Beyond that though, I hope to ensure that anyone who's gone from dealing with packaged software to the container world never finds themselves like I did, late one night, staring at a terminal into which they've just typed the words \"containers are hideously undebuggable black boxes and we never should have invented them\".\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by Next Day Video Australia: https://nextdayvideo.com.au\n\n#linux.conf.au #linux #foss #opensource\n\nMon Jan 25 16:40:00 2021 at Rusty R. Hall"

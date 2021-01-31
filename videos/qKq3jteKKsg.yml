@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Supporting BPF in the GNU Toolchain" - Jose E. Marchesi (LCA 2021 Online)'
+recordingDate: 1612053026
+description: "Jose E. Marchesi\n\nhttps://lca2021.linux.org.au/schedule/presentation/42/\n\nBPF (previously known as eBPF) is a virtual machine running within the Linux kernel; initially intended for user-level packet capture and filtering, BPF has since been generalized to also serve as a general-purpose infrastructure for non-networking purposes.   As its use spreads among more and more kernel subsystems, the length and complexity of BPF programs are also increasing.  That, combined with the fact that the kernel BPF verifier is getting more and more smart, allowing more sophisticated programs to run in the kernel, results in people wanting to write BPF programs in high-level languages such as C. \r\n\r\nFor many years a LLVM port was the only option for BPF developers who wanted to write C BPF programs.  A year ago Oracle undertook the task to add a BPF port to the GNU Toolchain.  At the present time we have upstreamed support for BPF to GCC, the binutils (assembler, disassembler, linker)  the GDB debugger and the GNU simulator.  This is work in progress, and we are currently in the task of adding support for BTF and CO-RE (Compile once, run everywhere.)\r\n\r\nIn this talk we will describe the current status of the port and quickly show how it can be used to do BPF development.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by Next Day Video Australia: https://nextdayvideo.com.au\n\n#linux.conf.au #linux #foss #opensource\n\nSun Jan 24 11:40:00 2021 at Pia Andrews Conservatory"
