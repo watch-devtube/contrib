@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Evolution of Suspend-to-Idle Support in The Linux Kernel" - Rafael Wysocki (LCA 2021 Online)'
+recordingDate: 1612095076
+description: "Rafael Wysocki\n\nhttps://lca2021.linux.org.au/schedule/presentation/51/\n\nSuspend-to-idle is a system-wide suspend variant which in principle does not rely on platform support. The suspend-to-idle control flow does not take non-boot CPUs offline and expects all CPUs to enter idle states through the idle loop, like in the working state of the system. However, it assumes that the scheduler tick will be stopped on all CPUs and the timekeeping will be suspended, which is a source of significant complications. It also expects system wakeup devices selected by user space to be functional and it needs to prevent all of the other interrupt sources from waking up the system. In some cases one interrupt source can signal both wakeup and non-wakeup events, so it is necessary to distinguish the former from the latter. All of that together causes the suspend-to-idle support code in the Linux kernel to be quite complex, especially on systems where ACPI is used, and that code has changed for multiple times in response to additional pieces of information on what is needed coming mostly from the users in the form of problem reports. I will describe the evolution of that code since its inception in 2013 and explain the reasons for making the changes in it.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by Next Day Video Australia: https://nextdayvideo.com.au\n\n#linux.conf.au #linux #foss #opensource\n\nSun Jan 24 16:40:00 2021 at Blemings Labs"
