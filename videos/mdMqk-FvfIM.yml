@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"It''s (not) down in the noise." - Peter Chubb (LCA 2021 Online)'
+recordingDate: 1612093001
+description: "Peter Chubb\n\nhttps://lca2021.linux.org.au/schedule/presentation/31/\n\nWhenever a developer makes a change to a body of software (adds a feature, makes a bugfix), that developer wants to know (and even more important, the upstream maintainers want to know) whether and how it affects system performance.  Too often on the mailing lists I see the phrase 'The performance change is down in the noise'\r\n\r\nTwo simple statistical tests can be used to determine whether a change is *really* down in the noise, or  whether there's a real difference.  Student's T test can tell you how likely it is that the mean of two sample sets is the  same, but it works only on Normal (Gaussian) distributions.  The Mann-Whitney U test tells you how likely it is for the median to be the same, and works on *any* underlying distribution.\r\n\r\nKernel microbenchmarks usually show very  skewed distributions, where the minimum and the mode are the same;  but there is a long tail, with several small modal points in it.\r\nI've worked out the reason for this, and how to use the Mann-Whitney U test to determine whether small changes (too noisy to see by eyeballing the resutst) are real or not.\r\n\r\nEven though this talk has some statistics in it, I'm not a statistician, so it's all stuff that anyone with year 10 maths can understand.\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by Next Day Video Australia: https://nextdayvideo.com.au\n\n#linux.conf.au #linux #foss #opensource\n\nMon Jan 25 11:40:00 2021 at Blemings Labs"
