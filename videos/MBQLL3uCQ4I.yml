@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"A journey to performance: using Rust in Mercurial" - Raphaël Gomès (LCA 2021 Online)'
+recordingDate: 1612474119
+description: "Raphaël Gomès\n\nhttps://lca2021.linux.org.au/schedule/presentation/49/\n\nMercurial is a Distributed Version Control System mainly written in Python.\r\nWhile it is often the VCS of choice for monorepos for its great scalability,\r\ncertain parts remain slower than they should be.\r\nOver the past two years, an effort to rewrite parts of the Mercurial core in\r\nRust has seen multiple significant wins in performance, even compared to C\r\nimplementations.\r\n\r\nWe will go over the different obstacles that Raphaël and his colleagues at \r\nOctobus faced during the rewrite of the ubiquitous `hg status`, and the \r\nsolutions they came up with to make this command (and others) a lot faster. \r\nFor example, running `hg status` in a Mozilla working copy moved from 1.1s to \r\n0.04s, a ×25 improvement.\r\n\r\nThemes covered include:\r\n    - Rust and Python interoperability\r\n    - Fast (and slow) Rust datastructures\r\n    - Fast directory traversal\r\n    - Version control internals\r\n    - Append-only binary formats\r\n    - Mtime caching\r\n    - Safe mmap usage in a concurrent context\r\n    - Multithreading\r\n    - Unix vs MacOS vs Windows issues\n\nlinux.conf.au is a conference about the Linux operating system, and all aspects of the thriving ecosystem of Free and Open Source Software that has grown up around it. Run since 1999, in a different Australian or New Zealand city each year, by a team of local volunteers, LCA invites more than 500 people to learn from the people who shape the future of Open Source. For more information on the conference see https://linux.conf.au/\n\nProduced by Next Day Video Australia: https://nextdayvideo.com.au\n\n#linux.conf.au #linux #foss #opensource\n\nSun Jan 24 16:40:00 2021 at Rusty R. Hall"
