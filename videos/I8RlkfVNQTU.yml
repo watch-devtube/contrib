@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Kafka Rebalance - Notes From the Field'
+recordingDate: 1613305771
+description: "Apache Kafka is a popular distributed event streaming platform used for data pipelines, streaming analytics, data integration, and mission-critical applications. After working with Kafka for a while, Ariel encountered issues of having to add new capacity and then balance it several times after that. Which can be quite amplified in high-scale environments with lots of Brokers, Topics, and throughput.\n\nAt this talk, Ariel will provide an inside look at his project, where they work on achieving the desired balance of partitions between Brokers while also reducing data movement and overhead in the cluster.\n\n// Bio\nAriel Moskovich is a dedicated production Engineer with more than 20 years of experience in high scale and live production environments. He is currently working as a System Architect at Wix.com, the leading platform to create, design and manage websites. Before that he worked as chief infrastructure architect at AppsFlyer and as Senior production Engineer at the most challenging environments of Outbrain and Orbitz. Ariel is married to a wonderful wife, and he has three demanding, yet sweet kids."
