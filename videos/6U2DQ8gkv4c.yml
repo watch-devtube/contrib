@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DP-SGD Privacy Analysis is Tight!'
+language: English
+recordingDate: 1613506135
+description: "A Google TechTalk, presented by Milad Nasr, 2020/08/21\nABSTRACT:  Differentially private stochastic gradient descent (DP-SGD) provides a method to train\na machine learning model on private data without revealing anything specific to that particular dataset. As a tool, differential privacy places upper bounds on the maximum amount of information that could be leaked through the training process.\n\nThis is formalized as a game where an adversary guesses whether a model was trained on a dataset D or a dataset D' that differs in just one example. If the probability the adversary succeeds at this game is sufficiently low, the training algorithm is said to satisfy differential privacy.\n\nIn our work we instantiate this hypothetical adversary who plays the distinguishing game in order to understand how the various assumptions that are made or could be made impact the empirically observed privacy. In comparison with the proofs of privacy, our adversary provides a concrete lower bound on the probability that this distinguishing game can be won.\n\nWhen our adversary is given the complete capabilities assumed in the DP-SGD analysis, our lower bound is tight and matches the theoretical upper bound. However, we show that in practical settings that do not use many of the (unrealistic) adversary capabilities, our lower bound is substantially weaker than the theoretical upper bound."

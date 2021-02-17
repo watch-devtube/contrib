@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Uncertainty Estimation via (Multi) Calibration'
+language: English
+recordingDate: 1613506152
+description: "A Google TechTalk, presented by Aaron Roth, 2020/10/02\nPaper Title: \"Moment Multi-calibration and Uncertainty Estimation\"\n\nABSTRACT: We show how to achieve multi-calibrated estimators not just for means, but also for variances and other higher moments. Informally, this means that we can find regression functions which, given a data point, can make point predictions not just for the expectation of its label, but for higher moments of its label distribution as well --- and those predictions match the true distribution quantities when averaged not just over the population as a whole --- but also when averaged over an enormous number of finely defined population subgroups. It yields a principled way to estimate the uncertainty of predictions on many different subgroups --- and to diagnose potential sources of unfairness in the predictive power of features across subgroups. As an application, we show that our moment estimates can be used to derive marginal prediction intervals that are simultaneously valid as averaged over all of the (sufficiently large) subgroups for which moment multi-calibration has been obtained. We also show how to obtain tight marginal prediction intervals in an online adversarial prediction setting --- solving the same problem as conformal prediction, but without any distributional assumptions. \n \nSpeaker Bio: \n\nAaron Roth is a professor of Computer and Information Sciences at the University of Pennsylvania, affiliated with the Warren Center for Network and Data Science, and co-director of the Networked and Social Systems Engineering (NETS) program. He is also an Amazon Scholar at Amazon AWS. He is the recipient of a Presidential Early Career Award for Scientists and Engineers (PECASE) awarded by President Obama in 2016, an Alfred P. Sloan Research Fellowship, an NSF CAREER award, and research awards from Yahoo, Amazon, and Google.  His research focuses on the algorithmic foundations of data privacy, algorithmic fairness, game theory and mechanism design, learning theory, and the intersections of these topics.  Together with Cynthia Dwork, he is the author of the book “The Algorithmic Foundations of Differential Privacy.” Together with Michael Kearns, he is the author of “The Ethical Algorithm”. \""

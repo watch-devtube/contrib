@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'When is Memorization of Entire Examples Necessary for High-Accuracy Learning?'
+language: English
+recordingDate: 1613506120
+description: "A Google TechTalk, presented by Adam Smith, 2020/11/20\nPaper title: \"When is Memorization of Irrelevant Training Data Necessary for High-Accuracy Learning?\"\n\nABSTRACT: Modern machine learning models are complex, and frequently encode surprising amounts of information about individual inputs. In extreme cases, complex models appear to memorize entire input examples, including seemingly irrelevant information (social security numbers from text, for example). In this paper, we aim to understand whether this sort of memorization is necessary for accurate learning. We describe natural prediction problems in which every sufficiently accurate training algorithm must encode, in the prediction model, essentially all the information about a large subset of its training examples. This remains true even when the examples are high-dimensional and have entropy much higher than the sample size, and even when most of that information is ultimately irrelevant to the task at hand. Further, our results do not depend on the training algorithm or the class of models used for learning.\n\nOur problems are simple and fairly natural variants of the next-symbol prediction and the cluster labeling tasks. These tasks can be seen as abstractions of image- and text-related prediction problems. To establish our results, we reduce from a family of one-way communication problems for which we prove new information complexity lower bounds.\n\nJoint work with Gavin Brown, Mark Bun, Vitaly Feldman, and Kunal Talwar.\n\nAbout the speaker: Adam Smith is a professor of computer science at Boston University. He obtained his Ph.D. from MIT in 2004, and was a faculty member at Penn State from 2007 to 2017. His research interests lie in data privacy and cryptography, and their connections to machine learning, statistics, information theory, and quantum computing. He received a Presidential Early Career Award for Scientists and Engineers (PECASE) in 2009; IACR Test of Time awards in 2016 (TCC) and 2019 (Eurocrypt); and the 2017 Gödel Prize.\""
