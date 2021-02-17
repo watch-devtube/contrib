@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Bjørn Einar Bjartnes — Workshop: Tuning services to deal with latency and errors'
+language: Russian
+recordingDate: 1613472345
+description: "Users' patience with services not working is gradually decreasing as the quality of services online is improving With current trends of moving services to the cloud and building smaller and network-intensive services, meeting these expectations can be challenging for us developers We want to be able to build services that we can run confidently despite partial failures and outages\n\nIn this workshop, you will learn how to simulate latency and failures in your web application and how to add strategies to deal with this We will learn how changing the different parameters change the behavior of our application under load, and what trade-offs we ultimately must make\n\nWe will use k6 for load testing a NET Core web API For resiliency strategies, we will use Polly, and we will use Simmy for fault injection This is red-green testing, but for performance and resiliency You will learn about service level indicators, service level objectives, and how to formulate and test such requirements\n\nBefore the workshop, you will have to setup the dev environment before the start The workshop should work on Windows/Mac/Linux using VS Code and Docker OR using Visual Studio Codespaces (online, in the browser) You can find the speaker's instruction here (https://githubcom/bjartwolf/bounded-disturbances) If you can start the web API as described in the README on GitHub with \"Run and watch web API\" and run the \"Intro\" k6 test and make sure it outputs the everything is ready to go If you will run into issues — don't hesitate to contact Bjørn via email or Telegram (bjartnes@gmailcom/bjartnes)"
