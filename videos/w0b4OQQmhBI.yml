@@ -1,0 +1,16 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+speaker:
+    name: 'Nicolas Frankel'
+    twitter: nicolas_frankel
+    matches: ['Nicolas Fränkel']
+title: 'Pragmatic App Migration to the Cloud: Quarkus, Kotlin, Hazelcast and GraalVM by Nicolas Frankel'
+language: English
+recordingDate: 1613573613
+description: "micro.sphere.it presents: \n\nmicro.sphere.it #6 Kotlin - Pragmatic App Migration to the Cloud: Quarkus, Kotlin, Hazelcast and GraalVM by Nicolas Frankel\n\nAbstract:\nAt a point in the past, it was forecast that Java would die, but the JVM platform would be its legacy. And in fact, for a long time, the JVM has been tremendously successful. Wikipedia itself lists a bunch of languages that run on it, some of them close to Java e.g. Kotlin, some of them very remote e.g. Clojure.\n\nBut nowadays, the Cloud is becoming ubiquitous. Containerization is the way to go to alleviate some of the vendor lock-in issues. Kubernetes is a de facto platform. If a container needs to be killed for whatever reason (resource consumption, unhealthy, etc.), a new one needs to replace it as fast as possible. In that context, the JVM seems to be a dead-end: its startup time is huge in comparison to a native process. Likewise, it consumes a lot of memory that just increase the monthly bill.\n\nWhat does that mean for us developers? Has all the time spent in learning the JVM ecosystem been invested with no hope of return over investment? Shall we need to invest even more time in new languages, frameworks, libraries, etc.? That is one possibility for sure. But we can also leverage our existing knowledge, and embrace the Cloud and containers ways with the help of some tools.\n\nIn this talk, I’ll create a simple URL shortener with a “standard” stack: Kotlin, JAX-RS and Hazelcast. Then, with the help of Quarkus and GraalVM, I’ll turn this application into a native executable with all Cloud/Container related work has been moved to the build process.\n\nBio:\nNicolas Frankel is a Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Currently working for Hazelcast. Also double as a teacher in universities and higher education schools, a trainer and triples as a book author."
