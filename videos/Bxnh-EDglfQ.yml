@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Tanzu GemFire for Kubernetes Tutorial:  Install operator and create cluster'
+language: English
+recordingDate: 1614213413
+description: "By Charlie Black, VMware\n\nIn this video I will install the Tanzu GemFire for Kubernetes operator and create my first cluster.\n\n* Documentation: https://tgf.docs.pivotal.io/\n* Download: https://network.tanzu.vmware.com/\n* Product Page: https://tanzu.vmware.com/gemfire\n\nDon’t forget to have a certificate manager installed:\n* kubectl create namespace cert-manager\n* helm install cert-manager jetstack/cert-manager --namespace cert-manager --version v1.0.4  --set installCRDs=true\n\nAll of the commands I used in the video\n* less -S tanzu-secret.yml\n* kubectl apply -f tanzu-secret.yml -n gemfire-operator\n* helm install gemfire-operator ~/Downloads/gemfire-operator-1.0.0.tgz -n gemfire-operator\n* k9s\n* kubectl create namespace gemfire-cluster\n* kubectl apply -f tanzu-secret.yml -n gemfire-cluster\n* cat tanzu-gemfire.yml\n* kubectl apply -f tanzu-gemfire.yml -n gemfire-cluster\n* k9s\n* kubectl -n gemfire-cluster exec -it tanzu-gemfire-locator-0 -- gfsh\n\nThanks for watching!"
