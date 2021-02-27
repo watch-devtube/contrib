@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Clojure core.async" by Rich Hickey'
+language: English
+recordingDate: 1614310821
+description: "There comes a time in all good programs when components or subsystems must stop communicating directly with one another. This is often achieved via the introduction of queues between the producers of data and the consumers/processors of that data. This architectural indirection ensures that important decisions can be made with some degree of independence, and leads to systems that are easier to understand, manage, monitor and change, and make better use of computational resources, etc.\n\nThe objectives of core.async are:\n\n - To provide facilities for independent threads of activity, communicating via queue-like channels.\n- To support both real threads and shared use of thread pools (in any combination), as well as ClojureScript on JS engines.\n- To build upon the work done on CSP and its derivatives, e.g. Java CSP and the Go programming language.\n\nThis talk will cover the motivation, design and use of the new Clojure core.async library.\n\nRich Hickey\nCognitect\n@richhickey\n\nRich Hickey, the author of Clojure and designer of Datomic, is a software developer with over 20 years of experience in various domains. Rich has worked on scheduling systems, broadcast automation, audio analysis and fingerprinting, database design, yield management, exit poll systems, and machine listening, in a variety of languages. \n\nRecorded at Strange Loop conference (https://thestrangeloop.com) in St. Louis, MO, Oct 2013."

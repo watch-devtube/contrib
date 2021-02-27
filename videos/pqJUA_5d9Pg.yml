@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Continuum: A JS (ES6) VM Written in JS (ES3)" by Brandon Benvie'
+language: English
+recordingDate: 1614375885
+description: "Continuum is an ECMAScript 6 (draft) virtual machine written in ECMAScript 3. In this talk we'll go through an overview of what Continuum does, how it works, and why it's useful.\n\nContinuum maintains compatibility with all popularly used JS engines in use today (IE8, modern browsers, Node.js). While Continuum isn't efficient enough to use in production code, we will explore how it is useful for quickly experimenting with new language features, try new ways of debugging and visualization, and a view of the ECMAScript specification as implemented in terms of itself.\n\nWe will walk through the lifetime of a line of JavaScript code: parsing the source code, compilation to bytecode, linking between modules, and interpreting the bytecode in an ES6 runtime environment using a stack machine. We will see how Continuum relies on the host engine for some functionality such as memory management, but still implements nearly the entire ES6 specification in idiomatic JavaScript.\n\nFinally, we will visit the JavaScript standard library in Continuum. The stdlib is self-hosted, having been written in ES6, and comprises approximately 30% of Continuum's code. We will look at a few of the implementations of JavaScript builtin classes such as Array, Function, Map, and Object.\n\nBrandon Benvie\nMozilla\n@benvie\n\n\nBrandon Benvie is a Developer Tools Engineer at Mozilla working on the Firefox devtools. He has long focused on making tools and libraries for developers and has an obsession for using colors to convey information.\n\n\nRecorded at Strange Loop conference (https://thestrangeloop.com) in St. Louis, MO, Oct 2013."

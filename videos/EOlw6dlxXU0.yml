@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Partitions for Everyone!" by Kyle Kingsbury'
+language: English
+recordingDate: 1614312737
+description: "Distributed databases, queues, and lock services vary in their durability, availability, and consistency guarantees under partition. In particular, designers and developers often assume that system clocks are monotonic, advance at the same rate, or are synchronized between nodes; or that network partitions are impossible, separate the system cleanly into disjoint components, or are stable over short timescales.\n\nHow a system tracks causality and reconciles divergent state determines how well it behaves under unstable conditions. I've spent the last six months subjecting popular distributed systems to different kinds of network partitions while under load. Discovering their design limits and bugs illustrates how difficult it is to build reliable distributed services in practice.\n\nKyle Kingsbury\nFactual\n@aphyr\n\nKyle is the author of Riemann, Meangirls, Timelike, Jepsen, and a bunch of other open-source stuff. He writes Clojure and helps monitor distributed systems at Factual.\n\nRecorded at Strange Loop conference (https://thestrangeloop.com) in St. Louis, MO, Oct 2013."
