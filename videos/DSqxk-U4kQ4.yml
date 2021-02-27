@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"High Availability at Braintree" by Paul Gross'
+language: English
+recordingDate: 1614357763
+description: "Braintree is a payment gateway, so downtime directly costs both us and our merchants money. Therefore, high availability is extremely important at Braintree. This talk will cover how we do HA at Braintree on our (mostly Ruby) application.\n\nSpecific topics will include:\n\n    Working around planned downtime and deploys:\n    How we pause traffic without losing requests\n    How we fit our maintenance into these pauses\n    How we do rolling deploys and schema changes without downtime\n\n    Working around unplanned failures:\n    How we load balance across redundant servers and ISPs\n    How the app is structured to retry failed requests\n\nPaul Gross\nBraintree Payments\n@pgr0ss\n\n\nPaul Gross is a software developer working at Braintree Payments. Braintree helps businesses accept credit card payments online with great development tools and first class support. Paul has worked on everything at Braintree from their highly available infrastructure to the client libraries that ease integration in seven languages. Before Braintree, Paul worked at ThoughtWorks, a global consultancy, building custom software in many languages, including Java, .NET, Python and Ruby. Paul has worked in software development and delivery for over 10 years.\n\n\nRecorded at Strange Loop conference (https://thestrangeloop.com) in St. Louis, MO, Oct 2013."
