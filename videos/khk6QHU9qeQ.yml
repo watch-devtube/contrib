@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Tracking Millions of Ganks in Near Real Time" by Garrett Eardley'
+language: English
+recordingDate: 1614439614
+description: "Riot Games's League of Legends supports millions of concurrent players at any given moment of the day. At that scale, tracking even simple gameplay statistics results in the creation of terabytes of data that must be aggregated and presented to players in near real-time. Scaling the system and developing additional features became difficult while using Riot's initial technology choice for statistics, MySQL. To enable rapid iteration at scale, Riot moved to an eventually consistent key/value store, Riak, and that's required us to start thinking about our data and how we model it in new ways. In this talk, I'll explore how we are leveraging Riak for our next generation stats system. I'll discuss in detail why we chose to use Riak, how we structure our data model and indexes, and our strategies for working with eventually consistent data.\n\nGarrett Eardley\nRiot Games\n\n\nGarrett \"Grizzly\" Eardley is a software engineer at Riot Games. He is intimately acquainted with the difficulties of scaling the distributed systems that power League of Legends' 32+ million monthly active players. Garrett holds an M.S. in Computer Science from Washington University in St. Louis, where he currently resides with his wife, children, and beard.\n\n\nRecorded at Strange Loop conference (https://thestrangeloop.com) in St. Louis, MO, Oct 2013."
