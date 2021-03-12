@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Using Font Shaping To Put Commas in Big Numbers EVERYWHERE!'
+language: English
+recordingDate: 1615514357
+description: "My job involves a lot of staring at large numbers, mostly latencies in nanoseconds, and picking out magnitudes like microseconds. I noticed myself constantly counting digits in my text editor, in my terminal, and in Jupyter notebooks in my browser.\n\nI could have made specific solutions for each, but I thought “How could I solve this in the most general way possible?” and an idea came to me: I could make a font that uses fancy font shaping features to insert commas in all numbers, everywhere.\n\nIt was a fun idea, so I decided to play with it on my own time. After an evening reading documentation and a Sunday spent tinkering, I had it working! I’ve been using the resulting font at work for a few weeks now and it’s been a really pleasant improvement.\n\nIn this post I’ll describe the basics of OpenType shaping, how I used it to make a font that emphasizes digit grouping, and how I extended it with even fancier variations.\n\nPUBLICATION PERMISSIONS:\nOriginal video was published with the Creative Commons Attribution license (reuse allowed). Link: https://www.youtube.com/watch?v=EReoVpb9LJo&t=19082s"
