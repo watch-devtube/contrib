@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - eMRC: Efficient Miss Ratio Approximation for Multi-Tier Caching'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - eMRC: Efficient Miss Ratio Approximation for Multi-Tier Caching\n\nZhang Liu, University of Colorado Boulder; Hee Won Lee, Samsung Electronics; Yu Xiang, AT&T Labs Research; Dirk Grunwald and Sangtae Ha, University of Colorado Boulder\n\nMany storage cache allocation methods use the miss ratio curve (MRC) to improve cache efficiency. However, they have focused only on single-tier cache architectures and require the whole MRC as input for cache management, while modern datacenters embrace hierarchical caching architectures to maximize resource utilization. Generating the MRC for multi-tier caches—we call it the miss ratio function—is far more challenging due to different eviction policies and capacities in each cache tier. We introduce eMRC, a multi-dimensional miss ratio approximation technique, to enable efficient MRC generation for multi-tier caching. Our approach uses a novel multi-dimensional performance cliff removal method and convex hull approximation technique to efficiently generate a multi-dimensional MRC without cliffs using a small number of sampling points. To demonstrate the benefits of eMRC, we designed ORCA, a multi-tier cache management framework that orchestrates caches residing in different hierarchies through eMRC and provides efficient multi-tier cache configurations to cloud tenants with diverse service level objectives. We evaluate the performance of our eMRC approximation technique and ORCA with real-world datacenter traces.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"

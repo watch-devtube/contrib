@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - CNSBench: A Cloud Native Storage Benchmark'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - CNSBench: A Cloud Native Storage Benchmark\n\nAlex Merenstein, Stony Brook University; Vasily Tarasov, Ali Anwar, and Deepavali Bhagwat, IBM Research–Almaden; Julie Lee, Stony Brook University; Lukas Rupprecht and Dimitris Skourtis, IBM Research–Almaden; Yang Yang and Erez Zadok, Stony Brook University\n\nModern hybrid cloud infrastructures require software to be easily portable between heterogeneous clusters. Application containerization is a proven technology to provide this portability for the functionalities of an application. However, to ensure performance portability, dependable verification of a cluster's performance under realistic workloads is required. Such verification is usually achieved through benchmarking the target environment and its storage in particular, as I/O is often the slowest component in an application. Alas, existing storage benchmarks are not suitable to generate cloud native workloads as they do not generate any storage control operations (e.g., volume or snapshot creation), cannot easily orchestrate a high number of simultaneously running distinct workloads, and are limited in their ability to dynamically change workload characteristics during a run.\n\nIn this paper, we present the design and prototype for the first-ever Cloud Native Storage Benchmark—CNSBench. CNSBench treats control operations as first-class citizens and allows to easily combine traditional storage benchmark workloads with user-defined control operation workloads. As CNSBench is a cloud native application itself, it natively supports orchestration of different control and I/O workload combinations at scale. We built a prototype of CNSBench for Kubernetes, leveraging several existing containerized storage benchmarks for data and metadata I/O generation. We demonstrate CNSBench's usefulness with case studies of Ceph and OpenEBS, two popular storage providers for Kubernetes, uncovering and analyzing previously unknown performance characteristics.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"

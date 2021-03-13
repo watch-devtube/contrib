@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - On the Feasibility of Parser-based Log Compression in Large-Scale Cloud Systems'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - On the Feasibility of Parser-based Log Compression in Large-Scale Cloud Systems\n\nJunyu Wei and Guangyan Zhang, Tsinghua University; Yang Wang, The Ohio State University; Zhiwei Liu, China University of Geosciences; Zhanyang Zhu and Junchao Chen, Tsinghua University; Tingtao Sun and Qi Zhou, Alibaba Cloud\n\nGiven the tremendous scale of today’s system logs, compression is widely used to save space. While parser-based log compressor reported promising results, we observe less intriguing performance when applying it to our production logs.\n\nOur detailed analysis shows that, first, some problems are caused by a combination of sub-optimal implementation and assumptions that do not hold on our large-scale logs. We address these issues with a more efficient implementation. Furthermore, our analysis reveals new opportunities for further improvement. In particular, numerical values account for a significant percentage of space and classic compression algorithms, which try to identify duplicate bytes, do not work well on numerical values. We propose three techniques, namely delta timestamps, correlation identification, and elastic encoding, to further compress numerical values.\n\nBased on these techniques, we have built LogReducer. Our evaluation on 18 types of production logs and 16 types of public logs shows that LogReducer achieves the highest compression ratio in almost all cases and on large logs, its speed is comparable to the general-purpose compression algorithm that targets a high compression ratio.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"

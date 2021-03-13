@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - High Velocity Kernel File Systems with Bento'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - High Velocity Kernel File Systems with Bento\n\nSamantha Miller, Kaiyuan Zhang, Mengqi Chen, and Ryan Jennings, University of Washington; Ang Chen, Rice University; Danyang Zhuo, Duke University; Thomas Anderson, University of Washington\nAwarded Best Paper!\n\nHigh development velocity is critical for modern systems. This is especially true for Linux file systems which are seeing increased pressure from new storage devices and new demands on storage systems. However, high velocity Linux kernel development is challenging due to the ease of introducing bugs, the difficulty of testing and debugging, and the lack of support for redeployment without service disruption. Existing approaches to high-velocity development of file systems for Linux have major downsides, such as the high performance penalty for FUSE file systems, slowing the deployment cycle for new file system functionality.\n\nWe propose Bento, a framework for high velocity development of Linux kernel file systems. It enables file systems written in safe Rust to be installed in the Linux kernel, with errors largely sandboxed to the file system. Bento file systems can be replaced with no disruption to running applications, allowing daily or weekly upgrades in a cloud server setting. Bento also supports userspace debugging. We implement a simple file system using Bento and show that it performs similarly to VFS-native ext4 on a variety of benchmarks and outperforms a FUSE version by 7x on 'git clone'. We also show that we can dynamically add file provenance tracking to a running kernel file system with only 15ms of service interruption.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"

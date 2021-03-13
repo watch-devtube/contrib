@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - SpanDB: A Fast, Cost-Effective LSM-tree Based KV Store on Hybrid Storage'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - SpanDB: A Fast, Cost-Effective LSM-tree Based KV Store on Hybrid Storage\n\nHao Chen, University of Science and Technology of China & Qatar Computing Research Institute, HBKU; Chaoyi Ruan and Cheng Li, University of Science and Technology of China; Xiaosong Ma, Qatar Computing Research Institute, HBKU; Yinlong Xu, University of Science and Technology of China & Anhui Province Key Laboratory of High Performance Computing\n\nKey-Value (KV) stores support many crucial applications and services. They perform fast in-memory processing, but are still often limited by I/O performance. The recent emergence of high-speed commodity NVMe SSDs has propelled new KV system designs that take advantage of their ultra-low latency and high bandwidth. Meanwhile, to switch to entirely new data layouts and scale up entire databases to high-end SSDs requires considerable investment. As a compromise, we propose SpanDB, an LSM-tree-based KV store that adapts the popular RocksDB system to utilize selective deployment of high-speed SSDs. SpanDB allows users to host the bulk of their data on cheaper and larger SSDs, while relocating write-ahead logs (WAL) and the top levels of the LSM-tree to a much smaller and faster NVMe SSD. To better utilize this fast disk, SpanDB provides high-speed, parallel WAL writes via SPDK, and enables asynchronous request processing to mitigate inter-thread synchronization over-head and work efficiently with polling-based I/O. Our evaluation shows that SpanDB simultaneously improves RocksDB’s throughput by up to 8.8x and reduces its latency by 9.5- 58.3%. Compared with KVell, a system designed for high-end SSDs, SpanDB achieves 96-140% of its throughput, with a 2.3-21.6x lower latency, at a cheaper storage configuration.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"

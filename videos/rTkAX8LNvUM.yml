@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - Evolution of Development Priorities in Key-value Stores Serving Large-scale Applications'
+language: English
+recordingDate: 1615589021
+description: "FAST '21 - Evolution of Development Priorities in Key-value Stores Serving Large-scale Applications: The RocksDB Experience\n\nSiying Dong, Andrew Kryczka, and Yanqin Jin, Facebook Inc.; Michael Stumm, University of Toronto\n\nRocksDB is a key-value store targeting large-scale distributed systems and optimized for Solid State Drives (SSDs). This paper describes how our priorities in developing RocksDB have evolved over the last eight years. The evolution is the result both of hardware trends and of extensive experience running RocksDB at scale in production at a number of organizations. We describe how and why RocksDB's resource optimization target migrated from write amplification, to space amplification, to CPU utilization. Lessons from running large-scale applications taught us that resource allocation needs to be managed across different RocksDB instances, that data format needs to remain backward and forward compatible to allow incremental software rollout, and that appropriate support for database replication and backups are needed. Lessons from failure handling taught us that data corruption errors needed to be detected earlier and at every layer of the system.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"

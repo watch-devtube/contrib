@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - ROART: Range-query Optimized Persistent ART'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - ROART: Range-query Optimized Persistent ART\n\nShaonan Ma and Kang Chen, Tsinghua University; Shimin Chen, SKL of Computer Architecture, ICT, CAS, and University of Chinese Academy of Sciences; Mengxing Liu, Jianglang Zhu, Hongbo Kang, and Yongwei Wu, Tsinghua University\n\nWith the availability of commercial NVM devices such as Intel Optane DC PMM, it is time to start thinking about applying the existing persistent data structures in practice. This paper considers three practical aspects, which have significant influences on the design of persistent indexes, including functionality, performance and correctness.\n\nWe design a new persistent index, ROART, based on adaptive radix tree (ART), taking all these practical aspects into account. ROART (i) proposes a leaf compaction method to reduce pointer chasing for range queries, (ii) minimizes persistence overhead with three optimizations, i.e., entry compression, selective metadata persistence and minimally ordered split, and (iii) designs a fast memory management to prevent memory leaks, and eliminates the long recovery time by proposing an instant restart strategy. Evaluations show that ROART outperforms the state-of-the-art radix tree by up to 1.65x and B+-Trees by 1.17∼8.27x respectively.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - Behemoth: A Flash-centric Training Accelerator for Extreme-scale DNNs'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - Behemoth: A Flash-centric Training Accelerator for Extreme-scale DNNs\n\nShine Kim, Seoul National University and Samsung Electronics; Yunho Jin, Gina Sohn, Jonghyun Bae, Tae Jun Ham, and Jae W. Lee, Seoul National University\n\nThe explosive expansion of Deep Neural Networks (DNN) model size expedites the need for larger memory capacity. This movement is particularly true for models in natural language processing (NLP), a dominant application of AI along with computer vision. For example, a recent extreme-scale language model GPT-3 from OpenAI has over 175 billion parameters. Furthermore, such a model mostly consists of FC layers with huge dimensions, and thus has a relatively high arithmetic intensity. In that sense, an extreme-scale language model does not suit well to the conventional HBM DRAM-based memory system that lacks capacity and offers extremely high bandwidth. For this reason, we propose to pair the neural network training accelerator with the flash-based memory system instead of the HBM DRAM-based memory system. To design the effective flash-based memory system, we optimize the existing SSD design to improve the SSD bandwidth as well as endurance. Finally, we evaluate our proposed platform, and show that Behemoth achieves 3.65× cost saving over TPU v3 and 2.05× training throughput improvement over the accelerator attached to a commercial SSD.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"
