@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - FlashNeuron: SSD-Enabled Large-Batch Training of Very Deep Neural Networks'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - FlashNeuron: SSD-Enabled Large-Batch Training of Very Deep Neural Networks\n\nJonghyun Bae, Seoul National University; Jongsung Lee, Seoul National University and Samsung Electronics; Yunho Jin and Sam Son, Seoul National University; Shine Kim, Seoul National University and Samsung Electronics; Hakbeom Jang, Samsung Electronics; Tae Jun Ham and Jae W. Lee, Seoul National University\n\nDeep neural networks (DNNs) are widely used in various AI application domains such as computer vision, natural language processing, autonomous driving, and bioinformatics. As DNNs continue to get wider and deeper to improve accuracy, the limited DRAM capacity of a training platform like GPU often becomes the limiting factor on the size of DNNs and batch size—called memory capacity wall. Since increasing the batch size is a popular technique to improve hardware utilization, this can yield a suboptimal training throughput. Recent proposals address this problem by offloading some of the intermediate data (e.g., feature maps) to the host memory. However, they fail to provide robust performance as the training process on a GPU contends with applications running on a CPU for memory bandwidth and capacity. Thus, we propose FlashNeuron, the first DNN training system using an NVMe SSD as a backing store. To fully utilize the limited SSD write bandwidth, FlashNeuron introduces an offloading scheduler, which selectively offloads a set of intermediate data to the SSD in a compressed format without increasing DNN evaluation time. FlashNeuron causes minimal interference to CPU processes as the GPU and the SSD directly communicate for data transfers. Our evaluation of FlashNeuron with four state-of-the-art DNNs shows that FlashNeuron can increase the batch size by a factor of 12.4x to 14.0x over the maximum allowable batch size on NVIDIA Tesla V100 GPU with 16GB DRAM. By employing a larger batch size, FlashNeuron also improves the training throughput by up to 37.8% (with an average of 30.3%) over the baseline using GPU memory only, while minimally disturbing applications running on CPU.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"

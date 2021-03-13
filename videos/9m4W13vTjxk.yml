@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - Concordia: Distributed Shared Memory with In-Network Cache Coherence'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - Concordia: Distributed Shared Memory with In-Network Cache Coherence\n\nQing Wang, Youyou Lu, Erci Xu, Junru Li, Youmin Chen, and Jiwu Shu, Tsinghua University\n\nDistributed shared memory (DSM) is experiencing a resurgence with emerging fast network stacks. Caching, which is still needed for reducing frequent remote access and balancing load, can incur high coherence overhead. In this paper, we propose CONCORDIA, a DSM with fast in-network cache coherence backed by programmable switches. At the core of CONCORDIA is FLOWCC, a hybrid cache coherence protocol, enabled by a collaborative effort from switches and servers. Moreover, to overcome limitations of programmable switches, we also introduce two techniques: (i) an ownership migration mechanism to address the problem of limited memory capacity on switches and (ii) idempotent operations to handle packet loss in the case that switches are stateful. To demonstrate CONCORDIA’s practical benefits, we build a distributed key-value store and a distributed graph engine on it, and port a distributed transaction processing system to it. Evaluation shows that CONCORDIA obtains up to 4.2x, 2.3x and 2x speedup over state-of-the-art DSMs on key-value store, graph engine and transaction processing workloads, respectively.\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"

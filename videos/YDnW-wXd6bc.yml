@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''21 - Rethinking File Mapping for Persistent Memory'
+language: English
+recordingDate: 1615589001
+description: "FAST '21 - Rethinking File Mapping for Persistent Memory\n\nIan Neal, Gefei Zuo, Eric Shiple, and Tanvir Ahmed Khan, University of Michigan; Youngjin Kwon, School of Computing, KAIST; Simon Peter, University of Texas at Austin; Baris Kasikci, University of Michigan\n\nPersistent main memory (PM) dramatically improves IO performance. We find that this results in file systems on PM spending as much as 70% of the IO path performing file mapping (mapping file offsets to physical locations on storage media) on real workloads. However, even PM-optimized file systems perform file mapping based on decades-old assumptions. It is now critical to revisit file mapping for PM.\n\nWe explore the design space for PM file mapping by building and evaluating several file-mapping designs, including different data structure, caching, as well as meta-data and block allocation approaches, within the context of a PM-optimized file system. Based on our findings, we design HashFS, a hash-based file mapping approach. HashFS uses a single hash operation for all mapping and allocation operations, bypassing the file system cache, instead prefetching mappings via SIMD parallelism and caching translations explicitly. HashFS’s resulting low latency provides superior performance compared to alternatives. HashFS increases the throughput of YCSB on LevelDB by up to 45% over page-cached extent trees in the state-of-the-art Strata PM-optimized file system\n\nView the full FAST '21 program at https://www.usenix.org/conference/fast21/technical-sessions"
