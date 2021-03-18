@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Generating days between two dates'
+language: English
+recordingDate: 1616001899
+description: "Listing all the dates in a time period is a common requirement. For example, to report the sales each day for a month, including the days with no orders!\n\nThis session covered how to write SQL to do this, make this a reusable function with SQL macros, and why you - probably - want to store the dates instead of generating them instead.\n\nHighlights include:\n\n- 02:25 - Generating N rows and using this to create dates\n- 04:25 - Generating a row/day between the oldest and newest dates in a table\n- 07:30 - How to get every Monday in 2021\n- 15:50 - Generate a row per month\n- 18:15 - Generate a row per year\n- 19:30 - Get a row per month including month start/end dates\n- 24:00 - Using SQL macros to make reusable date-generation functions\n- 26:00 - Demo of techniques covered\n- 41:00 - Getting working days between two dates\n- 42:20 - Code grinders vs database programmers\n- 43:10 - Storing days in a dates table\n- 45:10 - Dates table demo\n- 50:00 - Optimizer estimates for generating dates vs storing\n- 53:40 - Comparing generating dates or storing\n\nhttps://developer.oracle.com/"
