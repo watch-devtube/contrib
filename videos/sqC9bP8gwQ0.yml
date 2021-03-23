@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'How to Set Up a Harbor Registry with Self-Signed Certificates for Tanzu Kubernetes Clusters'
+language: English
+recordingDate: 1616418060
+description: "VMware vSphere with Tanzu Update 2 has a new capability that allows you to provision new Tanzu Kubernetes clusters with any container registry certificate, including private and self-signed certificates. This brings critical functionality to anyone who wants to run an internal private registry or multiple registries. Without this feature, image pulls are met with a `x509 certificate signed by unknown authority` error. Or if an administrator manually installed the certificate on every Kubernetes node, a rolling update would break the configuration. Let's see how it's done!\n\nRead more in our blog post: https://tanzu.vmware.com/content/blog/how-to-set-up-harbor-registry-self-signed-certificates-tanzu-kubernetes-clusters"
