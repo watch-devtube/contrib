@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Tech3camp#75 (Java): A. Banaś - Małe zmiany, duże zyski-optymalizacja silnika topologii w Dynatrace'
+language: English
+recordingDate: 1616686171
+description: "Prędzej czy później każdy programista staje przed wyzwaniem rozwiązania problemów z wydajnością aplikacji. I pewnie wielu z nas zastanawia się wtedy, czy można było tego uniknąć. Dlaczego od razu nie napisano tego inaczej? Odpowiedź jest często bardzo prosta: bo nikt nie wyobrażał sobie takiej skali.\nGdy ponad 7 lat temu pisano silnik topologii w Dynatrace największe środowiska klientów, które monitorowaliśmy, miały po 200-300 hostów. Kod pisano z myślą o 1000 hostów. A dziś mamy środowiska po 30 tysięcy hostów. Nie dziwi więc fakt, że co jakiś czas musimy zmierzyć się z tematem wydajności. Tym razem należało w krótkim czasie znacząco zmniejszyć użycie pamięci.\nChciałbym podzielić się swoim doświadczeniem z „bitwy”, jaką stoczyliśmy na początku roku. Opowiem, jak analizować problemy pamięciowe i jak wytypować obszary do optymalizacji. Na przykładzie historii z silnika topologii w Dynatrace pokażę, jak niedużym nakładem pracy zmniejszyć użycie pamięci i poprawić wydajność.\nPo drodze odpowiem na wiele ciekawych pytań, m.in.:\n·        Dlaczego nie powinieneś (nad)używać HashSetów?\n·        Czemu warto pomyśleć dwa razy zanim napisze się kolejną lambdę?\n·        Co jest złego w foreach`ach?\n·        Jak łatwo zaoszczędzić pamięć na kolekcjach?\n·        Czy warto zmieniać Integery na inty i jak pogodzić to z kolekcjami?\n·        Dlaczego powinieneś zaprzyjaźnić się ze słowami: break, continue i return?\nZaprezentuję efekty jakie uzyskaliśmy i nasze wnioski na przyszłość. Serdecznie zapraszam.\n\nPrezentacja miała miejsce 23.03.2021"
