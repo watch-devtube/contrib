@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Best practices in designing JSON document model in Autonomous JSON Database'
+language: English
+recordingDate: 1617207182
+description: "Slide Deck: http://bit.ly/ajd-slidedeck-210330\n\nThis webinar compares JSON with the relational model  - tables. It explains conceptual differences, benefits and limitations of each data model. With Oracle as a relational database with native support for JSON it is possible to combine the benefits of both models. This is shown in a Demo using the Autonomous Database.\n\n1:25 Agenda\n3:44 Sample Use-Case: Web Shop\n4:56 Application data model - Java\n5:38 Translating data model to database schema - tables\n7:38 Data model using persistent JSON\n8:13 Insert into Tables \n8:57 Insert JSON into document collection\n9:26 Linking relational versus Embedding - JSON\n10:14 Linking requires joins, JSON does not\n11:21 Application/schema changes relational versus JSON\n11:36 add a new field\n12:21 Cardinality change 1-N\n15:25 Benefits of the relational model / limitations of JSON\n16:46 Too much embedding - mixing different entities\n18:20 JSON has not build-in concept for links\n21:46 Can we combine the best of JSON and relational ?\n22:31 Demo Oracle Autonomous Database\n24:01 Database Actions JSON Workshop and SQL Developer Web\n24:40 Create a new JSON collection\n24:53 Insert a JSON document into the collection\n25:51 Query the JSON collection\n28:38 JSON in SQL Developer Web\n30:27 Add an index over JSON data\n34:37 REST Access to JSON collection\n38:21 JSON schema change, how to make sure the right fields are there?\n39:11 JSON_Exists check constraint to enforce field presence and type\n41:36 Analytical queries over JSON\n43:45 Create an actors-movies view over the movies-actors hierachy\n46:49 Expose view as REST endpoint\n47:56 Adding more collections and link/join them\n48:26 Multi-value index - JSON array index\n51:29 How to prevent invalid links/reference to be used?\n52:00 primary/foreign keys to enforce referential integrity across JSONs\n53:26 RESTify a relational application: JSON generation\n54:39 JSON as an example of converged database\n55:11 Performance\n56:41 Updating JSON data - JSON_Transform\n\nhttps://developer.oracle.com/"
