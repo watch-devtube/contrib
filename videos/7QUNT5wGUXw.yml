@@ -1,11 +1,11 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
-category: conference
-tags:
-    - unix
-    - performance
-    - architecture
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
 title: 'Fitting Square Pegs in Round Pipes: Deploying New Transports With The Minion Suite'
-language: English
 recordingDate: 1354325200
 description: "Google Tech Talk\nOctober 26, 2012\n\nPresented by Janardhan Iyengar.\n\nABSTRACT\n\nTCP was originally designed to offer applications a convenient, high-level communication abstraction with semantics emulating Unix file I/O or pipes. As the Internet has evolved, however, TCP's original role of offering an abstraction has gradually been supplanted with a new role of providing a substrate for transport-like, application-level protocols such as SSL/TLS, zeroMQ, SPDY, and WebSockets. In this new substrate role, TCP's in-order delivery offers little value since application libraries are equally capable of implementing convenient abstractions. TCP's strict in-order delivery, however, prevents applications from controlling the framing of their communications, and incurs a \"latency tax\" on content whose delivery must wait for the retransmission of a single lost TCP segment. Due to the difficulty of deploying new transports today, applications rarely utilize new out-of-order transports such as SCTP and DCCP. UDP is a popular substrate, but is still not universally supported in the Internet, leading even delay-sensitive applications such as the Skype telephony system and Microsoft's DirectAccess VPN, to fall back on TCP despite its drawbacks.\n\nRecognizing that TCP's use as a substrate is likely to continue and expand, we introduce Minion, a novel architecture for efficient but backward-compatible unordered delivery in TCP. Small OS API extensions allow applications to manage TCP's send buffer and to receive TCP segments out-of-order. Atop these extensions, Minion builds application-level protocols offering true unordered datagram delivery, within streams preserving strict wire-compatibility with unsecured or TLS-secured TCP connections. Minion's protocols can run on unmodified TCP stacks, but benefit incrementally when either endpoint is upgraded, for a backward-compatible deployment path. Experiments suggest that Minion can noticeably improve the performance of applications such as conferencing, virtual private networking, and web browsing, while incurring minimal CPU or bandwidth costs.\n\nSpeaker Info:\n\nJanardhan Iyengar is an Assistant Professor at Franklin & Marshall College, a small liberal arts college in Lancaster, Pennsylvania.  His research interests generally hover around transport protocols, Internet architecture, and Internet access in economically developing regions (the other 6 billion), and he has had a love-hate relationship with the IETF for over 10 years. He received his PhD in Computer Science from the University of Delaware in 2006 for his work on multipath transport, and he has since been hooked to the idea that meaningful teaching and meaningful research can go together. For more: http://www.fandm.edu/jiyengar/."
