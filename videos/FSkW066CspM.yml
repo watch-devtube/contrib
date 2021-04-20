@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '!!Con 2020 - Playing Breakout… inside a PDF!! by Omar Rizwan'
+language: English
+recordingDate: 1618847891
+description: "Playing Breakout… inside a PDF!! by Omar Rizwan\n\nIf you’re like me, you think of PDFs as basically benign creatures: they’re static documents where the author laid out some text and graphics, and when you open a PDF, all your PDF reader does is display that stuff.\n\nMaybe that was what PDFs were originally, but today, the PDF specification is… 1,310 pages, and a PDF can contain things like:\n\nembedded Flash\naudio and video annotations\n3D object annotations (!)\nrich text forms using a subset of XHTML and CSS\nbut most interestingly…\n\nJavaScript scripting (!!!!!!!)\nSo I wrote a game in JavaScript that lives inside a PDF: when you open the PDF in Chrome, you can play Breakout!\n\nI’ll show some basics of the PDF standard, how you embed JavaScript, and then discuss the problems I ran into when making this game work.\n\nIt turns out, for example, that Adobe’s PDF JavaScript has a completely different standard library from browser JavaScript – and Chrome’s PDF reader only implements a weird subset of Adobe’s libraries! I’ll talk about the wild hacks I needed for basic things like tracking the player’s mouse cursor and making the Breakout game’s display update over time.\n\nOmar Rizwan is fascinated by weird leftover details of file formats and by what those details say about a format’s history. He works as a researcher at Dynamicland in Oakland, California."
