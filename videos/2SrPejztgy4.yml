@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Speeding up scalar subqueries'
+language: English
+recordingDate: 1619019468
+description: "Scalar subqueries are an easy way to add aggregations (count, sum, etc.) to queries. But adding lots of these to one statement like this:\n\nselect …\n  ( select count ( … ) … ),\n  ( select avg ( … ) … ),\n  ( select max ( … ) … )\nfrom …\n\nCan make your SQL significantly slower. But there's an alternative that can make this much faster:\n\nCROSS APPLY!\n\nWatch this session to learn the ins-and-outs of scalar subqueries, how cross apply can be better, and why scalar subqueries can be the fastest solution in some cases.\n\nHighlights include:\n\n03:50 - What is a scalar subquery\n05:50 - Slow running scalar subquery demo\n07:10 - Why scalar subqueries are slow\n09:30 - Rewriting scalar subqueries as joins\n11:35 - Challenges with turning scalar subqueries to joins\n14:20 - Cross apply joins\n16:20 - Convert scalar subqueries to cross apply\n19:00 - Demo of cross apply examples\n24:30 - Demo of converting scalar subqueries to cross apply\n35:35 - Advantages of using scalar subqueries to scalar subquery caching\n39:00 - Demo of optimizer rewrite of scalar subqueries to joins\n41:30 - Demo of scalar subquery caching\n50:10 - Demo of optimizing function calls in the where clause by using scalar subquery caching\n52:40 - Scalar subquery performance scale\n54:15 - Recap of SSQ vs joins vs cross apply"

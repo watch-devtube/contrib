@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Nabla Containers: A New Approach to Container Isolation - Brandon Lum & Ricardo Koller, IBM'
+language: English
+recordingDate: 1619044904
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io\n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nNabla Containers: A New Approach to Container Isolation - Brandon Lum & Ricardo Koller, IBM \n\nHorizontal attacks are an important security concern for cloud providers and its tenants. Despite its many advantages, containers have not been accepted as isolated sandboxes, which is crucial for container-native clouds. The exposure of the syscall interface directly to untrusted workloads has greatly increased the number of exploits possible to the host. We present Nabla containers, which uses library OS/unikernel techniques to avoid system calls and thereby reduce the attack surface on the host kernel. Using our OCI runtime, runnc (https://github.com/nabla-containers/runnc), we show the running of popular applcations: Node.js, python, redis, etc. permitting use of 9 syscalls via seccomp. In this talk, we will discuss and demo how we have leveraged libOS ideas in a novel way and compare isolation and performance metrics against other technologies such as gvisor and Kata Containers. \n\nTo learn more click here:  https://sched.co/FuKO"
