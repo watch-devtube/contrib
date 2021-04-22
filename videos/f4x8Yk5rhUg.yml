@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Who''s Running My Pods? A Deep Dive into the K8s Container Runtime Interface - Phil Estes'
+language: English
+recordingDate: 1619044925
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io\n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nWho's Running My Pods? A Deep Dive into the K8s Container Runtime Interface - Phil Estes, IBM \n\nKubernetes is far and away the most popular project around container orchestration today. One little known fact to some is that Kubernetes itself has no code to run or manage Linux or Windows containers. So, what code *is* running the containers within your Kubernetes pods? Since Kubernetes 1.5 a new API contract, the Container Runtime Interface (CRI), allows any container runtime to plug into the kubelet configuration and provide container runtime services for Kubernetes.  In this talk we'll look at the CRI options that exist today, and then deep dive into how the CNCF containerd project and it's CRI-implementing plugin work in concert with Kubernetes to run your pods. This will lead into a deep-dive at the command line, showing via live demos how Kubernetes, the CRI, and CRI-supporting runtimes like containerd work together to handle the container lifecycle operations. \n\nTo learn more click here:  https://sched.co/FuKH"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Network QoS Support for Kubernetes Applications - Jun Du, Huawei'
+language: English
+recordingDate: 1619044904
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io\n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nNetwork QoS Support for Kubernetes Applications - Jun Du, Huawei \n\nTraffic shaping is one of the important aspects in network QoS and it's widely used in many scenarios where you want to control traffic. In Kubernetes, traffic shaping for applications will happen if bandwidth-related annotations have been added to the Pod's metadata. However, currently only kubenet supports applying basic traffic shaping during pod setup while kubelet doesn't support it when it runs in CNI network driver. As kubenet will be deprecated in the future, we need to make up for the missing part. This presentation will show our implementation that adds a simple CNI plugin using the linux tc to create an ingress(include burst) and egress(include burst) rate limiters. We have already contributed the CNI plugin to CNI community and the integration work with Kubernetes leading by Kubernetes SIG Network is in progress. \n\nTo learn more click here:  https://sched.co/FuK0"

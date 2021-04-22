@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Securing the Deploy Pipeline - Felix Glaser, Shopify'
+language: English
+recordingDate: 1619045030
+description: "Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io\n\nDon't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects\n\nSecuring the Deploy Pipeline - Felix Glaser, Shopify\n\nImagine taking arbitrary code, deploying it to production, and hoping everything is secure. When we don’t lock down our deployment pipelines and deploy arbitrary containers, we do exactly that. Join us to discover Shopify’s solution.  After a container is built, we run checks to determine its state: Is it free from vulnerabilities and outdated software? Does it originate from the correct deploy pipeline?  For every successful test, the container is signed and the signature stored in Grafeas.   During deploy time, the Kritis admission controller enforces the presence of the signatures.  Because the security state of a container can change, we log the metadata created during a container’s lifetime; if it becomes vulnerable, it can be recalled, fixed, and redeployed.   With Grafeas and Kritis, two new tools join Kubernetes, allowing everyone to prevent privilege escalation via code deployment.\n\nTo learn more click here: https://sched.co/FuKN"
