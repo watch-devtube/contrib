@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Oleg Kolesnikov. Developing a .NetCore app with Microsoft.FeatureManagement'
+language: English
+recordingDate: 1619617875
+description: "1. Understanding and defining Feature Flags (FF).\n– Using FF for Continuous Deployment and Trunk Based Development processes.\n– The categories and characteristics of FF.\n– Launching A/B testing and canary releases with FF.\n2. FF’s lifecycle.\n– When to create, enable, and remove feature flags.\n– FF testing.\n3. FF management system.\nRequirements for the FF management system and its components. What the out-of-the-box solutions for the .NET stack are.\n4. Microsoft.FeatureManagement library for FF management in web applications with microservice architecture.\n– To cover the main functionality I’ll take web applications as an example.\nWhat the built-in strategies for enabling features are. How to implement your own strategy.\n– What the built-in strategies for enabling features are. How to implement your own strategy.\n– What the extension points are and how we used them to build our own FF management system. Main problems: how to ensure a uniform state of the FF during the query execution; how to respond to the situation with client’s request being handled by multiple microservices. How to deliver flags to UI."
