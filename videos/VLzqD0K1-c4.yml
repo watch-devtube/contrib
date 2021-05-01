@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Building an Autoscaling HTTP Proxy for Kubernetes. Aaron Schlesinger'
+recordingDate: 1619775791
+description: "You probably already know generally how HTTP proxies work. You might have even built one! Out of the box, Go comes with a ReverseProxy type in the standard library, but a production deployment -- especially in Kubernetes or similar distributed systems -- needs to do more than the standard library. Some additional requirements include autoscaling systems, connection backoffs, request rewriting, and more.\nWe ran into these requirements in building the open source KEDA HTTP Addon project. In this talk, I'll briefly review the requirements of such a proxy and we'll proceed to live code a comparable one from scratch.\nYou'll walk away with a deeper understanding of the net, net/http and net/http/httputil packages as well as several relevant concurrency patterns you can use to build your own proxies - and other robust and performant networking systems in Go."
