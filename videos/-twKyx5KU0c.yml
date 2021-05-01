@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Go Profiling from Bottom Up. Felix Geisendörfer'
+recordingDate: 1619785949
+description: "The Go language ships with many fantastic profiling tools. There is CPU, Heap, Mutex, Block and Goroutine profiling. It also includes the wonderful pprof visualization tool for inspecting the data.\nHowever, using these tools on real world applications can be a challenge because there is a lot of data, yet very little information on what any of it actually means. So you might find yourself wondering, oh, this is weird! How is the data collected? Why is my profile showing more time than my application was running for? What's the accuracy of the data? Is there any bias in the data? What known issues might impact the results in my particular environment? How much performance overhead should I expect? Are there any other side effects that could harm my application?\nIf you ever found yourself asking these kinds of questions while profiling, this talk is for you. Instead of introducing Go's profiling tools as magic black boxes to inspect your application, we'll look behind the curtain of the Go internals, OS and Hardware level to gain a deep understanding from the bottom up."
