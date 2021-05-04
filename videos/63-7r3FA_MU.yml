@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Distributed Workers System for Lifting Any Heavy Algorithm - Nir Orman'
+recordingDate: 1620032362
+description: "You’d think APIs are simple.\nYou send a request and get back a response, what’s so complicated about that?\nBut sometimes the response takes too long to compute.\nGoogle recommends you aim for a response time lower than 200 milliseconds, everything over half a second is an issue.\nBut what if for example, you developed a Deep Learning algorithm and you want to share it with the world, you need to develop an API exposing it. But you obviously can’t have the algorithm compute for 10 minutes before returning a response from the API. No user will wait that long, and you most certainly should not use an expensive GPU that has great compute power in order to serve API requests.\nIn this talk, we’ll explore tools for solving this problem and building a scalable system.\nWe will get to know Celery, which is an open-source, asynchronous, distributed task queue. It will save you blood, sweat, and tears when trying to set up a distributed workers system to perform tasks for your API.\n\nBio: Nir Orman, is a Backend, Engineer @Wix. Before that Nir served as Full Stack Team Leader at D-ID, a startup developing Computer Vision Deep Learning algorithms.\nNir is an Innovation Lover, Technology Geek, Serial Hackathon Winner.\nIn her work, Nir builds complex software systems, from initial architecture decisions to the smallest implementation details, bringing it all the way to the customers.\nIn her free time, she enjoys satisfying her endless thirst for professional and personal growth and is also a mentor for women in tech."
