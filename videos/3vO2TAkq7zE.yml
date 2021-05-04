@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Александр Кирсанов. KPHP внутри VK: что там у нас происходит'
+language: English
+recordingDate: 1620021831
+description: "Мы заглянем во внутреннюю кухню VK и посмотрим, как мы компилируем PHP в C++.\n\nВкратце пробежимся по этапам анализа кода, AST-деревьям, control flow graph, выводу типов. Рассмотрим примеры с кодом «было PHP» — «стало C++». Поймём, какой путь прошёл KPHP и в каком он сейчас состоянии. Увидим бенчмарки и оценим, насколько он быстрее обычного PHP.\n\nРазберём ограничения: что KPHP не поддерживает и почему он не скомпилирует ваш проект. Но и узнаем, какие там есть штуки, которых нет и не может быть в обычном PHP.\n\nА также подискутируем про волнующий вопрос: в чём сложность open source и когда он всё-таки будет. \n\nПрезентация: https://disk.yandex.ru/i/AC6Z_n4eIU8C2A\n\nPHPFest: https://2020.phpfest.ru/lecture/8"

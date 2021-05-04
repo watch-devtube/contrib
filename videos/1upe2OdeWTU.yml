@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Sean Farmar - Using DDD To Decompose Your Monolith'
+language: English
+recordingDate: 1620020788
+description: "\"Software design is hard, maybe the hardest part of building software systems...\nWhen designing distributed systems things get even more challenging.\nNow that Microservices are so popular, we all want to decompose our monoliths into smaller units of independent components. If we don't want to end up with a distributed monolith, we need to have a toolbox of design concepts so we can achieve well-defined boundaries between our components groups described as \"Services\" and \"Service Boundaries\" in the Service Oriented Architecture or SOA paradigm.\n\nThe traditional way of designing systems based on a domain data model with very complex relationships and dependencies may work when building a monolith, but just breaks apart when you build distributed systems.\n\nOne of the pillars of distributed system design is to solve the *coupling* problem. \n\nIf we look at the tenants of SOA they all address coupling: \n\n*Explicit Boundaries*: In its simplest form it is to find what belongs together and making sure there are no leakages between the defined boundaries of a \"Service\".\n*Autonomy*: Like in Object orientation, Keep our components and \"\"Services\"\" autonomous, encapsulated, and have as little dependencies to the outside as possible.\n*Sharing schema and contracts not classes*: Make sure we don't introduce coupling by using an open protocol for communication.\n*Compatibility based upon policy*: This is the hardest tenant to articulate, but again, it's about loose coupling, an explicit API that describes the component's behavior.\n\nTo achieve this, we need to rethink how we design our components and \"Services\". We need to move from monolith thinking to distributed thinking, leaving the single relational data model to multiple vertical bounded contexts that together compose a \"Service\" boundary.\n\nIn this talk I will walk through the process of designing a very simplistic and naive vertical slice while introducing the concepts from Domain-Driven Design (DDD) and SOA, to build a single vertical, from there you will be able to do your first steps to design a loosely coupled distributed system, and be on the way to find you \"Service\" boundaries.\""
