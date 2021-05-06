@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - When to Hedge in Interactive Services'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - When to Hedge in Interactive Services\n\nMia Primorac, Oracle Labs; Katerina Argyraki and Edouard Bugnion, EPFL\n\nIn online data-intensive (OLDI) services, each client request typically executes on multiple servers in parallel; as a result, \"system hiccups\", although rare within a single server, can interfere with many client requests and cause violations of service-level objectives. Service providers have long been fighting this \"tail at scale\" problem through \"hedging\", i.e., issuing redundant queries to mask system hiccups. This, however, can potentially cause congestion that is more detrimental to tail latency than the hiccups themselves.\n\nThis paper asks: when does it make sense to hedge in OLDI services, and how can we hedge enough to mask system hiccups but not as much as to cause congestion? First, we show that there are many realistic scenarios where hedging can have no benefit—where any hedging-based scheduling policy, including the state-of-the-art, yields no latency reduction compared to optimal load balancing without hedging. Second, we propose LÆDGE, a scheduling policy that combines optimal load balancing with work-conserving hedging, and evaluate it in an AWS cloud deployment. We show that LÆDGE strikes the right balance: first, unlike the state of the art, it never causes unnecessary congestion; second, it performs close to an ideal scheduling policy, improving the $99 percentile latency by as much as $49, measured on $60 system utilization — without any difficult parameter training as found in the state of the art.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

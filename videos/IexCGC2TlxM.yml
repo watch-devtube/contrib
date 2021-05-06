@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Twenty Years After: Hierarchical Core-Stateless Fair Queueing'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - Twenty Years After: Hierarchical Core-Stateless Fair Queueing\n\nZhuolong Yu, Jingfeng Wu, and Vladimir Braverman, Johns Hopkins University; Ion Stoica, UC Berkeley; Xin Jin, Peking University\n\nCore-Stateless Fair Queueing (CSFQ) is a scalable algorithm proposed more than two decades ago to achieve fair queueing without keeping per-flow state in the network. Unfortunately, CSFQ did not take off, in part because it required protocol changes (i.e., adding new fields to the packet header), and hardware support to process packets at line rate.\n\nIn this paper, we argue that two emerging trends are making CSFQ relevant again: (1) cloud computing which makes it feasible to change the protocol within the same datacenter or across datacenters owned by the same provider, and (2) programmable switches which can implement sophisticated packet processing at line rate. To this end, we present the first realization of CSFQ using programmable switches. In addition, we generalize CSFQ to a multi-level hierarchy, which naturally captures the traffic in today's datacenters, e.g., tenants at the first level and flows of each tenant at the second level of the hierarchy. We call this scheduler Hierarchical Core-Stateless Fair Queueing (HCSFQ), and show that it is able to accurately approximate hierarchical fair queueing. HCSFQ is highly scalable: it uses just a single FIFO queue, does not perform per-packet scheduling, and only needs to maintain state for the interior nodes of the hierarchy. We present analytical results to prove the lower bounds of HCSFQ. Our testbed experiments and large-scale simulations show that CSFQ and HCSFQ can provide fair bandwidth allocation and ensure isolation.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

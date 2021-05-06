@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - LightGuardian: A Full-Visibility, Lightweight, In-band Telemetry System Using Sketchlets'
+language: English
+recordingDate: 1620257162
+description: "NSDI '21 - LightGuardian: A Full-Visibility, Lightweight, In-band Telemetry System Using Sketchlets\n\nYikai Zhao, Kaicheng Yang, and Zirui Liu, Peking University; Tong Yang, Peking University and Peng Cheng Laboratory; Li Chen, Huawei Theory Lab; Shiyi Liu, Naiqian Zheng, Ruixin Wang, and Hanbo Wu, Peking University; Yi Wang, Southern University of Science and Technology and Peng Cheng Laboratory; Nicholas Zhang, Huawei Theory Lab\n\nNetwork traffic measurement is central to successful network operations, especially for today's hyper-scale networks. Although existing works have made great contributions, they fail to achieve the following three criteria simultaneously: 1) full-visibility, which refers to the ability to acquire any desired per-hop flow-level information for all flows; 2) low overhead in terms of computation, memory, and bandwidth; and 3) robustness, meaning the system can survive partial network failures. We design LightGuardian to meet these three criteria. Our key innovation is a (small) constant-sized data structure, called sketchlet, which can be embedded in packet headers. Specifically, we design a novel SuMax sketch to accurately capture flow-level information. SuMax can be divided into sketchlets, which are carried in-band by passing packets to the end-hosts for aggregation, reconstruction, and analysis. We have fully implemented a LightGuardian prototype on a testbed with 10 programmable switches and 8 end-hosts in a FatTree topology, and conduct extensive experiments and evaluations. Experimental results show that LightGuardian can obtain per-flow per-hop flow-level information within 1.0 ∼ 1.5 seconds with consistently low overhead, using only 0.07% total bandwidth capacity of the network. We believe LightGuardian is the first system to collect perflow per-hop information for all flows in the network with negligible overhead.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

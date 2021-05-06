@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Toward Nearly-Zero-Error Sketching via Compressive Sensing'
+language: English
+recordingDate: 1620257162
+description: "NSDI '21 - Toward Nearly-Zero-Error Sketching via Compressive Sensing\n\nQun Huang, Peking University and Pengcheng Lab; Siyuan Sheng, Institute of Computing Technology, CAS; Xiang Chen, Peking University and Pengcheng Lab and Fuzhou University; Yungang Bao, Institute of Computing Technology, CAS; Rui Zhang, Yanwei Xu, and Gong Zhang, Huawei Theory Department\n\nSketch algorithms have been extensively studied in the area of network measurement, given their limited resource usage and theoretically bounded errors. However, error bounds provided by existing algorithms remain too coarse-grained: in practice, only a small number of flows (e.g., heavy hitters) actually benefit from the bounds, while the remaining flows still suffer from serious errors. In this paper, we aim to design nearly-zero-error sketch that achieves negligible per-flow error for almost all flows. We base our study on a technique named compressive sensing. We exploit compressive sensing in two aspects. First, we incorporate the near-perfect recovery of compressive sensing to boost sketch accuracy. Second, we leverage compressive sensing as a novel and uniform methodology to analyze various design choices of sketch algorithms. Guided by the analysis, we propose two sketch algorithms that seamlessly embrace compressive sensing to reach nearly zero errors. We implement our algorithms in OpenVSwitch and P4. Experimental results show that the two algorithms incur less than 0.1% per-flow error for more than 99.72% flows, while preserving the resource efficiency of sketch algorithms. The efficiency demonstrates the power of our new methodology for sketch analysis and design.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

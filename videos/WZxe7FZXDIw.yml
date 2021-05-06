@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - CodedBulk: Inter-Datacenter Bulk Transfers using Network Coding'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - CodedBulk: Inter-Datacenter Bulk Transfers using Network Coding\n\nShih-Hao Tseng, Saksham Agarwal, and Rachit Agarwal, Cornell University; Hitesh Ballani, Microsoft Research; Ao Tang, Cornell University\n\nThis paper presents CodedBulk, a system for high-throughput inter-datacenter bulk transfers. At its core, CodedBulk uses network coding, a technique from the coding theory community, that guarantees optimal throughput for individual bulk transfers. Prior attempts to using network coding in wired networks have faced several pragmatic and fundamental barriers. CodedBulk resolves these barriers by exploiting the unique properties of inter-datacenter networks, and by using a custom-designed hop-by-hop flow control mechanism that enables efficient realization of network coding atop existing transport protocols. An end-to-end CodedBulk implementation running on a geo-distributed inter-datacenter network improves bulk transfer throughput by 1.2-2.5x compared to state-of-the-art mechanisms that do not use network coding.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Debugging Transient Faults in Data Centers using Synchronized Network-wide Packet'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - Debugging Transient Faults in Data Centers using Synchronized Network-wide Packet Histories\n\nPravein Govindan Kannan, IBM Research - India; Nishant Budhdev, Raj Joshi, and Mun Choon Chan, National University of Singapore\n\nData center network faults are hard to debug due to their scale and complexity. With the prevalence of hard-to-reproduce transient faults, root-cause analysis of network faults is extremely difficult due to unavailability of historical data, and inability to correlate the distributed data across the network. Often, it is not possible to find the root cause using only switch-local information. To find the root cause of such transient faults, we need: 1) Visibility: fine-grained, packet-level and network-wide observability, 2) Retrospection: ability to get historical information before the fault occurs, and 3) Correlation: ability to correlate the information across the network. In this work, we present the design and implementation of SyNDB, a tool with the aforementioned capabilities to enable root cause analysis of network faults. We implement and evaluate SyNDB with realistic topologies using large scale simulation and programmable switches. Our evaluations show that SyNDB can capture and correlate packet records over sufficiently large time windows (∼4 ms), thus facilitating the root cause analysis of various network faults.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

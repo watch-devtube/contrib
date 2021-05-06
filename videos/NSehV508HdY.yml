@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Staying Alive: Connection Path Reselection at the Edge'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - Staying Alive: Connection Path Reselection at the Edge\n\nRaul Landa, Lorenzo Saino, Lennert Buytenhek, and Joao Taveira Araujo, Fastly\n\nInternet path failure recovery relies on routing protocols, such as BGP. However, routing can take minutes to detect failures and reconverge; in some cases, like partial failures or severe performance degradation, it may never intervene. For large scale network outages, such as those caused by route leaks, bypassing the affected party completely may be the only effective solution.\n\nThis paper presents Connection Path Reselection (CPR), a novel system that operates on edge networks such as Content Delivery Networks and edge peering facilities and augments TCP to deliver transparent, scalable, multipath-aware end-to-end path failure recovery.\n\nThe key intuition behind it is that edge networks need not rely on BGP to learn of path impairments: they can infer the status of a path by monitoring transport-layer forward progress, and then reroute stalled flows onto healthy paths. Unlike routing protocols such as BGP, CPR operates at the timescale of round-trip times, providing connection recovery in seconds rather than minutes. By delegating routing responsibilities to the edge hosts themselves, CPR achieves per-connection re-routing protection for all destination prefixes without incurring additional costs reconstructing transport protocol state within the network. Unlike previous multipath-aware transport protocols, CPR is unilaterally deployable and has been running in production at a large edge network for over two years.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

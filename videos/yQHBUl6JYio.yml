@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Don''t Yank My Chain: Auditable NF Service Chaining'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - Don't Yank My Chain: Auditable NF Service Chaining\n\nGuyue Liu and Hugo Sadok, Carnegie Mellon University; Anne Kohlbrenner, Princeton University; Bryan Parno, Vyas Sekar, and Justine Sherry, Carnegie Mellon University\n\nAuditing is a crucial component of network security practices in organizations with sensitive information such as banks and hospitals. Unfortunately, network function virtualization(NFV) is viewed as incompatible with auditing practices which verify that security functions operate correctly. In this paper, we bring the benefits of NFV to security sensitive environments with the design and implementation of AuditBox.\n\nAuditBox not only makes NFV compatible with auditing, but also provides stronger guarantees than traditional auditing procedures. In traditional auditing, administrators test the system for correctness on a schedule, e.g., once per month. In contrast, AuditBox continuously self-monitors for correct behavior, proving runtime guarantees that the system remains in compliance with policy goals. Furthermore, AuditBox remains compatible with traditional auditing practices by providing sampled logs which still allow auditors to inspect system behavior manually. AuditBox achieves its goals by combining trusted execution environments with a lightweight verified routing protocol (VRP). Despite the complexity of service function chain routing policies relative to traditional routing, AuditBox's protocol introduces 72-80% fewer bytes of overhead per packet (in a 5-hop service chain) and provides at 61-67% higher goodput than prior work on VRPs designed for the Internet.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

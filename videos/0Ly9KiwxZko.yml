@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds'
+language: English
+recordingDate: 1620257162
+description: "NSDI '21 - MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds\n\nYilong Li, Stanford University; Seo Jin Park, MIT CSAIL; John Ousterhout, Stanford University\n\nToday's datacenter applications couple scale and time: applications that harness large numbers of servers also execute for long periods of time (seconds or more). This paper explores the possibility of flash bursts: applications that use a large number of servers but for very short time intervals (as little as one millisecond). In order to learn more about the feasibility of flash bursts, we developed two new benchmarks, MilliSort and MilliQuery. MilliSort is a sorting application and MilliQuery implements three SQL queries. The goal for both applications was to process as many records as possible in one millisecond, given unlimited resources in a datacenter. The short time scale required a new distributed sorting algorithm for MilliSort that uses a hierarchical form of partitioning. Both applications depended on fast group communication primitives such as shuffle and all-gather. Our implementation of MilliSort can sort 0.84 million items in one millisecond using 120 servers on an HPC cluster; MilliQuery can process .03--48 million items in one millisecond using 60-280 servers, depending on the query. The number of items that each application can process grows quadratically with the time budget. The primary obstacle to scalability is per-message costs, which appear in the form of inefficient shuffles and coordination overhead.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

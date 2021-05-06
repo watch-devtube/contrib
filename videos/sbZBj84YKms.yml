@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Mistify: Automating DNN Model Porting for On-Device Inference at the Edge'
+language: English
+recordingDate: 1620257162
+description: "NSDI '21 - Mistify: Automating DNN Model Porting for On-Device Inference at the Edge\n\nPeizhen Guo, Bo Hu, and Wenjun Hu, Yale University\n\nAI applications powered by deep learning inference are increasingly run natively on edge devices to provide better interactive user experience. This often necessitates fitting a model originally designed and trained in the cloud to edge devices with a range of hardware capabilities, which so far has relied on time-consuming manual effort.\n\nIn this paper, we quantify the challenges of manually generating a large number of compressed models and then build a system framework, Mistify, to automatically port a cloud-based model to a suite of models for edge devices targeting various points in the design space. Mistify adds an intermediate layer that decouples the model design and deployment phases. By exposing configuration APIs to obviate the need for code changes deeply embedded into the original model, Mistify hides run-time issues from model designers and hides the model internals from model users, hence reducing the expertise needed in either. For better scalability, Mistify consolidates multiple model tailoring requests to minimize repeated computation. Further, Mistify leverages locally available edge data in a privacy-aware manner, and performs run-time model adaptation to provide scalable edge support and accurate inference results. Extensive evaluation shows that Mistify reduces the DNN porting time needed by over 10 times to cater to a wide spectrum of edge deployment scenarios, incurring orders of magnitude less manual effort.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

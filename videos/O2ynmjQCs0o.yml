@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Contracting Wide-area Network Topologies to Solve Flow Problems Quickly'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - Contracting Wide-area Network Topologies to Solve Flow Problems Quickly\n\nFiras Abuzaid, Microsoft Research and Stanford University; Srikanth Kandula, Behnaz Arzani, and Ishai Menache, Microsoft Research; Matei Zaharia and Peter Bailis, Stanford University\n\nMany enterprises today manage traffic on their wide-area networks using software-defined traffic engineering schemes, which scale poorly with network size; the solver runtimes and number of forwarding entries needed at switches increase to untenable levels. We describe a novel method, which, instead of solving a multi-commodity flow problem on the network, solves (1) a simpler problem on a contraction of the network, and (2) a set of sub-problems in parallel on disjoint clusters within the network. Our results on the topology and demands from a large enterprise, as well as on publicly available topologies, show that, in the median case, our method nearly matches the solution quality of currently deployed solutions, but is 8x faster and requires 6x fewer FIB entries. We also show the value-add from using a faster solver to track changing demands and to react to faults.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

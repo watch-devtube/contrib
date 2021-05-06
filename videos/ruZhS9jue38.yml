@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo\n\nLe Xu, University of Illinois at Urbana-Champaign; Shivaram Venkataraman, UW-Madison; Indranil Gupta, University of Illinois at Urbana-Champaign; Luo Mai, University of Edinburgh; Rahul Potharaju, Microsoft\n\nResource provisioning in multi-tenant stream processing systems faces the dual challenges of keeping resource utilization high (without over-provisioning), and ensuring performance isolation. In our common production use cases, where streaming workloads have to meet latency targets and avoid breaching service-level agreements, existing solutions are incapable of handling the wide variability of user needs. Our framework called Cameo uses fine-grained stream processing (inspired by actor computation models), and is able to provide high resource utilization while meeting latency targets. Cameo dynamically calculates and propagates priorities of events based on user latency targets and query semantics. Experiments on Microsoft Azure show that compared to state-of-the-art, the Cameo framework: i) reduces query latency by 2.7X in single tenant settings, ii) reduces query latency by 4.6X in multi-tenant scenarios, and iii) weathers transient spikes of workload.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"
