@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Device-Based LTE Latency Reduction at the Application Layer'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - Device-Based LTE Latency Reduction at the Application Layer\n\nZhaowei Tan and Jinghao Zhao, UCLA; Yuanjie Li, Tsinghua University; Yifei Xu, Peking University; Songwu Lu, UCLA\n\nWe design and implement LRP, a device-based, standard-compliant solution to latency reduction in mobile networks. LRP takes a data-driven approach. It works with a variety of latency-sensitive mobile applications without requiring root privilege, and ensures the latency is no worse than the legacy LTE design. Using traces from operational networks, we identify all elements in LTE uplink latency and quantify them. LRP designates small dummy messages, which precede uplink data transmissions, thus eliminating latency elements due to power-saving, scheduling, etc. It imposes proper timing control among dummy messages and data packets to handle various conflicts. The evaluation shows that, LRP reduces the median LTE uplink latency by a factor up to 7.4x (from 42ms to 5ms) for four tested apps over four US mobile carriers.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"
