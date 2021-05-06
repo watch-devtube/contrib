@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Ownership: A Distributed Futures System for Fine-Grained Tasks'
+language: English
+recordingDate: 1620257163
+description: "NSDI '21 - Ownership: A Distributed Futures System for Fine-Grained Tasks\n\nStephanie Wang, Eric Liang, and Edward Oakes, UC Berkeley and Anyscale; Ben Hindman, Frank Sifei Luan, Audrey Cheng, and Ion Stoica, UC Berkeley\n\nThe distributed futures interface is an increasingly popular choice for building distributed applications that manipulate large amounts of data. Distributed futures are an extension of RPC that combines futures and distributed memory: a distributed future is a reference whose eventual value may be stored on a remote node. An application can then express distributed computation without having to specify when or where execution should occur and data should be moved.\n\nRecent distributed futures applications require the ability to execute fine-grained computations, i.e., tasks that run on the order of milliseconds. Compared to coarse-grained tasks, fine-grained tasks are difficult to execute with acceptable system overheads. In this paper, we present a distributed futures system for fine-grained tasks that provides fault tolerance without sacrificing performance. Our solution is based on a novel concept called ownership, which assigns each object a leader for system operations. We show that this decentralized architecture can achieve horizontal scaling, 1ms latency per task, and fast failure handling.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

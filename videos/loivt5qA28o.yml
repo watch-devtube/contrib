@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Avenir: Managing Data Plane Diversity with Control Plane Synthesis'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - Avenir: Managing Data Plane Diversity with Control Plane Synthesis\n\nEric Hayden Campbell, Cornell; William T. Hallahan, Yale; Priya Srikumar, Cornell; Carmelo Cascone, ONF; Jed Liu, Intel; Vignesh Ramamurthy, Infosys; Hossein Hojjat, Tehran; TeIAS; Ruzica Piskac and Robert Soulé, Yale; Nate Foster, Cornell\n\nThe classical conception of software-defined networking (SDN) is based on an attractive myth: a logically centralized controller manages a collection of homogeneous data planes. In reality, however, SDN control planes must deal with significant diversity in hardware, drivers, interfaces, and protocols, all of which contribute to idiosyncratic differences in forwarding behavior that must be dealt with by hand.\n\nTo manage this heterogeneity, we propose Avenir, a synthesis tool that automatically generates control-plane operations to ensure uniform behavior across a variety of data planes. Our approach uses counter-example guided inductive synthesis and sketching, adding network-specific optimizations that exploit domain insights to accelerate the search. We prove that Avenir's synthesis algorithm generates correct solutions and always finds a solution, if one exists. We have built a prototype implementation of Avenir using OCaml and Z3 and evaluated its performance on realistic scenarios for the ONOS SDN controller and on a collection of benchmarks that illustrate the cost of retargeting a control plane from one pipeline to another. Our evaluation demonstrates that Avenir can manage data plane heterogeneity with modest overheads.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

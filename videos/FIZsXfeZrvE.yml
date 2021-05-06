@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Scaling Distributed Machine Learning with In-Network Aggregation'
+language: English
+recordingDate: 1620257162
+description: "NSDI '21 - Scaling Distributed Machine Learning with In-Network Aggregation\n\nAmedeo Sapio, Marco Canini, and Chen-Yu Ho, KAUST; Jacob Nelson, Microsoft; Panos Kalnis, KAUST; Changhoon Kim, Barefoot Networks; Arvind Krishnamurthy, University of Washington; Masoud Moshref, Barefoot Networks; Dan Ports, Microsoft; Peter Richtarik, KAUST\n\nTraining machine learning models in parallel is an increasingly important workload. We accelerate distributed parallel training by designing a communication primitive that uses a programmable switch dataplane to execute a key step of the training process. Our approach, SwitchML, reduces the volume of exchanged data by aggregating the model updates from multiple workers in the network. We co-design the switch processing with the end-host protocols and ML frameworks to provide an efficient solution that speeds up training by up to 5.5 times for a number of real-world benchmark models.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

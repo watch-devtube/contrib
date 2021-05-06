@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Running BGP in Data Centers at Scale'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - Running BGP in Data Centers at Scale\n\nAnubhavnidhi Abhashkumar and Kausik Subramanian, University of Wisconsin–Madison; Alexey Andreyev, Hyojeong Kim, Nanda Kishore Salem, Jingyi Yang, and Petr Lapukhov, Facebook; Aditya Akella, University of Wisconsin–Madison; Hongyi Zeng, Facebook\n\nBorder Gateway Protocol (BGP) forms the foundation for routing in the Internet. More recently, BGP has made serious inroads into data centers on account of its scalability, extensive policy control, and proven track record of running the Internet for a few decades. Data center operators are known to use BGP for routing, often in different ways. Yet, because data center requirements are very different from the Internet, it is not straightforward to use BGP to achieve effective data center routing.\n\nIn this paper, we present Facebook's BGP-based data center routing design and how it marries data center's stringent requirements with BGP's functionality. We present the design's significant artifacts, including the BGP Autonomous System Number (ASN) allocation, route summarization, and our sophisticated BGP policy set. We demonstrate how this design provides us with flexible control over routing and keeps the network reliable. We also describe our in-house BGP software implementation, and its testing and deployment pipelines. These allow us to treat BGP like any other software component, enabling fast incremental updates. Finally, we share our operational experience in running BGP and specifically shed light on critical incidents over two years across our data center fleet. We describe how those influenced our current and ongoing routing design and operation.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

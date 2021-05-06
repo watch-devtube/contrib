@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - When Cloud Storage Meets RDMA'
+language: English
+recordingDate: 1620257162
+description: "NSDI '21 - When Cloud Storage Meets RDMA\n\nYixiao Gao, Nanjing University and Alibaba Group; Qiang Li, Lingbo Tang, Yongqing Xi, Pengcheng Zhang, Wenwen Peng, Bo Li, Yaohui Wu, Shaozong Liu, Lei Yan, Fei Feng, Yan Zhuang, Fan Liu, Pan Liu, Xingkui Liu, Zhongjie Wu, Junping Wu, and Zheng Cao, Alibaba Group; Chen Tian, Nanjing University; Jinbo Wu, Jiaji Zhu, Haiyong Wang, Dennis Cai, and Jiesheng Wu, Alibaba Group\n\nPangu is a cloud storage developed by Alibaba. Since its inception in 2009, it served and is still serving most core businesses of Alibaba, e.g., e-business and online payment. A cloud storage is expected to achieve high performance, high reliability and high stability simultaneously. Recent rapid progress of storage medium makes networking a major performance bottleneck for new generations of cloud storage. Remote Direct Memory Access (RDMA) running on lossless Ethernet is the most promising answer for network bottleneck in cloud storage. In this paper, we share our experience on introducingRDMAintoPangu'sstoragenetworks. We design a fabric, taking performance, reliability and stability into consideration together. For performance optimization, Pangu builds a software framework that integrates RDMA with its private storage protocol stack. For reliability guarantee, Pangu uses RDMA/TCP switching as a ﬁnal resort. For stability improvement, Pangu uses intensive monitoring and parameter tuning for fail-over. Till the submission time, RDMA-enabled Pangu has successfully served many online mission-critical services for over three years, including several important shopping festivals.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

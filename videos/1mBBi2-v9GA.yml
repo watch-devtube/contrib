@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - TEGRA: Efficient Ad-Hoc Analytics on Evolving Graphs'
+language: English
+recordingDate: 1620257352
+description: "NSDI '21 - TEGRA: Efficient Ad-Hoc Analytics on Evolving Graphs\n\nAnand Padmanabha Iyer, Microsoft Research and University of California, Berkeley; Qifan Pu, Google; Kishan Patel, Two Sigma; Joseph E. Gonzalez and Ion Stoica, University of California, Berkeley\n\nSeveral emerging evolving graph application workloads demand support for efficient ad-hoc analytics—the ability to perform ad-hoc queries on arbitrary time windows of the graph. We present TEGRA, a system that enables efficient ad-hoc window operations on evolving graphs. TEGRA allows efficient access to the state of the graph at arbitrary windows, and significantly accelerates ad-hoc window queries by using a compact in-memory representation for both graph and intermediate computation state. For this, it leverages persistent data structures to build a versioned, distributed graph state store, and couples it with an incremental computation model which can leverage these compact states. For users, it exposes these compact states using Timelapse, a natural abstraction. We evaluate TEGRA against existing evolving graph analysis techniques, and show that it significantly outperforms state-of-the-art systems (by up to 30×) for ad-hoc window operation workloads.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - On the Use of ML for Blackbox System Performance Prediction'
+language: English
+recordingDate: 1620257162
+description: "NSDI '21 - On the Use of ML for Blackbox System Performance Prediction\n\nSilvery Fu, UC Berkeley; Saurabh Gupta and Radhika Mittal, UIUC; Sylvia Ratnasamy, UC Berkeley\n\nThere is a growing body of work that reports positive results from applying ML-based performance prediction to a particular application or use-case (e.g. server configuration, capacity planning). Yet, a critical question remains unanswered: does ML make prediction simpler (i.e., allowing us to treat systems as blackboxes) and general (i.e., across a range of applications and use-cases)? After all, the potential for simplicity and generality is a key part of what makes ML-based prediction so attractive compared to the traditional approach of relying on handcrafted and specialized performance models. In this paper, we attempt to answer this broader question. We develop a methodology for systematically diagnosing whether, when, and why ML does (not) work for performance prediction, and identify steps to improve predictability.\n\nWe apply our methodology to test 6 ML models in predicting the performance of 13 real-world applications. We find that 12 out of our 13 applications exhibit inherent variability in performance that fundamentally limits prediction accuracy. Our findings motivate the need for system-level modifications and/or ML-level extensions that can improve predictability, showing how ML fails to be an easy-to-use predictor. On implementing and evaluating these changes, we find that while they do improve the overall prediction accuracy, prediction error remains high for multiple realistic scenarios, showing how ML fails as a general predictor.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

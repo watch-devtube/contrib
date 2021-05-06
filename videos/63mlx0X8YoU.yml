@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - ATP: In-network Aggregation for Multi-tenant Learning'
+language: English
+recordingDate: 1620257162
+description: "NSDI '21 - ATP: In-network Aggregation for Multi-tenant Learning\n\nChonLam Lao, Tsinghua University; Yanfang Le and Kshiteej Mahajan, University of Wisconsin-Madison; Yixi Chen and Wenfei Wu, Tsinghua University; Aditya Akella and Michael Swift, University of Wisconsin-Madison\n\nDistributed deep neural network training (DT) systems are widely deployed in clusters where the network is shared across multiple tenants, i.e., multiple DT jobs. Each DT job computes and aggregates gradients. Recent advances in hardware accelerators have shifted the the performance bottleneck of training from computation to communication. To speed up DT jobs' communication, we propose ATP, a service for in-network aggregation aimed at modern multi-rack, multi-job DT settings. ATP uses emerging programmable switch hardware to support in-network aggregation at multiple rack switches in a cluster to speedup DT jobs. ATP performs decentralized, dynamic, best-effort aggregation, enables efficient and equitable sharing of limited switch resources across simultaneously running DT jobs, and gracefully accommodates heavy contention for switch resources. ATP outperforms existing systems accelerating training throughput by up to 38% - 66% in a cluster shared by multiple DT jobs.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"
