@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''21 - Breaking the Transience-Equilibrium Nexus: A New Approach to Datacenter Packet Transport'
+language: English
+recordingDate: 1620322299
+description: "NSDI '21 - Breaking the Transience-Equilibrium Nexus: A New Approach to Datacenter Packet Transport\n\nShiyu Liu and Ahmad Ghalayini, Stanford University; Mohammad Alizadeh, MIT; Balaji Prabhakar and Mendel Rosenblum, Stanford University; Anirudh Sivaraman, NYU\n\nRecent datacenter transport protocols rely heavily on rich congestion signals from the network, impeding their deployment in environments such as the public cloud. In this paper, we explain this trend by showing that, without rich congestion signals, there is a strong tradeoff between a packet transport's equilibrium and transience performance. We then propose a simple approach to resolve this tension without complicating the transport protocol and without rich congestion signals from the network. Our approach factors the transport into two separate components for equilibrium and transient handling. For equilibrium handling, we continue to use existing congestion control protocols. For transients, we develop a new underlay algorithm, On-Ramp, which intercepts and holds any protocol's packets at the network edge during transient overload. On-Ramp detects transient overloads using accurate measurements of one-way delay, made possible in software by a recently developed time-synchronization algorithm.\n\nOn the Google Cloud Platform, On-Ramp improves the 99th percentile request completion time (RCT) of incast traffic of CUBIC by 2.8 times and BBR by 5.6 times. In a bare-metal cloud (CloudLab), On-Ramp improves the RCT of CUBIC by 4.1 times. In ns-3 simulations, which model more efficient NIC-based implementations of On-Ramp, On-Ramp improves RCTs of DCQCN, TIMELY, DCTCP and HPCC to varying degrees depending on the workload. In all three environments, On-Ramp also improves the flow completion time of non-incast background traffic.\n\nView the full NSDI '21 program at https://www.usenix.org/conference/nsdi21/technical-sessions"

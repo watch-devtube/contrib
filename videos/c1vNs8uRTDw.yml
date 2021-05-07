@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Lukas Lechner. Почему обработка исключений с помощью Kotlin Coroutines сложная и как ее освоить!'
+language: English
+recordingDate: 1620292223
+description: "Original: https://youtu.be/6iSUfh-RZYc\n\nGetting the «happy path» right with Kotlin Coroutines is pretty straightforward. On the other hand, handling exceptions appropriately when something goes wrong is not that trivial.\nIn this talk, you will learn about the reasons for the complexity of exception handling with Kotlin Coroutines and about all things you need to consider to appropriately deal with occurring exceptions. You will learn when you should use a conventional try-catch clause, and when you should install a CoroutineExceptionHandler instead. You will also learn about the special properties of top-level Coroutines when it comes to exception handling and how they differ when they are starting with launch and async.\nFurthermore, you will learn all about the exception handling peculiarities of the scoping functions coroutineScope{} and supervisorScope{} and why you should re-throw CancellationExceptions to avoid subtle errors. This talk is for developers that are already familiar with the basics of Kotlin Coroutines but still struggle to understand how exception handling works in detail.\nBy the end of this talk, you will have a better understanding of how exceptions are treated by the Coroutines machinery and how you can handle them appropriately. \n\nLukas is a freelance software developer who has worked on Android projects for many years now. He also works as a Software Development Instructor and produces Online Courses about subjects like Kotlin Coroutines on Android. When he is not sitting in front of a computer, Lukas likes to spend his free time with his wife and two young children.\n\nПрезентация на Я.Диске: https://disk.yandex.ru/i/qwsUjGceisZgnA\n\nAppsFest: https://2020.appsfest.ru"
