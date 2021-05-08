@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'YOW! Lambda Jam 2021 - Simon Peyton Jones - Hashing Modulo Equivalence'
+language: English
+recordingDate: 1620350589
+description: "In many applications, one wants to identify identical subtrees of a program syntax tree.  This identification should ideally be robust to alpha-renaming of the program, but no existing technique has been shown to achieve this with good efficiency (better than O(n^2) in expression size). We present a new, asymptotically efficient way to hash modulo alpha-equivalence. A key insight of our method is to use a weak (commutative) hash combiner at exactly one point in the construction, which admits an algorithm with O(n*(log n)^2) time complexity. We prove that the use of the commutative combiner nevertheless yields a strong hash with low collision probability.\n\nABOUT THE SPEAKER\nSimon Peyton Jones, MA, MBCS, CEng, graduated from Trinity College Cambridge in 1980. Simon was a key contributor to the design of the now-standard functional language Haskell, and is the lead designer of the widely-used Glasgow Haskell Compiler (GHC). He has written two textbooks about the implementation of functional languages.\n\nAfter two years in industry, he spent seven years as a lecturer at University College London, and nine years as a professor at Glasgow University before moving to Microsoft Research (Cambridge) in 1998.\n\nHis main research interest is in functional programming languages, their implementation, and their application. He has led a succession of research projects focused around the design and implementation of production-quality functional-language systems for both uniprocessors and parallel machines.\n\nMore generally, he is interested in language design, rich type systems, software component architectures, compiler technology, code generation, runtime systems, virtual machines, and garbage collection. He is particularly motivated by direct use of principled theory to practical language design and implementation -- that's one reason he loves functional programming so much."

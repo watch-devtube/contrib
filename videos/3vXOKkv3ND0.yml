@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Manage code dependencies at work with new vcpkg features'
+language: English
+recordingDate: 1620353435
+description: "Check out free documentation and modules on Microsoft Learn: https://docs.microsoft.com/en-us/cpp/?WT.mc_id=purevirtual-21218-cmandell\nLearn more about vcpkg: a C++ package manager for Windows, Linux, and macOS: https://docs.microsoft.com/en-us/cpp/build/vcpkg?WT.mc_id=purevirtual-21218-cmandell&view=msvc-160\n\nvcpkg is an open source C/C++ dependency manager for Windows, Linux, and macOS. It is capable of building libraries from source, on demand, using build recipes. It comes with a curated, tested catalog supporting over 1500 open source libraries, though users can define their own recipes and bring custom libraries to their vcpkg workflow as well. The team recently expanded vcpkg with a few highly requested features:\n--Binary caching: Compile your libraries once with your preferred build configuration, cache the binaries in a feed, then just download the prebuilt binaries in the future to save time.\n--Manifests: Declare your dependencies in a file that lives with your code repo, so that they can be installed automatically as your build system prepares a build. Works for MSBuild and CMake projects.\n--Versioning: With manifests, you can restrict the versions of your dependencies to your team's preference, and upgrade versions with more control.\n--Registries: Define your own build recipes and make your own custom libraries available for installation through vcpkg. This works separately from the open source catalog – you do not have to make your libraries public to build them with vcpkg.\n\nThis talk will give you a practical overview of how to use vcpkg at work for professional projects using these new features. Whether this is your first time hearing about vcpkg, or if you used it in the past and are curious about these new workflows, this talk is for you."
