@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Kill All Mutants! (Intro to Mutation Testing) - Dave Aronson'
+language: English
+recordingDate: 1620633898
+description: "How good are your tests? Would they still pass if the tested code was changed? If so, there may be problems with your code, your tests, or both! Mutation Testing helps reveal these cases. It makes lots of slightly altered versions, called \"mutants\", of each of your functions, and runs each function's unit tests, using each of its mutants instead. If a mutant makes any test fail, that mutant \"dies\". \"Survivors\" imply flaws: your code might not be meaningful enough that a slight mutation would change the behavior, your tests might not be strict enough to catch the difference that the mutation made, or both! This talk will tell you how to use mutation testing, its benefits, drawbacks, and pitfalls, and how it works under the hood. There will be several examples (in clear pseudocode), and a list of tools for popular languages (including Python, Ruby, Javascript, Java, C++, C#, *anything* that compiles via LLVM, and more). You will come away equipped with a powerful new technique for making sure your tests are strict and your code is meaningful.\n\n\nCheck out more of our talks at: \nhttps://ndcsydney.com\nhttps://www.ndcconferences.com/"
