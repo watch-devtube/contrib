@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'MLconf Online 2020: Voice Assistants in Healthcare by Galina Grunin'
+language: English
+recordingDate: 1620924378
+description: "Voice Assistants, such as Siri, Alexa, and Google Assistant have become increasingly commonplace in the consumer setting. Their functionality continues to improve, and they are setting the bar for user experience in many industries, including Healthcare.\nHealthcare IT systems that support members and providers are diverse and often tightly coupled with legacy systems that struggle to catch up with the latest technologies. Chatbots deployed via web portals and mobile apps, call centers systems, as well as Amazon Echo and Google Home devices are all examples of channels through which information can be delivered to members and providers. It is very important to ensure that this information is the same irrespective of the channel and that the user experience is at least similar with each channel.\n\nThis presentation will introduce the reference architecture and implementation that supports the above strategy. We implement our systems as pipelines of swappable components; and we connect them together based on the requirement of the particular system. Some of these components can be based on commercial services, others, based on Open Source technologies.\n\nWe will then specifically focus on implementing Voice / NLP systems powered by machine and deep learning technologies that improve over time. We will cover data annotation tooling, best practices for incremental dataset collection and management, model retraining, overall CI / CD for services and models."

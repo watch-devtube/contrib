@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'MLconf Online 2020: Optimized Routing with Satellite Imagery and Computer Vision by Adam Van Etten'
+language: English
+recordingDate: 1620924378
+description: "The automated extraction of roads from aerial or satellite imagery at regional and city scales applies to a multitude of long-term efforts such as: increasing access to health services, urban planning, and improving social and economic welfare. Optimized routing via up-to-date road maps is also crucial for such time sensitive efforts as determining communities in greatest need of aid, effective positioning of logistics hubs, evacuation planning, and rapid response to acute crises.\n\nSatellite imagery may aid greatly in determining efficient routes, particularly in cases involving natural disasters or other dynamic events where the high revisit rate of satellites may be able to provide updates far more quickly than terrestrial methods. Existing data collection methods such as manual road labeling or aggregation of mobile GPS tracks are currently insufficient to properly capture either underserved regions (due to infrequent data collection), or the dynamic changes inherent to road networks in rapidly changing environments. For example, following Hurricane Maria, it took the Humanitarian OpenStreetMap Team (HOT) over two months to produce a fully validated map of Puerto Rico, even with a team of thousands of volunteer mappers.\n\nIn this talk we discuss the City-Scale Road Extraction from Satellite Imagery (CRESI) algorithm that rapidly extracts large scale road networks and identifies speed limits and route travel times for each roadway, using only satellite imagery as input. Including estimates for travel time permits true optimal routing (rather than just the shortest geographic distance), which is not possible with existing remote sensing imagery based methods.\n\nFurthermore, we explore some of the interesting lessons learned from the recent SpaceNet 5 competition, for which CRESI served as the algorithmic baseline. For example, we show that neighborhood-level details are more important to road network extraction than broader city-scale specifics like: road widths, background color, lighting conditions, etc. Such lessons inform any number of real-world applications, such as how disaster relief organizations should distribute resources and personnel."

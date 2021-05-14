@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'MLconf Online 2020: Adversarial Fairness in the Labor Market by Patrick Hagerty'
+language: English
+recordingDate: 1620924378
+description: "Unconscious bias in the hiring process has natural analogs in machine learning with biased training data and latent correlations. Policies introduced by The Equal Employment Opportunity Commission mitigate some of the biases but lag behind advancements in data analytics and machine learning. Adoption of machine learning algorithms in human resources can have great success in predicting key performance indicators (KPI) but has been slow based on the risk of introducing new bias into the process.\n\nWe present the notion of Adversarial Fairness to mitigate bias in the hiring process. Adapting generative adversarial networks, Adversarial Fairness uses two competing neural networks: the “generator” to predict a KPI and the “discriminator” to extract correlations to EEOC protected classes. The algorithm trains the networks to a point of Nash equilibrium: the “generator” is optimal subject to the constraint that there are no remaining latent correlations available to the “discriminator”—hence the “discriminator” is degenerately optimized.\n\nWe demonstrate Adversarial Fairness in a scaled production environment."
