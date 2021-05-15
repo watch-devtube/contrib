@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Understanding Isolation Levels in the Kubernetes Landscape - Jiaqi Liu, University of Chicago'
+language: English
+recordingDate: 1621017744
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nUnderstanding Isolation Levels in the Kubernetes Landscape - Jiaqi Liu, University of Chicago\n\nIn building open-source software with Kubernetes, it becomes important to understand the support and limitations for isolation and security at different levels. The ecosystem can be complex and it might be challenging to verify or fully understand the guarantees for isolation at each layer - from the cluster level to the container level. More importantly, how do you know what level of isolation you need at each level? Maybe if your cluster is secure, there is less of a concern for container level isolation? This talk will go over the impact and tradeoffs for optimizing for isolation at a given layer and help you understand what can be done at the cluster level, the namespace level, the pod, the container. As an example, this talk will present the case study of running Jupyter Notebooks within Kubernetes and supporting the requirement to provide isolation between each pod in order to create separate user spaces for each notebook launched in the cluster."

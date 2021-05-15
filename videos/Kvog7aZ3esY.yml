@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Dedicated Infrastructure in a Multitenant World - Carlos Sanchez, Adobe'
+language: English
+recordingDate: 1621017692
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nDedicated Infrastructure in a Multitenant World - Carlos Sanchez, Adobe\n\nRunning multitenant Kubernetes clusters is challenging, particularly when different tenants require their own dedicated infrastructure. At Adobe Experience Manager Cloud Service we built solutions to provide customers with their own dedicated infrastructure, such as ips, DNS, VPN connectivity,... while running most services in multitenant Kubernetes clusters. We will share how we built our solution making extensive use of Envoy to run networking tunnels between Kubernetes pods and customer dedicated infrastructure, enforcing encryption and mutual authentication using certificates. This allows, for example, different pods to have their own dedicated egress ip instead of the cluster's, or connections from pods to multiple customer on-premise services using VPN. The solution is provisioned automatically using Terraform, Terragrunt and other services."

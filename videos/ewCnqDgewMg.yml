@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'How DoD Uses K8s & Flux to Achieve Compliance & Deployment Consistency - M. Medellin & G. Tillman'
+language: English
+recordingDate: 1621017692
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nHow DoD Uses K8s and Flux to Achieve Compliance and Deployment Consistency - Michael Medellin & Gordon Tillman, Department of Defense\n\nLike many other organizations, the DoD also started the journey to K8s and had its own challenges. Due to the nature of DoD systems, there are applications that are deployed in a more relaxed environment such as AWS GovCloud and also in a more restricted air-gapped environments with no internet or external connectivity. In the beginning, it was all about manual deployment and operations. By introducing Helm and Flux, DoD moved to a more declarative model where everything is version controlled and deployed by Flux thereby reducing manual operations, improving deployment consistency and also bringing more compliance with regard to change management and application life cycle. This session will walk through the migration steps, what it takes to operate Flux in an air-gapped environment and how we achieved parity when applications are deployed to environments with different constraints."

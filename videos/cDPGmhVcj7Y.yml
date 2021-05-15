@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Optimizing Knowledge Distillation Training With Volcano - Ti Zhou, Baidu & William Wang, Huawei'
+language: English
+recordingDate: 1621017692
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nOptimizing Knowledge Distillation Training With Volcano - Ti Zhou, Baidu & William Wang, Huawei\n\nKnowledge distillation is a classic model compression technology, which is a way of migrating knowledge from a complex model (Teacher) to another lightweight model (Student) to achieve model compression. EDL use Volcano as scheduler to deploy the Teacher model to an online Kubernetes GPU inference card cluster, and use the resources of the online inference GPU card to increase the throughput of the teacher model in knowledge distillation. At the same time, because the Teacher model can be flexibly scheduled by Volcano, there is no need to worry about task failures caused by preemption of online instances during peak hours. You can also deploy the Teacher model to cluster fragmented resources, or low-usage resources such as k40, to make full use of the cluster's idle and fragmented resources. In this lecture, we will explain in detail how to use Volcano to optimize elastic distillation training and give the corresponding benchmark data."
