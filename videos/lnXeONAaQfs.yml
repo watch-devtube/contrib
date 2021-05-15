@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Cloud Native Distributed Event Streaming from TiKV - Zixiong Liu, PingCAP'
+language: English
+recordingDate: 1621017512
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nCloud Native Distributed Event Streaming from TiKV - Zixiong Liu, PingCAP\n\nData processing is evolving to be stream-oriented to enable interconnection between subsystems or microservices, but it could be challenging for distributed data stores, such as TiKV, to stream data effectively. Zixiong Liu and his team have successfully achieved distributed event streaming from TiKV with low computational cost, low latency, and elimination of single points of failure. Now it is possible to produce a stream of updates from TiKV, which, with suitable deduplication, are ordered by their commit timestamps. In his talk, Zixiong Liu will talk about the techniques used in the design of TiKV that facilitate data streaming, and the implementation of the distributed computation performed on the exported TiKV data so that the data can be converted into formats suitable for consumption by third party data solutions."

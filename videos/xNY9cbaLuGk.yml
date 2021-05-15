@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'A Deep Dive on Supporting Multi-Instance GPUs in Containers and Kubernetes - Kevin Klues, NVIDIA'
+language: English
+recordingDate: 1621017512
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nA Deep Dive on Supporting Multi-Instance GPUs in Containers and Kubernetes - Kevin Klues, NVIDIA\n\nMIG (short for Multi-Instance GPU) is a mode of operation in the newest generation of NVIDIA Ampere GPUs. It allows one to partition a GPU into a set of \"MIG Devices\", each of which appears to the software consuming it as a mini-GPU, with a fixed partition of memory and compute resources. In this talk, we take a deep dive into the details of how we built support for MIG in containers and Kubernetes. You will learn how MIG is made available to containers, what challenges we faced building MIG support for Kubernetes, and how you can use it today. Everything we built is 100% open-source and part of the NVIDIA container toolkit stack and NVIDIA k8s-device-plugin. This talk will conclude with a discussion on best practices around how to distribute MIG devices throughout a Kubernetes cluster, including how to handle the lifecycle of MIG devices on a node."
