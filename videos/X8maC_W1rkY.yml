@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'How we converted our Cortex data to TSDB blocks - Peter Štibraný, Grafana Labs'
+language: English
+recordingDate: 1621019317
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nHow we converted our Cortex data to TSDB blocks - Peter Štibraný, Grafana Labs\n\nCortex has recently gained support for storing data in Prometheus TSDB format (using so-called \"blocks engine\", also reusing some parts of Thanos). In Grafana Labs, we had hundreds of terabytes of data in previous format, and we wrote scalable tooling to convert it all to TSDB blocks. In the talk, I would like to present the tooling, show some details from Prometheus TSDB internals, and show how simple it is to generate TSDB blocks using Go code and what pitfalls to avoid."

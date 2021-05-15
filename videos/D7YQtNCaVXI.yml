@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Lightning Talk: Introduction to Media Service Mesh - Giles Heron, Cisco Systems'
+language: English
+recordingDate: 1621018618
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nLightning Talk: Introduction to Media Service Mesh - Giles Heron, Cisco Systems\n\nMedia Service Mesh is a new concept for enabling real-time applications in Kubernetes. Most real-time applications (such as multi-player FPS games, multi-party video-conferencing, and CCTV streaming) use UDP rather than TCP and hence are incompatible with current web-proxy based service meshes. In addition they often use out of band TCP control channel to negotiate UDP port numbers, and this is incompatible with the kube-proxy ClusterIP NAT. There is, however, a desire from the developers of these platforms to move away from monolithic applications towards the micro-services architecture, and to be able to leverage a service mesh infrastructure providing load balancing, encryption and observability. Media Service Mesh enables this."

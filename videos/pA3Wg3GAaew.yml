@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Rust-based, Secure and Lightweight Container Runtime for Embedded Systems - Manabu Sugimoto, Sony'
+language: English
+recordingDate: 1621019259
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nRust-based, Secure and Lightweight Container Runtime for Embedded Systems - Manabu Sugimoto, Sony Group Corporation\n\nLinux container is a lightweight virtualization technology that provides isolation and containment for applications. Recently, the container has been adopted by embedded systems because the mechanism is attractive to resource-constrained systems. Unfortunately, the existing container runtimes such as runc do not provide sufficient security and performance for mission-critical embedded systems. This talk presents a rust-based container runtime for embedded systems that enables the container to run at high speed while reducing the runtime memory usage. The runtime has an original fast-startup mechanism that starts the container by leveraging the pre-created container. Furthermore, the runtime offers a fine-grained access control using the new seccomp notify feature. The evaluation shows that the runtime launches the container 7.4x faster with 4.4x less memory usage than runc."

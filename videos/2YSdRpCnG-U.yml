@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Leveraging State Machines to Build Operators in Rust - Kevin Flansburg, Moose Consulting'
+language: English
+recordingDate: 1621019244
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nLeveraging State Machines to Build Operators in Rust - Kevin Flansburg, Moose Consulting\n\nThis talk will introduce and demonstrate Krator, a crate for building state-machine-based Operators in Rust. Last fall, the Krustlet team developed a state machine API for describing the Pod lifecycle for their Rust implementation of Kubelet. Based on interest from the community, this API was split out into a new crate (Krator) to allow it to be used to implement arbitrary Operators. First, the talk will walk through the process of developing a simple Operator with Krator, including a live demo. Next, it will explore the API in more detail, including design decisions that were made and how it meshes well with many Kubernetes design philosophies. Finally, it will outline some new and interesting Operator functionality that has been introduced, beyond what was needed to support Krustlet."

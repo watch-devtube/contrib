@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Allocating Less: Really Thin Rust Cloud Apps - Evan Chan, UrbanLogiq'
+language: English
+recordingDate: 1621018962
+description: "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon North America 2021 in Los Angeles, CA from October 12-15. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nAllocating Less: Really Thin Rust Cloud Apps - Evan Chan, UrbanLogiq\n\nIn this talk I discuss in depth one of the key selling points of Rust for cloud native apps: creating really thin and fast apps or infrastructure layers.  To do this, it is important to review and examine the memory allocation choices that we can make in Rust, and how to optimize them and data structures to ensure our Rust apps can reach the ceiling they are capable of.\n\n- Why use Rust for thin cloud apps?\n- Review memory usage in Rust\n- How to profile Rust apps for memory usage\n- Where to look for memory allocations in Rust apps\n- Improving rust heap usage through better APIs, improving serialization, getting rid of clones, flattening data structures, etc.\n- The effect of switching memory allocators (ie jemalloc) and why you might want to, or not\n- A study of JSON processors: memory usage\n- Different benchmarking stats to use for memory\n- Traits and trait objects: how to avoid allocations and speed up performance (enum-dispatch and friends)"
