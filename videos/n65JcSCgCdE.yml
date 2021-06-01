@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Polyglot, Fault-Tolerant Event-Driven Programming - Natan Silnitsky (Jfokus Brown Bag series)'
+recordingDate: 1622450412
+description: "Polyglot, Fault-Tolerant Event-Driven Programming with Kafka, Kubernetes and gRPC\nNatan Silnitsky, Wix.com\n\nAbstract At Wix, we have created a universal event-driven programming infrastructure on top of the Kafka message broker. This infra makes sure messages are eventually successfully consumed and produced no matter what failure it encounters.\n\nIn this talk, you will learn about the features we introduced in order to make sure our distributed system can safely handle an ever growing message throughput in a fault tolerant manner. You will be introduced to such techniques as retry topics, local persistent queues, and cooperative fibers that help make your flows more resilient and performant.\n\nYou will also learn how to make this infra work for all programming languages tech stacks with optimal resource manage using the power of Kubernetes and gRPC. When to use a client library, and when to deploy an external pod (DaemonSet, StatefulSet) or even deploy a sidecar.\n\nRecorded: Tuesday 13 April 2021 kl. 12:00"

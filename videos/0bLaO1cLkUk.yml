@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+speaker:
+    name: 'Nicolas Frankel'
+    twitter: nicolas_frankel
+    matches: ['Nicolas Fränkel']
+title: 'Pragmatic App Migration to the Cloud - Nicolas Frankel (Jfokus Brown Bag series)'
+recordingDate: 1622448357
+description: "Pragmatic App Migration to the Cloud: Quarkus, Kotlin, Hazelcast and GraalVM in action\nSpeeaker: Nicolas Frankel, Hazelcast\n\nAbstract At a point in the past, it was forecast that Java would die, but the JVM platform would be its legacy.\n\nBut nowadays, the Cloud is becoming ubiquitous, Kubernetes is its de facto platform. If a container needs to be killed for whatever reason, a new one needs to replace it as fast as possible. In that context, the JVM seems to be a dead-end: its startup time is huge in comparison to a native process. Likewise, it consumes a lot of memory that just increase the monthly bill.\n\nWhat does that mean for us developers? Shall we need to invest even more time in new languages, frameworks, libraries, etc.? We could, but we can also leverage our existing knowledge, and embrace the Cloud and containers ways with the help of some tools.\n\nIn this talk, I’ll create a simple URL shortener with a “standard” stack: Kotlin, JAX-RS and Hazelcast. Then, with the help of Quarkus and GraalVM, I’ll turn this application into a native executable with all Cloud/Container related work has been moved to the build process.\n\nRecorded Tuesday 1 December 2020 kl. 12:00"
