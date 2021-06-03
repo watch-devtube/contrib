@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'LISA21 - Protecting System Integrity with Trusted Platform Module'
+language: English
+recordingDate: 1622665152
+description: "Protecting System Integrity with Trusted Platform Module\n\nDmitrii Potoskuev, Facebook\n\nEvery software and firmware component running on a system can be the vector for delivering an attack to the host itself and the wider infrastructure around it. We often focus on protecting the system from what runs in user space or kernel space, and we don't always include in our threat model the integrity of the lower layers in the stack. In this talk, we want to show what could be the impact of compromising a host through a persistent implant in its system firmware. We will focus specifically on UEFI, the industry-wide standard that defines how system firmware should operate. We will demonstrate a \"hello-world\" system firmware malware from its development to its injection on the host. We will then introduce the concept of Trusted Platform Module, a secure cryptoprocessor that has become an industry standard on consumer and enterprise systems, and explain how the TPM can help protect the platform from our demonstrative malware. We will assume that our system requires secrets to be able to interface with the infrastructure around and we will leverage the TPM to give the host access to those secrets only if we can guarantee that all layers of the stack have not been compromised.\n\nView the full LISA21 program at https://www.usenix.org/conference/lisa21/program"
