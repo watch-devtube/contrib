@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Context-Aware Local Differential Privacy'
+language: English
+recordingDate: 1622842327
+description: "A Google TechTalk, 2020/7/30, presented by Ziteng Sun, Google\nABSTRACT: Local differential privacy (LDP) is a strong notion of privacy that often leads to a significant drop in utility. The original definition of LDP assumes that all the elements in the data domain are equally sensitive. However, in many real-life applications, some elements are more sensitive than others. We propose a context-aware framework for LDP that allows the privacy level to vary across the data domain, enabling system designers to place privacy constraints where they matter without paying the cost where they do not. For binary data domains, we provide a universally optimal privatization scheme and highlight its connections to Warner's randomized response and Mangat's improved response. Motivated by geo-location and web search applications, for $k$-ary data domains, we consider two special cases of context-aware LDP: block-structured LDP and high-low LDP. We study minimax discrete distribution estimation under both cases and provide communication-efficient, sample-optimal schemes and information theoretic lower bounds. We show, using worst-case analyses and experiments on Gowalla's 3.6 million check-ins to 43,750 locations, that context-aware LDP achieves a far better accuracy under the same number of samples."

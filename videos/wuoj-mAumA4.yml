@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Efficient Differentially Private Averaging w Trusted Curator Utility Robustness to Malicious Parties'
+language: English
+recordingDate: 1622842526
+description: "A Google TechTalk, 2020/7/30, presented by Aurélien Bellet, INRIA\nABSTRACT:  Learning from data owned by several parties, as in federated learning, raises challenges regarding the privacy guarantees provided to participants and the correctness of the computation in the presence of malicious parties. We tackle these challenges in the context of distributed averaging, an essential building block of distributed and federated learning. Our first contribution is a novel distributed differentially private protocol which naturally scales with the number of parties. The key idea underlying our protocol is to exchange correlated Gaussian noise along the edges of a network graph, complemented by independent noise added by each party. We analyze the differential privacy guarantees of our protocol and the impact of the graph topology, showing that we can match the accuracy of the trusted curator model even when each party communicates with only a logarithmic number of other parties chosen at random. This is in contrast with protocols in the local model of privacy (with lower accuracy) or based on secure aggregation (where all pairs of users need to exchange messages). Our second contribution is to enable users to prove the correctness of their computations without compromising the efficiency and privacy guarantees of the protocol. Our construction relies on standard cryptographic primitives like commitment schemes and zero knowledge proofs.\nFull paper available on arXiv: https://arxiv.org/abs/2006.07218"

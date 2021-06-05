@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Towards Training Provably Private Models via Federated Learning in Practice'
+language: English
+recordingDate: 1622843019
+description: "A Google TechTalk, 2020/7/29, presented by Om Thakkar, Google\nABSTRACT: This talk is divided into two parts. In the first part, we see how several differing components of Federated Learning (FL) play an important role in reducing unintended memorization in trained models. Specifically, we observe that the clustering of data according to users---which happens by design in FL---has a significant effect in reducing such memorization, and using the method of Federated Averaging for training causes a further reduction. We also show that training with a strong user-level differential privacy guarantee results in models that exhibit the least amount of unintended memorization. In the next part of the talk, we focus on providing provable privacy guarantees for conducting iterative methods like Differentially Private Stochastic Gradient Descent (DP-SGD) in the setting of FL. We describe our random check-in distributed protocol, which crucially relies only on randomized participation decisions made locally and independently by each client. It has privacy/accuracy trade-offs similar to privacy amplification by subsampling/shuffling. However, our method does not require server-initiated communication, or even knowledge of the population size. To our knowledge, this is the first privacy amplification tailored for a distributed learning framework, and it may have broader applicability beyond FL.\n\nThe first part of the talk is based on \"\"Understanding Unintended Memorization in Federated Learning\"\" which is joint work with Swaroop Ramaswamy, Rajiv Mathews, and Françoise Beaufays. The second part of the talk is based on \"\"Privacy Amplification via Random Check-Ins\"\", which is joint work with Borja Balle, Peter Kairouz, Brendan McMahan, and Abhradeep Thakurta.\""

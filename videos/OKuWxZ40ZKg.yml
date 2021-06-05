@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Profile-based Privacy for Locally Private Computations'
+language: English
+recordingDate: 1622842526
+description: "A Google TechTalk, 2020/7/30, presented by Kamalika Chaudhuri, UCSD\nABSTRACT: Differential privacy has emerged as a gold standard in privacy-preserving data analysis. A popular variant commonly used for federated learning is local differential privacy, where the data holder is the trusted curator. A major barrier, however, towards a wider adoption of this model is that it offers a poor privacy-utility tradeoff. In this work, we address this problem by introducing a new variant of local privacy called profile-based privacy. The central idea is that the problem setting comes with a graph G of data generating distributions, whose edges encode sensitive pairs of distributions that should be made indistinguishable. This provides higher utility because unlike local differential privacy, we no longer need to make every pair of private values in the domain indistinguishable, and instead only protect the identity of the underlying distribution. We establish privacy properties of the profile-based privacy definition, such as post-processing invariance and graceful composition. Finally, we provide mechanisms that are private in this framework, and show via simulations that they achieve higher utility than the corresponding local differential privacy mechanisms."
