@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Byzantine-Resilient High-Dimensional SGD with Local Iterations on Heterogenous Data'
+language: English
+recordingDate: 1622842526
+description: "A Google TechTalk, 2020/7/30, presented by Deepesh Data and Suhas Diggavi, UCLA\nABSTRACT: We study stochastic gradient descent (SGD) with local iterations in the presence of malicious/Byzantine clients, motivated by the federated learning.  The clients, instead of communicating with the central server in every iteration, maintain their local models, which they update by taking several SGD iterations based on their own datasets and then communicate the net update with the server, thereby achieving communication-efficiency.  Furthermore, only a subset of clients communicate with the server, and this subset may be different at different synchronization times.  The Byzantine clients may collaborate and send arbitrary vectors to the server to disrupt the learning process. To combat the adversary, we employ an efficient high-dimensional robust mean estimation algorithm at the server to filter-out corrupt vectors; and to analyze the outlier-filtering procedure, we develop a novel matrix concentration result that may be of independent interest.\n\nWe provide convergence analyses for both strongly-convex and non-convex smooth objectives in the heterogeneous data setting, where different clients may have different local datasets, and we do not make any probabilistic assumptions on data generation. We believe that ours is the first Byzantine-resilient algorithm and analysis with local iterations. We derive our convergence results under minimal assumptions of bounded variance for SGD and bounded gradient dissimilarity (which captures heterogeneity among local datasets); and we provide bounds on these quantities in the statistical heterogeneous data setting. We also extend our results to the case when clients compute full-batch gradients. \n\nThis talk is based on the following two works: https://arxiv.org/abs/2006.13041, https://arxiv.org/abs/2005.07866."

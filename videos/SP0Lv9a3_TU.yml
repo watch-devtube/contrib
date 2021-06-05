@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Fault-tolerant federated and distributed learning'
+language: English
+recordingDate: 1622842526
+description: "A Google TechTalk, 2020/7/30, presented by Sanmi Koyejo, University of Illinois at Urbana-Champaign\nABSTRACT:  Distributed machine learning models are routinely trained using devices that are susceptible to hardware, software, and communication errors, along with other robustness concerns. Examples of modern deployments include geo-distributed datacenters with non-negligible communication latency, groups of mobile devices or Internet of Things (IoT), and volunteer ML computing. For such settings, distributed training typically consists of separate updates interleaved with aggregation. Our main contributions are novel aggregation schemes for fault-tolerant federated learning and distributed training via stochastic gradient descent. The proposed aggregation schemes are shown to be provably robust to worst-case errors from a large fraction of arbitrarily malicious workers (aka Byzantine errors), with minimal effect on convergence rates. We also highlight a previously unknown failure mode of existing robust aggregation schemes such as Krum and median. Empirical evaluation in a variety of real-world settings further highlights the performance of the proposed aggregation strategies."

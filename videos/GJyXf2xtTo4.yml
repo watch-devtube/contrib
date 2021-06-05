@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Cronus: Robust Knowledge Transfer for Federated Learning'
+language: English
+recordingDate: 1622843019
+description: "A Google TechTalk, 2020/7/29, presented by Reza Shokri, National University of Singapore\nABSTRACT: Federated learning is vulnerable to many known privacy and security attacks. Shared parameters leak a significant amount of information about the participants’ private datasets, as they continuously expose all the internal state of local models to the attackers. Besides, federated learning is severely vulnerable to poisoning attacks, where some participants can adversarially influence the aggregate parameters. Overwriting local models with the global model, to initiate them before each round of local training, increases the influence of adversarial participants on others’ models. Attacker exploits the vulnerability of parameter aggregation methods which cannot provide tight error guarantees for high dimensional parameters. Knowledge transfer using parameter sharing also restricts the network to homogeneous model architectures, and limits model personalization. \n\nIn this talk, we present Cronus to address these issues. The simple yet effective idea behind the design of Cronus is a robust knowledge transfer algorithm. Local models share their predictions on a public dataset with a server that aggregates the predictions. All local models are trained on their private data as well as the public data with aggregate labels. This knowledge transfer through black-box predictions reduces information leakage about private data, enables aggregation of knowledge across models with different architectures, enables further personalization of models by local data, and more importantly enables robust aggregation with a significantly tight error bound (due to the low-dimensionality of the model outputs)."
