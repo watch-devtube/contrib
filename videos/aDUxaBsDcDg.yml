@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Local dev setup for a complex app using docker-compose - Thomas Klausner'
+language: English
+recordingDate: 1623184554
+description: "How to run a non-trivial app (API backends, DB, Cache, mail,  JS, https) on your local dev machine using docker-compose.\n\nA normal app usually consists of much more components (or services) than just your backend. You'll need a database, maybe a cache, you want to send some mail, serve some JavaScript and run all of that behind https (yes, even on localhost). Add some microservices to the mix, and you end up having to configure and start a lot of things.\n\nAn easy(-ish) way to do this is via docker-compose.\n\nIn this talk I will show my current docker-compose best practices that enable me to have all of the above, for several different projects, without having to remember complex command line options.\n\nWhile the backends are written in Perl, this talk will feature mostly YAML .. sorry :-)"

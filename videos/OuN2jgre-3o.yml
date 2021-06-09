@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#HITB2021AMS D1T2 - WoW Hell: Rebuilding Heavens Gate - ShengHao Ma'
+language: English
+recordingDate: 1623120229
+description: "Microsoft embeds a translation design named WoW64 (Windows 32 on Windows 64) used for running 32 bit PE (Portable Executable format) on 64 bit Windows. The design basically hosts every 32 bit PE file inside as a native standalone 64-bit process and translates every 32-bit system interrupt into a 64-bit syscall. In this talk, we’re going to talk about deep reversing engineering on WoW64 architecture how it does translations, and some uncovered issues about crossing-architecture could be abused in the wild. This talk will cover:\n\n    Direct Call to 64 bit NtDLL (Heaven’s Gate) on Lastest Win10\n    FireWalker: A New Approach to Generically Bypass User-Space EDR Hooking by MDSec 2021\n    Abusing WoW64 Layer Hook Trap (by FireEye)\n    Rebuilding the Whole Translation Engine\n    wow64Jit – Call 32bit NtDLL API directly from WoW64 Layer\n    Inject WoW64 Thread Context to Bypass HIPS & EDR Rules\n\n=== \n\nSheng-Hao Ma (aaaddress1) has over 10-year experience in reverse engineering, machine language, and Intel 8086. He has published articles about Windows vulnerability, and Reverse Engineering analysis, and was invited as a guest speaker at DEFCON USA, VXCON, HITCON (Hackers In Taiwan Conference), CYBERSEC events, and more. On top of all this, Sheng-Hao Ma is a core member of CHROOT Security Group in Taiwan and is an instructor for HITCON and MOE (Ministry of Education) training course of Windows Exploit and Malware Analysis."

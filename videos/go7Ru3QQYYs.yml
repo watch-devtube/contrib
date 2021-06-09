@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Introduction to Perl Data Types - William N. Braswell, Jr.'
+language: English
+recordingDate: 1623191072
+description: "Data types are hints to a computer language, telling the language's interpreter or compiler how best to allocate resources and optimize performance.\n\nWe will introduce the type system provided by the Perl compiler, and the many benefits of utilizing Perl data types.\n\nThe Perl interpreter itself is written in C, and implements data types for its own internal use, including:\n\n- IV, integer value\n- NV, number value\n- PV, pointer value AKA string\n- AV, array value\n- HV, hash value\n- SV, scalar value\n- RV, reference value\n\nThe Perl interpreter does not provide programmers with access to these pre-defined types, and instead it encourages us not to use data types at all.\n\nPerl does allow programmers to create user-defined data types, but none of the (numerous & incompatible) data type systems actually utilizes the underlying C data types implemented in the Perl interpreter.\n\nThe Perl compiler finally provides developers with direct access to real C data types and their C++ equivalents.\n\nUpgrade your Perl, start utilizing data types today!"

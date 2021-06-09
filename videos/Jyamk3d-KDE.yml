@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Refactoring your EXPORTS: Rescuing a client from global-variable-hell - Steven Lembark'
+language: English
+recordingDate: 1623187581
+description: "At first @EXPORT seemed natural, at least to  C programmers: Everyone sees everything, uses what they need. Fast forward a few decades, with a GlobalVariableModule that can't be modified because nobody knows what is really used. This is the story of what to do next.\n\nWhat's next is a sequence of converting it all from @EXPORT to @EXPORT_OK and refactoring the contents into saner modules with external configurations using objects. One stage is appreciating the patterns and structure of 600 variables defined in terms of one another, another is extracting that into YAML structs [with comments], another is re-exporting it all via that most beautiful and under-appreciated of Perly tools: Symbol. The final conversion replaces @EXPORT with @EXPORT_OK so that we know what is actually being exported... which is probably a reasonable chunk of code for 40 minutes. Converting @EXPORT_OK imports to configuration-object calls isn't all that complicated. Part of the technique involves global unit testing (see my other talk) that allows tracking down what's missing when @EXPORT becomes just OK.\n\nThis matters because too many places are stuck on v5.8 because they don't actually know how to validate their code moving forward; they no longer know what it does. What this one case shows is how to get over the hump and start moving forward on a route to more modern, validated, documented code."

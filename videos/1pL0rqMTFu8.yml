@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#HITB2021AMS D1T1 - Utilizing Lol-Drivers In Post Exploitation Tradecraft - Bariş Akkaya'
+language: English
+recordingDate: 1623120581
+description: "Windows Driver Signature Enforcement and PatchGuard make it harder to operate custom-developed rootkits for lots of threat actors. While attackers continue utilizing common methods like exploiting vulnerable drivers for executing malicious codes in the kernel, the adversarial simulation techniques mostly lack the capability to simulate the kernel-mode threats. However, from the perspective of a red teamer, legitimate drivers can offer various capabilities of a rootkit.\n\nIn this talk, we will explore the methodologies to upgrade the post-exploitation game by using signed drivers for offensive purposes. Signed drivers can be utilized as leverage in the post-exploitation phase in order to create execution paths that are harder to detect and trace. Red teams could use this methodology to implement kernel-mode attack capabilities to their existing toolset without the necessity of developing a rootkit from scratch. Combining user-mode and kernel-mode techniques could open up new possibilities for red teams to evade defenders and bypass mitigations.\n\nI will present a practical approach to use kernel-mode attack techniques in the post-exploitation phase. The talk mainly depends on demos that will show how existing tools and techniques could be improved using drivers with IOCTLs. In demos, the signed driver of Process Hacker will be utilized for offensive purposes. Process Hacker driver has also been used by threat actors in the past in a more basic way for terminating AV processes. I plan to present demos on using drivers in credential dumping, process injection, and C2 communication. I will also publicize an OST that can enable the usage of kernel-mode attack techniques in an existing toolset.\n\n=== \n\nI am a security enthusiast mostly interested in red teaming practices and novel malware techniques. I work as a Red Team Engineer in Picus Security. Combining the knowledge of system programming and security, I try to develop better tools for simulating adversarial behavior."
