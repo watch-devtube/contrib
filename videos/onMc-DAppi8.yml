@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'LISA21 - Re-imagining Management Methods for Distributed and Clustered Systems with Kraken/Layercake'
+language: English
+recordingDate: 1623258113
+description: "Re-imagining Management Methods for Distributed and Clustered Systems with Kraken/Layercake\n\nJ. Lowell Wofford, Kevin Pelzel, and Travis Cotton, Los Alamos National Laboratory\n\nThe overarching design of cluster system management stacks has not changed in decades. Most existing tooling works the same: set up netboot, configure some system \"\"images,\"\" power on, and hope for the best. This set-it-and-leave-it approach is inadequate as systems grow in size and complexity. Modern systems need robust ways to automate systems management and enforce system states over time.\n\nWe have been rethinking the tooling for clustered systems. We introduce a new framework for distributed system automation, \"\"Kraken,\"\" as well as a Kraken-based provisioning toolkit, \"\"Layercake.\"\" Together they provide distributed, stateful provisioning and automation across clustered systems. Immediate advantages include: scalably and reliably initializing clusters from bare metal; self-healing capabilities for (some) failures; continuous system state enforcement; automated changes to configurations, personalities, and node images (often in microseconds); all while being declarative, idempotent, modular & extensible. We will present both the Kraken/Layercake tooling and outline the core design principles.\n\nView the full LISA21 program at https://www.usenix.org/conference/lisa21/program"

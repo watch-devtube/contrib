@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Sequential Consistency & Perl & perl - B. Estrade'
+language: English
+recordingDate: 1623258116
+description: "This talk will discuss the idea of sequential consistency and why it's important for concurrent Perl semantics in the uniprocess runtime environment of perl. The talk will necessarily include the topics of Regular Languages, Finite Automata, and concurrent programming, and memory consistency models.\n\nMuch wasted effort has been expended for the cause of providing parallel and concurrent semantics in Perl,  the language. Because the perl runtime is unforgivably uniprocess, any effort must begin by ensuring a property of sequential consistency, which may described such that,\n\n\"... the result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program.\" [1,2]\n\nAn inherently sequential memory model as the one provided for in a uniprocess runtime environment provides a lot of benefits. One of these benefits is that it provides strong memory consistency guarantees. In addition to that, the perl runtime environment provides a treasure trove of features that make it ideal for the support of implicit shared memory semantics with strong consistent memory guarantees. What's the missing link? A way to convert arbitrarily complex, concurrent semantics (or intentions by the programmer) into a valid sequential execution plan suitable for a uniprocess perl runtime environment.\n\nThis talk introduces that idea of sequential consistency, the uniprocess perl runtime model, and a CPAN module that demonstrates the feasibility of this approach, Sub::Genius.\n\nReferences:\n\n1. Leslie Lamport, \"How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs\", IEEE Trans. Comput. C-28,9 (Sept. 1979), 690-691.\n\n2. https://en.wikipedia.org/wiki/Sequential_consistency"
