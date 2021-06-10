@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'LISA21 - More Performant Cluster State Management Using Open Source Firmware and a Kraken'
+language: English
+recordingDate: 1623258113
+description: "More Performant Cluster State Management Using Open Source Firmware and a Kraken\n\nDevon Bautista and J. Lowell Wofford, Los Alamos National Laboratory\n\nOften, vendor-provided firmware is proprietary and closed, which can present some hurdles in high-performance computing (HPC). Vendor firmware usually provides a generic way for bootstrapping systems, having to accommodate for many situations, but purpose-built clusters would benefit from more purpose-built firmware. The ability to customize the system initialization more granularly would provide more control over the hardware. This could potentially increase boot efficiency and reduce boot times by eliminating unused features and introducing more useful ones, but proprietary firmware tends to limit the amount of fine tuning that is possible. This talk will demonstrate a use case for open firmware in the context of HPC with the integration of Kraken, a distributed state management tool focused on managing stateless HPC clusters. It will demonstrate how open firmware can be leveraged for eliminating nonnecessities in the boot process of nodes, as well as for provisioning them more reliably.\n\nView the full LISA21 program at https://www.usenix.org/conference/lisa21/program"

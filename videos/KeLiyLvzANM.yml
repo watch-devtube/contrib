@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'LISA21 - Selectively Sharing Multipath Routes in BGP'
+language: English
+recordingDate: 1623258113
+description: "Selectively Sharing Multipath Routes in BGP\n\nTrisha Biswas, Fastly, Inc.\n\nBorder Gateway Protocol (BGP) is the most widely used network protocol to distribute routing information between network service providers. Traditionally, BGP speakers propagate only the best path to a given address prefix over a session. This achieves better scaling at the cost of path diversity. BGP add-paths (RFC7911) allows sharing of multiple paths for the same prefix, helping achieve faster re-convergence. In today's networks, simply enabling add-paths however, could result in sharing millions of routes with a peer, potentially overwhelming it.\n\nSelective advertisement of multiple paths allows a BGP speaker to pick additional paths to share, based on other route attributes. This extension, currently an IETF draft, helps unlock the potential of purposefully sending additional routes, as opposed to bombarding the peer with millions of extra routes. In this talk, we will present a use-case for the application of selective add-paths, along with a working demonstration of the feature.\n\nView the full LISA21 program at https://www.usenix.org/conference/lisa21/program"

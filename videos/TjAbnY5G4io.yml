@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'LISA21 - Performance Analysis of XDP Programs'
+language: English
+recordingDate: 1623258113
+description: "Performance Analysis of XDP Programs\n\nZachary H. Jones, Verizon Media\n\nOne of the many opportunities presented by BPF is the ability to move network processing down from the higher levels of the kernel, closer to the hardware. This allows for manipulating, dropping, and transmitting packets without the costs of going through the full kernel networking stack. However, doing so introduces fresh complexity and results in significantly reduced visibility. Therefore, in order to develop performant systems, care must be taken in analyzing and measuring system performance. Here, we outline our current approach which accommodates these new challenges: visualize flame graphs to visualize processing budgets, microbenchmark eBPF helpers and features, and viewing annotated assembly code with utilization percentages.\n\nView the full LISA21 program at https://www.usenix.org/conference/lisa21/program"
