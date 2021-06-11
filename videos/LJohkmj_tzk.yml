@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#HITB2021AMS D2T1 - How I Found 16 Microsoft Office Excel Vulnerabilities In 6 Months - Quan Jin'
+language: English
+recordingDate: 1623369080
+description: "In this talk, I want to share the story of how I discovered 17 Microsoft Office Excel vulnerabilities in half a year. I find these vulnerabilities by fuzzing. I will share why I pick up Microsoft Office Excel as my fuzzing target, and how to build an effective fuzzing framework step by step.\n\nIn this talk, I will share the details about how to prepare for excel fuzzing:\n\n        How to select fuzzing corups\n\n        How to choose and implement mutation algorithm\n\n        How to start sample and catch exceptions\n\n        How to triage the fuzzing results\n\n        How to reproduce the results\n\n        How to report vulnerabilities to MSRC\n\n I will also share some problems encountered during the fuzzing process, including:\n\n        How to automate clicking the dialog box that appears during the excel fuzzing process\n\n        How to effectively clean up the temporary files generated during the fuzzing process to reduce the size of the virtual machine\n\n        How to speed up execution by switching between multiple old and lastest Office versions to speed up fuzzing\n\n        How to adjust fuzzing strategy to speed up execution\n\n        How to manage the results of fuzzing and to store and classify them\n\nWith the help of the method described in this talk, after half a year, I reported more than 20 office vulnerabilities to Microsoft, and got 16 CVE acknowledgements from MSRC, including 13 remote code execution vulnerabilities and 3 information disclosure vulnerabilities.\n\n=== \n\nQuan Jin is a security research expert from DBAPPSecurity Lieying Lab. He previously worked on the Qihoo 360 Advanced Threat Response Team. He has received more than 25 CVE acknowledgments from Microsoft and Adobe. He’s at 39 in 2020 MSRC Most Valuable Security Researchers List. He and his team had captured several in-the-wild 0days on windows platform. He once spoke at BlueHat Shanghai 2019."

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#HITB2021AMS D2T2 - Binary Fuzzing With Snapshot-Assisted-Driven Comparison Branch Analysis - K. Son'
+language: English
+recordingDate: 1623368972
+description: "Some binary fuzzing tools that automatically find software vulnerabilities use mutation capabilities which randomly generate test cases. Despite a lot of progress in mutation-based fuzzers, there is an issue of taking unnecessary time to evaluate conditional branches that compare complex inputs. As one of the ways to address this issue, Some fuzzers adopt symbolic execution technique to obtain actual inputs for conditional branch outcomes in binary. However, Symbolically executing program paths does not scale to large or complex programs such as a real-world software. They have difficulty solving it. Research that improve the performance of symbolic execution are actively discussed in the research community.\n\nIn this talk, I will present a new approach and methodology to analyzing a variety type of input comparison statements in a real-world software. This talk covers how we can automatically extract comparison values from closed-source binary without symbolic computation. It helps fuzzers more quickly find vulnerability of code beyond branches. We implemented this methodology in a tool called Ligthbranch. Also, I will explain how to link between AFL fuzzer and our comparison branches analysis tool(Ligthbranch).\n\n=== \n\nSecurity Researcher, KISA interested in vulnerability and exploitation research."

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#HITB2021AMS D2T1 - Mind The Bridge: A New Attack Model For Hybird Mobile Applications - Ce Qin'
+language: English
+recordingDate: 1623367894
+description: "In this talk, we present a novel class of Hybrid Application vulnerabilities associated with “Javascript bridges”. \n\nHybrid apps combine the features of Web applications and “native” mobile apps. First, it provides an embedded Web browser (for example, WebView on Android) that execute the app’s Web code. Second, it supplies “bridges” that allow Web code to access internal app code. This is intrinsically dangerous and presents some security risks like CVE-2012-6336 and “App Clone Attack”. Previous work that addresses this problem provided various access control solutions. \n\nWe will disclose a NEW attack model for the first time. It attacks Hybrid Application from a deeper level, can bypass all kinds of validations and restriction technologies on “Javascript bridges”. We present three Vulnerability models, any one of them can lead to an attack. We will also dive into the embedded browser architecture, demonstrate the root cause of it. To help you find these vulnerabilities, we developed a novel tool that can vet Hybrid apps automatically. \n\nFinally, towards solving these issues permanently, we propose a practical mitigation measure called “RichInterface“. It has been applied in our custom embedded browser — HwWebView. Our evaluation of real-world apps shows the mitigation solution is effective and scalable, with negligible overhead. \n\n=== \n\nSecurity Researcher in Octopus Security Team. Focus on software security, mainly on the browser and Android Applications.\n\nSpeaker of AsiaSecWest 2018, defcon 2019 and HSCV 2020.\n\nOwner of 100+ CVEs."

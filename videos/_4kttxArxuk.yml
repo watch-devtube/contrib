@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#HITB2021AMS D2T2 - Hack Out Of The Box: Discovering 10+ Vulnerabilities In VirtualBox - Chen Nan'
+language: English
+recordingDate: 1623368176
+description: "Virtualbox is a well-known open source cross-platform virtualization software. With the continuous update of virtualbox, its security has been greatly improved. For example, it now creates virtualbox process hardening to prevent malicious software from using VirtualBox as a vehicle to obtain kernel level access. They’ve also deleted Chromium 3D libraries and VHWA interface that are prone to vulnerabilities.\n\nHowever, there are still has some interesting attack surfaces, such as USB backends, storage backends, and special self-use interfaces. This talk presents how we found some vulnerabilities in VirtualBox. In particular, we designed a special fuzzer for the virtualbox, which effectively found 10+ vulnerabilities.\n\nWe will introduce the design idea and implement skills used in the fuzzer, and disclose the details of some vulnerabilities. We will introduce in detail how to exploit these vulnerabilities, including some new exploit primitives.Finally , We will demonstrate the exploit of box escpae.\n\n===\n\nChenNan is a Security Researcher of Chaitin Security Research Lab. He has more than 5 years of information security experience.\n\nIn the past years, his work involved bug hunting and exploit techniques,mainly in virtualization, iot, os kernel direction. He was listed on Microsoft Most Valuable Researcher of 2019. He was an author of the RealWorldCTF competition.\n\nHe was also a speaker at several conferences such as 44Con, CSS2018 and insomnihack."

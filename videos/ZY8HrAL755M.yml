@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Valiant - Heroic validations for Moo and DBIC classes - John Napiorkowski'
+language: English
+recordingDate: 1623355281
+description: "Valiant is a CPAN distribution that provides validations for your Moo and DBIx::Class result classes that is based on the popular and successful system integrated with Ruby on Rails.\n\n# Description\n\nValiant (https://metacpan.org/pod/Valiant) is a set of Moo roles and DBIC components that integrate validations directly into your Moo classes or DBIx::Class result classes. Provides a domain specific language which allows you to defined for a given class what a valid state for an instance of that class would be and to gather reportable error messages. Used to defined constraints related to business logic or for validating user input (for example via CGI forms).\n\nWhen we say domain level or business logic validation, what we mean is that invalid data is a possible and expected state that needs to be evaluated and reported to the end user for correction. For example when writing a web application you might have a form that requests user profile information (such as name, DOB, address, etc). It's an expected condition that the user might submit form data that is invalid in some way (such as a date of birth that is in the future) but is still 'well formed' and is able to be processed. In these cases your business logic would be to inform the user of the incorrect data and request fixes (rather than simply throw a 500 server error and giving up).\n\nThis differs from type constraints (such as Type::Tiny) that you might put on your Moo attributes which are used to express when attributes have values that are so unacceptable that no further work can be done and an exception must be thrown.\n\nValiant fits into a similar category as HTML::Formhander and FormFu although its not HTML form specific. Prior art for this would be the validations system for ActiveRecords in Ruby on Rails and the Javascript library class-validator.js, both of which the author reviewed extensively when writing this code."

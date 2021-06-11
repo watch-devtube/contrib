@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Getting Really Testy With Perl: Unit testing 45_000 modules - Steven Lembark'
+language: English
+recordingDate: 1623344480
+description: "Unit testing in Perl is straightforward. It's especially helpful when upgrading Perl versions from, say, 5.8 to 5.30 or moving to git with sandboxes. One organization I worked with had 75_000 modules, about 45_000 of them were active, all of them had to be tested. This is how we did it.\n\nLongstanding code bases often have many pieces of code lying around, often without specific tests written for them. This kind technical debit is a major cause of upgrade phobia in management: \"How can we be sure it won't break when we install the new version????\"  One fix is unit testing: Validating that all of the code passes basic standards. These can range from simple \"use_ok\" to ensuring that all of the symbols in @EXPORT or @EXPORT_OK really are defined in the necessary modules. The trick is in automating it with a combination of shell/perl to install the tests and flexible tests that investigate the code using metadata. The talk describes some issues I've dealt with in situations testing 45_000 modules or validating @EXPORT and @EXPORT_OK were populated properly. The basic techniques work for any size code base and are big help during upgrades or with CI platforms like Jenkins that can run the tests regularly and find issues quickly. Mixed with a bit of TAP and Inline this makes a nice recipe for testing integration in multiple languages at once."
