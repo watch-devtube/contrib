@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'REST - The ignored parts - Irina Scurtu - NDC London 2021'
+language: English
+recordingDate: 1624264325
+description: "In a world dominated by APIs, where everyone seems to implement microservices with so many paradigms and stadards to choose from, REST seems to be the default option.\n\nDespite that, many of these so-called REST APIs have a littele to do with what REST should be, and are often brittle because we ignore some of the most powerful constraints.\n\nWe ignore HATEOAS, under the pretext that will add a performance penalty, or because we don't see the imediate benefit from it. When it comes to versioning, we prefer to\nversion by having the version in the URL path, and sometimes we never change the version.\n\nWe are pressured to deliver, to meet the deadlines\nand this leads sometimes to poor desing. We choose a few HTTP Verbs and status codes that are all purpose, and that's it.\nIn reality, REST is not only about verbs and namings, is also about meaning, empaty towards our API consumers, longevity\nand leveraging everything that the underlying protocol has to offer.\n\n\nIn this session we will look over how we can design a REST API that is flexible and evolvable by being in sync with what\nHTTP has to offer.\nWe will look over OData as a way to filter data, versioning, hypermedia types specs and status codes by fine-tuning .NET Core."
