@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Authentication and Authorization in Blazor - Marco De Sanctis - NDC London 2021'
+language: English
+recordingDate: 1624352066
+description: "Thanks to Blazor, every .NET developer can now build Single Page Applications with a familiar syntax, sharing code with the server and leveraging C# instead of JavaScript. However, the technical architecture is fundamentally different than the one of ASP.NET MVC or Razor Pages, especially when it comes to supporting modern security protocols, such as OpenID Connect and OAuth.\n\nDuring this talk, we'll do a deep dive into the security model of Blazor, understanding the components involved and the differences between Blazor Server and Web Assembly.\n\nWe'll start with a practical example on how to integrate our Blazor application with Identity Server 4 and use OAuth to securely call an external API. After having established our baseline, we'll gradually start adding complexity: we'll first be introducing roles, and then we'll show how policies can allow us to achieve a bigger abstraction over the permissions and actions a user can perform in the application.\n\nAs the last step, we'll see what changes are needed to make sure that our application behaves correctly in a PWA scenario when we need to support an offline mode."

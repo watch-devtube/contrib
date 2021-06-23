@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Little Fluffy Clouds - Liam Westley - NDC London 2021'
+language: English
+recordingDate: 1624352305
+description: "So, you need to go to the cloud, you might already have tried lift and shift, with a bunch of virtual machines and not seen the gain you expected? You have thought about microservices and containers everywhere using K8s, but you haven’t got the size of team or the pile of cash required for THE BIG REWRITE.\n\nIf this is your dilemma, you should take a look at the fully managed services available, move some of your technical operations load to your cloud provider, and concentrate on implementing the stuff your business actually cares about.\n\nMy first proper experience of using cloud services was pretty much as lift and shift into AWS. It felt like nothing much had changed from having machines in a datacentre. Scalability became easier, and network configuration was more flexible, but we were still managing patching, redundancy, and our own server clusters. We still cared about free disk space.\n\nWhen I became Head of Engineering at Freemarket, a small fintech startup, I changed to overseeing a system based on Azure, had a single virtual machine, and was mostly based on managed services. No technical operations team, just developers.\n\nIn the past year we have accelerated our use of manged services – adding SignalR and Redis as managed services and extending our use of SQL Azure. We’ve found services that work really well, as well as services that never made it through trials.\n\nIn this talk we will dive into the Pros and Cons of some of the Azure managed services we have used or investigated at Freemarket such as SignalR, Redis, SQL Azure, and application gateways. We will look at the quick wins that you get with such services such as scalability and redundancy (SQL Azure live replication and failover configured in under ten minutes), as well as study the downsides of managed services when you hit the inevitable brick wall of inflexibility.\n\nThis should help you decide where you can slot in managed services into your architecture for the most gains, and where you’ll have to roll your own."
