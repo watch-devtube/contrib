@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Securing Multitenant Databases with Entity Framework Core - Zoran Horvat - NDC London 2021'
+language: English
+recordingDate: 1624438776
+description: "Entity Framework (and other ORMs) are simplifying correspondence with relational databases, saving us from having to type enormous amounts of code. Still, we should not feel too confident about simplification offered by ORMs - not least relax about security.\nIn this demonstration, you will see one common pitfall where custom code is delegating all database-related work to Entity Framework, forgetting to constrain queries to only access objects to which authenticated user possesses permission. In the rest of the demonstration, we shall come to one coding pattern which ensures that every call into Entity Framework will always be secure out of the box."
