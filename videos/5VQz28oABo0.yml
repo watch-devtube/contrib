@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Asynchronous Distributed Systems - David Ostrovsky - NDC London 2021'
+language: English
+recordingDate: 1624880318
+description: "When we set out to build a microservice based system we usually design our services to communicate with each other synchronously, often using a request-response pattern over HTTP or gRPC. This makes perfect sense in most cases because synchronous code is easier to debug, easier reason about, many common use-cases involve calling web APIs, and there are excellent tools available. However, as we continue to build our product, we eventually reach the edges of what’s possible with the original model. Maybe it’s because the call tree between the services grows too large and hard to maintain, maybe it’s because we add more and more work to be done in-line which inflates latency. And maybe we discover that our use-case wasn’t a good fit for a synchronous system, it just worked well enough at small scale, but we should have been building an event-based architecture from the start. Whatever the case may be, we are now faced with the need to change the system architecture, which is difficult and expensive.\n\nIn this talk we’ll explore various use-cases for synchronous vs. asynchronous microservice architectures, their advantages and disadvantages, differences in scalability, availability and observability, as well as how to identify when we should start planning a migration from one to the other. We’ll talk about asynchronous system patterns like CQRS, Event Sourcing, and Data Busses. And we’ll address how to gradually evolve towards an asynchronous model, because no sensible business is going to just stop everything for six months while we rewrite large chunks of the infrastructure."
