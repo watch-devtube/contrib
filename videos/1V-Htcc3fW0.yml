@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DRY TDD with AutoFixture - Enrico Campidoglio'
+language: English
+recordingDate: 1625486327
+description: "If you've ever sat down to do TDD, you know the feeling. What should the first test be? Which objects should you create and with what values? Once you pass that initial hurdle, it gets easier. You Red-Green-Refactor your way through the implementation and you see progress. You don't even notice that, soon enough, your tests start to look a lot alike. It's that setup code, which seems to be repeated everywhere with only some minor tweaks.\n\nSure, you might think that duplication is OK to have in your tests. After all, it's not like you ship them, right? But consider this: every line of test code represents coupling to your production code; the more tests you write, the harder it gets to refactor that code later. So, what do you do? You stop writing tests? Well, no: you keep your tests DRY.\nIn this session, I'll show you how to write DRY tests by leveraging an open source library called AutoFixture. AutoFixture lets you set up your test scenarios by runtime-generating data that meets your requirements. By not repeating the same boilerplate setup code everywhere, your tests will have minimal coupling to your production code. They will be your safety net while also giving you the freedom to refactor your production code as you see fit.\n\nDon't think that's possible? Join me in this session and see for yourself."
