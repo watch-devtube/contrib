@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Shikhar Srivastava – Scaling Facets to the Stars '
+recordingDate: 1625742984
+description: "Imagine you have a collection made up of several million news stories spanning several years. Your users may want to know how many of yesterday's news stories matched the query “American President.” That’s easy. It's just a normal query to the search engine. However, let’s say they want to get the same number for each day of the last year, or even each day of the last five years. That's a bit harder. Now, if you want to do this in less than a second, then it becomes really challenging. And, what if new data keeps coming into the collection every day and you need to scale to billions of news stories?\n\nIn this talk, we will show how we achieved responsive time series aggregation across billions of documents using Apache Solr facets. We will discuss how, by optimizing our cache hit-rate on complex queries, we successfully reduced latency by a factor of ten (from tens of seconds to under one second) and increased throughput by 60 times (from 10 queries/minute to 10 queries/second).\n\nWe will review the experiments we followed, show how we used Apache Jmeter to quickly run the right experiments, discuss the data structures we exploited, and look at how we organized our caching policy using Eclipse Memory Analyzer to scale Apache Solr facets to the stars! Get ready to take off! 🚀\n\nSpeaker:\nShikhar Srivastava – https://2021.berlinbuzzwords.de/member/shikhar-srivastava\n\nMore: https://2021.berlinbuzzwords.de/session/scaling-facets-stars"

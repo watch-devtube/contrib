@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Uwe Schindler – Future of Lucene''s MMapDirectory: Why use it & what''s coming with Java 16 & later?'
+recordingDate: 1625742978
+description: "Since version 3 of Apache Lucene and Solr and from the early beginning of Elasticsearch, the general recommendation was to use MMapDirectory as the implementation for index access on disk. But why is this so important?\n\nThis talk will first introduce the user about the technical details of memory mapping and why using other techniques slows down index access by a significant amount. Of course we no longer need to talk about 32/64bit Java VMs - everybody uses now 64 bits with Elasticsearch and Solr, but with current Java versions, Lucene still has some 32bit-like limitations on accessing the on-disk index with memory mapping. We will discuss those limitations especially with growing index size up to terabytes, and afterwards, Uwe will give an introduction to the new Java Foreign Memory Access API (JEP 370, JEP 383, JEP 393), that first appeared with Java 14, but still incubating.\n\nThe new API sounds interesting and will remove all previous issues and limitations, but with Lucene's current design, the first and second JEP incubators (Java 14, 15) would have been hard to implement. In close cooperation between Lucene developers and OpenJDK committers, starting with Java 16, the 3rd incubator will finally be ready to be used from Lucene: A first preview of Lucene's implementation was developed as a draft pull request. Uwe will show how future versions of Lucene will be backed by next generation memory mapping and what needs to be done to make this usable in Solr and Elasticsearch - bringing you memory mapping for indexes with tens or maybe hundreds of Terabytes in the future!\n\nSpeaker:\nUwe Schindler – https://2021.berlinbuzzwords.de/member/uwe-schindler\n\nMore: https://2021.berlinbuzzwords.de/session/future-lucenes-mmapdirectory-why-use-it-and-whats-coming-java-16-and-later"
