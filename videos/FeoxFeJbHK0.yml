@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'WebAssembly Tutorial (WebAssembly vs JavaScript)'
+language: English
+recordingDate: 1626106846
+description: "In this video I show the process of setting up AssemblyScript to WebAssembly compilation and how to test and evaluate the performance of placing computation in WASM compared to just using Javascript. AssemblyScript has the goal to provide TypeScript like syntax as much as possible and is therefore suitable for those that prefer to write Javascript and TS over alternatives like C, C++, Python, Go, Rust, Java, PHP, and so on. The functions covered in the video is a simple Add function, Factorials and Squaring all elements in an array. I also try to investigate the impact of passing large parameter payloads between JS and WASM and the glue code needed when passing more complex datatypes as parameters. Enjoy! :D\n\n\nFull Code: https://github.com/danba340/assemblyscript-benchmarks\n\n\nSetup from scratch steps:\nnpm init -y\nnpm install --save @assemblyscript/loader\nnpm install --save-dev assemblyscript\nnpx asinit .\nnpm run asbuild\n\nTwitter: https://twitter.com/BarelyDaniel\nGithub: https://github.com/danba340\n\n0:00 Intro\n1:00 Files overview\n2:53 Try the tests\n3:30 Factorial AS\n4:38 Factorial Test\n5:30 Setting up Benchmark\n9:30 Add & Factorial Benchmark\n12:52 SquareArray AS\n14:09 SquareArray Glue Code\n17:52 SquareArray Test\n19:30 SquareArray Benchmark\n23:00 SquareArray no payload Benchmark\n24:43 What did we learn?"
