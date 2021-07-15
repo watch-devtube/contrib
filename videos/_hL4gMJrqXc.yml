@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Resource Allocation in Multi-armed Bandits by Kirthevasan Kandasamy'
+language: English
+recordingDate: 1626237297
+description: "A Google TechTalk, presented by Kirthevasan Kandasamy, 2021/06/09\nABSTRACT: Most bandit problems are formulated in terms of the number of arm pulls (sample complexity), where we usually wish to find the optimum of an unknown system while minimising the number of arm pulls. However, executing arm pulls requires resources, and in practice, we are faced with a variety of resource constraints when pulling arms.\nIn this talk, I will discuss some recent work that studies two settings in this topic. In the first, we are given a finite set of resources. We can choose to execute a variable number of arm pulls with these resources at a given time, but due to sublinear scaling of real world systems, we need to handle trade-offs between information accumulation and resource efficiency. In the second, we have an elastic resource (e.g. cloud computing) where there is no constraint on the amount of resources that can be used at a given time. However, we wish to minimise the total resource-time used while adhering to a strict deadline and  performance requirement. I will discuss algorithms, theoretical upper/lower bounds, and empirical results on hyperparameter tuning.\n\nAbout the speaker: Kirthevasan (Kirthi) Kandasamy is a postdoctoral scholar at UC Berkeley. He works on a variety of topics in the intersection of sequential decision-making under uncertainty, game theory, and systems."
