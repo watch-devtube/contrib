@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Fun with Type Erasure: Implementing a Value Wrapper for Polymorphic Types - Pavel Novikov'
+language: English
+recordingDate: 1625868464
+description: "#Programming​ #Cpp​ #CppOnSea​ \n2021 Program: https://cpponsea.uk/2021/schedule/\nC++ On Sea Website: https://cpponsea.uk/\nC++ On Sea Twitter: https://twitter.com/cpponsea\nStreamed & Edited By Digital Medium Ltd: https://events.digital-medium.co.uk​\n-------\nThe goal of this talk is to get you familiar and comfortable with the ins and outs of a basic implementation of type erasure in C++.\n\nUsing an implementation of a value wrapper for polymorphic types as an example, we'll examine how type erasure works that is similar to std::any.\n\nIn contrast to universally used pointer or reference semantics, in this case the wrapper with value semantics allows us to treat polymorphic, type erased, objects as ordinary values: move them around, copy, and assign new values, with all the headaches of ownership and cloning handled by the implementation behind the scenes.\n\nThe idea behind a value wrapper was thoroughly discussed by Jonathan Boccara in his keynote at Meeting C++ 2020 here. https://www.youtube.com/watch?v=mU_n_ohIHQk\n\n-------\nPavel Novikov\nGot an engineering degree in missilery from BMSTU (Moscow).\n\nLoves C++ and knows how to cook it.\n\nLikes metaprogramming, multithreading and asynchronous programming, coroutine adoption enthusiast.\n\n-------\nC++ on Sea is an annual c++ and coding conference, usually held in Folkestone, Kent in the UK. The 2020 & 2021 conferences were moved to virtual events due to social distancing requirements.\n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

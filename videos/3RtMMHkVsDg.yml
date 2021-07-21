@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'How Profile-Guided Optimization Makes Your Code Faster Without Any Code Changes - Stephan Dollberg'
+language: English
+recordingDate: 1625869216
+description: "#Programming​ #Cpp​ #CppOnSea​ \n2021 Program: https://cpponsea.uk/2021/schedule/\nC++ On Sea Website: https://cpponsea.uk/\nC++ On Sea Twitter: https://twitter.com/cpponsea\nStreamed & Edited By Digital Medium Ltd: https://events.digital-medium.co.uk​\n-------\nIn this talk we will have a deep dive into Profile-Guided Optimization (PGO) and the assembly level transformations it results in. While PGO has been around for quite a while and is available in all of the major compilers it’s not yet widely used. At the same time it provides great performance benefits without requiring a single code change. It’s also one of the major areas in which compilers get constant improvements across releases. This talk will specifically focus on the GCC implementation though most concepts are similar in other compilers.\n\nWe will start by looking at how to deploy PGO and challenges faced while doing so. The main part of this talk will focus on optimizations which the compiler can perform based on PGO instrumentation data, such as function relocation or function splitting. We will compare generated assembly from non-PGO-optimized binaries to PGO-optimized ones. This will be accompanied by measuring the effects of these optimizations based on hardware performance counters and traditional performance measurements.\n\n-------\nStephan Dollberg\nStephan is a Software Engineer at G-Research working on low latency trading systems. He is most passionate about building software that works reliably and fast at the same time.\n\nHe mostly codes in C++ but is generally language agnostic. His main areas of interest are in systems engineering, such as concurrency, networking or simply optimizing data structures and algorithms. Favorite data structures are hashmaps.\n\n-------\nC++ on Sea is an annual c++ and coding conference, usually held in Folkestone, Kent in the UK. The 2020 & 2021 conferences were moved to virtual events due to social distancing requirements.\n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"

@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Robert Metzger – Autoscaling Apache Flink Applications'
+recordingDate: 1626788001
+description: "Streaming applications often face changing resource needs over their lifetime: there might be workload differences during day- and nighttime, or business-related events that cause load spikes. Being able to automatically adapt to these changes is a common requirement for production deployments. Apache Flink has supported stateful job rescaling since the early days, but so far this had to be done by stopping and restarting jobs manually. In the latest release (1.13), the Flink community introduced a much anticipated feature: autoscaling. Now, you can add machines to your cluster for triggering an automatic scale up, or remove machines for letting it scale down again!\n\nIn this talk, we'll explore different deployment scenarios for streaming applications and explain how Flink users can benefit from autoscaling to enable new use cases, streamline day-to-day operations and avoid unnecessary costs. In addition, we’ll briefly describe how this feature was implemented and how it enables further resource elasticity improvements in the future, such as scaling controlled by Flink.\n\nSpeaker:\nRobert Metzger – https://2021.berlinbuzzwords.de/member/robert-metzger\n\nMore: https://2021.berlinbuzzwords.de/session/autoscaling-apache-flink-applications"

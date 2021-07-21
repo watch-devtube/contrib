@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Range-Based Text Formatting - For a Future Range-Based Standard Library - Arno Schoedl C++OnSea 2021'
+language: English
+recordingDate: 1625872781
+description: "#Programming​ #Cpp​ #CppOnSea​ \n2021 Program: https://cpponsea.uk/2021/schedule/\nC++ On Sea Website: https://cpponsea.uk/\nC++ On Sea Twitter: https://twitter.com/cpponsea\nStreamed & Edited By Digital Medium Ltd: https://events.digital-medium.co.uk​\n-------\nText formatting has been a favorite problem of C++ library authors for a long time. In this talk, I want to convince you that the combination of ranges with a bit of metaprogramming makes for a very elegant solution to the text formatting problem. We introduce a form of ranges with internal iteration, which are generating their elements one by one rather than exposing external iterators. We can use these generator ranges to represent the values to be formatted, conceptually turning them into lazily evaluated strings. These can be used just like regular strings are used today: in function returns; as standard algorithm input; embedded into other, equally lazily evaluated strings; and so on, before they are finally expanded into a container. By choosing the right interfaces, we can optimize this expansion to the point that it is only 15% slower than creating the equivalent string using hand-optimized special-case code.\n\n-------\nArno Schoedl\nthink-cell Founder & CTO\n\nArno is responsible for the design, architecture and development of all our software products. He oversees think-cell's R&D team, Quality Assurance and Customer Care.\n\nBefore founding think-cell, Arno worked at Microsoft Research and McKinsey. Arno studied computer science and management and holds a Ph.D. from the Georgia Institute of Technology with a specialization in Computer Graphics.\n\n-------\nC++ on Sea is an annual c++ and coding conference, usually held in Folkestone, Kent in the UK. The 2020 conference was moved to a virtual event due to social distancing requirements.\n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk"
