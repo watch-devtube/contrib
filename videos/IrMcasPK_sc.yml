@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Kevin Watters – Document classification search; joins vs payloads'
+recordingDate: 1626867107
+description: "Payloads are a powerful though seldom utilized feature in the Lucene-Solr ecosystem.  This talk reviews the existing payload support in Lucene and introduces the new features in Lucene and Solr 9  (LUCENE-9659 / SOLR-14787).  The main focus of the talk will be to explore real world search & ml use cases that traditionally utilize a query time join and the application of Lucene payloads to solve them. This talk is for search practitioners interested in utilizing machine learned data in search based analytics dashboards. \n\nMany Solr based applications attempting to deal with machine learned classifications are forced to implement a parent-child join relationship between a document and its classifications.  This model introduces many additional system constraints and costs at both query and index time to maintain the ability to filter results as desired. \n\nNew features in the payload span query in Lucene provide applications a way to maintain query flexibility without incurring the cost of performing a query-time join.  This greatly simplifies system design and architecture and can provide dramatic improvements to query performance.\n\nA reference implementation will be presented that compares the join and payload approaches.  The demonstration will show how to search for documents that have classifications above a particular confidence threshold at scale.\n\nSpeaker: \nKevin Watters – https://2021.berlinbuzzwords.de/member/kevin-watters\n\nMore: https://2021.berlinbuzzwords.de/session/document-classification-search-joins-vs-payloads"

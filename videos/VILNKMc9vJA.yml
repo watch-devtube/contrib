@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'All about delete - Back to basics'
+language: English
+recordingDate: 1626894198
+description: "In July's session we looked at how to remove data with delete. Highlights include:\n\n00:25 - Structure of a delete statement\n02:30 - Capture details of the removed data with the returning clause\n04:45 - Using flashback query to recover rows deleted by mistake\n10:00 - Demo of delete, returning clause, and flashback query\n20:30 - Recovering space freed up by deletes\n22:10 - Purging vs archiving vs staging\n26:30 - Purging significant numbers of rows\n27:50 - Move vs shrink to recover space\n29:45 - Rolling archival processes\n32:00 - Drop partition\n32:15 - Deleting staging data\n33:40 - Truncate table\n34:10 - Simple dot-notation access for JSON data\n35:10 - Demo of space recovery using shrink and move\n39:50 - Demo of delete vs truncate\n41:30 - Using global temporary tables to manage staging data\n44:30 - Delete performance - how to make it faster\n45:30 - Create table as select to \"delete\" data\n46:10 - Drop partition\n47:15 - Filtered table move to delete rows\n48:40 - Demo of deleting 99.5% of the rows from 100 million row tables fast"
