@@ -1,10 +1,18 @@
-# Editing guidelines: https://github.com/watch-devtube/contrib/#how-to-edit-video-metadata
+# Contribution guide: https://github.com/watch-devtube/contrib
 
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
 
-tags:
-    - containers
-    - architecture
+# tags: [____, _____, _____]
+
+speaker:
+    name: 'Allen Holub'
+    twitter: allenholub
 title: 'Microservice Swarms: Decentralized Discovery and Scaling - Allen Holub'
 language: English
 recordingDate: 1499244115
 description: 'Microservice swarming is a technique for microservices to scale and balance load directly, with no need for centralized discovery or other heavyweight single points of failure in the system.A Swarm architecture is a server-side architecture based on small, independent microservices that use a set of simple rules to automatically scale based on actual load. The services are highly decoupled, There is no need for a single-point-of-failure discovery service or external load balancing, the systems are extremely robust, adaptive, and maintainable. This session looks in depth at the architecture of a Swarming system, focusing in implementation. We''ll cover lightweight messaging, microservice structure, and look in depth at how the system scales and adapts to actual use as it runs.'
+tags:
+    - containers
+    - architecture
