@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Tweaking Cloud Foundry for Scale - A Tale About Chatty Gorouters - Stefan Lay, SAP'
+language: English
+recordingDate: 1627327326
+description: "Tweaking Cloud Foundry for Scale - A Tale About Chatty Gorouters - Stefan Lay, SAP\n\nCloud Foundry components are designed for observability. There are more metrics available than even a seasoned Cloud Foundry may know. When the system is under load these metrics are very useful. In this talk we want to look into the metrics the gorouter provides and how they are propagated through the loggregator stack. A main part will however be a case where we disabled metrics sent by the gorouter for each request [1]. By this we managed to reduce the load of the gorouters and the loggregator VMs significantly. This not only saves costs, but also allows us to further scale out our Cloud Foundry foundations. [1] https://github.com/cloudfoundry/gorouter/pull/275\n\nTo learn more about Cloud Foundry, The Proven Developer Experience For Kubernetes click here: https://www.cloudfoundry.org/"

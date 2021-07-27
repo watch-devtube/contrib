@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Collecting App Container Metrics with Sidecar Buildpacks - Patrick Hartz, anynines GmbH'
+language: English
+recordingDate: 1627327325
+description: "Collecting App Container Metrics with Sidecar Buildpacks - Patrick Hartz, anynines GmbH\n\nObservability of applications in production is important. It’s easy to stream logs to a syslog endpoint. Depending on the programming language obtaining app-related metrics can vary in difficulty. Beside this, it is complicated to determine your app container’s load. Since version 3 of the CF API, Cloud Foundry supports sidecars. In this talk, You will see how to add a small golang binary wrapped in a sidecar buildpack which streams the container metrics. Using this sidecar approach avoids the necessity for reimplementing the collection of the same metrics across all applications. Instead, the effort is reduced to a minimum when pushing the application to Cloud Foundry.\n\nTo learn more about Cloud Foundry, The Proven Developer Experience For Kubernetes click here: https://www.cloudfoundry.org/"
