@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Building Rapid CVE Responses into CF for K8s - Dr. Dave Walter & Andrew Wittrock, VMware'
+language: English
+recordingDate: 1627327325
+description: "Building Rapid CVE Responses into CF for K8s - Dr. Dave Walter & Andrew Wittrock, VMware\n\nCVEs are unavoidable. Over 18,000 were reported last year alone. Cloud Foundry platform operators want to be able to quickly and easily patch their platforms whenever a CVE that might adversely affect them is reported. This is especially difficult when running on top of Kubernetes as components are distributed as runnable images instead of BOSH releases and stemcells. This talk will describe the mechanisms we use to detect and address CVEs in the component images that are included in CF for K8s. Learn how we: * Use Trivy to detect new CVEs in images included in the latest CF for K8s release * Use image metadata to track the exact version of source code used to build a given image * Use a combination of kbld, pack, cloud-native buildpacks, and Dockerfiles to (re)build images * Use CI to automate cutting patch releases of CF for K8s when a high or critical CVE is detected\n\nTo learn more about Cloud Foundry, The Proven Developer Experience For Kubernetes click here: https://www.cloudfoundry.org/"

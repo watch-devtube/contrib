@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Deep Dive: Full Speed Ahead: Tales of Running Loggregator at its Scaling Limits w... Jovan Kostovski'
+language: English
+recordingDate: 1627327325
+description: "Deep Dive: Full Speed Ahead: Tales of Running Loggregator at its Scaling Limits with High Log throughput and Minimal Log Loss - Jovan Kostovski, SAP\n\nThe Loggregator is one of the Cloud Foundry's most important building blocks. It is responsible for streaming logs, metrics and events from the running applications and platform components to their consumers which usually are some kind of monitoring and logging systems. It is Cloud Foundry operator's eyes and ears to what is happening in the system. As the log load rises, it can happen that some of the Loggregator's components start dropping logs. The goal of this talk is to give a short overview of Loggregator and show the Cloud Foundry operators what should they monitor, how should they scale Loggregator and what operational and organizational (business) actions should they possibly take in order to keep Loggregator running at the required throughput rate. Jovan will share the lessons learned from running Loggregator in production at throughput of 260k logs/s.\n\nTo learn more about Cloud Foundry, The Proven Developer Experience For Kubernetes click here: https://www.cloudfoundry.org/"
