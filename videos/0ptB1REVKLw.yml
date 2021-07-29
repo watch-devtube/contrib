@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Lars Francke & Sönke Liebau – Building a new Big Data distribution based on Kubernetes with a twist!'
+recordingDate: 1627482856
+description: "The need for companies to deploy and operate Big Data infrastructures hasn't gone away but their options to do so have dwindled in the past few years. That's why we decided to build a new Open Source Big Data distribution.\n\nIt includes the usual suspects like Apache Kafka, Apache Spark, Apache NiFi, etc.\n\nWe asked around and were told it's a crazy idea but we did it anyway: We implemented a Kubelet in Rust that uses systemd as its backend instead of a container runtime. We also started writing Operators that target these special kubelets.\n\nThis means we can deploy hybrid infrastructure (partly running in containers and partly on \"bare metal\") using the same stack, the same tools, the same description languages, the same knowledge, etc. getting the best of both worlds.\n\nIn this talk we'll share what we learned about writing Kubernetes Operators (in Rust) as well as gain insights into our new distribution.\n\nSpeaker:\nLars Francke – https://2021.berlinbuzzwords.de/member/lars-francke\nSönke Liebau – https://2021.berlinbuzzwords.de/member/sonke-liebau\n\nMore: https://2021.berlinbuzzwords.de/session/building-new-big-data-distribution-based-kubernetes-twist"
