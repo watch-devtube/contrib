@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'How Citus Distributes PostgreSQL'
+language: English
+recordingDate: 1627521473
+description: "This talk by the Citus technical lead is about what Citus is—and how Citus uses the PostgreSQL extension APIs to transform Postgres into a distributed database. Marco Slot explains how Citus works, what you need to know about the new table types Citus introduces (distributed tables and reference tables), what the distributed query planner does, and how Citus handles distributed database transactions. \n\nMarco also explores the 4 application workloads that often need to scale Postgres—including multi-tenant SaaS apps, customer-facing analytics dashboards, as well as more traditional key value workloads with lots of JSON data. Finally, Marco shares the results of performance benchmarks such as HammerDB TPROC-C and YCSB to compare the performance of a single Postgres node, a single Citus node, a Citus 4-node database cluster, and an 8-node cluster.\n\nCitus is available as open source and in the cloud as Hyperscale (Citus), an option in the Azure Database for PostgreSQL managed service. This talk was inspired by a paper Marco delivered on distributed Postgres and Citus at the SIGMOD 2021 conference—link to the paper is below. We hope you enjoy it.  \n\nVideo bookmarks:\n► 0:30 What is Citus?\n► 1:17 Four workload patterns that need to scale PostgreSQL\n► 5:29 What is a Postgres extension? \n► 5:42 How Citus works\n► 14:28 Performance benchmarking of Citus\n\n📌 Let’s connect:\nTwitter – @marcoslot, https://twitter.com/marcoslot \nTwitter – @citusdata, https://twitter.com/citusdata \nTwitter – @AzureDBPostgres, https://twitter.com/AzureDBPostgres \n\n🔔  Subscribe to our Citus technical newsletter:\nhttps://aka.ms/citus-newsletter \n\n✅  Learn more:\nCitus open source repository: https://github.com/citusdata/citus \nGetting started with Citus: https://aka.ms/get-started-with-citus \nCitus paper at SIGMOD 2021: https://aka.ms/citus-sigmod-paper-2021 \n\n#PostgreSQL #Citus #AzureDBPostgres"
