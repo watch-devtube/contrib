@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Use DBMS_CLOUD to Automate Loading Data into Autonomous Database (ADB)'
+language: English
+recordingDate: 1627656868
+description: "This shows how you can automate the querying and loading of text files from Object Storage using only the Autonomous Database.  Techniques include:\n\n• Query (list) files that are uploaded to Object Storage.\n• Query those files in Object Storage as though they were local Oracle Database tables using external tables.\n• Load data from Object Storage files, log data loads, and delete files after processing (or move files to a Object Storage ‘processed’ bucket).\n• Audit updates to data with information about what was changed and when.\n• Perform complex analytic queries against external tables while joining to other in-database tables.\n\nHands On Lab:  https://cloud-code-innovate.github.io/dbms_cloud/"
