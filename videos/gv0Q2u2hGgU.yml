@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Next, the Programmable Web Browser (aka alternative to Chrome and Firefox)'
+language: English
+recordingDate: 1628118093
+description: "While actual browsers expose their internals through an API and limit access to the host system, Next doesn't, allowing for infinite extensibility and inviting the users to program their web browser. On top of that, it doesn't tie itself to a particular platform (we currently provide bindings to WebKit and WebEngine) and allows for live code reloads, thanks to the Common Lisp language, about which we'll share our experience too.\n\nNext is a keyboard-oriented, extensible web browser designed for power users. While most (all?) current browsers expose their internals through an API, Next exposes its entire code to the user. Modern browsers limit access to the host system, and Next doesn't, allowing for a broad range of new features. Similar projects have failed due to being tied to a particular platform (Vimperator, Conkeror…), but Next's choice is to have its core written as an independent library, and to provide bindings to web engines (currently WebKit and WebEngine are supported). Next's magic touch is its live coding capability: we can develop a command from a REPL, compile the function and try the changes immediately, without restarting anything. Or just edit our init file and reload it into the current session. This flexibility comes for free thanks to the Common Lisp language, the experience with which we'd like to share too.\n\nNext is usable as of today. It features ad-blocking (only basic for now, contributions are welcome), multi-selection, bookmarks, session persistence, Emacs and Vim-like shortcuts, history seen as a tree, fuzzy completion everywhere, basic git-forking and file management interfaces.\n\nGitHub: https://github.com/miclill/next\n\nPUBLICATION PERMISSIONS:\nOriginal video was published with the Creative Commons Attribution license (reuse allowed). Link: https://www.youtube.com/watch?v=wUujk1vjnYM"
