@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 -Justin Perdok - Hi Im DOMAIN Steve, Please Let Me Access VLAN2'
+language: English
+recordingDate: 1628185141
+description: "By responding to probing requests made by Palo Alto and SonicWALL firewalls, it's possible to apply security policies to arbitrary IPs on the network, allowing access to segmented resources.\n\nSegmentation using firewalls is a critical security component for an organization. To scale, many firewall vendors have features that make rule implementation simpler, such as basing effective access on a user identity or workstation posture. Security products that probe client computers often have their credentials abused by either cracking a password hash, or by relaying an authentication attempt elsewhere. Prior work by Esteban Rodriguez and by Xavier Mertens cover this. In this talk I will show a new practical attack on identity-based firewalls to coerce them into applying chosen security policies to arbitrary IPs on a network by spoofing logged in users instead of cracking passwords.\n\nLogged on user information is often gathered using the WKST (Workstation Service Remote Protocol) named pipe. By extending Impacket with the ability to respond to these requests, logged on users on a device can be spoofed, and arbitrary firewall rules applied.\n\nWe will dive into the details of how client probing has historically been a feature that should be avoided while introducing a new practical attack to emphasize that fact.\n\nREFERENCES\nhttps://www.coalfire.com/the-coalfire-blog/august-2018/the-dangers-client-probing-on-palo-alto-firewalls\nhttps://isc.sans.edu/forums/diary/The+Risk+of+Authenticated+Vulnerability+Scans/24942/\nhttps://github.com/SecureAuthCorp/impacket\nhttps://www.rapid7.com/blog/post/2014/10/14/palo-alto-networks-userid-credential-exposure/\nhttps://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA10g000000ClXHCA0"

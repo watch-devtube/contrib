@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Brian Hong - Sleight of ARM: Demystifying Intel Houdini'
+language: English
+recordingDate: 1628185141
+description: "In the recent years, we have seen some of the major players in the industry switch from x86-based processors to ARM processors. However, you might be surprised to know that Intel has long supported ARM to x86 transition with their binary translator, Houdini, which runs ARM binaries on x86.\n\nIn this talk, we will discuss Intel's proprietary Houdini translator, which is primarily used by Android on x86 platforms, such as higher-end Chromebooks and desktop Android emulators. We will start with a high-level discussion of how Houdini works and is loaded into processes. We will then dive into the low-level internals of the Houdini engine and memory model, including several security weaknesses it introduces into processes using it. Lastly, we will discuss methods to escape the Houdini environment, execute arbitrary ARM and x86, and write Houdini-targeted malware that bypasses existing platform analysis.\n\nREFERENCES:\n* Ye, Roger. Android System Programming: Porting, Customizing, and Debugging Android HAL. Packt Publishing, 2017.\n* JNI Functions, Oracle, 12 Nov. 2002, https://docs.oracle.com/javase/7/docs/technotes/guides/jni/spec/functions.html\n* Chromium OS Docs. Linux System Call Table, https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md\n* The Development Environment : Android Developers. Android Developers, https://developer.android.com/topic/arc/development-environment\n* Nachoparker. Own Your Bits, 14 June 2018, https://ownyourbits.com/2018/06/13/transparently-running-binaries-from-any-architecture-in-linux-with-qemu-and-binfmt_misc/\n* Git at Google. Android container in Chrome OS, archived at https://web.archive.org/web/20200128052853/https://chromium.googlesource.com/chromiumos/platform2/+/master/arc/container-bundle/\n* Oberheide, J. & Miller, C. 2012, June. Dissecting the Android Bouncer [Presentation] @ SummerCON, Brooklyn, New York"

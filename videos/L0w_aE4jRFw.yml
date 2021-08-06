@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Mars Cheng, Selmon Yang - Taking Apart and Taking Over ICS & SCADA Ecosystems'
+language: English
+recordingDate: 1628185141
+description: "Diversified Industrial Control System (ICS) providers create a variety of ecosystems, which have come to operate silently in the background of our lives. Among these organizations, Mitsubishi Electric ranks among the most prolific. Because the operation of this ecosystem is so widely used in key manufacturing, natural gas supply, oil, water, aviation, railways, chemicals, food and beverages, and construction, it is closely-related to people's lives. For this reason, the security of this ecosystem is extraordinarily important.\n\nThis research will enter the Mitsubishi ecosystem’s communication protocol, using it as a lens with which to deeply explore the differences between itself and other ecosystems. We will show how we successfully uncovered flaws in its identity authentication function, including how to take it over and show that such an attack can cause physical damage in different critical sectors. We’ll explain how we accomplished this by applying reverse engineering and communication analysis. This flaw allows attackers to take over any asset within the entire series of Mitsubishi PLCs, allowing command of the ecosystem and full control of the relevant sensors. A further complication is that making a fix to the various communication protocols in the ICS/SCADA is extremely difficult. We will also share the various problems we encountered while researching these findings and provide the most workable detection and mitigation strategies for those protocols.\n\nREFERENCES\n[1] https://ladderlogicworld.com/plc-manufacturers/\n[2] https://www.mitsubishielectric.com/fa/products/cnt/plc/pmerit/case.html\n[3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5594\n[4] https://www.mitsubishielectric.com/fa/products/cnt/plc/pmerit/index.html"

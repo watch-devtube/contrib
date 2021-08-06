@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Laura Abbott, Rick Altherr -Breaking TrustZone M: Privilege Escalation on LPC55S69'
+language: English
+recordingDate: 1628185141
+description: "The concept of Trusted Execution Environments has been broadly introduced to microcontrollers with ARM’s TrustZone-M. While much experience with TrustZone-A can be applied, architectural differences with ARMv8-M lead to a very different approach to configuration and transitions between secure and non-secure worlds. This talk will deep dive into how TrustZone-M works, where to look for weaknesses in implementations, and a detailed look into NXP LPC55S69’s implementation including discovering an undocumented peripheral that leads to a priviledge escalation vulnerability exploitable with TrustedFirmware-M. Finally, NXP PSIRT will be used as a case study in how _not_ to respond to a vulnerability report.\n\nREFERENCES:\nTrustZone technology for the ARMv8-M architecture Version 2.0; ARM; https://developer.arm.com/documentation/100690/0200\n\nYour Peripheral Has Planted Malware -- An Exploit of NXP SOCs Vulnerability; Yuwei Zheng, Shaokun Cao, Yunding Jian, Mingchuang Qin; DEFCON 26; https://media.defcon.org/DEF CON 26/DEF CON 26 presentations/DEFCON-26-Yuwei-Zheng-Shaokun-Cao-Bypass-the-SecureBoot-and-etc-on-NXP-SOCs-Updated.pdf"

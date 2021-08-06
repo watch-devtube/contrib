@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Martin Doyhenard - Response Smuggling: Pwning HTTP 1 1 Connections'
+language: English
+recordingDate: 1628184905
+description: "Over the past few years, we have seen some novel presentations re-introducing the concept of HTTP request smuggling, to reliably exploit complex landscapes and systems. With advanced techniques, researchers were able to bypass restrictions and breach the security of critical web applications.\n\nThis presentation will take a new approach, focusing on the response pipeline desynchronization, a rather unexplored attack vector in HTTP Smuggling.\n\nFirst, I will introduce a Desync variant, using connection-tokens to hide arbitrary headers from the backend. This technique does not abuse discrepancy between HTTP parsers, but instead relies on a vulnerability in the protocol itself!\n\nThe issue was found and reported under Google’s Vulnerability Reward Program for a nice bounty!\n\nNext, I will show how it is possible to inject multiple messages at the backend server, mixing the pipeline’s connection order, and hijack users sessions from login requests.\n\nFinally, using a novel technique known as Response Scripting, I will demonstrate how to create malicious outbound messages using static responses as the building blocks. This will be leveraged to write custom responses and take control of one of the most popular protocols in history!\n\nREFERENCES:\nRFC 2616: Hypertext Transfer Protocol -- HTTP/1.1\nhttps://tools.ietf.org/html/rfc2616\n\nRFC 7231: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content\nhttps://tools.ietf.org/html/rfc7231\n\nCHAIM LINHART, AMIT KLEIN, RONEN HELED, STEVE ORRIN:\nHTTP Request Smuggling\nhttps://www.cgisecurity.com/lib/HTTP-Request-Smuggling.pdf\n\nJames Kettle:\nHTTP Desync Attacks: Request Smuggling Reborn\nhttps://portswigger.net/research/http-desync-attacks-request-smuggling-reborn\nhttps://portswigger.net/research/http-desync-attacks-what-happened-next\n\nEmile Fugulin\nHTTP Desync Attacks with Python and AWS\nhttps://medium.com/@emilefugulin/http-desync-attacks-with-python-and-aws-1ba07d2c860f\n\nAmit Klein\nHTTP Request Smuggling in 2020\nhttps://i.blackhat.com/USA-20/Wednesday/us-20-Klein-HTTP-Request-Smuggling-In-2020-New-Variants-New-Defenses-And-New-Challenges.pdf"

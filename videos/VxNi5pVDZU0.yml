@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Tomer Bar, Eran Segal - 2021 Our Journey Back To The Future Of Windows Vulnerabilities'
+language: English
+recordingDate: 1628184906
+description: "In 2020, security researchers reported a record number of Windows vulnerabilities. We were curious what superpowers will we get from researching this huge number of vulnerabilities? Can we leverage our findings to discover 0-days?\n\nWe decided to go back in time to 2016 to search for patterns and automatically classify all the public vulnerabilities since then. We believed that only by connecting the dots to a bigger picture, we will be able to come back 2021 with the success of achieving our goal.\n\nWe adopted a new approach, in terms of both the goal and how to get there. Until now, the main goal of patch-diff was focused on the root cause of the vulnerability and building a 1-day to exploit it Usually patch-diff was done manually on a single patch.\n\nWe reached higher for the holy grail. We understood that in order to find 0-days we needed to build an automated process that would gather all the insights from all the patches in a single, searchable db.\n\nIt worked! We discovered the root causes of multiple classes of vulnerabilities. We used these discoveries on a fully patched Windows 10 host in order to highlight opportunities for exploitation. As a consequence, we found and reported (1) 6 information disclosure vulnerabilities to Microsoft, (2) 2 post exploitation techniques allowing covert exfiltration of private user data, and (3) an additional surprise.\n\nIn this presentation, we'll describe our research process, demonstrate a live exploitation of the vulnerabilities we found, share the tools we developed, and explain how other researchers can use it to discover 0-days."

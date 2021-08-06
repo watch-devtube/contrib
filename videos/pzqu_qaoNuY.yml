@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - David Dworken - Worming through IDEs'
+language: English
+recordingDate: 1628185141
+description: "You might think that as long as you never hit run, opening up that interesting new POC in your IDE and checking out the code is safe. But it isn't. IDEs and developer tools are complex pieces of software that have vulnerabilities, just like everything else.\n\nWe'll start by discussing what a reasonable threat model is for IDEs. How do companies threat model their IDEs? What do users expect of their IDEs? Is viewing a file equivalent to executing it?\n\nThen we'll dive into the reality of it. Nearly every IDE examined was trivially vulnerable. But there were also a variety of subtle bugs lying underneath. We'll look at bugs in both local IDEs (like VSCode and IntelliJ) and cloud-based IDEs (like AWS Cloud9 and Github Codespaces).\n\nFinally, we'll show how an attacker could make a worm that would spread through attacking IDEs. View a malicious project? Let's automatically backdoor every project on a computer and keep spreading.\n\nREFERENCES:\nhttps://github.com/numirias/security/blob/master/doc/2019-06-04_ace-vim-neovim.md\nhttps://nvd.nist.gov/vuln/detail/CVE-2012-3479\nhttp://blog.saynotolinux.com/blog/2016/08/15/jetbrains-ide-remote-code-execution-and-local-file-disclosure-vulnerability-analysis/\nhttps://www.cvedetails.com/vulnerability-list/vendor_id-15146/product_id-49160/year-2019/Jetbrains-Intellij-Idea.html"

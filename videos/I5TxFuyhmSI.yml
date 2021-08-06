@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'YOW! Lambda Jam 2021 - Dr. Niki Vazou - Resource Analysis with Refinement Types'
+language: English
+recordingDate: 1628208792
+description: "Liquid Haskell is an extension of Haskell’s Type system that allows annotating types with refinement predicates. It’s great for ensuring the correctness of your code, but it can also be used to improve the performance of your code.\nIf you track your resources then Liquid Haskell can be used to statically bound the resources needed at runtime, thus statically deciding how performant your code is. You are liquidating your assets.\nTo track resource we define a `Tick monad that ticks each time a resource (ranging recursive calls to thunks) is used. Then we use refinement types to statically approximate the number of ticks that can occur at runtime. This reasoning aids runtime code optimization, since it can be used to compare resource usage of two different programs.\nIn this talk, I will present this technique through small examples (sorting algorithms and mapping) and discuss the advantage and current limitations on real-world code adaptation.\n\nDr. Niki is an Assistant Professor at IMDEA. I started my computer science education in NTUA, Athens, Greece. I got my Ph.D. from UCSD, San Diego where I developed Liquid Haskell, as described in my Ph.D. thesis. After that, I spend some time as a postdoctoral fellow at University of Maryland.\nMy research interests include refinement types, automated program verification, and type systems and my goal is to make theorem proving a useful part of mainstream programming. Liquid Haskell is an SMT-based, refinement type checker for Haskell programs that has been used for various applications ranging from fully automatic light verification of Haskell code, e.g., bound checking, to sophisticated theorem proving, e.g., non-interference.\n\nFor more information on YOW! Conference visit, www.yowconference.com.au"

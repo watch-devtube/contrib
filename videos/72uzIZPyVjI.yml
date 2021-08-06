@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Shir Tamari, Ami Luttwak - New class of DNS Vulns Affecting DNS-as-Service Platforms'
+language: English
+recordingDate: 1628184905
+description: "We present a novel class of DNS vulnerabilities that affects multiple DNS-as-a-Service (DNSaaS) providers. The vulnerabilities have been proven and successfully exploited on three major cloud providers including AWS Route 53 and may affect many others. Successful exploitation of the vulnerabilities may allow exfiltration of sensitive information from service customers' corporate networks. The leaked information contains internal and external IP addresses, computer names, and sometimes NTLM hashes. The number of organizations vulnerable to this weakness is shocking. Over a few hours of DNS sniffing, we received sensitive information carried by DNS update queries from ~1M Windows endpoints from around 15,000 potentially vulnerable companies, including 15 Fortune 500 companies. In some organizations, there were more than 20,000 endpoints that actively leaked their information out of the organization. We will review possible mitigations to this problem and solutions for both DNSaaS providers and managed networks.\n\nREFERENCES:\nI. Microsoft Windows DNS Update algorithm explained - https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/configure-dns-dynamic-updates-windows-server-2003\nII. An excellent blog post by Matthew Bryant on hijacking DNS Updates abusing a dangling domain issue on Guatemala State's Top Level Domain - https://thehackerblog.com/hacking-guatemalas-dns-spying-on-active-directory-users-by-exploiting-a-tld-misconfiguration/"

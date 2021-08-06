@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Sagi Sheinfeld, Eyal Karni, Yaron Zinar - Using M(achine)ITM to Attack Active Directory'
+language: English
+recordingDate: 1628184905
+description: "Over the years, researchers were able to break many secure protocols using MitM attacks. A common theme in this family of vulnerabilities is the lack of proper validation for any of the communicating parties. We will review previous MitM attacks found on AD authentication protocols and the mitigation strategies previously implemented. We will show that the relay attack technique is not limited to NTLM alone and can be used to attack the newer Kerberos authentication protocol. In addition, we will show several injection attacks compromising client systems. We’ll show how the lack of validation can lead to devastating issues ranging from authentication bypass to remote code execution on various critical infrastructure systems. However, the issues do not stop on Windows on-premises networks but span to other infrastructure such as domain-joined unix machines, virtualization infrastructure, open-source security audit tools and even cloud directories. The talk will deep-dive into multiple vulnerabilities we have discovered along with several demos. Demos include a MitM attack which allows an attacker to inject user passwords in a hybrid AD environment allowing the attacker to authenticate as any user in the network. We will also show how to use a similar technique to compromise many other IT infrastructure.\n\nREFERENCES:\nhttps://www.crowdstrike.com/blog/cve-2021-1678-printer-spooler-relay-security-advisory/\nhttps://labs.f-secure.com/archive/practically-exploiting-ms15-014-and-ms15-011/\nhttps://www.securityfocus.com/bid/1616/info"

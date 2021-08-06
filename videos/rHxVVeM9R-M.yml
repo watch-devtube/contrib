@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - James Kettle -  HTTP2: The Sequel is Always Worse'
+language: English
+recordingDate: 1628185141
+description: "HTTP/2 is easily mistaken for a transport-layer protocol that can be swapped in with zero security implications for the website behind it. Two years ago, I presented HTTP Desync Attacks and kicked off a wave of request smuggling, but HTTP/2 escaped serious analysis. In this presentation, I'll take you beyond the frontiers of existing HTTP/2 research, to unearth horrifying implementation flaws and subtle RFC oversights.\n\nI'll show you how these flaws enable HTTP/2-exclusive desync attacks, with case studies targeting high-profile websites powered by servers ranging from Amazon's Application Load Balancer to WAFs, CDNs, and bespoke stacks by big tech. I'll demonstrate critical impact by hijacking thick clients, poisoning caches, and stealing plaintext passwords to net multiple max-bounties.\n\nAfter that, I'll unveil novel techniques and tooling to crack open a widespread but overlooked request smuggling variant affecting both HTTP/1 and HTTP/2 that is typically mistaken for a false positive.\n\nFinally, I'll drop multiple exploit-primitives that resurrect a largely-forgotten class of vulnerability, and use HTTP/2 to expose fresh application-layer attack surface.\n\nI'll leave you with an open-source scanner, a custom, open-source HTTP/2 stack, and free interactive labs so you can hone your new skills on live systems.\n\nREFERENCES:\nThe HTTP/2 RFC is essential reading: https://tools.ietf.org/html/rfc7540\nThis research is built on my previous work on this topic:\nhttps://portswigger.net/research/http-desync-attacks-request-smuggling-reborn\nThis presentation by defparam has good explanations of response queue poisoning and self-desync attacks:\nhttps://www.youtube.com/watch?v=3tpnuzFLU8g\nI had a partial research collision with Emil Lerner. His work provides an alternative perspective on certain techniques:\nhttps://github.com/neex/http2smugl"

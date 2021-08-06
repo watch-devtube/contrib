@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Thomas Roth - Hacking the Apple AirTags'
+language: English
+recordingDate: 1628184905
+description: "Apple’s AirTags enable tracking of personal belongings. They are the most recent and cheapest device interacting with the Apple ecosystem. In contrast to other tracking devices, they feature Ultrawide-band precise positioning and leverage almost every other Apple device within the Find My localization network.\n\nLess than 10 days after the AirTag release, we bypassed firmware protections by glitching the nRF52 microcontroller. This opens the AirTags for firmware analysis and modification. In this talk, we will explain the initial nRF52 bypass as well as various hacks built on top of this. In particular, AirTags can now act as phishing device by providing malicious links via the NFC interface, be cloned and appear at a completely different location, used without privacy protections that should alert users as tracking protection, act as low-quality microphone by reutilizing the accelerometer, and send arbitrary data via the Find My network. Besides these malicious use cases, AirTags are now a research platform that even allows access to the new Ultrawide-band chip U1.\n\nREFERENCES:\nLimitedResults nRF52 APPROTECT Bypass:\nhttps://limitedresults.com/2020/06/nrf52-debug-resurrection-approtect-bypass/\n\nPositive Security’s Send My Research for sending arbitrary data via the find my network:\nhttps://positive.security/blog/send-my\n\nColin O’Flynn’s notes on the AirTag Hardware:\nhttps://github.com/colinoflynn/airtag-re"

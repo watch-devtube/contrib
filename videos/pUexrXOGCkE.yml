@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Hao Xing, Zekai Wu - How I use a JSON 0day to Steal Your Money on the Blockchain'
+language: English
+recordingDate: 1628185307
+description: "Fastjson is a widely used open source JSON parser with 23'100 stars on GitHub. As a basic module of countless java web services, it serves hundreds of millions of users. We managed to find a way to bypass many security checks and mitigations by using the inheritance process of some basic classes, and achieve remote code execution successfully. We will disclose these high-risk and universal gadgets for the first time in this talk.\n\nNow, we can control many important websites and affect millions of users. Let's make things more interesting. We found that this fastjson vulnerability affect a multi-billion-dollar blockchain. We designed multiple complex gadgets based on the features of the blockchain, and exquisitely achieved information leakage and pointer hijacking. Putting all these gadgets together, we achieved remote code execution on the blockchain nodes.\n\nHowever, generally after remote code execution, we seem to have no better exploit method other than the 51% attack, which will lead to serious accounting confusion. After a detailed analysis of the architecture design of the public blockchain, we found a way from RCE to steal the public blockchain users' assets almost without any notification.\n\nTo the best of our knowledge, this is the first published attack case on the realization of covertly stealing user assets after RCE on the public blockchain nodes. We will propose a more covert post penetration exploit method for public blockchain nodes in this talk.\n\nBlockchain is not bulletproof to security vulnerability. We will show you how to use classical web vulnerabilities attack the blockchain and how to steal real money from the decentralized cyber world.\n\nREFERENCES:\n1. https://github.com/threedr3am/gadgetinspector\n2. https://github.com/JackOfMostTrades/gadgetinspector\n3. http://i.blackhat.com/us-18/Thu-August-9/us-18-Haken-Automated-Discovery-of-Deserialization-Gadget-Chains.pdf\n4. http://i.blackhat.com/eu-19/Thursday/eu-19-Zhang-New-Exploit-Technique-In-Java-Deserialization-Attack.pdf\n5. https://asm.ow2.io/asm4-guide.pdf"

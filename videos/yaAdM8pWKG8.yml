@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Rex Guo, Junyuan Zeng - Phantom Attack: Evading System Call Monitoring'
+language: English
+recordingDate: 1628184905
+description: "Phantom attack is a collection of attacks that evade Linux system call monitoring. A user mode program does not need any special privileges or capabilities to reliably evade system call monitoring using Phantom attack by exploiting insecure tracing implementations.\n\nAfter adversaries gain an initial foothold on a Linux system, they typically perform post-exploitation activities such as reconnaissance, execution, privilege escalation, persistence, etc. It is extremely difficult if not impossible to perform any non-trivial adversarial activities without using Linux system calls.\n\nSecurity monitoring solutions on Linux endpoints typically offer system call monitoring to effectively detect attacks. Modern solutions often use either ebpf-based programs or kernel modules to monitor system calls through tracepoint and/or kprobe. Any adversary operations including abnormal and/or suspicious system calls reveal additional information to the defenders and can trigger detection alerts.\n\nWe will explain the generic nature of the vulnerabilities exploited by Phantom attack. We will demonstrate Phantom attack on two popular open source Linux system call monitoring solutions Falco (Sysdig) and Tracee (Aquasecurity). We will also explain the differences between Phantom v1 and v2 attacks. Finally, we will discuss mitigations for Phantom attack and secure tracing in the broader context beyond system call tracing.\n\nREFERENCES:\nhttps://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33505\nhttps://i.blackhat.com/USA-20/Thursday/us-20-Lee-Exploiting-Kernel-Races-Through-Taming-Thread-Interleaving.pdf\nhttps://www.youtube.com/watch?v=MIJL5wLUtKE\nhttps://dl.packetstormsecurity.net/1005-advisories/khobe-earthquake.pdf"

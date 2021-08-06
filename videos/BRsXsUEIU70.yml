@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Austin Allshouse - The Mechanics of Compromising Low Entropy RSA Keys'
+language: English
+recordingDate: 1628185141
+description: "Over the past decade, there have been a number of research efforts (and DEFCON talks!) investigating the phenomenon of RSA keys on the Internet that share prime factors with other keys. This can occur when devices have poorly initialized sources of “randomness” when generating keys; making it trivial to factor the RSA modulus and recover the private key because, unlike large integer factorization, calculating the greatest common divisor (GCD) of two moduli can be fast and efficient. When describing their research, past hackers and researchers have attested that they “built a custom distributed implementation of Batch-GCD;” which seems like one hell of a detail to gloss over, right? This talk will detail a hacker's journey from understanding and implementing distributed batch GCD to analyzing findings from compromising RSA keys from network devices en masse.\n\nREFERENCES:\nAmiet, Nils and Romailler, Yolan. “Reaping and breaking keys at scale: when crypto meets big data.” DEF CON 26, 2018.\n\nHeninger, Nadia, et al. \"Mining your Ps and Qs: Detection of widespread weak keys in network devices.\" 21st {USENIX} Security Symposium ({USENIX} Security 12). 2012.\n\nHastings, Marcella, Joshua Fried, and Nadia Heninger. \"Weak keys remain widespread in network devices.\" Proceedings of the 2016 Internet Measurement Conference. 2016.\n\nKilgallin, JD. “Securing RSA Keys & Certificates for IoT Devices.” https://info.keyfactor.com/factoring-rsa-keys-in-the-iot-era. 2019\n\nDaniel J. Bernstein. Fast multiplication and its applications, 2008."

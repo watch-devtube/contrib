@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Tom Van Goethem, Mathy Vanhoef - Timeless Timing Attacks'
+language: English
+recordingDate: 1628184906
+description: "25 years ago, the first timing attacks against well-known cryptosystems such as RSA and Diffie-Hellman were introduced. By carefully measuring the execution time of crypto operations, an attacker could infer the bits of the secret. Ever since, timing attacks have frequently resurfaced, leading to many vulnerabilities in various applications and cryptosystems that do not have constant-time execution. As networks became more stable and low-latency, it soon became possible to perform these timing attacks over an Internet connection, potentially putting millions of devices at risk. However, attackers still face the challenge of overcoming the jitter that is incurred on the network path, as it obfuscates the real timing values. Up until now, an adversary would have to collect thousands or millions of measurements to infer a single bit of information.\n\nIn this presentation, we introduce a conceptually novel way of performing timing attacks that is completely resilient to network jitter. This means that remote timing attacks can now be executed with a performance and accuracy that is similar as if the attack was performed on the local system. With this technique, which leverages coalescing of network packets and request multiplexing, it is possible to detect timing differences as small as 100ns over any Internet connection. We will elaborate on how this technique can be launched against HTTP/2 webservers, Tor onion services, and EAP-pwd, a popular Wi-Fi authentication method.\n\nREFERENCES:\nSee page 15 to 17 in our paper for a list of references: https://www.usenix.org/system/files/sec20-van_goethem.pdf"

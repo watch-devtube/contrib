@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Dimitry ''Op Nomad'' Snezhkov -  Use of Offensive Enclaves In Adversarial Operations'
+language: English
+recordingDate: 1628184906
+description: "As developers start to rely more on hardware-based memory encryption controls that isolate specific application code and data in memory - secure enclaves, adversaries can use enclaves to successfully coexist on the host and enjoy similar protections.\n\nIn this talk we venture into a practical implementation of such an offensive enclave, with the help of Intel SGX enclave technology, supported on a wide variety of processors present in enterprise data-centers and in the cloud.\n\nWe discuss how malware can avoid detection in defensively instrumented environments and protect their operational components from processes running at high privilege levels, including the Operating System. We dive deeper into using enclaves in implants and stagers, and discuss the design and implementation of an enclave that is capable of facilitating secure communication and storage of sensitive data in offensive operations. We cover how the enclaves can be built to help secure external communication while resisting system and network inspection efforts and to achieve deployment with minimal dependencies where possible.\n\nFinally, we release the enclave code and a library of offensive enclave primitives as a useful reference for teams that leverage Intel SGX technology or have the hardware platform capable to support such adversarial efforts."

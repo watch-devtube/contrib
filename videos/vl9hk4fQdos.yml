@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Sheila A  Berta - The Unbelievable Insecurity of the Big Data Stack'
+language: English
+recordingDate: 1628184905
+description: "Honoring the term, the variety of technologies in the Big Data stack is hugely BIG. Many complex components in charge of transport, storing, and processing millions of records make up Big Data infrastructures. The speed at which data needs to be processed and how quickly the implemented technologies need to communicate with each other make security lag behind. Once again, complexity is the worst enemy of security.\n\nToday, when conducting a security assessment on Big Data infrastructures, there is currently no methodology for it and there are hardly any technical resources to analyze the attack vectors. On top of that, many things that are considered vulnerabilities in conventional infrastructures, or even in the Cloud, are not vulnerabilities in this stack. What is a security problem and what is not a security problem in Big Data infrastructures? That is one of the many questions that this research answers. Security professionals need to count on a methodology and acquire the necessary skills to competently analyze the security of such infrastructures.\n\nThis talk presents a methodology, and new and impactful attack vectors in the four layers of the Big Data stack: Data Ingestion, Data Storage, Data Processing and Data Access. Some of the techniques that will be exposed are the remote attack of the centralized cluster configuration managed by ZooKeeper; packet crafting for remote communication with the Hadoop RPC/IPC to compromise the HDFS; development of a malicious YARN application to achieve RCE; interfering data ingestion channels as well as abusing the drivers of HDFS-based storage technologies like Hive/HBase, and platforms to query multiple data lakes as Presto. In addition, security recommendations will be provided to prevent the attacks explained.\n\nREFERENCES:\nI plan to release a white paper at the conference, in the white paper there will be all the references. Anyway, as the attacks are novel, the references are related to infrastructure stuff mostly, not so much about security."

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Reza Soosahabi, Chuck McAuley - SPARROW: A Novel Covert Communication Scheme'
+language: English
+recordingDate: 1628184905
+description: "When researching methods for covert communications in the wireless space, we noticed most hackers are barely looking below the IP layer, and even the wireless guys are focused on creating their own radio (PHY layer) solutions rather than looking at what’s already available to them. We discovered a sweet spot that takes advantage of MAC layer protocols in LTE and 5G, enabling long range communication using other people’s networks, GSMA CVD-2021-0045. We can use SPARROW devices almost everywhere in a variety of scenarios, such as data exfiltration and command and control. Despite limited data rates, the new scheme can defeat known covert communication schemes with dedicated PHY in the following ways:\n\n- Maximum Anonymity: SPARROW devices do not authenticate with the host network while operating. This eliminates their exposure to network security and lawful intercept systems as well as spectrum scanners. Utilizing limited resources, they cause very minimal impact on the host network services.\n- More Miles per Watt: SPARROW devices can be several miles apart exploiting broadcast power of base stations or non-terrestrial technologies. The range can be further extended by deploying several of them in a geographically sparse mesh network.\n- Low Power & Low Complexity: SPARROW devices can utilize existing protocol implementation libraries installed on commodity SDRs. They can operate on batteries or harvest energy from the environment for long durations, just like real sparrows!\n\nREFERENCES:\nThere are no direct references of prior study that I (Reza) have (aside from general knowledge of 5G standard and RF), however the following talks and items led me towards this discovery:\n- DEF CON Safe Mode - James Pavur - Whispers Among the Stars - https://www.youtube.com/watch?v=ku0Q_Wey4K0\n- DNS Data Exfiltration techniques\n- My boss buying me a 5G base station emulator and saying \"find something wrong with this!\""

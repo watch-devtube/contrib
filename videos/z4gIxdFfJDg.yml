@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Christopher Wade - Breaking Secure Bootloaders'
+language: English
+recordingDate: 1628185141
+description: "Bootloaders often use signature verification mechanisms in order to protect a device from executing malicious software. This talk aims to outline actionable weaknesses in modern bootloaders which allow attackers to deploy unsigned code, despite these protection mechanisms.\n\nIn the first phase of this talk, we will discuss exploitation of the bootloaders in modern Android smartphones, demonstrating weaknesses which allow for bypassing bootloader unlocking restrictions, decryption of protected user data, and deployment of malicious software to devices using full disk encryption.\n\nIn the second phase, we will discuss bootloader weaknesses in the secondary hardware used by smartphones. Using an embedded RF chip as a target, we will demonstrate reverse engineering techniques which identified weaknesses in the signature verification mechanisms of the firmware update protocols used by the bootloader, allowing for deployment of custom firmware to the chip.\n\nREFERENCES:\nTravis Goodspeed - Great Ideas in Reversing the Tytera MD380: https://nullcon.net/website/archives/ppt/goa-16/Great-Ideas-in-Reversing-the-Tytera-MD380-by-Travis-Goodspeed.pdf\nRoee Hay - fastboot oem vuln: Android Bootloader Vulnerabilities in Vendor Customizations: https://www.usenix.org/system/files/conference/woot17/woot17-paper-hay.pdf"
