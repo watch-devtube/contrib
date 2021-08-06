@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Zhipeng Huo, Yuebin Sun, Chuanda Ding - Reveal and Exploit IPC Logic Bugs in Apple'
+language: English
+recordingDate: 1628184905
+description: "Apple's iOS, macOS and other OS have existed for a long time. There are numerous interesting logic bugs hidden for many years. We demonstrated the world's first public 0day exploit running natively on Apple M1 on a MacBook Air (M1, 2020). Without any modification, we exploited an iPhone 12 Pro with the same bug.\n\nIn this talk, we will show you the advantage and beauty of the IPC logic bugs, how we rule all Apple platforms, Intel and Apple Silicon alike, even with all the latest hardware mitigations enabled, without changing one line of code. We would talk about the security features introduced by Apple M1, like Pointer Authentication Code (PAC), System Integrity, and Data Protection. How did they make exploiting much harder to provide better security and protect user's privacy. We will talk about different IPC mechanisms like Mach Message, XPC, and NSXPC. They are widely used on Apple platforms which could be abused to break the well designed security boundaries.\n\nWe will walk you through some incredibly fun logic bugs we have discovered, share the stories behind them and methods of finding them, and also talk about how to exploit these logic bugs to achieve privilege escalation.\n\nREFERENCES:\nhttps://www.youtube.com/watch?v=Kh6sEcdGruU\nhttps://support.apple.com/en-us/HT211931\nhttps://support.apple.com/en-us/HT211850\nhttps://support.apple.com/en-us/HT212011\nhttps://support.apple.com/en-us/HT212317\nhttps://helpx.adobe.com/security/products/acrobat/apsb20-24.html\nhttps://helpx.adobe.com/security/products/acrobat/apsb20-48.html\nhttps://helpx.adobe.com/security/products/acrobat/apsb20-67.html"

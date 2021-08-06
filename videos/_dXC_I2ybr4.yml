@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Tamas K Lengyel - Fuzzing Linux with Xen'
+language: English
+recordingDate: 1628184905
+description: "Last year we've successfully upstreamed a new feature to Xen that allows high-speed fuzzing of virtual machines (VMs) using VM-forking. Recently through collaboration with the Xen community external monitoring of VMs via Intel(r) Processor Trace has also been upstreamed. Combined with the native Virtual Machine Introspection (VMI) capability Xen now provides a unique platform for fuzzing and binary analysis.\n\nTo illustrate the power of the platform we'll present the details of a real-world fuzzing operation that targeted Linux kernel-modules from an attack-vector that has previously been hard to reach: memory exposed to devices via Direct Memory Access (DMA) for fast I/O. If the input the kernel reads from DMA-exposed memory is malformed or malicious - what could happen?\n\nSo far we discovered: 9 NULL-pointer dereferences; 3 array index out-of-bound accesses; 2 infinite-loops in IRQ context and 2 instances of tricking the kernel into accessing user-memory but thinking it is kernel memory. The bugs have been in Linux for many years and were found in kernel modules used by millions of devices. All bugs are now fixed upstream.\n\nThis talk will walk you through how the bugs were found: what process we went through to identify the right code-locations; how we analyzed the kernel source and how we analyzed the runtime of the kernel with Xen to pinpoint the input points that read from DMA. The talk will explain the steps required to attach a debugger through the hypervisor to collect kernel crash logs and how to perform triaging of bugs via VM-fork execution-replay, a novel technique akin to time-travel debugging. Finally, we'll close with the release of a new open-source tool to perform full-VM taint analysis using Xen and Intel(r) Processor Trace.\n\nREFERENCES:\nhttps://github.com/intel/kernel-fuzzer-for-xen-project\nhttps://www.youtube.com/watch?v=3MYo8ctD_aU"

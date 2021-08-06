@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Can We Double the Node js HTTP Client Throughput?'
+language: English
+recordingDate: 1628191036
+description: "The Node.js HTTP client is a fundamental part of any application, yet many think it cannot be improved. I took this as a challenge and I’m now ready to present a new HTTP client for Node.js, undici, that doubles the throughput of your application The story behind this improvement begins with the birth of TCP/IP and it is rooted in one of the fundamental limitations of networking: head-of-line blocking (HOL blocking). HOL blocking is one of those topics that developers blissfully ignore and yet it deeply impacts the runtime experience of the distributed applications that they build every day. Undici is a HTTP/1.1 client that avoids HOL blocking by using keep-alive and pipelining, resulting in a doubling of your application throughput.\n\n\nPUBLICATION PERMISSIONS:\nOriginal video was published with the Creative Commons Attribution license (reuse allowed). Link: https://www.youtube.com/watch?v=s2GicMw-Y48"

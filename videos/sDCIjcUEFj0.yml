@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Seth Kintigh  - OTA remote code execution on the DEF CON 27 badge via NFMI'
+language: English
+recordingDate: 1628184905
+description: "The DEF CON 27 badge employed an obscure form of wireless communication: Near Field Magnetic Inductance (NFMI). The badges were part of a contest and while poking through the firmware for hints I noticed a buffer overflow flaw. All it required to exploit it was an oversized packet… via a chip with no datasheet and no documentation on the proprietary protocol. Thus started a 2 year odyssey.\n\nI used Software Defined Radio tools to study the signal’s modulations. I built a receiver in GNURadio and Python to convert signals into symbols, symbols obfuscated by a pattern that I had to deduce while only controlling a fraction of the bytes. Data was encoded in those symbols using proprietary convolution for even bits and Trellis Code Modulation for odd bits. I then reversed their bizarre CRC and wrote tools to craft and send packets. Using those tools I chained bugs in 2 chips and remotely crashed the badge. However, limitations in the NFMI protocol made more sophisticated attacks impossible.\n\nBut after a year and a half invested, I was not about to give up. I soldered leads to middle layer traces, extracted and reverse engineered the NFMI firmware, fixed their protocol, and patched a badge FW to patch the NFMI FW. At long last I achieved what may be the world’s first, over-the-air, remote code exploit via NFMI."
