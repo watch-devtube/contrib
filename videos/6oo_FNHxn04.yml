@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Accelerating Encrypted Deduplication via SGX'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - Accelerating Encrypted Deduplication via SGX        \n\nYanjing Ren and Jingwei Li, University of Electronic Science and Technology of China; Zuoru Yang and Patrick P. C. Lee, The Chinese University of Hong Kong; Xiaosong Zhang, University of Electronic Science and Technology of China\n\nEncrypted deduplication preserves the deduplication effectiveness on encrypted data and is attractive for outsourced storage. However, existing encrypted deduplication approaches build on expensive cryptographic primitives that incur substantial performance slowdown. We present SGXDedup, which leverages Intel SGX to speed up encrypted deduplication based on server-aided message-locked encryption (MLE), while preserving security via SGX. SGXDedup implements a suite of secure interfaces to execute MLE key generation and proof-of ownership operations in SGX enclaves. It also proposes various designs to support secure and efficient enclave operations. Evaluation on synthetic and real-world workloads shows that SGXDedup achieves significant speedups and maintains high bandwidth and storage savings.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

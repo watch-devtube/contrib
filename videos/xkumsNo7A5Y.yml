@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - STORM: Refinement Types for Secure Web Applications'
+language: English
+recordingDate: 1628292993
+description: "STORM: Refinement Types for Secure Web Applications\n\nNico Lehmann and Rose Kunkel, UC San Diego; Jordan Brown, Independent; Jean Yang, Akita Software; Niki Vazou, IMDEA Software Institute; Nadia Polikarpova, Deian Stefan, and Ranjit Jhala, UC San Diego\n\nWe present Storm, a web framework that allows developers to build MVC applications with compile-time enforcement of centrally specified data-dependent security policies. Storm ensures security using a Security Typed ORM that refines the (type) abstractions of each layer of the MVC API with logical assertions that describe the data produced and consumed by the underlying operation and the users allowed access to that data. To evaluate the security guarantees of Storm, we build a formally verified reference implementation using the Labeled IO (LIO) IFC framework. We present case studies and end-to-end applications that show how Storm lets developers specify diverse policies while centralizing the trusted code to under 1% of the application, and statically enforces security with modest type annotation overhead, and no run-time cost.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

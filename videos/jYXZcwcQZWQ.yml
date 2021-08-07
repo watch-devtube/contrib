@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - DART: A Scalable and Adaptive Edge Stream Processing Engine'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - DART: A Scalable and Adaptive Edge Stream Processing Engine\n\nPinchao Liu, Florida International University; Dilma Da Silva, Texas A&amp;M University; Liting Hu, Virginia Tech\n\nMany Internet of Things (IoT) applications are time-critical and dynamically changing. However, traditional data processing systems (e.g., stream processing systems, cloud-based IoT data processing systems, wide-area data analytics systems) are not well-suited for these IoT applications. These systems often do not scale well with a large number of concurrently running IoT applications, do not support low-latency processing under limited computing resources, and do not adapt to the level of heterogeneity and dynamicity commonly present at edge environments. This suggests a need for a new edge stream processing system that advances the stream processing paradigm to achieve efficiency and flexibility under the constraints presented by edge computing architectures.We present Dart, a scalable and adaptive edge stream processing engine that enables fast processing of a large number of concurrent running IoT applications' queries in dynamic edge environments. The novelty of our work is the introduction of a dynamic dataflow abstraction by leveraging distributed hash table (DHT) based peer-to-peer (P2P) overlay networks, which can automatically place, chain, and scale stream operators to reduce query latency, adapt to edge dynamics, and recover from failures. We show analytically and empirically that Dart outperforms Storm and EdgeWise on query latency and significantly improves scalability and adaptability when processing a large number of real-world IoT stream applications' queries. Dart significantly reduces application deployment setup times, becoming the first streaming engine to support DevOps for IoT applications on edge platforms.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

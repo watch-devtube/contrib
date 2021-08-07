@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Prediction-Based Power Oversubscription in Cloud Platforms'
+language: English
+recordingDate: 1628292993
+description: "USENIX ATC '21 - Prediction-Based Power Oversubscription in Cloud Platforms\n\nAlok Gautam Kumbhare, Reza Azimi, Ioannis Manousakis, Anand Bonde, Felipe Frujeri, Nithish Mahalingam, Pulkit A. Misra, Seyyed Ahmad Javadi, Bianca Schroeder, Marcus Fontoura, and Ricardo Bianchini, Microsoft Research and Microsoft Azure\n\nPrior work has used power capping to shave rare power peaks and add more servers to a datacenter, thereby oversubscribing its resources and lowering capital costs. This works well when the workloads and their server placements are known. Unfortunately, these factors are unknown in public clouds, forcing providers to limit the oversubscription and thus the potential performance loss from power capping. In this paper, we argue that providers can use predictions of workload performance criticality and virtual machine (VM) resource utilization to increase oversubscription. This poses many challenges, such as identifying the performance-critical workloads from opaque VMs, creating support for criticality-aware power management, and increasing oversubscription while limiting the impact of capping. We address these challenges for the hardware and software of Microsoft Azure. The results show that we enable a 2x increase in oversubscription with minimum impact to critical workloads. We describe lessons from deploying our work in production.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

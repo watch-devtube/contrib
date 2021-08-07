@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - Polyjuice: High-Performance Transactions via Learned Concurrency Control'
+language: English
+recordingDate: 1628293125
+description: "Polyjuice: High-Performance Transactions via Learned Concurrency Control\n\nJiachen Wang, Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University; Shanghai AI Laboratory; Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, China; Ding Ding, Department of Computer Science, New York University; Huan Wang, Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University; Shanghai AI Laboratory; Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, China; Conrad Christensen, Department of Computer Science, New York University; Zhaoguo Wang and Haibo Chen, Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University; Shanghai AI Laboratory; Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, China; Jinyang Li, Department of Computer Science, New York University\n\nConcurrency control algorithms are key determinants of the performance of in-memory databases. Existing algorithms are designed to work well for certain workloads. For example, optimistic concurrency control (OCC) is better than two-phase-locking (2PL) under low contention, while the converse is true under high contention.\n\nTo adapt to different workloads, prior works mix or switch between a few known algorithms using manual insights or simple heuristics. We propose a learning-based framework that instead explicitly optimizes concurrency control via offline training to maximize performance. Instead of choosing among a small number of known algorithms, our approach searches in a \"policy space\" of fine-grained actions, resulting in novel algorithms that can outperform existing algorithms by specializing to a given workload.\n\nWe build Polyjuice based on our learning framework and evaluate it against several existing algorithms. Under different configurations of TPC-C and TPC-E, Polyjuice can achieve throughput numbers higher than the best of existing algorithms by 15% to 56%.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

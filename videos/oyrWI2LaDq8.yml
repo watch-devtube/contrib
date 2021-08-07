@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - RainBlock: Faster Transaction Processing in Public Blockchains'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - RainBlock: Faster Transaction Processing in Public Blockchains\n\nSoujanya Ponnapalli, Aashaka Shah, and Souvik Banerjee, University of Texas at Austin; Dahlia Malkhi, Diem Association and Novi Financial; Amy Tai, VMware Research; Vijay Chidambaram, University of Texas at Austin and VMware Research; Michael Wei, VMware Research\n\nWe present RAINBLOCK, a public blockchain that achieves high transaction throughput without modifying the proof-of-work consensus. The chief insight behind RAINBLOCK is that while consensus controls the rate at which new blocks are added to the blockchain, the number of transactions in each block is limited by I/O bottlenecks. Public blockchains like Ethereum keep the number of transactions in each block low so that all participating servers (miners) have enough time to process a block before the next block is created. By removing the I/O bottlenecks in transaction processing, RAINBLOCK allows miners to process more transactions in the same amount of time. RAINBLOCK makes two novel contributions: the RAINBLOCK architecture that removes I/O from the critical path of processing transactions (txs), and the distributed, multi-versioned DSM-TREE data structure that stores the system state efficiently. We evaluate RAINBLOCK using workloads based on public Ethereum traces (including smart contracts). We show that a single RAINBLOCK miner processes 27.4K txs per second (27× higher than a single Ethereum miner). In a geo-distributed setting with four regions spread across three continents, RAINBLOCK miners process 20K txs per second.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

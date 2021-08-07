@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - UniStore: A fault-tolerant marriage of causal and strong consistency'
+language: English
+recordingDate: 1628292750
+description: "USENIX ATC '21 - UniStore: A fault-tolerant marriage of causal and strong consistency\n\nManuel Bravo, Alexey Gotsman, and Borja de Régil, IMDEA Software Institute; Hengfeng Wei, Nanjing University\n\nModern online services rely on data stores that replicate their data across geographically distributed data centers. Providing strong consistency in such data stores results in high latencies and makes the system vulnerable to network partitions. The alternative of relaxing consistency violates crucial correctness properties. A compromise is to allow multiple consistency levels to coexist in the data store. In this paper we present UniStore, the first fault-tolerant and scalable data store that combines causal and strong consistency. The key challenge we address in UniStore is to maintain liveness despite data center failures: this could be compromised if a strong transaction takes a dependency on a causal transaction that is later lost because of a failure. UniStore ensures that such situations do not arise while paying the cost of durability for causal transactions only when necessary. We evaluate UniStore on Amazon EC2 using both microbenchmarks and a realistic RUBiS benchmark. Our results show that UniStore effectively and scalably combines causal and strong consistency.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

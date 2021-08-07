@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes...'
+language: English
+recordingDate: 1628292853
+description: "USENIX ATC '21 - FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute\n\nAo Wang, George Mason University; Shuai Chang, Alibaba Group; Huangshi Tian, Hong Kong University of Science and Technology; Hongqi Wang, Haoran Yang, Huiba Li, and Rui Du, Alibaba Group; Yue Cheng, George Mason University\n\nServerless computing, or Function-as-a-Service (FaaS), enables a new way of building and scaling applications by allowing users to deploy fine-grained functions while providing fully-managed resource provisioning and auto-scaling. Custom FaaS container support is gaining traction as it enables better control over OSes, versioning, and tooling for modernizing FaaS applications. However, providing rapid container provisioning introduces non-trivial challenges for FaaS providers, since container provisioning is costly, and real-world FaaS workloads exhibit highly dynamic patterns. In this paper, we design FaaSNet, a highly-scalable middleware system for accelerating FaaS container provisioning. FaaSNet is driven by the workload and infrastructure requirements of the FaaS platform at one of the world's largest cloud providers, Alibaba Cloud Function Compute.FaaSNet enables scalable container provisioning via a lightweight, adaptive function tree (FT) structure. FaaSNet uses an I/O efficient, on-demand fetching mechanism to further reduce provisioning costs at scale. We implement and integrate FaaSNet in Alibaba Cloud Function Compute. Evaluation results show that FaaSNet: (1) finishes provisioning 2,500 function containers on 1,000 virtual machines in 8.3 seconds, (2) scales 13.4× and 16.3× faster than Alibaba Cloud's current FaaS platform and a state-of-the-art P2P container registry (Kraken), respectively, and (3) sustains a bursty workload using 75.2% less time than an optimized baseline.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

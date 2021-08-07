@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Faastlane: Accelerating Function-as-a-Service Workflows'
+language: English
+recordingDate: 1628292750
+description: "USENIX ATC '21 - Faastlane: Accelerating Function-as-a-Service Workflows\n\nSwaroop Kotni, Ajay Nayak, Vinod Ganapathy, and Arkaprava Basu, Indian Institute of Science\n\nIn FaaS workflows, a set of functions implement application logic by interacting and exchanging data among themselves. Contemporary FaaS platforms execute each function of a workflow in separate containers. When functions in a workflow interact, the resulting latency slows execution.\n\nFaastlane minimizes function interaction latency by striving to execute functions of a workflow as threads within a single process of a container instance, which eases data sharing via simple load/store instructions. For FaaS workflows that operate on sensitive data, Faastlane provides lightweight thread-level isolation domains using Intel Memory Protection Keys (MPK). While threads ease sharing, implementations of languages such as Python and Node.js (widely used in FaaS applications) disallow concurrent execution of threads. Faastlane dynamically identifies opportunities for parallelism in FaaS workflows and fork processes (instead of threads) or spawns new container instances to concurrently execute parallel functions of a workflow.\n\nWe implemented Faastlane atop Apache OpenWhisk and show that it accelerates workflow instances by up to 15X, and reduces function interaction latency by up to 99.95% compared to OpenWhisk.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

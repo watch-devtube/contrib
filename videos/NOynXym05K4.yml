@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - GoJournal: a verified, concurrent, crash-safe journaling system'
+language: English
+recordingDate: 1628292993
+description: "GoJournal: a verified, concurrent, crash-safe journaling system\n\nTej Chajed, MIT CSAIL; Joseph Tassarotti, Boston College; Mark Theng, MIT CSAIL; Ralf Jung, MPI-SWS; M. Frans Kaashoek and Nickolai Zeldovich, MIT CSAIL\n\nThe main contribution of this paper is GoJournal, a verified, concurrent journaling system that provides atomicity for storage applications, together with Perennial 2.0, a framework for formally specifying and verifying concurrent crash-safe systems. GoJournal’s goal is to bring the advantages of journaling for code to specs and proofs. Perennial 2.0 makes this possible by introducing several techniques to formalize GoJournal’s specification and to manage the complexity in the proof of GoJournal’s implementation. Lifting predicates and crash framing make the specification easy to use for developers, and logically atomic crash specifications allow for modular reasoning in GoJournal, making the proof tractable despite complex concurrency and crash interleavings.\n\nGoJournal is implemented in Go, and Perennial is implemented in the Coq proof assistant. While verifying GoJournal, we found one serious concurrency bug, even though GoJournal has many unit tests. We built a functional NFSv3 server, called GoNFS, to use GoJournal. Performance experiments show that GoNFS provides similar performance (e.g., at least 90% throughput across several benchmarks on an NVMe disk) to Linux’s NFS server exporting an ext4 file system, suggesting that GoJournal is a competitive journaling system. We also verified a simple NFS server using GoJournal’s specs, which confirms that they are helpful for application verification: a significant part of the proof doesn’t have to consider concurrency and crashes.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

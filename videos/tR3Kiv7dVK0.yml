@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - TCP-Fuzz: Detecting Memory and Semantic Bugs in TCP Stacks with Fuzzing'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - TCP-Fuzz: Detecting Memory and Semantic Bugs in TCP Stacks with Fuzzing\n\nYong-Hao Zou and Jia-Ju Bai, Tsinghua University; Jielong Zhou, Jianfeng Tan, and Chenggang Qin, Ant Group; Shi-Min Hu, Tsinghua University\n\nTCP stacks provide reliable data transmission in network, and thus they should be correctly implemented and well tested to ensure reliability and security. However, testing TCP stacks is difficult. First, a TCP stack accepts packets and system calls that have dependencies between each other, and thus generating effective test cases is challenging. Second, a TCP stack has various complex state transitions, but existing testing approaches target covering states instead of covering state transitions, and thus their testing coverage is limited. Finally, our study of TCP stack commits shows that 87% of bug-fixing commits are related to semantic bugs (such as RFC violations), but existing bug sanitizers can detect only memory bugs not semantic bugs.In this paper, we design a novel fuzzing framework named TCP-Fuzz, to effectively test TCP stacks and detect bugs. TCP-Fuzz consists of three key techniques: (1) a dependency-based strategy that considers dependencies between packets and system calls, to generate effective test cases; (2) a transition-guided fuzzing approach that uses a new coverage metric named branch transition as program feedback, to improve the coverage of state transitions; (3) a differential checker that compares the outputs of multiple TCP stacks for the same inputs, to detect semantic bugs. We have evaluated TCP-Fuzz on five widely-used TCP stacks (TLDK, F-Stack, mTCP, FreeBSD TCP and Linux TCP), and find 56 real bugs (including 8 memory bugs and 48 semantic bugs). 40 of these bugs have been confirmed by related developers.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

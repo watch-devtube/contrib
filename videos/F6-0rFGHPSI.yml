@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Max: A Multicore-Accelerated File System for Flash Storage'
+language: English
+recordingDate: 1628292750
+description: "USENIX ATC '21 - Max: A Multicore-Accelerated File System for Flash Storage\n\nXiaojian Liao, Youyou Lu, Erci Xu, and Jiwu Shu, Department of Computer Science and Technology, Tsinghua University, and Beijing National Research Center for Information Science and Technology (BNRist)\n\nThe bandwidth of flash storage has been surging in recent years. Employing multicores to fully unleash its abundant bandwidth becomes a necessary step towards building high performance storage systems. This paper presents the design and implementation of Max, a multicore-friendly log-structured file system (LFS) for flash storage. With three main techniques, Max systematically improves the scalability of LFS while retaining the flash-friendly design. First, we propose a new reader-writer semaphore to scale the user I/Os with negligible impact on the internal operations of LFS. Second, we introduce file cell to scale the access to in-memory index and cache while delivering concurrency- and flash-friendly on-disk layout. Third, to fully exploit the flash parallelism, we advance the single log design with runtime-independent log partitions, and delay the ordering and consistency guarantees to crash recovery. We implement Max based on the F2FS in the Linux kernel. Evaluations show that Max significantly improves scalability, and achieves an order of magnitude higher throughput than existing Linux file systems.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

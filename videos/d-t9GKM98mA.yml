@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - Optimizing Storage Performance with Calibrated Interrupts'
+language: English
+recordingDate: 1628293125
+description: "Optimizing Storage Performance with Calibrated Interrupts\n\nAmy Tai, VMware Research; Igor Smolyar, Technion — Israel Institute of Technology; Michael Wei, VMware Research; Dan Tsafrir, Technion — Israel Institute of Technology and VMware Research\n\nAfter request completion, an I/O device must decide either to minimize latency by immediately firing an interrupt or to optimize for throughput by delaying the interrupt, anticipating that more requests will complete soon and help amortize the interrupt cost. Devices employ adaptive interrupt coalescing heuristics that try to balance between these opposing goals. Unfortunately, because devices lack the semantic information about which I/O requests are latency-sensitive, these heuristics can sometimes lead to disastrous results.\n\nInstead, we propose addressing the root cause of the heuristics problem by allowing software to explicitly specify to the device if submitted requests are latency-sensitive. The device then \"calibrates\" its interrupts to completions of latency-sensitive requests. We focus on NVMe storage devices and show that it is natural to express these semantics in the kernel and the application and only requires a modest two-bit change to the device interface. Calibrated interrupts increase throughput by up to 35%, reduce CPU consumption by as much as 30%, and achieve up to 37% lower latency when interrupts are coalesced.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

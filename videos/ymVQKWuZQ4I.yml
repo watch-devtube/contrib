@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - SKQ: Event Scheduling for Optimizing Tail Latency in a Traditional OS Kernel'
+language: English
+recordingDate: 1628292750
+description: "USENIX ATC '21 - SKQ: Event Scheduling for Optimizing Tail Latency in a Traditional OS Kernel\n\nSiyao Zhao, Haoyu Gu, and Ali José Mashtizadeh, University of Waterloo\n\nThis paper presents Schedulable Kqueue (SKQ), a new design to FreeBSD Kqueue that improves application tail latency and low-latency throughput. SKQ introduces a new scalable architecture and event scheduling. We provide multiple scheduling policies that improve cache locality and reduce workload imbalance. SKQ also enables applications to prioritize processing latency-sensitive requests over regular requests.\n\nIn the RocksDB benchmark, SKQ reduces tail latency by up to 1022× and extends the low-latency throughput by 27.4×. SKQ also closes the gap between traditional OS kernel networking and a state-of-the-art kernel-bypass networking system by 83.7% for an imbalanced workload.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"
