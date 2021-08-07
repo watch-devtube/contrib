@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and'
+language: English
+recordingDate: 1628292993
+description: "Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads\n\nJohn Thorpe, Yifan Qiao, Jonathan Eyolfson, and Shen Teng, UCLA; Guanzhou Hu, UCLA and University of Wisconsin, Madison; Zhihao Jia, CMU; Jinliang Wei, Google Brain; Keval Vora, Simon Fraser; Ravi Netravali, Princeton University; Miryung Kim and Guoqing Harry Xu, UCLA\n\nA graph neural network (GNN) enables deep learning on structured graph data. There are two major GNN training obstacles: 1) it relies on high-end servers with many GPUs which are expensive to purchase and maintain, and 2) limited memory on GPUs cannot scale to today's billion-edge graphs. This paper presents Dorylus: a distributed system for training GNNs. Uniquely, Dorylus can take advantage of serverless computing to increase scalability at a low cost.\n\nThe key insight guiding our design is computation separation. Computation separation makes it possible to construct a deep, bounded-asynchronous pipeline where graph and tensor parallel tasks can fully overlap, effectively hiding the network latency incurred by Lambdas. With the help of thousands of Lambda threads, Dorylus scales GNN training to billion-edge graphs. Currently, for large graphs, CPU servers offer the best performance-per-dollar over GPU servers. Just using Lambdas on top of CPU servers offers up to 2.75✕ more performance-per-dollar than training only with CPU servers. Concretely, Dorylus is 1.22✕ faster and 4.83✕ cheaper than GPU servers for massive sparse graphs. Dorylus is up to 3.8✕ faster and 10.7✕ cheaper compared to existing sampling-based systems.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

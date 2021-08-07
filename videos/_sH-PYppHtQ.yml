@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Video Analytics with Zero-streaming Cameras'
+language: English
+recordingDate: 1628292993
+description: "USENIX ATC '21 - Video Analytics with Zero-streaming Cameras\n\nMengwei Xu, Peking University/Beijing University of Posts and Telecommunications; Tiantu Xu, Purdue ECE; Yunxin Liu, Institute for AI Industry Research (AIR), Tsinghua University; Felix Xiaozhu Lin, University of Virginia\n\nLow-cost cameras enable powerful analytics. An unexploited opportunity is that most captured videos remain “cold” without being queried. For efficiency, we advocate for these cameras to be zero streaming: capturing videos to local storage and communicating with the cloud only when analytics is requested.How to query zero-streaming cameras efficiently? Our response is a camera/cloud runtime system called DIVA. It addresses two key challenges: to best use limited camera resource during video capture; to rapidly explore massive videos during query execution. DIVA contributes two unconventional techniques. (1) When capturing videos, a camera builds sparse yet accurate landmark frames, from which it learns reliable knowledge for accelerating future queries. (2) When executing a query, a camera processes frames in multiple passes with increasingly more expensive operators. As such, DIVA presents and keeps refining inexact query results throughout the query's execution. On diverse queries over 15 videos lasting 720 hours in total, DIVA runs at more than 100× video realtime and outperforms competitive alternative designs. To our knowledge, DIVA is the first system for querying large videos stored on low-cost remote cameras.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

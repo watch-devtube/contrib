@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Octo: INT8 Training with Loss-aware Compensation and Backward Quantization for Tiny'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - Octo: INT8 Training with Loss-aware Compensation and Backward Quantization for Tiny On-device Learning\n\nQihua Zhou and Song Guo, Hong Kong Polytechnic University; Zhihao Qu, Hohai University; Jingcai Guo, Zhenda Xu, Jiewei Zhang, Tao Guo, and Boyuan Luo, Hong Kong Polytechnic University; Jingren Zhou, Alibaba Group\n\nOn-device learning is an emerging technique to pave the last mile of enabling edge intelligence, which eliminates the limitations of conventional in-cloud computing where dozens of computational capacities and memories are needed. A high-performance on-device learning system requires breaking the constraints of limited resources and alleviating computational overhead. In this paper, we show that employing the 8-bit fixed-point (INT8) quantization in both forward and backward passes over a deep model is a promising way to enable tiny on-device learning in practice. The key to an efficient quantization-aware training method is to exploit the hardware-level enabled acceleration while preserving the training quality in each layer. However, off-the-shelf quantization methods cannot handle the on-device learning paradigm of fixed-point processing. To overcome these challenges, we propose a novel INT8 training method, which optimizes the computation of forward and backward passes via the delicately designed Loss-aware Compensation (LAC) and Parameterized Range Clipping (PRC), respectively. Specifically, we build a new network component, the compensation layer, to automatically counteract the quantization error of tensor arithmetic. We implement our method in Octo, a lightweight cross-platform system for tiny on-device learning. Evaluation on commercial AI chips shows that Octo holds higher training efficiency over state-of-the-art quantization training methods, while achieving adequate processing speedup and memory reduction over the full-precision training.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

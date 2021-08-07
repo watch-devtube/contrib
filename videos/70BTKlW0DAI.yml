@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - MigrOS: Transparent Live-Migration Support for Containerised RDMA Applications'
+language: English
+recordingDate: 1628292993
+description: "USENIX ATC '21 - MigrOS: Transparent Live-Migration Support for Containerised RDMA Applications\n\nMaksym Planeta and Jan Bierbaum, TU Dresden; Leo Sahaya Daphne Antony, AMOLF; Torsten Hoefler, ETH Zürich; Hermann Härtig, TU Dresden\n\nRDMA networks offload packet processing onto specialised circuitry of the network interface controllers (NICs) and bypass the OS to improve network latency and bandwidth. As a consequence, the OS forfeits control over active RDMA connections and loses the possibility to migrate RDMA applications transparently. This paper presents MigrOS, an OS-level architecture for transparent live migration of containerised RDMA applications. MigrOS shows that a set of minimal changes to the RDMA communication protocol reenables live migration without interposing the critical path operations. Our approach requires no changes to the user applications and maintains backwards compatibility at all levels of the network stack. Overall, MigrOS can achieve up to 33% lower network latency in comparison to software-only techniques.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

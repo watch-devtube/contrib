@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated'
+language: English
+recordingDate: 1628293125
+description: "PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections\n\nHaojie Wang, Jidong Zhai, Mingyu Gao, Zixuan Ma, Shizhi Tang, and Liyan Zheng, Tsinghua University; Yuanzhi Li, Carnegie Mellon University; Kaiyuan Rong and Yuanyong Chen, Tsinghua University; Zhihao Jia, Carnegie Mellon University and Facebook\n\nHigh-performance tensor programs are critical for efficiently deploying deep neural network (DNN) models in real-world tasks. Existing frameworks optimize tensor programs by applying fully equivalent transformations, which maintain equivalence on every element of output tensors. This approach misses possible optimization opportunities as transformations that only preserve equivalence on subsets of the output tensors are excluded.\n\nWe propose PET, the first DNN framework that optimizes tensor programs with partially equivalent transformations and automated corrections. PET discovers and applies program transformations that improve computation efficiency but only maintain partial functional equivalence. PET then automatically corrects results to restore full equivalence. We develop rigorous theoretical foundations to simplify equivalence examination and correction for partially equivalent transformations, and design an efficient search algorithm to quickly discover highly optimized programs by combining fully and partially equivalent optimizations at the tensor, operator, and graph levels. Our evaluation shows that PET outperforms existing systems by up to 2.5×, by unlocking previously missed opportunities from partially equivalent transformations.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

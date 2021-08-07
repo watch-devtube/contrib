@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Scaling Large Production Clusters with Partitioned Synchronization'
+language: English
+recordingDate: 1628292852
+description: "USENIX ATC '21 - Scaling Large Production Clusters with Partitioned Synchronization\n\nYihui Feng, Alibaba Group; Zhi Liu, Yunjian Zhao, Tatiana Jin, and Yidi Wu, The Chinese University of Hong Kong; Yang Zhang, Alibaba Group; James Cheng, The Chinese University of Hong Kong; Chao Li and Tao Guan, Alibaba Group\n\nThe scale of computer clusters has grown significantly in recent years. Today, a cluster may have 100 thousand machines and execute billions of tasks, especially short tasks, each day. As a result, the scheduler, which manages resource utilization in a cluster, also needs to be upgraded to work at a much larger scale. However, upgrading the scheduler --- a central system component --- in a large production cluster is a daunting task as we need to ensure the cluster's stability and robustness, e.g., user transparency should be guaranteed, and other cluster components and the existing scheduling policies need to remain unchanged. We investigated existing scheduler designs and found that most cannot handle the scale of our production clusters or may endanger their robustness. We analyzed one most suitable design that follows a shared-state architecture, and its limitations led us to a fine-grained staleness-aware state sharing design, called partitioned synchronization (ParSync). ParSync features the simplicity required for maintaining the robustness of a production cluster, while achieving high scheduling efficiency and quality in scaling. ParSync has been deployed and is running stably in our production clusters.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

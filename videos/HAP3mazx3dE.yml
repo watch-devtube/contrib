@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - XFUSE: An Infrastructure for Running Filesystem Services in User Space'
+language: English
+recordingDate: 1628292750
+description: "USENIX ATC '21 - XFUSE: An Infrastructure for Running Filesystem Services in User Space\n\nQianbo Huai, Windsor Hsu, Jiwei Lu, Hao Liang, Haobo Xu, and Wei Chen, Alibaba Group\n\nImplementing the filesystem in user space reduces development complexity and decreases dependency on the underlying OS platform. Implementing the filesystem at the user level as opposed to inside the OS kernel, however, has traditionally meant lower performance. This performance overhead is increasingly limiting with high performance storage devices based on new persistent memory technology (e.g. 3D XPoint) and advanced networking techniques (e.g. RDMA). User space file systems have also been associated with poor reliability, availability and serviceability (RAS) characteristics. As a result, there is a tendency to consider user space filesystems as prototypes and proof-of-concepts. In this paper, we systematically analyze the concerns with deploying user space filesystem to provide production file storage services. We present XFUSE, a filesystem in user space framework that addresses the performance and RAS concerns, and that enables file storage services to be effectively deployed at the user level. Our performance analysis indicates that XFUSE enables filesystem requests made through standard kernel interfaces to be processed at the user level with latency in the 4 microseconds range, and offers throughput exceeding 8 GB/s.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

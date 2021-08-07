@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - TIPS: Making Volatile Index Structures Persistent with DRAM-NVMM Tiering'
+language: English
+recordingDate: 1628292750
+description: "USENIX ATC '21 - TIPS: Making Volatile Index Structures Persistent with DRAM-NVMM Tiering\n\nR. Madhava Krishnan, Wook-Hee Kim, Xinwei Fu, and Sumit Kumar Monga, Virginia Tech; Hee Won Lee, Samsung Electronics; Minsung Jang, Peraton Labs; Ajit Mathew and Changwoo Min, Virginia Tech\n\nWe propose TIPS – a framework to systematically make volatile indexes persistent. TIPS neither places restrictions on the concurrency model nor requires in-depth knowledge of the volatile index. TIPS relies on novel DRAM-NVMM tiering to support an index-agnostic conversion, durable linearizability and its concurrency model called the tiered concurrency to achieve a good performance, scalability. TIPS proposes a hybrid low overhead logging technique called the UNO logging to guarantee crash consistency and to handle persistent memory leaks across crashes. We converted seven volatile indexes with different concurrency models and the Redis key-value store application using TIPS and evaluated them using YCSB. Our evaluations show that TIPS-enabled indexes outperform the state-of-the-art index conversion techniques PRONTO, NVTraverse, RECIPE, and the NVMM-optimized B+Tree (BzTree, FastFair), Hash (CCEH and Level Hash) and Trie (WOART) indexes by 3-10× while supporting strong consistency and index-agnostic conversion.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

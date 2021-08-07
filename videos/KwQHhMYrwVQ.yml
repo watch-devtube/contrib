@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Naos: Serialization-free RDMA networking in Java'
+language: English
+recordingDate: 1628292993
+description: "USENIX ATC '21 - Naos: Serialization-free RDMA networking in Java\n\nKonstantin Taranov, ETH Zurich; Rodrigo Bruno, INESC-ID / Técnico, ULisboa; Gustavo Alonso and Torsten Hoefler, ETH Zurich\n\nManaged languages such as Java and Scala do not allow developers to directly access heap objects. As a result, to send on-heap data over the network, it has to be explicitly converted to byte streams before sending and converted back to objects after receiving. The technique, also known as object serialization/deserialization, is an expensive procedure limiting the performance of JVM-based distributed systems as it induces additional memory copies and requires data transformation resulting in high CPU and memory bandwidth consumption. This paper presents Naos, a JVM-based technique bypassing heap serialization boundaries that allows objects to be directly sent from a local heap to a remote one with minimal CPU involvement and over RDMA networks. As Naos eliminates the need to copy and transform objects, and enables asynchronous communication, it offers significant speedups compared to state-of-the-art serialization libraries. Naos exposes a simple high level API hiding the complexity of the RDMA protocol that transparently allows JVM-based systems to take advantage of offloaded RDMA networking.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

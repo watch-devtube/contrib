@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Controlling Memory Footprint of Stateful Streaming Graph Processing'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - Controlling Memory Footprint of Stateful Streaming Graph Processing\n\nPourya Vaziri and Keval Vora, Simon Fraser University\n\nWith growing interest in efficiently analyzing dynamic graphs, streaming graph processing systems rely on stateful iterative models where they track the intermediate state as execution progresses in order to incrementally adjust the results upon graph mutation. We observe that the intermediate state tracked by these stateful iterative models significantly increases the memory footprint of these systems, which limits their scalability on large graphs. \n\nIn this paper, we develop memory-efficient stateful iterative models that demand much less memory capacity to efficiently process streaming graphs and deliver the same results as provided by existing stateful iterative models. First, we propose a Selective Stateful Iterative Model where the memory footprint is controlled by selecting a small portion of the intermediate state to be maintained throughout execution. Then, we propose a Minimal Stateful Iterative Model that further reduces the memory footprint by exploiting key properties of graph algorithms. We develop incremental processing strategies for both of our models in order to correctly compute the effects of graph mutations on the final results even when intermediate states are not available. Evaluation shows our memory-efficient models are effective in limiting the memory footprint while still retaining most of the performance benefits of traditional stateful iterative models, hence being able to scale on larger graphs that could not be handled by the traditional models.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - Privacy Budget Scheduling'
+language: English
+recordingDate: 1628293125
+description: "Privacy Budget Scheduling\n\nTao Luo, Mingen Pan, Pierre Tholoniat, Asaf Cidon, and Roxana Geambasu, Columbia University; Mathias Lécuyer, Microsoft Research\n\nMachine learning (ML) models trained on personal data have been shown to leak information about users. Differential privacy (DP) enables model training with a guaranteed bound on this leakage. Each new model trained with DP increases the bound on data leakage and can be seen as consuming part of a global privacy budget that should not be exceeded. This budget is a scarce resource that must be carefully managed to maximize the number of successfully trained models.\n\nWe describe PrivateKube, an extension to the popular Kubernetes datacenter orchestrator that adds privacy as a new type of resource to be managed alongside other traditional compute resources, such as CPU, GPU, and memory. The abstractions we design for the privacy resource mirror those defined by Kubernetes for traditional resources, but there are also major differences. For example, traditional compute resources are replenishable while privacy is not: a CPU can be regained after a model finishes execution while privacy budget cannot. This distinction forces a re-design of the scheduler. We present DPF (Dominant Private Block Fairness) –a variant of the popular Dominant Resource Fairness (DRF) algorithm–that is geared toward the non-replenishable privacy resource but enjoys similar theoretical properties as DRF.\n\nWe evaluate PrivateKube and DPF on microbenchmarks and an ML workload on Amazon Reviews data. Compared to existing baselines, DPF allows training more models under the same global privacy guarantee. This is especially true for DPF over Rényi DP, a highly composable form of DP.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

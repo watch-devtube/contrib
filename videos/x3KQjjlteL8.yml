@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - RIFF: Reduced Instruction Footprint for Coverage-Guided Fuzzing'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - RIFF: Reduced Instruction Footprint for Coverage-Guided Fuzzing\n\nMingzhe Wang, Jie Liang, Chijin Zhou, and Yu Jiang, Tsinghua University; Rui Wang, Capital Normal University; Chengnian Sun, Waterloo University; Jiaguang Sun, Tsinghua University\n\nCoverage-guided fuzzers use program coverage measurements to explore different program paths efficiently. The coverage pipeline consists of runtime collection and post-execution processing procedures. First, the target program executes instrumentation code to collect coverage information. Then the fuzzer performs an expensive analysis on the collected data, yet most program executions lead to no increases in coverage. Inefficient implementations of these steps significantly reduce the fuzzer's overall throughput.In this paper, we propose RIFF, a highly efficient program coverage measurement mechanism to reduce fuzzing overhead. For the target program, RIFF moves computations originally done at runtime to instrumentation-time through static program analysis, thus reducing instrumentation code to a bare minimum. For the fuzzer, RIFF processes coverage with different levels of granularity and utilizes vector instructions to improve throughput.We implement RIFF in state-of-the-art fuzzers such as AFL and MOpt and evaluate its performance on real-world programs in Google's FuzzBench and fuzzer-test-suite. The results show that RIFF improves coverage measurement efficiency of fuzzers by 23× and 6× during runtime collection and post-execution processing, respectively. As a result, the fuzzers complete 147% more executions, and use only 6.53 hours to reach the 24-hour coverage of baseline fuzzers on average.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

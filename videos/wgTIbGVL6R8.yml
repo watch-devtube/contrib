@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - An Off-The-Chain Execution Environment for Scalable Testing and Profiling...'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - An Off-The-Chain Execution Environment for Scalable Testing and Profiling of Smart Contracts\n\nYeonsoo Kim and Seongho Jeong, Yonsei University; Kamil Jezek, The University of Sydney; Bernd Burgstaller, Yonsei University; Bernhard Scholz, The University of Sydney\n\nSmart contracts in Ethereum are executable programs deployed on the blockchain, which require a client for their execution. When a client executes a smart contract, a world state containing contract storage and account details is changed in a consistent fashion. Hence, the execution of smart contracts must be sequential to ensure a deterministic representation of the world state. Due to recent growth, the world state has been bloated, making testing and profiling of Ethereum transactions at scale very difficult.\n\nIn this work, we introduce a novel off-the-chain execution environment for scalable testing and profiling of smart contracts. We disconnect transactions from the world state by using substates to execute the transactions in isolation and in parallel. Compared to an Ethereum client, our execution environment reduces the space required to replay the transactions of the initial 9 M blocks from 700.11 GB to 285.39 GB. We increased throughput from 620.62 tx/s to 2,817.98 tx/s (single-threaded) and 30,168.76 tx/s (scaled to 44 cores). We demonstrate the scalability of our off-the-chain execution environment for hard-fork testing, metric evaluations of smart contracts, and contract fuzzing.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

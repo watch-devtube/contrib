@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Refurbish Your Training Data: Reusing Partially Augmented Samples...'
+language: English
+recordingDate: 1628292852
+description: "USENIX ATC '21 - Refurbish Your Training Data: Reusing Partially Augmented Samples for Faster Deep Neural Network Training\n\nGyewon Lee, Seoul National University and FriendliAI; Irene Lee, Georgia Institute of Technology; Hyeonmin Ha, Kyunggeun Lee, and Hwarim Hyun, Seoul National University; Ahnjae Shin and Byung-Gon Chun, Seoul National University and FriendliAI\n\nData augmentation is a widely adopted technique for improving the generalization of deep learning models. It provides additional diversity to the training samples by applying random transformations. Although it is useful, data augmentation often suffers from heavy CPU overhead, which can degrade the training speed. To solve this problem, we propose data refurbishing, a novel sample reuse mechanism that accelerates deep neural network training while preserving model generalization. Instead of considering data augmentation as a black-box operation, data refurbishing splits it into the partial and final augmentation. It reuses partially augmented samples to reduce CPU computation while further transforming them with the final augmentation to preserve the sample diversity obtained by data augmentation. We design and implement a new data loading system, Revamper, to realize data refurbishing. It maximizes the overlap between CPU and deep learning accelerators by keeping the CPU processing time of each training step constant. Our evaluation shows that Revamper can accelerate the training of computer vision models by 1.03×–2.04× while maintaining comparable accuracy.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

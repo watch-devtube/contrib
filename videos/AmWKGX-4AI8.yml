@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - P3: Distributed Deep Graph Learning at Scale'
+language: English
+recordingDate: 1628292993
+description: "P3: Distributed Deep Graph Learning at Scale\n\nSwapnil Gandhi and Anand Padmanabha Iyer, Microsoft Research\n\nGraph Neural Networks (GNNs) have gained significant attention in the recent past, and become one of the fastest growing subareas in deep learning. While several new GNN architectures have been proposed, the scale of real-world graphs—in many cases billions of nodes and edges—poses challenges during model training. In this paper, we present P3, a system that focuses on scaling GNN model training to large real-world graphs in a distributed setting. We observe that scalability challenges in training GNNs are fundamentally different from that in training classical deep neural networks and distributed graph processing; and that commonly used techniques, such as intelligent partitioning of the graph do not yield desired results. Based on this observation, P3 proposes a new approach for distributed GNN training. Our approach effectively eliminates high communication and partitioning overheads, and couples it with a new pipelined push-pull parallelism based execution strategy for fast model training. P3 exposes a simple API that captures many different classes of GNN architectures for generality. When further combined with a simple caching strategy, our evaluation shows that P3 is able to outperform existing state-of-the-art distributed GNN frameworks by up to 7✕.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - MAGE: Nearly Zero-Cost Virtual Memory for Secure Computation'
+language: English
+recordingDate: 1628293125
+description: "MAGE: Nearly Zero-Cost Virtual Memory for Secure Computation\n\nSam Kumar, David E. Culler, and Raluca Ada Popa, University of California, Berkeley\n\nSecure Computation (SC) is a family of cryptographic primitives for computing on encrypted data in single-party and multi-party settings. SC is being increasingly adopted by industry for a variety of applications. A significant obstacle to using SC for practical applications is the memory overhead of the underlying cryptography. We develop MAGE, an execution engine for SC that efficiently runs SC computations that do not fit in memory. We observe that, due to their intended security guarantees, SC schemes are inherently oblivious—their memory access patterns are independent of the input data. Using this property, MAGE calculates the memory access pattern ahead of time and uses it to produce a memory management plan. This formulation of memory management, which we call memory programming, is a generalization of paging that allows MAGE to provide a highly efficient virtual memory abstraction for SC. MAGE outperforms the OS virtual memory system by up to an order of magnitude, and in many cases, runs SC computations that do not fit in memory at nearly the same speed as if the underlying machines had unbounded physical memory to fit the entire computation.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

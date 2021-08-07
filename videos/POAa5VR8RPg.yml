@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Avocado: A Secure In-Memory Distributed Storage System'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - Avocado: A Secure In-Memory Distributed Storage System\n\nMaurice Bailleu, Dimitra Giantsidi, and Vasilis Gavrielatos, University of Edinburgh; Do Le Quoc, Huawei Research; Vijay Nagarajan, University of Edinburgh; Pramod Bhatotia, University of Edinburgh and TU Munich\n\nWe introduce Avocado, a secure in-memory distributed storage system that provides strong security, fault-tolerance, consistency (linearizability) and performance for untrusted cloud environments. Avocado achieves these properties based on TEEs, which, however, are primarily designed for securing limited physical memory (enclave) within a single-node system. Avocado overcomes this limitation by extending the trust of a secure single-node enclave to the distributed environment over an untrusted network, while ensuring that replicas are kept consistent and fault-tolerant in a malicious environment. To achieve these goals, we design and implement Avocado underpinning on the cross-layer contributions involving the network stack, the replication protocol, scalable trust establishment, and memory management. Avocado is practical: In comparison to BFT, Avocado provides confidentiality with fewer replicas and is significantly faster—4.5× to 65× for YCSB read and write heavy workloads, respectively.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

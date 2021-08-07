@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning'
+language: English
+recordingDate: 1628293125
+description: "Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning\n\nAurick Qiao, Petuum, Inc. and Carnegie Mellon University; Sang Keun Choe and Suhas Jayaram Subramanya, Carnegie Mellon University; Willie Neiswanger, Petuum, Inc. and Carnegie Mellon University; Qirong Ho, Petuum, Inc.; Hao Zhang, Petuum, Inc. and UC Berkeley; Gregory R. Ganger, Carnegie Mellon University; Eric P. Xing, MBZUAI, Petuum, Inc., and Carnegie Mellon University\n\nPollux improves scheduling performance in deep learning (DL) clusters by adaptively co-optimizing inter-dependent factors both at the per-job level and at the cluster-wide level. Most existing schedulers expect users to specify the number of resources for each job, often leading to inefficient resource use. Some recent schedulers choose job resources for users, but do so without awareness of how DL training can be re-optimized to better utilize the provided resources.\n\nPollux simultaneously considers both aspects. By monitoring the status of each job during training, Pollux models how their goodput (a novel metric we introduce that combines system throughput with statistical efficiency) would change by adding or removing resources. Leveraging these information, Pollux dynamically (re-)assigns resources to improve cluster-wide goodput, while respecting fairness and continually optimizing each DL job to better utilize those resources.\n\nIn experiments with real DL jobs and with trace-driven simulations, Pollux reduces average job completion times by 37-50% relative to state-of-the-art DL schedulers, even when they are provided with ideal resource and training configurations for every job. Pollux promotes fairness among DL jobs competing for resources based on a more meaningful measure of useful job progress, and reveals a new opportunity for reducing DL cost in cloud environments. Pollux is implemented and publicly available as part of an open-source project at https://github.com/petuum/adaptdl.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - LODIC: Logical Distributed Counting for Scalable File Access'
+language: English
+recordingDate: 1628292750
+description: "USENIX ATC '21 - LODIC: Logical Distributed Counting for Scalable File Access\n\nJeoungahn Park, KAIST; Taeho Hwang, Hanyang University; Jongmoo Choi, Dankook University; Changwoo Min, Virginia Tech; Youjip Won, KAIST\n\nWe develop a memory-efficient manycore-scalable distributed reference counter for scalable file access, Logical Distributed Counting (LODIC). In Logical Distributed Counting, we propose to allocate the local counter on a per-process basis. Our process-centric counter design saves the kernel from the excessive memory pressure and the counter query latency issues in the existing per-core based distributed counting schemes. The logical distributed counting is designed to dynamically incorporate the three characteristics for reference counting: i) the population of the object, ii) the reference brevity, and iii) the degree of sharing. The key ingredients of the logical distributed counting are Memory mapping, Counter Embedding, and Process-space based reverse mapping. Via mapping a file region to the process address space, LODIC can allocate the local counter at the process address space. With Counter Embedding, the logical distributed counting defines the local counters without the significant changes in the existing kernel code and without introducing significant memory overhead for the local counters. Exploiting the virtual memory segment allocation algorithm of the existing Linux kernel, the process-space based reverse mapping locates the local counter of the physical page without the substantial overhead. Logical Distributed Counting increases the throughput by 65× against stock Linux in reading the shared file block. LODIC exhibits as good performance as the ideal scalable reference counter when deployed in the RocksDB (key value storage) and NGINX (web server) applications.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

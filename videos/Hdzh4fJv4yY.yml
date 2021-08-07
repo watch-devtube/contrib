@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - ZeRO-Offload: Democratizing Billion-Scale Model Training'
+language: English
+recordingDate: 1628292852
+description: "USENIX ATC '21 - ZeRO-Offload: Democratizing Billion-Scale Model Training\n\nJie Ren, UC Merced; Samyam Rajbhandari, Reza Yazdani Aminabadi, and Olatunji Ruwase, Microsoft; Shuangyan Yang, UC Merced; Minjia Zhang, Microsoft; Dong Li, UC Merced; Yuxiong He, Microsoft\n\nLarge-scale model training has been a playing ground for a limited few requiring complex model refactoring and access to prohibitively expensive GPU clusters. ZeRO-Offload changes the large model training landscape by making large model training accessible to nearly everyone. It can train models with over 13 billion parameters on a single GPU, a 10x increase in size compared to popular framework such as PyTorch, and it does so without requiring any model change from the data scientists or sacrificing computational efficiency.\n\nZeRO-Offload enables large model training by offloading data and compute to CPU. To preserve compute efficiency, it is designed to minimize the data movement to/from GPU, and reduce CPU compute time while maximizing memory savings on GPU. As a result, ZeRO-Offload can achieve 40 TFlops/GPU on a single NVIDIA V100 GPU for 10B parameter model compared to 30TF using PyTorch alone for a 1.4B parameter model, the largest that can be trained without running out of memory. ZeRO-Offload is also designed to scale on multiple-GPUs when available, offering near linear speedup on up to 128 GPUs. Additionally, it can work together with model parallelism to train models with over 70 billion parameters on a single DGX-2 box, a 4.5x increase in model size compared to using model parallelism alone.\n\nBy combining compute and memory efficiency with ease-of-use, ZeRO-Offload democratizes large-scale model training making it accessible to even data scientists with access to just a single GPU.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

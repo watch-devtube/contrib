@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - MLEE: Effective Detection of Memory Leaks on Early-Exit Paths in OS Kernels'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - MLEE: Effective Detection of Memory Leaks on Early-Exit Paths in OS Kernels\n\nWenwen Wang, University of Georgia\n\nMemory leaks in operating system (OS) kernels can cause critical performance and security issues. However, it is quite challenging to detect memory leaks due to the inherent complexity and large-scale code base of real-world OS kernels. In this work, inspired by the observation that software bugs are often hidden in rarely-tested program paths, we focus on detecting memory leaks on early-exit (E-E) paths in OS kernels. To this end, we conduct a systematic study of memory management operations involved on E-E paths in OS kernels. Based on the findings, we design a novel leak detector for OS kernels: MLEE, which intelligently discovers memory leaks on E-E paths by cross-checking the presence of memory deallocations on different E-E paths and normal paths. MLEE successfully reports 120 new memory leak bugs in the Linux kernel. It is the first time these memory leaks are uncovered by a leak detector for OS kernels.View the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions\""

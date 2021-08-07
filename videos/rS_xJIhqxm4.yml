@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - One-sided RDMA-Conscious Extendible Hashing for Disaggregated Memory'
+language: English
+recordingDate: 1628292993
+description: "USENIX ATC '21 - One-sided RDMA-Conscious Extendible Hashing for Disaggregated Memory\n\nPengfei Zuo, Jiazhao Sun, Liu Yang, and Shuangwu Zhang, Huawei Cloud; Yu Hua, Huazhong University of Science and Technology\n\nMemory disaggregation is a promising technique in datacenters with the benefit of improving resource utilization, failure isolation, and elasticity. Hashing indexes have been widely used to provide fast lookup services in distributed memory systems. However, traditional hashing indexes become inefficient for disaggregated memory since the computing power in the memory pool is too weak to execute complex index requests. To provide efficient indexing services in disaggregated memory scenarios, this paper proposes RACE hashing, a one-sided RDMA-Conscious Extendible hashing index with lock-free remote concurrency control and efficient remote resizing. RACE hashing enables all index operations to be efficiently executed by using only one-sided RDMA verbs without involving any compute resource in the memory pool. To support remote concurrent access with high performance, RACE hashing leverages a lock-free remote concurrency control scheme to enable different clients to concurrently operate the same hashing index in the memory pool in a lock-free manner. To resize the hash table with low overheads, RACE hashing leverages an extendible remote resizing scheme to reduce extra RDMA accesses caused by extendible resizing and allow concurrent request execution during resizing. Extensive experimental results demonstrate that RACE hashing outperforms state-of-the-art distributed in-memory hashing indexes by 1.4 - 13.7× in YCSB hybrid workloads.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

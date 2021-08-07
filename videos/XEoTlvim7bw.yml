@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - SANRAZOR: Reducing Redundant Sanitizer Checks in C/C++ Programs'
+language: English
+recordingDate: 1628292993
+description: "SANRAZOR: Reducing Redundant Sanitizer Checks in C/C++ Programs\n\nJiang Zhang, University of Southern California; Shuai Wang, HKUST; Manuel Rigger, Pinjia He, and Zhendong Su, ETH Zurich\n\nSanitizers detect unsafe actions such as invalid memory accesses by inserting checks that are validated during a program’s execution. Despite their extensive use for debugging and vulnerability discovery, sanitizer checks often induce a high runtime cost. One important reason for the high cost is, as we observe in this paper, that many sanitizer checks are redundant — the same safety property is repeatedly checked — leading to unnecessarily wasted computing resources. To help more profitably utilize sanitizers, we introduce SanRazor, a practical tool aiming to effectively detect and remove redundant sanitizer checks. SanRazor adopts a novel hybrid approach — it captures both dynamic code coverage and static data dependencies of checks, and uses the extracted information to perform a redundant check analysis. Our evaluation on the SPEC benchmarks shows that SanRazor can reduce the overhead of sanitizers significantly, from 73.8% to 28.0–62.0% for AddressSanitizer, and from 160.1% to 36.6–124.4% for UndefinedBehaviorSanitizer (depending on the applied reduction scheme). Our further evaluation on 38 CVEs from 10 commonly-used programs shows that SanRazor reduced checks suffice to detect at least 33 out of the 38 CVEs. Furthermore, by combining SanRazor with an existing sanitizer reduction tool ASAP, we show synergistic effect by reducing the runtime cost to only 7.0% with a reasonable tradeoff of security.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Live in the Express Lane'
+language: English
+recordingDate: 1628292852
+description: "USENIX ATC '21 - Live in the Express Lane\n\nPatrick Jahnke, TU Darmstadt and SAP; Vincent Riesop, SAP; Pierre-Louis Roman and Pavel Chuprikov, Università della Svizzera italiana; Patrick Eugster, Università della Svizzera italiana, TU Darmstadt, and Purdue University\n\nWe introduce Express-Lane (X-Lane), a novel system for mitigating interference in data center infrastructure to improve the liveness of coordination services. X-Lane follows a novel design from the ground up to achieve interactions with ultra-low latency in the single-digit microsecond range and jitter in the nanosecond range, while the remaining interaction is treated as usual. To show X-Lane's applicability and genericity we implemented and evaluated two services atop it on commodity hardware in a production environment of SAP SE: a failure detector (X-FD) with detection time under 10 μs and a Raft implementation (X-Raft) with latencies under 20 μs. We further show the smooth integrability of X-Lane services by replacing the replication protocol of Redis with X-Raft, making it strongly consistent while improving latency 18x and write throughput 1.5x.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Differentiated Key-Value Storage Management for Balanced I/O Performance'
+language: English
+recordingDate: 1628292751
+description: "USENIX ATC '21 - Differentiated Key-Value Storage Management for Balanced I/O Performance\n\nYongkun Li and Zhen Liu, University of Science and Technology of China; Patrick P. C. Lee, The Chinese University of Hong Kong; Jiayu Wu, University of Science and Technology of China; Yinlong Xu, Anhui Province Key Laboratory of High Performance Computing, University of Science and Technology of China; Yi Wu, Liu Tang, Qi Liu, and Qiu Cui, PingCAP\n\nModern key-value (KV) stores adopt the LSM-tree as the core data structure for managing KV pairs, but suffer from high write and read amplifications. Existing LSM-tree optimizations often make design trade-offs and are unable to simultaneously achieve high performance in writes, reads, and scans. To resolve the design tensions, we propose DiffKV, which builds on KV separation to carefully manage the ordering for keys and values. DiffKV manages keys using the conventional LSM-tree with fully-sorted ordering (within each level of the LSM-tree), while managing values with partially-sorted ordering with respect to the fully-sorted ordering of keys in a coordinated way for preserving high scan performance. We further propose fine-grained KV separation to differentiate KV pairs by size, so as to realize balanced performance under mixed workloads. Experimental results show that DiffKV can simultaneously achieve the best performance in all aspects among existing LSM-tree-optimized KV stores.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

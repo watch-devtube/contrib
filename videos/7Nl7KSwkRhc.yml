@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Palleon: A Runtime System for Efficient Video Processing toward Dynamic Class Skew'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - Palleon: A Runtime System for Efficient Video Processing toward Dynamic Class Skew\n\nBoyuan Feng, Yuke Wang, Gushu Li, Yuan Xie, and Yufei Ding, University of California, Santa Barbara\n\nOn par with the human classification accuracy, convolutional neural networks (CNNs) have fueled the deployment of many video processing systems on cloud-backed mobile platforms (e.g., cell phones and robotics). Nevertheless, these video processing systems often face a tension between intensive energy consumption from CNNs and limited resources on mobile platforms. To address this tension, we propose to accelerate video processing with a widely-available, but not yet well-explored runtime input-level information, namely class skew. Through such runtime-profiled information, it strives to automatically optimize CNNs toward the time-varying video stream. Specifically, we build Palleon, a runtime system that dynamically adapts and selects a CNN model with the least energy consumption based on the automatically detected class skews, while still achieving the desired accuracy. Extensive evaluations on state-of-the-art CNNs and real-world videos demonstrate that Palleon enables efficient video processing with up to 6.7x energy saving and 7.9x latency reduction.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

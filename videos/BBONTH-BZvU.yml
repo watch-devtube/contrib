@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - Rearchitecting Linux Storage Stack for µs Latency and High Throughput'
+language: English
+recordingDate: 1628293125
+description: "Rearchitecting Linux Storage Stack for µs Latency and High Throughput\n\nJaehyun Hwang and Midhul Vuppalapati, Cornell University; Simon Peter, UT Austin; Rachit Agarwal, Cornell University\n\nThis paper demonstrates that it is possible to achieve μs-scale latency using Linux kernel storage stack, even when tens of latency-sensitive applications compete for host resources with throughput-bound applications that perform read/write operations at throughput close to hardware capacity. Furthermore, such performance can be achieved without any modification in applications, network hardware, kernel CPU schedulers and/or kernel network stack.\n\nWe demonstrate the above using design, implementation and evaluation of blk-switch, a new Linux kernel storage stack architecture. The key insight in blk-switch is that Linux's multi-queue storage design, along with multi-queue network and storage hardware, makes the storage stack conceptually similar to a network switch. blk-switch uses this insight to adapt techniques from the computer networking literature (e.g., multiple egress queues, prioritized processing of individual requests, load balancing, and switch scheduling) to the Linux kernel storage stack.\n\nblk-switch evaluation over a variety of scenarios shows that it consistently achieves μs-scale average and tail latency (at both 99th and 99.9th percentiles), while allowing applications to near-perfectly utilize the hardware capacity.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

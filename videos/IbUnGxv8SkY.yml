@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Boosting Full-Node Repair in Erasure-Coded Storage'
+language: English
+recordingDate: 1628292751
+description: "USENIX ATC '21 - Boosting Full-Node Repair in Erasure-Coded Storage\n\nShiyao Lin, Guowen Gong, and Zhirong Shen, Xiamen University; Patrick P. C. Lee, The Chinese University of Hong Kong; Jiwu Shu, Xiamen University and Tsinghua University\n\nAs a common choice for fault tolerance in today's storage systems, erasure coding is still hampered by the induced substantial traffic in repair. A variety of erasure codes and repair algorithms are designed in recent years to relieve the repair traffic, yet we unveil via careful analysis that they are still plagued by several limitations, which restrict or even negate the performance gains. We present RepairBoost, a scheduling framework that can assist existing linear erasure codes and repair algorithms to boost the full-node repair performance. RepairBoost builds on three design primitives: (i) repair abstraction, which employs a directed acyclic graph to characterize a single-chunk repair process; (ii) repair traffic balancing, which balances the upload and download repair traffic simultaneously; and (iii) transmission scheduling, which carefully dispatches the requested chunks to saturate the most unoccupied bandwidth. Extensive experiments on Amazon EC2 show that RepairBoost can accelerate the repair by 35.0-97.1% for various erasure codes and repair algorithms.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

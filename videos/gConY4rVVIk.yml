@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - Nap: A Black-Box Approach to NUMA-Aware Persistent Memory Indexes'
+language: English
+recordingDate: 1628293125
+description: "Nap: A Black-Box Approach to NUMA-Aware Persistent Memory Indexes\n\nQing Wang, Youyou Lu, Junru Li, and Jiwu Shu, Tsinghua University\n\nWe present Nap, a black-box approach that converts concurrent persistent memory (PM) indexes into NUMA-aware counterparts. Based on the observation that real-world workloads always feature skewed access patterns, Nap introduces a NUMA-aware layer (NAL) on the top of existing concurrent PM indexes, and steers accesses to hot items to this layer. The NAL maintains 1) per-node partial views in PM for serving insert/update/delete operations with failure atomicity and 2) a global view in DRAM for serving lookup operations. The NAL eliminates remote PM accesses to hot items without inducing extra local PM accesses. Moreover, to handle dynamic workloads, Nap adopts a fast NAL switch mechanism. We convert five state-of-the-art PM indexes using Nap. Evaluation on a four-node machine with Optane DC Persistent Memory shows that Nap can improve the throughput by up to 2.3✕ and 1.56✕ under write-intensive and read-intensive workloads, respectively.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - The nanoPU: A Nanosecond Network Stack for Datacenters'
+language: English
+recordingDate: 1628293126
+description: "The nanoPU: A Nanosecond Network Stack for Datacenters\n\nStephen Ibanez, Alex Mallery, Serhat Arslan, and Theo Jepsen, Stanford University; Muhammad Shahbaz, Purdue University; Changhoon Kim and Nick McKeown, Stanford University\n\nWe present the nanoPU, a new NIC-CPU co-design to accelerate an increasingly pervasive class of datacenter applications: those that utilize many small Remote Procedure Calls (RPCs) with very short (μs-scale) processing times. The novel aspect of the nanoPU is the design of a fast path between the network and applications---bypassing the cache and memory hierarchy, and placing arriving messages directly into the CPU register file. This fast path contains programmable hardware support for low latency transport and congestion control as well as hardware support for efficient load balancing of RPCs to cores. A hardware-accelerated thread scheduler makes sub-nanosecond decisions, leading to high CPU utilization and low tail response time for RPCs.\n\nWe built an FPGA prototype of the nanoPU fast path by modifying an open-source RISC-V CPU, and evaluated its performance using cycle-accurate simulations on AWS FPGAs. The wire-to-wire RPC response time through the nanoPU is just 69ns, an order of magnitude quicker than the best-of-breed, low latency, commercial NICs. We demonstrate that the hardware thread scheduler is able to lower RPC tail response time by about 5✕ while enabling the system to sustain 20% higher load, relative to traditional thread scheduling techniques. We implement and evaluate a suite of applications, including MICA, Raft and Set Algebra for document retrieval; and we demonstrate that the nanoPU can be used as a high performance, programmable alternative for one-sided RDMA operations.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

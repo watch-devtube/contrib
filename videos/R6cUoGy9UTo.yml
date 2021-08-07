@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - Hashing Linearity Enables Relative Path Control in Data Centers'
+language: English
+recordingDate: 1628292852
+description: "USENIX ATC '21 - Hashing Linearity Enables Relative Path Control in Data Centers\n\nZhehui Zhang, University of California, Los Angeles; Haiyang Zheng, Jiayao Hu, Xiangning Yu, Chenchen Qi, Xuemei Shi, and Guohui Wang, Alibaba Group\n\nA data center network is an environment with rich path diversity, where a large number of paths are available between end-host pairs across multiple tiers of switches. Traffic is split among these paths using ECMP (Equal-Cost Multi-Path routing) for load balancing and failure handling. Although it has been well studied that ECMP has its limitations in traffic polarization and path ambiguity, it remains the most popular multi-path routing mechanism in data centers because it is stateless, simple, and easy to implement in switch ASICs.\n\nIn this paper, we analyze the ECMP hash algorithms used in today's data center switch ASICs, aiming for lightweight path control solutions that can address the ECMP limitations without any changes to existing data center routing and transport protocols. Contrary to common perceptions about the randomness of ECMP hashing, we reveal the linear property in the hash algorithms (e.g. XOR and CRC) used in widely deployed switch ASICs in data centers. Based on the hashing linearity, we propose relative path control (RePaC), a new lightweight, and easy-to-deploy path control mechanism that can perform on-demand flow migration with deterministic path offsets. We use a few case studies to show that RePaC can be used to achieve orders of magnitude faster failover and better path planning with up to 3 times link utilization gain in hyper-scale data centers.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

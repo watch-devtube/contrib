@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - ASAP: Fast Mobile Application Switch via Adaptive Prepaging'
+language: English
+recordingDate: 1628292993
+description: "USENIX ATC '21 - ASAP: Fast Mobile Application Switch via Adaptive Prepaging\n\nSam Son, Seung Yul Lee, Yunho Jin, and Jonghyun Bae, Seoul National University; Jinkyu Jeong, Sungkyunkwan University; Tae Jun Ham and Jae W. Lee, Seoul National University; Hongil Yoon, Google\n\nWith mobile applications' ever-increasing demands for memory capacity, along with a steady increase in the number of applications running concurrently, memory capacity is becoming a scarce resource on mobile devices. When the memory pressure is high, current mobile OSes often kill application processes that have not been used recently to reclaim memory space. This leads to a long delay when a user relaunches the killed application, which degrades the user experience. Even if this mechanism is disabled to utilize a compression-based in-memory swap mechanism, relaunching the application still incurs a substantial latency penalty as it requires the decompression of compressed anonymous pages and a stream of I/O accesses to retrieve file-backed pages into memory. This paper identifies conventional demand paging as the primary source of this inefficiency and proposes ASAP, a mechanism for fast application switch via adaptive prepaging on mobile devices. ASAP performs prepaging by combining i) high-precision switch footprint estimators for both file-backed and anonymous pages, and ii) efficient implementation of the preparing mechanism to minimize resource waste for CPU cycles and disk bandwidth during an application switch. Our evaluation using eight real-world applications on Google Pixel 4 and Pixel 3a demonstrates that ASAP can reduce the switch time by 22.2% and 28.3% on average, respectively (with a maximum of 33.3% and 35.7%, respectively), over the vanilla android 10.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - NrOS: Effective Replication and Sharing in an Operating System'
+language: English
+recordingDate: 1628293125
+description: "NrOS: Effective Replication and Sharing in an Operating System\n\nAnkit Bhardwaj and Chinmay Kulkarni, University of Utah; Reto Achermann, University of British Columbia; Irina Calciu, VMware Research; Sanidhya Kashyap, EPFL; Ryan Stutsman, University of Utah; Amy Tai and Gerd Zellweger, VMware Research\n\nWriting a correct operating system kernel is notoriously hard. Kernel code requires manual memory management and type-unsafe code and must efficiently handle complex, asynchronous events. In addition, increasing CPU core counts further complicate kernel development. Typically, monolithic kernels share state across cores and rely on one-off synchronization patterns that are specialized for each kernel structure or subsystem. Hence, kernel developers are constantly refining synchronization within OS kernels to improve scalability at the risk of introducing subtle bugs.\n\nWe present NrOS, a new OS kernel with a safer approach to synchronization that runs many POSIX programs. NrOS is primarily constructed as a simple, sequential kernel with no concurrency, making it easier to develop and reason about its correctness. This kernel is scaled across NUMA nodes using node replication, a scheme inspired by state machine replication in distributed systems. NrOS replicates kernel state on each NUMA node and uses operation logs to maintain strong consistency between replicas. Cores can safely and concurrently read from their local kernel replica, eliminating remote NUMA accesses.\n\nOur evaluation shows that NrOS scales to 96 cores with performance that nearly always dominates Linux at scale, in some cases by orders of magnitude, while retaining much of the simplicity of a sequential kernel.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

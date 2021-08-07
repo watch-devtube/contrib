@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - CrystalPerf: Learning to Characterize the Performance of Dataflow Computation...'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis\n\nHuangshi Tian, HKUST; Minchen Yu, HKUST and Huawei Technologies Ltd.; Wei Wang, HKUST\n\nDataflow computation dominates the landscape of big data processing, in which a program is structured as a directed acyclic graph (DAG) of operations. As dataflow computation consumes extensive resources in clusters, making sense of its performance becomes critically important. This, however, can be difficult in practice due to the complexity of DAG execution. In this paper, we propose a new approach that learns to characterize the performance of dataflow computation based on code analysis. Unlike existing performance reasoning techniques, our approach requires no code instrumentation and applies to a wide variety of dataflow frameworks. Our key insight is that the source code of an operation contains learnable syntactic and semantic patterns that reveal how it uses resources. Our approach establishes a performance-resource model that, given a dataflow program, infers automatically how much time each operation has spent on each resource (e.g., CPU, network, disk) from past execution traces and the program source code, using machine learning techniques. We then use the model to predict the program runtime under varying resource configurations. We have implemented our solution as a CLI tool called CrystalPerf. Extensive evaluations in Spark, Flink, and TensorFlow show that CrystalPerf can predict job performance under configuration changes in multiple resources with high accuracy. Real-world case studies further demonstrate that CrystalPerf can accurately detect runtime bottlenecks of DAG jobs, simplifying performance debugging.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

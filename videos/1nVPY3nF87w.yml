@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - GLIST: Towards In-Storage Graph Learning'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - GLIST: Towards In-Storage Graph Learning\n\nCangyuan Li, Ying Wang, Cheng Liu, and Shengwen Liang, SKLCA, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China; University of Chinese Academy of Sciences, Beijing, China; Huawei Li, SKLCA, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China; University of Chinese Academy of Sciences, Beijing, China; Peng Cheng Laboratory, Shenzhen, China; Xiaowei Li, SKLCA, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China; University of Chinese Academy of Sciences, Beijing, China\n\nGraph learning is an emerging technique widely used in diverse applications such as recommender system and medicine design. Real-world graph learning applications typically operate on large attributed graphs with rich information, which do not fit in the memory. Consequently, the graph learning requests have to go across the deep I/O stack and move massive data from storage to host memory, which incurs considerable latency and power consumption. To address this problem, we developed GLIST, an efficient in-storage graph learning system, to process graph learning requests inside SSDs. It has a customized graph learning accelerator implemented in the storage and enables the storage to directly respond to the graph learning requests. Thus, GLIST greatly reduces the data movement overhead in contrast to conventional GPGPU based systems. In addition, GLIST offers a set of high-level graph learning APIs and allows developers to deploy their graph learning service conveniently. Experimental results on an FPGA-based prototype show that GLIST achieves 13.2× and 10.1× average speedup and reduces the power consumption by up to 98.7% and 98.0% respectively on a series of graph learning tasks when compared to CPU and GPU based solutions.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

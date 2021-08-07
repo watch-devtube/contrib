@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - MapperX: Adaptive Metadata Maintenance for Fast Crash Recovery of DM-Cache Based...'
+language: English
+recordingDate: 1628292750
+description: "USENIX ATC '21 - MapperX: Adaptive Metadata Maintenance for Fast Crash Recovery of DM-Cache Based Hybrid Storage Devices\n\nLujia Yin, NUDT; Li Wang, Didi Chuxing; Yiming Zhang, NiceX Lab, NUDT; Yuxing Peng, NUDT\n\nDM-cache is a component of the device mapper of Linux kernel, which has been widely used to map SSDs and HDDs onto higher-level virtual block devices that take fast SSDs as a cache for slow HDDs to achieve high I/O performance at low monetary cost. While enjoying the benefit of persistent caching where SSDs accelerate normal I/O without worrying data loss, the current design of DM-cache suffers from long crash recovery times (at the scale of hours) and low availability. This is because its metadata of dirty bits has to be asynchronously persisted for performance purpose, which consequently causes all cached data on SSDs to be assumed dirty and to be recovered after the system is restarted.\n\nThis paper presents MapperX, a novel extension to DM-cache that uses an on-disk adaptive bit-tree (ABT) to synchronously maintain the metadata of dirty bits in a hierarchical manner. Leveraging spatial locality of block writes, MapperX achieves controlled metadata persistence overhead with fast crash recovery by adaptively adding/deleting leaves in the ABT where different levels represent the status of cached blocks with different granularity. We have implemented MapperX for Linux DM-cache module. Experimental results show that the MapperX based hybrid storage device outperforms the original DM-cache based hybrid device by orders of magnitude in crash recovery times while only introducing negligible metadata persistence overhead.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

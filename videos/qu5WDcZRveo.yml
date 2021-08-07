@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - A Linux Kernel Implementation of the Homa Transport Protocol'
+language: English
+recordingDate: 1628292751
+description: "USENIX ATC '21 - A Linux Kernel Implementation of the Homa Transport Protocol\n\nJohn Ousterhout, Stanford University\n\nHoma/Linux is a Linux kernel module that implements the Homa transport protocol. Measurements of Homa/Linux reconfirm Homa's superior performance compared to TCP and DCTCP. In a cluster benchmark with 40 nodes, Homa/Linux provided lower latency than both TCP and DCTCP for all message sizes; for short messages, Homa's 99th percentile tail latency was 7–83x lower than TCP and DCTCP. The benchmarks also show that Homa has eliminated network congestion as a significant performance limitation. Both tail latency and throughput are now limited by software overheads, particularly software congestion caused by imperfect load balancing of the protocol stack across cores. Another factor of 5–10x in performance can be achieved if software overheads can be eliminated in the future.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"

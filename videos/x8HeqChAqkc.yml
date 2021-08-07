@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'OSDI ''21 - Modernizing File System through In-Storage Indexing'
+language: English
+recordingDate: 1628293125
+description: "Modernizing File System through In-Storage Indexing\n\nJinhyung Koo, Junsu Im, Jooyoung Song, and Juhyung Park, DGIST; Eunji Lee, Soongsil University; Bryan S. Kim, Syracuse University; Sungjin Lee, DGIST\n\nWe argue that a key-value interface between a file system and an SSD is superior to the legacy block interface by presenting KEVIN. KEVIN combines a fast, lightweight, and POSIX compliant file system with a key-value storage device that performs in-storage indexing. We implement a variant of a log-structured merge tree in the storage device that not only indexes file objects, but also supports transactions and manages physical storage space. As a result, the design of a file system with respect to space management and crash consistency is simplified, requiring only 10.8K LOC for full functionality. We demonstrate that KEVIN reduces the amount of I/O traffic between the host and the device, and remains particularly robust as the system ages and the data become fragmented. Our approach outperforms existing file systems on a block SSD by a wide margin – 6.2× on average – for metadata-intensive benchmarks. For realistic workloads, KEVIN improves throughput by 68% on average.\n\nView the full OSDI '21 program at https://www.usenix.org/conference/osdi21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''21 - INFaaS: Automated Model-less Inference Serving'
+language: English
+recordingDate: 1628297086
+description: "USENIX ATC '21 - INFaaS: Automated Model-less Inference Serving\n\nFrancisco Romero, Qian Li, Neeraja J. Yadwadkar, and Christos Kozyrakis, Stanford University\n\nDespite existing work in machine learning inference serving, ease-of-use and cost efficiency remain challenges at large scales. Developers must manually search through thousands of model-variants—versions of already-trained models that differ in hardware, resource footprints, latencies, costs, and accuracies—to meet the diverse application requirements. Since requirements, query load, and applications themselves evolve over time, these decisions need to be made dynamically for each inference query to avoid excessive costs through naive autoscaling. To avoid navigating through the large and complex trade-off space of model-variants, developers often fix a variant across queries, and replicate it when load increases. However, given the diversity across variants and hardware platforms in the cloud, a lack of understanding of the trade-off space can incur significant costs to developers.\n\nThis paper introduces INFaaS, an automated model-less system for distributed inference serving, where developers simply specify the performance and accuracy requirements for their applications without needing to specify a specific model-variant for each query. INFaaS generates model-variants from already trained models, and efficiently navigates the large trade-off space of model-variants on behalf of developers to meet application-specific objectives: (a) for each query, it selects a model, hardware architecture, and model optimizations, (b) it combines VM-level horizontal autoscaling with model-level autoscaling, where multiple, different model-variants are used to serve queries within each machine. By leveraging diverse variants and sharing hardware resources across models, INFaaS achieves 1.3× higher throughput, violates latency objectives 1.6× less often, and saves up to 21.6× in cost (8.5× on average) compared to state-of-the-art inference serving systems on AWS EC2.\n\nView the full USENIX ATC '21 Program at https://www.usenix.org/conference/atc21/technical-sessions"
