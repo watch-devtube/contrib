@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'YOW! Data 2021 - Will Radford - Assisting design with machine learning in Canva’s editor'
+language: English
+recordingDate: 1628827898
+description: "Our team at Canva focuses on building features that make design simple, enjoyable and collaborative for more than 55 million people across the globe. For many who haven’t used design tools, starting with a blank page can be intimidating, which is where Canva’s library of more than 500,000 templates comes in. Unfortunately, switching between templates once required retyping your content. To fix this, we created a feature for our users to bring their text with them while exploring the library. The initial challenge was that the template metadata the feature relied on was scarce and costly for our in-house designers to annotate.\nWe wanted to predict metadata for our designers inside the Canva editor, but had to consider a number of real-world engineering tradeoffs. First, we’ll explain the user problem and provide a glimpse inside some of our templates and the metadata that enables text transfer. Then, we’ll explain what features we extracted for our scikit-learn random forest classifier and how we combined it with a designer-in-the-loop to bootstrap enough batch-predicted metadata to launch an MVP version of the feature. Finally, we’ll explain how we decided to reimplement model storage and inference in our TypeScript frontend stack. Creating this new feature was a joint effort made possible by a multidisciplinary team of designers, engineers and data scientists. We’re looking forward to sharing some of the lessons we learned along the way to shipping this smart feature.\n\nWill is a Data Scientist at Canva. He likes solving applied machine learning problems, especially those that deal with natural language processing, interactive intelligence or bias. He has had fun doing so in academia, large companies and startups since 2004. Will has a PhD from the University of Sydney, and prior to Canva, worked in a number of roles for companies including Appen, Xerox, Abbrevi8/Hugo and Red Marker.\n\nFor more information on YOW! Conference visit, www.yowconference.com.au"
