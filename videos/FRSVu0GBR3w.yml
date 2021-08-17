@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 Adversary Village - Jonas Knudsen -Tool Demo: ImproHound   Identify AD Tiering Violations'
+language: English
+recordingDate: 1629143895
+description: "It is not viable for system administrators and defenders in a large Active Directory (AD) environment to ensure all AD objects have only the exact permissions they need. Microsoft also realised that, why they recommended organizations to implement the AD tier model: Split the AD into three tiers and focus on preventing attack paths leading from one tier to a more business critical tier.\n\nThe concept is great, as it in theory prevents adversaries from gaining access to the server tiers (Tier 1 and 0) when they have obtained a shell on a workstation (Tier 2) i.e. through phishing, and it prevents adversaries from gaining access to the Domain Admins, Domain Controllers, etc. in Tier 0 when they have got a shell on a web server i.e. through an RCE vulnerability. But it turns out to be rather difficult to implement the tiering concept in AD, why most organizations fail it and end up leaving security gaps.\n\nIt doesn’t help on the organization’s motivation to make sure their tiering is sound, when Microsoft now call it the AD tier model “legacy” and have replaced it with the more cloud-focused enterprise access model: https://docs.microsoft.com/en-us/security/compass/privileged-access-access-model#evolution-from-the-legacy-ad-tier-model\n\nAs a person hired to help identify the vulnerabilities in an organization, you want to find and report the attack paths of their AD. BloodHound is well-known and great tool for revealing some of the hidden and often unintended relationships within an AD environment and can be used to identify highly complex chained attack paths that would otherwise be almost impossible to identify. It is great for finding the shortest attack path from a compromised user or computer to a desired target, but it is not built to find and report attack paths between tiers..\n\nI will in my presentation explain and demonstrate a tool I have created called ImproHound, which take advantage of BloodHound’s graph database to identify and report the misconfigurations and security flaws that breaks the tiering of an AD environment.\n\nImproHound is a FOSS tool and available on GitHub: https://github.com/improsec/ImproHound"
