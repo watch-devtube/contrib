@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Sebastián Ortega – Data governance in streaming at scale'
+recordingDate: 1629205845
+description: "Letgo is a second-hand marketplace app reshaping secondhand trade in Turkey so re-use is the default trusted choice.\nWe designed the data platform to be built on top of the principles of self-servicing, privacy laws compliance, data governance at business unit level, minimal maintenance and cost containment by design.\nWe will describe how we defined our company-wise data model, leveraging Avro schemas and enabling at the same time most impactful features like:\n- tagging private fields for sensitive data for data privacy laws compliance\n- ensuring quality and structure of the data landing in the company data lake\n- efficient and reliable transportation and consumption of data at platform level\n- data catalog: discovery of available data by teams\n\nOur design is built around the Apache Kafka ecosystem—with special mention to Kafka Connect—for data ingestion and AWS services plus Spark framework for data transformations and data lake ingestion.\nThanks to these principles we are able to ensure data governance over batch and real-time data, while keeping at the same time a multi-tiered data lake: the inner tier keeps the most sensitive data and the outer tiers keep only the data accessible for each single company business unit.\n\nSpeaker: \nSebastián Ortega – https://2021.berlinbuzzwords.de/member/sebastian-ortega\n\nMore: https://2021.berlinbuzzwords.de/session/data-governance-streaming-scale"
