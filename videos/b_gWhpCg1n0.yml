@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Sophie Carboni & Lucian Precup – Speech to text with Elasticsearch'
+recordingDate: 1629281648
+description: "The steps from speech to text are quite simple in theory : you transform the waves into phonemes, then you group them together and decide which has the best probability of representing a meaningful word or phrase based on a dictionary.\n\nWe often use services available with our devices for this task: Google services if our device is based on Android or you are using Chrome, Apple services if the device is an iPhone, Amazon services if the device is compatible with Alexa and so on. But there are cases where you cannot or do not want to use this type of service.   \n\nWe tried solving this problem with Elasticsearch. As the final step is searching throughout a dictionary of phonemes and finding the combination that best matches a real phrase, we can easily think of a solution based on an inverted index. In this talk we share our experience with implementing a prototype and give you all the tips and tricks for implementing such a system in your own infrastructure.\n\nSpeaker:\nSophie Carboni – https://2021.berlinbuzzwords.de/member/sophie-carboni\nLucian Precup – https://2021.berlinbuzzwords.de/member/lucian-precup\n\nMore: https://2021.berlinbuzzwords.de/session/speech-text-elasticsearch"
