@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEFCON 29 IoT Village - Ross and Balazs - MIPS X the Next IoT Frontier'
+language: English
+recordingDate: 1630358773
+description: "IoT vulnerability research usually involves both static and dynamic analysis of the target device. To aid in this task, researchers typically perform some sort of emulation to enumerate the filesystem as well as run the respective binaries. Luckily, there are tools like QEMU and/or Buildroot to guide our path on the way, but this does not mean the way is smooth.\n\nOur main goal was to create a framework and documentation suitable for MIPS (LE/BE) device research, which can be used in a Dockerized environment to set up as many emulated IoT devices as desired. The goal was to create the least amount of pain and effort to set up the emulation infrastructure. This means, you will have a target MIPS architecture virtual machine running natively with all the binaries, full network stack, debugging tools, and other useful tools. Let the pwning begin!"

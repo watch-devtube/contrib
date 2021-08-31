@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 - Barak Sternberg - Extension Land Exploits and Rootkits in  Browser Extensions - LIVE'
+language: English
+recordingDate: 1630358774
+description: "Browser extensions are installed anywhere, they serve as an integral part of our day-to-day web routine, from AdBlockers to Auto-Translators. But - do we know what is running inside of them? Do we know what goes deep-down inside their communication routines? How do they use their internal API’s? And how do their different JS execution contexts work?\n\nIn this session, I will explore these unique internal extension API’s, hidden attack-surfaces and show how these concepts can be broken & exploited using new ways! I start showing how an attacker can \"jump\" from one low-permissions chrome-app/extension to another, hence elevating its permissions. Then, I will show how to gain full \"browser-persistency\" inside extensions' background-scripts context.\n\nChaining it all together, I show how attacker, starting from low permissions chrome-app, gains a fully-armed \"extension-rootkit\", a persistent JS-malware running inside of a “good” extension, along with C&C features, JS injection techniques to any tab/origin, obfuscation-techniques and more. Eventually, I will present a generic technique, targeting all chrome-users, for taking over any previously installed chrome extension and implant an \"extension-rootkit\" in it."
