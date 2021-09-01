@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Lester Solbakken – From text search & recommendation to ads & online dating'
+recordingDate: 1630403763
+description: "Full title: From text search and recommendation to ads and online dating; approximate nearest neighbors in real world applications\n\nAnything can be represented by a vector. Text can be represented by vectors describing the text's meaning. Images can be represented by the objects it contains. Users of a system can be represented by their interests and preferences. Even time-based entities such as video, sound, or user interactions can be represented by vectors. Finding the most similar vectors has all kinds of useful applications. \n\nThere are many libraries to choose from for similarity search. However, in real-world applications, there are additional complications that need to be addressed. For instance, similarity search needs to scale up while ensuring that data indexed in the system is searchable immediately without any time-consuming index building in the background. Most importantly, however, additional search filters are often combined with the similarity search. This can severely limit the end result's quality, as post-filtering can prevent otherwise relevant results from surfacing. \n\nIn this talk, we'll explore some real cases where combining approximate nearest neighbors (ANN) search with filtering causes problems. The solution is to integrate the ANN search with filtering, however, most libraries for nearest-neighbor search work in isolation and do not support this. To our knowledge, the only open-source platform that does is Vespa.ai, and we'll delve into how Vespa.ai solves this problem.\n\nSpeaker: \nLester Solbakken – https://2021.berlinbuzzwords.de/member/lester-solbakken\n\nMore: https://2021.berlinbuzzwords.de/session/text-search-and-recommendation-ads-and-online-dating-approximate-nearest-neighbors-real"
