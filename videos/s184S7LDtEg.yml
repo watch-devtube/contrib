@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#HITB2021SIN D1T2 - Going Deeper Into Schneider Modicon PAC Security - Gao Jian'
+language: English
+recordingDate: 1630492330
+description: "To provide an economical way to deliver functional control in the gap between the PLC and the DCS, Schneider offer industrial process automation controllers-Modicon PACs（M580, M340, MC80,etc）.Modicon PACs feature redundancy functionality, native Ethernet, embedded cybersecurity，But are these industrial brains, widely used in power, water, and critical infrastructure, really secure?\n\nIn this presentation，we will focus on Schneider Modicon PAC controllers and illustrate in two dimensions: Private communication protocol and Password protection mechanism for CPU (Application and Firmware). We will cover:\n\n    The security issues of the private protocol UMAS used by Modicon PAC, not only the undisciplined authorization process, but also analyzing the security of the encryption protocol in the latest version.\n    How to quickly build your own fuzz program tools to find 0-days based on the UMAS protocol.\n    Disclose the password protection mechanism of Modicon PAC in detail illustrating how to bypass the password-protected security policy and getting controller access to perform dangerous operations such as Application upload, controller state modifications, and key parameter modifications without authorization.\n\nIn addition, we will also demo a novel attack that bypasses the Modicon PAC security protection mechanism to insert a malicious ransomware application, proving the impact of Modicon PAC flaws should they be exploited. We conclude with defensive strategies and recommendations for this type of attack.\n\n=== \n\nGao Jian is an industrial control system security researcher in GEWU Lab at NSFOCUS. His interests are focused on PLC and SCADA vulnerability exploitation and security enhancement. Over the years, he has delivered more than 10+ CVEs involving vendors such as Siemens, Codesys, Schneider, WellinTech and others. He was a speaker of HITB AMS 2021, ICS Cyber security conference 2021 and China kanxue SDC 2020. Before joining NSFOCUS, Gao Jian has had nearly ten years of experience working for ICS vendors."

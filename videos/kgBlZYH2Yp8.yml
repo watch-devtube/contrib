@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'William Benton – How to avoid columnar calamities: what no one told you about Apache Parquet'
+recordingDate: 1630503943
+description: "If you're dealing with structured data at scale, it's a safe bet that you're depending on Apache Parquet in at least a few parts of your pipeline. Parquet is a sensible default choice for storing structured data at rest because of two major advantages:  its efficiency and its ubiquity.  While Parquet's storage efficiency enables dramatically improved time and space performance for query jobs, its ubiquity may be even more valuable.  Since Parquet readers and writers are available in a wide range of languages and ecosystems, the Parquet format can support a range of applications across the data lifecycle, including data engineering and ETL jobs, query engines, and machine learning pipelines.\n\nHowever, the ubiquity of Parquet readers and writers hides some complexity:  if you don't take care, some of the advantages of Parquet can be lost in translation as you move tables from Hadoop, Flink, or Spark jobs to Python machine learning code.  This talk will help you understand Parquet more fully in order to use it more effectively, with an eye towards the special challenges that might arise in polyglot environments.  We'll level-set with a quick overview of how Parquet works and why it's so efficient.  We'll then dive in to the type, encoding, and compression options available and discuss when each is most appropriate.  You'll learn how to interrogate and understand Parquet metadata, and you'll learn about some of the challenges you'll run into when sharing data between JVM-based data engineering pipelines and Python-based machine learning pipelines.  You'll leave this talk with a better understanding of Parquet and a roadmap pointing you away from some interoperability and performance pitfalls.\n\nSpeaker:\nWilliam Benton – https://2021.berlinbuzzwords.de/member/william-benton\n\nMore: https://2021.berlinbuzzwords.de/session/how-avoid-columnar-calamities-what-no-one-told-you-about-apache-parquet"

@@ -1,0 +1,14 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+speaker:
+    name: 'Philipp Krenn'
+    twitter: xeraa
+title: 'Philipp Krenn – Log Management: From grep to Full-Text Search and Back'
+recordingDate: 1630494218
+description: "Logs are everywhere. But they have gone through an interesting development over the years:\n\n- grep: This works well as long as you have a single instance to search on. Once you need to SSH into many machines and try to piece together the results of multiple grep commands, things tend not to work that well anymore.\n- Splunk: Centralizing those logs and letting users search through them with a piped language in Splunk is the logical step to fix that issue. However, the more data you centralize, the slower this will get.\n- ELK: The solution to that idleness is using full-text search. Elasticsearch, in combination with Logstash and Kibana (plus Beats), gave logs a major performance boost. But at what cost?\n- Loki: Reducing the scope and going back to a smart data structure combined with grep gives Loki the possibility to reduce costs while still providing good performance.\n- Closing the gap: So what are the tradeoffs between the different systems, and are they potentially closing some gaps between performance and cost?\n\nSpeaker:\nPhilipp Krenn – https://2021.berlinbuzzwords.de/member/philipp-krenn\n\nMore: https://2021.berlinbuzzwords.de/session/log-management-grep-full-text-search-and-back"

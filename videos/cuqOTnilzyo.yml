@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#HITB2021SIN D2T2 - trapfuzzer: Coverage-guided Binary Fuzzing with Breakpoints - Sili Luo'
+language: English
+recordingDate: 1630541178
+description: "trapfuzzer is a tool I developed in Python and C and has the following features:\n\n    Users can view the test status in the fuzzy process, pause / resume the test task, and manage the test status through TCP port\n    The tool supports saving the mutation relationship between testcases in the fuzzing process to the database, and can be used for other analysis, such as visual analysis.\n    The executed basic blocks are saved which could be visualized by the IDA plugin.\n\nThe fuzz scheduling module and data mutation module implemented in Python and the Instrumention module based on breakpoint mechanism based on GDB plugin OR GDB source code, and on Windows via winappdbg OR custom debuggers with Windows debuger SDK. In a specific mode, each breakpoint is triggered once in the whole fuzzing process, so the average test speed is higher than dynamorio, pin and etc. The tool supports i386/x64 architecture, but a small amount of modification can support other architectures such as ARM.\n\nMore than 200 vulnerabilities have been found in WPS OFFICE and other software using this tool.\n\n=== \n\nSili Luo is a computer security specialist with a focus on software vulnerability research. He has found many software vulnerabilities in multiple software."
