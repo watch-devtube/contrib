@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '#HITB2021SIN D2T1 - Fuzzing RDP Client And Server - Shaked Reiner & Or Ben-Porath'
+language: English
+recordingDate: 1630540694
+description: "Traditional fuzzing has been around for years now and it has proven itself a great way of finding a lot of bugs. Fuzzers came a long way over the past few years, but the majority of them still work in the traditional fashion.\n\nThis talk describes our journey to make a traditional coverage-guided fuzzer (WinAFL) fuzz a complex network protocol – RDP. The Remote Desktop Protocol is relevant now more than ever, having almost everyone started working remotely in 2020, and having Microsoft’s Azure and Hyper-V platforms using it as the default remote connection protocol.\n\nWe utilized WinAFL, DynamoRIO, and a set of our own enhancements to hunt for bugs in both the Windows RDP Client and Server. We did that targeting a handful of channels that RDP encapsulates, fuzzing dozens of message types. Fuzzing the RDP protocol from both ends is a new concept and it hasn’t been done before. We built upon the extremely limited history of fuzzing RDP and created a comprehensive fuzzer that’s able to fuzz most of the RDP channels and extensions. By doing this we were able to find many new bugs (the exact numbers will be determined after finishing the responsible disclosure process).\n\nWe will share our experience developing this ability and analyzing the results and the new bugs found.\n\n=== \n\nShaked Reiner is a security researcher at CyberArk focused on vulnerability research, OS security, and malware. In his free time, Shaked likes to reverse engineer random pieces of software, solve CTF challenges and make cocktails.\n\n--- \n\nOr Ben-Porath is a security researcher at CyberArk and a PHD student in mathematics at Tel Aviv University. His research fields vary from Galois theory to fuzzing and OS security."
