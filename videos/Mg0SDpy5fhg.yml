@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Privacy-Preserving and Standard-Compatible AKA Protocol for 5G'
+language: English
+recordingDate: 1630711049
+description: "Privacy-Preserving and Standard-Compatible AKA Protocol for 5G\n\nYuchen Wang, TCA of State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences & Alibaba Group; Zhenfeng Zhang, TCA of State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences; Yongquan Xie, Commercial Cryptography Testing Center of State Cryptography Administration\n\nThe 3GPP consortium has published the Authentication and Key Agreement protocol for the 5th generation (5G) mobile communication system (i.e., 5G-AKA) by Technical Specification (TS) 33.501. It introduces public key encryption to conceal the so-called SUPIs so as to enhance mobile users' privacy. However, 5G-AKA is only privacy-preserving at the presence of passive attackers, and is still vulnerable to the linkability attacks from active attackers. An active attacker can track target mobile phones via performing these attacks, which puts the privacy of users at risk.\n\nIt is resistant to linkability attacks performed by active attackers, and is compatible with the SIM cards and currently deployed Serving Networks (SNs). In particular, we first conduct an analysis on the known linkability attacks in 5G-AKA, and find out a root cause of all attacks. Then, we design a counter-measure with the inherent key encapsulation mechanism of ECIES (i.e., ECIES-KEM), and use the shared key established by ECIES-KEM to encrypt the challenges sent by a Home Network (HN). With this measure, a target User Equipment (UE) who receives a message replayed from its previously attended sessions behaves as non-target UEs, which prevents the attacker from distinguishing the UE by linking it with its previous sessions. Moreover, 5G-AKA′ does not raise additional bandwidth cost, and only introduces limited additional time costs from 0.02% to 0.03%. Finally, we use a state-of-the-art formal verification tool, Tamarin prover, to prove that 5G-AKA′ achieves the desired security goals of privacy, authentication and secrecy.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

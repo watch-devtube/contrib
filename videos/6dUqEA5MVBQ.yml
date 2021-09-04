@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Disrupting Continuity of Apple''s Wireless Ecosystem Security: New Tracking'
+language: English
+recordingDate: 1630711142
+description: "Disrupting Continuity of Apple's Wireless Ecosystem Security: New Tracking, DoS, and MitM Attacks on iOS and macOS Through Bluetooth Low Energy, AWDL, and Wi-Fi\n\nMilan Stute, Alexander Heinrich, Jannik Lorenz, and Matthias Hollick, Technical University of Darmstadt\n\nApple controls one of the largest mobile ecosystems, with 1.5 billion active devices worldwide, and offers twelve proprietary wireless Continuity services. Previous works have unveiled several security and privacy issues in the involved protocols. These works extensively studied AirDrop while the coverage of the remaining vast Continuity service space is still low. To facilitate the cumbersome reverse-engineering process, we describe the first guide on how to approach a structured analysis of the involved protocols using several vantage points available on macOS. Also, we develop a toolkit to automate parts of this otherwise manual process. Based on this guide, we analyze the full protocol stacks involved in three Continuity services, in particular, Handoff (HO), Universal Clipboard (UC), and Wi-Fi Password Sharing (PWS). We discover several vulnerabilities spanning from Bluetooth Low Energy (BLE) advertisements to Apple's proprietary authentication protocols. These flaws allow for device tracking via HO's mDNS responses, a denial-of-service (DoS) attack on HO and UC, a DoS attack on PWS that prevents Wi-Fi password entry, and a machine-in-the-middle (MitM) attack on PWS that connects a target to an attacker-controlled Wi-Fi network. Our PoC implementations demonstrate that the attacks can be mounted using affordable off-the-shelf hardware ($20 micro:bit and a Wi-Fi card). Finally, we suggest practical mitigations and share our findings with Apple, who have started to release fixes through iOS and macOS updates.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

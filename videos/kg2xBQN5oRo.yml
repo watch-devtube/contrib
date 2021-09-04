@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Hopper: Modeling and Detecting Lateral Movement'
+language: English
+recordingDate: 1630711142
+description: "Hopper: Modeling and Detecting Lateral Movement\n\nGrant Ho, UC San Diego, UC Berkeley, and Dropbox; Mayank Dhiman, Dropbox; Devdatta Akhawe, Figma, Inc.; Vern Paxson, UC Berkeley and International Computer Science Institute; Stefan Savage and Geoffrey M. Voelker, UC San Diego; David Wagner, UC Berkeley\n\nIn successful enterprise attacks, adversaries often need to gain access to additional machines beyond their initial point of compromise, a set of internal movements known as lateral movement. We present Hopper, a system for detecting lateral movement based on commonly available enterprise logs. Hopper constructs a graph of login activity among internal machines and then identifies suspicious sequences of logins that correspond to lateral movement. To understand the larger context of each login, Hopper employs an inference algorithm to identify the broader path(s) of movement that each login belongs to and the causal user responsible for performing the logins. Hopper then leverages this path inference algorithm, in conjunction with a set of detection rules and a new anomaly scoring algorithm, to surface the login paths most likely to reflect lateral movement. On a 15-month enterprise dataset consisting of over 780 million internal logins, Hopper achieves a 94.5% detection rate across over 300 realistic attack scenarios, including one red team attack, while generating an average of less than 9 alerts per day. In contrast, to detect the same number of attacks, prior state-of-the-art systems would need to generate nearly 8x as many false positives.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

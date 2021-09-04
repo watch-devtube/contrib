@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - CLARION: Sound and Clear Provenance Tracking for Microservice Deployments'
+language: English
+recordingDate: 1630711142
+description: "CLARION: Sound and Clear Provenance Tracking for Microservice Deployments\n\nXutong Chen, Northwestern University; Hassaan Irshad, SRI International; Yan Chen, Northwestern University; Ashish Gehani and Vinod Yegneswaran, SRI International\n\nLinux container-based microservices have emerged as an attractive alternative to virtualization as they reduce application footprints and facilitate more efficient resource utilization. Their popularity has also led to increased scrutiny of the underlying security properties and attack surface of container technology. Provenance-based analysis techniques have been proposed as an effective means toward comprehensive and high-assurance security control as they provide fine-grained mechanisms to track data flows across the system and detect unwanted or unexpected changes to data objects. However, existing provenance tracking techniques are limited in their ability to build sound and clear provenance in container network environments due to complexities introduced by namespace virtualization.\n\nWe describe a namespace- and container-aware provenance tracking solution, called CLARION, that addresses the unique soundness and clarity challenges introduced by traditional provenance tracking solutions. Specifically, we first describe fragmentation and ambiguities introduced in provenance analysis tools by each of the Linux namespaces and propose solutions to address analysis soundness. Then we discuss the design of specialized semantics-summarization techniques that improve the clarity of provenance analysis. We have developed a prototype implementation of CLARION and evaluate its performance against a spectrum of container-specific attacks. The results demonstrate the utility of our system and how it outperforms the state-of-the-art provenance tracking systems by providing an accurate and concise view of data provenance in container environments.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

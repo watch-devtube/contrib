@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Weak Links in Authentication Chains: A Large-scale Analysis of Email Sender'
+language: English
+recordingDate: 1630711050
+description: "Weak Links in Authentication Chains: A Large-scale Analysis of Email Sender Spoofing Attacks\n\nKaiwen Shen, Chuhan Wang, and Minglei Guo, Tsinghua University; Xiaofeng Zheng, Tsinghua University and Qi An Xin Technology Research Institute; Chaoyi Lu and Baojun Liu, Tsinghua University; Yuxuan Zhao, North China Institute of Computing Technology; Shuang Hao, University of Texas at Dallas; Haixin Duan, Tsinghua University; Qi An Xin Technology Research Institute; Qingfeng Pan, Coremail Technology Co. Ltd; Min Yang, Fudan University\n\nAs a fundamental communicative service, email is playing an important role in both individual and corporate communications, which also makes it one of the most frequently attack vectors. An email's authenticity is based on an authentication chain involving multiple protocols, roles and services, the inconsistency among which creates security threats. Thus, it depends on the weakest link of the chain, as any failed part can break the whole chain-based defense.\n\nThis paper systematically analyzes the transmission of an email and identifies a series of new attacks capable of bypassing SPF, DKIM, DMARC and user-interface protections. In particular, by conducting a \"cocktail\" joint attack, more realistic emails can be forged to penetrate the celebrated email services, such as Gmail and Outlook. We conduct a large-scale experiment on 30 popular email services and 23 email clients, and find that all of them are vulnerable to certain types of new attacks. We have duly reported the identified vulnerabilities to the related email service providers, and received positive responses from 11 of them, including Gmail, Yahoo, iCloud and Alibaba. Furthermore, we propose key mitigating measures to defend against the new attacks. Therefore, this work is of great value for identifying email spoofing attacks and improving the email ecosystem's overall security.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

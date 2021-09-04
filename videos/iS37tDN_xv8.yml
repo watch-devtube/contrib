@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Reducing HSM Reliance in Payments through Proxy Re-Encryption'
+language: English
+recordingDate: 1630711050
+description: "Reducing HSM Reliance in Payments through Proxy Re-Encryption\n\nSivanarayana Gaddam, Visa; Atul Luykx, Security Engineering Research, Google; Rohit Sinha, Swirlds Inc.; Gaven Watson, Visa Research\n \nCredit and debit-card payments are typically authenticated with PINs. Once entered into a terminal, the PIN is sent as an encrypted PIN block across a payments network to the destination bank, which decrypts and verifies the PIN block. Each node in the payments network routes the PIN block to the next node by decrypting the block with its own key, and then re-encrypting the PIN block with the next node's key; nodes establish shared secret keys with their neighbors to do so. This decrypt-then-encrypt operation over PIN blocks is known as PIN translation, and it is currently performed in Hardware Security Modules (HSMs) to avoid possible PIN exposure. However, HSMs incur heavy acquisition and operational expenses.\n\nIntroduced at EUROCRYPT '98, proxy re-encryption (PRE) is a cryptographic primitive which can re-encrypt without exposing sensitive data. We perform an extensive study of PRE as applied to PIN translation, and show through formalization, security analysis, and an implementation study that PRE is a practical alternative to HSMs. With PRE, we eliminate the need for HSMs during re-encryption of a PIN, thus greatly reducing the number of HSMs needed by each participant in the payments ecosystem. Along the way we conduct practice-oriented PRE research, with novel theoretical contributions to resolve issues in comparing so-called honest re-encryption to chosen ciphertext PRE security, and a new efficient PRE scheme achieving a type of chosen ciphertext security.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

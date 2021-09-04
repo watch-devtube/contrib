@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - A11y and Privacy don''t have to be mutually exclusive: Constraining'
+language: English
+recordingDate: 1630711142
+description: "A11y and Privacy don't have to be mutually exclusive: Constraining Accessibility Service Misuse on Android\n\nJie Huang, Michael Backes, and Sven Bugiel, CISPA Helmholtz Center for Information Security\n\nAccessibility features of Android are crucial in assisting people with disabilities or impairment to navigate their devices. However, the same, powerful features are commonly misused by shady apps for malevolent purposes, such as stealing data from other apps. Unfortunately, existing defenses do not allow apps to protect themselves and at the same time to be fully inclusive to users with accessibility needs.\n\nTo enhance the privacy protection of the user while preserving the accessibility features for assistive apps, we introduce an extension to Android's accessibility framework. Our design is based on a study of how accessibility features are used in 95 existing accessibility apps of different types (malware, utility, and a11y). Based on those insights, we propose to model the usage of the accessibility framework as a pipeline of code modules, which are all sandboxed on the system-side. By policing the data flows of those modules, we achieve more fine-grained control over the access to accessibility features and the way they are used in apps, allowing a balance between accessibility functionality for dependent users and reduced privacy risks. We demonstrate the feasibility of our solution by migrating two real-world apps to our privacy-enhanced accessibility framework.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

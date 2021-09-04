@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - DEFInit: An Analysis of Exposed Android Init Routines'
+language: English
+recordingDate: 1630711142
+description: "DEFInit: An Analysis of Exposed Android Init Routines\n\nYuede Ji, University of North Texas; Mohamed Elsabagh, Ryan Johnson, and Angelos Stavrou, Kryptowire\n\nDuring the booting process of an Android device, a special daemon called Init is launched by the kernel as the first user-space process. Android allows vendors to extend the behavior of Init by introducing custom routines in .rc files. These Init routines can also be triggered by privileged pre-installed apps in a certain manner to accomplish privileged functionalities. However, as these pre-installed apps may fail to properly protect access to code sites triggering these Init routines, the capabilities of these routines may leak to unprivileged apps, resulting in crossing security boundaries set by the system. To this end, this study aims at investigating the prevalence of these Init routines and their security impact. We present DEFInit as a tool to help automate the process of identifying Init routines exposed by pre-installed apps and estimating their potential security impact. Our findings are alarming. We found that custom Init routines added by vendors were substantial and had significant security impact. On a data set of 259 firmware from the top 21 vendors worldwide, we identified 1,947 exposed custom Init routines in 101 firmware from 13 vendors. Of these routines, 515 performed at least one sensitive action. We verified 89 instances spanning 30 firmware from 6 vendors, allowing unprivileged apps to perform sensitive functionalities without user interaction, including disabling SELinux enforcement, sniffing network traffic, reading system logs, among others.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

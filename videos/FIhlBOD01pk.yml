@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 -  Stars Can Tell: A Robust Method to Defend against GPS Spoofing Attacks'
+language: English
+recordingDate: 1630711142
+description: "Stars Can Tell: A Robust Method to Defend against GPS Spoofing Attacks using Off-the-shelf Chipset\n\nShinan Liu, University of Chicago; Xiang Cheng and Hanchao Yang, Virginia Tech; Yuanchao Shu, Microsoft Research; Xiaoran Weng, University of Electronic Science and Technology of China; Ping Guo, City University of Hong Kong; Kexiong (Curtis) Zeng, Facebook; Gang Wang, University of Illinois at Urbana-Champaign; Yaling Yang, Virginia Tech\n \nThe GPS has empowered billions of users and various critical infrastructures with its positioning and time services. However, GPS spoofing attacks also become a growing threat to GPS-dependent systems. Existing detection methods either require expensive hardware modifications to current GPS devices or lack the basic robustness against sophisticated attacks, hurting their adoption and usage in practice.\n\nIn this paper, we propose a novel GPS spoofing detection framework that works with off-the-shelf GPS chipsets. Our basic idea is to rotate a one-side-blocked GPS receiver to derive the angle-of-arrival (AoAs) of received signals and compare them with the GPS constellation (consists of tens of GPS satellites). We first demonstrate the effectiveness of this idea by implementing a smartphone prototype and evaluating it against a real spoofer in various field experiments (in both open air and urban canyon environments). Our method achieves a high accuracy (95%–100%) in 5 seconds. Then we implement an adaptive attack, assuming the attacker becomes aware of our defense method and actively modulates the spoofing signals accordingly. We study this adaptive attack and propose enhancement methods (using the rotation speed as the \"secret key\") to fortify the defense. Further experiments are conducted to validate the effectiveness of the enhanced defense.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

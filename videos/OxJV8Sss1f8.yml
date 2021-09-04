@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - CANARY - a reactive defense mechanism for Controller Area Networks based'
+language: English
+recordingDate: 1630711142
+description: "CANARY - a reactive defense mechanism for Controller Area Networks based on Active RelaYs\n\nBogdan Groza, Lucian Popa, and Pal-Stefan Murvay, Universitatea Politehnica Timisoara; Yuval Elovici and Asaf Shabtai, Ben-Gurion University of the Negev\n\nWe are rethinking the decades-old design of the CAN bus by incorporating reactive defense capabilities in it. While its reliability and cost effectiveness turned CAN into the most widely used in-vehicle communication interface, its topology, physical layer and arbitration mechanism make it impossible to prevent certain types of adversarial activities on the bus. For example, DoS attacks cannot be stopped as the physical layer gives equal rights to all the connected ECUs and an adversary may exploit this by flooding the network with high priority frames or cause transmission errors which may move honest ECUs into the bus-off state. In response to this, we propose a reactive mechanism based on relays placed along the bus that will change the network topology in case of an attack, i.e., a moving target defense mechanism, allowing a bus guardian to filter and redirect legitimate traffic. We take care of physical properties of the bus and keep the 120 Ω load constant at the end of the lines whenever relays are triggered to modify the topology of the bus. We build a proof-of-concept implementation and test it in a laboratory setup with automotive-grade controllers that demonstrates its functionality over collected real-world in-vehicle traffic. Our experiments show that despite short term disturbances when the relays are triggered, the frame loss is effectively zero.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

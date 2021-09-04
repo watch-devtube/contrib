@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Exposing New Vulnerabilities of Error Handling Mechanism in CAN'
+language: English
+recordingDate: 1630711050
+description: "Exposing New Vulnerabilities of Error Handling Mechanism in CAN\n\nKhaled Serag and Rohit Bhatia, Purdue University; Vireshwar Kumar, Indian Institute of Technology Delhi; Z. Berkay Celik and Dongyan Xu, Purdue University\n\nController Area Network (CAN) has established itself as the main internal communication medium for vehicles. However, recent works have shown that error handling makes CAN nodes vulnerable to certain attacks. In the light of such a threat, we systematically analyze CAN's error handling and fault confinement mechanism to investigate it for further vulnerabilities. In this paper, we develop CANOX, a testing tool that monitors the behavior of a CAN node under different bus and error conditions, and flags conditions that cause an unexpected node behavior. Using CANOX, we found three major undiscovered vulnerabilities in the CAN standard that could be exploited to launch a variety of attacks. Combining the three vulnerabilities, we construct the Scan-Then-Strike Attack (STS), a multi-staged attack in which an attacker with no previous knowledge of the vehicle's internals maps the vehicle's CAN bus, identifies a safety-critical ECU, swiftly silences it, and persistently prevents it from recovering. We validate the practicality of STS by evaluating it on a CAN bus testbed and a real vehicle.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

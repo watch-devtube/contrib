@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Blind In/On-Path Attacks and Applications to VPNs'
+language: English
+recordingDate: 1630711050
+description: "Blind In/On-Path Attacks and Applications to VPNs\n\nWilliam J. Tolley and Beau Kujath, Breakpointing Bad/Arizona State University; Mohammad Taha Khan, Washington and Lee University; Narseo Vallina-Rodriguez, IMDEA Networks Institute/ICSI; Jedidiah R. Crandall, Breakpointing Bad/Arizona State University\n\nProtecting network protocols within an encrypted tunnel, using technologies such as Virtual Private Networks (VPNs), is increasingly important to millions of users needing solutions to evade censorship or protect their traffic against in/on-path observers/attackers. In this paper, we present a series of attacks from two threat models: an attacker that can inject spoofed packets into the network stack of a VPN client (called client-side), and an attacker that can spoof packets on the Internet and send them to a VPN server (called server-side). In both cases, we assume that the attacker is in/on-path, and can count encrypted bytes or packets over time. In both threat models, we demonstrate attacks to infer the existence of, interfere with, or inject data into TCP connections forwarded through the encrypted VPN tunnel. In the server-side threat model, we also demonstrate an attack to hijack tunneled DNS queries and completely remove the protections of the VPN tunnel. For the attacks presented in this paper, we (1) assess their feasibility in terms of packet rates and timing; (2) test their applicability against a broad range of VPN technologies, types, and vendors; and (3) consider practical issues with respect to real-world attacks. We followed an ethical disclosure process for all attacks presented in this paper. Client-side attacks were addressed with two CVEs and partially mitigated by a series of updates from some operating system and VPN client vendors. Server-side attacks have not been addressed and are still feasible with all operating systems and VPN servers that we tested.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

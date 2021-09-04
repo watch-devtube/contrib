@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Automatic Policy Generation for Inter-Service Access Control of Microservices'
+language: English
+recordingDate: 1630711142
+description: "Automatic Policy Generation for Inter-Service Access Control of Microservices\n\nXing Li, Zhejiang University; Yan Chen, Northwestern University; Zhiqiang Lin, The Ohio State University; Xiao Wang and Jim Hao Chen, Northwestern University\n\nCloud applications today are often composed of many microservices. To prevent a microservice from being abused by other (compromised) microservices, inter-service access control is applied. However, the complexity of ﬁne-grained access control policies, along with the large-scale and dynamic nature of microservices, makes the current manual conﬁguration-based access control unsuitable. This paper presents AUTOARMOR, the ﬁrst attempt to automate inter-service access control policy generation for microservices, with two fundamental techniques: (1) a static analysis-based request extraction mechanism that automatically obtains the invocation logic among microservices, and (2) a graph-based policy management mechanism that generates corresponding access control policies with on-demand policy update. Our evaluation on popular microservice applications shows that AUTOARMOR is able to generate ﬁne-grained inter-service access control policies and update them timely based on changes in the application, with only a minor runtime overhead. By seamlessly integrating with the lifecycle of microservices, it does not require any changes to existing code and infrastructures.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

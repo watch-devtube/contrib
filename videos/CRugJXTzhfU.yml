@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Assessing Browser-level Defense against IDN-based Phishing'
+language: English
+recordingDate: 1630711050
+description: "Assessing Browser-level Defense against IDN-based Phishing\n\nHang Hu, Virginia Tech; Steve T.K. Jan, University of Illinois at Urbana-Champaign/Virginia Tech; Yang Wang and Gang Wang, University of Illinois at Urbana-Champaign\n\nInternationalized Domain Names (IDN) allow people around the world to use their native languages for domain names. Unfortunately, because characters from different languages can look like each other, IDNs have been used to impersonate popular domains for phishing, i.e., IDN homograph. To mitigate this risk, browsers have recently introduced defense policies. However, it is not yet well understood regarding how these policies are constructed and how effective they are.\n\nIn this paper, we present an empirical analysis of browser IDN policies, and a user study to understand user perception of homograph IDNs. We focus on 5 major web browsers (Chrome, Firefox, Safari, Microsoft Edge, and IE), and 2 mobile browsers (Android Chrome and iOS Safari) and analyze their current and historical versions released from January 2015 to April 2020. By treating each browser instance as a black box, we develop an automated tool to test the browser policies with over 9,000 testing cases. We find that all the tested browsers have weaknesses in their rules, leaving opportunities for attackers to craft homograph IDNs to impersonate target websites while bypassing browsers' defense. In addition, a browser's defense is not always getting stricter over time. For example, we observe Chrome has reversed its rules to re-allow certain homograph IDNs. Finally, our user study shows that the homograph IDNs that can bypass browsers' defense are still highly deceptive to users. Overall, our results suggest the need to improve the current defense against IDN homograph.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

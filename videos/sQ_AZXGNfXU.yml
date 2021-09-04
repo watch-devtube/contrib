@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Accurately Measuring Global Risk of Amplification Attacks using AmpMap'
+language: English
+recordingDate: 1630711049
+description: "Accurately Measuring Global Risk of Amplification Attacks using AmpMap\n\nSoo-Jin Moon, Yucheng Yin, and Rahul Anand Sharma, Carnegie Mellon University; Yifei Yuan, Alibaba Group; Jonathan M. Spring, CERT/CC, SEI, Carnegie Mellon University; Vyas Sekar, Carnegie Mellon University\n\nMany recent DDoS attacks rely on amplification, where an attacker induces public servers to generate a large volume of network traffic to a victim. In this paper, we argue for a low-footprint Internet health monitoring service that can systematically and continuously quantify this risk to inform mitigation efforts. Unfortunately, the problem is challenging because amplification is a complex function of query (header) values and server instances. As such, existing techniques that enumerate the total number of servers or focus on a specific amplification-inducing query are fundamentally imprecise. In designing AmpMap, we leverage key structural insights to develop an efficient approach that searches across the space of protocol headers and servers. Using AmpMap, we scanned thousands of servers for 6 UDP-based protocols. We find that relying on prior recommendations to block or rate-limit specific queries still leaves open substantial residual risk as they miss many other amplification-inducing query patterns. We also observe significant variability across servers and protocols, and thus prior approaches that rely on server census can substantially misestimate amplification risk.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

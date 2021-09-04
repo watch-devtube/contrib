@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - A Stealthy Location Identification Attack Exploiting Carrier Aggregation'
+language: English
+recordingDate: 1630711142
+description: "A Stealthy Location Identification Attack Exploiting Carrier Aggregation in Cellular Networks\n\nNitya Lakshmanan and Nishant Budhdev, National University of Singapore; Min Suk Kang, KAIST; Mun Choon Chan and Jun Han, National University of Singapore\n\nWe present the SLIC that achieves fine-grained location tracking (e.g., finding indoor walking paths) of targeted cellular user devices in a passive manner. The attack exploits a new side channel in modern cellular systems through a universally available feature called carrier aggregation (CA). CA enables higher cellular data rates by allowing multiple base stations on different carrier frequencies to concurrently transmit to a single user. We discover that a passive adversary can learn the side channel — namely, the number of actively transmitting base stations for any user of interest in the same macrocell. We then show that a time series of this side channel can constitute a highly unique fingerprint of a walking path, which can be used to identify the path taken by a target cellular user. We first demonstrate the collection of the new side channel and a small-scale path identification attack in an existing LTE-A network with up to three CA capability (i.e., three base stations can be coordinated for concurrent transmission), showing the feasibility of SLIC in the current cellular networks. We then emulate a near-future 5G network environment with up to nine CA capability in various multi-story buildings in our institution. SLIC shows up to 98.4% of path-identification accuracy among 100 different walking paths in a large office building. Through testing in various building structures, we confirm that the attack is effective in typical office building environments; e.g., corridors, open spaces. We present complete and partial countermeasures and discuss some practical cell deployment suggestions for 5G networks.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

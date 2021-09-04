@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Injection Attacks Reloaded: Tunnelling Malicious Payloads over DNS'
+language: English
+recordingDate: 1630711142
+description: "Injection Attacks Reloaded: Tunnelling Malicious Payloads over DNS\n\nPhilipp Jeitner, TU Darmstadt; Haya Shulman, Fraunhofer SIT\n\nThe traditional design principle for Internet protocols indicates: \"Be strict when sending and tolerant when receiving\" [RFC1958], and DNS is no exception to this. The transparency of DNS in handling the DNS records, also standardised specifically for DNS [RFC3597], is one of the key features that made it such a popular platform facilitating a constantly increasing number of new applications. An application simply creates a new DNS record and can instantly start distributing it over DNS without requiring any changes to the DNS servers and platforms. Our Internet wide study confirms that more than 1.3M (96% of tested) open DNS resolvers are standard compliant and treat DNS records transparently.\n\nIn this work we show that this `transparency' introduces a severe vulnerability in the Internet: we demonstrate a new method to launch string injection attacks by encoding malicious payloads into DNS records. We show how to weaponise such DNS records to attack popular applications. For instance, we apply string injection to launch a new type of DNS cache poisoning attack, which we evaluated against a population of open resolvers and found 105K to be vulnerable. Such cache poisoning cannot be prevented with common setups of DNSSEC. Our attacks apply to internal as well as to public services, for instance, we reveal that all eduroam services are vulnerable to our injection attacks, allowing us to launch exploits ranging from unauthorised access to eduroam networks to resource starvation. Depending on the application, our attacks cause system crashes, data corruption and leakage, degradation of security, and can introduce remote code execution and arbitrary errors.\n\nIn our evaluation of the attacks in the Internet we find that all the standard compliant open DNS resolvers we tested allow our injection attacks against applications and users on their networks.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"
