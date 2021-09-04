@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - ICSFuzz: Manipulating I/Os and Repurposing Binary Code to Enable Instrumented'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - ICSFuzz: Manipulating I/Os and Repurposing Binary Code to Enable Instrumented Fuzzing in ICS Control Applications\n\nDimitrios Tychalas, NYU Tandon School of Engineering; Hadjer Benkraouda and Michail Maniatakos, New York University Abu Dhabi\n\nIndustrial Control Systems (ICS) have seen a rapid proliferation in the last decade amplified by the advent of the 4th Industrial Revolution. At the same time, several notable cybersecurity incidents in industrial environments have underlined the lack of depth in security evaluation of industrial devices such as Programmable Logic Controllers (PLC). Modern PLCs are based on widely used microprocessors and deploy commodity operating systems (e.g., ARM on Linux). Thus, threats from the information technology domain can be readily ported to industrial environments. PLC application binaries in particular have never been considered as regular programs able to introduce traditional security threats, such as buffer overflows. In this work, we investigate the feasibility of exploiting PLC binaries as well as their surrounding PLC-specific environment. We examine binaries produced by all available IEC 61131-3 control system programming languages for compilation-based differences and introduced vulnerabilities. Driven by this analysis, we develop a fuzzing framework to perform security evaluation of the PLC binaries along with the host functions they interact with. Fuzzing such non-executable binaries is non-trivial, as they operate with real-time constraints and receive their inputs from peripherals. To prove the correctness of our fuzzing tool, we use a database of in-house developed binaries in addition to functional control applications collected from online repositories. We showcase the efficacy of our technique by demonstrating uncovered vulnerabilities in both control application binaries and their runtime system. Furthermore, we demonstrate an exploitation methodology for an in-house as well as a regular control binary, based on the uncovered vulnerabilities.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

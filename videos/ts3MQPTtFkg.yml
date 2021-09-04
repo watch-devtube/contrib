@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - SHARD: Fine-Grained Kernel Specialization with Context-Aware Hardening'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - SHARD: Fine-Grained Kernel Specialization with Context-Aware Hardening\n\nMuhammad Abubakar, Adil Ahmad, Pedro Fonseca, and Dongyan Xu, Purdue University\n\nWith growing hardware complexity and ever-evolving user requirements, the kernel is increasingly bloated which increases its attack surface. Despite its large size, for specific applications and workloads, only a small subset of the kernel code is actually required. Kernel specialization approaches exploit this observation to either harden the kernel or restrict access to its code (debloating) on a per-application basis. However, existing approaches suffer from coarse specialization granularity and lack strict enforcement which limits their effectiveness.\n\nThis paper presents SHARD, a practical framework to enforce fine-grain kernel specialization. SHARD specializes at both the application and system call levels to significantly restrict the kernel code exposed to attackers. Furthermore, SHARD introduces context-aware hardening to dynamically enable code hardening during suspicious execution contexts. SHARD implements an instance of a context-aware hardening scheme using control-flow integrity (CFI), which provides near-native performance for non-hardened executions and strong security guarantees. Our analysis of the kernel attack surface reduction with SHARD as well as concrete attacks shows that SHARD exposes 181× less kernel code than the native kernel, an order of magnitude better than existing work, and prevents 90% of the evaluated attacks. Our evaluation shows that the average performance overhead ofSHARD on real-world applications is moderate — 10% to 36% on NGINX, 3% to 10% on Redis, and 0% to 2.7% on the SPEC CPU 2006 benchmarks.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

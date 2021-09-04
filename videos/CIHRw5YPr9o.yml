@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - ExpRace: Exploiting Kernel Races through Raising Interrupts'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - ExpRace: Exploiting Kernel Races through Raising Interrupts\n\nYoochan Lee, Seoul National University; Changwoo Min, Virginia Tech; Byoungyoung Lee, Seoul National University\n\nA kernel data race is notoriously challenging to detect, reproduce, and diagnose, mainly caused by nondeterministic thread interleaving. The kernel data race has a critical security implication since it often leads to memory corruption, which can be abused to launch privilege escalation attacks. Interestingly, due to the challenges above, the exploitation of the kernel data race is also challenging. Specifically, we find that some kernel races are nearly impossible to exploit due to its unique requirement on execution orders, which is almost impossible to happen without manual intervention.\n\nThis paper develops a generic exploitation technique for kernel data races. To this end, we first analyze kernel data races, which finds an intrinsic condition classifying easy-to-exploit and hard-to-exploit races. Then we develop ExpRace a generic race exploitation technique for various kernels including Linux, Microsoft Windows, and Mac OS X. ExpRace turns hard-to-exploit races into easy-to-exploit races by manipulating an interrupt mechanism during the exploitation. According to our evaluation with 10 real-world hard-to-exploit races, ExpRace was able to exploit all of those within 10 to 118 seconds, while an exploitation without ExpRace failed for all given 24 hours.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

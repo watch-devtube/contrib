@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Senate: A Maliciously-Secure MPC Platform for Collaborative Analytics'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - Senate: A Maliciously-Secure MPC Platform for Collaborative Analytics\n\nRishabh Poddar and Sukrit Kalra, UC Berkeley; Avishay Yanai, VMware Research; Ryan Deng, Raluca Ada Popa, and Joseph M. Hellerstein, UC Berkeley\n\nMany organizations stand to benefit from pooling their data together in order to draw mutually beneficial insights—e.g., for fraud detection across banks, better medical studies across hospitals, etc. However, such organizations are often prevented from sharing their data with each other by privacy concerns, regulatory hurdles, or business competition.\n\nWe present Senate, a system that allows multiple parties to collaboratively run analytical SQL queries without revealing their individual data to each other. Unlike prior works on secure multi-party computation (MPC) that assume that all parties are semi-honest, Senate protects the data even in the presence of malicious adversaries. At the heart of Senate lies a new MPC decomposition protocol that decomposes the cryptographic MPC computation into smaller units, some of which can be executed by subsets of parties and in parallel, while preserving its security guarantees. Senate then provides a new query planning algorithm that decomposes and plans the cryptographic computation effectively, achieving a performance of up to 145 × faster than the state-of-the-art.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

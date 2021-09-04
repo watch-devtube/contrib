@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Searching Encrypted Data with Size-Locked Indexes'
+language: English
+recordingDate: 1630710825
+description: "Searching Encrypted Data with Size-Locked Indexes\n\nMin Xu, University of Chicago; Armin Namavari, Cornell University; David Cash, University of Chicago; Thomas Ristenpart, Cornell Tech\n\nWe investigate a simple but overlooked folklore approach for searching encrypted documents held at an untrusted service: Just stash an index (with unstructured encryption) at the service and download it for updating and searching. This approach is simple to deploy, enables rich search support beyond unsorted keyword lookup, requires no persistent client state, and (intuitively at least) provides excellent security compared with approaches like dynamic searchable symmetric encryption (DSSE). This work first shows that implementing this construct securely is more subtle than it appears, and that naive implementations with commodity indexes are insecure due to the leakage of the byte-length of the encoded index. We then develop a set of techniques for encoding indexes, called size-locking, that eliminates this leakage. Our key idea is to fix the size of indexes to depend only on features that are safe to leak. We further develop techniques for securely partitioning indexes into smaller pieces that are downloaded, trading leakage for large increases in performance in a measured way. We implement our systems and evaluate that they provide search quality matching plaintext systems, support for stateless clients, and resistance to damaging injection attacks.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Share First, Ask Later (or Never?) Studying Violations of GDPR''s Explicit'
+language: English
+recordingDate: 1630711049
+description: "Share First, Ask Later (or Never?) Studying Violations of GDPR's Explicit Consent in Android Apps\n\nTrung Tin Nguyen, CISPA Helmholtz Center for Information Security; Saarbrücken Graduate School of Computer Science, Saarland University; Michael Backes, Ninja Marnau, and Ben Stock, CISPA Helmholtz Center for Information Security\n\nSince the General Data Protection Regulation (GDPR) went into effect in May 2018, online services are required to obtain users' explicit consent before sharing users' personal data with third parties that use the data for their own purposes. While violations of this legal basis on the Web have been studied in-depth, the community lacks insight into such violations in the mobile ecosystem.\n\nWe perform the first large-scale measurement on Android apps in the wild to understand the current state of the violation of GDPR's explicit consent. Specifically, we build a semi-automated pipeline to detect data sent out to the Internet without prior consent and apply it to a set of 86,163 Android apps. Based on the domains that receive data protected under the GDPR without prior consent, we collaborate with a legal scholar to assess if these contacted domains are third-party data controllers. Doing so, we find 24,838 apps send personal data towards data controllers without the user's explicit prior consent. To understand the reasons behind this, we run a notification campaign to inform affected developers and gather insights from their responses. We then conduct an in-depth analysis of violating apps as well as the corresponding third parties' documentation and privacy policies. Based on the responses and our analysis of available documentation, we derive concrete recommendations for all involved entities in the ecosystem to allow data subjects to exercise their fundamental rights and freedoms.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

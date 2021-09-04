@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Static Detection of Unsafe DMA Accesses in Device Drivers'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - Static Detection of Unsafe DMA Accesses in Device Drivers\n\nJia-Ju Bai and Tuo Li, Tsinghua University; Kangjie Lu, University of Minnesota; Shi-Min Hu, Tsinghua University\n\nDirect Memory Access (DMA) is a popular mechanism for improving hardware I/O performance, and it has been widely used by many existing device drivers. However, DMA accesses can be unsafe, from two aspects. First, without proper synchronization of DMA buffers with hardware registers and CPU cache, the buffer data stored in CPU cache and hardware registers can be inconsistent, which can cause unexpected hardware behaviors. Second, a malfunctioning or untrusted hardware device can write bad data into system memory, which can trigger security bugs (such as buffer overflow and invalid pointer access), if the driver uses the data without correct validation. To detect unsafe DMA accesses, some key challenges need to be solved. For example, because each DMA access is implemented as a regular variable access in the driver code, identifying DMA accesses is difficult.\n\nIn this paper, we propose a static-analysis approach named SADA, to automatically and accurately detect unsafe DMA accesses in device drivers. SADA consists of three basic steps. First, SADA uses a field-based alias analysis to identify DMA accesses, according to the information of DMA-buffer creation. Second, SADA uses a flow-sensitive and pattern-based analysis to check the safety of each DMA access, to detect possible unsafe DMA accesses. Finally, SADA uses a SMT solver to validate the code-path condition of each possible unsafe DMA access, to drop false positives. We have evaluated SADA on the driver code of Linux 5.6, and found 284 real unsafe DMA accesses. Among them, we highlight that 121 can trigger buffer-overflow bugs and 36 can trigger invalid-pointer accesses causing arbitrary read or write. We have reported these unsafe DMA accesses to Linux driver developers, and 105 of them have been confirmed.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

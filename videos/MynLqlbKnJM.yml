@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Leakage of Dataset Properties in Multi-Party Machine Learning'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - Leakage of Dataset Properties in Multi-Party Machine Learning\n\nWanrong Zhang, Georgia Institute of Technology; Shruti Tople, Microsoft Research; Olga Ohrimenko, The University of Melbourne\n\nSecure multi-party machine learning allows several parties to build a model on their pooled data to increase utility while not explicitly sharing data with each other. We show that such multi-party computation can cause leakage of global dataset properties between the parties even when parties obtain only black-box access to the final model. In particular, a \"curious\" party can infer the distribution of sensitive attributes in other parties' data with high accuracy. This raises concerns regarding the confidentiality of properties pertaining to the whole dataset as opposed to individual data records. We show that our attack can leak population-level properties in datasets of different types, including tabular, text, and graph data. To understand and measure the source of leakage, we consider several models of correlation between a sensitive attribute and the rest of the data. Using multiple machine learning models, we show that leakage occurs even if the sensitive attribute is not included in the training data and has a low correlation with other attributes or the target variable.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

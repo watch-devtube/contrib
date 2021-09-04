@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Communication–Computation Trade-offs in PIR'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - Communication–Computation Trade-offs in PIR\n\nAsra Ali, Google; Tancrède Lepoint; Sarvar Patel, Mariana Raykova, Phillipp Schoppmann, Karn Seth, and Kevin Yeo, Google\n\nWe study the computation and communication costs and their possible trade-offs in various constructions for private information retrieval (PIR), including schemes based on homomorphic encryption and the Gentry–Ramzan PIR (ICALP'05).\n\nWe improve over the construction of SealPIR (S&P'18) using compression techniques and a new oblivious expansion, which reduce the communication bandwidth by 80% while preserving essentially the same computation cost. We then present MulPIR, a PIR protocol additionally leveraging multiplicative homomorphism to implement the recursion steps in PIR. While using the multiplicative homomorphism has been considered in prior work, we observe that in combination with our other techniques, it introduces a meaningful tradeoff by significantly reducing communication, at the cost of an increased computational cost for the server, when the databases have large entries. For some applications, we show that this could reduce the total monetary server cost by up to 35%.\n\nOn the other end of the communication–computation spectrum, we take a closer look at Gentry–Ramzan PIR, a scheme with asymptotically optimal communication rate. Here, the bottleneck is the server's computation, which we manage to reduce significantly. Our optimizations enable a tunable tradeoff between communication and computation, which allows us to reduce server computation by as much as 85%, at the cost of an increased query size.\n\nFinally, we introduce new ways to handle PIR over sparse databases (keyword PIR), based on different hashing techniques. We implement all of our constructions, and compare their communication and computation overheads with respect to each other for several application scenarios.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

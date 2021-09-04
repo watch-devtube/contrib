@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Blinder: Partition-Oblivious Hierarchical Scheduling'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - Blinder: Partition-Oblivious Hierarchical Scheduling\n\nMan-Ki Yoon, Mengqi Liu, Hao Chen, Jung-Eun Kim, and Zhong Shao, Yale University\n\nHierarchical scheduling enables modular reasoning about the temporal behavior of individual applications by partitioning CPU time and thus isolating potential misbehavior. However, conventional time-partitioning mechanisms fail to achieve strong temporal isolation from a security perspective; variations in the executions of partitions can be perceived by others, which enables an algorithmic covert timing-channel between partitions that are completely isolated from each other in the utilization of time. Thus, we present a run-time algorithm that makes partitions oblivious to others' varying behaviors even when an adversary has full control over their timings. It enables the use of dynamic time-partitioning mechanisms that provide improved responsiveness, while guaranteeing the algorithmic-level non-interference that static approaches would achieve. From an implementation on an open-source operating system, we evaluate the costs of the solution in terms of the responsiveness as well as scheduling overhead.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

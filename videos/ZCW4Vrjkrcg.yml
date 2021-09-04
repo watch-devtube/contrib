@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - MAZE: Towards Automated Heap Feng Shui'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - MAZE: Towards Automated Heap Feng Shui\n\nYan Wang, {CAS-KLONAT, BKLONSPT}, Institute of Information Engineering, Chinese Academy of Sciences; WeiRan Lab, Huawei Technologies; Chao Zhang, BNRist & Institute for Network Science and Cyberspace, Tsinghua University; Tsinghua University-QI-ANXIN Group JCNS; Zixuan Zhao, Bolun Zhang, Xiaorui Gong, and Wei Zou, {CAS-KLONAT, BKLONSPT}, Institute of Information Engineering, Chinese Academy of Sciences; School of Cyber Security, University of Chinese Academy of Sciences\n\nA large number of memory corruption vulnerabilities, e.g., heap overflow and use after free (UAF), could only be exploited in specific heap layouts via techniques like heap feng shui. To pave the way for automated exploit generation (AEG), automated heap layout manipulation is demanded.\n\nIn this paper, we present a novel solution MAZE to manipulate proof-of-concept (POC) samples' heap layouts. It first identifies heap layout primitives (i.e., input fragments or code snippets) available for users to manipulate the heap. Then, it applies a novel Dig & Fill algorithm, which models the problem as a Linear Diophantine Equation and solves it deterministically, to infer a primitive operation sequence that is able to generate target heap layout.\n\nWe implemented a prototype of MAZE based on the analysis engine S2E, and evaluated it on the PHP, Python and Perl interpreters and a set of CTF (capture the flag) programs, as well as a large micro-benchmark. Results showed that MAZE could generate expected heap layouts for over 90% of them.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

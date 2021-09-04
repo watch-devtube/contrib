@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - SLAP: Improving Physical Adversarial Examples with Short-Lived Adversarial'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - SLAP: Improving Physical Adversarial Examples with Short-Lived Adversarial Perturbations\n\nGiulio Lovisotto, Henry Turner, and Ivo Sluganovic, University of Oxford; Martin Strohmeier, armasuisse; Ivan Martinovic, University of Oxford\n\nResearch into adversarial examples (AE) has developed rapidly, yet static adversarial patches are still the main technique for conducting attacks in the real world, despite being obvious, semi-permanent and unmodifiable once deployed.\n\nIn this paper, we propose Short-Lived Adversarial Perturbations (SLAP), a novel technique that allows adversaries to realize physically robust real-world AE by using a projector. Attackers can project specifically crafted adversarial perturbations onto real-world objects, transforming them into AE. This grants adversaries greater control over the attack compared to adversarial patches, as projections can be turned on and off as needed and leave no obvious trace of an attack.\n\nWe study the feasibility of SLAP in the self-driving scenario, targeting both object detector and traffic sign recognition tasks, focusing on the detection of stop signs. We conduct experiments in a variety of ambient light conditions, including outdoors, showing how in non-bright settings the proposed method generates AE that are extremely robust, causing misclassifications on state-of-the-art neural networks with up to 99% success rate. Our experiments show that SLAP-generated AE do not present detectable behaviours seen in adversarial patches and therefore bypass SentiNet, a physical AE detection method. We evaluate other defences including an adaptive defender using adversarial learning which is able to thwart the attack effectiveness up to 80% even in favourable attacker conditions.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

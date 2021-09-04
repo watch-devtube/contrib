@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles...'
+language: English
+recordingDate: 1630710824
+description: "USENIX Security '21 - Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)\n\nRobert Merget and Marcus Brinkmann, Ruhr University Bochum; Nimrod Aviram, School of Computer Science, Tel Aviv University; Juraj Somorovsky, Paderborn University; Johannes Mittmann, Bundesamt für Sicherheit in der Informationstechnik (BSI), Germany; Jörg Schwenk, Ruhr University Bochum\n\nDiffie-Hellman key exchange (DHKE) is a widely adopted method for exchanging cryptographic key material in real-world protocols like TLS-DH(E). Past attacks on TLS-DH(E) focused on weak parameter choices or missing parameter validation. The confidentiality of the computed DH share, the premaster secret, was never questioned; DHKE is used as a generic method to avoid the security pitfalls of TLS-RSA.\n\nWe show that due to a subtle issue in the key derivation of all TLS-DH(E) cipher suites in versions up to TLS 1.2, the premaster secret of a TLS-DH(E) session may, under certain circumstances, be leaked to an adversary. Our main result is a novel side-channel attack, named Raccoon attack, which exploits a timing vulnerability in TLS-DH(E), leaking the most significant bits of the shared Diffie-Hellman secret. The root cause for this side channel is that the TLS standard encourages non-constant-time processing of the DH secret. If the server reuses ephemeral keys, this side channel may allow an attacker to recover the premaster secret by solving an instance of the Hidden Number Problem. The Raccoon attack takes advantage of uncommon DH modulus sizes, which depend on the properties of the used hash functions. We describe a fully feasible remote attack against an otherwise-secure TLS configuration: OpenSSL with a 1032-bit DH modulus. Fortunately, such moduli are not commonly used on the Internet.\n\nFurthermore, with our large-scale scans we have identified implementation-level issues in production-grade TLS implementations that allow for executing the same attack by directly observing the contents of server responses, without resorting to timing measurements.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

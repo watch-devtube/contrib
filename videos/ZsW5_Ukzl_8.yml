@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Nyx: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - Nyx: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types\n\nSergej Schumilo, Cornelius Aschermann, Ali Abbasi, Simon Wör­ner, and Thorsten Holz, Ruhr-Universität Bochum\n\nA hypervisor (also know as virtual machine monitor, VMM) enforces the security boundaries between different virtual machines (VMs) running on the same physical machine. A malicious user who is able to run her own kernel on a cloud VM can interact with a large variety of attack surfaces. Exploiting a software fault in any of these surfaces leads to full access to all other VMs that are co-located on the same host. Hence, the efficient detection of hypervisor vulnerabilities is crucial for the security of the modern cloud infrastructure. Recent work showed that blind fuzzing is the most efficient approach to identify security issues in hypervisors, mainly due to an outstandingly high test throughput.\n\nIn this paper we present the design and implementation of NYX, a highly optimized, coverage-guided hypervisor fuzzer. We show how a fast snapshot restoration mechanism that allows us to reload the system under test thousands of times per second is key to performance. Furthermore, we introduce a novel mutation engine based on custom bytecode programs, encoded as directed acyclic graphs (DAG), and affine types, that enables the required flexibility to express complex interactions. Our evaluation shows that, while NYX has a lower throughput than the state-of-the-art hypervisor fuzzer, it performs competitively on simple targets: NYX typically requires only a few minutes longer to achieve the same test coverage. On complex devices, however, our approach is able to significantly outperform existing works. Moreover, we are able to uncover substantially more bugs: in total, we uncovered 44 new bugs with 22 CVEs requested. Our results demonstrate that coverage guidance is highly valuable, even if a blind fuzzer can be significantly faster.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

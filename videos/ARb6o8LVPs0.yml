@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Fingerprinting in Style: Detecting Browser Extensions via Injected Style'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - Fingerprinting in Style: Detecting Browser Extensions via Injected Style Sheets\n\nPierre Laperdrix, Univ. Lille, CNRS, Inria; Oleksii Starov, Palo Alto Networks; Quan Chen and Alexandros Kapravelos, North Carolina State University; Nick Nikiforakis, Stony Brook University\n\nBrowser extensions enhance the web experience and have seen great adoption from users in the past decade. At the same time, past research has shown that online trackers can use various techniques to infer the presence of installed extensions and abuse them to track users as well as uncover sensitive information about them.\n\nIn this work we present a novel extension-fingerprinting vector showing how style modifications from browser extensions can be abused to identify installed extensions. We propose a pipeline that analyzes extensions both statically and dynamically and pinpoints their injected style sheets. Based on these, we craft a set of triggers that uniquely identify browser extensions from the context of the visited page. We analyzed 116K extensions from Chrome's Web Store and report that 6,645 of them inject style sheets on any website that users visit. Our pipeline has created triggers that uniquely identify 4,446 of these extensions, 1,074 (24%) of which could not be fingerprinted with previous techniques. Given the power of this new extension-fingerprinting vector, we propose specific countermeasures against style fingerprinting that have minimal impact on the overall user experience.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

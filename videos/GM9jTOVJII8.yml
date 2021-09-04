@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - MPInspector: A Systematic and Automatic Approach for Evaluating the Security'
+language: English
+recordingDate: 1630711049
+description: "MPInspector: A Systematic and Automatic Approach for Evaluating the Security of IoT Messaging Protocols\n\nQinying Wang, Zhejiang University; Shouling Ji, Zhejiang University; Binjiang Institute of Zhejiang University; Yuan Tian, University of Virginia; Xuhong Zhang, Zhejiang University; Binjiang Institute of Zhejiang University; Binbin Zhao, Georgia Institute of Technology; Yuhong Kan and Zhaowei Lin, Zhejiang University; Changting Lin and Shuiguang Deng, Zhejiang University; Binjiang Institute of Zhejiang University; Alex X. Liu, Ant Group; Raheem Beyah, Georgia Institute of Technology\n\nFacilitated by messaging protocols (MP), many home devices are connected to the Internet, bringing convenience and accessibility to customers. However, most deployed MPs on IoT platforms are fragmented, which are not implemented carefully to support secure communication. To the best of our knowledge, there is no systematic solution to perform automatic security checks on MP implementations yet.\n\nTo bridge the gap, we present MPInspector, the first automatic and systematic solution for vetting the security of MP implementations. MPInspector combines model learning with formal analysis and operates in three stages: (a) using parameter semantics extraction and interaction logic extraction to automatically infer the state machine of an MP implementation, (b) generating security properties based on meta properties and the state machine, and (c) applying automatic property based formal verification to identify property violations. We evaluate MPInspector on three popular MPs, including MQTT, CoAP and AMQP, implemented on nine leading IoT platforms. It identifies 252 property violations, leveraging which we further identify eleven types of attacks under two realistic attack scenarios. In addition, we demonstrate that MPInspector is lightweight (the average overhead of end-to-end analysis is ~4.5 hours) and effective with a precision of 100% in identifying property violations.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

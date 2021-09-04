@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Understanding Malicious Cross-library Data Harvesting on Android'
+language: English
+recordingDate: 1630710824
+description: "Understanding Malicious Cross-library Data Harvesting on Android\n\nJice Wang, National Computer Network Intrusion Protection Center, University of Chinese Academy of Sciences; Indiana University Bloomington; Yue Xiao and Xueqiang Wang, Indiana University Bloomington; Yuhong Nan, Purdue University; Luyi Xing and Xiaojing Liao, Indiana University Bloomington; JinWei Dong, School of Cyber Engineering, Xidian University; Nicolas Serrano, Indiana University, Bloomington; Haoran Lu and XiaoFeng Wang, Indiana University Bloomington; Yuqing Zhang, National Computer Network Intrusion Protection Center, University of Chinese Academy of Sciences; School of Cyber Engineering, Xidian University; School of Computer Science and Cyberspace Security, Hainan University\n\nRecent years have witnessed the rise of security risks of libraries integrated in mobile apps, which are reported to steal private user data from the host apps and the app backend servers. Their security implications, however, have never been fully understood. In our research, we brought to light a new attack vector long been ignored yet with serious privacy impacts – malicious libraries strategically target other vendors'SDKs integrated in the same host app to harvest private user data (e.g., Facebook's user profile). Using a methodology that incorporates semantic analysis on an SDK's Terms of Services (ToS, which describes restricted data access and sharing policies) and code analysis on cross-library interactions, we were able to investigate 1.3 million Google Play apps and the ToSes from 40 highly-popular SDKs, leading to the discovery of 42 distinct libraries stealthily harvesting data from 16 popular SDKs, which affect more than 19K apps with a total of 9 billion downloads. Our study further sheds light on the underground ecosystem behind such library-based data harvesting (e.g., monetary incentives for SDK integration), their unique strategies (e.g., hiding data in crash reports and using C2 server to schedule data exfiltration) and significant impacts.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

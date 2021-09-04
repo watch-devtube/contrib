@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - CADE: Detecting and Explaining Concept Drift Samples for Security Applications'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - CADE: Detecting and Explaining Concept Drift Samples for Security Applications\n\nLimin Yang, University of Illinois at Urbana-Champaign; Wenbo Guo, The Pennsylvania State University; Qingying Hao, University of Illinois at Urbana-Champaign; Arridhana Ciptadi and Ali Ahmadzadeh, Blue Hexagon; Xinyu Xing, The Pennsylvania State University; Gang Wang, University of Illinois at Urbana-Champaign\n\nConcept drift poses a critical challenge to deploy machine learning models to solve practical security problems. Due to the dynamic behavior changes of attackers (and/or the benign counterparts), the testing data distribution is often shifting from the original training data over time, causing major failures to the deployed model.\n\nTo combat concept drift, we present a novel system CADE aiming to 1) detect drifting samples that deviate from existing classes, and 2) provide explanations to reason the detected drift. Unlike traditional approaches (that require a large number of new labels to determine concept drift statistically), we aim to identify individual drifting samples as they arrive. Recognizing the challenges introduced by the high-dimensional outlier space, we propose to map the data samples into a low-dimensional space and automatically learn a distance function to measure the dissimilarity between samples. Using contrastive learning, we can take full advantage of existing labels in the training dataset to learn how to compare and contrast pairs of samples. To reason the meaning of the detected drift, we develop a distance-based explanation method. We show that explaining \"distance\" is much more effective than traditional methods that focus on explaining a \"decision boundary\" in this problem context. We evaluate CADE with two case studies: Android malware classification and network intrusion detection. We further work with a security company to test CADE on its malware database. Our results show that CADE can effectively detect drifting samples and provide semantically meaningful explanations.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

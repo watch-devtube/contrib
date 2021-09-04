@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Entangled Watermarks as a Defense against Model Extraction'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - Entangled Watermarks as a Defense against Model Extraction\n\nHengrui Jia and Christopher A. Choquette-Choo, University of Toronto and Vector Institute; Varun Chandrasekaran, University of Wisconsin-Madison; Nicolas Papernot, University of Toronto and Vector Institute\n\nMachine learning involves expensive data collection and training procedures. Model owners may be concerned that valuable intellectual property can be leaked if adversaries mount model extraction attacks. As it is difficult to defend against model extraction without sacrificing significant prediction accuracy, watermarking instead leverages unused model capacity to have the model overfit to outlier input-output pairs. Such pairs are watermarks, which are not sampled from the task distribution and are only known to the defender. The defender then demonstrates knowledge of the input-output pairs to claim ownership of the model at inference. The effectiveness of watermarks remains limited because they are distinct from the task distribution and can thus be easily removed through compression or other forms of knowledge transfer.\n\nWe introduce Entangled Watermarking Embeddings (EWE). Our approach encourages the model to learn features for classifying data that is sampled from the task distribution and data that encodes watermarks. An adversary attempting to remove watermarks that are entangled with legitimate data is also forced to sacrifice performance on legitimate data. Experiments on MNIST, Fashion-MNIST, CIFAR-10, and Speech Commands validate that the defender can claim model ownership with 95% confidence with less than 100 queries to the stolen copy, at a modest cost below 0.81 percentage points on average in the defended model's performance.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

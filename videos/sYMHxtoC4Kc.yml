@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - SelectiveTaint: Efficient Data Flow Tracking With Static Binary Rewriting'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - SelectiveTaint: Efficient Data Flow Tracking With Static Binary Rewriting\n\nSanchuan Chen, Zhiqiang Lin, and Yinqian Zhang, The Ohio State University\n\nTaint analysis has been widely used in many security applications such as exploit detection, information flow tracking, malware analysis, and protocol reverse engineering. State-of-the-art taint analysis tools are usually built atop dynamic binary instrumentation, which instruments at every possible instruction, and rely on runtime information to decide whether a particular instruction involves taint or not, thereby usually having high performance overhead. This paper presents SelectiveTaint, an efficient selective taint analysis framework for binary executables. The key idea is to selectively instrument the instructions involving taint analysis using static binary rewriting instead of dynamic binary instrumentation. At a high level, SelectiveTaint statically scans taint sources of interest in the binary code, leverages value set analysis to conservatively determine whether an instruction operand needs to be tainted or not, and then selectively taints the instructions of interest. We have implemented SelectiveTaint and evaluated it with a set of binary programs including 16 coreutils (focusing on file I/O) and five network daemon programs (focusing on network I/O) such as nginx web server. Our evaluation results show that the binaries statically instrumented by SelectiveTaint has superior performance compared to the state-of-the-art dynamic taint analysis frameworks (e.g., 1.7xfaster than that of libdft).\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

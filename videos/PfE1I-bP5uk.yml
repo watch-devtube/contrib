@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Ripple: A Programmable, Decentralized Link-Flooding Defense Against Adaptive'
+language: English
+recordingDate: 1630710824
+description: "Ripple: A Programmable, Decentralized Link-Flooding Defense Against Adaptive Adversaries\n\nJiarong Xing, Wenqing Wu, and Ang Chen, Rice University\n\nLink-flooding attacks (LFAs) aim to cut off an edge network from the Internet by congesting core network links. Such an adversary can further change the attack strategy dynamically (e.g., target links, traffic types) to evade mitigation and launch persistent attacks.\n\nWe develop Ripple, a programmable, decentralized link-flooding defense against dynamic adversaries. Ripple can be programmed using a declarative policy language to emulate a range of state-of-the-art SDN defenses, but it enables the defenses to shapeshift on their own without a central controller. To achieve this, Ripple develops new defense primitives in programmable switches, which are configured by the policy language to implement a desired defense. The Ripple compiler generates a distributed set of switch programs to extract a panoramic view of attack signals and act against them in a fully decentralized manner, enabling successive waves of defenses against fast-changing attacks. We show that Ripple has low overheads, and that it can effectively recover traffic throughput where SDN-based defenses fail.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

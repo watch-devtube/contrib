@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Undo Workarounds for Kernel Bugs'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - Undo Workarounds for Kernel Bugs\n\nSeyed Mohammadjavad Seyed Talebi, Zhihao Yao, and Ardalan Amiri Sani, UC Irvine; Zhiyun Qian, UC Riverside; Daniel Austin, Atlassian\n\nOS kernels are full of bugs resulting in security, reliability, and usability issues. Several kernel fuzzers have recently been developed to find these bugs and have proven to be effective. Yet, bugs take several months to be patched once they are discovered. In this window of vulnerability, bugs continue to pose concerns. We present workarounds for kernel bugs, called bowknots, which maintain the functionality of the system even when bugs are triggered, are applicable to many kernel bugs, do not cause noticeable performance overhead, and have a small kernel footprint. The key idea behind bowknots is to undo the side effects of the in-flight syscall that triggers a bug, effectively neutralizing the syscall. We also present a static analysis tool, called Hecaton, that generates bowknots automatically and inserts them into the kernel. Through extensive evaluations on the kernel of Android devices as well as x86 upstream kernels, we demonstrate that bowknots are effective in mitigating kernel bugs and vulnerabilities. We also show that Hecaton is capable of generating the right bowknots fully automatically in majority of cases, and requires minimal help from the analyst for the rest. Finally, we demonstrate the benefits of bowknots in improving the efficiency of kernel fuzzing by eliminating repetitive reboots.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

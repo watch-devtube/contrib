@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Demon in the Variant: Statistical Analysis of DNNs for Robust Backdoor'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - Demon in the Variant: Statistical Analysis of DNNs for Robust Backdoor Contamination Detection\n\nDi Tang, Chinese University of Hong Kong; XiaoFeng Wang and Haixu Tang, Indiana University; Kehuan Zhang, Chinese University of Hong Kong\n\nA security threat to deep neural networks (DNN) is data contamination attack, in which an adversary poisons the training data of the target model to inject a backdoor so that images carrying a specific trigger will always be given a specific label. We discover that prior defense on this problem assumes the dominance of the trigger in model's representation space, which causes any image with the trigger to be classified to the target label. Such dominance comes from the unique representations of trigger-carrying images, which are assumed to be significantly different from what benign images produce. Our research, however, shows that this assumption can be broken by a targeted contamination TaCT that obscures the difference between those two kinds of representations and causes the attack images to be less distinguishable from benign ones, thereby evading existing protection.\n\nIn our research, we observe that TaCT can affect the representation distribution of the target class but can hardly change the distribution across all classes, allowing us to build new defense performing a statistic analysis on the global information. More specifically, we leverage an EM algorithm to decompose an images into its identity part (e.g., person) and variation part (e.g., poses). Then the distribution of the variation, based upon the global information across all classes, is utilized by a likelihood-ratio test to analyze the representations in each class, identifying those more likely to be characterized by a mixture model resulted from adding attack samples into the legitimate image pool of the current class. Our research illustrates that our approach can effectively detect data contamination attacks, not only the known ones but the new TaCT attack discovered in our study.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

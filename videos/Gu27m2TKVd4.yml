@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Saphire: Sandboxing PHP Applications with Tailored System Call Allowlists'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - Saphire: Sandboxing PHP Applications with Tailored System Call Allowlists\n\nAlexander Bulekov, Rasoul Jahanshahi, and Manuel Egele, Boston University\n\nInterpreted languages, such as PHP, power a host of platform-independent applications, including websites, instant messengers, video games, and development environments. With the flourishing popularity of these applications, attackers have honed in on finding and exploiting vulnerabilities in interpreted code. Generally, all parts of an interpreted application execute with uniform and superfluous privileges, increasing the potential damage from an exploit. This lack of privilege-separation is in stark violation of the principle of least privilege(PoLP).\n\nDespite 1,980 web app remote code execution (RCE) vulnerabilities discovered in 2018 alone [25], current defenses rely on incomplete detection of vulnerable code, or extensive collections of benign inputs. Considering the limitations of bug-finding systems, the violation of the PoLP exposes systems to unnecessarily-high risks.\n\nIn this paper, we identify the current challenges with applying the PoLP to interpreted PHP applications, and propose a novel generic approach for automatically deriving system-call policies for individual interpreted programs. This effectively reduces the attack surface (i.e., set of system-calls) an exploit can leverage to the system-calls the script needs to perform its benign functionality.\n\nWe name our implementation of this approach, Saphire, and thoroughly evaluate the prototype with respect to its security and performance characteristics. Our evaluation on 21 known vulnerable web apps and plugins shows that Saphire successfully prevents RCE exploits, and is able to do so with negligible performance overhead (i.e., 2% in the worst case) for real-world web apps. Saphire performs its service without causing false positives over automatically and manually generated benign traffic to each web app.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

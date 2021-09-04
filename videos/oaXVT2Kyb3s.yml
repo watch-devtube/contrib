@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks\n\nYingzhe He, Guozhu Meng, Kai Chen, Xingbo Hu, and Jinwen He, SKLOIS, Institute of Information Engineering, Chinese Academy of Sciences/School of Cyber Security, University of Chinese Academy of Sciences\n\nIt is non-trivial to attack deep neural networks in black-box settings without any model detail disclosed. Prior studies on black-box attacks leverage a number of queries to the target model for probing the target model or generating adversarial examples. Queries are usually limited and costly so that the adversary probably fails to mount an effective attack. However, not all the queries have to be made since there exist repetitions or redundancies that induce many inefficient queries. Therefore, it leaves a lot of room for data reduction and more efficient queries. To this end, we first propose to use mutual information to measure the data redundancy between two data samples, and then develop a data reduction technique based on mutual information, termed as DRMI. We implement an efficient optimization algorithm in DRMI, so as to obtain a particular subset of data samples, of which the mutual information in between is minimized. We conduct extensive experiments on MNIST, CIFAR10, and ImageNet, and six types of deep neural networks, and evaluate DRMI in model extraction and adversarial attacks. The results demonstrate its high effectiveness in these attacks, surpassing a state-of-the-art approach by raising 7% of model accuracy and two times more transferability of adversarial examples. Through the comparison experiments with other three strategies, we identify what properties of data have been preserved and removed, to some extent reveal the essences of deep neural networks.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Express: Lowering the Cost of Metadata-hiding Communication with Cryptographic'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - Express: Lowering the Cost of Metadata-hiding Communication with Cryptographic Privacy\n\nSaba Eskandarian, Stanford University; Henry Corrigan-Gibbs, MIT CSAIL; Matei Zaharia and Dan Boneh, Stanford University\n\nExisting systems for metadata-hiding messaging that provide cryptographic privacy properties have either high communication costs, high computation costs, or both. In this paper, we introduce Express, a metadata-hiding communication system that significantly reduces both communication and computation costs. Express is a two-server system that provides cryptographic security against an arbitrary number of malicious clients and one malicious server. In terms of communication, Express only incurs a constant-factor overhead per message sent regardless of the number of users, whereas previous cryptographically-secure systems Pung and Riposte had communication costs proportional to roughly the square root of the number of users. In terms of computation, Express only uses symmetric key cryptographic primitives and makes both practical and asymptotic improvements on protocols employed by prior work. These improvements enable Express to increase message throughput, reduce latency, and consume over 100x less bandwidth than Pung and Riposte, dropping the end to end cost of running a realistic whistleblowing application by 6x.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

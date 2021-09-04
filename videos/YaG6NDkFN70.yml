@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Coco: Co-Design and Co-Verification of Masked Software Implementations on CPUs'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - Coco: Co-Design and Co-Verification of Masked Software Implementations on CPUs\n\nBarbara Gigerl, Vedad Hadzic, and Robert Primas, Graz University of Technology; Stefan Mangard, Graz University of Technology, Lamarr Security Research; Roderick Bloem, Graz University of Technology\n\nThe protection of cryptographic implementations against power analysis attacks is of critical importance for many applications in embedded systems. The typical approach of protecting against these attacks is to implement algorithmic countermeasures, like masking. However, implementing these countermeasures in a secure and correct manner is challenging. Masking schemes require the independent processing of secret shares, which is a property that is often violated by CPU microarchitectures in practice. In order to write leakage-free code, the typical approach in practice is to iteratively explore instruction sequences and to empirically verify whether there is leakage caused by the hardware for this instruction sequence or not. Clearly, this approach is neither efficient, nor does it lead to rigorous security statements.\n\nIn this paper, we overcome the current situation and present the first approach for co-design and co-verification of masked software implementations on CPUs. First, we present Coco, a tool that allows us to provide security proofs at the gate-level for the execution of a masked software implementation on a concrete CPU. Using Coco, we analyze the popular 32-bit RISC-V Ibex core, identify all design aspects that violate the security of our tested masked software implementations and perform corrections, mostly in hardware. The resulting secured Ibex core has an area overhead around 10%, the runtime of software on this core is largely unaffected, and the formal verification with Coco of an, e.g., first-order masked Keccak S-box running on the secured Ibex core takes around 156 seconds. To demonstrate the effectiveness of our suggested design modifications, we perform practical leakage assessments using an FPGA evaluation board.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

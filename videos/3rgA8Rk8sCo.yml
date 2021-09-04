@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - U Can''t Debug This: Detecting JavaScript Anti-Debugging Techniques in the Wild'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - U Can't Debug This: Detecting JavaScript Anti-Debugging Techniques in the Wild\n\nMarius Musch and Martin Johns, TU Braunschweig\n\nThrough security contests such as Pwn2Own, we are constantly reminded that no complex piece of software should ever be considered secure. As we execute untrusted code in our browser every day, browser exploits written in JavaScript remain a constant threat to the security of our systems. In particular, evasive malware that detects analysis systems and then changes its behavior is a well-known problem.\n\nHowever, there are also anti-debugging techniques that interfere with the manual analysis of a website in a real browser. These techniques try to prevent, or at least slow down, any attempts at manually inspecting and debugging the JavaScript code of a website. For example, such a technique could constantly trigger breakpoints at random locations to effectively hinder single-stepping while debugging the code. More cunningly, it could also find out whether the browser's integrated Developer Tools are open by using certain side-channels available in JavaScript. With this knowledge, it is possible to subtly alter or suppress any malicious behavior while under analysis.\n\nIn this paper, we systematically explore this phenomenon. To this end, we introduce 9 anti-debugging techniques and discuss their advantages and drawbacks. We then conduct a large-scale study on 6 of them, to investigate the prevalence of these techniques in the wild. We find that as many as 1 out of 550 websites contain severe anti-debugging measures, with multiple of these techniques active on the same site. Moreover, we present a novel approach based on a deterministic website replay and a comparison of JavaScript code coverage. The approach can automatically detect the remaining 3 timing- based anti-debugging techniques, which use side-channels to learn if the DevTools are open. In a targeted study on 2000 websites with anti-debugging techniques, we discover over 200 of them indeed execute different code when under analysis.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

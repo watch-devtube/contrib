@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - VScape: Assessing and Escaping Virtual Call Protections'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - VScape: Assessing and Escaping Virtual Call Protections\n\nKaixiang Chen, Institute for Network Science and Cyberspace, Tsinghua University; Chao Zhang, Institute for Network Science and Cyberspace, Tsinghua University/Beijing National Research Center for Information Science and Technology/Tsinghua University-QI-ANXIN Group JCNS; Tingting Yin and Xingman Chen, Institute for Network Science and Cyberspace, Tsinghua University; Lei Zhao, School of Cyber Science and Engineering, Wuhan University\n\nMany control-ﬂow integrity (CFI) solutions have been proposed to protect indirect control transfers (ICT), including C++ virtual calls. Assessing the security guarantees of these defenses is thus important but hard. In practice, for a (strong) defense, it usually requires abundant manual efforts to assess whether it could be bypassed, when given a speciﬁc (weak) vulnerability. Existing automated exploit generation solutions, which are proposed to assess the exploitability of vulnerabilities, have not addressed this issue yet.\n\nIn this paper, we point out that a wide range of virtual call protections, which do not break the C++ ABI (application binary interface), are vulnerable to an advanced attack COOPLUS, even if the given vulnerabilities are weak. Then, we present a solution VScape to assess the effectiveness of virtual call protections against this attack. We developed a prototype of VScape, and utilized it to assess 11 CFI solutions and 14 C++ applications (including Firefox and PyQt) with known vulnerabilities. Results showed that real-world applications have a large set of exploitable virtual calls, and VScape could be utilized to generate working exploits to bypass deployed defenses via weak vulnerabilities.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

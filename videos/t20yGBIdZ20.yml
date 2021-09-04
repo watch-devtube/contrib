@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - PatchGuard: A Provably Robust Defense against Adversarial Patches via Small'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - PatchGuard: A Provably Robust Defense against Adversarial Patches via Small Receptive Fields and Masking\n\nChong Xiang, Princeton University; Arjun Nitin Bhagoji, University of Chicago; Vikash Sehwag and Prateek Mittal, Princeton University\n\nLocalized adversarial patches aim to induce misclassification in machine learning models by arbitrarily modifying pixels within a restricted region of an image. Such attacks can be realized in the physical world by attaching the adversarial patch to the object to be misclassified, and defending against such attacks is an unsolved/open problem. In this paper, we propose a general defense framework called PatchGuard that can achieve high provable robustness while maintaining high clean accuracy against localized adversarial patches. The cornerstone of PatchGuard involves the use of CNNs with small receptive fields to impose a bound on the number of features corrupted by an adversarial patch. Given a bounded number of corrupted features, the problem of designing an adversarial patch defense reduces to that of designing a secure feature aggregation mechanism. Towards this end, we present our robust masking defense that robustly detects and masks corrupted features to recover the correct prediction. Notably, we can prove the robustness of our defense against any adversary within our threat model. Our extensive evaluation on ImageNet, ImageNette (a 10-class subset of ImageNet), and CIFAR-10 datasets demonstrates that our defense achieves state-of-the-art performance in terms of both provable robust accuracy and clean accuracy.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

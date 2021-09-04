@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - The Use of Likely Invariants as Feedback for Fuzzers'
+language: English
+recordingDate: 1630710095
+description: "USENIX Security '21 - The Use of Likely Invariants as Feedback for Fuzzers\n\nAndrea Fioraldi, EURECOM; Daniele Cono D'Elia, Sapienza University of Rome; Davide Balzarotti, EURECOM\n\nWhile fuzz testing proved to be a very effective technique to find software bugs, open challenges still exist. One of the its main limitations is the fact that popular coverage-guided designs are optimized to reach different parts of the program under test, but struggle when reachability alone is insufficient to trigger a vulnerability. In reality, many bugs require a specific program state that involve not only the control flow, but also the values of some of the program variables. Unfortunately, alternative exploration strategies that have been proposed in the past to capture the program state are of little help in practice, as they immediately result in a state explosion.\n\nIn this paper, we propose a new feedback mechanism that augments code coverage by taking into account the usual values and relationships among program variables. For this purpose, we learn likely invariants over variables at the basicblock level, and partition the program state space accordingly. Our feedback can distinguish when an input violates one or more invariants and reward it, thus refining the program state approximation that code coverage normally offers.\n\nWe implemented our technique in a prototype called INVSCOV, developed on top of LLVM and AFL++. Our experiments show that our approach can find more, and different, bugs with respect to fuzzers that use a pure code-coverage feedback. Furthermore, they led to the discovery of two vulnerabilities in a library tested daily on OSS-Fuzz, and still present at the time in its latest version.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

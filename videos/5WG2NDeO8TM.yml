@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Fine Grained Dataflow Tracking with Proximal Gradients'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - Fine Grained Dataflow Tracking with Proximal Gradients\n\nGabriel Ryan, Abhishek Shah, and Dongdong She, Columbia University; Koustubha Bhat, Vrije Universiteit Amsterdam; Suman Jana, Columbia University\n\nDataflow tracking with Dynamic Taint Analysis (DTA) is an important method in systems security with many applications, including exploit analysis, guided fuzzing, and side-channel information leak detection. However, DTA is fundamentally limited by the Boolean nature of taint labels, which provide no information about the significance of detected dataflows and lead to false positives/negatives on complex real world programs.\n\nWe introduce proximal gradient analysis (PGA), a novel, theoretically grounded approach that can track more accurate and fine-grained dataflow information. PGA uses proximal gradients, a generalization of gradients for non-differentiable functions, to precisely compose gradients over non-differentiable operations in programs. Composing gradients over programs eliminates many of the dataflow propagation errors that occur in DTA and provides richer information about how each measured dataflow effects a program.\n\nWe compare our prototype PGA implementation to three state of the art DTA implementations on 7 real-world programs. Our results show that PGA can improve the F1 accuracy of data flow tracking by up to 33% over taint tracking (20% on average) without introducing any significant overhead (less than 5% on average). We further demonstrate the effectiveness of PGA by discovering 22 bugs (20 confirmed by developers) and 2 side-channel leaks, and identifying exploitable dataflows in 19 existing CVEs in the tested programs.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

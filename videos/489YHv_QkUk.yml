@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - The Complexities of Healing in Secure Group Messaging: Why Cross-Group Effects'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - The Complexities of Healing in Secure Group Messaging: Why Cross-Group Effects Matter\n\nCas Cremers, CISPA Helmholtz Center for Information Security; Britta Hale, Naval Postgraduate School (NPS); Konrad Kohbrok, Aalto University\n\nModern secure messaging protocols can offer strong security guarantees such as Post-Compromise Security (PCS), which enables participants to heal after compromise. The core PCS mechanism in protocols like Signal is designed for pairwise communication, making it inefficient for large groups, while recently proposed designs for secure group messaging, ART, IETF's MLS Draft-11/TreeKEM, use group keys derived from tree structures to efficiently provide PCS to large groups. Until now, research on PCS designs only considered healing behaviour within a single group.\n\nIn this work we provide the first analysis of the healing behaviour when a user participates in multiple groups. Surprisingly, our analysis reveals that the currently proposed protocols based on group keys, such as ART and TreeKEM/MLS Draft-11, provide significantly weaker PCS guarantees than group protocols based on pairwise PCS channels. In fact, we show that if new users can be created dynamically, ART, TreeKEM, and MLS Draft-11 never fully heal authentication.\n\nWe map the design space of healing mechanisms, analyzing security and overhead of possible solutions. This leads us to a promising solution based on (i) global updates that affect all current and future groups, and (ii) post-compromise secure signatures. Our solution allows group messaging protocols such ART and MLS to achieve substantially stronger PCS guarantees. We provide a security definition for post-compromise secure signatures and an instantiation.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Extracting Training Data from Large Language Models'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - Extracting Training Data from Large Language Models\n\nNicholas Carlini, Google; Florian Tramèr, Stanford University; Eric Wallace, UC Berkeley; Matthew Jagielski, Northeastern University; Ariel Herbert-Voss, OpenAI and Harvard University; Katherine Lee and Adam Roberts, Google; Tom Brown, OpenAI; Dawn Song, UC Berkeley; Úlfar Erlingsson, Apple; Alina Oprea, Northeastern University; Colin Raffel, Google\n\nIt has become common to publish large (billion parameter) language models that have been trained on private datasets. This paper demonstrates that in such settings, an adversary can perform a training data extraction attack to recover individual training examples by querying the language model.\n\nWe demonstrate our attack on GPT-2, a language model trained on scrapes of the public Internet, and are able to extract hundreds of verbatim text sequences from the model's training data. These extracted examples include (public) personally identifiable information (names, phone numbers, and email addresses), IRC conversations, code, and 128-bit UUIDs. Our attack is possible even though each of the above sequences are included in just one document in the training data.\n\nWe comprehensively evaluate our extraction attack to understand the factors that contribute to its success. Worryingly, we find that larger models are more vulnerable than smaller models. We conclude by drawing lessons and discussing possible safeguards for training large language models.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

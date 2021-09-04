@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Deep-Dup: An Adversarial Weight Duplication Attack Framework to Crush Deep'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - Deep-Dup: An Adversarial Weight Duplication Attack Framework to Crush Deep Neural Network in Multi-Tenant FPGA\n\nAdnan Siraj Rakin, Arizona State University; Yukui Luo and Xiaolin Xu, Northeastern University; Deliang Fan, Arizona State University\n\nThe wide deployment of Deep Neural Networks (DNN) in high-performance cloud computing platforms brought to light multi-tenant cloud field-programmable gate arrays (FPGA) as a popular choice of accelerator to boost performance due to its hardware reprogramming flexibility. Such a multi-tenant FPGA setup for DNN acceleration potentially exposes DNN interference tasks under severe threat from malicious users. This work, to the best of our knowledge, is the first to explore DNN model vulnerabilities in multi-tenant FPGAs. We propose a novel adversarial attack framework: Deep-Dup, in which the adversarial tenant can inject adversarial faults to the DNN model in the victim tenant of FPGA. Specifically, she can aggressively overload the shared power distribution system of FPGA with malicious power-plundering circuits, achieving adversarial weight duplication (AWD) hardware attack that duplicates certain DNN weight packages during data transmission between off-chip memory and on-chip buffer, to hijack the DNN function of the victim tenant. Further, to identify the most vulnerable DNN weight packages for a given malicious objective, we propose a generic vulnerable weight package searching algorithm, called Progressive Differential Evolution Search (P-DES), which is, for the first time, adaptive to both deep learning white-box and black-box attack models. The proposed Deep-Dup is experimentally validated in a developed multi-tenant FPGA prototype, for two popular deep learning applications, i.e., Object Detection and Image Classification. Successful attacks are demonstrated in six popular DNN architectures (e.g., YOLOv2, ResNet-50, MobileNet, etc.) on three datasets (COCO, CIFAR-10, and ImageNet).\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

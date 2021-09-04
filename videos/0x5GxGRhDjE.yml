@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - PolyScope: Multi-Policy Access Control Analysis to Compute Authorized Attack'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - PolyScope: Multi-Policy Access Control Analysis to Compute Authorized Attack Operations in Android Systems\n\nYu-Tsung Lee, Penn State University; William Enck, North Carolina State University; Haining Chen, Google; Hayawardh Vijayakumar, Samsung Research; Ninghui Li, Purdue University; Zhiyun Qian and Daimeng Wang, UC Riverside; Giuseppe Petracca, Lyft; Trent Jaeger, Penn State University\n\nAndroid's filesystem access control provides a foundation for system integrity. It combines mandatory (e.g., SEAndroid)and discretionary (e.g., Unix permissions) access control, protecting both the Android platform from Android/OEM services and Android/OEM services from third-party applications. However, OEMs often introduce vulnerabilities when they add market-differentiating features and fail to correctly reconfigure this complex combination of policies. In this paper, we propose the PolyScope tool to triage Android systems for vulnerabilities using their filesystem access control policies by: (1) identifying the resources that subjects are authorized to use that may be modified by their adversaries, both with and without policy manipulations, and (2) determining the attack operations on those resources that are actually available to adversaries to reveal the specific cases that need vulnerability testing. A key insight is that adversaries may exploit discretionary elements in Android access control to expand the permissions available to themselves and/or victims to launch attack operations, which we call permission expansion. We apply PolyScope to five Google and five OEM Android releases and find that permission expansion increases the privilege available to launch attacks, sometimes by more than 10x, but a significant fraction (about 15-20%) cannot be converted into attack operations due to other system configurations. Based on this analysis, we describe two previously un-known vulnerabilities and show how PolyScope helps OEMs triage the complex combination of access control policies down to attack operations worthy of testing\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

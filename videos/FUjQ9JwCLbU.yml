@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Cost-Aware Robust Tree Ensembles for Security Applications'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - Cost-Aware Robust Tree Ensembles for Security Applications\n\nYizheng Chen, Shiqi Wang, Weifan Jiang, Asaf Cidon, and Suman Jana, Columbia University\n\nThere are various costs for attackers to manipulate the features of security classifiers. The costs are asymmetric across features and to the directions of changes, which cannot be precisely captured by existing cost models based on Lp-norm robustness. In this paper, we utilize such domain knowledge to increase the attack cost of evading classifiers, specifically, tree ensemble models that are widely used by security tasks. We propose a new cost modeling method to capture the feature manipulation cost as constraint, and then we integrate the cost-driven constraint into the node construction process to train robust tree ensembles. During the training process, we use the constraint to find data points that are likely to be perturbed given the feature manipulation cost, and we use a new robust training algorithm to optimize the quality of the trees. Our cost-aware training method can be applied to different types of tree ensembles, including gradient boosted decision trees and random forest models. Using Twitter spam detection as the case study, our evaluation results show that we can increase the attack cost by 10.6X compared to the baseline. Moreover, our robust training method using cost-driven constraint can achieve higher accuracy, lower false positive rate, and stronger cost-aware robustness than the state-of-the-art training method using L∞-norm cost model. Our code is available at https://github.com/surrealyz/growtrees.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

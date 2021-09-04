@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Rage Against the Machine Clear: A Systematic Analysis of Machine Clears...'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks\n\nHany Ragab, Enrico Barberis, Herbert Bos, and Cristiano Giuffrida, Vrije Universiteit Amsterdam\n\nSince the discovery of the Spectre and Meltdown vulnerabilities, transient execution attacks have increasingly gained momentum. However, while the community has investigated several variants to trigger attacks during transient execution, much less attention has been devoted to the analysis of the root causes of transient execution itself. Most attack variants simply build on well-known root causes, such as branch misprediction and aborts of Intel TSX—which are no longer supported on many recent processors. In this paper, we tackle the problem from a new perspective, closely examining the different root causes of transient execution rather than focusing on new attacks based on known transient windows. Our analysis specifically focuses on the class of transient execution based on machine clears (MC), reverse engineering previously unexplored root causes such as Floating Point MC, Self-Modifying Code MC, Memory Ordering MC, and Memory Disambiguation MC. We show these events not only originate new transient execution windows that widen the horizon for known attacks, but also yield entirely new attack primitives to inject transient values (Floating Point Value Injection or FPVI) and executing stale code (Speculative Code Store Bypass or SCSB). We present an end-to-end FPVI exploit on the latest Mozilla SpiderMonkey JavaScript engine with all the mitigations enabled, disclosing arbitrary memory in the browser through attacker-controlled and transiently-injected floating-point results. We also propose mitigations for both attack primitives and evaluate their performance impact. Finally, as a by-product of our analysis, we present a new root cause-based classification of all known transient execution paths.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"
