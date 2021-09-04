@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Jetset: Targeted Firmware Rehosting for Embedded Systems'
+language: English
+recordingDate: 1630710721
+description: "USENIX Security '21 - Jetset: Targeted Firmware Rehosting for Embedded Systems\n\nEvan Johnson, University of California, San Diego; Maxwell Bland, YiFei Zhu, and Joshua Mason, University of Illinois at Urbana–Champaign; Stephen Checkoway, Oberlin College; Stefan Savage, University of California, San Diego; Kirill Levchenko, University of Illinois at Urbana–Champaign\n\nThe ability to execute code in an emulator is a fundamental part of modern vulnerability testing. Unfortunately, this poses a challenge for many embedded systems, where firmware expects to interact with hardware devices specific to the target. Getting embedded system firmware to run outside its native environment, termed rehosting, requires emulating these hardware devices with enough accuracy to convince the firmware that it is executing on the target hardware. However, full fidelity emulation of target devices (which requires considerable engineering effort) may not be necessary to boot the firmware to a point of interest for an analyst (for example, a point where fuzzer input can be injected). We hypothesized that, for the firmware to boot successfully, it is sufficient to emulate only the behavior expected by the firmware, and that this behavior could be inferred automatically.\n\nTo test this hypothesis, we developed and implemented Jetset, a system that uses symbolic execution to infer what behavior firmware expects from a target device. Jetset can generate devices models for hardware peripherals in C, allowing an analyst to boot the firmware in an emulator (e.g., QEMU). We successfully applied Jetset to thirteen distinct pieces of firmware together representing three architectures, three application domains (power grid, avionics, and consumer electronics), and five different operating systems. We also demonstrate how Jetset-assisted rehosting facilitates fuzz-testing, a common security analysis technique, on an avionics embedded system, in which we found a previously unknown privilege escalation vulnerability.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

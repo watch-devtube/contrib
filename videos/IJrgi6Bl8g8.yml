@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Automated Discovery of Denial-of-Service Vulnerabilities in Connected Vehicle'
+language: English
+recordingDate: 1630711142
+description: "Automated Discovery of Denial-of-Service Vulnerabilities in Connected Vehicle Protocols\n\nShengtuo Hu, University of Michigan; Qi Alfred Chen, UC Irvine; Jiachen Sun, Yiheng Feng, Z. Morley Mao, and Henry X. Liu, University of Michigan\n\nWith the development of the emerging Connected Vehicle (CV) technology, vehicles can wirelessly communicate with traffic infrastructure and other vehicles to exchange safety and mobility information in real time. However, the integrated communication capability inevitably increases the attack surface of vehicles, which can be exploited to cause safety hazard on the road. Thus, it is highly desirable to systematically understand design-level flaws in the current CV network stack as well as in CV applications, and the corresponding security/safety consequences so that these flaws can be proactively discovered and addressed before large-scale deployment.\n\nIn this paper, we design CVAnalyzer, a system for discovering design-level flaws for availability violations of the CV network stack, as well as quantifying the corresponding security/safety consequences. To achieve this, CVAnalyzer combines the attack discovery capability of a general model checker and the quantitative threat assessment capability of a probabilistic model checker. Using CVAnalyzer, we successfully uncovered 4 new DoS (Denial-of-Service) vulnerabilities of the latest CV network protocols and 14 new DoS vulnerabilities of two CV platoon management protocols. Our quantification results show that these attacks can have as high as 99% success rates, and in the worst case can at least double the delay in packet processing, violating the latency requirement in CV communication. We implemented and validated all attacks in a real-world testbed, and also analyzed the fundamental causes to propose potential solutions. We have reported our findings in the CV network protocols to the IEEE 1609 Working Group, and the group has acknowledged the discovered vulnerabilities and plans to adopt our solutions.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

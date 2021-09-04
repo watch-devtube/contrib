@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - PEARL: Plausibly Deniable Flash Translation Layer using WOM coding'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - PEARL: Plausibly Deniable Flash Translation Layer using WOM coding\n\nChen Chen, Anrin Chakraborti, and Radu Sion, Stony Brook University\n\nWhen adversaries are powerful enough to coerce users to reveal encryption keys, encryption alone becomes insufficient for data protection. Plausible deniability (PD) mechanisms resolve this by enabling users to hide the mere existence of sensitive data, often by providing plausible \"cover texts\" or \"public data volumes\" hosted on the same device.\n\nUnfortunately, with the increasing prevalence of (NAND) flash as a high-performance cost-effective storage medium, PD becomes even more challenging in the presence of realistic adversaries who can usually access a device at multiple points in time (\"multi-snapshot\"). This is because read/write operations to flash do not result in intuitive corresponding changes to the underlying device state. The problem is further compounded by the fact that this behavior is mostly proprietary. For example, in a majority of commercially-available flash devices, an issued delete or overwrite operation from the upper layers almost certainly won't result in an actual immediate erase of the underlying flash cells.\n\nTo address these challenges, we designed a new class of write-once memory (WOM) codes to store hidden bits in the same physical locations as other public bits. This is made possible by the inherent nature of NAND flash and the possibility of issuing multiple writes to target cells that have not previous been written to in existing pages.\n\nWe designed PEARL, a general-purpose Flash Translation Layer (FTL) that allows users to plausibly deniably store hidden data in NAND flash devices. We implemented and evaluated PEARL on a widely used simulator FlashSim. PEARL performs well on real-world workloads, comparably to non-PD baselines. PEARL is the first system that achieves strong plausible deniability for NAND flash devices, secure against realistic multi-snapshot adversaries.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - PhishPrint: Evading Phishing Detection Crawlers by Prior Profiling'
+language: English
+recordingDate: 1630711282
+description: "PhishPrint: Evading Phishing Detection Crawlers by Prior Profiling\n\nBhupendra Acharya and Phani Vadrevu, UNO Cyber Center, University of New Orleans\n\nSecurity companies often use web crawlers to detect phishing and other social engineering attack websites. We built a novel, scalable, low-cost framework named PhishPrint to enable the evaluation of such web security crawlers against multiple cloaking attacks. PhishPrint is unique in that it completely avoids the use of any simulated phishing sites and blocklisting measurements. Instead, it uses web pages with benign content to profile security crawlers.\n\nWe used PhishPrint to evaluate 23 security crawlers including highly ubiquitous services such as Google Safe Browsing and Microsoft Outlook e-mail scanners. Our 70-day evaluation found several previously unknown cloaking weaknesses across the crawler ecosystem. In particular, we show that all the crawlers' browsers are either not supporting advanced fingerprinting related web APIs (such as Canvas API) or are severely lacking in fingerprint diversity thus exposing them to new fingerprinting-based cloaking attacks.\n\nWe confirmed the practical impact of our findings by deploying 20 evasive phishing web pages that exploit the found weaknesses. 18 of the pages managed to survive indefinitely despite aggressive self-reporting of the pages to all crawlers. We confirmed the specificity of these attack vectors with 1150 volunteers as well as 467K web users. We also proposed countermeasures that all crawlers should take up in terms of both their crawling and reporting infrastructure. We have relayed the found weaknesses to all entities through an elaborate vulnerability disclosure process that resulted in some remedial actions as well as multiple vulnerability rewards.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

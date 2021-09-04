@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - CSProp: Ciphertext and Signature Propagation Low-Overhead Public-Key...'
+language: English
+recordingDate: 1630710721
+description: "USENIX Security '21 - CSProp: Ciphertext and Signature Propagation Low-Overhead Public-Key Cryptosystem for IoT Environments\n\nFatemah Alharbi, Taibah University, Yanbu; Arwa Alrawais, Prince Sattam Bin Abdulaziz University; Abdulrahman Bin Rabiah, University of California, Riverside, and King Saud University; Silas Richelson and Nael Abu-Ghazaleh, University of California, Riverside\n\nCryptographic operations can be prohibitively expensive for IoT and other resource-constrained devices. We introduce a new cryptographic primitive which we call Ciphertext and Signature Propagation (CSProp) in order to deliver security to the weak end-devices. CSProp is a cryptographic propagation algorithm whereby an untrusted machine sitting upstream of a lightweight device can modify an authenticated message so it can be efficiently verified. Unlike proxy-based solutions, this upstream machine is stateless and untrusted (making it possible for any device to serve that role), and the propagated signature is mathematically guaranteed to be valid only if the original signature is also valid. CSProp relies on RSA security and can be used to optimize any operations using the public key such as signature validation and encryption, which our experiments show are the most common public key operations in IoT settings. We test CSProp by using it to extend DNSSEC to edge devices (validation), and to optimize the performance of TLS (validation and encryption) on a range of resource constrained devices. CSProp reduces DNSSEC validation latency by 78x and energy consumption by 47x on the Raspberry Pi Zero. It reduces TLS handshake latency and energy by an average of 8x each. On an Arduino-based IoT board, CSProp significantly outperforms traditional RSA public key operations (e.g., 57x and 36x reductions in latency and energy consumption, respectively, for encryption).\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - DICE*: A Formally Verified Implementation of DICE Measured Boot'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - DICE*: A Formally Verified Implementation of DICE Measured Boot\n\nZhe Tao, University of California, Davis; Aseem Rastogi, Naman Gupta, and Kapil Vaswani, Microsoft Research; Aditya V. Thakur, University of California, Davis\n\nMeasured boot is an important class of boot protocols that ensure that each layer of firmware and software in a device's chain of trust is measured, and the measurements are reliably recorded for subsequent verification. This paper presents DICE*, a formal specification as well as a formally verified implementation of DICE, an industry standard measured boot protocol. DICE* is proved to be functionally correct, memory-safe, and resistant to timing- and cache-based side-channels. A key component of DICE* is a verified certificate creation library for a fragment of X.509. We have integrated DICE* into the boot firmware of an STM32H753ZI micro-controller. Our evaluation shows that using a fully verified implementation has minimal to no effect on the code size and boot time when compared to an existing unverified implementation.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Database Reconstruction from Noisy Volumes: A Cache Side-Channel Attack...'
+language: English
+recordingDate: 1630710626
+description: "USENIX Security '21 - Database Reconstruction from Noisy Volumes: A Cache Side-Channel Attack on SQLite\n\nAria Shahverdi, University of Maryland; Mahammad Shirinov, Bilkent University; Dana Dachman-Soled, University of Maryland\n\nWe demonstrate the feasibility of database reconstruction under a cache side-channel attack on SQLite. Specifically, we present a Flush+Reload attack on SQLite that obtains approximate (or \"noisy\") volumes of range queries made to a private database. We then present several algorithms that, taken together, reconstruct nearly the exact database in varied experimental conditions, given these approximate volumes. Our reconstruction algorithms employ novel techniques for the approximate/noisy setting, including a noise-tolerant clique-finding algorithm, a \"Match & Extend\" algorithm for extrapolating volumes that are omitted from the clique, and a \"Noise Reduction Step\" that makes use of the closest vector problem (CVP) solver to improve the overall accuracy of the reconstructed database. The time complexity of our attacks grows quickly with the size of the range of the queried attribute, but scales well to large databases. Experimental results show that we can reconstruct databases of size 100,000 and ranges of size 12 with an error percentage of 0.11% in under 12 hours on a personal laptop.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

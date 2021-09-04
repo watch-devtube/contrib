@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - PTAuth: Temporal Memory Safety via Robust Points-to Authentication'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - PTAuth: Temporal Memory Safety via Robust Points-to Authentication\n\nReza Mirzazade Farkhani, Mansour Ahmadi, and Long Lu, Northeastern University\n\nTemporal memory corruptions are commonly exploited software vulnerabilities that can lead to powerful attacks. Despite significant progress made by decades of research on mitigation techniques, existing countermeasures fall short due to either limited coverage or overly high overhead. Furthermore, they require external mechanisms (e.g., spatial memory safety) to protect their metadata. Otherwise, their protection can be bypassed or disabled.\n\nTo address these limitations, we present robust points-to authentication, a novel runtime scheme for detecting all kinds of temporal memory corruptions. We built a prototype system, called PTAuth, that realizes this scheme on ARM architectures. PTAuth contains a customized compiler for code analysis and instrumentation and a runtime library for performing the points-to authentication as a protected program runs. PTAuth leverages the Pointer Authentication Code (PAC) feature, provided by the ARMv8.3 and later CPUs, which serves as a simple hardware-based encryption primitive. PTAuth uses minimal in-memory metadata and protects its metadata without requiring spatial memory safety. We report our evaluation of PTAuth in terms of security, robustness and performance using 150 vulnerable programs from Juliet test suite and the SPEC CPU2006 benchmarks. PTAuth detects all three categories of heap-based temporal memory corruptions, generates zero false alerts, and slows down program execution by 26% (this number was measured based on software-emulated PAC; it is expected to decrease to 20% when using hardware-based PAC). We also show that PTAuth incurs 2% memory overhead thanks to the efficient use of metadata.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

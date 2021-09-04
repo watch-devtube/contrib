@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - On the Routing-Aware Peering against Network-Eclipse Attacks in Bitcoin'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - On the Routing-Aware Peering against Network-Eclipse Attacks in Bitcoin\n\nMuoi Tran and Akshaye Shenoi, National University of Singapore; Min Suk Kang, KAIST\n\nSafeguarding blockchain peer-to-peer (P2P) networks is more critical than ever in light of recent network attacks. Bitcoin has been successfully handling traditional Sybil and eclipse attacks; however, a recent Erebus attack [Tran et al. IEEE S&P'20] shows that effectively eclipsing a Bitcoin node is possible when the attack is combined with a network-Sybil capability; i.e., a malicious transit network can create millions or more Sybil identities. Given the immediate availability and stealthiness of the Erebus attack, Bitcoin Core has quickly implemented a few simple protocol/parameter changes to mitigate it. Our large-scale evaluations of these quick patches and three similar carefully-designed protocol tweaks confirm that, unfortunately, no simple solution can effectively handle the attack. This paper focuses on a more fundamental solution called routing-aware peering (or RAP), a proven silver bullet in detecting and circumventing similar network adversaries in other P2P networks. However, we show that, contrary to our expectation, preventing the Erebus attacks with RAP is only wishful thinking. We discover that Erebus adversaries can exploit a tiny portion of route inference errors in any RAP implementations, which gives an asymmetric advantage to the network adversaries and renders all RAP approaches ineffective. To that end, we propose an integrated defense framework that composes the available simple protocol tweaks and RAP implementation. In particular, we show that a highly customizable defense profile is required for individual Bitcoin nodes because RAP's efficacy depends significantly on where a Bitcoin node is located on the Internet topology. We present an algorithm that outputs a custom optimal defense profile that prevents most of Erebus attacks from the top-100 large transit networks.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

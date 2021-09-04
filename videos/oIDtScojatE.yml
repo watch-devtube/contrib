@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - ReDoSHunter: A Combined Static and Dynamic Approach for Regular Expression DoS'
+language: English
+recordingDate: 1630711142
+description: "ReDoSHunter: A Combined Static and Dynamic Approach for Regular Expression DoS Detection\n\nYeting Li and Zixuan Chen, SKLCS, ISCAS, UCAS; Jialun Cao, HKUST; Zhiwu Xu, Shenzhen University; Qiancheng Peng, SKLCS, ISCAS, UCAS; Haiming Chen, SKLCS, ISCAS; Liyuan Chen, Tencent; Shing-Chi Cheung, HKUST\n\nRegular expression Denial of Service (ReDoS) is a class of algorithmic complexity attacks using the regular expressions (regexes) that cause the typical backtracking-based matching algorithms to run super-linear time. Due to the wide adoption of regexes in computation, ReDoS poses a pervasive and serious security threat. Early detection of ReDoSvulnerable regexes in software is thus vital. Existing detection approaches mainly fall into two categories: static and dynamic analysis. However, they all suffer from either poor precision or poor recall in the detection of vulnerable regexes. The problem of accurately detecting vulnerable regexes at high precision and high recall remains unsolved. Furthermore, we observed that many ReDoS-vulnerable regex contain more than one vulnerability in reality. Another problem with existing approaches is that they are incapable of detecting multiple vulnerabilities in one regex.\n\nTo address these two problems, we propose ReDoSHunter, a ReDoS-vulnerable regex detection framework that can effectively pinpoint the multiple vulnerabilities in a vulnerable regex, and generate examples of attack-triggering strings. ReDoSHunter is driven by five vulnerability patterns derived from massive vulnerable regexes. Besides pinpointing vulnerabilities, ReDoSHunter can assess the degree (i.e., exponential or polynomial) of the vulnerabilities detected. Our experiment results show that ReDoSHunter achieves 100% precision and 100% recall in the detection of ReDoS-vulnerable regexes in three large-scale datasets with 37,651 regexes. It significantly outperforms seven state-of-the-art techniques. ReDoSHunter uncovered 28 new ReDoS-vulnerabilities in 26 well-maintained popular projects, resulting in 26 assigned CVEs and 2 fixes.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

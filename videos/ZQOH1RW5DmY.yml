@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify'
+language: English
+recordingDate: 1630711142
+description: "Phishpedia: A Hybrid Deep Learning Based Approach to Visually Identify Phishing Webpages\n\nYun Lin and Ruofan Liu, National University of Singapore; Dinil Mon Divakaran, Trustwave; Jun Yang Ng and Qing Zhou Chan, National University of Singapore; Yiwen Lu, Yuxuan Si, and Fan Zhang, Zhejiang University; Jin Song Dong, National University of Singapore\n\nRecent years have seen the development of phishing detection and identification approaches to defend against phishing attacks. Phishing detection solutions often report binary results, i.e., phishing or not, without any explanation. In contrast, phishing identification approaches identify phishing webpages by visually comparing webpages with predefined legitimate references and report phishing along with its target brand, thereby having explainable results. However, there are technical challenges in visual analyses that limit existing solutions from being effective (with high accuracy) and efficient (with low runtime overhead), to be put to practical use.\n\nIn this work, we design a hybrid deep learning system, Phishpedia, to address two prominent technical challenges in phishing identification, i.e., (i) accurate recognition of identity logos on webpage screenshots, and (ii) matching logo variants of the same brand. Phishpedia achieves both high accuracy and low runtime overhead. And very importantly, different from common approaches, Phishpedia does not require training on any phishing samples. We carry out extensive experiments using real phishing data; the results demonstrate that Phishpedia significantly outperforms baseline identification approaches (EMD, PhishZoo, and LogoSENSE) in accurately and efficiently identifying phishing pages. We also deployed Phishpedia with CertStream service and discovered 1704 new real phishing websites within 30 days, way more than other solutions; moreover, 1113 of them are not reported by any engines in VirusTotal.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

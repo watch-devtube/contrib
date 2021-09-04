@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - DeepReflect: Discovering Malicious Functionality through Binary Reconstruction'
+language: English
+recordingDate: 1630711142
+description: "DeepReflect: Discovering Malicious Functionality through Binary Reconstruction\n\nEvan Downing, Georgia Institute of Technology; Yisroel Mirsky, Georgia Institute of Technology & Ben-Gurion University; Kyuhong Park and Wenke Lee, Georgia Institute of Technology\n\nDeep learning has continued to show promising results for malware classification. However, to identify key malicious behaviors, malware analysts are still tasked with reverse engineering unknown malware binaries using static analysis tools, which can take hours. Although machine learning can be used to help identify important parts of a binary, supervised approaches are impractical due to the expense of acquiring a sufficiently large labeled dataset.\n\nTo increase the productivity of static (or manual) reverse engineering, we propose DeepReflect: a tool for localizing and identifying malware components within a malicious binary. To localize malware components, we use an unsupervised deep neural network in a novel way, and classify the components through a semi-supervised cluster analysis, where analysts incrementally provide labels during their daily work flow. The tool is practical since it requires no data labeling to train the localization model, and minimal/noninvasive labeling to train the classifier incrementally.\n\nIn our evaluation with five malware analysts on over 26k malware samples, we found that DeepReflect reduces the number of functions that an analyst needs to reverse engineer by 85% on average. Our approach also detects 80% of the malware components compared to 43% when using a signature-based tool (CAPA). Furthermore, DeepReflect performs better with our proposed autoencoder than SHAP (an AI explanation tool). This is significant because SHAP, a state-of-the-art method, requires a labeled dataset and autoencoders do not.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Does logic locking work with EDA tools?'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - Does logic locking work with EDA tools?\n\nZhaokun Han, Muhammad Yasin, and Jeyavijayan (JV) Rajendran, Texas A&M University\n\nLogic locking is a promising solution against emerging hardware security threats, which entails protecting a Boolean circuit using a “keying” mechanism. The latest and hitherto unbroken logic-locking techniques are based on the “corrupt-and-correct (CAC)” principle, offering provable security against input-output query attacks. However, it remains unclear whether these techniques are susceptible to structural attacks. This paper exploits the properties of integrated circuit (IC) design tools, also termed electronic design automation (EDA) tools, to undermine the security of the CAC techniques. Our proposed attack can break all the CAC techniques, including the unbroken CACrem technique that 40+ hackers taking part in a competition for more than three months could not break. Our attack can break circuits processed with any EDA tools, which is alarming because, until now, none of the EDA tools can render a secure locking solution: logic locking cannot make use of the existing EDA tools. We also provide a security property to ensure resilience against structural attacks. The commonly-used circuits can satisfy this property but only in a few cases where they cannot even defeat brute-force; thus, questions arise on the use of these circuits as benchmarks to evaluate logic locking and other security techniques.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - "Shhh...be quiet!" Reducing the Unwanted Interruptions of Notification...'
+language: English
+recordingDate: 1630710720
+description: "USENIX Security '21 - \"Shhh...be quiet!\" Reducing the Unwanted Interruptions of Notification Permission Prompts on Chrome\n\nIgor Bilogrevic, Balazs Engedy, Judson L. Porter III, Nina Taft, Kamila Hasanbega, Andrew Paseltiner, Hwi Kyoung Lee, Edward Jung, Meggyn Watkins, PJ McLachlan, and Jason James, Google\n\nPush notifications can be a very useful feature. On web browsers, they allow users to receive timely updates even if the website is not currently open. On Chrome, the feature has become extremely popular since its inception in 2015, but it is also the least likely to be accepted by users. Chrome telemetry shows that, although 74% of all permission prompts are about notifications, they are also the least likely to be granted with only a 12% grant rate on desktop and 23% grant rate on Android. In order to preserve its utility for websites and to reduce unwanted interruptions and potential abuses for the users, we designed and tested both a novel UI and its activation mechanism for notification permission prompts in Chrome.\n\nTo understand how users interact with such prompts, we conducted two large-scale studies with more than 300 million users in the wild. The first study showed that most of them block or ignore the prompts across all types of websites, which prompted us to rethink its UI and activation logic. The second study, based on an A/B test using behavioral data from more than 40 million users who interacted with more than 100 million prompts on more than 70 thousand websites, show that the new prompt is very effective at reducing unwanted interruptions and their frequency (up to 30% fewer unnecessary actions on the prompts), with a minimal impact (less than 5%) on the grant rates, across all types of users and websites. We achieve these results thanks to a novel adaptive activation mechanism coupled with a block list of interrupting websites, which is derived from crowd-sourced telemetry from Chrome clients.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

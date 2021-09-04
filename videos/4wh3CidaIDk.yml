@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - PACStack: an Authenticated Call Stack'
+language: English
+recordingDate: 1630710720
+description: "USENIX Security '21 - PACStack: an Authenticated Call Stack\n\nHans Liljestrand, University of Waterloo; Thomas Nyman and Lachlan J. Gunn, Aalto University; Jan-Erik Ekberg, Huawei Technologies and Aalto University; N. Asokan, University of Waterloo and Aalto University\n\nA popular run-time attack technique is to compromise the control-flow integrity of a program by modifying function return addresses on the stack. So far, shadow stacks have proven to be essential for comprehensively preventing return address manipulation. Shadow stacks record return addresses in integrity-protected memory secured with hardware-assistance or software access control. Software shadow stacks incur high overheads or trade off security for efficiency. Hardware-assisted shadow stacks are efficient and secure, but require the deployment of special-purpose hardware.\n\nWe present authenticated call stack (ACS), an approach that uses chained message authentication codes (MACs). Our prototype, PACStack, uses the ARMv8.3-A general purpose hardware mechanism for pointer authentication (PA) to implement ACS. Via a rigorous security analysis, we show that PACStack achieves security comparable to hardware-assisted shadow stacks without requiring dedicated hardware. We demonstrate that PACStack's performance overhead is small (≈3%).\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

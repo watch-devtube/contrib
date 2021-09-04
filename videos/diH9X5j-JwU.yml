@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Data Poisoning Attacks to Local Differential Privacy Protocols'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - Data Poisoning Attacks to Local Differential Privacy Protocols\n\nXiaoyu Cao, Jinyuan Jia, and Neil Zhenqiang Gong, Duke University\n\nLocal Differential Privacy (LDP) protocols enable an untrusted data collector to perform privacy-preserving data analytics. In particular, each user locally perturbs its data to preserve privacy before sending it to the data collector, who aggregates the perturbed data to obtain statistics of interest. In the past several years, researchers from multiple communities—such as security, database, and theoretical computer science—have proposed many LDP protocols. These studies mainly focused on improving the utility of the LDP protocols. However, the security of LDP protocols is largely unexplored.\n\nIn this work, we aim to bridge this gap. We focus on LDP protocols for frequency estimation and heavy hitter identification, which are two basic data analytics tasks. Specifically, we show that an attacker can inject fake users into an LDP protocol and the fake users send carefully crafted data to the data collector such that the LDP protocol estimates high frequencies for arbitrary attacker-chosen items or identifies them as heavy hitters. We call our attacks data poisoning attacks. We theoretically and/or empirically show the effectiveness of our attacks. We also explore three countermeasures against our attacks. Our experimental results show that they can effectively defend against our attacks in some scenarios but have limited effectiveness in others, highlighting the needs for new defenses against our attacks.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

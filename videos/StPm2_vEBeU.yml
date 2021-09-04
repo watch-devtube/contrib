@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - EOSAFE: Security Analysis of EOSIO Smart Contracts'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - EOSAFE: Security Analysis of EOSIO Smart Contracts\n\nNingyu He, Key Lab on HCST (MOE), Peking University; Ruiyi Zhang, PeckShield, Inc.; Haoyu Wang, Beijing University of Posts and Telecommunications; Lei Wu, Zhejiang University; Xiapu Luo, The Hong Kong Polytechnic University; Yao Guo, Key Lab on HCST (MOE), Peking University; Ting Yu, Qatar Computing Research Institute; Xuxian Jiang, PeckShield, Inc.\n\nThe EOSIO blockchain, one of the representative Delegated Proof-of-Stake (DPoS) blockchain platforms, has grown rapidly recently. Meanwhile, a number of vulnerabilities and high-profile attacks against top EOSIO DApps and their smart contracts have also been discovered and observed in the wild, resulting in serious financial damages. Most of the EOSIO smart contracts are not open-sourced and typically compiled to WebAssembly (Wasm) bytecode, thus making it challenging to analyze and detect the presence of possible vulnerabilities. In this paper, we propose EOSAFE, the first static analysis framework that can be used to automatically detect vulnerabilities in EOSIO smart contracts at the bytecode level. Our framework includes a practical symbolic execution engine for Wasm, a customized library emulator for EOSIO smart contracts, and four heuristic-driven detectors to identify the presence of the four most popular vulnerabilities in EOSIO smart contracts. Experiments have shown that EOSAFE achieves promising results in detecting vulnerabilities, with an F1-measure of 98%. We have applied EOSAFE to all active 53,666 smart contracts in the ecosystem (as of November 15, 2019). Our results show that over 25% of the smart contracts are labeled vulnerable. We further analyze possible exploitation attempts on these vulnerable smart contracts and identify 48 in-the-wild attacks (27 of them have been confirmed by DApp developers), which have resulted in financial loss of at least 1.7 million USD.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

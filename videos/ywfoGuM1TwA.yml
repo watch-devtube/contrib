@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - When Malware Changed Its Mind: An Empirical Study of Variable Program Behavior'
+language: English
+recordingDate: 1630711282
+description: "When Malware Changed Its Mind: An Empirical Study of Variable Program Behaviors in the Real World\n\nErin Avllazagaj, University of Maryland, College Park; Ziyun Zhu, Facebook; Leyla Bilge, NortonLifeLock Research Group; Davide Balzarotti, EURECOM; Tudor Dumitraș, University of Maryland, College Park\n\nBehavioral program analysis is widely used for understanding malware behavior, for creating rule-based detectors, and for clustering samples into malware families. However, this approach is ineffective when the behavior of individual samples changes across different executions, owing to environment sensitivity, evasive techniques or time variability. While the inability to observe the complete behavior of a program is a well-known limitation of dynamic analysis, the prevalence of this behavior variability in the wild, and the behavior components that are most affected by it, are still unknown. As the behavioral traces are typically collected by executing the samples in a controlled environment, the models created and tested using such traces do not account for the broad range of behaviors observed in the wild, and may result in a false sense of security.\n\nIn this paper we conduct the first quantitative analysis of behavioral variability in Windows malware, PUP and benign samples, using a novel dataset of 7.6M execution traces, recorded in 5.4M real hosts from 113 countries. We analyze program behaviors at multiple granularities, and we show how they change across hosts and across time. We then analyze the invariant parts of the malware behaviors, and we show how this affects the effectiveness of malware detection using a common class of behavioral rules. Our findings have actionable implications for malware clustering and detection, and they emphasize that program behavior in the wild depends on a subtle interplay of factors that may only be observed at scale, by monitoring malware on real hosts.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

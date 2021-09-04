@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Towards Formal Verification of State Continuity for Enclave Programs'
+language: English
+recordingDate: 1630710721
+description: "USENIX Security '21 - Towards Formal Verification of State Continuity for Enclave Programs\n\nMohit Kumar Jangid, The Ohio State University; Guoxing Chen, Shanghai Jiao Tong University; Yinqian Zhang, Southern University of Science and Technology; Zhiqiang Lin, The Ohio State University\n\nTrusted Execution Environments such as Intel SGX provide software applications with hardware support for preventing attacks from privileged software. However, these applications are still subject to rollback or replay attacks due to their lack of state continuity protection from the hardware. Therefore, maintaining state continuity has become a burden of software developers, which is not only challenging to implement but also difficult to validate. In this paper, we make the first attempt towards formally verifying the property of state continuity for SGX enclave programs by leveraging the symbolic verification tool, Tamarin Prover, to model SGX-specific program semantics and operations, and verify the property of state continuity with respect to monotonic counters, global variables, and sealed data, respectively. We apply this method to analyze these three types of state continuity issues exhibited in three open-source SGX applications. We show that our method can successfully identify the flaws that lead to failures of maintaining state continuity, and formally verify the corrected implementation with respect to the desired property. The discovered flaws have been reported to the developers and some have been addressed.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

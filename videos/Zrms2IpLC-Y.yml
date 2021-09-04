@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - LIGHTBLUE: Automatic Profile-Aware Debloating of Bluetooth Stacks'
+language: English
+recordingDate: 1630710721
+description: "USENIX Security '21 - LIGHTBLUE: Automatic Profile-Aware Debloating of Bluetooth Stacks\n\nJianliang Wu and Ruoyu Wu, Purdue University; Daniele Antonioli and Mathias Payer, EPFL; Nils Ole Tippenhauer, CISPA Helmholtz Center for Information Security; Dongyan Xu, Dave (Jing) Tian, and Antonio Bianchi, Purdue University\n\nThe Bluetooth standard is ubiquitously supported by computers, smartphones, and IoT devices. Due to its complexity, implementations require large codebases, which are prone to security vulnerabilities, such as the recently discovered BlueBorne and BadBluetooth attacks. While defined by the standard, most of the Bluetooth functionality, as defined by different Bluetooth profiles, is not required in the common usage scenarios.\n\nStarting from this observation, we implement LIGHTBLUE, a framework performing automatic, profile-aware debloating of Bluetooth stacks, allowing users to automatically minimize their Bluetooth attack surface by removing unneeded Bluetooth features. L IGHT B LUE starts with a target Bluetooth application, detects the associated Bluetooth profiles, and applies a combination of control-flow and data-flow analysis to remove unused code within a Bluetooth host code. Furthermore, to debloat the Bluetooth firmware, LIGHTBLUE extracts the used Host Controller Interface (HCI) commands and patches the HCI dispatcher in the Bluetooth firmware automatically, so that the Bluetooth firmware avoids processing unneeded HCI commands.\n\nWe evaluate LIGHTBLUE on four different Bluetooth hosts and three different Bluetooth controllers. Our evaluation shows that LIGHTB LUE achieves between 32% and 50% code reduction in the Bluetooth host code and between 57% and 83% HCI command reduction in the Bluetooth firmware. This code reduction leads to the prevention of attacks responsible for 20 known CVEs, such as BlueBorne and BadBluetooth, while introducing no performance overhead and without affecting the behavior of the debloated application.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

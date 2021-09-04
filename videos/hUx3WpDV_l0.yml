@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Poseidon: A New Hash Function for Zero-Knowledge Proof Systems'
+language: English
+recordingDate: 1630710721
+description: "USENIX Security '21 - Poseidon: A New Hash Function for Zero-Knowledge Proof Systems\n\nLorenzo Grassi, Radboud University Nijmegen; Dmitry Khovratovich, Ethereum Foundation and Dusk Network; Christian Rechberger, IAIK, Graz University of Technology; Arnab Roy, University of Klagenfurt; Markus Schofnegger, IAIK, Graz University of Technology\n\nThe area of practical computational integrity proof systems, like SNARKs, STARKs, Bulletproofs, is seeing a very dynamic development with several constructions having appeared recently with improved properties and relaxed setup requirements. Many use cases of such systems involve, often as their most expensive part, proving the knowledge of a preimage under a certain cryptographic hash function, which is expressed as a circuit over a large prime field. A notable example is a zero-knowledge proof of coin ownership in the Zcash cryptocurrency, where the inadequacy of the SHA-256 hash function for such a circuit caused a huge computational penalty.\n\nIn this paper, we present a modular framework and concrete instances of cryptographic hash functions which work natively with GF(p) objects. Our hash function Poseidon uses up to 8x fewer constraints per message bit than Pedersen Hash.\n\nOur construction is not only expressed compactly as a circuit, but can also be tailored for various proof systems using specially crafted polynomials, thus bringing another boost in performance. We demonstrate this by implementing a 1-out-of-a-billion membership proof with Merkle trees in less than a second by using Bulletproofs.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

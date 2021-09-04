@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - HAWatcher: Semantics-Aware Anomaly Detection for Appified Smart Homes'
+language: English
+recordingDate: 1630711142
+description: "HAWatcher: Semantics-Aware Anomaly Detection for Appified Smart Homes\n\nChenglong Fu, Temple University; Qiang Zeng, University of South Carolina; Xiaojiang Du, Temple University\n\nAs IoT devices are integrated via automation and coupled with the physical environment, anomalies in an appified smart home, whether due to attacks or device malfunctions, may lead to severe consequences. Prior works that utilize data mining techniques to detect anomalies suffer from high false alarm rates and missing many real anomalies. Our observation is that data mining-based approaches miss a large chunk of information about automation programs (also called smart apps) and devices. We propose Home Automation Watcher (HAWatcher), a semantics-aware anomaly detection system for appified smart homes. HAWatcher models a smart home's normal behaviors based on both event logs and semantics. Given a home, HAWatcher generates hypothetical correlations according to semantic information, such as apps, device types, relations and installation locations, and verifies them with event logs. The mined correlations are refined using correlations extracted from the installed smart apps. The refined correlations are used by a Shadow Execution engine to simulate the smart home's normal behaviors. During runtime, inconsistencies between devices' real-world states and simulated states are reported as anomalies. We evaluate our prototype on the SmartThings platform in four real-world testbeds and test it against totally 62 different anomaly cases. The results show that HAWatcher achieves high accuracy, significantly outperforming prior approaches.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

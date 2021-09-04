@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - M2MON: Building an MMIO-based Security Reference Monitor for Unmanned Vehicles'
+language: English
+recordingDate: 1630710721
+description: "USENIX Security '21 - M2MON: Building an MMIO-based Security Reference Monitor for Unmanned Vehicles\n\nArslan Khan and Hyungsub Kim, Purdue University; Byoungyoung Lee, Seoul National University (SNU); Dongyan Xu, Antonio Bianchi, and Dave (Jing) Tian, Purdue University\n\nUnmanned Vehicles (UVs) often consist of multiple MicroController Units (MCUs) as peripherals to interact with the physical world, including GPS sensors, barometers, motors, etc. While the attack vectors for UV vary, a number of UV attacks aim to impact the physical world either from the cyber or the physical space, e.g., hijacking the mission of UVs via malicious ground control commands or GPS spoofing. This provides us an opportunity to build a unified and generic security framework defending against multiple kinds of UV attacks by monitoring the system's I/O activities. Accordingly, we build a security reference monitor for UVs by hooking into the memory-mapped I/O (MMIO), namely M2MON. Instead of building upon existing RTOS, we implement M2MON as a microkernel running in the privileged mode interceptingMMIOs while pushing the RTOS and applications into the unprivileged mode. We further instantiate an MMIO firewall using M2MON and demonstrate how to implement a secure Extended Kalman Filter (EKF) within M2MON. Our evaluation on a real-world UV system shows that M2MON incurs an 8.85% runtime overhead. Furthermore, M2MON-based firewall is able to defend against different cyber and physical attacks. The M2MON microkernel contains less than 4K LoC comparing to the 3M LoC RTOS used in our evaluation. We believe M2MON provides the first step towards building a trusted and practical security reference monitor for UVs.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

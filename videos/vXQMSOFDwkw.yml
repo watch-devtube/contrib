@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Experiences Deploying Multi-Vantage-Point Domain Validation at Let''s Encrypt'
+language: English
+recordingDate: 1630711282
+description: "Experiences Deploying Multi-Vantage-Point Domain Validation at Let's Encrypt\n\nHenry Birge-Lee and Liang Wang, Princeton University; Daniel McCarney, Square Inc.; Roland Shoemaker, unaffiliated; Jennifer Rexford and Prateek Mittal, Princeton University\n\nAn attacker can obtain a valid TLS certificate for a domain by hijacking communication between a certificate authority (CA) and a victim domain. Performing domain validation from multiple vantage points can defend against these attacks. We explore the design space of multi-vantage-point domain validation to achieve (1) security via sufficiently diverse vantage points, (2) performance by ensuring low latency and overhead in certificate issuance, (3) manageability by complying with CA/Browser forum requirements, and requiring minimal changes to CA operations, and (4) a low benign failure rate for legitimate requests. Our opensource implementation was deployed by the Let's Encrypt CA in February 2020, and has since secured the issuance of more than half a billion certificates during the first year of its deployment. Using real-world operational data from Let's Encrypt, we show that our approach has negligible latency and communication overhead, and a benign failure rate comparable to conventional designs with one vantage point. Finally, we evaluate the security improvements using a combination of ethically conducted real-world BGP hijacks, Internet-scale traceroute experiments, and a novel BGP simulation framework. We show that multi-vantage-point domain validation can thwart the vast majority of BGP attacks. Our work motivates the deployment of multi-vantage-point domain validation across the CA ecosystem to strengthen TLS certificate issuance and user privacy.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"
