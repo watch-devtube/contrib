@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Charger-Surfing: Exploiting a Power Line Side-Channel for Smartphone...'
+language: English
+recordingDate: 1630710720
+description: "USENIX Security '21 - Charger-Surfing: Exploiting a Power Line Side-Channel for Smartphone Information Leakage\n\nPatrick Cronin, Xing Gao, and Chengmo Yang, University of Delaware; Haining Wang, Virginia Tech\n\nTouchscreen-based mobile devices such as smartphones and tablets are used daily by billions of people for productivity and entertainment. This paper uncovers a new security threat posed by a side-channel leakage through the power line, called Charger-Surfing, which targets these touchscreen devices. We reveal that while a smartphone is charging, its power trace, which can be measured via the USB charging cable, leaks information about the dynamic content on its screen. This information can be utilized to determine the location on the touchscreen where an animation is played by the mobile OS to indicate, for instance, that a button press has been registered. We develop a portable, low cost power trace collection system for the side-channel construction. This leakage channel is thoroughly evaluated on various smartphones running Android or iOS, equipped with the two most commonly used screen technologies (LCD and OLED). We validate the effectiveness of Charger-Surfing by conducting a case study on a passcode unlock screen. Our experiments show that an adversary can exploit Charger-Surfing across a wide range of smartphone models to achieve an average accuracy of 98.7% for single button inference, and an average of 95.1% or 92.8% accuracy on the first attempt when cracking a victim's 4-digit or 6-digit passcode, respectively. The inference accuracy increases to 99.3% (4-digit) or 96.9% (6-digit) within five trials. We further demonstrate the robustness of Charger-Surfing in realistic settings and discuss countermeasures against it.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

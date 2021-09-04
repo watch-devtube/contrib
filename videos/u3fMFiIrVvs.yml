@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - V0Finder: Discovering the Correct Origin of Publicly Reported Software'
+language: English
+recordingDate: 1630710964
+description: "V0Finder: Discovering the Correct Origin of Publicly Reported Software Vulnerabilities\n\nSeunghoon Woo, Dongwook Lee, Sunghan Park, and Heejo Lee, Korea University; Sven Dietrich, City University of New York\n\nCommon Vulnerabilities and Exposures (CVEs) are used to ensure confidence among developers, to share information about software vulnerabilities, and to provide a baseline for security measures. Therefore, the correctness of CVE reports is crucial for detecting and patching software vulnerabilities.\n\nIn this paper, we introduce the concept of \"Vulnerability Zero\" (VZ), the software where a vulnerability first originated. We then present V0Finder, a precise mechanism for discovering the VZ of a vulnerability, including software name and its version. V0Finder utilizes code-based analysis to identify reuse relations, which specify the direction of vulnerability propagation, among vulnerable software. V0Finder constructs a graph from all the identified directions and traces backward to the root of that graph to find the VZ.\n\nWe applied V0Finder to 5,671 CVE vulnerabilities collected from the National Vulnerability Database (NVD) and popular Bugzilla-based projects. V0Finder discovered VZs with high accuracy of 98% precision and 95% recall. Furthermore, V0Finder identified 96 CVEs with incorrect information related to their respective VZs. We confirmed that the incorrect VZ causes prolonged patch updates of vulnerable software; the patch update of CVEs with the incorrect VZ information takes 2 years, while the patch update of CVEs with the correct VZ takes less than a year on average. Such incorrectly identified VZ hinders the objective of the CVE and causes confusion rather than \"ensuring confidence\" among developers. Our analysis shows that V0Finder can enhance the credibility of information provided by the CVEs.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

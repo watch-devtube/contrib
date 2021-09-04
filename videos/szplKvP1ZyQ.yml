@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - YARIX: Scalable YARA-based Malware Intelligence'
+language: English
+recordingDate: 1630711049
+description: "YARIX: Scalable YARA-based Malware Intelligence\n\nMichael Brengel and Christian Rossow, CISPA Helmholtz Center for Information Security\n\nYARA is the industry standard to search for patterns in malware data sets. Malware analysts heavily rely on YARA rules to identify specific threats, e.g., by scanning unknown malware samples for patterns that are characteristic for a certain malware strain. While YARA is tremendously useful to inspect individual files, its run time grows linearly with the number of input files, resulting in prohibitive performance penalties in large malware corpora.\n\nWe present YARIX, a methodology to efficiently reveal files matching arbitrary YARA rules. In order to scale to large malware corpora, YARIX uses an inverted n-gram index that maps fixed-length byte sequences to lists of files in which they appear. To efficiently query such corpora, YARIX optimizes YARA searches by transforming YARA rules into index lookups to obtain a set of candidate files that potentially match the rule. Given the storage demands that arise when indexing binary files, YARIX compresses the disk footprint with variable byte delta encoding, abstracts from file offsets, and leverages a novel grouping-based compression methodology. This completeness-preserving approximation will then be scanned using YARA to get the actual set of matching files.\n\nUsing 32M malware samples and 1404 YARA rules, we show that YARIX scales in both disk footprint and search performance. The index requires just ≈74% of the space required for storing the malware samples. Querying YARIX with a YARA rule in our test setup is five orders of magnitude faster than using standard sequential YARA scans.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Why Eve and Mallory Still Love Android: Revisiting TLS (In)Security in Android'
+language: English
+recordingDate: 1630711049
+description: "Why Eve and Mallory Still Love Android: Revisiting TLS (In)Security in Android Applications\n\nMarten Oltrogge, CISPA Helmholtz Center for Information Security; Nicolas Huaman, Sabrina Amft, and Yasemin Acar, Leibniz University Hannover; Michael Backes, CISPA Helmholtz Center for Information Security; Sascha Fahl, Leibniz University Hannover\n\nAndroid applications have a long history of being vulnerable to man-in-the-middle attacks due to insecure custom TLS certificate validation implementations. To resolve this, Google deployed the Network Security Configuration (NSC), a configuration-based approach to increase custom certificate validation logic security, and implemented safeguards in Google Play to block insecure applications.\n\nIn this paper, we perform a large-scale in-depth investigation of the effectiveness of these countermeasures: First, we investigate the security of 99,21 NSC settings files in 1,335,322 Google Play apps using static code and manual analysis techniques. We find that 88.87% of the apps using custom NSC settings downgrade security compared to the default settings, and only 0.67% implement certificate pinning. Second, we penetrate Google Play's protection mechanisms by trying to publish apps that are vulnerable to man-in-the-middle attacks. In contrast to official announcements by Google, we found that Play does not effectively block vulnerable apps. Finally, we performed a static code analysis study of 15,000 apps and find that 5,511 recently published apps still contain vulnerable certificate validation code.\n\nOverall, we attribute most of the problems we find to insufficient support for developers, missing clarification of security risks in official documentation, and inadequate security checks for vulnerable applications in Google Play.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

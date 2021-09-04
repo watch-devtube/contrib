@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Precise and Scalable Detection of Use-after-Compacting-Garbage-Collection Bugs'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - Precise and Scalable Detection of Use-after-Compacting-Garbage-Collection Bugs\n\nHyungSeok Han, Andrew Wesie, and Brian Pak, Theori Inc.\n\nCompacting garbage collection (compact-gc) is a method that improves memory utilization and reduces memory fragmentation by rearranging live objects and updating their references using an address table. A critical use-after-free bug may exist if an object reference that is not registered in the address table is used after compact-gc, as the live object may be moved but the reference will not be updated after compact-gc. We refer to this as a use-after-compact-gc (use-after-cgc) bug. Prior tools have attempted to statically detect these bugs with target-specific heuristics. However, due to their path-insensitive analysis and imprecise target-specific heuristics, they have high false-positives and false-negatives.\n\nIn this paper, we present a precise and scalable static analyzer, named CGSan, for finding use-after-cgc bugs. CGSan detects use-after-cgc bug candidates by intra-procedural static symbolic taint analysis and checks their feasibility by under-constrained directed symbolic execution. To mitigate the incompleteness of intra-procedural analysis, we employ a type-based taint policy. For scalability, we propose using directed inter-procedural control-flow graphs, which reduce search spaces by excluding paths irrelevant to checking feasibility, and directed scheduling, which prioritizes paths to quickly check feasibility. We evaluated CGSan on Google V8 and Mozilla SpiderMonkey, and we found 13 unique use-after-cgc bugs with only 2 false-positives while two prior tools missed 10 bugs and had 34 false-positives in total.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

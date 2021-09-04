@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Balboa: Bobbing and Weaving around Network Censorship'
+language: English
+recordingDate: 1630711049
+description: "Balboa: Bobbing and Weaving around Network Censorship\n\nMarc B. Rosen, James Parker, and Alex J. Malozemoff, Galois, Inc.\n\nWe introduce Balboa, a link obfuscation framework for censorship circumvention. Balboa provides a general framework for tunneling data through existing applications. Balboa sits between an application and the operating system, intercepting outgoing network traffic and rewriting it to embed data. To avoid introducing any distinguishable divergence from the expected application behavior, Balboa only rewrites traffic that matches an externally specified traffic model pre-shared between the communicating parties. The traffic model captures some subset of the network traffic (e.g., some subset of music an audio streaming server streams). The sender uses this model to replace outgoing data with a pointer to the associated location in the model and embed data in the freed up space. The receiver then extracts the data, replacing the pointer with the original data from the model before passing the data on to the application. When using TLS, this approach means that application behavior with Balboa is equivalent, modulo small (protocol-dependent) timing differences, to if the application was running without Balboa.\n\nBalboa differs from prior approaches in that it (1) provides a framework for tunneling data through arbitrary (TLSprotected) protocols/applications, and (2) runs the unaltered application binaries on standard inputs, as opposed to most prior tunneling approaches which run the application on nonstandard—and thus potentially distinguishable—inputs.\n\nWe present two instantiations of Balboa—one for audio streaming and one for web browsing—and demonstrate the difficulty of identifying Balboa by a machine learning classifier.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

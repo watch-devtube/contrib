@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - GForce: GPU-Friendly Oblivious and Rapid Neural Network Inference'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - GForce: GPU-Friendly Oblivious and Rapid Neural Network Inference\n\nLucien K. L. Ng and Sherman S. M. Chow, The Chinese University of Hong Kong, Hong Kong\n\nNeural-network classification is getting more pervasive. It captures data of the subjects to be classified, e.g., appearance for facial recognition, which is personal and often sensitive. Oblivious inference protects the data privacy of both the query and the model. However, it is not as fast and as accurate as its plaintext counterpart. A recent cryptographic solution Delphi (Usenix Security 2020) strives for low latency by using GPU on linear layers and replacing some non-linear units in the model at a price of accuracy. It can handle a query on CIFAR-100 with ~68% accuracy in 14s or ~66% accuracy in 2.6s.\n\nWe propose GForce, tackling the latency issue from the root causes instead of approximating non-linear computations. With the SWALP training approach (ICML 2019), we propose stochastic rounding and truncation (SRT) layers, which fuse quantization with dequantization between non-linear and linear layers and free us from floating-point operations for efficiency. They also ensure high accuracy while working over the severely-finite cryptographic field. We further propose a suite of GPU-friendly secure online/offline protocols for common operations, including comparison and wrap-around handling, which benefit non-linear layers, including our SRT.\n\nWith our two innovations, GForce supports VGG16, attaining ~73% accuracy over CIFAR-100 for the first time, in 0.4s. Compared with the prior best non-approximated solution (Usenix Security 2018), GForce speeds up non-linear~layers~in VGG by 34×. Our techniques shed light on a new direction that utilizes GPU throughout the model to minimize latency.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

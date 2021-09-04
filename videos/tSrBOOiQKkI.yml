@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Jaqen: A High-Performance Switch-Native Approach for Detecting and Mitigating'
+language: English
+recordingDate: 1630711049
+description: "Jaqen: A High-Performance Switch-Native Approach for Detecting and Mitigating Volumetric DDoS Attacks with Programmable Switches\n\nZaoxing Liu, Boston University; Hun Namkung, Carnegie Mellon University; Georgios Nikolaidis, Jeongkeun Lee, and Changhoon Kim, Intel, Barefoot Switch Division; Xin Jin, Peking University; Vladimir Braverman, Johns Hopkins University; Minlan Yu, Harvard University; Vyas Sekar, Carnegie Mellon University\n\nThe emergence of programmable switches offers a new opportunity to revisit ISP-scale defenses for volumetric DDoS attacks. In theory, these can offer better cost vs. performance vs. flexibility trade-offs relative to proprietary hardware and virtual appliances. However, the ISP setting creates unique challenges in this regard---we need to run a broad spectrum of detection and mitigation functions natively on the programmable switch hardware and respond to dynamic adaptive attacks at scale. Thus, prior efforts in using programmable switches that assume out-of-band detection and/or use switches merely as accelerators for specific tasks are no longer sufficient, and as such, this potential remains unrealized. To tackle these challenges, we design and implement Jaqen, a switch-native approach for volumetric DDoS defense that can run detection and mitigation functions entirely inline on switches, without relying on additional data plane hardware. We design switch-optimized, resource-efficient detection and mitigation building blocks. We design a flexible API to construct a wide spectrum of best-practice (and future) defense strategies that efficiently use switch capabilities. We build a network-wide resource manager that quickly adapts to the attack posture changes. Our experiments show that Jaqen is orders of magnitude more performant than existing systems: Jaqen can handle large-scale hybrid and dynamic attacks within seconds, and mitigate them effectively at high line-rates (380 Gbps).\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

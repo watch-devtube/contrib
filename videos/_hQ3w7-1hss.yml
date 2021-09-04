@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Domain Shadowing: Leveraging Content Delivery Networks for Robust Blocking'
+language: English
+recordingDate: 1630711049
+description: "Domain Shadowing: Leveraging Content Delivery Networks for Robust Blocking-Resistant Communications\n\nMingkui Wei, George Mason University\n\nWe debut domain shadowing, a novel censorship evasion technique leveraging content delivery networks (CDNs). Domain shadowing exploits the fact that CDNs allow their customers to claim arbitrary domains as the back-end. By setting the frond-end of a CDN service as an allowed domain and the back-end a blocked one, a censored user can access resources of the blocked domain with all \"indicators\", including the connecting URL, the SNI of the TLS connection, and the Host header of the HTTP(S) request, appear to belong to the allowed domain. Furthermore, we demonstrate that domain shadowing can be proliferated by domain fronting, a censorship evasion technique popularly used a few years ago, making it even more difficult to block. Compared with existing censorship evasion solutions, domain shadowing is lightweight, incurs negligible overhead, and does not require dedicated third-party support. As a proof of concept, we implemented domain shadowing as a Firefox browser extension and presented its capability in circumventing censorship within a heavily censored country known by its strict censorship policies and advanced technologies.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - What''s in a Name? Exploring CA Certificate Control'
+language: English
+recordingDate: 1630711049
+description: "What's in a Name? Exploring CA Certificate Control\n\nZane Ma and Joshua Mason, University of Illinois at Urbana-Champaign; Manos Antonakakis, Georgia Institute of Technology; Zakir Durumeric, Stanford University; Michael Bailey, University of Illinois at Urbana-Champaign\n \nTLS clients rely on a supporting PKI in which certificate authorities (CAs)—trusted organizations—validate and cryptographically attest to the identities of web servers. A client's confidence that it is connecting to the right server depends entirely on the set of CAs that it trusts. However, as we demonstrate in this work, the identity specified in CA certificates is frequently inaccurate due to lax naming requirements, ownership changes, and long-lived certificates. This not only muddles client selection of trusted CAs, but also prevents PKI operators and researchers from correctly attributing CA certificate issues to CA organizations. To help Web PKI participants understand the organizations that control each CA certificate, we develop Fides, a system that models and clusters CA operational behavior in order to detect CA certificates under shared operational control. We label the clusters that Fides uncovers, and build a new database of CA ownership that corrects the CA operator for 241 CA certificates, and expands coverage to 651 new CA certificates, leading to a more complete picture of CA certificate control.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

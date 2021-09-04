@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Prime+Probe 1, JavaScript 0: Overcoming Browser-based Side-Channel Defenses'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - Prime+Probe 1, JavaScript 0: Overcoming Browser-based Side-Channel Defenses\n\nAnatoly Shusterman, Ben-Gurion University of the Negev; Ayush Agarwal, University of Michigan; Sioli O'Connell, University of Adelaide; Daniel Genkin, University of Michigan; Yossi Oren, Ben-Gurion University of the Negev; Yuval Yarom, University of Adelaide and Data61\n\nThe \"eternal war in cache\" has reached browsers, with multiple cache-based side-channel attacks and countermeasures being suggested. A common approach for countermeasures is to disable or restrict JavaScript features deemed essential for carrying out attacks.\n\nTo assess the effectiveness of this approach, in this work we seek to identify those JavaScript features which are essential for carrying out a cache-based attack. We develop a sequence of attacks with progressively decreasing dependency on JavaScript features, culminating in the first browser-based side-channel attack which is constructed entirely from Cascading Style Sheets (CSS) and HTML, and works even when script execution is completely blocked. We then show that avoiding JavaScript features makes our techniques architecturally agnostic, resulting in microarchitectural website fingerprinting attacks that work across hardware platforms including Intel Core, AMD Ryzen, Samsung Exynos, and Apple M1 architectures.\n\nAs a final contribution, we evaluate our techniques in hardened browser environments including the Tor browser, DeterFox (Cao et al., CCS 2017), and Chrome Zero (Schwartz et al., NDSS 2018). We confirm that none of these approaches completely defend against our attacks. We further argue that the protections of Chrome Zero need to be more comprehensively applied, and that the performance and user experience of Chrome Zero will be severely degraded if this approach is taken.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

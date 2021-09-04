@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Graph Backdoor'
+language: English
+recordingDate: 1630710481
+description: "USENIX Security '21 - Graph Backdoor\n\nZhaohan Xi and Ren Pang, Pennsylvania State University; Shouling Ji, Zhejiang University; Ting Wang, Pennsylvania State University\n\nOne intriguing property of deep neural networks (DNNs) is their inherent vulnerability to backdoor attacks—a trojan model responds to trigger-embedded inputs in a highly predictable manner while functioning normally otherwise. Despite the plethora of prior work on DNNs for continuous data (e.g., images), the vulnerability of graph neural networks (GNNs) for discrete-structured data (e.g., graphs) is largely unexplored, which is highly concerning given their increasing use in security-sensitive domains.\n\nTo bridge this gap, we present GTA, the first backdoor attack on GNNs. Compared with prior work, GTA departs in significant ways: graph-oriented—it defines triggers as specific subgraphs, including both topological structures and descriptive features, entailing a large design spectrum for the adversary; input-tailored—it dynamically adapts triggers to individual graphs, thereby optimizing both attack effectiveness and evasiveness; downstream model-agnostic—it can be readily launched without knowledge regarding downstream models or fine-tuning strategies; and attack-extensible—it can be instantiated for both transductive (e.g., node classification) and inductive (e.g., graph classification) tasks, constituting severe threats for a range of security-critical applications. Through extensive evaluation using benchmark datasets and state-of-the-art models, we demonstrate the effectiveness of GTA. We further provide analytical justification for its effectiveness and discuss potential countermeasures, pointing to several promising research directions.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Cross-VM and Cross-Processor Covert Channels Exploiting Processor Idle...'
+language: English
+recordingDate: 1630710721
+description: "USENIX Security '21 - Cross-VM and Cross-Processor Covert Channels Exploiting Processor Idle Power Management\n\nPaizhuo Chen, Lei Li, and Zhice Yang, ShanghaiTech University\n\nTo achieve power-efficient computing, processors engage idle power management mechanisms to turn on/off idle components according to the dynamics of the workload. A processor's hardware components are classified and managed through the core and the uncore. The uncore is the supporting hardware shared by the cores, hence the decision of turning it on/off depends on the cores' activities. Such dependency implies a covert channel threat in multi-core platforms. Specifically, the power status of the uncore reflects the workload pattern of the active core, and it can be probed by any process running on the processor. This allows the process to infer the workload information of the active core. We show this covert channel can work across processors and violate VM isolation. We validate the channel in in-house testbeds as well as proprietary cloud servers.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - EVMPatch: Timely and Automated Patching of Ethereum Smart Contracts'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - EVMPatch: Timely and Automated Patching of Ethereum Smart Contracts\n\nMichael Rodler, University of Duisburg-Essen; Wenting Li and Ghassan O. Karame, NEC Laboratories Europe; Lucas Davi, University of Duisburg-Essen\n\nRecent attacks exploiting errors in smart contract code had devastating consequences thereby questioning the benefits of this technology. It is currently highly challenging to fix errors and deploy a patched contract in time. Instant patching is especially important since smart contracts are always online due to the distributed nature of blockchain systems. They also manage considerable amounts of assets, which are at risk and often beyond recovery after an attack. Existing solutions to upgrade smart contracts depend on manual and error-prone processes. This paper presents a framework, called EVMPatch, to instantly and automatically patch faulty smart contracts. EVMPatch features a bytecode rewriting engine for the popular Ethereum blockchain, and transparently/automatically rewrites common off-the-shelf contracts to upgradable contracts. The proof-of-concept implementation of EVMPatch automatically hardens smart contracts that are vulnerable to integer over/underflows and access control errors, but can be easily extended to cover more bug classes. Our evaluation on 14,000 real-world contracts demonstrates that our approach successfully blocks attack transactions launched on contracts, while keeping the intended functionality of the contract intact. We perform a study with experienced software developers, showing that EVMPatch is practical, and reduces the time for converting a given Solidity smart contract to an upgradable contract by 97.6 %, while ensuring functional equivalence to the original contract.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

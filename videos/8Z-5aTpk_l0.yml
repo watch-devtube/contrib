@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Breaking Through Binaries: Compiler-quality Instrumentation for Better'
+language: English
+recordingDate: 1630710293
+description: "USENIX Security '21 - Breaking Through Binaries: Compiler-quality Instrumentation for Better Binary-only Fuzzing\n\nStefan Nagy, Virginia Tech; Anh Nguyen-Tuong, Jason D. Hiser, and Jack W. Davidson, University of Virginia; Matthew Hicks, Virginia Tech\n\nCoverage-guided fuzzing is one of the most effective software security testing techniques. Fuzzing takes on one of two forms: compiler-based or binary-only, depending on the availability of source code. While the fuzzing community has improved compiler-based fuzzing with performance- and feedback-enhancing program transformations, binary-only fuzzing lags behind due to the semantic and performance limitations of instrumenting code at the binary level. Many fuzzing use cases are binary-only (i.e., closed source). Thus, applying fuzzing-enhancing program transformations to binary-only fuzzing—without sacrificing performance—remains a compelling challenge. This paper examines the properties required to achieve compiler-quality binary-only fuzzing instrumentation. Based on our findings, we design ZAFL: a platform for applying fuzzing-enhancing program transformations to binary-only targets—maintaining compiler-level performance. We showcase ZAFL's capabilities in an implementation for the popular fuzzer AFL, including five compiler-style fuzzing-enhancing transformations, and evaluate it against the leading binary-only fuzzing instrumenters AFL-QEMU and AFL-Dyninst. Across LAVA-M and real-world targets, ZAFL improves crash-finding by 26–96% and 37–131%; and throughput by 48– 78% and 159–203% compared to AFL-Dyninst and AFL-QEMU, respectively—while maintaining compiler-level of overhead of 27%. We also show that ZAFL supports real-world open- and closed-source software of varying size (10K– 100MB), complexity (100–1M basic blocks), platform (Linux and Windows), and format (e.g., stripped and PIC).\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

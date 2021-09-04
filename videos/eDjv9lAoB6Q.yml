@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Hiding the Access Pattern is Not Enough: Exploiting Search Pattern Leakage...'
+language: English
+recordingDate: 1630710825
+description: "USENIX Security '21 - Hiding the Access Pattern is Not Enough: Exploiting Search Pattern Leakage in Searchable Encryption\n\nSimon Oya and Florian Kerschbaum, University of Waterloo\n  \nRecent Searchable Symmetric Encryption (SSE) schemes enable secure searching over an encrypted database stored in a server while limiting the information leaked to the server. These schemes focus on hiding the access pattern, which refers to the set of documents that match the client's queries. This provides protection against current attacks that largely depend on this leakage to succeed. However, most SSE constructions also leak whether or not two queries aim for the same keyword, also called the search pattern.\n\nIn this work, we show that search pattern leakage can severely undermine current SSE defenses. We propose an attack that leverages both access and search pattern leakage, as well as some background and query distribution information, to recover the keywords of the queries performed by the client. Our attack follows a maximum likelihood estimation approach, and is easy to adapt against SSE defenses that obfuscate the access pattern. We empirically show that our attack is efficient, it outperforms other proposed attacks, and it completely thwarts two out of the three defenses we evaluate it against, even when these defenses are set to high privacy regimes. These findings highlight that hiding the search pattern, a feature that most constructions are lacking, is key towards providing practical privacy guarantees in SSE.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

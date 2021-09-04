@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript\n\nFinn de Ridder, ETH Zurich and VU Amsterdam; Pietro Frigo, Emanuele Vannacci, Herbert Bos, and Cristiano Giuffrida, VU Amsterdam; Kaveh Razavi, ETH Zurich\n\nDespite their in-DRAM Target Row Refresh (TRR) mitigations, some of the most recent DDR4 modules are still vulnerable to many-sided Rowhammer bit flips. While these bit flips are exploitable from native code, triggering them in the browser from JavaScript faces three nontrivial challenges. First, given the lack of cache flushing instructions in JavaScript, existing eviction-based Rowhammer attacks are already slow for the older single- or double-sided variants and thus not always effective. With many-sided Rowhammer, mounting effective attacks is even more challenging, as it requires the eviction of many different aggressor addresses from the CPU caches. Second, the most effective many-sided variants, known as n-sided, require large physically-contiguous memory regions which are not available in JavaScript. Finally, as we show for the first time, eviction-based Rowhammer attacks require proper synchronization to bypass in-DRAM TRR mitigations.\n\nUsing a number of novel insights, we overcome these challenges to build SMASH (Synchronized MAny-Sided Hammering), a technique to succesfully trigger Rowhammer bit flips from JavaScript on modern DDR4 systems. To mount effective attacks, SMASH exploits high-level knowledge of cache replacement policies to generate optimal access patterns for eviction-based many-sided Rowhammer. To lift the requirement for large physically-contiguous memory regions, SMASH decomposes n-sided Rowhammer into multiple double-sided pairs, which we can identify using slice coloring. Finally, to bypass the in-DRAM TRR mitigations, SMASH carefully schedules cache hits and misses to successfully trigger synchronized many-sided Rowhammer bit flips. We showcase SMASH with an end-to-end JavaScript exploit which can fully compromise the Firefox browser in 15 minutes on average.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"
