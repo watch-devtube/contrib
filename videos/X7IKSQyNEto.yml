@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation\n\nArpita Patra, Indian Institute of Science; Thomas Schneider, TU Darmstadt; Ajith Suresh, Indian Institute of Science; Hossein Yalame, TU Darmstadt\n\nSecure Multi-party Computation (MPC) allows a set of mutually distrusting parties to jointly evaluate a function on their private inputs while maintaining input privacy. In this work, we improve semi-honest secure two-party computation (2PC) over rings, with a focus on the efficiency of the online phase.\n\nWe propose an efficient mixed-protocol framework, outperforming the state-of-the-art 2PC framework of ABY. Moreover, we extend our techniques to multi-input multiplication gates without inflating the online communication, i.e., it remains independent of the fan-in. Along the way, we construct efficient protocols for several primitives such as scalar product, matrix multiplication, comparison, maxpool, and equality testing. The online communication of our scalar product is two ring elements irrespective of the vector dimension, which is a feature achieved for the first time in the 2PC literature.\n\nThe practicality of our new set of protocols is showcased with four applications: i) AES S-box, ii) Circuit-based Private Set Intersection, iii) Biometric Matching, and iv) Privacy-preserving Machine Learning (PPML). Most notably, for PPML, we implement and benchmark training and inference of Logistic Regression and Neural Networks over LAN and WAN networks. For training, we improve online runtime (both for LAN and WAN) over SecureML (Mohassel et al., IEEE S&P '17) in the range 1.5x–6.1x, while for inference, the improvements are in the range of 2.5x–754.3x.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

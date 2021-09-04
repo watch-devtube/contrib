@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Security Analysis of the Democracy Live Online Voting System'
+language: English
+recordingDate: 1630711049
+description: "Security Analysis of the Democracy Live Online Voting System\n\nMichael Specter, MIT; J. Alex Halderman, University of Michigan\n\nDemocracy Live's OmniBallot platform is a web-based system for blank ballot delivery, ballot marking, and online voting. Three states—Delaware, West Virginia, and New Jersey—recently announced that they would allow certain voters to cast votes online using OmniBallot, but, despite the well established risks of Internet voting, the system has never before undergone a public, independent security review.\n\nWe reverse engineered the client-side portion of OmniBallot, as used in Delaware, in order to detail the system's operation and analyze its security. We find that OmniBallot uses a simplistic approach to Internet voting that is vulnerable to vote manipulation by malware on the voter's device and by insiders or other attackers who can compromise Democracy Live, Amazon, Google, or Cloudflare. In addition, Democracy Live, which had no privacy policy prior to our work, receives sensitive personally identifiable information—including the voter's identity, ballot selections, and browser fingerprint—that could be used to target political ads or disinformation campaigns. Even when OmniBallot is used to mark ballots that will be printed and returned in the mail, the software sends the voter's identity and ballot choices to Democracy Live, an unnecessary risk that jeopardizes the secret ballot.\n\nWe recommend changes to make the platform safer for ballot delivery and marking. However, we conclude that using OmniBallot for electronic ballot return represents a severe risk to election security and could allow attackers to alter election results without detection. In response to our findings, Delaware and New Jersey have halted use of OmniBallot, but it remains available in other jurisdictions, as do similar online voting methods that are likely to face the same serious risks.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

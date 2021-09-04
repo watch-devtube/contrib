@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Preventing Use-After-Free Attacks with Fast Forward Allocation'
+language: English
+recordingDate: 1630710192
+description: "USENIX Security '21 - Preventing Use-After-Free Attacks with Fast Forward Allocation\n\nBrian Wickman, GTRI; Hong Hu, PennState; Insu Yun, Daehee Jang, and JungWon Lim, GeorgiaTech; Sanidhya Kashyap, EPFL; Taesoo Kim, GeorgiaTech\n\nMemory-unsafe languages are widely used to implement critical systems like kernels and browsers, leading to thousands of memory safety issues every year. A use-after-free bug is a temporal memory error where the program accidentally visits a freed memory location. Recent studies show that use-after-free is one of the most exploited memory vulnerabilities. Unfortunately, previous efforts to mitigate use-after-free bugs are not widely deployed in real-world programs due to either inadequate accuracy or high performance overhead.\n\nIn this paper, we propose to resurrect the idea of one-time allocation (OTA) and provide a practical implementation with efficient execution and moderate memory overhead. With one-time allocation, the memory manager always returns a distinct memory address for each request. Since memory locations are not reused, attackers cannot reclaim freed objects, and thus cannot exploit use-after-free bugs. We utilize two techniques to render OTA practical: batch page management and the fusion of bump-pointer and fixed-size bins memory allocation styles. Batch page management helps reduce the number of system calls which negatively impact performance, while blending the two allocation methods mitigates the memory overhead and fragmentation issues. We implemented a prototype, called FFmalloc, to demonstrate our techniques. We evaluated FFmalloc on widely used benchmarks and real-world large programs. FFmalloc successfully blocked all tested use-after-free attacks while introducing moderate overhead. The results show that OTA can be a strong and practical solution to thwart use-after-free threats.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - JAW: Studying Client-side CSRF with Hybrid Property Graphs and Declarative'
+language: English
+recordingDate: 1630710094
+description: "USENIX Security '21 - JAW: Studying Client-side CSRF with Hybrid Property Graphs and Declarative Traversals\n\nSoheil Khodayari and Giancarlo Pellegrino, CISPA Helmholtz Center for Information Security\n\nClient-side CSRF is a new type of CSRF vulnerability where the adversary can trick the client-side JavaScript program to send a forged HTTP request to a vulnerable target site by modifying the program's input parameters. We have little-to-no knowledge of this new vulnerability, and exploratory security evaluations of JavaScript-based web applications are impeded by the scarcity of reliable and scalable testing techniques. This paper presents JAW, a framework that enables the analysis of modern web applications against client-side CSRF leveraging declarative traversals on hybrid property graphs, a canonical, hybrid model for JavaScript programs. We use JAW to evaluate the prevalence of client-side CSRF vulnerabilities among all (i.e., 106) web applications from the Bitnami catalog, covering over 228M lines of JavaScript code. Our approach uncovers 12,701 forgeable client-side requests affecting 87 web applications in total. For 203 forgeable requests, we successfully created client-side CSRF exploits against seven web applications that can execute arbitrary server-side state-changing operations or enable cross-site scripting and SQL injection, that are not reachable via the classical attack vectors. Finally, we analyzed the forgeable requests and identified 25 request templates, highlighting the fields that can be manipulated and the type of manipulation.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

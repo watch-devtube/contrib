@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Private Blocklist Lookups with Checklist'
+language: English
+recordingDate: 1630710617
+description: "USENIX Security '21 - Private Blocklist Lookups with Checklist\n\nDmitry Kogan, Stanford University; Henry Corrigan-Gibbs, MIT CSAIL\n\nThis paper presents Checklist, a system for private blocklist lookups. In Checklist, a client can determine whether a particular string appears on a server-held blocklist of strings, without leaking its string to the server. Checklist is the first blocklist-lookup system that (1) leaks no information about the client's string to the server, (2) does not require the client to store the blocklist in its entirety, and (3) allows the server to respond to the client's query in time sublinear in the blocklist size. To make this possible, we construct a new two-server private-information-retrieval protocol that is both asymptotically and concretely faster, in terms of server-side time, than those of prior work. We evaluate Checklist in the context of Google's \"Safe Browsing\" blocklist, which all major browsers use to prevent web clients from visiting malware-hosting URLs. Today, lookups to this blocklist leak partial hashes of a subset of clients' visited URLs to Google's servers. We have modified Firefox to perform Safe-Browsing blocklist lookups via Checklist servers, which eliminates the leakage of partial URL hashes from the Firefox client to the blocklist servers. This privacy gain comes at the cost of increasing communication by a factor of 3.3×, and the server-side compute costs by 9.8×. Checklist reduces end-to-end server-side costs by 6.7×, compared to what would be possible with prior state-of-the-art two-server private information retrieval.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

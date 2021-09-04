@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - On the Design and Misuse of Microcoded (Embedded) Processors—A Cautionary Note'
+language: English
+recordingDate: 1630710720
+description: "USENIX Security '21 - On the Design and Misuse of Microcoded (Embedded) Processors — A Cautionary Note\n\nNils Albartus and Clemens Nasenberg, Ruhr University Bochum, Germany; Max Planck Institute for Security and Privacy, Germany; Florian Stolz, Ruhr University Bochum, Germany; Marc Fyrbiak, Max Planck Institute for Security and Privacy, Germany; Christof Paar, Ruhr University Bochum, Germany; Max Planck Institute for Security and Privacy, Germany; Russell Tessier, University of Massachusetts, Amherst, USA\n\nToday's microprocessors often rely on microcode updates to address issues such as security or functional patches. Unfortunately, microcode update flexibility opens up new attack vectors through malicious microcode alterations. Such attacks share many features with hardware Trojans and have similar devastating consequences for system security. However, due to microcode's opaque nature, little is known in the open literature about the capabilities and limitations of microcode Trojans.\n\nWe introduce the design of a microcoded RISC-V processor architecture together with a microcode development and evaluation environment. Even though microcode typically has almost complete control of the processor hardware, the design of meaningful microcode Trojans is not straightforward. This somewhat counter-intuitive insight is due to the lack of information at the hardware level about the semantics of executed software. In three security case studies we demonstrate how to overcome these issues and give insights on how to design meaningful microcode Trojans that undermine system security. To foster future research and applications, we publicly release our implementation and evaluation platform.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

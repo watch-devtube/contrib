@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21-VoltPillager: Hardware-based fault injection attacks against Intel SGX Enclaves'
+language: English
+recordingDate: 1630710721
+description: "USENIX Security '21 - VoltPillager: Hardware-based fault injection attacks against Intel SGX Enclaves using the SVID voltage scaling interface\n\nZitai Chen, Georgios Vasilakis, Kit Murdock, Edward Dean, David Oswald, and Flavio D. Garcia, School of Computer Science, University of Birmingham, UK\n\nHardware-based fault injection attacks such as voltage and clock glitching have been thoroughly studied on embedded devices. Typical targets for such attacks include smartcards and low-power microcontrollers used in IoT devices. This paper presents the first hardware-based voltage glitching attack against a fully-fledged Intel CPU. The transition to complex CPUs is not trivial due to several factors, including: a complex operating system, large power consumption, multi-threading, and high clock speeds. To this end, we have built VoltPillager, a low-cost tool for injecting messages on the Serial Voltage Identification bus between the CPU and the voltage regulator on the motherboard. This allows us to precisely control the CPU core voltage. We leverage this powerful tool to mount fault-injection attacks that breach confidentiality and integrity of Intel SGX enclaves. We present proof-of-concept key-recovery attacks against cryptographic algorithms running inside SGX. We demonstrate that VoltPillager attacks are more powerful than recent software-only undervolting attacks against SGX (CVE-2019-11157) because they work on fully patched systems with all countermeasures against software undervolting enabled. Additionally, we are able to fault security-critical operations by delaying memory writes. Mitigation of VoltPillager is not straightforward and may require a rethink of the SGX adversarial model where a cloud provider is untrusted and has physical access to the hardware.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"

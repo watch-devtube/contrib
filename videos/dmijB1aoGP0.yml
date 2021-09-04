@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''21 - Card Brand Mixup Attack: Bypassing the PIN in non-Visa Cards by Using Them...'
+language: English
+recordingDate: 1630710824
+description: "USENIX Security '21 - Card Brand Mixup Attack: Bypassing the PIN in non-Visa Cards by Using Them for Visa Transactions\n\nDavid Basin, Ralf Sasse, and Jorge Toro-Pozo, Department of Computer Science, ETH Zurich\n\nMost EMV transactions require online authorization by the card issuer. Namely, the merchant's payment terminal sends an authorization request to the card issuer over a payment network, typically operated by the company that brands the card such as Visa or Mastercard. In this paper we show that it is possible to induce a mismatch between the card brand and the payment network, from the terminal's perspective. The resulting card brand mixup attack has serious security consequences. In particular, it enables criminals to use a victim's Mastercard contactless card to pay for expensive goods without knowing the card's PIN. Concretely, the attacker fools the terminal into believing that the card being used is a Visa card and then applies the recent PIN bypass attack that we reported on Visa. We have built an Android application and successfully used it to carry out this attack for transactions with both Mastercard debit and credit cards, including a transaction for over 400 USD with a Maestro debit card. Finally, we extend our formal model of the EMV contactless protocol to machine-check fixes to the issues found.\n\nView the full USENIX Security '21 Program at https://www.usenix.org/conference/usenixsecurity21/technical-sessions"
