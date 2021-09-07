@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SPA as Platform with Micro-Frontends & Capabilities | Saranya Thangaraj | ng-conf 2021'
+language: English
+recordingDate: 1630944040
+description: "For organizations, the need to create UI platforms is growing with multiple applications being built on top of common capabilities and micro-services. MicroFrontends along with capabilities to manage authentication, state, analytics, routing, and other functions enable us to create a platform of common functionalities that can be extended by individual web applications.\n\nIn this talk, we will look at how we can create an application shell, which acts as a platform. The application shell defines commonly used libraries as shared modules to avoid duplication in page builds and provides authentication, state management, routing, etc. Each page of the Single Page Application Shell has a separate build. The application shell is also a separate build referencing all pages as remote modules at runtime. The result is each page can be separately deployed. The application shell is also independently deployed when routes are updated or new routes are added. With angular support for Webpack 5 Module Federation, little to no dependency duplication will be incurred. Through the shared option, remotes will depend on host dependencies. If the host does not have a dependency, the remote will then download its own. This means no code duplication, just built-in redundancy.\n\nThis approach enables teams to focus on delivering core business value, allows independent development/deployment, promotes reuse and abstracts repetitive work from individual applications.\n​\nng-conf is a multi-day Angular conference focused on delivering the highest quality training in the Angular JavaScript framework. 1000's of developers from across the globe join together to attend talks and workshops by the Angular team and other community experts.\n\nFollow us on twitter https://twitter.com/ngconf​ \nOfficial Website: https://www.ng-conf.org/"
