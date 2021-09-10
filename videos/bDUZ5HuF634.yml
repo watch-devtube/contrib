@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 Blue Team Village  - Meisam Eslahi - Scope X Hunt in the Ocean'
+language: English
+recordingDate: 1631233439
+description: "Almost every cybersecurity services begin with defining a scope to be assessed. There is nothing wrong with scoping unless it is all about what we know. Attackers walk into our network from the entry points that we may not even know about them. This is not an \"out of the scope\" concept as these entry points are entirely unknown; Let's call it \"Scope X.\" One of the mysterious examples of Scope X is subdomains; this presentation will not talk about techniques to enumerate them as uncle Google provides tons of tutorials. Instead, we discuss threat hunting on discovered subdomains.\n\nThis talk defines scope x and its importance in threat hunting by using subdomains as a perfect example. Exploring subdomains may help red teamers look for more sensitive information, forgotten vulnerabilities, and obsolete technologies that could provide additional attack surfaces.\n\nOn the other hand, the blue teamers should proactively discover the subdomains, identify the different types of risks and address them. Assume we retrieved a large number of subdomains; what would be the next step?\n\n• Data Validation: When we have a bulk number of subdomains in hands, the first step is to determine which one is really UP to reduce false findings.\n\n• Data classification and reduction: We may face tons of subdomains containing sensitive information, precisely like hunting fishes in an ocean! Before we jump into the analysis phase, we could separate and organize collected data into different groups based on desired parameters or filter out unwanted data to narrow down the hunting scope.\n\n• Say cheese and Take a Picture! Without a doubt navigating the subdomains one by one is not an option! One of the common practices is taking the screenshots in bulk, checking and shortlisting them if we found something interesting. But how do that?\n\n• Keyword Style! Each subdomain page source may contain information that helps us to look for a different type of risk. How fast can we search for specific data in a large volume of subdomains? By the way, what to look for?\n\n• Threats lucky draw: There may be different types of technical and business security risks. How to analyze our data, identify risks, and categorize them?"
