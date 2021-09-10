@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 Blue Team Village - Igal Flegmann -   I know who has access to my cloud, do you'
+language: English
+recordingDate: 1631233438
+description: "In this talk, we will talk about the importance of monitoring your Azure RBAC and we will introduce SubWatcher our newly released open-source tool that we use internally to compliment Azure security tools and scan our subscriptions to make sure our systems are not being accessed by bad actors. Can’t wait to see where the community takes this amazing tool!\n\nWhen comparing security reviews with red team findings, I always found that security reviews are based on what they think their system looks like and not how it actually is. Is the SSH port really closed? Or did I forget to close it the last time I was debugging something? Wait who added this identity as owner of the resources and when?!\n\nAzure Security Center provides us with some great tools to check some of these errors. For example, from the two examples above it will alert on the SSH port being left open but it would not alert on some new person being added to your production subscription.\n\nThe Solution? SubWatcher our internal tool that it was too good to keep in-house and not share it with the world. SubWatches is an open-source tool that monitors your Azure Subscription ACLs and will alert you if they changed based on the baseline you have created."
