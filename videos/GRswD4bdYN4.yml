@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 Cloud Village - Yuval Avrahami - WhoC   Peeking under the hood of CaaS offerings'
+language: English
+recordingDate: 1631397892
+description: 'Running your business-critical applications on the public cloud involves trust. You trust your cloud provider to separate your workloads from other customers'' workloads. You trust your cloud provider to patch and update their software and hardware stack. For those of us with trust issues, blindly running our applications in the public cloud can be tough. Fortunately, trust can be earned through visibility, and that''s where WhoC can help. WhoC provides a bit of visibility into how Container-as-a-Service (CaaS) offerings run our containers. WhoC (Who Contains) is a container image that upon execution extracts the underlying container runtime. It doesn''t try to identify the underlying runtime based on the container''s cgroup configuration, the existence of a ''.dockerenv'' file or any other known trick. WhoC exfiltrates the actual container runtime binary from the underlying host. In this talk Yuval will walk you through how WhoC works and show a demo running WhoC in a popular CaaS offering. You''ll learn a surprising truth: Linux containers can actually access one host file - the container runtime.'

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 Cloud Village - Alexandre Sieira -  Attack Vectors for APIs w AWS API Gateway Lambda Auth'
+language: English
+recordingDate: 1631397890
+description: 'Serverless applications are a really interesting new trend that promises benefits such as increased scalability and reduced cost. Frameworks like Serverless Application Model (SAM) and Serverless Framework are increasingly used to build them. APIs are a natural part of serverless applications, and in AWS that typically is implemented using the AWS API Gateway backed by Lambdas that implement the actual API endpoint logic. Our research focused on API Gateway Lambda Authorizers. This is a feature that allows developers to use a custom authentication and authorization scheme that uses a bearer token authentication strategy (like JWTs, OAuth or SAML), or that uses request parameters to determine the caller''s identity and enforce which API endpoints they are allowed to access. We will present (AFAIK novel) techniques to attack the authentication and authorization of APIs that use Lambda Authorizers. We show how IAM policy injection is possible in theory but highly unlikely in practice due to some good decisions by AWS. We also show a class of problems based on incorrect security assumptions baked into AWS'' own documentation and Lambda Authorizer open source code templates. Sample source code will be provided to demonstrate all techniques.'

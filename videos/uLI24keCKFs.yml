@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 Cloud Village -  Felipe Pr0teus - Hunting for AWS Exposed Resources'
+language: English
+recordingDate: 1631397890
+description: 'Like all major public cloud providers, AWS allows users to expose managed resources like S3 buckets, SQS queues, RDS databases, and others publicly on the Internet. There are legitimate uses for making resources public, such as publishing non-sensitive data. However, we often find that this functionality is mistakenly used, often due to a lack of cloud security expertise, to erroneously expose sensitive data. News of exposed S3 buckets are sadly very frequent in the specialized media. It is important to note, however, that there are many other relevant kinds of AWS resources that can be equally dangerous when publicly exposed but that doesn''t get nearly as much scrutiny as S3 buckets. In this talk we are going to describe some of the methods that researchers and attackers use to discover and exploit these publicly exposed resources, and how cloud providers and defenders can have taken action to monitor, prevent and respond to these activities.'

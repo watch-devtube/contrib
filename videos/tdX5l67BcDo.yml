@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 Cloud Village - Daniel Prizmant - Windows Server Containers are Broken'
+language: English
+recordingDate: 1631397890
+description: 'A container packages up code and its dependencies, creating a minimal computing environment that can be cloned quickly and reliably across the ever-changing variety of operating system distributions. Originally available for Linux alone, containerized software will always run the same, regardless of the infrastructure. Microsoft teamed up with Docker to offer a container solution for Windows. Support for containers was added in 2016, but little documentation on the internal implementation was released. It was necessary to reverse engineer some of the components of Windows in order to better understand the kernel implementation. How does Windows prevent containers from running system calls that may allow attackers to escape containers? How does Windows prevent containers from accessing sensitive files outside the container, on the host? Why go through all this trouble? A vulnerability in the low level implementation of containers could impact hundreds of thousands of affected instances. Not to mention a full escape from the container to its host machine. How would such an escape vulnerability affect Kuberenetes and Azure services? In this presentation I will show you how to fully escape a Windows container and gain full access to the host’s file system. I will discuss why Microsoft originally didn’t consider this a vulnerability, but do now. I will also show the use of this vulnerability in the wild by a malware.'

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'DEF CON 29 Cloud Village  - Rodrigo Montoro - CSPM2CloudTrail   Extending CSPM Tools'
+language: English
+recordingDate: 1631397890
+description: 'The AWS service APIs provide around 9,400 different actions (and growing!) that, when logged, give a lot of extra info that can be correlated and used to find malicious activities. However, as with most data sources, it is very noisy. Plus, it fails to include in its events critical contextual information that threat hunters need. Working with our Threat Detection Engineering Team to create very actionable use cases that don’t need much additional context and exceptions. We developed an idea to detect the creation time of events discovered by most CSPMs check when evaluating a cloud provider, particularly AWS in this case. Cloud Security Posture Management (CSPM), which works by detecting cloud service misconfigurations, is one of the most common technologies used to improve cloud security and is used heavily worldwide by thousands of companies. Despite this, CSPM tools cannot detect most of the real-time findings, need privileges to be executed and scheduled to run and analyze preferably daily to decrease windows exposure. Cloud misconfigurations typically result in second-stage attacks. Aside from some risks that make information public, attackers likely need some credentials with privileges to perform actions that could impact privilege escalation, resource exposure, crypto mining, infrastructure modification, and access to sensitive data. Starting with some CloudSploit checks, we named this research CSPM2CloudTrail, so we create misconfigured services based on their findings and analyze how these changes are logged to CloudTrail. We made many use cases that we mainly transform in cards (with CloudSploit information) and sigma rules, having information such as severity, recommendations, AWS Documentation, and more importantly, for our SOC, Splunk searches. Besides this great use of trying to detect this almost in real-time (since CloudTrail delays around 15 minutes), these queries could enrich CSPM findings, making incident responses on misconfigurations caught faster. All information and detections created will be shared in our Github repository.'
