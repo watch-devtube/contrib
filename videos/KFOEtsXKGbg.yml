@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'RustConf 2021 - Fuzz Driven Development by Midas Lambrichts'
+language: English
+recordingDate: 1631736063
+description: "Fuzz Driven Development by Midas Lambrichts\n\nSometimes you can come up with an easy method to verify correctness, but you struggle with finding actual examples for the unit tests. You know that \"For all x it holds that …\", but you can't come up with good possibilities for x. This is where relying on fuzzing can quickly drive forward development through providing you with some real examples of what your code doesn't yet cover, allowing you to quickly cover a lot of ground. Together we'll go through the process of using cargo fuzz in order to build a quick program that can squash JSON Patch operations (RFC 6902), touching upon some utilities/libraries from the Rust community (fuzzing tools, serde_json,…), and learning some lessons about what kind of misconceptions you might have when getting started with fuzzing."

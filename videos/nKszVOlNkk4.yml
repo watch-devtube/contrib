@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'RustConf 2021 - Whoops! I Rewrote It in Rust by Brian Martin'
+language: English
+recordingDate: 1631736352
+description: "Whoops! I Rewrote It in Rust by Brian Martin\n\nThree engineers, at various points, each take their own approach adding Rust to a C codebase, each being more and more ambitious. I initially just wanted to replace the server’s networking and event loop with an equally fast Rust implementation. We’d reuse many core components that were in C and just call into them from Rust. Surely it wouldn’t be that much code… Pelikan is Twitter’s open source and modular framework for in-memory caching, allowing us to replace Memcached and Redis forks with a single codebase and achieve better performance. At Twitter, we operate hundreds of cache clusters storing hundreds of terabytes of small objects in memory. In-memory caching is critical, and demands performance, reliability, and efficiency. In this talk, I’ll share my adventures in working on Pelikan and how rewriting it in Rust can be more than just a meme."

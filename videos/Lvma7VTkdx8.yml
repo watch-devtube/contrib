@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'RustConf 2021 - Move Constructors: Is it Possible? by Miguel Young de la Sota'
+language: English
+recordingDate: 1631735612
+description: "Move Constructors: Is it Possible? by Miguel Young de la Sota\n\nA \"self-referential\" type is one that holds a reference into itself; async Futures are the most common self-referential types in Rust today. However, they can't be moved without invalidating the reference, so they're pinned on the heap or stack. You can't return them or put them into collections (without Boxing, of course). C++ makes heavy use of safely-moveable self-referential types, via move constructors. Bridging move constructors into Rust is one of the great unsolved problems of C++ FFI. Was an unsolved problem. Using a novel interpretation of the Pin P guarantees, we'll port all C++ constructors, not just move constructors, to Rust, without compromising Rust's move-after-use protections (something C++ lacks). Return-by-move and collections are fully supported in today's stable Rust. Beyond zero-cost C++ FFI, Rust \"constructors\" can be applied to express novel data structures in pure Rust. No C++ knowledge required!"
