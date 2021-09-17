@@ -6,9 +6,6 @@
 
 # tags: [____, _____, _____]
 
-tags:
-    - bigdata
-    - scala
 title: 'Data processing at Spotify - Why portability matters'
 recordingDate: 1603824538
 description: "For the last few years, Spotify has been developing Scio, an open-source Scala framework to develop data pipelines and deploy them on any execution engine. During that time, Spotify has been successfully deploying and running thousands of unique Scio jobs in production.\n\nOne of the benefits of Scio is it’s portability. A Scio job can run on Dataflow, Flink, Hadoop or Spark without any code change. This gives our users the ability to adapt their infrastructure to their evolving needs.\n\nIn this talk, we will show how one can write a data processing job handling a large amount of data and run it on Dataflow. Then in just a few steps, we will show how the runtime can be completely changed, and the very same job can also be executed on Flink.\n\nWe will also explain why portability is important to every company, whether they are just starting their data-processing journey or if like Spotify, they already are data-driven."
