@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Demystify LDAP and OIDC Providing Security to Your App on Kubernetes'
+language: English
+recordingDate: 1632327063
+description: "Modern web applications (and platforms such as Kubernetes) commonly leverage Open ID Connect (OIDC) to provide AuthN/AuthZ. At the same time, many organizations use Active Directory/LDAP to manage users and groups. Bridging these two technologies can be challenging, especially when these systems sit within different silos in an organization.\n \n One piece of the puzzle is configuring a special-purpose Kubernetes cluster with an LDAP connector to access AD. Another piece is enabling Kubernetes clusters for OIDC authentication. A final piece is providing a Spring Cloud Gateway with SSO filters in front of your Spring Security-enabled Boot apps.\n \n This demo-driven presentation will review the end-to-end flow and showcase tips and tricks inspecting the deployment environment, allowing you to work in the AuthZ/AuthN pipeline with confidence. By increasing your knowledge of the mechanics, you can better collaborate with developer, platform, and infra teams.\n\nDodd Pfeffer, Advisory Solution Engineer at VMware\n\nSlides: https://www.slideshare.net/Pivotal/demystify-ldap-and-oidc-providing-security-to-your-app-on-kubernetes"
