@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Splitting rows into buckets with SQL'
+language: English
+recordingDate: 1632327532
+description: "Often you want to split rows into consistent groups of equal size or range. For example, to create histograms, compare periods or view spread in data\n\nJoin this session to learn how you can use\n\nNTILE to create groups with an equal number of rows\nWIDTH_BUCKET to make each group cover an equal range of values\nFormulas to define fixed ranges\n\nHighlights from this session include:\n\n02:30 - Splitting rows into quartiles using NTILE\n06:30 - Creating histograms with equal-sized intervals using WIDTH_BUCKET\n10:00 - Group strings together by starting letter with WIDTH_BUCKET\n13:00 - Demo of using NTILE\n15:30 - Demo of using WIDTH_BUCKET\n22:00 - Demo of ways to group character values\n27:30 - Recap of differences between NTILE and WIDTH_BUCKET\n31:40 - Grouping rows into 5-minute intervals\n33:20 - Demo of splitting data into groups of five rows each\n35:45 - Demo of grouping rows in 5-minute intervals\n42:30 - Demo of RATIO_TO_REPORT\n44:45 - Review of different ways to group rows into \"consistent\" sized bins\n\nGet the scripts for this session https://livesql.oracle.com/apex/livesql/file/content_MD0J8KLQAKL6SOC2UGNCC3VSR.html\n\nPractice your SQL skills with free quizzes https://devgym.oracle.com/pls/apex/dg/competition/sql"
