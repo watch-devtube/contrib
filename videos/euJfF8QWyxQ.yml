@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Challenges of Being an ISV and Customer in a K8s World'
+language: English
+recordingDate: 1632327269
+description: "Software vendors that traditionally packaged their software to install on IaaS, built and managed by their customers, have moved to containerizing their software to solve the supportability of testing combinations of OS and middleware running their software. ISVs now face new challenges, not only in patching their software but also needing to rapidly patch the middleware and OS as they’ve taken ownership of those layers with providing customers containers. Customers of ISVs now need to be able to ingest the deployment methodology given by the ISV. There are challenges with Helm and even native deployments, which need to be modified before the first app can be deployed on Kubernetes to fit their specific environment. Customers are left wondering how upgrades are managed and what happens when data is involved? We’re going to explore these challenges seen in our customers (both producers and consumers of ISV software) to help you better navigate the pitfalls of ISV software in a K8s world.\n\nBarry Mullan, Staff Solution Engineer at VMware\nRoberto Scata, Staff Solutions Engineer at VMware\n\nSlides: https://www.slideshare.net/Pivotal/challenges-of-being-an-isv-and-customer-in-a-k8s-world"

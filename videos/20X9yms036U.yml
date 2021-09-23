@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Modern Application Configuration in Kubernetes'
+language: English
+recordingDate: 1632327470
+description: "Historically, application configuration has been managed internally to application deployment, in environment variables, or in files placed in the filesystem of the running application. As applications evolved into microservices, however, that approach became inadequate. Centralized configuration, including application-specific and shared configuration, versioning and rollback capabilities, and auditing became necessary\n \n As more applications and microservices are becoming containerized and deployed in Kubernetes, configuration continues to be challenging. While Kubernetes offers configuration via ConfigMaps and Secrets, there’s no clear way to manage the properties going into those resources. \n \n In this session, we’ll explore see how to blend the benefits of centralized configuration with Kubernetes-native ConfigMaps and Secrets.\n\nCraig Walls, Engineer at VMware\n\nSlides: https://www.slideshare.net/Pivotal/modern-application-configuration-in-kubernetes"

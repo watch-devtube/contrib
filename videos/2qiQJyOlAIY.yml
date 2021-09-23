@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Collaborative Applications at Scale with RSocket'
+language: English
+recordingDate: 1632327470
+description: "At Canva, we enabled our users to collaborate with each other by introducing services that support bidirectional streaming with RSocket. Building such a system is difficult when the number of clients is large because every client must maintain a connection to the backend service. The scaling and reliability considerations are significantly more complex than a request-response based system. \n \n This talk discusses the challenges that we faced building these services, and the solutions we came up with. The talk will go over the application challenges, including transport concerns, client configuration, and observability, as well as the infrastructure challenges, including load balancing and application configuration to support a large number of concurrent users.\n\nSergey Tselovalnikov, Software Engineer at Canva\n\nSlides: https://www.slideshare.net/Pivotal/collaborative-applications-at-scale-with-rsocket"
