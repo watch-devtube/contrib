@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'On the Convergence of Deep Learning with Differential Privacy'
+language: English
+recordingDate: 1632942643
+description: "A Google TechTalk, presented by Zhiqi Bu, 2021/07/02\nABSTRACT: Differential Privacy for ML Series.  In deep learning with differential privacy (DP), the neural network achieves the privacy usually at the cost of slower convergence (and thus lower performance) than its non-private counterpart. This work gives the first convergence analysis of the DP deep learning, through the lens of training dynamics and the neural tangent kernel (NTK). Our convergence theory successfully characterizes the effects of two key components in the DP training: the per-sample clipping (flat or layerwise) and the noise addition. Our analysis not only initiates a general principled framework to understand the DP deep learning with any network architecture and loss function, but also motivates a new clipping method -- the global clipping, that significantly improves the convergence while preserving the same privacy guarantee as the existing local clipping.\nIn terms of theoretical results, we establish the precise connection between the per-sample clipping and NTK matrix. We show that in the gradient flow, i.e., with infinitesimal learning rate, the noise level of DP optimizers does not affect the convergence. We prove that DP gradient descent (GD) with global clipping guarantees the monotone convergence to zero loss, which can be violated by the existing DP-GD with local clipping. Notably, our analysis framework easily extends to other optimizers, e.g., DP-Adam. Empirically speaking, DP optimizers equipped with global clipping perform strongly on a wide range of classification and regression tasks. In particular, our global clipping is surprisingly effective at learning calibrated classifiers, in contrast to the existing DP classifiers which are oftentimes over-confident and unreliable. Implementation-wise, the new clipping can be realized by adding one line of code into the Opacus library.\n\nhttps://arxiv.org/abs/2106.07830"
