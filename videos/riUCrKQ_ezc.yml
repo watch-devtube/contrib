@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Back to Basics: Concurrency (Multithreading Tactics in C++)'
+language: English
+recordingDate: 1633211025
+description: "One of C++11's flagship features was the introduction of std::thread, along with a complete suite of synchronization primitives and useful patterns such as thread-safe static initialization. In this session, we'll motivate C++11's threading model and explain how to use std::thread effectively. We'll compare and contrast the C++11 synchronization primitives (mutex, condition variable, reader-writer lock, and once-flag) as well as the primitives that are new in C++20 (semaphore, latch, and barrier). In particular, we'll show how to make a mutex and a condition variable work together.\nWhen using threads, it's important to avoid shared mutable state. We'll show how to tame that state via the \"blue/green deployment\" pattern, and briefly discuss how to use std::future and std::async to safely handle threads that produce answers.\n\nAttendees will leave this session with a strong grasp on \"multithreading tactics\" in C++11 and beyond.\n\n\nPUBLICATION PERMISSIONS:\nCppCon Organizer provided Coding Tech with the permission to republish CppCon tech talks.\n\n\nCREDITS: \nCppCon YouTube channel: https://www.youtube.com/channel/UCMlGfpWw-RUdWX_JbLCukXg"
