@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon21 - Latency Distributions and Micro-Benchmarking to Identify and Characterize Kernel Hotspots'
+language: English
+recordingDate: 1634065943
+description: "Latency Distributions and Micro-Benchmarking to Identify and Characterize Kernel Hotspots\n\nDanny Chen, Bloomberg LP\n\nFor many systems, a fully distributed microservices architecture that scales perfectly horizontally remains an unrealized goal. Many systems still co-locate processes on hosts because of performance considerations and/or a local on-host state must be shared. In our department at Bloomberg LP, architectural and performance constraints force us to run on bare metal hardware with many cores and terabytes of main memory.\n\nOperating systems for bare metal hardware have developed and grown in order to enable greater scale (e.g., large numbers of processes/threads, large numbers of open files, etc). But the OS doesn't always scale correspondingly for runtime scale (i.e., large levels of concurrency/contention). Furthermore, the systems we manage don't always scale with newer, larger, and faster hardware.\n\nIn this talk, we will present some case studies across a variety of operating systems that illustrate how we run into scale limits in the OS and how we used micro-benchmarks to collect insights into the nature of these scale limits in order to develop fixes and workarounds. These micro-benchmarks also complement the wonderful new tracing facilities in modern operating systems by eliminating \"noise\" and focusing data collection on kernel \"hot spots.\"\n\nView the full SREcon21 program at https://www.usenix.org/conference/srecon21/program"
