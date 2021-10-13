@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Le processus de boot : une histoire moderne de l’informatique (Samuel Ortiz)'
+language: French
+recordingDate: 1634026706
+description: "Démarrer un PC est probablement la suite d’étapes logicielles et matérielles la plus complexe qu'un ordinateur va subir. Nous décrirons ces étapes une par une, en nous placant du point de vu du processeur, depuis l'execution de la premiere instruction jusqu'au moment ou le noyau du système d'exploitation démarre la premiere application.\n\nNous nous focaliserons sur les processeur x86 car ceux ci ont une caractéristique particulièrement interessante: Leur rétrocompatibilité. Un processeur Intel démarre toujours dans le meme état et mode que tous ses prédécesseurs, et ce depuis 40 ans. Pour lui, le processus de démarrage sera un long et pénible voyage dans le temps qui va démarrer en real mode, un mode qu'il partage avec son venerable ancêtre de 1978, le 8086. Armé de son premier et unique mega octet de mémoire adressable, il devra parvenir a atteindre le Graal: l'execution d'instructions 64-bits en long mode. Parce qu'elle est entièrement contenue dans tous les processeurs Intel modernes, nous parcourrons brièvement l'histoire de l'informatique moderne a travers ces changements d’états matériels qui caractérisent le processus de boot de nos machines modernes.\n\nSamuel Ortiz\nSoftware engineer at the Intel Open Source Technology Center (OTC)."
