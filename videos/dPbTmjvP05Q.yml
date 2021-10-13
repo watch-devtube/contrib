@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon21 - When Linux Memory Accounting Goes Wrong'
+language: English
+recordingDate: 1634065962
+description: "When Linux Memory Accounting Goes Wrong\n\nMinhaj Ahammed, LinkedIn\n\nThis talk is about debugging an issue where the hosts ran out of memory and went inaccessible even though the applications are limited by cgroups. This covers some topics like memory accounting in cgroups and it is not always straightforward when there are multiple variables at play. We discuss a case where cgroups may not properly account for memory usage, which can be disastrous for cohosted applications or the host itself.\n\nView the full SREcon21 program at https://www.usenix.org/conference/srecon21/program"
