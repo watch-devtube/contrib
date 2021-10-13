@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Il était une fois Kafka sur Pulsar (Steven Le Roux / Pierre Zemb)'
+language: French
+recordingDate: 1634026707
+description: "Steven Le Roux / Pierre Zemb\n\nApache Pulsar est un système de messagerie pub-sub distribué et open source. Il offre de nombreux avantages par rapport à Kafka, tels que le multi-tenant, la géo-réplication, le stockage découplé ou encore le SQL et FaaS directement intégrées. La seule chose qui manque pour une large adoption est le support du standard de-facto pour le streaming: Kafka. Et c'est ainsi que notre histoire commence.\n\nDans ce talk, nous vous raconterons notre parcours pour construire Kafka On Pulsar. Pour construire notre plateforme de topic managé, nous avions besoin de ce support. On s’est d’abord lancé dans l’écriture d’un proxy en Rust capable de transformer le protocole Kafka vers celui de Pulsar à la volée. Mais lorsque nous avons appris que l’équipe en charge de Pulsar travaillait sur le même sujet, nous avons décidé de les rejoindre 🤝\n\nA la fin de ce talk, vous saurez plus de choses sur le fonctionnement interne de Kafka et de Pulsar. Vous aurez également un retour d’expérience sur l’écriture d’un proxy maison de streaming Rust. Mais surtout sur comment passer d’un développement interne à travailler avec les mainteneurs d’un projet open-source et intégrer la communauté."

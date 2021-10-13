@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Michał Wodyński - Python security best practices'
+language: English
+recordingDate: 1634057559
+description: "Python security best practises\n[EuroPython 2021 - Talk - 2021-07-30 - Optiver]\n[Online]\n\nBy Michał Wodyński\n\nHave you ever have a feeling that you are able to write code that solves problem but your not sure whether is safe? How much of your time you spend on investigating whether your code is not vulnerable ? Do you know what kind of risks you can face during parsing XML files? If those questions appeared into your mind this presentation will clarify your doubts and bring your skills closer to writing more safe code. There are many repeatable routines during developing code like: saving user data, reading files or pickles. Those routines can lead to a drop in vigilance which may lead to very terrible consequences for our application or data.\n\nDuring presentation I will explain what are aims of the attackers and go through security issues that can appear in:\n    • not verified user input,\n    • parsing XML,\n    • assert statements,\n    • using temporary files,\n    • reading yaml and pickles\n\nand I will compare it OWASP TOP 10. In each of this topics I will: \n    • show examples of codes that can break your application,\n    • describe what are the risks and how to solve it, \n    • talk about tools that help detect issues in your code,\n    • present XML libraries overview which shows what specific library is vulnerable for.\n\nMajor of presentation will be focused on XML issues as it is wide problem not only in Python language.  \n\nIf you want to increase your programming security skills, see how certain attacks can be performed and how to defend against them this presentation is for you.\n\n\nLicense: This video is licensed under the CC BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/\nPlease see our speaker release agreement for details: https://ep2021.europython.eu/events/speaker-release-agreement/"

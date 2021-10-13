@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Dockerfile - Les bonnes pratiques (Guillaume Lours et Jérémie Drouet)'
+language: French
+recordingDate: 1634026706
+description: "A partir d’un Dockerfile pris “au hasard” sur Github, comme un bon vieux monolithe, nous allons, en appliquant les bonnes pratiques, transformer cette application en un ensemble de microservices réutilisables et compréhensibles . On commencera par externaliser les services utilisés par notre application en utilisant des images existantes et les associant dans un fichier Compose.\nNous allons optimiser notre premier jet en vidant les caches et en supprimant les layers inutiles générés lors du build de notre application. On découpera les différentes étapes de build pour ne pas avoir à conserver les dépendances de développement dans l’image finale.\nNous améliorerons la maintenabilité en utilisant des images officielles plutôt qu’en installant à la main nos dépendances.\nNous allons voir comment éviter de faire tourner notre application en tant que root."

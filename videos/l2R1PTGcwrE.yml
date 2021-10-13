@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Incremental, zero-config Code Nav using stack graphs" by Douglas Creager'
+language: English
+recordingDate: 1634054932
+description: "Exploring a large or unfamiliar codebase can be tricky. Code Navigation features like “jump to definition” and “find all references” let you discover how different pieces of code relate to each other. To power these features, we need to extract lists of symbols from the code, and describe the language-specific rules for how those symbols relate to each other.\n\nIt’s difficult to add Code Nav to a large hosted service like GitHub, where we must support hundreds of programming languages, hundreds of millions of repositories, and petabytes of history. At this scale, we have a different set of design constraints than a local IDE. We need our data extraction to be incremental, so that we can reuse previous results for files that haven’t changed in a newly pushed commit, saving both compute and storage costs. And to support cross-repo lookups, it should require zero configuration — repo owners should not have to set up anything manually to activate the feature.\n\nIn this talk I’ll describe stack graphs, which use a graphical notation to define the name binding rules for a programming language. They work equally well for dynamic languages like Python and JavaScript, and for static languages like Go and Java. Our solution is fast — processing most commits within seconds of us receiving your push. It does not require setting up a CI job, or tapping into a project-specific build process. And it is open-source, building on the tree-sitter project’s existing ecosystem of language tools.\n\nDouglas Creager\nGitHub\n@dcreager\n\nDouglas Creager is a staff engineering manager at GitHub. He manages the Semantic Code team, which applies academic programming language theory to analyze all of the code hosted on GitHub. Our goal is to make it easier for developers and maintainers to understand what their code does, and how other developers use it.\n\n\nRecorded at Strange Loop 2021\nhttps://thestrangeloop.com"
