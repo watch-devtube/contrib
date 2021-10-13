@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Dashboard as code (Yannig Perré)'
+language: French
+recordingDate: 1634026875
+description: "Je suis en charge de l'hébergement d'une application développée sous la forme de microservices dans Kubernetes. Très tôt, nous avons souhaité faire le suivi de notre application et nous nous sommes tournés vers Prometheus pour la collecte d'informations et Grafana pour la création de tableaux de bords.\n\nDu côté de Prometheus, l'ajout de surveillance se fait assez facilement à l'aide de déclarations YAML. En revanche, du côté de Grafana, les choses sont un peu plus compliquées étant donné que ces tableaux de bords peuvent être créés manuellement.\n\nLa tentation pourrait être grande de détourner l'API de Grafana afin de sauvegarder et propager les tableaux de bords d'un environnement à l'autre mais heureusement pour nous, des solutions beaucoup plus propres existent : - des générateurs de tableaux de bords (basés sur Jsonnet) - Une gestion des tableaux de bords par déclaration YAML\n\nUne dernière partie de la présentation s'attardera également sur la gestion des données sur le long terme dans Prometheus à l'aide de Thanos."
