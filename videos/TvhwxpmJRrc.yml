@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon21 - Spike Detection in Alert Correlation at LinkedIn'
+language: English
+recordingDate: 1634142855
+description: "Spike Detection in Alert Correlation at LinkedIn\n\nNishant Singh, LinkedIn\n\nLinkedIn's stack consists of thousands of different microservices and their associated complex dependencies among them. When a production outage happens due to an issue with misbehaving services, finding the exact service responsible for the outage is challenging and time-consuming. Although each service has multiple alerts configured in a distributed infrastructure, during an outage finding the real root cause of the issue is like finding a needle in a haystack even with all the right instrumentation. Since every service in the critical path of client request would have multiple active alerts. Lack of proper mechanism to derive meaningful information from these disjoint alerts often leads to false escalations causing increased issue resolution time. In this talk, we will showcase how we used Spike (Anomaly) detection on the alert correlation system at LinkedIn which helps us find alerts from false positives alerts and help reduce toil on engineers.\n\nView the full SREcon21 program at https://www.usenix.org/conference/srecon21/program"

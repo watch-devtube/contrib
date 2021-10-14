@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Whoops! I Rewrote it in Rust" by Brian Martin'
+language: English
+recordingDate: 1634137294
+description: "Three engineers, at various points, each take their own approach adding Rust to a C codebase, each being more and more ambitious. I initially just wanted to replace the server’s networking and event loop with an equally fast Rust implementation. We’d reuse many core components that were in C and just call into them from Rust. Surely it wouldn’t be that much code…\n\nPelikan is Twitter’s open source and modular framework for in-memory caching, allowing us to replace Memcached and Redis forks with a single codebase and achieve better performance. At Twitter, we operate hundreds of cache clusters storing hundreds of terabytes of small objects in memory. In-memory caching is critical, and demands performance, reliability, and efficiency.\n\nIn this talk, I’ll share my adventures in working on Pelikan and how rewriting it in Rust can be more than just a meme.\n\nBrian Martin\nTwitter\n@brayniac\n\nBrian is a software engineer at Twitter where he focuses on performance and optimization projects. He contributes to several Twitter open source projects including: Pelikan, Rezolus, and rpc-perf. Brian is passionate about high performance software, systems tuning, monitoring, benchmarking, and Rust. When not hacking on code, Brian volunteers in his local search and rescue unit and is training his dog to find people who get lost in the wilderness.\n\nRecorded at Strange Loop 2021\nhttps://thestrangeloop.com"

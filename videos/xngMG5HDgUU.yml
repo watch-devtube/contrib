@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Pointers? In my Python? (It''s More Likely Than You Think)'
+language: English
+recordingDate: 1634100089
+description: "Ever wondered about the difference between is and ==, or why you might need to use deepcopy? Maybe you’ve been stumped by an interview question about object lifetimes, or overriding the __eq__ method. Or, perhaps, you just really want to see some tuples behaving badly. \n\nJoin me for a tour of some of CPython’s dark memory magic and unintuitive behaviours, where we’ll find out:\n\nWhat pointers are and where you’ll see them in your code;\nWhat the id of a Python object is, and why it matters;\nHow CPython can tell when you’re done using an object, and what happens next.\n\nPython is a wonderful thing that takes all the complication of memory management away from us. We don’t have to worry about pre-allocating memory for our objects, or remember to free it once we’re done. So, given that we’re not doing it manually, how do these things happen? Do we have to care? Well, sometimes. Maybe.\n\nIn this talk, we’ll discuss what a pointer is, where they crop in in Python, and what you need to know in order to avoid getting tripped up by them. We’ll also cover the id of an object, why it's implemented the way it is, and why 'equal' is different from 'identical'. Finally, we’ll talk about garbage collection, what reference counting is, and how CPython knows when it’s time to get rid of unused objects.\n\nWhether you just want to understand what’s going on under the hood without having to dive into the implementation, or you’re on the hunt for some new diabolical things to do with code (self-referential lists are only the beginning!), come along to this talk and learn about the pointers in your Python.\n\nThis talk is aimed at anyone with an interest in how Python handles objects in memory, or who’s ever been confused by side-effects popping up in their code. Absolutely no knowledge of C is required, and Python beginners are extremely welcome.\n\nPUBLICATION PERMISSIONS:\nOriginal video was published with the Creative Commons Attribution license (reuse allowed). Link: https://www.youtube.com/watch?v=Nu6hy1Vgr90"

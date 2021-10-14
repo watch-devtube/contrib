@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon21 - Horizontal Data Freshness Monitoring in Complex Pipelines'
+language: English
+recordingDate: 1634152110
+description: "Horizontal Data Freshness Monitoring in Complex Pipelines\n\nAlexey Skorikov, Google\n\nGrowing complexity of data pipelines and organizations poses more challenges to Data Reliability. Risk of data incidents multiplies with each hop downstream. Teams see decrease in operational readiness to deal with specific classes of outages: data staleness, corruption and loss, while costs of incident resolution and revenue impact of outages can grow non-linearly. Without understanding the full data dependency graph, it is hard to measure completeness of monitoring, leading to gaps. For any sizable organization, figuring out data dependencies manually is a non-starter. We will talk about:\n\nUnderstanding critical business data flows, upstream & downstream dependencies;\nHolistic data monitoring at scale to eliminate unnoticed data staleness, which potentially; can lead to accumulated negative business impact;\nOne of the approaches Google took in this direction and lessons learned;\nHow you can practically instrument this approach in your organization.\n\nView the full SREcon21 program at https://www.usenix.org/conference/srecon21/program"

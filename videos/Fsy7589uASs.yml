@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon21 - SLX: An Extended SLO Framework to Expedite Incident Recovery'
+language: English
+recordingDate: 1634103442
+description: "SLX: An Extended SLO Framework to Expedite Incident Recovery\n\nQian Ding and Xuan Zhang, Ant Group\n\nThis talk is based on a real journey on establishing SLOs for an infrastructure SRE team whose availability target is higher than 99.999%. First, we reveal our process on defining SLOs and demonstrate the gaps between expectations and reality on using SLOs with dev teams. Secondly, we present a uniformed SLO framework (SLX) design to facilitate SREs to manage hundreds of SLOs. For example, other than using SLO data for basic alerting and weekly reporting, we combine the SLO framework with statistical anomaly detection algorithms to locate the pitfalls automatically. To achieve that, we introduce several new concepts like Service-Level-Factor (SLF) and Service-Level-Dependency (SLD) and use them to build SLO knowledge graphs across multiple infrastructure systems. Finally, we present our intent-driven SLX implementation inspired by the Kubernetes design and the Gitops paradigm.\n\nView the full SREcon21 program at https://www.usenix.org/conference/srecon21/program"

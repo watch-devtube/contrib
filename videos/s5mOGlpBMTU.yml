@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon21 - Watching the Watchers: Generating Absent Alerts for Prometheus'
+language: English
+recordingDate: 1634103442
+description: "Watching the Watchers: Generating Absent Alerts for Prometheus\n\nNick Spain, Stile Education\n\nYou've written some great recording rules and alerts for your Prometheus monitoring system, you've carefully recreated scenarios to check that the alerts fire—awesome! Your app is never failing silently again! And yet, months later you realize that your system has silently fallen over. How? The cron job that exports the metrics just didn't run, the collector changed its labels: the metrics are missing. Your Prometheus alerts aren't going to fire and you won't know that they've gone away. You could write the alerts manually, but that's a lot of toil and you don't trust yourself not to forget—let's automate it! At Stile Education, we built a tool for generating these alerts automatically. Come along to find out what we did, why we did it, and how it's been useful in the 6 months since we introduced it.\n\nView the full SREcon21 program at https://www.usenix.org/conference/srecon21/program"
