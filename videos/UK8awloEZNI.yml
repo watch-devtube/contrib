@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon21 - Automating Performance Tuning with Machine Learning'
+language: English
+recordingDate: 1634232739
+description: "Automating Performance Tuning with Machine Learning\n\nStefano Doni, Akamas\n\nSRE's main goal is to achieve optimal application performance, stability, and availability. A crucial role is played by configurations (e.g. container resources limits and replicas, runtime settings, etc): wrong settings are among the top causes of poor performance, efficiency, and incidents. But tuning configurations is a very complex and manual task, as there are hundreds of settings in the stack. We present a novel approach that leverages machine learning to find optimal configurations of the tech stack in an automated fashion. This approach leverages reinforcement learning techniques to find the best configurations based on an optimization goal that SREs can define (e.g. minimize service latency or cloud costs). We show an example of optimizing Kubernetes microservice cost and latency tuning container resource and JVM options. We analyze the optimal configurations that were found, the most impactful parameters, and the lesson learned for tuning microservices.\n\nView the full SREcon21 program at https://www.usenix.org/conference/srecon21/program"
