@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon21 - Practical TLS Advice for Large Infrastructure'
+language: English
+recordingDate: 1634188531
+description: "Practical TLS Advice for Large Infrastructure\n\nMark Hahn, Ciber Global; Ted Hahn, TCB Technologies\n\nWe will present practical advice for leveraging TLS to secure communications across your infrastructure. This applies to nodes and pods on Kubernetes or on other large deployment infrastructure. The current tools set for large leaves various gaps for deploying TLS and also causes friction within your infrastructure.\n\nProtocols like ACME and tools like service meshes provide some support for distributing certificates but do not help with the larger problems of certificate authority architecture, nor provide advice for how to build certificates that strengthen your security posture.\n\nPKI can be used to reduce security risks and simplify reporting. Public key infrastructure can be used to identify services to one another with a very different set of tradeoffs than shared-secret infrastructure.\n\nView the full SREcon21 program at https://www.usenix.org/conference/srecon21/program"
