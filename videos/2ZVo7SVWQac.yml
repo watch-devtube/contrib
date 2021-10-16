@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon21 - Cache for Cash—Speeding Up Production with Kafka and MySQL binlog'
+language: English
+recordingDate: 1634275328
+description: "Cache for Cash—Speeding Up Production with Kafka and MySQL binlog\n\nBarak Luzon, Taboola\n\nHow can you serve up-to-date information on a high scale production system? Our company provides content recommendations to billions of people. We have hundreds of frontend servers across 7 regions. They need to withstand a massive load of 500K HTTP requests per second while maintaining a fast response time. In order to do so, we rely heavily on in-memory caching. By design, caching has a tradeoff between data freshness and load. What if I tell you that you can have fresh data without creating the extra load of fetching it? Our journey started with a \"fast track\" we created using Kafka and Mysql binlog, and ended up with a huge performance and yield improvement across thousands of services with blazing fast information updates.\n\nView the full SREcon21 program at https://www.usenix.org/conference/srecon21/program"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'How Uber builds reliable redeliveries and dead letter queues with Apache Kafka - Mingmin Chen'
+language: English
+recordingDate: 1634284818
+description: "In distributed systems, retries are inevitable. From network errors to replication issues and even outages in downstream dependencies, services operating at a massive scale must be prepared to encounter, identify, and handle failure as gracefully as possible.\n\nGiven the scope and pace at which Uber operates, our systems must be fault-tolerant and uncompromising when it comes to failing intelligently. In particular, in streaming processing and event driven architecture, supporting reliable redeliveries with dead letter queues is a popular ask from many real-time applications and services at Uber. To accomplish this, we leverage Apache Kafka, a popular open source distributed pub/sub messaging platform, which has been industry-tested for delivering high performance at scale. We build competing consumption semantics with dead letter queues on top of existing Kafka APIs and provide interfaces to ack or nack out of order messages with retries and in-process fanout features.\n#ApacheKafka\n\nPresented by Mingmin Chen\n\nSubscribe to our channel: https://youtube.pl/c/DevoxxPoland?sub_confirmation=1\n\nTwitter: https://twitter.com/DevoxxPL\nInstagram: https://www.instagram.com/grzegorz.duda.official/\n\nJoin us also here:\nTechnology Radar Review: https://dworld.pl/radar\nDevelopers World Academy: https://dworld.pl/akademia\nDevflix: https://devflix.pl\n\n#Devoxx #DevoxxPoland #IT #Development #SoftwareDevelopment"
