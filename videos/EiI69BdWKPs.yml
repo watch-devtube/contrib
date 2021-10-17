@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Training an Autonomous Pentester with Deep RL" by Shane Caldwell'
+language: English
+recordingDate: 1634407738
+description: "Deep reinforcement learning has proven useful in training agents that learn useful tasks through trial and error. Can we use these techniques in the infosec space to create an autonomous pentesting agent? Previously successful agents have been built mostly in the context of games like Go or DOTA that can be sped up to make the techniques practical with the massive training data size requirements that come with deep RL, and can be naturally broken down into state and action spaces. Penetration testing does not have an obvious discrete state or action space and resetting an environment built out of virtual machines for every training episode would be too slow to be practical.\n\nTo solve these problems, we use the popular Metasploit penetration testing framework to break out a space of possible actions and state. Then, we simulate vulnerable networks using partially observed Markov decision processes to allow the agent to rapidly acquire training data. Finally, we remove the agent from the simulation in order to test that the behaviors learned in simulation can be used to pilot Metasploit to compromise a real-life vulnerable host.\n\nShane Caldwell\n@shncldwll\n\nShane is a St. Louis based machine learning engineer who used to be a penetration tester and is primarily interested in the intersection of machine learning and information security. Currently Shane is the Director of Artificial Intelligence at UniGroup, where he uses deep learning to create computer vision solutions for the moving industry. He has potentially read too many William Gibson novels. \n\nRecorded at Strange Loop 2021\nhttps://thestrangeloop.com"
