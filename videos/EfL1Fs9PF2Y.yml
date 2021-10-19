@@ -1,0 +1,15 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+speaker:
+    name: 'Jessica Kerr'
+    twitter: jessitron
+title: '"How we used serverless to speed up our servers" by Jessica Kerr and Ian Wilkes'
+language: English
+recordingDate: 1634586464
+description: "At Honeycomb, customers send us lots of data and then compose complex, ad-hoc queries. Most are simple, some are not. Some are REALLY not; this load is both complex, spontaneous, and urgent. It would be prohibitively expensive to size a server cluster to handle these big queries quickly, so we took a different approach: farm the work out to Lambda, Amazon's serverless offering.\n\nIn this model, Lambda becomes an on-demand accelerator for our always-on servers. The benefits are immense, improving response times by an order of magnitude. But the challenges are numerous and often unexpected. In this talk, I'll review the benefits and constraints of serverless-as-accelerator, and give practical advice based on our own hard-won experience.\n\nJessica Kerr\nhoneycomb.io\n@jessitron\n\nJessica Kerr has 20 years in software and nine of conferences, where she talks about languages from Scala to Elm, Ruby to Clojure; movements from DevOps to symmathesy; and now AWS Lambda in a database. She works at Honeycomb.io, bringing developers into familiarity with production.\n\nIan Wilkes\nhoneycomb.io\n\nAfter riding the first .com boom, I began a long stretch at Linden Lab (makers of Second Life), including several years as Director of Operations. From there I moved on to a 4-year run as a senior engineer at Facebook, and then joined Honeycomb where I am the principle author of the custom distributed data store.\n\nRecorded at Strange Loop 2021\nhttps://thestrangeloop.com"

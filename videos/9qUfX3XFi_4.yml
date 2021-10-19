@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Waterpark: Distributed Actors vs the Pandemic" by Bryan Hunter'
+language: English
+recordingDate: 1634572711
+description: "At HCA Healthcare we own and operate 185 hospitals, and around 2,000 surgery centers, freestanding emergency rooms, and clinics. Our scale breaks many vendor products. In 2018 we began building “Waterpark”, which would become the company’s next-gen integration platform (one-part streaming system, one-part distributed database). We chose the ErlangVM and Elixir for fault-tolerance and productivity. When COVID-19 arrived, an interesting tech story became something more serious; more essential.\n\nIn this talk we will discuss:\n\n* how the actor model maps so well onto healthcare \n* the virtues of wheel reinvention \n* how a big, Fortune 100 company can be more fun and innovative than a startup \n* how we transitioned from proof-of-concept mode to continuously available (no planned or unplanned downtime) in three weeks \n* how we use Erlang's hot code loading (for real) in a production cluster spread across four data centers \n* how the wisdom of \"Papers We Love\" is indistinguishable from magic, \n* how my hero and friend Joe Armstrong (from beyond the grave) helped make American nursing home residents safer during COVID-19\n\nSpecifically, we will discuss process pairs, long-lived digital twins, no-masters, bloom filters, rendezvous hashing, our recipes for continuous availability, location transparency, open sourcing our HL7 libraries, and using the bit-syntax for clinical data.\n\nBryan Hunter\nHCA Healthcare\n@bryan_hunter\n\nBryan Hunter is an Enterprise Fellow at HCA Healthcare. He has two decades of consulting experience in complex business domains. In 2012 he founded Nashville Functional Programmers (@NashFP). Bryan enjoys supporting FP communities around the world and has shared his experience in Lean and functional programming at conferences and universities in London, Manila, Oslo, Bangalore, and throughout the United States.\n\nRecorded at Strange Loop 2021\nhttps://thestrangeloop.com"
