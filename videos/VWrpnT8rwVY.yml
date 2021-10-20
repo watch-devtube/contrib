@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Functional distributed systems beyond request/response" by Melinda Lu'
+language: English
+recordingDate: 1634661832
+description: "Our software today runs on highly-distributed cloud infrastructure, but our default model for distributed applications (request/response) is still based on an imperative mental model of computing inherited from 1970s sequential programs running on a single computer.\n\nIn order to make remote calls reasonably reliable in an unstable environment, we've built impressive but complex solutions: e.g. dynamic service discovery, automatic retry protocols, caching, and redundant replicas.\n\nIf we shift our intuition about application development away from request/response and toward event-driven patterns, we can develop distributed systems that are composable, scalable, and resilient by design — and avoid much of this complexity.\n\nMore fundamentally, building our application programming model on composable streams gives us powerful decoupling and flexibility by letting us decompose our business logic into linear operations, allowing us to add machine learning and other rich functionality without exploding the complexity of our system.\n\nThis talk will cover: lessons learned using event-driven patterns to simplify real-world systems, unifying event-driven and request/response patterns with shared evolvable schemas, and how using truly cloud-native patterns can make our systems more adaptable, reliable and scalable.\n\nMelinda Lu\n@skewleft\n\nMelinda is an engineer at eggy, where she's working on cloud-native systems to support people in building the next phase of computing. Previously, she was the director of foundation engineering at VSCO, where she helped the company migrate its PHP monolith to a cloud-native distributed system running on Go, gRPC, Kafka, and Kubernetes, serving 100M users in their pursuit of artistic exploration, outside the incentive structure of online advertising. Before that, she worked in synthetic biology, computational neuroscience, the aerospace industry, and piano.\n\nRecorded at Strange Loop 2021\nhttps://thestrangeloop.com"
