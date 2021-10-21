@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: '"Morel, a functional query language" by Julian Hyde'
+language: English
+recordingDate: 1634749833
+description: "Is it easier to add functional programming features to a query language, or to add query capabilities to a functional language? In Morel, we have done the latter.\n\nFunctional and query languages have much in common, and yet much to learn from each other. Functional languages have a rich type system that includes polymorphism and functions-as-values and Turing-complete expressiveness; query languages have optimization techniques that can make programs several orders of magnitude faster, and runtimes that can use thousands of nodes to execute queries over terabytes of data.\n\nMorel is an implementation of Standard ML on the JVM, with language extensions to allow relational expressions. Its compiler can translate programs to relational algebra and, via Apache Calcite’s query optimizer, run those programs on relational backends.\n\nIn this talk, we describe the principles that drove Morel’s design, the problems that we had to solve in order to implement a hybrid functional/relational language, and how Morel can be applied to implement data-intensive systems.\n\nJulian Hyde\nGoogle\n@julianhyde\n\nJulian Hyde is a software engineer at Google, working on Looker and BigQuery, and is an expert in query optimization, database internals, and streaming. He is the original developer of Apache Calcite, an open source query planning framework that powers many database and streaming SQL engines, including Apache Beam, Flink and Hive. He was the original developer of the Mondrian OLAP engine, and was formerly at Hortonworks and SQLstream.\n\nRecorded at Strange Loop 2021\nhttps://thestrangeloop.com"
