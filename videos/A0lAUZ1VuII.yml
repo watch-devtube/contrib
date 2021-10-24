@@ -6,10 +6,6 @@
 
 # tags: [____, _____, _____]
 
-tags:
-    - unix
-    - performance
-title: 'Balancing Fairness and Efficiency in Tiered Storage Systems with Bottleneck-Aware Allocation'
-language: English
+title: 'FAST ''14 - Balancing Fairness and Efficiency in Tiered Storage Systems with Bottleneck-Aware'
 recordingDate: 1394485990
-description: "Hui Wang and Peter Varman, Rice University\nPresented at the 12th USENIX Conference on File and Storage Technologies"
+description: "Balancing Fairness and Efficiency in Tiered Storage Systems with Bottleneck-Aware Allocation\n\nHui Wang and Peter Varman, Rice University\n\nMulti-tiered storage made up of heterogeneous devices are raising new challenges in allocating throughput fairly among concurrent clients. The fundamental problem is finding an appropriate balance between fairness to the clients and maximizing system utilization.\n\nIn this paper we cast the problem within the broader framework of fair allocation for multiple resources. We present a new allocation model BAA based on the notion of per-device bottleneck sets. Clients bottlenecked on the same device receive throughputs in proportion to their fair shares, while allocation ratios between clients in different bottleneck sets are chosen to maximize system utilization. We show formally that BAA satisfies fairness properties of Envy Freedom and Sharing Incentive. We evaluated the performance of our method using both simulation and implementation on a Linux platform. The experimental results show that our method can provide both high efficiency and fairness.\n\nView the full FAST '14 Program at https://www.usenix.org/conference/fast14/technical-sessions"
