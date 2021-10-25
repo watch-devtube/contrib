@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'ElixirConf 2021 - Yuisho Takafuji - Real-Time Multi-Client GPS Logger w/ LiveView and Google Maps'
+language: English
+recordingDate: 1635109276
+description: "This talk shows how to make multiple clients, including users and IoT Devices, real-time update GoogleMap Application. What do you want to imagine with multiple clients real-time updating GoogleMap Application? In this talk, the features of it are as follows:\n\nDisplay and monitor IoT devices like drones on a map.\nChecking members’ positions concurrently with navigation when moving in a group.\nSuch applications require real-time user experiences, but their implementation tends to be very complicated. However, it can be easily implemented by using Phoenix’s Pubsub, Presence, and LiveView. LiveView provides a rich real-time user experience. PubSub provides a simple Realtime Publisher / Subscriber Service. In addition, Presence realizes Tracking to Processes and Channels. By using them, you can monitor the activity of multiple devices and update their location information in real-time on GoogleMap. Also, show some client implementations."
