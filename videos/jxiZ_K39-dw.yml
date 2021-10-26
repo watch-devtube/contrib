@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'ElixirConf 2021 - John Palgut - Printer Perfect: A Case Study in Building a 3D printer UI'
+language: English
+recordingDate: 1635127897
+description: "Full Title: Printer Perfect: A Case Study in Building a 3D printer UI with Nerves and Liveview\n\nNerves has been used extensively to successfully deploy Elixir to low resource devices such as: Raspberry Pi, BeagleBone, etc. Despite this there are no documented use-cases today of using Nerves and Elixir to run a 3D printer. Building a real-time web UI on an embedded device has traditionally been cumbersome, requiring both back and front-end frameworks. However, the rise of Liveview has provided a streamlined option for building real-time web UIs just using Elixir. In this talk I’ll show you how to build a simple web UI for controlling a 3D printer, using Nerves, Liveview, and other libraries within the Elixir ecosystem.\n\nControlling a 3D printer is usually done over a USB connection. I’ll show you how to use Nerves and a Raspberry Pi to communicate via USB. Since most 3D printers have little memory, we’ll need to send and receive messages efficiently. Connecting to a 3D printer during feature development isn’t always practical, so I’ll discuss a few strategies for mocking out hardware. Finally, we’ll talk about using Liveview to wire up the system we’ve built into a web UI to see the printer status and send commands in real-time."
