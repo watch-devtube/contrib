@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'ElixirConf 2021 - Adam Lancaster - Pattern Matching; Good In the Abstract.'
+language: English
+recordingDate: 1635259253
+description: "Pattern matching is ubiquitous in Elixir and it is fantastic. It brings explicit clarity to directing control flow and assigning values, but it comes at a cost. Pattern matching exposes a data type’s internals.\n\nThat means we risk relying on details that could change and if they do we risk invalidating all of our patterns and causing a lot of work.\n\nSo we are left with a choice - should we have abstract data types which hide their internals but be left with no (or limited) pattern matching. Or pattern match on internals and live with the consequences?\n\nIn this talk I want to explore this tension and ask is pattern matching bad?\n\n(Spoiler, no!)\n\nI will explore a list of possible resolutions to this tension (some of which are older than me), and see if we can describe some Rules for the Match.\n\nIn short, I want to ask, can pattern matching play well with abstract data - can it be good in the abstract?"
