@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Performance Matters'
+language: English
+recordingDate: 1635361336
+description: "Performance is one of the chief reasons why many C++ programmers love the language. In the past, Moore's Law meant that our programs ran faster every year. Now that Dennard scaling has ended, C++ programmers have to work harder to get high performance for their applications. In this talk, I'll first discuss some of the significant and surprising challenges facing C++ programmers trying to achieve high performance on modern hardware platforms: performance is far less stable and predictable than you might think! I'll present some experimental evidence that strongly suggests we can't count on compiler optimizations to help us out of this hole: in particular, I'll show -- using a new experimental methodology -- that the difference between clang's -O2 and -O3 optimization levels is essentially indistinguishable from noise.\n\n\nSince compiler optimizations have run out of steam, we need better profiling support, especially for modern concurrent, multi-threaded applications. I'll talk about a new approach to profiling, which I call \"causal profiling\". Causal profiling lets programmers optimize for throughput or latency, and which pinpoints and accurately predicts the impact of optimizations. It works by running performance experiments, based on the idea of \"virtual speedups\". We've built a causal profiler called Coz, which now ships as part of standard Linux distros, and which also works for C++ and Rust (there's even a Java version). Using it, we find that Coz can unlock previously unknown optimization opportunities. Guided by Coz, we improved the performance of Memcached (9%), SQLite (25%), and accelerated six other applications by as much as 68%; in most cases, this involved modifying less than 10 lines of code and took under half an hour (without any prior understanding of the programs!).\n\n\nPUBLICATION PERMISSIONS:\nCppCon Organizer provided Coding Tech with the permission to republish CppCon tech talks.\n\n\nCREDITS:\nCppCon YouTube channel: https://www.youtube.com/user/CppCon/videos"

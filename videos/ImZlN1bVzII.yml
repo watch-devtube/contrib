@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'How the BEAM boots and what can be done about it | Peer Stritzinger | Code BEAM V'
+language: English
+recordingDate: 1635338778
+description: "This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-sto/\n\nHow the BEAM boots and what can be done about it | Peer Stritzinger - Founder and Director of Peer Stritzinger GmbH\n\nABSTRACT\nThe Erlang VM does a lot of work loading and transforming many little BEAM files before it is ready to go. When starting Elixir even more beam files have to be loaded. Doing this work over and over again leads to unfavourable startup time. Most clearly this shows on embedded systems with weak CPUs, inefficient files systems and storage and no way to cache the filesystem when switched on. But this extra work also shows up everywhere the Erlang VM is started again and again, e.g. during development and in CI/CD systems.\nIn this talk, we explore what exactly is done by the BEAM loader and how we can move this work to release build time so it doesn't have to be done again and again on startup.\nTransforming all the little BEAM files into normal object files a static or dynamic linker can use and relocate gives us several benefits at the same time:\nReady to run in place beam code - reduced startup time.Faster cloud spin uptime with standard Erlang VMs\nSingle executable releases - wouldn't it be nice to deploy just a single-file executable that contains the Erlang VM and the complete relates BEAM files?\nDeploy complete Erlang releases on System on Chip Micro-Controllers by running everything directly in firmware flash\nIn this talk, you will get a clear explanation of how all this works and demos of the implementation.\n\n• Follow us on social:\n  Website: https://codesync.global/conferences/code-beam-sto\n  Twitter: https://twitter.com/CodeBEAMio\n\n• Looking for a unique learning experience?\n  Attend the next Code Sync conference near you! \n  See what's coming up at: https://codesync.global \n\n• SUBSCRIBE TO OUR CHANNEL\n  https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw"

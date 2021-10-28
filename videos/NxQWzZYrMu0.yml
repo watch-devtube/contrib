@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Dynamic Creation of Well Typed DSL Expressions | Pieter Koopman | Lambda Days 2021'
+language: English
+recordingDate: 1635324968
+description: "This video was recorded at Lambda Days Virtual 2021 - https://www.lambdadays.org/lambdadays2021\n\nDynamic Creation of Well Typed DSL Expressions | Pieter Koopman\n\nABSTRACT\nInteractive systems can require complex input from their users. A grammar specifies the allowed expressions in such a Domain Specific Language, DSL. An algebraic DataType, ADT, is a direct representation of such a grammar. For most end-users a structured editor with pull-down menus is much easier to use than a free text editor. The iTask system can derive such structured editors based on an ADT using datatype generic programming. However, the input DSL has often also semantic constraints, like proper use of types and variables. A solution is to use a shallow embedded DSL or a DSL based on a Generalized ADT to specify the input. However, such a specification cannot be handled by datatype generic programming. Hence, one cannot derive structured editors for such a DSL.  \n\nAs a solution, we introduce structured web-editors that are based on dynamic types. These dynamic types are more expressive; they can express the required DSL constraints. In the new dynamic editor library we need to specify just the dynamic relevant for the DSL. The library takes care of displaying the applicable instances to the user and calls itself recursively to create the arguments of the dynamic functions. In this paper we show how this can be used to enforce the requires constraints on ADTs, to create structured web-editors for shallow embedded DSLS, and to create those editors for GADT based DSLs.  \n\n\n• Follow us on social: \n  Twitter: https://twitter.com/LambdaDays\n\n  LinkedIn: ttps://www.linkedin.com/company/lambda-days\n\n• Looking for a unique learning experience?\n  Attend the next Lambda Days conference!\n  See what's coming up at: https://www.lambdadays.org\n\n• SUBSCRIBE TO OUR CHANNEL\n  https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw"
