@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Deploying Unikernels in Production with Kubernetes - Alex Jung, Lancaster University'
+language: English
+recordingDate: 1635547175
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nDeploying Unikernels in Production with Kubernetes - Alexander Jung, Lancaster University\n\nIn data center and cloud deployments, the virtual machine is the basic unit of isolation and Kubernetes has emerged as the de-facto standard for orchestration. This points to the container-in-a-vm model: the VM for isolation, and the container to seamlessly integrate with the orchestrator. But is this optimal for deployments where containers are not a requirements? Is it possible to use VMs for isolation, use Kubernetes and all of its wide array of features for orchestration, but without having to rely on containers? In this talk we will present KubeKraft, a novel runtime along with modifications to containerd that allow for running VMs with Kubernetes *natively*, without any container overhead. We will present KubeKraft's architecture, its integration with Kubernetes and will show performance results; for instance, when using a Unikraft NGINX unikernel (less than 2MBs in size) KubeKraft results in 2x the throughput of an official Docker NGINX image (42M image size)."

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Postgres Extensions in Kubernetes - Álvaro Hernández, OnGres'
+language: English
+recordingDate: 1635529718
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nPostgres Extensions in Kubernetes - Álvaro Hernández, OnGres\n\nPostgres Extensions are one of the most distinctive and appreciated features of Postgres. Acting like “plugins”, they allow you to extend Postgres functionality. From adding simple data types to turning the database into a sharded cluster with a distributed query planner and executor. Yet they are hard to use in a container environment like Kubernetes. Because container images are immutable! So you either pack all possible extensions in a fat container, which leads to substantial problems; or you load dynamically under demand. Join this talk to explore the extension ecosystem in Kubernetes Postgres Operators; and how to solve this problem by introducing a system for dynamically loading extensions into the containers, and cache them within the cluster to avoid excessive downloads. A new operator pattern, the “pod-local controller” will also be introduced, as the technological solution that powers dynamic extension loading."
