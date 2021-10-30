@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'What Kind of CPU is it Anyways? Airbnb''s Journey to Heterogeneous... - David Morrison & Evan Sheng'
+language: English
+recordingDate: 1635528939
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nWhat Kind of CPU is it Anyways? Airbnb's Journey to Heterogeneous Clusters - David Morrison & Evan Sheng, Airbnb\n\nIn this talk we describe the technical and organizational hurdles Airbnb needed to overcome to migrate from running \"homogeneous\" Kubernetes clusters (i.e., clusters in which the majority of nodes are the same type) to \"heterogeneous\" clusters (i.e., clusters in which pods can be scheduled on a variety of different node types). Why did we make this change? Two reasons: cost and efficiency. Restructuring our clusters to support multiple different node types unlocked the ability to run workloads on the best machines for that workload, not just whatever our \"default\" happened to be. However, getting to this point wasn't easy. We'll describe in this presentation changes that were required in almost every part of our infrastructure, from changes to the ways we provision and scale clusters all the way down to changes in the API that our customer teams use. We'll also discuss the organizational hurdles that we had to address to build confidence in this new operating model."
