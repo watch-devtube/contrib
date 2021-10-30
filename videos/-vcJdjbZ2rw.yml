@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Back to the Drawing Board: Building Containers with SBoMs - Nisha Kumar, VMware'
+language: English
+recordingDate: 1635529848
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nBack to the Drawing Board: Building Containers with SBoMs - Nisha Kumar, VMware\n\nA Software Bill of Materials or SBoM is a list of software components that comprise a software artifact, be it firmware, OS, a VM, and yes, a container. We can generate an SBoM for container images post build using image scanners like Claire, Trivy, Tern, and Syft. This method is not foolproof, however, as they rely on metadata existing in the container filesystem (such as package manifests) in order to report on them. If a container goes through a multistage build or tools like Docker-slim to reduce the attack surface of the container, all that metadata is gone. How do we get more accurate and consistent SBoMs for containers? We generate them at container build time. This talk demonstrates how we can do that with tools like Tern, Buildah, and the OCI specification. We will get back to the basics of building containers, learn about the OCI specification, and make a container builder which can generate an SBoM at build time."

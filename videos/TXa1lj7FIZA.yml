@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'A K8s-Based Workload Allocation Optimizer for Minimizing Power Consumption - Ying-Feng Hsu'
+language: English
+recordingDate: 1635530019
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nA K8s-Based Workload Allocation Optimizer for Minimizing Power Consumption - Ying-Feng Hsu, Osaka University\n\nSpeakers: Ying-Feng Hsu\nMany K8s extensions have been focused on large scale container computation. But, how to strike a balance between energy efficiency and service performance for container operations due to the continuous growth of IoT devices and edge computing systems? The current K8s does not provide container orchestration from the perspective of data center power reduction. This talk presents a Workload Allocation Optimizer (WAO) based on the K8s architecture. WAO uses ML to predict the power increasing of workloads and introduces a scoring plugin to the K8s scheduler framework for Node selection. WAO-load balancer enables Pods to Nodes assignment with optimal power consumption. This talk gives you details on how power saving can be realized for cloud-edge computing systems. Instead of using the virtual environment, we demonstrate the proposed WAO in a real edge data center with 200+ servers and show you how WAO manipulates the tradeoff between service performance and data center power saving."
