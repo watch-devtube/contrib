@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Beyond Namespaces: Virtual Clusters are the Future of Multi-Tenancy - Lukas Gentele, Loft Labs'
+language: English
+recordingDate: 1635529258
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nBeyond Namespaces: Virtual Clusters are the Future of Multi-Tenancy - Lukas Gentele, Loft Labs\n\nMulti-tenancy is a hot topic in the Kubernetes community. A lot of operators have started to think about lowering cost and consolidating workloads in large, multi-tenant clusters rather than creating 1000s of micro-managed, small clusters. Namespaces are a great way to separate tenants in shared clusters. But what if tenants need to install their own CRDs, run workloads across multiple namespaces or even require different versions of the Kubernetes API server? Virtual clusters are an exciting new approach that extends namespace-based multi-tenancy to address such advanced use cases. At its core, virtual clusters let you run Kubernetes clusters on top of other Kubernetes clusters by provisioning isolated Kubernetes control planes for each tenant (i.e. separate Kube API server, data store (etcd), controller manager etc). This talk will explain how virtual clusters work, show what implementations are available today, and demonstrate fascinating, real-world use cases for virtual clusters."

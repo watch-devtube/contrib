@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Here Be Services: Beyond the Cluster Boundary with Multicluster Servi... Laura Lorenz & Stephen Kitt'
+language: English
+recordingDate: 1635529719
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nHere Be Services: Beyond the Cluster Boundary with Multicluster Services - Laura Lorenz, Google & Stephen Kitt, Red Hat\n\nFor most of Kubernetes history, the edge of the cluster was always a hard boundary that was difficult to traverse. Single clusters can scale up with huge node pools and extensive geographic coverage; but many users prefer to use multiple Kubernetes clusters. This gives them more control, with isolated workloads, manageable latency, and clear data jurisdictions, reducing the effort to provide reliable platforms. However that isolation requires a lot of work to access services from one cluster in another. By using the Multicluster Services API, an OSS standard sponsored by SIG-Multicluster, users with an application spread across multiple clusters can make services available between them using simple Kubernetes object primitives available as CRDs, without needing to install a full service mesh. In this talk, we will explain the concepts and architecture behind the MCS API and walk through demos on Submariner.io and GKE, the two current implementations of the MCS API."
