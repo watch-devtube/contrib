@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Service Mesh: A Hole in the Pocket? - Venil Noronha & John Murray, Stripe'
+language: English
+recordingDate: 1635562360
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nService Mesh: A Hole in the Pocket?- Venil Noronha & John Murray, Stripe\n\nService meshes provides a wide range of capabilities including flexible configuration, high fidelity observability, and is transparent to user applications. However, this power, despite it's (often) open-source nature, does not come cheap. In the age of public cloud, vendors typically charge users on several axes of usage. When using a feature like traffic shaping, if not careful, cross-availability-zone traffic can quickly increase spend. High fidelity metrics are useful to operators, but default service mesh configurations can easily overwhelm systems, and users too. Suboptimal defaults coupled with user-local dashboards leads to high cardinality metrics further increasing costs of metrics storage solutions. Yet another area of spend is access logging. While being extremely important to diagnose runtime issues, access logs can quickly become a $$$ drain. The default policy of logging each request is not the best configuration for most users, and organizations need to craft these policies based on their unique environments. In this talk, we will talk about costs we've encountered when using a service mesh at scale at Stripe. We will also discuss some strategies we have in place for reducing spend, and other techniques to improve the overall experience with service meshes."

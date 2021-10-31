@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Using Envoy as an Egress Proxy for TLS Enabled Traffic - Amit Jain & Kiran Kumar, VMware'
+language: English
+recordingDate: 1635569165
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nUsing Envoy as an Egress Proxy for TLS Enabled Traffic - Amit Jain & Kiran Kumar, VMware\n\nModern apps are increasingly relying on using external 3rd party services (such as Twilio for e.g) and shared cloud services (such as S3 for e.g.). External interactions are important not only for security but for the app's continuity and resiliency as well. The use of Envoy as an egress proxy for external interactions has been limited though, mostly as the external interactions are TLS protected and Envoy is not able to decrypt the external TLS sessions. This session demos a solution that enables Envoy as an egress proxy for external access. It builds upon a combined approach of deploying Envoy as a transparent egress sidecar proxy along with the SSLproxy (github.com/sonertari/SSLproxy). In this approach, SSLproxy acts as a transparent TLS interception proxy and Envoy provides traffic management & security on the decrypted traffic. We dive into the traffic stitching mechanism and a new Envoy listener filter that acts as the glue between Envoy and SSLproxy and extends Envoy for the integrated solution."
