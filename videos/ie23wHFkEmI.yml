@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Migrating GitLab.com to Kubernetes: How Multiple Clusters Saved Cost - John Skarbek, Gitlab'
+language: English
+recordingDate: 1635573348
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nMigrating GitLab.com to Kubernetes: How Multiple Clusters Saved Cost - John Skarbek, Gitlab\n\nAs we grew past 10 million projects hosted on GitLab.com, it was clear that we needed to move from our fleet of chef-managed virtual machines to Kubernetes. Using GKE, migration started with stateless services like the GitLab Container Registry, Background processing, and Git requests. With over 100 Terabyte of daily Git data, regional GKE clusters provide the convenience of spanning multiple availability zones for redundancy, but cross availability zone egress was a concern. Splitting the regional GKE cluster into multiple zonal clusters for services that use a lot of bandwidth gave much more control over cross availability zone network traffic. In this talk, you will learn more about our journey and efforts with how we are shifting traffic to the new clusters."

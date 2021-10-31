@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Are Your Declarative Configurations Human Friendly? Closer Look at Code Reviews with... Ryota Sawada'
+language: English
+recordingDate: 1635567703
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nAre Your Declarative Configurations Human Friendly? Closer Look at Code Reviews with GitOps - Ryota Sawada, UPSIDER\n\nThe great values of GitOps such as commit history for change audit and code reviews / approvals are underpinned by declarative configurations. Both Argo CD and Flux support not just simple Kubernetes YAML definitions, but also Helm Charts and Kustomize. They allow templating and some basic computation for generating manifests, but how declarative are they \"to humans\"? Any changes to a Git repository can have a significant impact on GitOps platform setup, and code reviews play a significant role for ensuring correctness. Even if changes are carefully made and reviewed, you can still end up with unwanted changes when templates such as Helm and/or Kustomize are used. They are great at managing large and complex configurations, but can be confusing or unclear to humans. This talk takes a closer look at the common pitfalls of using Helm and Kustomize with GitOps, how to tackle them using additional tools, and a potential alternative approach using a new tool called \"Importer\"."

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Lightning Talk: Wasm for Heterogeneous IoT Devices - Dan Mihai Dumitriu, Midokura (Sony Group)'
+language: English
+recordingDate: 1635569702
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nLightning Talk: Wasm for Heterogeneous IoT Devices - Dan Mihai Dumitriu, Midokura (Sony Group)\n\nSoftware for embedded systems has been developed in a monolithic way. Firmware is written by a single vendor, and not updated frequently. Modern IoT devices are constantly connected to the cloud, and OTA updates are possible anytime. Modern IoT devices may be customized, by 3rd parties, becoming true platforms. However, the software development paradigm has not kept pace with this trend. Typical IoT devices do not have full Linux capabilities, no MMU, and thus no HW based isolation. Wasm enables the creation of truly customizable devices. On the server/cloud side, the platforms are relatively uniform - x86 ISA and Linux OS - and the OS can be the abstraction layer. In the IoT domain, that is not the case. IoT device platforms are very heterogeneous. On the ISA side there is at least ARM (32 and 64 bit), RISC-V, Xtensa. On the OS side, there are a myriad of RTOSs. The platform abstraction must be at a higher layer. Wasm can be the abstraction layer for applications on such platforms. We have created a framework and SDK for AI App development. We have benchmarked the performance on ESP32 and on ARM A7. There is a performance penalty and memory overhead vs native, but it is very much acceptable - within a factor of 2. We believe that Wasm will play a key role in IoT development."

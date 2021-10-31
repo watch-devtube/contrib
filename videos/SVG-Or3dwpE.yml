@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GitOps in the Real World: Opportunities for Developer Experience Im... Christopher Lane & Alex Crane'
+language: English
+recordingDate: 1635567741
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nGitOps in the Real World: Opportunities for Developer Experience Improvement - Christopher Lane & Alex Crane, Chick-fil-A\n\nGitOps is a pattern for managing the state of Kubernetes clusters using git as the source of truth. The entire state of the cluster is declared in manifests stored in git repositories and any changes to the manifests follow well-known git processes. Once the manifests are version controlled in git, then there's a number of state reconcilers (Flux, ArgoCD and the like) that can automatically apply changes from the repository. However, this leaves a significant gap in the process: How do we build and get the manifests *into the git repositories* in the first place? This talk will walk through Chick-fil-A's experiences with GitOps to manage the state of our production clusters at scale and offer what we see as opportunities to improve the frontend of the process."
