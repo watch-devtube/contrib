@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'From FluentBit Operator to Fluent Operator: The Long Way to Come- Benjamin Huo, QingCloud Tech'
+language: English
+recordingDate: 1635562568
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nFrom FluentBit Operator to Fluent Operator: The Long Way to Come- Benjamin Huo, QingCloud Technologies\n\nFluentBit Operator was created by the KubeSphere community to solve several problems:\n\n1. Collect K8s logs through a light-weighted agent like Fluent Bit.\n\n2. Control Fluent Bit via Kubernetes API.\n\n3. Collect logs and then send them to the final destination without having to go through Fluentd.\n\n4. Enable dynamic config reloading for Fluent Bit to reload its config whenever the config changes without restarting the Fluent Bit Pod.\n\nFluentBit Operator has reached its maturity level gradually after two and a half years of iterations, and KubeSphere and Fluent Community collaborated to transfer it to the Fluent organization.\n\nSometimes Fluentd is still needed as an optional sink to aggregate logs received from Fluent Bit, then filter and forward to more destinations. So FluentBit Operator maintainers are considering adding Fluentd CRDs and rename the project to Fluent Operator.\n\nIn this talk, FluentBit Operator maintainers will talk about the architecture and use cases of FluentBit Operator and the design of Fluent Operator."

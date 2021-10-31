@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Building Your Own Kubectl Trace on Steroids Using BPF Libraries in Go, Rust, Python an... Kyle Quest'
+language: English
+recordingDate: 1635561893
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nBuilding Your Own Kubectl Trace on Steroids Using BPF Libraries in Go, Rust, Python and C - Kyle Quest, DockerSlim\n\nYou know the BPF fundamentals, you've tried \"bpftrace\" and you've used \"kubectl trace\" with your Kubernetes cluster. Now you want to build something more useful that goes beyond making \"printf\" calls and the basic data processing capabilities in \"bpftrace\". You are ready to build your tracing engine, but you are stuck. There are a lot of different libraries to choose from and you don't know what to use. This is a journey exploring different BPF libraries in Go, Rust, Python and C and exploring their capabilities.\n\nYou'll learn about the library ecosystem, how the libraries are different and which ones can be used to build system tracing applications using BFP tracepoints and other BPF program types useful for tracing and profiling. You'll also learn about the different options available in BFP and why you'd want to choose tracepoints instead of kprobes and vice versa.\n\nWe'll explore these languages and libraries:\nGo - iovisor/gobpf, cilium/ebpf, dropbox/goebpf, libbpfgo\nPython - bcc, pyebpf\nRust - libbpf-rs, redbpf, aya\nC - libbpf, bcc\n\nWe'll also briefly explore what's available in other languages (lua, node.js and ruby).\n\nThe code samples will be available in Github, so you'll be able to experiment with the tracer app code in different languages and there'll be a \"kubectl-tracex\" that provides an alternative to \"kubectl-trace\" powered by a custom tracer engine from this talk."

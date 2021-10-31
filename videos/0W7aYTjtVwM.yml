@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Context Aware Traffic Routing for Stateful Services using Envoy - Renana Yacobi & Piaw Na, Niantic'
+language: English
+recordingDate: 1635573129
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nContext Aware Traffic Routing for Stateful Services using Envoy - Renana Yacobi & Piaw Na, Niantic\n\nService infrastructure should be invisible to application APIs but frequently the implementation leaks into the APIs, injected in the form of URL prefixes or message headers custom fields. In some cases this is undesirable due to the sensitivity of the information. Examples of such cases include PII and company IP. In these scenarios a message is sent to the server, which makes a routing decision based on the information inside the message. At that point a reroute request is send to the client that redirect its calls to the assigned backend, In this presentation, Renana Yacobi, Server Core Infrastructure Lead @ Niantic, presents a context aware routing, using the power of Envoy custom filters and partial message parsing to use information extracted from the message payload to route the traffic while supporting legacy APIs."

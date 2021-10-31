@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'A Multi-Cluster, Multi-Cloud Infrastructure with GitOps at CERN - Ricardo Rocha, CERN'
+language: English
+recordingDate: 1635567752
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nA Multi-Cluster, Multi-Cloud Infrastructure with GitOps at CERN - Ricardo Rocha, CERN\n\nCERN relies on a large distributed infrastructure to store and analyze the multiple petabytes of data coming out of its experiments every year.  In the last few years two important trends have been changing the way we manage our infrastructure: kubernetes and cloud native technologies on the deployment side, and public clouds as a potentially cost effective way to get additional capacity to cover for workloads spikes and accessing resources that are scarce on premises, such as GPUs and other accelerators. This has made efficient management of multiple clusters even more relevant.  This talk will describe how we've been evolving our deployments to rely on GitOps and tools like Flux and ArgoCD to centralize and standardize our highly distributed infrastructure. It will cover the three main layers of our deployments: the \"underlay\" infrastructure, and how with a bit of yaml and tools like crossplane we manage our on-premises clusters and those across multiple regions of the different public cloud providers; the \"base services\", including monitoring and central aggregation with Prometheus, OPA policies, cost calculation, etc; and finally our end user services.  A quick demo will show how clusters can be added and removed with a couple lines in a matter of minutes."

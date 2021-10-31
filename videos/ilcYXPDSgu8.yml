@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Using BPF Iterators to Gain Insight into Kubernetes - Alban Crequy, Microsoft'
+language: English
+recordingDate: 1635562015
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nUsing BPF Iterators to Gain Insight into Kubernetes - Alban Crequy, Microsoft\n\nTo gain insight into a Kubernetes cluster, one might inspect processes, sockets and network configurations. A lot of this information is available through the /proc filesystem; however, since Linux 5.8, a new BPF feature enables us to obtain it in a more efficient way: BPF iterators can iterate over processes, sockets and other objects and return the data without numerous round trips between the kernel and userspace. In this talk, Alban will demo how Inspektor Gadget displays processes running inside Kubernetes pods. He will give a basic explanation of how BPF iterators can be integrated with Kubernetes."
