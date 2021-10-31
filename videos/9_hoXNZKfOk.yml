@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Building Flux''s Multi-Tenant API with K8s User Impersonation - Leigh Capili, VMware'
+language: English
+recordingDate: 1635567748
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nBuilding Flux's Multi-Tenant API with K8s User Impersonation - Leigh Capili, VMware\n\nKubernetes is hard to operate in a multi-tenant manner. As organizations add API's and privileged controllers to their clusters, it becomes infeasible to build clusters that teams can share with each other safely. This is a design issue with the way projects extend Kubernetes.  While policy engines like Gatekeeper and Kyverno enable cluster owners to patch over insecure API surfaces to protect tenants, there are patterns that produce API's resistant to cross-tenant issues. It's possible to extend Kubernetes without relying on admission-based policy engines to restrict API boundaries and controller implementations.  This session will teach you how to enable multiple organizations and teams to work safely together across namespaces and clusters. Flux will be used as an example on how to use RBAC, impersonation and kubeConfig secrets, but the techniques shown can be used to improve projects across the ecosystem!"
