@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Storing State Forever: Why It Can Be Good For Your Analytics'
+recordingDate: 1635787811
+description: 'State is an essential part of the modern streaming pipelines: it enables a variety of foundational capabilities like windowing, aggregation, enrichment, etc. But usually, the state is either transient, so we only keep it until the window is closed, or it''s fairly small and doesn''t grow much. But what if we treat the state differently? The keyed state in Flink can be scaled vertically and horizontally, it''s reliable and fault-tolerant... so is scaling a stateful Flink application that different from scaling any data store like Kafka or MySQL? At Shopify, we''ve worked on a massive analytical data pipeline that''s needed to support complex streaming joins and correctly handle arbitrarily late-arriving data. We came up with an idea to never clear state and support joins this way. We''ve made a successful proof of concept, ingested all historical transactional Shopify data and ended up storing more than 10 TB of Flink state. In the end, it allowed us to achieve 100% data correctness.'
