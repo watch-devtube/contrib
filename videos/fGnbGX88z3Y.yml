@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'From Program to Process - What Happens After the Compiler - Anders Schau Knatten - NDC TechTown 2021'
+language: English
+recordingDate: 1635774775
+description: "We all know roughly what the compiler does, it translates your source code into machine code. \nThanks to Compiler Explorer, many of us now even look at the generated Assembly code. But wait a minute, that code is full of labels and function names, the CPU knows of no such things! \nMost of these are also defined in different compilation units, how can we jump to code we don't know where comes from? And even for our own compilation unit, how can the compiler know where in memory the machine code will eventually be loaded, so it can generate the right jumps? Even worse, what if that function comes from a dynamic shared object? This talk gives an introduction to how the compiler, linker, loader and operating system cooperates to get from a compilation unit to a running process. We'll look at static and dynamic linking, relocations, position independent code, sections and segments and virtual memory. The talk covers Linux only, but similar principles apply on Windows and Mac."

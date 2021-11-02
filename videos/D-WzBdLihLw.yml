@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Lightning Talk: Who Are You? A Heuristic Approximation to Service Identification - David de Torres'
+language: English
+recordingDate: 1635785778
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nLightning Talk: Who Are You? A Heuristic Approximation to Service Identification - David de Torres, Sysdig\n\nStandard Prometheus annotations allow scraping applications via service discovery. This works great when all the jobs are similar, but what if we need to apply some special relabeling, drop metrics or add new labels?  Sometimes, it is possible to tag the workloads with new annotations that can help to identify a specific application. However, most of the time, restrictions on permissions or restarts of critical services can make this hard to implement in production environments.  In this talk, David will introduce techniques to identify the application running in a pod using the information provided by the service discovery. To do that, he will present the use of heuristic filters and its different applications and use cases."

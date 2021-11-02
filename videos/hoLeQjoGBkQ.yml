@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Rundown of Flink''s Checkpoints'
+recordingDate: 1635787802
+description: 'Apache Flink’s checkpoint-based fault tolerance mechanism is one of its defining features. Because of that design, Flink can easily scale to both very small and extremely large scenarios and provides support for many operational features like stateful upgrades with state evolution or roll-backs and time-travel. It’s been some time since the last time we explained how it works. At the same time over the years, it got a few improvements such as e.g. unaligned checkpoints or the latest effort to make it work intuitively with finite sources. The talk is aimed at people of all levels, but people new to the checkpointing mechanism are especially welcome as I will start with a very introduction of the concept and walk listeners through the newest additions. After the talk, I hope everyone will have the necessary understanding for running their pipeline reliably and leave the talk with helpful tips for doing so.'

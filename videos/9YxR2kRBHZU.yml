@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Real-time bot mitigation with machine learning in Flink'
+recordingDate: 1635787803
+description: "Datadome provides a SaaS solution to detect and mitigate bot activity on our customers’ websites. Modern bots are massively distributed and very good at impersonating legitimate users: a simple static system is not enough to detect them anymore. We use Apache Flink to analyze web traffic in real time, producing decisions that allow us to block new threats in a few milliseconds. As we got more and more customers, covering a wide range of website designs, business models and sizes, it became very challenging to fine-tune our system for each one of them. Using the example of rate limitation, we will demonstrate how we implemented a flow to figure out how different IP addresses behaved on each website, identify outliers, and continuously auto-adjust rate limitations. We will discuss the mistakes we made along the way, and where the design ended up.\n\n0:00 Introduction\n1:34 Bot Mitigation\n10:39 Dynamic Behavioral Rules\n22:59 Challenges & Solutions"

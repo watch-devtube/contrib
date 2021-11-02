@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Building an open-source ML feature store with Apache Flink'
+recordingDate: 1635787801
+description: "Moving a new ML model from playground to production frequently requires rewriting it in a way mostly focused on latency and stability, which may result in two versions of the same code used for offline model training and online serving. But what should you do if you caught yourself in this offline/online dichotomy? In this talk, we discuss a “Feature Store” approach to these problems and also introduce a Flink based “Featury” (https://github.com/findify/featury) open-source feature management framework, which allows you to: \n* bootstrap feature values from historical data, do a time travel over different versions of it on a training phase, \n* use high-level feature types like counters, maps, lists, and statistical estimators, \n* use the same feature building code both in online inference jobs, and offline training. We'll also discuss how we built a real time search personalization system using this framework."

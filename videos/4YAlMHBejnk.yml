@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Dataflow Engines for Executing Cloud Applications: a Maslow''s Hammer or Natural Outcome?'
+recordingDate: 1635787800
+description: "FaaS is currently being marketed as the silver bullet of abstractions for developing scalable applications in the cloud. Although very popular, current FaaS offerings offer poor support for the management of application state: managing state and keeping it consistent at large scale is very challenging. As a result, the serverless model is inadequate for executing stateful, consistent, and latency-sensitive applications. To this end, a new breed of systems and programming models are currently in the making, termed as Stateful Functions as a Service (SFaaS). Surprisingly, recent results in both academia and industry point to a common pattern: stateful functions at scale can be modeled as dataflow graphs and they can be executed on top of existing data flow systems, such as Apache Flink or Beam.\n\nIn this talk, I will analyse the requirements of scalable cloud applications and how those affect the design choices of an imaginary “universal execution engine” for the Cloud. I will then try to answer the question: will dataflow engines be the answer in the quest for the universal cloud execution engine? I will conclude with a set of requirements and possible directions for the future dataflow engines.\n\n0:00 How do people build scalable cloud applications today?\n9:15 What are the main pain-points?\n12:44 Is it a good idea to leverage dataflow processors for cloud apps?\n14:18 Are current dataflow processors up to the task?"

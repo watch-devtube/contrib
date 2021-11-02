@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Jump start large window computations with Hybrid Source'
+recordingDate: 1635787801
+description: "Stateful stream processing use cases like ML feature generation may compute windows that span multiple days or weeks. Initial results will be available after at least one window worth of data has been processed and continuously produced from then on. To get the initial result fast, we can bootstrap that state by rewinding the input stream and fast forward. Unfortunately, streaming systems such as Kafka or Kinesis often cannot provide the required retention (weeks) and bandwidth. In this talk, we present how the new Flink source framework (FLIP-27) and the Hybrid Source (FLIP-150) can address a seamless transition from historical data storage (like S3) to streaming storage (like Kafka). We will provide an introduction to the new source coordination capabilities and how two different sources can appear as a single (hybrid) source to Flink. Finally, we are going to share how we applied the hybrid source to consume from Iceberg and Kafka to address use cases in our infrastructure.\n\n0:00 Why bootstrapping state\n5:41 Multiple sources, one stream\n10:42 Flink source framework\n13:55 Hybrid Source\n22:37 Table partitioning\n26:56 Summary"

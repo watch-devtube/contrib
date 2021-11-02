@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Adopting Thanos Gradually Across All of LastPass Infrastructures - Krisztian Fekete, LogMeln'
+language: English
+recordingDate: 1635785779
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nAdopting Thanos Gradually Across All of LastPass Infrastructures - Krisztian Fekete, LogMeln\n\nAt LastPass we faced the usual problem: we have multiple cloud providers, on-premise datacenters, all serving thousands of requests per second, but we couldn't correlate metrics across these infrastructures. To solve this, we introduced Thanos. But it wasn't as simple as that. There are multiple projects out there to provide a highly available, long-term metrics storage for the Prometheus ecosystem, each similar in some way, but of course each with its own subtle differences and tradeoffs. How would you choose between them? After you settled with a certain project then comes the implementation, and with that, more questions. How to do a proof-of-concept? How to make architectural decisions? What about security and cross-cluster communications? Once all these are figured out, it needs to be deployed to production as well, preferably without data loss, and keeping the existing monitoring stack up & running. This talk will show you how LastPass tackled these questions and the process behind designing and introducing Thanos seamlessly across all of its infrastructures to improve our reliability and to decrease our mean time to recovery after incidents."

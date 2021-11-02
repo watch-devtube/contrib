@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Getting into Low-Latency Gears with Apache Flink'
+recordingDate: 1635787800
+description: "Apache Flink is well known for its low latency stream processing capability. However, achieving good performance requires Flink application developers and cluster administrators to avoid using application patterns or settings that increase average or worst-case latencies. This talk introduces Flink's latency optimization best practices which we collected based on our multi-year experiences in consulting, training, and support. We will present these optimization techniques and clarify when to apply them, what they change internally, how the expected improvements look like, and their trade-offs. The talk serves as a general guideline for Flink application developers to look for ways to optimize the latencies of their Flink jobs.\n\n0:00 Introduction\n1:34: Latency & Its Measurement\n4:03 Low-Latency Techniques\n4:45 - Direct Latency Optimization\n21:17 - Optimizing Throughput for Latency\n31:12 Key Takeaways"

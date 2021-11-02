@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Integrating Flink into your ecosystem - How to build a Flink connector from scratch'
+recordingDate: 1635787803
+description: "Flink can read from and write to various external systems to integrate into the existing technology landscape of your enterprise. However, there will always be systems that cannot be connected yet. In this talk, we demonstrate how you can implement your own connectors supporting batch and stream processing. We start by explaining the core concepts and then apply them one by one to achieve a full-fledged connector. The first part will focus on distributing the data transfer across multiple subtasks, while the second part improves the connector to guarantee exactly-once fault tolerance. Ultimately, we will receive an end-to-end exactly-once application.\n\n0:00 Introduction\n2:59 How to write a source\n16:53 How to write a sink\n22:42 Final thoughts"

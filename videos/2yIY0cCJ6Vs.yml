@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Deep Network Traffic Observability with Pktvisor and Prometheus - Shannon Weyrick, NS1'
+language: English
+recordingDate: 1635785778
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nDeep Network Traffic Observability with Pktvisor and Prometheus - Shannon Weyrick, NS1\n\nObservability of network traffic can prove very important to the successful operation of modern applications. The ability to divine key information from the flow of network traffic can provide insight useful for operations, debugging, and security. But efficient analysis and collection of deeply inspected, high throughput traffic is hard… especially as the trend towards globally distributed applications continues. How does one organize a fleet of at-scale agents which can analyze network traffic in real time and send the results to a modern observability stack? pktvisor is a free and open source observability agent designed to address these challenges. Developed by NS1 for their global DNS network, it makes use of real time streaming algorithms to efficiently extract counts, top-k heavy hitters, set cardinality, quantiles and other key information from the various networking layers. In this talk we will outline the challenges above and then work through solving them with pktvisor and Prometheus. We will cover installation with containers, configuration, metrics collection to Prometheus via scrape or remote write, and how to query Prometheus to visualize the results. Finally we will look at the future of the project which adds full remote configuration and fleet management."

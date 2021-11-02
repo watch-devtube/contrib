@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Change Data Streaming Patterns in Distributed Systems'
+recordingDate: 1635787803
+description: "Microservices are one of the big trends in software engineering of the last few years; organising business functionality in several self-contained, loosely coupled services helps teams to work efficiently, make the most suitable technical decisions, and react quickly to new business requirements.\n\nIn this session, we'll discuss and showcase how open-source change data capture (CDC) with Debezium can help developers with typical challenges they often face when working on microservices. Come and join us to learn how to:\n\n* Employ the outbox pattern for reliable, eventually consistent data exchange between microservices, without incurring unsafe dual writes or tight coupling\n* Gradually extract microservices from existing monolithic applications, using CDC, the strangler fig pattern and Apache Flink\n* Coordinate long-running business transactions across multiple services using CDC-based saga orchestration, ensuring such activity gets consistently applied or aborted by all participating services.\n\n0:00 Introduction\n1:45 Debezium — Log-based Change Data Capture\n8:45 Outbox Pattern\n14:44 Strangler Fig Pattern\n26:47 Saga Pattern\n38:40 Takeaways"

@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Demystifying Deployments: Applications or Clusters, Active and Reactive Scaling - What is it about?'
+recordingDate: 1635787806
+description: "When it comes to deploying Apache Flink, there are a lot of concepts that appear in the documentation: Application Mode vs Session Clusters, Kubernetes vs Standalone, Reactive Mode vs Autoscaling. This talk is about clarifying these concepts by first explaining the basic building blocks of every Flink cluster. We then take a closer look at the different conceptual options of deploying Flink, such as active and external resource management, or application and session mode. Finally, we discuss the different options of adjusting Flink to changing workloads, namely reactive mode and autoscaling. Finally, we take a look at the actual implementations of these concepts in Flink, through the various integrations with Kubernetes, YARN, Docker and other environments. To wrap up, we will take a closer look at the newly introduced reactive mode, including a short demo.\n\n0:00 Introduction\n1:11 Standalone Resource Provider\n8:52 Application Mode\n12:30 Docker\n14:46 Kubernetes\n14:21 Reactive Mode\n16:33 Demo - The Reactive Mode on Kubernetes\n20:50 Native K8s Session\n24:19 Native K8s Application\n24:56 YARN\n26:52 The deployment decision matrix"

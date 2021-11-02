@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Paper Moon: A Comparison of Stateful Functions and Pulsar Functions'
+recordingDate: 1635787802
+description: "Flink Stateful Functions and Pulsar Functions aim to solve similar problems, including providing an API for stateful computation and managing state within an event streams world. Stateful Functions and Pulsar Functions take different approaches to this problem, including where they draw the boundary for what their APIs should do. In building a distributed stream processing platform on Pulsar with the need for stateful computation attached, I explored the question of which of these approaches would be best. In this talk, I walk through the tradeoffs between the two APIs, their philosophical underpinnings, and why we ultimately landed on using Stateful Functions for our streaming platform. Attendees can expect to learn about Stateful Functions and Pulsar Functions, walk through some code samples and come away with an understanding of problems Stateful Functions are designed to handle well.\n\n0:00 Intro\n2:33 Introduction/Philosophy\n7:33 Runtime\n10:51 Orchestration\n13:40 Scaling\n16:43 State Management\n24:30 Ecosystem\n26:30 Key Differences\n30:05 Examples\n34:26 Conclusions"

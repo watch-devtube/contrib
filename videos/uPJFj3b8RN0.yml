@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Asynchronous I/O and coroutines for smooth data streaming - Björn  Fahller - NDC TechTown 2021'
+language: English
+recordingDate: 1635783407
+description: "Linux kernel 5.1 introduced io_uring, which is a mechanism to do asynchronous I/O, primarily for network and disk operations. With asynchronous I/O, the responsiveness of your program is enhanced, but it can easily lead to \"callback hell\", where you register callbacks that processes arrived data, which feeds information to other callbacks, and so on. C++20 brings us language level coroutines. \nCoroutines are a generalization of functions, that can be suspended in the middle to allow other computations, and then resumed again, all in the same thread. One such suspension point can be to wait for the arrival of data. \n\nIn this presentation I will bring a brief introduction to both topics, and then show how to use io_uring and coroutines to write code that reads asynchronous data in seeral short loops, seemingly running in parallel, without having to worry about threading issues."

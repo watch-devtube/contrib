@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SPONSORED Talk: Maintaining highly available Flink applications at scale'
+recordingDate: 1635787802
+description: 'Amazon Kinesis Data Analytics (KDA) is a managed service to run Apache Flink applications. KDA needs to regularly apply security patches on the underlying OS as well as the Flink images to maintain our operational and security posture. In addition, we would like to regularly keep pushing bug fixes/improvements to Flink images. In effect, this means sometimes rebooting the EC2 instances or sometimes inducing full job fail-overs due to JM/TM restart. For a Flink application that runs on multiple nodes, this would result in multiple Flink job fail-overs in its worst case. KDA’s goal is to minimize downtime experienced by a Flink job as minimal as possible (preferably in single digit seconds) so we can provide a highly available platform to our customers. In this talk, we go over KDA''s solution to implement a highly available failover to a) reduce downtime of a Flink job b) reduce the time it takes KDA to bring the application back to a state where customer can start taking actions on it.'

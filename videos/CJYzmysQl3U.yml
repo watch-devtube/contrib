@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Networks! project - real-time analytics that controls 50% of mobile network in Poland'
+recordingDate: 1635787801
+description: 'The ability to analyze data in real time for mobile network is crucial for diagnostics and ensuring the quality of the service for end customers. To achieve this we have built a real-time ingestion and analytics platform that processes 2.2 billion messages a day from mobile networks hardware. During the talk, we will show how we used Flink and Flink SQL to build this platform. The solution includes the calculation of more than 5000 KPIs and 1500 aggregation defined in SQL, on 750 Kafka topics. We will describe how we manage Flink jobs at scale using Ververica and Kubernetes, how we monitor the platform using Clickhouse and what problems we need to overcome in the project.'

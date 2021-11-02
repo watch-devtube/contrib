@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Sources, Sinks, and Operators: A Performance Deep Dive'
+recordingDate: 1635787803
+description: "At Splunk we have built a Flink streaming infrastructure and scaled it to petabytes of data per day and millions of events per second. Along the way, we've learned a lot about writing performant operations in the DataStream API and putting together high-throughput pipelines. This talk will cover our real-life experiences in scaling for this throughput and the best practices we've learned along the way. We'll talk about aggregation, built-in functions, user-defined functions, the async I/O API, as well as discoveries around GC, Java object management, state backends, and serialization.\n\n0:00 Introduction\n1.07 Environmental & Performance Testing\n3:57 The basic challenges\n10:17 Sources\n21:22 Sinks\n25:10 Putting it all together"

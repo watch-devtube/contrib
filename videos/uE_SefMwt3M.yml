@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Batching Was Yesterday: Real-Time Tracking & Analysis For 100+ Million Visitors'
+recordingDate: 1635787805
+description: 'Fast analytics are critical for business success, because you cannot act quickly when your dashboards are stale. But how do you keep latency down when your growth is through the roof? This is a war story about scaling our analytics stack from 1 to 100+ million users in a single month using Apache Flink. As a web performance startup, accelerating websites is our business and tracking user performance is part of the job: We collect traces for every page load that happens on our infrastructure to monitor critical business KPIs in realtime. But with our user base doubling every other month, performing heavy-weight analytics with sub-minute latency turned from “difficult” to “seemingly impossible”. Together with the AWS Prototyping Team, we tackled the problem head-on and re-engineered our analytics stack from scratch: We replaced our ETL-heavy Athena warehouse with a continuous Data Analytics application based on Flink and devised a blithesome dashboard on top of Elasticsearch and Kibana.'

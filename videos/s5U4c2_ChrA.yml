@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'How to write a really good board support package for Yocto Project - Chris Simmonds'
+language: English
+recordingDate: 1635791002
+description: "In Yocto Project, a board support package (BSP) is the meta layer which contains all the configuration specific to a particular board. For example there is a BSP layer for the Raspberry Pi called meta-raspberrypi. The BSP layer becomes the base on which all the other meta layers will stand, and so it is probably the most important of them all. The BSP layer captures information about the SoC used, the storage technologies, GPIO mapping and much more besides.\n\nIn this presentation I will start with some background on Yocto Project meta layers and then I will show step-by-step how to build in the support for your board. Along the way, I will highlight some of the common pitfalls, and how to avail them.\n\nIf you want a single sentence that summarizes the whole presentation it is “keep it simple”."
