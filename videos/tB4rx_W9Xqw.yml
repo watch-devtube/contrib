@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Backfill Flink Data Pipelines with Iceberg Connector'
+recordingDate: 1635787808
+description: "Flink jobs can fail due to various reasons, and debugging the underlying issue can take hours or days. Therefore, Flink pipelines need to be backfillable at all times to prevent data loss in case of failures. One potential solution is to increase the source's retention so that backfilling is just replaying the stream, but increasing Kafka retention is very costly for Netflix's data size. Another solution is to utilize source data stored in data warehouses, but this means maintaining a separate batch job equivalent to the Flink job, which adds substantial work on engineers. At Netflix, we have created a new Iceberg source connector to provide backfilling capabilities to Flink pipelines. It allows Flink to read data stored in Apache Iceberg while mirroring Kafka's ordering semantics, enabling engineers to backfill Flink pipelines with minimal code changes. Moreover, since Iceberg stores data in compressed formats like Parquet, increasing Iceberg data retention is more cost-effective.\n\n0:00 Needs for backfilling Flink Applications\n2:43 Existing approaches\n7:04 Iceberg Source\n13:26 Event ordering challenges\n25:11 Enabling Iceberg backfill"

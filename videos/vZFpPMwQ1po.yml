@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Data Pipeline Lifecycle: SQL Everywhere'
+recordingDate: 1635787804
+description: 'Data analysis and data pipelines for our event-driven applications both serve a common goal, but are often implemented independently. Data Scientists do the expert analysis using SQL requests to the data warehouse; later a Data Engineer transforms that into a fast, consistent and robust data pipeline written in code such as Java, Scala or Python. But what if we could use the SQL for both the one-off analysis and for the streaming data pipeline? Apache Flink can help us achieve exactly this goal. Writing SQL for streaming applications does come with some additional considerations, and we will cover those in this session. We will also explore some examples of complex SQL tasks and how they could be refactored to be used in Flink. This session is recommended for anyone who wants to build and maintain robust data pipelines.'
