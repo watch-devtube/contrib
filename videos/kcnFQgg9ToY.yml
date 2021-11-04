@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'An introduction to control groups (cgroups) version 2 - Michael Kerrisk - NDC TechTown 2021'
+language: English
+recordingDate: 1635928447
+description: "Control groups (cgroups) allow us to limit and measure the resources used by groups of process. They are one of the fundamental building blocks of container frameworks, as well as a number of other interesting tools such as Flatpak and Firejail. We have (finally) reached the point where cgroups version 2 is supplanting cgroups version 1, as most major Linux distributions make the switch.\n\nIn this presentation, we will look at how cgroups work, from the perspective of the future. That is to say, I will ignore cgroups v1, and explore how cgroups work starting fresh from a version 2 perspective. Topics we’ll cover include creating and destroying cgroups, moving processes into cgroups, setting resource limits on cgroups, enabling and disabling controllers, and managing different resources to different levels of granularity. No previous knowledge of cgroups will be assumed."
