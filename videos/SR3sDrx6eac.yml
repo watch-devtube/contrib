@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon17 Americas - Lyft''s Envoy: Experiences Operating a Large Service Mesh'
+language: English
+recordingDate: 1636589522
+description: "Lyft's Envoy: Experiences Operating a Large Service Mesh\n\nMatt Klein, Lyft\n\nOver the past several years Lyft has migrated from a monolith to a sophisticated \"service mesh\" powered by Envoy, a new high performance open source proxy which aims to make the network transparent to applications. Envoy's out of process architecture allows it to be used alongside any language or runtime. At its core, Envoy is an L4 proxy with a pluggable filter chain model. It also includes a full HTTP stack with a parallel pluggable L7 filter chain. This programming model allows Envoy to be used for a variety of different scenarios including HTTP/2 gRPC proxying, MongoDB filtering and rate limiting, etc. Envoy provides advanced load balancing support including eventually consistent service discovery, circuit breakers, retries, zone aware load balancing, etc. Envoy also has best in class observability using both statistics, logging, and distributed tracing.\n\nIn this talk we will discuss why we developed Envoy, focusing primarily on the operational agility that the burgeoning “service mesh” SoA paradigm provides as well as discussing lessons learned along the way.\n\nFor more information on Envoy see: https://lyft.github.io/envoy/\n\nMatt Klein is a software engineer at Lyft and the architect of Envoy. He has been working on operating systems, virtualization, distributed systems, networking, and in general making systems easy to operate for 15 years across a variety of companies. Some highlights include leading the development of Twitter's C++ L7 edge proxy and working on high performance computing and networking in Amazon's EC2.\n\nView the SREcon17 Americas Program at https://www.usenix.org/conference/srecon17americas/program"
