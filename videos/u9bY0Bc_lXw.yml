@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Into the Core: Understanding GHC’s Intermediate Language (Simon Peyton Jones, Haskell eXchange 2015)'
+language: English
+recordingDate: 1636557024
+description: "GHC translates all of Haskell into a tiny intermediate language called Core, does a lot of optimisations on Core, and then generates executable code. In this talk Simon takes you on a journey into Core, with several goals. First, if you ever do performance-debugging of a Haskell program you may well find yourself staring at Core dumps to understand the program that the computer is executing (it may look nothing like the one you wrote!). Second, one way to extend GHC is to write a Core-to-Core plugin to do some cool optimisation or transformation that you want; and you can only do that if you understand Core.\n\nLastly, even if you want to do none of these things, he thinks you may enjoy the adventure. Core is a tiny but super-expressive language that can express all of Haskell, including all the types, and more beside. It pulls off this trick by drawing directly on System F, a mathematical calculus from type theory. Functional programming is amazing: serious theory leads directly to beautiful implementations.\n\nThis talk was recorded on 8 October 2015 in London at Haskell eXchange 2015"
