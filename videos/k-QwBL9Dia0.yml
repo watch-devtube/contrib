@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Lenses: Compositional Data Access and Manipulation (Simon Peyton Jones at Haskell eXchange 2013)'
+language: English
+recordingDate: 1636546100
+description: "Haskell lets you write beautiful, modular code. Rather than waffle generally, I’ll use this talk to look at a particular example, Edward Kmett’s lovely lens  library. Lenses have been called “jQuery for data types”: they give you a way to poke around in the guts of some large aggregate structure. Lenses compose (so you can make big lenses by gluing together little ones), and they exploit type classes to allow a remarkable degree of flexibility (get, set, fold, traverse, etc).\n\nOne of Haskell’s most egregious shortcomings is that you can’t use the same field name in different record types. I’ll explain how we are planning to fix that (joint work with Adam Gundry), and how the result will fit nicely into the lens world.\n\nThis talk was recorded on 9 October 2013 at Haskell eXchange in London"

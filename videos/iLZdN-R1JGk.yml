@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Safe, Zero-Cost Coercions in Haskell (Simon Peyton Jones at Haskell eXchange 2014)'
+language: English
+recordingDate: 1636546231
+description: "Newtypes are the key to data abstraction in Haskell, and come with an crucial performance guarantee: it doesn’t cost anything to use a newtype.\n\nEmbarrassingly, this guarantee is weak: it fails as soon as you embed a newtype’d value in a data structure. At the same time, the hugely-popular language feature “generalised newtype deriving” turns out to rely internally on a strong version of the guarantee. And, in the presence of type-level functions, the strong version of the guarantee turns out to be unsound, leading to a notorious type-soundness bug in GHC that has persisted for several years.\n\nAs is often the case in Haskell, finding a solid, principled solution to the problem turned out to be far more interesting than we expected, requiring us to distinguish two flavours of type equality (representational and nominal), with a “role system” to allow type-safe abstraction. I think the result is pretty cool. In this talk I’ll explain what all the fuss is about.\n\nThis talk was recorded 8 October 2014 in London at Haskell eXchange 2014"

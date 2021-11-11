@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Linear Haskell: Practical Linearity in a Higher-Order Polymorphic Language (Haskell eXchange 2018)'
+language: English
+recordingDate: 1636548867
+description: "Linear type systems are more often talked about than used. I have long thought that we should be able to use linearity to improve the expressiveness and efficiency of functional programming languages, especially Haskell. But I always got lost in a deep swamp of exclamation marks and upside down ampersand symbols.\n\nRecently, in a collaboration with Tweag I/O, we came up with a new approach to linearity that really does seem to have a good power-to-weight ratio, and that fits smoothly with the existing language. The key ideas is to attach linearity to function arrows, rather than bifurcating types into linear and non-linear versions (the dominant approach).\n\nIn this talk I'll explain and motivate the key ideas, from the point of view of a programmer rather than a type theorist, focusing especially on update-in-place, and on I/O protocols. Arnaud Spiwack gave a talk on the same subject last year, and is now busy implementing the ideas in GHC. I hope you will find our complementary perspectives illuminating, and that you'll come away with a clearer picture of the linearity landscape and how we might think about it.\n\nThis talk was recorded on 11 October 2018 in London at Haskell eXchange 2018"

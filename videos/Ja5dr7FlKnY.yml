@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Compiling without Continuations (Simon Peyton Jones at Haskell eXchange 2017)'
+language: English
+recordingDate: 1636547146
+description: "GHC compiles Haskell via Core, a tiny intermediate language based closely on the lambda calculus. Almost all GHC’s optimisations happen in Core, but until recently there was an important kind of optimisation that Core really did not handle well. In this talk, you will learn what the problem was, and how Core’s new “join points” solve it simply and beautifully, by effectively allowing Core to express control flow as well as data flow; there are strong links to so-called “continuation passing style” (CPS) here. On the way, you will explore how GHC’s Mighty Simplifier, which is responsible for many optimisations, works.\n\nUnderstanding join points can help you are a programmer too, because you can write code confident that it will optimise well. You will discover a rather compelling example this: “skip-less streams” now fuse well, for the first time, which allows us to drop the previous (ingenious but awkward) workarounds.\n\nThis talk was recorded on 12 October 2017 in London at Haskell eXchange 2017"

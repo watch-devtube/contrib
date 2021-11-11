@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'A reflection on types (Simon Peyton Jones at Haskell eXchange 2016)'
+language: English
+recordingDate: 1636546455
+description: "Static type systems are wonderful, but they have their limits, and then you reach for dynamic type and run-time type checks.  Haskell has had dynamic types for ages, in the form of the Typeable class, but recent developments has made it feasible to support type-indexed type run-time type representations.   That in turn makes it possible to support dynamic typing as an ordinary Haskell library, using a very small, sharply-focused language extension.\n \nIt turns out that doing this really pushes the envelope on what is possible with static type systems. Not only do you need higher kinds, kind polymorphism, and GADTs, but also kind equalities, and even heterogeneous kind equalities!  It’ll be fun.  And it’s all in GHC 8.0.\n\nThis talk was recorded 6 October 2016 in London at Haskell eXchange 2016"
