@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon16 Europe - Bridging the Safety Gap from Scripts to Full Auto-Remediation'
+language: English
+recordingDate: 1636684860
+description: "SREcon16 Europe - Bridging the Safety Gap from Scripts to Full Auto-Remediation\n\nDavid Mah, Dropbox\n\nAt Dropbox, to bridge the gap between “scripts” and “fully automatic automation”, we’ve introduced a concept of “Human Authorized Execution”. This means that a tool automatically finds problems and decides how to fix them, but a human operator is required to audit the tool’s decisions before the automation may run.\n\nWhy do we need this? Because it’s terrifying to have automation run fully automatically. With a human involved, their intuition can answer a really important question: Why might I NOT want to run this script? If we took a simple approach… for instance deploying a cron job to run our scripts whenever alerts fire, then we would lose that human’s sense of danger.\n\nView the full SREcon16 Europe Program at https://www.usenix.org/conference/srecon16europe/program"

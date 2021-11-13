@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon16 Europe - Flash Sale Engineering'
+language: English
+recordingDate: 1636687961
+description: "SREcon16 Europe - Flash Sale Engineering\n\nEmil Stolarsky, Shopify\n\nFrom stores with ads in the Super Bowl to selling Kanye’s latest album, Shopify has built a name for itself handling some of the world’s largest flash sales. These high profile events generate write-heavy traffic that can be four times our platform’s baseline throughput and don’t lend themselves to off-the-shelf solutions.\n\nThis talk is the story of how we engineered our platform to survive large bursts of traffic. Since it’s not financially sound for Shopify to have the required capacity always running, we built queueing and page caching layers into our Nginx load balancers with Lua. To guarantee these solutions worked, we tested them with a purpose-built load testing service.\n\nAlthough flash sales are unique to commerce platforms, the lessons we learn from them are applicable to any services that experience bursts of traffic.\n\nView the full SREcon16 Europe Program at https://www.usenix.org/conference/srecon16europe/program"

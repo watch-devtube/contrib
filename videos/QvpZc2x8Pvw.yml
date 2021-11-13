@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon16 Europe - Scaling Shopify''s Multi-Tenant Architecture across Multiple Datacenters'
+language: English
+recordingDate: 1636688396
+description: "SREcon16 Europe - Scaling Shopify's Multi-Tenant Architecture across Multiple Datacenters\n\nFlorian Weingarten, Shopify\n\nMulti-tenant architectures are a very convenient and economical way to share resources like web servers, job workers, and datastores among several customers on your platform. Even the smallest Shopify store on a $9/month plan can easily survive getting hammered with a 1M RPM flash sale by leveraging the resources of the entire platform. However, architectures like this can also have several drawbacks. They are potentially harder to scale and things like resource starvation or back-end outages are harder to isolate.\n\nIn this talk, I’m going to walk you through the history of how Shopify grew from being a small standard single-database single-datacenter Rails application to the multi-database multi-datacenter setup that we run today. We will talk about the advantages in terms of resiliency, scalability, and disaster recovery that this architecture gives us, how we got there, and where we want to go in the future.\n\nView the full SREcon16 Europe Program at https://www.usenix.org/conference/srecon16europe/program"

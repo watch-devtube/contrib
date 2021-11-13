@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon16 Europe - Availability Objectives of SoundCloud’s Microservices'
+language: English
+recordingDate: 1636687684
+description: "SREcon16 Europe - Availability Objectives of SoundCloud’s Microservices\n\nBora Tunca, SoundCloud\n\nIn a microservices architecture, different services usually have different availabilities. It is often hard to see how the availability of a single service affects the availability of the overall system. Without a clear idea about the availability requirements of individual services, even a seemingly subtle degradation of a service can cause a critical outage. Unfortunately these are discovered only after thorough post-mortems. At SoundCloud we kicked off a project called “Availability Objectives”. An availability objective is the minimum availability a service is allowed to have. These objectives are calculated based on the requirements of the clients of those services. We started by visiting all of our services and setting an availability objective for each of them. We built tools to expose the availability of these services and to flag the ones that drop below their objectives. As a result, we can now make informed decisions about the integration points we need to improve first.\n\nView the full SREcon16 Europe Program at https://www.usenix.org/conference/srecon16europe/program"
