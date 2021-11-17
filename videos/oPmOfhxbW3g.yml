@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Type-safe Redis caching at Chordify (Jeroen Bransen at Haskell eXchange 2021: Novice Track)'
+language: English
+recordingDate: 1637077117
+description: "Chordify is a popular music education platform, with a Haskell backend that handles hundreds of requests per second. To handle these requests efficiently, Redis is used as an in-memory cache. While Redis support various types of data, its type system is much more limited than Haskell's, so to work together with typed Haskell world and to prevent runtime errors, we have built a layer of Haskell code to deal with the interaction.\n\nIn this talk we present our Haskell-Redis layer, which supports strongly typed keys and values, transactions (which coincide with the Applicative class), multiple Redis instances, and locking. What we find interesting about this layer is that our usage of Redis is quite standard, and found in many pieces of imperative software too, but the composability and abstractions in our library make it easy for the programmer to create complex and bug-free interactions, which believe to be a bit less common.\n\nThis talk was recorded on 15 November 2021 at the Haskell eXchange virtual conference."

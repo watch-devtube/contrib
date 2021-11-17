@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Keynote by Nadia Polikarpova "Generating Programs from Types" (Haskell eXchange 2021)'
+language: English
+recordingDate: 1637093094
+description: "Program synthesis is a promising approach to automating low-level aspects of programming by generating code from high-level declarative specifications. But what form should these specifications take? In this talk I will advocate for using types as input to program synthesis. Types are widely adopted by programmers, they can vary in expressiveness and capture both functional and non-functional properties, and finally, type checking is often fully automatic and compositional, which helps the synthesizer find the right program.\n\nI will describe two type-driven program synthesizers we developed. The first one is Synquid, a synthesizer for recursive functional programs that uses expressive refinement types as a specification mechanism. The second one is Hoogle+, which relies on more mainstream Haskell types and generates code snippets by composing functions from Haskell libraries."
