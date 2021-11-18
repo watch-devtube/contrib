@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Cloud Foundry TOC [Nov 16, 2021]'
+language: English
+recordingDate: 1637124660
+description: "Recording of the Cloud Foundry Technical Oversight Committee call held on 16th November 2021.\n\nReview actions from last week\n[TOC] review https://github.com/cloudfoundry/community/pull/158\n[TOC] update to reflect current status https://github.com/cloudfoundry/community/pull/139 \n[LP] To create PR for RFC process in community repo\n[TOC] review Github Teams and Access\n[TOC] review PR Workflow\n[TOC] review Project Roadmap\n[TOC] review Stale bot\n[LP] Modify standing actions to include PR review.\n\nReview outstanding PRs\nAdd cflinuxfs3 (the stack) to interfaces WG\nAdjust haproxy-boshrelease link\nRemove syslog-release from ARP responsibilities (in favor of keeping it in FI)\nAdd directory for current approved working groups\nRFC process\nUpdate on charters for working groups\n\nAdd Vulnerability Management WG\nready to merge after completing GitHub handles\n \nCommunity Experience WG\nno updates\n \nReference deployments working group\nLee to raise for support at GB meeting\n\nAny other business\nDiscussion about options to incorporate v3/cloud-native buildpacks into CF\nBuildpacks team now not 100% confident that shimming will work\nAn alternative could be to integrate the CNB lifecycle directly into CF, but that could introduce more incompatibilities for apps or the runtime contract\nThat option might also require adding a registry as a dependency, in addition to the blobstore\n\nProgress on JJ stemcell testing with early builds\n\nDiscussion about security concerns with access to API and deployment of shared Concourse"

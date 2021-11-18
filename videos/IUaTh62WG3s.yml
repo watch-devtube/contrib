@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'CF on K8s WG Forum 16th Nov 2021'
+language: English
+recordingDate: 1637125244
+description: "Recording from the CF on K8s Working Group Forum call held on 16th November 2021.\n\n\nTopics\n[TD] HNC propagation woes making it difficult to stage (and probably run) apps\n- https://github.com/cloudfoundry/cf-k8s-controllers/issues/243\nService accounts / Secrets don’t propagate. This is an issue with Kpack.\nDisable SA propagation and have shim create SAs?\nLends weight toward CRD abstraction for Orgs/Spaces.\nHNC webhook is also aggressive https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc/config/webhook/manifests.yaml#L95-L116   \nNeeded to monitor everything under nested namespaces\n[GC] Binding Service Accounts\nUsers vs Service Accounts -- perhaps add a defaulted field/parameter on requests that would allow end users to create service accounts. This should maintain backwards compatibility with current CF API.\nCreate Role https://v3-apidocs.cloudfoundry.org/version/3.110.0/index.html#create-a-role"
