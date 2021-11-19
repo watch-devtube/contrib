@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Why are tables missing from the plan? An introduction to optimizer transformations'
+language: English
+recordingDate: 1637260420
+description: "When you submit a SQL query to the database, it's up to the optimizer to figure out how to run it.\n\nIn this process the optimizer will often change the query to help it run faster. This can result in surprising execution plans.\n\nWatch this session to understand why these transformations happen, get an overview of what they are, and steps you can take to ensure optimal SQL.\n\nHighlights include:\n\n03:00 - Why do I need to care about transformations?\n04:00 - SQL is NOT a procedural language\n06:40 - Transformations are a sign of a good data model\n12:00 - Logical vs cost-based transformations\n15:00 - How to view the final query after transformations\n16:30 - Which constraints aid transformations?\n20:40 - Running a 10053 trace to view the final query\n23:20 - Example query with no transformations\n24:15 - How removing select * changes the plan\n24:50 - How to pin execution, explain plans in SQL Developer\n25:45 - How enabling foreign keys can change the plan\n27:20 - How enabling primary keys can change the plan\n31:00 - How enabling not null constraints can change the plan\n33:10 - What tools can suggest constraints?\n37:45 - Join syntax for queries\n37:40 - Select distinct vs rownum less than 2\n47:10 - Why not write the transformed query at the start?\n41:30 - Why might it take several minutes to generate a plan?\n51:30 - How always false conditions can change the plan\n53:30 - How OR conditions can change the plan\n57:00 - Summary\n\nLearn SQL performance tuning https://devgym.oracle.com/pls/apex/dg/class/databases-for-developers-performance.html"
