@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'LISA16 - Capturing All of Stack Overflow''s Logs'
+language: English
+recordingDate: 1637367413
+description: "LISA16 - Capturing All of Stack Overflow's Logs\n\nGeorge Beech, Stack Overflow\n\nThis talk will cover the methods that Stack Overflow uses to capture, query, and explore our logs. We use two systems to store and query logs. First, we have a Custom processor that inserts every web log into a SQL database. Second, we send all system logs to a large ELK cluster for exploration, graphing, and ad-hoc reports.\n\nI will cover how we handle the large amount of logs we ingest. The SQL technologies we have used as well as how our 300TB ELK cluster is configured.\n\nI will also go over the pain points that we have experienced while managing and developing our logging system.\n\nView the full LISA16 Program at https://www.usenix.org/conference/lisa16/conference-program"
