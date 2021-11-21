@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'LISA16 - Consul as a Monitoring Solution'
+language: English
+recordingDate: 1637444713
+description: "LISA16 - Consul as a Monitoring Solution\n\nSeth Vargo, Director of Evangelism, HashiCorp\n\nThere are two sides to monitoring—exposing problems with alerts and acting upon those alerts to find solutions to the exposed problem. For exposing problems, users can define any script for Consul to intelligently check and report the health status of all nodes in a cluster. These scripts could be as simple as returning a 200, or as complex as querying the load and query response time on a database server. Other monitoring solutions already provide such functionality, but where Consul shines is in the second half of monitoring—automatic intervention to find solutions to problems without human operators.\n\nSince Consul has built-in health checking, it not only notifies operators of a node or service failure, but automatically routes traffic away from unhealthy nodes. Consul is also able to re-route traffic back to a troubled node, once the node reports it is healthy again. In this way Consul pushes the existing paradigms of monitoring, making it much more than a simple notification system. Rather it surfaces problems and solves them without human intervention. Don’t worry about that pager going off in the middle of the night—rest easy with Consul.\n\nView the full LISA16 Program at https://www.usenix.org/conference/lisa16/conference-program"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'LISA16 - Network-Based LUKS Volume Decryption with Tang'
+language: English
+recordingDate: 1637447273
+description: "LISA16 - Network-Based LUKS Volume Decryption with Tang\n\nBrian J. Atkisson, Red Hat\n\nLUKS has long been the standard for volume encryption on Linux systems. It is easy to use and provides a high level of data security, especially for Linux laptops. However, using LUKS for encrypting server volumes, especially root volumes, poses significant issues when managing systems at scale. Your options to date for providing LUKS root volume encryption have been to establish a remote console connection at system boot or to store a key blob unsecured. Obviously, the former is not possible with more than a handful of systems, and the later eliminates any security gains made by using encryption in the first place.\n\nThe use-case for server disk encryption somewhat differs from laptop encryption. You want a system to be able to boot without admin interaction while in your secured operating environment, but should be secured should someone attempt to access the volume by other means. Common examples would be sending a failed disk back to a vendor, a third party gaining access to your back-end storage array or AWS volumes.\n\nThis talk will focus on a solution to this problem and demonstrate how one can use a network-based service to securely unlock LUKS volumes at boot while maintaining encrypted data at rest.\n\nView the full LISA16 Program at https://www.usenix.org/conference/lisa16/conference-program"
