@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - RAIDShield: Characterizing, Monitoring, and Proactively Protecting Against Disk Failures'
+language: English
+recordingDate: 1637617977
+description: "RAIDShield: Characterizing, Monitoring, and Proactively Protecting Against Disk Failures\n\nAo Ma, Fred Douglis, Guanlin Lu, and Darren Sawyer, EMC Corporation; Surendar Chandra and Windsor Hsu, Datrium, Inc.\n\nModern storage systems orchestrate a group of disks to achieve their performance and reliability goals. Even though such systems are designed to withstand the failure of individual disks, failure of multiple disks poses a unique set of challenges. We empirically investigate disk failure data from a large number of production systems, specifically focusing on the impact of disk failures on RAID storage systems. Our data covers about one million SATA disks from 6 disk models for periods up to 5 years. We show how observed disk failures weaken the protection provided by RAID. The count of reallocated sectors correlates strongly with impending failures.\n\nWith these findings we designed RAIDSHIELD, which consists of two components. First, we have built and evaluated an active defense mechanism that monitors the health of each disk and replaces those that are predicted to fail imminently. This proactive protection has been incorporated into our product and is observed to eliminate 88% of triple disk errors, which are 80% of all RAID failures. Second, we have designed and simulated a method of using the joint failure probability to quantify and predict how likely a RAID group is to face multiple simultaneous disk failures, which can identify disks that collectively represent a risk of failure even when no individual disk is flagged in isolation. We find in simulation that RAID-level analysis can effectively identify most vulnerable RAID-6 systems, improving the coverage to 98% of triple errors.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - Keynote Address: A Brief History of the BSD Fast Filesystem'
+language: English
+recordingDate: 1637617977
+description: "Keynote Address: A Brief History of the BSD Fast Filesystem\n\nDr. Marshall Kirk McKusick, Author and Consultant\n\nThis talk provides a taxonomy of filesystem and storage development from 1979 to the present with the BSD Fast Filesystem as its focus. It describes the early performance work done by increasing the disk block size and by being aware of the disk geometry and using that knowledge to optimize rotational layout. With the abstraction of the geometry in the late 1980's and the ability of the hardware to cache and handle multiple requests, filesystems performance ceased trying to track geometry and instead sought to maximize performance by doing contiguous file layout. Small file performance was optimized through the use of techniques such as journaling and soft updates. By the late 1990's, filesystems had to be redesigned to handle the ever growing disk capacities. The addition of snapshots allowed for faster and more frequent backups. The increasingly harsh environment of the Internet required greater data protection provided by access-control lists and mandatory-access controls.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

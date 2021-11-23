@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - Boosting Quasi-Asynchronous I/O for Better Responsiveness in Mobile Devices'
+language: English
+recordingDate: 1637617977
+description: "Boosting Quasi-Asynchronous I/O for Better Responsiveness in Mobile Devices\n\nDaeho Jeong, Samsung Electronics Co.; Youngjae Lee and Jin-Soo Kim, Sungkyunkwan University\n\nProviding quick system response for mobile devices is of great importance due to their interactive nature. However, we observe that the latency of file system operations increases dramatically under heavy asynchronous I/Os in the background. A careful analysis reveals that most of the delay arises from an unexpected situation where the file system operations are blocked until one or more asynchronous I/O operations are completed. We call such an I/O—which is issued as an asynchronous I/O but has the property of a synchronous I/O as some tasks are blocked on it—Quasi-Asynchronous I/O (QASIO).\n\nWe classify the types of dependencies between tasks and QASIOs and then show when such dependencies occur in the Linux kernel. Also, we propose a novel scheme to detect QASIOs at run time and boost them over the other asynchronous I/Os in the I/O scheduler. Our measurement results on the latest smartphone demonstrate that the proposed scheme effectively improves the responsiveness of file system operations.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

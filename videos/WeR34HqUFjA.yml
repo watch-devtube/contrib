@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - LADS: Optimizing Data Transfers Using Layout-Aware Data Scheduling'
+language: English
+recordingDate: 1637617977
+description: "LADS: Optimizing Data Transfers Using Layout-Aware Data Scheduling\n\nYoungjae Kim, Scott Atchley, and Geoffroy R. Vallée, Oak Ridge National Laboratory; Galen M. Shipman, Los Alamos National Laboratory\n\nWhile future terabit networks hold the promise of significantly improving big-data motion among geographically distributed data centers, significant challenges must be overcome even on today’s 100 gigabit networks to realize end-to-end performance. Multiple bottlenecks exist along the end-to-end path from source to sink. Data storage infrastructure at both the source and sink and its interplay with the wide-area network are increasingly the bottleneck to achieving high performance. In this paper, we identify the issues that lead to congestion on the path of an end-to-end data transfer in the terabit network environment, and we present a new bulk data movement framework called LADS for terabit networks. LADS exploits the underlying storage layout at each endpoint to maximize throughput without negatively impacting the performance of shared storage resources for other users. LADS also uses the Common Communication Interface (CCI) in lieu of the sockets interface to use zero-copy, OS-bypass hardware when available. It can further improve data transfer performance under congestion on the end systems using buffering at the source using flash storage. With our evaluations, we show that LADS can avoid congested storage elements within the shared storage resource, improving I/O bandwidth, and data transfer rates across the high speed networks.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

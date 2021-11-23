@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - Non-blocking Writes to Files'
+language: English
+recordingDate: 1637617977
+description: "Non-blocking Writes to Files\n\nDaniel Campello and Hector Lopez, Florida International University; Luis Useche, Google Inc.; Ricardo Koller, IBM T. J. Watson Research Center; Raju Rangaswami, Florida International University\n\nWriting data to a page not present in the file-system page cache causes the operating system to synchronously fetch the page into memory first. Synchronous page fetch defines both policy (when) and mechanism (how), and always blocks the writing process. Non-blocking writes eliminate such blocking by buffering the written data elsewhere in memory and unblocking the writing process immediately. Subsequent reads to the updated page locations are also made non-blocking. This new handling of writes to non-cached pages allow processes to overlap more computation with I/O and improves page fetch I/O throughput by increasing fetch parallelism. Our empirical evaluation demonstrates the potential of nonblocking writes in improving the overall performance of systems with no loss of performance when workloads cannot benefit from it. Across the Filebench write workloads, non-blocking writes improve benchmark throughput by 7X on average (up to 45.4X) when using disk drives and by 2.1X on average (up to 4.2X) when using SSDs. For the SPECsfs2008 benchmark, non-blocking writes decrease overall average latency of NFS operations between 3.5% and 70% and average write latency between 65% and 79%. When replaying the MobiBench file system traces, non-blocking writes decrease average operation latency by 20-60%.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

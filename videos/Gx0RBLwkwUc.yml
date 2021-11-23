@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - Efficient MRC Construction with SHARDS'
+language: English
+recordingDate: 1637617977
+description: "Efficient MRC Construction with SHARDS\n\nCarl A. Waldspurger, Nohhyun Park, Alexander Garthwaite, and Irfan Ahmad, CloudPhysics, Inc.\n\nReuse-distance analysis is a powerful technique for characterizing temporal locality of workloads, often visualized with miss ratio curves (MRCs). Unfortunately, even the most efficient exact implementations are too heavyweight for practical online use in production systems.\n\nWe introduce a new approximation algorithm that employs uniform randomized spatial sampling, implemented by tracking references to representative locations selected dynamically based on their hash values. A further refinement runs in constant space by lowering the sampling rate adaptively. Our approach, called SHARDS (Spatially Hashed Approximate Reuse Distance Sampling), drastically reduces the space and time requirements of reuse-distance analysis, making continuous, online MRC generation practical to embed into production firmware or system software. SHARDS also enables the analysis of long traces that, due to memory constraints, were resistant to such analysis in the past.\n\nWe evaluate SHARDS using trace data collected from a commercial I/O caching analytics service. MRCs generated for more than a hundred traces demonstrate high accuracy with very low resource usage. MRCs constructed in a bounded 1 MB footprint, with effective sampling rates significantly lower than 1%, exhibit approximate miss ratio errors averaging less than 0.01. For large traces, this configuration reduces memory usage by a factor of up to 10,800 and run time by a factor of up to 204.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"
