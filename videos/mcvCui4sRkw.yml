@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon UK 2021: Foivos Filippopoulos - Semaphore'
+recordingDate: 1637596320
+description: "Semaphore is a light framework that provides simple, secure communication between Deployments that run in different Kubernetes clusters, without requiring any changes to the applications code or deployment manifests. In order to be as small, lightweight, and safe as possible, the components are open source and written in Go using the respective Kubernetes and Calico client implementations.\n\nThis presentation will cover the functionality of the 3 individual operators involved, touching the topics of:\n- Implementing a WireGuard peer manager based on Kubernetes Nodes' annotations in order to route and encrypt traffic to remote Pod subnets\n- Running an operator to mirror remote endpoints into local Kubernetes Services\n- Watching remote clusters workload to implement local firewall rules based on Kubernetes NetworkPolicies mechanism\n\nAlong with the presentation of the above functionality, there will be a quick demonstration of the tools in action. This talk could be useful to Kubernetes users among the audience, particularly interested in pairing remote clusters."

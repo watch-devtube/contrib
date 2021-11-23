@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - Skylight—A Window on Shingled Disk Operation'
+language: English
+recordingDate: 1637618061
+description: "Skylight—A Window on Shingled Disk Operation\n\nAbutalib Aghayev and Peter Desnoyers, Northeastern University\n\nWe introduce Skylight, a novel methodology that combines software and hardware techniques to reverse engineer key properties of drive-managed ShingledMagnetic Recording (SMR) drives. The software part of Skylight measures the latency of controlled I/O operations to infer important properties of drive-managed SMR, including type, structure, and size of the persistent cache; type of cleaning algorithm; type of block mapping; and size of bands. The hardware part of Skylight tracks drive head movements during these tests, using a high-speed camera through an observation window drilled through the cover of the drive. These observations not only confirm inferences from measurements, but resolve ambiguities that arise from the use of latency measurements alone.We show the generality and efficacy of our techniques by running them on top of three emulated and two real SMR drives, discovering valuable performance-relevant details of the behavior of the real SMR drives.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

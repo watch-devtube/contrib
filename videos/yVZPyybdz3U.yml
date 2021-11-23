@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - Chronicle: Capture and Analysis of NFS Workloads at Line Rate'
+language: English
+recordingDate: 1637617977
+description: "Chronicle: Capture and Analysis of NFS Workloads at Line Rate\n\nArdalan Kangarlou, Sandip Shete, and John D. Strunk, NetApp, Inc.\n\nInsights from workloads have been instrumental in hardware and software design, problem diagnosis, and performance optimization. The recent emergence of software-defined data centers and application-centric computing has further increased the interest in studying workloads. Despite the ever-increasing interest, the lack of general frameworks for trace capture and workload analysis at line rate has impeded characterizing many storage workloads and systems. This is in part due to complexities associated with engineering a solution that is tailored enough to use computational resources efficiently yet is general enough to handle different types of analyses or workloads.\n\nThis paper presents Chronicle, a high-throughput framework for capturing and analyzing Network File System (NFS) workloads at line rate. More specifically, we designed Chronicle to characterize NFS network traffic at rates above 10Gb/s for days to weeks. By leveraging the actor programming model and a pluggable, pipelined architecture, Chronicle facilitates a highly portable and scalable framework that imposes little burden on application programmers. In this paper, we demonstrate that Chronicle can reconstruct, process, and record storage-level semantics at the rate of 14Gb/s using general-purpose CPUs, disks, and NICs.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

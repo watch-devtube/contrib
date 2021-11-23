@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - BetrFS: A Right-Optimized Write-Optimized File System'
+language: English
+recordingDate: 1637617977
+description: "BetrFS: A Right-Optimized Write-Optimized File System\n\nWilliam Jannen, Jun Yuan, Yang Zhan, Amogh Akshintala, Stony Brook University; John Esmet, Tokutek Inc.; Yizheng Jiao, Ankur Mittal, Prashant Pandey, and Phaneendra Reddy, Stony Brook University; Leif Walsh, Tokutek Inc.; Michael Bender, Stony Brook University; Martin Farach-Colton, Rutgers University; Rob Johnson, Stony Brook University; Bradley C. Kuszmaul, Massachusetts Institute of Technology; Donald E. Porter, Stony Brook University\n\nThe Bε-tree File System, or BetrFS, (pronounced “better eff ess”) is the first in-kernel file system to use a write-optimized index. Write optimized indexes (WOIs) are promising building blocks for storage systems because of their potential to implement both microwrites and large scans efficiently.\n\nPrevious work on WOI-based file systems has shown promise but has also been hampered by several open problems, which this paper addresses. For example, FUSE issues many queries into the file system, superimposing read-intensive workloads on top of writeintensive ones, thereby reducing the effectiveness of WOIs. Moving to an in-kernel implementation can address this problem by providing finer control of reads. This paper also contributes several implementation techniques to leverage kernel infrastructure without throttling write performance.\n\nOur results show that BetrFS provides good performance for both arbitrary microdata operations, which include creating small files, updating metadata, and small writes into large or small files, and for large sequential I/O. On one microdata benchmark, BetrFS provides more than 4 x the performance of ext4 or XFS. BetrFS is an ongoing prototype effort, and requires additional data-structure tuning to match current general purpose file systems on some operations such as deletes, directory renames, and large sequential writes. Nonetheless, many applications realize significant performance improvements. For instance, an in-place rsync of the Linux kernel source realizes roughly 1.6–22 speedup over other commodity file systems.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

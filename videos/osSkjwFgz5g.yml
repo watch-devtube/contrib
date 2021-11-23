@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon UK 2021: Tiago Mendes - Co-ordinating data changes in distributed systems'
+recordingDate: 1637596150
+description: "Changing data that affects multiple areas of a system is a relatively simple task in traditional monolithic systems with a centralised database, where we rely on database transactions to ensure the integrity of data. However, in microservice-based architecture things can get more complicated when a single request requires changes across multiple services - especially if data integrity and consistency is critical at all times (for example in insurance or banking applications).\n\nHow do we ensure that all changes were applied successfully to all services, particularly if we have an 'all-or-nothing' policy for these changes? How can we rollback if a failure does happen, in order to guarantee that the data stays consistent?\n\nIn this talk I'll walk through an approach to solve this problem, using Go examples to guide us. I'll first explain the nature of the problem, and why it can be quite complex. I'll then explain the Saga pattern which can be used to safely implement such changes."

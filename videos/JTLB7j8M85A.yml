@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon UK 2021: Eleni Fragkiadaki - Test coverage in Go, the whole package'
+recordingDate: 1637596306
+description: "A test suite for any package is explicitly testing different code paths and identifies how your code works using different inputs. But does it manage to cover all the code branches that exist in your code? How about all the different functions?\n\nOne way to answer these questions is to thoroughly look at all the tests written (by you and your colleagues) and understand if there are any gaps. The easiest way to do that though is to use a tool, and in the case of Go this tool is called cover.\n\nIn this talk we are going to dive into how the Go cover tool works, the structure of the Go coverage profile and what information it provides for the statements of your code and we are going to examine how our test code behaves when working with multiple sub-packages. We are going to walk through the existing behavior of the tool and generate aggregates for our packages taking into account sub-packages with and without tests"

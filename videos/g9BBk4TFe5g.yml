@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - Write Once, Get 50% Free: Saving SSD Erase Costs Using WOM Codes'
+language: English
+recordingDate: 1637617977
+description: "Write Once, Get 50% Free: Saving SSD Erase Costs Using WOM Codes\n\nGala Yadgar, Eitan Yaakobi, and Assaf Schuster, Technion—Israel Institute of Technology\n\nNAND flash, used in modern SSDs, is a write-once medium, where each memory cell must be erased prior to writing. The lifetime of an SSD is limited by the number of erasures allowed on each cell. Thus, minimizing erasures is a key objective in SSD design.\n\nA promising approach to eliminate erasures and extend SSD lifetime is to use write-once memory (WOM) codes, designed to accommodate additional writes on write-once media. However, these codes inflate the physically stored data by at least 29%, and require an extra read operation before each additional write. This reduces the available capacity and I/O performance of the storage device, so far preventing the adoption of these codes in SSD design.\n\nWe present Reusable SSD, in which invalid pages are reused for additional writes, without modifying the drive’s exported storage capacity or page size. Only data written as a second write is inflated, and the required additional storage is provided by the SSD’s inherent overprovisioning space. By prefetching invalid data and parallelizing second writes between planes, our design achieves latency equivalent to a regular write. We reduce the number of erasures by 33% in most cases, resulting in a 15% lifetime extension and an overall reduction of up to 35% in I/O response time, on a wide range of synthetic and production workloads and flash chip architectures.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

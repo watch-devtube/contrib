@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - NV-Tree: Reducing Consistency Cost for NVM-based Single Level Systems'
+language: English
+recordingDate: 1637617977
+description: "NV-Tree: Reducing Consistency Cost for NVM-based Single Level Systems\n\nJun Yang, Qingsong Wei, Cheng Chen, Chundong Wang, and Khai Leong Yong, Data Storage Institute, A-STAR; Bingsheng He, Nanyang Technological University\n\nThe non-volatile memory (NVM) has DRAM-like performance and disk-like persistency which make it possible to replace both disk and DRAM to build single level systems. To keep data consistency in such systems is non-trivial because memory writes may be reordered by CPU and memory controller. In this paper, we study the consistency cost for an important and common data structure, B+Tree. Although the memory fence and CPU cacheline flush instructions can order memory writes to achieve data consistency, they introduce a significant overhead (more than 10X slower in performance). Based on our quantitative analysis of consistency cost, we propose NV-Tree, a consistent and cache-optimized B+Tree variant with reduced CPU cacheline flush. We implement and evaluate NV-Tree and NV-Store, a key-value store based on NV-Tree, on an NVDIMM server. NVTree outperforms the state-of-art consistent tree structures by up to 12X under write-intensive workloads. NV-Store increases the throughput by up to 4.8X under YCSB workloads compared to Redis.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"
