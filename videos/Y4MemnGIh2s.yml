@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - Host-side Filesystem Journaling for Durable Shared Storage'
+language: English
+recordingDate: 1637617977
+description: "Host-side Filesystem Journaling for Durable Shared Storage\n\nAndromachi Hatzieleftheriou and Stergios V. Anastasiadis, University of Ioannina\n\nHardware consolidation in the datacenter occasionally leads to scalability bottlenecks due to the heavy utilization of critical resources, such as the shared network bandwidth. Hostside caching on durable media is already applied at the block level in order to reduce the load of the storage backend. However, block-level caching is often criticized for added overhead, and restricted data sharing across different hosts. During client crashes,writeback caching can also lead to unrecoverable loss of written data that was previously acknowledged as stable.We improve the durability of shared storage in the datacenter by supporting journaling at the kernel-level client of an object-based distributed filesystem. Storage virtualization at the file interface achieves clear consistency semantics across data and metadata blocks, supports native file sharing between clients over the same or different hosts, and provides flexible configuration of the time period during which the data is durably staged at the host side. Over a prototype implementation that we developed, we experimentally demonstrate improved performance up to 58%for specific durability guarantees, and reduced network and disk bandwidth at the storage servers by up to 42% and 82%, respectively.\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"

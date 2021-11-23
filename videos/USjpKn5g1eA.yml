@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''15 - SDGen: Mimicking Datasets for Content Generation in Storage Benchmarks'
+language: English
+recordingDate: 1637617977
+description: "SDGen: Mimicking Datasets for Content Generation in Storage Benchmarks\n\nRaúl Gracia-Tinedo, Universitat Rovira i Virgili; Danny Harnik, Dalit Naor, and Dmitry Sotnikov, IBM Research Haifa; Sivan Toledo and Aviad Zuck, Tel-Aviv University\n\nStorage system benchmarks either use samples of proprietary data or synthesize artificial data in simple ways (such as using zeros or random data). However, many storage systems behave completely differently on such artificial data than they do on real-world data. This is the case with systems that include data reduction techniques, such as compression and/or deduplication.\n\nTo address this problem, we propose a benchmarking methodology called mimicking and apply it in the domain of data compression. Our methodology is based on characterizing the properties of real data that influence the performance of compressors. Then, we use these characterizations to generate new synthetic data that mimics the real one in many aspects of compression. Unlike current solutions that only address the compression ratio of data, mimicking is flexible enough to also emulate compression times and data heterogeneity. We show that these properties matter to the system’s performance.\n\nIn our implementation, called SDGen, characterizations take at most 2:5KB per data chunk (e.g., 64KB) and can be used to efficiently share benchmarking data in a highly anonymized fashion; sharing it carries few or no privacy concerns. We evaluated our data generator’s accuracy on compressibility and compression times using real-world datasets and multiple compressors (lz4, zlib, bzip2 and lzma). As a proof-of-concept, we integrated SDGen as a content generation layer in two popular benchmarks (LinkBench and Impressions).\n\nView the full FAST '15 program at https://www.usenix.org/conference/fast15/technical-sessions"
