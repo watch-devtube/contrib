@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'SREcon15 - Netflix RaaS: Reliability as a Service'
+language: English
+recordingDate: 1637694549
+description: "Netflix RaaS: Reliability as a Service\n\nCoburn Watson, Netflix, Inc.\n\nThe Netflix architecture is based on hundreds of microservices running in the cloud at massive scale across numerous AWS regions. Achieving excellent availability of such a complex system requires a capable operations methodology. At Netflix we have a shared services team which seeks to lower operational barriers for individual service teams in order to improve both aggregate and microservice-level reliability. The challenge lies in finding the right balance of responsibility between a shared service support team and the devops engineers on the microservice team itself. We have taken an approach in which tooling and associated methodologies developed by our Operations Engineering organization tackle the following subset of operational activities at a platform-level:\n\n- Continuous integration and deployment\n-automated staggered deployment of microservice code across cloud regions\n-automated analysis of canary versus baseline code\n-Tuning of curcuits in the system which respond to localized failures\n- Improved observability for both macro and micro performance dimensions\n- Identification and termination of server instances which are outliers\n\nThrough elimination of such undifferentiated heavy lifting, the teams can shift their focus onto product development versus being mired in operational complexity. The key benefit is the improvement of engineering velocity alongside reliability. As an organization. a direction needs to be taken on where to draw the line for operational responsibilities. This is no different in the Netflix \"Freedom and Responsibility\" culture.\n\nThis presentation will cover the operational complexities we have abstracted away from our microservice engineering teams, the associated decision factors, and future direction of the program.\n\nView the full SREcon15 program at https://www.usenix.org/conference/srecon15/program"
