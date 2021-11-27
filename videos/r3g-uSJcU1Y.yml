@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon UK 2021: Stuart Murray - How Go powered our elastic search'
+recordingDate: 1637907860
+description: "As our customer workloads continue to increase, we find ourselves engaging with a number of interesting scaling challenges. One such challenge was one of our Postgres database instances, which had become a bottleneck for running high operational workloads whilst also being subjected to certain other workloads.\n\nWe considered a number of solutions and determined that Elasticsearch would help us to remove this bottleneck. However, we needed a solution to listen to the events from our messaging queues and to create and update the relevant documents in Elasticsearch in order to make this work. Enter Go!\n\nWe built a Go microservice quickly and were able to efficiently take it to production, meaning that the project was a great success. We'll talk about:\n\n* How we structured the solution to maximise maintainability and ease of rapid development;\n* The strengths of Go that were really compelling to our use case; and\n* Some of the challenges we overcame along the way.\n\nThis talk will be particularly interesting for people who are looking to efficiently implement architectural interventions in Go (including introducing Go into a wider technical environment), and for those who are starting new projects, but there should be something for most people."
