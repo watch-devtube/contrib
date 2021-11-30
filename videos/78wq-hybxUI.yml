@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Runtime Safety of Akka - Paweł Lipski & Marcin Złakowski'
+language: English
+recordingDate: 1638191481
+description: "Serialization toolbox for Akka messages, events and persistent state that helps achieve compile-time guarantee on serializability by Paweł Lipski & Marcin Złakowski\n\nEvery message leaving a JVM boundary in Akka needs to be serialized first. However, the existing solutions for serialization in Scala leave a lot of room for runtime failures that are NOT reported in compile time. \n\nWe’re glad to introduce Akka Serialization Helper, a toolkit including a Circe-based, runtime-safe serializer and a set of Scala compiler plugins to counteract the common caveats when working with Akka serialization.\n\nPresented at Sphere.it Tech Talks #5 - Runtime Safety of Akka & TDD"

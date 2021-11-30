@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Dimensional Analysis for Multidimensional Dataflow Programming - Monem Shennat |Lambda Days 2021'
+language: English
+recordingDate: 1638190811
+description: "This video was recorded at virtual Lambda Days conference, which took place on 16-19th February 2021 - https://www.lambdadays.org/lambdadays2021\n\nMore great virtual tech conferences - https://codesync.global​ \n\n---\n\nDimensional Analysis for Multidimensional Dataflow Programming\nby Monem Shennat\n\n\nABSTRACT\nIn this presentation we show an algorithm for Dimensional Analysis (DA) of a multidimensional dialect of the dataflow language Lucid. A Lucid program is a set of equations defining a family of multidimensional datasets; each data set being a collection of data points indexed by coordinates in a number of dimensions. Every variable in a Lucid program denotes one such dataset, and they are defined in terms of input and transformations applied to other variables. In general, not every dimension is relevant in every data set. It is very important not to include irrelevant dimensions because otherwise you have the same data duplicated with different values of the coordinates in the irrelevant dimension. In most multidimensional systems it is the programmer’s responsibility to exclude irrelevant dimensions and to keep track of changes in dimensionality that result from transformations. In other words, DA is performed manually. In Lucid, however, we have an alternative, namely automated DA. Static program analysis allows us to calculate or estimate the dimensionality of program variables. This is the goal of our research. We use an iterative algorithm that computes a series of approximation that settle down after a few steps. The algorithm is a first step towards the most general case; it does not yet handle local dimensions and user defined transformations.\n---\n\nSPEAKER - Monem Shennat\nPhD student @University of Victoria, searching Dimensional Analysis for Data-flow programming \nMonem is studying at the Department of Computer Science in University of Victoria, working on Dimensional Analysis for Data-flow Programming for my research, and interested in analyzing and visualizing datasets.\n\n\n---\n\nLambda Days\nWebsite: https://www.lambdadays.org​\nTwitter: https://twitter.com/LambdaDays​"
