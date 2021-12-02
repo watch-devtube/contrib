@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Log2: A Cost-Aware Logging Mechanism for Performance Diagnosis'
+language: English
+recordingDate: 1638405293
+description: "Log2: A Cost-Aware Logging Mechanism for Performance Diagnosis\n\nRui Ding, Hucheng Zhou, Jian-Guang Lou, Hongyu Zhang, and Qingwei Lin, Microsoft Research; Qiang Fu, Microsoft; Dongmei Zhang, Microsoft Research; Tao Xie, University of Illinois at Urbana-Champaign\n\nLogging has been a common practice for monitoring and diagnosing performance issues. However, logging comes at a cost, especially for large-scale online service systems. First, the overhead incurred by intensive logging is non-negligible. Second, it is costly to diagnose a performance issue if there are a tremendous amount of redundant logs. Therefore, we believe that it is important to limit the overhead incurred by logging, without sacrificing the logging effectiveness. In this paper we propose Log2, a cost-aware logging mechanism. Given a “budget” (defined as the maximum volume of logs allowed to be output in a time interval), Log2 makes the \"whether to log\" decision through a two-phase filtering mechanism. In the first phase, a large number of irrelevant logs are discarded efficiently. In the second phase, useful logs are cached and output while complying with logging budget. In this way, Log2 keeps the useful logs and discards the less useful ones. We have implemented Log2 and evaluated it on an open source system as well as a real-world online service system from Microsoft. The experimental results show that Log2 can control logging overhead while preserving logging effectiveness.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - FloSIS: A Highly Scalable Network Flow Capture System for Fast Retrieval'
+language: English
+recordingDate: 1638400909
+description: "FloSIS: A Highly Scalable Network Flow Capture System for Fast Retrieval and Storage Efficiency\n\nJihyung Lee, Korea Advanced Institute of Science and Technology (KAIST); Sungryoul Lee and Junghee Lee, The Attached Institute of ETRI; Yung Yi and KyoungSoo Park, Korea Advanced Institute of Science and Technology (KAIST)\n\nNetwork packet capture performs essential functions in network management such as attack analysis, network troubleshooting, and performance debugging. As the network edge bandwidth exceeds 10 Gbps, the demand for scalable packet capture and retrieval is rapidly increasing. However, existing software-based packet capture systems neither provide high performance nor support flow-level indexing for fast query response. This would either prevent important packets from being stored or make it too slow to retrieve relevant flows.\n\nIn this paper, we present FloSIS, a highly scalable, software-based flow storing and indexing system. FloSIS is characterized as the following three aspects. First, it exercises full parallelism in multiple CPU cores and disks at all stages of packet processing. Second, it constructs two-stage flow-level indexes, which helps minimize expensive disk access for user queries. It also stores the packets in the same flow at a contiguous disk location, which maximizes disk read throughput. Third, we optimize storage usage by flow-level content deduplication at real time. Our evaluation shows that FloSIS on a dual octa-core CPU machine with 24 HDDs achieves 30 Gbps of zero-drop performance with real traffic, consuming only 0.25% of the space for indexing.\n\nView the USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

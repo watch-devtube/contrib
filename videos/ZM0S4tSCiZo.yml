@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Memory-Centric Data Storage for Mobile Systems'
+language: English
+recordingDate: 1638400910
+description: "Memory-Centric Data Storage for Mobile Systems\n\nJinglei Ren, Tsinghua University; Chieh-Jan Mike Liang, Microsoft Research; Yongwei Wu, Tsinghua University;Thomas Moscibroda, Microsoft Research\n\nCurrent data storage on smartphones mostly inherits from desktop/server systems a flash-centric design: The memory (DRAM) effectively acts as an I/O cache for the relatively slow flash. To improve both app responsiveness and energy efficiency, this paper proposes MobiFS, a memory-centric design for smartphone data storage. This design no longer exercises cache writeback at short fixed periods or on file synchronization calls. Instead, it incrementally checkpoints app data into flash at appropriate times, as calculated by a set of app/user-adaptive policies. MobiFS also introduces transactions into the cache to guarantee data consistency. This design trades off data staleness for better app responsiveness and energy efficiency, in a quantitative manner. Evaluations show that MobiFS achieves 18.8× higher write throughput and 11.2× more database transactions per second than the default Ext4 filesystem in Android. Popular real-world apps show improvements in response time and energy consumption by 51.6% and 35.8% on average, respectively.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

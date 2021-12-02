@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Selectively Taming Background Android Apps to Improve Battery Lifetime'
+language: English
+recordingDate: 1638400909
+description: "Selectively Taming Background Android Apps to Improve Battery Lifetime\n\nMarcelo Martins, Brown University; Justin Cappos, New York University; Rodrigo Fonseca, Brown University\n\nBackground activities on mobile devices can cause significant battery drain with little visibility or recourse to the user. They can range from useful but sometimes overly aggressive tasks, such as polling for messages or updates from sensors and online services, to outright bugs that cause resources to be held unnecessarily. In this paper we instrument the Android OS to characterize background activities that prevent the device from sleeping. We present TAMER, an OS mechanism that interposes on events and signals that cause task wakeups, and allows for their detailed monitoring, filtering, and rate-limiting. We demonstrate how TAMER can help reduce battery drain in scenarios involving popular Android apps with background tasks. We also show how TAMER can mitigate the effects of well-known energy bugs while maintaining most of the apps’ functionality. Finally, we elaborate on how developers and users can devise their own application-control policies for TAMER to maximize battery lifetime.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

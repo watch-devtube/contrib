@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - NightWatch: Integrating Lightweight and Transparent Cache Pollution Control'
+language: English
+recordingDate: 1638400909
+description: "NightWatch: Integrating Lightweight and Transparent Cache Pollution Control into Dynamic Memory Allocation Systems\n\nRentong Guo, Xiaofei Liao, and Hai Jin, Huazhong University of Science and Technology; Jianhui Yue, Auburn University; Guang Tan, Chinese Academy of Sciences\n\nCache pollution, by which weak-locality data unduly replaces strong-locality data, may notably degrade application performance in a shared-cache multicore machine. This paper presents NightWatch, a cache management subsystem that provides general, transparent and lowoverhead pollution control to applications. NightWatch is based on the observation that data within the same memory chunk or chunks within the same allocation context often share similar locality property. NightWatch embodies this observation by online monitoring current cache locality to predict future behavior and restricting potential cache polluters proactively. We have integrated NightWatch into two popular allocators, tcmalloc and ptmalloc2. Experiments with SPEC CPU2006 show that NightWatch improves application performance by up to 45% (18% on average), with an average monitoring overhead of 0.57% (up to 3.02%).\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

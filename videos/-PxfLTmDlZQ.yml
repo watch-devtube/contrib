@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Mercury: Hybrid Centralized and Distributed Scheduling in Large Shared Clusters'
+language: English
+recordingDate: 1638400909
+description: "Mercury: Hybrid Centralized and Distributed Scheduling in Large Shared Clusters\n\nKonstantinos Karanasos, Sriram Rao, Carlo Curino, Chris Douglas, Kishore Chaliparambil, Giovanni Matteo Fumarola, Solom Heddaya, Raghu Ramakrishnan, and Sarvesh Sakalanaga, Microsoft Corporation\n\nDatacenter-scale computing for analytics workloads is increasingly common. High operational costs force heterogeneous applications to share cluster resources for achieving economy of scale. Scheduling such large and diverse workloads is inherently hard, and existing approaches tackle this in two alternative ways: 1) centralized solutions offer strict, secure enforcement of scheduling invariants (e.g., fairness, capacity) for heterogeneous applications, 2) distributed solutions offer scalable, efficient scheduling for homogeneous applications.\n\nWe argue that these solutions are complementary, and advocate a blended approach. Concretely, we propose Mercury, a hybrid resource management framework that supports the full spectrum of scheduling, from centralized to distributed. Mercury exposes a programmatic interface that allows applications to trade-off between scheduling overhead and execution guarantees. Our framework harnesses this flexibility by opportunistically utilizing resources to improve task throughput. Experimental results on production-derived workloads show gains of over 35% in task throughput. These benefits can be translated by appropriate application and framework policies into job throughput or job latency improvements. We have implemented and contributed Mercury as an extension of Apache Hadoop / YARN.\n\nView the USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

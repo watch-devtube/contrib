@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Lamassu: Storage-Efficient Host-Side Encryption'
+language: English
+recordingDate: 1638400909
+description: "Lamassu: Storage-Efficient Host-Side Encryption\n\nPeter Shah and Won So, NetApp Inc.\n\nMany storage customers are adopting encryption solutions to protect critical data. Most existing encryption solutions sit in, or near, the application that is the source of critical data, upstream of the primary storage system. Placing encryption near the source ensures that data remains encrypted throughout the storage stack, making it easier to use untrusted storage, such as public clouds.\n\nUnfortunately, such a strategy also prevents downstream storage systems from applying content-based features, such as deduplication, to the data. In this paper, we present Lamassu, an encryption solution that uses block-oriented, host-based, convergent encryption to secure data, while preserving storage-based data deduplication. Unlike past convergent encryption systems, which typically store encryption metadata in a dedicated store, our system transparently inserts its metadata into each file’s data stream. This allows us to add Lamassu to an application stack without modifying either the client application or the storage controller.\n\nIn this paper, we lay out the architecture and security model used in our system, and present a new model for maintaining metadata consistency and data integrity in a convergent encryption environment. We also evaluate its storage efficiency and I/O performance by using a variety of microbenchmarks, showing that Lamassu provides excellent storage efficiency, while achieving I/O throughput on par with similar conventional encryption systems.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Lightweight Application-Level Crash Consistency on Transactional Flash Storage'
+language: English
+recordingDate: 1638400909
+description: "Lightweight Application-Level Crash Consistency on Transactional Flash Storage\n\nChangwoo Min, Georgia Institute of Technology; Woon-Hak Kang, Sungkyunkwan University; Taesoo Kim, Georgia Institute of Technology; Sang-Won Lee and Young Ik Eom, Sungkyunkwan University\n\nApplications implement their own update protocols to ensure consistency of data on the file system. However, since current file systems provide only a preliminary ordering guarantee, notably fsync(), these update protocols become complex, slow, and error-prone.\n\nWe present a new file system, CFS, that supports a native interface for applications to maintain crash consistency of their data. Using CFS, applications can achieve crash consistency of data by declaring code regions that must operate atomically. By utilizing transactional flash storage (SSD/X-FTL), CFS implement a lightweight mechanism for crash consistency. Without using any heavyweight mechanisms based on redundant writes and ordering, CFS can atomically write multiple data pages and their relevant metadata to storage.\n\nWe made three technical contributions to develop a crash consistency interface with SSD/X-FTL in CFS: selective atomic propagation of dirty pages, in-memory metadata logging, and delayed deallocation. Our evaluation of five real-world applications shows that CFS-based applications significantly outperform ordering versions: 2–5x faster by reducing disk writes 1.9–4.1x and disk cache flushing 1.1–17.6x. Importantly, our porting effort is minimal: CFS requires 317 lines of modifications from 3.5 million lines of ported applications.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"
