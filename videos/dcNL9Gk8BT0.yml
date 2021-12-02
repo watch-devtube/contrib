@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Spartan: A Distributed Array Framework with Smart Tiling'
+language: English
+recordingDate: 1638400909
+description: "Spartan: A Distributed Array Framework with Smart Tiling\n\nChien-Chin Huang, New York University; Qi Chen, Peking University; Zhaoguo Wang and Russell Power, New York University; Jorge Ortiz, IBM T.J. Watson Research Center; Jinyang Li, New York University; Zhen Xiao, Peking University\n\nApplication programmers in domains like machine learning, scientific computing, and computational biology are accustomed to using powerful, high productivity array languages such as MatLab, R and NumPy. Distributed array frameworks aim to scale array programs across machines. However, maximizing the locality of access to distributed arrays is an unsolved problem; such locality is critical for high performance. This paper presents Spartan, a distributed array framework that automatically determines how to best partition (aka “tile”) ndimensional arrays and to co-locate data with computation to maximize locality. Spartan combines a lazy-evaluation based, optimizing frontend with a distributed tiled array backend. Central to Spartan’s design is a small number of carefully chosen parallel high-level operators, which form the expression graph captured by Spartan’s frontend during runtime. These operators simplify the programming of distributed applications.More importantly, their well-defined semantics allow Spartan’s runtime to calculate the costs of different tiling strategies and pick the best one for evaluating the entire expression graph.\n\nUsing Spartan, we have implemented 12 applications from a variety of domains including machine learning and scientific computing. Our evaluations show that Spartan’s automatic tiling mechanism leads to good and scalable performance while eliminating the need for manual tiling.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

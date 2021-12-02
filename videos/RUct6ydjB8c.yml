@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - GraphQ: Graph Query Processing with Abstraction Refinement'
+language: English
+recordingDate: 1638400909
+description: "GraphQ: Graph Query Processing with Abstraction Refinement—Scalable and Programmable Analytics over Very Large Graphs on a Single PC\n\nKai Wang and Guoqing Xu, University of California, Irvine; Zhendong Su, University of California, Davis; Yu David Liu, SUNY at Binghamton\n\nThis paper introduces GraphQ, a scalable querying framework for very large graphs. GraphQ is built on a key insight that many interesting graph properties—such as finding cliques of a certain size, or finding vertices with a certain page rank—can be effectively computed by exploring only a small fraction of the graph, and traversing the complete graph is an overkill. The centerpiece of our framework is the novel idea of abstraction refinement, where the very large graph is represented as multiple levels of abstractions, and a query is processed through iterative refinement across graph abstraction levels. As a result, GraphQ enjoys several distinctive traits unseen in existing graph processing systems: query processing is naturally budget-aware, friendly for out-ofcore processing when “Big Graphs” cannot entirely fit into memory, and endowed with strong correctness properties on query answers. With GraphQ, a wide range of complex analytical queries over very large graphs can be answered with resources affordable to a single PC, which complies with the recent trend advocating singlemachine- based Big Data processing.\n\nExperiments show GraphQ can answer queries in graphs 4-6 times bigger than the memory capacity, only in several seconds to minutes. In contrast, GraphChi, a state-of-the-art graph processing system, takes hours to days to compute a whole-graph solution. An additional comparison with a modified version of GraphChi that terminates immediately when a query is answered shows that GraphQ is on average 1.6–13.4x faster due to its ability to process partial graphs.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

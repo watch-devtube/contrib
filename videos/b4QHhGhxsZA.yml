@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - U-root: A Go-based, Firmware Embeddable Root File System with On-demand Compilation'
+language: English
+recordingDate: 1638400909
+description: "U-root: A Go-based, Firmware Embeddable Root File System with On-demand Compilation\n\nRonald G. Minnich, Google; Andrey Mirtchovski, Cisco\n\nU-root is an embeddable root file system intended to be placed in a FLASH device as part of the firmware image, along with a Linux kernel. The program source code is installed in the root file system contained in the firmware FLASH part and compiled on demand. All the u-root utilities, roughly corresponding to standard Unix utilities, are written in Go, a modern, type-safe language with garbage collection and language-level support for concurrency and inter-process communication.\n\nUnlike most embedded root file systems, which consist largely of binaries, U-root has only five: an init program and 4 Go compiler binaries. When a program is first run, it and any not-yet-built packages it uses are compiled to a RAM-based file system. The first invocation of a program takes a fraction of a second, as it is compiled. Packages are only compiled once, so the slowest build is always the first one, on boot, which takes about 3 seconds. Subsequent invocations are very fast, usually a millisecond or so.\n\nU-root blurs the line between script-based distros such as Perl Linux and binary-based distros such as BusyBox; it has the flexibility of Perl Linux and the performance of BusyBox. Scripts and builtins are written in Go, not a shell scripting language. U-root is a new way to package and distribute file systems for embedded systems, and the use of Go promises a dramatic improvement in their security.\n\nView the USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-session/presentation/minnich"

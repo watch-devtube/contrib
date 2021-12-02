@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Shoal: Smart Allocation and Replication of Memory For Parallel Programs'
+language: English
+recordingDate: 1638400909
+description: "Shoal: Smart Allocation and Replication of Memory For Parallel Programs\n\nStefan Kaestle, Reto Achermann, and Timothy Roscoe, ETH Zürich; Tim Harris, Oracle Labs, Cambridge\n\nModern NUMA multi-core machines exhibit complex latency and throughput characteristics, making it hard to allocate memory optimally for a given program’s access patterns. However, sub-optimal allocation can significantly impact performance of parallel programs.\n\nWe present an array abstraction that allows data placement to be automatically inferred from program analysis, and implement the abstraction in Shoal, a runtime library for parallel programs on NUMA machines. In Shoal, arrays can be automatically replicated, distributed, or partitioned across NUMA domains based on annotating memory allocation statements to indicate access patterns. We further show how such annotations can be automatically provided by compilers for high-level domain-specific languages (for example, the Green-Marl graph language). Finally, we show how Shoal can exploit additional hardware such as programmable DMA copy engines to further improve parallel program performance.\n\nWe demonstrate significant performance benefits from automatically selecting a good array implementation based on memory access patterns and machine characteristics. We present two case-studies: (i) Green-Marl, a graph analytics workload using automatically annotated code based on information extracted from the high-level program and (ii) a manually-annotated version of the PARSEC Streamcluster benchmark.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

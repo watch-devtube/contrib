@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Secure Deduplication of General Computations'
+language: English
+recordingDate: 1638400909
+description: "Secure Deduplication of General Computations\n\nYang Tang and Junfeng Yang, Columbia University\n\nThe world’s fast-growing data has become highly concentrated on enterprise or cloud storage servers. Data deduplication reduces redundancy in this data, saving storage and simplifying management. While existing systems can deduplicate computations on this data by memoizing and reusing computation results, they are insecure, not general, or slow.\n\nThis paper presents UNIC, a system that securely deduplicates general computations. It exports a cache service that allows applications running on behalf of mutually distrusting users on local or remote hosts to memoize and reuse computation results. Key in UNIC are three new ideas. First, through a novel use of code attestation, UNIC achieves both integrity and secrecy. Second, it provides a simple yet expressive API that enables applications to deduplicate their own rich computations. This design is much more general and flexible than existing systems that can deduplicate only specific types of computations. Third, UNIC explores a cross-layer design that allows the underlying storage system to expose data deduplication information to the applications for better performance.\n\nEvaluation of UNIC on four popular open-source applications shows that UNIC is easy to use, fast, and with little storage overhead.\n\nView the full USENIX ATC '15 at https://www.usenix.org/conference/atc15/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Mahimahi: Accurate Record-and-Replay for HTTP'
+language: English
+recordingDate: 1638400909
+description: "Mahimahi: Accurate Record-and-Replay for HTTP\n\nRavi Netravali, Anirudh Sivaraman, Somak Das, and Ameesh Goyal MIT CSAIL; Keith Winstein, Stanford University; James Mickens, Harvard University; Hari Balakrishnan, MIT CSAIL\n\nThis paper presents Mahimahi, a framework to record traffic from HTTP-based applications, and later replay it under emulated network conditions. Mahimahi improves upon prior record-and-replay frameworks in three ways. First, it is more accurate because it carefully emulates the multi-server nature of Web applications, present in 98% of the Alexa US Top 500 Web pages. Second, it isolates its own network traffic, allowing multiple Mahimahi instances emulating different networks to run concurrently without mutual interference. And third, it is designed as a set of composable shells, providing ease-of-use and extensibility.\n\nWe evaluate Mahimahi by: (1) analyzing the performance of HTTP/1.1, SPDY, and QUIC on a corpus of 500 sites, (2) using Mahimahi to understand the reasons why these protocols are suboptimal, (3) developing Cumulus, a cloud-based browser designed to overcome these problems, using Mahimahi both to implement Cumulus by extending one of its shells, and to evaluate it, (4) using Mahimahi to evaluate HTTP multiplexing protocols on multiple performance metrics (page load time and speed index), and (5) describing how others have used Mahimahi.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

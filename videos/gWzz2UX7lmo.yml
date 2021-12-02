@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - SecPod: a Framework for Virtualization-based Security Systems'
+language: English
+recordingDate: 1638400909
+description: "SecPod: a Framework for Virtualization-based Security Systems\n\nXiaoguang Wang, Xi'an Jiaotong University and Florida State University; Yue Chen and Zhi Wang, Florida State University; Yong Qi, Xi'an Jiaotong University; Yajin Zhou, Qihoo 360\n\nThe OS kernel is critical to the security of a computer system. Many systems have been proposed to improve its security. A fundamental weakness of those systems is that page tables, the data structures that control the memory protection, are not isolated from the vulnerable kernel, and thus subject to tampering. To address that, researchers have relied on virtualization for reliable kernel memory protection. Unfortunately, such memory protection requires to monitor every update to the guest’s page tables. This fundamentally conflicts with the recent advances in the hardware virtualization support. In this paper, we propose SecPod, an extensible framework for virtualization-based security systems that can provide both strong isolation and the compatibility with modern hardware. SecPod has two key techniques: paging delegation delegates and audits the kernel’s paging operations to a secure space; execution trapping intercepts the (compromised) kernel’s attempts to subvert SecPod by misusing privileged instructions. We have implemented a prototype of SecPod based on KVM. Our experiments show that SecPod is both effective and efficient.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

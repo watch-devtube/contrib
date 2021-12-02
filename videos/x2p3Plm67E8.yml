@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - NVMKV: A Scalable, Lightweight, FTL-aware Key-Value Store'
+language: English
+recordingDate: 1638400909
+description: "NVMKV: A Scalable, Lightweight, FTL-aware Key-Value Store\n\nLeonardo Marmol, Florida International University; Swaminathan Sundararaman and Nisha Talagala, SanDisk; Raju Rangaswami, Florida International University\n\nKey-value stores are ubiquitous in high performance data-intensive, scale out, and NoSQL environments. Many KV stores use flash devices for meeting their performance needs. However, by using flash as a simple block device, these KV stores are unable to fully leverage the powerful capabilities that exist within Flash Translation Layers (FTLs). NVMKV is a lightweight KV store that leverages native FTL capabilities such as sparse addressing, dynamic mapping, transactional persistence, and support for high-levels of lock free parallelism. Our evaluation of NVMKV demonstrates that it provides scalable, high-performance, and ACID compliant KV operations at close to raw device speeds.\n\nView the USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

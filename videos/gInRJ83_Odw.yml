@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - LAMA: Optimized Locality-aware Memory Allocation for Key-value Cache'
+language: English
+recordingDate: 1638400909
+description: "LAMA: Optimized Locality-aware Memory Allocation for Key-value Cache\n\nXiameng Hu, Xiaolin Wang, Yechen Li, Lan Zhou, and Yingwei Luo, Peking University; Chen Ding, University of Rochester; Song Jiang, Wayne State University; Zhenlin Wang, Michigan Technological University\n\nThe in-memory cache system is a performance-critical layer in today’s web server architecture. Memcached is one of the most effective, representative, and prevalent among such systems. An important problem is memory allocation. The default design does not make the best use of the memory. It fails to adapt when the demand changes, a problem known as slab calcification.\n\nThis paper introduces locality-aware memory allocation (LAMA), which solves the problem by first analyzing the locality of the Memcached requests and then repartitioning the memory to minimize the miss ratio and the average response time. By evaluating LAMA using various industry and academic workloads, the paper shows that LAMA outperforms existing techniques in the steady-state performance, the speed of convergence, and the ability to adapt to request pattern changes and overcome slab calcification. The new solution is close to optimal, achieving over 98% of the theoretical potential.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

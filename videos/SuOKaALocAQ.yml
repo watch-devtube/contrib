@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Boosting GPU Virtualization Performance with Hybrid Shadow Page Tables'
+language: English
+recordingDate: 1638400909
+description: "Boosting GPU Virtualization Performance with Hybrid Shadow Page Tables\n\nYaozu Dong and Mochi Xue, Shanghai Jiao Tong University and Intel Corporation; Xiao Zheng,Intel Corporation; Jiajun Wang, Shanghai Jiao Tong University and Intel Corporation; Zhengwei Qi and Haibing Guan, Shanghai Jiao Tong University\n\nThe increasing adoption of Graphic Process Unit (GPU) to computation-intensive workloads has stimulated a new computing paradigm called GPU cloud (e.g., Amazon’s GPU Cloud), which necessitates the sharing of GPU resources to multiple tenants in a cloud. However, state-of-the- art GPU virtualization techniques such as gVirt still suffer from non-trivial performance overhead for graphics memory-intensive workloads involving frequent page table updates.\n\nTo understand such overhead, this paper first presents GMedia, a media benchmark, and uses it to analyze the causes of such overhead. Our analysis shows that frequent updates to guest VM’s page tables causes excessive updates to the shadow page table in the hypervisor, due to the need to guarantee the consistency between guest page table and shadow page table. To this end, this paper proposes gHyvi1, an optimized GPU virtualization scheme based on gVirt, which uses adaptive hybrid page table shadowing that combines strict and relaxed page table schemes. By significantly reducing trap-and-emulation due to page table updates, gHyvi significantly improves gVirt’s performance for memory-intensive GPU workloads. Evaluation using GMedia shows that gHyvi can achieve up to 13x performance improvement compared to gVirt, and up to 85% native performance for multithread media transcoding.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

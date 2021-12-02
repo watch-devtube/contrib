@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Utilizing the IOMMU Scalably'
+language: English
+recordingDate: 1638400909
+description: "Utilizing the IOMMU Scalably\n\nOmer Peleg and Adam Morrison, Technion—Israel Institute of Technology; Benjamin Serebrin, Google; Dan Tsafrir,Technion—Israel Institute of Technology\n\nIOMMUs provided by modern hardware allow the OS to enforce memory protection controls on the DMA operations of its I/O devices. An IOMMU translation management design must scalably handle frequent concurrent updates of IOMMU translations made by multiple cores, which occur in high throughput I/O workloads such as multi-Gb/s networking. Today, however, OSes experience performance meltdowns when using the IOMMU in such workloads.\n\nThis paper explores scalable IOMMU management designs and addresses the two main bottlenecks we find in current OSes: (1) assignment of I/O virtual addresses (IOVAs), and (2) management of the IOMMU’s TLB.\n\nWe propose three approaches for scalable IOVA assignment: (1) dynamic identity mappings, which eschew IOVA allocation altogether, (2) allocating IOVAs using the kernel’s kmalloc, and (3) per-core caching of IOVAs allocated by a globally-locked IOVA allocator. We further describe a scalable IOMMU TLB management scheme that is compatible with all these approaches.\n\nEvaluation of our designs under Linux shows that (1) they achieve 88.5%–100% of the performance obtained without an IOMMU, (2) they achieve similar latency to that obtained without an IOMMU, (3) scalable IOVA allocation and dynamic identity mappings perform comparably, and (4) kmalloc provides a simple solution with high performance, but can suffer from unbounded page table blowup.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''15 - Request-Oriented Durable Write Caching for Application Performance'
+language: English
+recordingDate: 1638400909
+description: "Request-Oriented Durable Write Caching for Application Performance\n\nSangwook Kim, Sungkyunkwan University; Hwanju Kim, University of Cambridge; Sang-Hoon Kim, Korea Advanced Institute of Science and Technology (KAIST); Joonwon Lee and Jinkyu Jeong, Sungkyunkwan University\n\nNon-volatile write cache (NVWC) can help to improve the performance of I/O-intensive tasks, especially write-dominated tasks. The benefit of NVWC, however, cannot be fully exploited if an admission policy blindly caches all writes without differentiating the criticality of each write in terms of application performance. We propose a request-oriented admission policy, which caches only writes awaited in the context of request execution. To accurately detect such writes, a critical process, which is involved in handling requests, is identified by application-level hints. Then, we devise criticality inheritance protocols in order to handle process and I/O dependencies to a critical process. The proposed scheme is implemented on the Linux kernel and is evaluated with PostgreSQL relational database and Redis NoSQL store. The evaluation results show that our scheme outperforms the policy that blindly caches all writes by up to 2.2× while reducing write traffic to NVWC by up to 87%.\n\nView the full USENIX ATC '15 program at https://www.usenix.org/conference/atc15/technical-sessions"
