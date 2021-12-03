@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Verifying Constant-Time Implementations'
+language: English
+recordingDate: 1638484066
+description: "Verifying Constant-Time Implementations\n\nJosé Bacelar Almeida, HASLab/INESC TEC and University of Minho; Manuel Barbosa, HASLab/INESC TEC and DCC FCUP; Gilles Barthe and François Dupressoir, IMDEA Software Institute; Michael Emmi, Bell Labs and Nokia\n\nThe constant-time programming discipline is an effective countermeasure against timing attacks, which can lead to complete breaks of otherwise secure systems. However, adhering to constant-time programming is hard on its own, and extremely hard under additional efficiency and legacy constraints. This makes automated verification of constant-time code an essential component for building secure software.\n\nWe propose a novel approach for verifying constanttime security of real-world code. Our approach is able to validate implementations that locally and intentionally violate the constant-time policy, when such violations are benign and leak no more information than the public outputs of the computation. Such implementations, which are used in cryptographic libraries to obtain important speedups or to comply with legacy APIs, would be declared insecure by all prior solutions.\n\nWe implement our approach in a publicly available, cross-platform, and fully automated prototype, ct-verif, that leverages the SMACK and Boogie tools and verifies optimized LLVM implementations. We present verification results obtained over a wide range of constant-time components from the NaCl, OpenSSL, FourQ and other off-the-shelf libraries. The diversity and scale of our examples, as well as the fact that we deal with top-level APIs rather than being limited to low-level leaf functions, distinguishes ct-verif from prior tools.\n\nOur approach is based on a simple reduction of constant-time security of a program P to safety of a product program Q that simulates two executions of P. We formalize and verify the reduction for a core high-level language using the Coq proof assistant.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

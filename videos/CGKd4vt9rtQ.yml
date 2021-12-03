@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Ariadne: A Minimal Approach to State Continuity'
+language: English
+recordingDate: 1638494601
+description: "Ariadne: A Minimal Approach to State Continuity\n\nRaoul Strackx and Frank Piessens, Katholieke Universiteit Leuven\n\nProtected-module architectures such as Intel SGX provide strong isolation guarantees to sensitive parts of applications while the system is up and running. Unfortunately systems in practice crash, go down for reboots or lose power at unexpected moments in time. To deal with such events, additional security measures need to be taken to guarantee that stateful modules will either recover their state from the last stored state, or fail-stop on detection of tampering with that state. More specifically, protected-module architectures need to provide a security primitive that guarantees that (1) attackers cannot present a stale state as being fresh (i.e. rollback protection), (2) once a module accepted a specific input, it will continue execution on that input or never advance, and (3) an unexpected loss of power must never leave the system in a state from which it can never resume execution (i.e. liveness guarantee).\n\nWe propose Ariadne, a solution to the state-continuity problem that achieves the theoretical lower limit of requiring only a single bit flip of non-volatile memory per state update. Ariadne can be easily adapted to the platform at hand. In low-end devices where non-volatile memory may wear out quickly and the bill of materials (BOM) needs to be minimized, Ariadne can take optimal use of non-volatile memory. On SGX-enabled processors, Ariadne can be readily deployed to protect stateful modules (e.g., as used by Haven and VC^3).\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

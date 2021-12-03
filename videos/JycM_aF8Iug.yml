@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - überSpark: Enforcing Verifiable Object Abstractions for Automated...'
+language: English
+recordingDate: 1638484994
+description: "überSpark: Enforcing Verifiable Object Abstractions for Automated Compositional Security Analysis of a Hypervisor\n \nAmit Vasudevan and Sagar Chaki, Carnegie Mellon University; Petros Maniatis, Google Inc.; Limin Jia and Anupam Datta, Carnegie Mellon University\n\nWe present überSpark (üSpark), an innovative architecture for compositional verification of security properties of extensible hypervisors written in C and Assembly. üSpark comprises two key ideas: (i) endowing low-level system software with abstractions found in higher-level languages (e.g., objects, interfaces, function-call semantics for implementations of interfaces, access control on interfaces, concurrency and serialization), enforced using a combination of commodity hardware mechanisms and lightweight static analysis; and (ii) interfacing with platform hardware by programming in Assembly using an idiomatic style (called CASM) that is verifiable via tools aimed at C, while retaining its performance and low-level access to hardware. After verification, the C code is compiled using a certified compiler while the CASM code is translated into its corresponding Assembly instructions. Collectively, these innovations enable compositional verification of security invariants without sacrificing performance. We validate üSpark by building and verifying security invariants of an existing open-source commodity x86 micro-hypervisor and several of its extensions, and demonstrating only minor performance overhead with low verification costs.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Mirror: Enabling Proofs of Data Replication and Retrievability in the Cloud'
+language: English
+recordingDate: 1638496560
+description: "USENIX Security '16 - Mirror: Enabling Proofs of Data Replication and Retrievability in the Cloud\n\nFrederik Armknecht, University of Mannheim; Ludovic Barman, Jens-Matthias Bohli, and Ghassan O. Karame, NEC Laboratories Europe\n\nProofs of Retrievability (POR) and Data Possession (PDP) are cryptographic protocols that enable a cloud provider to prove that data is correctly stored in the cloud. PDP have been recently extended to enable users to check in a single protocol that additional file replicas are stored as well. To conduct multi-replica PDP, users are however required to process, construct, and upload their data replicas by themselves. This incurs additional bandwidth overhead on both the service provider and the user and also poses new security risks for the provider. Namely, since uploaded files are typically encrypted, the provider cannot recognize if the uploaded content are indeed replicas. This limits the business models available to the provider, since e.g., reduced costs for storing replicas can be abused by users who upload different files—while claiming that they are replicas.\n\nIn this paper, we address this problem and propose a novel solution for proving data replication and retrievability in the cloud, Mirror, which allows to shift the burden of constructing replicas to the cloud provider itself—thus conforming with the current cloud model. We show that Mirror is secure against malicious users and a rational cloud provider. Finally, we implement a prototype based on Mirror, and evaluate its performance in a realistic cloud setting. Our evaluation results show that our proposal incurs tolerable overhead on the users and the cloud provider.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

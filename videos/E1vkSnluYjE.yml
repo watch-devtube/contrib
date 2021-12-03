@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - ZKBoo: Faster Zero-Knowledge for Boolean Circuits'
+language: English
+recordingDate: 1638496649
+description: "ZKBoo: Faster Zero-Knowledge for Boolean Circuits\n\nIrene Giacomelli, Jesper Madsen, and Claudio Orlandi, Aarhus University\n\nAwarded Best Student Paper\n\nIn this paper we describe ZKBoo, a proposal for practically efficient zero-knowledge arguments especially tailored for Boolean circuits and report on a proof-ofconcept implementation. As an highlight, we can generate (resp. verify) a non-interactive proof for the SHA-1 circuit in approximately 13ms (resp. 5ms), with a proof size of 444KB.\n\nOur techniques are based on the “MPC-in-the-head” approach to zero-knowledge of Ishai et al. (IKOS), which has been successfully used to achieve significant asymptotic improvements. Our contributions include:\n\n• A thorough analysis of the different variants of IKOS, which highlights their pros and cons for practically relevant soundness parameters;\n• A generalization and simplification of their approach, which leads to faster ∑-protocols (that can be made non-interactive using the Fiat-Shamir heuristic) for statements of the form “I know x such that y = Ø(x)” (where Ø is a circuit and y a public value);\n• A case study, where we provide explicit protocols, implementations and benchmarking of zero-knowledge protocols for the SHA-1 and SHA-256 circuits.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

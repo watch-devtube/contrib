@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Hidden Voice Commands'
+language: English
+recordingDate: 1638490786
+description: "Hidden Voice Commands\n\nNicholas Carlini and Pratyush Mishra, University of California, Berkeley; Tavish Vaidya, Yuankai Zhang, Micah Sherr, and Clay Shields, Georgetown University; David Wagner, University of California, Berkeley; Wenchao Zhou, Georgetown University\n\nVoice interfaces are becoming more ubiquitous and are now the primary input method for many devices. We explore in this paper how they can be attacked with hidden voice commands that are unintelligible to human listeners but which are interpreted as commands by devices.\n\nWe evaluate these attacks under two different threat models. In the black-box model, an attacker uses the speech recognition system as an opaque oracle. We show that the adversary can produce difficult to understand commands that are effective against existing systems in the black-box model. Under the white-box model, the attacker has full knowledge of the internals of the speech recognition system and uses it to create attack commands that we demonstrate through user testing are not understandable by humans.\n\nWe then evaluate several defenses, including notifying the user when a voice command is accepted; a verbal challenge-response protocol; and a machine learning approach that can detect our attacks with 99.8% accuracy.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

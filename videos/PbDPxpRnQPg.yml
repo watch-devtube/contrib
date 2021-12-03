@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Authenticated Network Time Synchronization'
+language: English
+recordingDate: 1638494233
+description: "Authenticated Network Time Synchronization\n\nBenjamin Dowling, Queensland University of Technology; Douglas Stebila, McMaster University; Greg Zaverucha, Microsoft Research\n \nThe Network Time Protocol (NTP) is used by many network-connected devices to synchronize device time with remote servers. Many security features depend on the device knowing the current time, for example in deciding whether a certificate is still valid. Currently, most services implement NTP without authentication, and the authentication mechanisms available in the standard have not been formally analyzed, require a pre-shared key, or are known to have cryptographic weaknesses. In this paper we present an authenticated version of NTP, called ANTP, to protect against desynchronization attacks. To make ANTP suitable for large-scale deployments, it is designed to minimize server-side public key operations by infrequently performing a key exchange using public key cryptography, then relying solely on symmetric cryptography for subsequent time synchronization requests; moreover, it does so without requiring server-side per-connection state. Additionally, ANTP ensures that authentication does not degrade accuracy of time synchronization. We measured the performance of ANTP by implementing it in OpenNTPD using OpenSSL. Compared to plain NTP, ANTP’s symmetric crypto reduces the server throughput (connections/second) for time synchronization requests by a factor of only 1.6. We analyzed the security of ANTP using a novel provable security framework that involves adversary control of time, and show that ANTP achieves secure time synchronization under standard cryptographic assumptions; our framework may also be used to analyze other candidates for securing NTP.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"
