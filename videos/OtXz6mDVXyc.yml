@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - PIkit: A New Kernel-Independent Processor-Interconnect Rootkit'
+language: English
+recordingDate: 1638484335
+description: "USENIX Security '16 - PIkit: A New Kernel-Independent Processor-Interconnect Rootkit\n\nWonjun Song, Hyunwoo Choi, Junhong Kim, Eunsoo Kim, Yongdae Kim, and John Kim, Korea Advanced Institute of Science and Technology (KAIST)\n\nThe goal of rootkit is often to hide malicious software running on a compromised machine. While there has been significant amount of research done on different rootkits, we describe a new type of rootkit that is kernel-independent – i.e., no aspect of the kernel is modified and no code is added to the kernel address space to install the rootkit. In this work, we present PIkit – Processor-Interconnect rootkit that exploits the vulnerable hardware features within multi-socket servers that are commonly used in datacenters and high-performance computing. In particular, PIkit exploits the DRAM address mapping table structure that determines the destination node of a memory request packet in the processorinterconnect. By modifying this mapping table appropriately, PIkit enables access to victim’s memory address region without proper permission. Once PIkit is installed, only user-level code or payload is needed to carry out malicious activities. The malicious payload mostly consists of memory read and/or write instructions that appear like “normal” user-space memory accesses and it becomes very difficult to detect such malicious payload. We describe the design and implementation of PIkit on both an AMD and an Intel x86 multi-socket servers that are commonly used. We discuss different malicious activities possible with PIkit and limitations of PIkit, as well as possible software and hardware solutions to PIkit.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

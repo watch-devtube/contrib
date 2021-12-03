@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Undermining Information Hiding (and What to Do about It)'
+language: English
+recordingDate: 1638485190
+description: "Undermining Information Hiding (and What to Do about It)\n\nEnes Göktaş, Vrije Universiteit Amsterdam; Robert Gawlik and Benjamin Kollenda, Ruhr Universität Bochum; Elias Athanasopoulos, Vrije Universiteit Amsterdam; Georgios Portokalidis, Stevens Institute of Technology; Cristiano Giuffrida and Herbert Bos, Vrije Universiteit Amsterdam\n\nIn the absence of hardware-supported segmentation, many state-of-the-art defenses resort to “hiding” sensitive information at a random location in a very large address space. This paper argues that information hiding is a weak isolation model and shows that attackers can find hidden information, such as CPI’s SafeStacks, in seconds—by means of thread spraying. Thread spraying is a novel attack technique which forces the victim program to allocate many hidden areas. As a result, the attacker has a much better chance to locate these areas and compromise the defense. We demonstrate the technique by means of attacks on Firefox, Chrome, and MySQL. In addition, we found that it is hard to remove all sensitive information (such as pointers to the hidden region) from a program and show how residual sensitive information allows attackers to bypass defenses completely.\n\nWe also show how we can harden information hiding techniques by means of an Authenticating Page Mapper (APM) which builds on a user-level page-fault handler to authenticate arbitrary memory reads/writes in the virtual address space. APM bootstraps protected applications with a minimum-sized safe area. Every time the program accesses this area, APM authenticates the access operation, and, if legitimate, expands the area on demand. We demonstrate that APM hardens information hiding significantly while increasing the overhead, on average, 0.3% on baseline SPEC CPU 2006, 0.0% on SPEC with SafeStack and 1.4% on SPEC with CPI.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

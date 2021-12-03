@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Tracing Information Flows Between Ad Exchanges Using Retargeted Ads'
+language: English
+recordingDate: 1638490410
+description: "Tracing Information Flows Between Ad Exchanges Using Retargeted Ads\n\nMuhammad Ahmad Bashir, Sajjad Arshad, William Robertson, and Christo Wilson, Northeastern University\n\nNumerous surveys have shown that Web users are concerned about the loss of privacy associated with online tracking. Alarmingly, these surveys also reveal that people are also unaware of the amount of data sharing that occurs between ad exchanges, and thus underestimate the privacy risks associated with online tracking.\n\nIn reality, the modern ad ecosystem is fueled by a flow of user data between trackers and ad exchanges. Although recent work has shown that ad exchanges routinely perform cookie matching with other exchanges, these studies are based on brittle heuristics that cannot detect all forms of information sharing, especially under adversarial conditions.\n\nIn this study, we develop a methodology that is able to detect client- and server-side flows of information between arbitrary ad exchanges. Our key insight is to leverage retargeted ads as a tool for identifying information flows. Intuitively, our methodology works because it relies on the semantics of how exchanges serve ads, rather than focusing on specific cookie matching mechanisms. Using crawled data on 35,448 ad impressions, we show that our methodology can successfully categorize four different kinds of information sharing behavior between ad exchanges, including cases where existing heuristic methods fail.\n\nWe conclude with a discussion of how our findings and methodologies can be leveraged to give users more control over what kind of ads they see and how their information is shared between ad exchanges.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

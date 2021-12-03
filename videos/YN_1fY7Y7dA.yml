@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - FlowFence: Practical Data Protection for Emerging IoT Application Frameworks'
+language: English
+recordingDate: 1638490902
+description: "FlowFence: Practical Data Protection for Emerging IoT Application Frameworks\n\nEarlence Fernandes, Justin Paupore, and Amir Rahmati, University of Michigan; Daniel Simionato and Mauro Conti, University of Padova; Atul Prakash, University of Michigan\n\nEmerging IoT programming frameworks enable building apps that compute on sensitive data produced by smart homes and wearables. However, these frameworks only support permission-based access control on sensitive data, which is ineffective at controlling how apps use data once they gain access. To address this limitation, we present FlowFence, a system that requires consumers of sensitive data to declare their intended data flow patterns, which it enforces with low overhead, while blocking all other undeclared flows. FlowFence achieves this by explicitly embedding data flows and the related control flows within app structure. Developers use Flow- Fence support to split their apps into two components: (1) A set of Quarantined Modules that operate on sensitive data in sandboxes, and (2) Code that does not operate on sensitive data but orchestrates execution by chaining Quarantined Modules together via taint-tracked opaque handles—references to data that can only be dereferenced inside sandboxes. We studied three existing IoT frameworks to derive key functionality goals for Flow- Fence, and we then ported three existing IoT apps. Securing these apps using FlowFence resulted in an average increase in size from 232 lines to 332 lines of source code. Performance results on ported apps indicate that FlowFence is practical: A face-recognition based doorcontroller app incurred a 4.9% latency overhead to recognize a face and unlock a door.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"
