@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Fingerprinting Electronic Control Units for Vehicle Intrusion Detection'
+language: English
+recordingDate: 1638495084
+description: "Fingerprinting Electronic Control Units for Vehicle Intrusion Detection\n\nKyong-Tak Cho and Kang G. Shin, University of Michigan\n\nAs more software modules and external interfaces are getting added on vehicles, new attacks and vulnerabilities are emerging. Researchers have demonstrated how to compromise in-vehicle Electronic Control Units (ECUs) and control the vehicle maneuver. To counter these vulnerabilities, various types of defense mechanisms have been proposed, but they have not been able to meet the need of strong protection for safety-critical ECUs against in-vehicle network attacks. To mitigate this deficiency, we propose an anomaly-based intrusion detection system (IDS), called Clock-based IDS (CIDS). It measures and then exploits the intervals of periodic in-vehicle messages for fingerprinting ECUs. The thusderived fingerprints are then used for constructing a baseline of ECUs’ clock behaviors with the Recursive Least Squares (RLS) algorithm. Based on this baseline, CIDS uses Cumulative Sum (CUSUM) to detect any abnormal shifts in the identification errors — a clear sign of intrusion. This allows quick identification of in-vehicle network intrusions with a low false-positive rate of 0.055%. Unlike state-of-the-art IDSs, if an attack is detected, CIDS’s fingerprinting of ECUs also facilitates a rootcause analysis; identifying which ECU mounted the attack. Our experiments on a CAN bus prototype and on real vehicles have shown CIDS to be able to detect a wide range of in-vehicle network attacks.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

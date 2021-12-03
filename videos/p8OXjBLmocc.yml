@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Trusted Browsers for Uncertain Times'
+language: English
+recordingDate: 1638490480
+description: "Trusted Browsers for Uncertain Times\n\nDavid Kohlbrenner and Hovav Shacham, University of California, San Diego\n\nJavaScript in one origin can use timing channels in browsers to learn sensitive information about a user’s interaction with other origins, violating the browser’s compartmentalization guarantees. Browser vendors have attempted to close timing channels by trying to rewrite sensitive code to run in constant time and by reducing the resolution of reference clocks.\n\nWe argue that these ad-hoc efforts are unlikely to succeed. We show techniques that increase the effective resolution of degraded clocks by two orders of magnitude, and we present and evaluate multiple, new implicit clocks: techniques by which JavaScript can time events without consulting an explicit clock at all.\n\nWe show how “fuzzy time” ideas in the trusted operating systems literature can be adapted to building trusted browsers, degrading all clocks and reducing the bandwidth of all timing channels. We describe the design of a next-generation browser, called Fermata, in which all timing sources are completely mediated. As a proof of feasibility, we present Fuzzyfox, a fork of the Firefox browser that implements many of the Fermata principles within the constraints of today’s browser architecture. We show that Fuzzyfox achieves sufficient compatibility and performance for deployment today by privacysensitive users.\n\nIn summary:\n\n• We show how an attacker can measure durations in web browsers without querying an explicit clock.\n• We show how the concepts of “fuzzy time” can apply to web browsers to mitigate all clocks.\n• We present a prototype demonstrating the impact of some of these concepts.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

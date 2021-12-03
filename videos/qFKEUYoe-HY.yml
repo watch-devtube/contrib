@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - Faster Malicious 2-Party Secure Computation with Online/Offline Dual Execution'
+language: English
+recordingDate: 1638487207
+description: "Faster Malicious 2-Party Secure Computation with Online/Offline Dual Execution\n\nPeter Rindal and Mike Rosulek, Oregon State University\n\nWe describe a highly optimized protocol for general purpose secure two-party computation (2PC) in the presence of malicious adversaries. Our starting point is a protocol of Kolesnikov et al. (TCC 2015). We adapt that protocol to the online/offline setting, where two parties repeatedly evaluate the same function (on possibly different inputs each time) and perform as much of the computation as possible in an offline preprocessing phase before their inputs are known. Along the way we develop several significant simplifications and optimizations to the protocol.\n\nWe have implemented a prototype of our protocol and report on its performance. When two parties on Amazon servers in the same region use our implementation to securely evaluate the AES circuit 1024 times, the amortized cost per evaluation is 5.1ms offline + 1.3ms online. The total offline+online cost of our protocol is in fact less than the online cost of any reported protocol with malicious security. For comparison, our protocol’s closest competitor (Lindell & Riva, CCS 2015) uses 74ms offline + 7ms online in an identical setup.\n\nOur protocol can be further tuned to trade performance for leakage. As an example, the performance in the above scenario improves to 2.4ms offline + 1.0ms online if we allow an adversary to learn a single bit about the honest party’s input with probability 2−20 (but not violate any other security property, e.g. correctness).\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

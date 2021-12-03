@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - The Ever-Changing Labyrinth: A Large-Scale Analysis of Wildcard DNS Powered...'
+language: English
+recordingDate: 1638487103
+description: "The Ever-Changing Labyrinth: A Large-Scale Analysis of Wildcard DNS Powered Blackhat SEO\n\nKun Du and Hao Yang, Tsinghua University; Zhou Li, IEEE Member; Haixin Duan, Tsinghua University; Kehuan Zhang, The Chinese University of Hong Kong\n\nBlackhat Search Engine Optimization (SEO) has been widely used to promote spam or malicious web sites. Traditional blackhat SEO campaigns often target hot keywords and establish link networks by spamming popular forums or compromising vulnerable sites. However, such SEO campaigns are actively disrupted by search engines providers, making the operational cost much higher in recent years. In this paper, we reveal a new type of blackhat SEO infrastructure (called “spider pool”) which seeks a different operational model. The owners of spider pools use cheap domains with low PR (PageRank) values to construct link networks and poison longtail keywords. To get better rankings of their promoted content, the owners have to reduce the indexing latencies by search engines. To this end, they abuse wildcard DNS to create virtually infinite sites and construct complicated loop structure to force search-engine crawlers to visit them relentlessly.\n\nWe carried out a comprehensive study to understand this emerging threat. As a starting point, we infiltrated a spider pool service and built a detection system to explore all the recruited SEO domains to learn how they were orchestrated. Exploiting the unique features of the spider pool, we developed a scanner which examined over 13 million domains under 22 TLDs/SLDs and discovered over 458K SEO domains. Finally, we measured the spider-pool ecosystem on top of these domains and analyzed the crawling results from 21 spider pools. The measurement result reveals their infrastructure features, customer categories and impact on search engines. We hope our study could inspire new mitigation methods and improve the ranking or indexing metrics from search engines.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - The Cut-and-Choose Game and Its Application to Cryptographic Protocols'
+language: English
+recordingDate: 1638496616
+description: "The Cut-and-Choose Game and Its Application to Cryptographic Protocols\n\nRuiyu Zhu and Yan Huang, Indiana University; Jonathan Katz, University of Maryland; Abhi Shelat, Northeastern University\n\nThe cut-and-choose technique plays a fundamental role in cryptographic-protocol design, especially for secure two-party computation in the malicious model. The basic idea is that one party constructs n versions of a message in a protocol (e.g., garbled circuits); the other party randomly checks some of them and uses the rest of them in the protocol. Most existing uses of cut-and-choose fix in advance the number of objects to be checked and in optimizing this parameter they fail to recognize the fact that checking and evaluating may have dramatically different costs.\n\nIn this paper, we consider a refined cost model and formalize the cut-and-choose parameter selection problem as a constrained optimization problem. We analyze “cut-and-choose games” and show equilibrium strategies for the parties in these games. We then show how our methodology can be applied to improve the efficiency of three representative categories of secure-computation protocols based on cut-and-choose. We show improvements of up to an-order-of-magnitude in terms of bandwidth, and 12–106% in terms of total time. Source code of our game solvers is available to download at https://github.com/cut-n-choose.\n \nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

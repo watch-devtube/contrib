@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks'
+language: English
+recordingDate: 1638491439
+description: "DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks\n\nPeter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard, Graz University of Technology\n\nIn cloud computing environments, multiple tenants are often co-located on the same multi-processor system. Thus, preventing information leakage between tenants is crucial. While the hypervisor enforces software isolation, shared hardware, such as the CPU cache or memory bus, can leak sensitive information. For security reasons, shared memory between tenants is typically disabled. Furthermore, tenants often do not share a physical CPU. In this setting, cache attacks do not work and only a slow cross-CPU covert channel over the memory bus is known. In contrast, we demonstrate a high-speed covert channel as well as the first side-channel attack working across processors and without any shared memory. To build these attacks, we use the undocumented DRAM address mappings.\n\nWe present two methods to reverse engineer the mapping of memory addresses to DRAM channels, ranks, and banks. One uses physical probing of the memory bus, the other runs entirely in software and is fully automated. Using this mapping, we introduce DRAMA attacks, a novel class of attacks that exploit the DRAM row buffer that is shared, even in multi-processor systems. Thus, our attacks work in the most restrictive environments. First, we build a covert channel with a capacity of up to 2 Mbps, which is three to four orders of magnitude faster than memory-bus-based channels. Second, we build a side-channel template attack that can automatically locate and monitor memory accesses. Third, we show how using the DRAM mappings improves existing attacks and in particular enables practical Rowhammer attacks on DDR4.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"

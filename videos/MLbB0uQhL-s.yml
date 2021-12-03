@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''16 - A Comprehensive Measurement Study of Domain Generating Malware'
+language: English
+recordingDate: 1638487072
+description: "A Comprehensive Measurement Study of Domain Generating Malware\n\nDaniel Plohmann, Fraunhofer FKIE; Khaled Yakdan, University of Bonn; Michael Klatt, DomainTools; Johannes Bader; Elmar Gerhards-Padilla, Fraunhofer FKIE\n\nRecent years have seen extensive adoption of domain generation algorithms (DGA) by modern botnets. The main goal is to generate a large number of domain names and then use a small subset for actual C&C communication. This makes DGAs very compelling for botmasters to harden the infrastructure of their botnets and make it resilient to blacklisting and attacks such as takedown efforts. While early DGAs were used as a backup communication mechanism, several new botnets use them as their primary communication method, making it extremely important to study DGAs in detail.\n\nIn this paper, we perform a comprehensive measurement study of the DGA landscape by analyzing 43 DGAbased malware families and variants. We also present a taxonomy for DGAs and use it to characterize and compare the properties of the studied families. By reimplementing the algorithms, we pre-compute all possible domains they generate, covering the majority of known and active DGAs. Then, we study the registration status of over 18 million DGA domains and show that corresponding malware families and related campaigns can be reliably identified by pre-computing future DGA domains. We also give insights into botmasters’ strategies regarding domain registration and identify several pitfalls in previous takedown efforts of DGA-based botnets. We will share the dataset for future research and will also provide a web service to check domains for potential DGA identity.\n\nView the full USENIX Security '16 program at https://www.usenix.org/conference/usenixsecurity16/technical-sessions"
