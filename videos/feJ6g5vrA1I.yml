@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - Warranties for Faster Strong Consistency'
+language: English
+recordingDate: 1638840199
+description: "Warranties for Faster Strong Consistency\n\nJed Liu, Tom Magrino, Owen Arden, Michael D. George, and Andrew C. Myers, Cornell University\n\nWe present a new mechanism, warranties, to enable building distributed systems with linearizable transactions. A warranty is a time-limited assertion about one or more distributed objects. These assertions generalize optimistic concurrency control, improving throughput because clients holding warranties need not communicate to verify the warranty’s assertion. Updates that might cause an active warranty to become false are delayed until the warranty expires, trading write latency for read latency. For workloads biased toward reads, warranties improve scalability and system throughput. Warranties can be expressed using language-level computations, and they integrate harmoniously into the programming model as a form of memoization. Experiments with some nontrivial programs demonstrate that warranties enable high performance despite the simple programming model.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"
