@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - Blizzard: Fast, Cloud-scale Block Storage for Cloud-oblivious Applications'
+language: English
+recordingDate: 1638834239
+description: "Blizzard: Fast, Cloud-scale Block Storage for Cloud-oblivious Applications\n\nJames Mickens, Edmund B. Nightingale, Jeremy Elson, Krishna Nareddy, and Darren Gehring, Microsoft Research; Bin Fan, Carnegie Mellon University; Asim Kadav and Vijay Chidambaram, University of Wisconsin—Madison; Osama Khan, Johns Hopkins University\n\nBlizzard is a high-performance block store that exposes cloud storage to cloud-oblivious POSIX and Win32 applications. Blizzard connects clients and servers using a network with full-bisection bandwidth, allowing clients to access any remote disk as fast as if it were local. Using a novel striping scheme, Blizzard exposes high disk parallelism to both sequential and random workloads; also, by decoupling the durability and ordering requirements expressed by flush requests, Blizzard can commit writes out-of-order, providing high performance and crash consistency to applications that issue many small, random IOs. Blizzard’s virtual disk drive, which clients mount like a normal physical one, provides maximum throughputs of 1200 MB/s, and can improve the performance of unmodified, cloud-oblivious applications by 2x–10x. Compared to EBS, a commercially available, state-of-the-art virtual drive for cloud applications, Blizzard can improve SQL server IOp rates by seven-fold while still providing crash consistency.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

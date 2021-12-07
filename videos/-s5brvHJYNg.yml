@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Embedded Fest 2021. Andrii Lukin. CloudLinux runtime kernel update for ARM growth difficulties'
+language: Russian
+recordingDate: 1638783756
+description: "The talk from Embedded Fest 2021 ONLINE\nFb: https://www.facebook.com/EmbeddedFest/\nWebsite: https://www.embeddedfest.com\n\nCloudLinux provides stable and secure Linux for web-hosters or even embedded developers. One of the essential products is KernelCare which takes on most patching lifecycle tasks and completes them without system reboot. It helps to keep your kernel and shared libraries uptodate, but what's hidden behind it.\nKernelCare allocates kernel memory, loads new secure code into it, momentarily freezes all processes in a 'safe' mode, and modifies original functions. Then jumps into new secure code, ensuring old (vulnerable) code can never run, unfreezes all processes, and resumes. And while for x86 systems, these steps are more or less established, there were many things to do for ARM-based ones.\nHere I will disclose some ARM-related species which cause a headache for kernel live update system. It includes gcc's temper, ARM assembler details, and so on."

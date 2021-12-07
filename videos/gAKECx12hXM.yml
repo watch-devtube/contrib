@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - Building Web Applications on Top of Encrypted Data Using Mylar'
+language: English
+recordingDate: 1638833312
+description: "Building Web Applications on Top of Encrypted Data Using Mylar\n\nRaluca Ada Popa, MIT/CSAIL; Emily Stark, Meteor, Inc.; Steven Valdez, Jonas Helfer, Nickolai Zeldovich, and Hari Balakrishnan, MIT/CSAIL\n\nWeb applications rely on servers to store and process confidential information. However, anyone who gains access to the server (e.g., an attacker, a curious administrator, or a government) can obtain all of the data stored there. This paper presents Mylar, a platform for building web applications, which protects data confidentiality against attackers with full access to servers. Mylar stores sensitive data encrypted on the server, and decrypts that data only in users’ browsers. Mylar addresses three challenges in making this approach work. First, Mylar allows the server to perform keyword search over encrypted documents, even if the documents are encrypted with different keys. Second, Mylar allows users to share keys and encrypted data securely in the presence of an active adversary. Finally, Mylar ensures that client-side application code is authentic, even if the server is malicious. Results with a prototype of Mylar built on top of the Meteor framework are promising: porting 6 applications required changing just 36 lines of code on average, and the performance overheads are modest, amounting to a 17% throughput loss and a 50 ms latency increase for sending a message in a chat application.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

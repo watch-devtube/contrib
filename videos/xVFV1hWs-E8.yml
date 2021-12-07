@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - cTPM: A Cloud TPM for Cross-Device Trusted Applications'
+language: English
+recordingDate: 1638833711
+description: "cTPM: A Cloud TPM for Cross-Device Trusted Applications\n\nChen Chen, Carnegie Mellon University; Himanshu Raj, Stefan Saroiu, and Alec Wolman, Microsoft Research\n\nCurrent Trusted Platform Modules (TPMs) are ill-suited for cross-device scenarios in trusted mobile applications because they hinder the seamless sharing of data across multiple devices. This paper presents cTPM, an extension of the TPM’s design that adds an additional root key to the TPM and shares that root key with the cloud. As a result, the cloud can create and share TPM-protected keys and data across multiple devices owned by one user. Further, the additional key lets the cTPM allocate cloud-backed remote storage so that each TPM can benefit from a trusted real-time clock and high-performance, non-volatile storage.\n\nThis paper shows that cTPM is practical, versatile, and easily applicable to trusted mobile applications. Our simple change to the TPM specification is viable because its fundamental concepts—a primary root key and off-chip, NV storage—are already found in the current specification, TPM 2.0. By avoiding a clean-slate redesign, we sidestep the difficult challenge of re-verifying the security properties of a new TPM design. We demonstrate cTPM’s versatility with two case studies: extending Pasture with additional functionality, and re-implementing TrInc without the need for extra hardware.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

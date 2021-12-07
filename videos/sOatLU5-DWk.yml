@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - High Throughput Data Center Topology Design'
+language: English
+recordingDate: 1638833278
+description: "High Throughput Data Center Topology Design\n\nAnkit Singla, P. Brighten Godfrey, and Alexandra Kolla, University of Illinois at Urbana–Champaign\n \nWith high throughput networks acquiring a crucial role in supporting data-intensive applications, a variety of data center network topologies have been proposed to achieve high capacity at low cost. While this work explores a large number of design points, even in the limited case of a network of identical switches, no proposal has been able to claim any notion of optimality. The case of heterogeneous networks, incorporating multiple line-speeds and port-counts as data centers grow over time, introduces even greater complexity.\n\nIn this paper, we present the first non-trivial upperbound on network throughput under uniform traffic patterns for any topology with identical switches. We then show that random graphs achieve throughput surprisingly close to this bound, within a few percent at the scale of a few thousand servers. Apart from demonstrating that homogeneous topology design may be reaching its limits, this result also motivates our use of random graphs as building blocks for design of heterogeneous networks. Given a heterogeneous pool of network switches, we explore through experiments and analysis, how the distribution of servers across switches and the interconnection of switches affect network throughput. We apply these insights to a real-world heterogeneous data center topology, VL2, demonstrating as much as 43% higher throughput with the same equipment.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - Adtributor: Revenue Debugging in Advertising Systems'
+language: English
+recordingDate: 1638832805
+description: "Adtributor: Revenue Debugging in Advertising Systems\n\nRanjita Bhagwan, Rahul Kumar, Ramachandran Ramjee, George Varghese, Surjyakanta Mohapatra, Hemanth Manoharan, and Piyush Shah, Microsoft\n\nAdvertising (ad) revenue plays a vital role in supporting free websites. When the revenue dips or increases sharply, ad system operators must find and fix the rootcause if actionable, for example, by optimizing infrastructure performance. Such revenue debugging is analogous to diagnosis and root-cause analysis in the systems literature but is more general. Failure of infrastructure elements is only one potential cause; a host of other dimensions (e.g., advertiser, device type) can be sources of potential causes. Further, the problem is complicated by derived measures such as costs-per-click that are also tracked along with revenue.\n\nOur paper takes the first systematic look at revenue debugging. Using the concepts of explanatory power, succinctness, and surprise, we propose a new multidimensional root-cause algorithm for fundamental and derived measures of ad systems to identify the dimension mostly likely to blame. Further, we implement the attribution algorithm and a visualization interface in a tool called the Adtributor to help troubleshooters quickly identify potential causes. Based on several case studies on a very large ad system and extensive evaluation, we show that the Adtributor has an accuracy of over 95% and helps cut down troubleshooting time by an order of magnitude.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

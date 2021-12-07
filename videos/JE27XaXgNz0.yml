@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - Libra: Divide and Conquer to Verify Forwarding Tables in Huge Networks'
+language: English
+recordingDate: 1638832930
+description: "Libra: Divide and Conquer to Verify Forwarding Tables in Huge Networks\n\nHongyi Zeng, Stanford University; Shidong Zhang and Fei Ye, Google; Vimalkumar Jeyakumar, Stanford University; Mickey Ju and Junda Liu, Google; Nick McKeown, Stanford University; Amin Vahdat, Google and University of California, San Diego\n\nData center networks often have errors in the forwarding tables, causing packets to loop indefinitely, fall into black-holes or simply get dropped before they reach the correct destination. Finding forwarding errors is possible using static analysis, but none of the existing tools scale to a large data center network with thousands of switches and millions of forwarding entries. Worse still, in a large data center network the forwarding state is constantly in flux, which makes it hard to take an accurate snapshot of the state for static analysis.\n\nWe solve these problems with Libra, a new tool for verifying forwarding tables in very large networks. Libra runs fast because it can exploit the scaling properties of MapReduce. We show how Libra can take an accurate snapshot of the forwarding state 99.9% of the time, and knows when the snapshot cannot be trusted. We show results for Libra analyzing a 10,000 switch.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

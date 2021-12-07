@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - Exalt: Empowering Researchers to Evaluate Large-Scale Storage Systems'
+language: English
+recordingDate: 1638833227
+description: "Exalt: Empowering Researchers to Evaluate Large-Scale Storage Systems\n\nYang Wang, Manos Kapritsos, Lara Schmidt, Lorenzo Alvisi, and Mike Dahlin, The University of Texas at Austin\n\nThis paper presents Exalt, a library that gives back to researchers the ability to test the scalability of today’s large storage systems. To that end, we introduce Tardis, a data representation scheme that allows data to be identified and efficiently compressed even at low-level storage layers that are not aware of the semantics and formatting used by higher levels of the system. This compression enables a high degree of node colocation, which makes it possible to run large-scale experiments on as few as a hundred machines. Our experience with HDFS and HBase shows that, by allowing us to run the real system code at an unprecedented scale, Exalt can help identify scalability problems that are not observable at lower scales: in particular, Exalt helped us pinpoint and resolve issues in HDFS that improved its aggregate throughput by an order of magnitude.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

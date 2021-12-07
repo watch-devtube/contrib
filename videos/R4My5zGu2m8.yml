@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - PHY Covert Channels: Can you see the Idles?'
+language: English
+recordingDate: 1638833729
+description: "PHY Covert Channels: Can you see the Idles?\n\nKi Suh Lee, Han Wang, and Hakim Weatherspoon, Cornell University\n\nNetwork covert timing channels embed secret messages in legitimate packets by modulating interpacket delays. Unfortunately, such channels are normally implemented in higher network layers (layer 3 or above) and easily detected or prevented. However, access to the physical layer of a network stack allows for timing channels that are virtually invisible: Sub-microsecond modulations that are undetectable by software endhosts. Therefore, covert timing channels implemented in the physical layer can be a serious threat to the security of a system or a network. In fact, we empirically demonstrate an effective covert timing channel over nine routing hops and thousands of miles over the Internet (the National Lambda Rail). Our covert timing channel works with cross traffic, less than 10% bit error rate, which can be masked by forward error correction, and a covert rate of 81 kilobits per second. Key to our approach is access and control over every bit in the physical layer of a 10 Gigabit network stack (a bit is 100 picoseconds wide at 10 gigabit per seconds), which allows us to modulate and interpret interpacket spacings at sub-microsecond scale. We discuss when and how a timing channel in the physical layer works, how hard it is to detect such a channel, and what is required to do so.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

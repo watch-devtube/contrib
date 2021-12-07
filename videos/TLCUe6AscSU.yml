@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Embedded Fest 2021. Steven Rostedt. Dynamic tracing within a busybox environment'
+language: Russian
+recordingDate: 1638783343
+description: "The talk from Embedded Fest 2021 ONLINE\nFb: https://www.facebook.com/EmbeddedFest/\nWebsite: https://www.embeddedfest.com\n\neBPF is all the rage. It allows for placing a BPF program into the kernel to trace only specific data that one cares about. But eBPF requires help from user space to extract this data. What does one do if all they have is a busybox environment? Luckily, ftrace provides a tracing interface through the tracefs file system, where most everything can be done via simple commands like \"echo\" and \"cat\" (which busybox provides). This talk will go into performing dynamic tracing, similar to what is provided by eBPF, but with only having \"echo\" and \"cat\" at your finger tips. Ftrace may not provide everything that eBPF can give you, but it can probably give you enough to get by. Why write a program in C, when you can easily accomplish the same thing in a simple shell script?"

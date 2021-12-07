@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - Tierless Programming and Reasoning for Software-Defined Networks'
+language: English
+recordingDate: 1638840394
+description: "Tierless Programming and Reasoning for Software-Defined Networks\n\nTim Nelson, Andrew D. Ferguson, Michael J.G. Scheer, and Shriram Krishnamurthi, Brown University\n\nWe present Flowlog, a tierless language for programming SDN controllers. In contrast to languages with different abstractions for each program tier—the controlplane, data-plane, and controller state—Flowlog provides a unified abstraction for all three tiers. Flowlog is reminiscent of both SQL and rule-based languages such as Cisco IOS and JunOS; unlike these network configuration languages, Flowlog supports programming with mutable state. We intentionally limit Flowlog’s expressivity to enable built-in verification and proactive compilation despite the integration of controller state. To compensate for its limited expressive power, Flowlog enables the reuse of external libraries through callouts.\n\nFlowlog proactively compiles essentially all forwarding behavior to switch tables. For rules that maintain controller state or generate fresh packets, the compiler instructs switches to send the minimum amount of necessary traffic to the controller. Given that Flowlog programs can be stateful, this process is non-trivial. We have successfully used Flowlog to implement real network applications. We also compile Flowlog programs to Alloy, a popular verification tool. With this we have verified several properties, including program-correctness properties that are topology-independent, and have found bugs in our own programs.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

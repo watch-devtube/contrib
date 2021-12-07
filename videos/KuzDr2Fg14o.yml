@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - Epsilon: A Visible Light Based Positioning System'
+language: English
+recordingDate: 1638834371
+description: "NSDI '14 - Epsilon: A Visible Light Based Positioning System\n\nLiqun Li, Microsoft Research, Beijing; Pan Hu, University of Massachusetts Amherst; Chunyi Peng, The Ohio State University; Guobin Shen and Feng Zhao, Microsoft Research, Beijing\n\nExploiting the increasingly wide use of Light-emitting Diode (LED) lighting, in this paper, we study the problem of using visible LED lights for accurate localization. The basic idea is to leverage the existing lighting infrastructure and apply trilateration to localize any devices with light sensing capability (e.g., a smartphone), using LED lamps as anchors. Through the design of Epsilon, we identify and tackle several technique challenges. In particular, we establish and experimentally verify the optical channel model for localization. We adopt BFSK and channel hopping to enable reliable location beaconing from multiple, uncoordinated light sources over the shared optical medium. We handle realistic situations towards robust localization, for example, we exploit user involvement to resolve the ambiguity in case of insufficient LED anchors. We have implemented the Epsilon system and evaluated it with a small scale hardware testbed as well as moderate-size simulations. Experimental results confirmed the effectiveness of Epsilon: the 90th percentile accuracies are 0.4m, 0.7m and 0.8m for three typical office environments. Even in the extreme situation with a single light, the 90th percentile accuracy is 1.1m. We believe that visible light based localization is promising to significantly improve the positioning accuracy, despite few open problems in practice.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

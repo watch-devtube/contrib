@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - ipShield: A Framework For Enforcing Context-Aware Privacy'
+language: English
+recordingDate: 1638833180
+description: "ipShield: A Framework For Enforcing Context-Aware Privacy\n\nSupriyo Chakraborty, Chenguang Shen, Kasturi Rangan Raghavan, Yasser Shoukry, Matt Millar, and Mani Srivastava, University of California, Los Angeles\n\nSmart phones are used to collect and share personal data with untrustworthy third-party apps, often leading to data misuse and privacy violations. Unfortunately, state-of-the-art privacy mechanisms on Android provide inadequate access control and do not address the vulnerabilities that arise due to unmediated access to so-called innocuous sensors on these phones. We present ipShield, a framework that provides users with greater control over their resources at runtime. ipShield performs monitoring of every sensor accessed by an app and uses this information to perform privacy risk assessment. The risks are conveyed to the user as a list of possible inferences that can be drawn using the shared sensor data. Based on user-configured lists of allowed and private inferences, a recommendation consisting of binary privacy actions on individual sensors is generated. Finally, users are provided with options to override the recommended actions and manually configure context-aware fine-grained privacy rules. We implemented ipShield by modifying the AOSP on a Nexus 4 phone. Our evaluation indicates that running ipShield incurs negligible CPU and memory overhead and only a small reduction in battery life.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

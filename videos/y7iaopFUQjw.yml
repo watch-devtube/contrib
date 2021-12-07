@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14-Enforcing Network-Wide Policies in the Presence of Dynamic Middlebox Actions using FlowTags'
+language: English
+recordingDate: 1638840145
+description: "Enforcing Network-Wide Policies in the Presence of Dynamic Middlebox Actions using FlowTags\n\nSeyed Kaveh Fayazbakhsh, Carnegie Mellon University; Luis Chiang, Deutsche Telekom Labs; Vyas Sekar, Carnegie Mellon University; Minlan Yu, University of Southern California; Jeffrey C. Mogul, Google\n\nMiddleboxes provide key security and performance guarantees in networks. Unfortunately, the dynamic traffic modifications they induce make it difficult to reason about network management tasks such as access control, accounting, and diagnostics. This also makes it difficult to integrate middleboxes into SDN-capable networks and leverage the benefits that SDN can offer.\n\nIn response, we develop the FlowTags architecture. FlowTags-enhanced middleboxes export tags to provide the necessary causal context (e.g., source hosts or internal cache/miss state). SDN controllers can configure the tag generation and tag consumption operations using new FlowTags APIs. These operations help restore two key SDN tenets: (i) bindings between packets and their “origins,” and (ii) ensuring that packets follow policymandated paths.\n\nWe develop new controller mechanisms that leverage FlowTags. We show the feasibility of minimally extending middleboxes to support FlowTags. We also show that FlowTags imposes low overhead over traditional SDN mechanisms. Finally, we demonstrate the early promise of FlowTags in enabling new verification and diagnosis capabilities.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"

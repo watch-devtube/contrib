@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''14 - Catch the Whole Lot in an Action: Rapid Precise Packet Loss Notification in Data Center'
+language: English
+recordingDate: 1638832952
+description: "Catch the Whole Lot in an Action: Rapid Precise Packet Loss Notification in Data Center\n\nPeng Cheng, Fengyuan Ren, Ran Shu, and Chuang Lin, Tsinghua University\n\nAn increasing number of TCP performance issues including TCP Incast, TCP Outcast, and long query completion times are common in large-scale data centers. We demonstrate that the root cause of these problems is that existing techniques are unable to maintain self-clocking or to achieve accurate and rapid packet loss notification. We present cutting payload (CP), a mechanism that simply drops a packet’s payload at an overloaded switch, and a SACK-like precise ACK (PACK) mechanism to accurately inform senders about lost packets. Experiments demonstrate that CP successfully addresses the root cause of TCP performance issues. Furthermore, CP works well with other TCP variants used in data center networks.\n\nView the full NSDI '14 program at https://www.usenix.org/conference/nsdi14/technical-sessions"
