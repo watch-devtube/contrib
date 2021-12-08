@@ -1,0 +1,11 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Kunal Pathak — Loop alignment and performance stability in .NET 6'
+recordingDate: 1638878889
+description: "—\n.NET team has thousands of Microbenchmarks that are run several times daily on the commits to check that there is no performance regression introduced. Some benchmarks are instable and it is hard to understand if the metric shows real regression or is it just noisy. In .NET 6, the team investigated the underlying problem and added various mitigations like code alignment that would not just benefit benchmarks but real-world code.\n\nIn this talk, Kunal will briefly talk about how the team troubleshoot the instable performance numbers, and then deep dive in \"automatic alignment of loops\" — one of the features added in .NET 6 to mitigate such instability. Speaker wrote about this feature a few months back on https://devblogs.microsoft.com/dotnet/loop-alignment-in-net-6/. He will talk and demonstrate C# and assembly code and is intended for medium to advance developers.\n\nСсылка на презентацию: https://assets.ctfassets.net/9n3x4rtjlya6/602ItPKm35sHSGcpaBVt4D/b16767d7be4233d1fed560d6ab6475a6/Performance_Stability.pdf"

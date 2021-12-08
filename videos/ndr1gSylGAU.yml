@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - Enforcing Customizable Consistency Properties in Software-Defined Networks'
+language: English
+recordingDate: 1638923920
+description: "Enforcing Customizable Consistency Properties in Software-Defined Networks\n\nWenxuan Zhou, University of Illinois at Urbana-Champaign; Dong Jin, Illinois Institute of Technology; and Jason Croft, Matthew Caesar, P. Brighten Godfrey, University of Illinois at Urbana-Champaign\n\nIt is critical to ensure that network policy remains consistent during state transitions. However, existing techniques impose a high cost in update delay, and/or FIB space. We propose the Customizable Consistency Generator (CCG), a fast and generic framework to support customizable consistency policies during network updates. CCG effectively reduces the task of synthesizing an update plan under the constraint of a given consistency policy to a verification problem, by checking whether an update can safely be installed in the network at a particular time, and greedily processing network state transitions to heuristically minimize transition delay. We show a large class of consistency policies are guaranteed by this greedy heuristic alone; in addition, CCG makes judicious use of existing heavier-weight network update mechanisms to provide guarantees when necessary. As such, CCG nearly achieves the “best of both worlds”: the efficiency of simply passing through updates in most cases, with the consistency guarantees of more heavyweight techniques. Mininet and physical testbed evaluations demonstrate CCG’s capability to achieve various types of consistency, such as path and bandwidth properties, with zero switch memory overhead and up to a 3 delay reduction compared to previous solutions.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"

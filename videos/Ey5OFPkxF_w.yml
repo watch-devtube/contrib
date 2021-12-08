@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Haskell: Why and How the External STG Interpreter is Useful (Csaba Hruska)'
+language: English
+recordingDate: 1638908490
+description: "The external STG interpreter is a from scratch implementation of the STG machine in Haskell. Currently it supports almost all GHC primops and RTS features. It can run real world Haskell programs that were compiled with GHC Whole Program Compiler (GHC-WPC). GHC-WPC is a GHC fork that exports the whole program STG IR.\n\nThe external STG interpreter is an excellent tool to study the runtime behaviour of Haskell programs, i.e. it can run/interpret GHC or Pandoc. The implementation of the interpreter is in plain simple Haskell, so it makes compiler backend and tooling development approachable for everyone. It already has a programmable debugger which supports step-by-step evaluation, breakpoints and execution region based inspection. It also can export the whole program memory state and call-graphs to files for further investigation. These features makes it easy to find a memory leak or to identify a performance bottleneck in a large real world Haskell application.\n\nhttps://github.com/grin-compiler/ghc-whole-program-compiler-project\n\n(This talk was recorded at Thursday's Matter online meetup on 2 December 2021.)"

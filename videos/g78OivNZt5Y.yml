@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - C3: Internet-Scale Control Plane for Video Quality Optimization'
+language: English
+recordingDate: 1638924103
+description: "C3: Internet-Scale Control Plane for Video Quality Optimization\n\nAditya Ganjam, Conviva; Junchen Jiang, Carnegie Mellon University; Xi Liu, Conviva; Vyas Sekar, Carnegie Mellon University; Faisal Siddiqui, Conviva; Ion Stoica, University of California, Berkeley, Conviva, and Databricks; Jibin Zhan, Conviva; Hui Zhang, Carnegie Mellon University and Conviva\n\nAs Internet video goes mainstream, we see increasing user expectations for higher video quality and new global policy requirements for content providers. Inspired by the case for centralizing network-layer control, we present C3, a control system for optimizing Internet video delivery. The design of C3 addresses key challenges in ensuring scalability and tackling data plane heterogeneity. First, to ensure scalability and responsiveness, C3 introduces a novel split control plane architecture that can tolerate a small increase in model staleness for a dramatic increase in scalability. Second, C3 supports diverse client-side platforms via a minimal clientside sensing/actuation layer and offloads complex monitoring and control logic to the control plane. C3 has been operational for eight years, and today handles more than 100M sessions per day from 244 countries for 100+ content providers and has improved the video quality significantly. In doing so, C3 serves as a proof point of the viability of fine-grained centralized control for Internetscale applications. Our experiences reinforce the case for centralizing control with the continued emergence of new use case pulls (e.g., client diversity) and technology pushes (e.g., big data platforms).\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"

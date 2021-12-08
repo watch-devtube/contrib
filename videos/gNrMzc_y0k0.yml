@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - Global Analytics in the Face of Bandwidth and Regulatory Constraints'
+language: English
+recordingDate: 1638929473
+description: "Global Analytics in the Face of Bandwidth and Regulatory Constraints\n\nAshish Vulimiri, University of Illinois at Urbana-Champaign; Carlo Curino, Microsoft; P. Brighten Godfrey, University of Illinois at Urbana-Champaign; Thomas Jungblut, Microsoft; Jitu Padhye and George Varghese, Microsoft Research\n\nGlobal-scale organizations produce large volumes of data across geographically distributed data centers. Querying and analyzing such data as a whole introduces new research issues at the intersection of networks and databases. Today systems that compute SQL analytics over geographically distributed data operate by pulling all data to a central location. This is problematic at large data scales due to expensive transoceanic links, and may be rendered impossible by emerging regulatory constraints. The new problem of Wide-Area Big Data (WABD) consists in orchestrating query execution across data centers to minimize bandwidth while respecting regulatory constaints. WABD combines classical query planning with novel network-centric mechanisms designed for a wide-area setting such as pseudo-distributed execution, joint query optimization, and deltas on cached subquery results. Our prototype, Geode, builds upon Hive and uses 250 less bandwidth than centralized analytics in a Microsoft production workload and up to 360 less on popular analytics benchmarks including TPC-CH and Berkeley Big Data. Geode supports all SQL operators, including Joins, across global data.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"

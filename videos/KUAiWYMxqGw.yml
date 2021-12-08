@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - Securing RFIDs by Randomizing the Modulation and Channel'
+language: English
+recordingDate: 1638929005
+description: "Securing RFIDs by Randomizing the Modulation and Channel\n\nHaitham Hassanieh, Jue Wang, and Dina Katabi, Massachusetts Institute of Technology; Tadayoshi Kohno, University of Washington\n\nRFID cards are widely used in sensitive applications such as access control and payment systems. Past work shows that an eavesdropper snooping on the communication between a card and its legitimate reader can break their cryptographic protocol and obtain their secret keys. One solution to this problem is to install stronger encryption on the cards. However, RFIDs’ size, power, and cost limitations do not allow for strong encryption protocols. Further, changing the encryption on the cards requires revoking billions of cards in consumers’ hands, which is impracticable.\n\nThis paper presents RF-Cloak, a solution that protects RFIDs from the above attacks, without any changes to today’s cards. RF-Cloak achieves this performance using a novel transmission systemthat randomizes both themodulation and the wireless channels. It is the first system that defends RFIDs against MIMO eavesdroppers, even when the RFID reader has no MIMO capability. A prototype of our design built using software radios demonstrates its ability to protect commercial RFIDs from both single-antenna and MIMO eavesdroppers.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"

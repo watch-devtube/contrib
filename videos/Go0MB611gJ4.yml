@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - Designing Distributed Systems Using Approximate Synchrony in Data Center Networks'
+language: English
+recordingDate: 1638923898
+description: "Designing Distributed Systems Using Approximate Synchrony in Data Center Networks\n\nDan R. K. Ports, Jialin Li, Vincent Liu, Naveen Kr. Sharma, and Arvind Krishnamurthy, University of Washington\nAwarded Best Paper!\n\nDistributed systems are traditionally designed independently from the underlying network, making worst-case assumptions (e.g., complete asynchrony) about its behavior. However, many of today’s distributed applications are deployed in data centers, where the network is more reliable, predictable, and extensible. In these environments, it is possible to co-design distributed systems with their network layer, and doing so can offer substantial benefits.\n\nThis paper explores network-level mechanisms for providing Mostly-Ordered Multicast (MOM): a best-effort ordering property for concurrent multicast operations. Using this primitive, we design Speculative Paxos, a state machine replication protocol that relies on the network to order requests in the normal case. This approach leads to substantial performance benefits: under realistic data center conditions, Speculative Paxos can provide 40% lower latency and 2:6 higher throughput than the standard Paxos protocol. It offers lower latency than a latencyoptimized protocol (Fast Paxos) with the same throughput as a throughput-optimized protocol (batching).\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"
