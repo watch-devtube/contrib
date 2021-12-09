@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - A General Approach to Network Configuration Analysis'
+language: English
+recordingDate: 1638932061
+description: "A General Approach to Network Configuration Analysis\n\nAri Fogel and Stanley Fung, University of California, Los Angeles; Luis Pedrosa, University of Southern California; Meg Walraed-Sullivan, Microsoft Research; Ramesh Govindan, University of Southern California; Ratul Mahajan, Microsoft Research; Todd Millstein, University of California, Los Angeles\n\nWe present an approach to detect network configuration errors, which combines the benefits of two prior approaches. Like prior techniques that analyze configuration files, our approach can find errors proactively, before the configuration is applied, and answer “what if” questions. Like prior techniques that analyze data-plane snapshots, our approach can check a broad range of forwarding properties and produce actual packets that violate checked properties. We accomplish this combination by faithfully deriving and then analyzing the data plane that would emerge from the configuration. Our derivation of the data plane is fully declarative, employing a set of logical relations that represent the control plane, the data plane, and their relationship. Operators can query these relations to understand identified errors and their provenance. We use our approach to analyze two large university networks with qualitatively different routing designs and find many misconfigurations in each. Operators have confirmed the majority of these as errors and have fixed their configurations accordingly.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"

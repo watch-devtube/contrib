@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - PCC: Re-architecting Congestion Control for Consistent High Performance'
+language: English
+recordingDate: 1638931628
+description: "PCC: Re-architecting Congestion Control for Consistent High Performance\n\nMo Dong and Qingxi Li, University of Illinois at Urbana-Champaign; Doron Zarchy, Hebrew University of Jerusalem; P. Brighten Godfrey, University of Illinois at Urbana-Champaign; Michael Schapira, Hebrew University of Jerusalem\n\nTCP and its variants have suffered from surprisingly poor performance for decades. We argue the TCP family has little hope of achieving consistent high performance due to a fundamental architectural deficiency: hardwiring packet-level events to control responses. We propose Performance-oriented Congestion Control (PCC), a new congestion control architecture in which each sender continuously observes the connection between its actions and empirically experienced performance, enabling it to consistently adopt actions that result in high performance. We prove that PCC converges to a stable and fair equilibrium. Across many real-world and challenging environments, PCC shows consistent and often 10 performance improvement, with better fairness and stability than TCP. PCC requires no router hardware support or new packet format.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"

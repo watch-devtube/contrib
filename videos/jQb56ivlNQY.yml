@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - Retro: Targeted Resource Management in Multi-tenant Distributed Systems'
+language: English
+recordingDate: 1638939239
+description: "NSDI '15 - Retro: Targeted Resource Management in Multi-tenant Distributed Systems\n\nJonathan Mace, Brown University; Peter Bodik, Microsoft Research; Rodrigo Fonseca, Brown University; Madanlal Musuvathi, Microsoft Research\n \nIn distributed systems shared by multiple tenants, effective resource management is an important pre-requisite to providing quality of service guarantees. Many systems deployed today lack performance isolation and experience contention, slowdown, and even outages caused by aggressive workloads or by improperly throttled maintenance tasks such as data replication. In this work we present Retro, a resource management framework for shared distributed systems. Retro monitors per-tenant resource usage both within and across distributed systems, and exposes this information to centralized resource management policies through a high-level API. A policy can shape the resources consumed by a tenant using Retro’s control points, which enforce sharing and ratelimiting decisions. We demonstrate Retro through three policies providing bottleneck resource fairness, dominant resource fairness, and latency guarantees to high-priority tenants, and evaluate the system across five distributed systems: HBase, Yarn, MapReduce, HDFS, and Zookeeper. Our evaluation shows that Retro has low overhead, and achieves the policies’ goals, accurately detecting contended resources, throttling tenants responsible for slowdown and overload, and fairly distributing the remaining cluster capacity.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"

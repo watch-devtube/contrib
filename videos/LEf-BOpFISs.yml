@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'LISA15 - Efficiently Backing Up Terabytes of Data with PgBackRest'
+language: English
+recordingDate: 1639009050
+description: "Efficiently Backing Up Terabytes of Data with PgBackRest\n\nDavid Steele, Crunchy Data Solutions, Inc.\n\nPgBackRest is open source software developed to perform efficient backup on PostgreSQL databases that measure in tens of terabytes and greater. It supports per file checksums, compression, partial/failed backup resume, high-performance parallel transfer, asynchronous archiving, tablespaces, expiration, full/differential/incremental, local/remote operation via SSH, hard-linking, restore, and more. PgBackRest is written in Perl and does not depend on rsync or tar but instead performs its own deltas which gives it maximum flexibility. This talk by the author will introduce the features, give sample configurations, and talk about design philosophy.\n\nView the full LISA15 program at https://www.usenix.org/conference/lisa15/conference-program"

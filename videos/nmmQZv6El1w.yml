@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - CubicRing: Enabling One-Hop Failure Detection and Recovery for Distributed In-Memory...'
+language: English
+recordingDate: 1638932395
+description: "CubicRing: Enabling One-Hop Failure Detection and Recovery for Distributed In-Memory Storage Systems\n\nYiming Zhang, National University of Defense Technology; Chuanxiong Guo, Microsoft; Dongsheng Li and Rui Chu, National University of Defense Technology; Haitao Wu, Microsoft; Yongqiang Xiong, Microsoft Research\n\nIn-memory storage has the benefits of low I/O latency and high I/O throughput. Fast failure recovery is cru- cial for large-scale in-memory storage systems, bringing network-related challenges including false detection due to transient network problems, traffic congestion during the recovery, and top-of-rack switch failures. This paper presents CubicRing, a distributed structure for cube- based networks which exploits network proximity to restrict failure detection and recovery within the small- est possible one-hop range. We leverage the Cubic- Ring structure to address the aforementioned challenges and design a network-aware in-memory key-value store called MemCube. In a 64-node 10GbE testbed, Mem- Cube recovers 48 GB of data for a single server failure in 3.1 seconds. The 14 recovery servers achieve 123.9 Gb/sec aggregate recovery throughput, which is 88.5% of the ideal aggregate bandwidth.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"

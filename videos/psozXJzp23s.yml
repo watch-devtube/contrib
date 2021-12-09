@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - Analyzing Protocol Implementations for Interoperability'
+language: English
+recordingDate: 1638932140
+description: "Analyzing Protocol Implementations for Interoperability\n\nLuis Pedrosa, University of Southern California; Ari Fogel, University of California, Los Angeles; Nupur Kothari, Microsoft; Ramesh Govindan, University of Southern California; Ratul Mahajan, Microsoft; Todd Millstein, University of California, Los Angeles\n\nWe propose PIC, a tool that helps developers search for non-interoperabilities in protocol implementations. We formulate this problem using intersection of the sets of messages that one protocol participant can send but another will reject as non-compliant. PIC leverages symbolic execution to characterize these sets and uses two novel techniques to scale to real-world implementations. First, it uses joint symbolic execution, in which receiver-side program analysis is constrained based on sender-side constraints, dramatically reducing the number of execution paths to consider. Second, it incorporates a search strategy that steers symbolic execution toward likely non-interoperabilities. We show that PIC is able to find multiple previously unknown noninteroperabilities in large and mature implementations of the SIP and SPDY (v2 through v3.1) protocols, some of which have since been fixed by the respective developers.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"
