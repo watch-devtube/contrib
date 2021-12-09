@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - Information-Agnostic Flow Scheduling for Commodity Data Centers'
+language: English
+recordingDate: 1638931646
+description: "Information-Agnostic Flow Scheduling for Commodity Data Centers\n\nWei Bai, Li Chen, and Kai Chen, The Hong Kong University of Science and Technology; Dongsu Han, Korea Advanced Institute of Science and Technology (KAIST); Chen Tian, Nanjing University; Hao Wang, The Hong Kong University of Science and Technology\n\nMany existing data center network (DCN) flow scheduling schemes minimize flow completion times (FCT) based on prior knowledge of flows and custom switch functions, making them superior in performance but hard to use in practice. By contrast, we seek to minimize FCT with no prior knowledge and existing commodity switch hardware.\n\nTo this end, we present PIAS, a DCN flow scheduling mechanism that aims to minimize FCT by mimicking Shortest Job First (SJF) on the premise that flow size is not known a priori. At its heart, PIAS leverages multiple priority queues available in existing commodity switches to implement a Multiple Level Feedback Queue (MLFQ), in which a PIAS flow is gradually demoted from higher-priority queues to lower-priority queues based on the number of bytes it has sent. As a result, short flows are likely to be finished in the first few high-priority queues and thus be prioritized over long flows in general, which enables PIAS to emulate SJF without knowing flow sizes beforehand.\n\nWe have implemented a PIAS prototype and evaluated PIAS through both testbed experiments and ns-2 simulations. We show that PIAS is readily deployable with commodity switches and backward compatible with legacy TCP/IP stacks. Our evaluation results show that PIAS significantly outperforms existing information-agnostic schemes. For example, it reduces FCT by up to 50% and 40% over DCTCP and L2DCT respectively; and it only has a 4.9% performance gap to an ideal information-aware scheme, pFabric, for short flows under a production DCN workload.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"

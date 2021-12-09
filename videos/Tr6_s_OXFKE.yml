@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - FastRoute: A Scalable Load-Aware Anycast Routing Architecture for Modern CDNs'
+language: English
+recordingDate: 1638931555
+description: "FastRoute: A Scalable Load-Aware Anycast Routing Architecture for Modern CDNs\n\nAshley Flavel, Pradeepkumar Mani, David A. Maltz, and Nick Holt, Microsoft; Jie Liu, Microsoft Research; Yingying Chen and Oleg Surmachev, Microsoft\n\nPerformance of online applications directly impacts user satisfaction. A major component of the user-perceived performance of the application is the time spent in transit between the user’s device and the application existing in data centers. Content Delivery Networks (CDNs) are typically used to improve user-perceived application performance through a combination of caching and intelligent routing via proxies. In this paper, we describe FastRoute, a highly scalable and operational anycastbased system that has significantly improved the performance of numerous popular online services. While anycast is a common technique in modern CDNs for providing high-performance proximity routing, it sacrifices control over the load arriving at any individual proxy. We demonstrate that by collocating DNS and proxy services in each FastRoute node location, we can create a highperformance, completely distributed system for routing users to a nearby proxy while still enabling the graceful avoidance of overload an any individual proxy.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"
