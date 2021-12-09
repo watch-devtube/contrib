@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'NSDI ''15 - Jitsu: Just-In-Time Summoning of Unikernels'
+language: English
+recordingDate: 1638939102
+description: "Jitsu: Just-In-Time Summoning of Unikernels\n\nAnil Madhavapeddy, Thomas Leonard, Magnus Skjegstad, Thomas Gazagnaire, and David Sheets, University of Cambridge; Dave Scott, Citrix Systems UK Ltd.; Richard Mortier, Amir Chaudhry, and Balraj Singh, University of Cambridge; Jon Ludlam, Citrix Systems UK Ltd.; Jon Crowcroft and Ian Leslie, University of Cambridge\n\nNetwork latency is a problem for all cloud services. It can be mitigated by moving computation out of remote datacenters by rapidly instantiating local services near the user. This requires an embedded cloud platform on which to deploy multiple applications securely and quickly. We present Jitsu, a new Xen toolstack that satisfies the demands of secure multi-tenant isolation on resource-constrained embedded ARM devices. It does this by using unikernels: lightweight, compact, single address space, memory-safe virtual machines (VMs) written in a high-level language. Using fast shared memory channels, Jitsu provides a directory service that launches unikernels in response to network traffic and masks boot latency. Our evaluation shows Jitsu to be a power-efficient and responsive platform for hosting cloud services in the edge network while preserving the strong isolation guarantees of a type-1 hypervisor.\n\nView the full NSDI '15 Program at https://www.usenix.org/conference/nsdi15/technical-sessions"
