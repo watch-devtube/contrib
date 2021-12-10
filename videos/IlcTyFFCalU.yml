@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - UIPicker: User-Input Privacy Identification in Mobile Applications'
+language: English
+recordingDate: 1639099829
+description: "UIPicker: User-Input Privacy Identification in Mobile Applications\n\nYuhong Nan, Min Yang, Zhemin Yang, and Shunfan Zhou, Fudan University; Guofei Gu, Texas A&M University; Xiaofeng Wang, Indiana University Bloomington\n\nIdentifying sensitive user inputs is a prerequisite for privacy protection. When it comes to today’s program analysis systems, however, only those data that go through well-defined system APIs can be automatically labelled. In our research, we show that this conventional approach is far from adequate, as most sensitive inputs are actually entered by the user at an app’s runtime: in our research, we inspect 17, 425 top apps from Google Play, and find that 35.46% of them involve sensitive user inputs. Manually marking them involves a lot of effort, impeding a large-scale, automated analysis of apps for potential information leaks. To address this important issue, we present UIPicker, an adaptable framework for automatic identification of sensitive user inputs. UIPicker is designed to detect the semantic information within the application layout resources and program code, and further analyze it for the locations where security-critical information may show up. This approach can support a variety of existing security analysis on mobile apps. We further develop a runtime protection mechanism on top of the technique, which helps the user make informed decisions when her sensitive data is about to leave the device in an unexpected way. We evaluate our approach over 200 randomly selected popular apps on Google- Play. UIPicker is able to accurately label sensitive user inputs most of the time, with 93.6%precision and 90.1% recall.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

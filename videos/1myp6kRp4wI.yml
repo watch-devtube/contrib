@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotStorage ''14 - Evaluation of Codes with Inherent Double Replication for Hadoop'
+language: English
+recordingDate: 1639091238
+description: "Evaluation of Codes with Inherent Double Replication for Hadoop\n\nM. Nikhil Krishnan, N. Prakash, V. Lalitha, Birenjith Sasidharan, P. Vijay Kumar, Indian Institute of Science, Bangalore; Srinivasan Narayanamurthy, Ranjit Kumar, and Siddhartha Nandi, NetApp Inc.\n\nIn this paper, we evaluate the efficacy, in a Hadoop setting, of two coding schemes, both possessing an inherent double replication of data. The two coding schemes belong to the class of regenerating and locally regenerating codes respectively, and these two classes are representative of recent advances made in designing codes for the efficient storage of data in a distributed setting. In comparison with triple replication, double replication permits a significant reduction in storage overhead, while delivering good MapReduce performance under moderate work loads. The two coding solutions under evaluation here, add only moderately to the storage overhead of double replication, while simultaneously offering reliability levels similar to that of triple replication.\n\nOne might expect from the property of inherent data duplication that the performance of these codes in executing a MapReduce job would be comparable to that of double replication. However, a second feature of this class of code comes into play here, namely that under both coding schemes analyzed here, multiple blocks from the same coded stripe are required to be stored on the same node. This concentration of data belonging to a single stripe negatively impacts MapReduce execution times. However, much of this effect can be undone by simply adding a larger number of processors per node. Further improvements are possible if one tailors the Map task scheduler to the codes under consideration. We present both experimental and simulation results that validate these observations.\n\nView the full HotStorage '14 program at https://www.usenix.org/conference/hotstorage14/workshop-program"

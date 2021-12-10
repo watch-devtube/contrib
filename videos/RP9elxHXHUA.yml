@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - M2R: Enabling Stronger Privacy in MapReduce Computation'
+language: English
+recordingDate: 1639094053
+description: "M2R: Enabling Stronger Privacy in MapReduce Computation\n\nTien Tuan Anh Dinh, Prateek Saxena, Ee-Chien Chang, Beng Chin Ooi, and Chunwang Zhang, National University of Singapore\n\nNew big-data analysis platforms can enable distributed computation on encrypted data by utilizing trusted computing primitives available in commodity server hardware. We study techniques for ensuring privacy preserving computation in the popular MapReduce framework. In this paper, we first show that protecting only individual units of distributed computation (e.g. map and reduce units), as proposed in recent works, leaves several important channels of information leakage exposed to the adversary. Next, we analyze a variety of design choices in achieving a stronger notion of private execution that is the analogue of using a distributed oblivious-RAM (ORAM) across the platform. We develop a simple solution which avoids using the expensive ORAM construction, and incurs only an additive logarithmic factor of overhead to the latency. We implement our solution in a system called M2R, which enhances an existing Hadoop implementation, and evaluate it on seven standard MapReduce benchmarks. We show that it is easy to port most existing applications to M2R by changing fewer than 43 lines of code. M2R adds fewer than 500 lines of code to the TCB, which is less than 0:16% of the Hadoop codebase. M2R offers a factor of 1:3x to 44:6x lower overhead than extensions of previous solutions with equivalent privacy. M2R adds a total of 17% to 130% overhead over the insecure baseline solution that ignores the leakage channels M2R addresses.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

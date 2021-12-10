@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - Violet: A Storage Stack for IOPS/Capacity Bifurcated Storage Environments'
+language: English
+recordingDate: 1639088075
+description: "Violet: A Storage Stack for IOPS/Capacity Bifurcated Storage Environments\n\nDouglas Santry and Kaladhar Voruganti, NetApp, Inc.\n\nIn this paper we describe a storage system called Violet that efficiently marries fine-grained host side data management with capacity optimized backend disk systems. Currently, for efficiency reasons, real-time analytics applications are forced to map their in-memory graph like data structures on to columnar databases or other intermediate disk friendly data structures when they are persisting these data structures to protect them from node failures. Violet provides efficient fine-grained end-to-end data management functionality that obviates the need to perform this intermediate mapping. Violet presents the following two key innovations that allow us to efficiently do this mapping between the fine-grained host side data structures and capacity optimized backend disk system: 1) efficient identification of updates on the host that leverages hardware in-memory transaction mechanisms and 2) efficient streaming of fine-grained updates on to a disk using a new data structure called Fibonacci Array.\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"

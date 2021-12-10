@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - How the ELF Ruined Christmas'
+language: English
+recordingDate: 1639095880
+description: "How the ELF Ruined Christmas\n\nAlessandro Di Federico, University of California, Santa Barbara and Politecnico di Milano; Amat Cama, Yan Shoshitaishvili, Christopher Kruegel, and Giovanni Vigna, University of California, Santa Barbara\n\nThroughout the last few decades, computer software has experienced an arms race between exploitation techniques leveraging memory corruption and detection/protection mechanisms. Effective mitigation techniques, such as Address Space Layout Randomization, have significantly increased the difficulty of successfully exploiting a vulnerability. A modern exploit is often two-stage: a first information disclosure step to identify the memory layout, and a second step with the actual exploit. However, because of the wide range of conditions under which memory corruption occurs, retrieving memory layout information from the program is not always possible.\n\nIn this paper, we present a technique that uses the dynamic loader’s ability to identify the locations of critical functions directly and call them, without requiring an information leak. We identified several fundamental weak points in the design of ELF standard and dynamic loader implementations that can be exploited to resolve and execute arbitrary library functions. Through these, we are able to bypass specific security mitigation techniques, including partial and full RELRO, which are specifically designed to protect ELF data-structures from being coopted by attackers. We implemented a prototype tool, Leakless, and evaluated it against different dynamic loader implementations, previous attack techniques, and reallife case studies to determine the impact of our findings. Among other implications, Leakless provides attackers with reliable and non-invasive attacks, less likely to trigger intrusion detection systems.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

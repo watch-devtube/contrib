@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - WebWitness: Investigating, Categorizing, and Mitigating Malware Download Paths'
+language: English
+recordingDate: 1639099826
+description: "WebWitness: Investigating, Categorizing, and Mitigating Malware Download Paths\n\nTerry Nelms, Damballa, Inc. and Georgia Institute of Technology; Roberto Perdisci, University of Georgia and Georgia Institute of Technology; Manos Antonakakis, Georgia Institute of Technology; Mustaque Ahamad, Georgia Institute of Technology and New York University Abu Dhabi\n\nMost modern malware download attacks occur via the browser, typically due to social engineering and driveby downloads. In this paper, we study the “origin” of malware download attacks experienced by real network users, with the objective of improving malware download defenses. Specifically, we study the web paths followed by users who eventually fall victim to different types of malware downloads. To this end, we propose a novel incident investigation system, named WebWitness. Our system targets two main goals: 1) automatically trace back and label the sequence of events (e.g., visited web pages) preceding malware downloads, to highlight how users reach attack pages on the web; and 2) leverage these automatically labeled in-the-wild malware download paths to better understand current attack trends, and to develop more effective defenses.\n\nWe deployed WebWitness on a large academic network for a period of ten months, where we collected and categorized thousands of live malicious download paths. An analysis of this labeled data allowed us to design a new defense against drive-by downloads that rely on injecting malicious content into (hacked) legitimate web pages. For example, we show that by leveraging the incident investigation information output byWebWitness we can decrease the infection rate for this type of drive-by downloads by almost six times, on average, compared to existing URL blacklisting approaches.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

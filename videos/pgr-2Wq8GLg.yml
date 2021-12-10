@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - Sirius: Distributing and Coordinating Application Reference Data'
+language: English
+recordingDate: 1639075889
+description: "Sirius: Distributing and Coordinating Application Reference Data\n\nMichael Bevilacqua-Linn, Maulan Byron, Peter Cline, Jon Moore, and Steve Muir, Comcast Cable\n\nThe main memory of a typical application server is now large enough to hold many interesting reference datasets which the application must access frequently but for which it is not the system of record. However, application architectures have not evolved to take proper advantage. Common solutions based on caching data from a separate persistence tier lead to error-prone I/O code that is still subject to cache miss latencies. We present an alternative library-based architecture that provides developers access to in-memory, native data structures they control while neatly handling replication and persistence. Our open-source library Sirius can thus give developers access to their reference data in single-node programming style while enjoying the scaling and robustness of a distributed system.\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"

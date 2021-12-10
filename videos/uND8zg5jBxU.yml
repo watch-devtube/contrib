@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - The Pythia PRF Service'
+language: English
+recordingDate: 1639094998
+description: "The Pythia PRF Service\n\nAdam Everspaugh and Rahul Chaterjee, University of Wisconsin—Madison; Samuel Scott, University of London; Ari Juels and Thomas Ristenpart,  Cornell Tech\n\nConventional cryptographic services such as hardware-security modules and software-based keymanagement systems offer the ability to apply a pseudorandom function (PRF) such as HMAC to inputs of a client’s choosing. These services are used, for example, to harden stored password hashes against offline brute-force attacks.\n\nWe propose a modern PRF service called PYTHIA designed to offer a level of flexibility, security, and easeof- deployability lacking in prior approaches. The keystone of PYTHIA is a new cryptographic primitive called a verifiable partially-oblivious PRF that reveals a portion of an input message to the service but hides the rest. We give a construction that additionally supports efficient bulk rotation of previously obtained PRF values to new keys. Performance measurements show that our construction, which relies on bilinear pairings and zero-knowledge proofs, is highly practical. We also give accompanying formal definitions and proofs of security.\n\nWe implement PYTHIA as a multi-tenant, scalable PRF service that can scale up to hundreds of millions of distinct client applications on commodity systems. In our prototype implementation, query latencies are 15 ms in local-area settings and throughput is within a factor of two of a standard HTTPS server. We further report on implementations of two applications using PYTHIA, showing how to bring its security benefits to a new enterprise password storage system and a new brainwallet system for Bitcoin.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Constants Count: Practical Improvements to Oblivious RAM'
+language: English
+recordingDate: 1639094153
+description: "Constants Count: Practical Improvements to Oblivious RAM\n\nLing Ren, Christopher Fletcher, and Albert Kwon, Massachusetts Institute of Technology; Emil Stefanov, University of California, Berkeley; Elaine Shi, Cornell University; Marten van Dijk, University of Connecticut; Srinivas Devadas, Massachusetts Institute of Technology\n\nOblivious RAM (ORAM) is a cryptographic primitive that hides memory access patterns as seen by untrusted storage. This paper proposes Ring ORAM, the most bandwidth-efficient ORAM scheme for the small client storage setting in both theory and practice. Ring ORAM is the first tree-based ORAM whose bandwidth is independent of the ORAM bucket size, a property that unlocks multiple performance improvements. First, Ring ORAM’s overall bandwidth is 2.3x to 4x better than Path ORAM, the prior-art scheme for small client storage. Second, if memory can perform simple untrusted computation, Ring ORAM achieves constant online bandwidth (~ 60x improvement over Path ORAM for practical parameters). As a case study, we show Ring ORAM speeds up program completion time in a secure processor by 1.5x relative to Path ORAM. On the theory side, Ring ORAM features a tighter and significantly simpler analysis than Path ORAM.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

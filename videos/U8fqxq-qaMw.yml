@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - A Placement Vulnerability Study in Multi-Tenant Public Clouds'
+language: English
+recordingDate: 1639099685
+description: "A Placement Vulnerability Study in Multi-Tenant Public Clouds\n\nVenkatanathan Varadarajan, University of Wisconsin—Madison; Yinqian Zhang, The Ohio State University; Thomas Ristenpart, Cornell Tech; Michael Swift, University of Wisconsin—Madison\n\nPublic infrastructure-as-a-service clouds, such as Amazon EC2, Google Compute Engine (GCE) and Microsoft Azure allow clients to run virtual machines (VMs) on shared physical infrastructure. This practice of multi-tenancy brings economies of scale, but also introduces the risk of sharing a physical server with an arbitrary and potentially malicious VM. Past works have demonstrated how to place a VM alongside a target victim (co-location) in early-generation clouds and how to extract secret information via side-channels. Although there have been numerous works on side-channel attacks, there have been no studies on placement vulnerabilities in public clouds since the adoption of stronger isolation technologies such as Virtual Private Clouds (VPCs).\n\nWe investigate this problem of placement vulnerabilities and quantitatively evaluate three popular public clouds for their susceptibility to co-location attacks. We find that adoption of new technologies (e.g., VPC) makes many prior attacks, such as cloud cartography, ineffective. We find new ways to reliably test for co-location across Amazon EC2, Google GCE, and Microsoft Azure. We also found ways to detect co-location with victim web servers in multi-tiered located behind a load balancer. \n\nWe use our new co-residence tests and multiple customer accounts to launch VM instances under different strategies that seek to maximize the likelihood of co-residency. We find that it is much easier (10x higher success rate) and cheaper (up to $114 less) to achieve co-location in these three clouds when compared to a secure reference placement policy. \n\nKeywords: co-location detection, multi-tenancy, cloud security.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

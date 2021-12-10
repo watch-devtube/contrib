@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - You Shouldn’t Collect My Secrets: Thwarting Sensitive Keystroke Leakage...'
+language: English
+recordingDate: 1639096531
+description: "You Shouldn’t Collect My Secrets: Thwarting Sensitive Keystroke Leakage in Mobile IME Apps\n\nJin Chen and Haibo Chen, Shanghai Jiao Tong University; Erick Bauman and Zhiqiang Lin, The University of Texas at Dallas; Binyu Zang and Haibing Guan, Shanghai Jiao Tong University\n\nIME (input method editor) apps are the primary means of interaction on mobile touch screen devices and thus are usually granted with access to a wealth of private user input. In order to understand the (in)security of mobile IME apps, this paper first performs a systematic study and uncovers that many IME apps may (intentionally or unintentionally) leak users’ sensitive data to the outside world (mainly due to the incentives of improving the user’s experience). To thwart the threat of sensitive information leakage while retaining the benefits of an improved user experience, this paper then proposes I-BOX, an app-transparent oblivious sandbox that minimizes sensitive input leakage by confining untrusted IME apps to predefined security policies. Several key challenges have to be addressed due to the proprietary and closed-source nature of most IME apps and the fact that an IME app can arbitrarily store and transform user input before sending it out. By designing system-level transactional execution, I-BOX works seamlessly and transparently with IME apps. Specifically, I-BOX first checkpoints an IME app’s state before the first keystroke of an input, monitors and analyzes the user’s input, and rolls back the state to the checkpoint if it detects the potential danger that sensitive input may be leaked. A proof of concept I-BOX prototype has been built for Android and tested with a set of popular IME apps. Experimental results show that I-BOX is able to thwart the leakage of sensitive input for untrusted IME apps, while incurring very small runtime overhead and little impact on user experience.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

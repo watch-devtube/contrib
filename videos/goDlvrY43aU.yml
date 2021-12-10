@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Circuit Fingerprinting Attacks: Passive Deanonymization of Tor Hidden Services'
+language: English
+recordingDate: 1639093136
+description: "USENIX Security '15 - Circuit Fingerprinting Attacks: Passive Deanonymization of Tor Hidden Services\n\nAlbert Kwon, Massachusetts Institute of Technology; Mashael AlSabah, Qatar Computing Research Institute, Qatar University, and Massachusetts Institute of Technology; David Lazar, Massachusetts Institute of Technology; Marc Dacier, Qatar Computing Research Institute; Srinivas Devadas, Massachusetts Institute of Technology\n\nThis paper sheds light on crucial weaknesses in the design of hidden services that allow us to break the anonymity of hidden service clients and operators passively. In particular, we show that the circuits, paths established through the Tor network, used to communicate with hidden services exhibit a very different behavior compared to a general circuit. We propose two attacks, under two slightly different threat models, that could identify a hidden service client or operator using these weaknesses. We found that we can identify the users’ involvement with hidden services with more than 98% true positive rate and less than 0.1% false positive rate with the first attack, and 99% true positive rate and 0.07% false positive rate with the second. We then revisit the threat model of previous website fingerprinting attacks, and show that previous results are directly applicable, with greater efficiency, in the realm of hidden services. Indeed, we show that we can correctly determine which of the 50 monitored pages the client is visiting with 88% true positive rate and false positive rate as low as 2.9%, and correctly deanonymize 50 monitored hidden service servers with true positive rate of 88% and false positive rate of 7.8% in an open world setting.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

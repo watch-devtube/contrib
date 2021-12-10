@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Boxed Out: Blocking Cellular Interconnect Bypass Fraud at the Network Edge'
+language: English
+recordingDate: 1639098635
+description: "Boxed Out: Blocking Cellular Interconnect Bypass Fraud at the Network Edge\n\nBradley Reaves, University of Florida; Ethan Shernan, Georgia Institute of Technology; Adam Bates, University of Florida; Henry Carter, Georgia Institute of Technology; Patrick Traynor, University of Florida\n\nThe high price of incoming international calls is a common method of subsidizing telephony infrastructure in the developing world. Accordingly, international telephone system interconnects are regulated to ensure call quality and accurate billing. High call tariffs create a strong incentive to evade such interconnects and deliver costly international calls illicitly. Specifically, adversaries use VoIP-GSM gateways informally known as “simboxes” to receive incoming calls over wired data connections and deliver them into a cellular voice network through a local call that appears to originate from a customer’s phone. This practice is not only extremely profitable for simboxers, but also dramatically degrades network experience for legitimate customers, violates telecommunications laws in many countries, and results in significant revenue loss. In this paper, we present a passive detection technique for combating simboxes at a cellular base station. Our system relies on the raw voice data received by the tower during a call to distinguish errors in GSM transmission from the distinct audio artifacts caused by delivering the call over a VoIP link. Our experiments demonstrate that this approach is highly effective, and can detect 87% of real simbox calls in only 30 seconds of audio with no false positives. Moreover, we demonstrate that evading our detection across multiple calls is only possible with a small probability. In so doing, we demonstrate that fraud that degrades network quality and costs telecommunications billions of dollars annually can easily be detected and counteracted in real time.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

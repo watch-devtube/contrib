@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - ZigZag: Automatically Hardening Web Applications Against Client-side...'
+language: English
+recordingDate: 1639098055
+description: "ZigZag: Automatically Hardening Web Applications Against Client-side Validation Vulnerabilities\n\nMichael Weissbacher, William Robertson, and Engin Kirda, Northeastern University; Christopher Kruegel and Giovanni Vigna, University of California, Santa Barbara\n\nModern web applications are increasingly moving program code to the client in the form of JavaScript. With the growing adoption of HTML5 APIs such as postMessage, client-side validation (CSV) vulnerabilities are consequently becoming increasingly important to address as well. However, while detecting and preventing attacks against web applications is a well-studied topic on the server, considerably less work has been performed for the client. Exacerbating this issue is the problem that defenses against CSVs must, in the general case, fundamentally exist in the browser, rendering current server-side defenses inadequate.\n\nIn this paper, we present ZigZag, a system for hardening JavaScript-based web applications against clientside validation attacks. ZigZag transparently instruments client-side code to perform dynamic invariant detection on security-sensitive code, generating models that describe how—and with whom—client-side components interact. ZigZag is capable of handling templated JavaScript, avoiding full re-instrumentation when JavaScript programs are structurally similar. Learned invariants are then enforced through a subsequent instrumentation step. Our evaluation demonstrates that ZigZag is capable of automatically hardening client-side code against both known and previously-unknown vulnerabilities. Finally, we show that ZigZag introduces acceptable overhead in many cases, and is compatible with popular websites drawn from the Alexa Top 20 without developer or user intervention.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

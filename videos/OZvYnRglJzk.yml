@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotStorage ''14 - NVMKV: A Scalable and Lightweight Flash Aware Key-Value Store'
+language: English
+recordingDate: 1639091623
+description: "NVMKV: A Scalable and Lightweight Flash Aware Key-Value Store\n\nLeonardo Mármol, Florida International University; Swaminathan Sundararaman and Nisha Talagala, FusionIO; Raju Rangaswami, Florida International University; Sushma Devendrappa, Bharath Ramsundar, and Sriram Ganesan, FusionIO\n\nState-of-the-art flash-optimized KV stores frequently rely upon a log structure and/or compaction-based strategy to optimally organize content on flash. However, these strategies lead to excessive I/O, beyond the write amplification generated within the flash itself, with both the application and the flash device constantly rearranging data. In this paper, we explore the other extreme in the design space: minimal data management at the KV store and heavy reliance on the Flash Translation Layer (FTL) capabilities. NVMKV is a scalable and lightweight KV store that leverages advanced capabilities that are becoming available in modern FTLs. We demonstrate that NVMKV (i) performs KV operations at close to native device access speeds for get operations, (ii) outperforms state of the art KV stores by 50%-300%, (iii) significantly improves performance predictability for the YCSB KV benchmark when compared with the popular LevelDB KV store, and (iv) reduces data written to flash by as much as 1.7X and 29X for sequential and random write workloads relative to LevelDB, thereby dramatically increasing device lifetime.\n\nView the full HotStorage '14 program at https://www.usenix.org/conference/hotstorage14/workshop-program"

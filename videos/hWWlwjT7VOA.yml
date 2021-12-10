@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches'
+language: English
+recordingDate: 1639099598
+description: "Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches\n\nDaniel Gruss, Raphael Spreitzer, and Stefan Mangard, Graz University of Technology\n\nRecent work on cache attacks has shown that CPU caches represent a powerful source of information leakage. However, existing attacks require manual identification of vulnerabilities, i.e., data accesses or instruction execution depending on secret information. In this paper, we present Cache Template Attacks. This generic attack technique allows us to profile and exploit cache-based information leakage of any program automatically, without prior knowledge of specific software versions or even specific system information. Cache Template Attacks can be executed online on a remote system without any prior offline computations or measurements.\n\nCache Template Attacks consist of two phases. In the profiling phase, we determine dependencies between the processing of secret information, e.g., specific key inputs or private keys of cryptographic primitives, and specific cache accesses. In the exploitation phase, we derive the secret values based on observed cache accesses. We illustrate the power of the presented approach in several attacks, but also in a useful application for developers. Among the presented attacks is the application of Cache Template Attacks to infer keystrokes and—even more severe—the identification of specific keys on Linux and Windows user interfaces. More specifically, for lowercase only passwords, we can reduce the entropy per character from log2(26) = 4:7 to 1:4 bits on Linux systems. Furthermore, we perform an automated attack on the T-table- based AES implementation of OpenSSL that is as efficient as state-of-the-art manual cache attacks.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"
