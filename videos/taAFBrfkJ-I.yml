@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Cookies Lack Integrity: Real-World Implications'
+language: English
+recordingDate: 1639096662
+description: "Cookies Lack Integrity: Real-World Implications\n\nXiaofeng Zheng, Tsinghua University and Tsinghua National Laboratory for Information Science and Technology; Jian Jiang, University of California, Berkeley; Jinjin Liang, Tsinghua University and Tsinghua National Laboratory for Information Science and Technology; Haixin Duan, Tsinghua University, Tsinghua National Laboratory for Information Science and Technology, and International Computer Science Institute; Shuo Chen, Microsoft Research Redmond; Tao Wan, Huawei Canada; Nicholas Weaver, International Computer Science Institute and University of California, Berkeley\n\nA cookie can contain a “secure” flag, indicating that it should be only sent over an HTTPS connection. Yet there is no corresponding flag to indicate how a cookie was set: attackers who act as a man-in-the-middle even temporarily on an HTTP session can inject cookies which will be attached to subsequent HTTPS connections. Similar attacks can also be launched by a web attacker from a related domain. Although an acknowledged threat, it has not yet been studied thoroughly. This paper aims to fill this gap with an in-depth empirical assessment of cookie injection attacks. We find that cookie-related vulnerabilities are present in important sites (such as Google and Bank of America), and can be made worse by the implementation weaknesses we discovered in major web browsers (such as Chrome, Firefox, and Safari). Our successful attacks have included privacy violation, online victimization, and even financial loss and account hijacking. We also discuss mitigation strategies such as HSTS, possible browser changes, and present a proof-of-concept browser extension to provide better cookie isolation between HTTP and HTTPS, and between related domains.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

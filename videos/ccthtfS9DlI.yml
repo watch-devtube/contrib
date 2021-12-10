@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Mo(bile) Money, Mo(bile) Problems: Analysis of Branchless Banking Applications'
+language: English
+recordingDate: 1639089330
+description: "Mo(bile) Money, Mo(bile) Problems: Analysis of Branchless Banking Applications in the Developing World\n\nBradley Reaves, Nolen Scaife, Adam Bates, Patrick Traynor, and Kevin R.B. Butler, University of Florida\n\nMobile money, also known as branchless banking, brings much-needed financial services to the unbanked in the developing world. Leveraging ubiquitous cellular networks, these services are now being deployed as smart phone apps, providing an electronic payment infrastructure where alternatives such as credit cards generally do not exist. Although widely marketed as a more secure option to cash, these applications are often not subject to the traditional regulations applied in the financial sector, leaving doubt as to the veracity of such claims. In this paper, we evaluate these claims and perform the first in-depth measurement analysis of branchless banking applications. We first perform an automated analysis of all 46 known Android mobile money apps across the 246 known mobile money providers and demonstrate that automated analysis fails to provide reliable insights. We subsequently perform comprehensive manual teardown of the registration, login, and transaction procedures of a diverse 15% of these apps. We uncover pervasive and systemic vulnerabilities spanning botched certification validation, do-it-yourself cryptography, and myriad other forms of information leakage that allow an attacker to impersonate legitimate users, modify transactions in flight, and steal financial records. These findings confirm that the majority of these apps fail to provide the protections needed by financial services. Finally, through inspection of providers’ terms of service, we also discover that liability for these problems unfairly rests on the shoulders of the customer, threatening to erode trust in branchless banking and hinder efforts for global financial inclusion.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

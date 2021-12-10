@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - A Full GPU Virtualization Solution with Mediated Pass-Through'
+language: English
+recordingDate: 1639089287
+description: "A Full GPU Virtualization Solution with Mediated Pass-Through\n\nKun Tian, Yaozu Dong, and David Cowperthwaite, Intel Corporation\n\nGraphics Processing Unit (GPU) virtualization is an enabling technology in emerging virtualization scenarios. Unfortunately, existing GPU virtualization approaches are still suboptimal in performance and full feature support.\n\nThis paper introduces gVirt, a product level GPU virtualization implementation with: 1) full GPU virtualization running native graphics driver in guest, and 2) mediated pass-through that achieves both good performance and scalability, and also secure isolation among guests. gVirt presents a virtual full-fledged GPU to each VM. VMs can directly access performance-critical resources, without intervention from the hypervisor in most cases, while privileged operations from guest are trap-and-emulated at minimal cost. Experiments demonstrate that gVirt can achieve up to 95% native performance for GPU intensive workloads, and scale well up to 7 VMs.\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"

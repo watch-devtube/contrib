@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - vCacheShare: Automated Server Flash Cache Space Management in a Virtualization'
+language: English
+recordingDate: 1639087084
+description: "vCacheShare: Automated Server Flash Cache Space Management in a Virtualization Environment\n\nFei Meng, North Carolina State University; Li Zhou, Facebook; Xiaosong Ma, North Carolina State University and Qatar Computing Research Institute; Sandeep Uttamchandani, VMware Inc.; Deng Liu, Twitter\n\nServer Flash Cache (SFC) is increasingly adopted in virtualization environments for IO acceleration. Deciding the optimal SFC allocation among VMs or VM disks is a major pain-point, dominantly handled manually by administrators. In this paper, we present vCacheShare, a dynamic, workload-aware, policy-driven framework for continuous and automated optimization of SFC space partitioning. Its decision-making is based on multiple IO access characteristics. In particular, vCacheShare adopts a cache utility model that captures both longer-term locality behavior and transient locality spikes.\n\nThis paper validates the growing applicability of analytical programming techniques to solve real-time resource management problems, traditionally addressed using heuristics. We designed vCacheShare to coordinate with typical VM mobility events and implemented it within the widely used ESXi hypervisor. We performed extensive evaluation using 13 representative enterprise IO workloads, one IO benchmark, and two end-to-end deployment test cases targeting Virtual Desktop Infrastructure (VDI) and data warehousing scenarios respectively. Our results verified the advantage of vCacheShare over implicit management schemes such as global LRU, and confirmed its self-adaptive capability.\n\nhttps://www.usenix.org/conference/atc14/technical-sessions"

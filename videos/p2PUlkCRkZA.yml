@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - FlexECC: Partially Relaxing ECC of MLC SSD for Better Cache Performance'
+language: English
+recordingDate: 1639084215
+description: "FlexECC: Partially Relaxing ECC of MLC SSD for Better Cache Performance\n\nPing Huang, Virginia Commonwealth University and Huazhong University of Science and Technology; Pradeep Subedi, Virginia Commonwealth University; Xubin He, Virginia Commonwealth University; Shuang He and Ke Zhou, Huazhong University of Science and Technology\n\nThe ever-growing capacity and continuously-dropping price have enabled flash-based MLC SSDs to be widely deployed as large non-volatile cache for storage systems. As MLC SSDs become increasingly denser and largercapacity, more complex and complicated Error Correction Code (ECC) schemes are required to fight against the decreasing raw reliability associated with shrinking cells. However, sophisticated ECCs could impose excessive overhead on page decoding latency and thus hurt performance. In fact, we could avoid employing expensive ECC schemes inside SSDs which are utilized at the cache layer. We propose FlexECC, a specifically designed MLC SSD architecture for the purpose of better cache performance without compromising system reliability and consistency. With the help of an upper-layer cache manager classifying and passing down block access hints, FlexECC chooses to apply either regular ECC or lightweight Error Detection Code (EDC) for blocks. To reduce performance penalty caused by retrieving backend copies for corrupted blocks from the next-level store, FlexECC periodically schedules a scrubbing process to verify the integrity of blocks protected by EDC and replenish corrupted ones into the cache in advance. Experimental results of a proof-of-concept FlexECC implementation show that compared to SSDs armed with regular ECC schemes, FlexECC improves cache performance by up to 30.8% for representative workloads and 63.5% for read-intensive workloads due to reduced read latency and garbage collection overhead. In addition, FlexECC also retains its performance advantages even under various faulty conditions without sacrificing system resiliency.\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"

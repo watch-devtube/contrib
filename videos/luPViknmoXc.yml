@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - Yat: A Validation Framework for Persistent Memory Software'
+language: English
+recordingDate: 1639085916
+description: "Yat: A Validation Framework for Persistent Memory Software\n\nPhilip Lantz, Subramanya Dulloor, Sanjay Kumar, Rajesh Sankaran, and Jeff Jackson, Intel Labs\n\nAbstract: \nThis paper describes the design and implementation of Yat. Yat is a hypervisor-based framework that supports testing of applications that use Persistent Memory (PM)—byte-addressable, non-volatile memory attached directly to the memory controller. PM has implications on both system architecture and software. The PM architecture extends the memory ordering model to add software-visible support for durability of stores to PM. By simulating the characteristics of PM, and integrating an application-specific checker in the framework, Yat enables validation, correctness testing, and debugging of PM software in the presence of power failures and crashes. We discuss the use of Yat in development and testing of the Persistent Memory File System (PMFS), describing the effectiveness of Yat in catching and debugging several hard-to-find bugs in PMFS.\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"

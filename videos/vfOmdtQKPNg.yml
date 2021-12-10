@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Attacks Only Get Better: Password Recovery Attacks Against RC4 in TLS'
+language: English
+recordingDate: 1639090430
+description: "Attacks Only Get Better: Password Recovery Attacks Against RC4 in TLS\n\nChristina Garman, Johns Hopkins University; Kenneth G. Paterson and Thyla Van der Merwe, University of London\n \nDespite recent high-profile attacks on the RC4 algorithm in TLS, its usage is still running at about 30% of all TLS traffic. We provide new attacks against RC4 in TLS that are focussed on recovering user passwords, still the pre-eminent means of user authentication on the Internet today. Our new attacks use a generally applicable Bayesian inference approach to transform a priori information about passwords in combination with gathered ciphertexts into a posteriori likelihoods for passwords. We report on extensive simulations of the attacks. We also report on a “proof of concept” implementation of the attacks for a specific application layer protocol, namely BasicAuth. Our work validates the truism that attacks only get better with time: we obtain good success rates in recovering user passwords with 2^26 encryptions, whereas the previous generation of attacks required around 2^34 encryptions to recover an HTTP session cookie.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

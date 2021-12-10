@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - A Modular and Efficient Past State System for Berkeley DB'
+language: English
+recordingDate: 1639088330
+description: "A Modular and Efficient Past State System for Berkeley DB\n\nRoss Shaull, NuoDB; Liuba Shrira, Brandeis University; Barbara Liskov, MIT/CSAIL\n\nApplications often need to analyze past states to predict trends and support audits. Adding efficient and nondisruptive support for consistent past-state analysis requires after-the-fact modification of the data store, a significant challenge for today’s systems. This paper describes Retro, a new system for supporting consistent past state analysis in Berkeley DB. The key novelty of Retro is an efficient yet simple and robust implementation method, imposing 4% worst-case overhead. Unlike prior approaches, Retro protocols, backed by a formal specification, extend standard transaction protocols in a modular way, requiring minimal data store modification (about 250 lines of BDB code).\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"
