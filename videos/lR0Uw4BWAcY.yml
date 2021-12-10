@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Securing Self-Virtualizing Ethernet Devices'
+language: English
+recordingDate: 1639093817
+description: "Securing Self-Virtualizing Ethernet Devices\n\nIgor Smolyar, Muli Ben-Yehuda, and Dan Tsafrir, Technion—Israel Institute of Technology\n\nSingle root I/O virtualization (SRIOV) is a hardware/ software interface that allows devices to “self virtualize” and thereby remove the host from the critical I/O path. SRIOV thus brings near bare-metal performance to untrusted guest virtual machines (VMs) in public clouds, enterprise data centers, and high-performance computing setups. We identify a design flaw in current Ethernet SRIOV NIC deployments that enables untrusted VMs to completely control the throughput and latency of other, unrelated VMs. The attack exploits Ethernet ”pause” frames, which enable network flow control functionality. We experimentally launch the attack across several NIC models and find that it is effective and highly accurate, with substantial consequences if left unmitigated: (1) to be safe, NIC vendors will have to modify their NICs so as to filter pause frames originating from SRIOV instances; (2) in the meantime, administrators will have to either trust their VMs, or configure their switches to ignore pause frames, thus relinquishing flow control, which might severely degrade networking performance. We present the Virtualization-Aware Network Flow Controller (VANFC), a software-based SRIOV NIC prototype that overcomes the attack. VANFC filters pause frames from malicious virtual machines without any loss of performance, while keeping SRIOV and Ethernet flow control hardware/software interfaces intact.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

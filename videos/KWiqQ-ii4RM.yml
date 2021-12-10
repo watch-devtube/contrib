@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Faster Secure Computation through Automatic Parallelization'
+language: English
+recordingDate: 1639094873
+description: "Faster Secure Computation through Automatic Parallelization\n\nNiklas Buescher and Stefan Katzenbeisser, Technische Universität Darmstadt\n\nSecure two-party computation (TPC) based on Yao’s garbled circuits has seen a lot of progress over the past decade. Yet, compared with generic computation, TPC is still multiple orders of magnitude slower. To improve the efficiency of secure computation based on Yao’s protocol, we propose a practical parallelization scheme. Its advances over existing parallelization approaches are twofold. First, we present a compiler that detects parallelism at the source code level and automatically transforms C code into parallel circuits. Second, by switching the roles of circuit generator and evaluator between both computing parties in the semi-honest model, our scheme makes better use of computation and network resources. This inter-party parallelization approach leads to significant efficiency increases already on single-core hardware without compromising security. Multiple implementations illustrate the practicality of our approach. For instance, we report speed-ups of up to 2.18 on 2 cores and 4.36 on 4 cores for the example application of parallel modular exponentiation.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

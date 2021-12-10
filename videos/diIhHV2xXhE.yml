@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotStorage ''14 - FlashQueryFile: Flash-Optimized Layout and Algorithms for Interactive Ad Hoc SQL'
+language: English
+recordingDate: 1639091149
+description: "FlashQueryFile: Flash-Optimized Layout and Algorithms for Interactive Ad Hoc SQL on Big Data\n\nRini T. Kaushik, IBM Research—Almaden\n\nHigh performance storage layer is vital for allowing interactive ad hoc SQL analytics (OLAP style) over Big Data. The paper makes a case for leveraging flash in the Big Data stack to speed up queries. State-of-the-art Big Data layouts and algorithms are optimized for hard disks (i.e., sequential access is emphasized over random access) and result in suboptimal performance on flash given its drastically different performance characteristics. While existing columnar and row-columnar layouts are able to reduce disk IO compared to row-based layouts, they still end up reading significant columnar data irrelevant to the query as they only employ coarse-grained, intra-columnar data skipping which doesn’t work across all queries. FlashQueryFile’s specialized columnar data layouts, selection, and projection algorithms fully exploit fast random accesses and high internal I/O parallelism of flash to allow fast and I/O-efficient query processing and fine-grained, intra-columnar data skipping to minimize data read per query. FlashQueryFile results in 11X-100X TPC-H query speedup and 38%-99.08% reduction in data read compared to flash-based HDD-optimized row-columnar data layout and its associated algorithms.\n\nView the full HotStorage '14 program at https://www.usenix.org/conference/hotstorage14/workshop-program"

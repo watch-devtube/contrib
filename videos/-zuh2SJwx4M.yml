@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotStorage ''14 - qNVRAM: quasi Non-Volatile RAM for Low Overhead Persistency Enforcement'
+language: English
+recordingDate: 1639091527
+description: "qNVRAM: quasi Non-Volatile RAM for Low Overhead Persistency Enforcement in Smartphones\n\nHao Luo, Lei Tian and Hong Jiang, University of Nebraska, Lincoln\n\nThe persistent storage options in smartphones employ journaling or double-write to enforce atomicity, consistency and durability, which introduces significant overhead to system performance. Our in-depth examination of the issue leads us to believe that much of the overhead would be unnecessary if we rethink the volatility of memory considering the battery-backed characteristics of DRAM in modern-day smartphones. With this rethinking, we propose quasi Non-Volatile Memory (qNVRAM), a new design that makes the DRAM in smartphones quasi non-volatile, to help remove the performance overhead of enforcing persistency. We assess the feasibility and effectiveness of our design by implementing a persistent page cache in SQLite. Our evaluation on a real Android smartphone shows that qNVRAM speeds up the insert, update and delete transactions by up to 16:33x, 15:86x and 15:76x respectively.\n\nView the full HotStorage '14 program at https://www.usenix.org/conference/hotstorage14/workshop-program"

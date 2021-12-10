@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Verified Correctness and Security of OpenSSL HMAC'
+language: English
+recordingDate: 1639092643
+description: "Verified Correctness and Security of OpenSSL HMAC\n\nLennart Beringer, Princeton University; Adam Petcher, Harvard University and MIT Lincoln Laboratory; Katherine Q. Ye and Andrew W. Appel, Princeton University\n\nWe have proved, with machine-checked proofs in Coq, that an OpenSSL implementation of HMAC with SHA- 256 correctly implements its FIPS functional specification and that its functional specification guarantees the expected cryptographic properties. This is the first machine-checked cryptographic proof that combines a source-program implementation proof, a compilercorrectness proof, and a cryptographic-security proof, with no gaps at the specification interfaces.\n\nThe verification was done using three systems within the Coq proof assistant: the Foundational Cryptography Framework, to verify crypto properties of functional specs; the Verified Software Toolchain, to verify C programs w.r.t. functional specs; and CompCert, for verified compilation of C to assembly language.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

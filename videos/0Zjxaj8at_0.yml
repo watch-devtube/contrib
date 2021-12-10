@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Raccoon: Closing Digital Side-Channels through Obfuscated Execution'
+language: English
+recordingDate: 1639094202
+description: "Raccoon: Closing Digital Side-Channels through Obfuscated Execution\n\nAshay Rane, Calvin Lin, and Mohit Tiwari, The University of Texas at Austin\n\nSide-channel attacks monitor some aspect of a computer system’s behavior to infer the values of secret data. Numerous side-channels have been exploited, including those that monitor caches, the branch predictor, and the memory address bus. This paper presents a method of defending against a broad class of side-channel attacks, which we refer to as digital side-channel attacks. The key idea is to obfuscate the program at the source code level to provide the illusion that many extraneous program paths are executed. This paper describes the technical issues involved in using this idea to provide confidentiality while minimizing execution overhead. We argue about the correctness and security of our compiler transformations and demonstrate that our transformations are safe in the context of a modern processor. Our empirical evaluation shows that our solution is 8.9x faster than prior work (GhostRider [20]) that specifically defends against memory trace-based side-channel attacks.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

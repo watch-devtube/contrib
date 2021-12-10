@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - Efficient Tracing of Cold Code via Bias-Free Sampling'
+language: English
+recordingDate: 1639084789
+description: "Efficient Tracing of Cold Code via Bias-Free Sampling\n\nBaris Kasikci, École Polytechnique Fédérale de Lausanne (EPFL); Thomas Ball, Microsoft; George Candea, École Polytechnique Fédérale de Lausanne (EPFL); John Erickson and Madanlal Musuvathi, Microsoft\n\nBugs often lurk in code that is infrequently executed (i.e., cold code), so testing and debugging requires tracing such code. Alas, the location of cold code is generally not known a priori and, by definition, cold code is elusive during execution. Thus, programs either incur unnecessary runtime overhead to “catch” cold code, or they must employ sampling, in which case many executions are required to sample the cold code even once.\n\nWe introduce a technique called bias-free sampling (BfS), in which the machine instructions of a dynamic execution are sampled independently of their execution frequency by using breakpoints. The BfS overhead is therefore independent of a program’s runtime behavior and is fully predictable: it is merely a function of program size. BfS operates directly on binaries. We present the theory and implementation of BfS for both managed and unmanaged code, as well as both kernel and user mode. We ran BfS on a total of 679 programs (all Windows system binaries, Z3, SPECint suite, and on several C# benchmarks), and BfS incurred performance overheads of just 1–6%.\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"

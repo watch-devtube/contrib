@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - Implementing a Leading Loads Performance Predictor on Commodity Processors'
+language: English
+recordingDate: 1639088818
+description: "Implementing a Leading Loads Performance Predictor on Commodity Processors\n\nBo Su, National University of Defense Technology; Joseph L. Greathouse, Junli Gu, and Michael Boyer, AMD Research; Li Shen and Zhiying Wang, National University of Defense Technology\n\nModern CPUs employ Dynamic Voltage and Frequency Scaling (DVFS) to boost performance, lower power, and improve energy efficiency. Good DVFS decisions require accurate performance predictions across frequencies. A new hardware structure for measuring leading load cycles was recently proposed and demonstrated promising performance prediction abilities in simulation.\n\nThis paper proposes a method of leveraging existing hardware performance monitors to emulate a leading loads predictor. Our proposal, LL-MAB, uses existing miss status handling register occupancy information to estimate leading load cycles. We implement and validate LL-MAB on a collection of commercial AMD CPUs. Experiments demonstrate that it can accurately predict performance with an average error of 2.7% using an AMD OpteronTM4386 processor over a 2.2x change in frequency. LL-MAB requires no hardware- or application-specific training, and it is more accurate and requires fewer counters than similar approaches.\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"
