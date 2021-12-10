@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX Security ''15 - Compiler-instrumented, Dynamic Secret-Redaction of Legacy Processes...'
+language: English
+recordingDate: 1639090453
+description: "Compiler-instrumented, Dynamic Secret-Redaction of Legacy Processes for Attacker Deception\n\nFrederico Araujo and Kevin W. Hamlen, The University of Texas at Dallas\n\nAn enhanced dynamic taint-tracking semantics is presented and implemented, facilitating fast and precise runtime secret redaction from legacy processes, such as those compiled from C/C++. The enhanced semantics reduce the annotation burden imposed upon developers seeking to add secret-redaction capabilities to legacy code, while curtailing over-tainting and label creep.\n\nAn implementation for LLVM’s DataFlow Sanitizer automatically instruments taint-tracking and secretredaction support into annotated C/C++ programs at compile-time, yielding programs that can self-censor their address spaces in response to emerging cyber-attacks. The technology is applied to produce the first information flow-based honey-patching architecture for the Apache web server. Rather than merely blocking intrusions, the modified server deceptively diverts attacker connections to secret-sanitized process clones that monitor attacker activities and disinform adversaries with honey-data.\n\nView the full USENIX Security '15 program at https://www.usenix.org/conference/usenixsecurity15/technical-sessions"

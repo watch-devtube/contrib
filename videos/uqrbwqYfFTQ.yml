@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - Static Analysis of Variability in System Software: The 90,000 #ifdefs Issue'
+language: English
+recordingDate: 1639089161
+description: "Static Analysis of Variability in System Software: The 90,000 #ifdefs Issue\n\nReinhard Tartler, Christian Dietrich, Julio Sincero, Wolfgang Schröder-Preikschat, and Daniel Lohmann, Friedrich-Alexander-Universität Erlangen-Nürnberg\n\nSystem software can be configured at compile time to tailor it with respect to a broad range of supported hardware architectures and application domains. The Linux v3.2 kernel, for instance, provides more than 12;000 configurable features, which control the configuration-dependent inclusion of 31;000 source files with 89;000 #ifdef blocks.\n\nTools for static analyses can greatly assist with ensuring the quality of code-bases of this size. Unfortunately, static configurability limits the success of automated software testing and bug hunting. For proper type checking, the tools need to be invoked on a concrete configuration, so programmers have to manually derive many configurations to ensure that the configuration-conditional parts of their code are checked. This tedious and error-prone process leaves many easy to find bugs undetected.\n\nWe propose an approach and tooling to systematically increase the configuration coverage (CC) in compile-time configurable system software. Our VAMPYR tool derives the required configurations and can be combined with existing static checkers to improve their results. With GCC as static checker, we thereby have found hundreds of issues in Linux v3.2, BUSYBOX, and L4/FIASCO, many of which went unnoticed for several years and have to be classified as serious bugs. Our resulting patches were accepted by the respective upstream developers\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"

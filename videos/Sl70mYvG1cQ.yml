@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotStorage ''14 - Assert(!Deﬁned(Sequential I/O))'
+language: English
+recordingDate: 1639091426
+description: "Assert(!Deﬁned(Sequential I/O))\n\nCheng Li, Rutgers University; Philip Shilane, Fred Douglis, Darren Sawyer, and Hyong Shim, EMC Corporation\n\nThe term sequential I/O is widely used in systems research with the intuitive understanding that it means consecutive access. From a survey of the literature, though, this intuitive understanding has translated into numerous, inconsistent definitions. Since sequential I/O is such a fundamental concept in systems research, we believe that a sequentiality metric should allow us to compare access patterns in a meaningful way.\n\nWe explore access properties that could be incorporated into potential metrics for sequential I/O including: access size, gaps between accesses, multi-stream, and inter-arrival time. We then analyze hundreds of largescale storage traces and discuss how potential metrics compare. Interestingly, we find I/O traces considered highly sequential by one metric can be highly random to another metric. We further demonstrate that many plausible metrics are weakly correlated, though metrics weighted by size have more consistency. While there may not be a single metric for sequential I/O that is best in all cases, we believe systems researchers should more carefully consider, and state, which definition they use.\n\nView the full HotStorage '14 program at https://www.usenix.org/conference/hotstorage14/workshop-program"

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'USENIX ATC ''14 - HYPERSHELL: A Practical Hypervisor Layer Guest OS Shell for Automated In-VM'
+language: English
+recordingDate: 1639083688
+description: "HYPERSHELL: A Practical Hypervisor Layer Guest OS Shell for Automated In-VM Management\n\nYangchun Fu, Junyuan Zeng, and Zhiqiang Lin, The University of Texas at Dallas\n\nTo direct the operation of a computer, we often use a shell, a user interface that provides accesses to the OS kernel services. Traditionally, shells are designed atop an OS kernel. In this paper, we show that a shell can also be designed below an OS. More specifically, we present HYPERSHELL, a practical hypervisor layer guest OS shell that has all of the functionality of a traditional shell, but offers better automation, uniformity and centralized management. This will be particularly useful for cloud and data center providers to manage the running VMs in a large scale. To overcome the semantic gap challenge, we introduce a reverse system call abstraction, and we show that this abstraction can significantly relieve the painful process of developing software below an OS. More importantly, we also show that this abstraction can be implemented transparently. As such, many of the legacy guest OS management utilities can be directly reused in HYPERSHELL without any modification. Our evaluation with over one hundred management utilities demonstrates that HYPERSHELL has 2:73X slowdown on average compared to their native in-VM execution, and has less than 5% overhead to the guest OS kernel.\n\nView the full USENIX ATC '14 program at https://www.usenix.org/conference/atc14/technical-sessions"
