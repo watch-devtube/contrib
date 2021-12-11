@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotCloud ''14 - Harmonium: Elastic Cloud Storage via File Motifs'
+language: English
+recordingDate: 1639178245
+description: "Harmonium: Elastic Cloud Storage via File Motifs\n\nHelgi Sigurbjarnarson, Petur Orri Ragnarsson, Ymir Vigfusson, Reykjavik University; Mahesh Balakrishnan, Microsoft Research\n\nModern applications expand to fill the space available to them, exploiting local storage to improve performance by caching, prefetching and precomputing data. In virtualized settings, this behavior compromises storage elasticity owing to a rigid contract between the hypervisor and the guest OS: once space is allocated to a virtual disk and used by an application, it cannot be reclaimed by the hypervisor. In this paper, we propose a new guest filesystem called Harmonium that exploits the ephemeral or derivative nature of application data. Each file in Harmonium optionally has a motif that describes how the file can be reconstructed via computation, network accesses, or operations on other files. Harmonium expands files from their motifs when space is available, and contracts them back to their motifs when it is scarce. Given a target size, the system selects files to expand or contract based on the load on the CPU, network, and storage, as well as expected access patterns. As a result, Harmonium enables elastic cloud storage, allowing the hypervisor to dynamically balance storage across multiple VMs.\n\nView the full HotCloud '14 program at https://www.usenix.org/conference/hotstorage14/workshop-program"

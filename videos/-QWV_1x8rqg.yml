@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotCloud ''14 - LOOM: Optimal Aggregation Overlays for In-Memory Big Data Processing'
+language: English
+recordingDate: 1639175584
+description: "LOOM: Optimal Aggregation Overlays for In-Memory Big Data Processing\n\nWilliam Culhane, Kirill Kogan, Chamikara Jayalath, and Patrick Eugster, Purdue University\n\nAggregation underlies the distillation of information from big data. Many well-known basic operations including top-k matching and word count hinge on fast aggregation across large data-sets. Common frameworks including MapReduce support aggregation, but do not explicitly consider or optimize it. Optimizing aggregation however becomes yet more relevant in recent “online” approaches to expressive big data analysis which store data in main memory across nodes. This shifts the bottlenecks from disk I/O to distributed computation and network communication and significantly increases the impact of aggregation time on total job completion time.\n\nThis paper presents LOOM, a (sub)system for efficient big data aggregation for use within big data analysis frameworks. LOOM efficiently supports two-phased (sub)computations consisting in a first phase performed on individual data sub-sets (e.g., word count, top-k matching) followed by a second aggregation phase which consolidates individual results of the first phase (e.g., count sum, top-k). Using characteristics of an aggregation function, LOOM constructs a specifically configured aggregation overlay to minimize aggregation costs. We present optimality heuristics and experimentally demonstrate the benefits of thus optimizing aggregation overlays using microbenchmarks and real world examples.\n\nView the full HotCloud '14 program at https://www.usenix.org/conference/hotcloud14/workshop-program"

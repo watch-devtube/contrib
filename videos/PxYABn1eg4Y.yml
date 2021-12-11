@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''14 - Journaling of Journal Is (Almost) Free'
+language: English
+recordingDate: 1639183074
+description: "Journaling of Journal Is (Almost) Free\n\nKai Shen, Stan Park, and Meng Zhu, University of Rochester\n\nLightweight databases and key-value stores manage the consistency and reliability of their own data, often through rollback-recovery journaling or write-ahead logging. They further rely on file system journaling to protect the file system structure and metadata. Such journaling of journal appears to violate the classic end-to-end argument for optimal database design. In practice, we observe a significant cost (up to 73% slowdown) by adding the Ext4 file system journaling to the SQLite database on a Google Nexus 7 tablet running a Ubuntu Linux installation. The cost of file system journaling is up to 58% on a conventional machine with an Intel 311 SSD.\n\nIn this paper, we argue that such cost is largely due to implementation limitations of the existing system. We apply two simple techniques—ensuring a single I/O operation on the synchronous commit path, and adaptively allowing each file to have a custom journaling mode (in particular, whether to journal the file data in addition to the metadata). Compared to SQLite without file system journaling, our enhanced journaling improves the performance or incurs minor (less than 6%) slowdown on all but one of our 24 test cases (with 14% slowdown in the exceptional case). On average, our enhanced journaling implementation improves the SQLite performance by 7%.\n\nView the full FAST '14 Program at https://www.usenix.org/conference/fast14/technical-sessions"

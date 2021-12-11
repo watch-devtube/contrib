@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotCloud ''14 - Cicada: Introducing Predictive Guarantees for Cloud Networks'
+language: English
+recordingDate: 1639176914
+description: "Cicada: Introducing Predictive Guarantees for Cloud Networks\n\nKatrina LaCurts, MIT/CSAIL; Jeffrey C. Mogul, Google, Inc.; Hari Balakrishnan, MIT/CSAIL; Yoshio Turner, HP Labs\n\nIn cloud-computing systems, network-bandwidth guarantees have been shown to improve predictability of application performance and cost [1, 28]. Most previous work on cloud-bandwidth guarantees has assumed that cloud tenants know what bandwidth guarantees they want [1, 17]. However, as we show in this work, application bandwidth demands can be complex and time-varying, and many tenants might lack sufficient information to request a guarantee that is well-matched to their needs, which can lead to over-provisioning (and thus reduced cost-efficiency) or under-provisioning (and thus poor user experience).\n\nWe analyze traffic traces gathered over six months from an HP Cloud Services datacenter, finding that application bandwidth consumption is both time-varying and spatially inhomogeneous. This variability makes it hard to predict requirements. To solve this problem, we develop a prediction algorithm usable by a cloud provider to suggest an appropriate bandwidth guarantee to a tenant. With tenant VM placement using these predictive guarantees, we find that the inter-rack network utilization in certain datacenter topologies can be more than doubled.\n\nView the full HotCloud '14 program at https://www.usenix.org/conference/hotcloud14/workshop-program"

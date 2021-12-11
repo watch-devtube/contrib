@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotCloud ''14 - PerfCompass: Toward Runtime Performance Anomaly Fault Localization'
+language: English
+recordingDate: 1639175868
+description: "PerfCompass: Toward Runtime Performance Anomaly Fault Localization for Infrastructure-as-a-Service Clouds\n\nDaniel J. Dean, Hiep Nguyen, Peipei Wang, and Xiaohui Gu, North Carolina State University\n\nInfrastructure-as-a-service (IaaS) clouds are becoming widely adopted. However, as multiple tenants share the same physical resources, performance anomalies have become one of the top concerns for users. Unfortunately, performance anomaly diagnosis in the production IaaS cloud often takes a long time due to its inherent com- plexity and sharing nature. In this paper, we present PerfCompass, a runtime performance anomaly fault lo- calization tool using online system call trace analysis techniques. Specifically, PerfCompass tackles a chal- lenging fault localization problem for IaaS clouds, that is, differentiating whether a production-run performance anomaly is caused by an external fault (e.g., interfer- ence from other co-located applications) or an internal fault (e.g., software bug). PerfCompass does not require any application source code or runtime instrumentation, which makes it practical for production IaaS clouds. We have tested PerfCompass using a set of popular soft- ware systems (e.g., Apache, MySQL, Squid, Cassandra, Hadoop) and a range of common cloud environment issues and real software bugs. The results show that PerfCompass accurately diagnoses all the faults while imposing low overhead during normal application exe- cution time.\n\nView the full HotCloud '14 program at https://www.usenix.org/conference/hotcloud14/workshop-program"

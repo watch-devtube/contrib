@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotCloud ''14 - Impression Store: Compressive Sensing-based Storage for Big Data Analytics'
+language: English
+recordingDate: 1639182194
+description: "Impression Store: Compressive Sensing-based Storage for Big Data Analytics\n\nJiaxing Zhang, Ying Yan, Liang Jeff Chen, Minjie Wang, Thomas Moscibroda, and Zheng Zhang, Microsoft Research\n\nFor many big data analytics workloads, approximate results suffice. This begs the question, whether and how the underlying system architecture can take advantage of such relaxations, thereby lifting constraints inherent in today’s architectures. This position paper explores one of the possible directions. Impression Store is a distributed storage system with the abstraction of big data vectors. It aggregates updates internally and responds to the retrieval of top-K high-value entries. With proper extension, Impression Store supports various aggregations, top-K queries, outlier and major mode detection. While restricted in scope, such queries represent a substantial and important portion of many production workloads. In return, the system has unparalleled scalability; any node in the system can process any query, both reads and updates. The key technique we leverage is compressive sensing, a technique that substantially reduces the amount of active memory state, IO, and traffic volume needed to achieve such scalability.\n\nView the full HotCloud '14 program at https://www.usenix.org/conference/hotcloud14/workshop-program"

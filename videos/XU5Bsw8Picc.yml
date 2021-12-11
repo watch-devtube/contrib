@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''14 - DC Express: Shortest Latency Protocol for Reading Phase Change Memory over PCI Express'
+language: English
+recordingDate: 1639183217
+description: "DC Express: Shortest Latency Protocol for Reading Phase Change Memory over PCI Express\n\nDejan Vučinić, Qingbo Wang, Cyril Guyot, Robert Mateescu, Filip Blagojević, Luiz Franca-Neto, and Damien Le Moal, HGST San Jose Research Center; Trevor Bunker, Jian Xu, and Steven Swanson, University of California, San Diego; Zvonimir Bandić, HGST San Jose Research Center\n\nPhase Change Memory (PCM) presents an architectural challenge: writing to it is slow enough to make attaching it to a CPU’s main memory controller impractical, yet reading from it is so fast that using it in a peripheral storage device would leave much of its performance potential untapped at low command queue depths, throttled by the high latencies of the common peripheral buses and existing device protocols.\n\nHere we explore the limits of communication latency with a PCM-based storage device over PCI Express. We devised a communication protocol, dubbed DC Express, where the device continuously polls read command queues in host memory without waiting for host-driven initiation, and completion signals are eliminated in favor of a novel completion detection procedure that marks receive buffers in host memory with incomplete tags and monitors their disappearance. By eliminating superfluous PCI Express packets and context switches in this manner we are able to exceed 700,000 IOPS on small random reads at queue depth 1.\n\nView the full FAST '14 Program at https://www.usenix.org/conference/fast14/technical-sessions"

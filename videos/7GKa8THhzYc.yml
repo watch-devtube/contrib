@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotCloud ''14 - A Novel Technique for Long-Term Anomaly Detection in the Cloud'
+language: English
+recordingDate: 1639182893
+description: "A Novel Technique for Long-Term Anomaly Detection in the Cloud\n\nOwen Vallis, Jordan Hochenbaum, and Arun Kejariwal, Twitter Inc.\n\nAbstract: \nHigh availability and performance of a web service is key, amongst other factors, to the overall user experience (which in turn directly impacts the bottom-line). Exogenic and/or endogenic factors often give rise to anomalies that make maintaining high availability and delivering high performance very challenging. Although there exists a large body of prior research in anomaly detection, existing techniques are not suitable for detecting long-term anomalies owing to a predominant underlying trend component in the time series data.\n\nTo this end, we developed a novel statistical technique to automatically detect long-term anomalies in cloud data. Specifically, the technique employs statistical learning to detect anomalies in both application as well as system metrics. Further, the technique uses robust statistical metrics, viz., median, and median absolute deviation (MAD), and piecewise approximation of the underlying long-term trend to accurately detect anomalies even in the presence of intra-day and/or weekly seasonality. We demonstrate the efficacy of the proposed technique using production data and report Precision, Recall, and F-measure measure. Multiple teams at Twitter are currently using the proposed technique on a daily basis.\n\nView the full HotCloud '14 at https://www.usenix.org/conference/hotcloud14/workshop-program"

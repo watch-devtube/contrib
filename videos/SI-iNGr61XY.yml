@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'HotCloud ''14 - Software Defining System Devices with the "Banana" Double-Split Driver Model'
+language: English
+recordingDate: 1639181833
+description: "Software Defining System Devices with the \"Banana\" Double-Split Driver Model\n\nDan Williams and Hani Jamjoom, IBM T. J. Watson Research Center; Hakim Weatherspoon, Cornell University\n\nThis paper introduces a software defined device driver layer that enables new ways of wiring devices within and across cloud environments. It builds on the split driver model, which is used in paravirtualization (e.g., Xen) to multiplex hardware devices across all VMs. In our approach, called the Banana Double-Split Driver Model, the back-end portion of the driver is resplit and rewired such that it can be connected to a different back-end driver on another hypervisor. Hypervisors supporting Banana cooperate with each other to (1) expose a consistent interface to rewire the back-end drivers, (2) allow different types of connections (e.g., tunnels, RDMA, etc.) to coexist and be hot-swapped to optimize for placement, proximity, and hardware, and (3) migrate backend connections between hypervisors to maintain connectivity irrespective of physical location. We have implemented an early prototype of Banana for network devices. We show how network devices can be split, rewired, and live migrated across cloud providers with as low as 1.4 sec of downtime, while fully maintaining the logical topology between application components.\n\nView the full HotCloud '14 program at https://www.usenix.org/conference/hotcloud14/workshop-program"
