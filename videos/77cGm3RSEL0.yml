@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''14 - Migratory Compression: Coarse-grained Data Reordering to Improve Compressibility'
+language: English
+recordingDate: 1639182960
+description: "Migratory Compression: Coarse-grained Data Reordering to Improve Compressibility\n\nXing Lin, University of Utah; Guanlin Lu, Fred Douglis, Philip Shilane, and Grant Wallace, EMC Corporation—Data Protection and Availability Division\n\nWe propose Migratory Compression (MC), a coarse-grained data transformation, to improve the effectiveness of traditional compressors in modern storage systems. In MC, similar data chunks are re-located together, to improve compression factors. After decompression, migrated chunks return to their previous locations. We evaluate the compression effectiveness and overhead of MC, explore reorganization approaches on a variety of datasets, and present a prototype implementation of MC in a commercial deduplicating file system. We also compare MC to the more established technique of delta compression, which is significantly more complex to implement within file systems.\n\nWe find that Migratory Compression improves compression effectiveness compared to traditional compressors, by 11% to 105%, with relatively low impact on runtime performance. Frequently, adding MC to a relatively fast compressor like gzip results in compression that is more effective in both space and runtime than slower alternatives. In archival migration, MC improves gzip compression by 44–157%. Most importantly, MC can be implemented in broadly used, modern file systems.\n\nView the full FAST '14 Program at https://www.usenix.org/conference/fast14/technical-sessions"

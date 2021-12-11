@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'FAST ''14 - Checking the Integrity of Transactional Mechanisms'
+language: English
+recordingDate: 1639182976
+description: "Checking the Integrity of Transactional Mechanisms\n\nDaniel Fryer, Dai Qin, Jack Sun, Kah Wai Lee, Angela Demke Brown, and Ashvin Goel, University of Toronto\n\nData corruption is the most common consequence of filesystem bugs, as shown by a recent study. When such corruption occurs, the file system’s offline check and recovery tools need to be used, but they are error prone and cause significant downtime. Previous work has shown that a runtime checker for the Ext3 journaling file system can verify that metadata updates within a transaction are mutually consistent, helping detect corruption in metadata blocks at commit time. However, corruption can still be caused when a bug in the file system’s transactional mechanism loses, misdirects, or corrupts writes. We show that a runtime checker needs to enforce the atomicity and durability properties of the file system on every write, in addition to checking transactions at commit time, to provide the strong guarantee that every block write will maintain file system consistency.\n\nIn this paper, we identify the invariants that need to be enforced on journaling and shadow paging file systems to preserve the integrity of committed transactions. We also describe the key properties that make it feasible to check these invariants for a file system. Based on this characterization, we have implemented runtime checkers for a modified version of the Ext3 file system and for the Btrfs file system. Our evaluation shows that both checkers detect data corruption effectively, and they can be used during normal operation with low overhead.\n\nView the full FAST '14 Program at https://www.usenix.org/conference/fast14/technical-sessions"
