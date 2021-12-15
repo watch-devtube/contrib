@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Locating Type Errors Speedily with Delta Debugging - Joanna Sharrad | Lambda Days 2021'
+language: English
+recordingDate: 1639475889
+description: "This video was recorded at virtual Lambda Days conference, which took place on 16-19th February 2021 - https://www.lambdadays.org/lambdadays2021\n\nMore great virtual tech conferences - https://codesync.global​ \n\n---\n\nLocating Type Errors Speedily with Delta Debugging \nby Joanna Sharrad \n\nABSTRACT\nWe present a simple method for locating the cause of a type error in a functional program. Understanding the cause of a type error can be hard and for over 30 years researchers have proposed many sophisticated solutions which then hardly made it into practice. We apply Zeller's isolating delta debugging algorithm, using the compiler as a black box. The algorithm uses simple line-based program slicing in the search for a type error location. To improve speed, we incorporate special handling of parse errors. We implemented the method in a tool and evaluated it for Haskell programs and also some OCaml programs, to demonstrate that it is language agnostic.\n\n---\n\nSPEAKER - Joanna Sharrad \nPhD student at the University of Kent \nJoanna is a PhD Student at the University of Kent. Their research interests involve improving the experience programmers have when debugging software written in Functional programming languages, particularly issues that arise with type error debugging.\n\n---\n\nLambda Days\nWebsite: https://www.lambdadays.org​\nTwitter: https://twitter.com/LambdaDays​"
