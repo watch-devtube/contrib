@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Simplified Oauth 2 0 -- NodeJS Tutorial'
+language: English
+recordingDate: 1639761814
+description: "In this tutorial we look at how to build a \"Sign in with Github\" OAuth solution. We will use node to build the backend with 3 routes and a frontend to go with it with HTML, CSS and Javascript. We will also look at how to create a new OAuth application in Github.com. \n\nThe routes we need are \"/\", \"/auth\" and \"/oauth-callback\". We will send the user to github once they click the sign in button. We will pass the clientId of our oauth app so that Github knows from where the user came. If the user signs in to Github or just press \"Accept if they were already logged in they will be redirected to our site on the route which we specified. In this case it is \"oauth-callback\". Github will give us a code that we can use to retrieve an authorization token from Github and then we can use that token to access some data from their Github profile. \n\nSource code: https://github.com/danba340/oauth-github-example\n\nPUBLICATION PERMISSIONS:\nDaniel provided Coding Tech with his permission to republish this video. \n\nCREDITS:\nDaniel's YouTube channel: https://www.youtube.com/channel/UCgUCptbp4T5saC5WXePe1sw"
