@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Managing Large-Scale Edge Cluster Over Unstable Network with KubeEdge - Fei Xu, Huawei'
+language: English
+recordingDate: 1639858941
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\n用 KubeEdge 管理不稳定网络上的大规模边缘集群 | Managing Large-Scale Edge Cluster Over Unstable Network with KubeEdge - Fei Xu, Huawei\n\n众所周知，Kubernetes 已经成为协调运行在数据中心中的容器化工作负载的事实上的标准，并依赖于数据中心的稳定网络。但在边缘计算场景中，我们将在数据中心运行主节点，在各个分散区域运行边缘节点。此时，K8s 主节点和边缘节点之间没有稳定的网络连接，节点甚至可能长时间处于离线状态。此外，由于边缘节点的数量大于数据中心服务器的数量，如何管理这些大规模的边缘节点是一个巨大的挑战。在这一节中，我们将分享如何使用 KubeEdge 来管理不稳定网络下的大规模边缘集群。它支持向大规模边缘节点发送控制事件，有助于我们在大规模边缘集群的不稳定网络环境下实现可靠的边缘应用管理。\n\nIt is well known that Kubernetes has become the de facto standard for orchestrating containerized workloads running in the data center, and rely on the stable network of the data center. But in edge computing scenarios, we will run the master in the data center, and the edge nodes in various decentralized areas. At this time, there is no stable network connection between K8s master and edge nodes, and the nodes may even be offline for a long time. Moreover, the number of edge nodes is larger than that of data center servers, so how to manage these large-scale edge nodes is a huge challenge. In this session, we will share how to use KubeEdge to manage large scale edge cluster under unstable network. It supports to send control events to large scale edge nodes and will help us achieve the reliable edge applications management over unstable network in large scale edge cluster."

@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Bagua: Lightweight Distributed Learning on Kubernetes - Xiangru Lian & Xianghong Li, Kuaishou'
+language: English
+recordingDate: 1639859203
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nBagua:Kubernetes 上的轻量级分布式学习 | Bagua: Lightweight Distributed Learning on Kubernetes - Xiangru Lian & Xianghong Li, Kuaishou\n\nBagua 是快手科技和苏黎世理工 (ETH Zürich) 共同开发的一个项目，在 Kubernetes 上支持高性能分布式深度学习，而无需特殊的网络设备和严格的调度。得益于 Bagua 创新的通信算法和与 Kubernetes 的集成，用户可以在 Kubernetes 集群上通过普通以太网连接水平扩展培训，并提供出色的加速保证。Bagua 的有效性在各种场景和模型中得到了验证，包括 ImageNet 上的 ResNet、Bert Large，以及在快手的大规模工业应用，如：具有数十个 TB 参数的推荐模型训练，超过 10 亿张图像/视频的视频/图像理解，具有 TB 级别数据集的 ASR 等。在端到端性能方面，在 Kubernetes 生产集群中，Bagua 在不同任务范围内的端到端训练时间显著超过 PyTorch-DDP、Horovod 和 BytePS（高达 1.95 倍）。\n\nBagua is a project developed by Kuaishou Technology and ETH Zürich to support high performance distributed deep learning on Kubernetes without requiring special network devices and restrictive scheduling. Benefiting from Bagua's innovative communication algorithms and integration with Kubernetes, users can scale the training horizontally with excellent speedup guarantee, on a Kubernetes cluster with just ordinary ethernet connection. Bagua's effectiveness has been validated in various scenarios and models, including ResNet on ImageNet, Bert Large, and huge scale industrial applications at Kuaishou such as ● recommendation model training with dozens of TB parameters, ● video/image understanding with 1 billion images/videos, ● ASR with TB level datasets, etc. As for end to end performance, in a production Kubernetes cluster, Bagua can outperform PyTorch-DDP, Horovod and BytePS in the end-to-end training time by a significant margin (up to 1.95×) across a diverse range of tasks."

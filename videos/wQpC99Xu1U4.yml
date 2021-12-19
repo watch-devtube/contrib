@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon 2021: Madhav Jivrajani - Queues, Fairness, and The Go Scheduler'
+language: English
+recordingDate: 1639799420
+description: "How does Go let you seamlessly scale millions of Goroutines atop your system’s threads? Let’s explore the working of the Go scheduler, how it maps Goroutines to OS threads, all while trying to ensure fairness. Let’s also answer the question \"What’s up with the hardcoded value of 61 hardcoded in the Go scheduler?\" \n\nWe’ll also learn about the information schedtrace provides, and how one can use it to gain insights into the working of the Go scheduler along with a few runtime APIs to try and “control” the behavior of the Go scheduler."

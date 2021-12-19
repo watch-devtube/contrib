@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Type and Resource Safety in Modern C++'
+language: English
+recordingDate: 1639851617
+description: "Complete type-and-resource safety have been an ideal (aim) of C++ from very early on (1979) and is achievable though a judicious programming technique enforced by language rules and static analysis. The basic model for achieving that was documented in 2014 and does not imply limitations of what can be expressed or run-time overheads compared to traditional C and C++ programming techniques.\n\nExperience shows that this cannot be achieved without static analysis and minimal run-time support. For fundamental reasons this cannot be done even with such support if arbitrary legal language constructs are accepted while conventional good performance must be maintained.\n\nThe way out of this dilemma is a carefully crafted set of programming rules supported by library facilities and enforced by static analysis.\n\nThis presentation is based on the C++ Core Guidelines and their enforcement rules (e.g., as implemented by the Core Guidelines checker distributed with Microsoft Visual Studio). That is, the points made here are backed up by specific rules and supported by existing software.\n\nPUBLICATION PERMISSIONS:\nCppCon Organizer provided Coding Tech with the permission to republish CppCon tech talks. \n\nCREDITS:\nCppCon YouTube channel: https://www.youtube.com/channel/UCMlGfpWw-RUdWX_JbLCukXg"

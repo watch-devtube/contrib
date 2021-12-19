@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'CPU Burst: Getting Rid of Unnecessary Throttling, Achieving High CP... Huaixin Chang & Tianchen Ding'
+language: English
+recordingDate: 1639859075
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nCPU Burst：摆脱不必要的节流，同时实现高 CPU 利用率和高应用程序性能 | CPU Burst: Getting Rid of Unnecessary Throttling, Achieving High CPU Utilization and Application Performance at the Same Time - Huaixin Chang & Tianchen Ding, Alibaba\n\n长期以来，CPU 节流一直是一个令人头疼的问题。即使当 pods 的 CPU 利用率远低于其 CPU 限制时，仍然存在许多长尾情况。因此，开发人员很难选择合适的硬限制。到目前为止，对于这一问题的答案始终是增加 CPU 硬限制或关闭 CPU 硬限制。然而，这一方法带来了一些新问题，如潜在的 难应付的性能影响、低 CPU 利用率和高 TCO（总拥有成本）。最近，融入到 Linux 5.14 中的 CPU Burst 的特性，成为了彻底解决不必要的 CPU 节流问题的一个新选择。注意到 CPU 节流是由 100 毫秒级的突发 CPU 使用引起的后，CPU Burst 的特性可允许平均 CPU 利用率低于 CPU 限制情况下可能的突发使用。应用 CPU Burst 后，用户可以同时获得高 CPU 利用率和高应用程序性能。在本会话中，我们将介绍执行 CPU 限制的内核机制，CPU Burst 更改的内容及其影响，以及如何评估此种更改。在本会话结束时，您可确切地了解到是否在您的 pods 上使用 CPU Burst。\n\nCPU throttling has been a headache for a long time. Even when pods' CPU utilization is far below its CPU limit, many long-tail cases still exist. Thus it is difficult for developers to choose the appropriate hard-limits. Till now, the answer has been increasing CPU hard-limits or turning it off. However, it brings new issues such as potential nasty performance implications, low CPU utilization and High TCO (Total Cost of Ownership). Recently, the CPU Burst feature merged into Linux 5.14 has become a new option to solve unnecessary CPU throttling completely. Noticing that CPU throttling is caused by bursty CPU usage at 100-millisecond level, the CPU Burst feature allow possible burst usage when the average CPU utilization is below CPU limits. After applying CPU Burst, users might achieve high CPU utilization and application performance at the same time. In this session, we will introduce the kernel mechanism to enforce CPU limits, what CPU Burst changes and its impacts, and finally how to evaluate this change. By the end of this session, you will know exactly whether to use CPU Burst or not on your pods."
