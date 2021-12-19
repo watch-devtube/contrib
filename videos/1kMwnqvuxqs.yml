@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'RDMA Programming Using Rust Async - Pu Wang, China'
+language: English
+recordingDate: 1639858941
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\n使用 Rust 异步的 RDMA 编程 | RDMA Programming Using Rust Async - Pu Wang, China\n\nRust 是一种非常强大的系统开发语言。Rust 异步是实现异步输入输出的实用框架。在本演讲中，我们将介绍如何使用 Rust 异步进行 RDMA 编程。首先，我们为 RDMA 动词构建一个 Rust 绑定。由于 RDMA 动词是用 C 语言编写的，所以存在许多与 Rust 不兼容的 C 语言特性，如宏定义、匿名结构体/共用体定义等。此外，Rust 绑定生成工具 BindGen 不能处理内联函数。因此，我们解决了所有这些问题，提出了一个对 Rust 更友好的 RDMA 绑定，不仅保留了函数和变量命名，而且还保持了 Rust 语言的风格和特征。其次，我们使用 Rust 异步实现了一个特性丰富的 RDMA 框架。最重要的特性之一是面向 RDMA 的自动内存管理。每个 RDMA 应用程序均须跟踪存储块是否被远程对等方使用，这使得 RDMA 编程复杂很多。我们的 RDMA 框架不仅为 RDMA 提供了自动内存管理，而且还实现了异步输入输出。这样一来，我们的 RDMA 框架大大简化了 RDMA 编程。我们相信我们的工作将促进 Rust 社区利用 RDMA 建立高性能的应用程序。\n\nRust is a very powerful system development language. Rust async is a convenient framework to implement asynchronous IO. In this talk, we'll introduce how we use Rust async for RDMA programming. First, we build a Rust binding for RDMA verbs. Since RDMA verbs is written in C, there are many C language features that is incompatible with Rust, such as macro definitions, anonymous struct/union definitions. Also the Rust binding generation tool, BindGen, cannot handle inline functions. So we tackled all these issues to come up with a more Rust friendly RDMA binding, not only retains function and variable naming, but also sticks to Rust language style and features. Second, we implements a feature-rich RDMA framework using Rust async. One of the most important features is automatic memory management for RDMA. Every RDMA application must keep track of whether a block of memory is using by a remote peer or not, which complexes RDMA programming so much. Our RDMA framework not only provides automatic memory management for RDMA, but also implements asynchronous IO. By doing so, our RDMA framework greatly simplifies RDMA programming. we believe our work will facilitate Rust community leveraging RDMA to build high performance applications."

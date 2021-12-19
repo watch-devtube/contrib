@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'A story of managing kubernetes cluster with 15k nodes & various workloads - Bo Tang & Chongkang Tan'
+language: English
+recordingDate: 1639859203
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\n一个关于管理具有 15k 节点和各种工作负载的 Kubernetes 集群的故事 | A story of managing kubernetes cluster with 15k nodes and various workloads - Bo Tang & Chongkang Tan, Ant Group\n\n当新的业务需求到来时，您是否好奇 Kubernetes 集群是否能够满足性能需求？最近，我们的 Kubernetes 集群已经进化，以满足大规模混合长时间运行的工作负载和离线大数据/机器学习训练工作的需求。这使得我们的 Kubernetes 集群能够达到 15k 个节点，成为社区中最大的集群之一。在本次演讲中，我们将介绍管理超大规模 Kubernetes 集群的方法，以满足业务需求。通过实际流量分析、仿真和性能测试，确定了性能瓶颈。在此基础上，优化 Kubernetes apiserver 性能，减少列表/创建/更新/删除响应时间，以满足 SLO 要求。我们将分享一些我们在 apiserver 端和客户端所做的改进，例如不同的运营商。我们还将介绍 etcd 性能的一些方面。\n\nAre you curious about whether your kubernetes cluster can meet the performance needs when new business requirements arrive? Recently, our kubernetes cluster has be evolved to meet the needs of with large-scale coming mixed long running workloads and offline bigdata/ML training jobs. This has allowed our kubernetes cluster to reach 15k nodes, making it one of the largest clusters in the community. In this talk, we will be presenting methods for managing extremely large-scale kubernetes cluster to cater the needs of business. The bottlenecks of performance are identified by real traffic analysis, simulation and performance testing. Based on that, we optimize kubernetes apiserver performance and reducing list/create/update/delete response time to meet the SLO. We’ll share some improvements we've made to apiserver side as well as the clients side, e.g. different operators. Also we'll cover some aspects of etcd performance."

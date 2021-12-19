@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'Deep Dive Into Profilers: How CPU Profilers Measure Your Application''s Performance - Shuang Chen'
+language: English
+recordingDate: 1639859074
+description: "Don’t miss out! Join us at our next event: KubeCon + CloudNativeCon Europe 2022 in Valencia, Spain from May 17-20. Learn more at https://kubecon.io The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\n深入剖析分析工具：CPU 分析工具如何判定您应用程序的性能 | Deep Dive Into Profilers: How CPU Profilers Measure Your Application's Performance - Shuang Chen, PingCAP\n\nLinux perf 等 CPU 分析工具会显示不同功能消耗的 CPU 时间，其被广泛应用于性能优化。在本演讲中，Shuang Chen 会首先介绍 CPU 分析工具（即 Linux perf、Golang 的 pprof 和 Rust 的 pprof-rs）在应用程序中的常见用法。基于 CPU 分析工具的设计，Shuang 会提出实施一个应用程序任务 CPU 分析工具。与应用程序分析相比，任务分析会展示不同请求 CPU 的消耗情况，这有助于衡量多租户服务的资源消耗情况。\n\nCPU Profilers such as Linux perf show the CPU time consumed by different functions, which is widely used for performance optimization. In this talk, Shuang Chen starts with the introduction of the common usages of CPU profilers (namely, Linux perf, Golang’s pprof and Rust’s pprof-rs) in applications. Based on the design of CPU profilers, Shuang will propose the implementation of an application task CPU profiler. Compared with application profiling, task profiling reveals CPU consumption on different requests, which can be helpful for measuring resource consumption for multi-tenant services."
