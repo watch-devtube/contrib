@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GraphBLAS: Building a C++ Matrix API for Graph Algorithms'
+language: English
+recordingDate: 1640025335
+description: "One of the most challenging issues in high-performance graph algorithms is dealing with bespoke graph data structures and algorithms, which can be difficult to optimize and maintain. The GraphBLAS is a mathematical and C API specification that allow programmers to implement graph algorithms using the language of linear algebra. Programmers implement their graph algorithms using high-level matrix and vector operations, such as generalized matrix and vector multiply. Their code can then be executed using matrix algorithms, such as sparse matrix multiply, that have been finely tuned, taking advantage of decades of research in optimizing sparse linear algebra for CPU, GPU, and distributed platforms.\n\nIn this talk, we discuss our efforts and experience building and implementing a C++ GraphBLAS API. We define a number of data structures, such as our GraphBLAS matrix type, which has a similar interface to `unordered_map`, but with a 2-D `key_type`, a fixed dimension, and possibly different backend storage data structures, depending on a collection of compile-time hints. We also define a collection of structs to represent various binary operators, monoids, and semirings used in graph algorithms. These are similar to the arithmetic operations defined in the STL's `functional`, but with extra type information to store a monoid's identity, and to promote pre-existing binary operators (such as STL's arithmetic ops) to monoids. We also discuss matrix views, the divorce of a specific arithmetic from the data structure (monoids and semirings being specifically associated with an operation, not a data structure, as a data structure may be used in multiple operations with different arithmetics), and generalized element-wise operations.\n\nPUBLICATION PERMISSIONS:\nCppCon Organizer provided Coding Tech with the permission to republish CppCon tech talks. \n\nCREDITS:\nCppCon YouTube channel: https://www.youtube.com/channel/UCMlGfpWw-RUdWX_JbLCukXg"
