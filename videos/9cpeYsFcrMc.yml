@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon 2021: Ryan Hitchman - Memory Usage Optimization in Zoekt'
+language: English
+recordingDate: 1640048761
+description: 'In this lightning talk, Ryan gives a summary on how Sourcegraph optimized the open source Zoekt search engine to use 5x less memory. This was largely done by switching from Go maps to simple custom data structures. Several other smaller optimizations are also described, including simple tricks to make long-lived static slices smaller.'

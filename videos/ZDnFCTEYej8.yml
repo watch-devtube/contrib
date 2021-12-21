@@ -1,0 +1,12 @@
+# Contribution guide: https://github.com/watch-devtube/contrib
+
+# speaker:
+#   name: _____
+#   twitter: _____ # mandatory twitter handle; must not include @
+
+# tags: [____, _____, _____]
+
+title: 'GopherCon 2021: Joshua Carpeggiani - grpctl: Automatically Generate a CLI for your APIs'
+language: English
+recordingDate: 1640046561
+description: "Usually creating a single CLI tool for a whole suite of APIs is cumbersome; each team has a different way of specifying flags, arguments, etc. This leads to the cli tool having a fragmented and bug-filled experience for any consumer.\n\ngrpctl helps solve this by automatically generating cobra commands from the proto file descriptors, meaning that you can create a CLI tool for your team in just a few lines of code.\n\ngrpctl also comes with a reflection mode which allows for a more dynamic interaction with gRPC APIs that is more intuitive than something like grpcurl.\n\nLink to repo: https://github.com/joshcarp/grpctl\n\nLink to demo CLI: https://github.com/joshcarp/grpctl/blob/main/cmd/billingctl/main.go"
