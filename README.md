@@ -1,4 +1,6 @@
-# Dev.Tube Contribution
+# ⚠️ This repo is archived. Please contribute videos directly via [dev.tube](https://dev.tube).
+
+## Dev.Tube Contribution
 
 DevTube is a free and open-source tech video hub, that is getting better every day thanks to **[❤️ amazing contributors](https://dev.tube/contributors).**
 
